@@ -166,7 +166,7 @@
                                                     </div>
                                                     <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
                                                         style="background-color: #27467a;">
-                                                        <a href="" aria-label="name"> Years Of Education RGU </a>
+                                                        <a href="" aria-label="name"> Years Of Education </a>
                                                     </h4>
                                                 </div>
                                             </div>
