@@ -2652,7 +2652,7 @@
             <!--End Header-->
 
             <!--head image Section-->
-            <section style="background-image: url(lakshya/bgg.svg); background-size: cover; padding: 50px 0px;">
+            <section style="background-image: url(mobile-assets/background/bgg.svg); background-size: cover; padding: 50px 0px;">
         <div class="container">
         <div class="row align-items-center gx-5">
             <div class="col-lg-6">
