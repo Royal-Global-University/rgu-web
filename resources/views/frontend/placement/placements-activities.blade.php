@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('content')
     <div class="mobile">
+        @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
             <img src="mobile-assets/placements-activity/mobile.png" alt="">
         </div>
@@ -8,7 +9,7 @@
 
     <div class="website">
         <!--Start Header-->
-
+        @include('frontend/components/aheader')
         <!--End Header-->
 
         <img src="mobile-assets/placements-activity/web.png" alt="">

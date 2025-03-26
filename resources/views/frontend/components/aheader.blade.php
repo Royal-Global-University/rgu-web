@@ -360,7 +360,7 @@
                                                             <a href="{{ route('success') }}" onClick="return true">TESTIMONIALS</a>
                                                         </li>
                                                         <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="" onClick="return true">CONTACTS</a>
+                                                            <a href="{{ route('placement-contacts') }}" onClick="return true">CONTACTS</a>
                                                         </li>
                                                     </ul>
                                                 </li>

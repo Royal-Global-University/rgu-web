@@ -3,127 +3,140 @@
 @section('content')
 
 
-        <section class="mobile">
+    <section class="mobile">
 
-             <!-- Floating WhatsApp Button -->
+        <!-- Floating WhatsApp Button -->
         <a href="https://wa.me/yourphonenumber" class="whatsapp-float" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
         </a>
 
 
-            <!-- Floating Section with Frosted Background -->
-            <div class="container">
-        <div class="floating-wrapper" style="
-            position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-            width: 90%; max-width: 400px; z-index: 800;
-            backdrop-filter: blur(30px);
-            background: #27467A; /* Frosty effect */
-            border-radius: 10px;
-            box-shadow: 0 1px 1px #ffffff97;
-            border: 1px solid #27467A;
-            padding: 15px;">
+        <!-- Floating Section with Frosted Background -->
+        <div class="container">
+            <div class="floating-wrapper" style="
+                position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+                width: 90%; max-width: 400px; z-index: 800;
+                backdrop-filter: blur(30px);
+                background: #27467A; /* Frosty effect */
+                border-radius: 10px;
+                box-shadow: 0 1px 1px #ffffff97;
+                border: 1px solid #27467A;
+                padding: 15px;">
 
-            <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
-                <span class="mobile-para1" style="
-                    font-weight: bold; font-size: 18px; line-height: 1.3;
-                    color: #fff; flex-grow: 1;">
-                   Admission open for 2025 - 2026
-                </span>
+                <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
+                    <span class="mobile-para1" style="
+                        font-weight: bold; font-size: 18px; line-height: 1.3;
+                        color: #fff; flex-grow: 1;">
+                        Admission open for 2025 - 2026
+                    </span>
 
-                <a href="https://admissions.rgu.ac" target="_blank"
-                    class="btn mobile-para1 pulse-btn" style="
-                    background-color: #ffb300; color: #fff;
-                    font-weight: bold; padding: 10px 14px; border-radius: 5px;
-                    text-decoration: none; white-space: nowrap;">
-                    Apply Now
-                </a>
+                    <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
+                        background-color: #ffb300; color: #fff;
+                        font-weight: bold; padding: 10px 14px; border-radius: 5px;
+                        text-decoration: none; white-space: nowrap;">
+                        Apply Now
+                    </a>
+                </div>
             </div>
         </div>
-            </div>
 
 
-    <!-- menu  -->
-            @include('frontend/components/mobileheader')
+        <!-- menu  -->
+        @include('frontend/components/mobileheader')
 
 
-            <!-- mobile video -->
-            <div class="mobile-video">
-                <video playsinline autoplay loop muted id="video-bg">
-                    <source src="mobile-assets/index/Websitemobilevideooo.mp4" type="video/mp4">
-                </video>
-            </div>
-            <!-- mobile video -->
+        <!-- mobile video -->
+        <div class="mobile-video">
+            <video playsinline autoplay loop muted id="video-bg">
+                <source src="mobile-assets/index/Websitemobilevideooo.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- mobile video -->
 
-            <!-- slider banners  -->
-            <div id="carouselExample" class="carousel slide mobile-image-slider" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+        <!-- slider banners  -->
+        <div id="carouselExample" class="carousel slide mobile-image-slider" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
                     <img src="mobile-assets/index/slide1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
+                </div>
+                <div class="carousel-item">
                     <img src="mobile-assets/index/slide2.png" class="d-block w-100" alt="...">
-                  </div>
-
                 </div>
+
             </div>
-            <!-- slider banners  -->
+        </div>
+        <!-- slider banners  -->
 
-            <!-- discover rgu -->
-            <div style="background-image: url(mobile-assets/index/bg-explorergu-new.png); background-size: cover; height: 100vh; width: 100%;">
-                <div class="p-3">
-                    <h2 class="mobile-headd1" style="color: #27467A; font-weight: 500; font-size: 40px;">Explore <span style="font-weight: 900; color: #27467A;">RGU</span></h2>
-                    <h2 class="mobile-headd3 pb-1" style="color: #e68900; font-weight: 500; font-size: 22px;">About Our <span style="font-weight: 900; color: #e68900;">University</span></h2>
+        <!-- discover rgu -->
+        <div
+            style="background-image: url(mobile-assets/index/bg-explorergu-new.png); background-size: cover; height: 100vh; width: 100%;">
+            <div class="p-3">
+                <h2 class="mobile-headd1" style="color: #27467A; font-weight: 500; font-size: 40px;">Explore <span
+                        style="font-weight: 900; color: #27467A;">RGU</span></h2>
+                <h2 class="mobile-headd3 pb-1" style="color: #e68900; font-weight: 500; font-size: 22px;">About Our <span
+                        style="font-weight: 900; color: #e68900;">University</span></h2>
 
-                    <p style="color: #27467A; text-align: justify; line-height: 1.4;" class="mobile-para1">The Assam Royal Global University (RGU), one of the premium universities in India, has continuously acted as a leadership platform that aligns interests of industries, entrepreneurs, and the youth since its establishment in 2017. Aimed at creating and sustaining an environment wherein employment and entrepreneurship can flourish with collaborative efforts amongst an extensive network of influential corporates, individual members, and academic institutes, The Assam Royal Global University has been able to provide necessary resources, knowledge, and support to create effective employment and entrepreneurship opportunities.</p>
-                </div>
+                <p style="color: #27467A; text-align: justify; line-height: 1.4;" class="mobile-para1">The Assam Royal
+                    Global University (RGU), one of the premium universities in India, has continuously acted as a
+                    leadership platform that aligns interests of industries, entrepreneurs, and the youth since its
+                    establishment in 2017. Aimed at creating and sustaining an environment wherein employment and
+                    entrepreneurship can flourish with collaborative efforts amongst an extensive network of influential
+                    corporates, individual members, and academic institutes, The Assam Royal Global University has been able
+                    to provide necessary resources, knowledge, and support to create effective employment and
+                    entrepreneurship opportunities.</p>
             </div>
-            <!-- discover rgu -->
+        </div>
+        <!-- discover rgu -->
 
-            <!-- happening at rgu  -->
-            <section style="padding: 30px; background-image: url(mobile-assets/index/bg.svg);">
+        <!-- happening at rgu  -->
+        <section style="padding: 30px; background-image: url(mobile-assets/index/bg.svg);">
 
-                <h2 class="mobile-headd1 pb-4" style="color: #27467A;">In and Around at <span style="font-weight: 500; color: #EF991F;">RGU</span></h2>
+            <h2 class="mobile-headd1 pb-4" style="color: #27467A;">In and Around at <span
+                    style="font-weight: 500; color: #EF991F;">RGU</span></h2>
 
-                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
                         <img src="mobile-assets/index/mobile1.png" class="d-block w-100 rounded" alt="...">
-                      </div>
-                      <div class="carousel-item">
+                    </div>
+                    <div class="carousel-item">
                         <img src="mobile-assets/index/mobile2.png" class="d-block w-100 rounded" alt="...">
-                      </div>
-                      <div class="carousel-item">
+                    </div>
+                    <div class="carousel-item">
                         <img src="mobile-assets/index/mobile3.png" class="d-block w-100 rounded" alt="...">
-                      </div>
-                      <div class="carousel-item">
+                    </div>
+                    <div class="carousel-item">
                         <img src="mobile-assets/index/mobile4.png" class="d-block w-100 rounded" alt="...">
-                      </div>
+                    </div>
 
+                </div>
+            </div>
+        </section>
+        <!-- happening at rgu  -->
+
+        <!-- mobile Notifications -->
+        <div class="container mt-3">
+            <div class="row mobile-marquee-row align-items-center">
+                <!-- Left Side: Marquee -->
+                <div class="col-9 overflow-hidden">
+                    <div class="mobile-marquee">
+                        <span class="mobile-headd3">📢 International Seminar by The Assam Royal Global University in
+                            association with ELTAI, September, 2024 | 🎓 Advertisement No. : DST-SERB-01/2024 | 🏆 East Zone
+                            Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with Higher
+                            Education' </span>
                     </div>
                 </div>
-            </section>
-            <!-- happening at rgu  -->
 
-            <!-- mobile Notifications -->
-            <div class="container mt-3">
-            <div class="row mobile-marquee-row align-items-center">
-            <!-- Left Side: Marquee -->
-            <div class="col-9 overflow-hidden">
-                <div class="mobile-marquee">
-                    <span class="mobile-headd3">📢 International Seminar by The Assam Royal Global University in association with ELTAI, September, 2024 | 🎓 Advertisement No. : DST-SERB-01/2024 | 🏆 East Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with Higher Education' </span>
+                <!-- Right Side: Button -->
+                <div class="col-3 text-end">
+                    <a href=""> <button class="btn mobile-para1 mobile-btn">View All</button></a>
                 </div>
             </div>
+        </div>
+        <!-- mobile Notifications -->
 
-            <!-- Right Side: Button -->
-            <div class="col-3 text-end">
-               <a href=""> <button class="btn mobile-para1 mobile-btn">View All</button></a>
-            </div>
-            </div>
-            </div>
-            <!-- mobile Notifications -->
-
-            <!-- fast facts mobile  -->
-            <section style="padding: 0px 30px;"
+        <!-- fast facts mobile  -->
+        <section style="padding: 0px 30px;"
             class="elementor-section elementor-top-section pt-3  elementor-element elementor-element-943e56e elementor-section-boxed elementor-section-height-default elementor-section-height-default pb-5"
             data-id="943e56e" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
@@ -131,8 +144,7 @@
                     data-id="23f6d50" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-6cdc10e elementor-widget elementor-widget-go-s-heading"
-                            data-id="6cdc10e" data-element_type="widget"
-                            data-widget_type="go-s-heading.default">
+                            data-id="6cdc10e" data-element_type="widget" data-widget_type="go-s-heading.default">
                             <div class="elementor-widget-container">
                                 <div class="prthalign">
 
@@ -140,7 +152,9 @@
                                         <img style="width: 40x; height: 40px;" src="mobile-assets/index/cap.svg" alt="">
                                         Info
                                     </h6>
-                                    <h2 class="mobile-headd1 elementor-gt-heading kd-title-ani kd-split-text" style="color: #27467A;">Fast <span style="font-weight: 600; color: #EF991F;">facts</span></h2>
+                                    <h2 class="mobile-headd1 elementor-gt-heading kd-title-ani kd-split-text"
+                                        style="color: #27467A;">Fast <span
+                                            style="font-weight: 600; color: #EF991F;">facts</span></h2>
                                     <div class="mobile-para1 elementor-gt-desc kd-para-1 disc wow" data-splitting>
                                         Transformative and Multidisciplinary Education</span>
                                     </div>
@@ -239,535 +253,563 @@
                     </div>
                 </div>
             </div>
-            </section>
-            <!-- fast facts mobile  -->
+        </section>
+        <!-- fast facts mobile  -->
 
-            <!--campus life-->
-            <section style="margin: 0px; background-color: #13223b; padding: 0px 10px;"
-             class="elementor-section elementor-top-section elementor-element elementor-element-f03cf62 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-             data-id="f03cf62" data-element_type="section"
-             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-             <div class="elementor-container elementor-column-gap-no">
-                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bd58a9"
-                     data-id="8bd58a9" data-element_type="column">
-                     <div class="elementor-widget-wrap elementor-element-populated">
-                         <div class="elementor-element elementor-element-2d6d76a elementor-widget elementor-widget-go-content-tab"
-                             data-id="2d6d76a" data-element_type="widget"
-                             data-widget_type="go-content-tab.default">
-                             <div class="elementor-widget-container">
-                                 <div class="kd-course-3-area p-relative pt-50 pb-60 fix">
-                                     <div class="kd-course-1-bg-img img-cover fix">
+        <!--campus life-->
+        <section style="margin: 0px; background-color: #13223b; padding: 0px 10px;"
+            class="elementor-section elementor-top-section elementor-element elementor-element-f03cf62 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+            data-id="f03cf62" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bd58a9"
+                    data-id="8bd58a9" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-2d6d76a elementor-widget elementor-widget-go-content-tab"
+                            data-id="2d6d76a" data-element_type="widget" data-widget_type="go-content-tab.default">
+                            <div class="elementor-widget-container">
+                                <div class="kd-course-3-area p-relative pt-50 pb-60 fix">
+                                    <div class="kd-course-1-bg-img img-cover fix">
 
-                                     </div>
-                                     <div class="container kd-container-1 txaa-slide-down-1">
-                                         <!-- sectiont-title -->
-                                         <div class="kd-course-1-scn-title">
-                                             <div class="left">
-                                             <h2 class="mobile-headd1 elementor-gt-heading kd-title-ani kd-split-text pb-4" style="color: #fff;">Our <span style="font-weight: 600; color: #EF991F;">Campus Life</span></h2>
-                                             </div>
+                                    </div>
+                                    <div class="container kd-container-1 txaa-slide-down-1">
+                                        <!-- sectiont-title -->
+                                        <div class="kd-course-1-scn-title">
+                                            <div class="left">
+                                                <h2 class="mobile-headd1 elementor-gt-heading kd-title-ani kd-split-text pb-4"
+                                                    style="color: #fff;">Our <span
+                                                        style="font-weight: 600; color: #EF991F;">Campus Life</span></h2>
+                                            </div>
 
-                                             <div class="right txaa-fade-right">
-                                                 <ul class="kd-course-1-tabs-btn" id="myTab" role="tablist">
-                                                     <li class="nav-item" role="presentation">
-                                                         <button
-                                                             class="nav-link active kd-heading-1 para1 fw-bold text-light"
-                                                             id="home-tab0" data-bs-toggle="tab"
-                                                             data-bs-target="#home0" type="button" role="tab"
-                                                             aria-controls="home0"
-                                                             aria-selected="true">Campus</button>
-                                                     </li>
-                                                     <li class="nav-item" role="presentation">
-                                                         <button class="nav-link  kd-heading-1 para1 text-light"
-                                                             id="home-tab1" data-bs-toggle="tab"
-                                                             data-bs-target="#home1" type="button" role="tab"
-                                                             aria-controls="home1" aria-selected="true">Residence
-                                                             Life</button>
-                                                     </li>
-                                                     <li class="nav-item" role="presentation">
-                                                         <button class="nav-link  kd-heading-1 para1 text-light"
-                                                             id="home-tab2" data-bs-toggle="tab"
-                                                             data-bs-target="#home2" type="button" role="tab"
-                                                             aria-controls="home2" aria-selected="true">Games and
-                                                             Sports</button>
-                                                     </li>
-                                                     <li class="nav-item" role="presentation">
-                                                         <button class="nav-link  kd-heading-1 para1 text-light"
-                                                             id="home-tab3" data-bs-toggle="tab"
-                                                             data-bs-target="#home3" type="button" role="tab"
-                                                             aria-controls="home3"
-                                                             aria-selected="true">Amenities</button>
-                                                     </li>
+                                            <div class="right txaa-fade-right">
+                                                <ul class="kd-course-1-tabs-btn" id="myTab" role="tablist">
+                                                    <li class="nav-item" role="presentation">
+                                                        <button
+                                                            class="nav-link active kd-heading-1 para1 fw-bold text-light"
+                                                            id="home-tab0" data-bs-toggle="tab" data-bs-target="#home0"
+                                                            type="button" role="tab" aria-controls="home0"
+                                                            aria-selected="true">Campus</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link  kd-heading-1 para1 text-light"
+                                                            id="home-tab1" data-bs-toggle="tab" data-bs-target="#home1"
+                                                            type="button" role="tab" aria-controls="home1"
+                                                            aria-selected="true">Residence
+                                                            Life</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link  kd-heading-1 para1 text-light"
+                                                            id="home-tab2" data-bs-toggle="tab" data-bs-target="#home2"
+                                                            type="button" role="tab" aria-controls="home2"
+                                                            aria-selected="true">Games and
+                                                            Sports</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link  kd-heading-1 para1 text-light"
+                                                            id="home-tab3" data-bs-toggle="tab" data-bs-target="#home3"
+                                                            type="button" role="tab" aria-controls="home3"
+                                                            aria-selected="true">Amenities</button>
+                                                    </li>
 
-                                                 </ul>
-                                             </div>
-                                         </div>
+                                                </ul>
+                                            </div>
+                                        </div>
 
-                                         <!-- tabs-content -->
-                                         <div class="tab-content kd-course-3-tabs-content-wrap txaa-slide-down-1-item"
-                                             id="myTabContent">
+                                        <!-- tabs-content -->
+                                        <div class="tab-content kd-course-3-tabs-content-wrap txaa-slide-down-1-item"
+                                            id="myTabContent">
 
-                                             <div class="tab-pane fade animated fadeInUp show active" id="home0"
-                                                 role="tabpanel" aria-labelledby="home-tab0">
-                                                 <div class="kd-course-3-tabs-content">
-                                                     <div class="left-content">
+                                            <div class="tab-pane fade animated fadeInUp show active" id="home0"
+                                                role="tabpanel" aria-labelledby="home-tab0">
+                                                <div class="kd-course-3-tabs-content">
+                                                    <div class="left-content">
 
-                                                         <h4 style="color: #27467A;" class="mobile-headd1 kd-font-900">
-                                                             Campus Life</h4>
+                                                        <h4 style="color: #27467A;" class="mobile-headd1 kd-font-900">
+                                                            Campus Life</h4>
 
-                                                         <div class="mobile-para1 muted" style="text-align: justify;">
-                                                             <p style="color: #323232 !important;">Recognized as
-                                                                 the best private university in Assam,
-                                                                 The Assam Royal Global University offers a
-                                                                 vibrant and dynamic
-                                                                 campus life
-                                                                 that significantly enhances the educational
-                                                                 experience. Our campus is bustling with a
-                                                                 variety of
-                                                                 extracurricular
-                                                                 activities, including cultural festivals,
-                                                                 academic
-                                                                 clubs, sports teams, and volunteer
-                                                                 organizations.
-                                                                 These activities
-                                                                 provide students with opportunities to develop
-                                                                 essential life skills such as leadership,
-                                                                 teamwork,
-                                                                 and time management,
-                                                                 while also allowing them to explore their
-                                                                 interests
-                                                                 and passions beyond the classroom.</p>
-                                                         </div>
+                                                        <div class="mobile-para1 muted" style="text-align: justify;">
+                                                            <p style="color: #323232 !important;">Recognized as
+                                                                the best private university in Assam,
+                                                                The Assam Royal Global University offers a
+                                                                vibrant and dynamic
+                                                                campus life
+                                                                that significantly enhances the educational
+                                                                experience. Our campus is bustling with a
+                                                                variety of
+                                                                extracurricular
+                                                                activities, including cultural festivals,
+                                                                academic
+                                                                clubs, sports teams, and volunteer
+                                                                organizations.
+                                                                These activities
+                                                                provide students with opportunities to develop
+                                                                essential life skills such as leadership,
+                                                                teamwork,
+                                                                and time management,
+                                                                while also allowing them to explore their
+                                                                interests
+                                                                and passions beyond the classroom.</p>
+                                                        </div>
 
-                                                     </div>
+                                                    </div>
 
-                                                     <!-- right -->
-                                                     <div class="right-content">
-                                                         <div class="rounded">
-                                                             <div class="kd-price-4-content">
-                                                                 <div id="carouselExampleControls"
-                                                                     class="carousel slide"
-                                                                     data-bs-ride="carousel">
-                                                                     <div class="carousel-inner">
-                                                                         <div class="carousel-item active">
-                                                                            <a href="campus-life-departmental-store.html"><img src="mobile-assets/index/1.svg"
-                                                                                 class="d-block rounded"
-                                                                                 style="width: 100%;" alt="..."></a>
-                                                                         </div>
-                                                                         <div class="carousel-item">
-                                                                           <a href="infrastructure.html"><img src="mobile-assets/index/5.svg"
-                                                                                 class="d-block rounded"
-                                                                                 style="width: 100%;" alt="..."></a>
-                                                                         </div>
-                                                                         <div class="carousel-item">
-                                                                            <a href="game.html"> <img src="mobile-assets/index/7.svg"
-                                                                                 class="d-block rounded"
-                                                                                 style="width: 100%;" alt="..."></a>
-                                                                         </div>
-                                                                         <div class="carousel-item">
-                                                                            <a href="clubs.html"><img src="mobile-assets/index/4.svg"
-                                                                                 class="d-block rounded"
-                                                                                 style="width: 100%;" alt="..."></a>
-                                                                         </div>
-                                                                         <div class="carousel-item">
-                                                                            <a href="hostel-life.html"> <img src="mobile-assets/index/3.svg"
-                                                                                 class="d-block rounded"
-                                                                                 style="width: 100%;" alt="..."></a>
-                                                                         </div>
-                                                                         <div class="carousel-item">
-                                                                            <a href="Student_Affairs.html"> <img src="mobile-assets/index/6.svg"
-                                                                                 class="d-block rounded"
-                                                                                 style="width: 100%;" alt="..."></a>
-                                                                         </div>
-                                                                         <div class="carousel-item">
-                                                                           <a href="Royal_Fests.html"><img src="mobile-assets/index/2.svg"
-                                                                                 class="d-block rounded"
-                                                                                 style="width: 100%;" alt="..."></a>
-                                                                         </div>
-                                                                     </div>
-                                                                     <button class="carousel-control-prev"
-                                                                         type="button"
-                                                                         data-bs-target="#carouselExampleControls"
-                                                                         data-bs-slide="prev">
-                                                                         <span class="carousel-control-prev-icon"
-                                                                             aria-hidden="true"></span>
-                                                                         <span
-                                                                             class="visually-hidden">Previous</span>
-                                                                     </button>
-                                                                     <button class="carousel-control-next"
-                                                                         type="button"
-                                                                         data-bs-target="#carouselExampleControls"
-                                                                         data-bs-slide="next">
-                                                                         <span class="carousel-control-next-icon"
-                                                                             aria-hidden="true"></span>
-                                                                         <span
-                                                                             class="visually-hidden">Next</span>
-                                                                     </button>
-                                                                 </div>
-                                                             </div>
-                                                         </div>
+                                                    <!-- right -->
+                                                    <div class="right-content">
+                                                        <div class="rounded">
+                                                            <div class="kd-price-4-content">
+                                                                <div id="carouselExampleControls" class="carousel slide"
+                                                                    data-bs-ride="carousel">
+                                                                    <div class="carousel-inner">
+                                                                        <div class="carousel-item active">
+                                                                            <a href="campus-life-departmental-store.html"><img
+                                                                                    src="mobile-assets/index/1.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="infrastructure.html"><img
+                                                                                    src="mobile-assets/index/5.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="game.html"> <img
+                                                                                    src="mobile-assets/index/7.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="clubs.html"><img
+                                                                                    src="mobile-assets/index/4.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="hostel-life.html"> <img
+                                                                                    src="mobile-assets/index/3.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="Student_Affairs.html"> <img
+                                                                                    src="mobile-assets/index/6.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="Royal_Fests.html"><img
+                                                                                    src="mobile-assets/index/2.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <button class="carousel-control-prev" type="button"
+                                                                        data-bs-target="#carouselExampleControls"
+                                                                        data-bs-slide="prev">
+                                                                        <span class="carousel-control-prev-icon"
+                                                                            aria-hidden="true"></span>
+                                                                        <span class="visually-hidden">Previous</span>
+                                                                    </button>
+                                                                    <button class="carousel-control-next" type="button"
+                                                                        data-bs-target="#carouselExampleControls"
+                                                                        data-bs-slide="next">
+                                                                        <span class="carousel-control-next-icon"
+                                                                            aria-hidden="true"></span>
+                                                                        <span class="visually-hidden">Next</span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
 
-                                                     </div>
+                                                    </div>
 
-                                                 </div>
-                                             </div>
-                                             <div class="tab-pane fade animated fadeInUp " id="home1"
-                                                 role="tabpanel" aria-labelledby="home-tab1">
-                                                 <div class="kd-course-3-tabs-content">
-                                                     <div class="left-content">
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade animated fadeInUp " id="home1" role="tabpanel"
+                                                aria-labelledby="home-tab1">
+                                                <div class="kd-course-3-tabs-content">
+                                                    <div class="left-content">
                                                         <h4 style="color: #27467A;" class="mobile-headd1 kd-font-900">
                                                             Residence Life</h4>
 
-                                                         <div class="mobile-para1" style="text-align: justify;">
-                                                             <p>The Assam Royal Global University residence halls
-                                                                 aim at
-                                                                 enhancing the educational experience of students
-                                                                 by
-                                                                 providing all the
-                                                                 comforts and conveniences they need to succeed.
-                                                                 Beautifully situated in the midst of an
-                                                                 eco-friendly
-                                                                 and green campus,
-                                                                 the separate in-house hostels for boys and girls
-                                                                 are
-                                                                 equipped with adequate facilities for holistic
-                                                                 mental and physical
-                                                                 growth. The hostel environment will help each
-                                                                 boarder get the most out of their time during
-                                                                 the
-                                                                 period of stay. Close proximity
-                                                                 of the hostels to the academic buildings
-                                                                 facilitates
-                                                                 frequent interactions between studentsand the
-                                                                 faculties even during
-                                                                 periods of vacation and on holidays.</p>
-                                                         </div>
-                                                         <div class="">
-                                                             <a href="hostel-life.html" rel="nofollow"
-                                                                 aria-label="name"
-                                                                 class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                 <span class="text" data-back="explore"
-                                                                     data-front="Explore"></span>
-                                                                 <span class="icon">
-                                                                     <i class="fa-solid fa-arrow-right"></i>
-                                                                 </span>
-                                                             </a>
-                                                         </div>
+                                                        <div class="mobile-para1" style="text-align: justify;">
+                                                            <p>The Assam Royal Global University residence halls
+                                                                aim at
+                                                                enhancing the educational experience of students
+                                                                by
+                                                                providing all the
+                                                                comforts and conveniences they need to succeed.
+                                                                Beautifully situated in the midst of an
+                                                                eco-friendly
+                                                                and green campus,
+                                                                the separate in-house hostels for boys and girls
+                                                                are
+                                                                equipped with adequate facilities for holistic
+                                                                mental and physical
+                                                                growth. The hostel environment will help each
+                                                                boarder get the most out of their time during
+                                                                the
+                                                                period of stay. Close proximity
+                                                                of the hostels to the academic buildings
+                                                                facilitates
+                                                                frequent interactions between studentsand the
+                                                                faculties even during
+                                                                periods of vacation and on holidays.</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <a href="hostel-life.html" rel="nofollow" aria-label="name"
+                                                                class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                <span class="text" data-back="explore"
+                                                                    data-front="Explore"></span>
+                                                                <span class="icon">
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </span>
+                                                            </a>
+                                                        </div>
 
-                                                     </div>
+                                                    </div>
 
-                                                     <!-- right -->
-                                                     <div class="right-content">
-                                                         <div
-                                                             class="kd-course-3-tabs-content-video img-cover fix">
-                                                             <img decoding="async"
-                                                                 src="mobile-assets/index/residence.jpg"
-                                                                 alt="">
+                                                    <!-- right -->
+                                                    <div class="right-content">
+                                                        <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                            <img decoding="async" src="mobile-assets/index/residence.jpg"
+                                                                alt="">
 
-                                                         </div>
-                                                     </div>
+                                                        </div>
+                                                    </div>
 
-                                                 </div>
-                                             </div>
-                                             <div class="tab-pane fade animated fadeInUp " id="home2"
-                                                 role="tabpanel" aria-labelledby="home-tab2">
-                                                 <div class="kd-course-3-tabs-content">
-                                                     <div class="left-content">
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade animated fadeInUp " id="home2" role="tabpanel"
+                                                aria-labelledby="home-tab2">
+                                                <div class="kd-course-3-tabs-content">
+                                                    <div class="left-content">
                                                         <h4 style="color: #27467A;" class="mobile-headd1 kd-font-900">
                                                             Games and Sports</h4>
 
-                                                         <div class="mobile-para1" style="text-align: justify;">
-                                                             <p>There are multiple sport facilities to keep our
-                                                                 students engaged and physically fit. Our campus
-                                                                 has
-                                                                 outdoor game
-                                                                 facilities like Cricket, Football, Basketball,
-                                                                 tennis, baseball, athletics and so on. Its
-                                                                 international standard indoor
-                                                                 sports complex “The Cube” offers a variety of
-                                                                 indoor
-                                                                 games including badminton courts, squash,
-                                                                 billiards,
-                                                                 and table
-                                                                 tennis. Fitness conscious students can go for a
-                                                                 jog
-                                                                 around the scenic university campus or work out
-                                                                 at
-                                                                 the well-equipped
-                                                                 gymnasium available both at the Boys and Girls
-                                                                 hostel. The Gymnasium is equipped with various
-                                                                 equipment like treadmills,
-                                                                 dumbbells & plates, weights, shoulder press,
-                                                                 leg-pull, leg extension, incline shoulder,
-                                                                 double
-                                                                 twisters, etc.</p>
-                                                         </div>
-                                                         <div class="">
-                                                             <a href="sports.html" rel="nofollow"
-                                                                 aria-label="name"
-                                                                 class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                 <span class="text" data-back="explore"
-                                                                     data-front="Explore"></span>
-                                                                 <span class="icon">
-                                                                     <i class="fa-solid fa-arrow-right"></i>
-                                                                 </span>
-                                                             </a>
-                                                         </div>
-                                                     </div>
+                                                        <div class="mobile-para1" style="text-align: justify;">
+                                                            <p>There are multiple sport facilities to keep our
+                                                                students engaged and physically fit. Our campus
+                                                                has
+                                                                outdoor game
+                                                                facilities like Cricket, Football, Basketball,
+                                                                tennis, baseball, athletics and so on. Its
+                                                                international standard indoor
+                                                                sports complex “The Cube” offers a variety of
+                                                                indoor
+                                                                games including badminton courts, squash,
+                                                                billiards,
+                                                                and table
+                                                                tennis. Fitness conscious students can go for a
+                                                                jog
+                                                                around the scenic university campus or work out
+                                                                at
+                                                                the well-equipped
+                                                                gymnasium available both at the Boys and Girls
+                                                                hostel. The Gymnasium is equipped with various
+                                                                equipment like treadmills,
+                                                                dumbbells & plates, weights, shoulder press,
+                                                                leg-pull, leg extension, incline shoulder,
+                                                                double
+                                                                twisters, etc.</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <a href="sports.html" rel="nofollow" aria-label="name"
+                                                                class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                <span class="text" data-back="explore"
+                                                                    data-front="Explore"></span>
+                                                                <span class="icon">
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
 
-                                                     <!-- right -->
-                                                     <div class="right-content">
-                                                         <div
-                                                             class="kd-course-3-tabs-content-video img-cover fix">
-                                                             <img decoding="async"
-                                                                 src="mobile-assets/index/sports.jpg" alt="">
+                                                    <!-- right -->
+                                                    <div class="right-content">
+                                                        <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                            <img decoding="async" src="mobile-assets/index/sports.jpg"
+                                                                alt="">
 
-                                                         </div>
+                                                        </div>
 
-                                                     </div>
+                                                    </div>
 
-                                                 </div>
-                                             </div>
-                                             <div class="tab-pane fade animated fadeInUp " id="home3"
-                                                 role="tabpanel" aria-labelledby="home-tab3">
-                                                 <div class="kd-course-3-tabs-content">
-                                                     <div class="left-content">
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade animated fadeInUp " id="home3" role="tabpanel"
+                                                aria-labelledby="home-tab3">
+                                                <div class="kd-course-3-tabs-content">
+                                                    <div class="left-content">
 
-                                                             <h4 style="color: #27467A;" class="mobile-headd1 kd-font-900">
-                                                                Amenities</h4>
+                                                        <h4 style="color: #27467A;" class="mobile-headd1 kd-font-900">
+                                                            Amenities</h4>
 
-                                                         <div class="mobile-para1" style="text-align: justify;">
-                                                             <p>A sensational rejuvenation and beauty experience.
-                                                                 Kurls and Spykes, Guwahati, is a wellness and
-                                                                 beauty
-                                                                 lounge for both
-                                                                 men and women. It offers an unmatched array of
-                                                                 services designed to renew, refresh and
-                                                                 replenish
-                                                                 one’s soul. As a
-                                                                 leading hair studio, Kurls and Spykes offer warm
-                                                                 hospitality, an inviting atmosphere and
-                                                                 top-notch
-                                                                 services to wide and
-                                                                 varied client base which also includes business
-                                                                 and
-                                                                 leisure travellers. It offers non exhaustive
-                                                                 range
-                                                                 of services
-                                                                 including a host of hair services such as
-                                                                 haircut,
-                                                                 hair colour, creative makeover, keratin and
-                                                                 bridal
-                                                                 makeup services
-                                                                 using some internationally renowned brands.</p>
-                                                         </div>
+                                                        <div class="mobile-para1" style="text-align: justify;">
+                                                            <p>A sensational rejuvenation and beauty experience.
+                                                                Kurls and Spykes, Guwahati, is a wellness and
+                                                                beauty
+                                                                lounge for both
+                                                                men and women. It offers an unmatched array of
+                                                                services designed to renew, refresh and
+                                                                replenish
+                                                                one’s soul. As a
+                                                                leading hair studio, Kurls and Spykes offer warm
+                                                                hospitality, an inviting atmosphere and
+                                                                top-notch
+                                                                services to wide and
+                                                                varied client base which also includes business
+                                                                and
+                                                                leisure travellers. It offers non exhaustive
+                                                                range
+                                                                of services
+                                                                including a host of hair services such as
+                                                                haircut,
+                                                                hair colour, creative makeover, keratin and
+                                                                bridal
+                                                                makeup services
+                                                                using some internationally renowned brands.</p>
+                                                        </div>
 
-                                                         <div class="">
-                                                             <a href="salon-new.html" rel="nofollow"
-                                                                 aria-label="name"
-                                                                 class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                 <span class="text" data-back="explore"
-                                                                     data-front="Explore"></span>
-                                                                 <span class="icon">
-                                                                     <i class="fa-solid fa-arrow-right"></i>
-                                                                 </span>
-                                                             </a>
-                                                         </div>
+                                                        <div class="">
+                                                            <a href="salon-new.html" rel="nofollow" aria-label="name"
+                                                                class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                <span class="text" data-back="explore"
+                                                                    data-front="Explore"></span>
+                                                                <span class="icon">
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </span>
+                                                            </a>
+                                                        </div>
 
-                                                     </div>
+                                                    </div>
 
-                                                     <!-- right -->
-                                                     <div class="right-content">
-                                                         <div
-                                                             class="kd-course-3-tabs-content-video img-cover fix">
-                                                             <img decoding="async"
-                                                                 src="mobile-assets/index/amenities.jpg"
-                                                                 alt="">
+                                                    <!-- right -->
+                                                    <div class="right-content">
+                                                        <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                            <img decoding="async" src="mobile-assets/index/amenities.jpg"
+                                                                alt="">
 
-                                                         </div>
-                                                     </div>
+                                                        </div>
+                                                    </div>
 
-                                                 </div>
-                                             </div>
+                                                </div>
+                                            </div>
 
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-            </section>
-            <!--campus life-->
-
-            <!-- explore our courses at rgu  -->
-            <section style="padding: 30px;">
-                <h2 class="mobile-headd1 pb-4" style="color: #27467A;">Explore Our <span style="font-weight: 500; color: #EF991F;">Courses</span></h2>
-
-                <a href="doctoral-programme.html">
-                    <div class="kd-course-2-card"
-                        style="border: solid 2px rgb(225, 225, 225);">
-                        <div class="main-img fix img-cover">
-                            <img fetchpriority="high" decoding="async" width="357"
-                                height="220" src="mobile-assets/index/c6.svg"
-                                class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
-                                alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </a>
-
-                <a href="programs.html">
-                    <div class="kd-course-2-card"
-                        style="border: solid 2px rgb(225, 225, 225);">
-                        <div class="main-img fix img-cover">
-                            <img decoding="async" width="357" height="220"
-                                src="mobile-assets/index/c7.svg"
-                                class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
-                                alt="" />
-                        </div>
-                    </div>
-                </a>
-
-                <a href="programs.html">
-                    <div class="kd-course-2-card"
-                        style="border: solid 2px rgb(225, 225, 225);">
-                        <div class="main-img fix img-cover">
-                            <img decoding="async" width="357" height="220"
-                                src="mobile-assets/index/c8.svg"
-                                class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
-                                alt="" />
-                        </div>
-                    </div>
-                </a>
-
-            </section>
-            <!-- explore our courses at rgu  -->
-
-            <!--Labs-->
-            <div style="padding: 20px; background-color: #FFF8F0;">
-                <h2 class="mobile-headd1 pb-3" style="color: #27467A;">Laboratories <span style="font-weight: 500; color: #EF991F;">and Studio</span></h2>
-
-                <div id="mobile-carouselExample" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-
-                        <div class="carousel-item active">
-
-                             <a href="lab-electrical.html"><div class="card d-flex flex-column shadow-sm rounded" style="background-color: #fff; height: 450px; border: none;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/electric1.jpg" class="d-block w-100" alt="..." style="border-radius: 10px;">
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Electrical <span style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                        </div></a>
-
-                        </div>
-
-                        <div class="carousel-item">
-
-                           <a href="lab-architecture.html"><div class="card d-flex flex-column shadow-sm" style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                  <img style="height: 300px; width: 100%;" src="mobile-assets/index/architecture1.jpg" class="img-fluid rounded"/>
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Architecture <span style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                        </div></a>
-
-                        </div>
-
-                        <div class="carousel-item">
-
-                            <a href="lab-computer.html"><div class="card d-flex flex-column shadow-sm" style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                  <img style="height: 300px; width: 100%;" src="mobile-assets/index/computer1.jpg" class="img-fluid rounded"/>
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Computer <span style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                        </div></a>
-
-                        </div>
-
-                        <div class="carousel-item">
-
-                            <a href="lab-engineering_drawing.html"><div class="card d-flex flex-column shadow-sm" style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                  <img style="height: 300px; width: 100%;" src="mobile-assets/index/engineering1.jpg" class="img-fluid rounded"/>
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Engineering <span style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                        </div></a>
-
-                        </div>
-
-
-
-                        <div class="carousel-item">
-
-                            <a href="lab-foodteach.html"><div class="card d-flex flex-column shadow-sm" style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                  <img style="height: 300px; width: 100%;" src="mobile-assets/index/foodtech1.jpg" class="img-fluid rounded"/>
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Food Tech <span style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                        </div></a>
-
-                        </div>
-
-
-
-                        <div class="carousel-item">
-
-                            <a href="lab-language-lab.html"><div class="card d-flex flex-column shadow-sm" style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                  <img style="height: 300px; width: 100%;" src="mobile-assets/index/language1.jpg" class="img-fluid rounded"/>
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Language <span style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                        </div></a>
-
-                        </div>
-
-                        <div class="carousel-item">
-
-                            <a href="lab-physics.html"><div class="card d-flex flex-column shadow-sm" style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                  <img style="height: 300px; width: 100%;" src="mobile-assets/index/physics1.jpg" class="img-fluid rounded"/>
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Physics <span style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                        </div></a>
-
-                        </div>
-
-
-                    </div>
-
                 </div>
             </div>
-            <!--Labs-->
+        </section>
+        <!--campus life-->
 
-            <!-- new advantage -->
-            <section style="padding: 80px 30px 0px 30px; background-color: #13223b;"
+        <!-- explore our courses at rgu  -->
+        <section style="padding: 30px;">
+            <h2 class="mobile-headd1 pb-4" style="color: #27467A;">Explore Our <span
+                    style="font-weight: 500; color: #EF991F;">Courses</span></h2>
+
+            <a href="doctoral-programme.html">
+                <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
+                    <div class="main-img fix img-cover">
+                        <img fetchpriority="high" decoding="async" width="357" height="220" src="mobile-assets/index/c6.svg"
+                            class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
+                    </div>
+                </div>
+            </a>
+
+            <a href="programs.html">
+                <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
+                    <div class="main-img fix img-cover">
+                        <img decoding="async" width="357" height="220" src="mobile-assets/index/c7.svg"
+                            class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
+                    </div>
+                </div>
+            </a>
+
+            <a href="programs.html">
+                <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
+                    <div class="main-img fix img-cover">
+                        <img decoding="async" width="357" height="220" src="mobile-assets/index/c8.svg"
+                            class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
+                    </div>
+                </div>
+            </a>
+
+        </section>
+        <!-- explore our courses at rgu  -->
+
+        <!--Labs-->
+        <div style="padding: 20px; background-color: #FFF8F0;">
+            <h2 class="mobile-headd1 pb-3" style="color: #27467A;">Laboratories <span
+                    style="font-weight: 500; color: #EF991F;">and Studio</span></h2>
+
+            <div id="mobile-carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <a href="lab-electrical.html">
+                            <div class="card d-flex flex-column shadow-sm rounded"
+                                style="background-color: #fff; height: 450px; border: none;">
+                                <div class="p-3">
+                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/electric1.jpg"
+                                        class="d-block w-100" alt="..." style="border-radius: 10px;">
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Electrical <span
+                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
+                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
+                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
+
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <a href="lab-architecture.html">
+                            <div class="card d-flex flex-column shadow-sm"
+                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
+                                <div class="p-3">
+                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/architecture1.jpg"
+                                        class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Architecture <span
+                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
+                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
+                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
+
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <a href="lab-computer.html">
+                            <div class="card d-flex flex-column shadow-sm"
+                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
+                                <div class="p-3">
+                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/computer1.jpg"
+                                        class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Computer <span
+                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
+                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
+                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
+
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <a href="lab-engineering_drawing.html">
+                            <div class="card d-flex flex-column shadow-sm"
+                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
+                                <div class="p-3">
+                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/engineering1.jpg"
+                                        class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Engineering <span
+                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
+                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
+                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
+
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+
+
+                    <div class="carousel-item">
+
+                        <a href="lab-foodteach.html">
+                            <div class="card d-flex flex-column shadow-sm"
+                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
+                                <div class="p-3">
+                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/foodtech1.jpg"
+                                        class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Food Tech <span
+                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
+                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
+                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
+
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+
+
+                    <div class="carousel-item">
+
+                        <a href="lab-language-lab.html">
+                            <div class="card d-flex flex-column shadow-sm"
+                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
+                                <div class="p-3">
+                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/language1.jpg"
+                                        class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Language <span
+                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
+                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
+                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
+
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <a href="lab-physics.html">
+                            <div class="card d-flex flex-column shadow-sm"
+                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
+                                <div class="p-3">
+                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/physics1.jpg"
+                                        class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Physics <span
+                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
+                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
+                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
+
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!--Labs-->
+
+        <!-- new advantage -->
+        <section style="padding: 80px 30px 0px 30px; background-color: #13223b;"
             class=" elementor-section elementor-top-section elementor-element elementor-element-5b53581 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="5b53581" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -796,8 +838,7 @@
                     data-id="be85421" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-f5f1b7b elementor-widget elementor-widget-go-s-heading"
-                            data-id="f5f1b7b" data-element_type="widget"
-                            data-widget_type="go-s-heading.default">
+                            data-id="f5f1b7b" data-element_type="widget" data-widget_type="go-s-heading.default">
                             <div class="elementor-widget-container">
 
                                 <div class="prthalign">
@@ -807,26 +848,22 @@
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-3c95150 elementor-widget elementor-widget-go-kadu-accordion"
-                            data-id="3c95150" data-element_type="widget"
-                            data-widget_type="go-kadu-accordion.default">
+                            data-id="3c95150" data-element_type="widget" data-widget_type="go-kadu-accordion.default">
                             <div class="elementor-widget-container">
                                 <div class="kd-about-4-according mb-60" id="accordionExample_449027">
                                     <div class="kd-about-4-according-item mb-20">
                                         <div class="item-header" id="heading449027-a06e874">
                                             <button class="item-title kd-heading-2 kd-font-700 " type="button"
-                                                data-bs-toggle="collapse"
-                                                data-bs-target="#collapse449027-a06e874" aria-expanded="false"
-                                                aria-controls="collapse449027-a06e874">
+                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-a06e874"
+                                                aria-expanded="false" aria-controls="collapse449027-a06e874">
                                                 <span style="background-color:#FF9A1E;" class="icon">
                                                     <i aria-hidden="true" class="flaticon flaticon-star"></i>
                                                 </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 30px;"
+                                                <span style="font-weight: 400; font-size: 30px;"
                                                     class="text mobile-para1">Affordable</span>
                                             </button>
                                         </div>
-                                        <div id="collapse449027-a06e874"
-                                            class="accordion-collapse collapse show"
+                                        <div id="collapse449027-a06e874" class="accordion-collapse collapse show"
                                             aria-labelledby="heading449027-a06e874"
                                             data-bs-parent="#accordionExample_449027">
                                             <div class="item-body">
@@ -837,15 +874,13 @@
                                     </div>
                                     <div class="kd-about-4-according-item mb-20">
                                         <div class="item-header" id="heading449027-c4b748f">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed"
-                                                type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse449027-c4b748f" aria-expanded="false"
-                                                aria-controls="collapse449027-c4b748f">
+                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b748f"
+                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
                                                 <span style="background-color:#FF9A1E;" class="icon">
                                                     <i aria-hidden="true" class="flaticon flaticon-star"></i>
                                                 </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 30px;"
+                                                <span style="font-weight: 400; font-size: 30px;"
                                                     class="text mobile-para1">Hi-Tech and Vibrant Campus</span>
                                             </button>
                                         </div>
@@ -861,15 +896,13 @@
                                     </div>
                                     <div class="kd-about-4-according-item mb-20">
                                         <div class="item-header" id="heading449027-d109252">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed"
-                                                type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse449027-d109252" aria-expanded="false"
-                                                aria-controls="collapse449027-d109252">
+                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-d109252"
+                                                aria-expanded="false" aria-controls="collapse449027-d109252">
                                                 <span style="background-color:#FF9A1E;" class="icon">
                                                     <i aria-hidden="true" class="flaticon flaticon-star"></i>
                                                 </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 30px;"
+                                                <span style="font-weight: 400; font-size: 30px;"
                                                     class="text mobile-para1">Research</span>
                                             </button>
                                         </div>
@@ -884,15 +917,13 @@
                                     </div>
                                     <div class="kd-about-4-according-item mb-20">
                                         <div class="item-header" id="heading449027-c4b7489">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed"
-                                                type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse449027-c4b7489" aria-expanded="false"
-                                                aria-controls="collapse449027-c4b748f">
+                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b7489"
+                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
                                                 <span style="background-color:#FF9A1E;" class="icon">
                                                     <i aria-hidden="true" class="flaticon flaticon-star"></i>
                                                 </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 30px;"
+                                                <span style="font-weight: 400; font-size: 30px;"
                                                     class="text mobile-para1">Worldwide Students</span>
                                             </button>
                                         </div>
@@ -907,15 +938,13 @@
                                     </div>
                                     <div class="kd-about-4-according-item mb-20">
                                         <div class="item-header" id="heading449027-c4b7486">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed"
-                                                type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse449027-c4b7486" aria-expanded="false"
-                                                aria-controls="collapse449027-c4b748f">
+                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b7486"
+                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
                                                 <span style="background-color:#FF9A1E;" class="icon">
                                                     <i aria-hidden="true" class="flaticon flaticon-star"></i>
                                                 </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 30px;"
+                                                <span style="font-weight: 400; font-size: 30px;"
                                                     class="text mobile-para1">Location</span>
                                             </button>
                                         </div>
@@ -931,15 +960,13 @@
                                     </div>
                                     <div class="kd-about-4-according-item mb-20">
                                         <div class="item-header" id="heading449027-c4b7485">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed"
-                                                type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse449027-c4b7485" aria-expanded="false"
-                                                aria-controls="collapse449027-c4b748f">
+                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b7485"
+                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
                                                 <span style="background-color:#FF9A1E;" class="icon">
                                                     <i aria-hidden="true" class="flaticon flaticon-star"></i>
                                                 </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 30px;"
+                                                <span style="font-weight: 400; font-size: 30px;"
                                                     class="text mobile-para1">Rich Capital</span>
                                             </button>
                                         </div>
@@ -959,33 +986,34 @@
                     </div>
                 </div>
             </div>
-            </section>
-            <!-- new advantage end-->
+        </section>
+        <!-- new advantage end-->
 
-            <!--Mobile Footprint-->
-            <img src="mobile-assets/index/footprints2.png" alt="">
-            <!--Mobile Footprint end  -->
+        <!--Mobile Footprint-->
+        <img src="mobile-assets/index/footprints2.png" alt="">
+        <!--Mobile Footprint end  -->
 
-            <!--Mobile Testimonial-->
-            <section style="padding: 40px 30px; background-image: url(mobile-assets/index/s2-bg-img-1.webp);">
-                <h6 class="mobile-headd3 text-center kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                    <img style="width: 40x; height: 40px;" src="mobile-assets/index/cap.svg" alt="">
-                    RGU Testimonials
-                </h6>
-                <h2 class="mobile-headd1 pb-4 pt-3" style="color: #27467A;">They Speak <span style="font-weight: 500; color: #EF991F;">About Us</span></h2>
+        <!--Mobile Testimonial-->
+        <section style="padding: 40px 30px; background-image: url(mobile-assets/index/s2-bg-img-1.webp);">
+            <h6 class="mobile-headd3 text-center kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
+                <img style="width: 40x; height: 40px;" src="mobile-assets/index/cap.svg" alt="">
+                RGU Testimonials
+            </h6>
+            <h2 class="mobile-headd1 pb-4 pt-3" style="color: #27467A;">They Speak <span
+                    style="font-weight: 500; color: #EF991F;">About Us</span></h2>
 
-                    <div class="row" style="display: flex; flex-direction: column;">
-                        <a href="success.html"><img class="pb-3" src="mobile-assets/index/alumni-student.png" /></a>
-                        <a href="recruiters.html"><img class="pb-3" src="mobile-assets/index/recruiters.png" /></a>
-                        <a href="footprints.html"><img class="pb-3" src="mobile-assets/index/dignitaries.png" /></a>
-                    </div>
-
-            </section>
-            <!--Mobile Testimonial end -->
+            <div class="row" style="display: flex; flex-direction: column;">
+                <a href="success.html"><img class="pb-3" src="mobile-assets/index/alumni-student.png" /></a>
+                <a href="recruiters.html"><img class="pb-3" src="mobile-assets/index/recruiters.png" /></a>
+                <a href="footprints.html"><img class="pb-3" src="mobile-assets/index/dignitaries.png" /></a>
+            </div>
 
         </section>
+        <!--Mobile Testimonial end -->
 
-        <section class="website">
+    </section>
+
+    <section class="website">
         <div id="page" class="site site_wrapper">
 
             <div class="scroll-top">
@@ -1000,7 +1028,7 @@
                 </div>
             </div>
 
-                <!--Start Header-->
+            <!--Start Header-->
             <section>
                 <header>
                     <div>
@@ -1011,9 +1039,11 @@
                                 data-pause="false" data-interval="2000">
 
                                 <!-- admission banner  -->
-                                <section class="container border mb-3" style="background-color: #ffffff41; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.20); border-radius: 20px;  backdrop-filter: blur(20px);">
+                                <section class="container border mb-3"
+                                    style="background-color: #ffffff41; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.20); border-radius: 20px;  backdrop-filter: blur(20px);">
 
-                                    <div class="row" style="display: flex; align-items: center; justify-content: center; padding: 20px 25px;">
+                                    <div class="row"
+                                        style="display: flex; align-items: center; justify-content: center; padding: 20px 25px;">
 
                                         <div class="col-lg-9">
                                             <h2 style="color: #fff;" class="headd2 fw-bold">
@@ -1026,9 +1056,10 @@
 
                                         <div class="col-lg-3">
                                             <div class="btn-container">
-                                              <div class="btn shiny-button">
-                                                <a class="text-center headd3 fw-bold" href="https://admissions.rgu.ac/">APPLY NOW</a>
-                                              </div>
+                                                <div class="btn shiny-button">
+                                                    <a class="text-center headd3 fw-bold"
+                                                        href="https://admissions.rgu.ac/">APPLY NOW</a>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -1044,8 +1075,8 @@
                                         <img src="mobile-assets/index/sl2.png" alt="Slide 2">
                                     </div>
                                     <!-- <div class="carousel-item">
-                                        <img src="sarang/s3.png" alt="Slide 3">
-                                    </div> -->
+                                            <img src="sarang/s3.png" alt="Slide 3">
+                                        </div> -->
                                 </div>
 
                             </div>
@@ -1062,7 +1093,7 @@
             </section>
             <!--End Header-->
 
-                <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
+            <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
 
                 <img src="mobile-assets/index/n-explore-rgu-15-15.png" alt="">
 
@@ -1080,7 +1111,8 @@
                                     <div class="elementor-widget-container">
 
 
-                                        <div style="background-image: url(mobile-assets/index/bgnew.svg);" class=" pb-5 kd-team-4-area p-relative fix">
+                                        <div style="background-image: url(mobile-assets/index/bgnew.svg);"
+                                            class=" pb-5 kd-team-4-area p-relative fix">
 
 
 
@@ -1358,34 +1390,49 @@
 
                 <!--Notifications-->
                 <section>
-                            <div>
-                                <div class="row" style="background-color: #f2f2f2;">
-                                    <div class="col-lg-4" style="background-color: #a1d0f9;">
-                                        <div class="text-center p-5">
-                                           <h2 class="headd2 fw-bold text-dark pb-3"> Notifications</h2>
-                                           <a href="Announcements.html" target="_blank" class="bg-danger text-white rounded" style="padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px;">View All</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-8" style="padding-top: 80px;">
-                                        <marquee>
-                                            <span class="text-dark p-3" style="font-size: 36px;">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg> International Seminar by The Assam Royal Global University in association with ELTAI, September, 2024 &nbsp;&nbsp;</span>
-                                          <span class="text-dark p-3" style="font-size: 36px;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>  Advertisement No. : DST-SERB-01/2024 &nbsp;&nbsp;</span>
-                                          <span class="text-dark p-3" style="font-size: 36px;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>  Viksit Bharat 2047 &nbsp;&nbsp;</span>
-                                          <span class="text-dark p-3" style="font-size: 36px;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                          </svg>
-                                          East Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with Higher Education' &nbsp;&nbsp;</span>
-                                        </marquee>
-                                    </div>
+                    <div>
+                        <div class="row" style="background-color: #f2f2f2;">
+                            <div class="col-lg-4" style="background-color: #a1d0f9;">
+                                <div class="text-center p-5">
+                                    <h2 class="headd2 fw-bold text-dark pb-3"> Notifications</h2>
+                                    <a href="Announcements.html" target="_blank" class="bg-danger text-white rounded"
+                                        style="padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px;">View
+                                        All</a>
                                 </div>
                             </div>
+                            <div class="col-lg-8" style="padding-top: 80px;">
+                                <marquee>
+                                    <span class="text-dark p-3" style="font-size: 36px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
+                                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg> International Seminar by The Assam Royal Global University in association
+                                        with ELTAI, September, 2024 &nbsp;&nbsp;</span>
+                                    <span class="text-dark p-3" style="font-size: 36px;"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="red"
+                                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg> Advertisement No. : DST-SERB-01/2024 &nbsp;&nbsp;</span>
+                                    <span class="text-dark p-3" style="font-size: 36px;"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="red"
+                                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg> Viksit Bharat 2047 &nbsp;&nbsp;</span>
+                                    <span class="text-dark p-3" style="font-size: 36px;"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="red"
+                                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg>
+                                        East Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System
+                                        (BKS) with Higher Education' &nbsp;&nbsp;</span>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </section>
@@ -1393,141 +1440,140 @@
 
                 <!-- fast facts -->
                 <section
-                        class="elementor-section elementor-top-section pt-5  elementor-element elementor-element-943e56e elementor-section-boxed elementor-section-height-default elementor-section-height-default pb-5"
-                        data-id="943e56e" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-23f6d50"
-                                data-id="23f6d50" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-6cdc10e elementor-widget elementor-widget-go-s-heading"
-                                        data-id="6cdc10e" data-element_type="widget"
-                                        data-widget_type="go-s-heading.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="prthalign">
-                                                <h6 class="para1 kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                                                    <img style="width: 40x; height: 40px;" src="mobile-assets/index/cap.svg" alt="">
-                                                    Info
-                                                </h6>
-                                                <h1 style="font-weight: 700;"
-                                                    class="text-dark headd elementor-gt-heading kd-title-ani kd-split-text">
-                                                    Fast Facts</h1>
-                                                <div class="para1 elementor-gt-desc kd-para-1 disc wow" data-splitting>
-                                                    Transformative and Multidisciplinary Education</span>
-                                                </div>
+                    class="elementor-section elementor-top-section pt-5  elementor-element elementor-element-943e56e elementor-section-boxed elementor-section-height-default elementor-section-height-default pb-5"
+                    data-id="943e56e" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-23f6d50"
+                            data-id="23f6d50" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-6cdc10e elementor-widget elementor-widget-go-s-heading"
+                                    data-id="6cdc10e" data-element_type="widget" data-widget_type="go-s-heading.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="prthalign">
+                                            <h6 class="para1 kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
+                                                <img style="width: 40x; height: 40px;" src="mobile-assets/index/cap.svg"
+                                                    alt="">
+                                                Info
+                                            </h6>
+                                            <h1 style="font-weight: 700;"
+                                                class="text-dark headd elementor-gt-heading kd-title-ani kd-split-text">
+                                                Fast Facts</h1>
+                                            <div class="para1 elementor-gt-desc kd-para-1 disc wow" data-splitting>
+                                                Transformative and Multidisciplinary Education</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-878c6de"
-                                data-id="878c6de" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-4923d22 elementor-widget elementor-widget-go-category"
-                                        data-id="4923d22" data-element_type="widget" data-widget_type="go-category.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="kd-pop-cat-1-slider">
-                                                <div class="swiper-container fix kd-pop-cat-1-active">
-                                                    <div class="swiper-wrapper">
-                                                        <div class="swiper-slide">
-                                                            <div class="kd-pop-cat-1-item text-center">
-                                                                <!-- <img decoding="async"
-                                                            src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/pc-1-shape-1.webp"
-                                                            alt="" class="shape"> -->
-                                                                <div class="icon d-flex align-items-center justify-content-center"
-                                                                    style="background-color: antiquewhite;">
-                                                                    <h3 class="text-dark fw-bold">22</h3>
-                                                                </div>
-                                                                <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                                    style="background-color: #27467a;">
-                                                                    <a href="" aria-label="name"> Years Of Education </a>
-                                                                </h4>
+                        </div>
+                        <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-878c6de"
+                            data-id="878c6de" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-4923d22 elementor-widget elementor-widget-go-category"
+                                    data-id="4923d22" data-element_type="widget" data-widget_type="go-category.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="kd-pop-cat-1-slider">
+                                            <div class="swiper-container fix kd-pop-cat-1-active">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                                        <div class="kd-pop-cat-1-item text-center">
+                                                            <!-- <img decoding="async"
+                                                                src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/pc-1-shape-1.webp"
+                                                                alt="" class="shape"> -->
+                                                            <div class="icon d-flex align-items-center justify-content-center"
+                                                                style="background-color: antiquewhite;">
+                                                                <h3 class="text-dark fw-bold">22</h3>
                                                             </div>
+                                                            <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
+                                                                style="background-color: #27467a;">
+                                                                <a href="" aria-label="name"> Years Of Education </a>
+                                                            </h4>
                                                         </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="kd-pop-cat-1-item text-center">
-                                                                <div class="icon d-flex align-items-center justify-content-center"
-                                                                    style="background-color: antiquewhite;">
-                                                                    <h3 class="text-dark fw-bold">8000+</h3>
-                                                                </div>
-                                                                <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                                    style="background-color: #27467a;">
-                                                                    <a aria-label="name"> Students </a>
-                                                                </h4>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="kd-pop-cat-1-item text-center">
+                                                            <div class="icon d-flex align-items-center justify-content-center"
+                                                                style="background-color: antiquewhite;">
+                                                                <h3 class="text-dark fw-bold">8000+</h3>
                                                             </div>
+                                                            <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
+                                                                style="background-color: #27467a;">
+                                                                <a aria-label="name"> Students </a>
+                                                            </h4>
                                                         </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="kd-pop-cat-1-item text-center">
-                                                                <div class="icon d-flex align-items-center justify-content-center"
-                                                                    style="background-color: antiquewhite;">
-                                                                    <h3 class="text-dark fw-bold">460+</h3>
-                                                                </div>
-                                                                <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                                    style="background-color: #27467a;">
-                                                                    <a aria-label="name"> Faculty Members </a>
-                                                                </h4>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="kd-pop-cat-1-item text-center">
+                                                            <div class="icon d-flex align-items-center justify-content-center"
+                                                                style="background-color: antiquewhite;">
+                                                                <h3 class="text-dark fw-bold">460+</h3>
                                                             </div>
+                                                            <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
+                                                                style="background-color: #27467a;">
+                                                                <a aria-label="name"> Faculty Members </a>
+                                                            </h4>
                                                         </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="kd-pop-cat-1-item text-center">
-                                                                <div class="icon d-flex align-items-center justify-content-center"
-                                                                    style="background-color: antiquewhite;">
-                                                                    <h3 class="text-dark fw-bold">23</h3>
-                                                                </div>
-                                                                <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                                    style="background-color: #27467a;">
-                                                                    <a aria-label="name"> Schools</a>
-                                                                </h4>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="kd-pop-cat-1-item text-center">
+                                                            <div class="icon d-flex align-items-center justify-content-center"
+                                                                style="background-color: antiquewhite;">
+                                                                <h3 class="text-dark fw-bold">23</h3>
                                                             </div>
+                                                            <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
+                                                                style="background-color: #27467a;">
+                                                                <a aria-label="name"> Schools</a>
+                                                            </h4>
                                                         </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="kd-pop-cat-1-item text-center">
-                                                                <div class="icon d-flex align-items-center justify-content-center"
-                                                                    style="background-color: antiquewhite;">
-                                                                    <h3 class="text-dark fw-bold">800+</h3>
-                                                                </div>
-                                                                <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                                    style="background-color: #27467a;">
-                                                                    <a aria-label="name"> Research Publications </a>
-                                                                </h4>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="kd-pop-cat-1-item text-center">
+                                                            <div class="icon d-flex align-items-center justify-content-center"
+                                                                style="background-color: antiquewhite;">
+                                                                <h3 class="text-dark fw-bold">800+</h3>
                                                             </div>
+                                                            <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
+                                                                style="background-color: #27467a;">
+                                                                <a aria-label="name"> Research Publications </a>
+                                                            </h4>
                                                         </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="kd-pop-cat-1-item text-center">
-                                                                <div class="icon d-flex align-items-center justify-content-center"
-                                                                    style="background-color: antiquewhite;">
-                                                                    <h3 class="text-dark fw-bold">100+</h3>
-                                                                </div>
-                                                                <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                                    style="background-color: #27467a;">
-                                                                    <a aria-label="name"> Hi-Tech Labs </a>
-                                                                </h4>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="kd-pop-cat-1-item text-center">
+                                                            <div class="icon d-flex align-items-center justify-content-center"
+                                                                style="background-color: antiquewhite;">
+                                                                <h3 class="text-dark fw-bold">100+</h3>
                                                             </div>
+                                                            <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
+                                                                style="background-color: #27467a;">
+                                                                <a aria-label="name"> Hi-Tech Labs </a>
+                                                            </h4>
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
 
-                                                <div class="kd-pop-cat-1-slider-btn">
-                                                    <div class="kd_pop_cat_1_prev">
-                                                        <div
-                                                            class="kd-slider-btn-1 d-flex align-items-center justify-content-center txaa-fade-right">
-                                                            <span class="icon-1">
-                                                                <i class="fa-solid fa-arrow-left"></i>
-                                                            </span>
-                                                            <span class="icon-2">
-                                                                <i class="fa-solid fa-arrow-left"></i>
-                                                            </span>
-                                                        </div>
+                                            <div class="kd-pop-cat-1-slider-btn">
+                                                <div class="kd_pop_cat_1_prev">
+                                                    <div
+                                                        class="kd-slider-btn-1 d-flex align-items-center justify-content-center txaa-fade-right">
+                                                        <span class="icon-1">
+                                                            <i class="fa-solid fa-arrow-left"></i>
+                                                        </span>
+                                                        <span class="icon-2">
+                                                            <i class="fa-solid fa-arrow-left"></i>
+                                                        </span>
                                                     </div>
-                                                    <div class="kd_pop_cat_1_next ">
-                                                        <div
-                                                            class="kd-slider-btn-1 has-next d-flex align-items-center justify-content-center txaa-fade-left">
-                                                            <span class="icon-1">
-                                                                <i class="fa-solid fa-arrow-right"></i>
-                                                            </span>
-                                                            <span class="icon-2">
-                                                                <i class="fa-solid fa-arrow-right"></i>
-                                                            </span>
-                                                        </div>
+                                                </div>
+                                                <div class="kd_pop_cat_1_next ">
+                                                    <div
+                                                        class="kd-slider-btn-1 has-next d-flex align-items-center justify-content-center txaa-fade-left">
+                                                        <span class="icon-1">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </span>
+                                                        <span class="icon-2">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1536,380 +1582,386 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </section>
                 <!-- fast facts -->
 
                 <!--campus life-->
                 <section
-                        class="elementor-section elementor-top-section elementor-element elementor-element-f03cf62 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                        data-id="f03cf62" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bd58a9"
-                                data-id="8bd58a9" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-2d6d76a elementor-widget elementor-widget-go-content-tab"
-                                        data-id="2d6d76a" data-element_type="widget"
-                                        data-widget_type="go-content-tab.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="kd-course-3-area p-relative pt-105 pb-60 fix">
-                                                <div class="kd-course-1-bg-img img-cover fix">
-                                                    <img decoding="async" src="mobile-assets/index/head2.svg" alt="">
-                                                </div>
-                                                <div class="container kd-container-1 txaa-slide-down-1">
-                                                    <!-- sectiont-title -->
-                                                    <div class="kd-course-1-scn-title">
-                                                        <div class="left">
-                                                            <!-- <h6
-                                                            class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
-                                                            <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
-                                                                alt="">
+                    class="elementor-section elementor-top-section elementor-element elementor-element-f03cf62 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                    data-id="f03cf62" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-no">
+                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bd58a9"
+                            data-id="8bd58a9" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-2d6d76a elementor-widget elementor-widget-go-content-tab"
+                                    data-id="2d6d76a" data-element_type="widget" data-widget_type="go-content-tab.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="kd-course-3-area p-relative pt-105 pb-60 fix">
+                                            <div class="kd-course-1-bg-img img-cover fix">
+                                                <img decoding="async" src="mobile-assets/index/head2.svg" alt="">
+                                            </div>
+                                            <div class="container kd-container-1 txaa-slide-down-1">
+                                                <!-- sectiont-title -->
+                                                <div class="kd-course-1-scn-title">
+                                                    <div class="left">
+                                                        <!-- <h6
+                                                                class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
+                                                                <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
+                                                                    alt="">
 
-                                                            RGU Campus
-                                                        </h6> -->
-                                                            <h1 style="color: #FF9A1E; font-weight: 800;"
-                                                                class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text has-clr-white headd1 ">
-                                                                Our Campus Life</h1>
-                                                        </div>
-
-                                                        <div class="right txaa-fade-right">
-                                                            <ul class="kd-course-1-tabs-btn" id="myTab" role="tablist">
-                                                                <li class="nav-item" role="presentation">
-                                                                    <button
-                                                                        class="nav-link active kd-heading-1 para1 fw-bold text-dark"
-                                                                        id="home-tab0" data-bs-toggle="tab"
-                                                                        data-bs-target="#home0" type="button" role="tab"
-                                                                        aria-controls="home0"
-                                                                        aria-selected="true">Campus</button>
-                                                                </li>
-                                                                <li class="nav-item" role="presentation">
-                                                                    <button class="nav-link  kd-heading-1 para1 text-dark"
-                                                                        id="home-tab1" data-bs-toggle="tab"
-                                                                        data-bs-target="#home1" type="button" role="tab"
-                                                                        aria-controls="home1" aria-selected="true">Residence
-                                                                        Life</button>
-                                                                </li>
-                                                                <li class="nav-item" role="presentation">
-                                                                    <button class="nav-link  kd-heading-1 para1 text-dark"
-                                                                        id="home-tab2" data-bs-toggle="tab"
-                                                                        data-bs-target="#home2" type="button" role="tab"
-                                                                        aria-controls="home2" aria-selected="true">Sports &
-                                                                        Exercise</button>
-                                                                </li>
-                                                                <li class="nav-item" role="presentation">
-                                                                    <button class="nav-link  kd-heading-1 para1 text-dark"
-                                                                        id="home-tab3" data-bs-toggle="tab"
-                                                                        data-bs-target="#home3" type="button" role="tab"
-                                                                        aria-controls="home3"
-                                                                        aria-selected="true">Amenities</button>
-                                                                </li>
-
-                                                            </ul>
-                                                        </div>
+                                                                RGU Campus
+                                                            </h6> -->
+                                                        <h1 style="color: #FF9A1E; font-weight: 800;"
+                                                            class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text has-clr-white headd1 ">
+                                                            Our Campus Life</h1>
                                                     </div>
 
-                                                    <!-- tabs-content -->
-                                                    <div class="tab-content kd-course-3-tabs-content-wrap txaa-slide-down-1-item"
-                                                        id="myTabContent">
+                                                    <div class="right txaa-fade-right">
+                                                        <ul class="kd-course-1-tabs-btn" id="myTab" role="tablist">
+                                                            <li class="nav-item" role="presentation">
+                                                                <button
+                                                                    class="nav-link active kd-heading-1 para1 fw-bold text-dark"
+                                                                    id="home-tab0" data-bs-toggle="tab"
+                                                                    data-bs-target="#home0" type="button" role="tab"
+                                                                    aria-controls="home0"
+                                                                    aria-selected="true">Campus</button>
+                                                            </li>
+                                                            <li class="nav-item" role="presentation">
+                                                                <button class="nav-link  kd-heading-1 para1 text-dark"
+                                                                    id="home-tab1" data-bs-toggle="tab"
+                                                                    data-bs-target="#home1" type="button" role="tab"
+                                                                    aria-controls="home1" aria-selected="true">Residence
+                                                                    Life</button>
+                                                            </li>
+                                                            <li class="nav-item" role="presentation">
+                                                                <button class="nav-link  kd-heading-1 para1 text-dark"
+                                                                    id="home-tab2" data-bs-toggle="tab"
+                                                                    data-bs-target="#home2" type="button" role="tab"
+                                                                    aria-controls="home2" aria-selected="true">Sports &
+                                                                    Exercise</button>
+                                                            </li>
+                                                            <li class="nav-item" role="presentation">
+                                                                <button class="nav-link  kd-heading-1 para1 text-dark"
+                                                                    id="home-tab3" data-bs-toggle="tab"
+                                                                    data-bs-target="#home3" type="button" role="tab"
+                                                                    aria-controls="home3"
+                                                                    aria-selected="true">Amenities</button>
+                                                            </li>
 
-                                                        <div class="tab-pane fade animated fadeInUp show active" id="home0"
-                                                            role="tabpanel" aria-labelledby="home-tab0">
-                                                            <div class="kd-course-3-tabs-content">
-                                                                <div class="left-content">
-                                                                    <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                                        Campus Life</h4>
+                                                        </ul>
+                                                    </div>
+                                                </div>
 
-                                                                    <div class="para1 muted" style="text-align: justify;">
-                                                                        <p style="color: #323232 !important;">Recognized as
-                                                                            the best private university in Assam,
-                                                                            The Assam Royal Global University offers a
-                                                                            vibrant and dynamic
-                                                                            campus life
-                                                                            that significantly enhances the educational
-                                                                            experience. Our campus is bustling with a
-                                                                            variety of
-                                                                            extracurricular
-                                                                            activities, including cultural festivals,
-                                                                            academic
-                                                                            clubs, sports teams, and volunteer
-                                                                            organizations.
-                                                                            These activities
-                                                                            provide students with opportunities to develop
-                                                                            essential life skills such as leadership,
-                                                                            teamwork,
-                                                                            and time management,
-                                                                            while also allowing them to explore their
-                                                                            interests
-                                                                            and passions beyond the classroom.</p>
-                                                                    </div>
+                                                <!-- tabs-content -->
+                                                <div class="tab-content kd-course-3-tabs-content-wrap txaa-slide-down-1-item"
+                                                    id="myTabContent">
 
+                                                    <div class="tab-pane fade animated fadeInUp show active" id="home0"
+                                                        role="tabpanel" aria-labelledby="home-tab0">
+                                                        <div class="kd-course-3-tabs-content">
+                                                            <div class="left-content">
+                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                                    Campus Life</h4>
+
+                                                                <div class="para1 muted" style="text-align: justify;">
+                                                                    <p style="color: #323232 !important;">Recognized as
+                                                                        the best private university in Assam,
+                                                                        The Assam Royal Global University offers a
+                                                                        vibrant and dynamic
+                                                                        campus life
+                                                                        that significantly enhances the educational
+                                                                        experience. Our campus is bustling with a
+                                                                        variety of
+                                                                        extracurricular
+                                                                        activities, including cultural festivals,
+                                                                        academic
+                                                                        clubs, sports teams, and volunteer
+                                                                        organizations.
+                                                                        These activities
+                                                                        provide students with opportunities to develop
+                                                                        essential life skills such as leadership,
+                                                                        teamwork,
+                                                                        and time management,
+                                                                        while also allowing them to explore their
+                                                                        interests
+                                                                        and passions beyond the classroom.</p>
                                                                 </div>
 
-                                                                <!-- right -->
-                                                                <div class="right-content">
-                                                                    <div class="rounded">
-                                                                        <div class="kd-price-4-content">
-                                                                            <div id="carouselExampleControls"
-                                                                                class="carousel slide"
-                                                                                data-bs-ride="carousel">
-                                                                                <div class="carousel-inner">
-                                                                                    <div class="carousel-item active">
-                                                                                       <a href="campus-life-departmental-store.html"><img src="mobile-assets/index/1.svg"
+                                                            </div>
+
+                                                            <!-- right -->
+                                                            <div class="right-content">
+                                                                <div class="rounded">
+                                                                    <div class="kd-price-4-content">
+                                                                        <div id="carouselExampleControls"
+                                                                            class="carousel slide" data-bs-ride="carousel">
+                                                                            <div class="carousel-inner">
+                                                                                <div class="carousel-item active">
+                                                                                    <a
+                                                                                        href="campus-life-departmental-store.html"><img
+                                                                                            src="mobile-assets/index/1.svg"
                                                                                             class="d-block rounded"
-                                                                                            style="width: 100%;" alt="..."></a>
-                                                                                    </div>
-                                                                                    <div class="carousel-item">
-                                                                                      <a href="infrastructure.html"><img src="mobile-assets/index/5.svg"
-                                                                                            class="d-block rounded"
-                                                                                            style="width: 100%;" alt="..."></a>
-                                                                                    </div>
-                                                                                    <div class="carousel-item">
-                                                                                       <a href="game.html"> <img src="mobile-assets/index/7.svg"
-                                                                                            class="d-block rounded"
-                                                                                            style="width: 100%;" alt="..."></a>
-                                                                                    </div>
-                                                                                    <div class="carousel-item">
-                                                                                       <a href="clubs.html"><img src="mobile-assets/index/4.svg"
-                                                                                            class="d-block rounded"
-                                                                                            style="width: 100%;" alt="..."></a>
-                                                                                    </div>
-                                                                                    <div class="carousel-item">
-                                                                                       <a href="hostel-life.html"> <img src="mobile-assets/index/3.svg"
-                                                                                            class="d-block rounded"
-                                                                                            style="width: 100%;" alt="..."></a>
-                                                                                    </div>
-                                                                                    <div class="carousel-item">
-                                                                                       <a href="Student_Affairs.html"> <img src="mobile-assets/index/6.svg"
-                                                                                            class="d-block rounded"
-                                                                                            style="width: 100%;" alt="..."></a>
-                                                                                    </div>
-                                                                                    <div class="carousel-item">
-                                                                                      <a href="Royal_Fests.html"><img src="mobile-assets/index/2.svg"
-                                                                                            class="d-block rounded"
-                                                                                            style="width: 100%;" alt="..."></a>
-                                                                                    </div>
+                                                                                            style="width: 100%;"
+                                                                                            alt="..."></a>
                                                                                 </div>
-                                                                                <button class="carousel-control-prev"
-                                                                                    type="button"
-                                                                                    data-bs-target="#carouselExampleControls"
-                                                                                    data-bs-slide="prev">
-                                                                                    <span class="carousel-control-prev-icon"
-                                                                                        aria-hidden="true"></span>
-                                                                                    <span
-                                                                                        class="visually-hidden">Previous</span>
-                                                                                </button>
-                                                                                <button class="carousel-control-next"
-                                                                                    type="button"
-                                                                                    data-bs-target="#carouselExampleControls"
-                                                                                    data-bs-slide="next">
-                                                                                    <span class="carousel-control-next-icon"
-                                                                                        aria-hidden="true"></span>
-                                                                                    <span
-                                                                                        class="visually-hidden">Next</span>
-                                                                                </button>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="infrastructure.html"><img
+                                                                                            src="mobile-assets/index/5.svg"
+                                                                                            class="d-block rounded"
+                                                                                            style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="game.html"> <img
+                                                                                            src="mobile-assets/index/7.svg"
+                                                                                            class="d-block rounded"
+                                                                                            style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="clubs.html"><img
+                                                                                            src="mobile-assets/index/4.svg"
+                                                                                            class="d-block rounded"
+                                                                                            style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="hostel-life.html"> <img
+                                                                                            src="mobile-assets/index/3.svg"
+                                                                                            class="d-block rounded"
+                                                                                            style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="Student_Affairs.html"> <img
+                                                                                            src="mobile-assets/index/6.svg"
+                                                                                            class="d-block rounded"
+                                                                                            style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="Royal_Fests.html"><img
+                                                                                            src="mobile-assets/index/2.svg"
+                                                                                            class="d-block rounded"
+                                                                                            style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
                                                                             </div>
+                                                                            <button class="carousel-control-prev"
+                                                                                type="button"
+                                                                                data-bs-target="#carouselExampleControls"
+                                                                                data-bs-slide="prev">
+                                                                                <span class="carousel-control-prev-icon"
+                                                                                    aria-hidden="true"></span>
+                                                                                <span
+                                                                                    class="visually-hidden">Previous</span>
+                                                                            </button>
+                                                                            <button class="carousel-control-next"
+                                                                                type="button"
+                                                                                data-bs-target="#carouselExampleControls"
+                                                                                data-bs-slide="next">
+                                                                                <span class="carousel-control-next-icon"
+                                                                                    aria-hidden="true"></span>
+                                                                                <span class="visually-hidden">Next</span>
+                                                                            </button>
                                                                         </div>
                                                                     </div>
-
-                                                                    <!-- <div class="kd-course-3-tabs-content-action text-center">
-                                                                    <h5
-                                                                        class="kd-heading-1 kd-font-700 has-clr-white action-link">
-                                                                        get your quality skills certificate from RGU</h5>
-                                                                    <a href="#" aria-label="name"
-                                                                        class="kd-pr-btn-1 text-uppercase">
-                                                                        <span class="text" data-back="get started now"
-                                                                            data-front="get started now"></span>
-                                                                    </a>
-                                                                </div> -->
-                                                                    <!-- <div class="kd-course-3-tabs-content-il-1">
-                                                                    <img decoding="async"
-                                                                        src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
-                                                                        alt="">
-                                                                </div> -->
-
                                                                 </div>
 
-                                                            </div>
-                                                        </div>
-                                                        <div class="tab-pane fade animated fadeInUp " id="home1"
-                                                            role="tabpanel" aria-labelledby="home-tab1">
-                                                            <div class="kd-course-3-tabs-content">
-                                                                <div class="left-content">
-                                                                    <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                                        Residence Life</h4>
-
-                                                                    <div class="para1" style="text-align: justify;">
-                                                                        <p>The Assam Royal Global University residence halls
-                                                                            aim at
-                                                                            enhancing the educational experience of students
-                                                                            by
-                                                                            providing all the
-                                                                            comforts and conveniences they need to succeed.
-                                                                            Beautifully situated in the midst of an
-                                                                            eco-friendly
-                                                                            and green campus,
-                                                                            the separate in-house hostels for boys and girls
-                                                                            are
-                                                                            equipped with adequate facilities for holistic
-                                                                            mental and physical
-                                                                            growth. The hostel environment will help each
-                                                                            boarder get the most out of their time during
-                                                                            the
-                                                                            period of stay. Close proximity
-                                                                            of the hostels to the academic buildings
-                                                                            facilitates
-                                                                            frequent interactions between studentsand the
-                                                                            faculties even during
-                                                                            periods of vacation and on holidays.</p>
-                                                                    </div>
-                                                                    <div class="">
-                                                                        <a href="hostel-life.html" rel="nofollow"
-                                                                            aria-label="name"
-                                                                            class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                            <span class="text" data-back="explore"
-                                                                                data-front="Explore"></span>
-                                                                            <span class="icon">
-                                                                                <i class="fa-solid fa-arrow-right"></i>
-                                                                            </span>
+                                                                <!-- <div class="kd-course-3-tabs-content-action text-center">
+                                                                        <h5
+                                                                            class="kd-heading-1 kd-font-700 has-clr-white action-link">
+                                                                            get your quality skills certificate from RGU</h5>
+                                                                        <a href="#" aria-label="name"
+                                                                            class="kd-pr-btn-1 text-uppercase">
+                                                                            <span class="text" data-back="get started now"
+                                                                                data-front="get started now"></span>
                                                                         </a>
-                                                                    </div>
-
-                                                                </div>
-
-                                                                <!-- right -->
-                                                                <div class="right-content">
-                                                                    <div
-                                                                        class="kd-course-3-tabs-content-video img-cover fix">
+                                                                    </div> -->
+                                                                <!-- <div class="kd-course-3-tabs-content-il-1">
                                                                         <img decoding="async"
-                                                                            src="mobile-assets/index/residence.jpg"
+                                                                            src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
                                                                             alt="">
-
-                                                                    </div>
-                                                                </div>
+                                                                    </div> -->
 
                                                             </div>
+
                                                         </div>
-                                                        <div class="tab-pane fade animated fadeInUp " id="home2"
-                                                            role="tabpanel" aria-labelledby="home-tab2">
-                                                            <div class="kd-course-3-tabs-content">
-                                                                <div class="left-content">
-                                                                    <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                                        Games & Sports</h4>
-
-                                                                    <div class="para1" style="text-align: justify;">
-                                                                        <p>There are multiple sport facilities to keep our
-                                                                            students engaged and physically fit. Our campus
-                                                                            has
-                                                                            outdoor game
-                                                                            facilities like Cricket, Football, Basketball,
-                                                                            tennis, baseball, athletics and so on. Its
-                                                                            international standard indoor
-                                                                            sports complex “The Cube” offers a variety of
-                                                                            indoor
-                                                                            games including badminton courts, squash,
-                                                                            billiards,
-                                                                            and table
-                                                                            tennis. Fitness conscious students can go for a
-                                                                            jog
-                                                                            around the scenic university campus or work out
-                                                                            at
-                                                                            the well-equipped
-                                                                            gymnasium available both at the Boys and Girls
-                                                                            hostel. The Gymnasium is equipped with various
-                                                                            equipment like treadmills,
-                                                                            dumbbells & plates, weights, shoulder press,
-                                                                            leg-pull, leg extension, incline shoulder,
-                                                                            double
-                                                                            twisters, etc.</p>
-                                                                    </div>
-                                                                    <div class="">
-                                                                        <a href="sports.html" rel="nofollow"
-                                                                            aria-label="name"
-                                                                            class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                            <span class="text" data-back="explore"
-                                                                                data-front="Explore"></span>
-                                                                            <span class="icon">
-                                                                                <i class="fa-solid fa-arrow-right"></i>
-                                                                            </span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-
-                                                                <!-- right -->
-                                                                <div class="right-content">
-                                                                    <div
-                                                                        class="kd-course-3-tabs-content-video img-cover fix">
-                                                                        <img decoding="async"
-                                                                            src="mobile-assets/index/sports.jpg" alt="">
-
-                                                                    </div>
-
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="tab-pane fade animated fadeInUp " id="home3"
-                                                            role="tabpanel" aria-labelledby="home-tab3">
-                                                            <div class="kd-course-3-tabs-content">
-                                                                <div class="left-content">
-                                                                    <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                                        Amenities</h4>
-
-                                                                    <div class="para1" style="text-align: justify;">
-                                                                        <p>A sensational rejuvenation and beauty experience.
-                                                                            Kurls and Spykes, Guwahati, is a wellness and
-                                                                            beauty
-                                                                            lounge for both
-                                                                            men and women. It offers an unmatched array of
-                                                                            services designed to renew, refresh and
-                                                                            replenish
-                                                                            one’s soul. As a
-                                                                            leading hair studio, Kurls and Spykes offer warm
-                                                                            hospitality, an inviting atmosphere and
-                                                                            top-notch
-                                                                            services to wide and
-                                                                            varied client base which also includes business
-                                                                            and
-                                                                            leisure travellers. It offers non exhaustive
-                                                                            range
-                                                                            of services
-                                                                            including a host of hair services such as
-                                                                            haircut,
-                                                                            hair colour, creative makeover, keratin and
-                                                                            bridal
-                                                                            makeup services
-                                                                            using some internationally renowned brands.</p>
-                                                                    </div>
-
-                                                                    <div class="">
-                                                                        <a href="salon-new.html" rel="nofollow"
-                                                                            aria-label="name"
-                                                                            class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                            <span class="text" data-back="explore"
-                                                                                data-front="Explore"></span>
-                                                                            <span class="icon">
-                                                                                <i class="fa-solid fa-arrow-right"></i>
-                                                                            </span>
-                                                                        </a>
-                                                                    </div>
-
-                                                                </div>
-
-                                                                <!-- right -->
-                                                                <div class="right-content">
-                                                                    <div
-                                                                        class="kd-course-3-tabs-content-video img-cover fix">
-                                                                        <img decoding="async"
-                                                                            src="mobile-assets/index/amenities.jpg"
-                                                                            alt="">
-
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-
                                                     </div>
+                                                    <div class="tab-pane fade animated fadeInUp " id="home1" role="tabpanel"
+                                                        aria-labelledby="home-tab1">
+                                                        <div class="kd-course-3-tabs-content">
+                                                            <div class="left-content">
+                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                                    Residence Life</h4>
+
+                                                                <div class="para1" style="text-align: justify;">
+                                                                    <p>The Assam Royal Global University residence halls
+                                                                        aim at
+                                                                        enhancing the educational experience of students
+                                                                        by
+                                                                        providing all the
+                                                                        comforts and conveniences they need to succeed.
+                                                                        Beautifully situated in the midst of an
+                                                                        eco-friendly
+                                                                        and green campus,
+                                                                        the separate in-house hostels for boys and girls
+                                                                        are
+                                                                        equipped with adequate facilities for holistic
+                                                                        mental and physical
+                                                                        growth. The hostel environment will help each
+                                                                        boarder get the most out of their time during
+                                                                        the
+                                                                        period of stay. Close proximity
+                                                                        of the hostels to the academic buildings
+                                                                        facilitates
+                                                                        frequent interactions between studentsand the
+                                                                        faculties even during
+                                                                        periods of vacation and on holidays.</p>
+                                                                </div>
+                                                                <div class="">
+                                                                    <a href="hostel-life.html" rel="nofollow"
+                                                                        aria-label="name"
+                                                                        class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                        <span class="text" data-back="explore"
+                                                                            data-front="Explore"></span>
+                                                                        <span class="icon">
+                                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <!-- right -->
+                                                            <div class="right-content">
+                                                                <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                                    <img decoding="async"
+                                                                        src="mobile-assets/index/residence.jpg" alt="">
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade animated fadeInUp " id="home2" role="tabpanel"
+                                                        aria-labelledby="home-tab2">
+                                                        <div class="kd-course-3-tabs-content">
+                                                            <div class="left-content">
+                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                                    Games & Sports</h4>
+
+                                                                <div class="para1" style="text-align: justify;">
+                                                                    <p>There are multiple sport facilities to keep our
+                                                                        students engaged and physically fit. Our campus
+                                                                        has
+                                                                        outdoor game
+                                                                        facilities like Cricket, Football, Basketball,
+                                                                        tennis, baseball, athletics and so on. Its
+                                                                        international standard indoor
+                                                                        sports complex “The Cube” offers a variety of
+                                                                        indoor
+                                                                        games including badminton courts, squash,
+                                                                        billiards,
+                                                                        and table
+                                                                        tennis. Fitness conscious students can go for a
+                                                                        jog
+                                                                        around the scenic university campus or work out
+                                                                        at
+                                                                        the well-equipped
+                                                                        gymnasium available both at the Boys and Girls
+                                                                        hostel. The Gymnasium is equipped with various
+                                                                        equipment like treadmills,
+                                                                        dumbbells & plates, weights, shoulder press,
+                                                                        leg-pull, leg extension, incline shoulder,
+                                                                        double
+                                                                        twisters, etc.</p>
+                                                                </div>
+                                                                <div class="">
+                                                                    <a href="sports.html" rel="nofollow" aria-label="name"
+                                                                        class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                        <span class="text" data-back="explore"
+                                                                            data-front="Explore"></span>
+                                                                        <span class="icon">
+                                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- right -->
+                                                            <div class="right-content">
+                                                                <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                                    <img decoding="async"
+                                                                        src="mobile-assets/index/sports.jpg" alt="">
+
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade animated fadeInUp " id="home3" role="tabpanel"
+                                                        aria-labelledby="home-tab3">
+                                                        <div class="kd-course-3-tabs-content">
+                                                            <div class="left-content">
+                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                                    Amenities</h4>
+
+                                                                <div class="para1" style="text-align: justify;">
+                                                                    <p>A sensational rejuvenation and beauty experience.
+                                                                        Kurls and Spykes, Guwahati, is a wellness and
+                                                                        beauty
+                                                                        lounge for both
+                                                                        men and women. It offers an unmatched array of
+                                                                        services designed to renew, refresh and
+                                                                        replenish
+                                                                        one’s soul. As a
+                                                                        leading hair studio, Kurls and Spykes offer warm
+                                                                        hospitality, an inviting atmosphere and
+                                                                        top-notch
+                                                                        services to wide and
+                                                                        varied client base which also includes business
+                                                                        and
+                                                                        leisure travellers. It offers non exhaustive
+                                                                        range
+                                                                        of services
+                                                                        including a host of hair services such as
+                                                                        haircut,
+                                                                        hair colour, creative makeover, keratin and
+                                                                        bridal
+                                                                        makeup services
+                                                                        using some internationally renowned brands.</p>
+                                                                </div>
+
+                                                                <div class="">
+                                                                    <a href="salon-new.html" rel="nofollow"
+                                                                        aria-label="name"
+                                                                        class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                        <span class="text" data-back="explore"
+                                                                            data-front="Explore"></span>
+                                                                        <span class="icon">
+                                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <!-- right -->
+                                                            <div class="right-content">
+                                                                <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                                    <img decoding="async"
+                                                                        src="mobile-assets/index/amenities.jpg" alt="">
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1917,93 +1969,96 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </section>
                 <!--campus life-->
 
                 <!--Courses-->
                 <div data-elementor-type="wp-page" data-elementor-id="2266" class="elementor elementor-2266 m-0 p-0">
-                        <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-63fb9c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="63fb9c7" data-element_type="section">
-                            <div class="elementor-column-gap-default"
-                                style="padding-left: 50px; padding-right: 50px; padding-bottom: 50px;">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aa60b72"
-                                    data-id="aa60b72" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-9b5574a elementor-widget elementor-widget-go-s-heading text-center"
-                                            data-id="9b5574a" data-element_type="widget"
-                                            data-widget_type="go-s-heading.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="prthalign">
-                                                    <!-- <h6 class="kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub"
-                                                style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
-                                                    <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-63fb9c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="63fb9c7" data-element_type="section">
+                        <div class="elementor-column-gap-default"
+                            style="padding-left: 50px; padding-right: 50px; padding-bottom: 50px;">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aa60b72"
+                                data-id="aa60b72" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-9b5574a elementor-widget elementor-widget-go-s-heading text-center"
+                                        data-id="9b5574a" data-element_type="widget"
+                                        data-widget_type="go-s-heading.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="prthalign">
+                                                <!-- <h6 class="kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub"
+                                                    style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
+                                                        <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
 
-                                                    RGU Programmes
-                                                </h6> -->
-                                                <h2 class="headd1 pb-4" style="color: #27467A; font-size: 50px;">Explore Our <span style="font-weight: 500; color: #EF991F;">Courses</span></h2>
-                                                </div>
+                                                        RGU Programmes
+                                                    </h6> -->
+                                                <h2 class="headd1 pb-4" style="color: #27467A; font-size: 50px;">Explore Our
+                                                    <span style="font-weight: 500; color: #EF991F;">Courses</span></h2>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-cbc3c3f elementor-widget elementor-widget-go-course-item"
-                                            data-id="cbc3c3f" data-element_type="widget"
-                                            data-widget_type="go-course-item.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="row txaa-slide-down-1">
+                                    </div>
+                                    <div class="elementor-element elementor-element-cbc3c3f elementor-widget elementor-widget-go-course-item"
+                                        data-id="cbc3c3f" data-element_type="widget"
+                                        data-widget_type="go-course-item.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="row txaa-slide-down-1">
 
-                                                    <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                                                        <a href="doctoral-programme.html">
-                                                            <div class="kd-course-2-card"
-                                                                style="border: solid 2px rgb(225, 225, 225);">
-                                                                <div class="main-img fix img-cover">
-                                                                    <img fetchpriority="high" decoding="async" width="357"
-                                                                        height="220" src="mobile-assets/index/c6.svg"
-                                                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
-                                                                        alt="" />
-                                                                </div>
+                                                <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
+                                                    <a href="doctoral-programme.html">
+                                                        <div class="kd-course-2-card"
+                                                            style="border: solid 2px rgb(225, 225, 225);">
+                                                            <div class="main-img fix img-cover">
+                                                                <img fetchpriority="high" decoding="async" width="357"
+                                                                    height="220" src="mobile-assets/index/c6.svg"
+                                                                    class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
+                                                                    alt="" />
                                                             </div>
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                                                        <a href="programs.html">
-                                                            <div class="kd-course-2-card"
-                                                                style="border: solid 2px rgb(225, 225, 225);">
-                                                                <div class="main-img fix img-cover">
-                                                                    <img decoding="async" width="357" height="220"
-                                                                        src="mobile-assets/index/c7.svg"
-                                                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
-                                                                        alt="" />
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                                                        <a href="programs.html">
-                                                            <div class="kd-course-2-card"
-                                                                style="border: solid 2px rgb(225, 225, 225);">
-                                                                <div class="main-img fix img-cover">
-                                                                    <img decoding="async" width="357" height="220"
-                                                                        src="mobile-assets/index/c8.svg"
-                                                                        class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
-                                                                        alt="" />
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
+                                                        </div>
+                                                    </a>
                                                 </div>
 
+                                                <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
+                                                    <a href="programs.html">
+                                                        <div class="kd-course-2-card"
+                                                            style="border: solid 2px rgb(225, 225, 225);">
+                                                            <div class="main-img fix img-cover">
+                                                                <img decoding="async" width="357" height="220"
+                                                                    src="mobile-assets/index/c7.svg"
+                                                                    class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
+                                                                    alt="" />
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
+                                                    <a href="programs.html">
+                                                        <div class="kd-course-2-card"
+                                                            style="border: solid 2px rgb(225, 225, 225);">
+                                                            <div class="main-img fix img-cover">
+                                                                <img decoding="async" width="357" height="220"
+                                                                    src="mobile-assets/index/c8.svg"
+                                                                    class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
+                                                                    alt="" />
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </div>
+                    </section>
                 </div>
                 <!--End Courses-->
 
                 <!--Labs-->
-                <section class="container-fluid" style="background-image: url('mobile-assets/index/lab-new1.png'); background-size: cover;">
+                <section class="container-fluid"
+                    style="background-image: url('mobile-assets/index/lab-new1.png'); background-size: cover;">
                     <div class="elementor-column-gap-default pt-5 pb-5">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-818362c"
                             data-id="818362c" data-element_type="column">
@@ -2017,40 +2072,49 @@
 
                                         </div>
                                         <div class="col-lg-1"></div>
-                                        <div class="col-lg-8 text-center" style="overflow: hidden; padding: 52px 0px 0px 0px;">
+                                        <div class="col-lg-8 text-center"
+                                            style="overflow: hidden; padding: 52px 0px 0px 0px;">
                                             <div class="elementor-element elementor-element-e22f91b elementor-widget elementor-widget-go-s-heading"
-                                    data-id="e22f91b" data-element_type="widget"
-                                    data-widget_type="go-s-heading.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="prthalign">
-                                            <h1 style="font-weight: 900; color: #27467A;"
-                                            class="elementor-gt-heading kd-title-ani kd-split-text headd">
-                                            LABORATORIES AND <span style="font-weight: 500; color: #EF991F;">STUDIOS</span></h1>
-                                        </div>
-                                    </div>
-                                </div>
+                                                data-id="e22f91b" data-element_type="widget"
+                                                data-widget_type="go-s-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="prthalign">
+                                                        <h1 style="font-weight: 900; color: #27467A;"
+                                                            class="elementor-gt-heading kd-title-ani kd-split-text headd">
+                                                            LABORATORIES AND <span
+                                                                style="font-weight: 500; color: #EF991F;">STUDIOS</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="elementor-widget-container pt-4">
                                                 <div class="kd-course-4-slider p-relative">
                                                     <div class="swiper-container kd-course-4-active">
-                                                        <div class="swiper-wrapper" style="margin-right: 0px !important; padding: 0px !important;">
-                                                            <div class="swiper-slide" style="margin-right: 0px !important; padding: 0px !important;">
-                                                                <div class="kd-course-4-item" style="margin: 0px !important; padding: 0px !important;">
+                                                        <div class="swiper-wrapper"
+                                                            style="margin-right: 0px !important; padding: 0px !important;">
+                                                            <div class="swiper-slide"
+                                                                style="margin-right: 0px !important; padding: 0px !important;">
+                                                                <div class="kd-course-4-item"
+                                                                    style="margin: 0px !important; padding: 0px !important;">
                                                                     <div style="background-color: #ffffff;"
                                                                         class="kd-course-2-card shadow-sm">
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="mobile-assets/index/computer1.jpg" alt="List">
+                                                                                src="mobile-assets/index/computer1.jpg"
+                                                                                alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                        students</span> -->
+                                                                                        <span class="item-student kd-heading-1">34,000
+                                                                                            students</span> -->
                                                                         </div>
 
                                                                         <div class="card-content">
-                                                                            <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                                <a href="lab-computer.html" aria-label="name">Computer Lab</a>
+                                                                            <h4
+                                                                                class="title kd-heading-1 kd-font-900 para1">
+                                                                                <a href="lab-computer.html"
+                                                                                    aria-label="name">Computer Lab</a>
                                                                             </h4>
                                                                             <a href="lab-computer.html" aria-label="name"
                                                                                 class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
@@ -2060,25 +2124,29 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="swiper-slide" >
-                                                                <div class="kd-course-4-item" style="margin-right: 0px !important; padding: 0px !important">
+                                                            <div class="swiper-slide">
+                                                                <div class="kd-course-4-item"
+                                                                    style="margin-right: 0px !important; padding: 0px !important">
                                                                     <div style="background-color: #ffffff;"
                                                                         class="kd-course-2-card shadow-sm">
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="mobile-assets/index/electric1.jpg" alt="List">
+                                                                                src="mobile-assets/index/electric1.jpg"
+                                                                                alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                        students</span> -->
+                                                                                        <span class="item-student kd-heading-1">34,000
+                                                                                            students</span> -->
 
                                                                         </div>
 
                                                                         <div class="card-content">
-                                                                            <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                                <a href="lab-electrical.html" aria-label="name">Electrical Lab</a>
+                                                                            <h4
+                                                                                class="title kd-heading-1 kd-font-900 para1">
+                                                                                <a href="lab-electrical.html"
+                                                                                    aria-label="name">Electrical Lab</a>
                                                                             </h4>
                                                                             <a href="lab-electrical.html" aria-label="name"
                                                                                 class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
@@ -2089,27 +2157,32 @@
                                                                 </div>
                                                             </div>
 
-                                                            <div class="swiper-slide" style="margin-right: 0px !important; padding: 0px !important">
+                                                            <div class="swiper-slide"
+                                                                style="margin-right: 0px !important; padding: 0px !important">
                                                                 <div class="kd-course-4-item">
                                                                     <div style="background-color: #ffffff;"
                                                                         class="kd-course-2-card shadow-sm">
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="mobile-assets/index/language1.jpg" alt="List">
+                                                                                src="mobile-assets/index/language1.jpg"
+                                                                                alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                    <span class="item-student kd-heading-1">34,000 -->
+                                                                                        <span class="item-student kd-heading-1">34,000 -->
                                                                             students</span>
 
                                                                         </div>
 
                                                                         <div class="card-content">
-                                                                            <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                                <a href="lab-language-lab.html" aria-label="name">Language Lab</a>
+                                                                            <h4
+                                                                                class="title kd-heading-1 kd-font-900 para1">
+                                                                                <a href="lab-language-lab.html"
+                                                                                    aria-label="name">Language Lab</a>
                                                                             </h4>
-                                                                            <a href="lab-language-lab.html" aria-label="name"
+                                                                            <a href="lab-language-lab.html"
+                                                                                aria-label="name"
                                                                                 class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
                                                                                 <i class="fa-solid fa-angles-right"></i>
                                                                                 Read More </a>
@@ -2135,8 +2208,10 @@
                                                                         </div>
 
                                                                         <div class="card-content">
-                                                                            <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                                <a href="lab-chemistry.html" aria-label="name">Chemistry Lab</a>
+                                                                            <h4
+                                                                                class="title kd-heading-1 kd-font-900 para1">
+                                                                                <a href="lab-chemistry.html"
+                                                                                    aria-label="name">Chemistry Lab</a>
                                                                             </h4>
                                                                             <a href="lab-chemistry.html" aria-label="name"
                                                                                 class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
@@ -2153,15 +2228,18 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="mobile-assets/index/physics1.jpg" alt="List">
+                                                                                src="mobile-assets/index/physics1.jpg"
+                                                                                alt="List">
 
 
 
                                                                         </div>
 
                                                                         <div class="card-content">
-                                                                            <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                                <a href="lab-physics.html" aria-label="name">Physics Lab</a>
+                                                                            <h4
+                                                                                class="title kd-heading-1 kd-font-900 para1">
+                                                                                <a href="lab-physics.html"
+                                                                                    aria-label="name">Physics Lab</a>
                                                                             </h4>
                                                                             <a href="lab-physics.html" aria-label="name"
                                                                                 class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
@@ -2184,11 +2262,14 @@
                                                                         </div>
 
                                                                         <div class="card-content">
-                                                                            <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                                <a href="lab-architecture.html" aria-label="name">Architecture
+                                                                            <h4
+                                                                                class="title kd-heading-1 kd-font-900 para1">
+                                                                                <a href="lab-architecture.html"
+                                                                                    aria-label="name">Architecture
                                                                                     Lab</a>
                                                                             </h4>
-                                                                            <a href="lab-architecture.html" aria-label="name"
+                                                                            <a href="lab-architecture.html"
+                                                                                aria-label="name"
                                                                                 class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
                                                                                 <i class="fa-solid fa-angles-right"></i>
                                                                                 Read More </a>
@@ -2202,20 +2283,21 @@
                                                     </div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-de83d2a elementor-widget elementor-widget-ft-btn mt-5"
-                                data-id="de83d2a" data-element_type="widget" data-widget_type="ft-btn.default">
-                                <div class="elementor-widget-container">
-                                    <div class="prthalign">
-                                        <a href="laboratories.html" rel="nofollow" aria-label="name"
-                                            class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                            <span class="text" data-back="Explore All Labs"
-                                                data-front="Explore All Labs"></span>
-                                            <span class="icon">
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                                                    data-id="de83d2a" data-element_type="widget"
+                                                    data-widget_type="ft-btn.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="prthalign">
+                                                            <a href="laboratories.html" rel="nofollow" aria-label="name"
+                                                                class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                <span class="text" data-back="Explore All Labs"
+                                                                    data-front="Explore All Labs"></span>
+                                                                <span class="icon">
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -2231,192 +2313,190 @@
 
                 <!-- new advantage -->
                 <section style="padding: 50px 0px 0px 0px; background-color: #13223b;"
-                        class=" elementor-section elementor-top-section elementor-element elementor-element-5b53581 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="5b53581" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d665cde"
-                                data-id="d665cde" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-dbbd17f elementor-widget elementor-widget-go-img--bx"
-                                        data-id="dbbd17f" data-element_type="widget" data-widget_type="go-img--bx.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="kd-about-4-left ">
-                                                <div class="mb-5 fix img-cover">
-                                                    <img decoding="async" style="height: 600px !important;"
-                                                        src="mobile-assets/index/mobileadvpic.png" alt="">
-                                                </div>
-                                                <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
-                                                    <img decoding="async" style="height: 600px !important;"
-                                                        src="mobile-assets/index/mobileyellow.png" alt="">
-
-                                                </div>
-
+                    class=" elementor-section elementor-top-section elementor-element elementor-element-5b53581 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="5b53581" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d665cde"
+                            data-id="d665cde" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-dbbd17f elementor-widget elementor-widget-go-img--bx"
+                                    data-id="dbbd17f" data-element_type="widget" data-widget_type="go-img--bx.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="kd-about-4-left ">
+                                            <div class="mb-5 fix img-cover">
+                                                <img decoding="async" style="height: 600px !important;"
+                                                    src="mobile-assets/index/mobileadvpic.png" alt="">
+                                            </div>
+                                            <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
+                                                <img decoding="async" style="height: 600px !important;"
+                                                    src="mobile-assets/index/mobileyellow.png" alt="">
 
                                             </div>
+
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-be85421"
-                                data-id="be85421" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-f5f1b7b elementor-widget elementor-widget-go-s-heading"
-                                        data-id="f5f1b7b" data-element_type="widget"
-                                        data-widget_type="go-s-heading.default">
-                                        <div class="elementor-widget-container">
+                        </div>
+                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-be85421"
+                            data-id="be85421" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-f5f1b7b elementor-widget elementor-widget-go-s-heading"
+                                    data-id="f5f1b7b" data-element_type="widget" data-widget_type="go-s-heading.default">
+                                    <div class="elementor-widget-container">
 
-                                            <div class="prthalign">
-                                                <h1 style="font-weight: 700;" class="mobile-headd1 text-light">RGU Advantages</h1>
-                                                <div class="elementor-gt-desc kd-para-2 scn-disc"></div>
-                                            </div>
+                                        <div class="prthalign">
+                                            <h1 style="font-weight: 700;" class="mobile-headd1 text-light">RGU Advantages
+                                            </h1>
+                                            <div class="elementor-gt-desc kd-para-2 scn-disc"></div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-3c95150 elementor-widget elementor-widget-go-kadu-accordion"
-                                        data-id="3c95150" data-element_type="widget"
-                                        data-widget_type="go-kadu-accordion.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="kd-about-4-according mb-60" id="accordionExample_449027">
-                                                <div class="kd-about-4-according-item mb-20">
-                                                    <div class="item-header" id="heading449027-a06e874">
-                                                        <button class="item-title kd-heading-2 kd-font-700 " type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapse449027-a06e874" aria-expanded="false"
-                                                            aria-controls="collapse449027-a06e874">
-                                                            <span style="background-color:#FF9A1E;" class="icon">
-                                                                <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                            </span>
-                                                            <span
-                                                                style="font-weight: 400; font-size: 25px; font-family: 'Host Grotesk', sans-serif;"
-                                                                class="text">Affordable</span>
-                                                        </button>
-                                                    </div>
-                                                    <div id="collapse449027-a06e874"
-                                                        class="accordion-collapse collapse show"
-                                                        aria-labelledby="heading449027-a06e874"
-                                                        data-bs-parent="#accordionExample_449027">
-                                                        <div class="item-body">
-                                                            <p class="kd-para-2 disc has-para-sm mobile-headd3">Highly affordable
-                                                                Fees.</p>
-                                                        </div>
+                                </div>
+                                <div class="elementor-element elementor-element-3c95150 elementor-widget elementor-widget-go-kadu-accordion"
+                                    data-id="3c95150" data-element_type="widget"
+                                    data-widget_type="go-kadu-accordion.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="kd-about-4-according mb-60" id="accordionExample_449027">
+                                            <div class="kd-about-4-according-item mb-20">
+                                                <div class="item-header" id="heading449027-a06e874">
+                                                    <button class="item-title kd-heading-2 kd-font-700 " type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapse449027-a06e874"
+                                                        aria-expanded="false" aria-controls="collapse449027-a06e874">
+                                                        <span style="background-color:#FF9A1E;" class="icon">
+                                                            <i aria-hidden="true" class="flaticon flaticon-star"></i>
+                                                        </span>
+                                                        <span
+                                                            style="font-weight: 400; font-size: 25px; font-family: 'Host Grotesk', sans-serif;"
+                                                            class="text">Affordable</span>
+                                                    </button>
+                                                </div>
+                                                <div id="collapse449027-a06e874" class="accordion-collapse collapse show"
+                                                    aria-labelledby="heading449027-a06e874"
+                                                    data-bs-parent="#accordionExample_449027">
+                                                    <div class="item-body">
+                                                        <p class="kd-para-2 disc has-para-sm mobile-headd3">Highly
+                                                            affordable
+                                                            Fees.</p>
                                                     </div>
                                                 </div>
-                                                <div class="kd-about-4-according-item mb-20">
-                                                    <div class="item-header" id="heading449027-c4b748f">
-                                                        <button class="item-title kd-heading-2 kd-font-700 collapsed"
-                                                            type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapse449027-c4b748f" aria-expanded="false"
-                                                            aria-controls="collapse449027-c4b748f">
-                                                            <span style="background-color:#FF9A1E;" class="icon">
-                                                                <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                            </span>
-                                                            <span
-                                                                style="font-weight: 400; font-size: 25px; font-family: 'Host Grotesk', sans-serif;"
-                                                                class="text">Hi-Tech and Vibrant Campus</span>
-                                                        </button>
-                                                    </div>
-                                                    <div id="collapse449027-c4b748f" class="accordion-collapse collapse "
-                                                        aria-labelledby="heading449027-c4b748f"
-                                                        data-bs-parent="#accordionExample_449027">
-                                                        <div class="item-body">
-                                                            <p class="kd-para-2 disc has-para-sm mobile-headd3">Most Hi-Tech and
-                                                                Vibrant Campus with culturally diverse community in the
-                                                                North-East with fully air-conditioned built-up area</p>
-                                                        </div>
+                                            </div>
+                                            <div class="kd-about-4-according-item mb-20">
+                                                <div class="item-header" id="heading449027-c4b748f">
+                                                    <button class="item-title kd-heading-2 kd-font-700 collapsed"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapse449027-c4b748f" aria-expanded="false"
+                                                        aria-controls="collapse449027-c4b748f">
+                                                        <span style="background-color:#FF9A1E;" class="icon">
+                                                            <i aria-hidden="true" class="flaticon flaticon-star"></i>
+                                                        </span>
+                                                        <span
+                                                            style="font-weight: 400; font-size: 25px; font-family: 'Host Grotesk', sans-serif;"
+                                                            class="text">Hi-Tech and Vibrant Campus</span>
+                                                    </button>
+                                                </div>
+                                                <div id="collapse449027-c4b748f" class="accordion-collapse collapse "
+                                                    aria-labelledby="heading449027-c4b748f"
+                                                    data-bs-parent="#accordionExample_449027">
+                                                    <div class="item-body">
+                                                        <p class="kd-para-2 disc has-para-sm mobile-headd3">Most Hi-Tech and
+                                                            Vibrant Campus with culturally diverse community in the
+                                                            North-East with fully air-conditioned built-up area</p>
                                                     </div>
                                                 </div>
-                                                <div class="kd-about-4-according-item mb-20">
-                                                    <div class="item-header" id="heading449027-d109252">
-                                                        <button class="item-title kd-heading-2 kd-font-700 collapsed"
-                                                            type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapse449027-d109252" aria-expanded="false"
-                                                            aria-controls="collapse449027-d109252">
-                                                            <span style="background-color:#FF9A1E;" class="icon">
-                                                                <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                            </span>
-                                                            <span
-                                                                style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
-                                                                class="text">Research</span>
-                                                        </button>
-                                                    </div>
-                                                    <div id="collapse449027-d109252" class="accordion-collapse collapse "
-                                                        aria-labelledby="heading449027-d109252"
-                                                        data-bs-parent="#accordionExample_449027">
-                                                        <div class="item-body">
-                                                            <p class="kd-para-2 disc has-para-sm headd3">Research intensive
-                                                                and Updated Curriculum.</p>
-                                                        </div>
+                                            </div>
+                                            <div class="kd-about-4-according-item mb-20">
+                                                <div class="item-header" id="heading449027-d109252">
+                                                    <button class="item-title kd-heading-2 kd-font-700 collapsed"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapse449027-d109252" aria-expanded="false"
+                                                        aria-controls="collapse449027-d109252">
+                                                        <span style="background-color:#FF9A1E;" class="icon">
+                                                            <i aria-hidden="true" class="flaticon flaticon-star"></i>
+                                                        </span>
+                                                        <span
+                                                            style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
+                                                            class="text">Research</span>
+                                                    </button>
+                                                </div>
+                                                <div id="collapse449027-d109252" class="accordion-collapse collapse "
+                                                    aria-labelledby="heading449027-d109252"
+                                                    data-bs-parent="#accordionExample_449027">
+                                                    <div class="item-body">
+                                                        <p class="kd-para-2 disc has-para-sm headd3">Research intensive
+                                                            and Updated Curriculum.</p>
                                                     </div>
                                                 </div>
-                                                <div class="kd-about-4-according-item mb-20">
-                                                    <div class="item-header" id="heading449027-c4b7489">
-                                                        <button class="item-title kd-heading-2 kd-font-700 collapsed"
-                                                            type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapse449027-c4b7489" aria-expanded="false"
-                                                            aria-controls="collapse449027-c4b748f">
-                                                            <span style="background-color:#FF9A1E;" class="icon">
-                                                                <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                            </span>
-                                                            <span
-                                                                style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
-                                                                class="text">Worldwide Students</span>
-                                                        </button>
-                                                    </div>
-                                                    <div id="collapse449027-c4b7489" class="accordion-collapse collapse "
-                                                        aria-labelledby="heading449027-c4b7489"
-                                                        data-bs-parent="#accordionExample_449027">
-                                                        <div class="item-body">
-                                                            <p class="kd-para-2 disc has-para-sm headd3">Students from 6
-                                                                Countries</p>
-                                                        </div>
+                                            </div>
+                                            <div class="kd-about-4-according-item mb-20">
+                                                <div class="item-header" id="heading449027-c4b7489">
+                                                    <button class="item-title kd-heading-2 kd-font-700 collapsed"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapse449027-c4b7489" aria-expanded="false"
+                                                        aria-controls="collapse449027-c4b748f">
+                                                        <span style="background-color:#FF9A1E;" class="icon">
+                                                            <i aria-hidden="true" class="flaticon flaticon-star"></i>
+                                                        </span>
+                                                        <span
+                                                            style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
+                                                            class="text">Worldwide Students</span>
+                                                    </button>
+                                                </div>
+                                                <div id="collapse449027-c4b7489" class="accordion-collapse collapse "
+                                                    aria-labelledby="heading449027-c4b7489"
+                                                    data-bs-parent="#accordionExample_449027">
+                                                    <div class="item-body">
+                                                        <p class="kd-para-2 disc has-para-sm headd3">Students from 6
+                                                            Countries</p>
                                                     </div>
                                                 </div>
-                                                <div class="kd-about-4-according-item mb-20">
-                                                    <div class="item-header" id="heading449027-c4b7486">
-                                                        <button class="item-title kd-heading-2 kd-font-700 collapsed"
-                                                            type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapse449027-c4b7486" aria-expanded="false"
-                                                            aria-controls="collapse449027-c4b748f">
-                                                            <span style="background-color:#FF9A1E;" class="icon">
-                                                                <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                            </span>
-                                                            <span
-                                                                style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
-                                                                class="text">Location</span>
-                                                        </button>
-                                                    </div>
-                                                    <div id="collapse449027-c4b7486" class="accordion-collapse collapse "
-                                                        aria-labelledby="heading449027-c4b7486"
-                                                        data-bs-parent="#accordionExample_449027">
-                                                        <div class="item-body">
-                                                            <p class="kd-para-2 disc has-para-sm headd3">Centrally Located
-                                                                in Guwahati City with easy access to all modern amenities.
-                                                            </p>
-                                                        </div>
+                                            </div>
+                                            <div class="kd-about-4-according-item mb-20">
+                                                <div class="item-header" id="heading449027-c4b7486">
+                                                    <button class="item-title kd-heading-2 kd-font-700 collapsed"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapse449027-c4b7486" aria-expanded="false"
+                                                        aria-controls="collapse449027-c4b748f">
+                                                        <span style="background-color:#FF9A1E;" class="icon">
+                                                            <i aria-hidden="true" class="flaticon flaticon-star"></i>
+                                                        </span>
+                                                        <span
+                                                            style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
+                                                            class="text">Location</span>
+                                                    </button>
+                                                </div>
+                                                <div id="collapse449027-c4b7486" class="accordion-collapse collapse "
+                                                    aria-labelledby="heading449027-c4b7486"
+                                                    data-bs-parent="#accordionExample_449027">
+                                                    <div class="item-body">
+                                                        <p class="kd-para-2 disc has-para-sm headd3">Centrally Located
+                                                            in Guwahati City with easy access to all modern amenities.
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div class="kd-about-4-according-item mb-20">
-                                                    <div class="item-header" id="heading449027-c4b7485">
-                                                        <button class="item-title kd-heading-2 kd-font-700 collapsed"
-                                                            type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapse449027-c4b7485" aria-expanded="false"
-                                                            aria-controls="collapse449027-c4b748f">
-                                                            <span style="background-color:#FF9A1E;" class="icon">
-                                                                <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                            </span>
-                                                            <span
-                                                                style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
-                                                                class="text">Rich Capital</span>
-                                                        </button>
-                                                    </div>
-                                                    <div id="collapse449027-c4b7485" class="accordion-collapse collapse "
-                                                        aria-labelledby="heading449027-c4b7485"
-                                                        data-bs-parent="#accordionExample_449027">
-                                                        <div class="item-body">
-                                                            <p class="kd-para-2 disc has-para-sm headd3">Rich Intellectual
-                                                                Capital with strong distinguished academicians and domain
-                                                                experts.</p>
-                                                        </div>
+                                            </div>
+                                            <div class="kd-about-4-according-item mb-20">
+                                                <div class="item-header" id="heading449027-c4b7485">
+                                                    <button class="item-title kd-heading-2 kd-font-700 collapsed"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapse449027-c4b7485" aria-expanded="false"
+                                                        aria-controls="collapse449027-c4b748f">
+                                                        <span style="background-color:#FF9A1E;" class="icon">
+                                                            <i aria-hidden="true" class="flaticon flaticon-star"></i>
+                                                        </span>
+                                                        <span
+                                                            style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
+                                                            class="text">Rich Capital</span>
+                                                    </button>
+                                                </div>
+                                                <div id="collapse449027-c4b7485" class="accordion-collapse collapse "
+                                                    aria-labelledby="heading449027-c4b7485"
+                                                    data-bs-parent="#accordionExample_449027">
+                                                    <div class="item-body">
+                                                        <p class="kd-para-2 disc has-para-sm headd3">Rich Intellectual
+                                                            Capital with strong distinguished academicians and domain
+                                                            experts.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2425,49 +2505,53 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </section>
                 <!-- new advantage end-->
 
-                </div>
-                <!--Innovation & Publication end-->
+            </div>
+            <!--Innovation & Publication end-->
 
-                <!--Footprint-->
-                <img src="mobile-assets/index/footprint.jpeg" alt="">
-                <!-- footprint end  -->
+            <!--Footprint-->
+            <img src="mobile-assets/index/footprint.jpeg" alt="">
+            <!-- footprint end  -->
 
             <!--Testimonial-->
             <div style="background-image: url(mobile-assets/index/s2-bg-img-1.webp);"
-            class="pt-5 elementor-element elementor-element-41f1d73 elementor-widget elementor-widget-go-s-heading"
-               data-id="41f1d73" data-element_type="widget" data-widget_type="go-s-heading.default">
-               <div class="elementor-widget-container" style="padding-left: 50px;">
-                   <div class="prthalign text-center">
-                       <h6 class=" kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub headd3">
-                           <img style="width: 40x; height: 40px;" src="mobile-assets/index/cap.svg" alt="">
-                           RGU Testimonials
-                       </h6>
-                       <h1 style="font-weight: 700;"
-                           class="elementor-gt-heading text-dark kd-title-ani kd-split-text headd1">
-                           They Speak About Us</h1>
-                   </div>
-               </div>
+                class="pt-5 elementor-element elementor-element-41f1d73 elementor-widget elementor-widget-go-s-heading"
+                data-id="41f1d73" data-element_type="widget" data-widget_type="go-s-heading.default">
+                <div class="elementor-widget-container" style="padding-left: 50px;">
+                    <div class="prthalign text-center">
+                        <h6 class=" kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub headd3">
+                            <img style="width: 40x; height: 40px;" src="mobile-assets/index/cap.svg" alt="">
+                            RGU Testimonials
+                        </h6>
+                        <h1 style="font-weight: 700;"
+                            class="elementor-gt-heading text-dark kd-title-ani kd-split-text headd1">
+                            They Speak About Us</h1>
+                    </div>
+                </div>
 
-           <div class="hover01 column row" style="padding-left: 1px;">
-              <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important; ">
-                   <figure> <a href="success.html"><img style="border: 2px solid #fff;" src="mobile-assets/index/alumni-student.png" /></a></figure>
-               </div>
+                <div class="hover01 column row" style="padding-left: 1px;">
+                    <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important; ">
+                        <figure> <a href="success.html"><img style="border: 2px solid #fff;"
+                                    src="mobile-assets/index/alumni-student.png" /></a></figure>
+                    </div>
 
-               <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
-                   <figure><a href="recruiters.html"><img style="border: 2px solid #fff;" src="mobile-assets/index/recruiters.png" /></a></figure>
+                    <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
+                        <figure><a href="recruiters.html"><img style="border: 2px solid #fff;"
+                                    src="mobile-assets/index/recruiters.png" /></a></figure>
 
-               </div>
-               <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
-                   <figure><a href="footprints.html"><img style="border: 2px solid #fff;" src="mobile-assets/index/dignitaries.png" /></a></figure>
+                    </div>
+                    <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
+                        <figure><a href="footprints.html"><img style="border: 2px solid #fff;"
+                                    src="mobile-assets/index/dignitaries.png" /></a></figure>
 
-               </div>
-           </div>
+                    </div>
+                </div>
             </div>
             <!-- testimonial end -->
 
         </div>
-        </section>
+    </section>
 @endsection

@@ -576,11 +576,11 @@ Route::get('/placements-events', function () {
 })->name('placements-events');
 
 Route::get('/placements-process', function () {
-    return view('frontend/placement/placements-process');
+    return view('frontend/placement/placement-process');
 })->name('placements-process');
 
 Route::get('/placements-activities', function () {
-    return view('frontend/placement/placements-activities');
+    return view('frontend/placement/placement-activities');
 })->name('placements-activities');
 
 Route::get('/placements-facilities', function () {
@@ -590,6 +590,10 @@ Route::get('/placements-facilities', function () {
 Route::get('/top-hiring-companies', function () {
     return view('frontend/placement/top-hiring-companies');
 })->name('top-hiring-companies');
+
+Route::get('/placement-contacts', function () {
+    return view('frontend/placement/placement-contacts');
+})->name('placement-contacts');
 
 //End placements Life
 
