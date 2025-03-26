@@ -307,7 +307,7 @@
                                                             </ul>
                                                         </li>
                                                         <li id="menu-item-1654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                           <a href="game.html" onClick="return true">GAMES AND SPORTS</a>
+                                                           <a href="{{ route('games&sports') }}" onClick="return true">GAMES AND SPORTS</a>
                                                         </li>
                                                         <li id="menu-item-1060" class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-1060">
                                                             <a href="#" onClick="return true">HOSTEL</a>

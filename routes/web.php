@@ -559,6 +559,10 @@ Route::get('/clubs', function () {
     return view('frontend/campuslife/clubs');
 })->name('clubs');
 
+Route::get('/games&sports', function () {
+    return view('frontend/campuslife/games&sports');
+})->name('games&sports');
+
 //End Campus Life
 
 //placements Life
