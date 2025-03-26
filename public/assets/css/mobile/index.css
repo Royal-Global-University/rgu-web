@@ -763,3 +763,40 @@
      /* Reduced shadow */
  }
 
+ .contact-section {
+     width: 80vw;
+     /* Half-screen width */
+     background-color: #1f3b6f;
+     /* Dark blue background */
+     color: white;
+     display: flex;
+     align-items: center;
+     padding: 20px;
+     border-top-right-radius: 50px;
+ }
+
+ .contact-icon img {
+     width: 60px;
+     height: 60px;
+     margin-right: 20px;
+ }
+
+ .contact-info {
+     font-family: Arial, sans-serif;
+ }
+
+ .contact-title {
+     font-size: 22px;
+     font-weight: bold;
+ }
+
+ .contact-details {
+     font-size: 20px;
+     margin: 5px 0;
+ }
+
+ .contact-bold {
+     font-weight: bold;
+     font-size: 18px;
+ }
+

@@ -767,6 +767,10 @@ Route::get('/scholarships-international', function () {
     return view('frontend/international/scholarships-international');
 })->name('scholarships-international');
 
+Route::get('/visa-information', function () {
+    return view('frontend/international/visa-information');
+})->name('visa-information');
+
 Route::get('/why-india', function () {
     return view('frontend/international/why-india');
 })->name('why-india');

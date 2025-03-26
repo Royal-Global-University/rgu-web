@@ -1,92 +1,167 @@
 @extends('frontend.master')
 @section('content')
-<div id="page" class="site site_wrapper">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px; position: relative;">
+            <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <h2 class="mobile-headd1 kd-title-ani kd-split mb-4 text-center"
+                                style="color: #264273; font-weight: 700;">On-Campus <span
+                                    style="color: #FF9A1E; font-weight: 500;">Job</span> </h2>
+                            <div class="txaa-slide-down-1">
+                                <div style="border: 2px solid #27467A; height: 320px; width: 100%;"
+                                    class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                    <img class="rounded" decoding="async" src="mobile-assets/intern-oncaampus-job/headimg.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <div class="scroll-top">
-        <div class="scroll-top-wrap">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                </path>
-            </svg>
+            <section
+                style="background-image: url(mobile-assets/intern-oncaampus-job/bg.svg); background-size: cover; padding-bottom: 50px;">
+
+                <section class="container">
+                    <h2 class="mobile-headd3 fw-bold pb-3 " style="color: #264273;">
+                        Types of on-campus jobs available to Students
+                    </h2>
+                    <ol class="custom-ol mobile-para1 pb-2">
+                        <li>Students can work as student guides and assist juniors or weaker students.</li>
+                        <li>Students can work as call centre assistants and assist students in their admission.
+                        </li>
+                        <li>Students can work as library assistants and help in the day-to-day working of the library.
+                        </li>
+                        <li>Students can work as front office assistants and guide visitors.
+                        </li>
+                    </ol>
+
+                    <h2 class="mobile-headd3 fw-bold pb-3 " style="color: #264273;">
+                        Eligibility
+                    </h2>
+                    <ol class="custom-ol mobile-para1 pb-2">
+                        <li>The intending student will have to approach the Department of Branding & Communication, seeking
+                            their work interest.</li>
+                        <li>Upon checking their profile and skill areas, they might have to appear for an interview with the
+                            Senior Management.</li>
+                        <li>Students may be asked to submit additional documents during the application review.</li>
+                    </ol>
+
+                    <hr>
+
+                    <h2 class="mobile-headd3 fw-bold pb-3" style="color: #264273;">
+                        For any support or guidance, international students (present or future) can connect with:
+                    </h2>
+
+                </section>
+
+                <div class="container">
+                    <div class="container"
+                        style="background: #1f3b6b; color: white; padding: 15px; border-radius: 10px; flex-wrap: wrap; text-align: center;">
+                        <p class="mobile-mobile-headd3" style="font-weight: bold;">Contact:</p>
+                        <p class="mobile-para1">Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs
+                        </p>
+                        <p class="mobile-para1"><span style="font-weight: bold;">Ph. no:</span> <a href="tel:+919864049818"
+                                style="color: white; text-decoration: none;">+91 9864049818</a></p>
+                        <p class="mobile-para1"><span style="font-weight: bold;">Email:</span> <a href="mailto:gkanand@rgu.ac"
+                                style="color: white; text-decoration: none;">gkanand@rgu.ac</a></p>
+                        <a href="tel:+919864049818" class="mobile-call-btn fw-bold"
+                            style="text-decoration: none; background: #FF9A1E; color: white; padding: 8px 20px; border-radius: 5px; font-size: 18px; margin-top: 10px; display: inline-block;">
+                            Call Now
+                        </a>
+                    </div>
+                </div>
+
+            </section>
         </div>
     </div>
 
-    @include('frontend/components/aheader')
+    <div class="website">
+        <!--Start Header-->
+        @include('frontend/components/aheader')
+        <!--End Header-->
 
-    <!--About Section-->
-    <div>
-        <img src="assets/img/international-on-campus-job/job.svg" alt="">
-    </div>
-
-    <div>
-        <img src="assets/img/international-on-campus-job/contact.svg" alt="">
-    </div>
-
-    <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-        <section style="padding-top: 30px;"
-            class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="f481aaf" data-element_type="section">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-968af55"
-                    data-id="968af55" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-4878838 elementor-widget elementor-widget-go-img--bx"
-                            data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
-                            <div class="elementor-widget-container">
-                                <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                    <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                        <img decoding="async" src="assets/img/international-on-campus-job/pic1.jpg" alt="">
-                                    </div>
-
-                                </div>
+        <!--head image Section-->
+        <section
+            style="background-image: url(mobile-assets/intern-oncaampus-job/bgg.svg); background-size: cover; padding: 50px 0px;">
+            <div class="container">
+                <div class="row align-items-center gx-5">
+                    <div class="col-lg-6">
+                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
+                            <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                <img class="rounded" decoding="async" src="mobile-assets/intern-oncaampus-job/headimg.png"
+                                    alt="">
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9b49111"
-                    data-id="9b49111" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-c8de01e elementor-widget elementor-widget-go-s-heading"
-                            data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="prthalign">
-                                    <div class="para1 text-dark kd-para-1 disc" data-splitting style="text-align: justify;">
-                                        <div class="headd3 text-dark fw-bold pb-4">Types of on-campus jobs available to
-                                            students
-                                        </div>
-                                        <ol>
-                                            <li>Students can work as student guides and assist juniors or weaker students.
-                                            </li>
-                                            <li>Students can work as call centre assistant and assist students in their
-                                                admission.</li>
-                                            <li>Student can work as library assistant and help in the day to day working of
-                                                the library.</li>
-                                            <li>Students can work as front office assistant and guide visitors.</li>
-                                        </ol>
+                    <div class="col-lg-6">
 
-                                        <div class="head3 text-dark fw-bold pb-2">Eligibility
-                                        </div>
+                        <h2 class="headd" style="color: #264273; font-weight: 800;">ON-CAMPUS <br> <span
+                                style="color: #FF9A1E; font-weight: 500;">JOB</span></h2>
 
-                                        <ol>
-                                            <li>The intending student will have to approach in the Department of Branding &
-                                                Communication seeking their work interest.</li>
-                                            <li>Upon checking their profile and skill areas they might have to appear an
-                                                interview with the Senior Management.</li>
-                                            <li>Students may be asked to submit additional documents during the application
-                                                review.</li>
-                                        </ol>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
+            </div>
         </section>
+        <!--head image Section-->
+
+        <section
+            style="background-image: url(mobile-assets/intern-oncaampus-job/bg.svg); background-size: cover; padding-bottom: 50px;">
+
+            <section class="container p-5">
+                <h2 class="headd2 fw-bold pb-3 kd-title-ani kd-split-text" style="color: #264273; font-weight: 800;">
+                    Types of on-campus jobs available to <span style="color: #FF9A1E; font-weight: 500;">Students</span>
+                </h2>
+                <ol class="custom-ol para1 pb-3">
+                    <li>Students can work as student guides and assist juniors or weaker students.</li>
+                    <li>Students can work as call centre assistants and assist students in their admission.</li>
+                    <li>Students can work as library assistants and help in the day-to-day working of the library.</li>
+                    <li>Students can work as front office assistants and guide visitors.</li>
+                </ol>
+
+                <h2 class="headd2 fw-bold" style="color: #264273; font-weight: 800;">
+                    Eligibility
+                </h2>
+                <ol class="custom-ol para1 pb-4">
+                    <li>The intending student will have to approach the Department of Branding & Communication, seeking
+                        their work interest.</li>
+                    <li>Upon checking their profile and skill areas, they might have to appear for an interview with the
+                        Senior Management.</li>
+                    <li>Students may be asked to submit additional documents during the application review.</li>
+                </ol>
+
+                <hr>
+
+                <h2 class="headd3 fw-bold" style="color: #264273;">
+                    For any support or guidance, international students (present or future) can connect with:
+                </h2>
+
+            </section>
+
+            <section style="border-bottom: 4px solid #1f3b6f;">
+                <div class="contact-section">
+
+                    <div class="contact-icon">
+                        <img style="width: 120px; height: 100%;" src="mobile-assets/intern-oncaampus-job/telephone-call.png"
+                            alt="Phone Icon">
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="contact-title">Contact:</div>
+                        <div class="contact-details">
+                            Ms. Gurpreet Kaur Anand, Deputy Director, The Office of International Affairs
+                        </div>
+                        <div class="contact-bold">Ph. no: +91 9864049818</div>
+                        <div class="contact-bold">Email: gkanand@rgu.ac</div>
+                    </div>
+
+                </div>
+            </section>
+
+        </section>
+
     </div>
-    <!--End About-->
-</div><!-- #page -->
 @endsection

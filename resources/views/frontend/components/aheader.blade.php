@@ -371,32 +371,32 @@
                                                             <a href="international-fee-structure.html" onClick="return true">COURSE FEE</a>
                                                         </li>
                                                         <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="international-faq.html" onClick="return true">FAQ'S</a>
+                                                            <a href="{{ route('international-faq') }}" onClick="return true">FAQ'S</a>
                                                         </li>
                                                         <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="international-frro-process.html" onClick="return true">FRRO PROCESS</a>
+                                                            <a href="{{ route('frro-process') }}" onClick="return true">FRRO PROCESS</a>
                                                         </li>
                                                         <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="international-how-to-apply.html" onClick="return true">HOW TO APPLY ?</a>
+                                                            <a href="{{ route('how-to-apply-international') }}" onClick="return true">HOW TO APPLY ?</a>
                                                         </li>
                                                         <li id="menu-item-2213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2213">
-                                                            <a href="international-student-helpline.html" onClick="return true">INTERNATIONAL STUDENT HELPLINE</a>
+                                                            <a href="{{ route('international-student-helpline') }}" onClick="return true">INTERNATIONAL STUDENT HELPLINE</a>
                                                         </li>
                                                         <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="international-campus-job.html" onClick="return true">ON CAMPUS JOBS</a>
+                                                            <a href="{{ route('campus-job') }}" onClick="return true">ON CAMPUS JOBS</a>
                                                         </li>
                                                         <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="international-arrival.html" onClick="return true">PRE-ARRIVAL,
+                                                            <a href="{{ route('pre-arrival') }}" onClick="return true">PRE-ARRIVAL,
                                                             POST-ARRIVAL</a>
                                                         </li>
                                                         <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="international-scholarships.html" onClick="return true">SCHOLARSHIP FOR INTERNATIONAL STUDENTS</a>
+                                                            <a href="{{ route('scholarships-international') }}" onClick="return true">SCHOLARSHIP FOR INTERNATIONAL STUDENTS</a>
                                                         </li>
                                                         <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="international-visa-info.html" onClick="return true">VISA INFORMATION</a>
+                                                            <a href="{{ route('visa-information') }}" onClick="return true">VISA INFORMATION</a>
                                                         </li>
                                                         <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="international-why-india.html" onClick="return true">WHY INDIA ?</a>
+                                                            <a href="{{ route('why-india') }}" onClick="return true">WHY INDIA ?</a>
                                                         </li>
                                                     </ul>
                                                 </li>
