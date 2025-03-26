@@ -1,0 +1,189 @@
+@extends('frontend.master')
+@section('content')
+    <div id="page" class="site site_wrapper">
+
+        <div class="scroll-top">
+            <div class="scroll-top-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
+                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+
+        @include('frontend/components/aheader')
+
+        <!--About Section-->
+        <div class="prthalign pt-4">
+
+            <h1 style="font-weight: 600;" class="headd1 text-dark kd-title-ani kd-split-text text-center">
+                Royal School of Fashion Design & Technology (RSFT)</h1>
+        </div>
+
+        <div class="container my-4">
+            <!-- First Row of Cards -->
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card"
+                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
+                        <a href="HariPrasadAgarwal.html">
+                            <img src="assets/img/Faculty/Fashion Design/RSA.015.jpeg" class="card-img-top p-2"
+                                style="border-radius: 10px;" alt="Card Image">
+                            <div class="card-body">
+                                <h5 class="card-title headd3 fw-bold text-dark">
+                                    Prof. (Dr.) Hari Prasad Agarwal
+                                </h5>
+                                <hr>
+
+                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
+                                    Professor & Principal, Royal School of Architecture and Dean, Royal School of
+                                    Design/Royal School of Fashion Design & Technology/Royal School of Fine Arts
+                                </p>
+                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
+                                    <div class="para1 fw-bold text-center text-dark">hpagarwal@rgu.ac</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card"
+                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
+                        <a href="Mr.AsifMazid.html">
+                            <img src="assets/img/Faculty/Fashion Design/RSFT.001.jpeg" class="card-img-top p-2"
+                                style="border-radius: 10px;" alt="Card Image">
+                            <div class="card-body" style="min-height: 160px;">
+                                <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Mr. Asif Mazid
+                                </h5>
+                                <hr>
+                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
+                                    Assistant Professor & Coordinator & Assistant Dean, Admission Cell
+                                </p>
+                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 60px;">
+                                    <div class="para1 fw-bold text-center text-dark"><i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card"
+                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
+                        <a href="Ms.AkritiMazumdar.html">
+                            <img src="assets/img/Faculty/Fashion Design/RSFT.002.jpeg" class="card-img-top p-2"
+                                style="border-radius: 10px;" alt="Card Image">
+                            <div class="card-body" style="min-height: 180px;">
+                                <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Ms. Akriti
+                                    Mazumdar
+                                </h5>
+                                <hr>
+                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
+                                    Assistant Professor
+                                </p>
+                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 80px;">
+                                    <div class="para1 fw-bold text-center text-dark">amazumdar@rgu.ac
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card"
+                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
+                        <a href="Ms.ArunivaBhagwati.html">
+                            <img src="assets/img/Faculty/Fashion Design/ARUNIVABHAGAWATI.jpeg" class="card-img-top p-2"
+                                style="border-radius: 10px;" alt="Card Image">
+                            <div class="card-body" style="min-height: 180px;">
+                                <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Ms. Aruniva
+                                    Bhagwati
+                                </h5>
+                                <hr>
+                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
+                                    Assistant Professor
+                                </p>
+                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 80px;">
+                                    <div class="para1 fw-bold text-center text-dark">abhagwati@rgu.ac
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Second Row of Cards -->
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <div class="card"
+                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
+                        <a href="Ms.GazalaAnjumGoney.html">
+                            <img src="assets/img/Faculty/Fashion Design/RSFT.003.jpeg" class="card-img-top p-2"
+                                style="border-radius: 10px;" alt="Card Image">
+                            <div class="card-body" style="min-height: 112px;">
+                                <h5 style="font-size: 19px;" class="card-title headd3 fw-bold text-dark">Ms. Gazala Anjum Goney
+                                </h5>
+                                <hr>
+                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
+                                    Assistant Professor
+                                </p>
+                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
+                                    <div class="para1 fw-bold text-center text-dark">gazala_202@yahoo.co.in
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card"
+                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
+                        <a href="Ms.PubikaMichong.html">
+                            <img src="assets/img/Faculty/Fashion Design/RSFT.005.jpeg" class="card-img-top p-2"
+                                style="border-radius: 10px;" alt="Card Image">
+                            <div class="card-body">
+                                <h5 class="card-title headd3 fw-bold text-dark">Ms. Pubika Michong
+                                </h5>
+                                <hr>
+                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
+                                    Assistant Professor & Departmental Representative, Academic Affairs
+                                </p>
+                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
+                                    <div class="para1 fw-bold text-center text-dark">apixsaw124@gmail.com
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card"
+                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
+                        <a href="Ms.SukritiBaruah.html">
+                            <img src="assets/img/Faculty/Fashion Design/SukritiBaruah.jpeg" class="card-img-top p-2"
+                                style="border-radius: 10px;" alt="Card Image">
+                            <div class="card-body" style="min-height: 112px;">
+                                <h5 class="card-title headd3 fw-bold text-dark">Ms. Sukriti Baruah
+                                </h5>
+                                <hr>
+                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
+                                    Assistant Professor
+                                </p>
+                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
+                                    <div class="para1 fw-bold text-center text-dark">sbaruah@rgu.ac
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        <!--End About-->
+    </div><!-- #page -->
+@endsection

@@ -1,0 +1,765 @@
+.mobile-headd1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    /* 32px */
+    font-weight: 700;
+}
+
+.mobile-headd2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    /* 24px */
+    font-weight: 600;
+}
+
+.mobile-headd3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 500;
+}
+
+.mobile-para1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    /* 16px */
+    font-weight: 400;
+}
+
+.mobile-caption {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    /* 14px */
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cardo;
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url('https://themexriver.com/wp/kadu/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');
+}
+
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+    background-image: none !important;
+}
+
+@media screen and (max-height: 1024px) {
+
+    .mobile {
+        display: none;
+    }
+
+    .website {
+        display: block;
+    }
+
+    .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+    .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+        background-image: none !important;
+    }
+}
+
+@media screen and (max-height: 640px) {
+
+    /* Row styling */
+    .mobile-marquee-row {
+        background: #27467A;
+        padding: 15px 10px;
+    }
+
+    /* Marquee container */
+    .mobile-marquee {
+        white-space: nowrap;
+        display: inline-block;
+        animation: mobile-scroll 10s linear infinite;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffcc7f;
+    }
+
+    /* Keyframes for marquee animation */
+    @keyframes mobile-scroll {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    /* Pause marquee on hover */
+    .mobile-marquee-row:hover .mobile-marquee {
+        animation-play-state: paused;
+    }
+
+    /* Button styling */
+    .mobile-btn {
+        background: #ff9800;
+        color: white;
+        border: none;
+        padding: 6px 14px;
+        font-weight: 700;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    /* Button hover effect */
+    .mobile-btn:hover {
+        background: #e68900;
+    }
+
+    /* Responsive: Stack marquee and button in mobile */
+    @media (max-width: 576px) {
+        .mobile-marquee-row {
+            text-align: center;
+        }
+
+        .mobile-marquee {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .mobile-btn {
+            width: 100%;
+        }
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .mobile-image-slider {
+        position: absolute;
+        top: 60vh;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 360px;
+    }
+
+    .mobile-admission-banner {
+        position: absolute;
+        top: 25vh;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 360px;
+    }
+
+
+    .website {
+        display: none;
+    }
+
+    .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+    .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+        background-image: none !important;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* Row styling */
+    .mobile-marquee-row {
+        background: #27467A;
+        padding: 15px 10px;
+    }
+
+    /* Marquee container */
+    .mobile-marquee {
+        white-space: nowrap;
+        display: inline-block;
+        animation: mobile-scroll 10s linear infinite;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffcc7f;
+    }
+
+    /* Keyframes for marquee animation */
+    @keyframes mobile-scroll {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    /* Pause marquee on hover */
+    .mobile-marquee-row:hover .mobile-marquee {
+        animation-play-state: paused;
+    }
+
+    /* Button styling */
+    .mobile-btn {
+        background: #ff9800;
+        color: white;
+        border: none;
+        padding: 6px 14px;
+        font-weight: 700;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    /* Button hover effect */
+    .mobile-btn:hover {
+        background: #e68900;
+    }
+
+    /* Responsive: Stack marquee and button in mobile */
+    @media (max-width: 576px) {
+        .mobile-marquee-row {
+            text-align: center;
+        }
+
+        .mobile-marquee {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .mobile-btn {
+            width: 100%;
+        }
+    }
+
+
+
+    /* Ensure proper fit inside the screen */
+    .mobile-slider-container {
+        padding: 10px;
+        max-width: 95%;
+        margin: auto;
+    }
+
+    /* Make images responsive */
+    .mobile-carousel-inner img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Hide default Bootstrap carousel indicators */
+    .carousel-indicators {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .mobile-image-slider {
+        position: absolute;
+        top: 35vh;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 360px;
+    }
+
+    .mobile-admission-banner {
+        position: absolute;
+        top: 25vh;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 360px;
+    }
+
+
+    .website {
+        display: none;
+    }
+
+    .video-container {
+        z-index: -100;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+    .carousel-container {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 70%;
+        /* Set a max-width for a balanced layout */
+        margin: auto;
+        /* Center align */
+        z-index: 1;
+
+    }
+
+}
+
+.whatsapp-float {
+    position: fixed;
+    top: 75%;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #25D366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-50%);
+    border-radius: 0 5px 5px 0;
+    /* Slightly rounded right side */
+}
+
+.whatsapp-float:hover {
+    transform: translateY(-50%) scale(1.1);
+}
+
+.whatsapp-float img {
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width: 768px) {
+    .whatsapp-float {
+        width: 45px;
+        height: 50px;
+    }
+
+    .whatsapp-float img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background 0.3s ease;
+}
+
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.menu-toggle {
+    background: #27467A;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.call-icon {
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.menu {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background: #fff;
+    overflow-y: auto;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu.open {
+    transform: translateX(0);
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.submenu {
+    display: none;
+    padding-left: 10px;
+}
+
+.submenu li {
+    border-bottom: 1px solid #888;
+}
+
+.close-menu {
+    display: none;
+    position: absolute;
+    right: 20px;
+    background: #27467A;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.menu.open .close-menu {
+    display: block;
+}
+
+.mobile-video video {
+    pointer-events: none;
+}
+
+
+/* Mobile (Up to 767px) */
+@media only screen and (max-width: 767px) {
+    .website {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
+
+/* Tablet (768px - 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS rules for tablets */
+    .website {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
+
+/* Laptop (1025px - 1280px) */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS rules for laptops */
+    .website {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+/* Desktop (1281px and above) */
+@media only screen and (min-width: 1281px) {
+
+    /* CSS rules for desktops */
+    .website {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+
+.mobile-headd1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.3rem;
+    /* 32px */
+    font-weight: 700;
+}
+
+.mobile-headd2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    /* 24px */
+    font-weight: 600;
+}
+
+.mobile-headd3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 500;
+}
+
+.mobile-para1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    /* 16px */
+    font-weight: 400;
+
+}
+
+.mobile-caption {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    /* 14px */
+    font-weight: 400;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shiny-button {
+    position: relative;
+    display: inline-block;
+    padding: 15px 40px;
+    text-align: center;
+    background-color: orange;
+    /* Keep the button background orange */
+    color: white;
+    /* Ensure text remains visible */
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    overflow: hidden;
+    /* Keep the shine effect inside the button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth scaling and shadow effect */
+}
+
+.shiny-button a {
+    position: relative;
+    color: white;
+    /* Keep text white */
+    text-decoration: none;
+    z-index: 2;
+    /* Ensure text is above the shine effect */
+}
+
+.shiny-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    /* Start shine outside the button */
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(120deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.6) 50%,
+            rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+    /* Shine is below the text */
+    transform: translateX(-100%);
+    animation: shine 2s linear infinite;
+    /* Continuous animation */
+}
+
+@keyframes shine {
+    0% {
+        transform: translateX(-150%);
+    }
+
+    100% {
+        transform: translateX(150%);
+    }
+}
+
+.shiny-button:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge the button on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    /* Add a stronger shadow effect */
+}
+
+/* Prevent hover from changing background or text */
+.shiny-button:hover::before,
+.shiny-button:hover {
+    background-color: orange;
+    /* Retain the orange background */
+    color: white;
+    /* Keep text color white */
+}
+
+
+@keyframes uniqueSlides {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.unique_logos {
+    overflow: hidden;
+    padding: 10px 0px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.unique_logos:before,
+.unique_logos:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+}
+
+.unique_logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(254, 245, 230));
+}
+
+.unique_logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(254, 245, 230));
+}
+
+.unique_logo_items {
+    display: inline-block;
+    animation: 35s uniqueSlides infinite linear;
+}
+
+.unique_logos:hover .unique_logo_items {
+    animation-play-state: paused;
+}
+
+.unique_logo_items img {
+    height: 800px;
+}
+
+@keyframes uniqueSlides {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.mobile-unique_logos {
+    overflow: hidden;
+    padding: 10px 0px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.mobile-unique_logos:before,
+.mobile-unique_logos:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 150px;
+    height: 100%;
+    z-index: 2;
+}
+
+.mobile-unique_logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 247, 232));
+}
+
+.mobile-unique_logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 247, 232));
+}
+
+.mobile-unique_logo_items {
+    display: inline-block;
+    animation: 20s uniqueSlides infinite linear;
+}
+
+.mobile-unique_logos:hover .mobile-unique_logo_items {
+    animation-play-state: running;
+}
+
+.mobile-unique_logo_items img {
+    height: 80px;
+    padding-right: 25px;
+}
+
+.headd1 {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 45px;
+}
+
+.headd2 {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 22px;
+}
+
+.para1 {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px;
+}
+
+.headd3 {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 22px;
+}
+
+ /* Custom styles for the Details button */
+ .custom-details-btn {
+     background-color: #13223b;
+     color: #fff;
+     border-radius: 10px;
+     /* Rounded corners */
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     /* Subtle shadow for depth */
+     font-weight: bold;
+     /* Make the text stand out */
+     font-size: 20px;
+     /* Better spacing */
+     transition: all 0.3s ease;
+     /* Smooth hover effect */
+ }
+
+ /* Hover effect */
+ .custom-details-btn:hover {
+     background-color: #264273;
+     /* Slightly darker blue */
+     transform: translateY(-2px);
+     /* Lift the button slightly */
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+     /* Stronger shadow on hover */
+ }
+
+ /* Active (pressed) effect */
+ .custom-details-btn:active {
+     transform: translateY(1px);
+     /* Slightly sink the button */
+     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+     /* Reduced shadow */
+ }
+
