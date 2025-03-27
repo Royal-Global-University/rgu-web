@@ -706,7 +706,7 @@
             </div>
         </div>
 
-        <div class="container pb-5 pt-4">
+        <div class="p-5">
             <div class="row pb-2 text-center" style="align-items: center">
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
                     <a href="admission-how-to-apply.html" class="btn text-white mt-2 p-3 rounded" style="
