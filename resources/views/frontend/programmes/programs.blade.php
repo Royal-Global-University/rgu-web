@@ -17,7 +17,7 @@
 
         <!--About Section-->
         <div>
-            <img src="assets/img/admission-programmes/fhead.svg" alt="">
+            <img src="sarang/admission/programmes.png" alt="">
         </div>
 
         <section style="background-color: #f2f2f2;" class="pt-5">
@@ -175,24 +175,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="physics_lab.html"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Physics Lab</p>
-                                            <p class="text-center text-white para1">Click to view</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="chemistry_lab.html"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Chemistry Lab</p>
-                                            <p class="text-center text-white para1">Click to view</p>
-                                        </div>
-                                    </a>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -220,15 +203,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-3">
-                                    <a href="architecture-lab.html"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Architecture Design Lab</p>
-                                            <p class="text-center text-white para1">Click to view</p>
-                                        </div>
-                                    </a>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -449,24 +424,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="/biotech.html"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bio-Tech Lab</p>
-                                            <p class="text-center text-white para1">Click to view</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="/bioscience.html"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Biosciences Research Lab</p>
-                                            <p class="text-center text-white para1">Click to view</p>
-                                        </div>
-                                    </a>
-                                </div>
+
                             </div>
                         </div>
 
@@ -1005,7 +963,7 @@
                                     <a href="programs-M.Tech.CE in-Structural-Engineering.html"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Structure Engineering</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Structural Engineering</p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
                                     </a>
@@ -1470,7 +1428,7 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">BA - Economics</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEPs</p>
+                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
                                         </div>
                                     </a>
                                 </div>
@@ -1845,7 +1803,7 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">LLM Morning Shift</p>
-                                            <p class="text-center text-white para1">1 Years</p>
+                                            <p class="text-center text-white para1">1 Year</p>
                                         </div>
                                     </a>
                                 </div>
@@ -1854,7 +1812,7 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">LLM Day Shift</p>
-                                            <p class="text-center text-white para1">1 Years</p>
+                                            <p class="text-center text-white para1">1 Year</p>
                                         </div>
                                     </a>
                                 </div>
@@ -1869,7 +1827,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3">
-                                    <a href="programBA-LLB-(Hons).html"
+                                    <a href="programLLB.html"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">LLB - (Hons.)</p>
@@ -2075,7 +2033,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3">
-                                    <a href="programs-M.Sc.-MedicalLaboratory.html"
+                                    <a href="programs-M.Sc.-MedicalLaboratory(MMLT).html"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Medical Laboratory Technology
@@ -2175,7 +2133,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
-                                    <a href="programs-B.Sc.Nursing.html"
+                                    <a href="programs-B.Sc.-Nutrition.html"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Nutrition and Dietetics</p>
@@ -2549,8 +2507,11 @@
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
+
             </div>
         </section>
 
