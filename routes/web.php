@@ -254,9 +254,9 @@ Route::get('/facilities-transportation', function () {
     return view('frontend/facilities/facilities-transportation');
 })->name('facilities-transportation');
 
-Route::get('/facilities-diagnostic_lab', function () {
-    return view('frontend/facilities/facilties-diagnostic_lab');
-})->name('facilities-diagnostic_lab');
+Route::get('/facilities-diagnostic', function () {
+    return view('frontend/facilities/facilities-diagnostic');
+})->name('facilities-diagnostic');
 
 Route::get('/facilities-museum', function () {
     return view('frontend/facilities/facilities-museum');
@@ -270,9 +270,13 @@ Route::get('/facilities-security', function () {
     return view('frontend/facilities/facilities-security');
 })->name('facilities-security');
 
+Route::get('/facilities-legal-aid', function () {
+    return view('frontend/facilities/facilities-legal-aid');
+})->name('facilities-legal-aid');
+
 //End All Facilities
 
-//All Labs 
+//All Labs
 
 Route::get('/lab-architecture', function () {
     return view('frontend/alllabs/lab-architecture');
