@@ -1083,7 +1083,7 @@
 
                             <div class="video-container">
                                 <video autoplay loop muted id="video-bg">
-                                    <source src="mobile-assets/index/headvid.mp4" type="video/mp4">
+                                    <source src="v-2.mp4" type="video/mp4">
                                 </video>
                             </div>
                         </div>
