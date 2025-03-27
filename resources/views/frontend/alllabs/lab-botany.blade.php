@@ -1,23 +1,22 @@
 @extends('frontend.master')
 @section('content')
-    <div id="page" class="site site_wrapper">
-
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
-            </div>
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px; position: relative;">
+            <img src="mobile-assets/lab-botany/mobileBotanyLab.png" alt="">
         </div>
+    </div>
 
+
+    <div class="website">
+
+        <!--Start Header-->
         @include('frontend/components/aheader')
+        <!--End Header-->
 
-        <!--About Section-->
+
         <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section style="padding-top: 30px; background-image: url(assets/img/all_lab/Botany/background.svg);"
+            <section style="padding-top: 30px; background-image: url(mobile-assets/lab-botany/background.svg);"
                 class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f481aaf" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -28,8 +27,9 @@
                                 data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
                                 <div class="elementor-widget-container">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="assets/img/all_lab/Botany/headimg1.JPG" alt="">
+                                        <div style="border: 2px solid #fff;"
+                                            class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                            <img decoding="async" src="mobile-assets/lab-botany/headimg1.JPG" alt="">
                                         </div>
 
                                     </div>
@@ -50,11 +50,11 @@
 
                                         <p class="text-dark para1" style="text-align: justify;">
                                             The botany lab is equipped with all the necessary infrastructure required by
-                                            students to carry out experiments to study the structure, properties and biochemical
-                                            processes of all forms of plant life. The Department of Botany provides its students
-                                            with a broad knowledge of botany and equips them with the tools and drive to conduct
-                                            original independent research in the discipline of plant sciences. The lab is in
-                                            block- D in room no- D201 on the second floor.
+                                            students to carry out experiments to study the structure, properties and
+                                            biochemical processes of all forms of plant life. The Department of Botany
+                                            provides its students with a broad knowledge of botany and equips them with the
+                                            tools and drive to conduct original independent research in the discipline of
+                                            plant sciences. The lab is in block- D in room no- D201 on the second floor.
                                         </p>
                                         <div class="headd3 text-dark fw-bold pb-3">Included In The Lab Are:
                                         </div>
@@ -89,14 +89,15 @@
 
             <hr>
 
+            <img src="mobile-assets/lab-botany/BotanyLab.png" alt="">
+
             <div class="container-fluid pb-4" style="padding: 0px 50px;">
-                <div class="headd2 text-dark fw-bold mt-4 kd-title-ani kd-split-text text-center">Glimpse of Our Lab
-                </div>
+
 
                 <div class="row pt-3">
 
                     <div class="col-lg-6">
-                        <img class="rounded" src="assets/img/all_lab/Botany/41.png" alt="">
+                        <img class="rounded" src="mobile-assets/lab-botany/41.png" alt="">
                     </div>
 
                     <div class="col-lg-6">
@@ -110,10 +111,7 @@
 
                     </div>
                 </div>
-
             </div>
-
         </div>
-        <!--End About-->
-    </div><!-- #page -->
+    </div>
 @endsection

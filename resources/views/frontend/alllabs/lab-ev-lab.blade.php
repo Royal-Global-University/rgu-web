@@ -1,23 +1,20 @@
 @extends('frontend.master')
 @section('content')
-    <div id="page" class="site site_wrapper">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px; position: relative;">
 
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
-            </div>
+            <img src="mobile-assets/lab-ev/mobileElectricVehicleCentre.png" alt="">
         </div>
+    </div>
 
+    <div class="website">
+        <!--Start Header-->
         @include('frontend/components/aheader')
+        <!--End Header-->
 
-        <!--About Section-->
         <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section style="padding-top: 30px; background-image: url(assets/img/all_lab/ev-lab/background.svg);"
+            <section style="padding-top: 30px; background-image: url(mobile-assets/lab-ev/background.svg);"
                 class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f481aaf" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -28,8 +25,9 @@
                                 data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
                                 <div class="elementor-widget-container">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="assets/img/all_lab/ev-lab/headimg.jpg" alt="">
+                                        <div style="border: 2px solid #fff;"
+                                            class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                            <img decoding="async" src="mobile-assets/lab-ev/headimg.jpg" alt="">
                                         </div>
 
                                     </div>
@@ -49,8 +47,8 @@
                                             Electric Vehicle Centre</h1>
 
                                         <p class="text-dark para1" style="text-align: justify;">
-                                            The state-of-the-art Electric Vehicle Centre of Excellence at The Assam Royal Global
-                                            University,
+                                            The state-of-the-art Electric Vehicle Centre of Excellence at The Assam Royal
+                                            Global University,
                                             established to nurture the next generation of innovators, engineers, and
                                             professionals in the rapidly
                                             advancing field of electric mobility. This premier facility, developed in
@@ -76,23 +74,23 @@
                 </div>
                 <ol class="para1 text-dark text-justify">
                     <li><span style="font-weight: bold;">4-Wheeler E-Buggy Simulator:</span> A fully functional simulator
-                        enabling in-depth understanding of EV systems, including drivetrain, battery integration, and control
-                        mechanisms.</li>
-                    <li><span style="font-weight: bold;">Electric Vehicle BLDC Motor Drivetrain Module:</span> A comprehensive
-                        training setup that offers insights into the functioning and optimization of brushless DC motor
-                        drivetrains.</li>
-                    <li><span style="font-weight: bold;">Advanced EV Circuit and Wiring Boards:</span> Illuminated, interactive
-                        models designed to simplify complex EV wiring systems and enhance practical understanding of component
-                        interconnections.</li>
+                        enabling in-depth understanding of EV systems, including drivetrain, battery integration, and
+                        control mechanisms.</li>
+                    <li><span style="font-weight: bold;">Electric Vehicle BLDC Motor Drivetrain Module:</span> A
+                        comprehensive training setup that offers insights into the functioning and optimization of brushless
+                        DC motor drivetrains.</li>
+                    <li><span style="font-weight: bold;">Advanced EV Circuit and Wiring Boards:</span> Illuminated,
+                        interactive models designed to simplify complex EV wiring systems and enhance practical
+                        understanding of component interconnections.</li>
                     <li><span style="font-weight: bold;">Battery Pack Manufacturing Station:</span> A dedicated setup for
-                        learning and practicing the assembly, testing, and optimization of EV battery packs, equipping learners
-                        with critical skills in energy storage systems.</li>
+                        learning and practicing the assembly, testing, and optimization of EV battery packs, equipping
+                        learners with critical skills in energy storage systems.</li>
                     <li><span style="font-weight: bold;">Electric Vehicle Design and Analysis:</span> Advanced tools and
-                        software that facilitate the conceptualization, modeling, and simulation of electric vehicle components,
-                        enabling learners to develop and test innovative designs.</li>
+                        software that facilitate the conceptualization, modeling, and simulation of electric vehicle
+                        components, enabling learners to develop and test innovative designs.</li>
                     <li><span style="font-weight: bold;">Professional Training Infrastructure:</span> Cutting-edge tools and
-                        resources tailored for university students, external learners, and industry professionals, ensuring a
-                        versatile and inclusive learning environment.</li>
+                        resources tailored for university students, external learners, and industry professionals, ensuring
+                        a versatile and inclusive learning environment.</li>
                 </ol>
 
                 <div class="headd3 text-dark fw-bold mt-4">Vision and Mission:
@@ -104,8 +102,8 @@
                 </p>
 
                 <ol class="para1 text-dark text-justify">
-                    <li><span style="font-weight: bold;">Cultivate a skilled workforce:</span> Equipped to meet the demands of
-                        the burgeoning EV industry.</li>
+                    <li><span style="font-weight: bold;">Cultivate a skilled workforce:</span> Equipped to meet the demands
+                        of the burgeoning EV industry.</li>
                     <li><span style="font-weight: bold;">Serve as a hub:</span> For research, innovation, and development in
                         sustainable transportation technologies.</li>
                     <li><span style="font-weight: bold;">Provide industry-aligned training:</span> To empower students and
@@ -114,16 +112,9 @@
 
             </div>
 
-            <div style="padding: 30px 50px; background-color: #fff;">
-                <div class="headd2 text-center text-dark fw-bold kd-title-ani kd-split-text">Glimpse of Our Lab
-                </div>
 
-                <div class="pt-3 pb-4">
-                    <img src="assets/img/all_lab/ev-lab/gallery1.svg" />
-                </div>
-            </div>
+            <img src="mobile-assets/lab-ev/ElectricVehicleCentre.png" alt="">
 
         </div>
-        <!--End About-->
-    </div><!-- #page -->
+    </div>
 @endsection

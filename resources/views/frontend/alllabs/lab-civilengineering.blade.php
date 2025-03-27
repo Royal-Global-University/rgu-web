@@ -1,23 +1,21 @@
 @extends('frontend.master')
 @section('content')
-    <div id="page" class="site site_wrapper">
-
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
-            </div>
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px; position: relative;">
+            <img src="mobile-assets/lab-engineering/mobileCivilEngineeringLab.png" alt="">
         </div>
+    </div>
 
+
+    <div class="website">
+
+        <!--Start Header-->
         @include('frontend/components/aheader')
+        <!--End Header-->
 
-        <!--About Section-->
         <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section style="padding-top: 30px; background-image: url(assets/img/all_lab/civil/background.svg);"
+            <section style="padding-top: 30px; background-image: url(mobile-assets/lab-engineering/background.svg);"
                 class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f481aaf" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -28,8 +26,9 @@
                                 data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
                                 <div class="elementor-widget-container">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="assets/img/all_lab/civil/headimg.png" alt="">
+                                        <div style="border: 2px solid #fff;"
+                                            class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                            <img decoding="async" src="mobile-assets/lab-engineering/headimg.png" alt="">
                                         </div>
 
                                     </div>
@@ -51,10 +50,10 @@
 
                                         <p class="text-dark para1" style="text-align: justify;">
                                             The Civil Engineering Lab at our university covers a wide range of cement, rock,
-                                            soil, marble, tiles, asphalt and other construction materials. The lab is equipped
-                                            with the latest engineering instruments which are extensively used by students to
-                                            design, analyse and simulate physical and environmental systems. The laboratory is
-                                            in Block- C on the ground floor.
+                                            soil, marble, tiles, asphalt and other construction materials. The lab is
+                                            equipped with the latest engineering instruments which are extensively used by
+                                            students to design, analyse and simulate physical and environmental systems. The
+                                            laboratory is in Block- C on the ground floor.
                                         </p>
 
 
@@ -110,7 +109,8 @@
                                     <li>Voids filled with asphalt</li>
                                 </ol>
                             </li>
-                            <li>Lightweight pieces, shell content, clay lumps & friable particles in the aggregate sample</li>
+                            <li>Lightweight pieces, shell content, clay lumps & friable particles in the aggregate sample
+                            </li>
                             <li>
                                 Soil testing:
                                 <ol type="a">
@@ -146,10 +146,12 @@
 
             </div>
 
-            <div class="container-fluid mt-4 mb-5" style="padding: 0px 50px;">
 
-                <div class="headd2 text-dark fw-bold pb-3 text-center kd-title-ani kd-split-text">Glimpse of Our Lab
-                </div>
+
+            <div class="container-fluid mt-2 mb-5" style="padding: 0px 50px;">
+
+
+                <img src="mobile-assets/lab-engineering/CivilEngineeringLab.png" alt="">
 
                 <div class="row" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
 
@@ -162,6 +164,5 @@
             </div>
 
         </div>
-        <!--End About-->
-    </div><!-- #page -->
+    </div>
 @endsection

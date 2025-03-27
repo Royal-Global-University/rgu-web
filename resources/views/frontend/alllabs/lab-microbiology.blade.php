@@ -1,23 +1,20 @@
 @extends('frontend.master')
 @section('content')
-    <div id="page" class="site site_wrapper">
-
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
-            </div>
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px; position: relative;">
+            <img src="mobile-assets/lab-microbio/mobileMicrobiologyLab.png" alt="">
         </div>
+    </div>
 
+    <div class="website">
+        <!--Start Header-->
         @include('frontend/components/aheader')
+        <!--End Header-->
 
-        <!--About Section-->
+
         <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section style="padding-top: 30px; background-image: url(assets/img/all_lab/micro-biology/background.svg);"
+            <section style="padding-top: 30px; background-image: url(mobile-assets/lab-microbio/background.svg);"
                 class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f481aaf" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -28,8 +25,9 @@
                                 data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
                                 <div class="elementor-widget-container">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="assets/img/all_lab/micro-biology/headimg.JPG" alt="">
+                                        <div style="border: 2px solid #fff;"
+                                            class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                            <img decoding="async" src="mobile-assets/lab-microbio/headimg.JPG" alt="">
                                         </div>
 
                                     </div>
@@ -51,11 +49,12 @@
 
                                         <p class="text-dark para1" style="text-align: justify;">
                                             The Microbiology lab is one of the many labs at Royal Global University. The
-                                            laboratory caters to both undergraduate and postgraduate students of the department.
-                                            The microbiology laboratory is devoted to the culturing, examination, and
-                                            identification of microorganisms including bacteria, fungi, yeasts, etc. The lab is
-                                            supervised by experts with proper educational qualifications and training. The lab
-                                            is in block- D in room No. D202 on the second floor.
+                                            laboratory caters to both undergraduate and postgraduate students of the
+                                            department. The microbiology laboratory is devoted to the culturing,
+                                            examination, and identification of microorganisms including bacteria, fungi,
+                                            yeasts, etc. The lab is supervised by experts with proper educational
+                                            qualifications and training. The lab is in block- D in room No. D202 on the
+                                            second floor.
                                         </p>
 
                                     </div>
@@ -71,8 +70,8 @@
             <div class="custom-row">
                 <div class="custom-column p-4">
 
-                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Included In
-                        The Lab Are:
+                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Included
+                        In The Lab Are:
                     </h2>
                     <hr>
                     <ol>
@@ -103,34 +102,28 @@
 
                 <div class="custom-column p-4">
 
-                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Lab Activities
-                        Includes:
+                    <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Lab
+                        Activities Includes:
                     </h2>
                     <hr>
                     <ol>
-                        <li class="para1 text-dark">Isolation and identification of industrially important microorganisms</li>
-                        <li class="para1 text-dark">Effect of various parameters on the growth curve of bacteria and yeast</li>
-                        <li class="para1 text-dark">Application of replica plate and gradient plate technique on the isolation
-                            of antibiotic-resistant mutants</li>
+                        <li class="para1 text-dark">Isolation and identification of industrially important microorganisms
+                        </li>
+                        <li class="para1 text-dark">Effect of various parameters on the growth curve of bacteria and yeast
+                        </li>
+                        <li class="para1 text-dark">Application of replica plate and gradient plate technique on the
+                            isolation of antibiotic-resistant mutants</li>
                         <li class="para1 text-dark">Microbiological quality of processed food like milk, dehydrated food and
                             spoiled food</li>
-                        <li class="para1 text-dark">Batch fermentation in shake flakes, alcohol production from fruits, enzyme
-                            immobilization techniques etc</li>
+                        <li class="para1 text-dark">Batch fermentation in shake flakes, alcohol production from fruits,
+                            enzyme immobilization techniques etc</li>
                     </ol>
                 </div>
             </div>
+
         </div>
 
-        <div style="padding: 20px 45px; background-color: #fff;">
-            <p class="text-dark headd2 text-center fw-bold kd-title-ani kd-split-text p-2">Glimpse of Our Lab
-            </p>
-            <div class="row">
-                <div class="col-lg-12">
-                    <img src="assets/img/all_lab/micro-biology/gallery1.png" alt="">
-                </div>
-            </div>
-        </div>
 
-        <!--End About-->
-    </div><!-- #page -->
+        <img src="mobile-assets/lab-microbio/MicrobiologyLab.png" alt="">
+    </div>
 @endsection

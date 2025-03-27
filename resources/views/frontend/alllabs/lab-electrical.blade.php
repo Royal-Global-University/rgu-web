@@ -1,23 +1,20 @@
 @extends('frontend.master')
 @section('content')
-    <div id="page" class="site site_wrapper">
-
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
-            </div>
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px; position: relative;">
+            <img src="mobile-assets/lab-electrical/mobileElectricalLab.png" alt="">
         </div>
+    </div>
 
+    <div class="website">
+        <!--Start Header-->
         @include('frontend/components/aheader')
+        <!--End Header-->
 
-        <!--About Section-->
+
         <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section style="padding-top: 30px; background-image: url(assets/img/all_lab/Electrical-Lab/background.svg);"
+            <section style="padding-top: 30px; background-image: url(mobile-assets/lab-electrical/background.svg);"
                 class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f481aaf" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -28,8 +25,9 @@
                                 data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
                                 <div class="elementor-widget-container">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="assets/img/all_lab/Electrical-Lab/headimg.JPG" alt="">
+                                        <div style="border: 2px solid #fff;"
+                                            class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                            <img decoding="async" src="mobile-assets/lab-electrical/headimg.JPG" alt="">
                                         </div>
 
                                     </div>
@@ -52,11 +50,11 @@
                                         <p class="text-dark para1" style="text-align: justify;">
                                             The Electrical engineering lab is an up-to-date facility designed to provide
                                             students with real-life experience in operating professional standard equipment
-                                            employed in industries. The laboratory is equipped with a three-phase variable power
-                                            supply, three-phase fixed supply and high voltage variable DC power supply, enabling
-                                            students to conduct various projects and experiments safely. The lab is very
-                                            spacious and can house 40 students and teaching staff. The lab is in block- B in
-                                            room no- B106 on the first floor.
+                                            employed in industries. The laboratory is equipped with a three-phase variable
+                                            power supply, three-phase fixed supply and high voltage variable DC power
+                                            supply, enabling students to conduct various projects and experiments safely.
+                                            The lab is very spacious and can house 40 students and teaching staff. The lab
+                                            is in block- B in room no- B106 on the first floor.
                                         </p>
 
 
@@ -74,8 +72,8 @@
             <div class="custom-container">
                 <div class="custom-row">
                     <div class="custom-column p-4">
-                        <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Some Major
-                            Equipment Details:
+                        <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Some
+                            Major Equipment Details:
                         </h2>
                         <hr>
                         <ol>
@@ -114,6 +112,7 @@
                 </div>
             </div>
         </div>
-        <!--End About-->
-    </div><!-- #page -->
+
+        <img src="mobile-assets/lab-electrical/ElectricalLab.png" alt="">
+    </div>
 @endsection

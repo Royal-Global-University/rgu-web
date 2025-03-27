@@ -1,23 +1,20 @@
 @extends('frontend.master')
 @section('content')
-    <div id="page" class="site site_wrapper">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px; position: relative;">
 
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
-            </div>
+            <img src="mobile-assets/lab-mechanical/mobileMechanicalWorkshop.png" alt="">
         </div>
+    </div>
 
+    <div class="website">
+        <!--Start Header-->
         @include('frontend/components/aheader')
+        <!--End Header-->
 
-        <!--About Section-->
         <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section style="padding-top: 30px; background-image: url(assets/img/all_lab/mechanical/background.svg);"
+            <section style="padding-top: 30px; background-image: url(mobile-assets/lab-mechanical/background.svg);"
                 class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f481aaf" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -28,8 +25,9 @@
                                 data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
                                 <div class="elementor-widget-container">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="assets/img/all_lab/mechanical/headimg.JPG" alt="">
+                                        <div style="border: 2px solid #fff;"
+                                            class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                            <img decoding="async" src="mobile-assets/lab-mechanical/headimg.JPG" alt="">
                                         </div>
 
                                     </div>
@@ -50,11 +48,11 @@
                                         </h1>
 
                                         <p class="text-dark para1" style="text-align: justify;">
-                                            The mechanical engineering lab is a huge asset of the university. Our mechanical lab
-                                            has several hand and power tools. The lab has been extensively used for several
-                                            mechanical testing – from research and development to consulting and failure
-                                            analysis. The lab is spacious and can seat 40 students at a time. Students can find
-                                            the lab in Block- C on the ground floor.
+                                            The mechanical engineering lab is a huge asset of the university. Our mechanical
+                                            lab has several hand and power tools. The lab has been extensively used for
+                                            several mechanical testing – from research and development to consulting and
+                                            failure analysis. The lab is spacious and can seat 40 students at a time.
+                                            Students can find the lab in Block- C on the ground floor.
                                         </p>
 
                                     </div>
@@ -65,6 +63,7 @@
                 </div>
             </section>
         </div>
+
 
         <div class="custom-container">
             <div class="custom-row">
@@ -122,21 +121,7 @@
         </div>
 
         <div style="padding: 30px 50px; background-color: #fff;">
-            <p class="text-dark headd2 text-center fw-bold kd-title-ani kd-split-text">Glimpse of our lab
-            </p>
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="assets/img/all_lab/mechanical/1.png" alt="">
-                </div>
-                <div class="col-lg-6">
-                    <iframe class="rounded" width="100%" height="100%"
-                        src="https://www.youtube.com/embed/wpLCUbHpAnM?si=c2FvJKnaW2O8JQmN" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-            </div>
+            <img src="mobile-assets/lab-mechanical/MechanicalWorkshop.png" alt="">
         </div>
-        <!--End About-->
-    </div><!-- #page -->
+    </div>
 @endsection

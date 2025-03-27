@@ -1,23 +1,22 @@
 @extends('frontend.master')
 @section('content')
-    <div id="page" class="site site_wrapper">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px; position: relative;">
 
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
-            </div>
+            <img src="mobile-assets/lab-electronic/mobileElectronicsLab.png" alt="">
         </div>
+    </div>
 
+
+    <div class="website">
+        <!--Start Header-->
         @include('frontend/components/aheader')
+        <!--End Header-->
 
-        <!--About Section-->
+
         <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section style="padding-top: 30px; background-image: url(assets/img/all_lab/Electronic-Lab/background.svg);"
+            <section style="padding-top: 30px; background-image: url(mobile-assets/lab-electronic/background.svg);"
                 class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f481aaf" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -28,8 +27,9 @@
                                 data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
                                 <div class="elementor-widget-container">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="assets/img/all_lab/Electronic-Lab/45.png" alt="">
+                                        <div style="border: 2px solid #fff;"
+                                            class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                            <img decoding="async" src="mobile-assets/lab-electronic/45.png" alt="">
                                         </div>
 
                                     </div>
@@ -51,11 +51,11 @@
 
                                         <p class="text-dark para1" style="text-align: justify;">
                                             The Electronic Engineering Lab is a high-end hardware design and simulation
-                                            platform. The lab technologies give hands on experience in the assembly and testing
-                                            of electronic circuits, testing and understanding of the functions of various
-                                            electronic components, handling and usage procedure of DC power supply, Digital
-                                            Multimeter, Function Generator and CRO. The lab is in block- B in room No. B107 on
-                                            the first floor.
+                                            platform. The lab technologies give hands on experience in the assembly and
+                                            testing of electronic circuits, testing and understanding of the functions of
+                                            various electronic components, handling and usage procedure of DC power supply,
+                                            Digital Multimeter, Function Generator and CRO. The lab is in block- B in room
+                                            No. B107 on the first floor.
                                         </p>
 
 
@@ -70,11 +70,12 @@
 
             <hr>
 
+
             <div class="custom-container">
                 <div class="custom-row">
                     <div class="custom-column">
-                        <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Major Lab
-                            Instruments Includes:
+                        <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Major
+                            Lab Instruments Includes:
                         </h2>
                         <hr>
                         <ol>
@@ -91,20 +92,20 @@
                     </div>
 
                     <div class="custom-column">
-                        <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">Simulation
-                            Software Programs:
+                        <h2 style="color: #0056b3 !important;" class="headd3 fw-bold text-dark text-center pb-2 pt-2">
+                            Simulation Software Programs:
                         </h2>
                         <hr>
                         <ol>
                             <div class="text-center pt-3">
                                 <img class="border border-success rounded shadow-sm" style="width: 300px;"
-                                    src="assets/img/all_lab/Electronic-Lab/MATLAB-Logo.png" alt="">
+                                    src="mobile-assets/lab-electronic/MATLAB-Logo.png" alt="">
                                 <p class="para1 fw-bold text-center text-dark">MATLAB</p>
                             </div>
 
                             <div class="text-center pt-4">
                                 <img class="border border-success rounded shadow-sm" style="width: 300px;"
-                                    src="assets/img/all_lab/Electronic-Lab/pspice.jpg" alt="">
+                                    src="mobile-assets/lab-electronic/pspice.jpg" alt="">
                                 <p class="para1 fw-bold text-center text-dark">PSpice</p>
                             </div>
 
@@ -117,23 +118,23 @@
                         </h2>
                         <hr>
                         <ol>
-                            <li class="para1 text-dark">The test leads and rotary switch must be kept in the correct position
-                                for the desired measurement.</li>
+                            <li class="para1 text-dark">The test leads and rotary switch must be kept in the correct
+                                position for the desired measurement.</li>
                             <li class="para1 text-dark">The meter should not be used if the meter or the test leads look
                                 damaged.</li>
                             <li class="para1 text-dark">Resistance should be measured in a circuit only when power is not
                                 applied.</li>
-                            <li class="para1 text-dark">The probes to a voltage source should always be avoided when a test lead
-                                is plugged into the 10 A or 300 mA input jack.</li>
+                            <li class="para1 text-dark">The probes to a voltage source should always be avoided when a test
+                                lead is plugged into the 10 A or 300 mA input jack.</li>
                             <li class="para1 text-dark">Never use the meter on circuits that exceed 4800 watts.</li>
                             <li class="para1 text-dark">To avoid injury never apply more than the rated voltage between any
                                 input jack and earth ground.</li>
-                            <li class="para1 text-dark">One must be careful when working with voltages above 60 V DC or 30 V AC
-                                RMS. Such voltages pose a shock hazard.</li>
+                            <li class="para1 text-dark">One must be careful when working with voltages above 60 V DC or 30 V
+                                AC RMS. Such voltages pose a shock hazard.</li>
                             <li class="para1 text-dark">Keep your fingers behind the finger guards on the test probes when
                                 making measurements.</li>
-                            <li class="para1 text-dark">Replace the battery as soon as the battery indicator appears to avoid
-                                false readings, which could lead to possible electric shock or personal injury.</li>
+                            <li class="para1 text-dark">Replace the battery as soon as the battery indicator appears to
+                                avoid false readings, which could lead to possible electric shock or personal injury.</li>
 
                         </ol>
                     </div>
@@ -141,6 +142,7 @@
             </div>
 
         </div>
-        <!--End About-->
-    </div><!-- #page -->
+
+        <img src="mobile-assets/lab-electronic/ElectronicsLab.png" alt="">
+    </div>
 @endsection

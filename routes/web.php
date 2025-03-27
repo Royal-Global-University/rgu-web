@@ -272,7 +272,7 @@ Route::get('/facilities-security', function () {
 
 //End All Facilities
 
-//All Labs
+//All Labs 
 
 Route::get('/lab-architecture', function () {
     return view('frontend/alllabs/lab-architecture');
