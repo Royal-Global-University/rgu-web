@@ -1,21 +1,699 @@
 @extends('frontend.master')
 @section('content')
-    <div id="page" class="site site_wrapper">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <section style="background-image: url('mobile-assets/deans/bg.svg'); position: relative; padding-top: 90px;">
+            <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
+                style="color: #27467A; font-weight: 900;">
+                Schools and <span style="color: #FF9A1E; font-weight: 500;">Faculty</span></h2>
 
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
+
+            <div class="container">
+                <div class="row pb-2 text-center justify-content-center">
+                    <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
+                        <a href="admission-how-to-apply.html" class="btn text-white w-100 p-3 rounded" style="
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
+                            onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
+                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
+                            How to Apply
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
+                        <a href="placements-placement-process.html" class="btn text-white w-100 p-3 rounded" style="
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
+                            onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
+                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
+                            Placements
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
+                        <a href="Eligibility&Selection.html" class="btn text-white w-100 p-3 rounded" style="
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
+                            onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
+                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
+                            Eligibility & Selection Criteria
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
+                        <a href="admission-programs-fees-structure.html" class="btn text-white w-100 p-3 rounded" style="
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
+                            onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
+                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
+                            Fee Structure
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/soa-1.jpg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Architecture (RSA)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-architecture.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-architecture.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/applied.001.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Applied & Pure Sciences (RSAPS)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-school.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-applied-purescience.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/business.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Business (RSB)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-business.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-business.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/behavioral.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Behavioral & Allied Sciences (RSBAS)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-psychology.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="royalschoolofalliedsciences.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/rsbsc-school-header.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Bio-sciences (RSBSC)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-schoolof-bsc.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-bio-sciences.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/commerce.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Commerce (RSC)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-commerce.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-commerce.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/media.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Communications & Media (RSCOM)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-communications-media.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="rscom-faculty.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/design.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Design (RSD)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-school-design.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-design.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/earth.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Environmental & Earth Sciences (RSEES)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="royal-school-of-environmental-earth-science.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-environmental-earth.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/soet.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Engineering & Technology (RSET)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-school-engineering.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-engineeringtechnology.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/art.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Fine Arts (RSFA)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-fine-arts.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-finearts.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/fashion.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Fashion Design & Technology (RSFT)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-fashion-design.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-fashion-design.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/humanities.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Humanities & Social Sciences (RSHSS)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="royalschool-of-humanities-socialsciences.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-humanities-social.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/hotel-mgn.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Hotel Management (RSHM)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-hotel-management.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-hotel-management.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/it-school.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Information Technology (RSIT)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-information-technology.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-information-technology.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/law.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Law & Administration(RSLA)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-law.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-law-administration.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/rgu-schools.003.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Life Sciences (RSLSC)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="royalschool-of-lifesciences.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-lifesciences.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/rgu-campus.001.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Languages (RSL)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-languages.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-languages.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/schools-library.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Library Sciences (RSLIS) (RSP)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-library-information.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-librarysciences.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/medical.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Medical & Allied Sciences (RSMAS)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="royalschoolofmedical&alliedsciences.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-medical&allidesciences.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/nursing.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Nursing (RSN)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-nursing.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-nursing.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/pharmacy.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Pharmacy (RSP)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-pharmacy.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-pharmacy.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/travel.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal
+                                    School of Travel & Tourism Management(RSTTM)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="department-travel.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Department
+                                        </a>
+                                        <a href="faculty-travel-tourism.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Faculty
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mt-3">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                            <div class="p-3">
+                                <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                    src="assets/img/school-rgu/IKS LOGO-new.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Indian
+                                    Knowledge System (IKS)</h5>
+                                <div class="mt-auto mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a href="indian-knowledge-system-cell-about.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            About IKS
+                                        </a>
+                                        <a href="indian-knowledge-system-cell-composition.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Composition
+                                        </a>
+                                    </div>
+                                    <div class="d-flex pt-2 justify-content-between">
+                                        <a href="indian-knowledge-system-cell-events.html"
+                                            style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Events
+                                        </a>
+                                        <a href="indian-knowledge-system-cell-syllabus.html"
+                                            style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                            Syllabus
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
             </div>
-        </div>
+        </section>
 
+    </div>
+
+
+    <div class="website">
+        <!--Start Header-->
         @include('frontend/components/aheader')
+        <!--End Header-->
 
-        <!--About Section-->
+        <!--START Section-->
         <div style="margin-top: 40px"
             class="text-center elementor-element elementor-element-e22f91b elementor-widget elementor-widget-go-s-heading"
             data-id="e22f91b" data-element_type="widget" data-widget_type="go-s-heading.default">
@@ -32,58 +710,58 @@
             <div class="row pb-2 text-center" style="align-items: center">
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
                     <a href="admission-how-to-apply.html" class="btn text-white mt-2 p-3 rounded" style="
-                font-size: 16px;
-                font-weight: 600;
-                background: #27467a;
-                border: none;
-                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                transition: transform 0.4s, box-shadow 0.4s;
-              " onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
+            font-size: 16px;
+            font-weight: 600;
+            background: #27467a;
+            border: none;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.4s, box-shadow 0.4s;
+          " onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">How
                         to Apply</a>
                 </div>
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
                     <a href="placements-placement-process.html" class="btn text-white mt-2 p-3 rounded" style="
-                font-size: 16px;
-                font-weight: 600;
-                background: #27467a;
-                border: none;
-                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                transition: transform 0.4s, box-shadow 0.4s;
-              " onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
+            font-size: 16px;
+            font-weight: 600;
+            background: #27467a;
+            border: none;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.4s, box-shadow 0.4s;
+          " onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">Placements</a>
                 </div>
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
                     <a href="Eligibility&Selection.html" class="btn text-white mt-2 p-3 rounded" style="
-                font-size: 16px;
-                font-weight: 600;
-                background: #27467a;
-                border: none;
-                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                transition: transform 0.4s, box-shadow 0.4s;
-              " onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
+            font-size: 16px;
+            font-weight: 600;
+            background: #27467a;
+            border: none;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.4s, box-shadow 0.4s;
+          " onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">Eligibility
                         & Selection Criteria</a>
                 </div>
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
                     <a href="admission-programs-fees-structure.html" class="btn text-white mt-2 p-3 rounded" style="
-                font-size: 16px;
-                font-weight: 600;
-                background: #27467a;
-                border: none;
-                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                transition: transform 0.4s, box-shadow 0.4s;
-              " onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
+            font-size: 16px;
+            font-weight: 600;
+            background: #27467a;
+            border: none;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.4s, box-shadow 0.4s;
+          " onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">Fee
                         Structure</a>
                 </div>
             </div>
             <hr style="
-            border: none;
-            height: 2px;
-            background-color: #13223b;
-            margin: 20px 0;
-          " />
+        border: none;
+        height: 2px;
+        background-color: #13223b;
+        margin: 20px 0;
+      " />
             <div class="row text-center">
                 <!-- Card 1 -->
                 <div class="col-lg-4">
@@ -101,25 +779,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-architecture/department/department-architecture.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-architecture.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-architecture/faculty/faculty-architecture.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="Faculty_Architecture.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -143,25 +819,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-applied-pure-sciences/department/department-school.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-school.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-applied-pure-sciences/faculty/faculty-applied-purescience.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-applied-purescience.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -185,25 +859,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-business/department/department-business.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-business.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-business/faculty/faculty-business.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-business.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -227,25 +899,24 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-behavioral-allied-science/department/department-psychology.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-psychology.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-behavioral-allied-science/faculty/royalschoolofalliedsciences.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-royalschoolofalliedsciences.html" class="btn fw-bold text-white"
+                                            style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -269,25 +940,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-bio-sciences/department/department-schoolof-bsc.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-schoolof-bsc.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-bio-sciences/faculty/faculty-bio-sciences.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-bio-sciences.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -311,25 +980,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-commerce/department/department-commerce.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-commerce.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-commerce/faculty/faculty-commerce.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-commerce.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -353,25 +1020,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-communications-media/department/department-communications-media.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-communications-media.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-communications-media/faculty/rscom-faculty.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="rscom-faculty.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -395,25 +1060,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-design/department/department-school-design.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-school-design.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-design/faculty/faculty-design.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-design.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -437,25 +1100,24 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-environmental-earth-sciences/department/royal-school-of-environmental-earth-science.html"
+                                        <a href="royal-school-of-environmental-earth-science.html"
                                             class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-environmental-earth-sciences/faculty/faculty-environmental-earth.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-environmental-earth.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -479,25 +1141,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-engineering-technology/department/department-school.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-school-engineering.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-engineering-technology/faculty/faculty-engineeringtechnology.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-engineeringtechnology.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -521,25 +1181,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-fine-arts/department/department-fine-arts.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-fine-arts.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-fine-arts/faculty/faculty-finearts.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-finearts.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -563,25 +1221,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-fashion-design-technology/department/department-fashion-design.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-fashion-design.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-fashion-design-technology/faculty/faculty-fashion-design.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-fashion-design.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -605,25 +1261,24 @@
                             <div class="card-footer rt-primary-bg">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-humanities-social-sciences/department/royalschool-of-humanities-socialsciences.html"
+                                        <a href="royalschool-of-humanities-socialsciences.html"
                                             class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-humanities-social-sciences/faculty/faculty-humanities-social.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-humanities-social.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -647,25 +1302,23 @@
                             <div class="card-footer rt-primary-bg">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-hotel-management/department/department-hotel-management.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-hotel-management.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-hotel-management/faculty/faculty-hotel-management.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-hotel-management.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -689,25 +1342,24 @@
                             <div class="card-footer rt-primary-bg">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-information-technology/department/department-information-technology.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-information-technology.html" class="btn fw-bold text-white"
+                                            style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-information-technology/faculty/faculty-information-technology.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-information-technology.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -731,25 +1383,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-law-administration/department/department-law.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-law.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-law-administration/faculty/faculty-law-administration.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-law-administration.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -773,25 +1423,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-life-sciences/department/royalschool-of-lifesciences.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="royalschool-of-lifesciences.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-life-sciences/faculty/faculty-lifesciences.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-lifesciences.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -815,25 +1463,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-languages/department/department-languages.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-languages.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-languages/faculty/faculty-languages.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-languages.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -857,25 +1503,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-library-sciences/department/department-library-information.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-library-information.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-library-sciences/faculty/faculty-librarysciences.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-librarysciences.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -899,25 +1543,24 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-medical-allied-sciences/department/royalschoolofmedical&alliedsciences.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="royalschoolofmedical&alliedsciences.html" class="btn fw-bold text-white"
+                                            style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-medical-allied-sciences/faculty/faculty-medical&allidesciences.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-medical&allidesciences.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -941,25 +1584,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-nursing/department/department-nursing.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-nursing.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-nursing/faculty/faculty-nursing.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-nursing.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -983,25 +1624,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 35px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-pharmacy/department/department-pharmacy.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-pharmacy.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-pharmacy/faculty/faculty-pharmacy.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-pharmacy.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -1025,25 +1664,23 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-travel-tourism-management/department/department-travel.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="department-travel.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>Departments
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-travel-tourism-management/faculty/faculty-travel-tourism.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-left: 44px;
-                          padding-right: 44px;
-                          margin-left: 8px;
-                        ">
+                                        <a href="faculty-travel-tourism.html" class="btn fw-bold text-white" style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-left: 44px;
+                      padding-right: 44px;
+                      margin-left: 8px;
+                    ">
                                             <i class="fa fa-user text-white" style="margin: 8px"></i>Faculty
                                         </a>
                                     </div>
@@ -1067,38 +1704,38 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 42px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="indian-knowledge-system/indian-knowledge-system-cell-about.html"
-                                            class="btn fw-bold text-white" style="
-                          background-color: #27467a;
-                          font-size: 16px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        ">
+                                        <a href="indian-knowledge-system-cell-about.html" class="btn fw-bold text-white"
+                                            style="
+                      background-color: #27467a;
+                      font-size: 16px;
+                      padding-right: 20px;
+                      padding-left: 20px;
+                    ">
                                             <i class="fa fa-building text-white" style="margin: 8px"></i>About IKS
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
                                         <div class="dropdown">
                                             <a class="btn fw-bold text-white dropdown-toggle" style="
-                            background-color: #27467a;
-                            font-size: 16px;
-                            padding-right: 20px;
-                            padding-left: 20px;
-                          " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        background-color: #27467a;
+                        font-size: 16px;
+                        padding-right: 20px;
+                        padding-left: 20px;
+                      " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <i class="fa fa-user text-white" style="margin: 8px"></i>Know More
                                             </a>
                                             <ul class="dropdown-menu para1" ;" aria-labelledby="dropdownMenuLink">
                                                 <li>
                                                     <a class="dropdown-item"
-                                                        href="indian-knowledge-system/indian-knowledge-system-cell-composition.html">Composition</a>
+                                                        href="indian-knowledge-system-cell-composition.html">Composition</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item"
-                                                        href="indian-knowledge-system/indian-knowledge-system-cell-events.html">Events</a>
+                                                        href="indian-knowledge-system-cell-events.html">Events</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item"
-                                                        href="indian-knowledge-system/indian-knowledge-system-cell-syllabus.html">Syllabus</a>
+                                                        href="indian-knowledge-system-cell-syllabus.html">Syllabus</a>
                                                 </li>
                                         </div>
                                     </div>
@@ -1109,6 +1746,7 @@
                 </div>
             </div>
         </div>
-        <!--End About-->
-    </div><!-- #page -->
+        <!--END Section-->
+
+    </div>
 @endsection

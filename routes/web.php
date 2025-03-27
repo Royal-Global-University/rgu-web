@@ -1371,6 +1371,10 @@ Route::get('/schools-rgu', function () {
     return view('frontend/school&faculty/schools-rgu');
 })->name('schools-rgu');
 
+Route::get('/department-business', function () {
+    return view('frontend/school&faculty/department-business');
+})->name('department-business');
+
 Route::get('/indian-knowledge-system-cell-about', function () {
     return view('frontend/school&faculty/indian-knowledge-system-cell-about');
 })->name('indian-knowledge-system-cell-about');

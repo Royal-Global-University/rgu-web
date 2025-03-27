@@ -68,7 +68,7 @@
                             <p class="m-0 pb-4 text-dark fw-bold para1">APPLIED & PURE SCIENCES</p>
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <a href="programs-M.Sc-Physics.html"
+                                    <a href="programs-M.Sc-Physics"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Physics</p>
