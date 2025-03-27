@@ -1371,6 +1371,42 @@ Route::get('/schools-rgu', function () {
     return view('frontend/school&faculty/schools-rgu');
 })->name('schools-rgu');
 
+Route::get('/department-travel', function () {
+    return view('frontend/school&faculty/department-travel');
+})->name('department-travel');
+
+Route::get('/department-pharmacy', function () {
+    return view('frontend/school&faculty/department-pharmacy');
+})->name('department-pharmacy');
+
+Route::get('/department-nursing', function () {
+    return view('frontend/school&faculty/department-nursing');
+})->name('department-nursing');
+
+Route::get('/deptment-radiography', function () {
+    return view('frontend/school&faculty/deptment-radiography');
+})->name('deptment-radiography');
+
+Route::get('/department-optometry', function () {
+    return view('frontend/school&faculty/department-optometry');
+})->name('department-optometry');
+
+Route::get('/department-operationtheatre', function () {
+    return view('frontend/school&faculty/department-operationtheatre');
+})->name('department-operationtheatre');
+
+Route::get('/department-nutrition-dietetics', function () {
+    return view('frontend/school&faculty/department-nutrition-dietetics');
+})->name('department-nutrition-dietetics');
+
+Route::get('/department-medical-lab', function () {
+    return view('frontend/school&faculty/department-medical-lab');
+})->name('department-medical-lab');
+
+Route::get('/department-library-information', function () {
+    return view('frontend/school&faculty/department-library-information');
+})->name('department-library-information');
+
 Route::get('/department-business', function () {
     return view('frontend/school&faculty/department-business');
 })->name('department-business');
