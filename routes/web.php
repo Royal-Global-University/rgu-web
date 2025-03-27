@@ -1375,6 +1375,26 @@ Route::get('/department-business', function () {
     return view('frontend/school&faculty/department-business');
 })->name('department-business');
 
+Route::get('/department-botany', function () {
+    return view('frontend/school&faculty/department-botany');
+})->name('department-botany');
+
+Route::get('/department-forensic-sciences', function () {
+    return view('frontend/school&faculty/department-forensic-sciences');
+})->name('department-forensic-sciences');
+
+Route::get('/department-forestry', function () {
+    return view('frontend/school&faculty/department-forestry');
+})->name('department-forestry');
+
+Route::get('/department-languages', function () {
+    return view('frontend/school&faculty/department-languages');
+})->name('department-languages');
+
+Route::get('/department-zoology', function () {
+    return view('frontend/school&faculty/department-zoology');
+})->name('department-zoology');
+
 Route::get('/department-information-technology', function () {
     return view('frontend/school&faculty/department-information-technology');
 })->name('department-information-technology');
