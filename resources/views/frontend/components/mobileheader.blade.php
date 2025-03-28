@@ -349,7 +349,7 @@
                 <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
             </li>
             <ul class="submenu mobile-para1" id="International">
-                <a class="mobile-para1" style="color: #27467A;" href="international-fee-structure.html">
+                <a class="mobile-para1" style="color: #27467A;" href="international-fee-structure">
                     <li>COURSE FEE</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="international-faq.html">

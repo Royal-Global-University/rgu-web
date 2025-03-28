@@ -327,7 +327,7 @@
                                                             <a href="{{ route('clubs') }}" onClick="return true">CLUBS</a>
                                                         </li>
                                                         <li id="menu-item-1654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                           <a href="Student_Affairs.html" onClick="return true">STUDENT AFFAIRS</a>
+                                                           <a href="student-affairs" onClick="return true">STUDENT AFFAIRS</a>
                                                         </li>
 
                                                     </ul>
@@ -365,7 +365,7 @@
                                                     <a href="#" onClick="return true" class="text-dark">INTERNATIONAL</a>
                                                     <ul class="dropdown-menu clearfix" style="min-width: 240px !important;">
                                                         <li id="menu-item-2213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2213">
-                                                            <a href="international-fee-structure.html" onClick="return true">COURSE FEE</a>
+                                                            <a href="international-fee-structure" onClick="return true">COURSE FEE</a>
                                                         </li>
                                                         <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
                                                             <a href="{{ route('international-faq') }}" onClick="return true">FAQ'S</a>
