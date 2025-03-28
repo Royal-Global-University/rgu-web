@@ -206,7 +206,7 @@
                                                             <a href="https://admissions.rgu.ac/" onClick="return true">APPLY NOW !</a>
                                                         </li>
                                                         <li id="menu-item-2287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2287">
-                                                            <a href="admission-programs-fees-structure.html" onClick="return true">COURSE FEE</a>
+                                                            <a href="admission-programs-fees-structure" onClick="return true">COURSE FEE</a>
                                                         </li>
                                                         <li id="menu-item-2286" class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-2286">
                                                             <a href="{{ route('general-elective') }}"
@@ -217,7 +217,7 @@
                                                                 onClick="return true">HOW TO APPLY ?</a>
                                                         </li>
                                                         <li id="menu-item-2286" class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-2286">
-                                                            <a href="Programs.html"
+                                                            <a href=""
                                                                 onClick="return true">PROGRAMS</a>
                                                         </li>
                                                         <li id="menu-item-1060" class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-1060"><a
