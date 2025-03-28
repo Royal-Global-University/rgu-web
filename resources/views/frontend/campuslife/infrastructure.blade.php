@@ -1,4 +1,41 @@
 @extends('frontend.master')
+@push('styles')
+        <style>
+            .custom-btn {
+        overflow: hidden;
+        background-color: #27467A;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+        padding: 15px 35px;
+        border-radius: 12px;
+        cursor: pointer;
+        position: relative;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+        display: inline-block;
+        transition: all 0.3s ease-in-out;
+        width: 260px;
+    }
+
+    /* Bottom Right Corner Design */
+    .custom-btn .corner {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 25px;
+        height: 25px;
+        background-color: #FF9A1E;
+        clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    }
+
+    /* Hover Effect */
+    .custom-btn:hover {
+        background-color: #1d3557;
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+        </style>
+@endpush
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

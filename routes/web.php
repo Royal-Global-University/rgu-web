@@ -511,6 +511,10 @@ Route::get('/banking-services', function () {
     return view('frontend/campuslife/bank');
 })->name('banking-services');
 
+Route::get('/student-affairs', function () {
+    return view('frontend/campuslife/student-affairs');
+})->name('student-affairs');
+
 Route::get('/department-store', function () {
     return view('frontend/campuslife/departmental-store');
 })->name('department-store');

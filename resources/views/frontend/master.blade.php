@@ -575,14 +575,14 @@
                                                             data-splitting="">Empowering Minds, Shaping Futures</h4>
                                                     </div>
                                                     <div class="kd-footer-1-top-app-store">
-                                                        <a target="_self" rel="" aria-label="name"
+                                                        <a href="https://play.google.com/store/apps/details?id=com.reno.rgu" target="_self" rel="" aria-label="name"
                                                             class="link txaa-fade-right">
                                                             <span class="txaa-tilt_scale">
                                                                 <img src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/play-store.webp"
                                                                     alt="">
                                                             </span>
                                                         </a>
-                                                        <a target="_self" rel="" aria-label="name"
+                                                        <a href="https://apps.apple.com/in/app/royal-global-university/id6476598714" target="_self" rel="" aria-label="name"
                                                             class="link txaa-fade-right">
                                                             <span class="txaa-tilt_scale">
                                                                 <img src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/app-store.webp"
@@ -748,27 +748,27 @@
                                                 Admissions</h5>
 
                                             <a href="https://admissions.rgu.ac/">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Admissions 2024-25
+                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Admissions 2025-26
                                                 </p>
                                             </a>
 
                                             <a href="https://admissions.rgu.ac/">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">International
-                                                    Admissions 2024-25
+                                                    Admissions 2025-26
                                                 </p>
                                             </a>
 
-                                            <a href="Programs.html">
+                                            <a href="Programs">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">Programmes
                                                 </p>
                                             </a>
 
-                                            <a href="admission-how-to-apply.html">
+                                            <a href="how-to-apply">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">How to Apply
                                                 </p>
                                             </a>
 
-                                            <a href="admission-faq.html">
+                                            <a href="faq">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">FAQs</p>
                                             </a>
 
@@ -777,7 +777,7 @@
                                                 </p>
                                             </a>
 
-                                            <a href="scholarship&funding.html">
+                                            <a href="scholarships">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">Scholarships &
                                                     Funding
                                                 </p>
@@ -790,7 +790,7 @@
                                             <h5 class="m-0 p-0 fw-bold" style="font-size: 24px; color: #FF9A1E !important;">
                                                 Information About</h5>
 
-                                            <a href="preface.html">
+                                            <a href="preface">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">The Assam Royal
                                                     Global University
                                                 </p>
@@ -806,7 +806,7 @@
 
                                             <h5 class="mt-4 p-0 fw-bold"
                                                 style="font-size: 24px; color: #FF9A1E !important;">Quick Links</h5>
-                                            <a href="#">
+                                            <a href="medical-facility">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">Medical Emergency
                                                     No.</p>
                                             </a>
@@ -817,39 +817,33 @@
                                             <a href="https://rgu.rinneone.app/">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online</p>
                                             </a>
-                                            <a href="recognition.html">
+                                            <a href="recognition-accreditation">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">Accreditation</p>
                                             </a>
                                         </div>
 
                                         <div class="col-lg-3">
 
-                                            <a href="Social_Outreach.html">
+                                            <a href="social-outreach">
                                                 <p class="m-0  text-white" style="font-size: 18px;">Social Outreach</p>
                                             </a>
                                             <a href="">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">University Brochure
                                                 </p>
                                             </a>
-                                            <a href="Announcements.html">
+                                            <a href="">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Annoucement</p>
                                             </a>
-                                            <a href="Examinations.html">
+                                            <a href="">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Examination</p>
                                             </a>
-                                            <a href="jobs-vacancies.html">
+                                            <a href="jobs-vacancies">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs & Vacancies</p>
                                             </a>
-                                            <a href="">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Notifications</p>
-                                            </a>
-                                            <a href="convocation-four.html">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Convocation</p>
-                                            </a>
-                                            <a href="iqac-about.html">
+                                            <a href="iqac-overview">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
                                             </a>
-                                            <a href="research.html">
+                                            <a href="">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Research &
                                                     Development</p>
                                             </a>
@@ -858,7 +852,7 @@
                                         </div>
 
                                         <div class="col-lg-3">
-                                            <a href="happy-happening-campus.html">
+                                            <a href="happy-happening">
                                                 <p class="m-0 text-white" style="font-size: 18px;">Campus Visit</p>
                                             </a>
                                             <a href="assets/pdf/vc-report.pdf">
@@ -872,17 +866,16 @@
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">International 2025 -
                                                     2026</p>
                                             </a>
-                                            <a href="360tour.html">
+                                            <a href="360tour">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">360° View</p>
                                             </a>
                                             <a href="https://nad.digilocker.gov.in/login">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Digilocker NAD</p>
                                             </a>
-                                            <a href="#">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Newsletter &
-                                                    E-Magazine</p>
+                                            <a href="https://rgujournal.in/">
+                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">RGU Journal</p>
                                             </a>
-                                            <a href="alumni-new.html">
+                                            <a href="">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Alumni</p>
                                             </a>
                                             <a target="_blank" href="https://shodhchakra.inflibnet.ac.in/">

@@ -1,13 +1,13 @@
 @extends('frontend.master')
 @section('content')
-            <div class="mobile">
-                @include('frontend/components/mobileheader')
-                <div style="padding-top: 90px; position: relative;">
-                    <img src="mobile-assets/facilities-moot/mob.png" alt="">
-                </div>
-                </div>
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px; position: relative;">
+            <img src="mobile-assets/facilities-moot/mob.png" alt="">
+        </div>
+            </div>
 
-                <div class="website">
+            <div class="website">
             <!--Start Header-->
             @include('frontend/components/aheader')
     <!--End Header-->
@@ -29,9 +29,11 @@
                 <h2 class="headd1 fw-bold kd-title-ani kd-split-text pb-2" style="color: #27467A; font-weight: 900;">
                     Moot <span style="color: #FF9A1E; font-weight: 500;">Court</span></h2>
                 <p style="color: #27467A;" class="para1">
-                    The Assam Royal Global University inaugurated the Royal Innovation and Incubation cell on November 8, 2022. The Inauguration was launched under the auspicious presence of Shri S.K. Barua, Managing Director NRL & Chairman Confederation of Indian Industry, Northeast Council India.
+                    A fundamental part of Royal School of Law and Administration, the Moot Court allows students to experience practical aspects of Judiciary in their careers as part of the legal fraternity of India. This experience harbours abilities to present legal arguments in courts, assimilate facts into succint pointers and their critical analytic abilities, engage in Legal Writing and Research.
 
-                    Other dignitaries present at the event were Royal Global University (RGU) Chancellor Dr. A.K Pansari, Vice Chancellor Prof (Dr.) S.P. Singh, RGU Executive Vice President Ankur Pansari, Principal Advisor Prof. MK Chaudhuri, Chairperson (Academics), Prof. A.K. Buragohain, NERQMAC, NEDFI Director Manoj Kumar Das and invited guests from the NRL, other industries and academicians.
+
+
+                    Mooting enables students to develop their confidence, public speaking abilities, work ethics, team building and managing qualities amongst a host of other positive outcomes.
                 </p>
             </div>
         </div>
