@@ -23,6 +23,10 @@ Route::get('/preface', function () {
     return view('frontend/discoverRGU/preface');
 })->name('preface');
 
+Route::get('/officers-register-admin', function () {
+    return view('frontend/discoverRGU/officers-register-admin');
+})->name('officers-register-admin');
+
 Route::get('/vision-mission', function () {
     return view('frontend/discoverRGU/vision-mission');
 })->name('vision-mission');

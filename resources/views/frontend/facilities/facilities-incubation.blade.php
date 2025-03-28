@@ -1,10 +1,10 @@
 @extends('frontend.master')
 @section('content')
-         <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <div style="padding-top: 90px; position: relative;">
-                <img src="mobile-assets/facilities-incubation/mob-incubation.png" alt="">
-            </div>
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px; position: relative;">
+            <img src="mobile-assets/facilities-incubation/mob-incubation.png" alt="">
+        </div>
             </div>
 
             <div class="website">
@@ -29,9 +29,7 @@
                 <h2 class="headd1 fw-bold kd-title-ani kd-split-text pb-2" style="color: #27467A; font-weight: 900;">
                     Incubation <span style="color: #FF9A1E; font-weight: 500;">Centre</span></h2>
                 <p style="color: #27467A;" class="para1">
-                    The Assam Royal Global University inaugurated the Royal Innovation and Incubation cell on November 8, 2022. The Inauguration was launched under the auspicious presence of Shri S.K. Barua, Managing Director NRL & Chairman Confederation of Indian Industry, Northeast Council India.
-
-                    Other dignitaries present at the event were Royal Global University (RGU) Chancellor Dr. A.K Pansari, Vice Chancellor Prof (Dr.) S.P. Singh, RGU Executive Vice President Ankur Pansari, Principal Advisor Prof. MK Chaudhuri, Chairperson (Academics), Prof. A.K. Buragohain, NERQMAC, NEDFI Director Manoj Kumar Das and invited guests from the NRL, other industries and academicians.
+                    The Incubation Centre at Royal Global University has housed various entrepreneurs for their vision to start small /mid cap businesses and has registered various companies and start ups that have not only received support from national funding sources but also from internationally recognized institutions. The Assam Royal Global University Innovation and Incubation cell has not only helped students believe and achieve in their vision to start with their successful careers, but also the Incubation cell has contributed an immense role in the overall development of the society at large
                 </p>
             </div>
         </div>

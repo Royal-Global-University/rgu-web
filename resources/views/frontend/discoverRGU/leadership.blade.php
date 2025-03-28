@@ -14,14 +14,16 @@
                     <div class="container pb-5 pt-4">
                         <div class="row">
                             <div class="col-lg-12 pb-5">
-                                <a href="leadership-chancellor.html"><img src="mobile-assets/leadership/mobile-dr-ak-pansari.png" /></a>
+                                <a href="leadership-chancellor"><img src="mobile-assets/leadership/mobile-dr-ak-pansari.png" /></a>
                             </div>
+                            <hr>
                             <div class="col-lg-12 pb-5">
-                                <a href="Leadership-Anil_Kumar.html"><img
+                                <a href="leadership-anil-kumar"><img
                                         src="mobile-assets/leadership/mobile-sri-anil-kumar-modi.png" /></a>
                             </div>
+                            <hr>
                             <div class="col-lg-12">
-                                <a href="Leadership-Ankur-pansari.html"><img
+                                <a href="leadership-ankur-pansari"><img
                                         src="mobile-assets/leadership/mobile-sri-ankur-pansari.png" /></a>
                             </div>
                         </div>
@@ -45,13 +47,13 @@
     <div class="container pb-5">
        <div class="row">
            <div class="col-lg-12">
-               <a href="leadership-chancellor.html"><img src="mobile-assets/leadership/1.png" /></a>
+               <a href="leadership-chancellor"><img src="mobile-assets/leadership/1.png" /></a>
            </div>
            <div class="col-lg-12">
-               <a href="Leadership-Anil_Kumar.html"><img src="mobile-assets/leadership/2.png" /></a>
+               <a href="leadership-anil-kumar"><img src="mobile-assets/leadership/2.png" /></a>
            </div>
            <div class="col-lg-12">
-               <a href="Leadership-Ankur-pansari.html"><img src="mobile-assets/leadership/3.png" /></a>
+               <a href="leadership-ankur-pansari"><img src="mobile-assets/leadership/3.png" /></a>
            </div>
        </div>
     </div>

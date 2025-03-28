@@ -22,7 +22,7 @@
                     </div>
 
                     <div class="col-lg-6 mb-4">
-                        <img src="mobile-assets/officers/3.png" alt="">
+                        <a href="officers-register-admin"><img src="mobile-assets/officers/3.png" alt=""></a>
                     </div>
 
                     <div class="col-lg-6 mb-4">
@@ -95,7 +95,7 @@
                     </div>
 
                     <div class="col-lg-6 mb-4">
-                        <img src="mobile-assets/officers/3.png" alt="">
+                        <a href="officers-register-admin"><img src="mobile-assets/officers/3.png" alt=""></a>
                     </div>
 
                     <div class="col-lg-6 mb-4">

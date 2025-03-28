@@ -1,0 +1,25 @@
+<svg width="1646" height="1646" viewBox="0 0 1646 1646" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_451_525)">
+<rect x="90" y="60" width="1466" height="1466" rx="733" fill="white"/>
+<g clip-path="url(#clip0_451_525)">
+<path d="M1072 721C934 583 712 583 574 721C562 733 544 733 532 721C520 709 520 691 532 679C694 517 955 517 1114 679C1126 691 1126 709 1114 721C1102 733 1084 733 1072 721Z" fill="#13223B"/>
+<path d="M985 805C895 718 751 718 664 805C652 817 634 817 622 805C610 793 610 775 622 763C733 649 916 649 1027 763C1039 775 1039 793 1027 805C1015 817 997 817 985 805Z" fill="#13223B"/>
+<path d="M901 895C859 853 793 853 754 895C742 907 724 907 712 895C700 883 700 862 712 850C775 781 880 781 943 850C955 862 955 883 943 895C931 907 913 907 901 895Z" fill="#13223B"/>
+<path d="M826 1030C857.48 1030 883 1004.48 883 973C883 941.52 857.48 916 826 916C794.52 916 769 941.52 769 973C769 1004.48 794.52 1030 826 1030Z" fill="#13223B"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_451_525" x="0" y="0" width="1646" height="1646" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="30"/>
+<feGaussianBlur stdDeviation="45"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_451_525"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_451_525" result="shape"/>
+</filter>
+<clipPath id="clip0_451_525">
+<rect width="600" height="600" fill="white" transform="translate(523 493)"/>
+</clipPath>
+</defs>
+</svg>
