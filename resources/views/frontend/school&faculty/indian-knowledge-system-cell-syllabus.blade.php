@@ -7,7 +7,7 @@
 
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-4 pb-4"
                 style="color: #27467A; font-weight: 900;">
-                Indian Knowledge System (IKS) <span style="color: #FF9A1E; font-weight: 500;">Events</span></h2>
+                Indian Knowledge System (IKS) <span style="color: #FF9A1E; font-weight: 500;">Syllabus</span></h2>
 
             <div class="container"
                 style="text-align: start; background-color: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
@@ -176,7 +176,7 @@
 
                 <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4 pb-4"
                     style="color: #27467A; font-weight: 900;">
-                    Indian Knowledge System (IKS) <span style="color: #FF9A1E; font-weight: 500;">Events</span></h2>
+                    Indian Knowledge System (IKS) <span style="color: #FF9A1E; font-weight: 500;">Syllabus</span></h2>
 
                 <div class="container"
                     style="text-align: start; background-color: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">

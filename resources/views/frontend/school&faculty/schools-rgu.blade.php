@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="row pb-2 text-center justify-content-center">
                     <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-                        <a href="admission-how-to-apply.html" class="btn text-white w-100 p-3 rounded" style="
+                        <a href="how-to-apply" class="btn text-white w-100 p-3 rounded" style="
                         font-size: 16px;
                         font-weight: 600;
                         background: #27467a;
@@ -25,7 +25,7 @@
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-                        <a href="placements-placement-process.html" class="btn text-white w-100 p-3 rounded" style="
+                        <a href="placements-process" class="btn text-white w-100 p-3 rounded" style="
                         font-size: 16px;
                         font-weight: 600;
                         background: #27467a;
@@ -39,7 +39,7 @@
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-                        <a href="Eligibility&Selection.html" class="btn text-white w-100 p-3 rounded" style="
+                        <a href="" class="btn text-white w-100 p-3 rounded" style="
                         font-size: 16px;
                         font-weight: 600;
                         background: #27467a;
@@ -53,7 +53,7 @@
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-                        <a href="admission-programs-fees-structure.html" class="btn text-white w-100 p-3 rounded" style="
+                        <a href="" class="btn text-white w-100 p-3 rounded" style="
                         font-size: 16px;
                         font-weight: 600;
                         background: #27467a;
@@ -80,11 +80,11 @@
                                     School of Architecture (RSA)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-architecture.html"
+                                        <a href="department-architecture"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-architecture.html"
+                                        <a href=""
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -105,11 +105,11 @@
                                     School of Applied & Pure Sciences (RSAPS)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-school.html"
+                                        <a href="royal-s-school-of-applied-pure-science"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-applied-purescience.html"
+                                        <a href="faculty-applied-purescience"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -130,11 +130,11 @@
                                     School of Business (RSB)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-business.html"
+                                        <a href="department-business"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-business.html"
+                                        <a href="faculty-business"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -155,11 +155,11 @@
                                     School of Behavioral & Allied Sciences (RSBAS)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-psychology.html"
+                                        <a href="department-psychology"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="royalschoolofalliedsciences.html"
+                                        <a href="royalschoolofalliedsciences"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -180,11 +180,11 @@
                                     School of Bio-sciences (RSBSC)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-schoolof-bsc.html"
+                                        <a href="department-schoolof-bsc"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-bio-sciences.html"
+                                        <a href="faculty-bio-sciences"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -205,11 +205,11 @@
                                     School of Commerce (RSC)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-commerce.html"
+                                        <a href="department-commerce"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-commerce.html"
+                                        <a href="faculty-commerce"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -230,11 +230,11 @@
                                     School of Communications & Media (RSCOM)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-communications-media.html"
+                                        <a href="department-communications-media"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="rscom-faculty.html"
+                                        <a href="rscom-faculty"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -255,11 +255,11 @@
                                     School of Design (RSD)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-school-design.html"
+                                        <a href="department-school-design"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-design.html"
+                                        <a href="faculty-design"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -280,11 +280,11 @@
                                     School of Environmental & Earth Sciences (RSEES)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="royal-school-of-environmental-earth-science.html"
+                                        <a href="royal-school-of-environmental-earth-science"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-environmental-earth.html"
+                                        <a href="faculty-environmental-earth"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -305,11 +305,11 @@
                                     School of Engineering & Technology (RSET)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-school-engineering.html"
+                                        <a href="department-school-engineering"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-engineeringtechnology.html"
+                                        <a href="faculty-engineeringtechnology"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -330,11 +330,11 @@
                                     School of Fine Arts (RSFA)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-fine-arts.html"
+                                        <a href="department-fine-arts"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-finearts.html"
+                                        <a href="faculty-finearts"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -355,11 +355,11 @@
                                     School of Fashion Design & Technology (RSFT)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-fashion-design.html"
+                                        <a href="department-fashion-design"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-fashion-design.html"
+                                        <a href="faculty-fashion-design"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -380,11 +380,11 @@
                                     School of Humanities & Social Sciences (RSHSS)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="royalschool-of-humanities-socialsciences.html"
+                                        <a href="royalschool-of-humanities-socialsciences"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-humanities-social.html"
+                                        <a href="faculty-humanities-social"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -405,11 +405,11 @@
                                     School of Hotel Management (RSHM)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-hotel-management.html"
+                                        <a href="department-hotel-management"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-hotel-management.html"
+                                        <a href="faculty-hotel-management"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -430,11 +430,11 @@
                                     School of Information Technology (RSIT)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-information-technology.html"
+                                        <a href="department-information-technology"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-information-technology.html"
+                                        <a href="faculty-information-technology"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -455,11 +455,11 @@
                                     School of Law & Administration(RSLA)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-law.html"
+                                        <a href="department-law"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-law-administration.html"
+                                        <a href="faculty-law-administration"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -480,11 +480,11 @@
                                     School of Life Sciences (RSLSC)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="royalschool-of-lifesciences.html"
+                                        <a href="royalschool-of-lifesciences"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-lifesciences.html"
+                                        <a href="faculty-lifesciences"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -505,11 +505,11 @@
                                     School of Languages (RSL)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-languages.html"
+                                        <a href="department-languages"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-languages.html"
+                                        <a href="faculty-languages"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -530,11 +530,11 @@
                                     School of Library Sciences (RSLIS) (RSP)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-library-information.html"
+                                        <a href="department-library-information"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-librarysciences.html"
+                                        <a href="faculty-librarysciences"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -555,11 +555,11 @@
                                     School of Medical & Allied Sciences (RSMAS)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="royalschoolofmedical&alliedsciences.html"
+                                        <a href="royalschoolofmedical&alliedsciences"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-medical&allidesciences.html"
+                                        <a href="faculty-medical&allidesciences"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -580,11 +580,11 @@
                                     School of Nursing (RSN)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-nursing.html"
+                                        <a href="department-nursing"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-nursing.html"
+                                        <a href="faculty-nursing"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -605,11 +605,11 @@
                                     School of Pharmacy (RSP)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-pharmacy.html"
+                                        <a href="department-pharmacy"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-pharmacy.html"
+                                        <a href="faculty-pharmacy"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -630,11 +630,11 @@
                                     School of Travel & Tourism Management(RSTTM)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="department-travel.html"
+                                        <a href="department-travel"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Department
                                         </a>
-                                        <a href="faculty-travel-tourism.html"
+                                        <a href="faculty-travel-tourism"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Faculty
                                         </a>
@@ -655,21 +655,21 @@
                                     Knowledge System (IKS)</h5>
                                 <div class="mt-auto mb-4">
                                     <div class="d-flex justify-content-between">
-                                        <a href="indian-knowledge-system-cell-about.html"
+                                        <a href="indian-knowledge-system-cell-about"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             About IKS
                                         </a>
-                                        <a href="indian-knowledge-system-cell-composition.html"
+                                        <a href="indian-knowledge-system-cell-composition"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Composition
                                         </a>
                                     </div>
                                     <div class="d-flex pt-2 justify-content-between">
-                                        <a href="indian-knowledge-system-cell-events.html"
+                                        <a href="indian-knowledge-system-cell-events"
                                             style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Events
                                         </a>
-                                        <a href="indian-knowledge-system-cell-syllabus.html"
+                                        <a href="indian-knowledge-system-cell-syllabus"
                                             style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                             Syllabus
                                         </a>
@@ -709,7 +709,7 @@
         <div class="p-5">
             <div class="row pb-2 text-center" style="align-items: center">
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
-                    <a href="admission-how-to-apply.html" class="btn text-white mt-2 p-3 rounded" style="
+                    <a href="admission-how-to-apply" class="btn text-white mt-2 p-3 rounded" style="
             font-size: 16px;
             font-weight: 600;
             background: #27467a;
@@ -721,7 +721,7 @@
                         to Apply</a>
                 </div>
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
-                    <a href="placements-placement-process.html" class="btn text-white mt-2 p-3 rounded" style="
+                    <a href="placements-placement-process" class="btn text-white mt-2 p-3 rounded" style="
             font-size: 16px;
             font-weight: 600;
             background: #27467a;
@@ -732,7 +732,7 @@
                         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">Placements</a>
                 </div>
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
-                    <a href="Eligibility&Selection.html" class="btn text-white mt-2 p-3 rounded" style="
+                    <a href="Eligibility&Selection" class="btn text-white mt-2 p-3 rounded" style="
             font-size: 16px;
             font-weight: 600;
             background: #27467a;
@@ -744,7 +744,7 @@
                         & Selection Criteria</a>
                 </div>
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
-                    <a href="admission-programs-fees-structure.html" class="btn text-white mt-2 p-3 rounded" style="
+                    <a href="admission-programs-fees-structure" class="btn text-white mt-2 p-3 rounded" style="
             font-size: 16px;
             font-weight: 600;
             background: #27467a;
@@ -779,7 +779,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-architecture.html" class="btn fw-bold text-white" style="
+                                        <a href="department-architecture" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -789,7 +789,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="Faculty_Architecture.html" class="btn fw-bold text-white" style="
+                                        <a href="Faculty_Architecture" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -819,7 +819,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-school.html" class="btn fw-bold text-white" style="
+                                        <a href="royal-s-school-of-applied-pure-science" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -829,7 +829,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-applied-purescience.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-applied-purescience" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -859,7 +859,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-business.html" class="btn fw-bold text-white" style="
+                                        <a href="department-business" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -869,7 +869,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-business.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-business" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -899,7 +899,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-psychology.html" class="btn fw-bold text-white" style="
+                                        <a href="department-psychology" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -909,7 +909,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-royalschoolofalliedsciences.html" class="btn fw-bold text-white"
+                                        <a href="faculty-royalschoolofalliedsciences" class="btn fw-bold text-white"
                                             style="
                       background-color: #27467a;
                       font-size: 16px;
@@ -940,7 +940,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-schoolof-bsc.html" class="btn fw-bold text-white" style="
+                                        <a href="royal-s-school-of-bio-science" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -950,7 +950,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-bio-sciences.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-bio-sciences" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -980,7 +980,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-commerce.html" class="btn fw-bold text-white" style="
+                                        <a href="department-commerce" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -990,7 +990,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-commerce.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-commerce" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1020,7 +1020,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-communications-media.html" class="btn fw-bold text-white" style="
+                                        <a href="department-communications-media" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1030,7 +1030,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="rscom-faculty.html" class="btn fw-bold text-white" style="
+                                        <a href="rscom-faculty" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1060,7 +1060,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-school-design.html" class="btn fw-bold text-white" style="
+                                        <a href="royal-s-school-of-design" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1070,7 +1070,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-design.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-design" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1100,7 +1100,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royal-school-of-environmental-earth-science.html"
+                                        <a href="royal-s-school-of-enviroment-science"
                                             class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
@@ -1111,7 +1111,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-environmental-earth.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-environmental-earth" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1141,7 +1141,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-school-engineering.html" class="btn fw-bold text-white" style="
+                                        <a href="royal-s-school-of-engineering-technology" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1151,7 +1151,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-engineeringtechnology.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-engineeringtechnology" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1181,7 +1181,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-fine-arts.html" class="btn fw-bold text-white" style="
+                                        <a href="department-fine-arts" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1191,7 +1191,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-finearts.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-finearts" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1221,7 +1221,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-fashion-design.html" class="btn fw-bold text-white" style="
+                                        <a href="department-fashion-design" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1231,7 +1231,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-fashion-design.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-fashion-design" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1261,7 +1261,7 @@
                             <div class="card-footer rt-primary-bg">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royalschool-of-humanities-socialsciences.html"
+                                        <a href="royal-s-school-of-humanities"
                                             class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
@@ -1272,7 +1272,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-humanities-social.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-humanities-social" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1302,7 +1302,7 @@
                             <div class="card-footer rt-primary-bg">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-hotel-management.html" class="btn fw-bold text-white" style="
+                                        <a href="department-hotel-management" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1312,7 +1312,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-hotel-management.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-hotel-management" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1342,7 +1342,7 @@
                             <div class="card-footer rt-primary-bg">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-information-technology.html" class="btn fw-bold text-white"
+                                        <a href="department-information-technology" class="btn fw-bold text-white"
                                             style="
                       background-color: #27467a;
                       font-size: 16px;
@@ -1353,7 +1353,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-information-technology.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-information-technology" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1383,7 +1383,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-law.html" class="btn fw-bold text-white" style="
+                                        <a href="department-law" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1393,7 +1393,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-law-administration.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-law-administration" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1423,7 +1423,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royalschool-of-lifesciences.html" class="btn fw-bold text-white" style="
+                                        <a href="royal-s-school-of-life-science" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1433,7 +1433,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-lifesciences.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-lifesciences" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1463,7 +1463,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-languages.html" class="btn fw-bold text-white" style="
+                                        <a href="department-languages" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1473,7 +1473,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-languages.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-languages" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1503,7 +1503,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-library-information.html" class="btn fw-bold text-white" style="
+                                        <a href="department-library-information" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1513,7 +1513,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-librarysciences.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-librarysciences" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1543,7 +1543,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="royalschoolofmedical&alliedsciences.html" class="btn fw-bold text-white"
+                                        <a href="royal-s-school-of-medical-allied-science" class="btn fw-bold text-white"
                                             style="
                       background-color: #27467a;
                       font-size: 16px;
@@ -1554,7 +1554,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-medical&allidesciences.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-medical&allidesciences" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1584,7 +1584,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-nursing.html" class="btn fw-bold text-white" style="
+                                        <a href="department-nursing" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1594,7 +1594,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-nursing.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-nursing" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1624,7 +1624,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 35px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-pharmacy.html" class="btn fw-bold text-white" style="
+                                        <a href="department-pharmacy" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1634,7 +1634,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-pharmacy.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-pharmacy" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1664,7 +1664,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="department-travel.html" class="btn fw-bold text-white" style="
+                                        <a href="department-travel" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-right: 20px;
@@ -1674,7 +1674,7 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="faculty-travel-tourism.html" class="btn fw-bold text-white" style="
+                                        <a href="faculty-travel-tourism" class="btn fw-bold text-white" style="
                       background-color: #27467a;
                       font-size: 16px;
                       padding-left: 44px;
@@ -1693,7 +1693,7 @@
                     <div class="kd-course-1-tabs-card fix shadow-lg">
                         <div class="main-img">
                             <img fetchpriority="high" decoding="async" width="352" height="235"
-                                src="assets/img/school-rgu/IKS LOGO-new.jpeg"
+                                src="mobile-assets/ik.jpeg"
                                 class="attachment-kadu-400x235 size-kadu-400x235 wp-post-image" alt=""
                                 sizes="(max-width: 352px) 100vw, 352px" />
                         </div>
@@ -1704,7 +1704,7 @@
                             <div class="card-footer rt-primary-bg" style="padding-top: 42px">
                                 <div class="row text-center">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-3">
-                                        <a href="indian-knowledge-system-cell-about.html" class="btn fw-bold text-white"
+                                        <a href="indian-knowledge-system-cell-about" class="btn fw-bold text-white"
                                             style="
                       background-color: #27467a;
                       font-size: 16px;
@@ -1727,15 +1727,15 @@
                                             <ul class="dropdown-menu para1" ;" aria-labelledby="dropdownMenuLink">
                                                 <li>
                                                     <a class="dropdown-item"
-                                                        href="indian-knowledge-system-cell-composition.html">Composition</a>
+                                                        href="indian-knowledge-system-cell-composition">Composition</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item"
-                                                        href="indian-knowledge-system-cell-events.html">Events</a>
+                                                        href="indian-knowledge-system-cell-events">Events</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item"
-                                                        href="indian-knowledge-system-cell-syllabus.html">Syllabus</a>
+                                                        href="indian-knowledge-system-cell-syllabus">Syllabus</a>
                                                 </li>
                                         </div>
                                     </div>

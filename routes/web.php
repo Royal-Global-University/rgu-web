@@ -1775,6 +1775,37 @@ Route::get('/faculty-travel-tourism', function () {
     return view('frontend/school&faculty/faculty-travel-tourism');
 })->name('faculty-travel-tourism');
 
+Route::get('/royal-s-school-of-applied-pure-science', function () {
+    return view('frontend/school&faculty/royal-s-school-of-applied-pure-science');
+})->name('royal-s-school-of-applied-pure-science');
+
+Route::get('/royal-s-school-of-bio-science', function () {
+    return view('frontend/school&faculty/royal-s-school-of-bio-science');
+})->name('royal-s-school-of-bio-science');
+
+Route::get('/royal-s-school-of-design', function () {
+    return view('frontend/school&faculty/royal-s-school-of-design');
+})->name('royal-s-school-of-design');
+
+Route::get('/royal-s-school-of-engineering-technology', function () {
+    return view('frontend/school&faculty/royal-s-school-of-engineering-technology');
+})->name('royal-s-school-of-engineering-technology');
+
+Route::get('/royal-s-school-of-enviroment-science', function () {
+    return view('frontend/school&faculty/royal-s-school-of-enviroment-science');
+})->name('royal-s-school-of-enviroment-science');
+
+Route::get('/royal-s-school-of-humanities', function () {
+    return view('frontend/school&faculty/royal-s-school-of-humanities');
+})->name('royal-s-school-of-humanities');
+
+Route::get('/royal-s-school-of-life-science', function () {
+    return view('frontend/school&faculty/royal-s-school-of-life-science');
+})->name('royal-s-school-of-life-science');
+
+Route::get('/royal-s-school-of-medical-allied-science', function () {
+    return view('frontend/school&faculty/royal-s-school-of-medical-allied-science');
+})->name('royal-s-school-of-medical-allied-science');
 
 //End School & Faculty
 
