@@ -13,11 +13,11 @@
                 <div class="row">
 
                     <div class="col-lg-6 mb-4">
-                        <a href="Leadership_Y.S.R.Murthy.html"><img src="mobile-assets/officers/1.png" alt=""></a>
+                        <a href="leadership-vicechancellor"><img src="mobile-assets/officers/1.png" alt=""></a>
                     </div>
 
                     <div class="col-lg-6 mb-4">
-                        <a href="Leadership_Alak Kumar Buragohain.html"> <img src="mobile-assets/officers/2.png" alt="">
+                        <a href="leadership-chairperson-academics"> <img src="mobile-assets/officers/2.png" alt="">
                         </a>
                     </div>
 
@@ -26,7 +26,7 @@
                     </div>
 
                     <div class="col-lg-6 mb-4">
-                        <a href="Leadership_Dr. D.N.Singh.html"><img src="mobile-assets/officers/4.png" alt=""></a>
+                        <a href="leadership-registrar"><img src="mobile-assets/officers/4.png" alt=""></a>
                     </div>
 
                 </div>
@@ -86,11 +86,11 @@
                 <div class="row">
 
                     <div class="col-lg-6 mb-4">
-                        <a href="Leadership_Y.S.R.Murthy.html"><img src="mobile-assets/officers/1.png" alt=""></a>
+                        <a href="leadership-vicechancellor"><img src="mobile-assets/officers/1.png" alt=""></a>
                     </div>
 
                     <div class="col-lg-6 mb-4">
-                        <a href="Leadership_Alak Kumar Buragohain.html"> <img src="mobile-assets/officers/2.png" alt="">
+                        <a href="leadership-chairperson-academics"> <img src="mobile-assets/officers/2.png" alt="">
                         </a>
                     </div>
 
@@ -99,7 +99,7 @@
                     </div>
 
                     <div class="col-lg-6 mb-4">
-                        <a href="Leadership_Dr. D.N.Singh.html"><img src="mobile-assets/officers/4.png" alt=""></a>
+                        <a href="leadership-registrar"><img src="mobile-assets/officers/4.png" alt=""></a>
                     </div>
 
 

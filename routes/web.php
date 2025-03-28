@@ -24,8 +24,8 @@ Route::get('/preface', function () {
 })->name('preface');
 
 Route::get('/vision-mission', function () {
-    return view('frontend/discoverRGU/vision&mission');
-})->name('vision&mission');
+    return view('frontend/discoverRGU/vision-mission');
+})->name('vision-mission');
 
 Route::get('/recognition-accreditation', function () {
     return view('frontend/discoverRGU/recognition-accreditation');
@@ -588,7 +588,7 @@ Route::get('/placements-process', function () {
 })->name('placements-process');
 
 Route::get('/placements-activities', function () {
-    return view('frontend/placement/placement-activities');
+    return view('frontend/placement/placements-activities');
 })->name('placements-activities');
 
 Route::get('/placements-facilities', function () {

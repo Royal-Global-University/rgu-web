@@ -37,7 +37,7 @@
                                                                             </li>
                                                                             <li id="menu-item-1655"
                                                                                 class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1161 current_page_item menu-item-1655">
-                                                                                <a href="{{ route('vision&mission') }}" aria-current="page" onClick="return true">VISION & MISSION</a>
+                                                                                <a href="{{ route('vision-mission') }}" aria-current="page" onClick="return true">VISION & MISSION</a>
                                                                             </li>
                                                                             <li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
                                                                                 <a href="{{ route('statutes-ordinance-policies') }}" onClick="return true">STATUTES,

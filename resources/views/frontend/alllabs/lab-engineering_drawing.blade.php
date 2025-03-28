@@ -1,23 +1,20 @@
 @extends('frontend.master')
 @section('content')
-    <div id="page" class="site site_wrapper">
-
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
-            </div>
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px; position: relative;">
+            <img src="mobile-assets/lab-engg-drawing/mobileenggdrawing.png" alt="">
         </div>
+    </div>
 
+    <div class="website">
+        <!--Start Header-->
         @include('frontend/components/aheader')
+        <!--End Header-->
 
-        <!--About Section-->
+
         <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section style="padding-top: 30px; background-image: url(assets/img/all_lab/Engg-Drawing/background.svg);"
+            <section style="padding-top: 30px; background-image: url(mobile-assets/lab-engg-drawing/background.svg);"
                 class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f481aaf" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -28,8 +25,9 @@
                                 data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
                                 <div class="elementor-widget-container">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                        <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="assets/img/all_lab/Engg-Drawing/Frame 1589.png" alt="">
+                                        <div style="border: 2px solid #fff;"
+                                            class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                            <img decoding="async" src="mobile-assets/lab-engg-drawing/headimg.png" alt="">
                                         </div>
 
                                     </div>
@@ -50,12 +48,12 @@
                                         </h1>
 
                                         <p class="text-dark para1" style="text-align: justify;">
-                                            Engineering Drawing and Design is a core subject in any engineering curriculum. The
-                                            Engineering Drawing and Design Lab aims at preparing students with appropriate
-                                            knowledge of drawings and designs of objects, geometrical patterns and 3-D
-                                            structures. The Engineering Drawing Lab guides and helps the students to learn how
-                                            technical drawings can be drawn using different methods. The lab is in Block- B on
-                                            the third floor.
+                                            Engineering Drawing and Design is a core subject in any engineering curriculum.
+                                            The Engineering Drawing and Design Lab aims at preparing students with
+                                            appropriate knowledge of drawings and designs of objects, geometrical patterns
+                                            and 3-D structures. The Engineering Drawing Lab guides and helps the students to
+                                            learn how technical drawings can be drawn using different methods. The lab is in
+                                            Block- B on the third floor.
                                         </p>
                                     </div>
                                 </div>
@@ -96,6 +94,5 @@
             </div>
 
         </div>
-        <!--End About-->
-    </div><!-- #page -->
+    </div>
 @endsection

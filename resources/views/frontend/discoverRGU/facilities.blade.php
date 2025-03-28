@@ -56,7 +56,7 @@
 
                 <div class="col-lg-12 mb-4">
 
-                    <a href="bank">
+                    <a href="banking-services">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
                             <div class="p-3">
@@ -67,7 +67,7 @@
                                 <h5 style="font-weight: 900 !important; color: #27467A;" class="card-title mobile-headd2 pb-2">
                                     Banking <span style="font-weight: 600 !important;">Services</span> </h5>
 
-                                <a href="bank">
+                                <a href="banking-services">
                                     <p class="card-text mobile-para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">
                                         Explore More</p>
                                 </a>
@@ -171,7 +171,7 @@
 
                 <div class="col-lg-12 mb-4">
 
-                    <a href="campus-life-games-sports">
+                    <a href="games&sports">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
                             <div class="p-3">
@@ -182,7 +182,7 @@
                                 <h5 style="font-weight: 900 !important; color: #27467A;" class="card-title mobile-headd2 pb-2">
                                     Games <span style="font-weight: 600 !important;">And Sports</span> </h5>
 
-                                <a href="campus-life-games-sports">
+                                <a href="games&sports">
                                     <p class="card-text mobile-para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">
                                         Explore More</p>
                                 </a>
@@ -263,7 +263,7 @@
 
                 <div class="col-lg-12 mb-4">
 
-                    <a href="Library-Resources">
+                    <a href="library-Resources">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
                             <div class="p-3">
@@ -274,7 +274,7 @@
                                 <h5 style="font-weight: 900 !important; color: #27467A;" class="card-title mobile-headd2 pb-2">
                                     Library</h5>
 
-                                <a href="Library-Resources">
+                                <a href="library-Resources">
                                     <p class="card-text mobile-para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">
                                         Explore More</p>
                                 </a>
@@ -309,7 +309,7 @@
 
                 <div class="col-lg-12 mb-4">
 
-                    <a href="Medical_Facility">
+                    <a href="medical-facility">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
                             <div class="p-3">
@@ -320,7 +320,7 @@
                                 <h5 style="font-weight: 900 !important; color: #27467A;" class="card-title mobile-headd2 pb-2">
                                     Medical <span style="font-weight: 600 !important;">Facility</span> </h5>
 
-                                <a href="Medical_Facility">
+                                <a href="medical-facility">
                                     <p class="card-text mobile-para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">
                                         Explore More</p>
                                 </a>
@@ -427,7 +427,7 @@
 
                 <div class="col-lg-12 mb-4">
 
-                    <a href="Stationary_Store">
+                    <a href="stationary-store">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
                             <div class="p-3">
@@ -438,7 +438,7 @@
                                 <h5 style="font-weight: 900 !important; color: #27467A;" class="card-title mobile-headd2 pb-2">
                                     Stationary <span style="font-weight: 600 !important;">Store</span> </h5>
 
-                                <a href="Stationary_Store">
+                                <a href="stationary-store">
                                     <p class="card-text mobile-para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">
                                         Explore More</p>
                                 </a>
@@ -450,7 +450,7 @@
 
                 <div class="col-lg-12 mb-4">
 
-                    <a href="Student_Gallery">
+                    <a href="student-gallery">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
                             <div class="p-3">
@@ -462,7 +462,7 @@
                                     Student <span style="font-weight: 600 !important;">Gallery</span> </h5>
 
 
-                                <a href="Student_Gallery">
+                                <a href="student-gallery">
                                     <p class="card-text mobile-para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">
                                         Explore More</p>
                                 </a>
@@ -625,14 +625,14 @@
 
       <div class="col-lg-4 mb-4">
 
-          <a href="facilities-bank"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
+          <a href="banking-services"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
               <div class="p-3">
                 <img style="height: 230px; width: 100%;" src="mobile-assets/facilities/BankingServices.webp" class="img-fluid rounded"/>
               </div>
               <div class="card-body d-flex flex-column flex-grow-1">
                 <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Banking <span style="font-weight: 600 !important;">Services</span> </h5>
 
-               <a href="facilities-bank"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
+               <a href="banking-services"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
               </div>
           </div>
         </a>
@@ -702,14 +702,14 @@
 
       <div class="col-lg-4 mb-4">
 
-        <a href="campus-life-games-sports"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
+        <a href="games&sports"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
             <div class="p-3">
               <img style="height: 230px; width: 100%;" src="mobile-assets/facilities/games.jpg" class="img-fluid rounded"/>
             </div>
             <div class="card-body d-flex flex-column flex-grow-1">
               <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Games <span style="font-weight: 600 !important;">And Sports</span> </h5>
 
-             <a href="campus-life-games-sports"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
+             <a href="games&sports"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
             </div>
         </div></a>
 
@@ -762,14 +762,14 @@
 
       <div class="col-lg-4 mb-4">
 
-          <a href="facilities-library"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
+          <a href="library-Resources"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
               <div class="p-3">
                 <img style="height: 230px; width: 100%;" src="mobile-assets/facilities/Library.png" class="img-fluid rounded"/>
               </div>
               <div class="card-body d-flex flex-column flex-grow-1">
                 <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Library</h5>
 
-               <a href="facilities-library"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
+               <a href="library-Resources"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
               </div>
           </div></a>
 
@@ -792,14 +792,14 @@
 
       <div class="col-lg-4 mb-4">
 
-        <a href="Medical_Facility"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
+        <a href="medical-facility"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
             <div class="p-3">
               <img style="height: 230px; width: 100%;" src="mobile-assets/facilities/MedicalFacility.JPG" class="img-fluid rounded"/>
             </div>
             <div class="card-body d-flex flex-column flex-grow-1">
               <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Medical <span style="font-weight: 600 !important;">Facility</span> </h5>
 
-             <a href="Medical_Facility"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
+             <a href="medical-facility"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
             </div>
         </div></a>
 
@@ -854,7 +854,7 @@
 
       <div class="col-lg-4 mb-4">
 
-          <a href="facilities-salon"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
+          <a href="salon"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
               <div class="p-3">
                 <img style="height: 230px; width: 100%;" src="mobile-assets/facilities/Salon.JPG" class="img-fluid rounded"/>
               </div>
@@ -862,7 +862,7 @@
                 <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Salon</h5>
 
 
-               <a href="facilities-salon"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
+               <a href="salon"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
               </div>
           </div></a>
 
@@ -870,14 +870,14 @@
 
       <div class="col-lg-4 mb-4">
 
-        <a href="facilities-Stationary-Store"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
+        <a href="stationary-store"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
             <div class="p-3">
               <img style="height: 230px; width: 100%;" src="mobile-assets/facilities/StationaryStore.jpg" class="img-fluid rounded"/>
             </div>
             <div class="card-body d-flex flex-column flex-grow-1">
               <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Stationary <span style="font-weight: 600 !important;">Store</span> </h5>
 
-             <a href="facilities-Stationary-Store"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
+             <a href="stationary-store"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
             </div>
         </div></a>
 
@@ -885,7 +885,7 @@
 
       <div class="col-lg-4 mb-4">
 
-        <a href="facilities-student-gallery"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
+        <a href="student-gallery"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
             <div class="p-3">
               <img style="height: 230px; width: 100%;" src="mobile-assets/facilities/StudentGallery.JPG" class="img-fluid rounded"/>
             </div>
@@ -893,7 +893,7 @@
               <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Student <span style="font-weight: 600 !important;">Gallery</span> </h5>
 
 
-             <a href="facilities-student-gallery"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
+             <a href="student-gallery"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
             </div>
         </div></a>
 

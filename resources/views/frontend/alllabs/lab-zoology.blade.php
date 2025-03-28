@@ -27,7 +27,7 @@
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;"
                                             class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="assets/img/all_lab/zoology/headimg.JPG" alt="">
+                                            <img decoding="async" src="mobile-assets/lab-zoology/headimg.JPG" alt="">
                                         </div>
                                     </div>
                                 </div>
