@@ -1,6 +1,8 @@
 @extends('frontend.master')
 @section('content')
+
     <div class="mobile">
+        @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
             <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
                 <div class="container">
@@ -42,35 +44,35 @@
                 <div class="card p-4">
                     <div class="row justify-content-center">
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-architecture.html" target="_blank"
+                            <a href="doctoral-architecture" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Architecture
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-biochemistry.html" target="_blank"
+                            <a href="doctoral-biochemistry" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Bio-Chemistry
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-biotechnology.html" target="_blank"
+                            <a href="doctoral-biotechnology" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Bio-Technology
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-botany.html" target="_blank"
+                            <a href="doctoral-botany" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Botany
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-chemistry.html" target="_blank"
+                            <a href="doctoral-chemistry" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Chemistry
@@ -84,70 +86,70 @@
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-com-sc-engg.html" target="_blank"
+                            <a href="doctoral-com-sc-engg" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Computer Science & Engineering
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-civil-engineering.html" target="_blank"
+                            <a href="doctoral-civil-engineering" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Civil Engineering
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-design.html" target="_blank"
+                            <a href="doctoral-design" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Design
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-economics.html" target="_blank"
+                            <a href="doctoral-economics" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Economics
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-english.html" target="_blank"
+                            <a href="doctoral-english" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 English
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-environmental.html" target="_blank"
+                            <a href="doctoral-environmental" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Environmental Science
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-fine-arts.html" target="_blank"
+                            <a href="doctoral-fine-arts" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Fine Arts
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-geography.html" target="_blank"
+                            <a href="doctoral-geography" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Geography
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-geology.html" target="_blank"
+                            <a href="doctoral-geology" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Geology
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-history.html" target="_blank"
+                            <a href="doctoral-history" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 History
@@ -162,49 +164,49 @@
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-mass-comm-journalism.html" target="_blank"
+                            <a href="doctoral-mass-comm-journalism" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Journalism & Mass Comm
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-library-science.html" target="_blank"
+                            <a href="doctoral-library-science" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Library Science
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-law.html" target="_blank"
+                            <a href="doctoral-law" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Law
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-management.html" target="_blank"
+                            <a href="doctoral-management" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Management
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-microbiology.html" target="_blank"
+                            <a href="doctoral-microbiology" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Microbiology
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-pharmacy.html" target="_blank"
+                            <a href="doctoral-pharmacy" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Pharmacy
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-physics.html" target="_blank"
+                            <a href="doctoral-physics" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Physics
@@ -212,49 +214,49 @@
                         </div>
 
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-political-science.html" target="_blank"
+                            <a href="doctoral-political-science" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Political Science
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-psychology.html" target="_blank"
+                            <a href="doctoral-psychology" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Psychology
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-public-admin.html" target="_blank"
+                            <a href="doctoral-public-admin" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Public Administration
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-social-work.html" target="_blank"
+                            <a href="doctoral-social-work" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Social Work
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-sociology.html" target="_blank"
+                            <a href="doctoral-sociology" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Sociology
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-tourism-travel.html" target="_blank"
+                            <a href="doctoral-tourism-travel" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Travel & Tourism Management
                             </a>
                         </div>
                         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                            <a href="doctoral-zoology.html" target="_blank"
+                            <a href="doctoral-zoology" target="_blank"
                                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                                 Zoology
@@ -2698,43 +2700,43 @@
             <div class="main-container" style="margin: 20px 0px 30px 0px;">
                 <section class="button-container">
                     <div class="button-row">
-                        <a href="doctoral-architecture.html" class="button para1">Architecture</a>
-                        <a href="doctoral-biochemistry.html" class="button para1">Bio-Chemistry</a>
-                        <a href="doctoral-biotechnology.html" class="button para1">Bio-Technology</a>
-                        <a href="doctoral-botany.html" class="button para1">Botany</a>
-                        <a href="doctoral-chemistry.html" class="button para1">Chemistry</a>
+                        <a href="doctoral-architecture" class="button para1">Architecture</a>
+                        <a href="doctoral-biochemistry" class="button para1">Bio-Chemistry</a>
+                        <a href="doctoral-biotechnology" class="button para1">Bio-Technology</a>
+                        <a href="doctoral-botany" class="button para1">Botany</a>
+                        <a href="doctoral-chemistry" class="button para1">Chemistry</a>
                         <a href="#" class="button para1">Commerce</a>
-                        <a href="doctoral-com-sc-engg.html" class="button para1">Computer Science <br> & Engineering</a>
-                        <a href="doctoral-civil-engineering.html" class="button para1">Civil Engineering</a>
+                        <a href="doctoral-com-sc-engg" class="button para1">Computer Science <br> & Engineering</a>
+                        <a href="doctoral-civil-engineering" class="button para1">Civil Engineering</a>
                     </div>
                     <div class="button-row">
-                        <a href="doctoral-design.html" class="button para1">Design</a>
-                        <a href="doctoral-economics.html" class="button para1">Economics</a>
-                        <a href="doctoral-english.html" class="button para1">English</a>
-                        <a href="doctoral-environmental.html" class="button para1">Environmental Science</a>
-                        <a href="doctoral-fine-arts.html" class="button para1">Fine Arts</a>
-                        <a href="doctoral-geography.html" class="button para1">Geography</a>
-                        <a href="doctoral-geology.html" class="button para1">Geology</a>
-                        <a href="doctoral-history.html" class="button para1">History</a>
+                        <a href="doctoral-design" class="button para1">Design</a>
+                        <a href="doctoral-economics" class="button para1">Economics</a>
+                        <a href="doctoral-english" class="button para1">English</a>
+                        <a href="doctoral-environmental" class="button para1">Environmental Science</a>
+                        <a href="doctoral-fine-arts" class="button para1">Fine Arts</a>
+                        <a href="doctoral-geography" class="button para1">Geography</a>
+                        <a href="doctoral-geology" class="button para1">Geology</a>
+                        <a href="doctoral-history" class="button para1">History</a>
                     </div>
                     <div class="button-row">
                         <a href="#" class="button para1">Computer Technology & IT</a>
-                        <a href="doctoral-mass-comm-journalism.html" class="button para1">Journalism & Mass Comm</a>
-                        <a href="doctoral-library-science.html" class="button para1">Library Science</a>
-                        <a href="doctoral-law.html" class="button para1">Law</a>
-                        <a href="doctoral-management.html" class="button para1">Management</a>
-                        <a href="doctoral-microbiology.html" class="button para1">Microbiology</a>
-                        <a href="doctoral-pharmacy.html" class="button para1">Pharmacy</a>
-                        <a href="doctoral-physics.html" class="button para1">Physics</a>
+                        <a href="doctoral-mass-comm-journalism" class="button para1">Journalism & Mass Comm</a>
+                        <a href="doctoral-library-science" class="button para1">Library Science</a>
+                        <a href="doctoral-law" class="button para1">Law</a>
+                        <a href="doctoral-management" class="button para1">Management</a>
+                        <a href="doctoral-microbiology" class="button para1">Microbiology</a>
+                        <a href="doctoral-pharmacy" class="button para1">Pharmacy</a>
+                        <a href="doctoral-physics" class="button para1">Physics</a>
                     </div>
                     <div class="button-row">
-                        <a href="doctoral-political-science.html" class="button para1">Political Science</a>
-                        <a href="doctoral-psychology.html" class="button para1">Psychology</a>
-                        <a href="doctoral-public-admin.html" class="button para1">Public Administration</a>
-                        <a href="doctoral-social-work.html" class="button para1">Social Work</a>
-                        <a href="doctoral-sociology.html" class="button para1">Sociology</a>
-                        <a href="doctoral-tourism-travel.html" class="button para1">Travel & Tourism Management</a>
-                        <a href="doctoral-zoology.html" class="button para1">Zoology</a>
+                        <a href="doctoral-political-science" class="button para1">Political Science</a>
+                        <a href="doctoral-psychology" class="button para1">Psychology</a>
+                        <a href="doctoral-public-admin" class="button para1">Public Administration</a>
+                        <a href="doctoral-social-work" class="button para1">Social Work</a>
+                        <a href="doctoral-sociology" class="button para1">Sociology</a>
+                        <a href="doctoral-tourism-travel" class="button para1">Travel & Tourism Management</a>
+                        <a href="doctoral-zoology" class="button para1">Zoology</a>
                     </div>
                 </section>
             </div>
