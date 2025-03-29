@@ -840,7 +840,7 @@
                                             <a href="jobs-vacancies">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs & Vacancies</p>
                                             </a>
-                                            <a href="iqac-overview">
+                                            <a href="">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
                                             </a>
                                             <a href="">

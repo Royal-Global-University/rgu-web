@@ -1,4 +1,12 @@
 @extends('frontend.master')
+@push('styles')
+    <style>
+        .head-name {
+            font-size: 22px !important;
+            font-weight: bold !important;
+        }
+    </style>
+@endpush
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
@@ -709,7 +717,7 @@
         <div class="p-5">
             <div class="row pb-2 text-center" style="align-items: center">
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
-                    <a href="admission-how-to-apply" class="btn text-white mt-2 p-3 rounded" style="
+                    <a href="how-to-apply" class="btn text-white mt-2 p-3 rounded" style="
             font-size: 16px;
             font-weight: 600;
             background: #27467a;
@@ -721,7 +729,7 @@
                         to Apply</a>
                 </div>
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
-                    <a href="placements-placement-process" class="btn text-white mt-2 p-3 rounded" style="
+                    <a href="placements-process" class="btn text-white mt-2 p-3 rounded" style="
             font-size: 16px;
             font-weight: 600;
             background: #27467a;
@@ -732,7 +740,7 @@
                         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">Placements</a>
                 </div>
                 <div class="col-lg-3 animate__animated animate__fadeInDown">
-                    <a href="Eligibility&Selection" class="btn text-white mt-2 p-3 rounded" style="
+                    <a href="programs" class="btn text-white mt-2 p-3 rounded" style="
             font-size: 16px;
             font-weight: 600;
             background: #27467a;
@@ -774,7 +782,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Architecture (RSA)</p>
+                                Royal School of Architecture (RSA)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
@@ -814,7 +822,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Applied & Pure Sciences (RSAPS)</p>
+                                Royal School of Applied & Pure Sciences (RSAPS)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
@@ -854,7 +862,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Business (RSB)</p>
+                                Royal School of Business (RSB)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
@@ -894,7 +902,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Behavioral & Allied Sciences (RSBAS)</p>
+                                Royal School of Behavioral & Allied Sciences (RSBAS)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
@@ -935,7 +943,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Bio-sciences (RSBSC)</p>
+                                Royal School of Bio-sciences (RSBSC)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
@@ -975,7 +983,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Commerce (RSC)</p>
+                                Royal School of Commerce (RSC)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
@@ -1015,7 +1023,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Communications & Media (RSCOM)</p>
+                                Royal School of Communications & Media (RSCOM)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
@@ -1055,7 +1063,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Design (RSD)</p>
+                                Royal School of Design (RSD)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
@@ -1095,7 +1103,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Environmental & Earth Sciences (RSEES)</p>
+                                Royal School of Environmental & Earth Sciences (RSEES)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
@@ -1136,7 +1144,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Engineering & Technology (RSET)</p>
+                                Royal School of Engineering & Technology (RSET)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
@@ -1176,7 +1184,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Fine Arts (RSFA)</p>
+                                Royal School of Fine Arts (RSFA)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
@@ -1216,7 +1224,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Fashion Design & Technology (RSFT)</p>
+                                Royal School of Fashion Design & Technology (RSFT)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
@@ -1256,7 +1264,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Humanities & Social Sciences (RSHSS)</p>
+                                Royal School of Humanities & Social Sciences (RSHSS)
                             </h4>
                             <div class="card-footer rt-primary-bg">
                                 <div class="row text-center">
@@ -1297,7 +1305,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Hotel Management (RSHM)</p>
+                                Royal School of Hotel Management (RSHM)
                             </h4>
                             <div class="card-footer rt-primary-bg">
                                 <div class="row text-center">
@@ -1337,7 +1345,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Information Technology (RSIT)</p>
+                                Royal School of Information Technology (RSIT)
                             </h4>
                             <div class="card-footer rt-primary-bg">
                                 <div class="row text-center">
@@ -1378,7 +1386,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Law & Administration(RSLA)</p>
+                                Royal School of Law & Administration(RSLA)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
@@ -1418,7 +1426,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Life Sciences (RSLSC)</p>
+                                Royal School of Life Sciences (RSLSC)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
@@ -1458,7 +1466,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Languages (RSL)</p>
+                                Royal School of Languages (RSL)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
@@ -1498,7 +1506,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Library Sciences (RSLIS) (RSP)</p>
+                                Royal School of Library Sciences (RSLIS) (RSP)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
@@ -1538,7 +1546,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Medical & Allied Sciences (RSMAS)</p>
+                                Royal School of Medical & Allied Sciences (RSMAS)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
@@ -1579,7 +1587,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Nursing (RSN)</p>
+                                Royal School of Nursing (RSN)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 32px">
                                 <div class="row text-center">
@@ -1619,7 +1627,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Pharmacy (RSP)</p>
+                                Royal School of Pharmacy (RSP)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 35px">
                                 <div class="row text-center">
@@ -1659,7 +1667,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title kd-heading-1 kd-font-900">
-                                <p>Royal School of Travel & Tourism Management(RSTTM)</p>
+                                Royal School of Travel & Tourism Management(RSTTM)
                             </h4>
                             <div class="card-footer rt-primary-bg" style="padding-top: 10px">
                                 <div class="row text-center">
