@@ -46,8 +46,12 @@
 
 
         <!-- mobile video -->
-        <div class="mobile-video">
-            <video playsinline autoplay loop muted id="video-bg">
+        <div class="mobile-video" style="position: relative; width: 100%; height: auto;">
+            <img src="mob-thumb.png" id="video-thumbnail" alt="Video Thumbnail"
+                style="width: 100%; height: auto; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
+
+            <video playsinline autoplay loop muted id="video-bg" oncanplay="showVideo()"
+                style="width: 100%; height: auto; display: block;">
                 <source src="mobile-assets/index/Websitemobilevideooo.mp4" type="video/mp4">
             </video>
         </div>
@@ -707,7 +711,7 @@
                                             <div class="btn-container">
                                                 <div class="btn shiny-button">
                                                     <a class="text-center headd3 fw-bold"
-                                                        href="https://admissions.rgu.ac/">APPLY NOW !</a>
+                                                        href="https://admissions.rgu.ac/">APPLY NOW</a>
                                                 </div>
                                             </div>
                                         </div>
