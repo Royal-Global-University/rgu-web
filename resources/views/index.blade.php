@@ -2155,7 +2155,7 @@
             <!--Innovation & Publication end-->
 
             <!--Footprint-->
-            <img src="mobile-assets/index/footprint.jpeg" alt="">
+            <img src="footprint.png" alt="">
             <!-- footprint end  -->
 
             <!--Testimonial-->
