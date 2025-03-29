@@ -18,6 +18,11 @@ Route::get('/', function () {
 });
 
 
+Route::get('/contact', function () {
+    return view('frontend/contact/contact-us');
+})->name('contact');
+
+
 //Discover RGU
 Route::get('/preface', function () {
     return view('frontend/discoverRGU/preface');
