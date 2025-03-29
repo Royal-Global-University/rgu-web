@@ -72,23 +72,8 @@
         <!-- slider banners  -->
 
         <!-- discover rgu -->
-        <div
-            style="background-image: url(mobile-assets/index/bg-explorergu-new.png); background-size: cover; height: 100vh; width: 100%;">
-            <div class="p-3">
-                <h2 class="mobile-headd1" style="color: #27467A; font-weight: 500; font-size: 40px;">Explore <span
-                        style="font-weight: 900; color: #27467A;">RGU</span></h2>
-                <h2 class="mobile-headd3 pb-1" style="color: #e68900; font-weight: 500; font-size: 22px;">About <span
-                        style="font-weight: 900; color: #e68900;">University</span></h2>
-
-                <p style="color: #27467A; text-align: justify; line-height: 1.4;" class="mobile-para1">The Assam Royal
-                    Global University (RGU), one of the premium universities in India, has continuously acted as a
-                    leadership platform that aligns interests of industries, entrepreneurs, and the youth since its
-                    establishment in 2017. Aimed at creating and sustaining an environment wherein employment and
-                    entrepreneurship can flourish with collaborative efforts amongst an extensive network of influential
-                    corporates, individual members, and academic institutes, The Assam Royal Global University has been able
-                    to provide necessary resources, knowledge, and support to create effective employment and
-                    entrepreneurship opportunities.</p>
-            </div>
+        <div>
+            <img src="mobile-rgu.png"/>
         </div>
         <!-- discover rgu -->
 
