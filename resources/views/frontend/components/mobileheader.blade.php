@@ -5,8 +5,8 @@
         <div class="logo">
             <a href="/"><img style="height: 70px;" src="mobile-assets/index/logo-dark.png" alt="Logo"></a>
         </div>
-        <div style="background-color: #27467A; color: #fff; border-radius: 8px;" class="call-icon p-2"><i
-                class="fas fa-phone-alt"></i></div>
+        <div style="background-color: #27467A; color: #fff; border-radius: 8px;" class="call-icon p-2"><a href="tel:+917879998811"><i
+                class="fas fa-phone-alt"></i></a></div>
     </div>
 
     <div class="menu-overlay"></div>
