@@ -77,7 +77,7 @@
             <div class="p-3">
                 <h2 class="mobile-headd1" style="color: #27467A; font-weight: 500; font-size: 40px;">Explore <span
                         style="font-weight: 900; color: #27467A;">RGU</span></h2>
-                <h2 class="mobile-headd3 pb-1" style="color: #e68900; font-weight: 500; font-size: 22px;">About Our <span
+                <h2 class="mobile-headd3 pb-1" style="color: #e68900; font-weight: 500; font-size: 22px;">About <span
                         style="font-weight: 900; color: #e68900;">University</span></h2>
 
                 <p style="color: #27467A; text-align: justify; line-height: 1.4;" class="mobile-para1">The Assam Royal
