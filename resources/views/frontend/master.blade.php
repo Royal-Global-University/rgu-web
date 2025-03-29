@@ -1010,6 +1010,107 @@
         })();
     </script>
 
+    <!--Programs-->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.querySelector('input[type="search"]');
+
+            function debounce(func, timeout = 300) {
+                let timer;
+                return (...args) => {
+                    clearTimeout(timer);
+                    timer = setTimeout(() => func.apply(this, args), timeout);
+                };
+            }
+
+            function handleSearch(e) {
+                const searchTerm = e.target.value.trim().toLowerCase();
+
+                // Reset when search is empty
+                if (!searchTerm) {
+                    document.querySelectorAll('.accordion-item').forEach(school => {
+                        school.classList.remove('d-none');
+                        school.querySelectorAll('.col-lg-3').forEach(program => {
+                            program.classList.remove('d-none');
+                        });
+                        const collapse = school.querySelector('.accordion-collapse');
+                        bootstrap.Collapse.getInstance(collapse)?.hide();
+                    });
+                    return;
+                }
+
+                document.querySelectorAll('.accordion-item').forEach(school => {
+                    let hasMatch = false;
+                    const programElements = school.querySelectorAll('.col-lg-3');
+
+                    programElements.forEach(program => {
+                        const text = program.textContent.toLowerCase();
+                        if (text.includes(searchTerm)) {
+                            program.classList.remove('d-none');
+                            hasMatch = true;
+                        } else {
+                            program.classList.add('d-none');
+                        }
+                    });
+
+                    if (hasMatch) {
+                        school.classList.remove('d-none');
+                        new bootstrap.Collapse(school.querySelector('.accordion-collapse'), { toggle: false }).show();
+                    } else {
+                        school.classList.add('d-none');
+                        new bootstrap.Collapse(school.querySelector('.accordion-collapse'), { toggle: false }).hide();
+                    }
+                });
+            }
+
+            searchInput.addEventListener('input', debounce(handleSearch));
+        });
+    </script>
+
+    <script>
+        // Wait for the DOM to be fully loaded before executing the script
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the school select element
+            const schoolSelect = document.getElementById('schoolSelect');
+
+            // Add event listener for changes to the school select dropdown
+            schoolSelect.addEventListener('change', function () {
+                const selectedText = this.options[this.selectedIndex].text.trim();
+                const accordionButtons = document.querySelectorAll('.accordion-button');
+
+                // Collapse all accordions if "Select Course" is chosen
+                if (selectedText === 'Select Course') {
+                    document.querySelectorAll('.accordion-collapse').forEach(collapse => {
+                        new bootstrap.Collapse(collapse).hide();
+                    });
+                    return;
+                }
+
+                // Iterate through accordion buttons to find a match
+                accordionButtons.forEach(button => {
+                    const buttonText = button.textContent.trim();
+
+                    // Check if the button text matches the selected school
+                    if (buttonText === selectedText) {
+                        const targetId = button.getAttribute('data-bs-target');
+                        const targetCollapse = document.querySelector(targetId);
+
+                        // Ensure the target collapse element exists
+                        if (targetCollapse) {
+                            // Toggle the accordion section
+                            new bootstrap.Collapse(targetCollapse, { toggle: true });
+
+                            // Scroll to the opened section smoothly
+                            button.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+    <!--End -->
+
     <script type='text/javascript'>
         const lazyloadRunObserver = () => {
             const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
