@@ -867,13 +867,13 @@ Route::get('/program-msc-nursing-comm-mental', function () {
     return view('frontend/programmes/program-msc-nursing-comm-mental');
 })->name('program-msc-nursing-comm-mental');
 
-Route::get('/program-ba-bba-llb(hons)', function () {
-    return view('frontend/programmes/program-ba-bba-llb(hons)');
-})->name('program-ba-bba-llb(hons)');
+Route::get('/program-ba-bba-llb-hons', function () {
+    return view('frontend/programmes/program-ba-bba-llb-hons');
+})->name('program-ba-bba-llb-hons');
 
-Route::get('/program-ba-llb-(hons)', function () {
-    return view('frontend/programmes/program-ba-llb-(hons)');
-})->name('program-ba-llb-(hons)');
+Route::get('/program-ba-llb-hons', function () {
+    return view('frontend/programmes/program-ba-llb-hons');
+})->name('program-ba-llb-hons');
 
 Route::get('/programs-barch', function () {
     return view('frontend/programmes/programs-barch');
@@ -887,13 +887,13 @@ Route::get('/programs-bcom', function () {
     return view('frontend/programmes/programs-bcom');
 })->name('programs-bcom');
 
-Route::get('/programs-bcom(morning-shift)', function () {
-    return view('frontend/programmes/programs-bcom(morning-shift)');
-})->name('programs-bcom(morning-shift)');
+Route::get('/programs-bcom-morning-shift', function () {
+    return view('frontend/programmes/programs-bcom-morning-shift');
+})->name('programs-bcom-morning-shift');
 
-Route::get('/programs-b-des-fd(fashion-design)', function () {
-    return view('frontend/programmes/programs-b-des-fd(fashion-design)');
-})->name('programs-b-des-fd(fashion-design)');
+Route::get('/programs-b-des-fd-fashion-design', function () {
+    return view('frontend/programmes/programs-b-des-fd-fashion-design');
+})->name('programs-b-des-fd-fashion-design');
 
 Route::get('/programs-b-optometry-lateral-entry', function () {
     return view('frontend/programmes/programs-b-optometry-lateral-entry');
@@ -927,13 +927,17 @@ Route::get('/programs-b-sc-dialysis', function () {
     return view('frontend/programmes/programs-b-sc-dialysis');
 })->name('programs-b-sc-dialysis');
 
+Route::get('/programs-BTechWorking-Professional-CE-CSE', function () {
+    return view('frontend/programmes/programs-BTechWorking-Professional-CE-CSE');
+})->name('programs-BTechWorking-Professional-CE-CSE');
+
 Route::get('/programs-b-sc-mathematics', function () {
     return view('frontend/programmes/programs-b-sc-mathematics');
 })->name('programs-b-sc-mathematics');
 
-Route::get('/programs-b-sc-medicaltechnology(bmlt)-lateral-entry', function () {
-    return view('frontend/programmes/programs-b-sc-medicaltechnology(bmlt)-lateral-entry');
-})->name('programs-b-sc-medicaltechnology(bmlt)-lateral-entry');
+Route::get('/programs-b-sc-medicaltechnologybmlt-lateral-entry', function () {
+    return view('frontend/programmes/programs-b-sc-medicaltechnologybmlt-lateral-entry');
+})->name('programs-b-sc-medicaltechnologybmlt-lateral-entry');
 
 Route::get('/programs-b-sc-physics', function () {
     return view('frontend/programmes/programs-b-sc-physics');
@@ -1003,33 +1007,29 @@ Route::get('/programs-b-tech-artifical-intelligence-ai', function () {
     return view('frontend/programmes/programs-b-tech-artifical-intelligence-ai');
 })->name('programs-b-tech-artifical-intelligence-ai');
 
-Route::get('/programs-b-tech-(ce)', function () {
-    return view('frontend/programmes/programs-b-tech-(ce)');
-})->name('programs-b-tech-(ce)');
+Route::get('/programs-b-tech-ce', function () {
+    return view('frontend/programmes/programs-b-tech-ce');
+})->name('programs-b-tech-ce');
 
-Route::get('/programs-b-tech-(cse)', function () {
-    return view('frontend/programmes/programs-b-tech-(cse)');
-})->name('programs-b-tech-(cse)');
+Route::get('/programs-b-tech-cse', function () {
+    return view('frontend/programmes/programs-b-tech-cse');
+})->name('programs-b-tech-cse');
 
-Route::get('/programs-b-tech-(lateral-entry)', function () {
-    return view('frontend/programmes/programs-b-tech-(lateral-entry)');
-})->name('programs-b-tech-(lateral-entry)');
+Route::get('/programs-b-tech-lateral-entry', function () {
+    return view('frontend/programmes/programs-b-tech-lateral-entry');
+})->name('programs-b-tech-lateral-entry');
 
-Route::get('/programs-b-tech-(me)', function () {
-    return view('frontend/programmes/programs-b-tech-(me)');
-})->name('programs-b-tech-(me)');
+Route::get('/programs-b-tech-me', function () {
+    return view('frontend/programmes/programs-b-tech-me');
+})->name('programs-b-tech-me');
 
-Route::get('/programs-B-Tech(CE&CSE)', function () {
-    return view('frontend/programmes/programs-B-Tech(CE&CSE)');
-})->name('programs-B-Tech(CE&CSE)');
+Route::get('/programs-B-TechElectrical-Electronics-Engineering', function () {
+    return view('frontend/programmes/programs-B-TechElectrical-Electronics-Engineering');
+})->name('programs-B-TechElectrical-Electronics-Engineering');
 
-Route::get('/programs-B-Tech(Electrical-Electronics-Engineering)', function () {
-    return view('frontend/programmes/programs-B-Tech(Electrical-Electronics-Engineering)');
-})->name('programs-B-Tech(Electrical-Electronics-Engineering)');
-
-Route::get('/programs-B-Tech(Electronics-Communication-Engineering)', function () {
-    return view('frontend/programmes/programs-B-Tech(Electronics-Communication-Engineering)');
-})->name('programs-B-Tech(Electronics-Communication-Engineering)');
+Route::get('/programs-B-Tech-Electronics-Communication-Engineering', function () {
+    return view('frontend/programmes/programs-B-Tech-Electronics-Communication-Engineering');
+})->name('programs-B-Tech-Electronics-Communication-Engineering');
 
 Route::get('/programs-BA-Administrative-Service', function () {
     return view('frontend/programmes/programs-BA-Administrative-Service');
@@ -1067,49 +1067,49 @@ Route::get('/programs-BA-Sociology', function () {
     return view('frontend/programmes/programs-BA-Sociology');
 })->name('programs-BA-Sociology');
 
-Route::get('/programs-Bachelor-of-Physiotherapy-(BPT)', function () {
-    return view('frontend/programmes/programs-Bachelor-of-Physiotherapy-(BPT)');
-})->name('programs-Bachelor-of-Physiotherapy-(BPT)');
+Route::get('/programs-Bachelor-of-Physiotherapy-BPT', function () {
+    return view('frontend/programmes/programs-Bachelor-of-Physiotherapy-BPT');
+})->name('programs-Bachelor-of-Physiotherapy-BPT');
 
-Route::get('/programs-Bachelor-of-Design-(Communication-Design)', function () {
-    return view('frontend/programmes/programs-Bachelor-of-Design-(Communication-Design)');
-})->name('programs-Bachelor-of-Design-(Communication-Design)');
+Route::get('/programs-Bachelor-of-Design-Communication-Design', function () {
+    return view('frontend/programmes/programs-Bachelor-of-Design-Communication-Design');
+})->name('programs-Bachelor-of-Design-Communication-Design');
 
-Route::get('/programs-Bachelor-of-Design-(Fashion-Design)', function () {
-    return view('frontend/programmes/programs-Bachelor-of-Design-(Fashion-Design)');
-})->name('programs-Bachelor-of-Design-(Fashion-Design)');
+Route::get('/programs-Bachelor-of-Design-Fashion-Design', function () {
+    return view('frontend/programmes/programs-Bachelor-of-Design-Fashion-Design');
+})->name('programs-Bachelor-of-Design-Fashion-Design');
 
 Route::get('/programs-Bachelor-of-Design-Fashion-Design-Lateral-Entry', function () {
     return view('frontend/programmes/programs-Bachelor-of-Design-Fashion-Design-Lateral-Entry');
 })->name('programs-Bachelor-of-Design-Fashion-Design-Lateral-Entry');
 
-Route::get('/programs-Bachelor-of-Design-(Graphic-Design)', function () {
-    return view('frontend/programmes/programs-Bachelor-of-Design-(Graphic-Design)');
-})->name('programs-Bachelor-of-Design-(Graphic-Design)');
+Route::get('/programs-Bachelor-of-Design-Graphic-Design', function () {
+    return view('frontend/programmes/programs-Bachelor-of-Design-Graphic-Design');
+})->name('programs-Bachelor-of-Design-Graphic-Design');
 
-Route::get('/programs-Bachelor-of-Design-(Product-Design)', function () {
-    return view('frontend/programmes/programs-Bachelor-of-Design-(Product-Design)');
-})->name('programs-Bachelor-of-Design-(Product-Design)');
+Route::get('/programs-Bachelor-of-Design-Product-Design', function () {
+    return view('frontend/programmes/programs-Bachelor-of-Design-Product-Design');
+})->name('programs-Bachelor-of-Design-Product-Design');
 
-Route::get('/programs-Bachelor-of-Fine-Arts(BFA)', function () {
-    return view('frontend/programmes/programs-Bachelor-of-Fine-Arts(BFA)');
-})->name('programs-Bachelor-of-Fine-Arts(BFA)');
+Route::get('/programs-Bachelor-of-Fine-Arts-BFA', function () {
+    return view('frontend/programmes/programs-Bachelor-of-Fine-Arts-BFA');
+})->name('programs-Bachelor-of-Fine-Arts-BFA');
 
-Route::get('/programs-Bachelor-of-Hotel-Management-(BHM)', function () {
-    return view('frontend/programmes/programs-Bachelor-of-Hotel-Management-(BHM)');
-})->name('programs-Bachelor-of-Hotel-Management-(BHM)');
+Route::get('/programs-Bachelor-of-Hotel-Management-BHM', function () {
+    return view('frontend/programmes/programs-Bachelor-of-Hotel-Management-BHM');
+})->name('programs-Bachelor-of-Hotel-Management-BHM');
 
-Route::get('/programs-Bachelor-of-Interior-Design-(BID)-Lateral-Entry', function () {
-    return view('frontend/programmes/programs-Bachelor-of-Interior-Design-(BID)-Lateral-Entry');
-})->name('programs-Bachelor-of-Interior-Design-(BID)-Lateral-Entry');
+Route::get('/programs-Bachelor-of-Interior-Design-BID-Lateral-Entry', function () {
+    return view('frontend/programmes/programs-Bachelor-of-Interior-Design-BID-Lateral-Entry');
+})->name('programs-Bachelor-of-Interior-Design-BID-Lateral-Entry');
 
 Route::get('/programs-Bachelor-Travel', function () {
     return view('frontend/programmes/programs-Bachelor-Travel');
 })->name('programs-Bachelor-Travel');
 
-Route::get('/programs-BachelorInterior-Design(BID)', function () {
-    return view('frontend/programmes/programs-BachelorInterior-Design(BID)');
-})->name('programs-BachelorInterior-Design(BID)');
+Route::get('/programs-BachelorInterior-DesignBID', function () {
+    return view('frontend/programmes/programs-BachelorInterior-DesignBID');
+})->name('programs-BachelorInterior-DesignBID');
 
 Route::get('/programs-BachelorofPhysiotherapy', function () {
     return view('frontend/programmes/programs-BachelorofPhysiotherapy');
@@ -1131,9 +1131,9 @@ Route::get('/programs-BTech-(ME)', function () {
     return view('frontend/programmes/programs-BTech-(ME)');
 })->name('programs-BTech-(ME)');
 
-Route::get('/programs-bsc-geography', function () {
-    return view('frontend/programmes/programs-bsc-geography');
-})->name('programs-bsc-geography');
+Route::get('/programs-BSc-Geography', function () {
+    return view('frontend/programmes/programs-BSc-Geography');
+})->name('programs-BSc-Geography');
 
 Route::get('/programs-CDC', function () {
     return view('frontend/programmes/programs-CDC');
@@ -1217,17 +1217,17 @@ Route::get('/programs-MSc-Physics', function () {
     return view('frontend/programmes/programs-MSc-Physics');
 })->name('programs-MSc-Physics');
 
-Route::get('/programs-MSc(IT)', function () {
-    return view('frontend/programmes/programs-MSc(IT)');
-})->name('programs-MSc(IT)');
+Route::get('/programs-MSc-IT', function () {
+    return view('frontend/programmes/programs-MSc-IT');
+})->name('programs-MSc-IT');
 
 Route::get('/programs-MSc-Forestry', function () {
     return view('frontend/programmes/programs-MSc-Forestry');
 })->name('programs-MSc-Forestry');
 
-Route::get('/programs-MSc-Medical-Laboratory(MMLT)', function () {
-    return view('frontend/programmes/programs-MSc-Medical-Laboratory(MMLT)');
-})->name('programs-MSc-Medical-Laboratory(MMLT)');
+Route::get('/programs-MSc-Medical-Laboratory-MMLT', function () {
+    return view('frontend/programmes/programs-MSc-Medical-Laboratory-MMLT');
+})->name('programs-MSc-Medical-Laboratory-MMLT');
 
 Route::get('/programs-MSc-Nutrition', function () {
     return view('frontend/programmes/programs-MSc-Nutrition');
@@ -1321,9 +1321,9 @@ Route::get('/programs-Master-Travel&Tourism', function () {
     return view('frontend/programmes/programs-Master-Travel&Tourism');
 })->name('programs-Master-Travel&Tourism');
 
-Route::get('/programs-MasterofPhysiotherapy(MPT)', function () {
-    return view('frontend/programmes/programs-MasterofPhysiotherapy(MPT)');
-})->name('programs-MasterofPhysiotherapy(MPT)');
+Route::get('/programs-MasterofPhysiotherapyMPT', function () {
+    return view('frontend/programmes/programs-MasterofPhysiotherapyMPT');
+})->name('programs-MasterofPhysiotherapyMPT');
 
 Route::get('/programs-MBA-Finance', function () {
     return view('frontend/programmes/programs-MBA-Finance');
@@ -1337,13 +1337,13 @@ Route::get('/programs-MSW', function () {
     return view('frontend/programmes/programs-MSW');
 })->name('programs-MSW');
 
-Route::get('/programs-Technology(OTT)', function () {
-    return view('frontend/programmes/programs-Technology(OTT)');
-})->name('programs-Technology(OTT)');
+Route::get('/programs-Technology-OTT', function () {
+    return view('frontend/programmes/programs-Technology-OTT');
+})->name('programs-Technology-OTT');
 
-Route::get('/programs-BSc(IT)', function () {
-    return view('frontend/programmes/programs-BSc(IT)');
-})->name('programs-BSc(IT)');
+Route::get('/programs-BSc-IT', function () {
+    return view('frontend/programmes/programs-BSc-IT');
+})->name('programs-BSc-IT');
 
 Route::get('/programs-BA-English', function () {
     return view('frontend/programmes/programs-BA-English');
@@ -1377,9 +1377,9 @@ Route::get('/programs-Master-of-Library&Information-Sciences', function () {
     return view('frontend/programmes/programs-Master-of-Library&Information-Sciences');
 })->name('programs-Master-of-Library&Information-Sciences');
 
-Route::get('/programs-Master-of-Fine-Arts(MFA)', function () {
-    return view('frontend/programmes/programs-Master-of-Fine-Arts(MFA)');
-})->name('programs-Master-of-Fine-Arts(MFA)');
+Route::get('/programs-Master-of-Fine-Arts-MFA', function () {
+    return view('frontend/programmes/programs-Master-of-Fine-Arts-MFA');
+})->name('programs-Master-of-Fine-Arts-MFA');
 
 Route::get('/programs-BSc-Nursing', function () {
     return view('frontend/programmes/programs-BSc-Nursing');
@@ -1388,6 +1388,7 @@ Route::get('/programs-BSc-Nursing', function () {
 Route::get('/programs-BSc-Post-Basic', function () {
     return view('frontend/programmes/programs-BSc-Post-Basic');
 })->name('programs-BSc-Post-Basic');
+
 
 //End admission-programmes
 
@@ -1824,3 +1825,463 @@ Route::get('/royal-s-school-of-medical-allied-science', function () {
 //End School & Faculty
 
 
+//International Fee
+Route::get('/international-fee-structure', function () {
+    return view('frontend/international-fee/international-fee-structure');
+})->name('international-fee-structure');
+
+Route::get('/international-Program-BSc-CSSD', function () {
+    return view('frontend/international-fee/international-Program-BSc-CSSD');
+})->name('international-Program-BSc-CSSD');
+
+Route::get('/international-program-MSc-Nursing-Comm-Mental', function () {
+    return view('frontend/international-fee/international-program-MSc-Nursing-Comm-Mental');
+})->name('international-program-MSc-Nursing-Comm-Mental');
+
+Route::get('/international-programBA-BBA-LLBHons', function () {
+    return view('frontend/international-fee/international-programBA-BBA-LLBHons');
+})->name('international-programBA-BBA-LLBHons');
+
+Route::get('/international-programs-B-Arch', function () {
+    return view('frontend/international-fee/international-programs-B-Arch');
+})->name('international-programs-B-Arch');
+
+Route::get('/international-programs-MSc-Physics', function () {
+    return view('frontend/international-fee/international-programs-MSc-Physics');
+})->name('international-programs-MSc-Physics');
+
+Route::get('/international-programs-MSc-Chemistry', function () {
+    return view('frontend/international-fee/international-programs-MSc-Chemistry');
+})->name('international-programs-MSc-Chemistry');
+
+Route::get('/international-programs-MSc-Mathematics', function () {
+    return view('frontend/international-fee/international-programs-MSc-Mathematics');
+})->name('international-programs-MSc-Mathematics');
+
+Route::get('/international-programs-BSc-Physics', function () {
+    return view('frontend/international-fee/international-programs-BSc-Physics');
+})->name('international-programs-BSc-Physics');
+
+Route::get('/international-programs-BSc-Chemistry', function () {
+    return view('frontend/international-fee/international-programs-BSc-Chemistry');
+})->name('international-programs-BSc-Chemistry');
+
+Route::get('/international-programs-BSc-Mathematics', function () {
+    return view('frontend/international-fee/international-programs-BSc-Mathematics');
+})->name('international-programs-BSc-Mathematics');
+
+Route::get('/international-programs-MBA-Finance', function () {
+    return view('frontend/international-fee/international-programs-MBA-Finance');
+})->name('international-programs-MBA-Finance');
+
+Route::get('/international-programs-BBA', function () {
+    return view('frontend/international-fee/international-programs-BBA');
+})->name('international-programs-BBA');
+
+Route::get('/international-programs-MA-Psychology', function () {
+    return view('frontend/international-fee/international-programs-MA-Psychology');
+})->name('international-programs-MA-Psychology');
+
+Route::get('/international-programs-MA-Clinical-Psychology', function () {
+    return view('frontend/international-fee/international-programs-MA-Clinical-Psychology');
+})->name('international-programs-MA-Clinical-Psychology');
+
+Route::get('/international-programs-BTech(CE&CSE)-working', function () {
+    return view('frontend/international-fee/international-programs-BTech(CE&CSE)-working');
+})->name('international-programs-BTech(CE&CSE)-working');
+
+Route::get('/international-programs-BA-Psychology', function () {
+    return view('frontend/international-fee/international-programs-BA-Psychology');
+})->name('international-programs-BA-Psychology');
+
+Route::get('/programs-B.TechWorking-Professional(CE&CSE)', function () {
+    return view('frontend/international-fee/programs-B.TechWorking-Professional(CE&CSE)');
+})->name('programs-B.TechWorking-Professional(CE&CSE)');
+
+Route::get('/international-programs-BA-Applied-Psychology', function () {
+    return view('frontend/international-fee/international-programs-BA-Applied-Psychology');
+})->name('international-programs-BA-Applied-Psychology');
+
+Route::get('/international-programs-MSc-Bio-Technology', function () {
+    return view('frontend/international-fee/international-programs-MSc-Bio-Technology');
+})->name('international-programs-MSc-Bio-Technology');
+
+Route::get('/international-programs-MSc-Microbiology', function () {
+    return view('frontend/international-fee/international-programs-MSc-Microbiology');
+})->name('international-programs-MSc-Microbiology');
+
+Route::get('/international-programs-MSc-Food-Technology', function () {
+    return view('frontend/international-fee/international-programs-MSc-Food-Technology');
+})->name('international-programs-MSc-Food-Technology');
+
+Route::get('/international-programs-BSc-Bio-Technology', function () {
+    return view('frontend/international-fee/international-programs-BSc-Bio-Technology');
+})->name('international-programs-BSc-Bio-Technology');
+
+Route::get('/international-programs-BSc-Microbiology', function () {
+    return view('frontend/international-fee/international-programs-BSc-Microbiology');
+})->name('international-programs-BSc-Microbiology');
+
+Route::get('/international-programs-BSc-Food-Technology', function () {
+    return view('frontend/international-fee/international-programs-BSc-Food-Technology');
+})->name('international-programs-BSc-Food-Technology');
+
+Route::get('/international-programs-MCom', function () {
+    return view('frontend/international-fee/international-programs-MCom');
+})->name('international-programs-MCom');
+
+Route::get('/international-programs-BCom', function () {
+    return view('frontend/international-fee/international-programs-BCom');
+})->name('international-programs-BCom');
+
+Route::get('/international-programs-BCom(Morning-shift)', function () {
+    return view('frontend/international-fee/international-programs-BCom(Morning-shift)');
+})->name('international-programs-BCom(Morning-shift)');
+
+Route::get('/international-programs-BCom-Finance-with-ICA', function () {
+    return view('frontend/international-fee/international-programs-BCom-Finance-with-ICA');
+})->name('international-programs-BCom-Finance-with-ICA');
+//---
+Route::get('/international-programs-MA-J&MC', function () {
+    return view('frontend/international-fee/international-programs-MA-J&MC');
+})->name('international-programs-MA-J&MC');
+
+Route::get('/international-programs-BA-J&MC', function () {
+    return view('frontend/international-fee/international-programs-BA-J&MC');
+})->name('international-programs-BA-J&MC');
+
+Route::get('/international-programs-Bachelor-of-Design-Product-Design', function () {
+    return view('frontend/international-fee/international-programs-Bachelor-of-Design-Product-Design');
+})->name('international-programs-Bachelor-of-Design-Product-Design');
+
+Route::get('/international-programs-MSc-Animation-Visual-Effects', function () {
+    return view('frontend/international-fee/international-programs-MSc-Animation-Visual-Effects');
+})->name('international-programs-MSc-Animation-Visual-Effects');
+
+Route::get('/international-programs-BSc-Animation-Visual-Effects', function () {
+    return view('frontend/international-fee/international-programs-BSc-Animation-Visual-Effects');
+})->name('international-programs-BSc-Animation-Visual-Effects');
+
+//
+Route::get('/international-programs-BachelorInterior-DesignBID', function () {
+    return view('frontend/international-fee/international-programs-BachelorInterior-DesignBID');
+})->name('international-programs-BachelorInterior-DesignBID');
+
+Route::get('/international-programs-Bachelor-of-Interior-Design-BID-Lateral-Entry', function () {
+    return view('frontend/international-fee/international-programs-Bachelor-of-Interior-Design-BID-Lateral-Entry');
+})->name('international-programs-Bachelor-of-Interior-Design-BID-Lateral-Entry');
+
+
+
+Route::get('/international-programs-Bachelor-of-Design-Fashion-DesignLateral-Entry', function () {
+    return view('frontend/international-fee/international-programs-Bachelor-of-Design-Fashion-DesignLateral-Entry');
+})->name('international-programs-Bachelor-of-Design-Fashion-DesignLateral-Entry');
+
+Route::get('/international-programs-Bachelor-of-Design-Communication-Design', function () {
+    return view('frontend/international-fee/international-programs-Bachelor-of-Design-Communication-Design');
+})->name('international-programs-Bachelor-of-Design-Communication-Design');
+
+Route::get('/international-programs-Bachelor-of-Design-Graphic-Design', function () {
+    return view('frontend/international-fee/international-programs-Bachelor-of-Design-Graphic-Design');
+})->name('international-programs-Bachelor-of-Design-Graphic-Design');
+
+Route::get('/international-programs-Bachelor-of-Design-(Product-Design)', function () {
+    return view('frontend/international-fee/international-programs-Bachelor-of-Design-(Product-Design)');
+})->name('international-programs-Bachelor-of-Design-(Product-Design)');
+
+Route::get('/international-programs-MSc-Geography', function () {
+    return view('frontend/international-fee/international-programs-MSc-Geography');
+})->name('international-programs-MSc-Geography');
+
+Route::get('/international-programs-MA-Geography', function () {
+    return view('frontend/international-fee/international-programs-MA-Geography');
+})->name('international-programs-MA-Geography');
+
+Route::get('/international-programs-MSc-Geology', function () {
+    return view('frontend/international-fee/international-programs-MSc-Geology');
+})->name('international-programs-MSc-Geology');
+
+Route::get('/international-programs-MSc-in-Geoinformatics', function () {
+    return view('frontend/international-fee/international-programs-MSc-in-Geoinformatics');
+})->name('international-programs-MSc-in-Geoinformatics');
+
+Route::get('/international-programs-BSc-Geography', function () {
+    return view('frontend/international-fee/international-programs-BSc-Geography');
+})->name('international-programs-BSc-Geography');
+
+Route::get('/international-programs-BSc-Geology', function () {
+    return view('frontend/international-fee/international-programs-BSc-Geology');
+})->name('international-programs-BSc-Geology');
+
+Route::get('/international-programs-MTech-CSE-in-Artifical-Intelligence', function () {
+    return view('frontend/international-fee/international-programs-MTech-CSE-in-Artifical-Intelligence');
+})->name('international-programs-MTech-CSE-in-Artifical-Intelligence');
+
+Route::get('/international-programs-MTech-CSE-in-Internet-of-Things', function () {
+    return view('frontend/international-fee/international-programs-MTech-CSE-in-Internet-of-Things');
+})->name('international-programs-MTech-CSE-in-Internet-of-Things');
+
+Route::get('/international-programs-MTech-CE-in-Water-Resources', function () {
+    return view('frontend/international-fee/international-programs-MTech-CE-in-Water-Resources');
+})->name('international-programs-MTech-CE-in-Water-Resources');
+
+Route::get('/international-programs-MTech-CE-in-Structural-Engineering', function () {
+    return view('frontend/international-fee/international-programs-MTech-CE-in-Structural-Engineering');
+})->name('international-programs-MTech-CE-in-Structural-Engineering');
+
+Route::get('/international-programs-MTech-CAD', function () {
+    return view('frontend/international-fee/international-programs-MTech-CAD');
+})->name('international-programs-MTech-CAD');
+
+Route::get('/international-programs-BTechCE', function () {
+    return view('frontend/international-fee/international-programs-BTechCE');
+})->name('international-programs-BTechCE');
+
+Route::get('/international-programs-BTechCSE', function () {
+    return view('frontend/international-fee/international-programs-BTechCSE');
+})->name('international-programs-BTechCSE');
+
+Route::get('/international-programs-BTechME', function () {
+    return view('frontend/international-fee/international-programs-BTechME');
+})->name('international-programs-BTechME');
+
+Route::get('/international-programs-BTech-Artifical-Intelligence-AI', function () {
+    return view('frontend/international-fee/international-programs-BTech-Artifical-Intelligence-AI');
+})->name('international-programs-BTech-Artifical-Intelligence-AI');
+
+Route::get('/international-programs-BTech-Mechatronics', function () {
+    return view('frontend/international-fee/international-programs-BTech-Mechatronics');
+})->name('international-programs-BTech-Mechatronics');
+//11
+
+Route::get('/international-programs-BTechLateral-Entry', function () {
+    return view('frontend/international-fee/international-programs-BTechLateral-Entry');
+})->name('international-programs-BTechLateral-Entry');
+
+Route::get('/international-programs-BTechElectrical-Electronics-Engineering', function () {
+    return view('frontend/international-fee/international-programs-BTechElectrical-Electronics-Engineering');
+})->name('international-programs-BTechElectrical-Electronics-Engineering');
+
+Route::get('/international-programs-BTechElectronics-Communication-Engineering', function () {
+    return view('frontend/international-fee/international-programs-BTechElectronics-Communication-Engineering');
+})->name('international-programs-BTechElectronics-Communication-Engineering');
+
+Route::get('/international-programs-BTechCE-CSE-working', function () {
+    return view('frontend/international-fee/international-programs-BTechCE-CSE-working');
+})->name('international-programs-BTechCE-CSE-working');
+
+Route::get('/international-programs-Master-of-Fine-ArtsMFA', function () {
+    return view('frontend/international-fee/international-programs-Master-of-Fine-ArtsMFA');
+})->name('international-programs-Master-of-Fine-ArtsMFA');
+
+Route::get('/international-programs-Bachelor-of-Fine-ArtsBFA', function () {
+    return view('frontend/international-fee/international-programs-Bachelor-of-Fine-ArtsBFA');
+})->name('international-programs-Bachelor-of-Fine-ArtsBFA');
+
+Route::get('/international-programs-BDes-FDFashion-Design', function () {
+    return view('frontend/international-fee/international-programs-BDes-FDFashion-Design');
+})->name('international-programs-BDes-FDFashion-Design');
+
+//humanities
+Route::get('/international-programs-MA-Economics', function () {
+    return view('frontend/international-fee/international-programs-MA-Economics');
+})->name('international-programs-MA-Economics');
+
+Route::get('/international-programs-MA-Sociology', function () {
+    return view('frontend/international-fee/international-programs-MA-Sociology');
+})->name('international-programs-MA-Sociology');
+
+Route::get('/international-programs-MA-Public-Administration', function () {
+    return view('frontend/international-fee/international-programs-MA-Public-Administration');
+})->name('international-programs-MA-Public-Administration');
+
+Route::get('/international-programs-MA-Political-Science', function () {
+    return view('frontend/international-fee/international-programs-MA-Political-Science');
+})->name('international-programs-MA-Political-Science');
+
+Route::get('/international-programs-MA-History', function () {
+    return view('frontend/international-fee/international-programs-MA-History');
+})->name('international-programs-MA-History');
+
+Route::get('/international-programs-MSW', function () {
+    return view('frontend/international-fee/international-programs-MSW');
+})->name('international-programs-MSW');
+//starting
+Route::get('/international-programs-BSW', function () {
+    return view('frontend/international-fee/international-programs-BSW');
+})->name('international-programs-BSW');
+
+Route::get('/international-programs-BA-Sociology', function () {
+    return view('frontend/international-fee/international-programs-BA-Sociology');
+})->name('international-programs-BA-Sociology');
+
+Route::get('/international-programs-BA-Economics', function () {
+    return view('frontend/international-fee/international-programs-BA-Economics');
+})->name('international-programs-BA-Economics');
+
+Route::get('/international-programs-BA-Public-Administration', function () {
+    return view('frontend/international-fee/international-programs-BA-Public-Administration');
+})->name('international-programs-BA-Public-Administration');
+
+Route::get('/international-programs-BA-Political-Science', function () {
+    return view('frontend/international-fee/international-programs-BA-Political-Science');
+})->name('international-programs-BA-Political-Science');
+
+Route::get('/international-programs-BA-History', function () {
+    return view('frontend/international-fee/international-programs-BA-History');
+})->name('international-programs-BA-History');
+//Royal School of Hotel Management (RSHM)
+Route::get('/international-programs-BA-HotelManagement', function () {
+    return view('frontend/international-fee/international-programs-BA-HotelManagement');
+})->name('international-programs-BA-HotelManagement');
+
+Route::get('/international-programs-BA-in-Culinary-Arts', function () {
+    return view('frontend/international-fee/international-programs-BA-in-Culinary-Arts');
+})->name('international-programs-BA-in-Culinary-Arts');
+
+Route::get('/international-programs-MSc-Hotel-Management', function () {
+    return view('frontend/international-fee/international-programs-MSc-Hotel-Management');
+})->name('international-programs-MSc-Hotel-Management');
+
+Route::get('/international-programs-Bachelor-of-Hotel-Management-BHM', function () {
+    return view('frontend/international-fee/international-programs-Bachelor-of-Hotel-Management-BHM');
+})->name('international-programs-Bachelor-of-Hotel-Management-BHM');
+//Royal School of Information Technology (RSIT)
+Route::get('/international-programs-BCA', function () {
+    return view('frontend/international-fee/international-programs-BCA');
+})->name('international-programs-BCA');
+
+Route::get('/international-programs-MCA', function () {
+    return view('frontend/international-fee/international-programs-MCA');
+})->name('international-programs-MCA');
+
+Route::get('/international-programs-BSc-IT', function () {
+    return view('frontend/international-fee/international-programs-BSc-IT');
+})->name('international-programs-BSc-IT');
+
+Route::get('/international-programs-MSc-IT', function () {
+    return view('frontend/international-fee/international-programs-MSc-IT');
+})->name('international-programs-MSc-IT');
+//Royal School of Languages (RSL)
+Route::get('/international-programs-MA-English', function () {
+    return view('frontend/international-fee/international-programs-MA-English');
+})->name('international-programs-MA-English');
+
+Route::get('/international-programs-BA-English', function () {
+    return view('frontend/international-fee/international-programs-BA-English');
+})->name('international-programs-BA-English');
+//Royal School of Law & Administration (RSLA)
+Route::get('/international-programs-LLM-Day-Shift', function () {
+    return view('frontend/international-fee/international-programs-LLM-Day-Shift');
+})->name('international-programs-LLM-Day-Shift');
+
+Route::get('/international-programs-LLM-Morning-Shift', function () {
+    return view('frontend/international-fee/international-programs-LLM-Morning-Shift');
+})->name('international-programs-LLM-Morning-Shift');
+
+Route::get('/international-programBA-BBA-LLB(Hons)', function () {
+    return view('frontend/international-fee/international-programBA-BBA-LLB(Hons)');
+})->name('international-programBA-BBA-LLB(Hons)');
+
+Route::get('/international-programBA-LLB-Hons', function () {
+    return view('frontend/international-fee/international-programBA-LLB-Hons');
+})->name('international-programBA-LLB-Hons');
+//Royal School of Library & Information Sciences (RSLIS)
+Route::get('/international-programs-Master-of-Library-&-Information-Sciences', function () {
+    return view('frontend/international-fee/international-programs-Master-of-Library-&-Information-Sciences');
+})->name('international-programs-Master-of-Library-&-Information-Sciences');
+//ROYAL SCHOOL OF LIFE SCIENCES (RSLSC)
+Route::get('/international-programs-MSc-Botany', function () {
+    return view('frontend/international-fee/international-programs-MSc-Botany');
+})->name('international-programs-MSc-Botany');
+
+Route::get('/international-programs-MSc-Zoology', function () {
+    return view('frontend/international-fee/international-programs-MSc-Zoology');
+})->name('international-programs-MSc-Zoology');
+
+Route::get('/international-programs-MSc-ForensicScience', function () {
+    return view('frontend/international-fee/international-programs-MSc-ForensicScience');
+})->name('international-programs-MSc-ForensicScience');
+
+Route::get('/international-programs-MSc-Forestry', function () {
+    return view('frontend/international-fee/international-programs-MSc-Forestry');
+})->name('international-programs-MSc-Forestry');
+
+Route::get('/international-programs-BSc-Botany', function () {
+    return view('frontend/international-fee/international-programs-BSc-Botany');
+})->name('international-programs-BSc-Botany');
+
+Route::get('/international-programs-BSc-Zoology', function () {
+    return view('frontend/international-fee/international-programs-BSc-Zoology');
+})->name('international-programs-BSc-Zoology');
+
+Route::get('/international-programs-BSc-ForensicScience', function () {
+    return view('frontend/international-fee/international-programs-BSc-ForensicScience');
+})->name('international-programs-BSc-ForensicScience');
+
+Route::get('/international-programs-BSc-Forestry', function () {
+    return view('frontend/international-fee/international-programs-BSc-Forestry');
+})->name('international-programs-BSc-Forestry');
+//ROYAL SCHOOL OF MEDICAL & ALLIED SCIENCES (RSMAS)
+
+Route::get('/international-programs-Bachelor-of-Physiotherapy-BPT', function () {
+    return view('frontend/international-fee/international-programs-Bachelor-of-Physiotherapy-BPT');
+})->name('international-programs-Bachelor-of-Physiotherapy-BPT');
+
+Route::get('/international-programs-MasterofPhysiotherapyMPT', function () {
+    return view('frontend/international-fee/international-programs-MasterofPhysiotherapyMPT');
+})->name('international-programs-MasterofPhysiotherapyMPT');
+
+Route::get('/international-programs-BSc-Nutrition-and-Dietetics', function () {
+    return view('frontend/international-fee/international-programs-BSc-Nutrition-and-Dietetics');
+})->name('international-programs-BSc-Nutrition-and-Dietetics');
+
+Route::get('/international-programs-MSc-Nutrition', function () {
+    return view('frontend/international-fee/international-programs-MSc-Nutrition');
+})->name('international-programs-MSc-Nutrition');
+
+Route::get('/international-programs-M-Optometry', function () {
+    return view('frontend/international-fee/international-programs-M-Optometry');
+})->name('international-programs-M-Optometry');
+
+Route::get('/international-programs-B-Optometry', function () {
+    return view('frontend/international-fee/international-programs-B-Optometry');
+})->name('international-programs-B-Optometry');
+
+Route::get('/international-programs-B-ScMedical-Technology-BMLT', function () {
+    return view('frontend/international-fee/international-programs-B-ScMedical-Technology-BMLT');
+})->name('international-programs-B-ScMedical-Technology-BMLT');
+
+Route::get('/international-programs-MSc-MedicalLaboratoryMMLT', function () {
+    return view('frontend/international-fee/international-programs-MSc-MedicalLaboratoryMMLT');
+})->name('international-programs-MSc-MedicalLaboratoryMMLT');
+
+Route::get('/international-programs-BSc-Dialysis', function () {
+    return view('frontend/international-fee/international-programs-BSc-Dialysis');
+})->name('international-programs-BSc-Dialysis');
+
+Route::get('/international-programs-TechnologyOTT', function () {
+    return view('frontend/international-fee/international-programs-TechnologyOTT');
+})->name('international-programs-TechnologyOTT');
+
+Route::get('/international-programs-BSc-Radiography', function () {
+    return view('frontend/international-fee/international-programs-BSc-Radiography');
+})->name('international-programs-BSc-Radiography');
+
+Route::get('/international-programs-BSc-in-Emergency', function () {
+    return view('frontend/international-fee/international-programs-BSc-in-Emergency');
+})->name('international-programs-BSc-in-Emergency');
+
+//ROYAL SCHOOL OF TRAVEL & TOURISM MANAGEMENT(RSTTM)
+
+Route::get('/international-programs-BSc-BA-Travel', function () {
+    return view('frontend/international-fee/international-programs-BSc-BA-Travel');
+})->name('international-programs-BSc-BA-Travel');
+
+Route::get('/international-programs-Master-Travel&Tourism', function () {
+    return view('frontend/international-fee/international-programs-Master-Travel&Tourism');
+})->name('international-programs-Master-Travel&Tourism');
+
+Route::get('/international-programs-Bachelor-Travel', function () {
+    return view('frontend/international-fee/international-programs-Bachelor-Travel');
+})->name('international-programs-Bachelor-Travel');

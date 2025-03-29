@@ -217,7 +217,7 @@
                                                                 onClick="return true">HOW TO APPLY ?</a>
                                                         </li>
                                                         <li id="menu-item-2286" class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-2286">
-                                                            <a href=""
+                                                            <a href="programs"
                                                                 onClick="return true">PROGRAMS</a>
                                                         </li>
                                                         <li id="menu-item-1060" class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-1060"><a
