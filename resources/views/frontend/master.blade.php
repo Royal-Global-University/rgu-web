@@ -960,6 +960,28 @@
         }
     </script>
 
+    <!-- Video Container -->
+
+    <script>
+        function showVideo2() {
+            let thumbnail = document.getElementById("video-thumbnail2");
+            thumbnail.style.opacity = "0";  // Fade out smoothly
+            setTimeout(() => {
+                thumbnail.style.display = "none";  // Remove after transition
+            }, 1000);  // Matches transition duration
+        }
+    </script>
+
+    <script>
+        function showVideo() {
+            let thumbnail = document.getElementById("video-thumbnail");
+            thumbnail.style.opacity = "0";  // Fade out
+            setTimeout(() => {
+                thumbnail.style.display = "none";  // Remove after transition
+            }, 1000);  // Matches transition duration
+        }
+    </script>
+
     <!--Script Is Hidden Here-->
     <script>
         function openCity(cityName) {
