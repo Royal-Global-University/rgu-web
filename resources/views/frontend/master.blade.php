@@ -720,7 +720,7 @@
                                                             data-widget_type="ft-btn.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="prthalign">
-                                                                    <a href="Contact_Us.html" target="_blank" rel="nofollow"
+                                                                    <a href="contact" target="_blank" rel="nofollow"
                                                                         aria-label="name"
                                                                         class="kd-pr-btn-1 text-uppercase has-pr-clr">
                                                                         <span class="text" data-back="Contact Us"
@@ -906,15 +906,15 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div style="display: flex; flex-direction: row; gap: 40px;">
-                                            <a href="">
+                                            <a href="https://rgu.renocampus.com/hr/staff" target="_blank">
                                                 <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
                                                     class="para1 btn border">ERP Login</p>
                                             </a>
-                                            <a href="">
+                                            <a href="https://royalnet.rgu.ac/" target="_blank">
                                                 <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
                                                     class="para1 btn border">Student Login</p>
                                             </a>
-                                            <a href="">
+                                            <a href="https://m365.cloud.microsoft/?auth=2" target="_blank">
                                                 <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
                                                     class="para1 btn border">Staff Email Login</p>
                                             </a>

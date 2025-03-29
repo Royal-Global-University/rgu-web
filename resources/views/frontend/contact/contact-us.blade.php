@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-    <div class="mobile">
+    <div class="mobile bg-light">
         @include('frontend/components/mobileheader')
         <section style="padding-top: 90px; position: relative; background-image: url(mobile-assets/royal-informatics-center/bg.svg); background-size: cover;">
             <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pb-5 pt-5"
@@ -437,7 +437,7 @@
         </section>
     </div>
 
-    <div class="website">
+    <div class="website bg-light" >
         <!--Start Header-->
         @include('frontend/components/aheader')
         <!--End Header-->
