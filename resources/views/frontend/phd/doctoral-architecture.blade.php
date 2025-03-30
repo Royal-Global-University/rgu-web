@@ -1,37 +1,304 @@
 @extends('frontend.master')
 @section('content')
-    <div id="page" class="site site_wrapper">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+            <section style="padding-top: 90px; position: relative; background-color: #fff8f0; padding: 30px 10px 20px 10px;">
+                <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <h2 class="mobile-headd1 kd-title-ani kd-split mb-4 text-center" style="color: #264273; font-weight: 700;">Architecture</h2>
+                        <div class="txaa-slide-down-1">
+                            <div style="border: 2px solid #27467A; height: 320px; width: 100%;" class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                <img class="rounded" decoding="async"
+                                    src="mobile-assets/phd-mobile/headimg.jpeg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
 
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
+                        <p class="mobile-para1 mt-4" style="color: #264273; text-align: justify;">
+                            The Ph.D. programme in Architecture is an advanced degree program that offers scholars an opportunity to undertake original research in specific areas of architecture & allied topics. The program aspires to build up core competencies like research capabilities, critical thinking and writing, preparedness for publishing, and communication through rigorous coursework. This degree program focuses on developing advanced skills and knowledge in architectural research, design theory, sustainability, and technology. It typically prepares individuals for careers in academia, research, and professional practice. It is also designed to promote useful skills in planning for modern urban scenario of high density and diversity of populations, and growing scarcity of water, power, transport and food supply.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <div class="container pt-4 pb-3" style="background-color: #f0f8ff;">
+                <h2 class="mobile-headd2 text-dark">
+                    Ph.D. Guides and Research Interests
+                </h2>
+
+                <div class="row" style="padding-top: 20px">
+                    <div class="col-lg-3 mb-4">
+
+                            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 650px;">
+                                <div class="p-3">
+                                  <img style="height: 300px; width: 100%;" src="mobile-assets/phd-mobile/doctoral-architecture/faculty1.jpeg" class="img-fluid rounded"/>
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                  <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Prof. (Dr.) Hari Prasad Agarwal
+                                </h5>
+                                <h5 style="font-weight: 800; color: #333;" class="card-title mobile-headd3">Research Interest
+                                </h5>
+                                <p class="mobile-para1" style="color: #27467A; line-height: 1.3;">Sustainable Development Goals, Sustainable Cities through Urban Farming, Waste Management, Circular Economy, Food-Water-Energy-Waste Nexus.
+                                </p>
+                                  <p class="card-text mobile-para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Ph.D.</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pb-3 pt-3" style="background-color: #f0f8ff;">
+                <h2 class="mobile-headd2 text-dark">
+                    Ph.D. Curriculum
+                </h2>
+
+                <div class="card p-4">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-architecture.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Architecture
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-biochemistry.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Bio-Chemistry
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-biotechnology.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Bio-Technology
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-botany.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Botany
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-chemistry.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Chemistry
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="#"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Commerce
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-com-sc-engg.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Computer Science & Engineering
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-civil-engineering.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Civil Engineering
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-design.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Design
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-economics.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Economics
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-english.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                English
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-environmental.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Environmental Science
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-fine-arts.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Fine Arts
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-geography.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Geography
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-geology.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Geology
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-history.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                History
+                            </a>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="#"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Computer Technology & IT
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-mass-comm-journalism.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Journalism & Mass Comm
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-library-science.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Library Science
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-law.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Law
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-management.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Management
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-microbiology.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Microbiology
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-pharmacy.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Pharmacy
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-physics.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Physics
+                            </a>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-political-science.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Political Science
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-psychology.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Psychology
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-public-admin.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Public Administration
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-social-work.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Social Work
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-sociology.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Sociology
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-tourism-travel.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Travel & Tourism Management
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+                            <a href="doctoral-zoology.html"
+                               class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                               style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                                Zoology
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <div class="website">
+        <!--Start Header-->
         @include('frontend/components/aheader')
+        <!--End Header-->
 
         <!--About Section-->
         <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-            <section
-                style="background-image: url(assets/img/all-phd/1main-doctoral-programme/background.svg); padding-top: 30px;"
-                class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="f481aaf" data-element_type="section">
+            <section style="background-image: url(mobile-assets/phd-mobile/bgg.svg); background-size: cover; padding-top: 30px;" class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f481aaf" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-968af55"
-                        data-id="968af55" data-element_type="column">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-968af55" data-id="968af55" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-4878838 elementor-widget elementor-widget-go-img--bx"
-                                data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
+                            <div class="elementor-element elementor-element-4878838 elementor-widget elementor-widget-go-img--bx" data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
                                 <div class="elementor-widget-container">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="assets/img/all-phd/1main-doctoral-programme/headimg.jpeg"
-                                                alt="">
+                                            <img decoding="async" src="mobile-assets/phd-mobile/headimg.jpeg" alt="">
                                         </div>
 
                                     </div>
@@ -39,27 +306,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9b49111"
-                        data-id="9b49111" data-element_type="column">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9b49111" data-id="9b49111" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-c8de01e elementor-widget elementor-widget-go-s-heading"
-                                data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
+                            <div class="elementor-element elementor-element-c8de01e elementor-widget elementor-widget-go-s-heading" data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
                                         <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
                                             Architecture</h1>
                                         <div class="para1 text-dark kd-para-1 disc" data-splitting style="text-align: justify;">
-                                            <p>The Ph.D. programme in Architecture is an advanced degree program that offers
-                                                scholars an opportunity to undertake original research in specific areas of
-                                                architecture & allied topics. The program aspires to build up core competencies
-                                                like research capabilities, critical thinking and writing, preparedness for
-                                                publishing, and communication through rigorous coursework. This degree program
-                                                focuses on developing advanced skills and knowledge in architectural research,
-                                                design theory, sustainability, and technology. It typically prepares individuals
-                                                for careers in academia, research, and professional practice. It is also
-                                                designed to promote useful skills in planning for modern urban scenario of high
-                                                density and diversity of populations, and growing scarcity of water, power,
-                                                transport and food supply.
+                                            <p>The Ph.D. programme in Architecture is an advanced degree program that offers scholars an opportunity to undertake original research in specific areas of architecture & allied topics. The program aspires to build up core competencies like research capabilities, critical thinking and writing, preparedness for publishing, and communication through rigorous coursework. This degree program focuses on developing advanced skills and knowledge in architectural research, design theory, sustainability, and technology. It typically prepares individuals for careers in academia, research, and professional practice. It is also designed to promote useful skills in planning for modern urban scenario of high density and diversity of populations, and growing scarcity of water, power, transport and food supply.
                                             </p>
                                         </div>
                                     </div>
@@ -73,5 +328,72 @@
             <hr>
         </div>
         <!--End About-->
-    </div><!-- #page -->
+    <div style="padding: 40px 60px;">
+
+        <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
+
+        <div class="card mt-4 shadow-sm">
+            <div class="row p-3">
+                <div class="col-lg-2">
+                    <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-architecture/faculty1.jpeg" alt="">
+                </div>
+                <div class="col-lg-9">
+                    <h2 class="headd3 fw-bold text-dark">Prof. (Dr.) Hari Prasad Agarwal</h2>
+                    <p class="para1 text-dark">Ph.D.</p>
+
+                    <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                    <p class="para1 text-dark">Sustainable Development Goals, Sustainable Cities through Urban Farming, Waste Management, Circular Economy, Food-Water-Energy-Waste Nexus.</p>
+                </div>
+            </div>
+          </div>
+
+        <div class="headd2 fw-bold text-dark pt-5 kd-title-ani kd-split-text">Ph.D. Curriculum</div>
+
+        <div class="main-container" style="margin: 20px 0px 30px 0px;">
+            <section class="button-container">
+                <div class="button-row">
+                    <a href="doctoral-architecture.html" class="button para1">Architecture</a>
+                    <a href="doctoral-biochemistry.html" class="button para1">Bio-Chemistry</a>
+                    <a href="doctoral-biotechnology.html" class="button para1">Bio-Technology</a>
+                    <a href="doctoral-botany.html" class="button para1">Botany</a>
+                    <a href="doctoral-chemistry.html" class="button para1">Chemistry</a>
+                    <a href="#!" class="button para1">Commerce</a>
+                    <a href="doctoral-com-sc-engg.html" class="button para1">Computer Science <br> & Engineering</a>
+                    <a href="doctoral-civil-engineering.html" class="button para1">Civil Engineering</a>
+                </div>
+                <div class="button-row">
+                    <a href="doctoral-design.html" class="button para1">Design</a>
+                    <a href="doctoral-economics.html" class="button para1">Economics</a>
+                    <a href="doctoral-english.html" class="button para1">English</a>
+                    <a href="doctoral-environmental.html" class="button para1">Environmental Science</a>
+                    <a href="doctoral-fine-arts.html" class="button para1">Fine Arts</a>
+                    <a href="doctoral-geography.html" class="button para1">Geography</a>
+                    <a href="doctoral-geology.html" class="button para1">Geology</a>
+                    <a href="doctoral-history.html" class="button para1">History</a>
+                </div>
+                <div class="button-row">
+                    <a href="#!" class="button para1">Computer Technology & IT</a>
+                    <a href="doctoral-mass-comm-journalism.html" class="button para1">Journalism & Mass Comm</a>
+                    <a href="doctoral-library-science.html" class="button para1">Library Science</a>
+                    <a href="doctoral-law.html" class="button para1">Law</a>
+                    <a href="doctoral-management.html" class="button para1">Management</a>
+                    <a href="doctoral-microbiology.html" class="button para1">Microbiology</a>
+                    <a href="doctoral-pharmacy.html" class="button para1">Pharmacy</a>
+                    <a href="doctoral-physics.html" class="button para1">Physics</a>
+                </div>
+                <div class="button-row">
+                    <a href="doctoral-political-science.html" class="button para1">Political Science</a>
+                    <a href="doctoral-psychology.html" class="button para1">Psychology</a>
+                    <a href="doctoral-public-admin.html" class="button para1">Public Administration</a>
+                    <a href="doctoral-social-work.html" class="button para1">Social Work</a>
+                    <a href="doctoral-sociology.html" class="button para1">Sociology</a>
+                    <a href="doctoral-tourism-travel.html" class="button para1">Travel & Tourism Management</a>
+                    <a href="doctoral-zoology.html" class="button para1">Zoology</a>
+                </div>
+            </section>
+        </div>
+
+    </div>
+        </div>
+
 @endsection
