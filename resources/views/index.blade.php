@@ -719,7 +719,11 @@
 
                             </div>
 
-                            <div class="video-container" style="position: relative; width: 100%; height: auto;">
+                            <video autoplay loop muted id="video-bg2" style="width: 100%; height: auto; display: block;">
+                                <source src="mobile-assets/index/headvid.mp4" type="video/mp4">
+                            </video>
+
+                            {{-- <div class="video-container" style="position: relative; width: 100%; height: auto;">
                                 <img src="web-thumb.png" id="video-thumbnail2" alt="Video Thumbnail"
                                     style="width: 100%; height: auto; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
 
@@ -727,7 +731,7 @@
                                     style="width: 100%; height: auto; display: block;">
                                     <source src="mobile-assets/index/headvid.mp4" type="video/mp4">
                                 </video>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </header>
