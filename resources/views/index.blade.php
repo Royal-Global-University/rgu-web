@@ -118,7 +118,7 @@
 
                 <!-- Right Side: Button -->
                 <div class="col-3 text-end">
-                    <a href=""> <button class="btn mobile-para1 mobile-btn">View All</button></a>
+                    <a href="notifications"> <button class="btn mobile-para1 mobile-btn">View All</button></a>
                 </div>
             </div>
         </div>

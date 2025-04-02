@@ -22,6 +22,10 @@ Route::get('/contact', function () {
     return view('frontend/contact/contact-us');
 })->name('contact');
 
+Route::get('/notifications', function () {
+    return view('frontend/discoverRGU/notifications');
+})->name('notifications');
+
 
 //Discover RGU
 Route::get('/preface', function () {

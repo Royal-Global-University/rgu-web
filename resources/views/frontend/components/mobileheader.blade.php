@@ -300,7 +300,7 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('clubs') }}">
                     <li>CLUBS</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="Student_Affairs.html">
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('student-affairs') }}">
                     <li>STUDENT AFFAIRS</li>
                 </a>
 
