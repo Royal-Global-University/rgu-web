@@ -299,7 +299,7 @@
     </div>
 
     <div class="website">
-
+        @include('frontend/components/aheader')
         <img src="mobile-assets/student-affairs/web-header.png" alt="">
 
         <section style="background-image: url(mobile-assets/student-affairs/web-bg.png); background-size: cover;">
