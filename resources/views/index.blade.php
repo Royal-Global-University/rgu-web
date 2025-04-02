@@ -719,9 +719,11 @@
 
                             </div>
 
-                            <video autoplay loop muted id="video-bg2" style="width: 100%; height: auto; display: block;">
-                                <source src="mobile-assets/index/headvid.mp4" type="video/mp4">
-                            </video>
+                            <div class="video-container">
+                                <video autoplay loop muted id="video-bg">
+                                    <source src="mobile-assets/index/headvid.mp4" type="video/mp4">
+                                </video>
+                            </div>
 
                             {{-- <div class="video-container" style="position: relative; width: 100%; height: auto;">
                                 <img src="web-thumb.png" id="video-thumbnail2" alt="Video Thumbnail"
