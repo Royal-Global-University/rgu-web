@@ -3,7 +3,7 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 80px; position: relative;">
-            <img src="mobile-assets/recruiters/mobile-header.png" alt="">
+            <img src="mobile-assets/recruiters/mob-recruiters.svg" alt="">
 
             <div style="padding: 20px 20px;">
                 <img style="width: 100%; padding-bottom: 50px;" src="mobile-assets/recruiters/mobile-all-logo.png" alt="Logo image">

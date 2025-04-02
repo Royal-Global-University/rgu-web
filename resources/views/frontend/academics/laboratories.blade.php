@@ -1,7 +1,7 @@
 @extends('frontend.master')
 @section('content')
      <div class="mobile">
-        <img src="mobile-assets/laboratories/mobile-lab-banner.png" alt="">
+        <img src="mobile-assets/laboratories/mobile-lab-banner.svg" alt="">
 
         <div style="padding: 20px 20px;">
             <div class="row">
@@ -456,7 +456,7 @@
 
         <div class="website">
         <!--Start Header-->
-
+            @include('frontend/components/aheader')
         <!--End Header-->
 
 <img src="mobile-assets/laboratories/web-lab-banner.png" alt="">

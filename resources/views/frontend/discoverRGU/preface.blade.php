@@ -5,7 +5,7 @@
             <div class="mobile">
                 @include('frontend/components/mobileheader')
                 <div style="position: relative; padding-top: 90px;">
-                    <img src="mobile-assets/preface/preface-cover-mobile.jpeg" alt="">
+                    <img src="mobile-assets/preface/mob-preface-cover.svg" alt="">
 
                     <section style="background-image: url(mobile-assets/preface/bg3.png); background-size: cover;">
                         <div style="padding: 80px 30px;">

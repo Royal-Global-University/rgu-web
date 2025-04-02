@@ -26,7 +26,7 @@
     <div class="mobile" >
         @include('frontend/components/mobileheader')
        <div style="background-image: url(mobile-assets/facilities/bg.svg); background-size: cover; position: relative; padding-top: 80px;">
-        <img src="mobile-assets/facilities/mobile-facilities.png" alt="">
+        <img src="mobile-assets/facilities/mob-facilities.svg" alt="">
 
         <div style="padding: 20px 30px;">
             <div class="row">
@@ -603,7 +603,7 @@
 
     <!--End Header-->
 
-    <img src="mobile-assets/facilities/web-facilities.png" alt="">
+    <img src="mobile-assets/facilities/web-facilities.svg" alt="">
 
     <div class="row" style="padding: 50px 80px;">
 
