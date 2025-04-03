@@ -600,7 +600,7 @@
 
           <div class="row pb-2 text-center justify-content-center">
             <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-              <a href="admission-how-to-apply.html"
+              <a href="how-to-apply"
                 class="btn text-white w-100 p-3 rounded"
                 style="
                   font-size: 16px;
@@ -616,7 +616,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-              <a href="placements-placement-process.html"
+              <a href="placements-process"
                 class="btn text-white w-100 p-3 rounded"
                 style="
                   font-size: 16px;
@@ -632,7 +632,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-              <a href="Eligibility&Selection.html"
+              <a href="programs"
                 class="btn text-white w-100 p-3 rounded"
                 style="
                   font-size: 16px;
@@ -648,7 +648,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-              <a href="admission-programs-fees-structure.html"
+              <a href="admission-programs-fees-structure"
                 class="btn text-white w-100 p-3 rounded"
                 style="
                   font-size: 16px;
