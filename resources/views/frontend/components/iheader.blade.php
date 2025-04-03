@@ -225,7 +225,7 @@
                                                                             <a href="{{ route('faq') }}" onClick="return true">ADMISSION FAQ'S</a>
                                                                         </li>
                                                                         <li id="menu-item-2288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2288">
-                                                                            <a href="https://admissions.rgu.ac/" onClick="return true">APPLY NOW !</a>
+                                                                            <a href="https://admissions.rgu.ac/" target="_blank" onClick="return true">APPLY NOW !</a>
                                                                         </li>
                                                                         <li id="menu-item-2287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2287">
                                                                             <a href="admission-programs-fees-structure" onClick="return true">COURSE FEE</a>

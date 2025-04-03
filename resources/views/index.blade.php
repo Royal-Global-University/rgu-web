@@ -695,7 +695,7 @@
                                         <div class="col-lg-3">
                                             <div class="btn-container">
                                                 <div class="btn shiny-button">
-                                                    <a class="text-center headd3 fw-bold"
+                                                    <a class="text-center headd3 fw-bold" target="_blank"
                                                         href="https://admissions.rgu.ac/">APPLY NOW</a>
                                                 </div>
                                             </div>
