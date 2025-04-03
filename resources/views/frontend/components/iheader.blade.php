@@ -17,7 +17,7 @@
                                     <div class="col-lg-4 p-2">
                                         <h2 class="para1 fw-bold text-center" style="color: #e68900;">ABOUT US</h2>
                                         <hr>
-                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('preface') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">PREFACE</a></li>
+                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('preface') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">PREFACE </a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('leadership') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">LEADERSHIP TEAM</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('officers') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">OFFICERS</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('vision-mission') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">VISION AND MISSION</a></li>
