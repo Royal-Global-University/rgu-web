@@ -1,588 +1,220 @@
 <!--Start Header-->
-        <section
-        class="elementor-section elementor-top-section elementor-element elementor-element-2ddbefe elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-        data-id="2ddbefe" data-element_type="section">
-        <div class="elementor-container elementor-column-gap-no">
-            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8d2b3ef"
-                data-id="8d2b3ef" data-element_type="column">
-                <div class="elementor-widget-wrap elementor-element-populated">
-                    <div class="elementor-element elementor-element-165ca76 elementor-widget elementor-widget-kadu-header"
-                        data-id="165ca76" data-element_type="widget" data-widget_type="kadu-header.default">
-                        <div class="elementor-widget-container">
-                            <div class="kd-header-4-area" style="position: relative !important; background-color: #fff; box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); ">
-                                <div class="container kd-container-2">
-                                    <div class="kd-header-4-row d-flex align-items-center justify-content-between">
+        <nav class="navbar navbar-expand-lg" style="padding: 10px 60px; position: relative !important;">
+            <div class="container-fluid">
 
-                                        <!-- logo -->
-                                        <a href="/"><img src="mobile-assets/logo/logo.png" width="200px" height="90px" /></a>
+                <a class="navbar-brand" href="/">
+                    <img  src="mobile-assets/index/logo-dark.png" alt="Logo" style="height: 70px;">
+                </a>
 
-                                        <!-- menu -->
-                                        <nav class="main-navigation has-header-4 d-none d-lg-block ">
-                                            <ul id="main-nav" class="nav navbar-nav clearfix">
-                                                <li id="menu-item-1049"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor dropdown menu-item-1049">
-                                                    <a class="text-dark"
-                                                        onClick="return true">Discover RGU</a>
-                                                    <ul class="dropdown-menu clearfix d-flex" style="min-width: 700px !important;">
-                                                                        <div>
-                                                                            <h6 class="fw-bold text-danger" style="padding-left: 15px;">ABOUT US</h6>
-                                                                            <li id="menu-item-1654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                                                <a href="{{ route('preface') }}" onClick="return true">PREFACE</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
-                                                                                <a href="{{ route('leadership') }}" onClick="return true">LEADERSHIP
-                                                                                TEAM</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
-                                                                                <a href="{{ route('officers') }}" onClick="return true">OFFICERS</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1655"
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1161 current_page_item menu-item-1655">
-                                                                                <a href="{{ route('vision-mission') }}" aria-current="page" onClick="return true">VISION & MISSION</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
-                                                                                <a href="{{ route('statutes-ordinance-policies') }}" onClick="return true">STATUTES,
-                                                                                ORDINANCE & POLICIES</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1655"
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1161 current_page_item menu-item-1655">
-                                                                                <a href="{{ route('facilities') }}" aria-current="page" onClick="return true">FACILITIES</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                                                <a href="{{ route('social-outreach') }}" onClick="return true">SOCIAL
-                                                                                OUTREACH</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
-                                                                                <a href="{{ route('footprints') }}" onClick="return true">ROYAL
-                                                                                FOOTPRINTS</a>
-                                                                            </li>
-                                                                        </div>
-                                                                        <hr style="border-left: 2px solid rgb(244, 83, 2); height: 420px;" />
-                                                                        <div>
-                                                                            <h6 class="fw-bold text-danger" style="padding-left: 15px;">WHAT SETS US APART</h6>
-                                                                            <li id="menu-item-1654"
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                                                <a href="{{ route('recognition-accreditation') }}" onClick="return true">RECOGNITION
-                                                                                & ACCREDITATION</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
-                                                                                <a href="{{ route('association-tieup') }}" onClick="return true">ASSOCIATIONS & TIE UPS</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
-                                                                                <a href="{{ route('award') }}" onClick="return true">AWARDS &
-                                                                                HONORS</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1655"
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1161 current_page_item menu-item-1655">
-                                                                                <a href="{{ route('top-recruiters') }}" aria-current="page" onClick="return true">TOP
-                                                                                RECRUITERS</a>
-                                                                            </li>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav" style="width: 100%; justify-content: space-around;">
 
-                                                                            <li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
-                                                                                <a href="{{ route('success') }}" onClick="return true">SUCCESS
-                                                                                STORIES</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
-                                                                                <a href="{{ route('360-tour') }}" onClick="return true">360°
-                                                                                TOUR</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1655"
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1161 current_page_item menu-item-1655">
-                                                                                <a href="{{ route('diversechoices') }}" aria-current="page" onClick="return true">DIVERSE
-                                                                                CHOICES</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1654"
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                                                <a href="{{ route('diversity-inclusion') }}" onClick="return true">DIVERSITY & INCLUSION</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
-                                                                                <a href="{{ route('strategic-location') }}" onClick="return true">STRATEGIC
-                                                                                LOCATION</a>
-                                                                            </li>
-                                                                        </div>
-                                                                        <hr style="border-left: 2px solid rgb(232, 94, 25); height: 420px;" />
-                                                                        <div>
-                                                                            <h6 class="fw-bold text-danger" style="padding-left: 15px;">STATUTORY BODIES</h6>
-                                                                            <li id="menu-item-1654"
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                                                <a href="{{ route('governing-body') }}" onClick="return true">GOVERNING BODY</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
-                                                                                <a href="{{ route('board-of-management') }}" onClick="return true">BOARD OF MANAGEMENT</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
-                                                                                <a href="{{ route('academic-council') }}" onClick="return true">ACADEMIC COUNCIL</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1655"
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1161 current_page_item menu-item-1655">
-                                                                                <a href="{{ route('finance-committee') }}" aria-current="page" onClick="return true">FINANCE COMMITTEE</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1654"
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                                                <a href="{{ route('internal-complaints-committee') }}" onClick="return true">INTERNAL COMPLAINTS
-                                                                                COMMITTEE</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
-                                                                                <a href="{{ route('anti-ragging') }}" onClick="return true">ANTI RAGGING
-                                                                                COMMITTEE</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
-                                                                                <a href="{{ route('equal-opportunities-cell') }}" onClick="return true">EQUAL OPPORTUNITIES
-                                                                                CELL</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1655"
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1161 current_page_item menu-item-1655">
-                                                                                <a href="{{ route('proctorial') }}" aria-current="page" onClick="return true">PROCTORIAL BOARD</a>
-                                                                            </li>
-                                                                            <li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
-                                                                                <a href="{{ route('organogram-planning') }}" onClick="return true">ORGANOGRAM & PLANNING</a>
-                                                                            </li>
-                                                                        </div>
-                                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-1060"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-1060">
-                                                    <a href="#" onClick="return true" class="text-dark">ACADEMICS</a>
-                                                    <ul class="dropdown-menu clearfix d-flex" style="min-width: 610px !important;">
-                                                        <div>
-                                                            <li id="menu-item-1654"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                                <a href="{{ route('schools-rgu') }}" onClick="return true">OUR SCHOOLS & FACULTIES</a>
-                                                            </li>
-                                                            <li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
-                                                                <a href="{{ route('deans') }}" onClick="return true">DEANS</a>
-                                                            </li>
-                                                            <li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
-                                                                <a href="{{ route('phd') }}" onClick="return true">DOCTORAL PROGRAM</a>
-                                                            </li>
-                                                            <li id="menu-item-1655"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1161 current_page_item menu-item-1655">
-                                                                <a href="{{ route('achievements') }}" aria-current="page" onClick="return true">ACHIEVEMENTS</a>
-                                                            </li>
-                                                            <li id="menu-item-1654"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                                <a href="{{ route('academic-calendar') }}" onClick="return true">ACADEMIC CALENDAR</a>
-                                                            </li>
-                                                            <li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
-                                                                <a href="{{ route('workshops-guest-lectures') }}" onClick="return true">GUEST LECTURES/ WORKSHOPS</a>
-                                                            </li>
+                        <!-- Discover RGU -->
+                        <li class="nav-item dropdown" style="position: relative;">
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">DISCOVER RGU</a>
 
-                                                        </div>
-                                                        <hr style="border-left: 2px solid rgb(244, 83, 2); height: 200px;" />
-                                                        <div>
-                                                            <li id="menu-item-1654"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                                <a href="{{ route('innovation') }}" onClick="return true">INSTITUTION'S INNOVATION COUNCIL
-                                                                    (IIC-RGU)</a>
-                                                            </li>
-                                                            <li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
-                                                                <a href="{{ route('library-Resources') }}" onClick="return true">LIBRARY</a>
-                                                            </li>
-                                                            <li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
-                                                                <a href="{{ route('laboratories') }}" onClick="return true">LABORATORIES</a>
-                                                            </li>
-                                                            <li id="menu-item-1655"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1161 current_page_item menu-item-1655">
-                                                                <a href="{{ route('teaching-practice') }}" aria-current="page" onClick="return true">TEACHING
-                                                                    PRACTICES</a>
-                                                            </li>
-                                                            <li id="menu-item-1654"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                                <a href="{{ route('human-resource-development-centre') }}" onClick="return true">HUMAN RESOURCE DEVELOPMENT CENTRE
-                                                                    (HRDC)</a>
-                                                            </li>
+                            <ul class="dropdown-menu p-3" style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 800px; overflow: hidden; border-top: 3px solid #e68900;">
+                                <div class="row" style="display: flex;">
+                                    <div class="col-lg-4 p-2">
+                                        <h2 class="para1 fw-bold text-center" style="color: #e68900;">ABOUT US</h2>
+                                        <hr>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('preface') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">PREFACE</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('leadership') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">LEADERSHIP TEAM</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('officers') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">OFFICERS</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('vision-mission') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">VISION AND MISSION</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('statutes-ordinance-policies') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">STATUTES, ORDINANCE <br> AND POLICIES</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('facilities') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">FACILITIES</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('social-outreach') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">SOCIAL OUTREACH</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('footprints') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ROYAL FOOTPRINTS</a></li>
+                                    </div>
 
-                                                        </div>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-2214"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-2214">
-                                                    <a href="#" onClick="return true" class="text-dark">ADMISSIONS</a>
-                                                    <ul class="dropdown-menu clearfix" style="min-width: 270px !important;">
-                                                        <li id="menu-item-2289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2289">
-                                                            <a href="{{ route('faq') }}" onClick="return true">ADMISSION FAQ'S</a>
-                                                        </li>
-                                                        <li id="menu-item-2288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2288">
-                                                            <a href="https://admissions.rgu.ac/" target="_blank" onClick="return true">APPLY NOW !</a>
-                                                        </li>
-                                                        <li id="menu-item-2287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2287">
-                                                            <a href="admission-programs-fees-structure" onClick="return true">COURSE FEE</a>
-                                                        </li>
-                                                        <li id="menu-item-2286" class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-2286">
-                                                            <a href="{{ route('general-elective') }}"
-                                                                onClick="return true">GENERAL ELECTIVE</a>
-                                                        </li>
-                                                        <li id="menu-item-2286" class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-2286">
-                                                            <a href="{{ route('how-to-apply') }}"
-                                                                onClick="return true">HOW TO APPLY ?</a>
-                                                        </li>
-                                                        <li id="menu-item-2286" class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-2286">
-                                                            <a href="programs"
-                                                                onClick="return true">PROGRAMS</a>
-                                                        </li>
-                                                        <li id="menu-item-1060" class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-1060"><a
-                                                                href="#" onClick="return true">SCHOLARSHIPS & FUNDING</a>
-                                                            <ul class="dropdown-menu clearfix">
-                                                                <li id="menu-item-2113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113">
-                                                                    <a href="{{ route('scholarships') }}" onClick="return true">SCHOLARSHIPS</a>
-                                                                </li>
-                                                                <li id="menu-item-2115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115">
-                                                                    <a href="{{ route('deans-listers') }}" onClick="return true">DEANS LISTER</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li id="menu-item-2286" class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-2286">
-                                                            <a href="{{ route('schemes-differently-abled') }}"
-                                                                onClick="return true">SCHEMES FOR DIFFERENTLY-ABLED</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-2211"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-2211">
-                                                    <a href="#"
-                                                        onClick="return true" class="text-dark">CONVOCATION</a>
-                                                    <ul class="dropdown-menu clearfix">
-                                                        <li id="menu-item-2213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2213">
-                                                            <a href="{{ route('convocation-fourth') }}" onClick="return true">4th CONVOCATION</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('convocation-third') }}" onClick="return true">3rd CONVOCATION</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('convocation-second') }}" onClick="return true">2nd CONVOCATION</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('convocation-first') }}" onClick="return true">1st CONVOCATION</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-2214" class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-2214">
-                                                    <a href="#" onClick="return true" class="text-dark">CAMPUS LIFE</a>
-                                                    <ul class="dropdown-menu clearfix" style="min-width: 220px !important;">
+                                    <div class="col-lg-4 p-2">
+                                        <h2 class="para1 fw-bold text-center" style="color: #e68900;">WHAT SETS US APART</h2>
+                                        <hr>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('recognition-accreditation') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">RECOGNITION AND <br> ACCREDITATION</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('association-tieup') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ASSOCIATIONS AND <br> TIE UPS</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('award') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">AWARDS AND HONORS</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('top-recruiters') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">TOP RECRUITERS</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('success') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">SUCCESS STORIES</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('360-tour') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">360° TOUR</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('diversechoices') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">DIVERSE CHOICES</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('diversity-inclusion') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">DIVERSITY AND INCLUSION</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('strategic-location') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">STRATEGIC LOCATION</a></li>
 
-                                                        <li id="menu-item-1060" class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-1060">
-                                                                          <a href="#" onClick="return true">AMENITIES</a>
-                                                                          <ul class="dropdown-menu clearfix" style="min-width: 170px !important;">
-                                                                              <li id="menu-item-2113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113">
-                                                                                  <a href="{{ route('banking-services') }}" onClick="return true">BANKING SERVICE</a>
-                                                                              </li>
-                                                                              <li id="menu-item-2115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115">
-                                                                                  <a href="{{ route('department-store') }}" onClick="return true">DEPARTMENT STORE</a>
-                                                                              </li>
-                                                                              <li id="menu-item-2113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113">
-                                                                                  <a href="{{ route('hangout') }}" onClick="return true">HANGOUTS</a>
-                                                                              </li>
-                                                                              <li id="menu-item-2115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115">
-                                                                                  <a href="{{ route('medical-facility') }}" onClick="return true">MEDICAL FACILITY</a>
-                                                                              </li>
-                                                                              <li id="menu-item-2113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113">
-                                                                                  <a href="{{ route('counselling-cell') }}" onClick="return true">COUNSELLING CELL</a>
-                                                                              </li>
-                                                                              <li id="menu-item-2115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115">
-                                                                                  <a href="{{ route('laundry') }}" onClick="return true">LAUNDRY</a>
-                                                                              </li>
-                                                                              <li id="menu-item-2113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113">
-                                                                                  <a href="{{ route('salon') }}" onClick="return true">SALON</a>
-                                                                              </li>
-                                                                              <li id="menu-item-2115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115">
-                                                                                  <a href="{{ route('stationary-store') }}" onClick="return true">STATIONARY STORE</a>
-                                                                              </li>
-                                                                              <li id="menu-item-2113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113">
-                                                                                  <a href="{{ route('student-gallery') }}" onClick="return true">STUDENT GALLERY</a>
-                                                                              </li>
-                                                                              <li id="menu-item-2115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115">
-                                                                                  <a href="{{ route('guest-house') }}" onClick="return true">GUEST HOUSE</a>
-                                                                              </li>
-                                                                          </ul>
-                                                                      </li>
-                                                        <li id="menu-item-1060" class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-1060">
-                                                            <a href="#" onClick="return true">EVENTS</a>
-                                                            <ul class="dropdown-menu clearfix" style="min-width: 260px !important;">
-                                                                <li id="menu-item-2113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113">
-                                                                   <a href="{{ route('happy-happening') }}" onClick="return true">HAPPY & HAPPENING CAMPUS</a>
-                                                                </li>
-                                                                <li id="menu-item-2115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115">
-                                                                    <a href="{{ route('royal-fests') }}" onClick="return true">ROYAL FESTS</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li id="menu-item-1654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                           <a href="{{ route('games&sports') }}" onClick="return true">GAMES AND SPORTS</a>
-                                                        </li>
-                                                        <li id="menu-item-1060" class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-1060">
-                                                            <a href="#" onClick="return true">HOSTEL</a>
-                                                            <ul class="dropdown-menu clearfix" style="min-width: 170px !important;">
-                                                                <li id="menu-item-2113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113">
-                                                                    <a href="{{ route('hostel-life') }}" onClick="return true">HOSTEL LIFE</a>
-                                                                </li>
-                                                                <li id="menu-item-2115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115">
-                                                                   <a href="{{ asset('assets/img/pdf/Hostel Policy Rules 2024.pdf') }}" onClick="return true">HOSTEL POLICY</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li id="menu-item-1654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                           <a href="{{ route('infrastructure') }}" onClick="return true">INFRASTRUCTURE</a>
-                                                        </li>
-                                                        <li id="menu-item-1654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                            <a href="{{ route('clubs') }}" onClick="return true">CLUBS</a>
-                                                        </li>
-                                                        <li id="menu-item-1654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                           <a href="student-affairs" onClick="return true">STUDENT AFFAIRS</a>
-                                                        </li>
+                                    </div>
 
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-2211" class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-2211">
-                                                    <a href="#" onClick="return true" class="text-dark">PLACEMENTS</a>
-                                                    <ul class="dropdown-menu clearfix">
-                                                        <li id="menu-item-2213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2213">
-                                                            <a href="{{ route('placements-introduction') }}" onClick="return true">INTRODUCTION</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('placements-activities') }}" onClick="return true">ACTIVITIES UNDERTAKEN</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('placements-facilities') }}" onClick="return true">FACILITIES AVAILABLE</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('placements-process') }}" onClick="return true">PLACEMENT PROCESS</a>
-                                                        </li>
-                                                        <li id="menu-item-2213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2213">
-                                                            <a href="{{ route('placements-events') }}" onClick="return true">RCCR EVENTS</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('top-recruiters') }}" onClick="return true">RECRUITERS</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('success') }}" onClick="return true">TESTIMONIALS</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('placement-contacts') }}" onClick="return true">CONTACTS</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-2211" class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-2211">
-                                                    <a href="#" onClick="return true" class="text-dark">INTERNATIONAL</a>
-                                                    <ul class="dropdown-menu clearfix" style="min-width: 240px !important;">
-                                                        <li id="menu-item-2213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2213">
-                                                            <a href="international-fee-structure" onClick="return true">COURSE FEE</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('international-faq') }}" onClick="return true">FAQ'S</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('frro-process') }}" onClick="return true">FRRO PROCESS</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('how-to-apply-international') }}" onClick="return true">HOW TO APPLY ?</a>
-                                                        </li>
-                                                        <li id="menu-item-2213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2213">
-                                                            <a href="{{ route('international-student-helpline') }}" onClick="return true">INTERNATIONAL STUDENT HELPLINE</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('campus-job') }}" onClick="return true">ON CAMPUS JOBS</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('pre-arrival') }}" onClick="return true">PRE-ARRIVAL,
-                                                            POST-ARRIVAL</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('scholarships-international') }}" onClick="return true">SCHOLARSHIP FOR INTERNATIONAL STUDENTS</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('visa-information') }}" onClick="return true">VISA INFORMATION</a>
-                                                        </li>
-                                                        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                            <a href="{{ route('why-india') }}" onClick="return true">WHY INDIA ?</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </nav>
-
-                                        <div class="kd-header-4-action-link d-flex align-items-center justify-content-end">
-
-                                            <!-- sidebar-btn -->
-                                            <button type="button" aria-label="name" class="ftc-mobile-menu-btn-1 "
-                                                id="menuToggle">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </button>
-                                        </div>
+                                    <div class="col-lg-4 p-2">
+                                        <h2 class="para1 fw-bold text-center" style="color: #e68900;">STATUTORY BODIES</h2>
+                                        <hr>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('governing-body') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">GOVERNING BODY</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('board-of-management') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">BOARD OF MANAGEMENT</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('academic-council') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ACADEMIC COUNCIL</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('finance-committee') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">FINANCE COMMITTEE</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('internal-complaints-committee') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">INTERNAL COMPLAINTS <br> COMMITTEE</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('anti-ragging') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ANTI RAGGING <br> COMMITTEE</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('equal-opportunities-cell') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">EQUAL OPPORTUNITIES <br> CELL</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('proctorial') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">PROCTORAL BOARD</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('organogram-planning') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ORGANOGRAM AND <br> PLANNING</a></li>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="mobile-menu lenis lenis-smooth">
-                                <div class="mobile-menu-wrap">
-                                    <div class="mobile-menu-bg">
-                                        <span class="span1"></span>
-                                        <span class="span2"></span>
-                                    </div>
 
-                                    <div class="mobile-menu-logo-wrap mb-100">
-                                        <a class="mobile-menu-logo d-block" href="https://themexriver.com/wp/kadu/"><img
-                                                src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/05/logo-wh.svg"
-                                                alt="Shape"></a>
-                                        <div class="mobile-menu-close" id="menuToggle2">
-                                            <i class="fa-duotone fa-circle-xmark"></i>
-                                        </div>
-                                    </div>
+                            </ul>
+                        </li>
 
-                                    <div class="mobile-menu-inner">
+                        <!-- Academics -->
+                        <li class="nav-item dropdown" style="position: relative;">
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">ACADEMICS</a>
+                            <ul class="dropdown-menu p-3" style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 600px; overflow: hidden; border-top: 3px solid #e68900;">
+                                <div class="row" style="display: flex;">
+                                    <div class="col-lg-6 p-2">
 
-                                        <!-- mobile-menu-list -->
-                                        <!-- <div class="mobile-menu-navigation mb-50">
-                                            <nav class="mobile-main-navigation  clearfix ul-li">
-                                                <ul id="main-nav" class="nav navbar-nav clearfix">
-                                                    <li
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor dropdown menu-item-1049">
-                                                        <a href="https://themexriver.com/wp/kadu/"
-                                                            onClick="return true">Home</a>
-                                                        <ul class="dropdown-menu clearfix">
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1654">
-                                                                <a href="https://themexriver.com/wp/kadu/"
-                                                                    onClick="return true">Home &#8211; 01</a></li>
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053">
-                                                                <a href="https://themexriver.com/wp/kadu/home-2/"
-                                                                    onClick="return true">Home &#8211; 02</a></li>
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054">
-                                                                <a href="https://themexriver.com/wp/kadu/home-3/"
-                                                                    onClick="return true">Home &#8211; 03</a></li>
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1161 current_page_item menu-item-1655">
-                                                                <a href="https://themexriver.com/wp/kadu/home-4/"
-                                                                    aria-current="page" onClick="return true">Home &#8211;
-                                                                    04</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li
-                                                        class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-1060">
-                                                        <a href="#" onClick="return true">Pages</a>
-                                                        <ul class="dropdown-menu clearfix">
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-2116">
-                                                                <a href="https://themexriver.com/wp/kadu/about-one/"
-                                                                    onClick="return true">About</a>
-                                                                <ul class="dropdown-menu clearfix">
-                                                                    <li
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113">
-                                                                        <a href="https://themexriver.com/wp/kadu/about-one/"
-                                                                            onClick="return true">About One</a></li>
-                                                                    <li
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115">
-                                                                        <a href="https://themexriver.com/wp/kadu/about-two/"
-                                                                            onClick="return true">About Two</a></li>
-                                                                    <li
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2114">
-                                                                        <a href="https://themexriver.com/wp/kadu/about-three/"
-                                                                            onClick="return true">About Three</a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2112">
-                                                                <a href="https://themexriver.com/wp/kadu/instructor/"
-                                                                    onClick="return true">Instructor</a></li>
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-1505">
-                                                                <a href="https://themexriver.com/wp/kadu/blog/"
-                                                                    onClick="return true">Blog</a>
-                                                                <ul class="dropdown-menu clearfix">
-                                                                    <li
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2391">
-                                                                        <a href="https://themexriver.com/wp/kadu/blog/"
-                                                                            onClick="return true">Blog</a></li>
-                                                                    <li
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2109">
-                                                                        <a href="https://themexriver.com/wp/kadu/blog-grid/"
-                                                                            onClick="return true">Blog Grid</a></li>
-                                                                    <li
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2390">
-                                                                        <a href="https://themexriver.com/wp/kadu/masters-in-english-how-english-speaker/"
-                                                                            onClick="return true">Blog Single</a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2110">
-                                                                <a href="https://themexriver.com/wp/kadu/gallery/"
-                                                                    onClick="return true">Gallery</a></li>
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2111">
-                                                                <a href="https://themexriver.com/wp/kadu/pricing/"
-                                                                    onClick="return true">Pricing</a></li>
-                                                            <li
-                                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2210">
-                                                                <a href="https://themexriver.com/wp/kadu/4040"
-                                                                    onClick="return true">404</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li
-                                                        class="menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-2214">
-                                                        <a href="#" onClick="return true">Courses</a>
-                                                        <ul class="dropdown-menu clearfix">
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2289">
-                                                                <a href="https://themexriver.com/wp/kadu/courses-1/"
-                                                                    onClick="return true">Courses 1</a></li>
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2288">
-                                                                <a href="https://themexriver.com/wp/kadu/courses-2/"
-                                                                    onClick="return true">Courses 2</a></li>
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2287">
-                                                                <a href="https://themexriver.com/wp/kadu/courses-3/"
-                                                                    onClick="return true">Courses 3</a></li>
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-2286">
-                                                                <a href="https://themexriver.com/wp/kadu/courses/digital-marketing-masterclass-ai-and-chatgpt-for-marketing-2/"
-                                                                    onClick="return true">Course Details</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-2211">
-                                                        <a href="https://themexriver.com/wp/kadu/event/"
-                                                            onClick="return true">Event</a>
-                                                        <ul class="dropdown-menu clearfix">
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2213">
-                                                                <a href="https://themexriver.com/wp/kadu/event/"
-                                                                    onClick="return true">Event</a></li>
-                                                            <li
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212">
-                                                                <a href="https://themexriver.com/wp/kadu/event/event-details/"
-                                                                    onClick="return true">Event Details</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2108">
-                                                        <a href="https://themexriver.com/wp/kadu/contact-us/"
-                                                            onClick="return true">Contact Us</a></li>
-                                                </ul>
-                                            </nav>
-                                        </div> -->
-
-                                        <!-- search-form -->
-                                        <!-- <div class="mobile-menu-search-bar">
-                                            <form action="https://themexriver.com/wp/kadu/"
-                                                class="mobile-menu-search-form-1 mb-50">
-                                                <input type="text" name="s" placeholder="Search Etc.." value="">
-                                                <button class="form-btn" type="submit" aria-label="name">
-                                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                                    search </button>
-                                            </form>
-                                        </div> -->
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('schools-rgu') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">OUR SCHOOLS AND <br> FACULTIES</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('deans') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">DEANS</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('phd') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">DOCTORAL PROGRAMME</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('achievements') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ACHIEVEMENTS</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('academic-calendar') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ACADEMIC CALENDAR</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('workshops-guest-lectures') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">GUEST LECTURES/ <br> WORKSHOPS</a></li>
 
                                     </div>
+
+                                    <div class="col-lg-6 p-2">
+
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('innovation') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">INSTITUTION'S INNOVATION <br> COUNCIL (IIC-RGU)</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('library-Resources') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">LIBRARY</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('laboratories') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">LABORATORIES</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('teaching-practice') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">TEACHING PRACTICES</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('human-resource-development-centre') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ROYAL CENTRE FOR HUMAN <br> RESOURCE DEVELOPMENT <br> (RCHRD)</a></li>
+
+                                    </div>
+
 
                                 </div>
-                            </div>
-                        </div>
-                    </div>
+
+                            </ul>
+                        </li>
+
+                        <!-- Admissions -->
+                        <li class="nav-item dropdown" style="position: relative;">
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">ADMISSION</a>
+                            <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
+
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('faq') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ADMISSION FAQs</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" target="_blank" href="https://admissions.rgu.ac/" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">APPLY NOW!</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="admission-programs-fees-structure" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">COURSE FEE</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('general-elective') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">GENERAL ELECTIVE</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('how-to-apply') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">HOW TO APPLY?</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="programs" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">PROGRAMME</a></li>
+                                <li class="dropdown-submenu" style="position: relative;">
+                                    <a class="dropdown-item text-dark fw-bold  dropdown-toggle para1" href="#" style="font-size: 16px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">SCHOLARSHIP AND <br> FUNDING</a>
+                                    <ul class="dropdown-menu" style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('scholarships') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">SCHOLARSHIPS</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('deans-listers') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">DEAN'S LISTER</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('schemes-differently-abled') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">SCHEMES FOR <br> DIFFERENTLY-ABLED</a></li>
+
+                            </ul>
+                        </li>
+
+                         <!-- Convocation -->
+                         <li class="nav-item dropdown" style="position: relative;">
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">CONVOCATION</a>
+                            <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
+
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('convocation-fourth') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">CONVOCATION FOUR</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('convocation-third') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">CONVOCATION THREE</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('convocation-second') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">CONVOCATION TWO</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('convocation-first') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">CONVOCATION ONE</a></li>
+
+                            </ul>
+                        </li>
+
+                        <!-- Campus Life with Submenu -->
+                        <li class="nav-item dropdown" style="position: relative;">
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">CAMPUS LIFE</a>
+                            <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: -40%; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
+
+                                <li class="dropdown-submenu" style="position: relative;">
+                                    <a class="dropdown-item text-dark fw-bold  dropdown-toggle para1" href="#" style="font-size: 16px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">AMENITIES</a>
+                                    <ul class="dropdown-menu" style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('banking-services') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">BANKING SERVICE</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('department-store') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">DEPARTMENTAL STORE</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('hangout') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">HANGOUT</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('medical-facility') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">MEDICAL FACILITY</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('counselling-cell') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">COUNSELLING CELL</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('laundry') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">LAUNDRY</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('salon') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">SALON</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('stationary-store') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">STATIONARY STORE</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('student-gallery') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">STUDENT GALLERY</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('guest-house') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">GUEST HOUSE</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu" style="position: relative;">
+                                    <a class="dropdown-item text-dark fw-bold  dropdown-toggle para1" href="#" style="font-size: 16px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">EVENTS</a>
+                                    <ul class="dropdown-menu" style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('happy-happening') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">HAPPY AND <br> HAPPENING CAMPUS</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('royal-fests') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">ROYAL FEST</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('games&sports') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">GAMES AND SPORTS</a></li>
+
+                                <li class="dropdown-submenu" style="position: relative;">
+                                    <a class="dropdown-item text-dark fw-bold  dropdown-toggle para1" href="#" style="font-size: 16px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">HOSTEL</a>
+                                    <ul class="dropdown-menu" style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('hostel-life') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">HOSTEL LIFE</a></li>
+                                        <li><a class="dropdown-item text-dark fw-bold  para1" target="_blank" href="{{ asset('assets/img/pdf/Hostel Policy Rules 2024.pdf') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">HOSTEL POLICY</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('infrastructure') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">INFRASTRUCTURE</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('clubs') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">CLUBS</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('student-affairs') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">STUDENT AFFAIRS</a></li>
+
+
+                            </ul>
+                        </li>
+
+                        <!-- Placements -->
+                        <li class="nav-item dropdown" style="position: relative;">
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">PLACEMENT</a>
+                            <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: -30%; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
+
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('placements-introduction') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">INTRODUCION</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('placements-activities') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ACTIVITES UNDERTAKEN</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('placements-facilities') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">FACILITIES AVAILABLE</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('placements-process') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">PLACEMENT PROCESS</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('placements-events') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">RCCR EVENTS</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('top-recruiters') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">RECRUITERS</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('success') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">TESTIMONIAL</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('placement-contacts') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">CONTACTS</a></li>
+
+                            </ul>
+                        </li>
+
+                        <!-- International -->
+                        <li class="nav-item dropdown" style="position: relative;">
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">INTERNATIONAL</a>
+                            <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: -30%; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
+
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="international-fee-structure" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">COURSE FEE</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('international-faq') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">INTERNATIONAL FAQs</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('frro-process') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">FRRO PROCESS</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('how-to-apply-international') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">HOW TO APPLY?</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('international-student-helpline') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">INTERNATIONAL STUDENT <br> HELPLINE</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('campus-job') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ON CAMPUS JOB</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('pre-arrival') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">PRE-ARRIVAL, POST-ARRIVAL</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">SCHOLARSHIP FOR <br> INTERNATIONAL STUDENTS</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('visa-information') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">VISA INFORMATION</a></li>
+                                <li><a class="dropdown-item text-dark fw-bold  para1" href="{{ route('why-india') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">WHY INDIA?</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
                 </div>
+
             </div>
-        </div>
-        </section>
+        </nav>
         <!--End Header-->

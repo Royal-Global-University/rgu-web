@@ -933,6 +933,59 @@
         </section>
     </div>
     <!--End Footer-->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".nav-item.dropdown").forEach(function (el) {
+                el.addEventListener("mouseenter", function () {
+                    let dropdown = this.querySelector(".dropdown-menu");
+                    if (dropdown) {
+                        dropdown.style.display = "block";
+                        setTimeout(() => {
+                            dropdown.style.opacity = "1";
+                            dropdown.style.transform = "translateY(0)";
+                        }, 10);
+                    }
+                });
+
+                el.addEventListener("mouseleave", function () {
+                    let dropdown = this.querySelector(".dropdown-menu");
+                    if (dropdown) {
+                        dropdown.style.opacity = "0";
+                        dropdown.style.transform = "translateY(10px)";
+                        setTimeout(() => {
+                            dropdown.style.display = "none";
+                        }, 300);
+                    }
+                });
+            });
+
+            document.querySelectorAll(".dropdown-submenu").forEach(function (el) {
+                el.addEventListener("mouseenter", function () {
+                    let submenu = this.querySelector(".dropdown-menu");
+                    if (submenu) {
+                        submenu.style.display = "block";
+                        setTimeout(() => {
+                            submenu.style.opacity = "1";
+                            submenu.style.transform = "translateX(0)";
+                        }, 10);
+                    }
+                });
+
+                el.addEventListener("mouseleave", function () {
+                    let submenu = this.querySelector(".dropdown-menu");
+                    if (submenu) {
+                        submenu.style.opacity = "0";
+                        submenu.style.transform = "translateX(10px)";
+                        setTimeout(() => {
+                            submenu.style.display = "none";
+                        }, 300);
+                    }
+                });
+            });
+        });
+
+
+    </script>
 
     <script>
         function setActiveButton(button) {
