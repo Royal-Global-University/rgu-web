@@ -726,7 +726,7 @@
 
                                 <video autoplay loop muted id="video-bg2" oncanplay="showVideo2()"
                                     style="width: 100%; height: auto; display: block;">
-                                    <source src="mobile-assets/index/headvid/mp4" type="video/mp4">
+                                    <source src="https://d20cs3cmzywuh.cloudfront.net/v-2.mp4" type="video/mp4">
                                 </video>
                             </div>
                         </div>
