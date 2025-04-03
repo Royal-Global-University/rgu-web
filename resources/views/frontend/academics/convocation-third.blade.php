@@ -23,7 +23,7 @@
                     <div class="col-lg-12">
                         <video class="rounded" width="100%" height="auto" autoplay muted playsinline
                         controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture>
-                        <source src="mobile-assets/third-Convo/third-convo.mp4" type="video/mp4">
+                        <source src="{{ asset('storage/mobile-assets/third-Convo/third-convo.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                 </div>
