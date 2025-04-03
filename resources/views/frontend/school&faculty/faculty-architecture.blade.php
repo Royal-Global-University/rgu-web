@@ -15,189 +15,245 @@
 
         @include('frontend/components/aheader')
 
-        <!--About Section-->
-        <div class="prthalign pt-4">
-            <h1 style="font-weight: 600;" class="headd1 text-dark kd-title-ani kd-split-text text-center">
-                Royal School of Architecture (RSA)</h1>
+        <!-- MAIN SECTION  -->
+        <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
+            Royal School of <span style="color: #FF9A1E; font-weight: 500;">Architecture (RSA)</span></h2>
+    
+        <div class="container">
+    
+                <div class="row">
+                
+                <div class="col-lg-3 mb-4">         
+                    <a>
+                        <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                            <div class="p-3">
+                              <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.015.jpeg" class="img-fluid rounded"/>  
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                              <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Hari Prasad Agarwal</h5>
+                            <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Principal, Royal School of Architecture and Dean, Royal School of
+                                Design/Royal School of Fashion Design & Technology/Royal School of Fine Arts</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 mb-4">
+                    <a>
+                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                        <div class="p-3">
+                          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.013.jpeg" class="img-fluid rounded"/>  
+                        </div>
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Siddhartha Deb</h5>
+                        <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, <br> The Assam Royal Global University</p>
+                        </div>
+                    </div>
+                    </a>
+            </div>
+
+            <div class="col-lg-3 mb-4">
+                <a>
+                <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                    <div class="p-3">
+                      <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.005.jpeg" class="img-fluid rounded"/>  
+                    </div>
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Kasturi Borah</h5>
+                    <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor, <br> The Assam Royal Global University</p>
+                    </div>
+                </div>
+                </a>
         </div>
 
-        <div class="container my-4">
-            <!-- First Row of Cards -->
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="HariPrasadAgarwal.html">
-                            <img src="assets/img/Faculty/allhere/RSA.015.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">
-                                    Prof. (Dr.) Hari Prasad Agarwal
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Professor & Principal, Royal School of Architecture and Dean, Royal School of
-                                    Design/Royal School of Fashion Design & Technology/Royal School of Fine Arts
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark">hpagarwal@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+        <div class="col-lg-3 mb-4">
+            <a>
+            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                <div class="p-3">
+                  <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.003.jpeg" class="img-fluid rounded"/>  
                 </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ar.Siddhartha_Deb.html">
-                            <img src="assets/img/Faculty/allhere/RSA.013.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 270px;">
-                                <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">
-                                    Ar. Siddhartha Deb
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 80px;">
-                                    <div class="para1 fw-bold text-center text-dark">siddhartha.deb@rgi.edu.in</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ar. Kasturi Borah.html">
-
-                            <img src="assets/img/Faculty/allhere/RSA.005.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 270px;">
-                                <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">
-                                    Ar. Kasturi Borah
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 80px;">
-                                    <div class="para1 fw-bold text-center text-dark">kborah@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ar.Bhola_Saha.html">
-                            <img src="assets/img/Faculty/allhere/RSA.003.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 270px;">
-                                <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">
-                                    Ar. Bhola Saha
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Professor and Coordinator and Assistant Dean, Admission
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 60px;">
-                                    <div class="para1 fw-bold text-center text-dark">bsaha@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                <div class="card-body d-flex flex-column flex-grow-1">
+                  <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Bhola Saha</h5>
+                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Coordinator and Assistant Dean, Admission, <br> The Assam Royal Global University</p>
                 </div>
             </div>
-            <!-- forth Row of Cards -->
-            <div class="row mt-5">
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ar.AmritaSabhapandit.html">
-                            <img src="assets/img/Faculty/allhere/RSA.001.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">
-                                    Ar. Amrita Sabhapandit
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark">asabhapandit@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ar.BarshaKunda.html">
-                            <img src="assets/img/Faculty/allhere/RSA.002.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">Ar. Barsha Kunda
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark">bkunda@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ar.DikshaDutta.html">
+            </a>
+    </div>
 
-                            <img src="assets/img/Faculty/allhere/RSA.017.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">Ar. Diksha Dutta
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark">ddutta1@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ar.JagritiPathak.html">
-                            <img src="assets/img/Faculty/allhere/Ar. Jagriti Pathak.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">
-                                    Ar. Jagriti Pathak
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark">jpathak1@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+<div class="col-lg-3 mb-4">
+      <a>
+        <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+            <div class="p-3">
+              <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.001.jpeg" class="img-fluid rounded"/>  
+            </div>
+            <div class="card-body d-flex flex-column flex-grow-1">
+              <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Amrita Sabhapandit</h5>
+            <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
             </div>
         </div>
-        <!--End About-->
+    </a>
+</div>
+<div class="col-lg-3 mb-4">
+      <a>
+        <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+            <div class="p-3">
+              <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/Ms-Barnali-Chakrabarty-Photo.jpg" class="img-fluid rounded"/>  
+            </div>
+            <div class="card-body d-flex flex-column flex-grow-1">
+              <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Barnali Chakraborty</h5>
+            <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.002.jpeg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Barsha Kunda</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.017.jpeg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Diksha Dutta</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/Ar-Jagriti-Pathak.jpeg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Jagriti Pathak</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.004.jpeg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Jugal Kishore Devanath</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+<div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+    <div class="p-3">
+      <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.014.jpeg" class="img-fluid rounded"/>  
+    </div>
+    <div class="card-body d-flex flex-column flex-grow-1">
+      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Mohua Moitri Mazumdar</h5>
+    <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+    </div>
+</div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+<div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+    <div class="p-3">
+      <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.006.jpeg" class="img-fluid rounded"/>  
+    </div>
+    <div class="card-body d-flex flex-column flex-grow-1">
+      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Pooja Singh</h5>
+    <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+    </div>
+</div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+<div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+    <div class="p-3">
+      <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.008.jpeg" class="img-fluid rounded"/>  
+    </div>
+    <div class="card-body d-flex flex-column flex-grow-1">
+      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Pratyasha Das</h5>
+    <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+    </div>
+</div>
+</a>
+</div>
+
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/priyalakshi_rsa.png" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Priyalakshmi Baishya</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+<div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+    <div class="p-3">
+      <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.012.jpeg" class="img-fluid rounded"/>  
+    </div>
+    <div class="card-body d-flex flex-column flex-grow-1">
+      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Rishangi Bharadwaj</h5>
+    <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+    </div>
+</div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+<a>
+<div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+    <div class="p-3">
+      <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/Ar. Ritu Rani.jpeg" class="img-fluid rounded"/>  
+    </div>
+    <div class="card-body d-flex flex-column flex-grow-1">
+      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Ritu Rani</h5>
+    <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+    </div>
+</div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+<a>
+<div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+    <div class="p-3">
+      <img style="height: 290px; width: 100%;" src="assets/img/Faculty/allhere/RSA.009.jpeg" class="img-fluid rounded"/>  
+    </div>
+    <div class="card-body d-flex flex-column flex-grow-1">
+      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ar. Sanchari Kar</h5>
+    <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Departmental Representative, Academic Affairs, <br> The Assam Royal Global University</p>
+    </div>
+</div>
+</a>
+</div>
+
+            </div>
+        </div>
+        <!-- MAIN SECTION  -->
     </div><!-- #page -->
 @endsection

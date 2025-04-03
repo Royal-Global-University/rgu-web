@@ -1831,6 +1831,99 @@ Route::get('/royal-s-school-of-medical-allied-science', function () {
     return view('frontend/school&faculty/royal-s-school-of-medical-allied-science');
 })->name('royal-s-school-of-medical-allied-science');
 
+//schools-rgu-faculty
+Route::get('/faculty-architecture', function () {
+    return view('frontend/school&faculty/faculty-architecture');
+})->name('faculty-architecture');
+
+Route::get('/faculty-applied-purescience', function () {
+    return view('frontend/school&faculty/faculty-applied-purescience');
+})->name('faculty-applied-purescience');
+
+Route::get('/faculty-business', function () {
+    return view('frontend/school&faculty/faculty-business');
+})->name('faculty-business');
+
+Route::get('/royal-school-of-allied-sciences', function () {
+    return view('frontend/school&faculty/royal-school-of-allied-sciences');
+})->name('royal-school-of-allied-sciences');
+
+Route::get('/faculty-bio-sciences', function () {
+    return view('frontend/school&faculty/faculty-bio-sciences');
+})->name('faculty-bio-sciences');
+
+Route::get('/faculty-commerce', function () {
+    return view('frontend/school&faculty/faculty-commerce');
+})->name('faculty-commerce');
+
+Route::get('/rscom-faculty', function () {
+    return view('frontend/school&faculty/rscom-faculty');
+})->name('rscom-faculty');
+
+Route::get('/faculty-design', function () {
+    return view('frontend/school&faculty/faculty-design');
+})->name('faculty-design');
+
+Route::get('/faculty-environmental-earth', function () {
+    return view('frontend/school&faculty/faculty-environmental-earth');
+})->name('faculty-environmental-earth');
+
+Route::get('/faculty-engineeringtechnology', function () {
+    return view('frontend/school&faculty/faculty-engineeringtechnology');
+})->name('faculty-engineeringtechnology');
+
+Route::get('/faculty-finearts', function () {
+    return view('frontend/school&faculty/faculty-finearts');
+})->name('faculty-finearts');
+
+Route::get('/faculty-fashion-design', function () {
+    return view('frontend/school&faculty/faculty-fashion-design');
+})->name('faculty-fashion-design');
+
+Route::get('/faculty-humanities-social', function () {
+    return view('frontend/school&faculty/faculty-humanities-social');
+})->name('faculty-humanities-social');
+
+Route::get('/faculty-hotel-management', function () {
+    return view('frontend/school&faculty/faculty-hotel-management');
+})->name('faculty-hotel-management');
+
+Route::get('/faculty-information-technology', function () {
+    return view('frontend/school&faculty/faculty-information-technology');
+})->name('faculty-information-technology');
+
+Route::get('/faculty-law-administration', function () {
+    return view('frontend/school&faculty/faculty-law-administration');
+})->name('faculty-law-administration');
+
+Route::get('/faculty-lifesciences', function () {
+    return view('frontend/school&faculty/faculty-lifesciences');
+})->name('faculty-lifesciences');
+
+Route::get('/faculty-languages', function () {
+    return view('frontend/school&faculty/faculty-languages');
+})->name('faculty-languages');
+
+Route::get('/faculty-librarysciences', function () {
+    return view('frontend/school&faculty/faculty-librarysciences');
+})->name('faculty-librarysciences');
+
+Route::get('/faculty-medical&allidesciences', function () {
+    return view('frontend/school&faculty/faculty-medical&allidesciences');
+})->name('faculty-medical&allidesciences');
+
+Route::get('/faculty-nursing', function () {
+    return view('frontend/school&faculty/faculty-nursing');
+})->name('faculty-nursing');
+
+Route::get('/faculty-pharmacy', function () {
+    return view('frontend/school&faculty/faculty-pharmacy');
+})->name('faculty-pharmacy');
+
+Route::get('/faculty-travel-tourism', function () {
+    return view('frontend/school&faculty/faculty-travel-tourism');
+})->name('faculty-travel-tourism');
+
 //End School & Faculty
 
 
