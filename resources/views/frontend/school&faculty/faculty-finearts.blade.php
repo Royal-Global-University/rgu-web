@@ -15,170 +15,111 @@
 
         @include('frontend/components/aheader')
 
-        <!--About Section-->
-        <div class="prthalign pt-4">
-            <h1 style="font-weight: 600;" class="headd1 text-dark kd-title-ani kd-split-text text-center">
-                Royal School of Fine Arts (RSFA)</h1>
-        </div>
+                <!-- MAIN SECTION  -->
+                <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
+            Royal School of <span style="color: #FF9A1E; font-weight: 500;">Fine Arts (RSFA)</span></h2>
+    
+        <div class="container">
+                <div class="row"> 
+                    <div class="col-lg-3 mb-4">         
+                        <a>
+                            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                                <div class="p-3">
+                                  <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fine Arts/RSA.015.jpeg" class="img-fluid rounded"/>  
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                  <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Hari Prasad Agarwal</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Principal, Royal School of Architecture and Dean, Royal School of
+                                    Design/Royal School of Fashion Design & Technology/Royal School of Fine Arts</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
 
-        <div class="container my-4">
-            <!-- First Row of Cards -->
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="HariPrasadAgarwal.html">
-                            <img src="assets/img/Faculty/Fine Arts/RSA.015.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">Prof. (Dr.) Hari Prasad Agarwal
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Professor & Dean, Royal School of Architecture
-                                    (RSA), Royal School of Design (RSD), Royal School of Fashion Design & Technology
-                                    (RSFT) and Royal School of Fine Arts (RSFA)
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark">hpagarwal@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                        <div class="p-3">
+                          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fine Arts/fine-art.002.jpeg" class="img-fluid rounded"/>  
+                        </div>
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Sumanta Dutta Chowdhury</h5>
+                        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor & Coordinator and Assistant Dean, Admission, <br> The Assam Royal Global University</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Dr.Sumanta_Dutta_Chowdhury.html">
-                            <img src="assets/img/Faculty/Fine Arts/fine-art.002.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 180px;">
-                                <h5 class="card-title headd3 fw-bold text-dark">Dr. Sumanta Dutta Chowdhury
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant Professor & Coordinator and Assistant Dean, Admission
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 78px;">
-                                    <div class="para1 fw-bold text-center text-dark">sdchowdhury@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Dr.Mousumi_Deka.html">
-                            <img src="assets/img/Faculty/Fine Arts/fine-art.001.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 180px;">
-                                <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Mousumi Deka
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant Professor & Assistant Dean, Academic Affairs
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 78px;">
-                                    <div class="para1 fw-bold text-center text-dark">mdeka@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Dr.Siddhant_Medhi.html">
-                            <img src="assets/img/Faculty/Fine Arts/Dr.SiddhantMedhi.jpg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 202px;">
-                                <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Siddhant Medhi
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 98px;">
-                                    <div class="para1 fw-bold text-center text-dark">smedhi@rgu.ac</div>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                    </a>
             </div>
 
-            <!-- Second Row of Cards -->
-            <div class="row mt-5">
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Mr.Kishan_Bagdi.html">
-                            <img src="assets/img/Faculty/Fine Arts/fine-art.004.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">Mr. Kishan Bagdi
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant Professor and Assistant Director, RCCR & Assistant Dean, Student Affairs
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark">kbagdi@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
+            <div class="col-lg-3 mb-4">
+                <a>
+                <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                    <div class="p-3">
+                      <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fine Arts/fine-art.001.jpeg" class="img-fluid rounded"/>  
+                    </div>
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Mousumi Deka</h5>
+                    <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor & Assistant Dean, Academic Affairs, <br> The Assam Royal Global University</p>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ms.Sehnaz_Saikia.html">
-                            <img src="assets/img/Faculty/Fine Arts/SehnazSaikia.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 134px;">
-                                <h5 class="card-title headd3 fw-bold text-dark">Ms. Sehnaz Saikia
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 55px;">
-                                    <div class="para1 fw-bold text-center text-dark">ssaikia1@rgu.ac</div>
+                </a>
+        </div>
 
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+        <div class="col-lg-3 mb-4">
+            <a>
+            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                <div class="p-3">
+                  <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fine Arts/Dr.SiddhantMedhi.jpg" class="img-fluid rounded"/>  
                 </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Mr.Suman_Saha.html">
-                            <img src="assets/img/Faculty/Fine Arts/SumanSaha.jpg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 134px;">
-                                <h5 class="card-title headd3 fw-bold text-dark">Mr. Suman Saha
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Associate
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 55px;">
-                                    <div class="para1 fw-bold text-center text-dark">ssaha@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                <div class="card-body d-flex flex-column flex-grow-1">
+                  <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Siddhant Medhi</h5>
+                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
                 </div>
             </div>
+            </a>
+    </div>
 
+    <div class="col-lg-3 mb-4">
+        <a>
+        <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+            <div class="p-3">
+              <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fine Arts/fine-art.004.jpeg" class="img-fluid rounded"/>  
+            </div>
+            <div class="card-body d-flex flex-column flex-grow-1">
+              <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Mr. Kishan Bagdi</h5>
+            <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Assistant Director, RCCR & Assistant Dean, Student Affairs,<br> The Assam Royal Global University</p>
+            </div>
         </div>
-        <!--End About-->
+    </a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fine Arts/SehnazSaikia.jpeg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Sehnaz Saikia</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fine Arts/SumanSaha.jpg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Mr. Suman Saha</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+</div>
+        </div>
+        <!-- MAIN SECTION  -->
+
     </div><!-- #page -->
 @endsection

@@ -15,304 +15,188 @@
 
         @include('frontend/components/aheader')
 
-        <!--About Section-->
-        <div class="prthalign pt-4">
+                <!-- MAIN SECTION  -->
+                <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
+            Royal School of <span style="color: #FF9A1E; font-weight: 500;">Hotel Management (RSHM)</span></h2>
+    
+        <div class="container">
+                <div class="row"> 
+                    <div class="col-lg-3 mb-4">         
+                        <a>
+                            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                                <div class="p-3">
+                                  <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/Mahesh.jpg" class="img-fluid rounded"/>  
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                  <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Mahesh Chandra Uniyal</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Dean</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
 
-            <h1 style="font-weight: 600;" class="headd1 text-dark kd-title-ani kd-split-text text-center">
-                Royal School of Hotel Management (RSHM)</h1>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                        <div class="p-3">
+                          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel//Deans.016.jpeg" class="img-fluid rounded"/>  
+                        </div>
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Soumitra Sen</h5>
+                        <p class="para1" style="color: #27467A; line-height: 1.3;">Senior Professor, <br> The Assam Royal Global University</p>
+                        </div>
+                    </div>
+                    </a>
+            </div>
+
+            <div class="col-lg-3 mb-4">
+                <a>
+                <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                    <div class="p-3">
+                      <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/SyedSajidulIslamDP.jpg" class="img-fluid rounded"/>  
+                    </div>
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                      <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Syed Sajidul Islam</h5>
+                    <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HOD, RSHM & RSTTM, <br> The Assam Royal Global University</p>
+                    </div>
+                </div>
+                </a>
         </div>
 
-        <div class="container my-4">
-            <!-- First Row of Cards -->
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Prof.(Dr.)MaheshChandraUniyal.html">
-                            <img src="assets/img/Faculty/Travel/Mahesh.jpg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 138px;">
-                                <h5 class="card-title headd3 fw-bold text-dark">Prof. (Dr.) Mahesh Chandra Uniyal
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Professor & Dean
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                                    <div class="para1 fw-bold text-center text-dark"> mcuniyal@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+        <div class="col-lg-3 mb-4">
+            <a>
+            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                <div class="p-3">
+                  <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/MrIndrajit.JPG" class="img-fluid rounded"/>  
                 </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Prof.(Dr.)SoumitraSen.html">
-                            <img src="assets/img/Faculty/Travel//Deans.016.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 138px;">
-                                <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Prof. (Dr.)
-                                    Soumitra Sen
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Senior Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                                    <div class="para1 fw-bold text-center text-dark"> ssen@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style=" box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Dr.SyedSajidulIslam.html">
-                            <img src="assets/img/Faculty/Travel/SyedSajidulIslamDP.jpg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Syed Sajidul
-                                    Islam
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Associate Professor & HOD, RSHM & RSTTM
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark"><i class="fa-solid fa-envelope"></i></div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Dr.IndrajitDutta.html">
-                            <img src="assets/img/Faculty/Travel/MrIndrajit.JPG" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Indrajit Dutta
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant
-                                    Professor, Associate Dean, Academic Affairs, RSHM/RSTTM
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark">idutta@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                <div class="card-body d-flex flex-column flex-grow-1">
+                  <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Indrajit Dutta</h5>
+                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, Associate Dean, Academic Affairs, RSHM / RSTTM, <br> The Assam Royal Global University</p>
                 </div>
             </div>
+            </a>
+    </div>
 
-            <!-- Second Row of Cards -->
-            <div class="row mt-5">
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Mr.PiyushGupta.html">
-                            <img src="assets/img/Faculty/Travel/Mr.Piyush.JPG" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 110px;">
-                                <h5 class="card-title headd3 fw-bold text-dark">Mr. Piyush Gupta
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant Professor & Coordinator, RSHM
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                                    <div class="para1 fw-bold text-center text-dark"> pgupta@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ms.AnkitaSaikia.html">
-                            <img src="assets/img/Faculty/Travel/MsAnkita.jpg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 130px;">
-                                <h5 class="card-title headd3 fw-bold text-dark">Ms. Ankita Saikia
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant
-                                    Professor <br>
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 55px;">
-                                    <div class="para1 fw-bold text-center text-dark"> asaikia1@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Mr.ChandanJyotiBezborah.html">
-
-                            <img src="assets/img/Faculty/Travel/Mr.Chandan.jpg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 style="font-size: 19px;" class="card-title headd3 fw-bold text-dark">
-                                    Mr. Chandan Jyoti Bezborah
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Lecturer, Asstt. Director, RCCR (Hotel Management & Co-Coordinator, Minor &
-                                    Interdisciplinary Courses)
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark"> cbezborah@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ms.DarshanaGogoi.html">
-                            <img src="assets/img/Faculty/Travel/Ms.DarshanaGogoi.jpg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body" style="min-height: 130px;">
-                                <h5 class="card-title headd3 fw-bold text-dark">Ms. Darshana Gogoi
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 55px;">
-                                    <div class="para1 fw-bold text-center text-dark">dgogoi@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+    <div class="col-lg-3 mb-4">
+        <a>
+        <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+            <div class="p-3">
+              <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/Mr.Piyush.JPG" class="img-fluid rounded"/>  
             </div>
-
-            <!-- Third Row of Cards -->
-            <div class="row mt-5">
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ms.EkajollyDas.html">
-                            <img src="assets/img/Faculty/Travel/Ms.EkajollyDas.jpg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">Ms. Ekajolly Das
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant
-                                    Professor <br>
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark">edas@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ms.MeghaPhukan.html">
-                            <img src="assets/img/Faculty/Travel/meghaphukan-rshm.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">Ms. Megha Phukan
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark"> mphukan@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ms.PhibapynhunPariong.html">
-                            <img src="assets/img/Faculty/Travel/phiba.jpg" class="card-img-top p-2" style="border-radius: 10px;"
-                                alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">Ms. Phibapynhun Pariong
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Associate
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark">ppariong@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Ms.ReeminaNarzary.html">
-                            <img src="assets/img/Faculty/Travel/ReeminaNarzaryRSHM.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">Ms. Reemina Narzary
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark">rnarhari@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- forth Row of Cards -->
-            <div class="row mt-5">
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Mr.SparshTiwari.html">
-
-                            <img src="assets/img/Faculty/Travel/MrSparsh.jpg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 style="font-size: 19px;" class="card-title headd3 fw-bold text-dark">
-                                    Mr. Sparsh Tiwari
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                    Assistant
-                                    Professor
-                                </p>
-                                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                                    <div class="para1 fw-bold text-center text-dark"> stiwari@rgu.ac</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <div class="card-body d-flex flex-column flex-grow-1">
+              <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Mr. Piyush Gupta</h5>
+            <p class="para1" style="color: #27467A; line-height: 1.3;"> Assistant Professor & Coordinator, RSHM,<br> The Assam Royal Global University</p>
             </div>
         </div>
-        <!--End About-->
+    </a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/MsAnkita.jpg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Ankita Saikia</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/Mr.Chandan.jpg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Mr. Chandan Jyoti Bezborah</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor & Assistant Director, RCCR, (Hotel Management & Co-Coordinator, Minor & Interdisciplinary Courses), <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/Ms.DarshanaGogoi.jpg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Darshana Gogoi</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/Ms.EkajollyDas.jpg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Ekajolly Das</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/meghaphukan-rshm.jpeg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Megha Phukan</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/phiba.jpg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Phibapynhun Pariong</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/ReeminaNarzaryRSHM.jpeg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Reemina Narzary</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+<div class="col-lg-3 mb-4">
+    <a>
+    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+        <div class="p-3">
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Travel/MrSparsh.jpg" class="img-fluid rounded"/>  
+        </div>
+        <div class="card-body d-flex flex-column flex-grow-1">
+          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Mr. Sparsh Tiwari</h5>
+        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal Global University</p>
+        </div>
+    </div>
+</a>
+</div>
+</div>
+        </div>
+        <!-- MAIN SECTION  -->
+         
     </div><!-- #page -->
 @endsection

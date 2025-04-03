@@ -15,600 +15,527 @@
 
         @include('frontend/components/aheader')
 
-        <!--About Section-->
-        <div class="prthalign pt-4">
+                <!-- MAIN SECTION  -->
+                <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
+            style="color: #27467A; font-weight: 900;">
+            Royal School of <span style="color: #FF9A1E; font-weight: 500;">Bio-sciences (RSBSC)</span></h2>
 
-            <h1 style="font-weight: 600;" class="headd1 text-dark kd-title-ani kd-split-text text-center">
-                Royal School of Bio-sciences (RSBSC)</h1>
-        </div>
-
-    <div class="container my-4">
-    <div class="row justify-content-center">
-                <div class="col-md-3">
-                    <div class="card"
-                        style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                        <a href="Prof.(Dr.)AnupamChatterjee.html">
-                            <img src="assets/img/Faculty/Bio-sciences/Deans.011.jpeg" class="card-img-top p-2"
-                                style="border-radius: 10px;" alt="Card Image">
-                            <div class="card-body">
-                                <h5 class="card-title headd3 fw-bold text-dark">
-                                    Prof. (Dr.) Anupam Chatterjee
-                                </h5>
-                                <hr>
-                                <p style="font-size: 15px !important; line-height: 1.4;"
-                                    class="card-text para1 text-dark">
-                                    Professor & Dean
-                            </p>
-                        <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                            <div class="para1 fw-bold text-center text-dark">achatterjee@rgu.ac</div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/Deans.011.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
+                                    Anupam Chatterjee</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Dean, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
                         </div>
-                    </div>
                     </a>
                 </div>
             </div>
-    </div>
 
-        <hr>
-        <h2 style="text-align: start;" class="headd2 text-dark"> DEPARTMENT OF BIOTECHNOLOGY</h2>
-        <hr>
+            <hr>
+            <h2 style="text-align: start;" class="headd2 text-dark"> DEPARTMENT OF BIOTECHNOLOGY</h2>
+            <hr>
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/alak-kumar.png" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
+                                    Alak Kumar Buragohain</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Chairperson Academics, <br>
+                                    The Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
-    <div class="row">
-            <div class="col-md-3">
-                <div class="card"
-                    style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                    <a href="Prof.(Dr.)Alak_Kumar_Buragohain.html">
-                        <img src="assets/img/Faculty/Bio-sciences/alak-kumar.png" class="card-img-top p-2"
-                            style="border-radius: 10px;" alt="Card Image">
-                        <div class="card-body" style="min-height: 140px;">
-                            <h5 class="card-title headd3 fw-bold text-dark">Prof. (Dr.) Alak Kumar Buragohain</h5>
-                            <hr>
-                            <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                                Chairperson Academics
-                            </p>
-                            <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                        <div class="para1 fw-bold text-center text-dark"><i class="fa-solid fa-envelope"></i></div>
-                    </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/Biotech.004.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Ranjan
+                                    Dutta Kalita</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor and
+                                    Associate Dean (Admission) <br> The Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                </a>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card"
-                style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                <a href="Dr.RanjanDuttaKalita.html">
-                    <img src="assets/img/Faculty/Bio-sciences/Biotech.004.jpeg" class="card-img-top p-2"
-                        style="border-radius: 10px;" alt="Card Image">
-                        <div class="card-body">
-                        <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Ranjan Dutta Kalita</h5>
-                        <hr>
-                        <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                            Associate Professor & Associate Dean (Admission)
-                        </p>
-                        <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                    <div class="para1 fw-bold text-center text-dark">rdkalita@rgu.ac</div>
-                </div>
-            </div>
-            </a>
-        </div>
-        </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.DebajitBorah.html">
-                <img src="assets/img/Faculty/Bio-sciences/Biotech.001.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body">
-                    <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Debajit Borah</h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Associate Professor & HoD
-                    </p>
-                    <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                <div class="para1 fw-bold text-center text-dark"><i class="fa-solid fa-envelope"></i></div>
-            </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.RupeshKumar.html">
-                <img src="assets/img/Faculty/Bio-sciences/Biotech.002.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body">
-                        <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Rupesh Kumar</h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor & Coordinator, MLT
-                    </p>
-                    <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                <div class="para1 fw-bold text-center text-dark">rkumar@rgu.ac</div>
-                </div>
-            </div>
-            </a>
-        </div>
-    </div>
-    </div>
 
-    <!-- Second Row of Cards -->
-    <div class="row mt-5">
-        <div class="col-md-3">
-            <div class="card"
-                style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                <a href="Dr.SiddharthaNarayanBorah.html">
-                    <img src="assets/img/Faculty/Bio-sciences/SiddharthaNarayan.jpeg" class="card-img-top p-2"
-                        style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 136px;">
-                        <h5 class="card-title headd3 fw-bold text-dark">Dr. Siddhartha Narayan Borah
-                        </h5>
-                        <hr>
-                        <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                            Assistant Professor
-                        </p>
-                        <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                    <div class="para1 fw-bold text-center text-dark">snborah@rgu.ac</div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/Biotech.001.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Debajit
+                                    Borah</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HoD
+                                    <br> The Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </div>
-            </a>
-        </div>
-        </div>
-        <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.AnujKumarBorah.html">
-                <img src="assets/img/Faculty/Bio-sciences/rsbsc11march.004.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body">
-                    <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Anuj Kumar Borah
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor & Assistant Director, RCCR
-                    </p>
-            <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                <div class="para1 fw-bold text-center text-dark">akborah@rgu.ac</div>
-            </div>
-        </div>
-        </a>
-        </div>
-        </div>
-        <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.BhaskarjyotiGogoi.html">
-                <img src="assets/img/Faculty/Bio-sciences/Biotech.003.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body">
-                        <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Bhaskarjyoti Gogoi
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor & Assistant Director, RCCR
-                    </p>
-            <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                <div class="para1 fw-bold text-center text-dark">bgogoi1@rgu.ac</div>
-            </div>
-        </div>
-        </a>
-        </div>
-        </div>
-        <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.ChongthamSovachandraSingh.html">
-                <img src="assets/img/Faculty/Bio-sciences/rsbsc25aug23.png" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 136px;">
-                    <h5 class="card-title headd3 fw-bold text-dark">Dr. Chongtham Sovachandra Singh
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor
-                    </p>
-                    <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                <div class="para1 fw-bold text-center text-dark">cssingh@rgu.ac</div>
-            </div>
-        </div>
-        </a>
-        </div>
-    </div>
-    </div>
 
-    <div class="row mb-4 mt-5">
-        <div class="col-md-3">
-            <div class="card"
-                style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                <a href="Dr.MousumiDasGoswami.html">
-                    <img src="assets/img/Faculty/Bio-sciences/MousumiDasGoswami.jpeg" class="card-img-top p-2"
-                        style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body">
-                        <h5 class="card-title headd3 fw-bold text-dark">Dr. Mousumi Das Goswami
-                        </h5>
-                        <hr>
-                        <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                            Assistant Professor
-                        </p>
-                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                    <div class="para1 fw-bold text-center text-dark">mdgoswami@rgu.ac</div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/Biotech.002.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Rupesh
+                                    Kumar</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor &
+                                    Coordinator, MLT, <br> The Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </div>
-            </a>
-        </div>
-        </div>
-        <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.RupshikhaPatowary.html">
-                <img src="assets/img/Faculty/Bio-sciences/RupshikhaPatowary.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 117px">
-                    <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Rupshikha Patowary
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor
-                    </p>
-            <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                <div class="para1 fw-bold text-center text-dark">rpatowary1@rgu.ac</div>
-            </div>
-        </div>
-        </a>
-        </div>
-    </div>
-    </div>
 
-    <hr>
-    <h2 style="text-align: start;" class="headd2 text-dark"> DEPARTMENT OF MICROBIOLOGY</h2>
-    <hr>
-
-    <!-- Third Row of Cards -->
-    <div class="row mt-4">
-        <div class="col-md-3">
-            <div class="card"
-                style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                <a href="Dr.AmlanDas.html">
-                    <img src="assets/img/Faculty/Bio-sciences/rsbsc11march.003.jpeg" class="card-img-top p-2"
-                        style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 125px;">
-                        <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Amlan Das
-                        </h5>
-                        <hr>
-                        <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                            Associate Professor & Coordinator, Indian Knowledge System </p>
-                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                    <div class="para1 fw-bold text-center text-dark">adas5@rgu.ac</div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/SiddharthaNarayan.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr.
+                                    Siddhartha Narayan Borah</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </div>
-            </a>
-        </div>
-        </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.SarangaRanjanPatgiri.html">
-                <img src="assets/img/Faculty/Bio-sciences/rsbsc11march.016.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 145px;">
-                    <h5 class="card-title headd3 fw-bold text-dark">Dr. Saranga Ranjan Patgiri
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Professor </p>
-                        <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                <div class="para1 fw-bold text-center text-dark">srpatgiri@rgu.ac</div>
-            </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.BirsonIngti.html">
-                <img src="assets/img/Faculty/Bio-sciences/rsbsc11march.011.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 125px;">
-                    <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Birson Ingti
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor & Coordinator and Assistant Dean, Admission </p>
-            <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                <div class="para1 fw-bold text-center text-dark">bingti@rgu.ac</div>
-            </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.TarangaJyotiBaruah.html">
-                <img src="assets/img/Faculty/Bio-sciences/rsbsc11march.006.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 145px">
-                        <h5 class="card-title headd3 fw-bold text-dark" style="padding-bottom: 25px;">Dr. Taranga Jyoti Baruah
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor & Coordinator </p>
-                        <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                <div class="para1 fw-bold text-center text-dark">tjbaruah@rgu.ac</div>
-            </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    </div>
-
-    <!-- forth Row of Cards -->
-    <div class="row mt-5">
-        <div class="col-md-3">
-            <div class="card"
-                style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                <a href="Dr.DipayanDas.html">
-                    <img src="assets/img/Faculty/Bio-sciences/DrDipayanDas.jpg" class="card-img-top p-2"
-                        style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body">
-                        <h5 class="card-title headd3 fw-bold text-dark">Dr. Dipayan Das
-                        </h5>
-                        <hr>
-                        <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                            Assistant Professor & Assistant Dean, Academic Affairs
-                        </p>
-                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                    <div class="para1 fw-bold text-center text-dark">ddas2@rgu.ac</div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc11march.004.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Anuj
+                                    Kumar Borah</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor &
+                                    Assistant Director, RCCR, <br> The Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </div>
-            </a>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.NirajSingh.html">
-
-                <img src="assets/img/Faculty/Bio-sciences/rsbsc11march.013.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 112px">
-                    <h5 style="font-size: 19px;" class="card-title headd3 fw-bold text-dark">Dr. Niraj Singh
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor
-                    </p>
-                    <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 40px;">
-                <div class="para1 fw-bold text-center text-dark">n.singh@rgu.ac
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc25aug23.png" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr.
+                                    Chongtham Sovachandra Singh</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/MousumiDasGoswami.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Mousumi
+                                    Das Goswami</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/RupshikhaPatowary.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr.
+                                    Rupshikha Patowary</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/Biotech.003.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr.
+                                    Bhaskarjyoti Gogoi</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor &
+                                    Assistant Director, RCCR, <br> The Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
             </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.JiwasmikaBaishya.html">
-                <img src="assets/img/Faculty/Bio-sciences/JiwasmikaBaishya.jpg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 112px">
-                        <h5 style="font-size: 20px;" class="card-title headd3 fw-bold text-dark">Dr. Jiwasmika Baishya
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor
-                    </p>
-                    <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 40px;">
-                <div class="para1 fw-bold text-center text-dark">jbaishya@rgu.ac</div>
-            </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.PankajLosanSharma.html">
-                <img src="assets/img/Faculty/Bio-sciences/rsbsc11march.015.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 112px">
-                        <h5 class="card-title headd3 fw-bold text-dark">Dr. Pankaj Losan Sharma
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor
-                    </p>
-                    <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 40px;">
-                <div class="para1 fw-bold text-center text-dark">plsharma@rgu.ac
+            <hr>
+            <h2 style="text-align: start;" class="headd2 text-dark"> DEPARTMENT OF MICROBIOLOGY</h2>
+            <hr>
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc11march.003.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Amlan
+                                    Das</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor &
+                                    Co-cordinator, IKS, <br> The Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc11march.016.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Saranga
+                                    Ranjan Patgiri</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, <br> The Assam
+                                    Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc11march.011.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Birson
+                                    Ingti</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor &
+                                    Coordinator and Assistant Dean, Admission, <br> The Assam Royal Global University
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc11march.006.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Taranga
+                                    Jyoti Baruah</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor &
+                                    Coordinator, <br> The Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/DrDipayanDas.jpg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Dipayan
+                                    Das</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor &
+                                    Assistant Dean, Academic Affairs, <br> The Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc11march.013.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Niraj
+                                    Singh</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/JiwasmikaBaishya.jpg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr.
+                                    Jiwasmika Baishya</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc11march.015.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Pankaj
+                                    Losan Sharma</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/SubhoGhosh.jpeg" class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Subho
+                                    Ghosh</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc11march.014.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Susmita
+                                    Paul</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    </div>
-
-    <div class="row mb-4 mt-5">
-        <div class="col-md-3">
-            <div class="card"
-                style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                <a href="Dr.SubhoGhosh.html">
-                    <img src="assets/img/Faculty/Bio-sciences/SubhoGhosh.jpeg" class="card-img-top p-2"
-                        style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body">
-                        <h5 class="card-title headd3 fw-bold text-dark">Dr. Subho Ghosh
-                        </h5>
-                        <hr>
-                        <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                            Assistant Professor
-                        </p>
-                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                    <div class="para1 fw-bold text-center text-dark">Dr. Subho Ghosh</div>
+            <hr>
+            <h2 style="text-align: start;" class="headd2 text-dark">DEPARTMENT OF FOOD TECHNOLOGY</h2>
+            <hr>
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc11march.010.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Pranati Das</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor and Associate Dean, Admission, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc11march.009.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Preetisagar Talukdar</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor & Coordinator, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/JyotiKalitaPhoto.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Jon Jyoti Kalita</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/PankajJha.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Pankaj Jha</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/Dr.-Robbarts-Nongmaithem.jpg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Robbarts Nongmaithem</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/Ms.ShaguftaRizwana.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Shagufta Rizwana</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor & Assistant Director, RCCR <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <a>
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="assets/img/Faculty/Bio-sciences/rsbsc11march.007.jpeg"
+                                    class="img-fluid rounded" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Dipanjali Das</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The
+                                    Assam Royal Global University</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            </a>
-        </div>
-        </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.SusmitaPaul.html">
-                <img src="assets/img/Faculty/Bio-sciences/rsbsc11march.014.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                <div class="card-body">
-                    <h5 class="card-title headd3 fw-bold text-dark">Dr. Susmita Paul
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor
-                    </p>
-            <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                <div class="para1 fw-bold text-center text-dark">susmitapaulbp@gmail.com
-                </div>
-            </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    </div>
 
-    <!-- fifth Row of Cards -->
-    <hr>
-    <h2 style="text-align: start;" class="headd2 text-dark">DEPARTMENT OF FOOD TECHNOLOGY</h2>
-    <hr>
-
-    <div class="row mt-5">
-        <div class="col-md-3">
-            <div class="card"
-                style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                <a href="Prof.(Dr.)PranatiDas.html">
-
-                    <img src="assets/img/Faculty/Bio-sciences/rsbsc11march.010.jpeg" class="card-img-top p-2"
-                        style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body">
-                        <h5 style="font-size: 19px;" class="card-title headd3 fw-bold text-dark">
-                            Prof. (Dr.) Pranati Das
-                        </h5>
-                        <hr>
-                        <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                            Professor and Associate Dean, Admission
-                        </p>
-                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                    <div class="para1 fw-bold text-center text-dark">pdas@rgu.ac
-                    </div>
-                </div>
-            </div>
-            </a>
         </div>
-        </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.PreetisagarTalukdar.html">
-                <img src="assets/img/Faculty/Bio-sciences/rsbsc11march.009.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 110px">
-                    <h5 class="card-title headd3 fw-bold text-dark">Dr. Preetisagar Talukdar
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor & Coordinator
-                    </p>
-                    <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                <div class="para1 fw-bold text-center text-dark">ptalukdar1@rgu.ac</div>
-            </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.JonJyotiKalita.html">
-                <img src="assets/img/Faculty/Bio-sciences/JyotiKalitaPhoto.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 110px">
-                    <h5 class="card-title headd3 fw-bold text-dark">Dr. Jon Jyoti Kalita
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor</p>
-                        <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                <div class="para1 fw-bold text-center text-dark">jjkalita@rgu.ac
-                </div>
-            </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Dr.PankajJha.html">
-                <img src="assets/img/Faculty/Bio-sciences/PankajJha.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 110px">
-                    <h5 class="card-title headd3 fw-bold text-dark">Dr. Pankaj Jha
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor
-                    </p>
-                    <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                <div class="para1 fw-bold text-center text-dark">pjha@rgu.ac</div>
-            </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    </div>
-
-    <div class="row mt-5">
-        <div class="col-md-3">
-            <div class="card"
-                style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-                <a href="Dr.ShaguftaRizwana.html">
-                    <img src="assets/img/Faculty/Bio-sciences/Ms.ShaguftaRizwana.jpeg" class="card-img-top p-2"
-                        style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body">
-                        <h5 class="card-title headd3 fw-bold text-dark">Dr. Shagufta Rizwana
-                        </h5>
-                        <hr>
-                        <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                            Assistant Professor & Assistant Director, RCCR
-                        </p>
-                <div style="background-color: #e2edff; padding: 10px; border-radius: 10px;">
-                    <div class="para1 fw-bold text-center text-dark">srizwana@rgu.ac
-                    </div>
-                </div>
-            </div>
-            </a>
-        </div>
-        </div>
-    <div class="col-md-3">
-        <div class="card"
-            style="box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08), 0px 5px 4px rgba(3, 7, 18, 0.06), 0px 12px 9px rgba(3, 7, 18, 0.05), 0px 21px 15px rgba(3, 7, 18, 0.03), 0px 33px 24px rgba(3, 7, 18, 0.02);">
-            <a href="Ms.DipanjaliDas.html">
-                <img src="assets/img/Faculty/Bio-sciences/rsbsc11march.007.jpeg" class="card-img-top p-2"
-                    style="border-radius: 10px;" alt="Card Image">
-                    <div class="card-body" style="min-height: 110px">
-                    <h5 class="card-title headd3 fw-bold text-dark">Ms. Dipanjali Das
-                    </h5>
-                    <hr>
-                    <p style="font-size: 15px !important; line-height: 1.4;" class="card-text para1 text-dark">
-                        Assistant Professor
-                    </p>
-                    <div style="background-color: #e2edff; padding: 10px; border-radius: 10px; margin-top: 35px;">
-                <div class="para1 fw-bold text-center text-dark">ddas@rgu.ac</div>
-            </div>
-        </div>
-        </a>
-    </div>
-    </div>
-    </div>
-
-    </div>
-        <!--End About-->
+        <!-- MAIN SECTION  -->
     </div><!-- #page -->
 @endsection
