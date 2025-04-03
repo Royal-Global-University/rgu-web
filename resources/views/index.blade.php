@@ -685,7 +685,7 @@
 
                                         <div class="col-lg-9">
                                             <h2 style="color: #fff;" class="headd2 fw-bold">
-                                                Applications are now open for Admission in 2025 - 2026
+                                                Applications are now open for Admission in 2025 - 2026 -
                                             </h2>
                                             <p class="para1 text-white">
                                                 Explore the full range of graduate courses that are accepting applications
