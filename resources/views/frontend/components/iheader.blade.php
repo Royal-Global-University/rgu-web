@@ -2,7 +2,7 @@
             <div class="container-fluid">
 
                 <a class="navbar-brand" href="/">
-                    <img  src="mobile-assets/logo/light_logo.png" alt="Logo" style="height: 70px;">
+                    <img  src="mobile-assets/logo/light_logo.png" alt="Logo" style="height: 90px;">
                 </a>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
