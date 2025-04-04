@@ -48,6 +48,7 @@
         href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.6.2'
         media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <meta name="google-site-verification" content="StGlhBxNrlhl855TGzpgTh_pSTninxLn2vV0q2N6ZVQ" />
     <!--JS-->
     <script src='{{ asset("assets/js/jquery.min.js") }}' id="jquery-core-js"></script>
     <script src='{{ asset("assets/js/jquery-migrate.min.js") }}' id="jquery-migrate-js"></script>
@@ -933,7 +934,7 @@
         </section>
     </div>
     <!--End Footer-->
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
