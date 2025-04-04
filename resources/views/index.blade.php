@@ -694,13 +694,13 @@
 
                                         <div class="col-lg-3">
 
-                                                <div class="btn-container">
-                                                    <a href="https://admissions.rgu.ac/" target="_blank"><div class="btn shiny-button">
-                                                        <p class="text-center headd3 fw-bold pt-3">APPLY NOW</p>
+                                                <a href="https://admissions.rgu.ac/" target="_blank">
+                                                    <div class="btn-container">
+                                                        <div class="btn shiny-button">
+                                                            <p class="text-center headd3 fw-bold pt-3">APPLY NOW</p>
+                                                        </div>
                                                     </div>
-                                                    </a>
-                                                </div>
-
+                                                </a>
                                         </div>
 
                                     </div>
