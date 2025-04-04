@@ -1,9 +1,9 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/dept-botany/s2-bg-img-1.webp);">
+    <div style="background-image: url(mobile-assets/dept-forestry/s2-bg-img-1.webp);">
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" src="mobile-assets/dept-botany/mobile-botany.png" alt="">
+            <img style="padding-top: 80px; position: relative;" src="mobile-assets/dept-forestry/mobile-forestry.png" alt="">
 
             <div class="container pb-5 pt-3">
                 <div>
@@ -595,7 +595,7 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img src="mobile-assets/dept-botany/web-botany.png" alt="">
+            <img src="mobile-assets/dept-forestry/web-forestry.png" alt="">
 
             <div class="container pb-5 pt-3">
                 <div>

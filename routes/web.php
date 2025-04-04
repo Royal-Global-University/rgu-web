@@ -1407,6 +1407,18 @@ Route::get('/department-travel', function () {
     return view('frontend/school&faculty/department-travel');
 })->name('department-travel');
 
+Route::get('/department-social-work', function () {
+    return view('frontend/school&faculty/department-social-work');
+})->name('department-social-work');
+
+Route::get('/department-public-administration', function () {
+    return view('frontend/school&faculty/department-public-administration');
+})->name('department-public-administration');
+
+Route::get('/department-sociology', function () {
+    return view('frontend/school&faculty/department-sociology');
+})->name('department-sociology');
+
 Route::get('/department-pharmacy', function () {
     return view('frontend/school&faculty/department-pharmacy');
 })->name('department-pharmacy');
@@ -1827,6 +1839,10 @@ Route::get('/royal-s-school-of-medical-allied-science', function () {
     return view('frontend/school&faculty/royal-s-school-of-medical-allied-science');
 })->name('royal-s-school-of-medical-allied-science');
 
+Route::get('/department-physiotherapy', function () {
+    return view('frontend/school&faculty/department-physiotherapy');
+})->name('department-physiotherapy');
+
 //schools-rgu-faculty
 Route::get('/faculty-architecture', function () {
     return view('frontend/school&faculty/faculty-architecture');
@@ -1855,6 +1871,10 @@ Route::get('/faculty-commerce', function () {
 Route::get('/rscom-faculty', function () {
     return view('frontend/school&faculty/rscom-faculty');
 })->name('rscom-faculty');
+
+Route::get('/faculty-allied-sciences', function () {
+    return view('frontend/school&faculty/faculty-allied-sciences');
+})->name('faculty-allied-sciences');
 
 Route::get('/faculty-design', function () {
     return view('frontend/school&faculty/faculty-design');

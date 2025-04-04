@@ -14,7 +14,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="{{ route('department-economics') }}">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -31,7 +31,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-history">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -48,7 +48,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-political-science">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -66,7 +66,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-public-administration">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -84,7 +84,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-sociology">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -101,7 +101,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-social-work">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -141,7 +141,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="{{ route('department-economics') }}">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -158,7 +158,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-history">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -175,7 +175,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-political-science">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -193,7 +193,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-public-administration">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -211,7 +211,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-sociology">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -228,7 +228,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-social-work">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">

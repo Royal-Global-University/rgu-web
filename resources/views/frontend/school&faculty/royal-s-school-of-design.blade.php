@@ -14,7 +14,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="department-product-design.html">
+                        <a href="department-product-design">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -31,7 +31,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="department-communication-design.html">
+                        <a href="department-communication-design">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -49,7 +49,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="department-interior-design.html">
+                        <a href="department-interior-design">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -67,7 +67,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="department-graphic-design.html">
+                        <a href="department-graphic-design">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -106,7 +106,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="department-product-design.html">
+                        <a href="department-product-design">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="p-3 text-center">
@@ -124,7 +124,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="department-communication-design.html">
+                        <a href="department-communication-design">
                             <div class="p-3 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="p-4 text-center">
@@ -142,7 +142,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="department-interior-design.html">
+                        <a href="department-interior-design">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="p-3 text-center">
@@ -160,7 +160,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="department-graphic-design.html">
+                        <a href="department-graphic-design">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="p-3 text-center">
