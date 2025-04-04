@@ -597,7 +597,7 @@ Route::get('/placements-introduction', function () {
 })->name('placements-introduction');
 
 Route::get('/doctoral-biochemistry', function () {
-    return view('frontend/placement/doctoral-biochemistry');
+    return view('frontend/phd/doctoral-biochemistry');
 })->name('doctoral-biochemistry');
 
 Route::get('/placements-events', function () {
@@ -631,10 +631,6 @@ Route::get('/placement-contacts', function () {
 Route::get('/doctoral-architecture', function () {
     return view('frontend/phd/doctoral-architecture');
 })->name('doctoral-architecture');
-
-Route::get('/doctoral-biochemistry', function () {
-    return view('frontend/phd/placement-contacts');
-})->name('doctoral-biochemistry');
 
 Route::get('/doctoral-biotechnology', function () {
     return view('frontend/phd/doctoral-biotechnology');
