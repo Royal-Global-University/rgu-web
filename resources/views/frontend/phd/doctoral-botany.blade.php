@@ -73,35 +73,35 @@
             <div class="row d-flex"> <!-- Add d-flex here -->
                 <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
                     <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="assets/img/all-phd/doctoral-botany/1.jpeg" alt="">
+                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-botany/1.jpeg" alt="">
                         <h2 class="pt-2 headd3 fw-bold text-dark">Prof. (Dr.) Nikhil Kumar Chrungoo</h2>
                         <p class="para1 text-dark">Ph.D.</p>
                         </div>
                 </div>
                 <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
                     <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="assets/img/all-phd/doctoral-botany/2.jpeg" alt="">
+                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-botany/2.jpeg" alt="">
                         <h2 class="pt-2 headd3 fw-bold text-dark">Prof. (Dr.) Mina Ram Nath</h2>
                         <p class="para1 text-dark">Ph.D.</p>
                         </div>
                 </div>
                 <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
                     <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="assets/img/all-phd/doctoral-botany/3.jpeg" alt="">
+                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-botany/3.jpeg" alt="">
                         <h2 class="pt-2 headd3 fw-bold text-dark">Prof. (Dr.) Dandadhar Borah</h2>
                         <p class="para1 text-dark">Ph.D.</p>
                         </div>
                 </div>
                 <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
                     <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="assets/img/all-phd/doctoral-botany/4.jpeg" alt="">
+                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-botany/4.jpeg" alt="">
                         <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Anushree Baruah</h2>
                         <p class="para1 text-dark">Ph.D.</p>
                         </div>
                 </div>
                 <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
                     <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="assets/img/all-phd/doctoral-botany/5.jpg" alt="">
+                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-botany/5.jpg" alt="">
                         <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Pratikshya Borah</h2>
                         <p class="para1 text-dark">Ph.D.</p>
                         </div>

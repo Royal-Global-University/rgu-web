@@ -104,7 +104,7 @@
             <div class="card mt-4 shadow-sm">
                 <div class="row p-3">
                     <div class="col-lg-1">
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-civil-engg/1.jpg"
+                        <img class="rounded shadow-sm border" style="height: 180px; width: 400px !important;" src="mobile-assets/phd-mobile/doctoral-civil-engg/1.jpg"
                             alt="">
                     </div>
                     <div class="col-lg-11">

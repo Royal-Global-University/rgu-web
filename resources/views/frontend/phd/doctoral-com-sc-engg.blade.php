@@ -80,16 +80,7 @@
             <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
 
             <div class="row d-flex"> <!-- Add d-flex here -->
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-com-sc-engg/1.jpg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Prof. (Dr.) Ankur Ganguly</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">Bio-medical Engineering
-                        </p>
-                        </div>
-                </div>
+                
                 <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
                     <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
                         <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-com-sc-engg/2.jpeg" alt="">
