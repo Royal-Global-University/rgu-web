@@ -697,7 +697,7 @@
                                                 <a href="https://admissions.rgu.ac/" target="_blank">
                                                     <div class="btn-container">
                                                         <div class="btn shiny-button">
-                                                            <p class="text-center headd3 fw-bold pt-3">APPLY NOW</p>
+                                                            <p class="text-center headd3 fw-bold pt-3">APPLY NOW </p>
                                                         </div>
                                                     </div>
                                                 </a>
