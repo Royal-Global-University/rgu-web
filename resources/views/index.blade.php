@@ -61,10 +61,10 @@
         <div id="carouselExample" class="carousel slide mobile-image-slider" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="mobile-assets/index/slide1.png" class="d-block w-100" alt="...">
+                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/slide1.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="mobile-assets/index/slide2.png" class="d-block w-100" alt="...">
+                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/slide2.png" class="d-block w-100" alt="...">
                 </div>
 
             </div>
@@ -78,7 +78,7 @@
         <!-- discover rgu -->
 
         <!-- happening at rgu  -->
-        <section style="padding: 30px; background-image: url(mobile-assets/index/bg.svg);">
+        <section style="padding: 30px; background-image: url(https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/bg.svg);">
 
             <h2 class="mobile-headd1 pb-4" style="color: #27467A;">In and Around at <span
                     style="font-weight: 500; color: #EF991F;">RGU</span></h2>
@@ -86,16 +86,16 @@
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="mobile-assets/index/mobile1.png" class="d-block w-100 rounded" alt="...">
+                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobile1.png" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="mobile-assets/index/mobile2.png" class="d-block w-100 rounded" alt="...">
+                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobile2.png" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="mobile-assets/index/mobile3.png" class="d-block w-100 rounded" alt="...">
+                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobile3.png" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="mobile-assets/index/mobile4.png" class="d-block w-100 rounded" alt="...">
+                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobile4.png" class="d-block w-100 rounded" alt="...">
                     </div>
 
                 </div>
@@ -138,7 +138,7 @@
                                 <div class="prthalign">
 
                                     <h6 class="mobile-headd2 kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                                        <img style="width: 40x; height: 40px;" src="mobile-assets/index/cap.svg" alt="">
+                                        <img style="width: 40x; height: 40px;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/cap.svg" alt="">
                                         Info
                                     </h6>
                                     <h2 class="mobile-headd1 elementor-gt-heading kd-title-ani kd-split-text"
@@ -253,7 +253,7 @@
             <a href="doctoral-programme">
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
                     <div class="main-img fix img-cover">
-                        <img fetchpriority="high" decoding="async" width="357" height="220" src="mobile-assets/index/c6.svg"
+                        <img fetchpriority="high" decoding="async" width="357" height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c6.svg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                     </div>
                 </div>
@@ -262,7 +262,7 @@
             <a href="programs">
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
                     <div class="main-img fix img-cover">
-                        <img decoding="async" width="357" height="220" src="mobile-assets/index/c7.svg"
+                        <img decoding="async" width="357" height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c7.svg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                     </div>
                 </div>
@@ -271,7 +271,7 @@
             <a href="programs">
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
                     <div class="main-img fix img-cover">
-                        <img decoding="async" width="357" height="220" src="mobile-assets/index/c8.svg"
+                        <img decoding="async" width="357" height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c8.svg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                     </div>
                 </div>
@@ -294,7 +294,7 @@
                             <div class="card d-flex flex-column shadow-sm rounded"
                                 style="background-color: #fff; height: 450px; border: none;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/electric1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/electric1.jpg"
                                         class="d-block w-100" alt="..." style="border-radius: 10px;">
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -315,7 +315,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/architecture1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/architecture1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -336,7 +336,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/computer1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/computer1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -357,7 +357,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/engineering1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/engineering1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -380,7 +380,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/foodtech1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/foodtech1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -403,7 +403,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/language1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/language1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -424,7 +424,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/index/physics1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/physics1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -461,11 +461,11 @@
                                 <div class="kd-about-4-left ">
                                     <div class="mb-5 fix img-cover">
                                         <img decoding="async" class="rounded" style="height: 400px !important;"
-                                            src="mobile-assets/index/mobileadvpic.png" alt="">
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobileadvpic.png" alt="">
                                     </div>
                                     <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
                                         <img decoding="async" style="height: 600px !important;"
-                                            src="mobile-assets/index/mobileyellow.png" alt="">
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobileyellow.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -628,22 +628,22 @@
         <!-- new advantage end-->
 
         <!--Mobile Footprint-->
-        <img src="mobile-assets/index/footprints2.png" alt="">
+        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/footprints2.png" alt="">
         <!--Mobile Footprint end  -->
 
         <!--Mobile Testimonial-->
-        <section style="padding: 40px 30px; background-image: url(mobile-assets/index/s2-bg-img-1.webp);">
+        <section style="padding: 40px 30px; background-image: url(https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/s2-bg-img-1.webp);">
             <h6 class="mobile-headd3 text-center kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                <img style="width: 40x; height: 40px;" src="mobile-assets/index/cap.svg" alt="">
+                <img style="width: 40x; height: 40px;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/cap.svg" alt="">
                 RGU Testimonials
             </h6>
             <h2 class="mobile-headd1 pb-4 pt-3" style="color: #27467A;">They Speak <span
                     style="font-weight: 500; color: #EF991F;">About Us</span></h2>
 
             <div class="row" style="display: flex; flex-direction: column;">
-                <a href="success"><img class="pb-3" src="mobile-assets/index/alumni-student.png" /></a>
-                <a href="top-recruiters"><img class="pb-3" src="mobile-assets/index/recruiters.png" /></a>
-                <a href="footprints"><img class="pb-3" src="mobile-assets/index/dignitaries.png" /></a>
+                <a href="success"><img class="pb-3" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/alumni-student.png" /></a>
+                <a href="top-recruiters"><img class="pb-3" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/recruiters.png" /></a>
+                <a href="footprints"><img class="pb-3" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/dignitaries.png" /></a>
             </div>
 
         </section>
@@ -693,12 +693,13 @@
                                         </div>
 
                                         <div class="col-lg-3">
-                                            <div class="btn-container">
-                                                <div class="btn shiny-button">
-                                                    <a class="text-center headd3 fw-bold" target="_blank"
-                                                        href="https://admissions.rgu.ac/">APPLY NOW</a>
+                                            <a href="https://admissions.rgu.ac/" target="_blank">
+                                                <div class="btn-container">
+                                                    <div class="btn shiny-button">
+                                                        <a class="text-center headd3 fw-bold" target="_blank" href="https://admissions.rgu.ac/">APPLY NOW</a>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            </a>
                                         </div>
 
                                     </div>
@@ -707,10 +708,10 @@
 
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="mobile-assets/index/sl1.png" alt="Slide 1">
+                                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/sl1.png" alt="Slide 1">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="mobile-assets/index/sl2.png" alt="Slide 2">
+                                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/sl2.png" alt="Slide 2">
                                     </div>
                                     <!-- <div class="carousel-item">
                                             <img src="sarang/s3.png" alt="Slide 3">
@@ -738,7 +739,7 @@
 
             <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
 
-                <img src="mobile-assets/index/n-explore-rgu-15-15.png" alt="">
+                <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/n-explore-rgu-15-15.png" alt="">
 
                 <!--Event Section-->
                 <section-2 style="padding: 0 !important; margin: 0 !important;"
@@ -754,7 +755,7 @@
                                     <div class="elementor-widget-container">
 
 
-                                        <div style="background-image: url(mobile-assets/index/bgnew.svg);"
+                                        <div style="background-image: url(https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/bgnew.svg);"
                                             class=" pb-5 kd-team-4-area p-relative fix">
 
 
@@ -932,7 +933,7 @@
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
                                                                                 style="height: 700px; width: 95%;"
-                                                                                src="mobile-assets/index/1.png" alt="">
+                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/1.png" alt="">
 
                                                                         </div>
                                                                     </div>
@@ -940,16 +941,7 @@
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
                                                                                 style="height: 700px; width: 95%;"
-                                                                                src="mobile-assets/index/2.png" alt="">
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="swiper-slide">
-                                                                        <div class="kd-team-4-slide-main-item ">
-                                                                            <img decoding="async"
-                                                                                style="height: 700px; width: 95%;"
-                                                                                src="mobile-assets/index/3.png" alt="">
+                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/2.png" alt="">
 
 
                                                                         </div>
@@ -958,7 +950,16 @@
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
                                                                                 style="height: 700px; width: 95%;"
-                                                                                src="mobile-assets/index/4.png" alt="">
+                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/3.png" alt="">
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="swiper-slide">
+                                                                        <div class="kd-team-4-slide-main-item ">
+                                                                            <img decoding="async"
+                                                                                style="height: 700px; width: 95%;"
+                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/4.png" alt="">
 
 
                                                                         </div>
@@ -990,28 +991,28 @@
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
                                                                                 <img decoding="async"
-                                                                                    src="mobile-assets/index/1.png" alt="">
+                                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/1.png" alt="">
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide">
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
                                                                                 <img decoding="async"
-                                                                                    src="mobile-assets/index/2.png" alt="">
+                                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/2.png" alt="">
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide">
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
                                                                                 <img decoding="async"
-                                                                                    src="mobile-assets/index/3.png" alt="">
+                                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/3.png" alt="">
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide">
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
                                                                                 <img decoding="async"
-                                                                                    src="mobile-assets/index/4.png" alt="">
+                                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/4.png" alt="">
                                                                             </div>
                                                                         </div>
 
@@ -1094,7 +1095,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="prthalign">
                                             <h6 class="para1 kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                                                <img style="width: 40x; height: 40px;" src="mobile-assets/index/cap.svg"
+                                                <img style="width: 40x; height: 40px;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/cap.svg"
                                                     alt="">
                                                 Info
                                             </h6>
@@ -1243,7 +1244,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="kd-course-3-area p-relative pt-105 pb-60 fix">
                                             <div class="kd-course-1-bg-img img-cover fix">
-                                                <img decoding="async" src="mobile-assets/index/head2.svg" alt="">
+                                                <img decoding="async" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/head2.svg" alt="">
                                             </div>
                                             <div class="container kd-container-1 txaa-slide-down-1">
                                                 <!-- sectiont-title -->
@@ -1344,49 +1345,49 @@
                                                                                 <div class="carousel-item active">
                                                                                     <a
                                                                                         href="department-store"><img
-                                                                                            src="mobile-assets/index/1.svg"
+                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/1.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="infrastructure"><img
-                                                                                            src="mobile-assets/index/5.svg"
+                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/5.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="games&sports"> <img
-                                                                                            src="mobile-assets/index/7.svg"
+                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/7.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="clubs"><img
-                                                                                            src="mobile-assets/index/4.svg"
+                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/4.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="hostel-life"> <img
-                                                                                            src="mobile-assets/index/3.svg"
+                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/3.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="Student_Affairs"> <img
-                                                                                            src="mobile-assets/index/6.svg"
+                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/6.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="royal-fests"><img
-                                                                                            src="mobile-assets/index/2.svg"
+                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/2.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
@@ -1482,7 +1483,7 @@
                                                             <div class="right-content">
                                                                 <div class="kd-course-3-tabs-content-video img-cover fix">
                                                                     <img decoding="async"
-                                                                        src="mobile-assets/index/residence.jpg" alt="">
+                                                                        src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/residence.jpg" alt="">
 
                                                                 </div>
                                                             </div>
@@ -1538,7 +1539,7 @@
                                                             <div class="right-content">
                                                                 <div class="kd-course-3-tabs-content-video img-cover fix">
                                                                     <img decoding="async"
-                                                                        src="mobile-assets/index/sports.jpg" alt="">
+                                                                        src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/sports.jpg" alt="">
 
                                                                 </div>
 
@@ -1597,7 +1598,7 @@
                                                             <div class="right-content">
                                                                 <div class="kd-course-3-tabs-content-video img-cover fix">
                                                                     <img decoding="async"
-                                                                        src="mobile-assets/index/amenities.jpg" alt="">
+                                                                        src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/amenities.jpg" alt="">
 
                                                                 </div>
                                                             </div>
@@ -1654,7 +1655,7 @@
                                                             style="border: solid 2px rgb(225, 225, 225);">
                                                             <div class="main-img fix img-cover">
                                                                 <img fetchpriority="high" decoding="async" width="357"
-                                                                    height="220" src="mobile-assets/index/c6.svg"
+                                                                    height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c6.svg"
                                                                     class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                                                     alt="" />
                                                             </div>
@@ -1668,7 +1669,7 @@
                                                             style="border: solid 2px rgb(225, 225, 225);">
                                                             <div class="main-img fix img-cover">
                                                                 <img decoding="async" width="357" height="220"
-                                                                    src="mobile-assets/index/c7.svg"
+                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c7.svg"
                                                                     class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                                                     alt="" />
                                                             </div>
@@ -1681,7 +1682,7 @@
                                                             style="border: solid 2px rgb(225, 225, 225);">
                                                             <div class="main-img fix img-cover">
                                                                 <img decoding="async" width="357" height="220"
-                                                                    src="mobile-assets/index/c8.svg"
+                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c8.svg"
                                                                     class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                                                     alt="" />
                                                             </div>
@@ -1701,7 +1702,7 @@
 
                 <!--Labs-->
                 <section class="container-fluid"
-                    style="background-image: url('mobile-assets/index/lab-new1.png'); background-size: cover;">
+                    style="background-image: url('https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/lab-new1.png'); background-size: cover;">
                     <div class="elementor-column-gap-default pt-5 pb-5">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-818362c"
                             data-id="818362c" data-element_type="column">
@@ -1744,7 +1745,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="mobile-assets/index/computer1.jpg"
+                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/computer1.jpg"
                                                                                 alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
@@ -1775,7 +1776,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="mobile-assets/index/electric1.jpg"
+                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/electric1.jpg"
                                                                                 alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
@@ -1808,7 +1809,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="mobile-assets/index/language1.jpg"
+                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/language1.jpg"
                                                                                 alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
@@ -1843,7 +1844,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="mobile-assets/index/physicalchem1.jpg"
+                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/physicalchem1.jpg"
                                                                                 alt="List">
 
 
@@ -1871,7 +1872,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="mobile-assets/index/physics1.jpg"
+                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/physics1.jpg"
                                                                                 alt="List">
 
 
@@ -1900,7 +1901,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="mobile-assets/index/architecture1.jpg"
+                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/architecture1.jpg"
                                                                                 alt="List">
                                                                         </div>
 
@@ -1969,11 +1970,11 @@
                                         <div class="kd-about-4-left ">
                                             <div class="mb-5 fix img-cover">
                                                 <img decoding="async" style="height: 600px !important;"
-                                                    src="mobile-assets/index/mobileadvpic.png" alt="">
+                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobileadvpic.png" alt="">
                                             </div>
                                             <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
                                                 <img decoding="async" style="height: 600px !important;"
-                                                    src="mobile-assets/index/mobileyellow.png" alt="">
+                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobileyellow.png" alt="">
 
                                             </div>
 
@@ -2160,13 +2161,13 @@
             <!-- footprint end  -->
 
             <!--Testimonial-->
-            <div style="background-image: url(mobile-assets/index/s2-bg-img-1.webp);"
+            <div style="background-image: url(https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/s2-bg-img-1.webp);"
                 class="pt-5 elementor-element elementor-element-41f1d73 elementor-widget elementor-widget-go-s-heading"
                 data-id="41f1d73" data-element_type="widget" data-widget_type="go-s-heading.default">
                 <div class="elementor-widget-container" style="padding-left: 50px;">
                     <div class="prthalign text-center">
                         <h6 class=" kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub headd3">
-                            <img style="width: 40x; height: 40px;" src="mobile-assets/index/cap.svg" alt="">
+                            <img style="width: 40x; height: 40px;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/cap.svg" alt="">
                             RGU Testimonials
                         </h6>
                         <h1 style="font-weight: 700;"
@@ -2178,17 +2179,17 @@
                 <div class="hover01 column row" style="padding-left: 1px;">
                     <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important; ">
                         <figure> <a href="success"><img style="border: 2px solid #fff;"
-                                    src="mobile-assets/index/alumni-student.png" /></a></figure>
+                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/alumni-student.png" /></a></figure>
                     </div>
 
                     <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
                         <figure><a href="top-recruiters"><img style="border: 2px solid #fff;"
-                                    src="mobile-assets/index/recruiters.png" /></a></figure>
+                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/recruiters.png" /></a></figure>
 
                     </div>
                     <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
                         <figure><a href="footprints"><img style="border: 2px solid #fff;"
-                                    src="mobile-assets/index/dignitaries.png" /></a></figure>
+                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/dignitaries.png" /></a></figure>
 
                     </div>
                 </div>
