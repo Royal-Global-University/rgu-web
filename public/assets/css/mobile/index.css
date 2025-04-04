@@ -537,7 +537,7 @@
 .shiny-button {
     position: relative;
     display: inline-block;
-    padding: 15px 40px;
+    padding: 4px 40px;
     text-align: center;
     background-color: orange;
     /* Keep the button background orange */
