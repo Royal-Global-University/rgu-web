@@ -403,7 +403,7 @@
 
                 <div class="col-lg-12 mb-4">
 
-                    <a href="salon-new">
+                    <a href="salon">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
                             <div class="p-3">
@@ -415,7 +415,7 @@
                                     Salon</h5>
 
 
-                                <a href="salon-new">
+                                <a href="salon">
                                     <p class="card-text mobile-para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">
                                         Explore More</p>
                                 </a>

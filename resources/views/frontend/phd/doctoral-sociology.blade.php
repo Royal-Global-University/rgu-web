@@ -10,7 +10,7 @@
                 Ph.D. Curriculum
             </h2>
 
-            @include('frontend/components/phddeptweb')
+            @include('frontend/components/phddeptmob')
         </div>
      </div>
 

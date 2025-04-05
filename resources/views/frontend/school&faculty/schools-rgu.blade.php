@@ -13,10 +13,11 @@
             </div>
         </div>
 
-        @include('frontend/components/aheader')
+
 
         <div class="mobile">
-          <section style="background-image: url('mobile-assets/school-rgu/bg.svg');">
+            @include('frontend/components/mobileheader')
+          <section style="padding-top: 90px; position: relative; background-image: url('mobile-assets/school-rgu/bg.svg');">
             <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-5 pb-3" style="color: #27467A; font-weight: 900;">
               Schools and <span style="color: #FF9A1E; font-weight: 500;">Faculty</span></h2>
 
@@ -24,7 +25,7 @@
           <div class="container">
             <div class="row pb-2 text-center justify-content-center">
               <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-                <a href="admission-how-to-apply.html"
+                <a href="how-to-apply"
                   class="btn text-white w-100 p-3 rounded"
                   style="
                     font-size: 16px;
@@ -40,7 +41,7 @@
               </div>
 
               <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-                <a href="placements-placement-process.html"
+                <a href="placements-process"
                   class="btn text-white w-100 p-3 rounded"
                   style="
                     font-size: 16px;
@@ -56,7 +57,7 @@
               </div>
 
               <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-                <a href="Eligibility&Selection.html"
+                <a href="programs"
                   class="btn text-white w-100 p-3 rounded"
                   style="
                     font-size: 16px;
@@ -72,7 +73,7 @@
               </div>
 
               <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
-                <a href="admission-programs-fees-structure.html"
+                <a href="admission-programs-fees-structure"
                   class="btn text-white w-100 p-3 rounded"
                   style="
                     font-size: 16px;
@@ -558,18 +559,18 @@
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Indian Knowledge System (IKS)</h5>
                     <div class="mt-auto mb-4">
                       <div class="d-flex justify-content-between">
-                        <a href="indian-knowledge-system-cell-about.html" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="indian-knowledge-system-cell-about" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           About IKS
                         </a>
-                        <a href="indian-knowledge-system-cell-composition.html" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="indian-knowledge-system-cell-composition" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Composition
                         </a>
                       </div>
                       <div class="d-flex pt-2 justify-content-between">
-                        <a href="indian-knowledge-system-cell-events.html" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="indian-knowledge-system-cell-events" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Events
                         </a>
-                        <a href="indian-knowledge-system-cell-syllabus.html" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="indian-knowledge-system-cell-syllabus" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Syllabus
                         </a>
                       </div>
@@ -588,7 +589,7 @@
 
         <div class="website">
         <!--Start Header-->
-
+            @include('frontend/components/aheader')
         <!--End Header-->
 
         <section style="background-image: url('mobile-assets/school-rgu/bg.svg');">

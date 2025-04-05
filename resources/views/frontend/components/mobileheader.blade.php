@@ -174,7 +174,7 @@
                 <a class="mobile-para1 text-danger" style="color: #27467A;" href="https://admissions.rgu.ac/">
                     <li>APPLY NOW!</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="doctoral-programme.html">
+                <a class="mobile-para1" style="color: #27467A;" href="doctoral-programme">
                     <li>COURSE FEE</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="#">
@@ -186,7 +186,7 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('how-to-apply') }}">
                     <li>HOW TO APPLY?</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="Programs.html">
+                <a class="mobile-para1" style="color: #27467A;" href="programs">
                     <li>PROGRAMMES</li>
                 </a>
                 <li onclick="toggleSubmenu('scholarship')"
@@ -272,12 +272,12 @@
                 </li>
                 <!-- Events Submenu -->
                 <ul class="submenu mobile-para1" id="events" style="padding-left: 20px;">
-                    <li><a class="happy-happening-campus.html" style="color: #27467A;"
+                    <li><a class="happy-happening-campus" style="color: #27467A;"
                             href="{{ route('happy-happening') }}">HAPPY & HAPPENING CAMPUS</a></li>
-                    <li><a class="Royal_Fests.html" style="color: #27467A;" href="{{ route('royal-fests') }}">ROYAL
+                    <li><a class="Royal_Fests" style="color: #27467A;" href="{{ route('royal-fests') }}">ROYAL
                             FESTS</a></li>
                 </ul>
-                <a class="mobile-para1" style="color: #27467A;" href="campus-life-games-sports.html">
+                <a class="mobile-para1" style="color: #27467A;" href="campus-life-games-sports">
                     <li>GAMES AND SPORTS</li>
                 </a>
 
@@ -289,9 +289,9 @@
                 </li>
                 <!-- Events Submenu -->
                 <ul class="submenu mobile-para1" id="hostel" style="padding-left: 20px;">
-                    <li><a class="happy-happening-campus.html" style="color: #27467A;"
+                    <li><a class="happy-happening-campus" style="color: #27467A;"
                             href="{{ route('hostel-life') }}">HOSTEL LIFE</a></li>
-                    <li><a class="Royal_Fests.html" style="color: #27467A;"
+                    <li><a class="Royal_Fests" style="color: #27467A;"
                             href="{{ asset('assets/img/pdf/Hostel Policy Rules 2024.pdf') }}">HOSTEL POLICY</a></li>
                 </ul>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('infrastructure') }}">
@@ -337,7 +337,7 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('success') }}">
                     <li>TESTIMONIALS</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="placements-contacts.html">
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('placement-contacts') }}">
                     <li>CONTACTS</li>
                 </a>
             </ul>
@@ -352,31 +352,31 @@
                 <a class="mobile-para1" style="color: #27467A;" href="international-fee-structure">
                     <li>COURSE FEE</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="international-faq.html">
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('international-faq') }}">
                     <li>FAQ'S</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="international-frro-process.html">
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('frro-process') }}">
                     <li>FRRO PROCESS</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="international-how-to-apply.html">
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('how-to-apply-international') }}">
                     <li>HOW TO APPLY ?</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="international-student-helpline.html">
+                <a class="mobile-para1" style="color: #27467A;" href="international-student-helpline">
                     <li>INTERNATIONAL STUDENT HELPLINE</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="international-campus-job.html">
+                <a class="mobile-para1" style="color: #27467A;" href="campus-job">
                     <li>ON CAMPUS JOBS</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="international-arrival.html">
+                <a class="mobile-para1" style="color: #27467A;" href="pre-arrival">
                     <li>PRE-ARRIVAL,</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="international-scholarships.html">
+                <a class="mobile-para1" style="color: #27467A;" href="scholarships-international">
                     <li>SCHOLARSHIP FOR INTERNATIONAL STUDENTS</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="international-visa-info.html">
+                <a class="mobile-para1" style="color: #27467A;" href="visa-information">
                     <li>VISA INFORMATION</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="international-why-india.html">
+                <a class="mobile-para1" style="color: #27467A;" href="why-india">
                     <li>WHY INDIA ?</li>
                 </a>
             </ul>
