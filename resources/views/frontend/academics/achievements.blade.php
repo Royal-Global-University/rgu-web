@@ -3,7 +3,7 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
-            <img src="mobile-assets/achievements/mobile-achievement.png" alt="">
+            <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/achievements/mobile-achievement.png" alt="">
         </div>
     </div>
 
@@ -12,6 +12,6 @@
         @include('frontend/components/aheader')
         <!--End Header-->
 
-        <img src="mobile-assets/achievements/web-achievement.png" alt="">
+        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/achievements/web-achievement.png" alt="">
     </div>
 @endsection

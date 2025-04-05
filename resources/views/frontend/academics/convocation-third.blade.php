@@ -3,7 +3,7 @@
        <div class="mobile" >
         @include('frontend/components/mobileheader')
                 <div style="padding-top: 90px; position: relative; background-image: url(lakshya/convocation/second-convo/Bg.png); background-size: cover;">
-                    <img src="mobile-assets/third-Convo/1.png" alt="">
+                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/third-Convo/1.png" alt="">
                 </div>
 
                 <div class="container pt-4 pb-3">
@@ -35,7 +35,7 @@
                   </p>
                 </div>
 
-                <img src="mobile-assets/third-Convo/last.png" alt="">
+                <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/third-Convo/last.png" alt="">
 
 
                 <div class="container">
@@ -879,7 +879,7 @@
                 @include('frontend/components/aheader')
     <!--End Header-->
 
-    <img src="mobile-assets/third-Convo/web-banner.png" alt="">
+    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/third-Convo/web-banner.png" alt="">
     <div>
         <div class="container pt-4 pb-2">
         <div class="row pt-4">
@@ -900,7 +900,7 @@
             <div class="col-lg-6">
                 <video class="rounded" width="100%" height="auto" autoplay muted
                                             controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture>
-                                            <source src="mobile-assets/third-Convo/third-convo.mp4" type="video/mp4">
+                                            <source src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/third-Convo/third-convo.mp4" type="video/mp4">
                                         </video>
             </div>
         </div>
@@ -912,7 +912,7 @@
       </p>
     </div>
     </div>
-    <img src="mobile-assets/third-Convo/web-gallery.png" alt="">
+    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/third-Convo/web-gallery.png" alt="">
 
             <div class="container">
 

@@ -3,7 +3,7 @@
     <div class="mobile" >
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative; background-image: url(mobile-assets/second-convo/Bg.png); background-size: cover;">
-            <img src="mobile-assets/second-convo/1.png" alt="">
+            <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/second-convo/1.png" alt="">
         </div>
 
         <div class="container pt-4 pb-3">
@@ -27,7 +27,7 @@
                 <div class="col-lg-12">
                     <video class="rounded" width="100%" height="auto" autoplay muted playsinline
                         controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture>
-                        <source src="mobile-assets/second-convo/second-convo.mp4" type="video/mp4">
+                        <source src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/second-convo/second-convo.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -763,7 +763,7 @@
         @include('frontend/components/aheader')
         <!--End Header-->
 
-        <img src="mobile-assets/second-convo/web-banner.png" alt="">
+        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/second-convo/web-banner.png" alt="">
 
         <div class="container pt-4 pb-4">
             <div class="row pt-4">
@@ -788,7 +788,7 @@
                 <div class="col-lg-6">
                     <video class="rounded" width="100%" height="auto" autoplay muted
                         controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture>
-                        <source src="mobile-assets/second-convo/second-convo.mp4" type="video/mp4">
+                        <source src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/second-convo/second-convo.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -809,7 +809,7 @@
             </ul>
         </div>
 
-        <img class="pt-3" src="mobile-assets/second-convo/web-gallery.png" alt="">
+        <img class="pt-3" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/second-convo/web-gallery.png" alt="">
 
 
 

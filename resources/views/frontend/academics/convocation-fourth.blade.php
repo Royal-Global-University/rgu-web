@@ -105,7 +105,7 @@
                         <div class="col-lg-6">
                             <video class="rounded" width="100%" height="auto" autoplay muted
                                 controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture>
-                                <source src="mobile-assets/fourth-convo/fourth-convo.mp4" type="video/mp4">
+                                <source src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/fourth-convo/fourth-convo.mp4" type="video/mp4">
                             </video>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                     </ul>
                 </div>
             </div>
-            <img src="mobile-assets/fourth-convo/web-gallery.png" />
+            <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/fourth-convo/web-gallery.png" />
         </div>
     </div>
 @endsection

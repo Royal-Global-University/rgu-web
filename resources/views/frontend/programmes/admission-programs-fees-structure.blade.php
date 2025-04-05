@@ -1,8 +1,9 @@
 @extends('frontend.master')
 @section('content')
     <div class="mobile">
+        @include('frontend/components/mobileheader')
      <!-- header image  -->
-     <div>
+     <div style="padding-top: 90px; position: relative;">
         <img src="mobile-assets/admission-fee-and-programmee/mob-admission-fee.png" alt="">
     </div>
     <!-- header image  -->
@@ -4577,6 +4578,7 @@
         </div>
 
         <div class="website">
+            @include('frontend/components/aheader')
              <!-- header image  -->
              <div>
                 <img src="mobile-assets/admission-fee-and-programmee/web-admission-fee.png" alt="">

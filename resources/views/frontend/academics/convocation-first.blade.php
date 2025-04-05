@@ -1152,7 +1152,7 @@
                 <div class="col-lg-6">
                     <video class="rounded pt-5" width="100%" height="auto" autoplay muted
                         controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture>
-                        <source src="mobile-assets/first-convo/first-convo.mp4" type="video/mp4">
+                        <source src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/first-convo/first-convo.mp4" type="video/mp4">
                     </video>
                 </div>
 
@@ -1185,7 +1185,7 @@
 
 
 
-        <img src="mobile-assets/first-convo/web-gallery.png" alt="">
+        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/first-convo/web-gallery.png" alt="">
 
 
         <!--Start Section-->

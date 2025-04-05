@@ -3,7 +3,7 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
-            <img src="mobile-assets/success/wholeimg.png" alt="">
+            <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/success/wholeimg.png" alt="">
         </div>
     </div>
 
@@ -14,6 +14,6 @@
     @include('frontend/components/aheader')
     <!--End Header-->
 
-    <img src="mobile-assets/success/wholeimg.png" alt="">
+    <img style="height: auto !important" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/success/wholeimg.png" alt="">
     </div>
 @endsection

@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <div style="background-image: url(mobile-assets/social-outreach/bg.svg); background-size: cover; width: 100%; padding: 0px 20px; position: relative; padding-top: 80px;">
+        <div style="background-image: url(https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/bg.svg); background-size: cover; width: 100%; padding: 0px 20px; position: relative; padding-top: 80px;">
                 <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-5 pb-3" style="color: #27467A; font-weight: 900;">
                     Social <span style="color: #FF9A1E; font-weight: 500;">Outreach</span></h2>
 
@@ -16,7 +16,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 580px;">
                                     <div class="main-img fix img-cover">
                                         <img fetchpriority="high" decoding="async" width="357"
-                                            height="220" src="mobile-assets/social-outreach/1.jpeg"
+                                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/1.jpeg"
 
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
@@ -31,7 +31,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 580px;">
                                     <div class="main-img fix img-cover">
                                         <img decoding="async" width="357" height="500"
-                                            src="mobile-assets/social-outreach/2.jpeg"
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/2.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -47,7 +47,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 580px;">
                                     <div class="main-img fix img-cover">
                                         <img decoding="async" width="357" height="500"
-                                            src="mobile-assets/social-outreach/3.jpeg"
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/3.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -67,7 +67,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                                     <div class="main-img fix img-cover">
                                         <img fetchpriority="high" decoding="async" width="357"
-                                            height="220" src="mobile-assets/social-outreach/4.jpeg"
+                                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/4.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -82,7 +82,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                                     <div class="main-img fix img-cover">
                                         <img decoding="async" width="357" height="500"
-                                            src="mobile-assets/social-outreach/5.jpeg"
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/5.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -98,7 +98,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                                     <div class="main-img fix img-cover">
                                         <img decoding="async" width="357" height="500"
-                                            src="mobile-assets/social-outreach/6.jpeg"
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/6.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -118,7 +118,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 700px;">
                                     <div class="main-img fix img-cover">
                                         <img fetchpriority="high" decoding="async" width="357"
-                                            height="220" src="mobile-assets/social-outreach/7.jpeg"
+                                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/7.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -133,7 +133,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 700px;">
                                     <div class="main-img fix img-cover">
                                         <img decoding="async" width="357" height="500"
-                                            src="mobile-assets/social-outreach/8.jpeg"
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/8.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -149,7 +149,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 700px;">
                                     <div class="main-img fix img-cover">
                                         <img decoding="async" width="357" height="500"
-                                            src="mobile-assets/social-outreach/9.jpeg"
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/9.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -169,7 +169,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 420px;">
                                     <div class="main-img fix img-cover">
                                         <img fetchpriority="high" decoding="async" width="357"
-                                            height="220" src="mobile-assets/social-outreach/10.jpeg"
+                                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/10.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -184,7 +184,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 420px;">
                                     <div class="main-img fix img-cover">
                                         <img decoding="async" width="357" height="500"
-                                            src="mobile-assets/social-outreach/11.jpeg"
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/11.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -200,7 +200,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 420px;">
                                     <div class="main-img fix img-cover">
                                         <img decoding="async" width="357" height="500"
-                                            src="mobile-assets/social-outreach/12.jpeg"
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/12.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -219,7 +219,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 470px;">
                                     <div class="main-img fix img-cover">
                                         <img fetchpriority="high" decoding="async" width="357"
-                                            height="220" src="mobile-assets/social-outreach/13.jpeg"
+                                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/13.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -234,7 +234,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 450px;">
                                     <div class="main-img fix img-cover">
                                         <img decoding="async" width="357" height="500"
-                                            src="mobile-assets/social-outreach/14.jpeg"
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/14.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -250,7 +250,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 450px;">
                                     <div class="main-img fix img-cover">
                                         <img decoding="async" width="357" height="500"
-                                            src="mobile-assets/social-outreach/15.jpeg"
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/15.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -271,7 +271,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                                     <div class="main-img fix img-cover">
                                         <img fetchpriority="high" decoding="async" width="357"
-                                            height="220" src="mobile-assets/social-outreach/16.jpeg"
+                                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/16.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -297,7 +297,7 @@
                                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 610px;">
                                     <div class="main-img fix img-cover">
                                         <img decoding="async" width="357" height="500"
-                                            src="mobile-assets/social-outreach/17.jpeg"
+                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/17.jpeg"
                                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                             alt="" />
                                     </div>
@@ -327,7 +327,7 @@
             <div class="scroll-top">
                 <div class="scroll-top-wrap">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                        data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
+                        data-src="https://d20cs3cmzywuh.cloudfront.net/https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink">
                         <path
                             d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
@@ -365,7 +365,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 580px;">
                     <div class="main-img fix img-cover">
                         <img fetchpriority="high" decoding="async" width="357"
-                            height="220" src="mobile-assets/social-outreach/1.jpeg"
+                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/1.jpeg"
 
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
@@ -380,7 +380,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 580px;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="mobile-assets/social-outreach/2.jpeg"
+                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/2.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -396,7 +396,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 580px;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="mobile-assets/social-outreach/3.jpeg"
+                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/3.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -416,7 +416,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                     <div class="main-img fix img-cover">
                         <img fetchpriority="high" decoding="async" width="357"
-                            height="220" src="mobile-assets/social-outreach/4.jpeg"
+                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/4.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -431,7 +431,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="mobile-assets/social-outreach/5.jpeg"
+                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/5.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -447,7 +447,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="mobile-assets/social-outreach/6.jpeg"
+                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/6.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -467,7 +467,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 700px;">
                     <div class="main-img fix img-cover">
                         <img fetchpriority="high" decoding="async" width="357"
-                            height="220" src="mobile-assets/social-outreach/7.jpeg"
+                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/7.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -482,7 +482,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 700px;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="mobile-assets/social-outreach/8.jpeg"
+                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/8.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -498,7 +498,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 700px;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="mobile-assets/social-outreach/9.jpeg"
+                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/9.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -518,7 +518,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 420px;">
                     <div class="main-img fix img-cover">
                         <img fetchpriority="high" decoding="async" width="357"
-                            height="220" src="mobile-assets/social-outreach/10.jpeg"
+                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/10.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -533,7 +533,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 420px;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="mobile-assets/social-outreach/11.jpeg"
+                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/11.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -549,7 +549,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 420px;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="mobile-assets/social-outreach/12.jpeg"
+                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/12.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -568,7 +568,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 470px;">
                     <div class="main-img fix img-cover">
                         <img fetchpriority="high" decoding="async" width="357"
-                            height="220" src="mobile-assets/social-outreach/13.jpeg"
+                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/13.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -583,7 +583,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 450px;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="mobile-assets/social-outreach/14.jpeg"
+                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/14.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -599,7 +599,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 450px;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="mobile-assets/social-outreach/15.jpeg"
+                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/15.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -620,7 +620,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 500px;">
                     <div class="main-img fix img-cover">
                         <img fetchpriority="high" decoding="async" width="357"
-                            height="220" src="mobile-assets/social-outreach/16.jpeg"
+                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/16.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -646,7 +646,7 @@
                 <div class="kd-course-2-card bg-white" style="border: solid 2px rgb(225, 225, 225); min-height: 610px;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="mobile-assets/social-outreach/17.jpeg"
+                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/social-outreach/17.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
