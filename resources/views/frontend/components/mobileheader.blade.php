@@ -128,9 +128,9 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('schools-rgu') }}">
                     <li>OUR SCHOOLS AND FACULTIES</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="{{ route('deans') }}">
+                {{-- <a class="mobile-para1" style="color: #27467A;" href="{{ route('deans') }}">
                     <li>DEANS</li>
-                </a>
+                </a> --}}
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('phd') }}">
                     <li>DOCTORAL PROGRAMME</li>
                 </a>

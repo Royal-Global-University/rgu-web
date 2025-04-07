@@ -68,7 +68,7 @@
                                     <div class="col-lg-6 p-2">
 
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('schools-rgu') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">OUR SCHOOLS AND <br> FACULTIES</a></li>
-                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('deans') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">DEANS</a></li>
+                                        {{-- <li><a class="dropdown-item text-dark   para1" href="{{ route('deans') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">DEANS</a></li> --}}
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('phd') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">DOCTORAL PROGRAMME</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('achievements') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ACHIEVEMENTS</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('academic-calendar') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ACADEMIC CALENDAR</a></li>
