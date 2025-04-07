@@ -98,13 +98,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Architecture (RSA)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-architecture')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-architecture')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-architecture')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -118,13 +118,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Applied & Pure Sciences (RSAPS)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('royal-s-school-of-applied-pure-science')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-applied-purescience')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-applied-purescience')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -138,13 +138,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Business (RSB)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-business')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-business')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-business')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -158,13 +158,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Behavioral & Allied Sciences (RSBAS)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-psychology')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-allied-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-allied-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -178,13 +178,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Bio-sciences (RSBSC)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('royal-s-school-of-bio-science')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-bio-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-bio-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -198,13 +198,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Commerce (RSC)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-commerce')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-commerce')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-commerce')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -218,13 +218,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Communications & Media (RSCOM)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-communications-media')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('rscom-faculty')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('rscom-faculty')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -238,13 +238,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Design (RSD)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('royal-s-school-of-design')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -258,13 +258,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Environmental & Earth Sciences (RSEES)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('royal-s-school-of-enviroment-science')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-environmental-earth')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-environmental-earth')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -278,13 +278,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Engineering & Technology (RSET)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="royal-s-school-of-engineering-technology" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-engineeringtechnology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-engineeringtechnology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -298,13 +298,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Fine Arts (RSFA)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-fine-arts')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-finearts')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-finearts')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -318,13 +318,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Fashion Design & Technology (RSFT)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-fashion-design')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-fashion-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-fashion-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -338,13 +338,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Humanities & Social Sciences (RSHSS)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="royal-s-school-of-humanities" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-humanities-social')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-humanities-social')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -358,13 +358,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Hotel Management (RSHM)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-hotel-management')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-hotel-management')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-hotel-management')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -378,13 +378,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Information Technology (RSIT)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-information-technology')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-information-technology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-information-technology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -398,13 +398,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Law & Administration(RSLA)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-law')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-law-administration')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-law-administration')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -418,13 +418,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Life Sciences (RSLSC)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('royal-s-school-of-life-science')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-lifesciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-lifesciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -438,13 +438,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Languages (RSL)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-languages')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-languages')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-languages')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -458,13 +458,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Library and Information Science (RSLISC)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-library-information')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-librarysciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-librarysciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -478,13 +478,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Medical & Allied Sciences (RSMAS)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="royal-s-school-of-medical-allied-science" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-medical&allidesciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-medical&allidesciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -498,13 +498,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Nursing (RSN)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-nursing')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-nursing')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-nursing')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -518,13 +518,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Pharmacy (RSP)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-pharmacy')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-pharmacy')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-pharmacy')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -538,13 +538,13 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Royal School of Travel & Tourism Management(RSTTM)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="{{route('department-travel')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        <a href="{{route('faculty-travel-tourism')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        {{-- <a href="{{route('faculty-travel-tourism')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
                   </div>
@@ -558,7 +558,7 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Indian Knowledge System (IKS)</h5>
                     <div class="mt-auto mb-4">
-                      <div class="d-flex justify-content-between">
+                      <div class="text-center">
                         <a href="indian-knowledge-system-cell-about" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           About IKS
                         </a>
@@ -676,13 +676,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Architecture (RSA)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class=" text-center">
                       <a class="para1" href="{{route('department-architecture')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-architecture')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-architecture')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -696,13 +696,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Applied & Pure Sciences (RSAPS)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('royal-s-school-of-applied-pure-science')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-applied-purescience')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-applied-purescience')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -716,13 +716,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Business (RSB)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-business')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-business')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-business')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -736,13 +736,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Behavioral & Allied Sciences (RSBAS)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-psychology')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-allied-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-allied-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -756,13 +756,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Bio-sciences (RSBSC)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('royal-s-school-of-bio-science')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-bio-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-bio-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -776,13 +776,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Commerce (RSC)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-commerce')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-commerce')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-commerce')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -796,13 +796,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Communications & Media (RSCOM)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-communications-media')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('rscom-faculty')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('rscom-faculty')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -816,13 +816,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Design (RSD)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('royal-s-school-of-design')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -836,13 +836,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Environmental & Earth Sciences (RSEES)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('royal-s-school-of-enviroment-science')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-environmental-earth')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-environmental-earth')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -856,13 +856,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Engineering & Technology (RSET)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="royal-s-school-of-engineering-technology" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-engineeringtechnology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-engineeringtechnology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -876,13 +876,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Fine Arts (RSFA)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-fine-arts')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-finearts')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-finearts')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -896,13 +896,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Fashion Design & Technology (RSFT)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-fashion-design')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-fashion-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-fashion-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -916,13 +916,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Humanities & Social Sciences (RSHSS)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="royal-s-school-of-humanities" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-humanities-social')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-humanities-social')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -936,13 +936,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Hotel Management (RSHM)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-hotel-management')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-hotel-management')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-hotel-management')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -956,13 +956,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Information Technology (RSIT)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-information-technology')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-information-technology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-information-technology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -976,13 +976,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Law & Administration(RSLA)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-law')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-law-administration')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-law-administration')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -996,13 +996,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Life Sciences (RSLSC)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('royal-s-school-of-life-science')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-lifesciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-lifesciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -1016,13 +1016,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Languages (RSL)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-languages')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-languages')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-languages')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -1036,13 +1036,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Library and Information Science (RSLISC)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-library-information')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-librarysciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-librarysciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -1056,13 +1056,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Medical & Allied Sciences (RSMAS)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="royal-s-school-of-medical-allied-science" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-medical&allidesciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-medical&allidesciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -1076,13 +1076,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Nursing (RSN)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-nursing')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-nursing')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-nursing')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -1096,13 +1096,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Pharmacy (RSP)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-pharmacy')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-pharmacy')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-pharmacy')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -1116,13 +1116,13 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal School of Travel & Tourism Management (RSTTM)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="{{route('department-travel')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      <a class="para1" href="{{route('faculty-travel-tourism')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      {{-- <a class="para1" href="{{route('faculty-travel-tourism')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a>
+                      </a> --}}
                     </div>
                   </div>
                 </div>
@@ -1136,7 +1136,7 @@
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Indian Knowledge System (IKS)</h5>
                   <div class="mt-auto mb-4">
-                    <div class="d-flex justify-content-between">
+                    <div class="text-center">
                       <a class="para1" href="indian-knowledge-system-cell-about" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         About IKS
                       </a>
