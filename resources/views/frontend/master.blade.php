@@ -8,7 +8,7 @@
     <title>The Assam Royal Global University, Best University In Assam</title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-    <link rel='stylesheet' href='{{ asset("assets/css/custom.css") }}' />
+    <link rel='stylesheet' href='{{ secure_asset("assets/css/custom.css") }}' />
     <link rel='stylesheet' id='contact-form-7-css' href='{{ asset("assets/contact/style.css") }}' media='all' />
     <link rel='stylesheet' id='tutor-icon-css' href='{{ asset("assets/tutor/tutor-icon.min.css") }}' media='all' />
     <link rel='stylesheet' id='tutor-css' href='{{ asset("assets/tutor/tutor.min.css") }}' media='all' />
