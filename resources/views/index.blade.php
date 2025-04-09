@@ -688,7 +688,7 @@
                                                 Applications are now open for Admission in 2025 - 2026.
                                             </h2>
                                             <p class="para1 text-white">
-                                                Explore the full range of graduate courses that are accepting applications
+                                                Explore the full range of graduate courses that are accepting 
                                             </p>
                                         </div>
 
