@@ -8,11 +8,11 @@
     <title>The Assam Royal Global University, Best University In Assam</title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-    <link rel='stylesheet' href='{{ secure_asset("assets/css/custom.css") }}' />
-    <link rel='stylesheet' id='contact-form-7-css' href='{{ secure_asset("assets/contact/style.css") }}' media='all' />
-    <link rel='stylesheet' id='tutor-icon-css' href='{{ secure_asset("assets/tutor/tutor-icon.min.css") }}' media='all' />
-    <link rel='stylesheet' id='tutor-css' href='{{ secure_asset("assets/tutor/tutor.min.css") }}' media='all' />
-    <link rel='stylesheet' id='tutor-frontend-css' href='{{ secure_asset("assets/tutor/tutor-front.min.css") }}' media='all' />
+    <link rel='stylesheet' href='{{ asset("assets/css/custom.css") }}' />
+    <link rel='stylesheet' id='contact-form-7-css' href='{{ asset("assets/contact/style.css") }}' media='all' />
+    <link rel='stylesheet' id='tutor-icon-css' href='{{ asset("assets/tutor/tutor-icon.min.css") }}' media='all' />
+    <link rel='stylesheet' id='tutor-css' href='{{ asset("assets/tutor/tutor.min.css") }}' media='all' />
+    <link rel='stylesheet' id='tutor-frontend-css' href='{{ asset("assets/tutor/tutor-front.min.css") }}' media='all' />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
@@ -21,41 +21,41 @@
     <link rel='stylesheet'
         href='https://fonts.googleapis.com/css?family=Urbanist%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CBarlow+Semi+Condensed%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CFraunces%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CJust+Another+Hand%3A400&#038;subset=latin'
         media='all' />
-    <link rel='stylesheet' id='bootstrap-css' href='{{ secure_asset("assets/css/bootstrap.min.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='all-min-css' href='{{ secure_asset("assets/css/all.min.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='e-animations-css' href='{{ secure_asset("assets/css/animate.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='flaticon-css' href='{{ secure_asset("assets/css/flaticon_mycollection.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='swiper-kadu-css' href='{{ secure_asset("assets/css/swiper.min.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='nice-select-css' href='{{ secure_asset("assets/css/nice-select.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='magnific-popup-css' href='{{ secure_asset("assets/css/magnific-popup.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' href='{{ secure_asset("assets/css/main.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='woocommerce-style-css' href='{{ secure_asset("assets/woocommerce/woocommerce.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='{{ asset("assets/css/bootstrap.min.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='all-min-css' href='{{ asset("assets/css/all.min.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='e-animations-css' href='{{ asset("assets/css/animate.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='flaticon-css' href='{{ asset("assets/css/flaticon_mycollection.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='swiper-kadu-css' href='{{ asset("assets/css/swiper.min.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='nice-select-css' href='{{ asset("assets/css/nice-select.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='magnific-popup-css' href='{{ asset("assets/css/magnific-popup.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' href='{{ asset("assets/css/main.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='woocommerce-style-css' href='{{ asset("assets/woocommerce/woocommerce.css?ver=6.6.2") }}' media='all' />
     <link rel='stylesheet'  href='style.css?ver=6.6.2' media='all' />
-    <link rel='stylesheet'  href='{{ secure_asset("assets/css/custom-style.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='elementor-icons-css' href='{{ secure_asset("assets/elementor/css/elementor-icons.min.css") }}' media='all' />
-    <link rel='stylesheet' id='elementor-frontend-css' href='{{ secure_asset("assets/elementor/css/custom-frontend-lite.min.css") }}'
+    <link rel='stylesheet'  href='{{ asset("assets/css/custom-style.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css' href='{{ asset("assets/elementor/css/elementor-icons.min.css") }}' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='{{ asset("assets/elementor/css/custom-frontend-lite.min.css") }}'
         media='all' />
-    <link rel="stylesheet" href="{{ secure_asset('assets/owl-tab-css/css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('assets/owl-tab-css/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/owl-tab-css/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/owl-tab-css/css/animate.css') }}">
 
-    <link rel='stylesheet' id='elementor-frontend-css' href='{{ secure_asset("assets/elementor/css/custom-frontend-lite.min.css") }}'
+    <link rel='stylesheet' id='elementor-frontend-css' href='{{ asset("assets/elementor/css/custom-frontend-lite.min.css") }}'
         media='all' />
-    <link rel='stylesheet' id='elementor-post-15-css' href='{{ secure_asset("assets/elementor/css/post-15.css") }}' media='all' />
-    <link rel='stylesheet' id='elementor-post-15-css' href='{{ secure_asset("assets/elementor/css/post-14.css") }}' media='all' />
-    <link rel='stylesheet' id='elementor-global-css' href='{{ secure_asset("assets/elementor/css/global.css") }}' media='all' />
-    <link rel='stylesheet' id='elementor-post-704-css' href='{{ secure_asset("assets/elementor/css/post-704.css") }}' media='all' />
+    <link rel='stylesheet' id='elementor-post-15-css' href='{{ asset("assets/elementor/css/post-15.css") }}' media='all' />
+    <link rel='stylesheet' id='elementor-post-15-css' href='{{ asset("assets/elementor/css/post-14.css") }}' media='all' />
+    <link rel='stylesheet' id='elementor-global-css' href='{{ asset("assets/elementor/css/global.css") }}' media='all' />
+    <link rel='stylesheet' id='elementor-post-704-css' href='{{ asset("assets/elementor/css/post-704.css") }}' media='all' />
     <link rel='stylesheet' id='google-fonts-1-css'
         href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.6.2'
         media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <meta name="google-site-verification" content="StGlhBxNrlhl855TGzpgTh_pSTninxLn2vV0q2N6ZVQ" />
     <!--JS-->
-    <script src='{{ secure_asset("assets/js/jquery.min.js") }}' id="jquery-core-js"></script>
-    <script src='{{ secure_asset("assets/js/jquery-migrate.min.js") }}' id="jquery-migrate-js"></script>
-    <script src='{{ secure_asset("assets/js/jquery.blockUI.min.js") }}' id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
+    <script src='{{ asset("assets/js/jquery.min.js") }}' id="jquery-core-js"></script>
+    <script src='{{ asset("assets/js/jquery-migrate.min.js") }}' id="jquery-migrate-js"></script>
+    <script src='{{ asset("assets/js/jquery.blockUI.min.js") }}' id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
 
-    <script src='{{ secure_asset("assets/js/js.cookie.min.js") }}' id="js-cookie-js" defer data-wp-strategy="defer"></script>
-    <script src='{{ secure_asset("assets/js/woocommerce.min.js") }}' id="woocommerce-js" defer data-wp-strategy="defer"></script>
+    <script src='{{ asset("assets/js/js.cookie.min.js") }}' id="js-cookie-js" defer data-wp-strategy="defer"></script>
+    <script src='{{ asset("assets/js/woocommerce.min.js") }}' id="woocommerce-js" defer data-wp-strategy="defer"></script>
 
     <style>
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
@@ -1293,14 +1293,14 @@
         });
     </script>
 
-    <link rel='stylesheet' id='wc-blocks-style-css' href='{{ secure_asset("assets/client/wc-blocks.css") }}' media='all' />
-    <link rel='stylesheet' id='elementor-post-1115-css' href='{{ secure_asset("assets/elementor/css/post-1115.css") }}' media='all' />
+    <link rel='stylesheet' id='wc-blocks-style-css' href='{{ asset("assets/client/wc-blocks.css") }}' media='all' />
+    <link rel='stylesheet' id='elementor-post-1115-css' href='{{ asset("assets/elementor/css/post-1115.css") }}' media='all' />
     <link rel='stylesheet' id='google-fonts-2-css'
         href='https://fonts.googleapis.com/css?family=Urbanist%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.6.2'
         media='all' />
-        <script src="{{ secure_asset('assets/css/modal/model1.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/hooks.min.js') }}" id="wp-hooks-js"></script>
-    <script src="{{ secure_asset('assets/js/i18n.min.js') }}" id="wp-i18n-js"></script>
+        <script src="{{ asset('assets/css/modal/model1.js') }}"></script>
+    <script src="{{ asset('assets/js/hooks.min.js') }}" id="wp-hooks-js"></script>
+    <script src="{{ asset('assets/js/i18n.min.js') }}" id="wp-i18n-js"></script>
     <script id="wp-i18n-js-after">
         wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
     </script>
@@ -1309,57 +1309,57 @@
         var wpcf7 = { "api": { "root": "https:\/\/themexriver.com\/wp\/kadu\/wp-json\/", "namespace": "contact-form-7\/v1" } };
     </script>
 
-    <script src="{{ secure_asset('assets/js/core.js') }}" id="kadu-addon-core-js"></script>
+    <script src="{{ asset('assets/js/core.js') }}" id="kadu-addon-core-js"></script>
     <script id="tutor-script-js-extra">
         var _tutorobject = { "ajaxurl": "https:\/\/themexriver.com\/wp\/kadu\/wp-admin\/admin-ajax.php", "home_url": "https:\/\/themexriver.com\/wp\/kadu", "site_title": "kadu", "base_path": "\/wp\/kadu\/", "tutor_url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/", "tutor_pro_url": null, "nonce_key": "_tutor_nonce", "_tutor_nonce": "2bfaa4c430", "loading_icon_url": "https:\/\/themexriver.com\/wp\/kadu\/wp-admin\/images\/wpspin_light.gif", "placeholder_img_src": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/images\/placeholder.svg", "enable_lesson_classic_editor": "1", "tutor_frontend_dashboard_url": "https:\/\/themexriver.com\/wp\/kadu\/dashboard\/", "wp_date_format": "MMMM d, yyyy", "is_admin": "", "is_admin_bar_showing": "", "addons_data": [{ "name": "Course Bundle", "description": "Group multiple courses to sell together.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/course-bundle\/thumbnail.svg" }, { "name": "Social Login", "description": "Let users register & login through social network like Facebook, Google, etc.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/social-login\/thumbnail.svg" }, { "name": "Content Drip", "description": "Unlock lessons by schedule or when the student meets specific condition.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/content-drip\/thumbnail.png" }, { "name": "Tutor Multi Instructors", "description": "Start a course with multiple instructors by Tutor Multi Instructors", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-multi-instructors\/thumbnail.png" }, { "name": "Tutor Assignments", "description": "Tutor assignments is a great way to assign tasks to students.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-assignments\/thumbnail.png" }, { "name": "Tutor Course Preview", "description": "Unlock some lessons for students before enrollment.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-course-preview\/thumbnail.png" }, { "name": "Tutor Course Attachments", "description": "Add unlimited attachments\/ private files to any Tutor course", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-course-attachments\/thumbnail.png" }, { "name": "Tutor Google Meet Integration", "description": "Connect Tutor LMS with Google Meet to host live online classes. Students can attend live classes right from the lesson page.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/google-meet\/thumbnail.png" }, { "name": "Tutor Report", "description": "Check your course performance through Tutor Report stats.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-report\/thumbnail.png" }, { "name": "Email", "description": "Send email on various tutor events", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-email\/thumbnail.png" }, { "name": "Calendar", "description": "Allow students to see everything in a calendar view in the front dashboard.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/calendar\/thumbnail.png" }, { "name": "Notifications", "description": "Get On Site and Push Notifications on specified tutor events.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-notifications\/thumbnail.png" }, { "name": "Google Classroom Integration", "description": "Helps connect Google Classrooms with Tutor LMS courses, allowing you to use features like Classroom streams and files directly from the Tutor LMS course.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/google-classroom\/thumbnail.png" }, { "name": "Tutor Zoom Integration", "description": "Connect Tutor LMS with Zoom to host live online classes. Students can attend live classes right from the lesson page.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-zoom\/thumbnail.png" }, { "name": "Quiz Export\/Import", "description": "Save time by exporting\/importing quiz data with easy options.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/quiz-import-export\/thumbnail.png" }, { "name": "Enrollment", "description": "Take advanced control on enrollment. Enroll the student manually.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/enrollments\/thumbnail.png" }, { "name": "Tutor Certificate", "description": "Students will be able to download a certificate after course completion.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-certificate\/thumbnail.png" }, { "name": "Gradebook", "description": "Shows student progress from assignment and quiz", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/gradebook\/thumbnail.png" }, { "name": "Tutor Prerequisites", "description": "Specific course you must complete before you can enroll new course by Tutor Prerequisites", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-prerequisites\/thumbnail.png" }, { "name": "BuddyPress", "description": "Discuss about course and share your knowledge with your friends through BuddyPress", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/buddypress\/thumbnail.png" }, { "name": "WooCommerce Subscriptions", "description": "Capture Residual Revenue with Recurring Payments.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/wc-subscriptions\/thumbnail.png" }, { "name": "Paid Memberships Pro", "description": "Maximize revenue by selling membership access to all of your courses.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/pmpro\/thumbnail.png" }, { "name": "Restrict Content Pro", "description": "Unlock Course depending on Restrict Content Pro Plugin Permission.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/restrict-content-pro\/thumbnail.png" }, { "name": "Weglot", "description": "Translate & manage multilingual courses for global reach with full edit control.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-weglot\/thumbnail.png" }, { "name": "WPML Multilingual CMS", "description": "Create multilingual courses, lessons, dashboard and more for a global audience.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-wpml\/thumbnail.png" }], "current_user": [], "content_change_event": "tutor_content_changed_event", "is_tutor_course_edit": "", "assignment_max_file_allowed": "0", "current_page": "", "quiz_answer_display_time": "2000", "is_ssl": "1", "course_list_page_url": "https:\/\/themexriver.com\/wp\/kadu\/wp-admin\/admin.php?page=tutor", "course_post_type": "courses" };
     </script>
     <script id="quicktags-js-extra">
         var quicktagsL10n = { "closeAllOpenTags": "Close all open tags", "closeTags": "close tags", "enterURL": "Enter the URL", "enterImageURL": "Enter the URL of the image", "enterImageDescription": "Enter a description of the image", "textdirection": "text direction", "toggleTextdirection": "Toggle Editor Text Direction", "dfw": "Distraction-free writing mode", "strong": "Bold", "strongClose": "Close bold tag", "em": "Italic", "emClose": "Close italic tag", "link": "Insert link", "blockquote": "Blockquote", "blockquoteClose": "Close blockquote tag", "del": "Deleted text (strikethrough)", "delClose": "Close deleted text tag", "ins": "Inserted text", "insClose": "Close inserted text tag", "image": "Insert image", "ul": "Bulleted list", "ulClose": "Close bulleted list tag", "ol": "Numbered list", "olClose": "Close numbered list tag", "li": "List item", "liClose": "Close list item tag", "code": "Code", "codeClose": "Close code tag", "more": "Insert Read More tag" };
     </script>
-    <script src="{{ secure_asset('assets/js/quicktags.min.js') }}" id="quicktags-js"></script>
-    <script src="{{ secure_asset('assets/js/core.min.js') }}" id="jquery-ui-core-js"></script>
-    <script src="{{ secure_asset('assets/js/mouse.min.js') }}" id="jquery-ui-mouse-js"></script>
-    <script src="{{ secure_asset('assets/js/sortable.min.js') }}" id="jquery-ui-sortable-js"></script>
-    <script src="{{ secure_asset('assets/js/touch-punch.js') }}" id="jquery-touch-punch-js"></script>
-    <script src="{{ secure_asset('assets/js/SocialShare.min.js') }}" id="tutor-social-share-js"></script>
+    <script src="{{ asset('assets/js/quicktags.min.js') }}" id="quicktags-js"></script>
+    <script src="{{ asset('assets/js/core.min.js') }}" id="jquery-ui-core-js"></script>
+    <script src="{{ asset('assets/js/mouse.min.js') }}" id="jquery-ui-mouse-js"></script>
+    <script src="{{ asset('assets/js/sortable.min.js') }}" id="jquery-ui-sortable-js"></script>
+    <script src="{{ asset('assets/js/touch-punch.js') }}" id="jquery-touch-punch-js"></script>
+    <script src="{{ asset('assets/js/SocialShare.min.js') }}" id="tutor-social-share-js"></script>
     <script id="tutor-frontend-js-extra">
         var _tutorobject = { "ajaxurl": "https:\/\/themexriver.com\/wp\/kadu\/wp-admin\/admin-ajax.php", "home_url": "https:\/\/themexriver.com\/wp\/kadu", "site_title": "kadu", "base_path": "\/wp\/kadu\/", "tutor_url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/", "tutor_pro_url": null, "nonce_key": "_tutor_nonce", "_tutor_nonce": "2bfaa4c430", "loading_icon_url": "https:\/\/themexriver.com\/wp\/kadu\/wp-admin\/images\/wpspin_light.gif", "placeholder_img_src": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/images\/placeholder.svg", "enable_lesson_classic_editor": "1", "tutor_frontend_dashboard_url": "https:\/\/themexriver.com\/wp\/kadu\/dashboard\/", "wp_date_format": "MMMM d, yyyy", "is_admin": "", "is_admin_bar_showing": "", "addons_data": [{ "name": "Course Bundle", "description": "Group multiple courses to sell together.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/course-bundle\/thumbnail.svg" }, { "name": "Social Login", "description": "Let users register & login through social network like Facebook, Google, etc.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/social-login\/thumbnail.svg" }, { "name": "Content Drip", "description": "Unlock lessons by schedule or when the student meets specific condition.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/content-drip\/thumbnail.png" }, { "name": "Tutor Multi Instructors", "description": "Start a course with multiple instructors by Tutor Multi Instructors", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-multi-instructors\/thumbnail.png" }, { "name": "Tutor Assignments", "description": "Tutor assignments is a great way to assign tasks to students.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-assignments\/thumbnail.png" }, { "name": "Tutor Course Preview", "description": "Unlock some lessons for students before enrollment.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-course-preview\/thumbnail.png" }, { "name": "Tutor Course Attachments", "description": "Add unlimited attachments\/ private files to any Tutor course", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-course-attachments\/thumbnail.png" }, { "name": "Tutor Google Meet Integration", "description": "Connect Tutor LMS with Google Meet to host live online classes. Students can attend live classes right from the lesson page.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/google-meet\/thumbnail.png" }, { "name": "Tutor Report", "description": "Check your course performance through Tutor Report stats.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-report\/thumbnail.png" }, { "name": "Email", "description": "Send email on various tutor events", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-email\/thumbnail.png" }, { "name": "Calendar", "description": "Allow students to see everything in a calendar view in the front dashboard.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/calendar\/thumbnail.png" }, { "name": "Notifications", "description": "Get On Site and Push Notifications on specified tutor events.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-notifications\/thumbnail.png" }, { "name": "Google Classroom Integration", "description": "Helps connect Google Classrooms with Tutor LMS courses, allowing you to use features like Classroom streams and files directly from the Tutor LMS course.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/google-classroom\/thumbnail.png" }, { "name": "Tutor Zoom Integration", "description": "Connect Tutor LMS with Zoom to host live online classes. Students can attend live classes right from the lesson page.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-zoom\/thumbnail.png" }, { "name": "Quiz Export\/Import", "description": "Save time by exporting\/importing quiz data with easy options.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/quiz-import-export\/thumbnail.png" }, { "name": "Enrollment", "description": "Take advanced control on enrollment. Enroll the student manually.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/enrollments\/thumbnail.png" }, { "name": "Tutor Certificate", "description": "Students will be able to download a certificate after course completion.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-certificate\/thumbnail.png" }, { "name": "Gradebook", "description": "Shows student progress from assignment and quiz", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/gradebook\/thumbnail.png" }, { "name": "Tutor Prerequisites", "description": "Specific course you must complete before you can enroll new course by Tutor Prerequisites", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-prerequisites\/thumbnail.png" }, { "name": "BuddyPress", "description": "Discuss about course and share your knowledge with your friends through BuddyPress", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/buddypress\/thumbnail.png" }, { "name": "WooCommerce Subscriptions", "description": "Capture Residual Revenue with Recurring Payments.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/wc-subscriptions\/thumbnail.png" }, { "name": "Paid Memberships Pro", "description": "Maximize revenue by selling membership access to all of your courses.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/pmpro\/thumbnail.png" }, { "name": "Restrict Content Pro", "description": "Unlock Course depending on Restrict Content Pro Plugin Permission.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/restrict-content-pro\/thumbnail.png" }, { "name": "Weglot", "description": "Translate & manage multilingual courses for global reach with full edit control.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-weglot\/thumbnail.png" }, { "name": "WPML Multilingual CMS", "description": "Create multilingual courses, lessons, dashboard and more for a global audience.", "url": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-wpml\/thumbnail.png" }], "current_user": [], "content_change_event": "tutor_content_changed_event", "is_tutor_course_edit": "", "assignment_max_file_allowed": "0", "current_page": "", "quiz_answer_display_time": "2000", "is_ssl": "1", "course_list_page_url": "https:\/\/themexriver.com\/wp\/kadu\/wp-admin\/admin.php?page=tutor", "course_post_type": "courses" };
     </script>
-    <script src="{{ secure_asset('assets/js/tutor-front.min.js') }}" id="tutor-frontend-js"></script>
-    <script src="{{ secure_asset('assets/js/datepicker.min.js') }}" id="jquery-ui-datepicker-js"></script>
+    <script src="{{ asset('assets/js/tutor-front.min.js') }}" id="tutor-frontend-js"></script>
+    <script src="{{ asset('assets/js/datepicker.min.js') }}" id="jquery-ui-datepicker-js"></script>
     <script id="jquery-ui-datepicker-js-after">
         jQuery(function (jQuery) { jQuery.datepicker.setDefaults({ "closeText": "Close", "currentText": "Today", "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "nextText": "Next", "prevText": "Previous", "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"], "dateFormat": "MM d, yy", "firstDay": 1, "isRTL": false }); });
     </script>
-    <script src="{{ secure_asset('') }}assets/js/sourcebuster.min.js" id="sourcebuster-js-js"></script>
+    <script src="{{ asset('') }}assets/js/sourcebuster.min.js" id="sourcebuster-js-js"></script>
     <script id="wc-order-attribution-js-extra">
         var wc_order_attribution = { "params": { "lifetime": 1.0e-5, "session": 30, "base64": false, "ajaxurl": "https:\/\/themexriver.com\/wp\/kadu\/wp-admin\/admin-ajax.php", "prefix": "wc_order_attribution_", "allowTracking": true }, "fields": { "source_type": "current.typ", "referrer": "current_add.rf", "utm_campaign": "current.cmp", "utm_source": "current.src", "utm_medium": "current.mdm", "utm_content": "current.cnt", "utm_id": "current.id", "utm_term": "current.trm", "utm_source_platform": "current.plt", "utm_creative_format": "current.fmt", "utm_marketing_tactic": "current.tct", "session_entry": "current_add.ep", "session_start_time": "current_add.fd", "session_pages": "session.pgs", "session_count": "udata.vst", "user_agent": "udata.uag" } };
     </script>
-    <script src="{{ secure_asset('assets/js/order-attribution.min.js') }}" id="wc-order-attribution-js"></script>
-    <script src="{{ secure_asset('assets/js/imagesloaded.min.js') }}" id="imagesloaded-js"></script>
-    <script src="{{ secure_asset('assets/js/bootstrap.bundle.min.js') }}" id="bootstrap-bundle-js"></script>
-    <script src="{{ secure_asset('assets/js/swiper-bundle.min.js') }}" id="swiper-bundle-js"></script>
-    <script src="{{ secure_asset('assets/js/counterup.min.js') }}" id="counterup-js"></script>
-    <script src="{{ secure_asset('assets/js/gsap.min.js') }}" id="gsap-js"></script>
-    <script src="{{ secure_asset('assets/js/lenis.min.js') }}" id="lenis-js"></script>
-    <script src="{{ secure_asset('assets/js/magnific-popup.min.js') }}" id="magnific-popup-js"></script>
-    <script src="{{ secure_asset('assets/js/nice-select.min.js') }}" id="nice-select-js"></script>
-    <script src="{{ secure_asset('assets/js/SplitText.min.js') }}" id="SplitText-js"></script>
-    <script src="{{ secure_asset('assets/js/ScrollTrigger.min.js') }}" id="ScrollTrigger-js"></script>
-    <script src="{{ secure_asset('assets/js/tilt.jquery.min.js') }}" id="jquery-tilt-js"></script>
-    <script src="{{ secure_asset('assets/js/waypoints.min.js') }}" id="waypoints-js"></script>
-    <script src="{{ secure_asset('assets/js/wow.js') }}" id="wow-js"></script>
-    <script src="{{ secure_asset('assets/js/main.js') }}" id="kadu-main-js"></script>
-    <script src="{{ secure_asset('assets/owl-tab-css/js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/owl-tab-css/js/popper.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/owl-tab-css/js/bootstrap.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/owl-tab-css/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/owl-tab-css/js/main.js') }}"></script>
-    <script src="{{ secure_asset('https://cdn.datatables.net/2.1.8/js/dataTables.js') }}"></script>
-    <script src="{{ secure_asset('https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.js') }}"></script>
-    <script defer src="{{ secure_asset('assets/js/forms.js') }}" id="mc4wp-forms-api-js"></script>
-    <script src="{{ secure_asset('assets/js/webpack.runtime.min.js') }}" id="elementor-webpack-runtime-js"></script>
-    <script src="{{ secure_asset('assets/js/frontend-modules.min.js') }}" id="elementor-frontend-modules-js"></script>
-    <script src="{{ secure_asset('assets/js/waypoints.min.js') }}" id="elementor-waypoints-js"></script>
+    <script src="{{ asset('assets/js/order-attribution.min.js') }}" id="wc-order-attribution-js"></script>
+    <script src="{{ asset('assets/js/imagesloaded.min.js') }}" id="imagesloaded-js"></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}" id="bootstrap-bundle-js"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}" id="swiper-bundle-js"></script>
+    <script src="{{ asset('assets/js/counterup.min.js') }}" id="counterup-js"></script>
+    <script src="{{ asset('assets/js/gsap.min.js') }}" id="gsap-js"></script>
+    <script src="{{ asset('assets/js/lenis.min.js') }}" id="lenis-js"></script>
+    <script src="{{ asset('assets/js/magnific-popup.min.js') }}" id="magnific-popup-js"></script>
+    <script src="{{ asset('assets/js/nice-select.min.js') }}" id="nice-select-js"></script>
+    <script src="{{ asset('assets/js/SplitText.min.js') }}" id="SplitText-js"></script>
+    <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}" id="ScrollTrigger-js"></script>
+    <script src="{{ asset('assets/js/tilt.jquery.min.js') }}" id="jquery-tilt-js"></script>
+    <script src="{{ asset('assets/js/waypoints.min.js') }}" id="waypoints-js"></script>
+    <script src="{{ asset('assets/js/wow.js') }}" id="wow-js"></script>
+    <script src="{{ asset('assets/js/main.js') }}" id="kadu-main-js"></script>
+    <script src="{{ asset('assets/owl-tab-css/js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ asset('assets/owl-tab-css/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/owl-tab-css/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/owl-tab-css/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/owl-tab-css/js/main.js') }}"></script>
+    <script src="{{ asset('https://cdn.datatables.net/2.1.8/js/dataTables.js') }}"></script>
+    <script src="{{ asset('https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.js') }}"></script>
+    <script defer src="{{ asset('assets/js/forms.js') }}" id="mc4wp-forms-api-js"></script>
+    <script src="{{ asset('assets/js/webpack.runtime.min.js') }}" id="elementor-webpack-runtime-js"></script>
+    <script src="{{ asset('assets/js/frontend-modules.min.js') }}" id="elementor-frontend-modules-js"></script>
+    <script src="{{ asset('assets/js/waypoints.min.js') }}" id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
         var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": true }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.23.4", "is_static": false, "experimentalFeatures": { "e_optimized_css_loading": true, "additional_custom_breakpoints": true, "e_swiper_latest": true, "e_nested_atomic_repeaters": true, "e_onboarding": true, "home_screen": true, "landing-pages": true, "e_lazyload": true }, "urls": { "assets": "https:\/\/themexriver.com\/wp\/kadu\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\/\/themexriver.com\/wp\/kadu\/wp-admin\/admin-ajax.php" }, "nonces": { "floatingButtonsClickTracking": "c58f3fafc0" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"], "viewport_tablet_extra": 1200, "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 704, "title": "Home%203%20%E2%80%93%20kadu", "excerpt": "", "featuredImage": false } };
     </script>
