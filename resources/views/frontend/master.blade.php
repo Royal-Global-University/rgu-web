@@ -744,7 +744,7 @@
                                 <div class="p-4 d-flex flex-col">
                                     <div class="row">
 
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-3 pb-4">
                                             <h5 class="m-0 p-0 fw-bold" style="font-size: 24px; color: #FF9A1E !important;">
                                                 Admissions</h5>
 
@@ -778,7 +778,7 @@
                                                 </p>
                                             </a>
 
-                                            <a href="scholarships">
+                                            <a href="scholarship&funding">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">Scholarships &
                                                     Funding
                                                 </p>
@@ -787,7 +787,7 @@
 
                                         </div>
 
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-3 pb-4">
                                             <h5 class="m-0 p-0 fw-bold" style="font-size: 24px; color: #FF9A1E !important;">
                                                 Information About</h5>
 
@@ -823,7 +823,7 @@
                                             </a>
                                         </div>
 
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-3 pb-4">
 
                                             <a href="social-outreach">
                                                 <p class="m-0  text-white" style="font-size: 18px;">Social Outreach</p>
