@@ -931,7 +931,7 @@
                                                                     <div class="swiper-slide">
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
-                                                                                style="height: 700px; width: 95%;"
+                                                                                style="height: 650px; width: 95%;"
                                                                                 src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web1.png" alt="">
 
                                                                         </div>
@@ -939,7 +939,7 @@
                                                                     <div class="swiper-slide">
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
-                                                                                style="height: 700px; width: 95%;"
+                                                                                style="height: 650px; width: 95%;"
                                                                                 src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web2.jpg" alt="">
 
 
@@ -948,7 +948,7 @@
                                                                     <div class="swiper-slide">
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
-                                                                                style="height: 700px; width: 95%;"
+                                                                                style="height: 650px; width: 95%;"
                                                                                 src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web3.jpg" alt="">
 
 
