@@ -107,7 +107,7 @@
                                 <li class="dropdown-submenu" style="position: relative;">
                                     <a class="dropdown-item text-dark   dropdown-toggle para1" href="#" style="font-size: 16px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">SCHOLARSHIP AND <br> FUNDING</a>
                                     <ul class="dropdown-menu" style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
-                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('scholarships') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">SCHOLARSHIPS</a></li>
+                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('scholarship&funding') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">SCHOLARSHIPS</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('deans-listers') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">DEAN'S LISTER</a></li>
                                     </ul>
                                 </li>

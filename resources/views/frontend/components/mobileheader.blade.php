@@ -195,7 +195,7 @@
                     <i class="fas fa-chevron-down"></i>
                 </li>
                 <ul class="submenu mobile-para1" id="scholarship" style="padding-left: 20px;">
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('scholarships') }}">SCHOLARSHIPS</a>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('scholarship&funding') }}">SCHOLARSHIPS</a>
                     </li>
                     <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('deans-listers') }}">DEANS LISTER</a>
                     </li>
