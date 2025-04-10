@@ -86,17 +86,15 @@
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobile1.png" class="d-block w-100 rounded" alt="...">
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/mob1.png" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobile2.png" class="d-block w-100 rounded" alt="...">
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/mob2.jpeg" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobile3.png" class="d-block w-100 rounded" alt="...">
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/mob3.jpeg" class="d-block w-100 rounded" alt="...">
                     </div>
-                    <div class="carousel-item">
-                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobile4.png" class="d-block w-100 rounded" alt="...">
-                    </div>
+
 
                 </div>
             </div>
@@ -688,7 +686,7 @@
                                                 Applications are now open for Admission in 2025 - 2026.
                                             </h2>
                                             <p class="para1 text-white">
-                                                Explore the full range of graduate courses that are accepting 
+                                                Explore the full range of graduate courses that are accepting
                                             </p>
                                         </div>
 
@@ -934,7 +932,7 @@
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
                                                                                 style="height: 700px; width: 95%;"
-                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/1.png" alt="">
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web1.png" alt="">
 
                                                                         </div>
                                                                     </div>
@@ -942,16 +940,7 @@
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
                                                                                 style="height: 700px; width: 95%;"
-                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/2.png" alt="">
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="swiper-slide">
-                                                                        <div class="kd-team-4-slide-main-item ">
-                                                                            <img decoding="async"
-                                                                                style="height: 700px; width: 95%;"
-                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/3.png" alt="">
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web2.jpg" alt="">
 
 
                                                                         </div>
@@ -960,7 +949,7 @@
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
                                                                                 style="height: 700px; width: 95%;"
-                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/4.png" alt="">
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web3.jpg" alt="">
 
 
                                                                         </div>
@@ -992,30 +981,24 @@
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
                                                                                 <img decoding="async"
-                                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/1.png" alt="">
+                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web1.png" alt="">
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide">
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
                                                                                 <img decoding="async"
-                                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/2.png" alt="">
+                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web2.jpg" alt="">
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide">
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
                                                                                 <img decoding="async"
-                                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/3.png" alt="">
+                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web3.jpg" alt="">
                                                                             </div>
                                                                         </div>
-                                                                        <div class="swiper-slide">
-                                                                            <div style="border: 1px solid #5887D6;"
-                                                                                class="kd-team-4-slide-prview-item fix">
-                                                                                <img decoding="async"
-                                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/4.png" alt="">
-                                                                            </div>
-                                                                        </div>
+
 
                                                                     </div>
                                                                 </div>
