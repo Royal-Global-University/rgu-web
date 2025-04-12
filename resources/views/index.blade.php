@@ -61,7 +61,7 @@
         <div id="carouselExample" class="carousel slide mobile-image-slider" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/slide1.png" class="d-block w-100" alt="...">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/app-header.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/slide2.png" class="d-block w-100" alt="...">
@@ -707,7 +707,7 @@
 
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/sl1.png" alt="Slide 1">
+                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/web-header.png" alt="Slide 1">
                                     </div>
                                     <div class="carousel-item">
                                         <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/sl2.png" alt="Slide 2">
