@@ -1968,7 +1968,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-be85421"
+                        {{-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-be85421"
                             data-id="be85421" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <div class="elementor-element elementor-element-f5f1b7b elementor-widget elementor-widget-go-s-heading"
@@ -2132,7 +2132,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </section>
                 <!-- new advantage end-->
