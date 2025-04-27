@@ -483,7 +483,7 @@
                                     </td>
                                 </tr>
 
-                                <tr>
+                                {{-- <tr>
                                     <td>2.</td>
                                     <td>
                                         <p>
@@ -500,10 +500,10 @@
                                     <td><a href="{{route('programs-MA-Clinical-Psychology')}}"><button type="button"
                                                 class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                     </td>
-                                </tr>
+                                </tr> --}}
 
                                 <tr>
-                                    <td>3.</td>
+                                    <td>2.</td>
                                     <td>
                                         <p>
                                             <strong style="color: #1b4332;" class="#">Course: BA -
@@ -522,7 +522,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td>4.</td>
+                                    <td>3.</td>
                                     <td>
                                         <p>
                                             <strong style="color: #1b4332;" class="#">Course: BA - Applied
@@ -541,7 +541,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td>5.</td>
+                                    <td>4.</td>
                                     <td>
                                         <p>
                                             <strong style="color: #3c096c;" class="#">Certificate in
@@ -559,7 +559,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td>6.</td>
+                                    <td>5.</td>
                                     <td>
                                         <p>
                                             <strong style="color: #3c096c;" class="#">Certificate in Applied
@@ -577,7 +577,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td>7.</td>
+                                    <td>6.</td>
                                     <td>
                                         <p>
                                             <strong style="color: #7f5539;" class="#">Diploma in Psychology</strong>
@@ -594,7 +594,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td>8.</td>
+                                    <td>7.</td>
                                     <td>
                                         <p>
                                             <strong style="color: #7f5539;" class="#">Diploma in Applied

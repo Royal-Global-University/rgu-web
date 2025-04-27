@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="card-body ">
                                     <h5 style="font-weight: 800; color: #27467A;"
-                                        class="text-center card-title mobile-headd2 pb-2">Department of Public Administrator
+                                        class="text-center card-title mobile-headd2 pb-2">Department of Public Administration
                                     </h5>
                                 </div>
                             </div>
@@ -202,7 +202,7 @@
                                 </div>
                                 <div class="card-body ">
                                     <h5 style="font-weight: 800; color: #27467A;"
-                                        class="text-center card-title mobile-headd2 pb-2">Department of Public Administrator
+                                        class="text-center card-title mobile-headd2 pb-2">Department of Public Administration
                                     </h5>
                                 </div>
                             </div>

@@ -862,7 +862,7 @@ Route::get('/programs', function () {
 
 Route::get('/admission-programs-fees-structure', function () {
     return view('frontend/programmes/admission-programs-fees-structure');
-})->name('admission-programs-fees-structure');
+})->name('admission-programs-fees-structure');  
 
 Route::get('/program-bsc-cssd', function () {
     return view('frontend/programmes/program-bsc-cssd');

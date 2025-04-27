@@ -911,10 +911,10 @@
                                                 <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
                                                     class="para1 btn border">ERP Login</p>
                                             </a>
-                                            <a href="https://royalnet.rgu.ac/" target="_blank">
+                                            {{-- <a href="https://royalnet.rgu.ac/" target="_blank">
                                                 <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
                                                     class="para1 btn border">Student Login</p>
-                                            </a>
+                                            </a> --}}
                                             <a href="https://m365.cloud.microsoft/?auth=2" target="_blank">
                                                 <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
                                                     class="para1 btn border">Staff Email Login</p>
