@@ -483,25 +483,6 @@
                                     </td>
                                 </tr>
 
-                                {{-- <tr>
-                                    <td>2.</td>
-                                    <td>
-                                        <p>
-                                            <strong style="color: #023e8a;" class="#">Course: MA - Clinical
-                                                Psychology</strong>
-                                            <br>
-                                            <a href="{{route('programs-MA-Clinical-Psychology')}}"
-                                                class="text-primary"><span style="font-size: 16px;"> Duration: 2
-                                                    years | Admission Fee: 60000.00</span></a>
-                                        </p>
-                                    </td>
-                                    <td>85000.00</td>
-                                    <td>43500.00</td>
-                                    <td><a href="{{route('programs-MA-Clinical-Psychology')}}"><button type="button"
-                                                class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                    </td>
-                                </tr> --}}
-
                                 <tr>
                                     <td>2.</td>
                                     <td>
