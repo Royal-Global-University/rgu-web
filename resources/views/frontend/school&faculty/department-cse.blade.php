@@ -15,7 +15,7 @@
                         class="headd3 text-dark fw-bold p-3"
                         style="background-color: #c7daf9; color: #ffffff"
                       >
-                        5. Events & Achievements
+                        1. Events & Achievements
                       </h3>
                       <div class="table-responsive">
                         <table
@@ -395,7 +395,7 @@
                         class="headd3 text-dark fw-bold p-3"
                         style="background-color: #c7daf9; color: #ffffff"
                       >
-                        6. Departmental Research Statistics
+                        2. Departmental Research Statistics
                       </h3>
                       <div class="text-dark">
                         <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">
@@ -414,7 +414,7 @@
                         class="headd3 text-dark fw-bold p-3"
                         style="background-color: #c7daf9; color: #ffffff"
                       >
-                        7. The Board of Studies (BoS)
+                        3. The Board of Studies (BoS)
                       </h3>
                       <div class="table-responsive">
                         <table
@@ -495,7 +495,7 @@
                         class="headd3 text-dark fw-bold p-3"
                         style="background-color: #c7daf9; color: #ffffff"
                       >
-                        8. The Departmental Research Committee (DRC)
+                        4. The Departmental Research Committee (DRC)
                       </h3>
                       <div class="table-responsive">
                         <table
@@ -587,7 +587,7 @@
                       class="headd3 text-dark fw-bold p-3"
                       style="background-color: #c7daf9; color: #ffffff"
                     >
-                      9. Course Structure & Syllabus
+                      5. Course Structure & Syllabus
                     </h3>
                     <div class="p-2">
                       <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">Syllabus -</h3>
@@ -716,7 +716,7 @@
               class="headd3 text-dark fw-bold p-3"
               style="background-color: #c7daf9; color: #ffffff"
             >
-              5. Events & Achievements
+              1. Events & Achievements
             </h3>
             <div>
               <table
@@ -1096,7 +1096,7 @@
               class="headd3 text-dark fw-bold p-3"
               style="background-color: #c7daf9; color: #ffffff"
             >
-              6. Departmental Research Statistics
+              2. Departmental Research Statistics
             </h3>
             <div class="text-dark">
               <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">
@@ -1115,7 +1115,7 @@
               class="headd3 text-dark fw-bold p-3"
               style="background-color: #c7daf9; color: #ffffff"
             >
-              7. The Board of Studies (BoS)
+              3. The Board of Studies (BoS)
             </h3>
             <div>
               <table
@@ -1196,7 +1196,7 @@
               class="headd3 text-dark fw-bold p-3"
               style="background-color: #c7daf9; color: #ffffff"
             >
-              8. The Departmental Research Committee (DRC)
+              4. The Departmental Research Committee (DRC)
             </h3>
             <div>
               <table
@@ -1288,7 +1288,7 @@
             class="headd3 text-dark fw-bold p-3"
             style="background-color: #c7daf9; color: #ffffff"
           >
-            9. Course Structure & Syllabus
+            5. Course Structure & Syllabus
           </h3>
           <div class="p-2">
             <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">Syllabus -</h3>
