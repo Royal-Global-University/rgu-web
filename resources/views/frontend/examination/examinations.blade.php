@@ -1,7 +1,8 @@
 @extends('frontend.master')
 @section('content')
     <div class="mobile">
-        <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
+        @include('frontend/components/mobileheader')
+        <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px; padding-top: 90px; position: relative;">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12">
@@ -120,6 +121,7 @@
     </div>
 
     <div class="website">
+        @include('frontend/components/aheader')
         <!--head image Section-->
         <section
             style="background-image: url(mobile-assets/examination/about/bgg.svg); background-size: cover; padding: 50px 0px;">
@@ -164,9 +166,9 @@
 
             <div style="margin: 30px 0px 30px 0px;">
                 <section class="row">
-                    
+
                     <div class="col-lg-4 pb-3">
-                        <a href="examinations-members.html" class="button para1"
+                        <a href="examination-members" class="button para1"
                             style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
                             Office of the COE
                         </a>
@@ -199,13 +201,13 @@
                                 Results
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a href="examinations-diploma.html"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
+                                <li><a href="examination-diploma"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
                                             type="button">Diploma</button></a></li>
-                                <li><a href="examinations-under-grad.html"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
+                                <li><a href="examination-under-graduate"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
                                             type="button">Under-Graduate</button></a></li>
-                                <li><a href="examinations-post-grad.html"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
+                                <li><a href="examination-post-graduate"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
                                             type="button">Post-Graduate</button></a></li>
-                                <li><a href="examinations-phd.html"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
+                                <li><a href="examination-phd"><button class="dropdown-item para1 fw-bold" style="color: #264273;"
                                             type="button">Doctoral Course</button></a></li>
                             </ul>
                         </div>

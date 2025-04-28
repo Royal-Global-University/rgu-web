@@ -2409,3 +2409,23 @@ Route::get('/international-programs-Bachelor-Travel', function () {
 Route::get('/examinations', function () {
     return view('frontend/examination/examinations');
 })->name('examinations');
+
+Route::get('/examination-members', function () {
+    return view('frontend/examination/examination-members');
+})->name('examination-members');
+
+Route::get('/examination-diploma', function () {
+    return view('frontend/examination/examination-diploma');
+})->name('examination-diploma');
+
+Route::get('/examination-post-graduate', function () {
+    return view('frontend/examination/examination-post-graduate');
+})->name('examination-post-graduate');
+
+Route::get('/examination-under-graduate', function () {
+    return view('frontend/examination/examination-under-graduate');
+})->name('examination-under-graduate');
+
+Route::get('/examination-phd', function () {
+    return view('frontend/examination/examination-phd');
+})->name('examination-phd');
