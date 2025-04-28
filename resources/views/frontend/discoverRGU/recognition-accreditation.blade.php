@@ -132,10 +132,10 @@
                 <div class="col-lg-12">
                     <h2 class="mobile-headd2 fw-bold text-center" style="color: #27467A;">NURSING PROGRAMMES APPROVED BY INDIAN NURSING COUNCIL (INC)</h2>
                     <p class="mobile-para1 text-dark text-center" style="text-align: justify;">
-                        B.Sc. Nursing programme is approved by Indian Nursing Council (INC)
-                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/11a.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Notification - 9th April, 2019</a>
-                    <br><a download style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/11b.jpg"> <i class="fas fa-image"></i> Click Here to View Approval Letter</a>
-                </p>
+                        GNM and B.Sc. Nursing programme is approved by Indian Nursing Council (INC)
+                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/nursing/INC for GNM 2025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View</a>
+                    <br><a download style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/nursing/INC for B.Sc. Nursing 2025-26.jpg"> <i class="fas fa-image"></i> Click Here to View</a>
+                    </p>
                 </div>
             </div>
 
@@ -309,9 +309,11 @@
             <div class="col-lg-8">
                 <h2 class="headd2 fw-bold" style="color: #27467A;">NURSING PROGRAMMES APPROVED BY INDIAN NURSING COUNCIL (INC)</h2>
                 <p class="para1 text-dark" style="text-align: justify;">
-                    B.Sc. Nursing programme is approved by Indian Nursing Council (INC)
-                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/11a.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Notification - 9th April, 2019</a>
-                <br><a download style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/11b.jpg"> <i class="fas fa-image"></i> Click Here to View Approval Letter</a>
+                    GNM and B.Sc. Nursing programme is approved by Indian Nursing Council (INC)
+                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/nursing/INC for GNM 2025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a>
+                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold"
+                    href="mobile-assets/recognition/nursing/INC for B.Sc. Nursing 2025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View
+                    Approval Letter</a>
             </p>
             </div>
         </div>
