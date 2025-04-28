@@ -124,6 +124,10 @@ Route::get('/footprints', function () {
     return view('frontend/discoverRGU/footprints');
 })->name('footprints');
 
+Route::get('/privacy&security', function () {
+    return view('frontend/discoverRGU/privacy&security');
+})->name('privacy&security');
+
 Route::get('/association-tieup', function () {
     return view('frontend/discoverRGU/association-tieup');
 })->name('association-tieup');
