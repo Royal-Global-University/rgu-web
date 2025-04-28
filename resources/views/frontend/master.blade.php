@@ -60,6 +60,9 @@
     <script src='{{ asset("assets/js/woocommerce.min.js") }}' id="woocommerce-js" defer data-wp-strategy="defer"></script>
 
     <style>
+        a {
+            text-decoration: none !important;
+        }
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
             background-image: none !important;
@@ -874,7 +877,7 @@
                                             <a href="https://rgujournal.in/">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">RGU Journal</p>
                                             </a>
-                                            <a href="">
+                                            <a href="https://alumni.rgu.ac/">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Alumni</p>
                                             </a>
                                             <a target="_blank" href="https://shodhchakra.inflibnet.ac.in/">

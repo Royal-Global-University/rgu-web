@@ -1578,13 +1578,14 @@
                      <tr>
                        <td>2</td>
                        <td>All Heads of the Departments - Member (Ex-Officio)</td>
-                       <td>Dr. Bitopi Gogoi, Associate Professor &amp; HOD</td>
+                       <td>Dr. Arpee Saikia, Associate Professor &amp; HOD</td>
                      </tr>
                      <tr>
                        <td>3</td>
                        <td>External Experts for each Department (Academic)</td>
                        <td>
-                         Prof. (Dr.) N.N. Sarma, Professor, Management, K.K.H.S.O.U.
+                         Prof. (Dr.) N.N. Sarma, Professor, Management, K.K.H.S.O.U.<br>
+                        Prof. S. Sebastian, Professor, Christ University
                        </td>
                      </tr>
                      <tr>
@@ -1601,13 +1602,13 @@
                        <td>
                          Dr. Rishi Chakravarty, Associate Professor
                          <hr />
-                         Dr. Arpee Saikia, Associate Professor
+                        Dr. Darshana Bhagowati
                        </td>
                      </tr>
                      <tr>
                        <td>6</td>
                        <td>Registrar, Member Secretary (Ex-officio)</td>
-                       <td>Prof. (Dr.) Dip Narayain Singh, Registrar</td>
+                       <td>Dr. Diganta Munshi, Registrar-Administration</td>
                      </tr>
                    </tbody>
                  </table>
@@ -1651,8 +1652,8 @@
                        <td>Member</td>
                      </tr>
                      <tr>
-                       <td>Prof (Dr.) Saket Jeswani</td>
-                       <td>Dean Consultancy, Innovation, MDP</td>
+                       <td>Prof (Dr.) Samip Baruah</td>
+                       <td>Professor</td>
                        <td>Member</td>
                      </tr>
                      <tr>
@@ -1661,14 +1662,14 @@
                          Two Associate Professors – one of them will be the member
                          secretary
                        </td>
-                       <td>Dr. Bitopi Gogoi</td>
+                       <td>Dr. Rishi Chakravarty</td>
                        <td>Associate Professor</td>
                        <td>Member Secretary</td>
                      </tr>
                      <tr>
-                       <td>Dr. Rishi Chakravarty</td>
+                       {{-- <td>Dr. Rishi Chakravarty</td>
                        <td>Associate Professor</td>
-                       <td>Member</td>
+                       <td>Member</td> --}}
                      </tr>
                      <tr>
                        <td rowspan="2">4</td>
@@ -1680,9 +1681,10 @@
                        <td>Member</td>
                      </tr>
                      <tr>
-                       <td>7</td>
+
                        <td>Dr. Suman Agarwal</td>
-                       <td>Assistant Professor <br>Member</td>
+                       <td>Assistant Professor</td>
+                    <td>Member</td>
                      </tr>
                      <tr>
                        <td rowspan="3">5</td>
