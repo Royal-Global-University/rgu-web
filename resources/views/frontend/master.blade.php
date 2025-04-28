@@ -846,7 +846,7 @@
                                             <a href="">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
                                             </a>
-                                            <a href="">
+                                            <a href="research-devlopment">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Research &
                                                     Development</p>
                                             </a>

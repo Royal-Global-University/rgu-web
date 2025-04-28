@@ -2433,3 +2433,47 @@ Route::get('/examination-under-graduate', function () {
 Route::get('/examination-phd', function () {
     return view('frontend/examination/examination-phd');
 })->name('examination-phd');
+
+
+//Research
+Route::get('/research-devlopment', function () {
+    return view('frontend/research/research');
+})->name('research');
+
+Route::get('/research-preamble', function () {
+    return view('frontend/research/research-preamble');
+})->name('research-preamble');
+
+Route::get('/research-r&d-team', function () {
+    return view('frontend/research/research-r&d-team');
+})->name('research-r&d-team');
+
+Route::get('/research-publication', function () {
+    return view('frontend/research/research-publication');
+})->name('research-publication');
+
+Route::get('/research-extramural', function () {
+    return view('frontend/research/research-extramural');
+})->name('research-extramural');
+
+Route::get('/research-seed-grants-projects', function () {
+    return view('frontend/research/research-seed-grants-projects');
+})->name('research-seed-grants-projects');
+
+Route::get('/research-consultancy-projects', function () {
+    return view('frontend/research/research-consultancy-projects');
+})->name('research-consultancy-projects');
+
+Route::get('/research-csif', function () {
+    return view('frontend/research/research-csif');
+})->name('research-csif');
+
+Route::get('/research-patents', function () {
+    return view('frontend/research/research-patents');
+})->name('research-patents');
+
+Route::get('/research-policies&ethics', function () {
+    return view('frontend/research/research-policies&ethics');
+})->name('research-policies&ethics');
+
+
