@@ -1254,6 +1254,33 @@
                 </div>
 
                 <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="headingTwelve">
+                        <button style="font-size: 18px; background-color: #00465d;" class="accordion-button collapsed text-white para1"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyfour" aria-expanded="true"
+                            aria-controls="collapseTwentyfour">
+                            Royal School of Agriculture (RSAG)
+                        </button>
+                    </h2>
+                    <div id="collapseTwentyfour" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body" style="background-color: #fff;">
+                            <p class="m-0 pb-4 text-dark fw-bold para1">AGRICULTURE</p>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <a href="{{route('program-bsc-agriculture')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Agriculture</p>
+                                            <p class="text-center text-white para1">4 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-2">
                     <h2 class="accordion-header" id="headingThirteen">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
@@ -2425,8 +2452,6 @@
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
 

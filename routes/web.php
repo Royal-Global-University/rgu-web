@@ -868,6 +868,10 @@ Route::get('/admission-programs-fees-structure', function () {
     return view('frontend/programmes/admission-programs-fees-structure');
 })->name('admission-programs-fees-structure');
 
+Route::get('/program-bsc-agriculture', function () {
+    return view('frontend/programmes/program-bsc-agriculture');
+})->name('program-bsc-agriculture');
+
 Route::get('/program-bsc-cssd', function () {
     return view('frontend/programmes/program-bsc-cssd');
 })->name('program-bsc-cssd');
@@ -2252,6 +2256,7 @@ Route::get('/international-programs-BA-Political-Science', function () {
 Route::get('/international-programs-BA-History', function () {
     return view('frontend/international-fee/international-programs-BA-History');
 })->name('international-programs-BA-History');
+
 //Royal School of Hotel Management (RSHM)
 Route::get('/international-programs-BA-HotelManagement', function () {
     return view('frontend/international-fee/international-programs-BA-HotelManagement');
@@ -2284,6 +2289,7 @@ Route::get('/international-programs-BSc-IT', function () {
 Route::get('/international-programs-MSc-IT', function () {
     return view('frontend/international-fee/international-programs-MSc-IT');
 })->name('international-programs-MSc-IT');
+
 //Royal School of Languages (RSL)
 Route::get('/international-programs-MA-English', function () {
     return view('frontend/international-fee/international-programs-MA-English');
@@ -2292,6 +2298,7 @@ Route::get('/international-programs-MA-English', function () {
 Route::get('/international-programs-BA-English', function () {
     return view('frontend/international-fee/international-programs-BA-English');
 })->name('international-programs-BA-English');
+
 //Royal School of Law & Administration (RSLA)
 Route::get('/international-programs-LLM-Day-Shift', function () {
     return view('frontend/international-fee/international-programs-LLM-Day-Shift');
