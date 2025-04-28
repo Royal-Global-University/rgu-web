@@ -862,7 +862,7 @@ Route::get('/programs', function () {
 
 Route::get('/admission-programs-fees-structure', function () {
     return view('frontend/programmes/admission-programs-fees-structure');
-})->name('admission-programs-fees-structure');  
+})->name('admission-programs-fees-structure');
 
 Route::get('/program-bsc-cssd', function () {
     return view('frontend/programmes/program-bsc-cssd');
@@ -2403,3 +2403,9 @@ Route::get('/international-programs-Master-Travel&Tourism', function () {
 Route::get('/international-programs-Bachelor-Travel', function () {
     return view('frontend/international-fee/international-programs-Bachelor-Travel');
 })->name('international-programs-Bachelor-Travel');
+
+//Examination
+
+Route::get('/examinations', function () {
+    return view('frontend/examination/examinations');
+})->name('examinations');

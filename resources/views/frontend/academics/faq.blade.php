@@ -10,28 +10,7 @@
             <!-- accordion  -->
             <div class="container">
 
-                <!-- search  -->
-                <div class="search-box pt-4 pb-4">
-
-                    <div class="row height d-flex justify-content-center align-items-center">
-
-                        <div class="col-md-6">
-
-                            <div class="form d-flex justify-content-center align-items-center">
-                                <i class="fa fa-search"></i>
-                                <input type="text" class="form-control form-input para1" placeholder="Search anything...">
-                                <a style="margin-left: 20px; display: flex; align-items: center; justify-content: center; background-color: #27467A; color: #fff; padding: 10px 20px 10px 20px;"
-                                    class="btn btn para1 fw-bold" href="#" role="button">Search</a>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- search  -->
-
-                <div class="row">
+                <div class="row pt-5">
 
                     <div class="accordion" id="accordionExample">
 
@@ -7086,28 +7065,7 @@
           <!-- accordion  -->
           <div class="container-fluid accordionnew">
 
-             <!-- search  -->
-          <div class="search-box pt-2 pb-4">
-
-            <div class="row height d-flex justify-content-center align-items-center">
-
-              <div class="col-md-6">
-
-                <div class="form d-flex justify-content-center align-items-center">
-                  <i class="fa fa-search"></i>
-                  <input type="text" class="form-control form-input para1" placeholder="Search anything...">
-                  <a style="margin-left: 20px; display: flex; align-items: center; justify-content: center; background-color: #27467A; color: #fff; padding: 10px 20px 10px 20px;" class="btn btn para1 fw-bold" href="#" role="button">Search</a>
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-          <!-- search  -->
-
-
-            <div class="row">
+            <div class="row pt-5">
 
                 <div class="accordion" id="accordionExample">
 
