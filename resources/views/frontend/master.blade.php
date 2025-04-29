@@ -822,9 +822,7 @@
                                             <a href="https://rgu.rinneone.app/">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online</p>
                                             </a>
-                                            <a href="recognition-accreditation">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Accreditation</p>
-                                            </a>
+
                                         </div>
 
                                         <div class="col-lg-3 pb-4">
@@ -841,18 +839,16 @@
                                             <a href="jobs-vacancies">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs & Vacancies</p>
                                             </a>
-                                            <a href="">
+                                            {{-- <a href="">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
-                                            </a>
+                                            </a> --}}
                                             <a href="research-devlopment">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Research &
                                                     Development</p>
                                             </a>
-
-
-                                        </div>
-
-                                        <div class="col-lg-3">
+                                            <a href="recognition-accreditation">
+                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Accreditation</p>
+                                            </a>
                                             <a href="happy-happening">
                                                 <p class="m-0 text-white" style="font-size: 18px;">Campus Visit</p>
                                             </a>
@@ -863,6 +859,11 @@
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Brochure 2025 - 2026
                                                 </p>
                                             </a>
+
+                                        </div>
+
+                                        <div class="col-lg-3">
+
                                             <a href="https://heyzine.com/flip-book/adfd7889ba.html">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">International 2025 -
                                                     2026</p>
