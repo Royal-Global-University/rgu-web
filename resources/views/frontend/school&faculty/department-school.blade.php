@@ -24,7 +24,7 @@
         <div class="container pb-5">
             <div class="row">
                 <div class="col-md-4">
-                    <a href="Department-CSE.html">
+                    <a href="Department-CSE">
                         <div class="card p-4">
                             <div class="icon mb-3">
                                 <i class="fas fa-globe"></i>
@@ -34,7 +34,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="Department-Mechanical-Engineering.html">
+                    <a href="Department-Mechanical-Engineering">
                         <div class="card p-4">
                             <div class="icon mb-3">
                                 <i class="fas fa-leaf"></i>
@@ -44,7 +44,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="Department-Civil-Engineering.html">
+                    <a href="Department-Civil-Engineering">
                         <div class="card p-4">
                             <div class="icon mb-3">
                                 <i class="fas fa-mountain"></i>

@@ -785,7 +785,7 @@
                     >
                       <div class="accordion-body">
                         <a
-                          href="doctoral-programme.html"
+                          href="doctoral-programme"
                           class="para1"
                           target="_blank"
                           >
@@ -1589,7 +1589,7 @@
                     >
                       <div class="accordion-body">
                         <a
-                          href="doctoral-programme.html"
+                          href="doctoral-programme"
                           class="para1"
                           target="_blank"
                           >

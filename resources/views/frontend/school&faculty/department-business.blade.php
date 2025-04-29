@@ -936,7 +936,7 @@
              <!--End Header-->
 
 
-           <img src="mobile-assets/dept-business/business-web.png" alt="">
+           <img src="mobile-assets/business-web.png" alt="">
        <!--About Section-->
 
          <div class="container pb-5">

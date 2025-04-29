@@ -24,7 +24,7 @@
         <div class="container pb-5">
             <div class="row">
                 <div class="col-md-4">
-                    <a href="Department-Product-Design.html">
+                    <a href="Department-Product-Design">
                         <div class="card p-4">
                             <div class="icon mb-3">
                                 <i class="fas fa-dna"></i>
@@ -34,7 +34,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="Department-Communication-Design.html">
+                    <a href="Department-Communication-Design">
                         <div class="card p-4">
                             <div class="icon mb-3">
                                 <i class="fas fa-comments"></i>
@@ -44,7 +44,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="Department-Interior-Design.html">
+                    <a href="Department-Interior-Design">
                         <div class="card p-4">
                             <div class="icon mb-3">
                                 <i class="fas fa-couch"></i>
@@ -54,7 +54,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="Department-Graphic-Design.html">
+                    <a href="Department-Graphic-Design">
                         <div class="card p-4">
                             <div class="icon mb-3">
                                 <i class="fas fa-palette"></i>

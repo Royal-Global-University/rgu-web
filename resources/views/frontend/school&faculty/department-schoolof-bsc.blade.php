@@ -24,7 +24,7 @@
         <div class="container pb-5">
             <div class="row">
                 <div class="col-md-4">
-                    <a href="Department-Biotechnology.html">
+                    <a href="Department-Biotechnology">
                         <div class="card p-4">
                             <div class="icon mb-3">
                                 <i class="fas fa-dna"></i>
@@ -34,7 +34,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="Department-Microbiology.html">
+                    <a href="Department-Microbiology">
                         <div class="card p-4">
                             <div class="icon mb-3">
                                 <i class="fas fa-bacterium"></i>
@@ -44,7 +44,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="Department-Food-Technology.html">
+                    <a href="Department-Food-Technology">
                         <div class="card p-4">
                             <div class="icon mb-3">
                                 <i class="fas fa-utensils"></i>

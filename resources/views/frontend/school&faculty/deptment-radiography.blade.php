@@ -291,7 +291,7 @@
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <a href="doctoral-programme.html" class="para1" target="_blank">
+                                        <a href="doctoral-programme" class="para1" target="_blank">
                                             <strong>
                                                 Click to View...
                                             </strong>

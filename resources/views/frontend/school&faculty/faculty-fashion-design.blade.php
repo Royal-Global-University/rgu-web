@@ -18,14 +18,14 @@
                 <!-- MAIN SECTION  -->
                 <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
             Royal School of <span style="color: #FF9A1E; font-weight: 500;">Fashion Design & Technology (RSFT)</span></h2>
-    
+
         <div class="container">
-                <div class="row"> 
-                    <div class="col-lg-3 mb-4">         
-                        <a href="HariPrasadAgarwal.html">
+                <div class="row">
+                    <div class="col-lg-3 mb-4">
+                        <a href="HariPrasadAgarwal">
                             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                                 <div class="p-3">
-                                  <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/RSA.015.jpeg" class="img-fluid rounded"/>  
+                                  <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/RSA.015.jpeg" class="img-fluid rounded"/>
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                   <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Hari Prasad Agarwal</h5>
@@ -37,10 +37,10 @@
                     </div>
 
                 <div class="col-lg-3 mb-4">
-                    <a href="Mr.AsifMazid.html">
+                    <a href="Mr.AsifMazid">
                     <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                         <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/RSFT.001.jpeg" class="img-fluid rounded"/>  
+                          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/RSFT.001.jpeg" class="img-fluid rounded"/>
                         </div>
                         <div class="card-body d-flex flex-column flex-grow-1">
                           <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Mr. Asif Mazid</h5>
@@ -51,10 +51,10 @@
             </div>
 
             <div class="col-lg-3 mb-4">
-                <a href="Ms.AkritiMazumdar.html">
+                <a href="Ms.AkritiMazumdar">
                 <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                     <div class="p-3">
-                      <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/RSFT.002.jpeg" class="img-fluid rounded"/>  
+                      <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/RSFT.002.jpeg" class="img-fluid rounded"/>
                     </div>
                     <div class="card-body d-flex flex-column flex-grow-1">
                       <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Akriti Mazumdar</h5>
@@ -65,10 +65,10 @@
         </div>
 
         <div class="col-lg-3 mb-4">
-            <a href="Ms.ArunivaBhagwati.html">
+            <a href="Ms.ArunivaBhagwati">
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/ARUNIVABHAGAWATI.jpeg" class="img-fluid rounded"/>  
+                  <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/ARUNIVABHAGAWATI.jpeg" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Aruniva Bhagwati</h5>
@@ -79,10 +79,10 @@
     </div>
 
     <div class="col-lg-3 mb-4">
-        <a href="Ms.GazalaAnjumGoney.html">
+        <a href="Ms.GazalaAnjumGoney">
         <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
             <div class="p-3">
-              <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/RSFT.003.jpeg" class="img-fluid rounded"/>  
+              <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/RSFT.003.jpeg" class="img-fluid rounded"/>
             </div>
             <div class="card-body d-flex flex-column flex-grow-1">
               <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Gazala Anjum Goney</h5>
@@ -92,10 +92,10 @@
     </a>
 </div>
 <div class="col-lg-3 mb-4">
-    <a href="Ms.PubikaMichong.html">
+    <a href="Ms.PubikaMichong">
     <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
         <div class="p-3">
-          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/RSFT.005.jpeg" class="img-fluid rounded"/>  
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/RSFT.005.jpeg" class="img-fluid rounded"/>
         </div>
         <div class="card-body d-flex flex-column flex-grow-1">
           <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Pubika Michong</h5>
@@ -105,10 +105,10 @@
 </a>
 </div>
 <div class="col-lg-3 mb-4">
-    <a href="Ms.SukritiBaruah.html">
+    <a href="Ms.SukritiBaruah">
     <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
         <div class="p-3">
-          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/SukritiBaruah.jpeg" class="img-fluid rounded"/>  
+          <img style="height: 290px; width: 100%;" src="assets/img/Faculty/Fashion Design/SukritiBaruah.jpeg" class="img-fluid rounded"/>
         </div>
         <div class="card-body d-flex flex-column flex-grow-1">
           <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Ms. Sukriti Baruah</h5>

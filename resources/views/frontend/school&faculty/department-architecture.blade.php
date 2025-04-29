@@ -437,7 +437,7 @@
                                         <div id="collapseThree" class="accordion-collapse collapse"
                                             aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a href="doctoral-programme.html" class="mobile-para1"
+                                                <a href="doctoral-programme" class="mobile-para1"
                                                     target="_blank"><strong>Click to View...</strong></a>
                                             </div>
                                         </div>
@@ -887,7 +887,7 @@
                                         <div id="collapseThree" class="accordion-collapse collapse"
                                             aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a href="doctoral-programme.html" class="mobile-para1"
+                                                <a href="doctoral-programme" class="mobile-para1"
                                                     target="_blank"><strong>Click to View...</strong></a>
                                             </div>
                                         </div>
