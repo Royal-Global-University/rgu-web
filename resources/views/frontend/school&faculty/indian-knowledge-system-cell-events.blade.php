@@ -26,11 +26,11 @@
                 </h3>
 
                 <div class="row p-2 fw-bold para1" style="color: #146dd3">
-                    <a href="assets/img/IKS/AY 2023-24 IKS (Revised).pdf" target="_blank">
+                    <a href="mobile-assets/dept-indian-knowledge-sys/AY 2023-24 IKS (Revised).pdf" target="_blank">
                         <i class="fa fa-file-text px-2"></i> AY 2023-24 IKS
                         <i class="fa fa-download"></i>
                     </a>
-                    <a href="assets/img/IKS/IKS Final Revised Syllabus- 2024-25.pdf" target="_blank">
+                    <a href="mobile-assets/dept-indian-knowledge-sys/IKS Final Revised Syllabus- 2024-25.pdf" target="_blank">
                         <i class="fa fa-file-text px-2"></i> AY 2024-25 IKS
                         <i class="fa fa-download"></i>
                     </a>
@@ -67,11 +67,11 @@
                     </h3>
 
                     <div class="row p-2 fw-bold mobile-para1" style="color: #146dd3">
-                        <a href="assets/img/IKS/AY 2023-24 IKS (Revised).pdf" target="_blank">
+                        <a href="mobile-assets/dept-indian-knowledge-sys/AY 2023-24 IKS (Revised).pdf" target="_blank">
                             <i class="fa fa-file-text px-2"></i> AY 2023-24 IKS
                             <i class="fa fa-download"></i>
                         </a>
-                        <a href="assets/img/IKS/IKS Final Revised Syllabus- 2024-25.pdf" target="_blank">
+                        <a href="mobile-assets/dept-indian-knowledge-sys/IKS Final Revised Syllabus- 2024-25.pdf" target="_blank">
                             <i class="fa fa-file-text px-2"></i> AY 2024-25 IKS
                             <i class="fa fa-download"></i>
                         </a>
