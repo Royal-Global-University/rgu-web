@@ -493,7 +493,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Pure_Sciences(RSAPS).html">
+                        <a href="Research_Department_Pure_Sciences">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -513,7 +513,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Architecture(RSA).html">
+                        <a href="Research_Department_Architecture">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -553,7 +553,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Bio_sciences_(RSBSC).html">
+                        <a href="Research_Department_Bio_sciences">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -573,7 +573,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Business_(RSB).html">
+                        <a href="Research_Department_Business">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -592,7 +592,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Commerce_(RSC).html">
+                        <a href="Research_Department_Commerce">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -612,7 +612,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Communications_Media(RSCOM).html">
+                        <a href="Research_Department_Communications_Media">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -632,7 +632,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Design_(RSD).html">
+                        <a href="Research_Department_Design">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -652,7 +652,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Engineering_Technology(RSET).html">
+                        <a href="Research_Department_Engineering_Technology">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -672,7 +672,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Environmental_Earth_Sciences.html">
+                        <a href="Research_Department_Environmental_Earth_Sciences">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -692,7 +692,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Fashion_Design_Technology(RSFT).html">
+                        <a href="Research_Department_Fashion_Design_Technology">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -712,7 +712,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Fine_Arts.html">
+                        <a href="Research_Department_Fine_Arts">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -752,7 +752,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Humanities_Social_Sciences.html">
+                        <a href="Research_Department_Humanities_Social_Sciences">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -772,7 +772,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Information_Technology_(RSIT).html">
+                        <a href="Research_Department_Information_Technology">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -792,7 +792,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Languages(RSL).html">
+                        <a href="Research_Department_Languages">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -812,7 +812,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Library_Information_Sciences_(RSLIS).html.html">
+                        <a href="Research_Department_Library_Information_Sciences">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -832,7 +832,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Law_Administration(RSLA).html">
+                        <a href="Research_Department_Law_Administration">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -852,7 +852,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Life_Sciences.html">
+                        <a href="Research_Department_Life_Sciences">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -872,7 +872,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Medical_Allied_Sciences.html">
+                        <a href="Research_Department_Medical_Allied_Sciences">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -892,7 +892,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Nursing(RSN).html">
+                        <a href="Research_Department_Nursing">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -912,7 +912,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Pharmacy_(RSP).html">
+                        <a href="Research_Department_Pharmacy">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">
@@ -932,7 +932,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Travel_Tourism.html">
+                        <a href="Research_Department_Travel_Tourism">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 360px;">
                                 <div class="p-3">

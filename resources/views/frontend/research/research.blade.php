@@ -141,25 +141,25 @@
                 <div class="card p-3">
                     <div class="row p-3">
                         <div class="col-lg-3">
-                            <a href="research-preamble_research.html"
+                            <a href="research-preamble_research"
                                 style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;"
                                 class="btn btn-lg active headdd3 mb-3" role="button" aria-pressed="true">Preamble of Research</a>
                         </div>
 
                         <div class="col-lg-3">
-                            <a href="research-r&d-team.html"
+                            <a href="research-r&d-team"
                                 style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;"
                                 class="btn btn-lg active headdd3 mb-3" role="button" aria-pressed="true">R&D Team</a>
                         </div>
 
                         <div class="col-lg-3">
-                            <a href="research-research-at-rgu.html"
+                            <a href="research-devlopment"
                                 style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;"
                                 class="btn btn-lg active headdd3 mb-3" role="button" aria-pressed="true">Research at RGU</a>
                         </div>
 
                         <div class="col-lg-3">
-                            <a href="research-publications.html"
+                            <a href="research-publications"
                                 style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;"
                                 class="btn btn-lg active headdd3 mb-3" role="button" aria-pressed="true">Publications</a>
                         </div>
@@ -173,30 +173,30 @@
                                     Projects
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="research-extramural-projects.html">Extramural Projects</a>
+                                    <li><a class="dropdown-item" href="research-extramural-projects">Extramural Projects</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="research-RGU-seed-grants-projects.html">RGU Seed Grant</a>
+                                    <li><a class="dropdown-item" href="research-RGU-seed-grants-projects">RGU Seed Grant</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="research-consultancy-projects.html">Consultancy Projetcs</a>
+                                    <li><a class="dropdown-item" href="research-consultancy-projects">Consultancy Projetcs</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="col-lg-3">
-                            <a href="research-Patents.html"
+                            <a href="research-Patents"
                                 style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;"
                                 class="btn btn-lg active headdd3 mb-3" role="button" aria-pressed="true">Patents</a>
                         </div>
 
                         <div class="col-lg-3">
-                            <a href="research-CSIF.html"
+                            <a href="research-CSIF"
                                 style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;"
                                 class="btn btn-lg active headdd3 mb-3" role="button" aria-pressed="true">CSIF</a>
                         </div>
 
                         <div class="col-lg-3">
-                            <a href="research-policies&ethics.html"
+                            <a href="research-policies&ethics"
                                 style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;"
                                 class="btn btn-lg active headdd3 mb-3" role="button" aria-pressed="true">Policies and Ethics</a>
                         </div>
@@ -359,7 +359,7 @@
                     </div>
 
                     <div class="col-lg-3">
-                        <a href=""
+                        <a href="research-department"
                             style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;"
                             class="btn btn-lg active headdd3 mb-3" role="button" aria-pressed="true">Research at RGU</a>
                     </div>

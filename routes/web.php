@@ -2493,5 +2493,86 @@ Route::get('/Research_Department_Pure_Sciences', function () {
     return view('frontend/research/dept/Research_Department_Pure_Sciences');
 })->name('Research_Department_Pure_Sciences');
 
+Route::get('/Research_Department_Architecture', function () {
+    return view('frontend/research/dept/Research_Department_Architecture');
+})->name('Research_Department_Architecture');
+
+Route::get('/Research_Department_Bio_sciences', function () {
+    return view('frontend/research/dept/Research_Department_Bio_sciences');
+})->name('Research_Department_Bio_sciences');
+
+Route::get('/Research_Department_Business', function () {
+    return view('frontend/research/dept/Research_Department_Business');
+})->name('Research_Department_Business');
+
+Route::get('/Research_Department_Commerce', function () {
+    return view('frontend/research/dept/Research_Department_Commerce');
+})->name('Research_Department_Commerce');
+
+Route::get('/Research_Department_Communications_Media', function () {
+    return view('frontend/research/dept/Research_Department_Communications_Media');
+})->name('Research_Department_Communications_Media');
+
+Route::get('/Research_Department_Design', function () {
+    return view('frontend/research/dept/Research_Department_Design');
+})->name('Research_Department_Design');
+
+//
+
+Route::get('/Research_Department_Engineering_Technology', function () {
+    return view('frontend/research/dept/Research_Department_Engineering_Technology');
+})->name('Research_Department_Engineering_Technology');
+
+Route::get('/Research_Department_Environmental_Earth_Sciences', function () {
+    return view('frontend/research/dept/Research_Department_Environmental_Earth_Sciences');
+})->name('Research_Department_Environmental_Earth_Sciences');
+
+Route::get('/Research_Department_Fashion_Design_Technology', function () {
+    return view('frontend/research/dept/Research_Department_Fashion_Design_Technology');
+})->name('Research_Department_Fashion_Design_Technology');
+
+Route::get('/Research_Department_Fine_Arts', function () {
+    return view('frontend/research/dept/Research_Department_Fine_Arts');
+})->name('Research_Department_Fine_Arts');
+
+Route::get('/Research_Department_Humanities_Social_Sciences', function () {
+    return view('frontend/research/dept/Research_Department_Humanities_Social_Sciences');
+})->name('Research_Department_Humanities_Social_Sciences');
+
+Route::get('/Research_Department_Information_Technology', function () {
+    return view('frontend/research/dept/Research_Department_Information_Technology');
+})->name('Research_Department_Information_Technology');
+
+Route::get('/Research_Department_Languages', function () {
+    return view('frontend/research/dept/Research_Department_Languages');
+})->name('Research_Department_Languages');
+
+Route::get('/Research_Department_Library_Information_Sciences', function () {
+    return view('frontend/research/dept/Research_Department_Library_Information_Sciences');
+})->name('Research_Department_Library_Information_Sciences');
+
+Route::get('/Research_Department_Law_Administration', function () {
+    return view('frontend/research/dept/Research_Department_Law_Administration');
+})->name('Research_Department_Law_Administration');
+
+Route::get('/Research_Department_Life_Sciences', function () {
+    return view('frontend/research/dept/Research_Department_Life_Sciences');
+})->name('Research_Department_Life_Sciences');
+
+Route::get('/Research_Department_Medical_Allied_Sciences', function () {
+    return view('frontend/research/dept/Research_Department_Medical_Allied_Sciences');
+})->name('Research_Department_Medical_Allied_Sciences');
+
+Route::get('/Research_Department_Nursing', function () {
+    return view('frontend/research/dept/Research_Department_Nursing');
+})->name('Research_Department_Nursing');
+
+Route::get('/Research_Department_Travel_Tourism', function () {
+    return view('frontend/research/dept/Research_Department_Travel_Tourism');
+})->name('Research_Department_Travel_Tourism');
+
+Route::get('/Research_Department_Pharmacy', function () {
+    return view('frontend/research/dept/Research_Department_Pharmacy');
+})->name('Research_Department_Pharmacy');
 
 
