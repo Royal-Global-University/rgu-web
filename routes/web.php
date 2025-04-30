@@ -2483,4 +2483,15 @@ Route::get('/research-policies&ethics', function () {
     return view('frontend/research/research-policies&ethics');
 })->name('research-policies&ethics');
 
+//Research Department
+
+Route::get('/research-department', function () {
+    return view('frontend/research/dept/research-department');
+})->name('research-department');
+
+Route::get('/Research_Department_Pure_Sciences', function () {
+    return view('frontend/research/dept/Research_Department_Pure_Sciences');
+})->name('Research_Department_Pure_Sciences');
+
+
 
