@@ -2517,8 +2517,6 @@ Route::get('/Research_Department_Design', function () {
     return view('frontend/research/dept/Research_Department_Design');
 })->name('Research_Department_Design');
 
-//
-
 Route::get('/Research_Department_Engineering_Technology', function () {
     return view('frontend/research/dept/Research_Department_Engineering_Technology');
 })->name('Research_Department_Engineering_Technology');
@@ -2575,4 +2573,72 @@ Route::get('/Research_Department_Pharmacy', function () {
     return view('frontend/research/dept/Research_Department_Pharmacy');
 })->name('Research_Department_Pharmacy');
 
+// sub link
 
+Route::get('/Research_Department_Physics', function () {
+    return view('frontend/research/dept/Research_Department_Physics');
+})->name('Research_Department_Physics');
+
+Route::get('/Research_Department_Chemistry', function () {
+    return view('frontend/research/dept/Research_Department_Chemistry');
+})->name('Research_Department_Chemistry');
+
+Route::get('/Research_Department_Mathematics', function () {
+    return view('frontend/research/dept/Research_Department_Mathematics');
+})->name('Research_Department_Mathematics');
+
+Route::get('/Research_Department_Biochemistry', function () {
+    return view('frontend/research/dept/Research_Department_Biochemistry');
+})->name('Research_Department_Biochemistry');
+
+Route::get('/Research_Department_Biotechnology', function () {
+    return view('frontend/research/dept/Research_Department_Biotechnology');
+})->name('Research_Department_Biotechnology');
+
+Route::get('/Research_Department_Microbiology', function () {
+    return view('frontend/research/dept/Research_Department_Microbiology');
+})->name('Research_Department_Microbiology');
+
+Route::get('/Research_Department_Food_Technology', function () {
+    return view('frontend/research/dept/Research_Department_Food_Technology');
+})->name('Research_Department_Food_Technology');
+
+Route::get('/Research_Department_CSE', function () {
+    return view('frontend/research/dept/Research_Department_CSE');
+})->name('Research_Department_CSE');
+
+Route::get('/Research_Department_Mechanical_Engineering', function () {
+    return view('frontend/research/dept/Research_Department_Mechanical_Engineering');
+})->name('Research_Department_Mechanical_Engineering');
+
+Route::get('/Research_Department_Civil_Engineering', function () {
+    return view('frontend/research/dept/Research_Department_Civil_Engineering');
+})->name('Research_Department_Civil_Engineering');
+
+Route::get('/Research_Department_Geography', function () {
+    return view('frontend/research/dept/Research_Department_Geography');
+})->name('Research_Department_Geography');
+
+Route::get('/Research_Department_Environmental_Sciences', function () {
+    return view('frontend/research/dept/Research_Department_Environmental_Sciences');
+})->name('Research_Department_Environmental_Sciences');
+
+Route::get('/Research_Department_Geology', function () {
+    return view('frontend/research/dept/Research_Department_Geology');
+})->name('Research_Department_Geology');
+
+Route::get('/Research_Department_Pharmacy', function () {
+    return view('frontend/research/dept/Research_Department_Pharmacy');
+})->name('Research_Department_Pharmacy');
+
+Route::get('/Research_Department_Pharmacy', function () {
+    return view('frontend/research/dept/Research_Department_Pharmacy');
+})->name('Research_Department_Pharmacy');
+
+Route::get('/Research_Department_Pharmacy', function () {
+    return view('frontend/research/dept/Research_Department_Pharmacy');
+})->name('Research_Department_Pharmacy');
+
+Route::get('/Research_Department_Pharmacy', function () {
+    return view('frontend/research/dept/Research_Department_Pharmacy');
+})->name('Research_Department_Pharmacy');

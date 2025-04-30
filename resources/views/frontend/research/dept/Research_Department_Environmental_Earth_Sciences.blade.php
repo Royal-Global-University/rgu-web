@@ -22,7 +22,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_Geography_Geoinformatics.html">
+                            <a href="Research_Department_Geography">
                                 <div class="p-4 card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                     <div class="p-3 text-center">
@@ -40,7 +40,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_Environmental_Sciences.html">
+                            <a href="Research_Department_Environmental_Sciences">
                                 <div class="p-3 card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                     <div class="p-4 text-center">
@@ -58,7 +58,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_Geology.html">
+                            <a href="Research_Department_Geology">
                                 <div class="p-4 card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                     <div class="p-3 text-center">

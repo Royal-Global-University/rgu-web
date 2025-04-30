@@ -253,7 +253,7 @@
                 contributing to the advancement of knowledge and the university's research ecosystem.
             </p>
 
-            <h2 class="headd2 text-dark">
+            <h2 class="headd2 text-dark fw-bold">
                 Research Highlights
             </h2>
 
@@ -291,6 +291,7 @@
                     </div>
                 </div>
             </div>
+
 
             <p class="para1" style="color: #333; text-align: justify;">
                 The Assam Royal Global University has achieved an impressive h-index of 68 as per the Scopus database, marking
@@ -371,21 +372,15 @@
                     </div>
 
                     <div class="col-lg-3">
-                        <div class="dropdown">
-                            <button
-                                style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;"
-                                class="btn btn-secondary dropdown-toggle headdd3 mb-3" type="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                        <div class="dropdown" style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;">
+                            <button class="btn dropdown-toggle text-white rounded" style="font-size: 22px" type="button" data-toggle="dropdown" aria-expanded="false">
                                 Projects
                             </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="research-extramural">Extramural Projects</a>
-                                </li>
-                                <li><a class="dropdown-item" href="research-seed-grants-projects">RGU Seed Grant</a>
-                                </li>
-                                <li><a class="dropdown-item" href="research-consultancy-projects">Consultancy Projetcs</a>
-                                </li>
-                            </ul>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="research-extramural">Extramural Projects</a>
+                                <a class="dropdown-item" href="research-seed-grants-projects">RGU Seed Grant</a>
+                                <a class="dropdown-item" href="research-consultancy-projects">Consultancy Projetcs</a>
+                            </div>
                         </div>
                     </div>
 
