@@ -17,7 +17,7 @@
     <!--Copy and replace from here-->
                             <select class="form-control me-2 shadow" id="schoolSelect" aria-label="Search">
                                 <option value="nothing">Select Course</option>
-                                <option value="nothing25">Integrated IAS Course</option>
+                                <option value="nothing25">Integrated Civil Service Program</option>
                                 <option value="nothing1">Royal School of Applied & Pure Sciences (RSAPS)</option>
                                 <option value="nothing2">Royal School of Architecture (RSA)</option>
                                 <option value="nothing3">Royal School of Behavioral & Allied Sciences (RSBAS)</option>
@@ -60,13 +60,13 @@
                         <button style="font-size: 18px; background-color: #00465d;" class="para1 accordion-button text-white"
                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentySeven" aria-expanded="true"
                             aria-controls="collapseTwentySeven">
-                            Integrated IAS Course
+                            Integrated Civil Service Program
                         </button>
                     </h2>
                     <div id="collapseTwentySeven" class="accordion-collapse collapse" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">IAS Course</p>
+                            <p class="m-0 pb-4 text-dark fw-bold para1">Integrated Civil Service Program</p>
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('ba-sociology')}}"

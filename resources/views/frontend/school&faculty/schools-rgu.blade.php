@@ -98,7 +98,7 @@
                                 src="mobile-assets/school-rgu/ias-banner.png" class="img-fluid rounded" />
                         </div>
                         <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Integrated IAS Courses</h5>
+                            <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Integrated Civil Service Program</h5>
                             <div class="mt-auto mb-4">
                                 <div class="text-center">
                                     <a href="{{route('ias-courses')}}"
@@ -700,7 +700,7 @@
                             src="mobile-assets/school-rgu/ias-banner.png" class="img-fluid rounded" />
                     </div>
                     <div class="card-body d-flex flex-column flex-grow-1">
-                        <h5 style="font-weight: 600; color: #27467A;" class="card-title mobile-headd2 pb-4">Integrated IAS Courses
+                        <h5 style="font-weight: 600; color: #27467A; font-size: 23px !important;" class="card-title pb-4 fw-bold">Integrated Civil Service Program
                         </h5>
                         <div class="mt-auto mb-4">
                             <div class="text-center">

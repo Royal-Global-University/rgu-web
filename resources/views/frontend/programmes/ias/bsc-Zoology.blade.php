@@ -6,7 +6,7 @@
 
 
             <h2 class="mobile-headd2 kd-title-ani kd-split pb-1 pt-3 text-center" style="color: #264273; font-weight: 700;">
-                B.Sc. Zoology
+                B.Sc. Zoology- Integrated with Civil Service Program
             </h2>
 
             <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 03 Years <br> Royal School
@@ -66,7 +66,7 @@
                                         <li>Registration fees - 10000.00</li>
                                         <li>Admission Fee - 60000.00</li>
                                         <li>Caution Money (Common for all streams) - Refundable 10000.00</li>
-                                        <li>Additional Charges for Entire Course Duration (Rs. - 65000.00)</li>
+                                        <li>Additional charges for entire course duration (Rs. 65000.00) (to be paid in 1st year in two installment)</li>
                                         <li>Total Course Fee (Rs. - 150000.00)</li>
                                     </ol>
                                 </li>
@@ -189,7 +189,7 @@
         @include('frontend/components/aheader')
         <div class="pt-4" style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp);">
             <div class="text-center">
-                <h2 class="text-center headd2 text-dark">B.Sc. Zoology</h3>
+                <h2 class="text-center headd2 text-dark">B.Sc. Zoology- Integrated with Civil Service Program</h3>
                     <h3 class="text-center headd3 text-dark">Duration - 03 Years<br>
                         <span class="text-center" style="font-size: 22px;">Royal School of Life Sciences</span>
                     </h3>
@@ -227,7 +227,7 @@
                         <p class="text-dark pt-2 m-0">c. Admission Fee - 60000.00</p>
                         <p class="text-dark pt-2 m-0">d. Caution Money (Common for all streams) - Refundable 10000.00
                         </p>
-                        <p class="text-dark pt-2 m-0">e. Additional Charges for Entire Course Duration (Rs. - 65000.00)</p>
+                        <p class="text-dark pt-2 m-0">e. Additional charges for entire course duration (Rs. 65000.00) (to be paid in 1st year in two installment)</p>
                         <p class="text-dark pt-2 m-0">f. Total Course Fee (Rs. - 150000.00)</p>
                         <p class="text-dark pt-2 fw-bold m-0">B.) Programmes fee to be paid Yearly / semester payment for
                             New
