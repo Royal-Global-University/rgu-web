@@ -1294,7 +1294,17 @@
                                     <a href="{{route('ba-Geography')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc./B.A. Geography</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Geography</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pb-3">
+                                    <a href="{{route('bsc-Geography')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geography</p>
                                             <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
