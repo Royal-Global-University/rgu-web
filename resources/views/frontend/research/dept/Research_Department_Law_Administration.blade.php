@@ -672,7 +672,7 @@
                             Books, 2023, P. 23- 40 ISBN 18002106527 <br />
                             Manipur horror and Unending culture of impunity for sexual
                             violence,
-                            horror-and-unending-culture-of-impunity-for-sexual-violence-in-india.html#google_vignette
+                            horror-and-unending-culture-of-impunity-for-sexual-violence-in-india#google_vignette
                         </p>
                         <hr />
                         <h3 class="headd3">
@@ -1416,7 +1416,7 @@
                             Manipur horror and Unending culture of impunity for sexual
                             violence,
                             https://www.nezine.com/info/bUs5ZEl5bS80VXFXWUxTY2p4QXJQdz09/the-manipur-
-                            horror-and-unending-culture-of-impunity-for-sexual-violence-in-india.html#google_vignette
+                            horror-and-unending-culture-of-impunity-for-sexual-violence-in-india#google_vignette
                         </p>
                         <hr />
                         <h3 class="headd3">

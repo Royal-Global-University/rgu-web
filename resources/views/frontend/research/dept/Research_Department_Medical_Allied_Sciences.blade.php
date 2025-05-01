@@ -15,7 +15,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Optometry.html">
+                        <a href="Research_Department_Optometry">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -32,7 +32,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_OperationTheatre.html">
+                        <a href="Research_Department_OperationTheatre">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -50,7 +50,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Medical_Lab.html">
+                        <a href="Research_Department_Medical_Lab">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -67,7 +67,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Deptment_Radiography.html">
+                        <a href="Research_Deptment_Radiography">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -108,7 +108,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_Optometry.html">
+                            <a href="Research_Department_Optometry">
                                 <div class="p-4 card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                     <div class="p-3 text-center">
@@ -125,7 +125,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_OperationTheatre.html">
+                            <a href="Research_Department_OperationTheatre">
                                 <div class="p-4 card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                     <div class="p-3 text-center">
@@ -143,7 +143,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_Medical_Lab.html">
+                            <a href="Research_Department_Medical_Lab">
                                 <div class="p-4 card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                     <div class="p-3 text-center">
@@ -160,7 +160,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Deptment_Radiography.html">
+                            <a href="Research_Deptment_Radiography">
                                 <div class="p-4 card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                     <div class="p-3 text-center">

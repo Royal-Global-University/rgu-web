@@ -16,7 +16,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_History.html">
+                        <a href="Research_Department_History">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -33,7 +33,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Political_Science.html">
+                        <a href="Research_Department_Political_Science">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -50,7 +50,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Public_Administration.html">
+                        <a href="Research_Department_Public_Administration">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -68,7 +68,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Sociology.html">
+                        <a href="Research_Department_Sociology">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -85,7 +85,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Social_Work.html">
+                        <a href="Research_Department_Social_Work">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -121,7 +121,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_History.html">
+                        <a href="Research_Department_History">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -138,7 +138,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Political_Science.html">
+                        <a href="Research_Department_Political_Science">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -155,7 +155,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Public_Administration.html">
+                        <a href="Research_Department_Public_Administration">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -173,7 +173,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Sociology.html">
+                        <a href="Research_Department_Sociology">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -190,7 +190,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Social_Work.html">
+                        <a href="Research_Department_Social_Work">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">

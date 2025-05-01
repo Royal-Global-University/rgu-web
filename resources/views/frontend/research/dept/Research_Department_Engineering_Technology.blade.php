@@ -17,7 +17,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_CSE.html">
+                        <a href="Research_Department_CSE">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -35,7 +35,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Mechanical_Engineering.html">
+                        <a href="Research_Department_Mechanical_Engineering">
 
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
@@ -54,7 +54,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Civil_Engineering.html">
+                        <a href="Research_Department_Civil_Engineering">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -91,7 +91,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_CSE.html">
+                            <a href="Research_Department_CSE">
                                 <div class="p-4 card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                     <div class="p-3 text-center">
@@ -109,7 +109,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_Mechanical_Engineering.html">
+                            <a href="Research_Department_Mechanical_Engineering">
 
                                 <div class="p-3 card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
@@ -129,7 +129,7 @@
                         <div class="col-lg-4 mb-4">
 
 
-                            <a href="Research_Department_Civil_Engineering.html">
+                            <a href="Research_Department_Civil_Engineering">
                                 <div class="p-4 card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                     <div class="p-3 text-center">

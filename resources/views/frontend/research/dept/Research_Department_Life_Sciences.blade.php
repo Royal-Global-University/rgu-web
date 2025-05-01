@@ -14,7 +14,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_Botany.html">
+                            <a href="Research_Department_Botany">
                                 <div class="card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                     <div class="p-3 text-center">
@@ -31,7 +31,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_Zoology.html">
+                            <a href="Research_Department_Zoology">
                                 <div class="card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                     <div class="p-3 text-center">
@@ -48,7 +48,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_Forensic_Sciences.html">
+                            <a href="Research_Department_Forensic_Sciences">
                                 <div class="card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                     <div class="p-3 text-center">
@@ -65,7 +65,7 @@
 
                         <div class="col-lg-4 mb-4">
 
-                            <a href="Research_Department_Forestry.html">
+                            <a href="Research_Department_Forestry">
                                 <div class="card rounded d-flex flex-column"
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                     <div class="p-3 text-center">
@@ -101,7 +101,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="Research_Department_Botany.html">
+                        <a href="Research_Department_Botany">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -118,7 +118,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="Research_Department_Zoology.html">
+                        <a href="Research_Department_Zoology">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -135,7 +135,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="Research_Department_Forensic_Sciences.html">
+                        <a href="Research_Department_Forensic_Sciences">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -152,7 +152,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="Research_Department_Forestry.html">
+                        <a href="Research_Department_Forestry">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
