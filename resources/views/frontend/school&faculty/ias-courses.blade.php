@@ -337,7 +337,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
-                                        <br> Sociology </h5>
+                                         Sociology </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -352,7 +354,8 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
-                                        <br> Economics </h5>
+                                         Economics </h5>
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -367,7 +370,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
-                                        <br> Public Administration </h5>
+                                         Public Administration </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -382,7 +387,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
-                                        <br> Political Science </h5>
+                                         Political Science </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -397,7 +404,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
-                                        <br> History </h5>
+                                         History </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -421,7 +430,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
-                                        B.Sc. <br> Physics </h5>
+                                        B.Sc. Physics </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -436,7 +447,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
-                                        B.Sc. <br> Mathematics </h5>
+                                        B.Sc. Mathematics </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -451,7 +464,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
-                                        B.Sc. <br> Chemistry </h5>
+                                        B.Sc. Chemistry </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -466,7 +481,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
-                                        B.Sc. <br> Geography </h5>
+                                        B.Sc. Geography </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -491,7 +508,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
-                                        B.Sc. <br> Geography </h5>
+                                        B.Sc. Geography </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -506,7 +525,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
-                                        B.Sc. <br> Geology </h5>
+                                        B.Sc. Geology </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -521,7 +542,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
-                                        <br> Geography </h5>
+                                        Geography </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -546,7 +569,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
-                                        <br> Psychology </h5>
+                                         Psychology </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -570,7 +595,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
-                                        B.Sc. <br> Botany </h5>
+                                        B.Sc. Botany </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -585,7 +612,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
-                                        B.Sc. <br> Zoology </h5>
+                                        B.Sc. Zoology </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
@@ -609,7 +638,9 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
-                                        <br> English </h5>
+                                         English </h5>
+                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
+                                            Programme</h5>
                                     <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
