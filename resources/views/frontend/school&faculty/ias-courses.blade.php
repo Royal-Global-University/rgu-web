@@ -338,7 +338,7 @@
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">B.A.
                                         <br> Sociology </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -351,9 +351,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">B.A.
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
                                         <br> Economics </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -366,9 +366,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">B.A.
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
                                         <br> Public Administration </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -381,9 +381,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">B.A.
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
                                         <br> Political Science </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -396,9 +396,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">B.A.
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
                                         <br> History </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -420,9 +420,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
                                         B.Sc. <br> Physics </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -435,9 +435,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
                                         B.Sc. <br> Mathematics </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -450,9 +450,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
                                         B.Sc. <br> Chemistry </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -465,9 +465,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
                                         B.Sc. <br> Geography </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -490,9 +490,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
                                         B.Sc. <br> Geography </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -505,9 +505,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
                                         B.Sc. <br> Geology </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -520,9 +520,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">B.A.
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
                                         <br> Geography </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -545,9 +545,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">B.A.
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
                                         <br> Psychology </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -569,9 +569,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
                                         B.Sc. <br> Botany </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -584,9 +584,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
                                         B.Sc. <br> Zoology </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
@@ -608,9 +608,9 @@
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-1">B.A.
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">B.A.
                                         <br> English </h5>
-                                    <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
+                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
                                 </div>
                             </div>
                         </a>
