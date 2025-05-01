@@ -1403,6 +1403,69 @@ Route::get('/programs-BSc-Post-Basic', function () {
 })->name('programs-BSc-Post-Basic');
 
 
+//IAS
+Route::get('/ba-sociology', function () {
+    return view('frontend/programmes/ias/ba-sociology');
+})->name('ba-sociology');
+
+Route::get('/ba-Economics', function () {
+    return view('frontend/programmes/ias/ba-Economics');
+})->name('ba-Economics');
+
+Route::get('/ba-Public-Administration', function () {
+    return view('frontend/programmes/ias/ba-Public-Administration');
+})->name('ba-Public-Administration');
+
+Route::get('/ba-Political-Science', function () {
+    return view('frontend/programmes/ias/ba-Political-Science');
+})->name('ba-Political-Science');
+
+Route::get('/ba-History', function () {
+    return view('frontend/programmes/ias/ba-History');
+})->name('ba-History');
+
+Route::get('/bsc-Physics', function () {
+    return view('frontend/programmes/ias/bsc-Physics');
+})->name('bsc-Physics');
+
+Route::get('/bsc-Mathematics', function () {
+    return view('frontend/programmes/ias/bsc-Mathematics');
+})->name('bsc-Mathematics');
+
+Route::get('/bsc-Chemistry', function () {
+    return view('frontend/programmes/ias/bsc-Chemistry');
+})->name('bsc-Chemistry');
+
+Route::get('/bsc-Geography', function () {
+    return view('frontend/programmes/ias/bsc-Geography');
+})->name('bsc-Geography');
+
+Route::get('/ba-Geography', function () {
+    return view('frontend/programmes/ias/ba-Geography');
+})->name('ba-Geography');
+
+Route::get('/bsc-Geology', function () {
+    return view('frontend/programmes/ias/bsc-Geology');
+})->name('bsc-Geology');
+
+Route::get('/ba-Psychology', function () {
+    return view('frontend/programmes/ias/ba-Psychology');
+})->name('ba-Psychology');
+
+Route::get('/bsc-Botany', function () {
+    return view('frontend/programmes/ias/bsc-Botany');
+})->name('bsc-Botany');
+
+Route::get('/bsc-Zoology', function () {
+    return view('frontend/programmes/ias/bsc-Zoology');
+})->name('bsc-Zoology');
+
+Route::get('/ba-English', function () {
+    return view('frontend/programmes/ias/ba-English');
+})->name('ba-English');
+
+
+
 //End admission-programmes
 
 //School & Faculty
@@ -2627,18 +2690,3 @@ Route::get('/Research_Department_Geology', function () {
     return view('frontend/research/dept/Research_Department_Geology');
 })->name('Research_Department_Geology');
 
-Route::get('/Research_Department_Pharmacy', function () {
-    return view('frontend/research/dept/Research_Department_Pharmacy');
-})->name('Research_Department_Pharmacy');
-
-Route::get('/Research_Department_Pharmacy', function () {
-    return view('frontend/research/dept/Research_Department_Pharmacy');
-})->name('Research_Department_Pharmacy');
-
-Route::get('/Research_Department_Pharmacy', function () {
-    return view('frontend/research/dept/Research_Department_Pharmacy');
-})->name('Research_Department_Pharmacy');
-
-Route::get('/Research_Department_Pharmacy', function () {
-    return view('frontend/research/dept/Research_Department_Pharmacy');
-})->name('Research_Department_Pharmacy');

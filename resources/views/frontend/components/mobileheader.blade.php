@@ -177,7 +177,7 @@
                 <a class="mobile-para1" style="color: #27467A;" href="doctoral-programme">
                     <li>COURSE FEE</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="#">
+                <a class="mobile-para1" style="color: #27467A;" href="programs">
                     <li>ELIGIBILITY AND SELECTION CRITERIA</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('general-elective') }}">
@@ -185,9 +185,6 @@
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('how-to-apply') }}">
                     <li>HOW TO APPLY?</li>
-                </a>
-                <a class="mobile-para1" style="color: #27467A;" href="programs">
-                    <li>PROGRAMMES</li>
                 </a>
                 <li onclick="toggleSubmenu('scholarship')"
                     style="cursor: pointer; display: flex; align-items: center; justify-content: space-between;">

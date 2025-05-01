@@ -17,6 +17,7 @@
     <!--Copy and replace from here-->
                             <select class="form-control me-2 shadow" id="schoolSelect" aria-label="Search">
                                 <option value="nothing">Select Course</option>
+                                {{-- <option value="nothing25">Integrated IAS Course</option> --}}
                                 <option value="nothing1">Royal School of Applied & Pure Sciences (RSAPS)</option>
                                 <option value="nothing2">Royal School of Architecture (RSA)</option>
                                 <option value="nothing3">Royal School of Behavioral & Allied Sciences (RSBAS)</option>
@@ -53,6 +54,152 @@
             </div>
 
             <div class="accordion container pt-5 pb-5" id="accordionExample">
+
+                {{-- <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button style="font-size: 18px; background-color: #00465d;" class="para1 accordion-button text-white"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentySeven" aria-expanded="true"
+                            aria-controls="collapseTwentySeven">
+                            Integrated IAS Course
+                        </button>
+                    </h2>
+                    <div id="collapseTwentySeven" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body" style="background-color: #fff;">
+                            <p class="m-0 pb-4 text-dark fw-bold para1">IAS Course</p>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <a href="{{route('ba-sociology')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Sociology</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3">
+                                    <a href="{{route('ba-Economics')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Economics</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3">
+                                    <a href="{{route('ba-Public-Administration')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Public Administration</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3">
+                                    <a href="{{route('ba-Political-Science')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Political Science</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
+                                    <a href="{{route('ba-History')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. History</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
+                                    <a href="{{route('bsc-Physics')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Physics</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
+                                    <a href="bsc-Mathematics" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Mathematics</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
+                                    <a href="bsc-Chemistry" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Chemistry</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
+                                    <a href="bsc-Geography" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geography</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
+                                    <a href="ba-Geography" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Geography</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
+                                    <a href="bsc-Geology" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geology</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
+                                    <a href="ba-Psychology" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Psychology</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
+                                    <a href="bsc-Botany" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Botany</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
+                                    <a href="bsc-Zoology" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Zoology</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
+                                    <a href="ba-English" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A English</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> --}}
+
                 <div class="accordion-item mb-2">
                     <h2 class="accordion-header" id="headingOne">
                         <button style="font-size: 18px; background-color: #00465d;" class="para1 accordion-button text-white"
