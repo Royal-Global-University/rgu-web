@@ -1914,6 +1914,10 @@ Route::get('/department-physiotherapy', function () {
     return view('frontend/school&faculty/department-physiotherapy');
 })->name('department-physiotherapy');
 
+Route::get('/ias-courses', function () {
+    return view('frontend/school&faculty/ias-courses');
+})->name('ias-courses');
+
 //schools-rgu-faculty
 Route::get('/faculty-architecture', function () {
     return view('frontend/school&faculty/faculty-architecture');
@@ -2636,6 +2640,57 @@ Route::get('/Research_Department_Pharmacy', function () {
     return view('frontend/research/dept/Research_Department_Pharmacy');
 })->name('Research_Department_Pharmacy');
 
+Route::get('/Research_Department_Botany', function () {
+    return view('frontend/research/dept/Research_Department_Botany');
+})->name('Research_Department_Botany');
+
+Route::get('/Research_Department_History', function () {
+    return view('frontend/research/dept/Research_Department_History');
+})->name('Research_Department_History');
+
+Route::get('/Research_Department_Medical_Lab', function () {
+    return view('frontend/research/dept/Research_Department_Medical_Lab');
+})->name('Research_Department_Medical_Lab');
+
+Route::get('/Research_Department_Microbiology', function () {
+    return view('frontend/research/dept/Research_Department_Microbiology');
+})->name('Research_Department_Microbiology');
+
+Route::get('/Research_Department_OperationTheatre', function () {
+    return view('frontend/research/dept/Research_Department_OperationTheatre');
+})->name('Research_Department_OperationTheatre');
+
+Route::get('/Research_Department_Optometry', function () {
+    return view('frontend/research/dept/Research_Department_Optometry');
+})->name('Research_Department_Optometry');
+
+Route::get('/Research_Department_Political_Science', function () {
+    return view('frontend/research/dept/Research_Department_Political_Science');
+})->name('Research_Department_Political_Science');
+
+Route::get('/Research_Department_Public_Administration', function () {
+    return view('frontend/research/dept/Research_Department_Public_Administration');
+})->name('Research_Department_Public_Administration');
+
+Route::get('/Research_Department_Social_Work', function () {
+    return view('frontend/research/dept/Research_Department_Social_Work');
+})->name('Research_Department_Social_Work');
+
+Route::get('/Research_Department_Sociology', function () {
+    return view('frontend/research/dept/Research_Department_Sociology');
+})->name('Research_Department_Sociology');
+
+Route::get('/Research_Department_Zoology', function () {
+    return view('frontend/research/dept/Research_Department_Zoology');
+})->name('Research_Department_Zoology');
+
+Route::get('/Research_Department_Sociology', function () {
+    return view('frontend/research/dept/Research_Department_Sociology');
+})->name('Research_Department_Sociology');
+
+Route::get('/Research_Deptment_Radiography', function () {
+    return view('frontend/research/dept/Research_Deptment_Radiography');
+})->name('Research_Deptment_Radiography');
 // sub link
 
 Route::get('/Research_Department_Physics', function () {

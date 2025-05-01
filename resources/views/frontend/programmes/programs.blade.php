@@ -213,6 +213,38 @@
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">APPLIED & PURE SCIENCES</p>
                             <div class="row">
+
+                                <div class="col-lg-3 pb-3">
+                                    <a href="{{route('bsc-Physics')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Physics</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pb-3">
+                                    <a href="{{route('bsc-Mathematics')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Mathematics</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pb-3">
+                                    <a href="{{route('bsc-Chemistry')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Chemistry</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-MSc-Physics')}}"
                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
@@ -339,6 +371,7 @@
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">ARCHITECTURE</p>
                             <div class="row">
+
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-barch')}}"
                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
@@ -367,6 +400,16 @@
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">BEHAVIOURAL & ALLIED SCIENCES</p>
                             <div class="row">
+                                <div class="col-lg-3 pb-2">
+                                    <a href="{{route('ba-Psychology')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Psychology</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-MA-Psychology')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
@@ -1195,6 +1238,36 @@
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">ENVIRONMENTAL & EARTH SCIENCES</p>
                             <div class="row">
+                                <div class="col-lg-3 pb-3">
+                                    <a href="{{route('bsc-Geography')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geography</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pb-3">
+                                    <a href="{{route('ba-Geography')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Geography</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pb-3">
+                                    <a href="{{route('bsc-Geology')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geology</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-MSc-geography')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
@@ -1537,6 +1610,59 @@
                             <p class="m-0 pb-4 text-dark fw-bold para1">HUMANITIES & SOCIAL SCIENCES</p>
                             <div class="row">
                                 <div class="col-lg-3">
+                                    <a href="{{route('ba-sociology')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Sociology</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <a href="{{route('ba-Economics')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Economics</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3">
+                                    <a href="{{route('ba-Public-Administration')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Public Administration</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3">
+                                    <a href="{{route('ba-Political-Science')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Political Science</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 mt-3">
+                                    <a href="{{route('ba-History')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. History</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                                <div class="col-lg-3 mt-3">
                                     <a href="{{route('programs-MA-Economics')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
@@ -1545,7 +1671,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 mt-3">
                                     <a href="{{route('programs-MA-Sociology')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
@@ -1554,7 +1680,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 mt-3">
                                     <a href="{{route('programs-MSW')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
@@ -1564,7 +1690,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 mt-3">
                                     <a href="{{route('programs-MA-Public-Administration')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
@@ -2022,6 +2148,36 @@
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">LIFE SCIENCES</p>
                             <div class="row">
+                                <div class="col-lg-3 pb-3">
+                                    <a href="{{route('bsc-Botany')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Botany</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pb-3">
+                                    <a href="{{route('bsc-Zoology')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Zoology</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pb-3">
+                                    <a href="{{route('ba-English')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.A English</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service</p>
+                                            <p class="text-center text-white para1">3 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-MSc-Botany')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">

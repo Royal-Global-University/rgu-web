@@ -90,6 +90,30 @@
             </div>
 
             <div class="row">
+                <div class="col-lg-3 mb-4 mt-3">
+                    <div class="card rounded d-flex flex-column"
+                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                        <div class="p-3">
+                            <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                src="mobile-assets/school-rgu/ias-banner.png" class="img-fluid rounded" />
+                        </div>
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Integrated IAS Courses</h5>
+                            <div class="mt-auto mb-4">
+                                <div class="text-center">
+                                    <a href="{{route('ias-courses')}}"
+                                        style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                        Department
+                                    </a>
+                                    {{-- <a href="{{route('faculty-architecture')}}"
+                                        style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                        Faculty
+                                    </a> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
               <div class="col-lg-3 mb-4 mt-3">
                 <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                   <div class="p-3">
@@ -668,6 +692,31 @@
           <hr>
 
           <div class="row">
+            <div class="col-lg-4 mb-4 mt-3">
+                <div class="card rounded d-flex flex-column"
+                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                    <div class="p-3">
+                        <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                            src="mobile-assets/school-rgu/ias-banner.png" class="img-fluid rounded" />
+                    </div>
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                        <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Integrated IAS Courses
+                        </h5>
+                        <div class="mt-auto mb-4">
+                            <div class="text-center">
+                                <a href="{{route('ias-courses')}}"
+                                    style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                    Department
+                                </a>
+                                {{-- <a href="{{route('faculty-architecture')}}"
+                                    style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                    Faculty
+                                </a> --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-lg-4 mb-4 mt-3">
               <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                 <div class="p-3">

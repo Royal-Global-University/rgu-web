@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <section style="background-image: url(mobile-assets/research/bg.svg); background-size: cover; padding-top: 90px; position: relative;">
+        <section style="background-image: url(mobile-assets/research/bg.svg); background-size: cover;">
 
             <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4"
                 style="color: #27467A; font-weight: 900;">
@@ -88,7 +88,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Physics">
+                        <a href="Research_Department_Physics.html">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="p-3 text-center">
@@ -106,7 +106,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Chemistry">
+                        <a href="Research_Department_Chemistry.html">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="p-3 text-center">
@@ -124,7 +124,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Mathematics">
+                        <a href="Research_Department_Mathematics.html">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="p-3 text-center">
@@ -139,8 +139,12 @@
                             </div>
                         </a>
                     </div>
+
+
                 </div>
+
             </div>
+
         </section>
     </div>
 @endsection
