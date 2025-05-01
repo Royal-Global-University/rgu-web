@@ -2745,3 +2745,10 @@ Route::get('/Research_Department_Geology', function () {
     return view('frontend/research/dept/Research_Department_Geology');
 })->name('Research_Department_Geology');
 
+Route::get('/Research_Department_Forensic_Sciences', function () {
+    return view('frontend/research/dept/Research_Department_Forensic_Sciences');
+})->name('Research_Department_Forensic_Sciences');
+
+Route::get('/Research_Department_Forestry', function () {
+    return view('frontend/research/dept/Research_Department_Forestry');
+})->name('Research_Department_Forestry');

@@ -142,25 +142,7 @@
                                     </div>
                                 </div>
                             </a>
-
                         </div>
-
-                        <div class="col-lg-3 mb-4">
-
-                            <a href="bsc-Geography">
-                                <div class="p-2 card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                                    <div class="card-body">
-                                        <h5 style="font-weight: 700; color: #27467A;"
-                                            class="text-center card-title headd3 pb-1">B.Sc. <br> Geography </h5>
-                                        <p class="para1 fw-bold text-center" style="color: #27467A;">03 years</p>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-
                     </div>
 
                     <hr>
@@ -473,25 +455,6 @@
                         </a>
 
                     </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <a href="bsc-Geography">
-                            <div class="p-2 card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                                <div class="card-body">
-                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">
-                                        B.Sc. Geography </h5>
-                                        <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd3 pb-1">Integrated with Civil Service
-                                            Programme</h5>
-                                    <p class="headd3 fw-bold text-center" style="color: #27467A;">03 years</p>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-
-
                 </div>
 
                 <hr>
@@ -655,3 +618,4 @@
         </section>
     </div>
 @endsection
+

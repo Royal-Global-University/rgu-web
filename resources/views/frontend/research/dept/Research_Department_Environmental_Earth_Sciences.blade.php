@@ -86,7 +86,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="Research_Department_Geography_Geoinformatics">
+                        <a href="Research_Department_Geography">
                             <div class="p-4 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                                 <div class="p-3 text-center">
