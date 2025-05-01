@@ -17,7 +17,7 @@
     <!--Copy and replace from here-->
                             <select class="form-control me-2 shadow" id="schoolSelect" aria-label="Search">
                                 <option value="nothing">Select Course</option>
-                                {{-- <option value="nothing25">Integrated IAS Course</option> --}}
+                                <option value="nothing25">Integrated IAS Course</option>
                                 <option value="nothing1">Royal School of Applied & Pure Sciences (RSAPS)</option>
                                 <option value="nothing2">Royal School of Architecture (RSA)</option>
                                 <option value="nothing3">Royal School of Behavioral & Allied Sciences (RSBAS)</option>
@@ -55,7 +55,7 @@
 
             <div class="accordion container pt-5 pb-5" id="accordionExample">
 
-                {{-- <div class="accordion-item mb-2">
+                <div class="accordion-item mb-2">
                     <h2 class="accordion-header" id="headingOne">
                         <button style="font-size: 18px; background-color: #00465d;" class="para1 accordion-button text-white"
                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentySeven" aria-expanded="true"
@@ -198,7 +198,7 @@
                             </div>
                         </div>
                     </div>
-                </div> --}}
+                </div>
 
                 <div class="accordion-item mb-2">
                     <h2 class="accordion-header" id="headingOne">
