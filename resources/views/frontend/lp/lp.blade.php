@@ -5,14 +5,8 @@
 
                 <div class="mobile-hero">
                     <div class="row">
-                        <div class="col-lg-12">
-                            <div class="npf_wgts" data-height="400px" data-w="30f6f0f5207a8612717c00304293b304"></div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="mobile-hero-text">
-                                <h1>Leading<br>University in<br>North-East India</h1>
-                                <a href="#" class="apply-btn">APPLY NOW</a>
-                            </div>
+                        <div class="col-lg-12" style="z-index: 1000">
+                            <div class="npf_wgts" data-height="600px" data-w="30f6f0f5207a8612717c00304293b304"></div>
                         </div>
                     </div>
                 </div>
