@@ -2752,3 +2752,40 @@ Route::get('/Research_Department_Forensic_Sciences', function () {
 Route::get('/Research_Department_Forestry', function () {
     return view('frontend/research/dept/Research_Department_Forestry');
 })->name('Research_Department_Forestry');
+
+//research & Publication
+
+Route::get('/research-publication-overview', function () {
+    return view('frontend/research&publication/research-publication-overview');
+})->name('research-publication-overview');
+
+Route::get('/Publications-2017-18', function () {
+    return view('frontend/research&publication/Publications-2017-18');
+})->name('Publications-2017-18');
+
+Route::get('/Publications-2018-19', function () {
+    return view('frontend/research&publication/Publications-2018-19');
+})->name('Publications-2018-19');
+
+Route::get('/Publications-2019-20', function () {
+    return view('frontend/research&publication/Publications-2019-20');
+})->name('Publications-2019-20');
+
+Route::get('/Publications-2020-21', function () {
+    return view('frontend/research&publication/Publications-2020-21');
+})->name('Publications-2020-21');
+
+Route::get('/Publications-2021-22', function () {
+    return view('frontend/research&publication/Publications-2021-22');
+})->name('Publications-2021-22');
+
+Route::get('/Publications-2022-23', function () {
+    return view('frontend/research&publication/Publications-2022-23');
+})->name('Publications-2022-23');
+
+Route::get('/Publications-2023-24', function () {
+    return view('frontend/research&publication/Publications-2023-24');
+})->name('Publications-2023-24');
+
+
+

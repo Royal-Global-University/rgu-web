@@ -240,7 +240,7 @@
                             </div>
 
                             <div style="margin-top: 80px;">
-                                <a href="Research&publication">
+                                <a href="research-publication-overview">
                                     <div class="card rounded d-flex flex-column position-relative"
                                         style="background-color: #FFF8F0; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 170px;">
                                         <div class="position-absolute start-50 translate-middle">
