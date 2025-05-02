@@ -17,7 +17,7 @@
 
     <!--About Section-->
             <div>
-                <img src="assets/img/members/members.svg" alt="">
+                <img src="mobile-assets/iqac/members/members.svg" alt="">
             </div>
 
             <div class="container my-4">

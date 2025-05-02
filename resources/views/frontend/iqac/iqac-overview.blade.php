@@ -29,7 +29,7 @@
                             <div class="elementor-widget-container">
                                 <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                     <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                        <img decoding="async" src="assets/img/iqac-about/head1.jpeg" alt="">
+                                        <img decoding="async" src="mobile-assets/iqac/about/headimg.jpeg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -84,19 +84,19 @@
             <section class="button-container">
 
                 <div class="button-row">
-                    <a href="iqac-about.html" class="button para1">About IQAC</a>
-                    <a href="iqac-members.html" class="button para1">Composition of IQAC</a>
-                    <a href="iqac-mom.html" class="button para1">Minutes of Meeting</a>
-                    <a href="iqac-activities.html" class="button para1">Activities</a>
-                    <a href="iqac-report-naac.html" class="button para1">NAAC</a>
+                    <a href="iqac-about" class="button para1">About IQAC</a>
+                    <a href="iqac-members" class="button para1">Composition of IQAC</a>
+                    <a href="iqac-mom" class="button para1">Minutes of Meeting</a>
+                    <a href="iqac-activities" class="button para1">Activities</a>
+                    <a href="iqac-report-naac" class="button para1">NAAC</a>
                 </div>
 
                 <div class="button-row">
                     <a class="button para1">AQAR</a>
                     <a class="button para1">NIRF</a>
                     <a class="button para1">Other Rankings</a>
-                    <a href="iqac-report-annual.html" class="button para1">Reports</a>
-                    <a href="iqac-feedback-analysis-report.html" class="button para1">Feedback Analysis Report</a>
+                    <a href="iqac-report-annual" class="button para1">Reports</a>
+                    <a href="iqac-feedback-analysis-report" class="button para1">Feedback Analysis Report</a>
                 </div>
 
             </section>
