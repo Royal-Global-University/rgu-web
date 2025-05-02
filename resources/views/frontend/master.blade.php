@@ -485,6 +485,284 @@
         }
     </style>
 
+    <!-- underline  -->
+    <style>
+        .lp-half-underline {
+            display: inline-block;
+            position: relative;
+            font-size: 60px;
+            font-weight: normal;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .lp-half-underline::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 50%;
+            height: 7px;
+            background-color: #FF9A1E;
+        }
+    </style>
+
+    <!-- card box  -->
+    <style>
+        .card-box {
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .feature-item {
+            text-align: center;
+            flex: 1;
+        }
+
+        .feature-item:not(:last-child) {
+            border-right: 1px solid #ddd;
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            color: #ff6d3b;
+            margin-bottom: 15px;
+        }
+
+        .carousel-nav {
+            position: absolute;
+            bottom: -20px;
+            right: 10px;
+        }
+
+        .carousel-nav button {
+            background: #ff6d3b;
+            border: none;
+            color: #fff;
+            padding: 8px 12px;
+            font-size: 18px;
+            margin-left: 2px;
+        }
+    </style>
+
+    <!-- parallax image  -->
+    <style>
+        .parallax-section {
+            background-image: url('mobile-assets/lp/piccc.png');
+            /* Replace with your image path */
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .parallax-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(1, 70, 138, 0.685);
+            /* Dark overlay for contrast */
+            z-index: 1;
+        }
+
+        .stat-box {
+            margin-bottom: 40px;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+
+        .content-wrapper {
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+
+
+    <!-- hero section  -->
+    <style>
+        .hero-section {
+            background-image: url('mobile-assets/lp/piccc.png');
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            padding: 0px 150px;
+            color: white;
+            position: relative;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 31, 63, 0.685);
+            /* Dark overlay for contrast */
+            z-index: 1;
+        }
+
+        .hero-text {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-text h1 {
+            font-size: 4.5rem;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .apply-btn {
+            background-color: #ff5e3a;
+            color: white;
+            text-decoration: none;
+            padding: 14px 30px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: inline-block;
+        }
+    </style>
+
+    <!-- image carousal  -->
+    <style>
+        .lp-carousel .carousel-item>.row {
+            display: flex;
+        }
+
+        .lp-carousel .carousel-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .lp-carousel .carousel-indicators {
+            bottom: -60px;
+        }
+
+        .lp-carousel .carousel-indicators li {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: orange;
+            opacity: 0.5;
+        }
+
+        .lp-carousel .carousel-indicators .active {
+            opacity: 1;
+        }
+    </style>
+
+
+    <!-- course box  -->
+    <style>
+        .lp-course-box {
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            height: 500px;
+            /* Fixed height */
+        }
+
+        .lp-course-btn {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            font-weight: bold;
+            border-left: 5px solid transparent;
+            cursor: pointer;
+            background: #f8f9fa;
+            transition: all 0.3s ease;
+        }
+
+        .lp-course-btn.active {
+            background-color: #002c5f;
+            color: white;
+            border-left: 5px solid orange;
+        }
+
+        .lp-course-icon {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        .lp-program-wrapper {
+            height: 100%;
+            background: white;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .lp-program-box {
+            height: 100%;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .lp-program-box ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        .lp-program-box li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+            font-size: 15px;
+        }
+
+        .lp-program-box li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 6px;
+            width: 8px;
+            height: 8px;
+            background-color: orange;
+            border-radius: 50%;
+        }
+    </style>
+
+    <!-- fixed video height  -->
+    <style>
+        .fixed-video {
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
+
     {{-- mobile --}}
 
     <link rel="stylesheet" href="{{ asset('assets/css/mobile/index.css') }}">
@@ -1309,6 +1587,9 @@
     <script id="wp-i18n-js-after">
         wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
     </script>
+    <!--lp-->
+    <script type="text/javascript">var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "https://widgets.in5.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <script id="contact-form-7-js-extra">
         var wpcf7 = { "api": { "root": "https:\/\/themexriver.com\/wp\/kadu\/wp-json\/", "namespace": "contact-form-7\/v1" } };

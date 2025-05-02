@@ -2787,5 +2787,8 @@ Route::get('/Publications-2023-24', function () {
     return view('frontend/research&publication/Publications-2023-24');
 })->name('Publications-2023-24');
 
-
+// lp page
+Route::get('/lp', function () {
+    return view('frontend/lp/lp');
+})->name('lp');
 
