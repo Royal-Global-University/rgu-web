@@ -865,7 +865,7 @@
 
                                         <div class="col-lg-3">
                                             <a href="iqac-overview">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
+                                                <p class="m-0 text-white" style="font-size: 18px;">IQAC</p>
                                             </a>
                                             <a href="https://heyzine.com/flip-book/adfd7889ba.html">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">International 2025 -
