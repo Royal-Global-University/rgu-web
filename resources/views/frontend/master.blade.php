@@ -846,9 +846,7 @@
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Research &
                                                     Development</p>
                                             </a>
-                                            <a href="iqac-overview">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
-                                            </a>
+
                                             <a href="recognition-accreditation">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">Accreditation</p>
                                             </a>
@@ -866,7 +864,9 @@
                                         </div>
 
                                         <div class="col-lg-3">
-
+                                            <a href="iqac-overview">
+                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
+                                            </a>
                                             <a href="https://heyzine.com/flip-book/adfd7889ba.html">
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">International 2025 -
                                                     2026</p>
