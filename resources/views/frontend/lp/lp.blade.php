@@ -7,7 +7,7 @@
 
         <div class="website">
             <!--head image Section-->
-            @include('frontend/components/aheader')
+            @include('frontend/components/ip')
             <div>
 
           <!-- hero section  -->
