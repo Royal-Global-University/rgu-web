@@ -1,221 +1,775 @@
 @extends('frontend.master')
 @section('content')
-<div id="page" class="site site_wrapper">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/bg.svg); background-size: cover;">
 
-    <div class="scroll-top">
-        <div class="scroll-top-wrap">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                </path>
-            </svg>
-        </div>
+            <h2 class="headd2 fw-bold text-center kd-title-ani kd-split-text pt-4" style="color: #27467A; font-weight: 900;">
+                IQAC Annual <span style="color: #FF9A1E; font-weight: 500;">Report</span></h2>
+
+            <div style="padding: 20px;">
+
+                <h2 class="headd3 fw-bold pb-3" style="color: #27467A;">IQAC Report 2017 - 2023</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/IQAC%20Report%202017-2023-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Report 2017 - 2023</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">A & A Audit</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/Internal Academic Audit Report-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Internal Academic Audit Report
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/Internal Administrative Audit Report.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Internal Administrative Audit
+                                        Report</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/External AAA Report RGU.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> External AAA Report</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/External Green Audit Report.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> External Green Audit Report
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Annual Reports</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/Annual Report 2022-23-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2022 - 2023</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/Annual Report 2021-22-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2021 - 2022</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/Annual Report 2020-21-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2020 - 2021</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/Annual Report 2019-20-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2019 - 2020</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/Annual Report 2018-19-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2018 - 2019</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/Annual Report 2017-18-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2017 - 2018</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Gender Audit Report</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/Gender Audit Report-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Gender Audit Report 2018 - 2023
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Green and Environmental Audit Report</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank"
+                            href="mobile-assets/iqac/annual-reports/Green and Environmental Audit Report-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Green and Environmental Report
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Energy Audit Report</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/Energy Audit Report.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Energy Audit Report</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">5 years strategic plan 2023 - 2028</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/5 years strategic plan-min30052024.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> 5 Years Strategic Plan 2023 -
+                                        2028</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Institutional Development Plan 2023 - 2028</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank"
+                            href="mobile-assets/iqac/annual-reports/Institutional-Development-Plan-min30052024.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Institutional Development Plan
+                                        2023 - 2028</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">E-Governance Report</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="mobile-assets/iqac/annual-reports/E-Governance-Report_compressed27062024.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> E-Governance Report</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Feedback Analysis Report</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank"
+                            href="mobile-assets/iqac/annual-reports/Structured Feedback Analysis and Action Taken Report 2022-23 2_compressed.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Report 2022 - 2023</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank"
+                            href="mobile-assets/iqac/annual-reports/Structured Feedback Analysis and Action Taken Report 2021-22 2_compressed.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Report 2021 - 2022</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank"
+                            href="mobile-assets/iqac/annual-reports/Structured Feedback Analysis and Action Taken Report 2018-19 1_compressed.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Report 2018 - 2019</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
     </div>
 
-    @include('frontend/components/aheader')
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
+        <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/bg.svg); background-size: cover;">
 
-    <!--About Section-->
-            <div>
-                <img src="assets/img/iqac/COVERS/reports.svg" alt="">
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-4" style="color: #27467A; font-weight: 900;">
+                IQAC Annual <span style="color: #FF9A1E; font-weight: 500;">Report</span></h2>
+
+            <div style="padding: 30px 80px;">
+
+                <h2 class="headd3 fw-bold pb-3" style="color: #27467A;">IQAC Report 2017 - 2023</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/IQAC%20Report%202017-2023-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Report 2017 - 2023</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">A & A Audit</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Internal%20Academic%20Audit%20Report-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Internal Academic Audit Report
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Internal%20Administrative%20Audit%20Report.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Internal Administrative Audit
+                                        Report</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/External%20AAA%20Report%20RGU.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> External AAA Report</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/External%20Green%20Audit%20Report.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> External Green Audit Report
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Annual Reports</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Annual%20Report%202022-23-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2022 - 2023</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Annual%20Report%202021-22-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2021 - 2022</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Annual%20Report%202020-21-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2020 - 2021</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Annual%20Report%202019-20-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2019 - 2020</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Annual%20Report%202018-19-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2018 - 2019</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Annual%20Report%202017-18-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2017 - 2018</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Gender Audit Report</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Gender%20Audit%20Report-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Gender Audit Report 2018 - 2023
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Green and Environmental Audit Report</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank"
+                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Green%20and%20Environmental%20Audit%20Report-min.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Green and Environmental Report
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Energy Audit Report</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Energy%20Audit%20Report.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Energy Audit Report</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">5 years strategic plan 2023 - 2028</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/5%20years%20strategic%20plan-min30052024.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> 5 Years Strategic Plan 2023 -
+                                        2028</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Institutional Development Plan 2023 - 2028</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank"
+                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Institutional-Development-Plan-min30052024.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Institutional Development Plan
+                                        2023 - 2028</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">E-Governance Report</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/E-Governance-Report_compressed27062024.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> E-Governance Report</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <h2 class="headd3 fw-bold pb-3 pt-3" style="color: #27467A;">Feedback Analysis Report</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank"
+                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Structured%20Feedback%20Analysis%20and%20Action%20Taken%20Report%202022-23%202_compressed.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Report 2022 - 2023</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank"
+                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Structured%20Feedback%20Analysis%20and%20Action%20Taken%20Report%202021-22 2_compressed.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Report 2021 - 2022</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank"
+                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Structured%20Feedback%20Analysis%20and%20Action%20Taken%20Report%202018-19%201_compressed.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Report 2018 - 2019</h5>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="container-fluid" style="padding: 0px 80px;">
-
-                <hr>
-
-                <div class="headd2 text-dark fw-bold pt-2 pb-5" style="line-height: 1.3;">IQAC report 2017 - 2023
-                </div>
-                <div class="container">
-                    <section class="button-container">
-                        <div class="button-row">
-                            <a target="_blank" href="assets/img/iqac/IQAC Report 2017-2023-min.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> Report 2017 - 2023
-                            </a>
-                        </div>
-                    </section>
-
-                </div>
-
-                <hr>
-
-                <div class="headd2 text-dark fw-bold pb-5 pt-2" style="line-height: 1.3;">A & A Audit
-                </div>
-                <div class="container">
-                    <section class="button-container">
-                        <div class="button-row">
-                            <a href="assets/img/annual-report/Internal Academic Audit Report-min.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> Internal Academic Audit Report
-                            </a>
-                            <a href="assets/img/annual-report/Internal Administrative Audit Report.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> Internal Administrative Audit Report
-                            </a>
-                            <a href="assets/img/annual-report/External AAA Report RGU.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> External AAA Report
-                            </a>
-                        </div>
-
-                        <div class="button-row">
-                            <a href="assets/img/annual-report/External Green Audit Report.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> External Green Audit Report
-                            </a>
-
-                        </div>
-                    </section>
-
-                </div>
-
-                <hr>
-
-                <div class="headd2 text-dark fw-bold pb-5 pt-2" style="line-height: 1.3;">Annual Reports
-                </div>
-                <div class="container">
-                    <section class="button-container">
-                        <div class="button-row">
-                            <a href="assets/img/annual-report/Annual Report 2022-23-min.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> Annual Report 2022 - 2023
-                            </a>
-                            <a href="assets/img/annual-report/Annual Report 2021-22-min.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> Annual Report 2021 - 2022
-                            </a>
-                            <a href="assets/img/annual-report/Annual Report 2020-21-min.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> Annual Report 2020 - 2021
-                            </a>
-                        </div>
-
-                        <div class="button-row">
-                            <a href="assets/img/annual-report/Annual Report 2019-20-min.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> Annual Report 2019 - 2020
-                            </a>
-                            <a href="assets/img/annual-report/Annual Report 2018-19-min.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> Annual Report 2018 - 2019
-                            </a>
-                            <a href="assets/img/annual-report/Annual Report 2017-18-min.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> Annual Report 2017 - 2018
-                            </a>
-
-                        </div>
-                    </section>
-
-                </div>
-
-                <hr>
-
-                <div class="headd2 text-dark fw-bold pt-2 pb-5" style="line-height: 1.3;">Gender Audit Report
-                </div>
-                <div class="container">
-                    <section class="button-container">
-                        <div class="button-row">
-                            <a target="_blank" href="assets/img/annual-report/Gender Audit Report-min.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> Gender Audit Report 2018 - 2023
-                            </a>
-                        </div>
-                    </section>
-                </div>
-
-                <hr>
-
-                <div class="headd2 text-dark fw-bold pt-2 pb-5" style="line-height: 1.3;">Green and Environmental Audit Report
-                </div>
-                <div class="container">
-                    <section class="button-container">
-                        <div class="button-row">
-                            <a target="_blank" href="assets/img/annual-report/Green and Environmental Audit Report-min.pdf"
-                                class="button para1">
-                                <i class="fa fa-download p-2"></i> Green and Environmental Audit Report
-                            </a>
-                        </div>
-                    </section>
-                </div>
-
-                <hr>
-
-                <div class="headd2 text-dark fw-bold pt-2 pb-5" style="line-height: 1.3;">Energy Audit Report
-                </div>
-                <div class="container">
-                    <section class="button-container">
-                        <div class="button-row">
-                            <a target="_blank" href="assets/img/annual-report/Energy Audit Report.pdf" class="button para1">
-                                <i class="fa fa-download p-2"></i> Energy Audit Report
-                            </a>
-                        </div>
-                    </section>
-                </div>
-
-                <hr>
-
-                <div class="headd2 text-dark fw-bold pt-2 pb-5" style="line-height: 1.3;">5 years strategic plan 2023 - 2028
-                </div>
-                <div class="container">
-                    <section class="button-container">
-                        <div class="button-row">
-                            <a target="_blank" href="assets/img/annual-report/5 years strategic plan-min30052024.pdf"
-                                class="button para1">
-                                <i class="fa fa-download p-2"></i> 5 years strategic plan 2023 - 2028
-                            </a>
-                        </div>
-                    </section>
-                </div>
-
-                <hr>
-
-                <div class="headd2 text-dark fw-bold pt-2 pb-5" style="line-height: 1.3;">Institutional Development Plan 2023 - 2028
-                </div>
-                <div class="container">
-                    <section class="button-container">
-                        <div class="button-row">
-                            <a target="_blank" href="assets/img/annual-report/Institutional Development Plan-min30052024.pdf"
-                                class="button para1">
-                                <i class="fa fa-download p-2"></i> Institutional Development Plan 2023 - 2028
-                            </a>
-                        </div>
-                    </section>
-                </div>
-
-                <hr>
-
-                <div class="headd2 text-dark fw-bold pt-2 pb-5" style="line-height: 1.3;">E-Governance Report
-                </div>
-                <div class="container">
-                    <section class="button-container">
-                        <div class="button-row">
-                            <a target="_blank" href="assets/img/annual-report/E-Governance Report_compressed27062024.pdf"
-                                class="button para1">
-                                <i class="fa fa-download p-2"></i> E-Governance Report
-                            </a>
-                        </div>
-                    </section>
-                </div>
-
-                <hr>
-
-                <div class="headd2 text-dark fw-bold pb-5 pt-2" style="line-height: 1.3;">Feedback Analysis Report
-                </div>
-                <div class="container">
-                    <section class="button-container">
-                        <div class="button-row">
-                            <a target="_blank"
-                                href="assets/img/annual-report/Structured Feedback Analysis and Action Taken Report 2022-23 2_compressed.pdf"
-                                class="button para1">
-                                <i class="fa fa-download p-2"></i> Report 2022 - 2023
-                            </a>
-                            <a target="_blank"
-                                href="assets/img/annual-report/Structured Feedback Analysis and Action Taken Report 2021-22 2_compressed.pdf"
-                                class="button para1">
-                                <i class="fa fa-download p-2"></i> Report 2021 - 2022
-                            </a>
-                            <a target="_blank"
-                                href="assets/img/annual-report/Structured Feedback Analysis and Action Taken Report 2018-19 1_compressed.pdf"
-                                class="button para1">
-                                <i class="fa fa-download p-2"></i> Report 2018 - 2019
-                            </a>
-                        </div>
-                    </section>
-
-                </div>
-
-            </div>
-
-    <!--End About-->
-</div><!-- #page -->
+        </section>
+    </div>
 @endsection

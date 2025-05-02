@@ -1,81 +1,187 @@
 @extends('frontend.master')
 @section('content')
-<div id="page" class="site site_wrapper">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/bg.svg); background-size: cover;">
 
-    <div class="scroll-top">
-        <div class="scroll-top-wrap">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                </path>
-            </svg>
-        </div>
-    </div>
+            <h2 class="headd2 fw-bold text-center kd-title-ani kd-split-text pt-4" style="color: #27467A; font-weight: 900;">
+                National Assessment and <span style="color: #FF9A1E; font-weight: 500;">Accreditation Council</span></h2>
 
-    @include('frontend/components/aheader')
 
-    <!--About Section-->
-    <div>
-        <img src="assets/img/NAAC/naac.svg" alt="">
-    </div>
+            <div style="padding: 20px;">
 
-    <div class="container-fluid" style="padding: 0px 80px;">
+                <h2 class="headd2 fw-bold pb-3 text-center pt-5" style="color: #27467A; font-size: 35px;">Reports</h2>
 
-        <hr>
 
-        <div class="headd2 text-dark fw-bold pt-2" style="line-height: 1.3;">Reports
-        </div>
-        <div class="main-container container">
-            <section class="button-container">
-                <div class="button-row">
-                    <a href="assets/img/naac-docs/Self Study Report.pdf" target="_blank" class="button para1">
-                        <i class="fa fa-download p-2"></i>Self Study Report
-                    </a>
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
-                    <a href="assets/img/naac-docs/IIQA+Report_RGU.pdf" target="_blank" class="button para1">
-                        <i class="fa fa-download p-2"></i>Institutional Information for Quality Assessment (IIQA) Report
-                    </a>
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/naac-docs/Self Study Report.pdf">
+                            <div class="pt-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download fa-1x"></i> Self Study Report</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-12 mb-4">
+
+                        <a target="_blank" href="">
+                            <div class="pt-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download fa-1x"></i> Institutional Information
+                                        for Quality Assessment (IIQA) Report</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
-            </section>
-        </div>
 
-        <hr>
+                <hr>
 
-        <div class="headd2 text-dark fw-bold pt-2" style="line-height: 1.3;">Criterion
-        </div>
+                <h2 class="mobile-headd1 fw-bold pt-3 text-center" style="color: #27467A; font-size: 35px;">Criterion</h2>
 
-        <div class="container mt-4 mb-5"
-            style="border: 2px solid #9999993b; padding: 30px; border-radius: 10px; background-color: #f0f8ff;">
-            <div style="display: flex; justify-content: space-around; align-items: center; padding: 30px 10px;">
-                <a href="iqac-report-naac-c1.html">
-                    <img src="assets/img/NAAC/criterion1.svg" alt="Image 1" style="width: 250px; height: auto;">
-                </a>
-                <a href="iqac-report-naac-c2.html">
-                    <img src="assets/img/NAAC/criterion2.svg" alt="Image 2" style="width: 250px; height: auto;">
-                </a>
-                <a href="iqac-report-naac-c3.html">
-                    <img src="assets/img/NAAC/criterion3.svg" alt="Image 3" style="width: 250px; height: auto;">
-                </a>
-                <a href="iqac-report-naac-c4.html">
-                    <img src="assets/img/NAAC/criterion4.svg" alt="Image 4" style="width: 250px; height: auto;">
-                </a>
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+                    <div class="col-lg-12 text-center">
+                        <a href="iqac-report-naac-c1"><img style="width: 500px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/1.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-12 text-center">
+                        <a href="iqac-report-naac-c2"><img style="width: 500px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/2.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-12 text-center">
+                        <a href="iqac-report-naac-c3"><img style="width: 500px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/3.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-12 text-center">
+                        <a href="iqac-report-naac-c4"><img style="width: 500px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/4.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-12 text-center">
+                        <a href="iqac-report-naac-c5"><img style="width: 500px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/5.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-12 text-center">
+                        <a href="iqac-report-naac-c6"><img style="width: 500px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/6.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-12 text-center">
+                        <a href="iqac-report-naac-c7"><img style="width: 500px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/7.svg"
+                                alt=""></a>
+                    </div>
+                </div>
+
             </div>
-            <div style="display: flex; justify-content: space-around; align-items: center; padding: 30px 10px;">
-                <a href="iqac-report-naac-c5.html">
-                    <img src="assets/img/NAAC/criterion5.svg" alt="Image 5" style="width: 250px; height: auto;">
-                </a>
-                <a href="iqac-report-naac-c6.html">
-                    <img src="assets/img/NAAC/criterion6.svg" alt="Image 6" style="width: 250px; height: auto;">
-                </a>
-                <a href="iqac-report-naac-c7.html">
-                    <img src="assets/img/NAAC/criterion7.svg" alt="Image 7" style="width: 250px; height: auto;">
-                </a>
-            </div>
 
-        </div>
-
+        </section>
     </div>
-    <!--End About-->
-</div><!-- #page -->
+
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
+        <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/bg.svg); background-size: cover;">
+
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-4" style="color: #27467A; font-weight: 900;">
+                National Assessment and <span style="color: #FF9A1E; font-weight: 500;">Accreditation Council</span></h2>
+
+
+            <div style="padding: 20px 80px;">
+
+                <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-size: 30px;">Reports</h2>
+
+
+                <div class="row">
+
+                    <div class="col-lg-6 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/naac-docs/Self Study Report.pdf">
+                            <div class="pt-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download fa-1x"></i> Self Study Report</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6 mb-4">
+
+                        <a target="_blank" href="">
+                            <div class="pt-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download fa-1x"></i> Institutional Information
+                                        for Quality Assessment (IIQA) Report</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <h2 class="headd2 fw-bold pb-3 pt-3" style="color: #27467A; font-size: 30px;">Criterion</h2>
+
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+                    <div class="col-lg-3">
+                        <a href="iqac-report-naac-c1"><img style="width: 300px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/1.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="iqac-report-naac-c2"><img style="width: 300px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/2.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="iqac-report-naac-c3"><img style="width: 300px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/3.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="iqac-report-naac-c4"><img style="width: 300px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/4.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="iqac-report-naac-c5"><img style="width: 300px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/5.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="iqac-report-naac-c6"><img style="width: 300px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/6.svg"
+                                alt=""></a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="iqac-report-naac-c7"><img style="width: 300px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/naac/7.svg"
+                                alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
 @endsection

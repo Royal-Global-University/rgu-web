@@ -820,7 +820,7 @@ Route::get('/iqac-mom', function () {
     return view('frontend/iqac/iqac-mom');
 })->name('iqac-mom');
 
-Route::get('/iqac-annul-report', function () {
+Route::get('/iqac-annual-report', function () {
     return view('frontend/iqac/iqac-annul-report');
 })->name('iqac-annul-report');
 

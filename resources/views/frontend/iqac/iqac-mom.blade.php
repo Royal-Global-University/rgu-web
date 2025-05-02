@@ -1,87 +1,475 @@
 @extends('frontend.master')
 @section('content')
-<div id="page" class="site site_wrapper">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/bg.svg); background-size: cover;">
 
-    <div class="scroll-top">
-        <div class="scroll-top-wrap">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                </path>
-            </svg>
-        </div>
-    </div>
+            <h2 class="mobile-headd2 fw-bold text-center kd-title-ani kd-split-text pt-4"
+                style="color: #27467A; font-weight: 900;">
+                Minutes of <span style="color: #FF9A1E; font-weight: 500;">Meeting</span></h2>
 
-    @include('frontend/components/aheader')
+            <div style="padding: 20px;">
 
-    <!--About Section-->
-    <div>
-        <img src="assets/img/mom-docs/mom.svg" alt="">
-    </div>
+                <div class="row">
 
-    <div class="main-container container">
-        <section class="button-container">
-            <div class="button-row">
-                <a href="assets/img/mom-docs/12th IQAC meeting.pdf" target="_blank" class="button para1">
-                    <i class="fa fa-download p-2"></i> 12th Minutes of Meeting
-                </a>
-                <a href="assets/img/mom-docs/11th IQAC meeting.pdf" target="_blank" class="button para1">
-                    <i class="fa fa-download p-2"></i> 11th Minutes of Meeting
-                </a>
-                <a href="assets/img/mom-docs/10th IQAC meeting.pdf" target="_blank" class="button para1">
-                    <i class="fa fa-download p-2"></i> 10th Minutes of Meeting
-                </a>
-            </div>
+                    <div class="col-lg-3 mb-4">
 
-            <div class="button-row">
-                <a href="assets/img/mom-docs/9th IQAC meeting.pdf" target="_blank" style="font-size: 16px !important;"
-                    class="button para1">
-                    <i class="fa fa-download p-2"></i> 9th Minutes of Meeting
-                </a>
-                <a href="assets/img/mom-docs/mom8.pdf" target="_blank" style="font-size: 16px !important;"
-                    class="button para1">
-                    <i class="fa fa-download p-2"></i> 8th Minutes of Meeting
-                </a>
-                <a href="assets/img/mom-docs/mom7.pdf" target="_blank" style="font-size: 16px !important;"
-                    class="button para1">
-                    <i class="fa fa-download p-2"></i> 7th Minutes of Meeting
-                </a>
-            </div>
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/12th IQAC meeting.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
 
-            <div class="button-row">
-                <a href="assets/img/mom-docs/mom6.pdf" target="_blank" style="font-size: 16px !important;"
-                    class="button para1">
-                    <i class="fa fa-download p-2"></i> 6th Minutes of Meeting
-                </a>
-                <a href="assets/img/mom-docs/mom5.pdf" target="_blank" style="font-size: 16px !important;"
-                    class="button para1">
-                    <i class="fa fa-download p-2"></i> 5th Minutes of Meeting
-                </a>
-                <a href="assets/img/mom-docs/mom4.pdf" target="_blank" style="font-size: 16px !important;"
-                    class="button para1">
-                    <i class="fa fa-download p-2"></i> 4th Minutes of Meeting
-                </a>
-            </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">12<sup>th</sup> Minutes of Meeting
+                                    </h5>
 
-            <div class="button-row">
-                <a href="assets/img/mom-docs/mom3.pdf" target="_blank" style="font-size: 16px !important;"
-                    class="button para1">
-                    <i class="fa fa-download p-2"></i> 3rd Minutes of Meeting
-                </a>
-                <a href="assets/img/mom-docs/mom2.pdf" target="_blank" style="font-size: 16px !important;"
-                    class="button para1">
-                    <i class="fa fa-download p-2"></i> 2nd Minutes of Meeting
-                </a>
-                <a href="assets/img/mom-docs/mom1.pdf" target="_blank" style="font-size: 16px !important;"
-                    class="button para1">
-                    <i class="fa fa-download p-2"></i> 1st Minutes of Meeting
-                </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/11th IQAC meeting.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">11<sup>th</sup> Minutes of Meeting
+                                    </h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/10th IQAC meeting.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">10<sup>th</sup> Minutes of Meeting
+                                    </h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/9th IQAC meeting.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">9<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom8.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">8<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom7.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">7<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom6.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">6<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom5.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">5<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom4.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">4<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom3.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">3<sup>rd</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom2.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">2<sup>nd</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom1.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;"
+                                        class="text-center card-title mobile-headd3 pb-2">1<sup>st</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
 
         </section>
-
     </div>
-    <!--End About-->
-</div><!-- #page -->
+
+    <div class="website">
+        <!--head image Section-->
+        @include('frontend/components/aheader')
+        <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/bg.svg); background-size: cover;">
+
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-4" style="color: #27467A; font-weight: 900;">
+                Minutes of <span style="color: #FF9A1E; font-weight: 500;">Meeting</span></h2>
+
+            <div style="padding: 20px 80px;">
+
+                <div class="row">
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/12th IQAC meeting.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        12<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/11th IQAC meeting.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        11<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/10th IQAC meeting.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        10<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/9th IQAC meeting.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        9<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom8.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        8<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom7.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        7<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom6.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        6<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom5.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        5<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom4.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        4<sup>th</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom3.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        3<sup>rd</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom2.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        2<sup>nd</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/mom-docs/mom1.pdf">
+                            <div class="p-3 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-2 text-center">
+                                    <i style="color: #27467A;" class="fas fa-download fa-2x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1 pb-2">
+                                        1<sup>st</sup> Minutes of Meeting</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    </div>
 @endsection
