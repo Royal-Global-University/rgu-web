@@ -490,7 +490,7 @@
             background-image: url('mobile-assets/lp/piccc.png');
             background-size: cover;
             background-position: center;
-            height: 70vh;
+            height: 90vh;
             padding: 0px 15px;
             color: white;
             position: relative;
