@@ -846,6 +846,9 @@
                                                 <p class="m-0 pt-4 text-white" style="font-size: 18px;">Research &
                                                     Development</p>
                                             </a>
+                                            <a href="iqac-overview">
+                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
+                                            </a>
                                             <a href="recognition-accreditation">
                                                 <p class="m-0 mt-4 text-white" style="font-size: 18px;">Accreditation</p>
                                             </a>
