@@ -49,9 +49,6 @@
 
             <div style="display: flex; flex-direction: column; align-items: center; margin-top: 20px;">
                 <section style="display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 400px;">
-                    <a href="iqac-about"
-                        style="display: block; text-decoration: none; background-color: #264273; color: white; padding: 10px; text-align: center; border-radius: 5px; font-weight: 500;"
-                        class="mobile-para1">About IQAC</a>
                     <a href="iqac-members"
                         style="display: block; text-decoration: none; background-color: #264273; color: white; padding: 10px; text-align: center; border-radius: 5px; font-weight: 500;"
                         class="mobile-para1">Composition of IQAC</a>
@@ -206,7 +203,6 @@
                 <section class="button-container">
 
                     <div class="button-row">
-                        <a href="iqac-overview" class="button para1">About IQAC</a>
                         <a href="iqac-members" class="button para1">Composition of IQAC</a>
                         <a href="iqac-mom" class="button para1">Minutes of Meeting</a>
                         <a href="iqac-activities" class="button para1">Activities</a>
