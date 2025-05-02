@@ -485,6 +485,53 @@
         }
     </style>
 
+    <style>
+        .mobile-hero {
+            background-image: url('mobile-assets/lp/piccc.png');
+            background-size: cover;
+            background-position: center;
+            height: 70vh;
+            padding: 0px 15px;
+            color: white;
+            position: relative;
+        }
+
+        .mobile-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 31, 63, 0.685);
+            /* Dark overlay for contrast */
+            z-index: 1;
+        }
+
+        .mobile-hero-text {
+            top: 300px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .mobile-hero-text h1 {
+            font-size: 2.5rem;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .apply-btn {
+            background-color: #ff5e3a;
+            color: white;
+            text-decoration: none;
+            padding: 14px 30px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: inline-block;
+        }
+    </style>
+
     <!-- underline  -->
     <style>
         .lp-half-underline {
