@@ -9,14 +9,14 @@
                                         @include('frontend/components/mobileip')
                           <div style="padding-top: 90px; position: relative;">
                               <div class="row">
-                                <div class="col-lg-12 pt-3 pb-3">
+                                <div class="col-lg-12 pt-3 pb-3" style="background-color: #5e5c5c">
                                   <div class="npf_wgts" data-height="680px" data-w="30f6f0f5207a8612717c00304293b304"></div>
                                 </div>
                               </div>
                           </div>
 
 
-                          <section style="padding: 120px 0px;">
+                          <section style="padding: 100px 0px;">
                             <div class="container">
                             <div class="row align-items-center gx-5">
                                 <div class="col-lg-6">
