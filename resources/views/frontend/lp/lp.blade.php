@@ -9,7 +9,7 @@
 
       <div class="mobile-hero">
           <div class="row">
-            <div class="col-lg-12" style="z-index: 1000;">
+            <div class="col-lg-12 pt-3 pb-3" style="z-index: 1000;">
               <div class="npf_wgts" data-height="680px" data-w="30f6f0f5207a8612717c00304293b304"></div>
             </div>
           </div>
