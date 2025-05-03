@@ -218,12 +218,9 @@
 
       </div>
 
-      <div class="container pt-5 pb-4">
-        <h2 class="text-center" style="color: #264273; font-weight: 700;">Campus Life @ RGU</h2>
-      </div>
 
       <div class="container pt-5 pb-4">
-        <h2 class="text-center" style="color: #264273; font-weight: 700;">RGU Success Stories</h2>
+        <h4 class="text-center" style="color: #264273; font-weight: 700;">RGU Success Stories</h4>
       </div>
 
       <div style="padding: 0px 60px;">
