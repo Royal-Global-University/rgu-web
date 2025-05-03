@@ -518,6 +518,7 @@
             font-size: 2.5rem;
             line-height: 1.2;
             margin-bottom: 20px;
+
         }
 
         .apply-btn {
@@ -686,6 +687,7 @@
             font-size: 4.5rem;
             line-height: 1.2;
             margin-bottom: 20px;
+            font-weight: 900;
         }
 
         .apply-btn {
