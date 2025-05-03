@@ -18,7 +18,7 @@
                     </div>
 
                     <div class="col-lg-5 npf_wgts-main pt-3 rounded" style="z-index: 1000; ">
-                        <div class="npf_wgts" data-height="680px" data-width="300px" data-w="30f6f0f5207a8612717c00304293b304"></div>
+                        <div class="npf_wgts" data-height="680px" data-width="200px" data-w="30f6f0f5207a8612717c00304293b304"></div>
                     </div>
 
                 </div>
