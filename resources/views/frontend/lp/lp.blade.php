@@ -22,7 +22,7 @@
                                 <div class="col-lg-6">
 
                                     <h5 class="headd kd-title-ani kd-split lp-half-underline" style="color: #264273; font-weight: 700; font-size: 35px !important;">Why RGU</h5>
-                                    <p class="para1 pt-3" style="color: #333; text-align: justify;">
+                                    <p class="para1 pt-2" style="color: #333; text-align: justify;">
                                      The Assam Royal Global University stands out for its excellent academic programs, experienced faculty, modern facilities, and emphasis on holistic development, making it a top choice for students seeking quality education in various disciplines. It is recognized by the University Grants Commission (UGC) and it holds recognition and accreditation from relevant professional bodies for specific programs, ensuring that the education provided meets high standards and is recognized nationally and internationally.
                                     </p>
 
