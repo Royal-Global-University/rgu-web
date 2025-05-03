@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg" style="padding: 10px 60px; position: relative !important;">
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand">
             <img src="mobile-assets/index/logo-dark.png" alt="Logo" style="height: 70px;">
         </a>
 
@@ -11,31 +11,31 @@
 
                 <!-- Discover RGU -->
                 <li style="position: relative;">
-                    <a href="#"
+                    <a href="#whyrgu"
                         style="color: #000000; font-weight: 800; font-size: 16px;">Why RGU</a>
                 </li>
 
                 <!-- Academics -->
                 <li style="position: relative;">
-                    <a href="#"
+                    <a href="#programme"
                         style="color: #000000; font-weight: 800; font-size: 16px;">Programmes Offered</a>
                 </li>
 
                 <!-- Admissions -->
                 <li style="position: relative;">
-                    <a href="#"
+                    <a href="#virtualtour"
                         style="color: #000000; font-weight: 800; font-size: 16px;">Virtual Campus Tour</a>
                 </li>
 
                 <!-- Convocation -->
                 <li style="position: relative;">
-                    <a href="#"
+                    <a href="#campuslife"
                         style="color: #000000; font-weight: 800; font-size: 16px;">Life @ RGU</a>
                 </li>
 
                 <!-- Campus Life with Submenu -->
                 <li style="position: relative;">
-                    <a href="#"
+                    <a href="#success"
                         style="color: #000000; font-weight: 800; font-size: 16px;">Success Stories</a>
                 </li>
 

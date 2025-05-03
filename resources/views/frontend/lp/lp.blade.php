@@ -2,6 +2,9 @@
 @section('content')
 
     <div class="website">
+        @php
+            $hideFooter = true;
+        @endphp
         <!--head image Section-->
         @include('frontend/components/ip')
         <div>
@@ -26,7 +29,7 @@
             </div>
             <!-- hero section  -->
 
-            <section style="padding: 50px 0px;">
+            <section id="whyrgu" style="padding: 50px 0px;">
                 <div class="container">
                     <div class="row align-items-center gx-5">
                         <div class="col-lg-6">
@@ -187,7 +190,7 @@
                 });
             </script>
 
-            <div class="pt-4 text-center">
+            <div id="virtualtour" class="pt-4 text-center">
                 <img src="mobile-assets/lp/gallery1.png" alt="">
             </div>
 
@@ -238,7 +241,7 @@
 
             </div>
 
-            <div class="container pt-5">
+            <div id="programme" class="container pt-5">
                 <h2 class="text-center" style="color: #264273; font-weight: 700;">Programmes Offered</h2>
             </div>
 
@@ -264,198 +267,198 @@
                         <div id="lp-ug-list" class="lp-program-box d-none">
 
                             <ul>
-                                <li>B.Sc. - Hotel Management</li>
-                                <li>BA - Culinary Arts</li>
-                                <li>BA - Hotel Management</li>
-                                <li>Bachelor of Hotel Management - BHM</li>
-                                <li>BA - Economics</li>
-                                <li>BA - History</li>
-                                <li>BA - Pol. Science</li>
-                                <li>BA - Public Administration</li>
-                                <li>BA - Sociology</li>
-                                <li>BSW</li>
-                                <li>B.A Sociology with Integrated Civil Service Program</li>
-                                <li>B.A Economics with Integrated Civil Service Program</li>
-                                <li>B.A Public Administration with Integrated Civil Service Program</li>
-                                <li>B.A Political Science with Integrated Civil Service Program</li>
-                                <li>B.A History with Integrated Civil Service Program</li>
-                                <li>B. Optometry **</li>
-                                <li>B.Sc. - in Medical Laboratory Technology- BMLT **</li>
-                                <li>B.Sc. - Nutrition and Dietetics</li>
-                                <li>B.Sc. in Dialysis Technology</li>
-                                <li>B.Sc. in Emergency & Critical Care</li>
-                                <li>B.Sc. in Operation Theatre Technology **</li>
-                                <li>B.Sc. in Radiography & Advance Imaging Technology **</li>
-                                <li>Bachelor of Physiotherapy - BPT **</li>
-                                <li>B.Pharm.</li>
-                                <li>B.Sc. - Travel & Tourism Management</li>
-                                <li>BA - Travel & Tourism Management</li>
-                                <li>Bachelor of Travel & Tourism Management - BTTM</li>
-                                <li>B.Sc Agriculture</li>
-                                <li>B.Sc. - Chemistry</li>
-                                <li>B.Sc. - Mathematics</li>
-                                <li>B.Sc. - Physics</li>
-                                <li>B.Sc Physics with Integrated Civil Service Program</li>
-                                <li>B.Sc Chemistry with Integrated Civil Service Program</li>
-                                <li>B.Sc Mathematics with Integrated Civil Service Program</li>
-                                <li>B.Arch.</li>
-                                <li>BA - Applied Psychology</li>
-                                <li>BA - Psychology</li>
-                                <li>B.Sc. - Bio-Technology</li>
-                                <li>B.Sc. - Food Technology</li>
-                                <li>B.Sc. - Micro-Biology</li>
-                                <li>BBA</li>
-                                <li>B.Com - Finance with ICA</li>
-                                <li>B.Com-(Day Shift)</li>
-                                <li>B.Com-(Morning Shift)</li>
-                                <li>B.Sc. - (Animation and Visual Effects)</li>
-                                <li>BA - (J & MC)</li>
-                                <li>B.Des - Communication Design</li>
-                                <li>B.Des - Graphic Design</li>
-                                <li>B.Des - Product Design</li>
-                                <li>B.Des (FD)</li>
-                                <li>Bachelor in Interior Design(BID)</li>
-                                <li>B.Tech - ME</li>
-                                <li>B.Tech - CE</li>
-                                <li>B.Tech - CSE</li>
-                                <li>B.Tech - ECE</li>
-                                <li>B.Tech - Artificial Intelligence-AI</li>
-                                <li>B.Tech Working Professional CE / CSE</li>
-                                <li>B.Sc. Geography</li>
-                                <li>B.Sc. Geology</li>
-                                <li>BA Geography</li>
-                                <li>B.Sc Geography with Integrated Civil Service Program</li>
-                                <li>B.Sc Geology with Integrated Civil Service Program</li>
-                                <li>B.A Geography with Integrated Civil Service Program</li>
-                                <li>B.Des (FD)</li>
-                                <li>BFA</li>
-                                <li>B.Sc. (IT)</li>
-                                <li>BCA</li>
-                                <li>BA - English</li>
-                                <li>B.A English with Integrated Civil Service Program</li>
-                                <li>BA - LLB (Hons.)</li>
-                                <li>BBA - LLB (Hons.)*</li>
-                                <li>B.Sc. - Botany</li>
-                                <li>B.Sc. - Forestry</li>
-                                <li>B.Sc. - Zoology</li>
-                                <li>B.Sc.- Forensic Science</li>
-                                <li>B.Sc Botany with Integrated Civil Service Program</li>
-                                <li>B.Sc Zoology with Integrated Civil Service Program</li>
-                                <li>B.Sc.Nursing</li>
-                                <li>B.Sc.Nursing - Post Basic *</li>
-                                <li>General Nursing & Midwifery</li>
+                                <li class="fw-bold text-dark">B.Sc. - Hotel Management</li>
+                                <li class="fw-bold text-dark">BA - Culinary Arts</li>
+                                <li class="fw-bold text-dark">BA - Hotel Management</li>
+                                <li class="fw-bold text-dark">Bachelor of Hotel Management - BHM</li>
+                                <li class="fw-bold text-dark">BA - Economics</li>
+                                <li class="fw-bold text-dark">BA - History</li>
+                                <li class="fw-bold text-dark">BA - Pol. Science</li>
+                                <li class="fw-bold text-dark">BA - Public Administration</li>
+                                <li class="fw-bold text-dark">BA - Sociology</li>
+                                <li class="fw-bold text-dark">BSW</li>
+                                <li class="fw-bold text-dark">B.A Sociology with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.A Economics with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.A Public Administration with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.A Political Science with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.A History with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B. Optometry **</li>
+                                <li class="fw-bold text-dark">B.Sc. - in Medical Laboratory Technology- BMLT **</li>
+                                <li class="fw-bold text-dark">B.Sc. - Nutrition and Dietetics</li>
+                                <li class="fw-bold text-dark">B.Sc. in Dialysis Technology</li>
+                                <li class="fw-bold text-dark">B.Sc. in Emergency & Critical Care</li>
+                                <li class="fw-bold text-dark">B.Sc. in Operation Theatre Technology **</li>
+                                <li class="fw-bold text-dark">B.Sc. in Radiography & Advance Imaging Technology **</li>
+                                <li class="fw-bold text-dark">Bachelor of Physiotherapy - BPT **</li>
+                                <li class="fw-bold text-dark">B.Pharm.</li>
+                                <li class="fw-bold text-dark">B.Sc. - Travel & Tourism Management</li>
+                                <li class="fw-bold text-dark">BA - Travel & Tourism Management</li>
+                                <li class="fw-bold text-dark">Bachelor of Travel & Tourism Management - BTTM</li>
+                                <li class="fw-bold text-dark">B.Sc Agriculture</li>
+                                <li class="fw-bold text-dark">B.Sc. - Chemistry</li>
+                                <li class="fw-bold text-dark">B.Sc. - Mathematics</li>
+                                <li class="fw-bold text-dark">B.Sc. - Physics</li>
+                                <li class="fw-bold text-dark">B.Sc Physics with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.Sc Chemistry with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.Sc Mathematics with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.Arch.</li>
+                                <li class="fw-bold text-dark">BA - Applied Psychology</li>
+                                <li class="fw-bold text-dark">BA - Psychology</li>
+                                <li class="fw-bold text-dark">B.Sc. - Bio-Technology</li>
+                                <li class="fw-bold text-dark">B.Sc. - Food Technology</li>
+                                <li class="fw-bold text-dark">B.Sc. - Micro-Biology</li>
+                                <li class="fw-bold text-dark">BBA</li>
+                                <li class="fw-bold text-dark">B.Com - Finance with ICA</li>
+                                <li class="fw-bold text-dark">B.Com-(Day Shift)</li>
+                                <li class="fw-bold text-dark">B.Com-(Morning Shift)</li>
+                                <li class="fw-bold text-dark">B.Sc. - (Animation and Visual Effects)</li>
+                                <li class="fw-bold text-dark">BA - (J & MC)</li>
+                                <li class="fw-bold text-dark">B.Des - Communication Design</li>
+                                <li class="fw-bold text-dark">B.Des - Graphic Design</li>
+                                <li class="fw-bold text-dark">B.Des - Product Design</li>
+                                <li class="fw-bold text-dark">B.Des (FD)</li>
+                                <li class="fw-bold text-dark">Bachelor in Interior Design(BID)</li>
+                                <li class="fw-bold text-dark">B.Tech - ME</li>
+                                <li class="fw-bold text-dark">B.Tech - CE</li>
+                                <li class="fw-bold text-dark">B.Tech - CSE</li>
+                                <li class="fw-bold text-dark">B.Tech - ECE</li>
+                                <li class="fw-bold text-dark">B.Tech - Artificial Intelligence-AI</li>
+                                <li class="fw-bold text-dark">B.Tech Working Professional CE / CSE</li>
+                                <li class="fw-bold text-dark">B.Sc. Geography</li>
+                                <li class="fw-bold text-dark">B.Sc. Geology</li>
+                                <li class="fw-bold text-dark">BA Geography</li>
+                                <li class="fw-bold text-dark">B.Sc Geography with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.Sc Geology with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.A Geography with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.Des (FD)</li>
+                                <li class="fw-bold text-dark">BFA</li>
+                                <li class="fw-bold text-dark">B.Sc. (IT)</li>
+                                <li class="fw-bold text-dark">BCA</li>
+                                <li class="fw-bold text-dark">BA - English</li>
+                                <li class="fw-bold text-dark">B.A English with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">BA - LLB (Hons.)</li>
+                                <li class="fw-bold text-dark">BBA - LLB (Hons.)*</li>
+                                <li class="fw-bold text-dark">B.Sc. - Botany</li>
+                                <li class="fw-bold text-dark">B.Sc. - Forestry</li>
+                                <li class="fw-bold text-dark">B.Sc. - Zoology</li>
+                                <li class="fw-bold text-dark">B.Sc.- Forensic Science</li>
+                                <li class="fw-bold text-dark">B.Sc Botany with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.Sc Zoology with Integrated Civil Service Program</li>
+                                <li class="fw-bold text-dark">B.Sc.Nursing</li>
+                                <li class="fw-bold text-dark">B.Sc.Nursing - Post Basic *</li>
+                                <li class="fw-bold text-dark">General Nursing & Midwifery</li>
                             </ul>
 
                         </div>
 
                         <div id="lp-pg-list" class="lp-program-box d-none">
                             <ul>
-                                <li>M.Sc. - Hotel Management</li>
-                                <li>MHM</li>
-                                <li>MA - Public Administration</li>
-                                <li>MA Economics</li>
-                                <li>MA History</li>
-                                <li>MA Pol. Science</li>
-                                <li>MA Sociology</li>
-                                <li>MSW</li>
-                                <li>M. Optometry **</li>
-                                <li>M.Sc. - Nutrition and Dietetics</li>
-                                <li>M.Sc. in Medical Laboratory Technology- MMLT **</li>
-                                <li>Masters in Physiotherapy - MPT **</li>
-                                <li>M.Pharm - Pharmaceutics</li>
-                                <li>M.Pharm - Pharmaceutical Chemistry</li>
-                                <li>M.Pharm - Pharmacognosy</li>
-                                <li>Master of Travel & Tourism Management - MTTM</li>
-                                <li>M.Sc. - Chemistry</li>
-                                <li>M.Sc. - Mathematics</li>
-                                <li>M.Sc. - Physics</li>
-                                <li>MA - Psychology</li>
-                                <li>M.Sc. Bio-Technology</li>
-                                <li>M.Sc. Food Technology</li>
-                                <li>M.Sc. Micro-Biology</li>
-                                <li>MBA - Entrepreneurship & Small Business Management</li>
-                                <li>MBA - HRM</li>
-                                <li>MBA - Operational Management</li>
-                                <li>MBA - Business Analytics</li>
-                                <li>MBA - Finance</li>
-                                <li>MBA - Marketing</li>
-                                <li>Executive MBA</li>
-                                <li>M.Com</li>
-                                <li>M.Sc. (Animation and Visual Effects)</li>
-                                <li>MA (J & MC)</li>
-                                <li>M.Tech - AI</li>
-                                <li>M.Tech - CAD</li>
-                                <li>M.Tech - IOT</li>
-                                <li>M.Tech - WRDM</li>
-                                <li>M.Tech - Structural Eng</li>
-                                <li>M.Sc. Geography</li>
-                                <li>M.Sc. Geoinformatics</li>
-                                <li>M.Sc. Geology</li>
-                                <li>MA Geography</li>
-                                <li>MFA</li>
-                                <li>M.Sc. (IT)</li>
-                                <li>MCA</li>
-                                <li>MA - English</li>
-                                <li>LLB - (Hons.)*</li>
-                                <li>LLM - Day Shift</li>
-                                <li>LLM - Morning Shift</li>
-                                <li>M.L.I.Sc.</li>
-                                <li>M.Sc. - Forestry</li>
-                                <li>M.Sc. Botany</li>
-                                <li>M.Sc. Forensic Science</li>
-                                <li>M.Sc. Zoology</li>
-                                <li>M.Sc.Nursing - Medical Surgical Nursing *</li>
-                                <li>M.Sc.Nursing - Child Health Nursing *</li>
-                                <li>M.Sc.Nursing - Community Health Nursing *</li>
-                                <li>M.Sc.Nursing - Mental Health Nursing *</li>
-                                <li>M.Sc.Nursing - OBE Nursing *</li>
+                                <li class="fw-bold text-dark">M.Sc. - Hotel Management</li>
+                                <li class="fw-bold text-dark">MHM</li>
+                                <li class="fw-bold text-dark">MA - Public Administration</li>
+                                <li class="fw-bold text-dark">MA Economics</li>
+                                <li class="fw-bold text-dark">MA History</li>
+                                <li class="fw-bold text-dark">MA Pol. Science</li>
+                                <li class="fw-bold text-dark">MA Sociology</li>
+                                <li class="fw-bold text-dark">MSW</li>
+                                <li class="fw-bold text-dark">M. Optometry **</li>
+                                <li class="fw-bold text-dark">M.Sc. - Nutrition and Dietetics</li>
+                                <li class="fw-bold text-dark">M.Sc. in Medical Laboratory Technology- MMLT **</li>
+                                <li class="fw-bold text-dark">Masters in Physiotherapy - MPT **</li>
+                                <li class="fw-bold text-dark">M.Pharm - Pharmaceutics</li>
+                                <li class="fw-bold text-dark">M.Pharm - Pharmaceutical Chemistry</li>
+                                <li class="fw-bold text-dark">M.Pharm - Pharmacognosy</li>
+                                <li class="fw-bold text-dark">Master of Travel & Tourism Management - MTTM</li>
+                                <li class="fw-bold text-dark">M.Sc. - Chemistry</li>
+                                <li class="fw-bold text-dark">M.Sc. - Mathematics</li>
+                                <li class="fw-bold text-dark">M.Sc. - Physics</li>
+                                <li class="fw-bold text-dark">MA - Psychology</li>
+                                <li class="fw-bold text-dark">M.Sc. Bio-Technology</li>
+                                <li class="fw-bold text-dark">M.Sc. Food Technology</li>
+                                <li class="fw-bold text-dark">M.Sc. Micro-Biology</li>
+                                <li class="fw-bold text-dark">MBA - Entrepreneurship & Small Business Management</li>
+                                <li class="fw-bold text-dark">MBA - HRM</li>
+                                <li class="fw-bold text-dark">MBA - Operational Management</li>
+                                <li class="fw-bold text-dark">MBA - Business Analytics</li>
+                                <li class="fw-bold text-dark">MBA - Finance</li>
+                                <li class="fw-bold text-dark">MBA - Marketing</li>
+                                <li class="fw-bold text-dark">Executive MBA</li>
+                                <li class="fw-bold text-dark">M.Com</li>
+                                <li class="fw-bold text-dark">M.Sc. (Animation and Visual Effects)</li>
+                                <li class="fw-bold text-dark">MA (J & MC)</li>
+                                <li class="fw-bold text-dark">M.Tech - AI</li>
+                                <li class="fw-bold text-dark">M.Tech - CAD</li>
+                                <li class="fw-bold text-dark">M.Tech - IOT</li>
+                                <li class="fw-bold text-dark">M.Tech - WRDM</li>
+                                <li class="fw-bold text-dark">M.Tech - Structural Eng</li>
+                                <li class="fw-bold text-dark">M.Sc. Geography</li>
+                                <li class="fw-bold text-dark">M.Sc. Geoinformatics</li>
+                                <li class="fw-bold text-dark">M.Sc. Geology</li>
+                                <li class="fw-bold text-dark">MA Geography</li>
+                                <li class="fw-bold text-dark">MFA</li>
+                                <li class="fw-bold text-dark">M.Sc. (IT)</li>
+                                <li class="fw-bold text-dark">MCA</li>
+                                <li class="fw-bold text-dark">MA - English</li>
+                                <li class="fw-bold text-dark">LLB - (Hons.)*</li>
+                                <li class="fw-bold text-dark">LLM - Day Shift</li>
+                                <li class="fw-bold text-dark">LLM - Morning Shift</li>
+                                <li class="fw-bold text-dark">M.L.I.Sc.</li>
+                                <li class="fw-bold text-dark">M.Sc. - Forestry</li>
+                                <li class="fw-bold text-dark">M.Sc. Botany</li>
+                                <li class="fw-bold text-dark">M.Sc. Forensic Science</li>
+                                <li class="fw-bold text-dark">M.Sc. Zoology</li>
+                                <li class="fw-bold text-dark">M.Sc.Nursing - Medical Surgical Nursing *</li>
+                                <li class="fw-bold text-dark">M.Sc.Nursing - Child Health Nursing *</li>
+                                <li class="fw-bold text-dark">M.Sc.Nursing - Community Health Nursing *</li>
+                                <li class="fw-bold text-dark">M.Sc.Nursing - Mental Health Nursing *</li>
+                                <li class="fw-bold text-dark">M.Sc.Nursing - OBE Nursing *</li>
                             </ul>
                         </div>
 
                         <div id="lp-phd-list" class="lp-program-box d-none">
                             <ul>
-                                <li>Architecture</li>
-                                <li>Bio-Technology</li>
-                                <li>Botany</li>
-                                <li>Business Administration/ Management</li>
-                                <li>Chemistry</li>
-                                <li>Civil Engineering</li>
-                                <li>Commerce</li>
-                                <li>Computer Application</li>
-                                <li>Information Technology</li>
-                                <li>Communication Design</li>
-                                <li>Computer Science & Engineering</li>
-                                <li>Economics</li>
-                                <li>English</li>
-                                <li>Fine Arts</li>
-                                <li>Food Technology</li>
-                                <li>Forensic Science</li>
-                                <li>Forestry</li>
-                                <li>Geography</li>
-                                <li>Geoinformatics</li>
-                                <li>Geology</li>
-                                <li>History</li>
-                                <li>Hotel Management</li>
-                                <li>Indian Knowledge System</li>
-                                <li>Journalism & Masscommunication</li>
-                                <li>Law</li>
-                                <li>Library Science</li>
-                                <li>Mathematics</li>
-                                <li>Mechanical Engineering</li>
-                                <li>Micro-Biology</li>
-                                <li>Nutrition & Dietetics</li>
-                                <li>Product Design</li>
-                                <li>Pharmacy</li>
-                                <li>Physics</li>
-                                <li>Physiotherapy</li>
-                                <li>Political Science</li>
-                                <li>Psychology</li>
-                                <li>Public Administration</li>
-                                <li>Social Work</li>
-                                <li>Sociology</li>
-                                <li>Travel & Tourism Management</li>
-                                <li>Medical Laboratory Technology</li>
-                                <li>Zoology</li>
+                                <li class="fw-bold text-dark">Architecture</li>
+                                <li class="fw-bold text-dark">Bio-Technology</li>
+                                <li class="fw-bold text-dark">Botany</li>
+                                <li class="fw-bold text-dark">Business Administration/ Management</li>
+                                <li class="fw-bold text-dark">Chemistry</li>
+                                <li class="fw-bold text-dark">Civil Engineering</li>
+                                <li class="fw-bold text-dark">Commerce</li>
+                                <li class="fw-bold text-dark">Computer Application</li>
+                                <li class="fw-bold text-dark">Information Technology</li>
+                                <li class="fw-bold text-dark">Communication Design</li>
+                                <li class="fw-bold text-dark">Computer Science & Engineering</li>
+                                <li class="fw-bold text-dark">Economics</li>
+                                <li class="fw-bold text-dark">English</li>
+                                <li class="fw-bold text-dark">Fine Arts</li>
+                                <li class="fw-bold text-dark">Food Technology</li>
+                                <li class="fw-bold text-dark">Forensic Science</li>
+                                <li class="fw-bold text-dark">Forestry</li>
+                                <li class="fw-bold text-dark">Geography</li>
+                                <li class="fw-bold text-dark">Geoinformatics</li>
+                                <li class="fw-bold text-dark">Geology</li>
+                                <li class="fw-bold text-dark">History</li>
+                                <li class="fw-bold text-dark">Hotel Management</li>
+                                <li class="fw-bold text-dark">Indian Knowledge System</li>
+                                <li class="fw-bold text-dark">Journalism & Masscommunication</li>
+                                <li class="fw-bold text-dark">Law</li>
+                                <li class="fw-bold text-dark">Library Science</li>
+                                <li class="fw-bold text-dark">Mathematics</li>
+                                <li class="fw-bold text-dark">Mechanical Engineering</li>
+                                <li class="fw-bold text-dark">Micro-Biology</li>
+                                <li class="fw-bold text-dark">Nutrition & Dietetics</li>
+                                <li class="fw-bold text-dark">Product Design</li>
+                                <li class="fw-bold text-dark">Pharmacy</li>
+                                <li class="fw-bold text-dark">Physics</li>
+                                <li class="fw-bold text-dark">Physiotherapy</li>
+                                <li class="fw-bold text-dark">Political Science</li>
+                                <li class="fw-bold text-dark">Psychology</li>
+                                <li class="fw-bold text-dark">Public Administration</li>
+                                <li class="fw-bold text-dark">Social Work</li>
+                                <li class="fw-bold text-dark">Sociology</li>
+                                <li class="fw-bold text-dark">Travel & Tourism Management</li>
+                                <li class="fw-bold text-dark">Medical Laboratory Technology</li>
+                                <li class="fw-bold text-dark">Zoology</li>
                             </ul>
 
                         </div>
@@ -463,7 +466,7 @@
                 </div>
             </div>
 
-            <div class="container pt-5 pb-4">
+            <div id="campuslife" class="container pt-5 pb-4">
                 <h2 class="text-center" style="color: #264273; font-weight: 700;">Campus Life @ RGU</h2>
             </div>
 
@@ -592,7 +595,7 @@
 
             </div>
 
-            <div class="container pt-5 pb-4">
+            <div id="success" class="container pt-5 pb-4">
                 <h2 class="text-center" style="color: #264273; font-weight: 700;">RGU Success Stories</h2>
             </div>
 

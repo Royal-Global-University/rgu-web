@@ -875,396 +875,402 @@
     </div>
     </div><!-- #page -->
 
-    <!--Start Footer-->
-    <div data-elementor-type="wp-post" data-elementor-id="1115" class="elementor elementor-1115">
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-c92ce2a elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-            data-id="c92ce2a" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"
-            style="background-image: url('mobile-assets/background/footer-bg.png');">
+    @if (empty($hideFooter))
+        <!--Start Footer-->
+        <div data-elementor-type="wp-post" data-elementor-id="1115" class="elementor elementor-1115">
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-c92ce2a elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                data-id="c92ce2a" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"
+                style="background-image: url('mobile-assets/background/footer-bg.png');">
 
-            <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2702424"
-                    data-id="2702424" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-c3ebdd8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="c3ebdd8" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-88c8dd6"
-                                    data-id="88c8dd6" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-2af9a22 elementor-widget elementor-widget-go-s-cta"
-                                            data-id="2af9a22" data-element_type="widget"
-                                            data-widget_type="go-s-cta.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="kd-footer-1-top">
-                                                    <div class="left">
-                                                        <h5 class="kd-footer-1-top-subtitle kd-heading-1 has-clr-white kd-font-700 wow"
-                                                            data-splitting="">Stay Connected Anytime, Anywhere –
-                                                            Download Our App </h5>
-                                                        <h4 class="kd-footer-1-top-title kd-heading-1 has-clr-white kd-font-900 wow"
-                                                            data-splitting="">Empowering Minds, Shaping Futures</h4>
-                                                    </div>
-                                                    <div class="kd-footer-1-top-app-store">
-                                                        <a href="https://play.google.com/store/apps/details?id=com.reno.rgu" target="_self" rel="" aria-label="name"
-                                                            class="link txaa-fade-right">
-                                                            <span class="txaa-tilt_scale">
-                                                                <img src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/play-store.webp"
-                                                                    alt="">
-                                                            </span>
-                                                        </a>
-                                                        <a href="https://apps.apple.com/in/app/royal-global-university/id6476598714" target="_self" rel="" aria-label="name"
-                                                            class="link txaa-fade-right">
-                                                            <span class="txaa-tilt_scale">
-                                                                <img src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/app-store.webp"
-                                                                    alt="">
-                                                            </span>
-                                                        </a>
+                <div class="elementor-container elementor-column-gap-no">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2702424"
+                        data-id="2702424" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <section
+                                class="elementor-section elementor-inner-section elementor-element elementor-element-c3ebdd8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                data-id="c3ebdd8" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-88c8dd6"
+                                        data-id="88c8dd6" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-2af9a22 elementor-widget elementor-widget-go-s-cta"
+                                                data-id="2af9a22" data-element_type="widget"
+                                                data-widget_type="go-s-cta.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="kd-footer-1-top">
+                                                        <div class="left">
+                                                            <h5 class="kd-footer-1-top-subtitle kd-heading-1 has-clr-white kd-font-700 wow"
+                                                                data-splitting="">Stay Connected Anytime, Anywhere –
+                                                                Download Our App </h5>
+                                                            <h4 class="kd-footer-1-top-title kd-heading-1 has-clr-white kd-font-900 wow"
+                                                                data-splitting="">Empowering Minds, Shaping Futures</h4>
+                                                        </div>
+                                                        <div class="kd-footer-1-top-app-store">
+                                                            <a href="https://play.google.com/store/apps/details?id=com.reno.rgu"
+                                                                target="_self" rel="" aria-label="name"
+                                                                class="link txaa-fade-right">
+                                                                <span class="txaa-tilt_scale">
+                                                                    <img src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/play-store.webp"
+                                                                        alt="">
+                                                                </span>
+                                                            </a>
+                                                            <a href="https://apps.apple.com/in/app/royal-global-university/id6476598714"
+                                                                target="_self" rel="" aria-label="name"
+                                                                class="link txaa-fade-right">
+                                                                <span class="txaa-tilt_scale">
+                                                                    <img src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/app-store.webp"
+                                                                        alt="">
+                                                                </span>
+                                                            </a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <h5 style="font-weight: 800; color: #ffffff; padding-right: 30px; padding-left: 50px;"
-                                            class="elementor-heading-title elementor-size-default mb-3">Follow Us: </h5>
+                                            <h5 style="font-weight: 800; color: #ffffff; padding-right: 30px; padding-left: 50px;"
+                                                class="elementor-heading-title elementor-size-default mb-3">Follow Us: </h5>
 
-                                        <a href="https://www.facebook.com/RGUGuwahati"><img
-                                                style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
-                                                src="mobile-assets/index/facebook.svg" alt=""></a>
+                                            <a href="https://www.facebook.com/RGUGuwahati"><img
+                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    src="mobile-assets/index/facebook.svg" alt=""></a>
 
-                                        <a href="https://www.instagram.com/royalglobaluniversity/"> <img
-                                                style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
-                                                src="mobile-assets/index/instagram.svg" alt=""></a>
+                                            <a href="https://www.instagram.com/royalglobaluniversity/"> <img
+                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    src="mobile-assets/index/instagram.svg" alt=""></a>
 
-                                        <a href="https://x.com/RGUGuwahati"><img
-                                                style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
-                                                src="mobile-assets/index/twitter.svg" alt=""></a>
+                                            <a href="https://x.com/RGUGuwahati"><img
+                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    src="mobile-assets/index/twitter.svg" alt=""></a>
 
-                                        <a href="https://in.pinterest.com/RoyalGlobalUniversityGuwahati/"><img
-                                                style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
-                                                src="mobile-assets/index/pinterest.svg" alt=""></a>
+                                            <a href="https://in.pinterest.com/RoyalGlobalUniversityGuwahati/"><img
+                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    src="mobile-assets/index/pinterest.svg" alt=""></a>
 
-                                        <a href="#"><img style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
-                                                src="mobile-assets/index/video.svg" alt=""></a>
+                                            <a href="#"><img style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    src="mobile-assets/index/video.svg" alt=""></a>
 
-                                        <a href="https://www.youtube.com/channel/UCeiYLZkRYEdFRLk_fAnOihQ"><img
-                                                style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
-                                                src="mobile-assets/index/youtube.svg" alt=""></a>
+                                            <a href="https://www.youtube.com/channel/UCeiYLZkRYEdFRLk_fAnOihQ"><img
+                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    src="mobile-assets/index/youtube.svg" alt=""></a>
 
-                                        <a href="https://rgu.orell.com/"><img
-                                                style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
-                                                src="mobile-assets/index/circle.svg" alt=""></a>
+                                            <a href="https://rgu.orell.com/"><img
+                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    src="mobile-assets/index/circle.svg" alt=""></a>
 
-                                        <a href="#"><img style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
-                                                src="mobile-assets/index/email.svg" alt=""></a>
+                                            <a href="#"><img style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    src="mobile-assets/index/email.svg" alt=""></a>
 
-                                        <div class="elementor-element elementor-element-b689206 elementor-widget elementor-widget-go-animate-border"
-                                            data-id="b689206" data-element_type="widget"
-                                            data-widget_type="go-animate-border.default">
-                                            <div class="elementor-widget-container">
+                                            <div class="elementor-element elementor-element-b689206 elementor-widget elementor-widget-go-animate-border"
+                                                data-id="b689206" data-element_type="widget"
+                                                data-widget_type="go-animate-border.default">
+                                                <div class="elementor-widget-container">
 
-                                                <div class="container kd-container-1">
-                                                    <div class="kd-course-2-line d-block txaa-scalex-up"></div>
+                                                    <div class="container kd-container-1">
+                                                        <div class="kd-course-2-line d-block txaa-scalex-up"></div>
+                                                    </div>
+
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-76eb822 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="76eb822" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d23e0df"
-                                    data-id="d23e0df" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-68c5907 elementor-widget elementor-widget-heading"
-                                            data-id="68c5907" data-element_type="widget" data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <style>
-                                                    /*! elementor - v3.23.0 - 05-08-2024 */
-                                                    .elementor-heading-title {
-                                                        padding: 0;
-                                                        margin: 0;
-                                                        line-height: 1
-                                                    }
+                            </section>
+                            <section
+                                class="elementor-section elementor-inner-section elementor-element elementor-element-76eb822 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                data-id="76eb822" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d23e0df"
+                                        data-id="d23e0df" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-68c5907 elementor-widget elementor-widget-heading"
+                                                data-id="68c5907" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <style>
+                                                        /*! elementor - v3.23.0 - 05-08-2024 */
+                                                        .elementor-heading-title {
+                                                            padding: 0;
+                                                            margin: 0;
+                                                            line-height: 1
+                                                        }
 
-                                                    .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                                        color: inherit;
-                                                        font-size: inherit;
-                                                        line-height: inherit
-                                                    }
+                                                        .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                                            color: inherit;
+                                                            font-size: inherit;
+                                                            line-height: inherit
+                                                        }
 
-                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                                        font-size: 15px
-                                                    }
+                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                                            font-size: 15px
+                                                        }
 
-                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                                        font-size: 19px
-                                                    }
+                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                                            font-size: 19px
+                                                        }
 
-                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                                        font-size: 29px
-                                                    }
+                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                                            font-size: 29px
+                                                        }
 
-                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                                        font-size: 39px
-                                                    }
+                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                                            font-size: 39px
+                                                        }
 
-                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                                        font-size: 59px
-                                                    }
-                                                </style>
-                                                <h2 class="elementor-heading-title elementor-size-default">contact info
-                                                </h2>
+                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                                            font-size: 59px
+                                                        }
+                                                    </style>
+                                                    <h2 class="elementor-heading-title elementor-size-default">contact info
+                                                    </h2>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-385e870 elementor-widget elementor-widget-go-ct-info"
-                                            data-id="385e870" data-element_type="widget"
-                                            data-widget_type="go-ct-info.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="kd-footer-1-widget">
-                                                    <ul class="kd-footer-1-contact">
-                                                        <li class="item">
-                                                            <span class="icon">
-                                                                <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
-                                                            </span>
-                                                            NH-27, Guwahati,
-                                                            Assam,
-                                                            India
-                                                        </li>
-                                                        <!-- <li class="item">
+                                            <div class="elementor-element elementor-element-385e870 elementor-widget elementor-widget-go-ct-info"
+                                                data-id="385e870" data-element_type="widget"
+                                                data-widget_type="go-ct-info.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="kd-footer-1-widget">
+                                                        <ul class="kd-footer-1-contact">
+                                                            <li class="item">
                                                                 <span class="icon">
-                                                                    <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                                                    <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
                                                                 </span>
-                                                                +91 70860-93458
-                                                            </li> -->
-
-
-
-
-                                                        <!-- <h5 style="font-weight: 800; color: #ffffff;" class="elementor-heading-title elementor-size-default mb-3">Contact</h5> -->
-
-                                                        <div class="elementor-element elementor-element-3f49461 elementor-widget elementor-widget-ft-btn"
-                                                            data-id="3f49461" data-element_type="widget"
-                                                            data-widget_type="ft-btn.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="prthalign">
-                                                                    <a href="contact" target="_blank" rel="nofollow"
-                                                                        aria-label="name"
-                                                                        class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                        <span class="text" data-back="Contact Us"
-                                                                            data-front="Contact Us"></span>
+                                                                NH-27, Guwahati,
+                                                                Assam,
+                                                                India
+                                                            </li>
+                                                            <!-- <li class="item">
                                                                         <span class="icon">
-                                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                                            <i aria-hidden="true" class="fas fa-phone-alt"></i>
                                                                         </span>
-                                                                    </a>
+                                                                        +91 70860-93458
+                                                                    </li> -->
+
+
+
+
+                                                            <!-- <h5 style="font-weight: 800; color: #ffffff;" class="elementor-heading-title elementor-size-default mb-3">Contact</h5> -->
+
+                                                            <div class="elementor-element elementor-element-3f49461 elementor-widget elementor-widget-ft-btn"
+                                                                data-id="3f49461" data-element_type="widget"
+                                                                data-widget_type="ft-btn.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="prthalign">
+                                                                        <a href="contact" target="_blank" rel="nofollow"
+                                                                            aria-label="name"
+                                                                            class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                            <span class="text" data-back="Contact Us"
+                                                                                data-front="Contact Us"></span>
+                                                                            <span class="icon">
+                                                                                <i class="fa-solid fa-arrow-right"></i>
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
 
-                                                    </ul>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="p-4 d-flex flex-col">
-                                    <div class="row">
+                                    <div class="p-4 d-flex flex-col">
+                                        <div class="row">
 
-                                        <div class="col-lg-3 pb-4">
-                                            <h5 class="m-0 p-0 fw-bold" style="font-size: 24px; color: #FF9A1E !important;">
-                                                Admissions</h5>
+                                            <div class="col-lg-3 pb-4">
+                                                <h5 class="m-0 p-0 fw-bold" style="font-size: 24px; color: #FF9A1E !important;">
+                                                    Admissions</h5>
 
-                                            <a href="https://admissions.rgu.ac/">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Admissions 2025-26
-                                                </p>
-                                            </a>
+                                                <a href="https://admissions.rgu.ac/">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Admissions 2025-26
+                                                    </p>
+                                                </a>
 
-                                            <a href="https://admissions.rgu.ac/">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">International
-                                                    Admissions 2025-26
-                                                </p>
-                                            </a>
+                                                <a href="https://admissions.rgu.ac/">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">International
+                                                        Admissions 2025-26
+                                                    </p>
+                                                </a>
 
-                                            <a href="{{ route('admission-programs-fees-structure') }}">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Programmes
-                                                </p>
-                                            </a>
+                                                <a href="{{ route('admission-programs-fees-structure') }}">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Programmes
+                                                    </p>
+                                                </a>
 
-                                            <a href="how-to-apply">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">How to Apply
-                                                </p>
-                                            </a>
+                                                <a href="how-to-apply">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">How to Apply
+                                                    </p>
+                                                </a>
 
-                                            <a href="faq">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">FAQs</p>
-                                            </a>
+                                                <a href="faq">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">FAQs</p>
+                                                </a>
 
-                                            <a href="{{ route('contact') }}">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Admission Offices
-                                                </p>
-                                            </a>
+                                                <a href="{{ route('contact') }}">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Admission Offices
+                                                    </p>
+                                                </a>
 
-                                            <a href="{{ route('scholarship&funding') }}">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Scholarships &
-                                                    Funding
-                                                </p>
-                                            </a>
+                                                <a href="{{ route('scholarship&funding') }}">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Scholarships &
+                                                        Funding
+                                                    </p>
+                                                </a>
 
+
+                                            </div>
+
+                                            <div class="col-lg-3 pb-4">
+                                                <h5 class="m-0 p-0 fw-bold" style="font-size: 24px; color: #FF9A1E !important;">
+                                                    Information About</h5>
+
+                                                <a href="preface">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">The Assam Royal
+                                                        Global University
+                                                    </p>
+                                                </a>
+
+                                                <a href="admission-programs-fees-structure.html">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fees 2025 - 26</p>
+                                                </a>
+
+                                                <a href="https://rgu.rinneone.app/">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fee Payment</p>
+                                                </a>
+
+                                                <h5 class="mt-4 p-0 fw-bold"
+                                                    style="font-size: 24px; color: #FF9A1E !important;">Quick Links</h5>
+                                                <a href="medical-facility">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Medical Emergency
+                                                        No.</p>
+                                                </a>
+                                                <a href="#">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Women Helpline No.
+                                                    </p>
+                                                </a>
+                                                <a href="https://rgu.rinneone.app/">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online</p>
+                                                </a>
+
+                                            </div>
+
+                                            <div class="col-lg-3 pb-4">
+
+                                                <a href="social-outreach">
+                                                    <p class="m-0  text-white" style="font-size: 18px;">Social Outreach</p>
+                                                </a>
+                                                <a href="">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Annoucement</p>
+                                                </a>
+                                                <a href="">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Examination</p>
+                                                </a>
+                                                <a href="jobs-vacancies">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs & Vacancies</p>
+                                                </a>
+                                                {{-- <a href="">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
+                                                </a> --}}
+                                                <a href="research-devlopment">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Research &
+                                                        Development</p>
+                                                </a>
+
+                                                <a href="recognition-accreditation">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Accreditation</p>
+                                                </a>
+                                                <a href="happy-happening">
+                                                    <p class="m-0 text-white" style="font-size: 18px;">Campus Visit</p>
+                                                </a>
+                                                <a href="assets/pdf/vc-report.pdf">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">VC Report</p>
+                                                </a>
+                                                <a href="https://heyzine.com/flip-book/fd544660d3.html">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Brochure 2025 - 2026
+                                                    </p>
+                                                </a>
+
+                                            </div>
+
+                                            <div class="col-lg-3">
+                                                <a href="iqac-overview">
+                                                    <p class="m-0 text-white" style="font-size: 18px;">IQAC</p>
+                                                </a>
+                                                <a href="https://heyzine.com/flip-book/adfd7889ba.html">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">International 2025 -
+                                                        2026</p>
+                                                </a>
+                                                <a href="360tour">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">360° View</p>
+                                                </a>
+                                                <a href="https://nad.digilocker.gov.in/login">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Digilocker NAD</p>
+                                                </a>
+                                                <a href="https://rgujournal.in/">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">RGU Journal</p>
+                                                </a>
+                                                <a href="https://alumni.rgu.ac/">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Alumni</p>
+                                                </a>
+                                                <a target="_blank" href="https://shodhchakra.inflibnet.ac.in/">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Shodh Chakra</p>
+                                                </a>
+
+                                                <h5 class="mt-3 p-0 fw-bold"
+                                                    style="font-size: 24px; color: #FF9A1E !important;">Media</h5>
+
+                                                <a href="https://www.youtube.com/channel/UCeiYLZkRYEdFRLk_fAnOihQ">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Our Video</p>
+                                                </a>
+
+                                            </div>
 
                                         </div>
 
-                                        <div class="col-lg-3 pb-4">
-                                            <h5 class="m-0 p-0 fw-bold" style="font-size: 24px; color: #FF9A1E !important;">
-                                                Information About</h5>
-
-                                            <a href="preface">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">The Assam Royal
-                                                    Global University
-                                                </p>
-                                            </a>
-
-                                            <a href="admission-programs-fees-structure.html">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fees 2025 - 26</p>
-                                            </a>
-
-                                            <a href="https://rgu.rinneone.app/">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fee Payment</p>
-                                            </a>
-
-                                            <h5 class="mt-4 p-0 fw-bold"
-                                                style="font-size: 24px; color: #FF9A1E !important;">Quick Links</h5>
-                                            <a href="medical-facility">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Medical Emergency
-                                                    No.</p>
-                                            </a>
-                                            <a href="#">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Women Helpline No.
-                                                </p>
-                                            </a>
-                                            <a href="https://rgu.rinneone.app/">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online</p>
-                                            </a>
-
-                                        </div>
-
-                                        <div class="col-lg-3 pb-4">
-
-                                            <a href="social-outreach">
-                                                <p class="m-0  text-white" style="font-size: 18px;">Social Outreach</p>
-                                            </a>
-                                            <a href="">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Annoucement</p>
-                                            </a>
-                                            <a href="">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Examination</p>
-                                            </a>
-                                            <a href="jobs-vacancies">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs & Vacancies</p>
-                                            </a>
-                                            {{-- <a href="">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
-                                            </a> --}}
-                                            <a href="research-devlopment">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Research &
-                                                    Development</p>
-                                            </a>
-
-                                            <a href="recognition-accreditation">
-                                                <p class="m-0 mt-4 text-white" style="font-size: 18px;">Accreditation</p>
-                                            </a>
-                                            <a href="happy-happening">
-                                                <p class="m-0 text-white" style="font-size: 18px;">Campus Visit</p>
-                                            </a>
-                                            <a href="assets/pdf/vc-report.pdf">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">VC Report</p>
-                                            </a>
-                                            <a href="https://heyzine.com/flip-book/fd544660d3.html">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Brochure 2025 - 2026
-                                                </p>
-                                            </a>
-
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <a href="iqac-overview">
-                                                <p class="m-0 text-white" style="font-size: 18px;">IQAC</p>
-                                            </a>
-                                            <a href="https://heyzine.com/flip-book/adfd7889ba.html">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">International 2025 -
-                                                    2026</p>
-                                            </a>
-                                            <a href="360tour">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">360° View</p>
-                                            </a>
-                                            <a href="https://nad.digilocker.gov.in/login">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Digilocker NAD</p>
-                                            </a>
-                                            <a href="https://rgujournal.in/">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">RGU Journal</p>
-                                            </a>
-                                            <a href="https://alumni.rgu.ac/">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Alumni</p>
-                                            </a>
-                                            <a target="_blank" href="https://shodhchakra.inflibnet.ac.in/">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Shodh Chakra</p>
-                                            </a>
-
-                                            <h5 class="mt-3 p-0 fw-bold"
-                                                style="font-size: 24px; color: #FF9A1E !important;">Media</h5>
-
-                                            <a href="https://www.youtube.com/channel/UCeiYLZkRYEdFRLk_fAnOihQ">
-                                                <p class="m-0 pt-4 text-white" style="font-size: 18px;">Our Video</p>
-                                            </a>
-
-                                        </div>
 
                                     </div>
-
-
                                 </div>
-                            </div>
-                            <hr>
+                                <hr>
 
-                            <div class="p-4">
+                                <div class="p-4">
 
-                                <div class="row text-center">
-                                    <div class="col-lg-6">
-                                        <p class="para1 text-white">@Copyright © RGU. All rights reserved.</p>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div style="display: flex; flex-direction: row; gap: 40px;">
-                                            <a href="https://rgu.renocampus.com/hr/staff" target="_blank">
-                                                <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
-                                                    class="para1 btn border">ERP Login</p>
-                                            </a>
-                                            {{-- <a href="https://royalnet.rgu.ac/" target="_blank">
-                                                <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
-                                                    class="para1 btn border">Student Login</p>
-                                            </a> --}}
-                                            <a href="https://m365.cloud.microsoft/?auth=2" target="_blank">
-                                                <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
-                                                    class="para1 btn border">Staff Email Login</p>
-                                            </a>
+                                    <div class="row text-center">
+                                        <div class="col-lg-6">
+                                            <p class="para1 text-white">@Copyright © RGU. All rights reserved.</p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div style="display: flex; flex-direction: row; gap: 40px;">
+                                                <a href="https://rgu.renocampus.com/hr/staff" target="_blank">
+                                                    <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
+                                                        class="para1 btn border">ERP Login</p>
+                                                </a>
+                                                {{-- <a href="https://royalnet.rgu.ac/" target="_blank">
+                                                    <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
+                                                        class="para1 btn border">Student Login</p>
+                                                </a> --}}
+                                                <a href="https://m365.cloud.microsoft/?auth=2" target="_blank">
+                                                    <p style="background-color: #EF991F; color: #000000; border-radius: 10px; padding: 10px;"
+                                                        class="para1 btn border">Staff Email Login</p>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
 
-                            </div>
 
+                            </section>
 
-                        </section>
-
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </div>
-    <!--End Footer-->
+            </section>
+        </div>
+        <!--End Footer-->
+    @endif
+
+
 
 
 
