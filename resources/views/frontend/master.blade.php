@@ -1264,6 +1264,8 @@
     </div>
     <!--End Footer-->
 
+
+
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             document.querySelectorAll(".nav-item.dropdown").forEach(function (el) {
@@ -1636,7 +1638,6 @@
     </script>
     <!--lp-->
     <script type="text/javascript">var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "https://widgets.in5.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <script id="contact-form-7-js-extra">
         var wpcf7 = { "api": { "root": "https:\/\/themexriver.com\/wp\/kadu\/wp-json\/", "namespace": "contact-form-7\/v1" } };
