@@ -16,7 +16,7 @@
                           </div>
 
 
-                          <section style="padding: 150px 0px;">
+                          <section style="padding: 120px 0px;">
                             <div class="container">
                             <div class="row align-items-center gx-5">
                                 <div class="col-lg-6">
