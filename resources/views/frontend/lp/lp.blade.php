@@ -839,7 +839,7 @@
                                                 <!-- Right: Program Lists -->
                                                 <div class="col-md-8 lp-program-wrapper">
 
-                                                    <div id="lp-ugmob-list" class="lp-program-box d-none">
+                                                    <div id="lp-ugmob-list" class="lp-program-box">
 
                                                         <ul>
                                                             <li class="fw-bold text-dark">B.Sc. - Hotel Management</li>
