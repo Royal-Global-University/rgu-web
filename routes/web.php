@@ -1586,6 +1586,10 @@ Route::get('/faculty-applied-purescience', function () {
     return view('frontend/school&faculty/faculty-applied-purescience');
 })->name('faculty-applied-purescience');
 
+Route::get('/faculty-csp', function () {
+    return view('frontend/school&faculty/faculty-csp');
+})->name('faculty-csp');
+
 Route::get('/department-architecture', function () {
     return view('frontend/school&faculty/department-architecture');
 })->name('department-architecture');
