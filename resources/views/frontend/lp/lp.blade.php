@@ -9,7 +9,7 @@
                                         @include('frontend/components/mobileip')
                           <div style="padding-top: 90px; position: relative;">
                               <div class="row">
-                                <div class="col-lg-12 pt-3 pb-3" style="background-color: #5e5c5c">
+                                <div class="col-lg-12 pb-3" style="background-color: #5e5c5c">
                                   <div class="npf_wgts" data-height="680px" data-w="30f6f0f5207a8612717c00304293b304"></div>
                                 </div>
                               </div>
