@@ -42,7 +42,7 @@
                 <!-- Placements -->
                 <li style="position: relative;">
                     <a href="#" class="p-3 rounded"
-                        style="color: #ffffff; font-weight: 800; font-size: 16px; background-color: #ff5e3a;">International Admissions Open - 2024</a>
+                        style="color: #ffffff; font-weight: 800; font-size: 16px; background-color: #ff5e3a;">Admissions Open 2025 - 2026</a>
                 </li>
 
             </ul>

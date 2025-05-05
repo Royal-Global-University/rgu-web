@@ -238,7 +238,7 @@
                                 <!-- Right: Program Lists -->
                                 <div class="col-md-8 lp-program-wrapper">
 
-                                    <div id="lp-ug-list" class="lp-program-box d-none">
+                                    <div id="lp-ug-list" class="lp-program-box">
 
                                         <ul>
                                             <li>B.Sc. - Hotel Management</li>
