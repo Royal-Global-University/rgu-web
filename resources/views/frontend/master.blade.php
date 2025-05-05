@@ -660,7 +660,7 @@
             background-image: url('mobile-assets/lp/piccc.png');
             background-size: cover;
             background-position: center;
-            height: 90vh;
+            height: 100vh;
             padding: 0px 150px;
             color: white;
             position: relative;
