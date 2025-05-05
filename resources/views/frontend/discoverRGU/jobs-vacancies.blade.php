@@ -32,38 +32,18 @@
                 <!-- Main Content: QR Code and Advertisement -->
                 <div class="row align-items-center">
                     <!-- QR Code Section -->
-                    <div class="col-lg-6 text-center">
+                    <div class="col-lg-12 text-center">
                         <!-- Top Text Section -->
-                <div class="text-center mb-4">
-                    <h1 class="headd3 fw-bold">To apply/register, click below link -</h1>
-                    <a href="https://rgu.renocampus.com/activeOpenings" class="job-ad-link">https://rgu.renocampus.com/activeOpenings</a>
-                    <h6 class="mt-3 para1 fw-bold text-dark">Or Scan The QR Code</h6>
-                </div>
-                        <img style="height: 500px;" src="assets/img/jobs/lpic.svg" alt="QR Code" class="job-ad-qr">
-                    </div>
-
-                    <div class="col-lg-1">
-                        <div class="">
-                            <img style="height: 680px;" src="assets/img/jobs/line.svg" alt="">
+                        <div class="text-center mb-4">
+                            <h1 class="headd3 fw-bold" style="color: rgb(1, 8, 14)">To apply/register, click below link -</h1>
+                            <a href="https://rgu.renocampus.com/activeOpenings" class="headd3 job-ad-link text-success fw-bold">https://rgu.renocampus.com/activeOpenings</a>
                         </div>
                     </div>
-
-                    <!-- Advertisement Section -->
-                    <div class="col-lg-5 text-center">
-                        <!-- Top Text Section -->
-                <div class="text-center mb-4">
-                    <h1 class="headd3 fw-bold">Advertisement No.: SERB CRG -01/2024</h1>
-                    <i class="fas fa-download job-ad-download-icon text-primary"></i>  <a href="assets/img/jobs/download-ad.png" download class="job-ad-link">Click to download full advertisement</a>
-                </div>
-                        <img style="height: 550px;" src="assets/img/jobs/rpic.svg" alt="Advertisement" class="job-ad-image">
-                    </div>
-                </div>
-
 
                 <hr>
                 <!-- Bottom Note Section -->
                 <div class="text-center mt-4">
-                    <p class="headd3 text-danger fw-bold ">
+                    <p class="para1 text-danger fw-bold ">
                         NOTE: Please note that once the applications are submitted for any vacant position listed on this page,
                         the HR Department will directly communicate with the applicant if it meets the criteria.
                     </p>

@@ -1034,7 +1034,7 @@
                                                                 <span class="icon">
                                                                     <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
                                                                 </span>
-                                                                NH-27, Guwahati,
+                                                                NH-37, Guwahati,
                                                                 Assam,
                                                                 India
                                                             </li>
@@ -1131,11 +1131,11 @@
                                                     </p>
                                                 </a>
 
-                                                <a href="admission-programs-fees-structure.html">
+                                                <a href="admission-programs-fees-structure">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fees 2025 - 26</p>
                                                 </a>
 
-                                                <a href="https://rgu.rinneone.app/">
+                                                <a href="https://rgu.renocampus.com/">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fee Payment</p>
                                                 </a>
 
@@ -1149,7 +1149,7 @@
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Women Helpline No.
                                                     </p>
                                                 </a>
-                                                <a href="https://rgu.rinneone.app/">
+                                                <a href="https://rgu.renocampus.com/">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online</p>
                                                 </a>
 
@@ -1160,10 +1160,10 @@
                                                 <a href="social-outreach">
                                                     <p class="m-0  text-white" style="font-size: 18px;">Social Outreach</p>
                                                 </a>
-                                                <a href="">
+                                                <a href="notifications">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Annoucement</p>
                                                 </a>
-                                                <a href="">
+                                                <a href="examinations">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Examination</p>
                                                 </a>
                                                 <a href="jobs-vacancies">
@@ -1183,7 +1183,7 @@
                                                 <a href="happy-happening">
                                                     <p class="m-0 text-white" style="font-size: 18px;">Campus Visit</p>
                                                 </a>
-                                                <a href="assets/pdf/vc-report.pdf">
+                                                <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/vc-report.pdf">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">VC Report</p>
                                                 </a>
                                                 <a href="https://heyzine.com/flip-book/fd544660d3.html">
@@ -1201,7 +1201,7 @@
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">International 2025 -
                                                         2026</p>
                                                 </a>
-                                                <a href="360tour">
+                                                <a href="360-tour">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">360° View</p>
                                                 </a>
                                                 <a href="https://nad.digilocker.gov.in/login">

@@ -996,9 +996,6 @@
                                 <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">
                                     Eligibility Criteria</h3>
                             </div>
-                            <div>
-                                <a>Apply for Scholarship</a>
-                            </div>
                         </div>
                         <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 para1"
                             style="box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.10); background-color: #fff;">
