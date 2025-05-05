@@ -26,7 +26,7 @@
                                      The Assam Royal Global University stands out for its excellent academic programs, experienced faculty, modern facilities, and emphasis on holistic development, making it a top choice for students seeking quality education in various disciplines. It is recognized by the University Grants Commission (UGC) and it holds recognition and accreditation from relevant professional bodies for specific programs, ensuring that the education provided meets high standards and is recognized nationally and internationally.
                                     </p>
 
-                                    <div class="container-fluid">
+                                    <div class="">
                                       <div class="card-box">
 
                                         <div class="feature-item">
