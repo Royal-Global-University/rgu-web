@@ -152,7 +152,7 @@
                             </div>
 
                             <div style="margin-top: 80px;">
-                                <a href="#!">
+                                <a href="https://alumni.rgu.ac/">
                                     <div class="card rounded d-flex flex-column position-relative"
                                         style="background-color: #FFF8F0; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 170px;">
                                         <div class="position-absolute start-50 translate-middle">
@@ -437,7 +437,7 @@
 
                 <div class="col-lg-4 mb-3">
 
-                  <a href="#!"> <div class="card rounded d-flex flex-column position-relative" style="background-color: #FFF8F0; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 250px;">
+                  <a href="https://alumni.rgu.ac/"> <div class="card rounded d-flex flex-column position-relative" style="background-color: #FFF8F0; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 250px;">
                         <div class="position-absolute start-50 translate-middle" style="top: -10px;">
                             <div class="bg-white rounded-circle d-flex justify-content-center align-items-center" style="width: 150px; height: 150px; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">
                                 <img style="width: 100px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/preface/graduate-01.png" alt="">
