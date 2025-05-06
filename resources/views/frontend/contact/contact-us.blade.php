@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile bg-light">
         @include('frontend/components/mobileheader')
-        <section style="padding-top: 90px; position: relative; background-image: url(mobile-assets/royal-informatics-center/bg.svg); background-size: cover;">
+        <section style="padding-top: 90px; position: relative; background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/preface/bg3.png); background-size: cover;">
             <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pb-5 pt-5"
                 style="color: #27467A; font-weight: 900;">
                 Royal Information <span style="color: #FF9A1E; font-weight: 500;">Centre</span></h2>
@@ -443,7 +443,7 @@
         <!--End Header-->
 
         <!--Section About us-->
-        <section style="background-image: url(mobile-assets/royal-informatics-center/bg.svg); background-size: cover;">
+        <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/preface/bg3.png); background-size: cover;">
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pb-5 pt-5"
                 style="color: #27467A; font-weight: 900;">
                 Royal Information <span style="color: #FF9A1E; font-weight: 500;">Centre</span></h2>
