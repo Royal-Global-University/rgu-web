@@ -1034,7 +1034,7 @@
                                                                 <span class="icon">
                                                                     <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
                                                                 </span>
-                                                                NH-37, Guwahati,
+                                                                NH-27, Guwahati,
                                                                 Assam,
                                                                 India
                                                             </li>

@@ -394,7 +394,7 @@
 
                     <p style="color: #27467A;" class="mobile-headd3">
                         <span class="fw-bold">THE ASSAM ROYAL GLOBAL UNIVERSITY</span> (Sponsored by Gyan Sagar Foundation
-                        alias Royal, Guwahati Assam) Betkuchi, Opp. Tirupati Balaji Temple/ ISBT,. NH-37, Guwahati-35, Dist-
+                        alias Royal, Guwahati Assam) Betkuchi, Opp. Tirupati Balaji Temple/ ISBT,. NH-27, Guwahati-35, Dist-
                         Kamrup (Metro), Assam, India.
                     </p>
 
@@ -835,7 +835,7 @@
 
                     <p style="color: #27467A;" class="headd3">
                         <span class="fw-bold">THE ASSAM ROYAL GLOBAL UNIVERSITY</span> (Sponsored by Gyan Sagar Foundation
-                        alias Royal, Guwahati Assam) Betkuchi, Opp. Tirupati Balaji Temple/ ISBT,. NH-37, Guwahati-35, Dist-
+                        alias Royal, Guwahati Assam) Betkuchi, Opp. Tirupati Balaji Temple/ ISBT,. NH-27, Guwahati-35, Dist-
                         Kamrup (Metro), Assam, India.
                     </p>
 
