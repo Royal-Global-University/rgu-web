@@ -933,6 +933,12 @@
                                                                 <div class="swiper-wrapper">
                                                                     <div class="swiper-slide">
                                                                         <div class="kd-team-4-slide-main-item ">
+                                                                            <img decoding="async" style="height: 650px; width: 95%;"
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e05.jpeg" alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="swiper-slide">
+                                                                        <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
                                                                                 style="height: 650px; width: 95%;"
                                                                                 src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e01.jpeg" alt="">
@@ -964,12 +970,7 @@
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="swiper-slide">
-                                                                        <div class="kd-team-4-slide-main-item ">
-                                                                            <img decoding="async" style="height: 650px; width: 95%;"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e05.jpeg" alt="">
-                                                                        </div>
-                                                                    </div>
+
 
                                                                 </div>
                                                             </div>
@@ -993,6 +994,13 @@
                                                                 <div
                                                                     class="swiper-container fix kd-team-4-slide-prview-active">
                                                                     <div class="swiper-wrapper">
+
+                                                                        <div class="swiper-slide">
+                                                                            <div class="kd-team-4-slide-main-item ">
+                                                                                <img decoding="async" style="height: 650px; width: 95%;"
+                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e05.jpeg" alt="">
+                                                                            </div>
+                                                                        </div>
                                                                         <div class="swiper-slide">
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
@@ -1019,12 +1027,7 @@
                                                                                 <img decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg" alt="">
                                                                             </div>
                                                                         </div>
-                                                                        <div class="swiper-slide">
-                                                                            <div class="kd-team-4-slide-main-item ">
-                                                                                <img decoding="async" style="height: 650px; width: 95%;"
-                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e05.jpeg" alt="">
-                                                                            </div>
-                                                                        </div>
+
 
                                                                     </div>
                                                                 </div>
