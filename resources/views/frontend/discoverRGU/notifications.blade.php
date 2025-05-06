@@ -13,9 +13,9 @@
 
                 <div
                     style="width: 90%; margin: 0 auto; padding: 15px; border: 1px solid #ccc; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); border-radius: 5px; background-color: #fff;">
-                    <h2 class="mobile-headd3 fw-bold text-center pt-2 pb-2" style="color: #d9534f; font-weight: 500;">
+                    {{-- <h2 class="mobile-headd3 fw-bold text-center pt-2 pb-2" style="color: #d9534f; font-weight: 500;">
                         Date: 20/12/2025</h2>
-                    <hr>
+                    <hr> --}}
                     <ul class="mobile-para1" style="list-style-type: none; padding: 0; margin: 0;">
                         <li style="padding: 10px; border-bottom: 1px solid #ccc;"><a download href="#"
                                 style="text-decoration: none; color: #27467A;">4th Convocation - Registration Open</a> <span
@@ -36,9 +36,9 @@
 
                 <div class="mt-4"
                     style="width: 90%; margin: 0 auto; padding: 15px; border: 1px solid #ccc; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); border-radius: 5px; background-color: #fff;">
-                    <h2 class="mobile-headd3 fw-bold text-center pt-2 pb-2" style="color: #d9534f; font-weight: 500;">
+                    {{-- <h2 class="mobile-headd3 fw-bold text-center pt-2 pb-2" style="color: #d9534f; font-weight: 500;">
                         Date: 18/12/2025</h2>
-                    <hr>
+                    <hr> --}}
                     <ul class="mobile-para1" style="list-style-type: none; padding: 0; margin: 0;">
 
                         <li style="padding: 10px; border-bottom: 1px solid #ccc;"><a href="#"
@@ -67,9 +67,9 @@
 
                 <div
                     style="width: 90%; margin: 0 auto; padding: 15px; border: 1px solid #ccc; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); border-radius: 5px; background-color: #fff;">
-                    <h2 class="headd3 fw-bold text-center pt-2 pb-2" style="color: #d9534f; font-weight: 500;">
+                    {{-- <h2 class="headd3 fw-bold text-center pt-2 pb-2" style="color: #d9534f; font-weight: 500;">
                         Date: 20/12/2025</h2>
-                    <hr>
+                    <hr> --}}
                     <ul class="para1" style="list-style-type: none; padding: 0; margin: 0;">
                         <li style="padding: 10px; border-bottom: 1px solid #ccc;"><a dowload href="#"
                                 style="text-decoration: none; color: #27467A;">4th Convocation - Registration Open</a> <span
@@ -90,9 +90,9 @@
 
                 <div class="mt-4"
                     style="width: 90%; margin: 0 auto; padding: 15px; border: 1px solid #ccc; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); border-radius: 5px; background-color: #fff;">
-                    <h2 class="headd3 fw-bold text-center pt-2 pb-2" style="color: #d9534f; font-weight: 500;">
+                    {{-- <h2 class="headd3 fw-bold text-center pt-2 pb-2" style="color: #d9534f; font-weight: 500;">
                         Date: 18/12/2025</h2>
-                    <hr>
+                    <hr> --}}
                     <ul class="para1" style="list-style-type: none; padding: 0; margin: 0;">
 
                         <li style="padding: 10px; border-bottom: 1px solid #ccc;"><a dowload href="#"
