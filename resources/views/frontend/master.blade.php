@@ -1135,10 +1135,6 @@
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fees 2025 - 26</p>
                                                 </a>
 
-                                                <a href="https://rgu.renocampus.com/">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fee Payment</p>
-                                                </a>
-
                                                 <h5 class="mt-4 p-0 fw-bold"
                                                     style="font-size: 24px; color: #FF9A1E !important;">Quick Links</h5>
                                                 <a href="medical-facility">
