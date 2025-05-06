@@ -86,10 +86,14 @@
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/mob1.jpeg" class="d-block w-100 rounded" alt="...">
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/m01.jpeg" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/mob2.jpeg" class="d-block w-100 rounded" alt="...">
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/m02.jpeg" class="d-block w-100 rounded" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/m03.jpeg" class="d-block w-100 rounded"
+                            alt="...">
                     </div>
                 </div>
             </div>
@@ -927,7 +931,7 @@
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
                                                                                 style="height: 650px; width: 95%;"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e-2.jpeg" alt="">
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e01.jpeg" alt="">
 
                                                                         </div>
                                                                     </div>
@@ -935,7 +939,7 @@
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
                                                                                 style="height: 650px; width: 95%;"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web-1.jpeg" alt="">
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/eo2.jpeg" alt="">
 
 
                                                                         </div>
@@ -944,7 +948,7 @@
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
                                                                                 style="height: 650px; width: 95%;"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web-2.jpeg" alt="">
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e03.jpeg" alt="">
 
 
                                                                         </div>
@@ -976,21 +980,21 @@
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
                                                                                 <img decoding="async"
-                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e-2.jpeg" alt="">
+                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e01.jpeg" alt="">
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide">
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
                                                                                 <img decoding="async"
-                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web-1.jpeg" alt="">
+                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/eo2.jpeg" alt="">
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide">
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
                                                                                 <img decoding="async"
-                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/web-2.jpeg" alt="">
+                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e03.jpeg" alt="">
                                                                             </div>
                                                                         </div>
 

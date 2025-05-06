@@ -616,7 +616,7 @@
             @include('frontend/components/aheader')
         <!--End Header-->
 
-        <section style="background-image: url('mobile-assets/school-rgu/bg.svg');">
+        <section style="background-image: url('https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/school-rgu/bg.svg');">
           <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5 pb-4" style="color: #27467A; font-weight: 900;">
             Schools and <span style="color: #FF9A1E; font-weight: 500;">Faculty</span></h2>
 

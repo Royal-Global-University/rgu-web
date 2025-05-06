@@ -341,7 +341,7 @@
             <!--End Header-->
 
 
-    <div style="background-image: url(mobile-assets/social-outreach/bg.svg); background-size: cover; width: 100%;">
+    <div style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/social-outreach/bg.svg); background-size: cover; width: 100%;">
             <div style=" padding-bottom: 30px;" class="text-center elementor-element elementor-element-e22f91b elementor-widget elementor-widget-go-s-heading"
             data-id="e22f91b" data-element_type="widget" data-widget_type="go-s-heading.default">
             <div class="elementor-widget-container">
