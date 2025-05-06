@@ -1126,8 +1126,7 @@
                                                     Information About</h5>
 
                                                 <a href="preface">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">The Assam Royal
-                                                        Global University
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Preface
                                                     </p>
                                                 </a>
 
@@ -1194,7 +1193,7 @@
                                                     <p class="m-0 text-white" style="font-size: 18px;">IQAC</p>
                                                 </a>
                                                 <a href="https://heyzine.com/flip-book/adfd7889ba.html">
-                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">International 2025 -
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">International Brochure 2025 -
                                                         2026</p>
                                                 </a>
                                                 <a href="360-tour">
