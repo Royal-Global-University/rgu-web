@@ -21,11 +21,11 @@
                                 <a href="leadership-anil-kumar"><img
                                         src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/leadership/mobile-sri-anil-kumar-modi.png" /></a>
                             </div>
-                            <hr>
+                            {{-- <hr>
                             <div class="col-lg-12">
                                 <a href="leadership-ankur-pansari"><img
                                         src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/leadership/mobile-sri-ankur-pansari.png" /></a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </section>
@@ -52,9 +52,9 @@
            <div class="col-lg-12">
                <a href="leadership-anil-kumar"><img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/leadership/2.png" /></a>
            </div>
-           <div class="col-lg-12">
+           {{-- <div class="col-lg-12">
                <a href="leadership-ankur-pansari"><img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/leadership/3.png" /></a>
-           </div>
+           </div> --}}
        </div>
     </div>
 

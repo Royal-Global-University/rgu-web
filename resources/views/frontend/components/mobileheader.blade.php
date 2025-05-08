@@ -23,7 +23,7 @@
 
             <li onclick="toggleSubmenu('discover')"
                 style="display: flex; align-items: center; justify-content: space-between;">
-                <span class="mobile-headd3 text-dark">DISCOVER RGU</span>
+                <span class="mobile-headd3 text-dark">Discover RGU</span>
                 <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
             </li>
             <ul class="submenu mobile-para1" id="discover">
@@ -121,7 +121,7 @@
 
             <li onclick="toggleSubmenu('academics')"
                 style="display: flex; align-items: center; justify-content: space-between;">
-                <span class="mobile-headd3 text-dark">ACADEMICS</span>
+                <span class="mobile-headd3 text-dark">Academics</span>
                 <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
             </li>
             <ul class="submenu mobile-para1" id="academics">
@@ -164,7 +164,7 @@
 
             <li onclick="toggleSubmenu('admission')"
                 style="display: flex; align-items: center; justify-content: space-between;">
-                <span class="mobile-headd3 text-dark">ADMISSION</span>
+                <span class="mobile-headd3 text-dark">Admission</span>
                 <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
             </li>
             <ul class="submenu mobile-para1" id="admission">
@@ -207,7 +207,7 @@
             <!--Convocation-->
             <li onclick="toggleSubmenu('convocation')"
                 style="display: flex; align-items: center; justify-content: space-between;">
-                <span class="mobile-headd3 text-dark">CONVOCATION</span>
+                <span class="mobile-headd3 text-dark">Convocation</span>
                 <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
             </li>
             <ul class="submenu mobile-para1" id="convocation">
@@ -229,7 +229,7 @@
             <!-- Campus Life -->
             <li onclick="toggleSubmenu('campuslife')"
                 style="display: flex; align-items: center; justify-content: space-between;">
-                <span class="mobile-headd3 text-dark">CAMPUS LIFE</span>
+                <span class="mobile-headd3 text-dark">Campus Life</span>
                 <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
             </li>
             <!-- AMENITIES Submenu -->
@@ -309,7 +309,7 @@
             <!--PLACEMENTS section-->
             <li onclick="toggleSubmenu('placement')"
                 style="display: flex; align-items: center; justify-content: space-between;">
-                <span class="mobile-headd3 text-dark">PLACEMENTS</span>
+                <span class="mobile-headd3 text-dark">Placement</span>
                 <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
             </li>
             <ul class="submenu mobile-para1" id="placement">
@@ -342,7 +342,7 @@
             <!--INTERNATIONAL section-->
             <li onclick="toggleSubmenu('International')"
                 style="display: flex; align-items: center; justify-content: space-between;">
-                <span class="mobile-headd3 text-dark">INTERNATIONAL</span>
+                <span class="mobile-headd3 text-dark">International</span>
                 <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
             </li>
             <ul class="submenu mobile-para1" id="International">

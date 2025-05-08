@@ -86,17 +86,13 @@
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/m01.jpeg" class="d-block w-100 rounded" alt="...">
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-mob-01.jpeg" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/m02.jpeg" class="d-block w-100 rounded" alt="...">
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-mob-02.jpeg" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/m03.jpeg" class="d-block w-100 rounded"
-                            alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/m04.jpeg" class="d-block w-100 rounded"
                             alt="...">
                     </div>
                 </div>
@@ -126,7 +122,7 @@
         <!-- mobile Notifications -->
 
         <!-- fast facts mobile  -->
-        <section style="padding: 0px 30px;"
+        {{-- <section style="padding: 0px 30px;"
             class="elementor-section elementor-top-section pt-3  elementor-element elementor-element-943e56e elementor-section-boxed elementor-section-height-default elementor-section-height-default pb-5"
             data-id="943e56e" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
@@ -243,7 +239,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- fast facts mobile  -->
 
         <!-- explore our courses at rgu  -->
@@ -710,7 +706,7 @@
 
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/web-header.png" alt="Slide 1">
+                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/landing-1.png" alt="Slide 1">
                                     </div>
                                     <div class="carousel-item">
                                         <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/sl2.png" alt="Slide 2">
@@ -934,24 +930,13 @@
                                                                     <div class="swiper-slide">
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async" style="height: 650px; width: 95%;"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e05.jpeg" alt="">
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-2.jpeg" alt="">
                                                                         </div>
                                                                     </div>
                                                                     <div class="swiper-slide">
                                                                         <div class="kd-team-4-slide-main-item ">
-                                                                            <img decoding="async"
-                                                                                style="height: 650px; width: 95%;"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e01.jpeg" alt="">
-
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="swiper-slide">
-                                                                        <div class="kd-team-4-slide-main-item ">
-                                                                            <img decoding="async"
-                                                                                style="height: 650px; width: 95%;"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/eo2.jpeg" alt="">
-
-
+                                                                            <img decoding="async" style="height: 650px; width: 95%;"
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-01.jpeg" alt="">
                                                                         </div>
                                                                     </div>
                                                                     <div class="swiper-slide">
@@ -969,9 +954,6 @@
                                                                                 src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg" alt="">
                                                                         </div>
                                                                     </div>
-
-
-
                                                                 </div>
                                                             </div>
 
@@ -996,21 +978,12 @@
                                                                     <div class="swiper-wrapper">
                                                                         <div class="swiper-slide">
                                                                             <div style="border: 1px solid #5887D6;" class="kd-team-4-slide-prview-item fix">
-                                                                                <img decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e05.jpeg" alt="">
+                                                                                <img decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-2.jpeg" alt="">
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide">
-                                                                            <div style="border: 1px solid #5887D6;"
-                                                                                class="kd-team-4-slide-prview-item fix">
-                                                                                <img decoding="async"
-                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e01.jpeg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="swiper-slide">
-                                                                            <div style="border: 1px solid #5887D6;"
-                                                                                class="kd-team-4-slide-prview-item fix">
-                                                                                <img decoding="async"
-                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/eo2.jpeg" alt="">
+                                                                            <div style="border: 1px solid #5887D6;" class="kd-team-4-slide-prview-item fix">
+                                                                                <img decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-01.jpeg" alt="">
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide">
@@ -1094,7 +1067,7 @@
                 <!--End Notifications-->
 
                 <!-- fast facts -->
-                <section
+                {{-- <section
                     class="elementor-section elementor-top-section pt-5  elementor-element elementor-element-943e56e elementor-section-boxed elementor-section-height-default elementor-section-height-default pb-5"
                     data-id="943e56e" data-element_type="section">
                     <div class="elementor-container elementor-column-gap-default">
@@ -1238,7 +1211,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> --}}
                 <!-- fast facts -->
 
                 <!--campus life-->
