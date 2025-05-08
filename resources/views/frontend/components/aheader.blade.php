@@ -11,7 +11,7 @@
 
                         <!-- Discover RGU -->
                         <li class="nav-item dropdown" style="position: relative;">
-                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">Discover RGU</a>
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 18px;">Discover RGU</a>
 
                             <ul class="dropdown-menu p-3" style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 800px; overflow: hidden; border-top: 3px solid #e68900;">
                                 <div class="row" style="display: flex;">
@@ -63,7 +63,7 @@
 
                         <!-- Academics -->
                         <li class="nav-item dropdown" style="position: relative;">
-                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">Academics</a>
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 18px;">Academics</a>
                             <ul class="dropdown-menu p-3" style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 600px; overflow: hidden; border-top: 3px solid #e68900;">
                                 <div class="row" style="display: flex;">
                                     <div class="col-lg-6 p-2">
@@ -95,7 +95,7 @@
 
                         <!-- Admissions -->
                         <li class="nav-item dropdown" style="position: relative;">
-                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">Admission</a>
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 18px;">Admission</a>
                             <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
 
                                 <li><a class="dropdown-item text-dark   para1" href="{{ route('faq') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ADMISSION FAQs</a></li>
@@ -118,7 +118,7 @@
 
                          <!-- Convocation -->
                          <li class="nav-item dropdown" style="position: relative;">
-                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">Convocation</a>
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 18px;">Convocation</a>
                             <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
 
                                 <li><a class="dropdown-item text-dark   para1" href="{{ route('convocation-fourth') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">CONVOCATION FOUR</a></li>
@@ -131,7 +131,7 @@
 
                         <!-- Campus Life with Submenu -->
                         <li class="nav-item dropdown" style="position: relative;">
-                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">Campus Life</a>
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 18px;">Campus Life</a>
                             <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: -40%; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
 
                                 <li class="dropdown-submenu" style="position: relative;">
@@ -178,7 +178,7 @@
 
                         <!-- Placements -->
                         <li class="nav-item dropdown" style="position: relative;">
-                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">Placement</a>
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 18px;">Placement</a>
                             <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: -30%; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
 
                                 <li><a class="dropdown-item text-dark   para1" href="{{ route('placements-introduction') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">INTRODUCION</a></li>
@@ -195,7 +195,7 @@
 
                         <!-- International -->
                         <li class="nav-item dropdown" style="position: relative;">
-                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 16px;">International</a>
+                            <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 18px;">International</a>
                             <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: -40%; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 260px; border-top: 3px solid #e68900;">
 
                                 <li><a class="dropdown-item text-dark   para1" href="international-fee-structure" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">COURSE FEE</a></li>
