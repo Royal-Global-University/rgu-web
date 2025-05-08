@@ -1,20 +1,68 @@
 @extends('frontend.master')
 @section('content')
-        <div style="background-image: url(mobile-assets/dept-social-work/s2-bg-img-1.webp);">
-          <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" class="pb-3" src="mobile-assets/dept-social-work/mob-socialwork.png" alt="">
+            <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+              <div class="mobile">
+             @include('frontend/components/mobileheader')
+            <img style="padding-top: 80px; position: relative;" src="mobile-assets/department-all/dept-social-work/mobile-social-work.png" alt="">
+
+            <div class="container">
+              <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+
+                <div class="table-responsive">
+                  <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
+                    <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
+                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                        <th class="text-light  font-weight-bold">COURSES</th>
+                        <th class="text-light  font-weight-bold">DURATION</th>
+                        <th class="text-light  font-weight-bold">DETAILS</th>
+                    </thead>
+                    <tbody class="para1 bg-light">
+                        <tr class="align-middle">
+                            <td>1.</td>
+                            <td>
+                                <p class="para1">
+                                <strong style="color: #023e8a;" class="#">Master of Social Work</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                              2 years
+                            </td>
+                            <td>
+                              <a target="_blank" href="programs-MSW"><button type="button" style="background-color: #FF9A1E; color: #fff;" class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr class="align-middle">
+                          <td>2.</td>
+                          <td >
+                              <p class="para1">
+                              <strong style="color: #023e8a;" class="programs-BSW">Bachelor of Social Work</strong>
+                              <br> Honours / Honours with Research
+                              </p>
+
+                          </td>
+                          <td>
+                            4 years as per NEP
+                          </td>
+                          <td>
+                            <a target="_blank" href="programs-BSW"><button type="button" style="background-color: #FF9A1E; color: #fff;" class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                          </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+
+            </div>
 
              <div class="container pb-5 pt-3">
 
         <div>
           <div>
-            <h3
-              class="headd3 text-dark fw-bold p-3"
-              style="background-color: #c7daf9; color: #ffffff"
-            >
-              1. Events & Achievements
-            </h3>
+            <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
+
             <div class="table-responsive">
               <table
                 class="overflow-hidden table text-wrap table-bordered border-top mb-5"
@@ -30,8 +78,29 @@
                 </thead>
 
                 <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                  <tr>
+                  <tr class="align-middle">
                     <td>1</td>
+                    <td>Shivalal Gautam</td>
+                    <td>Co-Founder, Xomonnoy</td>
+                    <td>Invited Talk on Gender and Social Exclusion</td>
+                    <td>20-02-2025</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>2</td>
+                    <td>Ms. Juree Hojai</td>
+                    <td>Program Officer, Disability Inclusion, Team Lease Foundation</td>
+                    <td>Interactive Session on Careers in Development Sector</td>
+                    <td>05-03-2025</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>3</td>
+                    <td>Mr. Mohan Sharma</td>
+                    <td>Researcher</td>
+                    <td>Invited Talk on Human-Animal Relationship</td>
+                    <td>11-04-2025</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
                     <td>
                       Dr. Dinesh Goswami, Advisor of Pratishruti Cancer and Palliative
                       Trust, Dibrugarh &amp; Mr. Henry Wood from the University of
@@ -44,7 +113,7 @@
                     <td>3/9/2024</td>
                   </tr>
                   <tr>
-                    <td>2</td>
+                    <td>5</td>
                     <td>Ms. Manjari Nandy</td>
                     <td>
                       Assistant Professor in the Department of Sociology at The
@@ -55,7 +124,7 @@
                     <td>3/6/2024</td>
                   </tr>
                   <tr>
-                    <td>3</td>
+                    <td>6</td>
                     <td>Dr. Bhargabi Das</td>
                     <td>
                       Assistant Professor in the Department of Rural Management at
@@ -65,7 +134,7 @@
                     <td>24/5/24</td>
                   </tr>
                   <tr>
-                    <td>4</td>
+                    <td>7</td>
                     <td>Dr. Bitasta Das</td>
                     <td>
                       Senior Editor- Office of Communications and Instructor-Under
@@ -77,21 +146,21 @@
                     <td>18/10/2023-19/10/2023</td>
                   </tr>
                   <tr>
-                    <td>5</td>
+                    <td>8</td>
                     <td>Dr. Razdan Sarim Rahman</td>
                     <td>Assistant Professor at TISS, Guwahati</td>
                     <td></td>
                     <td></td>
                   </tr>
                   <tr>
-                    <td>6</td>
+                    <td>9</td>
                     <td>Prof. (Dr.) Surajit Ch. Mukhopadhyay</td>
                     <td>Dean, RSHSS</td>
                     <td>Inhouse Resource person</td>
                     <td>18/10/2023</td>
                   </tr>
                   <tr>
-                    <td>7</td>
+                    <td>10</td>
                     <td>Dr. Joseph Riamei</td>
                     <td>
                       Assistant Professor from the School of Social Work at Tata
@@ -101,7 +170,7 @@
                     <td>21/8/2023</td>
                   </tr>
                   <tr>
-                    <td>8</td>
+                    <td>11</td>
                     <td>
                       Ms. Suchismita Majumdar, Founder- Director of Swabalambi
                       Foundation, and Mr. Kanhaiya Lal, Sr. Co-Worker- Education, SOS
@@ -116,7 +185,7 @@
                     <td>21/3/2024-24/3/2023</td>
                   </tr>
                   <tr>
-                    <td>9</td>
+                    <td>12</td>
                     <td>Ms. Nipurnh Gupta</td>
                     <td>
                       a global development communication professional from UNICEF
@@ -125,7 +194,7 @@
                     <td>2/12/2022</td>
                   </tr>
                   <tr>
-                    <td>10</td>
+                    <td>13</td>
                     <td>Mukund Marodia</td>
                     <td>
                       Manager, Strategic and Academic Affairs in the Indian School of
@@ -135,14 +204,14 @@
                     <td>28/10/22</td>
                   </tr>
                   <tr>
-                    <td>11</td>
+                    <td>14</td>
                     <td>Nayan Jyoti Hazarika</td>
                     <td>PHD Scholar from the Department of Social Work</td>
                     <td>Invited talk</td>
                     <td>2022</td>
                   </tr>
                   <tr>
-                    <td>12</td>
+                    <td>15</td>
                     <td>Dr. Sriparna B. Baruah</td>
                     <td>
                       Dr Sriparna B Baruah is a Development Professional with 35 years
@@ -157,7 +226,7 @@
                     <td>31/08/2022</td>
                   </tr>
                   <tr>
-                    <td>13</td>
+                    <td>16</td>
                     <td>
                       Dr Gayatri Gogoi (Assistant Professor of Pathology, AMCH and
                       Honorary Program Director at Pratishruti Cancer and Palliative
@@ -178,7 +247,7 @@
                     <td>2022</td>
                   </tr>
                   <tr>
-                    <td>14</td>
+                    <td>17</td>
                     <td>Dr Shivani Chauhan Barooah</td>
                     <td>
                       Chairperson, Centre for Labour Studies and Social Protection,
@@ -188,7 +257,7 @@
                     <td>2022</td>
                   </tr>
                   <tr>
-                    <td>15</td>
+                    <td>18</td>
                     <td>Mr Anupam Joya Sharma</td>
                     <td>
                       a doctoral fellow of Social Epidemiology at IIT Gandhinagar
@@ -197,7 +266,7 @@
                     <td>20/12/2021</td>
                   </tr>
                   <tr>
-                    <td>16</td>
+                    <td>19</td>
                     <td>Dr Aarushi Kehkar Malhotra (online)</td>
                     <td>
                       Senior Manager of Research, Advocacy, and Wellness at Sirona
@@ -207,14 +276,14 @@
                     <td>11/12/2021</td>
                   </tr>
                   <tr>
-                    <td>17</td>
+                    <td>20</td>
                     <td>Mr Sahbaz Ahmed and Mr Syed Rizwan Ahmed</td>
                     <td>Advocates from Gauhati High Court</td>
                     <td>Invited talk</td>
                     <td>9/12/2021</td>
                   </tr>
                   <tr>
-                    <td>18</td>
+                    <td>21</td>
                     <td>
                       Ms. Archana Borthakur of Priya Bondhu &amp; Uttam Teron of
                       Parijat Academy
@@ -227,7 +296,7 @@
                     <td>2021</td>
                   </tr>
                   <tr>
-                    <td>19</td>
+                    <td>22</td>
                     <td>Dr. Ashok Kumar Das, and Dr. Mythili Hazarika</td>
                     <td>
                       Dr. Ashok Kumar Das, Professor in the Department of Head and
@@ -239,7 +308,7 @@
                     <td>31/5/21</td>
                   </tr>
                   <tr>
-                    <td>20</td>
+                    <td>23</td>
                     <td>Mr. Miguel Das Queah</td>
                     <td>Executive Director, UTSAH</td>
                     <td>Invited talk</td>
@@ -251,32 +320,11 @@
           </div>
         </div>
 
-
         <div>
           <div>
-            <h3
-              class="headd3 text-dark fw-bold p-3"
-              style="background-color: #c7daf9; color: #ffffff"
-            >
-              2. Departmental Research Statistics
-            </h3>
-            <div class="text-dark">
-              <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">
-                <a href="#" class="" target="_blank">Click to view...</a>
-              </h3>
-            </div>
-          </div>
-        </div>
+            <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies (Bos)</span></h2>
 
-
-        <div>
-          <div>
-            <h3
-              class="headd3 text-dark fw-bold p-3"
-              style="background-color: #c7daf9; color: #ffffff"
-            >
-              3. The Board of Studies (BoS)
-            </h3>
             <div class="table-responsive">
               <table
                 class="overflow-hidden table text-wrap table-bordered border-top mb-5"
@@ -293,8 +341,7 @@
                     <td>1</td>
                     <td>Convener (Ex-Officio)- Head of the Department</td>
                     <td>
-                      Dr. Priyanka Patowari, Assistant Professor and Coordinator,
-                      Department of Social Work
+                      Dr. T Luithuiwung Awungshi, Assistant Professor and Coordinator, Department of Social Work.
                     </td>
                   </tr>
                   <tr>
@@ -303,6 +350,10 @@
                       All Faculty members of the Department Members (Ex-Officio)
                     </td>
                     <td>
+                      Dr. Amlan Das, Department of Social Work
+
+                      <hr/>
+
                       Dr. Priyanka Patowari, Assistant Professor and Coordinator,
                       Department of Social Work
 
@@ -343,8 +394,7 @@
                     <td>4</td>
                     <td>External Expert (Industry)</td>
                     <td>
-                      Mr. Hiranjyoti Deka, Social Development Officer, Water Resource
-                      Department, GoA
+                      Mr. Jeet Jyoti Das, Director, Nurture and Foster Pvt. Ltd.
                     </td>
                   </tr>
                 </tbody>
@@ -353,15 +403,11 @@
           </div>
         </div>
 
-
         <div>
           <div>
-            <h3
-              class="headd3 text-dark fw-bold p-3"
-              style="background-color: #c7daf9; color: #ffffff"
-            >
-              4. The Departmental Research Committee (DRC)
-            </h3>
+            <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span></h2>
+
             <div class="table-responsive">
               <table
                 class="overflow-hidden table text-wrap table-bordered border-top mb-5"
@@ -426,16 +472,55 @@
           </div>
         </div>
 
+        <div>
+          <div>
+            <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              Ph.D. Research <span style="color: #FF9A1E; font-weight: 500;">and Research Interest</span></h2>
+
+            <div class="table-responsive">
+              <table
+                class="overflow-hidden table text-wrap table-bordered border-top mb-5"
+              >
+                <thead class="text-white" style="background-color: #27467a">
+                  <tr>
+                    <th>Sl.no</th>
+                    <th>Name</th>
+                    <th>Qualification</th>
+                    <th>Research</th>
+                  </tr>
+
+                </thead>
+                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+                  <tr>
+                    <td>1</td>
+                    <td>Dr. T Luithuiwung Awungshi</td>
+                    <td>Ph.D.</td>
+                    <td>Youth, Drug Abuse, Family & Child Welfare</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Dr. Amlan Das</td>
+                    <td>Ph.D.</td>
+                    <td>Disability Studies, Rural Development, Family & Child Welfare</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Dr. Madhu Monjuri Gohain</td>
+                    <td>Ph.D.</td>
+                    <td>Residential Education and Migration</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
 
         <div>
-          <h3
-            class="headd3 text-dark fw-bold p-3"
-            style="background-color: #c7daf9; color: #ffffff"
-          >
-            5. Course Structure & Syllabus
-          </h3>
+          <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+            Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+
           <div class="p-2">
-            <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">Syllabus -</h3>
             <div class="row">
               <div class="col-lg-12">
                 <div class="accordion para1" id="accordionExample">
@@ -537,7 +622,7 @@
                     >
                       <div class="accordion-body">
                         <a
-                          href="doctoral-programme"
+                          href="doctoral-programme.html"
                           class="para1"
                           target="_blank"
                           >
@@ -553,23 +638,74 @@
             </div>
           </div>
         </div>
+
       </div>
+
+
           </div>
 
           <div class="website">
             @include('frontend/components/aheader')
-            <img src="mobile-assets/dept-social-work/web-socialwork.png" alt="">
+            <img src="mobile-assets/department-all/dept-social-work/web-social-work.png" alt="">
+
+            <div class="container">
+              <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+
+                <div class="table-responsive">
+                  <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
+                    <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
+                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                        <th class="text-light  font-weight-bold">COURSES</th>
+                        <th class="text-light  font-weight-bold">DURATION</th>
+                        <th class="text-light  font-weight-bold">DETAILS</th>
+                    </thead>
+                    <tbody class="para1 bg-light">
+                        <tr class="align-middle">
+                            <td>1.</td>
+                            <td>
+                                <p class="para1">
+                                <strong style="color: #023e8a;" class="#">Master of Social Work</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                              2 years
+                            </td>
+                            <td>
+                              <a target="_blank" href="programs-MSW"><button type="button" style="background-color: #FF9A1E; color: #fff;" class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr class="align-middle">
+                          <td>2.</td>
+                          <td >
+                              <p class="para1">
+                              <strong style="color: #023e8a;" class="programs-BSW">Bachelor of Social Work</strong>
+                              <br> Honours / Honours with Research
+                              </p>
+
+                          </td>
+                          <td>
+                            4 years as per NEP
+                          </td>
+                          <td>
+                            <a target="_blank" href="programs-BSW"><button type="button" style="background-color: #FF9A1E; color: #fff;" class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                          </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+
+            </div>
 
              <div class="container pb-5 pt-3">
 
         <div>
           <div>
-            <h3
-              class="headd3 text-dark fw-bold p-3"
-              style="background-color: #c7daf9; color: #ffffff"
-            >
-              1. Events & Achievements
-            </h3>
+            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
+
             <div class="table-responsive">
               <table
                 class="overflow-hidden table text-wrap table-bordered border-top mb-5"
@@ -585,8 +721,29 @@
                 </thead>
 
                 <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                  <tr>
+                  <tr class="align-middle">
                     <td>1</td>
+                    <td>Shivalal Gautam</td>
+                    <td>Co-Founder, Xomonnoy</td>
+                    <td>Invited Talk on Gender and Social Exclusion</td>
+                    <td>20-02-2025</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>2</td>
+                    <td>Ms. Juree Hojai</td>
+                    <td>Program Officer, Disability Inclusion, Team Lease Foundation</td>
+                    <td>Interactive Session on Careers in Development Sector</td>
+                    <td>05-03-2025</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>3</td>
+                    <td>Mr. Mohan Sharma</td>
+                    <td>Researcher</td>
+                    <td>Invited Talk on Human-Animal Relationship</td>
+                    <td>11-04-2025</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
                     <td>
                       Dr. Dinesh Goswami, Advisor of Pratishruti Cancer and Palliative
                       Trust, Dibrugarh &amp; Mr. Henry Wood from the University of
@@ -599,7 +756,7 @@
                     <td>3/9/2024</td>
                   </tr>
                   <tr>
-                    <td>2</td>
+                    <td>5</td>
                     <td>Ms. Manjari Nandy</td>
                     <td>
                       Assistant Professor in the Department of Sociology at The
@@ -610,7 +767,7 @@
                     <td>3/6/2024</td>
                   </tr>
                   <tr>
-                    <td>3</td>
+                    <td>6</td>
                     <td>Dr. Bhargabi Das</td>
                     <td>
                       Assistant Professor in the Department of Rural Management at
@@ -620,7 +777,7 @@
                     <td>24/5/24</td>
                   </tr>
                   <tr>
-                    <td>4</td>
+                    <td>7</td>
                     <td>Dr. Bitasta Das</td>
                     <td>
                       Senior Editor- Office of Communications and Instructor-Under
@@ -632,21 +789,21 @@
                     <td>18/10/2023-19/10/2023</td>
                   </tr>
                   <tr>
-                    <td>5</td>
+                    <td>8</td>
                     <td>Dr. Razdan Sarim Rahman</td>
                     <td>Assistant Professor at TISS, Guwahati</td>
                     <td></td>
                     <td></td>
                   </tr>
                   <tr>
-                    <td>6</td>
+                    <td>9</td>
                     <td>Prof. (Dr.) Surajit Ch. Mukhopadhyay</td>
                     <td>Dean, RSHSS</td>
                     <td>Inhouse Resource person</td>
                     <td>18/10/2023</td>
                   </tr>
                   <tr>
-                    <td>7</td>
+                    <td>10</td>
                     <td>Dr. Joseph Riamei</td>
                     <td>
                       Assistant Professor from the School of Social Work at Tata
@@ -656,7 +813,7 @@
                     <td>21/8/2023</td>
                   </tr>
                   <tr>
-                    <td>8</td>
+                    <td>11</td>
                     <td>
                       Ms. Suchismita Majumdar, Founder- Director of Swabalambi
                       Foundation, and Mr. Kanhaiya Lal, Sr. Co-Worker- Education, SOS
@@ -671,7 +828,7 @@
                     <td>21/3/2024-24/3/2023</td>
                   </tr>
                   <tr>
-                    <td>9</td>
+                    <td>12</td>
                     <td>Ms. Nipurnh Gupta</td>
                     <td>
                       a global development communication professional from UNICEF
@@ -680,7 +837,7 @@
                     <td>2/12/2022</td>
                   </tr>
                   <tr>
-                    <td>10</td>
+                    <td>13</td>
                     <td>Mukund Marodia</td>
                     <td>
                       Manager, Strategic and Academic Affairs in the Indian School of
@@ -690,14 +847,14 @@
                     <td>28/10/22</td>
                   </tr>
                   <tr>
-                    <td>11</td>
+                    <td>14</td>
                     <td>Nayan Jyoti Hazarika</td>
                     <td>PHD Scholar from the Department of Social Work</td>
                     <td>Invited talk</td>
                     <td>2022</td>
                   </tr>
                   <tr>
-                    <td>12</td>
+                    <td>15</td>
                     <td>Dr. Sriparna B. Baruah</td>
                     <td>
                       Dr Sriparna B Baruah is a Development Professional with 35 years
@@ -712,7 +869,7 @@
                     <td>31/08/2022</td>
                   </tr>
                   <tr>
-                    <td>13</td>
+                    <td>16</td>
                     <td>
                       Dr Gayatri Gogoi (Assistant Professor of Pathology, AMCH and
                       Honorary Program Director at Pratishruti Cancer and Palliative
@@ -733,7 +890,7 @@
                     <td>2022</td>
                   </tr>
                   <tr>
-                    <td>14</td>
+                    <td>17</td>
                     <td>Dr Shivani Chauhan Barooah</td>
                     <td>
                       Chairperson, Centre for Labour Studies and Social Protection,
@@ -743,7 +900,7 @@
                     <td>2022</td>
                   </tr>
                   <tr>
-                    <td>15</td>
+                    <td>18</td>
                     <td>Mr Anupam Joya Sharma</td>
                     <td>
                       a doctoral fellow of Social Epidemiology at IIT Gandhinagar
@@ -752,7 +909,7 @@
                     <td>20/12/2021</td>
                   </tr>
                   <tr>
-                    <td>16</td>
+                    <td>19</td>
                     <td>Dr Aarushi Kehkar Malhotra (online)</td>
                     <td>
                       Senior Manager of Research, Advocacy, and Wellness at Sirona
@@ -762,14 +919,14 @@
                     <td>11/12/2021</td>
                   </tr>
                   <tr>
-                    <td>17</td>
+                    <td>20</td>
                     <td>Mr Sahbaz Ahmed and Mr Syed Rizwan Ahmed</td>
                     <td>Advocates from Gauhati High Court</td>
                     <td>Invited talk</td>
                     <td>9/12/2021</td>
                   </tr>
                   <tr>
-                    <td>18</td>
+                    <td>21</td>
                     <td>
                       Ms. Archana Borthakur of Priya Bondhu &amp; Uttam Teron of
                       Parijat Academy
@@ -782,7 +939,7 @@
                     <td>2021</td>
                   </tr>
                   <tr>
-                    <td>19</td>
+                    <td>22</td>
                     <td>Dr. Ashok Kumar Das, and Dr. Mythili Hazarika</td>
                     <td>
                       Dr. Ashok Kumar Das, Professor in the Department of Head and
@@ -794,7 +951,7 @@
                     <td>31/5/21</td>
                   </tr>
                   <tr>
-                    <td>20</td>
+                    <td>23</td>
                     <td>Mr. Miguel Das Queah</td>
                     <td>Executive Director, UTSAH</td>
                     <td>Invited talk</td>
@@ -806,32 +963,11 @@
           </div>
         </div>
 
-
         <div>
           <div>
-            <h3
-              class="headd3 text-dark fw-bold p-3"
-              style="background-color: #c7daf9; color: #ffffff"
-            >
-              2. Departmental Research Statistics
-            </h3>
-            <div class="text-dark">
-              <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">
-                <a href="#" class="" target="_blank">Click to view...</a>
-              </h3>
-            </div>
-          </div>
-        </div>
+            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies (Bos)</span></h2>
 
-
-        <div>
-          <div>
-            <h3
-              class="headd3 text-dark fw-bold p-3"
-              style="background-color: #c7daf9; color: #ffffff"
-            >
-              3. The Board of Studies (BoS)
-            </h3>
             <div class="table-responsive">
               <table
                 class="overflow-hidden table text-wrap table-bordered border-top mb-5"
@@ -848,8 +984,7 @@
                     <td>1</td>
                     <td>Convener (Ex-Officio)- Head of the Department</td>
                     <td>
-                      Dr. Priyanka Patowari, Assistant Professor and Coordinator,
-                      Department of Social Work
+                      Dr. T Luithuiwung Awungshi, Assistant Professor and Coordinator, Department of Social Work.
                     </td>
                   </tr>
                   <tr>
@@ -858,6 +993,10 @@
                       All Faculty members of the Department Members (Ex-Officio)
                     </td>
                     <td>
+                      Dr. Amlan Das, Department of Social Work
+
+                      <hr/>
+
                       Dr. Priyanka Patowari, Assistant Professor and Coordinator,
                       Department of Social Work
 
@@ -898,8 +1037,7 @@
                     <td>4</td>
                     <td>External Expert (Industry)</td>
                     <td>
-                      Mr. Hiranjyoti Deka, Social Development Officer, Water Resource
-                      Department, GoA
+                      Mr. Jeet Jyoti Das, Director, Nurture and Foster Pvt. Ltd.
                     </td>
                   </tr>
                 </tbody>
@@ -908,15 +1046,11 @@
           </div>
         </div>
 
-
         <div>
           <div>
-            <h3
-              class="headd3 text-dark fw-bold p-3"
-              style="background-color: #c7daf9; color: #ffffff"
-            >
-              4. The Departmental Research Committee (DRC)
-            </h3>
+            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span></h2>
+
             <div class="table-responsive">
               <table
                 class="overflow-hidden table text-wrap table-bordered border-top mb-5"
@@ -981,16 +1115,55 @@
           </div>
         </div>
 
+        <div>
+          <div>
+            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              Ph.D. Research <span style="color: #FF9A1E; font-weight: 500;">and Research Interest</span></h2>
+
+            <div class="table-responsive">
+              <table
+                class="overflow-hidden table text-wrap table-bordered border-top mb-5"
+              >
+                <thead class="text-white" style="background-color: #27467a">
+                  <tr>
+                    <th>Sl.no</th>
+                    <th>Name</th>
+                    <th>Qualification</th>
+                    <th>Research</th>
+                  </tr>
+
+                </thead>
+                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+                  <tr>
+                    <td>1</td>
+                    <td>Dr. T Luithuiwung Awungshi</td>
+                    <td>Ph.D.</td>
+                    <td>Youth, Drug Abuse, Family & Child Welfare</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Dr. Amlan Das</td>
+                    <td>Ph.D.</td>
+                    <td>Disability Studies, Rural Development, Family & Child Welfare</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Dr. Madhu Monjuri Gohain</td>
+                    <td>Ph.D.</td>
+                    <td>Residential Education and Migration</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
 
         <div>
-          <h3
-            class="headd3 text-dark fw-bold p-3"
-            style="background-color: #c7daf9; color: #ffffff"
-          >
-            5. Course Structure & Syllabus
-          </h3>
+          <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+            Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+
           <div class="p-2">
-            <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">Syllabus -</h3>
             <div class="row">
               <div class="col-lg-12">
                 <div class="accordion para1" id="accordionExample">
@@ -1092,7 +1265,7 @@
                     >
                       <div class="accordion-body">
                         <a
-                          href="doctoral-programme"
+                          href="doctoral-programme.html"
                           class="para1"
                           target="_blank"
                           >
@@ -1108,7 +1281,10 @@
             </div>
           </div>
         </div>
+
       </div>
+
+
           </div>
-        </div>
+            </div>
 @endsection
