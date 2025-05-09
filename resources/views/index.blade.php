@@ -86,13 +86,11 @@
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-mob-01.jpeg" class="d-block w-100 rounded" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-mob-02.jpeg" class="d-block w-100 rounded" alt="...">
-                    </div>
-                    <div class="carousel-item">
                         <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/m03.jpeg" class="d-block w-100 rounded"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-mob-03.jpeg" class="d-block w-100 rounded"
                             alt="...">
                     </div>
                 </div>
@@ -747,21 +745,24 @@
 
 
                             <div id="slider" style="width: 620px; overflow: hidden; margin: auto; position: relative;">
-                                <h2 class="headd2 fw-bold pb-3 " style="color: #27467A;">News and Events</h2>
+                                <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-weight: 900; font-size: 40px;">
+                                    News and<span style="color: #FF9A1E; font-weight: 500;"> Events</span></h2>
+
                                 <div id="slides" style="display: flex; transition: transform 0.5s ease;">
-                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-01.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-2.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                        <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e03.jpeg"
+                                            style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                        <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-03.jpeg"
+                                            style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+
                                 </div>
                             </div>
 
                             <div style="text-align:center; margin-top:10px;">
                                 <button onclick="prevSlide()"
                                     style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">
-                                    < </button>
+                                    <</button>
                                         <button onclick="nextSlide()"
                                             style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">></button>
                             </div>
@@ -848,12 +849,11 @@
                         </div>
 
                         <div class="col-lg-5">
-                            <h2 class="headd2 fw-bold pb-3" style="color: #27467A;">Notification</h2>
+                            <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-size: 40px;">Notification</h2>
 
                             <div class="card" style="height: 530px; overflow: hidden; position: relative; background-color: #faebd7;">
                                 <div class="notification-wrapper"
                                     style="position: absolute; top: 100%; width: 100%; animation: scrollUp 20s linear infinite;">
-
                                     <div class="notification-item text-dark para1">
                                         <a href="#"
                                             style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
@@ -877,7 +877,6 @@
                                             Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with
                                             Higher Education'</a>
                                     </div>
-
 
                                     <div class="notification-item text-dark para1 pt-5">
                                         <a href="#"
@@ -902,6 +901,7 @@
                                             Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with
                                             Higher Education'</a>
                                     </div>
+
 
                                     <div class="notification-item text-dark para1 pt-5">
                                         <a href="#"
@@ -927,7 +927,6 @@
                                             Higher Education'</a>
                                     </div>
                                 </div>
-
                             </div>
                             <a href="https://rgu.ac/notifications">
                                 <h2 class="para1 fw-bold pt-3 text-center" style="color: #27467A;">View All Notifications -></h2>
@@ -956,10 +955,7 @@
                             }
                         </style>
 
-
-
-                    </div>
-                </div>
+                    </div>  </div>
                 <!--End Events-->
 
                 <!--Event Section-->
