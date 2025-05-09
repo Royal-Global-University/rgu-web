@@ -911,7 +911,7 @@
                                                             <a href="https://play.google.com/store/apps/details?id=com.reno.rgu"
                                                                 target="_self" rel="" aria-label="name"
                                                                 class="link txaa-fade-right">
-                                                                <span class="txaa-tilt_scale">
+                                                                <span class="txaa-tilt_scale" style="height: 68px; !important">
                                                                     <img src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/play-store.webp"
                                                                         alt="">
                                                                 </span>
@@ -919,7 +919,7 @@
                                                             <a href="https://apps.apple.com/in/app/royal-global-university/id6476598714"
                                                                 target="_self" rel="" aria-label="name"
                                                                 class="link txaa-fade-right">
-                                                                <span class="txaa-tilt_scale">
+                                                                <span class="txaa-tilt_scale" style="height: 70px; !important">
                                                                     <img src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/app-store.webp"
                                                                         alt="">
                                                                 </span>
@@ -928,38 +928,28 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <h5 style="font-weight: 800; color: #ffffff; padding-right: 30px; padding-left: 50px;"
-                                                class="elementor-heading-title elementor-size-default mb-3">Follow Us: </h5>
+                                            <h3 style="font-weight: 800; color: #ffffff; padding-right: 30px; padding-left: 50px;"
+                                                class="elementor-heading-title elementor-size-default mb-3 pt-2">Follow Us: </h3>
 
                                             <a href="https://www.facebook.com/RGUGuwahati"><img
-                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    style="height: 60px; margin-right: 10px; margin-bottom: 15px;"
                                                     src="mobile-assets/index/facebook.svg" alt=""></a>
 
                                             <a href="https://www.instagram.com/royalglobaluniversity/"> <img
-                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    style="height: 60px; margin-right: 10px; margin-bottom: 15px;"
                                                     src="mobile-assets/index/instagram.svg" alt=""></a>
 
                                             <a href="https://x.com/RGUGuwahati"><img
-                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    style="height: 60px; margin-right: 10px; margin-bottom: 15px;"
                                                     src="mobile-assets/index/twitter.svg" alt=""></a>
 
                                             <a href="https://in.pinterest.com/RoyalGlobalUniversityGuwahati/"><img
-                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    style="height: 60px; margin-right: 10px; margin-bottom: 15px;"
                                                     src="mobile-assets/index/pinterest.svg" alt=""></a>
 
-                                            <a href="#"><img style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
-                                                    src="mobile-assets/index/video.svg" alt=""></a>
-
                                             <a href="https://www.youtube.com/channel/UCeiYLZkRYEdFRLk_fAnOihQ"><img
-                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
+                                                    style="height: 60px; margin-right: 10px; margin-bottom: 15px;"
                                                     src="mobile-assets/index/youtube.svg" alt=""></a>
-
-                                            <a href="https://rgu.orell.com/"><img
-                                                    style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
-                                                    src="mobile-assets/index/circle.svg" alt=""></a>
-
-                                            <a href="#"><img style="height: 40px; margin-right: 10px; margin-bottom: 15px;"
-                                                    src="mobile-assets/index/email.svg" alt=""></a>
 
                                             <div class="elementor-element elementor-element-b689206 elementor-widget elementor-widget-go-animate-border"
                                                 data-id="b689206" data-element_type="widget"
