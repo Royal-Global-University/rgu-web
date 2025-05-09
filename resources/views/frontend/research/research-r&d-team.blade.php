@@ -227,7 +227,7 @@
                                   <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/r-team/Professor-Rama-Ranjan-Bhattacharjee.jpeg" class="img-fluid rounded"/>
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
-                                  <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Professor Rama Ranjan Bhattacharjee, Dean R & D</h5>
+                                  <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Professor Rama Ranjan Bhattacharjee, Dean R&D</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Chairman</p>
                                 </div>
                             </div>
