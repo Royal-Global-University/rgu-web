@@ -80,8 +80,8 @@
         <!-- happening at rgu  -->
         <section style="padding: 30px; background-image: url(https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/bg.svg);">
 
-            <h2 class="mobile-headd1 pb-4" style="color: #27467A;">In and Around at <span
-                    style="font-weight: 500; color: #EF991F;">RGU</span></h2>
+            <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-weight: 900; font-size: 40px;">
+                News and<span style="color: #FF9A1E; font-weight: 500;"> Events</span></h2>
 
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
