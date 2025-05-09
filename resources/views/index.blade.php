@@ -739,8 +739,231 @@
 
                 <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/n-explore-rgu-15-15.png" alt="">
 
+
+                <!--New Events-->
+                <div class="container" style="padding: 30px 0px;">
+                    <div class="row">
+                        <div class="col-lg-7" style="display: flex; flex-direction: column;">
+
+
+                            <div id="slider" style="width: 620px; overflow: hidden; margin: auto; position: relative;">
+                                <h2 class="headd2 fw-bold pb-3 " style="color: #27467A;">News and Events</h2>
+                                <div id="slides" style="display: flex; transition: transform 0.5s ease;">
+                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-01.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-2.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                </div>
+                            </div>
+
+                            <div style="text-align:center; margin-top:10px;">
+                                <button onclick="prevSlide()"
+                                    style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">
+                                    < </button>
+                                        <button onclick="nextSlide()"
+                                            style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">></button>
+                            </div>
+
+                            <div id="lightbox"
+                                style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); justify-content:center; align-items:center; z-index:1000;">
+                                <img id="lightbox-img" style="max-width:90%; max-height:90%; border-radius:10px;">
+                            </div>
+
+                            <script>
+                                const zoomableImages = document.querySelectorAll('.zoomable');
+                                const lightbox = document.getElementById('lightbox');
+                                const lightboxImg = document.getElementById('lightbox-img');
+
+                                zoomableImages.forEach(img => {
+                                    img.style.cssText = 'width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px; cursor:pointer;';
+                                    img.addEventListener('click', () => {
+                                        lightbox.style.display = 'flex';
+                                        lightboxImg.src = img.src;
+                                    });
+                                });
+
+                                lightbox.addEventListener('click', () => {
+                                    lightbox.style.display = 'none';
+                                });
+                            </script>
+
+                            <script>
+                                const slideWidth = 320; // 300px image + 20px margin
+                                const slider = document.getElementById("slider");
+                                const slides = document.getElementById("slides");
+                                let index = 0;
+                                let isTransitioning = false;
+
+                                // Clone first few slides and append
+                                const cloneSlides = () => {
+                                    const children = slides.children;
+                                    for (let i = 0; i < 2; i++) {
+                                        const clone = children[i].cloneNode(true);
+                                        slides.appendChild(clone);
+                                    }
+                                };
+
+                                cloneSlides();
+
+                                function nextSlide() {
+                                    if (isTransitioning) return;
+                                    isTransitioning = true;
+                                    index++;
+                                    slides.style.transition = "transform 0.5s ease";
+                                    slides.style.transform = `translateX(-${index * slideWidth}px)`;
+
+                                    setTimeout(() => {
+                                        if (index >= slides.children.length - 2) {
+                                            slides.style.transition = "none";
+                                            index = 0;
+                                            slides.style.transform = `translateX(0px)`;
+                                        }
+                                        isTransitioning = false;
+                                    }, 600);
+                                }
+
+                                function prevSlide() {
+                                    if (isTransitioning) return;
+                                    isTransitioning = true;
+                                    if (index <= 0) {
+                                        index = slides.children.length - 3;
+                                        slides.style.transition = "none";
+                                        slides.style.transform = `translateX(-${(index + 1) * slideWidth}px)`;
+                                        setTimeout(() => {
+                                            slides.style.transition = "transform 0.5s ease";
+                                            prevSlide();
+                                        }, 20);
+                                        return;
+                                    }
+                                    index--;
+                                    slides.style.transition = "transform 0.5s ease";
+                                    slides.style.transform = `translateX(-${index * slideWidth}px)`;
+                                    setTimeout(() => isTransitioning = false, 600);
+                                }
+
+                                setInterval(nextSlide, 3000); // Auto-slide
+                            </script>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <h2 class="headd2 fw-bold pb-3" style="color: #27467A;">Notification</h2>
+
+                            <div class="card" style="height: 530px; overflow: hidden; position: relative; background-color: #faebd7;">
+                                <div class="notification-wrapper"
+                                    style="position: absolute; top: 100%; width: 100%; animation: scrollUp 20s linear infinite;">
+
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> International
+                                            Seminar by Royal Global University in association with ELTAI, September, 2024 </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> Advertisement No.
+                                            : DST-SERB-01/2024 </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">Viksit
+                                            Bharat 2047</a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">East
+                                            Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with
+                                            Higher Education'</a>
+                                    </div>
+
+
+                                    <div class="notification-item text-dark para1 pt-5">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> International
+                                            Seminar by Royal Global University in association with ELTAI, September, 2024 </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> Advertisement No.
+                                            : DST-SERB-01/2024 </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">Viksit
+                                            Bharat 2047</a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">East
+                                            Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with
+                                            Higher Education'</a>
+                                    </div>
+
+                                    <div class="notification-item text-dark para1 pt-5">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> International
+                                            Seminar by Royal Global University in association with ELTAI, September, 2024 </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> Advertisement No.
+                                            : DST-SERB-01/2024 </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">Viksit
+                                            Bharat 2047</a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">East
+                                            Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with
+                                            Higher Education'</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a href="https://rgu.ac/notifications">
+                                <h2 class="para1 fw-bold pt-3 text-center" style="color: #27467A;">View All Notifications -></h2>
+                            </a>
+                        </div>
+
+                        <style>
+                            @keyframes scrollUp {
+                                0% {
+                                    top: 100%;
+                                }
+
+                                100% {
+                                    top: -100%;
+                                }
+                            }
+
+                            /* Pause the animation when hovering over the notification-wrapper */
+                            .notification-wrapper:hover {
+                                animation-play-state: paused;
+                            }
+
+                            /* Add hover effect for links */
+                            .notification-item a:hover {
+                                text-decoration: underline;
+                            }
+                        </style>
+
+
+
+                    </div>
+                </div>
+                <!--End Events-->
+
                 <!--Event Section-->
-                <section-2 style="padding: 0 !important; margin: 0 !important;"
+                {{-- <section-2 style="padding: 0 !important; margin: 0 !important;"
                     class="pb-4 elementor-section elementor-top-section elementor-element elementor-element-c7aba52 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                     data-id="c7aba52" data-element_type="section">
                     <div class="elementor-container elementor-column-gap-no">
@@ -1013,11 +1236,11 @@
                             </div>
                         </div>
                     </div>
-                </section-2>
+                </section-2> --}}
                 <!--End Event-->
 
                 <!--Notifications-->
-                <section>
+                {{-- <section>
                     <div>
                         <div class="row" style="background-color: #f2f2f2;">
                             <div class="col-lg-4" style="background-color: #a1d0f9;">
@@ -1063,7 +1286,7 @@
                     </div>
 
 
-                </section>
+                </section> --}}
                 <!--End Notifications-->
 
                 <!-- fast facts -->
