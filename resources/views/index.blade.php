@@ -64,7 +64,7 @@
                     <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/about-mobile.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/about-website.png" class="d-block w-100" alt="...">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/research-mobile.png" class="d-block w-100" alt="...">
                 </div>
 
             </div>
@@ -707,7 +707,7 @@
                                         <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/about-website.png" alt="Slide 1">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/research-mobile.png" alt="Slide 2">
+                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/research-website.png" alt="Slide 2">
                                     </div>
                                     <!-- <div class="carousel-item">
                                             <img src="sarang/s3.png" alt="Slide 3">
