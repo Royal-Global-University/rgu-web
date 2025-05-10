@@ -824,10 +824,13 @@
 
             </div>
 
-          <img class="pb-4" src="mobile-assets/department-all/dept-chemistry/web-chemistry-down.png" alt="">
+          <img class="pb-2" src="mobile-assets/department-all/dept-chemistry/web-chemistry-down.png" alt="">
 
+          {{-- <div class="container text-center">
+            <a href="" class="p-3 rounded fw-bold" style="color: #ffffff; background-color: #FF9A1E; font-weight: 500; font-size: larger;">Explore Our Laboratories...</a>
+          </div> --}}
 
-      <div class="container pb-5">
+      <div class="container pb-5 pt-5">
 
         <div>
           <div>

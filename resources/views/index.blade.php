@@ -61,10 +61,10 @@
         <div id="carouselExample" class="carousel slide mobile-image-slider" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/landing-page-mobile.png" class="d-block w-100" alt="...">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/about-mobile.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/slide2.png" class="d-block w-100" alt="...">
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/about-website.png" class="d-block w-100" alt="...">
                 </div>
 
             </div>
@@ -704,10 +704,10 @@
 
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/landing-1.png" alt="Slide 1">
+                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/about-website.png" alt="Slide 1">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/sl2.png" alt="Slide 2">
+                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/research-website.png" alt="Slide 2">
                                     </div>
                                     <!-- <div class="carousel-item">
                                             <img src="sarang/s3.png" alt="Slide 3">
