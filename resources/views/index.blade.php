@@ -104,7 +104,7 @@
                 <!-- Left Side: Marquee -->
                 <div class="col-9 overflow-hidden">
                     <div class="mobile-marquee">
-                        <span class="mobile-headd3">📢 International Seminar by The Assam Royal Global University in
+                        <span class="mobile-headd3">📢 Admission Open For Ph.D. 2025-2026 | 📢 International Seminar by The Assam Royal Global University in
                             association with ELTAI, September, 2024 | 🎓 Advertisement No. : DST-SERB-01/2024 | 🏆 East Zone
                             Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with Higher
                             Education' </span>
@@ -855,6 +855,11 @@
                                 <div class="notification-wrapper"
                                     style="position: absolute; top: 100%; width: 100%; animation: scrollUp 20s linear infinite;">
                                     <div class="notification-item text-dark para1">
+                                        <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/output-onlinegiftools.gif" alt=""> Admission Open For Ph.D. 2025-2026 </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
                                         <a href="#"
                                             style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
                                                 style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> International
@@ -879,6 +884,11 @@
                                     </div>
 
                                     <div class="notification-item text-dark para1 pt-5">
+                                        <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/output-onlinegiftools.gif" alt=""> Admission Open For Ph.D. 2025-2026 </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
                                         <a href="#"
                                             style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
                                                 style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> International
@@ -904,6 +914,11 @@
 
 
                                     <div class="notification-item text-dark para1 pt-5">
+                                        <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/output-onlinegiftools.gif" alt=""> Admission Open For Ph.D. 2025-2026 </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
                                         <a href="#"
                                             style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
                                                 style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> International
