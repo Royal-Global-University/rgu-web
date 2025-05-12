@@ -555,6 +555,52 @@
         }
     </style>
 
+    <!-- link buttons web css  -->
+    <style>
+        .quick-links-container {
+            position: relative;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .quick-links-tooltip {
+            position: absolute;
+            top: -30px;
+            left: 20px;
+            background-color: #27467a;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+
+        .quick-links-panel {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 70px 30px;
+            display: flex;
+            gap: 70px;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .quick-link-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #24477f;
+            height: 60px;
+            width: 500px;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+    <!-- link buttons web css  -->
+
     <!-- card box  -->
     <style>
         .card-box {
