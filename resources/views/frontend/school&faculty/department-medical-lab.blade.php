@@ -58,7 +58,23 @@
           <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-medical-lab/mob-btm.png" alt="">
 
         <div class="container pb-5 pt-3">
+            <!-- link buttons website  -->
+            <div class="quick-links-container">
+                <div class="quick-links-tooltip">Quick Links</div>
 
+                <div class="quick-links-panel">
+                    <a class="quick-link-button d-flex justify-content-center align-items-center">
+                        <p class=" fw-bold text-white mb-0 text-center" style="font-size: 28px">Explore Department Lab</p>
+                    </a>
+
+                    <a href="Research_Department_Medical_Lab" style="background-color: #FF9A1E;"
+                        class="quick-link-button d-flex justify-content-center align-items-center">
+                        <p class=" fw-bold text-white mb-0 text-center" style="font-size: 28px">Explore Research Lab</p>
+                    </a>
+                </div>
+
+            </div>
+            <!-- link buttons website  -->
           <div>
             <div>
               <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -512,7 +528,18 @@
 
 
        <div class="container pb-5 pt-3">
+        <!-- link buttons website  -->
+        <div class="quick-links-container">
+            <div class="quick-links-tooltip">Quick Links</div>
+            <div class="quick-links-panel">
+                <a href="Research_Department_Medical_Lab" style="background-color: #FF9A1E;"
+                    class="quick-link-button d-flex justify-content-center align-items-center">
+                    <p class=" fw-bold text-white mb-0 text-center" style="font-size: 28px">Explore Research Lab</p>
+                </a>
+            </div>
 
+        </div>
+        <!-- link buttons website  -->
           <div>
             <div>
               <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">

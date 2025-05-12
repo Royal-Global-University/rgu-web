@@ -80,7 +80,7 @@
                     </div>
 
                 </div>
-            </div>
+                </div>
             <!-- link buttons mobile  -->
 
               <div>
@@ -772,23 +772,23 @@
 
             <div class="container pb-5 pt-3">
 
-            <!-- link buttons mobile  -->
+            <!-- link buttons website  -->
             <div class="quick-links-container">
                 <div class="quick-links-tooltip">Quick Links</div>
 
                 <div class="quick-links-panel">
                     <a href="lab-physics" class="quick-link-button d-flex justify-content-center align-items-center">
-                        <p class="para1 fw-bold text-white mb-0 text-center">Explore Department Lab</p>
+                        <p class=" fw-bold text-white mb-0 text-center" style="font-size: 28px">Explore Department Lab</p>
                     </a>
 
                     <a href="Research_Department_Physics" style="background-color: #FF9A1E;"
                         class="quick-link-button d-flex justify-content-center align-items-center">
-                        <p class="para1 fw-bold text-white mb-0 text-center">Explore Research Lab</p>
+                        <p class=" fw-bold text-white mb-0 text-center" style="font-size: 28px">Explore Research Lab</p>
                     </a>
                 </div>
 
             </div>
-            <!-- link buttons mobile  -->
+            <!-- link buttons website  -->
 
               <div>
                 <div>

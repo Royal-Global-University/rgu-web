@@ -62,7 +62,25 @@
             <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-geology/mob-btm.png" alt="">
 
             <div class="container pb-5">
+                <!-- link buttons mobile  -->
+                <div>
+                    <div class="container" style="background-color: #fff; padding: 80px 10px;">
 
+                        <h2 class="headd3 fw-bold text-center pb-5" style="color: #27467A; font-weight: 900;">
+                            Quick <span style="color: #FF9A1E; font-weight: 500;">Links</span></h2>
+
+                        <div class="row text-center">
+                            <div class="col-lg-12 pt-4">
+                                <a href="Research_Department_Geology"
+                                    style="width: 100%; background-color: #FF9A1E; color: #fff; height: 50px;"
+                                    class="btn para1 fw-bold d-flex justify-content-center align-items-center" href="#"
+                                    role="button">Explore Research Lab</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- link buttons mobile  -->
                 <div>
                     <div>
                         <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -382,7 +400,19 @@
             <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-geology/web-btm.png" alt="">
 
             <div class="container pb-5">
+                <!-- link buttons website  -->
+                <div class="quick-links-container">
+                    <div class="quick-links-tooltip">Quick Links</div>
 
+                    <div class="quick-links-panel">
+                        <a href="Research_Department_Geology" style="background-color: #FF9A1E;"
+                            class="quick-link-button d-flex justify-content-center align-items-center">
+                            <p class=" fw-bold text-white mb-0 text-center" style="font-size: 28px">Explore Research Lab</p>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- link buttons website  -->
                 <div>
                     <div>
                         <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
