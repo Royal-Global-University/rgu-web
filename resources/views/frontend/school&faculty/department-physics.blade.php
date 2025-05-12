@@ -1,9 +1,9 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/bg.svg); background-size: cover;">
         <div class="mobile" >
             @include('frontend/components/mobileheader')
-          <img style="padding-top: 80px; position: relative;" src="mobile-assets/department-all/dept-physics/mob-top.png" alt="">
+          <img style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-physics/mob-top.png" alt="">
 
           <div class="container">
     <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -55,7 +55,7 @@
 
           </div>
 
-          <img src="mobile-assets/department-all/dept-physics/mob-btm.png" alt="">
+          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-physics/mob-btm.png" alt="">
 
           <div class="container pb-5 pt-3">
 
@@ -588,7 +588,7 @@
                           >
                             <div class="accordion-body">
                               <a
-                                href="mobile-assets/department-all/Departmentalpdf/AY 2022-23 BSc Physics.pdf"
+                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2022-23 BSc Physics.pdf"
                                 target="_blank"
                               >
                                 <i class="fa fa-file-text px-2"></i> AY 2022-23 BSc Physics.pdf
@@ -597,7 +597,7 @@
                               <br />
 
                               <a
-                                href="mobile-assets/department-all/Departmentalpdf/AY 2023-24 BSc Physics.pdf"
+                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2023-24 BSc Physics.pdf"
                                 target="_blank"
                               >
                                 <i class="fa fa-file-text px-2"></i> AY 2023-24 BSc Physics.pdf
@@ -605,7 +605,7 @@
                               ><br />
 
                               <a
-                                href="mobile-assets/department-all/Departmentalpdf/Old Syllabus B.Sc. Physics.pdf"
+                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/Old Syllabus B.Sc. Physics.pdf"
                                 target="_blank"
                               >
                                 <i class="fa fa-file-text px-2"></i> Old Syllabus B.Sc.
@@ -638,7 +638,7 @@
                           >
                             <div class="accordion-body">
                               <a
-                                href="mobile-assets/department-all/Departmentalpdf/AY 2021-22 M.Sc. Physics.pdf"
+                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2021-22 M.Sc. Physics.pdf"
                                 >AY 2021-22 M.Sc. Physics.pdf<i class="fa fa-download"></i
                               ></a>
                             </div>
@@ -692,7 +692,7 @@
           @include('frontend/components/aheader')
           <!--End Header-->
 
-          <img src="mobile-assets/department-all/dept-physics/web-top.png" alt="">
+          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-physics/web-top.png" alt="">
 
           <div class="container">
     <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -744,7 +744,7 @@
 
           </div>
 
-          <img src="mobile-assets/department-all/dept-physics/web-btm.png" alt="">
+          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-physics/web-btm.png" alt="">
 
           <!--About Section-->
 
@@ -1279,7 +1279,7 @@
                           >
                             <div class="accordion-body">
                               <a
-                                href="mobile-assets/department-all/Departmentalpdf/AY 2022-23 BSc Physics.pdf"
+                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2022-23 BSc Physics.pdf"
                                 target="_blank"
                               >
                                 <i class="fa fa-file-text px-2"></i> AY 2022-23 BSc Physics.pdf
@@ -1288,7 +1288,7 @@
                               <br />
 
                               <a
-                                href="mobile-assets/department-all/Departmentalpdf/AY 2023-24 BSc Physics.pdf"
+                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2023-24 BSc Physics.pdf"
                                 target="_blank"
                               >
                                 <i class="fa fa-file-text px-2"></i> AY 2023-24 BSc Physics.pdf
@@ -1296,7 +1296,7 @@
                               ><br />
 
                               <a
-                                href="mobile-assets/department-all/Departmentalpdf/Old Syllabus B.Sc. Physics.pdf"
+                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/Old Syllabus B.Sc. Physics.pdf"
                                 target="_blank"
                               >
                                 <i class="fa fa-file-text px-2"></i> Old Syllabus B.Sc.
@@ -1329,7 +1329,7 @@
                           >
                             <div class="accordion-body">
                               <a
-                                href="mobile-assets/department-all/Departmentalpdf/AY 2021-22 M.Sc. Physics.pdf"
+                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2021-22 M.Sc. Physics.pdf"
                                 >AY 2021-22 M.Sc. Physics.pdf<i class="fa fa-download"></i
                               ></a>
                             </div>

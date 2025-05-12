@@ -1,9 +1,9 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/bg.svg); background-size: cover;">
         <div class="mobile">
             @include('frontend/components/mobileheader')
-          <img class="pb-3" style="padding-top: 80px; position: relative;" src="mobile-assets/department-all/dept-finearts/mobile-fineart-up.png" alt="">
+          <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-finearts/mobile-fineart-up.png" alt="">
 
         <div class="container">
           <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -55,7 +55,7 @@
 
         </div>
 
-          <img class="pb-3" src="mobile-assets/department-all/dept-finearts/mobile-fineart-down.png" alt="">
+          <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-finearts/mobile-fineart-down.png" alt="">
 
         <div class="container pb-5">
 
@@ -481,7 +481,7 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-          <img class="pb-3" src="mobile-assets/department-all/dept-finearts/web-fineart-up.png" alt="">
+          <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-finearts/web-fineart-up.png" alt="">
 
           <div class="container">
           <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -533,7 +533,7 @@
 
           </div>
 
-          <img class="pb-3" src="mobile-assets/department-all/dept-finearts/web-fineart-down.png" alt="">
+          <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-finearts/web-fineart-down.png" alt="">
 
           <div class="container pb-5">
 

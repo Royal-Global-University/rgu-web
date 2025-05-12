@@ -1,9 +1,9 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+    <div style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/bg.svg); background-size: cover;">
         <div class="mobile" >
             @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" class="pb-3" src="mobile-assets/department-all/dept-geology/mob-top.png" alt="">
+            <img style="padding-top: 80px; position: relative;" class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-geology/mob-top.png" alt="">
 
             <div class="container">
                 <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -59,7 +59,7 @@
 
             </div>
 
-            <img class="pb-3" src="mobile-assets/department-all/dept-geology/mob-btm.png" alt="">
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-geology/mob-btm.png" alt="">
 
             <div class="container pb-5">
 
@@ -323,7 +323,7 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img class="pb-3" src="mobile-assets/department-all/dept-geology/web-top.png" alt="">
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-geology/web-top.png" alt="">
 
             <div class="container">
                 <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -379,7 +379,7 @@
 
             </div>
 
-            <img class="pb-3" src="mobile-assets/department-all/dept-geology/web-btm.png" alt="">
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-geology/web-btm.png" alt="">
 
             <div class="container pb-5">
 

@@ -1,9 +1,9 @@
 @extends('frontend.master')
 @section('content')
-        <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+        <div style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/bg.svg); background-size: cover;">
             <div class="mobile">
                 @include('frontend/components/mobileheader')
-            <img class="pb-4" style="padding-top: 80px; position: relative;" src="mobile-assets/department-all/dept-chemistry/mobile-chemistry.png" alt="">
+            <img class="pb-4" style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-chemistry/mobile-chemistry.png" alt="">
 
             <div class="container">
               <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -56,7 +56,7 @@
 
             </div>
 
-          <img class="pb-4" src="mobile-assets/department-all/dept-chemistry/mob-chemistry-down.png" alt="">
+          <img class="pb-4" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-chemistry/mob-chemistry-down.png" alt="">
 
 
       <div class="container pb-5">
@@ -679,14 +679,14 @@
                       <div class="accordion-body">
                         <div class="row">
                           <a
-                            href="mobile-assets/department-all/Departmentalpdf/AY 2022-2023 B.Sc in Chemistry.pdf"
+                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2022-2023 B.Sc in Chemistry.pdf"
                             target="_blank"
                           >
                             <i class="fa fa-file-text px-2"></i>AY 2022-2023 B.Sc in Chemistry.pdf<i class="px-2 fa fa-download"></i>
                           </a>
 
                           <a
-                            href="mobile-assets/department-all/Departmentalpdf/AY 2023-2024 B.Sc in Chemistry.pdf"
+                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2023-2024 B.Sc in Chemistry.pdf"
                             target="_blank"
                           >
                             <i class="fa fa-file-text px-2"></i>AY 2023-2024 B.Sc in Chemistry.pdf<i class="px-2 fa fa-download"></i>
@@ -717,7 +717,7 @@
                     >
                       <div class="accordion-body">
                         <a
-                          href="mobile-assets/department-all/Departmentalpdf/Old Syllabus M.Sc. in Chemistry.pdf"
+                          href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/Old Syllabus M.Sc. in Chemistry.pdf"
                           target="_blank"
                         >
                           <i class="fa fa-file-text px-2"></i>Old Syllabus M.Sc. in
@@ -771,7 +771,7 @@
           @include('frontend/components/aheader')
           <!--End Header-->
 
-          <img class="pb-4" src="mobile-assets/department-all/dept-chemistry/web-chemistry.png" alt="">
+          <img class="pb-4" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-chemistry/web-chemistry.png" alt="">
 
             <div class="container">
               <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -824,7 +824,7 @@
 
             </div>
 
-          <img class="pb-2" src="mobile-assets/department-all/dept-chemistry/web-chemistry-down.png" alt="">
+          <img class="pb-2" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-chemistry/web-chemistry-down.png" alt="">
 
           {{-- <div class="container text-center">
             <a href="" class="p-3 rounded fw-bold" style="color: #ffffff; background-color: #FF9A1E; font-weight: 500; font-size: larger;">Explore Our Laboratories...</a>
@@ -1450,14 +1450,14 @@
                       <div class="accordion-body">
                         <div class="row">
                           <a
-                            href="mobile-assets/department-all/Departmentalpdf/AY 2022-2023 B.Sc in Chemistry.pdf"
+                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2022-2023 B.Sc in Chemistry.pdf"
                             target="_blank"
                           >
                             <i class="fa fa-file-text px-2"></i>AY 2022-2023 B.Sc in Chemistry.pdf<i class="px-2 fa fa-download"></i>
                           </a>
 
                           <a
-                            href="mobile-assets/department-all/Departmentalpdf/AY 2023-2024 B.Sc in Chemistry.pdf"
+                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2023-2024 B.Sc in Chemistry.pdf"
                             target="_blank"
                           >
                             <i class="fa fa-file-text px-2"></i>AY 2023-2024 B.Sc in Chemistry.pdf<i class="px-2 fa fa-download"></i>
@@ -1488,7 +1488,7 @@
                     >
                       <div class="accordion-body">
                         <a
-                          href="mobile-assets/department-all/Departmentalpdf/Old Syllabus M.Sc. in Chemistry.pdf"
+                          href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/Old Syllabus M.Sc. in Chemistry.pdf"
                           target="_blank"
                         >
                           <i class="fa fa-file-text px-2"></i>Old Syllabus M.Sc. in
