@@ -3,7 +3,7 @@
             <div class="container-fluid">
 
                 <a class="navbar-brand" href="/">
-                    <img  src="mobile-assets/index/logo-dark.png" alt="Logo" style="height: 100px;">
+                    <img  src="mobile-assets/index/logo-dark.png" alt="Logo" style="height: 95px;">
                 </a>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
