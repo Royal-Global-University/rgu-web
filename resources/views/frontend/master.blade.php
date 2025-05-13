@@ -893,15 +893,15 @@
     }
     </style>
 
-{{-- <link rel="stylesheet" href="assets/css/modal/modal1.css">
-    <link rel="icon" href="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/cropped-favicon-32x32.png"
+    {{-- <link rel="stylesheet" href="assets/css/modal/modal1.css"> --}}
+    <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/30x30.png"
         sizes="32x32" />
-    <link rel="icon" href="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/cropped-favicon-192x192.png"
+    <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/192x192.png"
         sizes="192x192" />
     <link rel="apple-touch-icon"
-        href="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/cropped-favicon-180x180.png" />
+        href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/180x180.png" />
     <meta name="msapplication-TileImage"
-        content="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/cropped-favicon-270x270.png" /> --}}
+        content="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/270x270.png" />
 </head>
 
 <body
