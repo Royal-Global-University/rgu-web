@@ -974,27 +974,27 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <h3 style="font-weight: 800; color: #ffffff; padding-right: 30px; padding-left: 50px;"
-                                                class="elementor-heading-title elementor-size-default mb-3 pt-2">Follow Us: </h3>
+                                            <h4 style="font-weight: 800; color: #ffffff; padding-right: 30px; padding-left: 50px;"
+                                                class="elementor-heading-title elementor-size-default mb-3 pt-2">Follow Us: </h4>
 
                                             <a href="https://www.facebook.com/RGUGuwahati"><img
-                                                    style="height: 60px; margin-right: 10px; margin-bottom: 15px;"
+                                                    style="height: 50px; margin-right: 10px; margin-bottom: 15px;"
                                                     src="mobile-assets/index/facebook.svg" alt=""></a>
 
                                             <a href="https://www.instagram.com/royalglobaluniversity/"> <img
-                                                    style="height: 60px; margin-right: 10px; margin-bottom: 15px;"
+                                                    style="height: 50px; margin-right: 10px; margin-bottom: 15px;"
                                                     src="mobile-assets/index/instagram.svg" alt=""></a>
 
                                             <a href="https://x.com/RGUGuwahati"><img
-                                                    style="height: 60px; margin-right: 10px; margin-bottom: 15px;"
+                                                    style="height: 50px; margin-right: 10px; margin-bottom: 15px;"
                                                     src="mobile-assets/index/twitter.svg" alt=""></a>
 
                                             <a href="https://in.pinterest.com/RoyalGlobalUniversityGuwahati/"><img
-                                                    style="height: 60px; margin-right: 10px; margin-bottom: 15px;"
+                                                    style="height: 50px; margin-right: 10px; margin-bottom: 15px;"
                                                     src="mobile-assets/index/pinterest.svg" alt=""></a>
 
                                             <a href="https://www.youtube.com/channel/UCeiYLZkRYEdFRLk_fAnOihQ"><img
-                                                    style="height: 60px; margin-right: 10px; margin-bottom: 15px;"
+                                                    style="height: 50px; margin-right: 10px; margin-bottom: 15px;"
                                                     src="mobile-assets/index/youtube.svg" alt=""></a>
 
                                             <div class="elementor-element elementor-element-b689206 elementor-widget elementor-widget-go-animate-border"
