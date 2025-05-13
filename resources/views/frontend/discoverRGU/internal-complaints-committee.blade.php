@@ -39,7 +39,7 @@
                                 <th scope="col">Name of the Staff / Faculty</th>
                                 <th scope="col">Category of Nomination</th>
                                 <th scope="col">Designation in ICC</th>
-                                <th scope="col">Tenure</th>
+
                             </tr>
                         </thead>
                         <tbody class="para1 text-dark">
@@ -48,49 +48,49 @@
                                 <td>Prof. Indrani Rai, Dean RSL</td>
                                 <td>Presiding Officer who shall be a woman faculty member employed at a senior level</td>
                                 <td>Presiding Officer</td>
-                                <td>9th May 2025 to 8th May 2028</td>
+
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>Ms. Angira Mimani, Associate Professor & Associate Dean, Student Welfare</td>
                                 <td>Two faculty members</td>
                                 <td>Member</td>
-                                <td>9th May 2025 to 8th May 2028</td>
+
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>Dr. Debarupa Dutta Chakraborty, Associate Professor, Royal School of Pharmacy</td>
                                 <td>Two faculty members</td>
                                 <td>Member</td>
-                                <td>9th May 2025 to 8th May 2028</td>
+
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>Mr. Shamim A. Goney, Deputy Registrar</td>
                                 <td>Two non-teaching employees</td>
                                 <td>Member</td>
-                                <td>9th May 2025 to 8th May 2028</td>
+
                             </tr>
                             <tr>
                                 <td>5</td>
                                 <td>Ms. Dipika T. Agarwal, Deputy Registrar (HR & RC)</td>
                                 <td>Two non-teaching employees</td>
                                 <td>Member-Secretary</td>
-                                <td>4th Aug 2023 to 3rd Aug 2026</td>
+                                
                             </tr>
                             <tr>
                                 <td>6</td>
                                 <td>Dr. Jwmwishree Boro, Assistant Professor, Psychology</td>
                                 <td>Extra Member</td>
                                 <td>Member</td>
-                                <td>4th Aug 2023 to 3rd Aug 2026</td>
+                                
                             </tr>
                             <tr>
                                 <td>7</td>
                                 <td>Prof. (Dr.) Soumitra Sen, Dean, RSTTM & RSHM</td>
                                 <td>Extra Member</td>
                                 <td>Member</td>
-                                <td>4th Aug 2023 to 3rd Aug 2026</td>
+                                
                             </tr>
                         </tbody>
                     </table>
@@ -165,7 +165,6 @@
                              <th scope="col">Name of the Staff / Faculty</th>
                              <th scope="col">Category of Nomination</th>
                              <th scope="col">Designation in ICC</th>
-                             <th scope="col">Tenure</th>
                          </tr>
                      </thead>
                      <tbody class="para1 text-dark">
@@ -174,49 +173,49 @@
          <td>Prof. Indrani Rai, Dean RSL</td>
          <td>Presiding Officer who shall be a woman faculty member employed at a senior level</td>
          <td>Presiding Officer</td>
-         <td>9th May 2025 to 8th May 2028</td>
+
        </tr>
        <tr>
          <td>2</td>
          <td>Ms. Angira Mimani, Associate Professor & Associate Dean, Student Welfare</td>
          <td>Two faculty members</td>
          <td>Member</td>
-         <td>9th May 2025 to 8th May 2028</td>
+
        </tr>
        <tr>
          <td>3</td>
          <td>Dr. Debarupa Dutta Chakraborty, Associate Professor, Royal School of Pharmacy</td>
          <td>Two faculty members</td>
          <td>Member</td>
-         <td>9th May 2025 to 8th May 2028</td>
+
        </tr>
        <tr>
          <td>4</td>
          <td>Mr. Shamim A. Goney, Deputy Registrar</td>
          <td>Two non-teaching employees</td>
          <td>Member</td>
-         <td>9th May 2025 to 8th May 2028</td>
+
        </tr>
        <tr>
          <td>5</td>
          <td>Ms. Dipika T. Agarwal, Deputy Registrar (HR & RC)</td>
          <td>Two non-teaching employees</td>
          <td>Member-Secretary</td>
-         <td>4th Aug 2023 to 3rd Aug 2026</td>
+
        </tr>
        <tr>
          <td>6</td>
          <td>Dr. Jwmwishree Boro, Assistant Professor, Psychology</td>
          <td>Extra Member</td>
          <td>Member</td>
-         <td>4th Aug 2023 to 3rd Aug 2026</td>
+
        </tr>
        <tr>
          <td>7</td>
          <td>Prof. (Dr.) Soumitra Sen, Dean, RSTTM & RSHM</td>
          <td>Extra Member</td>
          <td>Member</td>
-         <td>4th Aug 2023 to 3rd Aug 2026</td>
+
        </tr>
                      </tbody>
                  </table>

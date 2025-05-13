@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <title>The Assam Royal Global University, Best University In Assam</title>
+    <!--meta tag-->
+    <title>@yield('title', 'The Assam Royal Global University | Best University in Assam, India')</title>
+    <meta name="description" content="@yield('meta_description', 'Discover Royal Global University, the best private university in Assam offering world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG programs.')">
+    <meta name="keywords" content="@yield('meta_keywords', 'Best University in Assam')">
+    <!--meta tag-->
     <meta name='robots' content='max-image-preview:large' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel='stylesheet' href='{{ asset("assets/css/custom.css") }}' />
