@@ -1187,14 +1187,18 @@
                                                 <a href="https://rgu.renocampus.com/">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online</p>
                                                 </a>
+                                                <a href="social-outreach">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Social Outreach</p>
+                                                </a>
+                                                <a href="internal-complaints-committee">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Internal Complaints Committee</p>
+                                                </a>
 
                                             </div>
 
                                             <div class="col-lg-3 pb-4">
 
-                                                <a href="social-outreach">
-                                                    <p class="m-0  text-white" style="font-size: 18px;">Social Outreach</p>
-                                                </a>
+
                                                 <a href="notifications">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Annoucement</p>
                                                 </a>
@@ -1204,9 +1208,9 @@
                                                 <a href="jobs-vacancies">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs & Vacancies</p>
                                                 </a>
-                                                {{-- <a href="">
+                                                <a href="iqac-overview">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
-                                                </a> --}}
+                                                </a>
                                                 <a href="research-devlopment">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Research &
                                                         Development</p>

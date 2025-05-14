@@ -137,7 +137,7 @@
 
                                     <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 450px;">
                                         <div class="p-3">
-                                          <img style="height: 290px; width: 100%;" src="#!" alt="Image" class="img-fluid rounded"/>
+                                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/r-team/Rashel.jpeg" alt="Image" class="img-fluid rounded"/>
                                         </div>
                                         <div class="card-body d-flex flex-column flex-grow-1">
                                           <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">
@@ -311,7 +311,7 @@
 
                             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                                 <div class="p-3">
-                                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/r-team/#!" class="img-fluid rounded"/>
+                                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/r-team/Rashel.jpeg" class="img-fluid rounded"/>
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">

@@ -2796,3 +2796,7 @@ Route::get('/lp', function () {
     return view('frontend/lp/lp');
 })->name('lp');
 
+//Quick link
+Route::get('/grievance', function () {
+    return view('frontend/quicklink/grievance');
+})->name('grievance');
