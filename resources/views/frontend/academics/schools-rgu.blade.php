@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Our Schools and Faculties : The Assam Royal Global University')
+@section('meta_description', 'Discover the diverse schools and faculties at Royal Global University, offering comprehensive academic programs and world-class faculty expertise.')
+@section('meta_keywords', 'Our Schools and Faculties')
 @section('content')
     <div id="page" class="site site_wrapper">
 

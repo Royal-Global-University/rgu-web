@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Academic Calender : The Assam Royal Global University')
+@section('meta_description', 'Stay on track with Royal Global University academic calendar, your roadmap to important dates and events throughout the academic year.')
+@section('meta_keywords', 'Academic calender')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Pictorial Board : The Assam Royal Global University')
+@section('meta_description', 'Explore the innovative insights and visual perspectives curated by the Pictorial Board of Royal Global University.')
+@section('meta_keywords', 'Pictorial Board')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

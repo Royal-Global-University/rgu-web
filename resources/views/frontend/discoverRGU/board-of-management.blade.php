@@ -24,6 +24,10 @@
         }
     </style>
 @endpush
+@section('title', 'Board of Management : The Assam Royal Global University')
+@section('meta_description', 'Meet the powerhouse behind Royal Global University strategic vision and operational excellence - our Board of
+Management.')
+@section('meta_keywords', 'Board of Management')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

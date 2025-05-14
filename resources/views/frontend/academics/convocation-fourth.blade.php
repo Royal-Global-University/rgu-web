@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', ' Fourth Convocation : The Assam Royal Global University')
+@section('meta_description', 'Celebrate the achievements of graduates at the Fourth Convocation of Royal Global University, a momentous event honoring academic excellence and the journey of students towards a successful future.')
+@section('meta_keywords', ' Fourth Convocation')
 @section('content')
     <div class="mobile" >
         @include('frontend/components/mobileheader')

@@ -24,6 +24,9 @@
         }
     </style>
 @endpush
+@section('title', 'Equal oppurtunity Cell : The Assam Royal Global University')
+@section('meta_description', 'Empowering diversity and fostering inclusivity, the Equal Opportunity Cell at Royal Global University is dedicated to ensuring fair treatment and access for all.')
+@section('meta_keywords', 'Equal oppurtunity Cell')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Anti-Ragging Commitee : The Assam Royal Global University')
+@section('meta_description', 'Royal Global University Anti-Ragging Committee ensures a safe, inclusive, and supportive campus environment by strictly enforcing anti-ragging policies in line with UGC regulations.')
+@section('meta_keywords', 'Anti-Ragging Commitee')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

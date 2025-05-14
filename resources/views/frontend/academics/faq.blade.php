@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Admission Faqs : The Assam Royal Global University')
+@section('meta_description', 'Get answers to all your admission queries at Royal Global University. Discover admission requirements, deadlines, scholarships, and more in our comprehensive FAQ section.')
+@section('meta_keywords', 'Admission Faqs')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Labrotary : The Assam Royal Global University')
+@section('meta_description', 'Royal Global University is known for its world class infrastructure. The state-of-the-art laboratories are well equipped with the latest software and technology.')
+@section('meta_keywords', 'Labrotary')
 @section('content')
      <div class="mobile">
         <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/laboratories/mobile-lab-banner.svg" alt="">

@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Library : The Assam Royal Global University')
+@section('meta_description', 'A strong library enhances the academic life of students. The RGU library system comprises of three libraries.')
+@section('meta_keywords', 'Library')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

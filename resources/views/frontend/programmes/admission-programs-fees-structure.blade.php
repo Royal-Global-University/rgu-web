@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Course fee : The Assam Royal Global University')
+@section('meta_description', 'Find detailed information on the course fees at Royal Global University, including fee structures for undergraduate, postgraduate, and doctoral programs, along with available scholarships and financial aid options.')
+@section('meta_keywords', 'Course fee')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

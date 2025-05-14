@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', ' Deans Lister : The Assam Royal Global University')
+@section('meta_description', 'Dean List is a List of Honour, which will comprise of only final year students who have shown academic excellence and discipline.')
+@section('meta_keywords', ' Deans Lister')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

@@ -1,5 +1,7 @@
 @extends('frontend.master')
-
+@section('title', 'Strategic Location : The Assam Royal Global University')
+@section('meta_description', 'Royal Global University boasts a strategic location in Guwahati, offering excellent connectivity, a thriving academic environment, and proximity to major urban and cultural hubs of Northeast India.')
+@section('meta_keywords', 'Strategic Location')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

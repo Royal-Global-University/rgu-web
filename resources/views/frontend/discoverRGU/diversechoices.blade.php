@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Diverse Choices : The Assam Royal Global University')
+@section('meta_description', 'RGU offers different professional courses like Engineering and Technology, Business, Commerce, Architecture, Fashion Designing, Fine Arts, Pure and Applied Sciences, Information Technology.')
+@section('meta_keywords', 'Diverse Choices')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Organogram and Planning : The Assam Royal Global University')
+@section('meta_description', 'Navigate the organizational structure and hierarchy of Royal Global University with our comprehensive organogram.')
+@section('meta_keywords', 'Organogram and Planning')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

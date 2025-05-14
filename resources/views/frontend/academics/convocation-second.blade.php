@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', ' 2nd Convocation : The Assam Royal Global University')
+@section('meta_description', 'The second convocation of RGU was held on 11th November 2022 where 951 graduates have been conferred their Degrees from the following batches:')
+@section('meta_keywords', ' 2nd Convocation')
 @section('content')
     <div class="mobile" >
         @include('frontend/components/mobileheader')

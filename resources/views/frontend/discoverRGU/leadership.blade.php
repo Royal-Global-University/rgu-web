@@ -1,5 +1,7 @@
 @extends('frontend.master')
-
+@section('title', 'leadership Team : The Assam Royal Global University')
+@section('meta_description', 'Meet the visionary leadership team driving excellence at Royal Global University. Comprised of seasoned professionals and industry experts, our leadership team is dedicated to fostering innovation, academic excellence, and holistic development.')
+@section('meta_keywords', 'leadership team')
 @section('content')
         <div id="page" class="site site_wrapper">
 

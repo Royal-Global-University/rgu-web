@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Internal Complaint : The Assam Royal Global University')
+@section('meta_description', 'Trust in the integrity and accountability of Royal Global University Internal Complaint Cell.')
+@section('meta_keywords', 'Internal Complaint')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
@@ -76,21 +79,21 @@
                                 <td>Ms. Dipika T. Agarwal, Deputy Registrar (HR & RC)</td>
                                 <td>Two non-teaching employees</td>
                                 <td>Member-Secretary</td>
-                                
+
                             </tr>
                             <tr>
                                 <td>6</td>
                                 <td>Dr. Jwmwishree Boro, Assistant Professor, Psychology</td>
                                 <td>Extra Member</td>
                                 <td>Member</td>
-                                
+
                             </tr>
                             <tr>
                                 <td>7</td>
                                 <td>Prof. (Dr.) Soumitra Sen, Dean, RSTTM & RSHM</td>
                                 <td>Extra Member</td>
                                 <td>Member</td>
-                                
+
                             </tr>
                         </tbody>
                     </table>

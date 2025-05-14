@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'How to Apply : The Assam Royal Global University')
+@section('meta_description', 'Admission to Royal Global University is highly competitive. You need to meet both admissions & subject requirements before we make an unconditional offer of admission.')
+@section('meta_keywords', 'How to Apply')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

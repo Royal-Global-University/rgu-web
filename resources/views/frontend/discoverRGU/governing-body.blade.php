@@ -22,6 +22,9 @@
     }
         </style>
 @endpush
+@section('title', 'Governing Body : The Assam Royal Global University')
+@section('meta_description', 'Discover the pinnacle of academic governance at Royal Global University. As the leading governing body, we ensure excellence in education, integrity in operations, and a commitment to nurturing future leaders.')
+@section('meta_keywords', 'Governing Body')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

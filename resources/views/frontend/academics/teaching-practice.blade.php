@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Teaching Practices : The Assam Royal Global University')
+@section('meta_description', 'The Assam Royal Global University is upgrading its undergraduate programmes in the line of NEP, 2020. ')
+@section('meta_keywords', 'Teaching Practices')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

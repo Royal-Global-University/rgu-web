@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Awards : The Assam Royal Global University')
+@section('meta_description', 'Discover excellence recognized at Royal Global University through our prestigious awards program.')
+@section('meta_keywords', 'Awards')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

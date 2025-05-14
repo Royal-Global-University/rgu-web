@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Preface: The Assam Royal Global University')
+@section('meta_description', 'Learn about the vision, mission, and foundational philosophy of Royal Global University. Discover how RGU empowers students through holistic, future-ready education.')
+@section('meta_keywords', 'Preface')
 @section('content')
     <div id="page" class="site site_wrapper">
 

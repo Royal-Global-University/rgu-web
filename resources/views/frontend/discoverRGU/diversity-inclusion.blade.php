@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Diversity and inclusion : The Assam Royal Global University')
+@section('meta_description', 'More than 7000 people call RGU their home. One would find a vast diversity of students at Royal Global University. Students from different parts of the country come to study at Royal Global University.')
+@section('meta_keywords', 'Diversity and inclusion')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

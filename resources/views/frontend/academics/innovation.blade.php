@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Innovations : The Assam Royal Global University')
+@section('meta_description', 'Ministry of Education (MoE), Govt. of India established Institution’s Innovation Council in the year 2018. Different educational institutions in the country are part of this initiative.')
+@section('meta_keywords', 'Innovations')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

@@ -1,5 +1,7 @@
 @extends('frontend.master')
-
+@section('title', 'Vision Mission : The Assam Royal Global University')
+@section('meta_description', 'To achieve academic excellence through innovatively designed, research intensive, industry-oriented education')
+@section('meta_keywords', 'Vision Mission')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

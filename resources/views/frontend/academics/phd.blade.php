@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Doctoral Programme : The Assam Royal Global University')
+@section('meta_description', 'Explore the Doctoral Programme at Royal Global University, offering advanced research opportunities, expert faculty guidance, and a supportive academic environment to help you achieve your academic and professional goals.')
+@section('meta_keywords', 'Doctoral Programme')
 @section('content')
 
     <div class="mobile">

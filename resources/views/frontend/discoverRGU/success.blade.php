@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Sucess Stories : The Assam Royal Global University')
+@section('meta_description', 'Explore inspiring success stories from Royal Global University, where students, alumni, and faculty share their journeys of achievement, innovation, and personal growth.')
+@section('meta_keywords', 'Sucess Stories')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

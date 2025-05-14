@@ -22,6 +22,9 @@
     }
         </style>
 @endpush
+@section('title', 'Facilities : The Assam Royal Global University')
+@section('meta_description', 'Explore world-class facilities at Royal Global University, including modern classrooms, advanced laboratories, sports complexes, libraries, and student-friendly campus amenities.')
+@section('meta_keywords', 'Facilities')
 @section('content')
     <div class="mobile" >
         @include('frontend/components/mobileheader')

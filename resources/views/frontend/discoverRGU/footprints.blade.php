@@ -1,5 +1,7 @@
 @extends('frontend.master')
-
+@section('title', 'Royal Frootprints : The Assam Royal Global University')
+@section('meta_description', 'Follow the royal footprints of success with Royal Global University Royal Footprints.')
+@section('meta_keywords', 'Royal Frootprints')
 @section('content')
     <div class="mobile">
         <!-- Mobile Start Header-->

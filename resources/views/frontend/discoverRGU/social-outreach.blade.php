@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Social Outreach : The Assam Royal Global University')
+@section('meta_description', 'Learn how Royal Global University engages in impactful social outreach initiatives, fostering community development, sustainability, and inclusive growth through education and service')
+@section('meta_keywords', 'Social Outreach')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

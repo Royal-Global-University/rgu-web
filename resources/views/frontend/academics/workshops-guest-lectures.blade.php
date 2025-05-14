@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Guest Lecture : The Assam Royal Global University')
+@section('meta_description', 'Experience insightful perspectives and enrich your learning journey with Royal Global University guest lecture series.')
+@section('meta_keywords', 'Guest Lecture')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

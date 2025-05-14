@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Top Recruiters : The Assam Royal Global University')
+@section('meta_description', 'On a very positive note, there has been a steady increase in the number of companies recruiting Royalites every year.')
+@section('meta_keywords', 'Top Recruiters')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

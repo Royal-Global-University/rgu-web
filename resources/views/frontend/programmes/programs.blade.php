@@ -1,6 +1,8 @@
 @extends('frontend.master')
+@section('title', 'Eligibility & selection criteria : The Assam Royal Global University')
+@section('meta_description', 'Discover the eligibility requirements and selection criteria for various programs at Royal Global University, including academic qualifications, entrance exams, and interview processes for admission.')
+@section('meta_keywords', 'Eligibility & selection criteria')
 @section('content')
-
     <div>
         <!--About Section-->
         @include('frontend/components/aheader')

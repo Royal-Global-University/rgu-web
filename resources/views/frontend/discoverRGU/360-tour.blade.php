@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', '360o Virtual Tour : The Assam Royal Global University')
+@section('meta_description', 'Take a 360° virtual tour of Royal Global University and experience our vibrant campus, modern infrastructure, and state-of-the-art facilities from the comfort of your home.')
+@section('meta_keywords', '360o Virtual Tour')
 @section('content')
 <div id="page" class="site site_wrapper">
 

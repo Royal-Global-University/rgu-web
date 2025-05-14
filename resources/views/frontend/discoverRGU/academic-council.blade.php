@@ -24,6 +24,9 @@
         }
     </style>
 @endpush
+@section('title', 'Academic Council : The Assam Royal Global University')
+@section('meta_description', 'Experience academic excellence shaped by the guidance of our esteemed Academic Council at Royal Global University.')
+@section('meta_keywords', 'Academic Council')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

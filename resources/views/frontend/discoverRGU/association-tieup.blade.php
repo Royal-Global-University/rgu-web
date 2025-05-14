@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Associations and Tie Ups : The Assam Royal Global University')
+@section('meta_description', 'Discover Royal Global University national and international associations and tie-ups that enhance academic collaboration, research opportunities, and global exposure for students and faculty.')
+@section('meta_keywords', 'Associations and Tie Ups')
 @section('content')
         <div class="mobile">
             @include('frontend/components/mobileheader')

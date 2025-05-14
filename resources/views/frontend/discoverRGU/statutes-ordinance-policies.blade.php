@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Statutes, Ordinance and Policies : The Assam Royal Global University')
+@section('meta_description', 'Discover the comprehensive statutes, ordinances, and institutional policies of Royal Global University that guide governance, academic standards, and administrative procedures.')
+@section('meta_keywords', 'Statutes, Ordinance and Policies')
 @section('content')
     <div class="mobile" style="background-color: #fff8f0F7" >
         @include('frontend/components/mobileheader')

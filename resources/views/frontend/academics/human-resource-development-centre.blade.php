@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Royal Centre for Human Resource Development (RCHRD) : The Assam Royal Global University')
+@section('meta_description', 'The Royal Centre for Human Resource Development (RCHRD) at Royal Global University offers cutting-edge training, research, and development programs to enhance HR practices and empower professionals in the field.')
+@section('meta_keywords', 'Royal Centre for Human Resource Development (RCHRD)')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

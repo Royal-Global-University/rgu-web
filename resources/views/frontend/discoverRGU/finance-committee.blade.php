@@ -24,6 +24,9 @@
         }
     </style>
 @endpush
+@section('title', 'Finance Committee : The Assam Royal Global University')
+@section('meta_description', 'Discover fiscal prudence and strategic financial management led by the Finance Committee at Royal Global University.')
+@section('meta_keywords', 'Finance Committee')
 @section('content')
         <div class="mobile">
             @include('frontend/components/mobileheader')

@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', ' 3rd Convocation : The Assam Royal Global University')
+@section('meta_description', 'The third convocation of The Assam Royal Global University was held on 30th October, 2023 where 1197 graduates have been conferred their Degrees from the following batches:')
+@section('meta_keywords', ' 3rd Convocation')
 @section('content')
        <div class="mobile" >
         @include('frontend/components/mobileheader')

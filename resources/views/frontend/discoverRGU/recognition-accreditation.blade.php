@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Recognition and Accreditation : The Assam Royal Global University')
+@section('meta_description', 'Royal Global University is recognized and accredited by leading regulatory bodies, ensuring quality education, academic excellence, and global standards across all programs.')
+@section('meta_keywords', 'Recognition and Accreditation')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
