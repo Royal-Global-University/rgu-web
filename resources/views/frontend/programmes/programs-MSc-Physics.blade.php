@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'MSc Physics at Royal Global University | Advanced Physics Course in Assam')
+@section('meta_description', 'Pursue M.Sc in Physics at Royal Global University with advanced labs, expert faculty, and research-driven learning for a successful science career.')
+@section('meta_keywords', 'msc physics courses')
 @section('content')
 <div class="mobile">
 @include('frontend/components/mobileheader')
@@ -14,11 +17,11 @@
         <!-- YouTube-Style Fixed Tabs Start -->
 <div class="container mt-4" style="max-width: 900px;">
 
-<ul class="nav nav-tabs justify-content-center border-0 shadow-sm" id="infoTabs" role="tablist" 
+<ul class="nav nav-tabs justify-content-center border-0 shadow-sm" id="infoTabs" role="tablist"
     style="display: flex; gap: 10px; padding: 10px; background: #ffffff; border-radius: 8px;">
     <li class="nav-item" role="presentation">
-        <button class="nav-link active border" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" 
-            aria-controls="tab1" aria-selected="true" 
+        <button class="nav-link active border" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab"
+            aria-controls="tab1" aria-selected="true"
             style="font-size: 16px; font-weight: 500; color: white; padding: 10px 18px; border: none; background: #27467A; border-radius: 6px; transition: all 0.3s ease-in-out;">
             Fee
         </button>
@@ -51,7 +54,7 @@
             How to Apply
         </button>
     </li>
-  
+
 </ul>
 
 <div style="padding: 20px 0px 0px 0px;">
@@ -74,7 +77,7 @@
             <li>Yearly Payment (Rs. - 85000.00)</li>
             <li>Semester Payment (Rs. - 43500.00)</li>
         </ol>
-        
+
     </div>
     <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
         <p class="mobile-headd3 fw-bold text-dark">Eligibility Criteria
@@ -93,7 +96,7 @@
 
     </div>
     <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-        
+
     <div class="text-center">
         <img class="mb-3 rounded shadow-sm" style="width: 200px;" src="assets/img/File/brochurethumb.png" alt="">
 
@@ -101,7 +104,7 @@
             <i class="fa fa-download"></i> Download Brochure
         </a>
     </div>
-        
+
     </div>
     <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
         <p class="mobile-headd3 fw-bold text-dark">Scholarships
@@ -160,7 +163,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.4);
     padding: 15px;">
-    
+
     <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
         <span class="mobile-para1" style="
             font-weight: bold; font-size: 16px; line-height: 1.3;
@@ -272,7 +275,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <img class="rounded shadow" src="assets/img/File/brochurethumb.png">
                         <p class="text-dark pt-2 fw-bold m-0"><a
                                 href="mobile-assets/Domestic/B.Sc-Physics.pdf">Brochure 2025-26<i class="fas fa-download ms-2"></i></a>
-                                
+
                         </p>
                     </div>
                 </div>

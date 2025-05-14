@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Study B.Sc Biochemistry at Royal Global University, Assam')
+@section('meta_description', 'Pursue B.Sc Biochemistry at Royal Global University—gain a solid foundation in molecular science with practical lab experience and expert guidance.')
+@section('meta_keywords', 'B.Sc Biochemistry')
 @section('content')
     <div id="page" class="site site_wrapper">
 

@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'M.Sc Biotechnology at The Assam Royal Global University')
+@section('meta_description', 'Advance your career with an M.Sc in Biotechnology at Royal Global University—cutting-edge labs, expert faculty, and research-driven learning.')
+@section('meta_keywords', ' M.SC Biotechnology')
 @section('content')
     <div id="page" class="site site_wrapper">
 
