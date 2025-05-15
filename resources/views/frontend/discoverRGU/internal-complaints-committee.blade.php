@@ -6,9 +6,7 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 80px; position: relative;">
-            <a target="_blank"
-                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/internal-cc/Gender-Sentization-Cell.pdf"> <img
-                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/internal-cc/web-icc.png" /></a>
+          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/internal-cc/ICC.jpg" />
 
             <div
                 style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/internal-cc/bg.svg); background-size: cover; padding: 20px 0px;">
@@ -136,7 +134,7 @@
                      Internal Complaints <span style="color: #FF9A1E; font-weight: 500;">Committee</span></h2>
 
                  <div>
-                    <a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/internal-cc/Gender-Sentization-Cell.pdf"><img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/internal-cc/web-1.png" /></a>
+                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/internal-cc/ICC.jpg" />
 
                  </div>
 
