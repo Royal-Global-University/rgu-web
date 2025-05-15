@@ -1198,7 +1198,9 @@
 
                                             <div class="col-lg-3 pb-4">
 
-
+                                                <a href="grievance">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Students' Grievance</p>
+                                                </a>
                                                 <a href="notifications">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Annoucement</p>
                                                 </a>
