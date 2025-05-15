@@ -222,7 +222,7 @@
       <div class="row" style="display: flex; align-items: center; justify-content: center;">
         <div class="col-lg-3 mb-4">
 
-                <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                     <div class="p-3">
                       <img style="height: 290px; width: 100%;" src="mobile-assets/governing-body/1.png" class="img-fluid rounded"/>
                     </div>

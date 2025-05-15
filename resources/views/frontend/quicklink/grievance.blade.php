@@ -12,7 +12,7 @@
                         <div class="txaa-slide-down-1">
                             <div style="border: 1px solid #27467A; height: 320px; width: 100%;" class="kd-about-3-img img-cover fix kd-img-ani-1">
                                 <img class="rounded" decoding="async"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/student-grievance/headimg.png"
+                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/student-grievance/stu-head.png"
                                    alt="">
                             </div>
                         </div>
@@ -165,7 +165,7 @@
                         <div class="kd-about-3-img-wrap txaa-slide-down-1">
                             <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
                                 <img class="rounded" decoding="async"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/student-grievance/headimg.png"
+                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/student-grievance/stu-head.png"
                                     alt="">
                             </div>
                         </div>
