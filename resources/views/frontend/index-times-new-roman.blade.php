@@ -131,10 +131,10 @@
                                <div class="row" style="display: flex; align-items: center; justify-content: center; padding: 20px 10px;">
 
                                    <div class="col-lg-9">
-                                       <h2 style="color: #fff; font-size: 28px;" class="headd3 fw-bold">
+                                       <h2 style="color: #fff; font-size: 26px;" class="headd3 fw-bold">
                                            Applications are now open for Admission in 2025 - 2026
                                        </h2>
-                                       <p class="para1 text-white" style="font-size: 22px">
+                                       <p class="para1 text-white" style="font-size: 19px">
                                            Explore the full range of graduate courses that are accepting applications
                                        </p>
                                    </div>
