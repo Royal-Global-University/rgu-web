@@ -131,7 +131,7 @@
                                <div class="row" style="display: flex; align-items: center; justify-content: center; padding: 20px 10px;">
 
                                    <div class="col-lg-9">
-                                       <h2 style="color: #fff; font-size: 27px;" class="headd3 fw-bold">
+                                       <h2 style="color: #fff; font-size: 28px;" class="headd3 fw-bold">
                                            Applications are now open for Admission in 2025 - 2026
                                        </h2>
                                        <p class="para1 text-white" style="font-size: 22px">
@@ -260,9 +260,12 @@
                        News and<span style="color: #FF9A1E; font-weight: 500;"> Events</span></h2>
 
                    <div id="slides" style="display: flex; transition: transform 0.5s ease;">
-                     <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-01.jpeg" style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                     <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg" style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                     <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-2.jpeg" style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/prabuddha-web-may.jpeg"
+                    style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/subram-web.jpeg"
+                    style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg"
+                    style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                    </div>
                  </div>
 
