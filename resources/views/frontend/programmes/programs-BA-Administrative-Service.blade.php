@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Best B.A Administrative Service Course in Assam | Royal Global University')
+@section('meta_description', 'Royal Global University’s B.A Administrative Service program offers practical training and theoretical knowledge essential for a rewarding career in public administration.')
+@section('meta_keywords', 'B.A administrative service')
 @section('content')
     <div id="page" class="site site_wrapper">
 

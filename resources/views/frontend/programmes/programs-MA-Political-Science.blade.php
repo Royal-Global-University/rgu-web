@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Top M.A Political Science Course at Royal Global University – New & Best in Assam')
+@section('meta_description', 'Royal Global University offers the best M.A Political Science program with a focus on research, policy analysis, and leadership development for a successful career.')
+@section('meta_keywords', 'M.A Political Science')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
