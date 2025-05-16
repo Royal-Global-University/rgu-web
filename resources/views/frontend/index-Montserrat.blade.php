@@ -141,7 +141,7 @@
                                <div class="row" style="display: flex; align-items: center; justify-content: center; padding: 20px 10px;">
 
                                    <div class="col-lg-9">
-                                       <h2 style="color: #fff; font-size: 26px;" class="headd3 fw-bold">
+                                       <h2 style="color: #fff; font-size: 24px;" class="headd3 fw-bold">
                                            Applications are now open for Admission in 2025 - 2026
                                        </h2>
                                        <p class="para1 text-white">
