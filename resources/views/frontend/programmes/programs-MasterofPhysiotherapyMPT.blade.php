@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Advance Your Career with Master of Physiotherapy at Royal Global University')
+@section('meta_description', 'Advance your expertise in physiotherapy with Royal Global University’s Master of Physiotherapy, combining hands-on training and academic excellence.')
+@section('meta_keywords', 'Master of Physiotherapy')
 @section('content')
     <div id="page" class="site site_wrapper">
 
