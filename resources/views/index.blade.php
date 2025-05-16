@@ -87,7 +87,7 @@
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-mob-03.jpeg" class="d-block w-100 rounded"
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded"
                             alt="...">
                     </div>
                 </div>
@@ -746,10 +746,13 @@
                                     News and<span style="color: #FF9A1E; font-weight: 500;"> Events</span></h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.5s ease;">
+                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/prabuddha-web-may.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/subram-web.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                        <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-03.jpeg"
-                                            style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+
 
                                 </div>
                             </div>

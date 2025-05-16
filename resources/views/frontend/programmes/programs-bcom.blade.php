@@ -1,25 +1,28 @@
 @extends('frontend.master')
+@section('title', 'Top B Com Course in Assam : The Assam Royal Global University')
+@section('meta_description', 'Join the top B Com course in Assam at Royal Global University. Get quality education, expert faculty, and great career opportunities.')
+@section('meta_keywords', 'Top B Com Course in Assam')
 @section('content')
 <div class="mobile">
 @include('frontend/components/mobileheader')
 <div style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp); padding-top: 90px; position: relative;">
- 
+
 
     <h2 class="mobile-headd2 kd-title-ani kd-split pb-1 pt-3 text-center" style="color: #264273; font-weight: 700;">B.Com. (Day Shift)
     </h2>
 
-    <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 3/4 Yrs as per NEP <br> Royal School of Commerce (RSC) 
+    <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 3/4 Yrs as per NEP <br> Royal School of Commerce (RSC)
     </p>
 
 
             <!-- YouTube-Style Fixed Tabs Start -->
 <div class="container mt-4" style="max-width: 900px;">
-    
-    <ul class="nav nav-tabs justify-content-center border-0 shadow-sm" id="infoTabs" role="tablist" 
+
+    <ul class="nav nav-tabs justify-content-center border-0 shadow-sm" id="infoTabs" role="tablist"
         style="display: flex; gap: 10px; padding: 10px; background: #ffffff; border-radius: 8px;">
         <li class="nav-item" role="presentation">
-            <button class="nav-link active border" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" 
-                aria-controls="tab1" aria-selected="true" 
+            <button class="nav-link active border" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab"
+                aria-controls="tab1" aria-selected="true"
                 style="font-size: 16px; font-weight: 500; color: white; padding: 10px 18px; border: none; background: #27467A; border-radius: 6px; transition: all 0.3s ease-in-out;">
                 Fee
             </button>
@@ -52,7 +55,7 @@
                 How to Apply
             </button>
         </li>
-      
+
     </ul>
 
     <div style="padding: 20px 0px 0px 0px;">
@@ -75,7 +78,7 @@
                 <li>Yearly Payment (Rs. - 143000.00)</li>
                 <li>Semester Payment (Rs. - 73000.00)</li>
             </ol>
-            
+
         </div>
         <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
             <p class="mobile-headd3 fw-bold text-dark">Eligibility Criteria
@@ -92,7 +95,7 @@
 
         </div>
         <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-            
+
         <div class="text-center">
             <img class="mb-3 rounded shadow-sm" style="width: 200px;" src="assets/img/File/brochurethumb.png" alt="">
 
@@ -100,7 +103,7 @@
                 <i class="fa fa-download"></i> Download Brochure
             </a>
         </div>
-            
+
         </div>
         <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
             <p class="mobile-headd3 fw-bold text-dark">Scholarships
@@ -159,7 +162,7 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
         border: 1px solid rgba(255, 255, 255, 0.4);
         padding: 15px;">
-        
+
         <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
             <span class="mobile-para1" style="
                 font-weight: bold; font-size: 16px; line-height: 1.3;
