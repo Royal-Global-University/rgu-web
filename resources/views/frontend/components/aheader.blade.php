@@ -13,14 +13,17 @@
                         <li class="nav-item dropdown" style="position: relative;">
                             <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 18px;">Discover RGU</a>
 
-                            <ul class="dropdown-menu p-3" style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 800px; overflow: hidden; border-top: 3px solid #e68900;">
+                            <ul class="dropdown-menu p-3" style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 800px; border-top: 3px solid #e68900;">
                                 <div class="row" style="display: flex;">
                                     <div class="col-lg-4 p-2">
                                         <h2 class="para1 fw-bold text-center" style="color: #e68900;">ABOUT US</h2>
                                         <hr>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('preface') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">PREFACE</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('leadership') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">LEADERSHIP TEAM</a></li>
-                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('officers') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">OFFICERS</a></li>
+                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('advisory-leadership') }}"
+                                                style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ADVISORY
+                                                LEADERSHIP</a>
+                                        </li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('vision-mission') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">VISION AND MISSION</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('statutes-ordinance-policies') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">STATUTES, ORDINANCE <br> AND POLICIES</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('facilities') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">FACILITIES</a></li>
@@ -46,9 +49,21 @@
                                     <div class="col-lg-4 p-2">
                                         <h2 class="para1 fw-bold text-center" style="color: #e68900;">STATUTORY BODIES</h2>
                                         <hr>
-                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('governing-body') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">GOVERNING BODY</a></li>
-                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('board-of-management') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">BOARD OF MANAGEMENT</a></li>
-                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('academic-council') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ACADEMIC COUNCIL</a></li>
+                                        <li class="dropdown-submenu" style="position: relative;">
+                                            <a class="dropdown-item text-dark dropdown-toggle para1" href="#"
+                                                style="font-size: 16px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">STATUTORY AUTHORITIES</a>
+                                            <ul class="dropdown-menu"
+                                                style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
+                                                <li><a class="dropdown-item text-dark   para1" href="{{ route('governing-body') }}"
+                                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">GOVERNING BODY</a></li>
+                                                <li><a class="dropdown-item text-dark   para1" href="{{ route('board-of-management') }}"
+                                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">BOARD OF MANAGEMENT</a></li>
+                                                <li><a class="dropdown-item text-dark   para1" href="{{ route('academic-council') }}"
+                                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">ACADEMIC COUNCIL</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('finance-committee') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">FINANCE COMMITTEE</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('internal-complaints-committee') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">INTERNAL COMPLAINTS <br> COMMITTEE</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('anti-ragging') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ANTI RAGGING <br> COMMITTEE</a></li>

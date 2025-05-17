@@ -453,10 +453,10 @@
                                 <div class="kd-about-4-left ">
                                     <div class="mb-5 fix img-cover">
                                         <img decoding="async" class="rounded" style="height: 400px !important;"
-                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobileadvpic.png" alt="">
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/rgu-building-square.png" alt="">
                                     </div>
                                     <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
-                                        <img decoding="async" style="height: 600px !important;"
+                                        <img decoding="async" class="rounded" style="height: 600px !important;"
                                             src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobileyellow.png" alt="">
                                     </div>
                                 </div>
@@ -2185,8 +2185,8 @@
                                     <div class="elementor-widget-container">
                                         <div class="kd-about-4-left ">
                                             <div class="mb-5 fix img-cover">
-                                                <img decoding="async" style="height: 600px !important;"
-                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobileadvpic.png" alt="">
+                                                <img decoding="async" class="rounded" style="height: 600px !important;"
+                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/rgu-building-square.png" alt="">
                                             </div>
                                             <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
                                                 <img decoding="async" style="height: 600px !important;"

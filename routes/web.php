@@ -68,9 +68,13 @@ Route::get('/leadership', function () {
     return view('frontend/discoverRGU/leadership');
 })->name('leadership');
 
-Route::get('/leadership-ankur-pansari', function () {
-    return view('frontend/discoverRGU/leadership-ankur-pansari');
-})->name('leadership-ankur-pansari');
+Route::get('/advisory-leadership', function () {
+    return view('frontend/discoverRGU/advisory-leadership');
+})->name('advisory-leadership');
+
+Route::get('/advisory-prof-prabuddha-ganguli', function () {
+    return view('frontend/discoverRGU/advisory-prof-prabuddha-ganguli');
+})->name('advisory-prof-prabuddha-ganguli');
 
 Route::get('/leadership-anil-kumar', function () {
     return view('frontend/discoverRGU/leadership-anil-kumar');

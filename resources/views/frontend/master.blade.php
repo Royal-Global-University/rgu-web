@@ -223,22 +223,22 @@
         }
 
         .headd1 {
-            font-family: 'Host Grotesk', sans-serif;
+            font-family: 'Montserrat', sans-serif !important;
             font-size: 45px;
         }
 
         .headd2 {
-            font-family: 'Host Grotesk', sans-serif;
+            font-family: 'Montserrat', sans-serif !important;
             font-size: 35px;
         }
 
         .para1 {
-            font-family: 'Host Grotesk', sans-serif;
+            font-family: 'Montserrat', sans-serif !important;
             font-size: 18px;
         }
 
         .headd3 {
-            font-family: 'Host Grotesk', sans-serif;
+            font-family: 'Montserrat', sans-serif !important;
             font-size: 22px;
         }
 
@@ -357,7 +357,7 @@
         .accordion-button {
             background-color: #13223b;
             color: white;
-            font-family: 'Host Grotesk', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-size: 20px;
         }
 
@@ -370,7 +370,7 @@
         }
 
         .accordion-button:hover {
-            font-family: 'Host Grotesk', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-size: 20px;
         }
 
@@ -381,35 +381,35 @@
 
         .accordion-item {
             background-color: #fafeff;
-            font-family: 'Host Grotesk', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-size: 18px;
         }
     </style>
 
     <style>
         .mobile-headd1 {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Montserrat', sans-serif !important;
             font-size: 2.3rem;
             /* 32px */
             font-weight: 700;
         }
 
         .mobile-headd2 {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Montserrat', sans-serif !important;
             font-size: 1.6rem;
             /* 24px */
             font-weight: 600;
         }
 
         .mobile-headd3 {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Montserrat', sans-serif !important;
             font-size: 1.25rem;
             /* 20px */
             font-weight: 500;
         }
 
         .mobile-para1 {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Montserrat', sans-serif !important;
             font-size: 1.1rem;
             /* 16px */
             font-weight: 400;
@@ -417,7 +417,7 @@
         }
 
         .mobile-caption {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Montserrat', sans-serif !important;
             font-size: 0.875rem;
             /* 14px */
             font-weight: 400;
@@ -1184,32 +1184,35 @@
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Women Helpline No.
                                                     </p>
                                                 </a>
-                                                <a href="https://rgu.renocampus.com/">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online</p>
-                                                </a>
-                                                <a href="social-outreach">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Social Outreach</p>
-                                                </a>
                                                 <a href="internal-complaints-committee">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Internal Complaints Committee</p>
                                                 </a>
+                                                <a href="grievance">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Students' Grievance</p>
+                                                </a>
+                                                <a href="https://rgu.renocampus.com/">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online</p>
+                                                </a>
+
+
 
                                             </div>
 
                                             <div class="col-lg-3 pb-4">
 
-                                                <a href="grievance">
-                                                    <p class="m-0 text-white" style="font-size: 18px;">Students' Grievance</p>
-                                                </a>
+
                                                 <a href="notifications">
-                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Annoucement</p>
+                                                    <p class="m-0 text-white" style="font-size: 18px;">Annoucement</p>
+                                                </a>
+                                                <a href="social-outreach">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Social Outreach</p>
                                                 </a>
                                                 <a href="examinations">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Examination</p>
                                                 </a>
-                                                <a href="jobs-vacancies">
+                                                {{-- <a href="jobs-vacancies">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs & Vacancies</p>
-                                                </a>
+                                                </a> --}}
                                                 <a href="iqac-overview">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
                                                 </a>

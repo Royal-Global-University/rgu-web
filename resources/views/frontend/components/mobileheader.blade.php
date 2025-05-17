@@ -36,8 +36,9 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('leadership') }}">
                     <li>LEADERSHIP TEAM</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="{{ route('officers') }}">
-                    <li>OFFICERS</li>
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('advisory-leadership') }}">
+                    <li>ADVISORY
+                    LEADERSHIP</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('vision-mission') }}">
                     <li>VISION AND MISSION</li>
@@ -88,15 +89,19 @@
 
                 <h2 class="mobile-headd3 pt-3 fw-bold" style="color: #e68900;">STATUTORY BODIES</h2>
 
-                <a class="mobile-para1" style="color: #27467A;" href="{{ route('governing-body') }}">
-                    <li>GOVERNING BODY</li>
-                </a>
-                <a class="mobile-para1" style="color: #27467A;" href="{{ route('board-of-management') }}">
-                    <li>BOARD OF MANAGEMENT</li>
-                </a>
-                <a class="mobile-para1" style="color: #27467A;" href="{{ route('academic-council') }}">
-                    <li>ACADEMIC COUNCIL</li>
-                </a>
+                <li onclick="toggleSubmenu('authorities')"
+                    style="cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
+                    <h2 class="mobile-para1" style="color: #27467A;">STATUTORY AUTHORITIES</h2>
+                    <i class="fas fa-chevron-down"></i>
+                </li>
+                <ul class="submenu mobile-para1" id="authorities" style="padding-left: 20px;">
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('governing-body') }}">GOVERNING BODY</a>
+                    </li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('board-of-management') }}">BOARD OF MANAGEMENT</a>
+                    </li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('academic-council') }}">ACADEMIC COUNCIL</a>
+                    </li>
+                </ul>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('finance-committee') }}">
                     <li>FINANCE COMMITTEE</li>
                 </a>
