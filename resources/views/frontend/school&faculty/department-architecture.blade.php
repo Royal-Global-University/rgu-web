@@ -842,17 +842,14 @@
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="assets/Departmentalpdf/AY 2023-24 B.ARCH.pdf" target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> AY 2023-24 B.ARCH.pdf
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-                                                    <a href="assets/Departmentalpdf/AY 2022-23 B.ARCH.pdf" target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> AY 2022-23 B.ARCH.pdf
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-                                                    <a href="assets/Departmentalpdf/Old Syllabus B.ARCH.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/2_RSA/B.ARCH. _Course Structure &  Detailed Syllabus _2025 Batch.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> Old Syllabus B.ARCH.pdf
+                                                        <i class="fa fa-file-text px-2"></i> SYLLABUS & COURSE STRUCTURE 2025
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+                                                    <a href="mobile-assets/department-all/syllabus-new/2_RSA/Structure of syllabus - UG B.Arch 2025.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 5 YEAR UG PROGRAMME
                                                         <i class="fa fa-download"></i>
                                                     </a>
                                                 </div>
