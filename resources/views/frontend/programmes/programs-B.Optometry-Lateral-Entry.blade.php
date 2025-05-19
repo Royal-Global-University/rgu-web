@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Top B.Optometry Course in Assam at Royal Global University')
+@section('meta_description', 'Royal Global University offers the top B.Optometry course in Assam, blending theoretical knowledge and practical experience to shape future eye care professionals.')
+@section('meta_keywords', 'b optomery')
 @section('content')
     <div id="page" class="site site_wrapper">
 

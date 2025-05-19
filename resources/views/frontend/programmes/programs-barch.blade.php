@@ -90,7 +90,7 @@
         <p class="mobile-headd3 fw-bold text-dark">Selection Process
         </p>
 
-        <p class="mobile-para1 text-dark">Candidates must obtain a valid score in NATA (National Aptitude Test in Architecture) or JEE (Mains) Paper II (Subject to clearance by COA) followed by Personal Interview.
+        <p class="mobile-para1 text-dark">Candidates must obtain a valid score in JEE (Mains) Paper II (Subject to clearance by COA) followed by Personal Interview.
         </p>
 
     </div>
@@ -269,7 +269,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
                         <p class="text-dark pt-2 m-0">
-                            Candidates must obtain a valid score in NATA (National Aptitude Test in Architecture) or JEE (Mains) Paper II (Subject to clearance by COA) followed by Personal Interview.
+                            Candidates must obtain a valid score in JEE (Mains) Paper II (Subject to clearance by COA) followed by Personal Interview.
                         </p>
                     </div>
                 </div>

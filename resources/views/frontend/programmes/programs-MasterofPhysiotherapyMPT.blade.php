@@ -80,8 +80,7 @@
 
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
-                        <p class="text-dark pt-2 m-0">Candidates must obtain a valid score in NATA (National Aptitude
-                            Test in Architecture) or JEE (Mains) Paper II (Subject to clearance by COA) followed by
+                        <p class="text-dark pt-2 m-0">Candidates must obtain a valid score in JEE (Mains) Paper II (Subject to clearance by COA) followed by
                             Personal Interview.</p>
                     </div>
                 </div>
