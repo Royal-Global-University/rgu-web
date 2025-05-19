@@ -156,7 +156,7 @@ Management.')
 
                     <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                         <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/8.png" class="img-fluid rounded"/>
+                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/Angira.jpeg" class="img-fluid rounded"/>
                         </div>
                         <div class="card-body d-flex flex-column flex-grow-1">
                           <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Angira Mimani
@@ -172,7 +172,7 @@ Management.')
 
                     <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                         <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/8.png" class="img-fluid rounded"/>
+                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/samip.jpeg" class="img-fluid rounded"/>
                         </div>
                         <div class="card-body d-flex flex-column flex-grow-1">
                           <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof (Dr) Samip Baruah
@@ -368,7 +368,7 @@ Management.')
 
                         <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
-                              <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/8.png" class="img-fluid rounded"/>
+                              <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/Angira.jpeg" class="img-fluid rounded"/>
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                               <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Angira Mimani
@@ -384,7 +384,7 @@ Management.')
 
                         <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
-                              <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/8.png" class="img-fluid rounded"/>
+                              <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/boardofmanagement/samip.jpeg" class="img-fluid rounded"/>
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                               <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof (Dr) Samip Baruah
