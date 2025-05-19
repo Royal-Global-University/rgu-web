@@ -1,12 +1,11 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/bg.svg); background-size: cover;">
-        <div class="mobile" >
-            @include('frontend/components/mobileheader')
-          <img style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-physics/mob-top.png" alt="">
+    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+        <div class="mobile" style="padding-top: 80px; position: relative;">
+          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-physics/mob-top.png" alt="">
 
           <div class="container">
-    <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+      <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
       Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
       <div class="table-responsive">
@@ -55,33 +54,29 @@
 
           </div>
 
-          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-physics/mob-btm.png" alt="">
+          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-physics/mob-btm.png" alt="">
 
           <div class="container pb-5 pt-3">
 
-            <!-- link buttons mobile  -->
-            <div>
+              <!-- link buttons mobile  -->
+              <div>
                 <div class="container" style="background-color: #fff; padding: 80px 10px;">
 
-                    <h2 class="headd3 fw-bold text-center pb-5" style="color: #27467A; font-weight: 900;">
-                        Quick <span style="color: #FF9A1E; font-weight: 500;">Links</span></h2>
+                  <h2 class="headd3 fw-bold text-center pb-5" style="color: #27467A; font-weight: 900;">
+                    Quick <span style="color: #FF9A1E; font-weight: 500;">Links</span></h2>
 
-                    <div class="row text-center">
-                        <div class="col-lg-12">
-                            <a href="lab-physics" style="width: 100%; background-color: #27467a; color: #fff; height: 50px;"
-                                class="btn para1 fw-bold d-flex justify-content-center align-items-center" href="#"
-                                role="button">Explore Department Lab</a>
-                        </div>
-                        <div class="col-lg-12 pt-4">
-                            <a href="Research_Department_Physics" style="width: 100%; background-color: #FF9A1E; color: #fff; height: 50px;"
-                                class="btn para1 fw-bold d-flex justify-content-center align-items-center" href="#"
-                                role="button">Explore Research Lab</a>
-                        </div>
+                  <div class="row text-center">
+                    <div class="col-lg-12">
+                      <a style="width: 100%; background-color: #27467a; color: #fff; height: 50px;" class="btn para1 fw-bold d-flex justify-content-center align-items-center" href="#" role="button">Explore Department Lab</a>
                     </div>
+                    <div class="col-lg-12 pt-4">
+                      <a style="width: 100%; background-color: #FF9A1E; color: #fff; height: 50px;" class="btn para1 fw-bold d-flex justify-content-center align-items-center" href="#" role="button">Explore Research Lab</a>
+                    </div>
+                  </div>
 
                 </div>
-                </div>
-            <!-- link buttons mobile  -->
+              </div>
+              <!-- link buttons mobile  -->
 
               <div>
                 <div>
@@ -610,7 +605,7 @@
                           >
                             <div class="accordion-body">
                               <a
-                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2022-23 BSc Physics.pdf"
+                                href="mobile-assets/department-all/Departmentalpdf/AY 2022-23 BSc Physics.pdf"
                                 target="_blank"
                               >
                                 <i class="fa fa-file-text px-2"></i> AY 2022-23 BSc Physics.pdf
@@ -619,7 +614,7 @@
                               <br />
 
                               <a
-                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2023-24 BSc Physics.pdf"
+                                href="mobile-assets/department-all/Departmentalpdf/AY 2023-24 BSc Physics.pdf"
                                 target="_blank"
                               >
                                 <i class="fa fa-file-text px-2"></i> AY 2023-24 BSc Physics.pdf
@@ -627,7 +622,7 @@
                               ><br />
 
                               <a
-                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/Old Syllabus B.Sc. Physics.pdf"
+                                href="mobile-assets/department-all/Departmentalpdf/Old Syllabus B.Sc. Physics.pdf"
                                 target="_blank"
                               >
                                 <i class="fa fa-file-text px-2"></i> Old Syllabus B.Sc.
@@ -660,7 +655,7 @@
                           >
                             <div class="accordion-body">
                               <a
-                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2021-22 M.Sc. Physics.pdf"
+                                href="mobile-assets/department-all/Departmentalpdf/AY 2021-22 M.Sc. Physics.pdf"
                                 >AY 2021-22 M.Sc. Physics.pdf<i class="fa fa-download"></i
                               ></a>
                             </div>
@@ -688,7 +683,7 @@
                           >
                             <div class="accordion-body">
                               <a
-                                href="doctoral-physics"
+                                href="doctoral-programme.html"
                                 class="para1"
                                 target="_blank"
                                 >
@@ -705,16 +700,16 @@
                   </div>
                 </div>
               </div>
-            </div>
+          </div>
 
         </div>
 
         <div class="website">
           <!--Start Header-->
-          @include('frontend/components/aheader')
+
           <!--End Header-->
 
-          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-physics/web-top.png" alt="">
+          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-physics/web-top.png" alt="">
 
           <div class="container">
     <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -766,29 +761,29 @@
 
           </div>
 
-          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/dept-physics/web-btm.png" alt="">
+          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-physics/web-btm.png" alt="">
 
           <!--About Section-->
 
             <div class="container pb-5 pt-3">
 
-            <!-- link buttons website  -->
+
+            <!-- link buttons mobile  -->
             <div class="quick-links-container">
                 <div class="quick-links-tooltip">Quick Links</div>
 
-                <div class="quick-links-panel">
-                    <a href="lab-physics" class="quick-link-button d-flex justify-content-center align-items-center">
-                        <p class=" fw-bold text-white mb-0 text-center" style="font-size: 28px">Explore Department Lab</p>
-                    </a>
+              <div class="quick-links-panel">
+              <button class="quick-link-button d-flex justify-content-center align-items-center">
+                <p class="para1 fw-bold text-white mb-0 text-center">Explore Department Lab</p>
+              </button>
 
-                    <a href="Research_Department_Physics" style="background-color: #FF9A1E;"
-                        class="quick-link-button d-flex justify-content-center align-items-center">
-                        <p class=" fw-bold text-white mb-0 text-center" style="font-size: 28px">Explore Research Lab</p>
-                    </a>
-                </div>
+              <button style="background-color: #FF9A1E;" class="quick-link-button d-flex justify-content-center align-items-center">
+                <p class="para1 fw-bold text-white mb-0 text-center">Explore Research Lab</p>
+              </button>
+              </div>
 
             </div>
-            <!-- link buttons website  -->
+            <!-- link buttons mobile  -->
 
               <div>
                 <div>
@@ -796,7 +791,7 @@
                     Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
 
                   <div>
-                    <h3 class="headd3 text-danger fw-bold kd-split-text p-2">YEAR: 2018</h3>
+                    <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">YEAR: 2018</h3>
                     <div class="table-responsive">
                       <table
                         class="overflow-hidden table text-wrap table-bordered border-top mb-2"
@@ -844,7 +839,7 @@
                       </table>
                     </div>
 
-                    <h3 class="headd3 text-danger fw-bold kd-split-text">YEAR: 2019</h3>
+                    <h3 class="headd3 text-dark fw-bold kd-split-text">YEAR: 2019</h3>
                     <div class="table-responsive">
                       <table
                         class="overflow-hidden table text-wrap table-bordered border-top mb-2"
@@ -889,7 +884,7 @@
                       </table>
                     </div>
 
-                    <h3 class="headd3 text-danger fw-bold kd-split-text">YEAR: 2020</h3>
+                    <h3 class="headd3 text-dark fw-bold kd-split-text">YEAR: 2020</h3>
                     <div class="table-responsive">
                       <table
                         class="overflow-hidden table text-wrap table-bordered border-top mb-2"
@@ -921,7 +916,7 @@
                       </table>
                     </div>
 
-                    <h3 class="headd3 text-danger fw-bold kd-split-text">YEAR: 2021</h3>
+                    <h3 class="headd3 text-dark fw-bold kd-split-text">YEAR: 2021</h3>
                     <div class="table-responsive">
                       <table
                         class="overflow-hidden table text-wrap table-bordered border-top mb-2"
@@ -980,7 +975,7 @@
                       </table>
                     </div>
 
-                    <h3 class="headd3 text-danger fw-bold kd-split-text">YEAR: 2022</h3>
+                    <h3 class="headd3 text-dark fw-bold kd-split-text">YEAR: 2022</h3>
                     <div class="table-responsive">
                       <table
                         class="overflow-hidden table text-wrap table-bordered border-top mb-2"
@@ -1056,7 +1051,7 @@
                       </table>
                     </div>
 
-                    <h3 class="headd3 text-danger fw-bold kd-split-text">YEAR: 2023</h3>
+                    <h3 class="headd3 text-dark fw-bold kd-split-text">YEAR: 2023</h3>
                     <div>
                       <table
                         class="overflow-hidden table text-wrap table-bordered border-top mb-2"
@@ -1317,30 +1312,29 @@
                           >
                             <div class="accordion-body">
                               <a
-                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2022-23 BSc Physics.pdf"
+                                href="mobile-assets/department-all/syllabus-new/1RSAPS/Physics/Course Structure and Syllabus UG Physics.pdf"
                                 target="_blank"
                               >
-                                <i class="fa fa-file-text px-2"></i> AY 2022-23 BSc Physics.pdf
+                                <i class="fa fa-file-text px-2"></i> COURSE STRUCTURE & SYLLABUS (BASED ON NATIONAL EDUCATION POLICY 2020)
                                 <i class="fa fa-download"></i>
                               </a>
                               <br />
 
                               <a
-                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2023-24 BSc Physics.pdf"
+                                href="mobile-assets/department-all/syllabus-new/1RSAPS/Physics/Structure of syllabus - UG_PHYSICS.pdf"
                                 target="_blank"
                               >
-                                <i class="fa fa-file-text px-2"></i> AY 2023-24 BSc Physics.pdf
+                                <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 4 YEAR UG PROGRAMME
                                 <i class="fa fa-download"></i> </a
                               ><br />
-
-                              <a
-                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/Old Syllabus B.Sc. Physics.pdf"
+                              <!-- <a
+                                href="mobile-assets/department-all/Departmentalpdf/Old Syllabus B.Sc. Physics.pdf"
                                 target="_blank"
                               >
                                 <i class="fa fa-file-text px-2"></i> Old Syllabus B.Sc.
                                 Physics.pdf
                                 <i class="fa fa-download"></i>
-                              </a>
+                              </a> -->
                             </div>
                           </div>
                         </div>
@@ -1367,8 +1361,9 @@
                           >
                             <div class="accordion-body">
                               <a
-                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/Departmentalpdf/AY 2021-22 M.Sc. Physics.pdf"
-                                >AY 2021-22 M.Sc. Physics.pdf<i class="fa fa-download"></i
+                                href="mobile-assets/department-all/syllabus-new/1RSAPS/Physics/Structure of syllabus - PG_PHYSICS.pdf">
+                                STRUCTURE OF THE SYLLABUS FOR 2 YEAR PG PROGRAMME
+                                <i class="fa fa-download"></i
                               ></a>
                             </div>
                           </div>
@@ -1395,7 +1390,7 @@
                           >
                             <div class="accordion-body">
                               <a
-                                href="doctoral-physics"
+                                href="doctoral-programme.html"
                                 class="para1"
                                 target="_blank"
                                 >
@@ -1416,5 +1411,5 @@
 
           <!--End Section-->
         </div>
-      </div>
+        </div>
 @endsection

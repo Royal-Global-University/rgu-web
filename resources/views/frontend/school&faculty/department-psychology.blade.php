@@ -1,283 +1,348 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/dept-psychology/s2-bg-img-1.webp);">
-        <div class="mobile" >
-            @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" src="mobile-assets/dept-psychology/mobile-psychology.png" alt="">
+    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+        <div class="mobile" style="padding-top: 80px; position: relative;">
 
-            <div class="container pb-5 pt-3">
+
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-psychology/mobile-top.png" alt="">
+
+
+            <div class="container">
+
+                <!-- courses section web  -->
+                <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+
+                <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
+                    <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
+                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                        <th class="text-light  font-weight-bold">COURSES</th>
+                        <th class="text-light  font-weight-bold">DURATION</th>
+                        <th class="text-light  font-weight-bold">DETAILS</th>
+                    </thead>
+                    <tbody class="para1 bg-light">
+                        <tr>
+                            <td>1.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">BA Psychology</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                4 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-BA-Psychology"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">BA - Applied Psychology</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                4 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-BA-Applied-Psychology"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>3.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">MA Psychology</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                2 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-MA-Psychology"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-psychology/mobile-down.png" alt="">
+
+            <!--About Section-->
+            <div class="container pt-3 pb-5">
+
 
                 <div>
-                    <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            1. Events & Achievements
-                        </h3>
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="font-weight-bold text-white">S.No.</th>
-                                        <th class="font-weight-bold text-white">Date of Event</th>
-                                        <th class="font-weight-bold text-white">Name of Event</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1.</td>
-                                        <td>1-4-2024</td>
-                                        <td>
-                                            Lecture on the occasion of World Bipolar Day by Prof Dilwar
-                                            Hussain, IIT Guwahati.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>4-4-2024</td>
-                                        <td>
-                                            "Outreach program Students from the Psychology Department (UG
-                                            6th and PG) of The Assam Royal Global University visited the
-                                            North Eastern Police Academy (NEPA) in Ri-Bhoi district,
-                                            Meghalaya,"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3.</td>
-                                        <td>27-30/4/2024</td>
-                                        <td>Educational Trip to Darjeeling.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4.</td>
-                                        <td>3-9/5/2024</td>
-                                        <td>
-                                            "Lecture and interactive session with students and faculties
-                                            Prof Derick H. Lindquist, Dean of Jindal School of Psychology ."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5.</td>
-                                        <td>21-5-2024</td>
-                                        <td>
-                                            Inauguration of Psychological Lab followed by lecture by
-                                            Pallabita B Choudhury, clinical psychologist, (IIT Guwahati)
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>6.</td>
-                                        <td>4-6-2024</td>
-                                        <td>
-                                            "Observance of “The World No Tobacco Day” followed by a lecture
-                                            session by H.K Bhattacharya, Joint Director of Health Service
-                                            cum State nodal officer"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>7.</td>
-                                        <td>30-6-2024</td>
-                                        <td>
-                                            Flood donation campaign, by faculties in collaboration with SKD
-                                            Foundation, Guwahati,
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>8.</td>
-                                        <td>27-8-2024</td>
-                                        <td>
-                                            Community outreach initiative, a survey addressing “the
-                                            publichealth concern of tobacco consumption in Kamrup(M)
-                                            district” students (PG 3rd Semester) o, in collaboration with
-                                            the Directorate of Health Services, Assam,
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>9.</td>
-                                        <td>8-9-2024</td>
-                                        <td>
-                                            Lecture on Exploring future opportunities by Prof Nachiketa
-                                            Tripathi, IIT Guwahati.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>10.</td>
-                                        <td>10-9-2024</td>
-                                        <td>
-                                            Seminar on Strategies for Cyber Resilience by Biraj Das,
-                                            Superintended of police, Guwahati
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>11.</td>
-                                        <td>20-9-2024</td>
-                                        <td>
-                                            Lecture session on Scope of counselling and tips for future
-                                            counsellor in Tele counselling service by Dr Tamanna Goswami
-                                            Sarma, Counselling Psychologist &amp; Joint secretary of PANEI
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>12.</td>
-                                        <td>2-10-2024</td>
-                                        <td>
-                                            "Students of the Department of Psychology celebrated Gandhi
-                                            Jayanti to honor the legacy of Mahatma Gandhi."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>13.</td>
-                                        <td>8-9/10/2024</td>
-                                        <td>
-                                            Students of UG 5th semester Visited Forensic Science Laboratory
-                                            (FSL)
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>14.</td>
-                                        <td>15-2-2023</td>
-                                        <td>
-                                            "Seminar on Cybercognition-A digital Hypnotization ploy and an
-                                            introduction to Dark Net by Mr Biraj Da (Superintended of
-                                            police, Guwahati)"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>15.</td>
-                                        <td>6-4-2023</td>
-                                        <td>
-                                            Talk on Adolescent depression and Career trajectories in mental
-                                            health by Arshiya Choudhury, Associate lecturer of Goldsmith’s
-                                            University , London
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>16.</td>
-                                        <td>26-5-2023</td>
-                                        <td>
-                                            "Awareness talk on Drug de- addiction and value based living
-                                            under Nasha Mukt Bharat Abhiyan By BK Dr Sachin Parab, MBBS,
-                                            Mumbai University"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>17.</td>
-                                        <td>4-9-2023</td>
-                                        <td>
-                                            "Talk on “Mind the mind in cyber world” by Ritu Saggar, Cyber
-                                            Psychologist."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>18.</td>
-                                        <td>19-9-2023</td>
-                                        <td>
-                                            "Skit on the occasion of World ‘Suicide prevention day” by
-                                            psychology students."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>19.</td>
-                                        <td>"31/10/2023- 1/11/2023"</td>
-                                        <td>
-                                            "Workshop on “Magic Mantras of Panchatantra for wise conduct” by
-                                            Prof Uma Joshi, Former Dean&amp; Director Amity University ,
-                                            Rajasthan , Jaipur"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>20.</td>
-                                        <td>9-9-2022</td>
-                                        <td>
-                                            "Exhibition related to World suicide prevention day psychology
-                                            students."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>21.</td>
-                                        <td>12-10-2022</td>
-                                        <td>
-                                            "Invited lecture building resilience amongst the youth and its
-                                            impact on mental health by Afreen Mazid.(Clinical Psychologist,
-                                            RCI licensed )"
-                                        </td>
-                                    </tr>
 
-                                    <tr>
-                                        <td>22.</td>
-                                        <td>7-10-2021</td>
-                                        <td>
-                                            Awareness program on Drug and Alcohol use in collaboration with
-                                            Nerman Rehabilitation Facility
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>23.</td>
-                                        <td>9-4-2020</td>
-                                        <td>Educational trip to Manali-Kasol via Delhi</td>
-                                    </tr>
+                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                        Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
 
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>9-3-2019</td>
-                                        <td>Community outreach to Noghpo by both UG &amp;PG students</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>3-4-2019</td>
-                                        <td>
-                                            "Lecture session on “Common mental illness with special
-                                            preference to women’s Mental health and over view of the health
-                                            care center and some unusual cases by Dr Reznal Hamid ,
-                                            Neuro-psychiatrist &amp; Miss Jossy Bairagi , clinical
-                                            psychologist"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>26.</td>
-                                        <td>3.10-9-2029</td>
-                                        <td>Campaign on world suicide awareness day by students</td>
-                                    </tr>
-                                    <tr>
-                                        <td>27.</td>
-                                        <td>27-9-2019</td>
-                                        <td>Educational Trip to Shillong</td>
-                                    </tr>
+                    <div class="table-responsive">
+                        <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+                            <thead class="text-white" style="background-color: #27467a">
+                                <tr>
+                                    <th class="font-weight-bold text-white">S.No.</th>
+                                    <th class="font-weight-bold text-white">Date of Event</th>
+                                    <th class="font-weight-bold text-white">Name of Event</th>
+                                </tr>
+                            </thead>
+                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+                                <tr>
+                                    <td>1.</td>
+                                    <td>1-4-2024</td>
+                                    <td>
+                                        Lecture on the occasion of World Bipolar Day by Prof Dilwar
+                                        Hussain, IIT Guwahati.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>4-4-2024</td>
+                                    <td>
+                                        "Outreach program Students from the Psychology Department (UG
+                                        6th and PG) of The Assam Royal Global University visited the
+                                        North Eastern Police Academy (NEPA) in Ri-Bhoi district,
+                                        Meghalaya,"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3.</td>
+                                    <td>27-30/4/2024</td>
+                                    <td>Educational Trip to Darjeeling.</td>
+                                </tr>
+                                <tr>
+                                    <td>4.</td>
+                                    <td>3-9/5/2024</td>
+                                    <td>
+                                        "Lecture and interactive session with students and faculties
+                                        Prof Derick H. Lindquist, Dean of Jindal School of Psychology ."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>5.</td>
+                                    <td>21-5-2024</td>
+                                    <td>
+                                        Inauguration of Psychological Lab followed by lecture by
+                                        Pallabita B Choudhury, clinical psychologist, (IIT Guwahati)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>6.</td>
+                                    <td>4-6-2024</td>
+                                    <td>
+                                        "Observance of “The World No Tobacco Day” followed by a lecture
+                                        session by H.K Bhattacharya, Joint Director of Health Service
+                                        cum State nodal officer"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>7.</td>
+                                    <td>30-6-2024</td>
+                                    <td>
+                                        Flood donation campaign, by faculties in collaboration with SKD
+                                        Foundation, Guwahati,
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>8.</td>
+                                    <td>27-8-2024</td>
+                                    <td>
+                                        Community outreach initiative, a survey addressing “the
+                                        publichealth concern of tobacco consumption in Kamrup(M)
+                                        district” students (PG 3rd Semester) o, in collaboration with
+                                        the Directorate of Health Services, Assam,
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>9.</td>
+                                    <td>8-9-2024</td>
+                                    <td>
+                                        Lecture on Exploring future opportunities by Prof Nachiketa
+                                        Tripathi, IIT Guwahati.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>10.</td>
+                                    <td>10-9-2024</td>
+                                    <td>
+                                        Seminar on Strategies for Cyber Resilience by Biraj Das,
+                                        Superintended of police, Guwahati
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>11.</td>
+                                    <td>20-9-2024</td>
+                                    <td>
+                                        Lecture session on Scope of counselling and tips for future
+                                        counsellor in Tele counselling service by Dr Tamanna Goswami
+                                        Sarma, Counselling Psychologist &amp; Joint secretary of PANEI
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>12.</td>
+                                    <td>2-10-2024</td>
+                                    <td>
+                                        "Students of the Department of Psychology celebrated Gandhi
+                                        Jayanti to honor the legacy of Mahatma Gandhi."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>13.</td>
+                                    <td>8-9/10/2024</td>
+                                    <td>
+                                        Students of UG 5th semester Visited Forensic Science Laboratory
+                                        (FSL)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>14.</td>
+                                    <td>15-2-2023</td>
+                                    <td>
+                                        "Seminar on Cybercognition-A digital Hypnotization ploy and an
+                                        introduction to Dark Net by Mr Biraj Da (Superintended of
+                                        police, Guwahati)"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>15.</td>
+                                    <td>6-4-2023</td>
+                                    <td>
+                                        Talk on Adolescent depression and Career trajectories in mental
+                                        health by Arshiya Choudhury, Associate lecturer of Goldsmith’s
+                                        University , London
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>16.</td>
+                                    <td>26-5-2023</td>
+                                    <td>
+                                        "Awareness talk on Drug de- addiction and value based living
+                                        under Nasha Mukt Bharat Abhiyan By BK Dr Sachin Parab, MBBS,
+                                        Mumbai University"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>17.</td>
+                                    <td>4-9-2023</td>
+                                    <td>
+                                        "Talk on “Mind the mind in cyber world” by Ritu Saggar, Cyber
+                                        Psychologist."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>18.</td>
+                                    <td>19-9-2023</td>
+                                    <td>
+                                        "Skit on the occasion of World ‘Suicide prevention day” by
+                                        psychology students."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>19.</td>
+                                    <td>"31/10/2023- 1/11/2023"</td>
+                                    <td>
+                                        "Workshop on “Magic Mantras of Panchatantra for wise conduct” by
+                                        Prof Uma Joshi, Former Dean&amp; Director Amity University ,
+                                        Rajasthan , Jaipur"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>20.</td>
+                                    <td>9-9-2022</td>
+                                    <td>
+                                        "Exhibition related to World suicide prevention day psychology
+                                        students."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>21.</td>
+                                    <td>12-10-2022</td>
+                                    <td>
+                                        "Invited lecture building resilience amongst the youth and its
+                                        impact on mental health by Afreen Mazid.(Clinical Psychologist,
+                                        RCI licensed )"
+                                    </td>
+                                </tr>
 
-                                    <tr>
-                                        <td>28.</td>
-                                        <td>2-4-2018</td>
-                                        <td>
-                                            "Lecture session on “Know about autism” by Dr Shabina Ahmed,
-                                            Developmental Pediatrician &amp; Director of Assam Autism
-                                            Foundation."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>29.</td>
-                                        <td>10-10-2018</td>
-                                        <td>
-                                            "Interactive session on “Young people and Mental health in a
-                                            changing world. By Dr Mythili Hazarika, Clinical Psychologist,
-                                            GMCH"
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                                <tr>
+                                    <td>22.</td>
+                                    <td>7-10-2021</td>
+                                    <td>
+                                        Awareness program on Drug and Alcohol use in collaboration with
+                                        Nerman Rehabilitation Facility
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>23.</td>
+                                    <td>9-4-2020</td>
+                                    <td>Educational trip to Manali-Kasol via Delhi</td>
+                                </tr>
+
+                                <tr>
+                                    <td>2.</td>
+                                    <td>9-3-2019</td>
+                                    <td>Community outreach to Noghpo by both UG &amp;PG students</td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>3-4-2019</td>
+                                    <td>
+                                        "Lecture session on “Common mental illness with special
+                                        preference to women’s Mental health and over view of the health
+                                        care center and some unusual cases by Dr Reznal Hamid ,
+                                        Neuro-psychiatrist &amp; Miss Jossy Bairagi , clinical
+                                        psychologist"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>26.</td>
+                                    <td>3.10-9-2029</td>
+                                    <td>Campaign on world suicide awareness day by students</td>
+                                </tr>
+                                <tr>
+                                    <td>27.</td>
+                                    <td>27-9-2019</td>
+                                    <td>Educational Trip to Shillong</td>
+                                </tr>
+
+                                <tr>
+                                    <td>28.</td>
+                                    <td>2-4-2018</td>
+                                    <td>
+                                        "Lecture session on “Know about autism” by Dr Shabina Ahmed,
+                                        Developmental Pediatrician &amp; Director of Assam Autism
+                                        Foundation."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>29.</td>
+                                    <td>10-10-2018</td>
+                                    <td>
+                                        "Interactive session on “Young people and Mental health in a
+                                        changing world. By Dr Mythili Hazarika, Clinical Psychologist,
+                                        GMCH"
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
-
                 <div>
                     <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            2. Departmental Research Statistics
-                        </h3>
-                    </div>
-                </div>
+                        <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                            The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
 
-                <div>
-                    <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            3. The Board of Studies (BoS)
-                        </h3>
                         <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                 <thead class="text-white" style="background-color: #27467a">
@@ -335,12 +400,12 @@
                     </div>
                 </div>
 
-
                 <div>
                     <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            4. The Departmental Research Committee (DRC)
-                        </h3>
+                        <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                            The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span>
+                        </h2>
+
                         <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                 <thead class="text-white" style="background-color: #27467a">
@@ -409,13 +474,11 @@
                     </div>
                 </div>
 
-
                 <div>
-                    <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                        5. Course Structure & Syllabus
-                    </h3>
+                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                        Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+
                     <div class="p-2">
-                        <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">Syllabus -</h3>
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="accordion para1" id="accordionExample">
@@ -432,23 +495,28 @@
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="assets/Departmentalpdf/AY 2023-24 B.A. PSY.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Syllabus_NEP 2020_B A PSY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>AY 2023-24 B.A. PSY.pdf
+                                                        <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE & SYLLABUS
+                                                        (BASED ON NATIONAL EDUCATION POLICY 2020)
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="assets/Departmentalpdf/AY 2023-24 B.A. APY.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of Syllabus- B.A. Applied Psychology.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>AY 2023-24 B.A. APY.pdf
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4
+                                                        YEAR UG PROGRAMME
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="assets/Departmentalpdf/AY 2022-23 B.A. PSY APY.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - B.A. Psychology.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> AY 2022-23 B.A. PSY
-                                                        APY.pdf <i class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4
+                                                        YEAR UG PROGRAMME
+                                                        <i class="fa fa-download"></i>
                                                     </a>
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -466,17 +534,42 @@
                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="assets/Departmentalpdf/Old Syllabus MA Psychology.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA PSY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Old Syllabus MA
-                                                        Psychology.pdf <i class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 2
+                                                        YEAR PG PROGRAMME
+                                                        <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="assets/Departmentalpdf/Old Syllabus MA Clinical Psychology.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/MA Clinical Psychology course structure and syllabus.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Old Syllabus MA Clinical
-                                                        Psychology.pdf <i class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
+                                                        M.A. Clinical Psychology
+                                                        <i class="fa fa-download"></i>
                                                     </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA CPY.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
+                                                        M.A. CPY
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA PSY.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
+                                                        M.A. PSY
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA CPY.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 2
+                                                        YEAR PG PROGRAMME - Clinical Physchology
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -493,7 +586,7 @@
                                         <div id="collapseThree" class="accordion-collapse collapse"
                                             aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a href="doctoral-programme" class="para1"
+                                                <a href="doctoral-programme.html" class="para1"
                                                     target="_blank"><strong>Click to View...</strong></a>
                                             </div>
                                         </div>
@@ -504,292 +597,358 @@
                         </div>
                     </div>
                 </div>
+
             </div>
+
 
         </div>
 
         <div class="website">
             <!--Start Header-->
-            @include('frontend/components/aheader')
+
             <!--End Header-->
 
-            <img class="pb-3" src="mobile-assets/dept-psychology/psychology-web.png" alt="">
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-psychology/web-top.png" alt="">
+
+
+            <div class="container">
+
+                <!-- courses section web  -->
+                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+
+
+                <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
+                    <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
+                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                        <th class="text-light  font-weight-bold">COURSES</th>
+                        <th class="text-light  font-weight-bold">DURATION</th>
+                        <th class="text-light  font-weight-bold">DETAILS</th>
+                    </thead>
+                    <tbody class="para1 bg-light">
+                        <tr>
+                            <td>1.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">BA Psychology</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                4 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-BA-Psychology"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">BA - Applied Psychology</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                4 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-BA-Applied-Psychology"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>3.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">MA Psychology</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                2 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-MA-Psychology"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-psychology/web-btm.png" alt="">
 
             <!--About Section-->
-            <div class="container pb-5">
-
-                <div>
-                    <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            1. Events & Achievements
-                        </h3>
-                        <div>
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="font-weight-bold text-white">S.No.</th>
-                                        <th class="font-weight-bold text-white">Date of Event</th>
-                                        <th class="font-weight-bold text-white">Name of Event</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1.</td>
-                                        <td>1-4-2024</td>
-                                        <td>
-                                            Lecture on the occasion of World Bipolar Day by Prof Dilwar
-                                            Hussain, IIT Guwahati.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>4-4-2024</td>
-                                        <td>
-                                            "Outreach program Students from the Psychology Department (UG
-                                            6th and PG) of The Assam Royal Global University visited the
-                                            North Eastern Police Academy (NEPA) in Ri-Bhoi district,
-                                            Meghalaya,"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3.</td>
-                                        <td>27-30/4/2024</td>
-                                        <td>Educational Trip to Darjeeling.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4.</td>
-                                        <td>3-9/5/2024</td>
-                                        <td>
-                                            "Lecture and interactive session with students and faculties
-                                            Prof Derick H. Lindquist, Dean of Jindal School of Psychology ."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5.</td>
-                                        <td>21-5-2024</td>
-                                        <td>
-                                            Inauguration of Psychological Lab followed by lecture by
-                                            Pallabita B Choudhury, clinical psychologist, (IIT Guwahati)
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>6.</td>
-                                        <td>4-6-2024</td>
-                                        <td>
-                                            "Observance of “The World No Tobacco Day” followed by a lecture
-                                            session by H.K Bhattacharya, Joint Director of Health Service
-                                            cum State nodal officer"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>7.</td>
-                                        <td>30-6-2024</td>
-                                        <td>
-                                            Flood donation campaign, by faculties in collaboration with SKD
-                                            Foundation, Guwahati,
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>8.</td>
-                                        <td>27-8-2024</td>
-                                        <td>
-                                            Community outreach initiative, a survey addressing “the
-                                            publichealth concern of tobacco consumption in Kamrup(M)
-                                            district” students (PG 3rd Semester) o, in collaboration with
-                                            the Directorate of Health Services, Assam,
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>9.</td>
-                                        <td>8-9-2024</td>
-                                        <td>
-                                            Lecture on Exploring future opportunities by Prof Nachiketa
-                                            Tripathi, IIT Guwahati.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>10.</td>
-                                        <td>10-9-2024</td>
-                                        <td>
-                                            Seminar on Strategies for Cyber Resilience by Biraj Das,
-                                            Superintended of police, Guwahati
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>11.</td>
-                                        <td>20-9-2024</td>
-                                        <td>
-                                            Lecture session on Scope of counselling and tips for future
-                                            counsellor in Tele counselling service by Dr Tamanna Goswami
-                                            Sarma, Counselling Psychologist &amp; Joint secretary of PANEI
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>12.</td>
-                                        <td>2-10-2024</td>
-                                        <td>
-                                            "Students of the Department of Psychology celebrated Gandhi
-                                            Jayanti to honor the legacy of Mahatma Gandhi."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>13.</td>
-                                        <td>8-9/10/2024</td>
-                                        <td>
-                                            Students of UG 5th semester Visited Forensic Science Laboratory
-                                            (FSL)
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>14.</td>
-                                        <td>15-2-2023</td>
-                                        <td>
-                                            "Seminar on Cybercognition-A digital Hypnotization ploy and an
-                                            introduction to Dark Net by Mr Biraj Da (Superintended of
-                                            police, Guwahati)"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>15.</td>
-                                        <td>6-4-2023</td>
-                                        <td>
-                                            Talk on Adolescent depression and Career trajectories in mental
-                                            health by Arshiya Choudhury, Associate lecturer of Goldsmith’s
-                                            University , London
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>16.</td>
-                                        <td>26-5-2023</td>
-                                        <td>
-                                            "Awareness talk on Drug de- addiction and value based living
-                                            under Nasha Mukt Bharat Abhiyan By BK Dr Sachin Parab, MBBS,
-                                            Mumbai University"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>17.</td>
-                                        <td>4-9-2023</td>
-                                        <td>
-                                            "Talk on “Mind the mind in cyber world” by Ritu Saggar, Cyber
-                                            Psychologist."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>18.</td>
-                                        <td>19-9-2023</td>
-                                        <td>
-                                            "Skit on the occasion of World ‘Suicide prevention day” by
-                                            psychology students."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>19.</td>
-                                        <td>"31/10/2023- 1/11/2023"</td>
-                                        <td>
-                                            "Workshop on “Magic Mantras of Panchatantra for wise conduct” by
-                                            Prof Uma Joshi, Former Dean&amp; Director Amity University ,
-                                            Rajasthan , Jaipur"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>20.</td>
-                                        <td>9-9-2022</td>
-                                        <td>
-                                            "Exhibition related to World suicide prevention day psychology
-                                            students."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>21.</td>
-                                        <td>12-10-2022</td>
-                                        <td>
-                                            "Invited lecture building resilience amongst the youth and its
-                                            impact on mental health by Afreen Mazid.(Clinical Psychologist,
-                                            RCI licensed )"
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>22.</td>
-                                        <td>7-10-2021</td>
-                                        <td>
-                                            Awareness program on Drug and Alcohol use in collaboration with
-                                            Nerman Rehabilitation Facility
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>23.</td>
-                                        <td>9-4-2020</td>
-                                        <td>Educational trip to Manali-Kasol via Delhi</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>9-3-2019</td>
-                                        <td>Community outreach to Noghpo by both UG &amp;PG students</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>3-4-2019</td>
-                                        <td>
-                                            "Lecture session on “Common mental illness with special
-                                            preference to women’s Mental health and over view of the health
-                                            care center and some unusual cases by Dr Reznal Hamid ,
-                                            Neuro-psychiatrist &amp; Miss Jossy Bairagi , clinical
-                                            psychologist"
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>26.</td>
-                                        <td>3.10-9-2029</td>
-                                        <td>Campaign on world suicide awareness day by students</td>
-                                    </tr>
-                                    <tr>
-                                        <td>27.</td>
-                                        <td>27-9-2019</td>
-                                        <td>Educational Trip to Shillong</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>28.</td>
-                                        <td>2-4-2018</td>
-                                        <td>
-                                            "Lecture session on “Know about autism” by Dr Shabina Ahmed,
-                                            Developmental Pediatrician &amp; Director of Assam Autism
-                                            Foundation."
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>29.</td>
-                                        <td>10-10-2018</td>
-                                        <td>
-                                            "Interactive session on “Young people and Mental health in a
-                                            changing world. By Dr Mythili Hazarika, Clinical Psychologist,
-                                            GMCH"
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
+            <div class="container pt-3 pb-5">
 
 
                 <div>
-                    <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            2. Departmental Research Statistics
-                        </h3>
+
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                        Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
+
+                    <div class="table-responsive">
+                        <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+                            <thead class="text-white" style="background-color: #27467a">
+                                <tr>
+                                    <th class="font-weight-bold text-white">S.No.</th>
+                                    <th class="font-weight-bold text-white">Date of Event</th>
+                                    <th class="font-weight-bold text-white">Name of Event</th>
+                                </tr>
+                            </thead>
+                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+                                <tr>
+                                    <td>1.</td>
+                                    <td>1-4-2024</td>
+                                    <td>
+                                        Lecture on the occasion of World Bipolar Day by Prof Dilwar
+                                        Hussain, IIT Guwahati.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>4-4-2024</td>
+                                    <td>
+                                        "Outreach program Students from the Psychology Department (UG
+                                        6th and PG) of The Assam Royal Global University visited the
+                                        North Eastern Police Academy (NEPA) in Ri-Bhoi district,
+                                        Meghalaya,"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3.</td>
+                                    <td>27-30/4/2024</td>
+                                    <td>Educational Trip to Darjeeling.</td>
+                                </tr>
+                                <tr>
+                                    <td>4.</td>
+                                    <td>3-9/5/2024</td>
+                                    <td>
+                                        "Lecture and interactive session with students and faculties
+                                        Prof Derick H. Lindquist, Dean of Jindal School of Psychology ."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>5.</td>
+                                    <td>21-5-2024</td>
+                                    <td>
+                                        Inauguration of Psychological Lab followed by lecture by
+                                        Pallabita B Choudhury, clinical psychologist, (IIT Guwahati)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>6.</td>
+                                    <td>4-6-2024</td>
+                                    <td>
+                                        "Observance of “The World No Tobacco Day” followed by a lecture
+                                        session by H.K Bhattacharya, Joint Director of Health Service
+                                        cum State nodal officer"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>7.</td>
+                                    <td>30-6-2024</td>
+                                    <td>
+                                        Flood donation campaign, by faculties in collaboration with SKD
+                                        Foundation, Guwahati,
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>8.</td>
+                                    <td>27-8-2024</td>
+                                    <td>
+                                        Community outreach initiative, a survey addressing “the
+                                        publichealth concern of tobacco consumption in Kamrup(M)
+                                        district” students (PG 3rd Semester) o, in collaboration with
+                                        the Directorate of Health Services, Assam,
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>9.</td>
+                                    <td>8-9-2024</td>
+                                    <td>
+                                        Lecture on Exploring future opportunities by Prof Nachiketa
+                                        Tripathi, IIT Guwahati.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>10.</td>
+                                    <td>10-9-2024</td>
+                                    <td>
+                                        Seminar on Strategies for Cyber Resilience by Biraj Das,
+                                        Superintended of police, Guwahati
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>11.</td>
+                                    <td>20-9-2024</td>
+                                    <td>
+                                        Lecture session on Scope of counselling and tips for future
+                                        counsellor in Tele counselling service by Dr Tamanna Goswami
+                                        Sarma, Counselling Psychologist &amp; Joint secretary of PANEI
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>12.</td>
+                                    <td>2-10-2024</td>
+                                    <td>
+                                        "Students of the Department of Psychology celebrated Gandhi
+                                        Jayanti to honor the legacy of Mahatma Gandhi."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>13.</td>
+                                    <td>8-9/10/2024</td>
+                                    <td>
+                                        Students of UG 5th semester Visited Forensic Science Laboratory
+                                        (FSL)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>14.</td>
+                                    <td>15-2-2023</td>
+                                    <td>
+                                        "Seminar on Cybercognition-A digital Hypnotization ploy and an
+                                        introduction to Dark Net by Mr Biraj Da (Superintended of
+                                        police, Guwahati)"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>15.</td>
+                                    <td>6-4-2023</td>
+                                    <td>
+                                        Talk on Adolescent depression and Career trajectories in mental
+                                        health by Arshiya Choudhury, Associate lecturer of Goldsmith’s
+                                        University , London
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>16.</td>
+                                    <td>26-5-2023</td>
+                                    <td>
+                                        "Awareness talk on Drug de- addiction and value based living
+                                        under Nasha Mukt Bharat Abhiyan By BK Dr Sachin Parab, MBBS,
+                                        Mumbai University"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>17.</td>
+                                    <td>4-9-2023</td>
+                                    <td>
+                                        "Talk on “Mind the mind in cyber world” by Ritu Saggar, Cyber
+                                        Psychologist."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>18.</td>
+                                    <td>19-9-2023</td>
+                                    <td>
+                                        "Skit on the occasion of World ‘Suicide prevention day” by
+                                        psychology students."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>19.</td>
+                                    <td>"31/10/2023- 1/11/2023"</td>
+                                    <td>
+                                        "Workshop on “Magic Mantras of Panchatantra for wise conduct” by
+                                        Prof Uma Joshi, Former Dean&amp; Director Amity University ,
+                                        Rajasthan , Jaipur"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>20.</td>
+                                    <td>9-9-2022</td>
+                                    <td>
+                                        "Exhibition related to World suicide prevention day psychology
+                                        students."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>21.</td>
+                                    <td>12-10-2022</td>
+                                    <td>
+                                        "Invited lecture building resilience amongst the youth and its
+                                        impact on mental health by Afreen Mazid.(Clinical Psychologist,
+                                        RCI licensed )"
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>22.</td>
+                                    <td>7-10-2021</td>
+                                    <td>
+                                        Awareness program on Drug and Alcohol use in collaboration with
+                                        Nerman Rehabilitation Facility
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>23.</td>
+                                    <td>9-4-2020</td>
+                                    <td>Educational trip to Manali-Kasol via Delhi</td>
+                                </tr>
+
+                                <tr>
+                                    <td>2.</td>
+                                    <td>9-3-2019</td>
+                                    <td>Community outreach to Noghpo by both UG &amp;PG students</td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>3-4-2019</td>
+                                    <td>
+                                        "Lecture session on “Common mental illness with special
+                                        preference to women’s Mental health and over view of the health
+                                        care center and some unusual cases by Dr Reznal Hamid ,
+                                        Neuro-psychiatrist &amp; Miss Jossy Bairagi , clinical
+                                        psychologist"
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>26.</td>
+                                    <td>3.10-9-2029</td>
+                                    <td>Campaign on world suicide awareness day by students</td>
+                                </tr>
+                                <tr>
+                                    <td>27.</td>
+                                    <td>27-9-2019</td>
+                                    <td>Educational Trip to Shillong</td>
+                                </tr>
+
+                                <tr>
+                                    <td>28.</td>
+                                    <td>2-4-2018</td>
+                                    <td>
+                                        "Lecture session on “Know about autism” by Dr Shabina Ahmed,
+                                        Developmental Pediatrician &amp; Director of Assam Autism
+                                        Foundation."
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>29.</td>
+                                    <td>10-10-2018</td>
+                                    <td>
+                                        "Interactive session on “Young people and Mental health in a
+                                        changing world. By Dr Mythili Hazarika, Clinical Psychologist,
+                                        GMCH"
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
                 <div>
                     <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            3. The Board of Studies (BoS)
-                        </h3>
-                        <div>
+                        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                            The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
+
+                        <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                 <thead class="text-white" style="background-color: #27467a">
                                     <th class="text-white">#</th>
@@ -846,13 +1005,13 @@
                     </div>
                 </div>
 
-
                 <div>
                     <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            4. The Departmental Research Committee (DRC)
-                        </h3>
-                        <div>
+                        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                            The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span>
+                        </h2>
+
+                        <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                 <thead class="text-white" style="background-color: #27467a">
                                     <th class="text-white">#</th>
@@ -920,13 +1079,11 @@
                     </div>
                 </div>
 
-
                 <div>
-                    <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                        5. Course Structure & Syllabus
-                    </h3>
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                        Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+
                     <div class="p-2">
-                        <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">Syllabus -</h3>
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="accordion para1" id="accordionExample">
@@ -943,23 +1100,28 @@
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="assets/Departmentalpdf/AY 2023-24 B.A. PSY.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Syllabus_NEP 2020_B A PSY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>AY 2023-24 B.A. PSY.pdf
+                                                        <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE & SYLLABUS
+                                                        (BASED ON NATIONAL EDUCATION POLICY 2020)
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="assets/Departmentalpdf/AY 2023-24 B.A. APY.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of Syllabus- B.A. Applied Psychology.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>AY 2023-24 B.A. APY.pdf
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4
+                                                        YEAR UG PROGRAMME
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="assets/Departmentalpdf/AY 2022-23 B.A. PSY APY.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - B.A. Psychology.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> AY 2022-23 B.A. PSY
-                                                        APY.pdf <i class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4
+                                                        YEAR UG PROGRAMME
+                                                        <i class="fa fa-download"></i>
                                                     </a>
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -977,17 +1139,42 @@
                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="assets/Departmentalpdf/Old Syllabus MA Psychology.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA PSY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Old Syllabus MA
-                                                        Psychology.pdf <i class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 2
+                                                        YEAR PG PROGRAMME
+                                                        <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="assets/Departmentalpdf/Old Syllabus MA Clinical Psychology.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/MA Clinical Psychology course structure and syllabus.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Old Syllabus MA Clinical
-                                                        Psychology.pdf <i class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
+                                                        M.A. Clinical Psychology
+                                                        <i class="fa fa-download"></i>
                                                     </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA CPY.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
+                                                        M.A. CPY
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA PSY.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
+                                                        M.A. PSY
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA CPY.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 2
+                                                        YEAR PG PROGRAMME - Clinical Physchology
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1004,7 +1191,7 @@
                                         <div id="collapseThree" class="accordion-collapse collapse"
                                             aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a href="doctoral-programme" class="para1"
+                                                <a href="doctoral-programme.html" class="para1"
                                                     target="_blank"><strong>Click to View...</strong></a>
                                             </div>
                                         </div>
@@ -1015,6 +1202,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
             <!-- End testimonials-->
 
