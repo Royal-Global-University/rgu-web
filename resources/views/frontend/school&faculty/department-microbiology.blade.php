@@ -2,9 +2,9 @@
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
-        <div class="mobile" style="padding-top: 80px; position: relative;">
-
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-microbio/mobile-up.png" alt="">
+        <div class="mobile" >
+            @include('frontend/components/mobileheader')
+            <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-microbio/mobile-up.png" alt="">
 
 
             <div class="container">
@@ -419,10 +419,8 @@
         </div>
 
         <div class="website">
-
+            @include('frontend/components/aheader')
             <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-microbio/web-up.png" alt="">
-
-
             <div class="container">
 
                 <!-- courses section web  -->
