@@ -504,7 +504,7 @@
                       >
                         <div class="accordion-body">
                           <a
-                            href="doctoral-programme.html"
+                            href="doctoral-programme"
                             class="mobile-para1"
                             target="_blank"
                             ><strong>Click to View...</strong></a
@@ -1024,7 +1024,7 @@
                       >
                         <div class="accordion-body">
                           <a
-                            href="doctoral-programme.html"
+                            href="doctoral-programme"
                             class="mobile-para1"
                             target="_blank"
                             ><strong>Click to View...</strong></a

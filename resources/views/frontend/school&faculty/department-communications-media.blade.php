@@ -1,17 +1,108 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(mobile-assets/dept-communication-media/s2-bg-img-1.webp);">
-        <div class="mobile" >
+    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+        <div class="mobile">
             @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" src="mobile-assets/dept-communication-media/mobile-mass.png" alt="">
+            <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-communication-media/mob-top.png" alt="">
 
+            <div class="container">
+
+                <!-- courses section web  -->
+                <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+
+
+                <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
+                    <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
+                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                        <th class="text-light  font-weight-bold">COURSES</th>
+                        <th class="text-light  font-weight-bold">DURATION</th>
+                        <th class="text-light  font-weight-bold">DETAILS</th>
+                    </thead>
+                    <tbody class="para1 bg-light">
+
+                        <tr>
+                            <td>1.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">B.Sc - Animation & Visual Effects</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                4 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-b-sc-animation-visual-effects"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">B.A. - J&MC</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                4 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-BA-J&MC"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>3.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">M.Sc. - Animation & Visual Effects</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                2 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-MSc-Animation-&-Visual-Effects"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>4.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">MA - J&MC</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                2 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-MA-J&MC"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-communication-media/mob-down.png" alt="">
 
             <div class="container pb-5 pt-3">
                 <div>
                     <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            1. Events & Achievements
-                        </h3>
+
+                        <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                            Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
+
                         <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                 <thead class="text-white" style="background-color: #27467a">
@@ -357,23 +448,10 @@
 
                 <div>
                     <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            2. Departmental Research Statistics
-                        </h3>
-                        <div class="text-dark">
-                            <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">
-                                <a href="https://www.rgu.ac/research-and-development-rscom.php">Click More</a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
 
+                        <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                            The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
 
-                <div>
-                    <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            3. The Board of Studies (BoS)
-                        </h3>
                         <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                 <thead class="text-white" style="background-color: #27467a">
@@ -439,9 +517,11 @@
 
                 <div>
                     <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            4. The Departmental Research Committee (DRC)
-                        </h3>
+
+                        <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                            The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span>
+                        </h2>
+
                         <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                 <thead class="text-white" style="background-color: #27467a">
@@ -511,11 +591,11 @@
 
 
                 <div>
-                    <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                        5. Course Structure & Syllabus
-                    </h3>
+
+                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                        Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+
                     <div class="p-2">
-                        <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">Syllabus -</h3>
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="accordion para1" id="accordionExample">
@@ -625,21 +705,112 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
         <div class="website">
-            <!--Start Header-->
             @include('frontend/components/aheader')
-            <!--End Header-->
-            <img src="mobile-assets/dept-communication-media/web-mass-comm.png" alt="">
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-communication-media/web-top.png" alt="">
+
+            <div class="container">
+
+                <!-- courses section web  -->
+                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+
+
+                <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
+                    <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
+                        <th class="text-light  font-weight-bold">SL. NO.</th>
+                        <th class="text-light  font-weight-bold">COURSES</th>
+                        <th class="text-light  font-weight-bold">DURATION</th>
+                        <th class="text-light  font-weight-bold">DETAILS</th>
+                    </thead>
+                    <tbody class="para1 bg-light">
+
+                        <tr>
+                            <td>1.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">B.Sc - Animation & Visual Effects</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                4 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-b-sc-animation-visual-effects"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">B.A. - J&MC</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                4 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-BA-J&MC"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>3.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">M.Sc. - Animation & Visual Effects</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                2 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-MSc-Animation-&-Visual-Effects"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>4.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">MA - J&MC</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                2 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-MA-J&MC"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-communication-media/web-down.png" alt="">
 
             <div class="container pb-5 pt-3">
                 <div>
                     <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            1. Events & Achievements
-                        </h3>
-                        <div>
+
+                        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                            Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
+
+                        <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                 <thead class="text-white" style="background-color: #27467a">
                                     <tr>
@@ -984,24 +1155,11 @@
 
                 <div>
                     <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            2. Departmental Research Statistics
-                        </h3>
-                        <div class="text-dark">
-                            <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">
-                                <a href="https://www.rgu.ac/research-and-development-rscom.php">Click More</a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
 
+                        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                            The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
 
-                <div>
-                    <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            3. The Board of Studies (BoS)
-                        </h3>
-                        <div>
+                        <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                 <thead class="text-white" style="background-color: #27467a">
                                     <tr>
@@ -1066,10 +1224,12 @@
 
                 <div>
                     <div>
-                        <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                            4. The Departmental Research Committee (DRC)
-                        </h3>
-                        <div>
+
+                        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                            The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span>
+                        </h2>
+
+                        <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                 <thead class="text-white" style="background-color: #27467a">
                                     <tr>
@@ -1138,11 +1298,11 @@
 
 
                 <div>
-                    <h3 class="headd3 text-dark fw-bold p-3" style="background-color: #c7daf9; color: #ffffff">
-                        5. Course Structure & Syllabus
-                    </h3>
+
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                        Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+
                     <div class="p-2">
-                        <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">Syllabus -</h3>
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="accordion para1" id="accordionExample">
