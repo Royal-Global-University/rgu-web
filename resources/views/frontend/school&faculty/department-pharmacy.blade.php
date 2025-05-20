@@ -920,6 +920,31 @@
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                             <strong>
+                                                Diploma
+                                            </strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSP/RGU SYLLABUS AY 2021-22 D.Pharmacy.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i> Syllabus - D. Pharmacy
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            <strong>
                                                 Under Graduate
                                             </strong>
                                         </button>
@@ -929,13 +954,11 @@
                                         <div class="accordion-body">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <!-- <a
-                            href="assets/Departmentalpdf/AY 2021-22 D.Pharmacy.pdf"
-                            target="_blank"
-                          >
-                            <i class="fa fa-file-text px-2"></i> AY 2021-22
-                            D.Pharmacy.pdf <i class="fa fa-download"></i>
-                          </a> -->
+                                                    <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSP/Rgu B.pharm syllabus 2024-25.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i> Syllabus - B. Pharmacy
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
 
                                                 </div>
                                             </div>
@@ -953,23 +976,43 @@
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                         data-bs-parent="#accordionExample">
-                                        <div class="accordion-body"></div>
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSP/M.Pharm Pharmacognosy Syllabus RGU (1).pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - M.Pharm Pharmacognosy
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSP/M.Pharm Pharmaceutics RGU  (1).pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - M.Pharm Pharmaceutics
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSP/M.Pharm Chemistry Syllabus (1).pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - M.Pharm Chemistry
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
+                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             <strong>
                                                 Doctoral Programme
                                             </strong>
                                         </button>
                                     </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <a href="doctoral-programme" class="para1" target="_blank">
+                                            <a href="phd" class="para1" target="_blank">
                                                 <strong>
                                                     Click to View...
                                                 </strong>
@@ -981,8 +1024,7 @@
                         </div>
                         <div class="col-lg-6"></div>
                     </div>
-                </div>
-            </div>
+                </div>          </div>
         </div>
 
     </div>

@@ -803,58 +803,30 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <!-- <a
-                                  href="mobile-assets/department-all/syllabus-new/"
-                                  target="_blank"
-                                >
-                                  <i class="fa fa-file-text px-2"></i>AY 2022-23 BTech CSE.pdf
-                                  <i class="fa fa-download"></i>
-                                </a> -->
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSET/Course Structure CSE New.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i>Course Structure - CSE
+                                                    <i class="fa fa-download"></i>
+                                                </a>
 
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <strong>
-                                                Post Graduate
-                                            </strong>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                        data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <div class="row">
-                                                <!-- <a
-                                  href="mobile-assets/department-all/syllabus-new/"
-                                  target="_blank"
-                                >
-                                  <i class="fa fa-file-text px-2"></i>AY 2022-23 BTech CSE.pdf
-                                  <i class="fa fa-download"></i>
-                                </a> -->
 
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
+                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             <strong>
                                                 Doctoral Programme
                                             </strong>
                                         </button>
                                     </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <a href="doctoral-programme" class="para1" target="_blank">
+                                            <a href="phd" class="para1" target="_blank">
                                                 <strong>
                                                     Click to View...
                                                 </strong>
@@ -866,8 +838,7 @@
                         </div>
                         <div class="col-lg-6"></div>
                     </div>
-                </div>
-            </div>
+                </div>          </div>
         </div>
 
     </div>

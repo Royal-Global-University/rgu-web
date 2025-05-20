@@ -253,17 +253,18 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="assets/Departmentalpdf/AY 2022-23 B.Des. Communication Design.pdf"
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSD/Structure of syllabus - Communication Design.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>AY 2022-23 B.Des.
-                                                    Communication Design.pdf <i class="fa fa-download"></i>
+                                                    <i class="fa fa-file-text px-2"></i>Structure of Syllabus - Communication Design
+                                                    <i class="fa fa-download"></i>
                                                 </a>
 
-                                                <a href="assets/Departmentalpdf/AY 2023-24 B.Des. Communication Design.pdf"
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSD/B.Des. Communication Design 2023-24 Syllabus & Curriculum Sem 1-4 NCrF 3.0.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>AY 2023-24 B.Des.
-                                                    Communication Design.pdf <i class="fa fa-download"></i>
+                                                    <i class="fa fa-file-text px-2"></i>Syllabus and Curriculum - B.Des.
+                                                    Communication Design <i class="fa fa-download"></i>
                                                 </a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -285,17 +286,16 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
+                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             <strong>
                                                 Doctoral Programme
                                             </strong>
                                         </button>
                                     </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <a href="doctoral-programme" class="para1" target="_blank"><strong>
+                                            <a href="phd" class="para1" target="_blank"><strong>
                                                     Click to View...
                                                 </strong></a>
                                         </div>
@@ -305,8 +305,7 @@
                         </div>
                         <div class="col-lg-6"></div>
                     </div>
-                </div>
-            </div>
+                </div>          </div>
         </div>
     </div>
 @endsection
