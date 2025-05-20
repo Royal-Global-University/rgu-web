@@ -131,7 +131,7 @@
             <div>
                 <div>
 
-                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                         Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
 
                     <div class="table-responsive">
@@ -297,7 +297,7 @@
             <div>
                 <div>
 
-                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                         The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
 
                     <div class="table-responsive">
@@ -364,7 +364,7 @@
             <div>
                 <div>
 
-                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                         The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span>
                     </h2>
 
@@ -430,7 +430,7 @@
 
             <div>
 
-                <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                     Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
                 <div class="p-2">
@@ -440,8 +440,7 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="false"
-                                            aria-controls="collapseOne"><strong>
+                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><strong>
                                                 Under Graduate
                                             </strong>
                                         </button>
@@ -450,12 +449,15 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="assets/Departmentalpdf/AY 2022-2023 BFA.pdf" target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>AY 2022-2023 BFA.pdf
+                                                <a href="mobile-assets/department-all/syllabus-new/15_RSFA/BFA Syllabus  AY April 2025 - docx.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - BACHELORS OF FINE ARTS (BFA)
                                                     <i class="fa fa-download"></i>
                                                 </a>
-                                                <a href="assets/Departmentalpdf/AY 2023-2024 BFA.pdf" target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>AY 2023-2024 BFA.pdf
+                                                <a href="mobile-assets/department-all/syllabus-new/15_RSFA/Structure of syllabus 25 -  BFA.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i>Structure of Syllabus - BACHELORS OF FINE
+                                                    ARTS (BFA)
                                                     <i class="fa fa-download"></i>
                                                 </a>
                                             </div>
@@ -473,7 +475,22 @@
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                         data-bs-parent="#accordionExample">
-                                        <div class="accordion-body"></div>
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <a href="mobile-assets/department-all/syllabus-new/15_RSFA/MFA Syllabus  AY April 2025.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i>Syllabus - MASTER OF FINE ARTS (MFA)
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/15_RSFA/Structure of syllabus 25 -  MFA.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i>Structure of Syllabus - MASTER OF FINE ARTS
+                                                    (MFA)
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -485,8 +502,8 @@
                                             </strong>
                                         </button>
                                     </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <a href="phd" class="para1" target="_blank">
                                                 <strong>
@@ -499,8 +516,7 @@
                         </div>
                         <div class="col-lg-6"></div>
                     </div>
-                </div>
-            </div>
+                </div>          </div>
 
         </div>
 

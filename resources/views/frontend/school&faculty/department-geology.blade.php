@@ -305,22 +305,17 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="assets/Departmentalpdf/AY 2022-23 B.Sc Geology.pdf"
+                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geology/Structure of syllabus - UG.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>AY 2022-23 B.Sc
-                                                    Geology.pdf <i class="fa fa-download"></i>
-                                                </a>
-                                                <a href="assets/Departmentalpdf/AY 2023-24 B.Sc Geology.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>AY 2023-24 B.Sc
-                                                    Geology.pdf <i class="fa fa-download"></i>
-                                                </a>
-                                                <a href="assets/Departmentalpdf/Old Syllabus B.Sc Geology.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>Old Syllabus B.Sc
-                                                    Geology.pdf
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Sc. Geology
                                                     <i class="fa fa-download"></i>
                                                 </a>
+                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geology/RGU B.Sc Geology Approved Syllabus (2023 Batch) v.Feb_25.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - B.Sc. Geology
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -338,15 +333,15 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="assets/Departmentalpdf/AY 2023-24 M.Sc Geology Syllabus.pdf"
+                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geology/Structure of syllabus - PG.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>AY 2023-24 M.Sc Geology
-                                                    Syllabus.pdf <i class="fa fa-download"></i>
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - M.Sc. Geology
+                                                    <i class="fa fa-download"></i>
                                                 </a>
-                                                <a href="assets/Departmentalpdf/AY 2021-22 M.Sc Geology.pdf"
+                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geology/RGU M.Sc Geology Approved Syllabus v.Feb25.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> AY 2021-22 M.Sc
-                                                    Geology.pdf <i class="fa fa-download"></i>
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - M.Sc. Geology
+                                                    <i class="fa fa-download"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -361,8 +356,8 @@
                                             </strong>
                                         </button>
                                     </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <a href="phd" class="para1" target="_blank">
                                                 <strong>
@@ -377,7 +372,7 @@
                         <div class="col-lg-6"></div>
                     </div>
                 </div>
-            </div>
+                </div>
 
         </div>
 

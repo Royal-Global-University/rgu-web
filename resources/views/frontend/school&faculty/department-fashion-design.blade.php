@@ -4,82 +4,15 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" class="pb-3"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-fashion/mob-top.png"
-                alt="">
-
-            <div class="container">
-                <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                <div class="table-responsive">
-                    <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
-                        <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
-                            <th class="text-light  font-weight-bold">SL. NO.</th>
-                            <th class="text-light  font-weight-bold">COURSES</th>
-                            <th class="text-light  font-weight-bold">DURATION</th>
-                            <th class="text-light  font-weight-bold">DETAILS</th>
-                        </thead>
-                        <tbody class="para1 bg-light">
-
-                            <tr class="align-middle">
-                                <td>1.</td>
-                                <td>
-                                    <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">M.Sc. - Finearts</strong>
-                                    </p>
-                                </td>
-                                <td class="para1">
-                                    2 Years
-                                </td>
-                                <td>
-                                    <a target="_blank" href="programs-Master-of-Fine-Arts-MFA"><button type="button"
-                                            style="background-color: #FF9A1E; color: #fff;"
-                                            class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                                </td>
-                            </tr>
-
-                            <tr class="align-middle">
-                                <td>2.</td>
-                                <td>
-                                    <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc. - Finearts</strong>
-                                    </p>
-                                </td>
-                                <td class="para1">
-                                    4 Years
-                                </td>
-                                <td>
-                                    <a target="_blank" href="programs-Bachelor-of-Fine-Arts-BFA"><button type="button"
-                                            style="background-color: #FF9A1E; color: #fff;"
-                                            class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                                </td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-
-            </div>
-
-            <img class="pb-3"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-fashion/mob-btm.png"
-                alt="">
-
-        </div>
-
-        <div class="website">
-            @include('frontend/components/aheader')
-            <img class="pb-3"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-fashion/web-top.png"
-                alt="">
+            <img style="padding-top: 80px; position: relative;" class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-fashion/mob-top.png" alt="">
 
             <div class="container">
                 <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                     Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
                 <div class="table-responsive">
-                    <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
+                    <table
+                        class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
                         <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
                             <th class="text-light  font-weight-bold">SL. NO.</th>
                             <th class="text-light  font-weight-bold">COURSES</th>
@@ -92,31 +25,14 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">M.Sc. - Finearts</strong>
-                                    </p>
-                                </td>
-                                <td class="para1">
-                                    2 Years
-                                </td>
-                                <td>
-                                    <a target="_blank" href="programs-Master-of-Fine-Arts-MFA"><button type="button"
-                                            style="background-color: #FF9A1E; color: #fff;"
-                                            class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                                </td>
-                            </tr>
-
-                            <tr class="align-middle">
-                                <td>2.</td>
-                                <td>
-                                    <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc. - Finearts</strong>
+                                        <strong style="color: #023e8a;" class="#">B.Des - FD (Fashion Design)</strong>
                                     </p>
                                 </td>
                                 <td class="para1">
                                     4 Years
                                 </td>
                                 <td>
-                                    <a target="_blank" href="programs-Bachelor-of-Fine-Arts-BFA"><button type="button"
+                                    <a target="_blank" href="programs-b-des-fd-fashion-design"><button type="button"
                                             style="background-color: #FF9A1E; color: #fff;"
                                             class="btn btn-md custom-details-btn fw-bold">Details</button></a>
                                 </td>
@@ -128,9 +44,53 @@
 
             </div>
 
-            <img class="pb-3"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-fashion/web-btm.png"
-                alt="">
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-fashion/mob-btm.png" alt="">
+
+        </div>
+
+        <div class="website">
+            @include('frontend/components/aheader')
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-fashion/web-top.png" alt="">
+
+            <div class="container">
+                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+
+                <div class="table-responsive">
+                    <table
+                        class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
+                        <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
+                            <th class="text-light  font-weight-bold">SL. NO.</th>
+                            <th class="text-light  font-weight-bold">COURSES</th>
+                            <th class="text-light  font-weight-bold">DURATION</th>
+                            <th class="text-light  font-weight-bold">DETAILS</th>
+                        </thead>
+                        <tbody class="para1 bg-light">
+
+                            <tr class="align-middle">
+                                <td>1.</td>
+                                <td>
+                                    <p class="para1">
+                                        <strong style="color: #023e8a;" class="#">B.Des - FD (Fashion Design)</strong>
+                                    </p>
+                                </td>
+                                <td class="para1">
+                                    4 Years
+                                </td>
+                                <td>
+                                    <a target="_blank" href="programs-b-des-fd-fashion-design"><button type="button"
+                                            style="background-color: #FF9A1E; color: #fff;"
+                                            class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-fashion/web-btm.png" alt="">
 
         </div>
 
@@ -636,55 +596,42 @@
                             <div class="accordion para1" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="false"
-                                            aria-controls="collapseOne"><strong>
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                            aria-expanded="false" aria-controls="collapseOne"><strong>
                                                 Under Graduate
                                             </strong>
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                        data-bs-parent="#accordionExample">
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="assets/Departmentalpdf/AY 2022-23 B. Des in Fashion Design.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>AY 2022-23 B. Des in
-                                                    Fashion Design.pdf <i class="fa fa-download"></i>
-                                                </a>
-                                                <a href="assets/Departmentalpdf/AY 2023-24 B. Des in Fashion Design.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>AY 2023-24 B. Des in
-                                                    Fashion Design.pdf <i class="fa fa-download"></i>
-                                                </a>
-                                                <a href="assets/Departmentalpdf/Old Syllabus B.Des in Fashion Design.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>Old Syllabus B.Des in
-                                                    Fashion Design.pdf <i class="fa fa-download"></i>
-                                                </a>
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
                                             <strong>
                                                 Post Graduate
                                             </strong>
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                        data-bs-parent="#accordionExample">
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body"></div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
                                             <strong>
                                                 Doctoral Programme
                                             </strong>

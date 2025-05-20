@@ -4,10 +4,7 @@
         <div class="mobile">
             @include('frontend/components/mobileheader')
             <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-commerce/mob-top.png" alt="">
-
-
             <div class="container">
-
                 <!-- courses section web  -->
                 <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                     Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
@@ -619,38 +616,45 @@
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="assets/Departmentalpdf/B.Com 2022 (Updated).docx"
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/Structure of syllabus - UG.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com 2022 (Updated).docx <i
-                                                            class="fa fa-download"></i>
-                                                    </a>
-
-                                                    <a href="assets/Departmentalpdf/B.Com  2023-24 (NEP).docx"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com 2023-24 (NEP).docx
+                                                        <i class="fa fa-file-text px-2"></i>Structure of Syllabus - B.Com
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="assets/Departmentalpdf/B.Com ACCA 2024-25.docx"
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/Structure  UG F and A.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com ACCA 2024-25.docx
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-                                                    <a href="assets/Departmentalpdf/B.Com CMA 2024-25.docx" target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com CMA 2024-25.docx <i
-                                                            class="fa fa-download"></i>
-                                                    </a>
-
-                                                    <a href="assets/Departmentalpdf/B.Com F&A 2022-23.docx" target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com F&A 2022-23.docx
+                                                        <i class="fa fa-file-text px-2"></i>Programme Structure for B. Com
+                                                        Finance & Accounts based on NEP 2020
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="assets/Departmentalpdf/B.Com ACCA 2024-25.docx"
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/RSC_UG Syllabus 2023-24(NEP).pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com F&A 2023-24.docx
+                                                        <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE & SYLLABUS
+                                                        (BASED ON NATIONAL EDUCATION POLICY 2020)
                                                         <i class="fa fa-download"></i>
                                                     </a>
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/B.Com F&A Batch 2023 Syllabus based on NEP 1st to 8th sem.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>B.Com Finance & Accounts (4
+                                                        YEARS SINGLE MAJOR)
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/2024 B.Com CMA (1).pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>Syllabus for B.Com - CMA
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/2024 B.Com ACCA (1).pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>Syllabus for B.Com - ACCA
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -668,9 +672,10 @@
                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="assets/Departmentalpdf/M.Com.docx" target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>M.Com.docx <i
-                                                            class="fa fa-download"></i>
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/1. RSC M.COM NEP 2025 SYLLABUS[1] (1).pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i> Syllabus - M.Com
+                                                        <i class="fa fa-download"></i>
                                                     </a>
                                                 </div>
                                             </div>
@@ -1322,38 +1327,45 @@
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="assets/Departmentalpdf/B.Com 2022 (Updated).docx"
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/Structure of syllabus - UG.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com 2022 (Updated).docx <i
-                                                            class="fa fa-download"></i>
-                                                    </a>
-
-                                                    <a href="assets/Departmentalpdf/B.Com  2023-24 (NEP).docx"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com 2023-24 (NEP).docx
+                                                        <i class="fa fa-file-text px-2"></i>Structure of Syllabus - B.Com
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="assets/Departmentalpdf/B.Com ACCA 2024-25.docx"
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/Structure  UG F and A.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com ACCA 2024-25.docx
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-                                                    <a href="assets/Departmentalpdf/B.Com CMA 2024-25.docx" target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com CMA 2024-25.docx <i
-                                                            class="fa fa-download"></i>
-                                                    </a>
-
-                                                    <a href="assets/Departmentalpdf/B.Com F&A 2022-23.docx" target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com F&A 2022-23.docx
+                                                        <i class="fa fa-file-text px-2"></i>Programme Structure for B. Com
+                                                        Finance & Accounts based on NEP 2020
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="assets/Departmentalpdf/B.Com ACCA 2024-25.docx"
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/RSC_UG Syllabus 2023-24(NEP).pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>B.Com F&A 2023-24.docx
+                                                        <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE & SYLLABUS
+                                                        (BASED ON NATIONAL EDUCATION POLICY 2020)
                                                         <i class="fa fa-download"></i>
                                                     </a>
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/B.Com F&A Batch 2023 Syllabus based on NEP 1st to 8th sem.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>B.Com Finance & Accounts (4
+                                                        YEARS SINGLE MAJOR)
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/2024 B.Com CMA (1).pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>Syllabus for B.Com - CMA
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/2024 B.Com ACCA (1).pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>Syllabus for B.Com - ACCA
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1371,9 +1383,10 @@
                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="assets/Departmentalpdf/M.Com.docx" target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>M.Com.docx <i
-                                                            class="fa fa-download"></i>
+                                                    <a href="mobile-assets/department-all/syllabus-new/6RSC/1. RSC M.COM NEP 2025 SYLLABUS[1] (1).pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i> Syllabus - M.Com
+                                                        <i class="fa fa-download"></i>
                                                     </a>
                                                 </div>
                                             </div>
