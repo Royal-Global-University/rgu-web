@@ -156,20 +156,20 @@
                         </li>
 
                         <!-- Cell with Submenu -->
-                        {{-- <li class="nav-item dropdown" style="position: relative;">
+                        <li class="nav-item dropdown" style="position: relative;">
                             <a class="nav-link dropdown-toggle para1" href="#" style="color: #fff; font-weight: 600; font-size: 17px;">Cell</a>
                             <ul class="dropdown-menu"
                                 style="display: none; position: absolute; top: 100%; left: -40%; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
 
-                                <li><a class="dropdown-item text-dark   para1" href=""
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('phd-cell') }}"
                                         style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Ph.D. CELL</a>
                                 </li>
-                                <li><a class="dropdown-item text-dark   para1" href="{{ route('equal-opportunities-cell') }}"
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('equal-opportunities-cell') }}"
                                         style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">EQUAL
                                         OPPORTUNITIES <br> CELL</a></li>
-                                <li><a class="dropdown-item text-dark   para1" href="{{ route('counselling-cell') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">COUNSELLING CELL</a></li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('counselling-cell') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">COUNSELLING CELL</a></li>
                             </ul>
-                        </li> --}}
+                        </li>
 
                         <!-- Campus Life with Submenu -->
                         <li class="nav-item dropdown" style="position: relative;">

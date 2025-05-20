@@ -2812,3 +2812,8 @@ Route::get('/lp', function () {
 Route::get('/grievance', function () {
     return view('frontend/quicklink/grievance');
 })->name('grievance');
+
+//Cell
+Route::get('/phd-cell', function () {
+    return view('frontend/cell/phd-cell');
+})->name('phd-cell');
