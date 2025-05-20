@@ -939,243 +939,94 @@
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
 
-                                        <!-- First Row of Cards -->
-                                        <div class="row p-2">
+                                        <div class="table-responsive">
+                                            <table class="table border table-responsive table-striped fs-16 vertical-scroll">
+                                                <thead class="text-light  para1" style="font-size: 14px;">
+                                                    <tr class="text-white para1 text-dark" style="background-color: #005273;">
+                                                        <th>Sl. No.</th>
+                                                        <th>Name</th>
+                                                        <th>Designation</th>
+                                                        <th>Designation in the Ph.D. Cell</th>
+                                                        <th>New nomination / Existing nomination</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="para1 text-dark">
 
-                                            <div class="col-lg-3 pb-4">
-                                                <div class="card" style="
-                                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                                  ">
-                                                    <a>
-                                                        <img src="mobile-assets/doctoral-programmee/Dr.-Sudip-Chakraborty.webp"
-                                                            class="card-img-top p-2" style="border-radius: 10px"
-                                                            alt="Card Image" />
-                                                        <div class="card-body" style="min-height: 140px;">
-                                                            <h5 class="card-title mobile-para1 text-dark"
-                                                                style="text-align: left !important;">
-                                                                Dr. Sudip Chakraborty, Associate Professor, Deputy Dean(I/c),
-                                                                RSC
-                                                            </h5>
-                                                            <p class="text-dark mobile-para1">
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                    <div style="
-                                      background-color: #e2edff;
-                                      padding: 10px;
-                                      border-radius: 10px;
-                                    ">
-                                                        <div class="mobile-para1 fw-bold text-center text-dark">Deputy Director,
-                                                            Ph.D. Cell
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Dr. D. N. Singh</td>
+                                                        <td>Registrar</td>
+                                                        <td>Academic Head, Ph.D. Cell</td>
+                                                        <td>New</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Prof. (Dr.) Sudip Chakraborty</td>
+                                                        <td>Deputy Dean (i/c), Royal School of Commerce</td>
+                                                        <td>Deputy Director, Ph.D. Cell</td>
+                                                        <td>Existing</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Dr. Niraj Singh</td>
+                                                        <td>Assistant Professor, Department of Microbiology, Royal School of Biosciences</td>
+                                                        <td>Coordinator, Ph.D. Cell</td>
+                                                        <td>Existing</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Prof. (Dr.) Prithviraj Chakraborty</td>
+                                                        <td>Professor & Principal, Royal School of Pharmacy</td>
+                                                        <td>Member, Ph.D. Cell</td>
+                                                        <td>New</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Dr. Debajit Borah</td>
+                                                        <td>Associate Professor and Head, Department of Biotechnology, Royal School of
+                                                            Biosciences
+                                                        </td>
+                                                        <td>Member, Ph.D. Cell</td>
+                                                        <td>Existing</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>Dr. Indrajit Dutta</td>
+                                                        <td>Associate Professor and Head, Royal School of Travel and Tourism Management</td>
+                                                        <td>Member, Ph.D. Cell</td>
+                                                        <td>New</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>Dr. Rishi Chakravarty</td>
+                                                        <td>Associate Professor, Royal School of Business</td>
+                                                        <td>Member, Ph.D. Cell</td>
+                                                        <td>New</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>Dr. Hirak Jyoti Hazarika</td>
+                                                        <td>Assistant Professor and Head, Royal School of Library Sciences</td>
+                                                        <td>Member, Ph.D. Cell</td>
+                                                        <td>New</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>9</td>
+                                                        <td>Dr. Pratikshya Borah</td>
+                                                        <td>Assistant Professor, Department of Botany, Royal School of Life Sciences</td>
+                                                        <td>Member, Ph.D. Cell</td>
+                                                        <td>New</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>10</td>
+                                                        <td>Mr. Ankur Sarkar</td>
+                                                        <td>Senior Executive, Office of Ph.D. Cell</td>
+                                                        <td>Non-teaching staff</td>
+                                                        <td></td>
+                                                    </tr>
 
-                                            <div class="col-lg-3 pb-4">
-                                                <div class="card" style="
-                                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                                  ">
-                                                    <a>
-                                                        <img src="mobile-assets/doctoral-programmee/Dr.-Niraj-Singh.webp"
-                                                            class="card-img-top p-2" style="border-radius: 10px"
-                                                            alt="Card Image" />
-                                                        <div class="card-body" style="min-height: 140px;">
-                                                            <h5 class="card-title mobile-para1 text-dark"
-                                                                style="text-align: left !important;">
-                                                                Dr. Niraj Singh,<br> Assistant Professor & Coordinator,
-                                                                Microbiology, RSBSC
-                                                            </h5>
-                                                            <p class="text-dark mobile-para1">
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                    <div style="
-                                      background-color: #e2edff;
-                                      padding: 10px;
-                                      border-radius: 10px;
-                                    ">
-                                                        <div class="mobile-para1 fw-bold text-center text-dark">Coordinator,
-                                                            Ph.D. Cell
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-3 pb-4">
-                                                <div class="card" style="
-                                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                                  ">
-                                                    <a>
-                                                        <img src="mobile-assets/doctoral-programmee/Dr.-Debajit-Borah.webp"
-                                                            class="card-img-top p-2" style="border-radius: 10px"
-                                                            alt="Card Image" />
-                                                        <div class="card-body" style="min-height: 140px;">
-                                                            <h5 class="card-title mobile-para1 text-dark"
-                                                                style="text-align: left !important;">
-                                                                Dr. Debajit Borah,<br> Associate Professor, Biotechnology, RSBSC
-                                                            </h5>
-                                                            <p class="text-dark mobile-para1">
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                    <div style="
-                                      background-color: #e2edff;
-                                      padding: 10px;
-                                      border-radius: 10px;
-                                    ">
-                                                        <div class="mobile-para1 fw-bold text-center text-dark">Member</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <!-- Second Row of Cards -->
-                                        <div class="row p-2 pt-1">
-
-                                            <div class="col-lg-3 pb-3">
-                                                <div class="card" style="
-                                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                                  ">
-                                                    <a>
-                                                        <img src="mobile-assets/doctoral-programmee/Dr.-Sanchita-Roy.webp"
-                                                            class="card-img-top p-2" style="border-radius: 10px"
-                                                            alt="Card Image" />
-                                                        <div class="card-body" style="min-height: 140px;">
-                                                            <h5 class="card-title mobile-para1 text-dark"
-                                                                style="text-align: left !important;">
-                                                                Dr. Sanchita Roy,<br> Assistant Professor, Physics, RSAPS
-                                                            </h5>
-                                                            <p class="text-dark mobile-para1">
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                    <div style="
-                                      background-color: #e2edff;
-                                      padding: 10px;
-                                      border-radius: 10px;
-                                    ">
-                                                        <div class="mobile-para1 fw-bold text-center text-dark">Member</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-3 pb-3">
-                                                <div class="card" style="
-                                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                                  ">
-                                                    <a>
-                                                        <img src="mobile-assets/doctoral-programmee/Dr-Fariza-Saidin.webp"
-                                                            class="card-img-top p-2" style="border-radius: 10px"
-                                                            alt="Card Image" />
-                                                        <div class="card-body" style="min-height: 140px;">
-                                                            <h5 class="card-title mobile-para1 text-dark"
-                                                                style="text-align: left !important;">
-                                                                Dr. Fariza Saidin,<br> Assistant Professor, RSBAS
-                                                            </h5>
-                                                            <p class="text-dark mobile-para1">
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                    <div style="
-                                      background-color: #e2edff;
-                                      padding: 10px;
-                                      border-radius: 10px;
-                                    ">
-                                                        <div class="mobile-para1 fw-bold text-center text-dark">Member
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-3 pb-3">
-                                                <div class="card" style="
-                                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                                  ">
-                                                    <a>
-                                                        <img src="mobile-assets/doctoral-programmee/Dr-Durba-Dutta.webp"
-                                                            class="card-img-top p-2" style="border-radius: 10px"
-                                                            alt="Card Image" />
-                                                        <div class="card-body" style="min-height: 140px;">
-                                                            <h5 class="card-title mobile-para1 text-dark"
-                                                                style="text-align: left !important;">
-                                                                Dr. Durba Dutta,<br> Assistant Professor & Coordinator,
-                                                                Economics, RSHSS
-                                                            </h5>
-                                                            <p class="text-dark mobile-para1">
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                    <div style="
-                                      background-color: #e2edff;
-                                      padding: 10px;
-                                      border-radius: 10px;
-                                    ">
-                                                        <div class="mobile-para1 fw-bold text-center text-dark">Member
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-3 pb-3">
-                                                <div class="card" style="
-                                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                                  ">
-                                                    <a>
-                                                        <img src="mobile-assets/doctoral-programmee/Mr.-Ankur-Sarkar.webp"
-                                                            class="card-img-top p-2" style="border-radius: 10px"
-                                                            alt="Card Image" />
-                                                        <div class="card-body" style="min-height: 140px;">
-                                                            <h5 class="card-title mobile-para1 text-dark"
-                                                                style="text-align: left !important;">
-                                                                Mr. Ankur Sarkar,<br> Admin Staff
-                                                            </h5>
-                                                            <p class="text-dark mobile-para1">
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                    <div style="
-                                      background-color: #e2edff;
-                                      padding: 10px;
-                                      border-radius: 10px;
-                                    ">
-                                                        <div class="mobile-para1 fw-bold text-center text-dark">Senior
-                                                            Executive, Ph.D. Cell.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
+                                                </tbody>
+                                            </table>              </div>
                                     </div>
                                 </div>
 
@@ -1959,244 +1810,94 @@
                             <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
 
-                                    <!-- First Row of Cards -->
-                                    <div class="row p-5">
+                                    <div class="table-responsive">
+                                        <table class="table border table-responsive table-striped fs-16 vertical-scroll">
+                                            <thead class="text-light  para1" style="font-size: 14px;">
+                                                <tr class="text-white para1 text-dark" style="background-color: #005273;">
+                                                    <th>Sl. No.</th>
+                                                    <th>Name</th>
+                                                    <th>Designation</th>
+                                                    <th>Designation in the Ph.D. Cell</th>
+                                                    <th>New nomination / Existing nomination</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="para1 text-dark">
 
-                                        <div class="col-lg-3">
-                                            <div class="card" style="
-                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                  ">
-                                                <a >
-                                                    <img src="mobile-assets/doctoral-programmee/ankur-ganguly.webp" class="card-img-top p-2" style="border-radius: 10px" alt="Card Image" />
-                                                    <div class="card-body" style="min-height: 140px;">
-                                                        <h5 class="card-title para1 text-dark" style="text-align: left !important;">
-                                                            Prof. (Dr.) Ankur Ganguly,<br> Dean Academics
-                                                        </h5>
-                                                        <p class="text-dark para1">
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <div style="
-                      background-color: #e2edff;
-                      padding: 10px;
-                      border-radius: 10px;
-                    ">
-                                                    <div class="para1 fw-bold text-center text-dark">Head, Ph.D. Cell</div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Dr. D. N. Singh</td>
+                                                    <td>Registrar</td>
+                                                    <td>Academic Head, Ph.D. Cell</td>
+                                                    <td>New</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Prof. (Dr.) Sudip Chakraborty</td>
+                                                    <td>Deputy Dean (i/c), Royal School of Commerce</td>
+                                                    <td>Deputy Director, Ph.D. Cell</td>
+                                                    <td>Existing</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Dr. Niraj Singh</td>
+                                                    <td>Assistant Professor, Department of Microbiology, Royal School of Biosciences</td>
+                                                    <td>Coordinator, Ph.D. Cell</td>
+                                                    <td>Existing</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Prof. (Dr.) Prithviraj Chakraborty</td>
+                                                    <td>Professor & Principal, Royal School of Pharmacy</td>
+                                                    <td>Member, Ph.D. Cell</td>
+                                                    <td>New</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Dr. Debajit Borah</td>
+                                                    <td>Associate Professor and Head, Department of Biotechnology, Royal School of
+                                                        Biosciences
+                                                    </td>
+                                                    <td>Member, Ph.D. Cell</td>
+                                                    <td>Existing</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>Dr. Indrajit Dutta</td>
+                                                    <td>Associate Professor and Head, Royal School of Travel and Tourism Management</td>
+                                                    <td>Member, Ph.D. Cell</td>
+                                                    <td>New</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>Dr. Rishi Chakravarty</td>
+                                                    <td>Associate Professor, Royal School of Business</td>
+                                                    <td>Member, Ph.D. Cell</td>
+                                                    <td>New</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>Dr. Hirak Jyoti Hazarika</td>
+                                                    <td>Assistant Professor and Head, Royal School of Library Sciences</td>
+                                                    <td>Member, Ph.D. Cell</td>
+                                                    <td>New</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>Dr. Pratikshya Borah</td>
+                                                    <td>Assistant Professor, Department of Botany, Royal School of Life Sciences</td>
+                                                    <td>Member, Ph.D. Cell</td>
+                                                    <td>New</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>Mr. Ankur Sarkar</td>
+                                                    <td>Senior Executive, Office of Ph.D. Cell</td>
+                                                    <td>Non-teaching staff</td>
+                                                    <td></td>
+                                                </tr>
 
-                                        <div class="col-lg-3">
-                                            <div class="card" style="
-                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                  ">
-                                                <a>
-                                                    <img src="mobile-assets/doctoral-programmee/Dr.-Sudip-Chakraborty.webp" class="card-img-top p-2" style="border-radius: 10px" alt="Card Image" />
-                                                    <div class="card-body" style="min-height: 140px;">
-                                                        <h5 class="card-title para1 text-dark" style="text-align: left !important;">
-                                                            Dr. Sudip Chakraborty, Associate Professor, Deputy Dean(I/c), RSC
-                                                        </h5>
-                                                        <p class="text-dark para1">
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <div style="
-                      background-color: #e2edff;
-                      padding: 10px;
-                      border-radius: 10px;
-                    ">
-                                                    <div class="para1 fw-bold text-center text-dark">Deputy Director, Ph.D. Cell
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="card" style="
-                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                  ">
-                                                <a>
-                                                    <img src="mobile-assets/doctoral-programmee/Dr.-Niraj-Singh.webp" class="card-img-top p-2" style="border-radius: 10px" alt="Card Image" />
-                                                    <div class="card-body" style="min-height: 140px;">
-                                                        <h5 class="card-title para1 text-dark" style="text-align: left !important;">
-                                                            Dr. Niraj Singh,<br> Assistant Professor & Coordinator, Microbiology, RSBSC
-                                                        </h5>
-                                                        <p class="text-dark para1">
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <div style="
-                      background-color: #e2edff;
-                      padding: 10px;
-                      border-radius: 10px;
-                    ">
-                                                    <div class="para1 fw-bold text-center text-dark">Coordinator, Ph.D. Cell
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="card" style="
-                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                  ">
-                                                <a>
-                                                    <img src="mobile-assets/doctoral-programmee/Dr.-Debajit-Borah.webp" class="card-img-top p-2" style="border-radius: 10px" alt="Card Image" />
-                                                    <div class="card-body" style="min-height: 140px;">
-                                                        <h5 class="card-title para1 text-dark" style="text-align: left !important;">
-                                                            Dr. Debajit Borah,<br> Associate Professor, Biotechnology, RSBSC
-                                                        </h5>
-                                                        <p class="text-dark para1">
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <div style="
-                      background-color: #e2edff;
-                      padding: 10px;
-                      border-radius: 10px;
-                    ">
-                                                    <div class="para1 fw-bold text-center text-dark">Member</div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <!-- Second Row of Cards -->
-                                    <div class="row p-5 pt-1">
-
-                                        <div class="col-lg-3">
-                                            <div class="card" style="
-                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                  ">
-                                                <a >
-                                                    <img src="mobile-assets/doctoral-programmee/Dr.-Sanchita-Roy.webp" class="card-img-top p-2" style="border-radius: 10px" alt="Card Image" />
-                                                    <div class="card-body" style="min-height: 140px;">
-                                                        <h5 class="card-title para1 text-dark" style="text-align: left !important;">
-                                                            Dr. Sanchita Roy,<br> Assistant Professor, Physics, RSAPS
-                                                        </h5>
-                                                        <p class="text-dark para1">
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <div style="
-                      background-color: #e2edff;
-                      padding: 10px;
-                      border-radius: 10px;
-                    ">
-                                                    <div class="para1 fw-bold text-center text-dark">Member</div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="card" style="
-                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                  ">
-                                                <a>
-                                                    <img src="mobile-assets/doctoral-programmee/Dr-Fariza-Saidin.webp" class="card-img-top p-2" style="border-radius: 10px" alt="Card Image" />
-                                                    <div class="card-body" style="min-height: 140px;">
-                                                        <h5 class="card-title para1 text-dark" style="text-align: left !important;">
-                                                            Dr. Fariza Saidin,<br> Assistant Professor, RSBAS
-                                                        </h5>
-                                                        <p class="text-dark para1">
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <div style="
-                      background-color: #e2edff;
-                      padding: 10px;
-                      border-radius: 10px;
-                    ">
-                                                    <div class="para1 fw-bold text-center text-dark">Member
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="card" style="
-                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                  ">
-                                                <a>
-                                                    <img src="mobile-assets/doctoral-programmee/Dr-Durba-Dutta.webp" class="card-img-top p-2" style="border-radius: 10px" alt="Card Image" />
-                                                    <div class="card-body" style="min-height: 140px;">
-                                                        <h5 class="card-title para1 text-dark" style="text-align: left !important;">
-                                                            Dr. Durba Dutta,<br> Assistant Professor & Coordinator, Economics, RSHSS
-                                                        </h5>
-                                                        <p class="text-dark para1">
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <div style="
-                      background-color: #e2edff;
-                      padding: 10px;
-                      border-radius: 10px;
-                    ">
-                                                    <div class="para1 fw-bold text-center text-dark">Member
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="card" style="
-                    box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
-                      0px 5px 4px rgba(3, 7, 18, 0.06),
-                      0px 12px 9px rgba(3, 7, 18, 0.05),
-                      0px 21px 15px rgba(3, 7, 18, 0.03),
-                      0px 33px 24px rgba(3, 7, 18, 0.02);
-                  ">
-                                                <a>
-                                                    <img src="mobile-assets/doctoral-programmee/Mr.-Ankur-Sarkar.webp" class="card-img-top p-2" style="border-radius: 10px" alt="Card Image" />
-                                                    <div class="card-body" style="min-height: 140px;">
-                                                        <h5 class="card-title para1 text-dark" style="text-align: left !important;">
-                                                            Mr. Ankur Sarkar,<br> Admin Staff
-                                                        </h5>
-                                                        <p class="text-dark para1">
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <div style="
-                      background-color: #e2edff;
-                      padding: 10px;
-                      border-radius: 10px;
-                    ">
-                                                    <div class="para1 fw-bold text-center text-dark">Senior Executive, Ph.D. Cell.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
+                                            </tbody>
+                                        </table>          </div>
 
 
                                 </div>

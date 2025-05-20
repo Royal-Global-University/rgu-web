@@ -72,9 +72,6 @@
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('anti-ragging') }}"
                                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ANTI
                                                 RAGGING <br> COMMITTEE</a></li>
-                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('equal-opportunities-cell') }}"
-                                                style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">EQUAL
-                                                OPPORTUNITIES <br> CELL</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('proctorial') }}"
                                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">PROCTORAL
                                                 BOARD</a></li>
@@ -183,7 +180,6 @@
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('department-store') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">DEPARTMENTAL STORE</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('hangout') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">HANGOUT</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('medical-facility') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">MEDICAL FACILITY</a></li>
-                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('counselling-cell') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">COUNSELLING CELL</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('laundry') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">LAUNDRY</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('salon') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">SALON</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('stationary-store') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px;">STATIONARY STORE</a></li>
