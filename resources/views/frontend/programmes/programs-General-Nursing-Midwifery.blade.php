@@ -1,9 +1,12 @@
 @extends('frontend.master')
+@section('title', 'Best General Nursing & Midwifery Course at Royal Global University | Leading Program in Assam')
+@section('meta_description', 'Join Royal Global University’s General Nursing & Midwifery program to develop essential nursing and midwifery skills with expert guidance and practical training.')
+@section('meta_keywords', 'General Nursing & Midwifery')
 @section('content')
 <div class="mobile">
 @include('frontend/components/mobileheader')
 <div style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp); padding-top: 90px; position: relative;">
- 
+
 
 <h2 class="mobile-headd2 kd-title-ani kd-split pb-1 pt-3 text-center" style="color: #264273; font-weight: 700;">General Nursing & Midwifery (GNM)
 </h2>
@@ -15,11 +18,11 @@
         <!-- YouTube-Style Fixed Tabs Start -->
 <div class="container mt-4" style="max-width: 900px;">
 
-<ul class="nav nav-tabs justify-content-center border-0 shadow-sm" id="infoTabs" role="tablist" 
+<ul class="nav nav-tabs justify-content-center border-0 shadow-sm" id="infoTabs" role="tablist"
     style="display: flex; gap: 10px; padding: 10px; background: #ffffff; border-radius: 8px;">
     <li class="nav-item" role="presentation">
-        <button class="nav-link active border" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" 
-            aria-controls="tab1" aria-selected="true" 
+        <button class="nav-link active border" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab"
+            aria-controls="tab1" aria-selected="true"
             style="font-size: 16px; font-weight: 500; color: white; padding: 10px 18px; border: none; background: #27467A; border-radius: 6px; transition: all 0.3s ease-in-out;">
             Fee
         </button>
@@ -52,7 +55,7 @@
             How to Apply
         </button>
     </li>
-  
+
 </ul>
 
 <div style="padding: 20px 0px 0px 0px;">
@@ -75,7 +78,7 @@
             <li>Yearly Payment (Rs. - 150000.00)</li>
             <li>Semester Payment (Rs. - 76500.00)</li>
         </ol>
-        
+
     </div>
     <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
         <p class="mobile-headd3 fw-bold text-dark">Eligibility Criteria
@@ -84,11 +87,11 @@
         <p class="mobile-para1 text-dark"> i) 10+2 with English and must have obtained a minimum of 40% at the qualifying examination and English individually from any recognized board. Candidates are also eligible from the State Open School recognized by the State Government and National Institute of Open School (NIOS) recognized by Central Government. However, Science is preferable.
 
             ii) 10+2 with English having 40% of marks in vocational ANM course from the school recognized by Indian Nursing Council
-            
+
             iii) 10+2 with English having 40% of marks in Vocational Stream-Health care Science from a recognized CBSE board/State/Centre
-            
+
             iv) Registered ANM with pass mark.
-                                        
+
         </p>
 
         <p class="mobile-headd3 fw-bold text-dark">Selection Process
@@ -100,7 +103,7 @@
 
     </div>
     <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-        
+
     <div class="text-center">
         <img class="mb-3 rounded shadow-sm" style="width: 200px;" src="assets/img/File/brochurethumb.png" alt="">
 
@@ -108,7 +111,7 @@
             <i class="fa fa-download"></i> Download Brochure
         </a>
     </div>
-        
+
     </div>
     <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
         <p class="mobile-headd3 fw-bold text-dark">Scholarships
@@ -167,7 +170,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.4);
     padding: 15px;">
-    
+
     <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
         <span class="mobile-para1" style="
             font-weight: bold; font-size: 16px; line-height: 1.3;
@@ -271,11 +274,11 @@ document.addEventListener("DOMContentLoaded", function() {
                             i) 10+2 with English and must have obtained a minimum of 40% at the qualifying examination and English individually from any recognized board. Candidates are also eligible from the State Open School recognized by the State Government and National Institute of Open School (NIOS) recognized by Central Government. However, Science is preferable.
 
                             ii) 10+2 with English having 40% of marks in vocational ANM course from the school recognized by Indian Nursing Council
-                            
+
                             iii) 10+2 with English having 40% of marks in Vocational Stream-Health care Science from a recognized CBSE board/State/Centre
-                            
+
                             iv) Registered ANM with pass mark.
-                                                        
+
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
                         <p class="text-dark pt-2 m-0">Based on overall performance in last examination followed by

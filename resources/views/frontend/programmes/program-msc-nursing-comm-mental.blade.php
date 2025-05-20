@@ -1,9 +1,12 @@
 @extends('frontend.master')
+@section('title', 'Study M.Sc Nursing at Royal Global University – Top Postgraduate Nursing Course in Assam')
+@section('meta_description', 'Royal Global University offers a comprehensive M.Sc Nursing program focused on clinical expertise, research, and advanced patient care for nursing professionals.')
+@section('meta_keywords', 'M.SC Nursing')
 @section('content')
 <div class="mobile">
 @include('frontend/components/mobileheader')
 <div style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp); padding-top: 90px; position: relative;">
- 
+
 
 <h2 class="mobile-headd2 kd-title-ani kd-split pb-1 pt-3 text-center" style="color: #264273; font-weight: 700;">M.Sc. Nursing
 </h2>
@@ -17,11 +20,11 @@
         <!-- YouTube-Style Fixed Tabs Start -->
 <div class="container mt-4" style="max-width: 900px;">
 
-<ul class="nav nav-tabs justify-content-center border-0 shadow-sm" id="infoTabs" role="tablist" 
+<ul class="nav nav-tabs justify-content-center border-0 shadow-sm" id="infoTabs" role="tablist"
     style="display: flex; gap: 10px; padding: 10px; background: #ffffff; border-radius: 8px;">
     <li class="nav-item" role="presentation">
-        <button class="nav-link active border" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" 
-            aria-controls="tab1" aria-selected="true" 
+        <button class="nav-link active border" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab"
+            aria-controls="tab1" aria-selected="true"
             style="font-size: 16px; font-weight: 500; color: white; padding: 10px 18px; border: none; background: #27467A; border-radius: 6px; transition: all 0.3s ease-in-out;">
             Fee
         </button>
@@ -54,7 +57,7 @@
             How to Apply
         </button>
     </li>
-  
+
 </ul>
 
 <div style="padding: 20px 0px 0px 0px;">
@@ -77,7 +80,7 @@
             <li>Yearly Payment (Rs. - 160000.00)</li>
             <li>Semester Payment (Rs. - 81500.00)</li>
         </ol>
-        
+
     </div>
     <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
         <p class="mobile-headd3 fw-bold text-dark">Eligibility Criteria
@@ -93,7 +96,7 @@
                 <li>The candidate registered as “Registered Nurse” (and not Midwife) will not be eligible for specialization in “Obstetrics & Gynaecology Nursing”.</li>
                 <li>Candidate shall be medically fit. The candidate, selected for admission in the MSc. Nursing course, shall have to submit a medical fitness certificate from a physician during the admission.</li>
                 <li>Candidates who have obtained degree qualification through distance mode will not be eligible for admission.</li>
-              </ol>       
+              </ol>
         </p>
 
         <p class="mobile-headd3 fw-bold text-dark">Selection Process
@@ -104,7 +107,7 @@
 
     </div>
     <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-        
+
     <div class="text-center">
         <img class="mb-3 rounded shadow-sm" style="width: 200px;" src="assets/img/File/brochurethumb.png" alt="">
 
@@ -112,7 +115,7 @@
             <i class="fa fa-download"></i> Download Brochure
         </a>
     </div>
-        
+
     </div>
     <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
         <p class="mobile-headd3 fw-bold text-dark">Scholarships
@@ -171,7 +174,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.4);
     padding: 15px;">
-    
+
     <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
         <span class="mobile-para1" style="
             font-weight: bold; font-size: 16px; line-height: 1.3;
@@ -273,7 +276,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div id="Eligibility" class="w3-container city card p-5 shadow" style="display:none">
                     <div class="card-body para1">
                         <p class="text-dark pt-2 fw-bold m-0">Eligibility Criteria</p>
-                    
+
                         <ol class="text-dark pt-2 m-0">
                             <li>The minimum educational requirements shall be the passing of BSc. Nursing / BSc. Hons. Nursing/Post Basic BSc. Nursing with a minimum of 55% marks in aggregate. 5% relaxation of marks for SC/ST/OBC candidates will be given.</li>
                             <li>The candidate should have undergone BSc. Nursing / BSc. Hons. Nursing / Post Basic BSc. Nursing in an institution which is recognized by the Indian Nursing Council.</li>
@@ -283,7 +286,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <li>The candidate registered as “Registered Nurse” (and not Midwife) will not be eligible for specialization in “Obstetrics & Gynaecology Nursing”.</li>
                             <li>Candidate shall be medically fit. The candidate, selected for admission in the MSc. Nursing course, shall have to submit a medical fitness certificate from a physician during the admission.</li>
                             <li>Candidates who have obtained degree qualification through distance mode will not be eligible for admission.</li>
-                          </ol>       
+                          </ol>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
                         <p class="text-dark pt-2 m-0">Based on overall performance in last examination followed by
                             Personal Interview.</p>
