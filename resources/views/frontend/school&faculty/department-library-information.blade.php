@@ -275,7 +275,7 @@
                                                     <i class="fa fa-file-text px-2"></i> PhD PAPER 4 RSLIS.pdf
                                                     <i class="fa fa-download"></i>
                                                 </a>
-                                                <a href="doctoral-programme" class="para1" target="_blank">
+                                                <a href="phd" class="para1" target="_blank">
                                                     <strong>
                                                         Click to View...
                                                     </strong>

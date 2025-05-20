@@ -750,7 +750,7 @@
                   >
                     <div class="accordion-body">
                       <strong
-                        ><a href="doctoral-programme.html">
+                        ><a href="phd">
                           Click to View...</a
                         ></strong
                       >
@@ -1527,7 +1527,7 @@
                   >
                     <div class="accordion-body">
                       <strong
-                        ><a href="doctoral-programme.html">
+                        ><a href="phd">
                           Click to View...</a
                         ></strong
                       >
