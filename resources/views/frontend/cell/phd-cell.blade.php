@@ -137,22 +137,6 @@
 
                 </div>
             </div>
-
-            <div class="container mb-5">
-                <div class="container"
-                    style="background: #1f3b6b; color: white; padding: 15px; border-radius: 10px; flex-wrap: wrap; text-align: center;">
-                    <p class="mobile-mobile-headd3" style="font-weight: bold;">For any query:</p>
-                    <p class="mobile-para1"><span style="font-weight: bold;">Ph. no:</span> <a href="tel: 9678009412"
-                            style="color: white; text-decoration: none;">+91 9678009412</a></p>
-                    <p class="mobile-para1"><span style="font-weight: bold;">Email:</span> <a href="mailto: icc@rgu.ac"
-                            style="color: white; text-decoration: none;">icc@rgu.ac</a></p>
-                    <a href="tel: 9678009412" class="mobile-call-btn fw-bold"
-                        style="text-decoration: none; background: #FF9A1E; color: white; padding: 8px 20px; border-radius: 5px; font-size: 18px; margin-top: 10px; display: inline-block;">
-                        Call Now
-                    </a>
-                </div>
-            </div>
-
         </div>
     </div>
 
@@ -302,28 +286,6 @@
 
                 </div>
             </div>
-
-            <div class=" pb-4">
-                <section style="border-bottom: 4px solid #1f3b6f;">
-                    <div class="contact-section">
-
-                        <div class="contact-icon">
-                            <img style="width: 120px; height: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/intern-oncaampus-job/telephone-call.png" alt="Phone Icon">
-                        </div>
-
-                        <div class="contact-info">
-                            <div class="contact-title">For any query:</div>
-                            <br>
-                            <div class="contact-bold">Ph. no: +91 9678009412</div>
-                            <div class="contact-bold">Email: icc@rgu.ac</div>
-                        </div>
-
-                    </div>
-                </section>
-            </div>
-
-
             <!--End About-->
         </div>
     </div>
