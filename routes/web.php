@@ -68,6 +68,8 @@ Route::get('/leadership', function () {
     return view('frontend/discoverRGU/leadership');
 })->name('leadership');
 
+//advisory-leadership
+
 Route::get('/advisory-leadership', function () {
     return view('frontend/discoverRGU/advisory-leadership');
 })->name('advisory-leadership');
@@ -75,6 +77,10 @@ Route::get('/advisory-leadership', function () {
 Route::get('/advisory-prof-prabuddha-ganguli', function () {
     return view('frontend/discoverRGU/advisory-prof-prabuddha-ganguli');
 })->name('advisory-prof-prabuddha-ganguli');
+
+Route::get('/advisory-sri-ravi-kant', function () {
+    return view('frontend/discoverRGU/advisory-sri-ravi-kant');
+})->name('advisory-sri-ravi-kant');
 
 Route::get('/leadership-anil-kumar', function () {
     return view('frontend/discoverRGU/leadership-anil-kumar');
@@ -2817,3 +2823,9 @@ Route::get('/grievance', function () {
 Route::get('/phd-cell', function () {
     return view('frontend/cell/phd-cell');
 })->name('phd-cell');
+
+
+//faculty profile
+Route::get('/dr-shwetambara-verma', function () {
+    return view('frontend/facultyprofile/shwetambara-verma');
+})->name('dr-shwetambara-verma');
