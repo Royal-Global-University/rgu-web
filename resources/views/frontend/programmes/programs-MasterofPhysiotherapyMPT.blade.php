@@ -80,8 +80,7 @@
 
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
-                        <p class="text-dark pt-2 m-0">Candidates must obtain a valid score in JEE (Mains) Paper II (Subject to clearance by COA) followed by
-                            Personal Interview.</p>
+                        <p class="text-dark pt-2 m-0">Based on overall performance in last examination(BPT) followed by Personal Interview.</p>
                     </div>
                 </div>
                 <div id="Brochure" class="w3-container city card p-5 shadow" style="display:none">
@@ -111,7 +110,7 @@
                             Existing students can seek help from their departmental coordinators to keep themselves
                             updated for the scholarship application deadlines and process.</p>
 
-                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="scholarship&funding.html">More details, click
+                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="scholarship&funding">More details, click
                                 to view...</a></p>
                     </div>
                 </div>
@@ -127,7 +126,7 @@
                             and
                             make invaluable contacts and lifelong friends.</p>
 
-                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="admission-how-to-apply.html"> more details
+                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="how-to-apply"> more details
                                 click to view... </a></p><br>
 
                         <p class="text-dark pt-2 fw-bold m-0">FULLY ONLINE ADMISSION PROCESS</p>
