@@ -94,7 +94,7 @@
                                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri
                                         Subramanian Ramadorai</h5>
                                     <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Former CEO &
-                                        MD of Tata Consultancy Services and Former Chairperson of NSDC and NSDA</p>
+                                        MD of Tata Consultancy Services and Former Chairperson of NSDC and NSDA | Member of Governing Body, The Assam Royal Global University</p>
 
                                     <!-- <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p> -->
                                 </div>
@@ -217,7 +217,7 @@
                                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri
                                         Subramanian Ramadorai</h5>
                                     <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Former CEO &
-                                        MD of Tata Consultancy Services and Former Chairperson of NSDC and NSDA</p>
+                                        MD of Tata Consultancy Services and Former Chairperson of NSDC and NSDA | Member of Governing Body, The Assam Royal Global University</p>
 
                                     <!-- <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p> -->
                                 </div>
