@@ -90,6 +90,10 @@
                         <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded"
                             alt="...">
                     </div>
+                    <div class="carousel-item active">
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may21.jpeg"
+                            class="d-block w-100 rounded" alt="...">
+                    </div>
                 </div>
             </div>
         </section>
@@ -750,6 +754,8 @@
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/subram-web.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may21-mob.jpeg"
+                                            style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
 

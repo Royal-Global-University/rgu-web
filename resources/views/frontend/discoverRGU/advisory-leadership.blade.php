@@ -68,10 +68,10 @@
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri Ravi
-                                        kant</h5>
+                                        Kant</h5>
                                     <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Former
                                         Managing Director and Vice Chairman of Tata Motors | Strategic Leader | Nation
-                                        Builder</p>
+                                        Builder | Member of Advisory Board, The Assam Royal Global University </p>
 
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
                                         Profile</p>
@@ -159,7 +159,7 @@
 
                         <a href="advisory-prof-prabuddha-ganguli">
                             <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
                                         src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Professor-Dr-Prabuddha-Ganguli.png"
@@ -183,7 +183,7 @@
 
                         <a href="advisory-sri-ravi-kant">
                             <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
                                         src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Sri-Ravi-Kant.png"
@@ -191,12 +191,12 @@
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri Ravi
-                                        kant</h5>
+                                        Kant</h5>
                                     <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Former
                                         Managing Director and Vice Chairman of Tata Motors | Strategic Leader | Nation
-                                        Builder</p>
+                                        Builder | Member of Advisory Board, The Assam Royal Global University</p>
 
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                    <p class="card-text para1 half-underline fw-bold" style="color: #FF9A1E;">View
                                         Profile</p>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@
 
                         <a href="#!">
                             <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
                                         src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/sri-subramanian-ramadorai.jpg"
