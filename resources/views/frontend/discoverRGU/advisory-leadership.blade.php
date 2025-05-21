@@ -120,7 +120,7 @@
                 style="color: #27467A; font-weight: 900;">
                 Advisory <span style="color: #FF9A1E; font-weight: 500;">Leadership</span></h2>
 
-            <div style="padding: 20px 60px;">
+            <div style="padding: 20px 20px;">
 
                 <div class="row" style="display: flex; align-items: center; justify-content: center; gap: 40px;">
 
@@ -151,7 +151,7 @@
 
             </div>
 
-            <div style="padding: 20px 60px;">
+            <div style="padding: 20px 20px;">
 
                 <div class="row" style="display: flex; align-items: center; justify-content: center; gap: 40px;">
 
@@ -219,7 +219,7 @@
                                     <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Former CEO &
                                         MD of Tata Consultancy Services and Former Chairperson of NSDC and NSDA | Member of Governing Body, The Assam Royal Global University</p>
 
-                                    <!-- <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p> -->
+                                    {{-- <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p> --}}
                                 </div>
                             </div>
                         </a>

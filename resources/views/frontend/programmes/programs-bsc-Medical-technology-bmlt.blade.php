@@ -86,10 +86,7 @@
 
         <p class="mobile-para1 text-dark">10+2 in Science Stream or equivalent from a recognized Board/
             Council with Physics, Chemistry, Mathematics/ Biology & English as compulsory subjects and
-            with minimum 50% marks in aggregate (5% relaxation to SC/ST/OBC – Non-Creamy Layer) <br>
-            *Candidates passing with PCM without Biology in 10+2 will have to undergo remedial classes/
-            bridge course for Biology *Candidates passing with PCB without Mathematics in 10+2 will have
-            to undergo remedial classes/ bridge course for Mathematics
+            with minimum 50% marks in aggregate (5% relaxation to SC/ST/OBC – Non-Creamy Layer)
         </p>
 
         <p class="mobile-headd3 fw-bold text-dark">Selection Process
@@ -269,13 +266,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <p class="text-dark pt-2 fw-bold m-0">Eligibility Criteria</p>
                         <p class="text-dark pt-2 m-0">10+2 in Science Stream or equivalent from a recognized Board/
                             Council with Physics, Chemistry, Mathematics/ Biology & English as compulsory subjects and
-                            with minimum 50% marks in aggregate (5% relaxation to SC/ST/OBC – Non-Creamy Layer) <br>
-                            *Candidates passing with PCM without Biology in 10+2 will have to undergo remedial classes/
-                            bridge course for Biology *Candidates passing with PCB without Mathematics in 10+2 will have
-                            to undergo remedial classes/ bridge course for Mathematics
-
-
-
+                            with minimum 50% marks in aggregate (5% relaxation to SC/ST/OBC – Non-Creamy Layer)
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
                         <p class="text-dark pt-2 m-0">Based on overall performance in last examination followed by Personal Interview.</p>

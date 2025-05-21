@@ -4,7 +4,8 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-nursing/mob-top.png"
+            <img style="padding-top: 80px; position: relative;"
+                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-nursing/mob-top.png"
                 alt="">
 
             <div class="container">
@@ -102,13 +103,15 @@
 
             </div>
 
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-nursing/mob-btm.png" alt="">
+            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-nursing/mob-btm.png"
+                alt="">
 
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-nursing/web-top.png" alt="">
+            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-nursing/web-top.png"
+                alt="">
 
             <div class="container">
                 <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -205,7 +208,8 @@
 
             </div>
 
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-nursing/web-btm.png" alt="">
+            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-nursing/web-btm.png"
+                alt="">
 
         </div>
 
@@ -735,9 +739,10 @@
             </div>
 
             <div>
-
-                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                    Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+                <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467a; font-weight: 900">
+                    Courses Structure
+                    <span style="color: #ff9a1e; font-weight: 500">and Syllabus</span>
+                </h2>
 
                 <div class="p-2">
                     <div class="row">
@@ -747,9 +752,7 @@
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            <strong>
-                                                Under Graduate
-                                            </strong>
+                                            <strong> Under Graduate </strong>
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -757,14 +760,12 @@
                                         <div class="accordion-body">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <!-- <a
-                            href="mobile-assets/department-all/syllabus-new/rs"
-                            target="_blank"
-                          >
-                            <i class="fa fa-file-text px-2"></i> B.Sc. Nursing.pdf
-                            <i class="fa fa-download"></i>
-                          </a> -->
-
+                                                    <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSN/Bachelor of Nursing - UG.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                        B.Sc. nursing
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -774,9 +775,7 @@
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <strong>
-                                                Post Graduate
-                                            </strong>
+                                            <strong> Post Graduate </strong>
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -789,18 +788,14 @@
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseThree" aria-expanded="false"
                                             aria-controls="collapseThree">
-                                            <strong>
-                                                Doctoral Programme
-                                            </strong>
+                                            <strong> Doctoral Programme </strong>
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <a href="phd" class="para1" target="_blank">
-                                                <strong>
-                                                    Click to View...
-                                                </strong>
+                                                <strong> Click to View... </strong>
                                             </a>
                                         </div>
                                     </div>
