@@ -10,40 +10,41 @@
             <img src="mobile-assets/admission-fee-and-programmee/web-admission-programme.png" alt="">
         </div>
 
-         <section style="background-color: #f2f2f2;" class="pt-5">
+        <section style="background-color: #f2f2f2;" class="pt-5">
             <div class="container">
                 <div class="row pt-3">
                     <div class="col-lg-6 pt-4">
                         <h4 class="headd3 fw-bold text-dark">Search By Schools :</h4>
                         <form class="d-flex w-100">
-    <!--Copy and replace from here-->
+                            <!--Copy and replace from here-->
                             <select class="form-control me-2 shadow" id="schoolSelect" aria-label="Search">
                                 <option value="nothing">Select Course</option>
-                                <option value="nothing25">Integrated Civil Service Programme</option>
-                                <option value="nothing1">Royal School of Applied & Pure Sciences (RSAPS)</option>
-                                <option value="nothing2">Royal School of Architecture (RSA)</option>
-                                <option value="nothing3">Royal School of Behavioral & Allied Sciences (RSBAS)</option>
-                                <option value="nothing4">Royal School of Business (RSB)</option>
-                                <option value="nothing5">Royal School of Commerce (RSC)</option>
-                                <option value="nothing6">Royal School of Communications & Media (RSCOM)</option>
-                                <option value="nothing7">Royal School of Design (RSD)</option>
-                                <option value="nothing8">Royal School of Engineering & Technology (RSET)</option>
-                                <option value="nothing9">Royal School of Environmental & Earth Sciences (RSEES)</option>
-                                <option value="nothing10">Royal School of Fashion Design & Technology (RSFT)</option>
-                                <option value="nothing11">Royal School of Fine Arts (RSFA)</option>
-                                <option value="nothing12">Royal School of Hotel Management (RSHM)</option>
-                                <option value="nothing13">Royal School of Humanities &amp; Social Sciences (RSHSS)</option>
-                                <option value="nothing14">Royal School of Information Technology (RSIT)</option>
-                                <option value="nothing15">Royal School of Languages (RSL)</option>
-                                <option value="nothing16">Royal School of Library &amp; Information Sciences (RSLIS)</option>
-                                <option value="nothing17">Royal School of Law &amp; Administration(RSLA)</option>
-                                <option value="nothing18">Royal School of Life Sciences (RSLSC)</option>
-                                <option value="nothing19">Royal School of Medical &amp; Allied Sciences (RSMAS)</option>
-                                <option value="nothing20">Royal School of Nursing (RSN)</option>
-                                <option value="nothing21">Royal School of Pharmacy (RSP)</option>
-                                <option value="nothing22">Royal School of Travel Tourism Management (RSTTM)</option>
+                                <option value="nothing1">Integrated Civil Service Programme</option>
+                                <option value="nothing2">Royal School of Applied & Pure Sciences (RSAPS)</option>
+                                <option value="nothing3">Royal School of Architecture (RSA)</option>
+                                <option value="nothing4">Royal School of Behavioral & Allied Sciences (RSBAS)</option>
+                                <option value="nothing5">Royal School of Business (RSB)</option>
+                                <option value="nothing6">Royal School of Commerce (RSC)</option>
+                                <option value="nothing7">Royal School of Communications & Media (RSCOM)</option>
+                                <option value="nothing8">Royal School of Design (RSD)</option>
+                                <option value="nothing9">Royal School of Engineering & Technology (RSET)</option>
+                                <option value="nothing10">Royal School of Environmental & Earth Sciences (RSEES)</option>
+                                <option value="nothing11">Royal School of Fashion Design & Technology (RSFT)</option>
+                                <option value="nothing12">Royal School of Fine Arts (RSFA)</option>
+                                <option value="nothing13">Royal School of Hotel Management (RSHM)</option>
+                                <option value="nothing14">Royal School of Humanities &amp; Social Sciences (RSHSS)</option>
+                                <option value="nothing15">Royal School of Information Technology (RSIT)</option>
+                                <option value="nothing16">Royal School of Languages (RSL)</option>
+                                <option value="nothing17">Royal School of Library &amp; Information Sciences (RSLIS)
+                                </option>
+                                <option value="nothing18">Royal School of Law &amp; Administration(RSLA)</option>
+                                <option value="nothing19">Royal School of Life Sciences (RSLSC)</option>
+                                <option value="nothing20">Royal School of Medical &amp; Allied Sciences (RSMAS)</option>
+                                <option value="nothing21">Royal School of Nursing (RSN)</option>
+                                <option value="nothing22">Royal School of Pharmacy (RSP)</option>
+                                <option value="nothing23">Royal School of Travel Tourism Management (RSTTM)</option>
                             </select>
-    <!--Copy and replace till here-->
+                            <!--Copy and replace till here-->
                         </form>
                     </div>
                     <div class="col-lg-6 pt-4">
@@ -59,23 +60,25 @@
 
                 <div class="accordion-item mb-2">
                     <h2 class="accordion-header" id="headingOne">
-                        <button style="font-size: 18px; background-color: #00465d;" class="para1 accordion-button text-white"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentySeven" aria-expanded="true"
-                            aria-controls="collapseTwentySeven">
+                        <button style="font-size: 18px; background-color: #00465d;"
+                            class="para1 accordion-button text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             Integrated Civil Service Programme
                         </button>
                     </h2>
-                    <div id="collapseTwentySeven" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">RGU Programme - Integrated with Civil Service Programme</p>
+                            <p class="m-0 pb-4 text-dark fw-bold para1">RGU Programme - Integrated with Civil Service
+                                Programme</p>
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('ba-sociology')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Sociology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -85,7 +88,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Economics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -95,7 +99,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Public Administration</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -105,7 +110,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Political Science</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -115,7 +121,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. History</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -125,88 +132,107 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Physics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Mathematics" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                    <a href="bsc-Mathematics"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Mathematics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Chemistry" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                    <a href="bsc-Chemistry"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Chemistry</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Geography" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                    <a href="bsc-Geography"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geography</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
-                                    <a href="ba-Geography" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                    <a href="ba-Geography"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Geography</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Geology" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                    <a href="bsc-Geology"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
-                                    <a href="ba-Psychology" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                    <a href="ba-Psychology"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Psychology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Botany" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                    <a href="bsc-Botany"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Botany</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Zoology" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                    <a href="bsc-Zoology"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Zoology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
-                                    <a href="ba-English" class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                    <a href="ba-English"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A English</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -218,21 +244,22 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button style="font-size: 18px; background-color: #00465d;" class="para1 accordion-button text-white"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                            aria-controls="collapseOne">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button style="font-size: 18px; background-color: #00465d;"
+                            class="para1 accordion-button text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Royal School of Applied & Pure Sciences (RSAPS)
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">APPLIED & PURE SCIENCES</p>
+
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-MSc-Physics')}}"
-                                       class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Physics</p>
                                             <p class="text-center text-white para1">2 Years</p>
@@ -271,7 +298,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Physics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                Service Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -290,7 +318,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Chemistry</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -309,7 +338,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Mathematics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -375,21 +405,23 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header">
-                        <button style="font-size: 18px; background-color: #00465d;" class="para1 accordion-button text-white"
-                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button style="font-size: 18px; background-color: #00465d;"
+                            class="para1 accordion-button text-white" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                             Royal School of Architecture (RSA)
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                         data-bs-parent="#accordionExample">
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">ARCHITECTURE</p>
+
                             <div class="row">
 
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-barch')}}"
-                                       class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Arch.</p>
                                             <p class="text-center text-white para1">5 Years</p>
@@ -403,17 +435,19 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingFour">
                         <button style="font-size: 18px; background-color: #00465d;"
-                            class="para1 accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            class="para1 accordion-button collapsed text-white para1" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                            aria-controls="collapseFour">
                             Royal School of Behavioral & Allied Sciences (RSBAS)
                         </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">BEHAVIOURAL & ALLIED SCIENCES</p>
+
                             <div class="row">
 
                                 <div class="col-lg-3">
@@ -439,7 +473,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Psychology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -487,7 +522,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Applied Psychology</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Applied Psychology
+                                            </p>
                                             <p class="text-center text-white para1">1 Yr as per NEP</p>
                                         </div>
                                     </a>
@@ -500,17 +536,18 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingFive">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseThree">
+                            data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                             Royal School of Bio-sciences (RSBSC)
                         </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">BIO-SCIENCES</p>
+
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-MSc-Bio-Technology')}}"
@@ -629,17 +666,18 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingSix">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseThree">
+                            data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                             Royal School of Business (RSB)
                         </button>
                     </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">BUSINESS</p>
+
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-MBA-Finance')}}"
@@ -684,7 +722,8 @@
                                     <a href="{{route('programs-MBA-Finance')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MBA - Entrepreneurship & Small Business
+                                            <p class="m-0 p-0 text-white fw-bold para1">MBA - Entrepreneurship & Small
+                                                Business
                                                 Management</p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
@@ -703,7 +742,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Business Administration</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Business Administration
+                                            </p>
                                             <p class="text-center text-white para1">2 Yrs as per NEP</p>
                                         </div>
                                     </a>
@@ -712,7 +752,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Business Administration</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Business
+                                                Administration</p>
                                             <p class="text-center text-white para1">1 Yr as per NEP</p>
                                         </div>
                                     </a>
@@ -734,17 +775,19 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingSeven">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                            data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
                             Royal School of Commerce (RSC)
                         </button>
                     </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">COMMERCE</p>
+
+
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-MCom')}}"
@@ -804,7 +847,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Commerce (Morning Shift)</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Commerce (Morning Shift)
+                                            </p>
                                             <p class="text-center text-white para1">2 Yrs as per NEP</p>
                                         </div>
                                     </a>
@@ -822,7 +866,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Commerce (Morning Shift)
+                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Commerce (Morning
+                                                Shift)
                                             </p>
                                             <p class="text-center text-white para1">1 Yrs as per NEP</p>
                                         </div>
@@ -832,7 +877,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Commerce (Day Shift)</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Commerce (Day Shift)
+                                            </p>
                                             <p class="text-center text-white para1">1 Yrs as per NEP</p>
                                         </div>
                                     </a>
@@ -845,17 +891,18 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingEight">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                            data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
                             Royal School of Communications & Media (RSCOM)
                         </button>
                     </h2>
-                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">COMMUNICATIONS & MEDIA</p>
+
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-MA-J&MC')}}"
@@ -870,7 +917,8 @@
                                     <a href="{{route('programs-MSc-Animation-&-Visual-Effects')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Animation and Visual Effects</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Animation and Visual Effects
+                                            </p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
                                     </a>
@@ -888,7 +936,8 @@
                                     <a href="{{route('programs-b-sc-animation-visual-effects')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Animation and Visual Effects</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Animation and Visual Effects
+                                            </p>
                                             <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
                                         </div>
                                     </a>
@@ -906,7 +955,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Animation and Visual Effects
+                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Animation and Visual
+                                                Effects
                                             </p>
                                             <p class="text-center text-white para1">2 Yrs as per NEP</p>
                                         </div>
@@ -939,23 +989,25 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingEight">
+                    <h2 class="accordion-header" id="headingNine">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                            data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
                             Royal School of Design (RSD)
                         </button>
                     </h2>
-                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">DESIGN</p>
+
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-BachelorInterior-DesignBID')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Interior Design (BID)</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Interior Design (BID)
+                                            </p>
                                             <p class="text-center text-white para1">4 Years</p><br>
                                         </div>
                                     </a>
@@ -964,7 +1016,8 @@
                                     <a href="{{route('programs-Bachelor-of-Interior-Design-BID-Lateral-Entry')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Interior Design (BID) Lateral
+                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Interior Design (BID)
+                                                Lateral
                                                 Entry</p>
                                             <p class="text-center text-white para1">3 Years</p><br>
                                         </div>
@@ -974,7 +1027,8 @@
                                     <a href="{{route('programs-Bachelor-of-Design-Communication-Design')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Communication Design)
+                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Communication
+                                                Design)
                                                 (B.Des. CD)
                                             </p>
                                             <p class="text-center text-white para1">4 Years</p>
@@ -1070,7 +1124,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Communication Design</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Communication Design
+                                            </p>
                                             <p class="text-center text-white para1">1 Yr as per NEP</p>
                                         </div>
                                     </a>
@@ -1101,23 +1156,25 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingNine">
+                    <h2 class="accordion-header" id="headingTen">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                            data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
                             Royal School of Engineering & Technology (RSET)
                         </button>
                     </h2>
-                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">ENGINEERING & TECHNOLOGY</p>
+
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-MTech-CSE-in-Artifical-Intelligence')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CSE - Artifical Intelligence</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CSE - Artifical Intelligence
+                                            </p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
                                     </a>
@@ -1145,7 +1202,8 @@
                                     <a href="{{route('programs-MTech-CE-in-Water-Resources')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Water Resources Development
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Water Resources
+                                                Development
                                                 & Management</p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
@@ -1155,7 +1213,8 @@
                                     <a href="{{route('programs-MTech-CE-in-Structural-Engineering')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Structural Engineering</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Structural Engineering
+                                            </p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
                                     </a>
@@ -1191,7 +1250,8 @@
                                     <a href="{{route('programs-b-tech-lateral-entry')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (CSE/ME/CE) Lateral Entry</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (CSE/ME/CE) Lateral Entry
+                                            </p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -1209,7 +1269,8 @@
                                     <a href="{{route('programs-b-tech-artifical-intelligence-ai')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech. - Artifical Intelligence(AI)</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech. - Artifical Intelligence(AI)
+                                            </p>
                                             <p class="text-center text-white para1">4 Years</p>
                                         </div>
                                     </a>
@@ -1218,7 +1279,8 @@
                                     <a href="{{route('programs-BTechWorking-Professional-CE-CSE')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech for Working Professional (CE & CSE)</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech for Working Professional (CE
+                                                & CSE)</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -1233,17 +1295,18 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTen">
+                    <h2 class="accordion-header" id="headingEleven">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                            data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
                             Royal School of Environmental & Earth Sciences (RSEES)
                         </button>
                     </h2>
-                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">ENVIRONMENTAL & EARTH SCIENCES</p>
+
                             <div class="row">
 
                                 <div class="col-lg-3 pb-3">
@@ -1297,7 +1360,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Geography</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -1307,7 +1371,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geography</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -1327,7 +1392,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -1376,17 +1442,18 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingEleven">
+                    <h2 class="accordion-header" id="headingTwelve">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+                            data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
                             Royal School of Fashion Design & Technology (RSFT)
                         </button>
                     </h2>
-                    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">FASHION DESIGN & TECHNOLOGY</p>
+
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-b-des-fd-fashion-design')}}"
@@ -1425,17 +1492,18 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTwelve">
+                    <h2 class="accordion-header" id="headingThirteen">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+                            data-bs-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
                             Royal School of Fine Arts (RSFA)
                         </button>
                     </h2>
-                    <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">FINE ARTS</p>
+
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-Master-of-Fine-Arts-MFA')}}"
@@ -1482,17 +1550,18 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTwelve">
-                        <button style="font-size: 18px; background-color: #00465d;" class="accordion-button collapsed text-white para1"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyfour" aria-expanded="true"
-                            aria-controls="collapseTwentyfour">
+                    <h2 class="accordion-header" id="headingFourteen">
+                        <button style="font-size: 18px; background-color: #00465d;"
+                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
                             Royal School of Agriculture (RSAG)
                         </button>
                     </h2>
-                    <div id="collapseTwentyfour" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">AGRICULTURE</p>
+
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('program-bsc-agriculture')}}"
@@ -1509,17 +1578,18 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThirteen">
+                    <h2 class="accordion-header" id="headingFifteen">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
+                            data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
                             Royal School of Hotel Management (RSHM)
                         </button>
                     </h2>
-                    <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">HOTEL MANAGEMENT</p>
+
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-BA-HotelManagement')}}"
@@ -1553,7 +1623,8 @@
                                     <a href="{{route('programs-Bachelor-of-Hotel-Management-BHM')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Hotel Management (BHM)</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Hotel Management (BHM)
+                                            </p>
                                             <p class="text-center text-white para1">4 Years</p>
                                         </div>
                                     </a>
@@ -1605,14 +1676,14 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingSixteen">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
                             Royal School of Humanities & Social Sciences (RSHSS)
                         </button>
                     </h2>
-                    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">HUMANITIES & SOCIAL SCIENCES</p>
@@ -1686,7 +1757,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Economics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -1705,7 +1777,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Sociology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -1733,7 +1806,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Public Administration</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -1753,7 +1827,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. Political Science</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -1773,7 +1848,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A. History</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -1871,7 +1947,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Public Administration</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Public Administration
+                                            </p>
                                             <p class="text-center text-white para1">1 Yrs as per NEP</p>
                                         </div>
                                     </a>
@@ -1904,14 +1981,14 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingSeventeen">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
                             Royal School of Information Technology (RSIT)
                         </button>
                     </h2>
-                    <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">INFORMATION TECHNOLOGY</p>
@@ -1966,7 +2043,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Information Technology</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Information Technology
+                                            </p>
                                             <p class="text-center text-white para1">2 Yrs as per NEP</p>
                                         </div>
                                     </a>
@@ -1975,7 +2053,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Computer Application</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Computer Application
+                                            </p>
                                             <p class="text-center text-white para1">1 Yr as per NEP</p>
                                         </div>
                                     </a>
@@ -1984,7 +2063,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Information Technology</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Information
+                                                Technology</p>
                                             <p class="text-center text-white para1">1 Yr as per NEP</p>
                                         </div>
                                     </a>
@@ -1997,14 +2077,14 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingEighteen">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
                             Royal School of Languages (RSL)
                         </button>
                     </h2>
-                    <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">LANGUAGES</p>
@@ -2032,7 +2112,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.A English</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -2065,22 +2146,24 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingNineteen">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseseventeen" aria-expanded="true" aria-controls="collapseseventeen">
+                            data-bs-target="#collapseSeventeen" aria-expanded="true" aria-controls="collapseSeventeen">
                             Royal School of Library & Information Sciences (RSLIS)
                         </button>
                     </h2>
-                    <div id="collapseseventeen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingNineteen"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
+                            <p class="m-0 pb-4 text-dark fw-bold para1">LIBRARY & INFORMATION SCIENCES</p>
                             <div class="row">
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-Master-of-Library&Information-Sciences')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Master of Library & Information Sciences
+                                            <p class="m-0 p-0 text-white fw-bold para1">Master of Library & Information
+                                                Sciences
                                                 (M.L.I.Sc.)</p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
@@ -2094,14 +2177,14 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingTwenty">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseeighteen" aria-expanded="true" aria-controls="collapseeighteen">
-                            Royal School of Law & Administration(RSLA)
+                            data-bs-target="#collapseEighteen" aria-expanded="true" aria-controls="collapseEighteen">
+                            Royal School of Law & Administration (RSLA)
                         </button>
                     </h2>
-                    <div id="collapseeighteen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingTwenty"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">LAW & ADMINISTRATION</p>
@@ -2151,14 +2234,14 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingTwentyOne">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseninteen" aria-expanded="true" aria-controls="collapseninteen">
+                            data-bs-target="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen">
                             Royal School of Life Sciences (RSLSC)
                         </button>
                     </h2>
-                    <div id="collapseninteen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingTwentyOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">LIFE SCIENCES</p>
@@ -2214,7 +2297,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Botany</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -2233,7 +2317,8 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Zoology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service Programme</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
+                                                Programme</p>
                                             <p class="text-center text-white para1">3 Years</p>
                                         </div>
                                     </a>
@@ -2339,14 +2424,14 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingTwentyTwo">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsetwenty" aria-expanded="true" aria-controls="collapsetwenty">
+                            data-bs-target="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty">
                             Royal School of Medical & Allied Sciences (RSMAS)
                         </button>
                     </h2>
-                    <div id="collapsetwenty" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwentyTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">MEDICAL & ALLIED SCIENCES</p>
@@ -2364,7 +2449,8 @@
                                     <a href="{{route('programs-MSc-Medical-Laboratory-MMLT')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Medical Laboratory Technology
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Medical Laboratory
+                                                Technology
                                                 (MMLT)</p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
@@ -2402,7 +2488,8 @@
                                     <a href="{{route('programs-BachelorofPhysiotherapy')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Physiotherapy (BPT) Lateral
+                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Physiotherapy (BPT)
+                                                Lateral
                                                 Entry</p>
                                             <p class="text-center text-white para1">3.6 Years</p><br>
                                         </div>
@@ -2412,7 +2499,8 @@
                                     <a href="{{route('programs-bsc-Medical-technology-bmlt')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Medical Laboratory Technology
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Medical Laboratory
+                                                Technology
                                                 (BMLT)</p>
                                             <p class="text-center text-white para1">3+1 Year Internship</p><br>
                                         </div>
@@ -2422,7 +2510,8 @@
                                     <a href="{{route('programs-b-sc-medicaltechnologybmlt-lateral-entry')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Medical Laboratory Technology
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Medical Laboratory
+                                                Technology
                                                 (BMLT) Lateral Entry
                                             </p>
                                             <p class="text-center text-white para1">2+1 Year Internship</p>
@@ -2442,7 +2531,8 @@
                                     <a href="{{route('programs-Technology-OTT')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Operation Theatre Technology (OTT)
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Operation Theatre Technology
+                                                (OTT)
                                             </p>
                                             <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
                                         </div>
@@ -2452,7 +2542,8 @@
                                     <a href="{{route('programs-b-sc-radiography')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Radiography and Advance Imaging
+                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Radiography and Advance
+                                                Imaging
                                                 Technology
                                             </p>
                                             <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
@@ -2536,7 +2627,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Medical Laboratory Technology
+                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Medical Laboratory
+                                                Technology
                                             </p>
                                             <p class="text-center text-white para1">2 Yrs as per NEP</p>
                                         </div>
@@ -2558,7 +2650,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Operation Theatre Technology
+                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Operation Theatre
+                                                Technology
                                             </p>
                                             <p class="text-center text-white para1">2 Yrs as per NEP</p>
                                         </div>
@@ -2569,7 +2662,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Radiography & Advance Imaging
+                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Radiography & Advance
+                                                Imaging
                                                 Technology
                                             </p>
                                             <p class="text-center text-white para1">2 Yrs as per NEP</p>
@@ -2595,14 +2689,14 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingTwentyThree">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsetwentyone" aria-expanded="true" aria-controls="collapsetwentyone">
+                            data-bs-target="#collapseTwentyOne" aria-expanded="true" aria-controls="collapseTwentyOne">
                             Royal School of Nursing (RSN)
                         </button>
                     </h2>
-                    <div id="collapsetwentyone" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseTwentyOne" class="accordion-collapse collapse" aria-labelledby="headingTwentyThree"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">NURSING</p>
@@ -2611,7 +2705,8 @@
                                     <a href="{{route('program-msc-nursing-comm-mental')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Medical Surgical Nursing
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Medical Surgical
+                                                Nursing
                                             </p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
@@ -2630,7 +2725,8 @@
                                     <a href="{{route('program-msc-nursing-comm-mental')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Child Health Nursing
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Child Health
+                                                Nursing
                                             </p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
@@ -2640,7 +2736,8 @@
                                     <a href="{{route('program-msc-nursing-comm-mental')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Mental Health Nursing</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Mental Health
+                                                Nursing</p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
                                     </a>
@@ -2649,7 +2746,8 @@
                                     <a href="{{route('program-msc-nursing-comm-mental')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Community Health Nursing
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Community Health
+                                                Nursing
                                             </p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
@@ -2691,14 +2789,14 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingTwentyFour">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwentytwo" aria-expanded="true" aria-controls="collapseTwentytwo">
+                            data-bs-target="#collapseTwentyTwo" aria-expanded="true" aria-controls="collapseTwentyTwo">
                             Royal School of Pharmacy (RSP)
                         </button>
                     </h2>
-                    <div id="collapseTwentytwo" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseTwentyTwo" class="accordion-collapse collapse" aria-labelledby="headingTwentyFour"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">PHARMACY</p>
@@ -2735,7 +2833,8 @@
                                     <a href="{{route('programs-M-Pharm-Pharmaceutical')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Pharm. in Pharmaceutical Chemistry</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Pharm. in Pharmaceutical Chemistry
+                                            </p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
                                     </a>
@@ -2764,14 +2863,14 @@
                 </div>
 
                 <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingTwentyFive">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwentythree" aria-expanded="true" aria-controls="collapseTwentythree">
+                            data-bs-target="#collapseTwentyThree" aria-expanded="true" aria-controls="collapseTwentyThree">
                             Royal School of Travel Tourism Management (RSTTM)
                         </button>
                     </h2>
-                    <div id="collapseTwentythree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseTwentyThree" class="accordion-collapse collapse" aria-labelledby="headingTwentyFive"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">TRAVEL & TOURISM MANAGEMENT</p>
@@ -2780,7 +2879,8 @@
                                     <a href="{{route('programs-Master-Travel&Tourism')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Master of Travel & Tourism Management
+                                            <p class="m-0 p-0 text-white fw-bold para1">Master of Travel & Tourism
+                                                Management
                                                 (MTTM)</p>
                                             <p class="text-center text-white para1">2 Years</p>
                                         </div>
@@ -2790,7 +2890,8 @@
                                     <a href="{{route('programs-Bachelor-Travel')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Travel & Tourism Management
+                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Travel & Tourism
+                                                Management
                                                 (BTTM)</p>
                                             <p class="text-center text-white para1">4 Years</p>
                                         </div>
@@ -2810,7 +2911,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Travel & Tourism Management</p>
+                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Travel & Tourism
+                                                Management</p>
                                             <p class="text-center text-white para1">2 Yrs as per NEP</p>
                                         </div>
                                     </a>
@@ -2819,7 +2921,8 @@
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Travel & Tourism Management
+                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Travel & Tourism
+                                                Management
                                             </p>
                                             <p class="text-center text-white para1">1 Yrs as per NEP</p>
                                         </div>
@@ -2892,60 +2995,6 @@
             });
         </script>
         <!--this is script 2-->
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const schoolSelect = document.getElementById('schoolSelect');
 
-                schoolSelect.addEventListener('change', function () {
-                    const selectedText = this.options[this.selectedIndex].text.trim();
-                    const accordionItems = document.querySelectorAll('.accordion-item');
-
-                    // If "Select Course" is chosen, show all and collapse all
-                    if (selectedText === 'Select Course') {
-                        accordionItems.forEach(item => {
-                            item.classList.remove('d-none');
-                            const collapse = item.querySelector('.accordion-collapse');
-                            collapse.classList.remove('show');
-                        });
-                        return;
-                    }
-
-                    // Hide all accordion items first
-                    accordionItems.forEach(item => {
-                        item.classList.add('d-none');
-                        const collapse = item.querySelector('.accordion-collapse');
-                        collapse.classList.remove('show');
-                    });
-
-                    // Find and show the selected school
-                    const accordionButtons = document.querySelectorAll('.accordion-button');
-                    accordionButtons.forEach(button => {
-                        const buttonText = button.textContent.trim();
-
-                        if (buttonText === selectedText) {
-                            const accordionItem = button.closest('.accordion-item');
-                            accordionItem.classList.remove('d-none');
-
-                            const targetId = button.getAttribute('data-bs-target');
-                            const targetCollapse = document.querySelector(targetId);
-
-                            if (targetCollapse) {
-                                targetCollapse.classList.add('show');
-                                accordionItem.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                            }
-                        }
-                    });
-                });
-
-                // Add click handler for accordion buttons (optional)
-                document.querySelectorAll('.accordion-button').forEach(button => {
-                    button.addEventListener('click', function () {
-                        const targetId = this.getAttribute('data-bs-target');
-                        const targetCollapse = document.querySelector(targetId);
-                        targetCollapse.classList.toggle('show');
-                    });
-                });
-            });
-        </script>
     </div>
 @endsection

@@ -1732,13 +1732,6 @@
     <script src="{{ asset('assets/js/waypoints.min.js') }}" id="waypoints-js"></script>
     <script src="{{ asset('assets/js/wow.js') }}" id="wow-js"></script>
     <script src="{{ asset('assets/js/main.js') }}" id="kadu-main-js"></script>
-    <script src="{{ asset('assets/owl-tab-css/js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ asset('assets/owl-tab-css/js/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/owl-tab-css/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/owl-tab-css/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('assets/owl-tab-css/js/main.js') }}"></script>
-    <script src="{{ asset('https://cdn.datatables.net/2.1.8/js/dataTables.js') }}"></script>
-    <script src="{{ asset('https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.js') }}"></script>
     <script defer src="{{ asset('assets/js/forms.js') }}" id="mc4wp-forms-api-js"></script>
     <script src="{{ asset('assets/js/webpack.runtime.min.js') }}" id="elementor-webpack-runtime-js"></script>
     <script src="{{ asset('assets/js/frontend-modules.min.js') }}" id="elementor-frontend-modules-js"></script>
