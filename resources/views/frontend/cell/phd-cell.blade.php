@@ -18,7 +18,7 @@
                                 <img style="width: 800px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-cell/banner.png" />
                             </div>
                             <p class="para1" style="text-align: justify; color: #13223b;">
-                                This is for the information that the Ph.D. Cell of the Assam Royal Global University plays a
+                                The Ph.D. Cell of the Assam Royal Global University plays a
                                 crucial role in coordinating
                                 doctoral research activities, overseeing policy implementation, and ensuring compliance with
                                 UGC
@@ -166,8 +166,8 @@
                                 <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-3 pb-5 text-center"
                                     style="color: #27467A; font-weight: 900;">
                                     Ph.D. <span style="color: #FF9A1E; font-weight: 500;">Cell</span></h2>
-                                <p style="text-align: justify; color: #13223b; font-size: 28px; line-height: 1.5;">
-                                    This is for the information that the Ph.D. Cell of the Assam Royal Global University plays a
+                                <p style="text-align: justify; color: #13223b; font-size: 24px; line-height: 1.5;">
+                                    The Ph.D. Cell of the Assam Royal Global University plays a
                                     crucial role in coordinating
                                     doctoral research activities, overseeing policy implementation, and ensuring compliance with
                                     UGC

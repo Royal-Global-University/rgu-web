@@ -2948,7 +2948,4 @@
             });
         </script>
     </div>
-
-
-
 @endsection

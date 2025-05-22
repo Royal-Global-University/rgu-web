@@ -196,7 +196,7 @@
                                         Managing Director and Vice Chairman of Tata Motors | Strategic Leader | Nation
                                         Builder | Member of Advisory Board, The Assam Royal Global University</p>
 
-                                    <p class="card-text para1 half-underline fw-bold" style="color: #FF9A1E;">View
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
                                         Profile</p>
                                 </div>
                             </div>

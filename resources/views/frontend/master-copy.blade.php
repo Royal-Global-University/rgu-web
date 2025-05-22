@@ -7,7 +7,8 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <!--meta tag-->
     <title>@yield('title', 'The Assam Royal Global University | Best University in Assam, India')</title>
-    <meta name="description" content="@yield('meta_description', 'Discover Royal Global University, the best private university in Assam offering world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG programs.')">
+    <meta name="description"
+        content="@yield('meta_description', 'Discover Royal Global University, the best private university in Assam offering world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG programs.')">
     <meta name="keywords" content="@yield('meta_keywords', 'Best University in Assam')">
     <!--meta tag-->
     <meta name='robots' content='max-image-preview:large' />
@@ -25,29 +26,39 @@
     <link rel='stylesheet'
         href='https://fonts.googleapis.com/css?family=Urbanist%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CBarlow+Semi+Condensed%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CFraunces%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CJust+Another+Hand%3A400&#038;subset=latin'
         media='all' />
-    <link rel='stylesheet' id='bootstrap-css' href='{{ asset("assets/css/bootstrap.min.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='{{ asset("assets/css/bootstrap.min.css?ver=6.6.2") }}'
+        media='all' />
     <link rel='stylesheet' id='all-min-css' href='{{ asset("assets/css/all.min.css?ver=6.6.2") }}' media='all' />
     <link rel='stylesheet' id='e-animations-css' href='{{ asset("assets/css/animate.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='flaticon-css' href='{{ asset("assets/css/flaticon_mycollection.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='swiper-kadu-css' href='{{ asset("assets/css/swiper.min.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='nice-select-css' href='{{ asset("assets/css/nice-select.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='magnific-popup-css' href='{{ asset("assets/css/magnific-popup.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' href='{{ asset("assets/css/main.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='woocommerce-style-css' href='{{ asset("assets/woocommerce/woocommerce.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet'  href='style.css?ver=6.6.2' media='all' />
-    <link rel='stylesheet'  href='{{ asset("assets/css/custom-style.css?ver=6.6.2") }}' media='all' />
-    <link rel='stylesheet' id='elementor-icons-css' href='{{ asset("assets/elementor/css/elementor-icons.min.css") }}' media='all' />
-    <link rel='stylesheet' id='elementor-frontend-css' href='{{ asset("assets/elementor/css/custom-frontend-lite.min.css") }}'
+    <link rel='stylesheet' id='flaticon-css' href='{{ asset("assets/css/flaticon_mycollection.css?ver=6.6.2") }}'
         media='all' />
+    <link rel='stylesheet' id='swiper-kadu-css' href='{{ asset("assets/css/swiper.min.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='nice-select-css' href='{{ asset("assets/css/nice-select.css?ver=6.6.2") }}'
+        media='all' />
+    <link rel='stylesheet' id='magnific-popup-css' href='{{ asset("assets/css/magnific-popup.css?ver=6.6.2") }}'
+        media='all' />
+    <link rel='stylesheet' href='{{ asset("assets/css/main.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='woocommerce-style-css' href='{{ asset("assets/woocommerce/woocommerce.css?ver=6.6.2") }}'
+        media='all' />
+    <link rel='stylesheet' href='style.css?ver=6.6.2' media='all' />
+    <link rel='stylesheet' href='{{ asset("assets/css/custom-style.css?ver=6.6.2") }}' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css' href='{{ asset("assets/elementor/css/elementor-icons.min.css") }}'
+        media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css'
+        href='{{ asset("assets/elementor/css/custom-frontend-lite.min.css") }}' media='all' />
     <link rel="stylesheet" href="{{ asset('assets/owl-tab-css/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/owl-tab-css/css/animate.css') }}">
 
-    <link rel='stylesheet' id='elementor-frontend-css' href='{{ asset("assets/elementor/css/custom-frontend-lite.min.css") }}'
+    <link rel='stylesheet' id='elementor-frontend-css'
+        href='{{ asset("assets/elementor/css/custom-frontend-lite.min.css") }}' media='all' />
+    <link rel='stylesheet' id='elementor-post-15-css' href='{{ asset("assets/elementor/css/post-15.css") }}'
         media='all' />
-    <link rel='stylesheet' id='elementor-post-15-css' href='{{ asset("assets/elementor/css/post-15.css") }}' media='all' />
-    <link rel='stylesheet' id='elementor-post-15-css' href='{{ asset("assets/elementor/css/post-14.css") }}' media='all' />
-    <link rel='stylesheet' id='elementor-global-css' href='{{ asset("assets/elementor/css/global.css") }}' media='all' />
-    <link rel='stylesheet' id='elementor-post-704-css' href='{{ asset("assets/elementor/css/post-704.css") }}' media='all' />
+    <link rel='stylesheet' id='elementor-post-15-css' href='{{ asset("assets/elementor/css/post-14.css") }}'
+        media='all' />
+    <link rel='stylesheet' id='elementor-global-css' href='{{ asset("assets/elementor/css/global.css") }}'
+        media='all' />
+    <link rel='stylesheet' id='elementor-post-704-css' href='{{ asset("assets/elementor/css/post-704.css") }}'
+        media='all' />
     <link rel='stylesheet' id='google-fonts-1-css'
         href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.6.2'
         media='all' />
@@ -56,16 +67,19 @@
     <!--JS-->
     <script src='{{ asset("assets/js/jquery.min.js") }}' id="jquery-core-js"></script>
     <script src='{{ asset("assets/js/jquery-migrate.min.js") }}' id="jquery-migrate-js"></script>
-    <script src='{{ asset("assets/js/jquery.blockUI.min.js") }}' id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
+    <script src='{{ asset("assets/js/jquery.blockUI.min.js") }}' id="jquery-blockui-js" defer
+        data-wp-strategy="defer"></script>
 
     <script src='{{ asset("assets/js/js.cookie.min.js") }}' id="js-cookie-js" defer data-wp-strategy="defer"></script>
-    <script src='{{ asset("assets/js/woocommerce.min.js") }}' id="woocommerce-js" defer data-wp-strategy="defer"></script>
+    <script src='{{ asset("assets/js/woocommerce.min.js") }}' id="woocommerce-js" defer
+        data-wp-strategy="defer"></script>
 
     <style>
         a {
             text-decoration: none !important;
             color: #000000
         }
+
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
             background-image: none !important;
@@ -119,26 +133,26 @@
         @media (max-width: 576px) {
 
             .video-container {
-            z-index: -100;
-            width: 100%;
-            overflow: hidden;
-            position: relative;
+                z-index: -100;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
 
-        }
+            }
 
             .carousel-container {
-            position: absolute;
-            top: 120px;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            width: 70%;
-            /* Set a max-width for a balanced layout */
-            margin: auto;
-            /* Center align */
-            z-index: 1;
+                position: absolute;
+                top: 120px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 70%;
+                /* Set a max-width for a balanced layout */
+                margin: auto;
+                /* Center align */
+                z-index: 1;
 
-        }
+            }
 
         }
 
@@ -346,13 +360,14 @@
             background-color: #0056b3;
             color: #fff;
         }
-            .newcolor {
-                color: red;
-            }
 
-            ul.b {
-                list-style-type: square;
-            }
+        .newcolor {
+            color: red;
+        }
+
+        ul.b {
+            list-style-type: square;
+        }
 
         .accordion-button {
             background-color: #13223b;
@@ -891,19 +906,17 @@
     @stack('styles')
 
     <style>
-        .grad{
-        background: rgb(255,194,61);
-        background: linear-gradient(93deg, rgba(255,194,61,1) 0%, rgba(249,215,140,1) 100%);
-    }
+        .grad {
+            background: rgb(255, 194, 61);
+            background: linear-gradient(93deg, rgba(255, 194, 61, 1) 0%, rgba(249, 215, 140, 1) 100%);
+        }
     </style>
 
-    {{-- <link rel="stylesheet" href="assets/css/modal/modal1.css"> --}}
-    <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/30x30.png"
-        sizes="32x32" />
-    <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/192x192.png"
-        sizes="192x192" />
-    <link rel="apple-touch-icon"
-        href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/180x180.png" />
+    {{--
+    <link rel="stylesheet" href="assets/css/modal/modal1.css"> --}}
+    <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/30x30.png" sizes="32x32" />
+    <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/180x180.png" />
     <meta name="msapplication-TileImage"
         content="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/270x270.png" />
 </head>
@@ -961,7 +974,8 @@
                                                             <a href="https://play.google.com/store/apps/details?id=com.reno.rgu"
                                                                 target="_self" rel="" aria-label="name"
                                                                 class="link txaa-fade-right">
-                                                                <span class="txaa-tilt_scale" style="height: 68px; !important">
+                                                                <span class="txaa-tilt_scale"
+                                                                    style="height: 68px; !important">
                                                                     <img src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/play-store.webp"
                                                                         alt="">
                                                                 </span>
@@ -969,7 +983,8 @@
                                                             <a href="https://apps.apple.com/in/app/royal-global-university/id6476598714"
                                                                 target="_self" rel="" aria-label="name"
                                                                 class="link txaa-fade-right">
-                                                                <span class="txaa-tilt_scale" style="height: 70px; !important">
+                                                                <span class="txaa-tilt_scale"
+                                                                    style="height: 70px; !important">
                                                                     <img src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/app-store.webp"
                                                                         alt="">
                                                                 </span>
@@ -979,7 +994,8 @@
                                                 </div>
                                             </div>
                                             <h4 style="font-weight: 800; color: #ffffff; padding-right: 30px; padding-left: 50px;"
-                                                class="elementor-heading-title elementor-size-default mb-3 pt-2">Follow Us: </h4>
+                                                class="elementor-heading-title elementor-size-default mb-3 pt-2">Follow Us:
+                                            </h4>
 
                                             <a href="https://www.facebook.com/RGUGuwahati"><img
                                                     style="height: 50px; margin-right: 10px; margin-bottom: 15px;"
@@ -1024,7 +1040,8 @@
                                         data-id="d23e0df" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-68c5907 elementor-widget elementor-widget-heading"
-                                                data-id="68c5907" data-element_type="widget" data-widget_type="heading.default">
+                                                data-id="68c5907" data-element_type="widget"
+                                                data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <style>
                                                         /*! elementor - v3.23.0 - 05-08-2024 */
@@ -1079,11 +1096,11 @@
                                                                 India
                                                             </li>
                                                             <!-- <li class="item">
-                                                                        <span class="icon">
-                                                                            <i aria-hidden="true" class="fas fa-phone-alt"></i>
-                                                                        </span>
-                                                                        +91 70860-93458
-                                                                    </li> -->
+                                                                            <span class="icon">
+                                                                                <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                                                            </span>
+                                                                            +91 70860-93458
+                                                                        </li> -->
 
 
 
@@ -1119,11 +1136,13 @@
                                         <div class="row">
 
                                             <div class="col-lg-3 pb-4">
-                                                <h5 class="m-0 p-0 fw-bold" style="font-size: 24px; color: #FF9A1E !important;">
+                                                <h5 class="m-0 p-0 fw-bold"
+                                                    style="font-size: 24px; color: #FF9A1E !important;">
                                                     Admissions</h5>
 
                                                 <a href="https://admissions.rgu.ac/">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Admissions 2025-26
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Admissions
+                                                        2025-26
                                                     </p>
                                                 </a>
 
@@ -1148,7 +1167,8 @@
                                                 </a>
 
                                                 <a href="{{ route('contact') }}">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Admission Offices
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Admission
+                                                        Offices
                                                     </p>
                                                 </a>
 
@@ -1162,7 +1182,8 @@
                                             </div>
 
                                             <div class="col-lg-3 pb-4">
-                                                <h5 class="m-0 p-0 fw-bold" style="font-size: 24px; color: #FF9A1E !important;">
+                                                <h5 class="m-0 p-0 fw-bold"
+                                                    style="font-size: 24px; color: #FF9A1E !important;">
                                                     Information About</h5>
 
                                                 <a href="preface">
@@ -1171,27 +1192,33 @@
                                                 </a>
 
                                                 <a href="admission-programs-fees-structure">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fees 2025 - 26</p>
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fees 2025 - 26
+                                                    </p>
                                                 </a>
 
                                                 <h5 class="mt-4 p-0 fw-bold"
                                                     style="font-size: 24px; color: #FF9A1E !important;">Quick Links</h5>
                                                 <a href="medical-facility">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Medical Emergency
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Medical
+                                                        Emergency
                                                         No.</p>
                                                 </a>
                                                 <a href="#">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Women Helpline No.
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Women Helpline
+                                                        No.
                                                     </p>
                                                 </a>
                                                 <a href="internal-complaints-committee">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Internal Complaints Committee</p>
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Internal
+                                                        Complaints Committee</p>
                                                 </a>
                                                 <a href="grievance">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Students' Grievance</p>
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Students'
+                                                        Grievance</p>
                                                 </a>
                                                 <a href="https://rgu.renocampus.com/">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online</p>
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online
+                                                    </p>
                                                 </a>
 
 
@@ -1205,13 +1232,15 @@
                                                     <p class="m-0 text-white" style="font-size: 18px;">Annoucement</p>
                                                 </a>
                                                 <a href="social-outreach">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Social Outreach</p>
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Social Outreach
+                                                    </p>
                                                 </a>
                                                 <a href="examinations">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Examination</p>
                                                 </a>
                                                 {{-- <a href="jobs-vacancies">
-                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs & Vacancies</p>
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs & Vacancies
+                                                    </p>
                                                 </a> --}}
                                                 <a href="iqac-overview">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
@@ -1222,7 +1251,8 @@
                                                 </a>
 
                                                 <a href="recognition-accreditation">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Accreditation</p>
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Accreditation
+                                                    </p>
                                                 </a>
                                                 <a href="happy-happening">
                                                     <p class="m-0 text-white" style="font-size: 18px;">Campus Visit</p>
@@ -1231,7 +1261,8 @@
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">VC Report</p>
                                                 </a>
                                                 <a href="https://heyzine.com/flip-book/fd544660d3.html">
-                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Brochure 2025 - 2026
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Brochure 2025 -
+                                                        2026
                                                     </p>
                                                 </a>
 
@@ -1242,14 +1273,16 @@
                                                     <p class="m-0 text-white" style="font-size: 18px;">IQAC</p>
                                                 </a>
                                                 <a href="https://heyzine.com/flip-book/adfd7889ba.html">
-                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">International Brochure 2025 -
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">International
+                                                        Brochure 2025 -
                                                         2026</p>
                                                 </a>
                                                 <a href="360-tour">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">360° View</p>
                                                 </a>
                                                 <a href="https://nad.digilocker.gov.in/login">
-                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Digilocker NAD</p>
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Digilocker NAD
+                                                    </p>
                                                 </a>
                                                 <a href="https://rgujournal.in/">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">RGU Journal</p>
@@ -1373,6 +1406,9 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
 
     <script>
@@ -1557,7 +1593,7 @@
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
             n.queue = []; t = b.createElement(e); t.async = !0;
@@ -1675,18 +1711,20 @@
     </script>
 
     <link rel='stylesheet' id='wc-blocks-style-css' href='{{ asset("assets/client/wc-blocks.css") }}' media='all' />
-    <link rel='stylesheet' id='elementor-post-1115-css' href='{{ asset("assets/elementor/css/post-1115.css") }}' media='all' />
+    <link rel='stylesheet' id='elementor-post-1115-css' href='{{ asset("assets/elementor/css/post-1115.css") }}'
+        media='all' />
     <link rel='stylesheet' id='google-fonts-2-css'
         href='https://fonts.googleapis.com/css?family=Urbanist%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.6.2'
         media='all' />
-        <script src="{{ asset('assets/css/modal/model1.js') }}"></script>
+    <script src="{{ asset('assets/css/modal/model1.js') }}"></script>
     <script src="{{ asset('assets/js/hooks.min.js') }}" id="wp-hooks-js"></script>
     <script src="{{ asset('assets/js/i18n.min.js') }}" id="wp-i18n-js"></script>
     <script id="wp-i18n-js-after">
         wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
     </script>
     <!--lp-->
-    <script type="text/javascript">var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "https://widgets.in5.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script>
+    <script
+        type="text/javascript">var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "https://widgets.in5.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script>
 
     <script id="contact-form-7-js-extra">
         var wpcf7 = { "api": { "root": "https:\/\/themexriver.com\/wp\/kadu\/wp-json\/", "namespace": "contact-form-7\/v1" } };
