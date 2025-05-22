@@ -1554,7 +1554,7 @@
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
                                             <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Hotel Management (BHM)</p>
-                                            <p class="text-center text-white para1">2 Years</p>
+                                            <p class="text-center text-white para1">4 Years</p>
                                         </div>
                                     </a>
                                 </div>
