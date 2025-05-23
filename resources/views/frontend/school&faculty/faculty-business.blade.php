@@ -3,8 +3,8 @@
     <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/bg.svg); background-size: cover;">
 
         <div class="mobile">
-
-              <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text pt-5"
+            @include('frontend/components/mobileheader')
+              <h2 style="padding-top: 90px; position: relative;" class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text pt-5"
                 style="color: #27467A; font-weight: 900;">
                 Royal School of <br><span style="color: #FF9A1E; font-weight: 500;"> Business (RSB)</span></h2>
 
@@ -268,7 +268,7 @@
             </div>
 
             <div class="website">
-
+                @include('frontend/components/aheader')
               <h2 class="headd1 mb-5 fw-bold text-center kd-title-ani kd-split-text pt-5"
                 style="color: #27467A; font-weight: 900;">
                 Royal School of <span style="color: #FF9A1E; font-weight: 500;"> Business (RSB)</span></h2>
