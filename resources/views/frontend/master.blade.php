@@ -178,7 +178,6 @@
 
         }
 
-
         .navbar-right {
             float: right;
             padding-right: 5%;
