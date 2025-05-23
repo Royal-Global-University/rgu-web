@@ -1313,10 +1313,7 @@
         <!--End Footer-->
     @endif
 
-
-
-
-
+    {{-- New nav --}}
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             document.querySelectorAll(".nav-item.dropdown").forEach(function (el) {
@@ -1370,6 +1367,44 @@
 
 
     </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbar = document.getElementById("mainNavbar");
+            const logo = document.getElementById("logoImage");
+
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 0) {
+                    navbar.style.position = "fixed";
+                    navbar.style.backgroundColor = "white";
+                    navbar.style.color = "black";
+                    navbar.style.boxShadow = "0 4px 10px rgba(0,0,0,0.1)";
+
+                    navbar.querySelectorAll(".nav-link, .navbar-brand, .dropdown-toggle").forEach(el => {
+                        el.style.color = "black";
+                    });
+
+                    logo.src = "https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/logo/logo.png";
+                    logo.style.height = "110px";
+                    logo.style.transform = "scale(0.95)";
+                } else {
+                    navbar.style.position = "absolute";
+                    navbar.style.backgroundColor = "transparent";
+                    navbar.style.color = "white";
+                    navbar.style.boxShadow = "none";
+
+                    navbar.querySelectorAll(".nav-link, .navbar-brand, .dropdown-toggle").forEach(el => {
+                        el.style.color = "white";
+                    });
+
+                    logo.src = "https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/logo/light_logo.png";
+                    logo.style.height = "100px";
+                    logo.style.transform = "scale(1)";
+                }
+            });
+        });
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>

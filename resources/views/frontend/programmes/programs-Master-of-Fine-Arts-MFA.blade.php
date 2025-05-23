@@ -3,7 +3,7 @@
 <div class="mobile">
 @include('frontend/components/mobileheader')
 <div style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp); padding-top: 90px; position: relative;">
- 
+
 
 <h2 class="mobile-headd2 kd-title-ani kd-split pb-1 pt-3 text-center" style="color: #264273; font-weight: 700;">Master of Fine Arts (MFA)
 </h2>
@@ -15,11 +15,11 @@
         <!-- YouTube-Style Fixed Tabs Start -->
 <div class="container mt-4" style="max-width: 900px;">
 
-<ul class="nav nav-tabs justify-content-center border-0 shadow-sm" id="infoTabs" role="tablist" 
+<ul class="nav nav-tabs justify-content-center border-0 shadow-sm" id="infoTabs" role="tablist"
     style="display: flex; gap: 10px; padding: 10px; background: #ffffff; border-radius: 8px;">
     <li class="nav-item" role="presentation">
-        <button class="nav-link active border" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" 
-            aria-controls="tab1" aria-selected="true" 
+        <button class="nav-link active border" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab"
+            aria-controls="tab1" aria-selected="true"
             style="font-size: 16px; font-weight: 500; color: white; padding: 10px 18px; border: none; background: #27467A; border-radius: 6px; transition: all 0.3s ease-in-out;">
             Fee
         </button>
@@ -52,7 +52,7 @@
             How to Apply
         </button>
     </li>
-  
+
 </ul>
 
 <div style="padding: 20px 0px 0px 0px;">
@@ -75,7 +75,7 @@
             <li>Yearly Payment (Rs. - 85000.00)</li>
             <li>Semester Payment (Rs. - 43500.00)</li>
         </ol>
-        
+
     </div>
     <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
         <p class="mobile-headd3 fw-bold text-dark">Eligibility Criteria
@@ -84,12 +84,12 @@
         <p class="mobile-para1 text-dark">Bachelors Degree in Fine Arts or Visual Arts from any recognized University/ Institution</p>
         <p class="mobile-headd3 fw-bold text-dark">Selection Process
         </p>
-        <p class="mobile-para1 text-dark">Based on Overall Performance in the last examination with minimum 50% marks in aggregate or equivalent grade (5%relaxation to SC/ST/OBC Non-Creamy Layer)followed by personal interview.
+        <p class="mobile-para1 text-dark">Based on Overall Performance in the last examination with minimum 45% marks in aggregate or equivalent grade (5%relaxation to SC/ST/OBC Non-Creamy Layer)followed by personal interview.
         </p>
 
     </div>
     <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-        
+
     <div class="text-center">
         <img class="mb-3 rounded shadow-sm" style="width: 200px;" src="assets/img/File/brochurethumb.png" alt="">
 
@@ -97,7 +97,7 @@
             <i class="fa fa-download"></i> Download Brochure
         </a>
     </div>
-        
+
     </div>
     <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
         <p class="mobile-headd3 fw-bold text-dark">Scholarships
@@ -117,7 +117,7 @@
         </p>
 
         <p class="mobile-headd3 fw-bold text-dark">For More Details,</p>
-        <a href="scholarship&funding.html" target="_blank" class="btn mobile-para1" style="background-color: #27467A; color: white; font-weight: bold; padding: 10px 15px; border-radius: 5px; text-decoration: none; line-height: 1.3; display: flex; align-items: center; justify-content: center; gap: 8px;">
+        <a href="scholarship&funding" target="_blank" class="btn mobile-para1" style="background-color: #27467A; color: white; font-weight: bold; padding: 10px 15px; border-radius: 5px; text-decoration: none; line-height: 1.3; display: flex; align-items: center; justify-content: center; gap: 8px;">
            Click Here
         </a>
 
@@ -130,7 +130,7 @@
         </p>
 
         <p class="mobile-headd3 fw-bold text-dark">For More Details,</p>
-        <a href="scholarship&funding.html" target="_blank" class="btn mobile-para1" style="background-color: #27467A; color: white; font-weight: bold; padding: 10px 15px; border-radius: 5px; text-decoration: none; line-height: 1.3; display: flex; align-items: center; justify-content: center; gap: 8px;">
+        <a href="scholarship&funding" target="_blank" class="btn mobile-para1" style="background-color: #27467A; color: white; font-weight: bold; padding: 10px 15px; border-radius: 5px; text-decoration: none; line-height: 1.3; display: flex; align-items: center; justify-content: center; gap: 8px;">
            Click Here
         </a>
 
@@ -156,7 +156,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.4);
     padding: 15px;">
-    
+
     <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
         <span class="mobile-para1" style="
             font-weight: bold; font-size: 16px; line-height: 1.3;
@@ -257,7 +257,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <p class="text-dark pt-2 fw-bold m-0">Eligibility Criteria</p>
                         <p class="text-dark pt-2 m-0">Bachelors Degree in Fine Arts or Visual Arts from any recognized University/ Institution</p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
-                        <p class="text-dark pt-2 m-0">Based on Overall Performance in the last examination with minimum 50% marks in aggregate or equivalent grade (5%relaxation to SC/ST/OBC Non-Creamy Layer)followed by personal interview.</p>
+                        <p class="text-dark pt-2 m-0">Based on Overall Performance in the last examination with minimum 45% marks in aggregate or equivalent grade (5%relaxation to SC/ST/OBC Non-Creamy Layer)followed by personal interview.</p>
                     </div>
                 </div>
                 <div id="Brochure" class="w3-container city card p-5 shadow" style="display:none">
@@ -291,7 +291,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             for
                             the scholarship application deadlines and process.</p>
 
-                            <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="scholarship&funding.html">More details, click to view...</a></p>
+                            <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="scholarship&funding">More details, click to view...</a></p>
                     </div>
                 </div>
                 <div id="Apply" class="w3-container city card p-5 shadow" style="display:none">
@@ -306,7 +306,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             and
                             make invaluable contacts and lifelong friends.</p>
 
-                            <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="admission-how-to-apply.html"> more details click to view... </a></p><br>
+                            <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="how-to-apply"> more details click to view... </a></p><br>
 
                         <p class="text-dark pt-2 fw-bold m-0">FULLY ONLINE ADMISSION PROCESS</p>
 

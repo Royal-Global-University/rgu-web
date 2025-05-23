@@ -24,7 +24,7 @@
                                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri Ranjit
                                         Barthakur</h5>
                                     <p class="para1" style="color: #27467A; line-height: 1.3;">Founding Trustee, Balipara
-                                        Foundation, and Chairperson</p>
+                                        Foundation, and Chairperson | Advisor, Governing Body.</p>
 
                                     <!-- <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p> -->
                                 </div>
@@ -137,7 +137,7 @@
                                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri Ranjit
                                         Barthakur</h5>
                                     <p class="para1" style="color: #27467A; line-height: 1.3;">Founding Trustee, Balipara
-                                        Foundation, and Chairperson</p>
+                                        Foundation, and Chairperson | Advisor, Governing Body.</p>
 
                                     <!-- <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p> -->
                                 </div>

@@ -84,7 +84,7 @@
                     <p class="mobile-headd3 fw-bold text-dark">Eligibility Criteria
                     </p>
 
-                    <p class="mobile-para1 text-dark">10+2 or equivalent from a recognized Board/Council with minimum 50% marks or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer).
+                    <p class="mobile-para1 text-dark">10+2 or equivalent from a recognized Board/Council with minimum 45% marks or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer).
                     </p>
 
                     <p class="mobile-headd3 fw-bold text-dark">Selection Process
@@ -123,7 +123,7 @@
                     </p>
 
                     <p class="mobile-headd3 fw-bold text-dark">For More Details,</p>
-                    <a href="scholarship&funding.html" target="_blank" class="btn mobile-para1" style="background-color: #27467A; color: white; font-weight: bold; padding: 10px 15px; border-radius: 5px; text-decoration: none; line-height: 1.3; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                    <a href="scholarship&funding" target="_blank" class="btn mobile-para1" style="background-color: #27467A; color: white; font-weight: bold; padding: 10px 15px; border-radius: 5px; text-decoration: none; line-height: 1.3; display: flex; align-items: center; justify-content: center; gap: 8px;">
                        Click Here
                     </a>
 
@@ -136,7 +136,7 @@
                     </p>
 
                     <p class="mobile-headd3 fw-bold text-dark">For More Details,</p>
-                    <a href="scholarship&funding.html" target="_blank" class="btn mobile-para1" style="background-color: #27467A; color: white; font-weight: bold; padding: 10px 15px; border-radius: 5px; text-decoration: none; line-height: 1.3; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                    <a href="scholarship&funding" target="_blank" class="btn mobile-para1" style="background-color: #27467A; color: white; font-weight: bold; padding: 10px 15px; border-radius: 5px; text-decoration: none; line-height: 1.3; display: flex; align-items: center; justify-content: center; gap: 8px;">
                        Click Here
                     </a>
 
@@ -261,7 +261,7 @@
                 <div id="Eligibility" class="w3-container city card p-5 shadow" style="display:none">
                     <div class="card-body para1">
                         <p class="text-dark pt-2 fw-bold m-0">Eligibility Criteria</p>
-                        <p class="text-dark pt-2 m-0">10+2 or equivalent from a recognized Board/ Council with minimum 50% marks or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer)
+                        <p class="text-dark pt-2 m-0">10+2 or equivalent from a recognized Board/ Council with minimum 45% marks or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer)
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
                         <p class="text-dark pt-2 m-0">Based on overall performance in last examination followed by
@@ -300,7 +300,7 @@
                             for
                             the scholarship application deadlines and process.</p>
 
-                            <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="scholarship&funding.html">More details, click to view...</a></p>
+                            <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="scholarship&funding">More details, click to view...</a></p>
                     </div>
                 </div>
                 <div id="Apply" class="w3-container city card p-5 shadow" style="display:none">
@@ -315,7 +315,7 @@
                             and
                             make invaluable contacts and lifelong friends.</p>
 
-                            <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="admission-how-to-apply.html"> more details click to view... </a></p><br>
+                            <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="how-to-apply"> more details click to view... </a></p><br>
 
                         <p class="text-dark pt-2 fw-bold m-0">FULLY ONLINE ADMISSION PROCESS</p>
 
