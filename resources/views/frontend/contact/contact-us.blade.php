@@ -279,21 +279,20 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Sivasagar Card -->
+                    <!-- JORHAT Card -->
                     <div class="col-lg-4 col-md-6">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">SIVASAGAR</h5>
+                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">JORHAT</h5>
                                 <p class="card-text mobile-para1 text-dark">
-                                    1st Floor, Elite Complex, Opp. Lachit Park, H.C.B. Road, Ward No. 8, P.O. & P.S. -
-                                    Sivasagar - 785640
+                                    Tirupati Circle Project : ROYAL AAWAS JORHAT, Near Christ King English School By Pass Road, Jorhat- 785010
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-0">
                                 <hr>
-                                <a href="tel:7099020909" class="text-decoration-none text-dark mobile-para1">
-                                    <i class="fa fa-phone me-2"></i>7099020909
+                                <a href="tel:6913002968" class="text-decoration-none text-dark mobile-para1">
+                                    <i class="fa fa-phone me-2"></i>6913002968
                                 </a>
                             </div>
                         </div>

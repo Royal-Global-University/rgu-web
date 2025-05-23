@@ -13,7 +13,7 @@
                 <!-- Discover RGU -->
                 <li class="nav-item dropdown" style="position: relative;">
                     <a class="nav-link dropdown-toggle para1" href="#"
-                        style="color: white; font-weight: 600; font-size: 16px;">DISCOVER RGU</a>
+                        style="color: white; font-weight: 600; font-size: 16px;">Discover RGU</a>
 
                     <ul class="dropdown-menu p-3"
                         style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 800px; overflow: hidden; border-top: 3px solid #e68900;">

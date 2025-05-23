@@ -74,11 +74,15 @@ Route::get('/advisory-leadership', function () {
     return view('frontend/discoverRGU/advisory-leadership');
 })->name('advisory-leadership');
 
-Route::get('/advisory-prof-prabuddha-ganguli', function () {
+Route::get('/advisor-prof-prabuddha-ganguli', function () {
     return view('frontend/discoverRGU/advisory-prof-prabuddha-ganguli');
 })->name('advisory-prof-prabuddha-ganguli');
 
-Route::get('/advisory-sri-ravi-kant', function () {
+Route::get('/advisor-sri-ranjit-barthakur', function () {
+    return view('frontend/discoverRGU/advisory-sri-ranjit-barthakur');
+})->name('advisory-sri-ranjit-barthakur');
+
+Route::get('/advisor-sri-ravi-kant', function () {
     return view('frontend/discoverRGU/advisory-sri-ravi-kant');
 })->name('advisory-sri-ravi-kant');
 
