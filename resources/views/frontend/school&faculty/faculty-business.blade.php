@@ -4,8 +4,7 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-              <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900; padding-top: 90px; position: relative;">
+              <h2 style="color: #27467A; font-weight: 900; padding-top: 100px; position: relative;" class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text">
                 Royal School of <br><span style="color: #FF9A1E; font-weight: 500;"> Business (RSB)</span></h2>
 
               <div style="padding: 20px 30px;">

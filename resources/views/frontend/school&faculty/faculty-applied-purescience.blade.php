@@ -7,7 +7,7 @@
             @include('frontend/components/mobileheader')
             <!--End Header-->
 
-            <h2 class="headd2 mb-5 fw-bold text-center kd-title-ani kd-split-text pt-5"
+            <h2 class="headd2 mb-5 fw-bold text-center kd-title-ani kd-split-text"
                 style="color: #27467A; font-weight: 900; padding-top: 120px; position: relative;">
                 Royal School of <span style="color: #FF9A1E; font-weight: 500;"> Applied and Pure Science (RSAPS)</span>
             </h2>
