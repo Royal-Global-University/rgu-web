@@ -334,7 +334,9 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 mb-4 mt-3">
+
+
+              {{-- <div class="col-lg-3 mb-4 mt-3">
                 <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                   <div class="p-3">
                     <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;" src="mobile-assets/school-rgu/fashion.jpeg" class="img-fluid rounded"/>
@@ -346,14 +348,16 @@
                         <a href="{{route('department-fashion-design')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        {{-- <a href="{{route('faculty-fashion-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="{{route('faculty-fashion-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a> --}}
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> --}}
+
+
               <div class="col-lg-3 mb-4 mt-3">
                 <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                   <div class="p-3">
@@ -937,7 +941,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 mb-4 mt-3">
+
+
+            {{-- <div class="col-lg-4 mb-4 mt-3">
               <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                 <div class="p-3">
                   <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;" src="mobile-assets/school-rgu/fashion.jpeg" class="img-fluid rounded"/>
@@ -949,14 +955,16 @@
                       <a class="para1" href="{{route('department-fashion-design')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      {{-- <a class="para1" href="{{route('faculty-fashion-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      <a class="para1" href="{{route('faculty-fashion-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a> --}}
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> --}}
+
+
             <div class="col-lg-4 mb-4 mt-3">
               <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                 <div class="p-3">

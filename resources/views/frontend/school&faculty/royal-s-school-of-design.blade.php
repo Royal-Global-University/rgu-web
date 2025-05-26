@@ -82,6 +82,23 @@
                         </a>
                     </div>
 
+                    <div class="col-lg-4 mb-4">
+
+                        <a href="department-fashion-design">
+                            <div class="card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                                <div class="p-3 text-center">
+                                    <i style="color: #27467A;" class="fas fa-shirt fa-3x"></i>
+
+                                </div>
+                                <div class="card-body ">
+                                    <h5 style="font-weight: 800; color: #27467A;" class="text-center card-title mobile-headd2 pb-2">
+                                        Department of Fashion Design</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
 
             </div>
@@ -104,7 +121,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-3 mb-4">
+                    <div class="col-lg-4 mb-4">
 
                         <a href="department-product-design">
                             <div class="p-4 card rounded d-flex flex-column"
@@ -122,7 +139,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
+                    <div class="col-lg-4 mb-4">
 
                         <a href="department-communication-design">
                             <div class="p-3 card rounded d-flex flex-column"
@@ -140,7 +157,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
+                    <div class="col-lg-4 mb-4">
 
                         <a href="department-interior-design">
                             <div class="p-4 card rounded d-flex flex-column"
@@ -158,7 +175,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
+                    <div class="col-lg-4 mb-4">
 
                         <a href="department-graphic-design">
                             <div class="p-4 card rounded d-flex flex-column"
@@ -176,6 +193,23 @@
                         </a>
                     </div>
 
+                    <div class="col-lg-4 mb-4">
+
+                        <a href="department-fashion-design">
+                            <div class="p-4 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                                <div class="p-3 text-center">
+                                    <i style="color: #27467A;" class="fas fa-shirt fa-4x"></i>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title headd2 pb-2">Department of
+                                        <br>Fashion Design</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
 
 
                 </div>

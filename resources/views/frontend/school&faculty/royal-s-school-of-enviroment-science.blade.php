@@ -1,5 +1,3 @@
-
-
 @extends('frontend.master')
 @section('content')
     <div class="mobile">
@@ -16,7 +14,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-geography-geoinformatics">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">
@@ -34,7 +32,7 @@
 
                     <div class="col-lg-4 mb-4">
 
-                        <a href="#">
+                        <a href="department-environmental-sciences">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3 text-center">

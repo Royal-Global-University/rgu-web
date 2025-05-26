@@ -648,121 +648,94 @@
         </div>
       </div>
 
-      <div>
+    <div>
         <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-          Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+            Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
         <div class="p-2">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="accordion para1" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="false"
-                      aria-controls="collapseOne"
-                    >
-                  <strong>
-                    Under Graduate
-                    </strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseOne"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div class="accordion-body">
-                      <div class="row">
-                        <a
-                          href="mobile-assets/department-all/Departmentalpdf/AY 2022-2023 B.Sc in Chemistry.pdf"
-                          target="_blank"
-                        >
-                          <i class="fa fa-file-text px-2"></i>AY 2022-2023 B.Sc in Chemistry.pdf<i class="px-2 fa fa-download"></i>
-                        </a>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="accordion para1" id="accordionExample">
+                        <div class="accordion-item bg-light">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <strong>
+                                        Under Graduate
+                                    </strong>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <a href="mobile-assets/department-all/syllabus-new/1RSAPS/Chemistry/Chemistry Syllabus UG_2025_30-04-25.pdf"
+                                            target="_blank">
+                                            <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE & SYLLABUS (BASED ON
+                                            NATIONAL EDUCATION POLICY 2020)<i class="px-2 fa fa-download"></i>
+                                        </a>
 
-                        <a
-                          href="mobile-assets/department-all/Departmentalpdf/AY 2023-2024 B.Sc in Chemistry.pdf"
-                          target="_blank"
-                        >
-                          <i class="fa fa-file-text px-2"></i>AY 2023-2024 B.Sc in Chemistry.pdf<i class="px-2 fa fa-download"></i>
-                        </a>
-                      </div>
+                                        <a href="mobile-assets/department-all/syllabus-new/1RSAPS/Chemistry/Structure of syllabus - UG_CHEMISTRY_30.4.25.pdf"
+                                            target="_blank">
+                                            <i class="fa fa-file-text px-2"></i>B.Sc. Chemistry COURSE STRUCTURE Based on
+                                            NEP 2020<i class="px-2 fa fa-download"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-light">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>
+                                        Post Graduate
+                                    </strong>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <a href="mobile-assets/department-all/syllabus-new/1RSAPS/Chemistry/Chemistry PG Syllabus_02-05-25.pdf"
+                                            target="_blank">
+                                            <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE & SYLLABUS (BASED ON
+                                            NATIONAL EDUCATION POLICY 2020) FOR M.Sc. CHEMISTRY<i
+                                                class="px-2 fa fa-download"></i>
+                                        </a>
+
+                                        <a href="mobile-assets/department-all/syllabus-new/1RSAPS/Chemistry/Structure of syllabus - PG_CHEMISTRY_2.5.25.pdf"
+                                            target="_blank">
+                                            <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 2 YEAR PG
+                                            PROGRAMME <i class="px-2 fa fa-download"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-light">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <strong>
+                                        Doctoral Programme
+                                    </strong>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong><a href="phd">
+                                            Click to View...</a></strong>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    ><strong>
-                      Post Graduate
-                    </strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseTwo"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div class="accordion-body">
-                      <a
-                        href="mobile-assets/department-all/Departmentalpdf/Old Syllabus M.Sc. in Chemistry.pdf"
-                        target="_blank"
-                      >
-                        <i class="fa fa-file-text px-2"></i>Old Syllabus M.Sc. in
-                        Chemistry.pdf<i class="px-2 fa fa-download"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                    >
-                    <strong>
-                      Doctoral Programme
-                    </strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseThree"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div class="accordion-body">
-                      <strong
-                        ><a href="phd">
-                          Click to View...</a
-                        ></strong
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div class="col-lg-6"></div>
-          </div>
         </div>
-      </div>
+
+    </div>
     </div>
 
         </div>
