@@ -5,7 +5,7 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <h2 style="padding-top: 120px; position: relative; color: #27467A; font-weight: 900;" class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text pt-5">
+            <h2 style="padding-top: 120px; position: relative; color: #27467A; font-weight: 900;" class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text">
                 Royal School of Behavioural <br><span style="color: #FF9A1E; font-weight: 500;"> & Allied Sciences
                     (RSBAS)</span>
             </h2>
