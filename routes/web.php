@@ -2828,6 +2828,10 @@ Route::get('/phd-cell', function () {
     return view('frontend/cell/phd-cell');
 })->name('phd-cell');
 
+Route::get('/cisr', function () {
+    return view('frontend/cell/cisr');
+})->name('cisr');
+
 
 //faculty profile
 Route::get('/dr-shwetambara-verma', function () {

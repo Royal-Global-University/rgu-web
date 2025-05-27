@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <div id="page" class="site site_wrapper">
+        <div id="page" class="site site_wrapper" style="padding-top: 90px; position: relative;">
             <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
                 <!--About Section-->
                 <div class="pb-3 ">

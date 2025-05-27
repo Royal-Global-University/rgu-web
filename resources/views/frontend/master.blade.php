@@ -1776,7 +1776,7 @@
     <script src="{{ asset('assets/js/frontend.min.js') }}" id="elementor-frontend-js"></script>
     <script>new DataTable('#example');</script>
     <script>new DataTable('#example2');</script>
-
+    @stack('scripts')
     <!-- <script>
         $(function() {
     $(window).on("scroll", function() {

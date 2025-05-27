@@ -2,6 +2,52 @@
 @section('title', 'Doctoral Programme : The Assam Royal Global University')
 @section('meta_description', 'Explore the Doctoral Programme at Royal Global University, offering advanced research opportunities, expert faculty guidance, and a supportive academic environment to help you achieve your academic and professional goals.')
 @section('meta_keywords', 'Doctoral Programme')
+
+@push('styles')
+    <style>
+     table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #27467A;
+    }
+
+    .pagination {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .pagination button {
+      padding: 5px 10px;
+      margin: 0 3px;
+      border: 1px solid #007bff;
+      background: white;
+      color: #007bff;
+      cursor: pointer;
+    }
+
+    .pagination button.active {
+      background: #007bff;
+      color: white;
+    }
+
+    .pagination button:disabled {
+      background: #eee;
+      color: #999;
+      cursor: not-allowed;
+    }
+    </style>
+@endpush
 @section('content')
 
     <div class="mobile">
@@ -349,149 +395,22 @@
                                     <div class="accordion-body mobile-para1">
                                         <!--Table Start-->
                                         <div class="table-responsive">
-                                            <table class="table table-bordered border-top mb-3 shadow-sm text-wrap"
-                                                style="text-align: left !important; background-color: #fff; font-size: 18px;">
+                                            <table id="dataTableMobile">
                                                 <thead class="text-white" style="background-color: #27467A;">
                                                     <tr>
-                                                        <th scope="col">SL NO.</th>
-                                                        <th scope="col">SESSION</th>
-                                                        <th scope="col">SCHOOL</th>
-                                                        <th scope="col">BRANCH</th>
-                                                        <th scope="col">STUDENT NAME</th>
-                                                        <th scope="col">REGISTRATION NO.</th>
-                                                        <th scope="col">GUIDE</th>
-                                                        <th scope="col">CO-GUIDE</th>
-                                                        <th scope="col">TOPIC OF RESEARCH</th>
+                                                        <th>SL NO.</th>
+                                                        <th>SESSION</th>
+                                                        <th>SCHOOL</th>
+                                                        <th>BRANCH</th>
+                                                        <th>NAME</th>
+                                                        <th>GUIDES</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody class="mobile-para1 text-dark" style="font-size: 16px;">
-                                                    <tr>
-                                                        <th scope="row">1</th>
-                                                        <td>2021-22</td>
-                                                        <td>Rsbsc</td>
-                                                        <td>Bio-technology</td>
-                                                        <td>Bishwapriya Chutia</td>
-                                                        <td>1210011</td>
-                                                        <td>Dr. Bhaskarjyoti Gogoi, assistant professor, biotechnology, RGU</td>
-                                                        <td>Dr. Ajay Kumar Manhar, assistant professor, industrial microbiology,
-                                                            Indira Gandhi Govt. PG College</td>
-                                                        <td>Isolation and characterization of therapeutic assessment of
-                                                            potential probiotic strains from traditionally used fermented foods
-                                                            of North East India</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">2</th>
-                                                        <td>2021-22</td>
-                                                        <td>Rsbsc</td>
-                                                        <td>Bio-technology</td>
-                                                        <td>Debaleena Kashyap</td>
-                                                        <td>1210012</td>
-                                                        <td>Dr. Bhaskarjyoti Gogoi, assistant professor, biotechnology, RGU</td>
-                                                        <td>Dr. Ajanita Mazumdar, assistant professor, molecular biology and
-                                                            biotechnology, Cotton University</td>
-                                                        <td>Synthesis and characterization of a few metal nanoparticles and
-                                                            assessment of their antimicrobial property against bacterial
-                                                            pathogen</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">3</th>
-                                                        <td>2021-22</td>
-                                                        <td>Rsbsc</td>
-                                                        <td>Bio-technology</td>
-                                                        <td>Sahiba Khan</td>
-                                                        <td>1210013</td>
-                                                        <td>Dr. Debajit Borah, associate professor, biotechnology, RGU</td>
-                                                        <td>Dr. Debasish Borbora, assistant professor, biotechnology, Gauhati
-                                                            University</td>
-                                                        <td>Isolation and characterization of azo-dye degrading indigenous soil
-                                                            microbes and exploring its bioremediation potential</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">4</th>
-                                                        <td>2022-23</td>
-                                                        <td>Rsbsc</td>
-                                                        <td>Bio-technology</td>
-                                                        <td>Saahana Syed Juhi</td>
-                                                        <td>1222259</td>
-                                                        <td>Dr. Ranjan Dutta Kalita, associate professor, biotechnology, RGU
-                                                        </td>
-                                                        <td>Dr. Sushmita Paul, assistant professor, microbiology, RGU</td>
-                                                        <td>Comparative evaluation of the endophytic fungi diversity in Costus
-                                                            speciosus and C. pictus, two traditional medicinal plant species of
-                                                            Assam and assessment of their therapeutic potential</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">5</th>
-                                                        <td>2023-24</td>
-                                                        <td>Rsbsc</td>
-                                                        <td>Bio-technology</td>
-                                                        <td>Ixora Waikhom</td>
-                                                        <td>A/F</td>
-                                                        <td>Dr. Siddhartha Narayan Borah, assistant professor, bio-technology,
-                                                            RGU</td>
-                                                        <td></td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">6</th>
-                                                        <td>2023-24</td>
-                                                        <td>Rsbsc</td>
-                                                        <td>Bio-technology</td>
-                                                        <td>Anmol Kaur</td>
-                                                        <td>A/F</td>
-                                                        <td>Dr. Rupsikha Patowary, assistant professor, bio-technology, RGU</td>
-                                                        <td></td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">7</th>
-                                                        <td>2023-24</td>
-                                                        <td>Rsbsc</td>
-                                                        <td>Bio-technology</td>
-                                                        <td>Panchami Borpujari</td>
-                                                        <td>A/F</td>
-                                                        <td>Dr. Debajit Borah, associate professor, biotechnology, RGU</td>
-                                                        <td></td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">8</th>
-                                                        <td>2019-20</td>
-                                                        <td>RsLSC</td>
-                                                        <td>Botany</td>
-                                                        <td>Namita Deka</td>
-                                                        <td>1190017</td>
-                                                        <td>Dr. S. R. Patgiri, professor, botany, RGU</td>
-                                                        <td>Dr. Bidisha Sharma, botany, Cotton University</td>
-                                                        <td>Studies on some important endophytic microflora of Cissus
-                                                            quadrangularis Linn in some districts of Assam</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">9</th>
-                                                        <td>2020-21</td>
-                                                        <td>RsLSC</td>
-                                                        <td>Botany</td>
-                                                        <td>Jasmin Sultana</td>
-                                                        <td>1200013</td>
-                                                        <td>Dr. Anushree Borah, assistant professor, botany, RGU</td>
-                                                        <td>Dr. Nirmali Bordoloi</td>
-                                                        <td>To evaluate the impact of BNI's in rice agro-ecosystem of Assam</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">10</th>
-                                                        <td>2020-21</td>
-                                                        <td>RsLSC</td>
-                                                        <td>Botany</td>
-                                                        <td>Ringphamchung Khatru Moyon</td>
-                                                        <td>1210014</td>
-                                                        <td>Dr. Minaram Nath, professor, botany, RGU</td>
-                                                        <td>Prof. Dr. Potsangbam Kumar Singh, Manipur University, Canchipur,
-                                                            Imphal, Manipur</td>
-                                                        <td>Ethnobotanical studies of the Moyon Naga tribe in Manipur, North
-                                                            East India</td>
-                                                    </tr>
-                                                </tbody>
+                                                <tbody></tbody>
                                             </table>
+
+                                            <div class="pagination" id="paginationmob">
+                                                </div>
                                         </div>
                                         <!--Table End-->
                                     </div>
@@ -1348,133 +1267,21 @@
                                 <div class="accordion-body para1">
 
                                     <!--Table Start-->
-                                    <table style="text-align: left !important; background-color: #fff; font-size: 18px;" class="overflow-hidden table text-wrap table-bordered border-top mb-3 shadow-sm">
+                                    <table id="dataTable">
                                         <thead class="text-white" style="background-color: #27467A;">
                                             <tr>
-                                                <th scope="col">SL NO.</th>
-                                                <th scope="col">SESSION</th>
-                                                <th scope="col">SCHOOL</th>
-                                                <th scope="col">BRANCH</th>
-                                                <th scope="col">STUDENT NAME</th>
-                                                <th scope="col">REGISTRATION NO.</th>
-                                                <th scope="col">GUIDE</th>
-                                                <th scope="col">CO-GUIDE</th>
-                                                <th scope="col">TOPIC OF RESEARCH</th>
+                                                <th class="text-center">SL NO.</th>
+                                                <th class="text-center">SESSION</th>
+                                                <th class="text-center">SCHOOL</th>
+                                                <th class="text-center">BRANCH</th>
+                                                <th class="text-center">NAME</th>
+                                                <th class="text-center">GUIDES</th>
                                             </tr>
                                         </thead>
-                                        <tbody class="para1 text-dark" style="font-size: 16px;">
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>2021-22</td>
-                                                <td>Rsbsc</td>
-                                                <td>Bio-technology</td>
-                                                <td>Bishwapriya Chutia</td>
-                                                <td>1210011</td>
-                                                <td>Dr. Bhaskarjyoti Gogoi, assistant professor, biotechnology, RGU</td>
-                                                <td>Dr. Ajay Kumar Manhar, assistant professor, industrial microbiology, Indira Gandhi Govt. PG College</td>
-                                                <td>Isolation and characterization of therapeutic assessment of potential probiotic strains from traditionally used fermented foods of North East India</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>2021-22</td>
-                                                <td>Rsbsc</td>
-                                                <td>Bio-technology</td>
-                                                <td>Debaleena Kashyap</td>
-                                                <td>1210012</td>
-                                                <td>Dr. Bhaskarjyoti Gogoi, assistant professor, biotechnology, RGU</td>
-                                                <td>Dr. Ajanita Mazumdar, assistant professor, molecular biology and biotechnology, Cotton University</td>
-                                                <td>Synthesis and characterization of a few metal nanoparticles and assessment of their antimicrobial property against bacterial pathogen</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>2021-22</td>
-                                                <td>Rsbsc</td>
-                                                <td>Bio-technology</td>
-                                                <td>Sahiba Khan</td>
-                                                <td>1210013</td>
-                                                <td>Dr. Debajit Borah, associate professor, biotechnology, RGU</td>
-                                                <td>Dr. Debasish Borbora, assistant professor, biotechnology, Gauhati University</td>
-                                                <td>Isolation and characterization of azo-dye degrading indigenous soil microbes and exploring its bioremediation potential</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">4</th>
-                                                <td>2022-23</td>
-                                                <td>Rsbsc</td>
-                                                <td>Bio-technology</td>
-                                                <td>Saahana Syed Juhi</td>
-                                                <td>1222259</td>
-                                                <td>Dr. Ranjan Dutta Kalita, associate professor, biotechnology, RGU</td>
-                                                <td>Dr. Sushmita Paul, assistant professor, microbiology, RGU</td>
-                                                <td>Comparative evaluation of the endophytic fungi diversity in Costus speciosus and C. pictus, two traditional medicinal plant species of Assam and assessment of their therapeutic potential</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">5</th>
-                                                <td>2023-24</td>
-                                                <td>Rsbsc</td>
-                                                <td>Bio-technology</td>
-                                                <td>Ixora Waikhom</td>
-                                                <td>A/F</td>
-                                                <td>Dr. Siddhartha Narayan Borah, assistant professor, bio-technology, RGU</td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">6</th>
-                                                <td>2023-24</td>
-                                                <td>Rsbsc</td>
-                                                <td>Bio-technology</td>
-                                                <td>Anmol Kaur</td>
-                                                <td>A/F</td>
-                                                <td>Dr. Rupsikha Patowary, assistant professor, bio-technology, RGU</td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">7</th>
-                                                <td>2023-24</td>
-                                                <td>Rsbsc</td>
-                                                <td>Bio-technology</td>
-                                                <td>Panchami Borpujari</td>
-                                                <td>A/F</td>
-                                                <td>Dr. Debajit Borah, associate professor, biotechnology, RGU</td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">8</th>
-                                                <td>2019-20</td>
-                                                <td>RsLSC</td>
-                                                <td>Botany</td>
-                                                <td>Namita Deka</td>
-                                                <td>1190017</td>
-                                                <td>Dr. S. R. Patgiri, professor, botany, RGU</td>
-                                                <td>Dr. Bidisha Sharma, botany, Cotton University</td>
-                                                <td>Studies on some important endophytic microflora of Cissus quadrangularis Linn in some districts of Assam</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">9</th>
-                                                <td>2020-21</td>
-                                                <td>RsLSC</td>
-                                                <td>Botany</td>
-                                                <td>Jasmin Sultana</td>
-                                                <td>1200013</td>
-                                                <td>Dr. Anushree Borah, assistant professor, botany, RGU</td>
-                                                <td>Dr. Nirmali Bordoloi</td>
-                                                <td>To evaluate the impact of BNI's in rice agro-ecosystem of Assam</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">10</th>
-                                                <td>2020-21</td>
-                                                <td>RsLSC</td>
-                                                <td>Botany</td>
-                                                <td>Ringphamchung Khatru Moyon</td>
-                                                <td>1210014</td>
-                                                <td>Dr. Minaram Nath, professor, botany, RGU</td>
-                                                <td>Prof. Dr. Potsangbam Kumar Singh, Manipur University, Canchipur, Imphal, Manipur</td>
-                                                <td>Ethnobotanical studies of the Moyon Naga tribe in Manipur, North East India</td>
-                                            </tr>
-                                        </tbody>
+                                        <tbody class="text-center"></tbody>
                                     </table>
+
+                                    <div class="pagination" id="pagination"></div>
                                     <!--Table End-->
                                 </div>
                             </div>
@@ -1910,3 +1717,962 @@
         </div>
         </div>
 @endsection
+
+@push('scripts')
+        <script>
+            const data = [
+                { sl: 1, session: "2024-25", school: "RSA", branch: "ARCHITECTURE", name: "DIKSHA DUTTA", guide: "PROF. (DR.) HARI PRASAD AGARWAL" },
+                { sl: 2, session: "2024-25", school: "RSA", branch: "ARCHITECTURE", name: "KASTURI BORAH", guide: "PROF. (DR.) HARI PRASAD AGARWAL" },
+                { sl: 3, session: "2021-22", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "BISHWAPRIYA CHUTIA", guide: "DR. BHASKARJYOTI GOGOI" },
+                { sl: 4, session: "2021-22", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "DEBALEENA KASHYAP", guide: "DR. BHASKARJYOTI GOGOI" },
+                { sl: 5, session: "2021-22", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "SAHIBA KHAN", guide: "DR. DEBAJIT BORAH" },
+                { sl: 6, session: "2022-23", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "SAAHANA SYED JUHI", guide: "PROF. (DR.) RANJAN DUTTA KALITA" },
+                { sl: 7, session: "2023-24", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "IXORA WAIKHOM", guide: "DR. SIDDHARTHA NARAYAN BORAH" },
+                { sl: 8, session: "2023-24", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "ANMOL KAUR", guide: "DR. RUPSIKHA PATOWARY" },
+                { sl: 9, session: "2023-24", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "PANCHAMI BORPUJARI", guide: "DR. DEBAJIT BORAH" },
+                { sl: 10, session: "2024-25", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "AMARTYA DAS", guide: "PROF. (DR.) RANJAN DUTTA KALITA" },
+                { sl: 11, session: "2024-25", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "DEBOSMITA DUTTA", guide: "DR. MOUSUMI DAS GOSWAMI" },
+                { sl: 12, session: "2024-25", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "ANINDITA DUTTA", guide: "DR. RUPESH KUMAR" },
+                { sl: 13, session: "2024-25", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "SHIKHA RANI BARO", guide: "DR. RUPESH KUMAR" },
+                { sl: 14, session: "2019-20", school: "RSLSC", branch: "BOTANY", name: "NAMITA DEKA", guide: "PROF.(DR.) SARANGA RANJAN PATGIRI" },
+                { sl: 15, session: "2020-21", school: "RSLSC", branch: "BOTANY", name: "JASMIN SULTANA", guide: "DR. ANUSHREE BARUAH" },
+                { sl: 16, session: "2020-21", school: "RSLSC", branch: "BOTANY", name: "RINGPHAMCHUNG KHATRU MOYON", guide: "PROF. (DR.) MINARAM NATH" },
+                { sl: 17, session: "2020-21", school: "RSLSC", branch: "BOTANY", name: "NARGIS ZAMAN", guide: "DR. ANUSHREE BARUAH" },
+                { sl: 18, session: "2020-21", school: "RSLSC", branch: "BOTANY", name: "SABNAM SULTANA", guide: "DR. ANUSHREE BARUAH" },
+                { sl: 19, session: "2021-22", school: "RSLSC", branch: "BOTANY", name: "MITALI BARUAH", guide: "DR. RAGHUVAR TIWARY" },
+                { sl: 20, session: "2021-22", school: "RSLSC", branch: "BOTANY", name: "RICA LANGSTANG", guide: "DR. UPASNA CHETTRY" },
+                { sl: 21, session: "2021-22", school: "RSLSC", branch: "BOTANY", name: "HIMAKSHI KALITA", guide: "DR. RAGHUVAR TIWARY" },
+                { sl: 22, session: "2022-23", school: "RSLSC", branch: "BOTANY", name: "HAFIUZ ZAMAN AHMED", guide: "DR. MANALEE PAUL" },
+                { sl: 23, session: "2023-24", school: "RSLSC", branch: "BOTANY", name: "DAIMULU BORO", guide: "DR. UPASNA CHETTRY" },
+                { sl: 24, session: "2023-24", school: "RSLSC", branch: "BOTANY", name: "JIREE BASUMATARY", guide: "DR. RAGHUVAR TIWARY" },
+                { sl: 25, session: "2023-24", school: "RSLSC", branch: "BOTANY", name: "CHETANA HASNU", guide: "DR. PRATIKSHYA BORAH" },
+                { sl: 26, session: "2024-25", school: "RSLSC", branch: "BOTANY", name: "JONEY LALNUNPUII PACHUAU", guide: "DR. RAGHUVAR TIWARY" },
+                { sl: 27, session: "2024-25", school: "RSLSC", branch: "BOTANY", name: "GITANJALI KALITA", guide: "DR. MANALEE PAUL" },
+                { sl: 28, session: "2024-25", school: "RSLSC", branch: "BOTANY", name: "P SUCHITRA SINGHA", guide: "DR. UPASNA CHETTRY" },
+                { sl: 29, session: "2024-25", school: "RSLSC", branch: "BOTANY", name: "DEEPRAJ KUNDU", guide: "DR. UPASHNA CHETTRI" },
+                { sl: 30, session: "2024-25", school: "RSLSC", branch: "BOTANY", name: "BIJIT NATH", guide: "DR. ANUSHREE BARUAH" },
+                { sl: 31, session: "2018-19", school: "RSET", branch: "CE", name: "KHAGEN CHANDRA NATH", guide: "PROF. (DR.) ARNAB SARMA" },
+                { sl: 32, session: "2019-20", school: "RSET", branch: "CE", name: "CHANDRA UPADHYAYA", guide: "PROF. (DR.) ARNAB SARMA" },
+                { sl: 33, session: "2019-20", school: "RSET", branch: "CE", name: "RANU GOWAL SARMAH", guide: "PROF. (DR.) ARNAB SARMA" },
+                { sl: 34, session: "2023-24", school: "RSET", branch: "CE", name: "ARJUN BARUAH", guide: "PROF. (DR.) ARNAB SARMA" },
+                { sl: 35, session: "2024-25", school: "RSET", branch: "CE", name: "Yudhajit Dey", guide: "PROF. (DR.) ARNAB SARMA" },
+                { sl: 36, session: "2024-25", school: "RSET", branch: "CE", name: "Arnold Dipak Das", guide: "PROF. (DR.) ARNAB SARMA" },
+                { sl: 37, session: "2023-24", school: "RSAPS", branch: "CHEMISTRY", name: "NEEKITA DUTTA", guide: "DR. BISWAJIT SARMA" },
+                { sl: 38, session: "2023-24", school: "RSAPS", branch: "CHEMISTRY", name: "TANZINA FIRDOUSHI BORBHUYAN", guide: "DR. DEBOJEET SAHU" },
+                { sl: 39, session: "2024-25", school: "RSAPS", branch: "CHEMISTRY", name: "RT STARTHRING", guide: "DR. ANUP MALAKAR" },
+                { sl: 40, session: "2024-25", school: "RSAPS", branch: "CHEMISTRY", name: "TONMOY DOLEY", guide: "DR. PUBALEE SARMAH" },
+                { sl: 41, session: "2024-25", school: "RSAPS", branch: "CHEMISTRY", name: "Joydeep Chakravorty", guide: "DR. BINOYARGHA DAM" },
+                { sl: 42, session: "2024-25", school: "RSAPS", branch: "CHEMISTRY", name: "LAKHMINANDAN GOSWAMI", guide: "DR. PUBALEE SARMAH" },
+                { sl: 43, session: "2021-22", school: "RSC", branch: "COMMERCE", name: "DIKSHYA SAIKIA", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+                { sl: 44, session: "2021-22", school: "RSC", branch: "COMMERCE", name: "VASUNDHARA JALAN", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+                { sl: 45, session: "2022-23", school: "RSC", branch: "COMMERCE", name: "ADITI BARUAH", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+                { sl: 46, session: "2022-23", school: "RSC", branch: "COMMERCE", name: "SAISANGPUII SAILO", guide: "DR. ARUNA DEV ROY" },
+                { sl: 47, session: "2022-23", school: "RSC", branch: "COMMERCE", name: "SAMARESH NANDY", guide: "DR. ARUNA DEV ROY" },
+                { sl: 48, session: "2022-23", school: "RSC", branch: "COMMERCE", name: "DARSHANA DEVI", guide: "DR. ARUNA DEV ROY" },
+                { sl: 49, session: "2022-23", school: "RSC", branch: "COMMERCE", name: "SANSKRITA BARMAN", guide: "DR. ARUNA DEV ROY" },
+                { sl: 50, session: "2023-24", school: "RSC", branch: "COMMERCE", name: "MOHIT CHOUDHARY", guide: "DR. RAJDEEP NAG" },
+                { sl: 51, session: "2023-24", school: "RSC", branch: "COMMERCE", name: "DIPAK JAIN", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+                { sl: 52, session: "2023-24", school: "RSC", branch: "COMMERCE", name: "DIPAK JAIN", guide: "DR. RAJDEEP NAG" },
+                { sl: 53, session: "2023-24", school: "RSC", branch: "COMMERCE", name: "JIMPY SAUD", guide: "DR. ARUNA DEV ROY" },
+                { sl: 54, session: "2024-25", school: "RSC", branch: "COMMERCE", name: "MOIRANGTHEM JINA CHANU", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+                { sl: 55, session: "2024-25", school: "RSC", branch: "COMMERCE", name: "ANANYA BANIK", guide: "DR. RAJDEEP NAG" },
+                { sl: 56, session: "2024-25", school: "RSC", branch: "COMMERCE", name: "BEENA RONGPIPI", guide: "DR. ARUNA DEV ROY" },
+                { sl: 57, session: "2024-25", school: "RSC", branch: "COMMERCE", name: "ANUPRIYA TALUKDAR", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+                { sl: 58, session: "2024-25", school: "RSC", branch: "COMMERCE", name: "UZMA SADAF", guide: "DR. RAJDEEP NAG" },
+                { sl: 59, session: "2024-25", school: "RSET", branch: "CSE", name: "DHARITRI TALUKDAR", guide: "PROF. (DR.) RASHEL SARKAR" },
+                { sl: 60, session: "2020-21", school: "RSHSS", branch: "ECONOMICS", name: "SHWETA SINGH", guide: "DR. MD. DELUWAR HOQUE" },
+                { sl: 61, session: "2020-21", school: "RSHSS", branch: "ECONOMICS", name: "WAHIDA RAHMAN", guide: "PROF. (DR.) SWABERA ISLAM" },
+                { sl: 62, session: "2021-22", school: "RSHSS", branch: "ECONOMICS", name: "SANGHAMITRA DUWARAH", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+                { sl: 63, session: "2021-22", school: "RSHSS", branch: "ECONOMICS", name: "ASHA YENGKHOM", guide: "PROF. (DR.) SWABERA ISLAM" },
+                { sl: 64, session: "2022-23", school: "RSHSS", branch: "ECONOMICS", name: "TRISHA SAHA", guide: "DR. MD. DELUWAR HOQUE" },
+                { sl: 65, session: "2023-24", school: "RSHSS", branch: "ECONOMICS", name: "AJANTA DAS", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+                { sl: 66, session: "2023-24", school: "RSHSS", branch: "ECONOMICS", name: "HIMANGGI BORAH", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+                { sl: 67, session: "2023-24", school: "RSHSS", branch: "ECONOMICS", name: "ALORIKA DEB", guide: "DR. DURBA DUTTA" },
+                { sl: 68, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "CHANCHI R MARAK", guide: "DR. SANGHAMITRA HAZARIKA" },
+                { sl: 69, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "DEEPSHIKHA KALITA", guide: "DR. SANGHAMITRA HAZARIKA" },
+                { sl: 70, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "NABADEEPA KALITA", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+                { sl: 71, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "MANABENDRA BARMAN", guide: "DR. DURBA DUTTA" },
+                { sl: 72, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "SRIJANI HAZARIKA", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+                { sl: 73, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "PREETY SHAH ZIYA", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+                { sl: 74, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "VANLALREMRUATI KHIANGTE", guide: "DR. MD. DELUWAR HOQUE" },
+                { sl: 75, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "K LENANGH ANGH", guide: "DR. SANGHAMITRA HAZARIKA" },
+                { sl: 76, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "ANURADHA DEVI", guide: "DR. DURBA DUTTA" },
+                { sl: 77, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "SUPRIYA KONWAR", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+                { sl: 78, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "Nirupam Das", guide: "DR. MD. DELUWAR HOQUE" },
+                { sl: 79, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "AKALI CHISHI", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+                { sl: 80, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "Mwikwm Narzary", guide: "DR. MD. DELUWAR HOQUE" },
+                { sl: 81, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "RITUPARNA BORGOHAIN", guide: "DR. MD. DELUWAR HOQUE" },
+                { sl: 82, session: "2019-20", school: "RSL", branch: "ENGLISH", name: "KARENG RONGHANGPI", guide: "DR. BAISHALEE RAJKHOWA" },
+                { sl: 83, session: "2019-20", school: "RSL", branch: "ENGLISH", name: "CHIBENI MERRY", guide: "DR. JASMINE CHOUDHURY" },
+                { sl: 84, session: "2019-20", school: "RSL", branch: "ENGLISH", name: "BANANI DAS", guide: "PROF. (DR.) INDRANI SINGH RAI" },
+                { sl: 85, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "FAHMIDA AKHTAR", guide: "DR. BAISHALEE RAJKHOWA" },
+                { sl: 86, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "GITIMA DEKA", guide: "PROF. (DR.) PRADIP JYOTI MAHANTA" },
+                { sl: 87, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "IFTIKAR ALI AHMED", guide: "DR. BAISHALEE RAJKHOWA" },
+                { sl: 88, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "CHANDAM CHANU NGANTHOIHANBI", guide: "DR. BAISHALEE RAJKHOWA" },
+                { sl: 89, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "CHINMOYEE DEKA", guide: "DR. JASMINE CHOUDHURY" },
+                { sl: 90, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "LAISHRAM PINKY", guide: "PROF. (DR.) INDRANI SINGH RAI" },
+                { sl: 91, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "SERAM RAJESHWARAN SINGH", guide: "PROF. (DR.) PRADIP JYOTI MAHANTA" },
+                { sl: 92, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "HIMASHRI KUMAR", guide: "PROF. (DR.) KRISHNA BARUA" },
+                { sl: 93, session: "2021-22", school: "RSL", branch: "ENGLISH", name: "DIMPY BANIA", guide: "PROF. (DR.) KRISHNA BARUA" },
+                { sl: 94, session: "2021-22", school: "RSL", branch: "ENGLISH", name: "RASHMIREKHA BARMAN", guide: "PROF. (DR.) KRISHNA BARUA" },
+                { sl: 95, session: "2021-22", school: "RSL", branch: "ENGLISH", name: "GOURISHIKHA BORGOHAIN", guide: "DR. STUTI GOSWAMI" },
+                { sl: 96, session: "2022-23", school: "RSL", branch: "ENGLISH", name: "MIRANDA NGANGOM", guide: "DR. PRONAMI BHATTACHARYYA" },
+                { sl: 97, session: "2022-23", school: "RSL", branch: "ENGLISH", name: "DEIFY BAKORDOR SUTING", guide: "DR. PRONAMI BHATTACHARYYA" },
+                { sl: 98, session: "2022-23", school: "RSL", branch: "ENGLISH", name: "HEMANTA BORA", guide: "PROF. (DR.) BORNALI BHUYAN" },
+                { sl: 99, session: "2022-23", school: "RSL", branch: "ENGLISH", name: "KASTURI BORGOHAIN", guide: "DR. STUTI GOSWAMI" },
+                { sl: 100, session: "2022-23", school: "RSL", branch: "ENGLISH", name: "PAYEL DAS", guide: "DR. PRONAMI BHATTACHARYYA" },
+                { sl: 101, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "JUBIN NAHAR", guide: "DR. PRONAMI BHATTACHARYYA" },
+                { sl: 102, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "NIVEDITA DUTTA", guide: "DR. PAMPI BASUMATARY" },
+                { sl: 103, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "SINJINI SAIKIA", guide: "DR. STUTI GOSWAMI" },
+                { sl: 104, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "TAJUNGMENLA JAMIR", guide: "PROF. (DR.) BORNALI BHUYAN" },
+                { sl: 105, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "TUHISHA GHOSH", guide: "DR. STUTI GOSWAMI" },
+                { sl: 106, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "ABAMEDA GIRI KHARMALKI", guide: "DR. PRONAMI BHATTACHARYYA" },
+                { sl: 107, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "ADITI GHOSH", guide: "DR. STUTI GOSWAMI" },
+                { sl: 108, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "PUJA KUMARI", guide: "PROF. (DR.) TUSHTI SHARMA" },
+                { sl: 109, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "RUMA DEBNATH", guide: "PROF. (DR.) TUSHTI SHARMA" },
+                { sl: 110, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "SATAVISHA HAZARIKA", guide: "DR. BAISHALEE RAJKHOWA" },
+                { sl: 111, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "NANCY PANGEIJAM", guide: "PROF. (DR.) TUSHTI SHARMA" },
+                { sl: 112, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "MAHFUZ AHMED", guide: "DR. JASMINE CHOUDHURY" },
+                { sl: 113, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "RT SHANGWARHRING", guide: "DR. BAISHALEE RAJKHOWA" },
+                { sl: 114, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "BHASKAR KOUSHIK DAS", guide: "DR. STUTI GOSWAMI" },
+                { sl: 115, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "T.LALAWMPUII", guide: "PROF. (DR.) TUSHTI SHARMA" },
+                { sl: 116, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "C.LALNUNPUII", guide: "DR. JYOTI MISHRA" },
+                { sl: 117, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "PRANITA KALITA", guide: "PROF. (DR.) TUSHTI SHARMA" },
+                { sl: 118, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "ARTIBIRTH CH MARAK", guide: "DR. PAMPI BASUMATARY" },
+                { sl: 119, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "JENIFAR SABNAM", guide: "DR. JASMINE CHOUDHURY" },
+                { sl: 120, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "HIMTRINA RABHA", guide: "PROF. (DR.) TUSHTI SHARMA" },
+                { sl: 121, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "HIMADRI BORAH", guide: "DR. PAMPI BASUMATARY" },
+                { sl: 122, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "BHASWATI CHETIA", guide: "PROF. (DR.) INDRANI SINGH RAI" },
+                { sl: 123, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "NIJWM BASUMATARY", guide: "PROF. (DR.) INDRANI SINGH RAI" },
+                { sl: 124, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "PINAZ MIRZA", guide: "DR. PRABUDDHA GHOSH" },
+                { sl: 125, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "HEMEN JYOTI DAS", guide: "DR. PRABUDDHA GHOSH" },
+                { sl: 126, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "ANGELINA THANGJAM", guide: "DR. PAMPI BASUMATARY" },
+                { sl: 127, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "DIVYAJYOTI DAS", guide: "PROF. (DR.) TUSHTI SHARMA" },
+                { sl: 128, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "JIMLI DEKA", guide: "PROF. (DR.) TUSHTI SHARMA" },
+                { sl: 129, session: "2023-24", school: "RSEES", branch: "ENVIRONMENTAL SCIENCE", name: "ROBERT LYNDOH", guide: "DR. DEMSAI REANG" },
+                { sl: 130, session: "2023-24", school: "RSEES", branch: "ENVIRONMENTAL SCIENCE", name: "R LALRINNGHETI", guide: "DR. DEMSAI REANG" },
+                { sl: 131, session: "2023-24", school: "RSEES", branch: "ENVIRONMENTAL SCIENCE", name: "NAPHIBANIARLIN KSFIAR", guide: "DR. PALLABI BORAH" },
+                { sl: 132, session: "2019-20", school: "RSFA", branch: "FINE ARTS", name: "KISHAN BAGDI", guide: "DR. MOUSUMI DEKA" },
+                { sl: 133, session: "2022-23", school: "RSFA", branch: "FINE ARTS", name: "GAURAV MORAL", guide: "DR. MOUSUMI DEKA" },
+                { sl: 134, session: "2022-23", school: "RSFA", branch: "FINE ARTS", name: "LALREMRUATA VARTE", guide: "DR. MOUSUMI DEKA" },
+                { sl: 135, session: "2023-24", school: "RSFA", branch: "FINE ARTS", name: "ANKUR HAZARIKA", guide: "DR. MOUSUMI DEKA" },
+                { sl: 136, session: "2024-25", school: "RSBSC", branch: "FOOD TECHNOLOGY", name: "SYEDA JADIDA AKHTAR", guide: "DR. SHAGUFTA RIZWANA" },
+                { sl: 137, session: "2024-25", school: "RSBSC", branch: "FOOD TECHNOLOGY", name: "DIPANJALI DAS", guide: "DR. PREETISAGAR TALUKDAR" },
+                { sl: 138, session: "2024-25", school: "RSBSC", branch: "FOOD TECHNOLOGY", name: "RAHUL BORDOLOI", guide: "PROF. (DR.) PRANATI DAS" },
+                { sl: 139, session: "2024-25", school: "RSLSC", branch: "FORESTRY", name: "SATYAMJIT NEOG", guide: "DR. DEMSAI REANG" },
+                { sl: 140, session: "2024-25", school: "RSLSC", branch: "FORESTRY", name: "CHICHAKHA DEV BARMA", guide: "DR. PAUL LALREMSANG" },
+                { "sl": 141, "session": "2021-22", "school": "RSEES", "branch": "GEOGRAPHY", "name": "HASNE TOUFIKI", "guide": "PROF.(DR.) B S MIPUN" },
+                { "sl": 142, "session": "2022-23", "school": "RSEES", "branch": "GEOGRAPHY", "name": "DIPSHIKHA KALITA", "guide": "DR. ANNESHA BORAH" },
+                { "sl": 143, "session": "2023-24", "school": "RSEES", "branch": "GEOGRAPHY", "name": "EILEEN BETSY MYLLIEMNGAP", "guide": "PROF.(DR.) B S MIPUN" },
+                { "sl": 144, "session": "2023-24", "school": "RSEES", "branch": "GEOGRAPHY", "name": "SONIA SAMJETSABAM", "guide": "DR. TRISHNA CHANGKAKATI" },
+                { "sl": 145, "session": "2024-25", "school": "RSEES", "branch": "GEOGRAPHY", "name": "BIPLAB SARKAR", "guide": "PROF. (DR.) D.K. NAYAK" },
+                { "sl": 146, "session": "2024-25", "school": "RSEES", "branch": "GEOGRAPHY", "name": "GITALI. HAZARIKA", "guide": "DR. ANNESHA BORAH" },
+                { "sl": 147, "session": "2024-25", "school": "RSEES", "branch": "GEOGRAPHY", "name": "MRIDULA KALITA", "guide": "DR. ANNESHA BORAH" },
+                { "sl": 148, "session": "2024-25", "school": "RSEES", "branch": "GEOGRAPHY", "name": "KAKALI MEDHI", "guide": "PROF. (DR.) D.K. NAYAK" },
+                { "sl": 149, "session": "2024-25", "school": "RSEES", "branch": "GEOGRAPHY", "name": "GANESH CHANDRA DAS", "guide": "PROF. (DR.) D.K. NAYAK" },
+                { "sl": 150, "session": "2019-20", "school": "RSHSS", "branch": "HISTORY", "name": "JORDAN THAPA", "guide": "DR. SUSMITA HAZARIKA" },
+                { "sl": 151, "session": "2022-23", "school": "RSHSS", "branch": "HISTORY", "name": "POOJA BHATTACHARJEE", "guide": "PROF. (DR.) SAJAL NAG" },
+                { "sl": 152, "session": "2023-24", "school": "RSHSS", "branch": "HISTORY", "name": "PHOWLTHA SELTUN", "guide": "PROF. (DR.) SAJAL NAG" },
+                { "sl": 153, "session": "2023-24", "school": "RSHSS", "branch": "HISTORY", "name": "PUSPA DEORI", "guide": "DR. SUSMITA HAZARIKA" },
+                { "sl": 154, "session": "2023-24", "school": "RSHSS", "branch": "HISTORY", "name": "FREDDIE KHAWLHRING", "guide": "DR. MITALI KALITA" },
+                { "sl": 155, "session": "2023-24", "school": "RSHSS", "branch": "HISTORY", "name": "TANZIM MASUD", "guide": "PROF. (DR.) SAJAL NAG" },
+                { "sl": 156, "session": "2023-24", "school": "RSHSS", "branch": "HISTORY", "name": "RASHMIREKHA HAZARIKA", "guide": "DR. SUSMITA HAZARIKA" },
+                { "sl": 157, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "CHIDORA R MARAK", "guide": "DR. MITALI KALITA" },
+                { "sl": 158, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "PHURAILATPAM AARTI DEVI", "guide": "DR. SAIKHOM RONEL SINGH" },
+                { "sl": 159, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "AKANGSHA KALITA", "guide": "DR. SUSMITA HAZARIKA" },
+                { "sl": 160, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "ALEXANDER D SANGMA", "guide": "DR. SUSHMITA BANERJEE" },
+                { "sl": 161, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "BANTI TALUKDAR", "guide": "DR. SUSMITA HAZARIKA" },
+                { "sl": 162, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "BIKASHITA SAIKIA", "guide": "DR. SUSMITA HAZARIKA" },
+                { "sl": 163, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "HIMANGSHU SHEKHAR BORA", "guide": "DR. SAIKHOM RONEL SINGH" },
+                { "sl": 164, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "JUDITH LALNIVAR INTOVATE", "guide": "PROF. (DR.) SAJAL NAG" },
+                { "sl": 165, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "JURI DEKA", "guide": "DR. SAIKHOM RONEL SINGH" },
+                { "sl": 166, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "ROTHANGLIANA", "guide": "PROF. (DR.) SAJAL NAG" },
+                { "sl": 167, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "JINI RANI BORO", "guide": "DR. SUSHMITA BANERJEE" },
+                { "sl": 168, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "NH HINGNAMYI BLESSING NEWME", "guide": "DR. SAIKHOM RONEL SINGH" },
+                { "sl": 169, "session": "2020-21", "school": "RSIT", "branch": "I.T.", "name": "ASHOK KUMAR SARKAR", "guide": "DR. ANUPAM DAS" },
+                { "sl": 170, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "RASHMIREKHA BORAH", "guide": "DR. RISHI CHAKRAVARTY" },
+                { "sl": 171, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "ANKITA SARMA", "guide": "PROF. (DR.) D.N. SINGH" },
+                { "sl": 172, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "RUMI TALUKDAR", "guide": "PROF. (DR.) GEORGE AP" },
+                { "sl": 173, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "KANGKANA TALUKDAR", "guide": "DR. SYEDA ANJUM AFREEN" },
+                { "sl": 174, "session": "2024-25", "school": "RSMAS", "branch": "PHYSIOTHERAPY", "name": "SOMYATA CHITARANJAN SATPATHY SARMA", "guide": "PROF. (DR.) ABHIJIT DUTTA" },
+                { "sl": 175, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "MAYURI OJAH", "guide": "DR. MADHUSMITA KOCH" },
+                { "sl": 176, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "RUCHI BHARDWAJ", "guide": "DR. SHRADDHA BASU" },
+                { "sl": 177, "session": "2018-19", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "PREETILATA KUMARI", "guide": "DR. HAOGINLEN. CHONGLOI" },
+                { "sl": 178, "session": "2022-23", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "UPEN BORA", "guide": "DR. RASHMI SARMAH" },
+                { "sl": 179, "session": "2023-24", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "BRISTI GOGOI", "guide": "PROF. (DR.) S. C. NAYAK" },
+                { "sl": 180, "session": "2023-24", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "ZAKIR HUSSAIN", "guide": "PROF. (DR.) S. C. NAYAK" },
+                { "sl": 181, "session": "2024-25", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "SAMUEL LALBELSANG", "guide": "PROF. (DR.) S. C. NAYAK" },
+                { "sl": 182, "session": "2024-25", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "AMIT BARUAH", "guide": "DR. RASHMI SARMAH" },
+                { "sl": 183, "session": "2019-20", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BINU HAZARIKA KASHYAP", "guide": "PROF. (DR.) H. C. NATH" },
+                { "sl": 184, "session": "2019-20", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "RASHMI REKHA PHUKAN", "guide": "DR. ANJUMAN A. BEGUM" },
+                { "sl": 185, "session": "2019-20", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "MAILINDA LYNSHING", "guide": "DR. ANJUMAN A. BEGUM" },
+                { "sl": 186, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "ABIDA SULTANA LASKAR", "guide": "PROF. (DR.) H. C. NATH" },
+                { "sl": 187, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "DILIP KUMAR BORA", "guide": "PROF. (DR.) H. C. NATH" },
+                { "sl": 188, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "DR RATHINDRA BHUYAN", "guide": "PROF. (DR.) H. C. NATH" },
+                { "sl": 189, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "PRONAB KR NATH", "guide": "PROF. (DR.) H. C. NATH" },
+                { "sl": 190, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "KRISHNA DAS", "guide": "PROF. (DR.) H. C. NATH" },
+                { "sl": 191, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "POMPI DEKA", "guide": "PROF. (DR.) H. C. NATH" },
+                { "sl": 192, "session": "2022-23", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BONNIE SARMA", "guide": "PROF. (DR.) B. C. BAROOAH" },
+                { "sl": 193, "session": "2022-23", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "NARGIS CHOUDHURY", "guide": "DR. ANJUMAN A. BEGUM" },
+                { "sl": 194, "session": "2022-23", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SHAHNAJ SULTANA", "guide": "PROF. (DR.) B. C. BAROOAH" },
+                { "sl": 195, "session": "2022-23", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SONI TEP", "guide": "PROF. (DR.) B. C. BAROOAH" },
+                { "sl": 196, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BEATIFY LUNGDOH", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+                { "sl": 197, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "MANISH KUMAR DAS", "guide": "PROF. (DR.) B. C. BAROOAH" },
+                { "sl": 198, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BHASWATI BORAH", "guide": "PROF. (DR.) B. C. BAROOAH" },
+                { "sl": 199, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "ANUPAL DUTTA PATHAK", "guide": "PROF. (DR.) THANESWAR KALITA" },
+                { "sl": 200, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BONANI MAHANTA", "guide": "PROF. (DR.) B. C. BAROOAH" },
+                { "sl": 201, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "JAYSHREE SHARMA", "guide": "DR. ANJUMAN A. BEGUM" },
+                { "sl": 202, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "NEHA VERMA", "guide": "DR. PRANITA CHAUDHURY" },
+                { "sl": 203, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BEAUTY NEOG", "guide": "PROF. (DR.) THANESWAR KALITA" },
+                { "sl": 204, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BRANDON MESHAN PAJAT", "guide": "DR. PRANITA CHAUDHURY" },
+                { "sl": 205, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "LALSOLOMON DARNEI", "guide": "DR. ANJUMAN A. BEGUM" },
+                { "sl": 206, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "PRITY GUPTA", "guide": "PROF. (DR.) THANESWAR KALITA" },
+                { "sl": 207, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "RAJASHRI HAZARIKA", "guide": "PROF. (DR.) THANESWAR KALITA" },
+                { "sl": 208, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SATAVISA BORA", "guide": "PROF. (DR.) B. C. BAROOAH" },
+                { "sl": 209, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SHRUTI HAZARIKA BORPUJARI", "guide": "PROF. (DR.) H. C. NATH" },
+                { "sl": 210, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SRISTI AGARWAL", "guide": "PROF. (DR.) THANESWAR KALITA" },
+                { "sl": 211, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "UPASHANA GOSWAMI", "guide": "PROF. (DR.) THANESWAR KALITA" },
+                { "sl": 212, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BAMERI DONDOR KHARSOHTUN", "guide": "PROF. (DR.) H. C. NATH" },
+                { "sl": 213, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BICKEY PRASAD", "guide": "DR. PRANITA CHAUDHURY" },
+                { "sl": 214, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "JHARNA AKRAM", "guide": "DR. ANJUMAN A. BEGUM" },
+                { "sl": 215, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "NITA RIJIJU", "guide": "DR. PRANITA CHAUDHURY" },
+                { "sl": 216, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "PANKHI DEVI", "guide": "PROF. (DR.) B. C. BAROOAH" },
+                { "sl": 217, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "POOJA DEVI", "guide": "PROF. (DR.) PREETI GUPTA" },
+                { "sl": 218, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BENZIR ZAMAN", "guide": "PROF. (DR.) PREETI GUPTA" },
+                { "sl": 219, "session": "2024-25", "school": "RSL", "branch": "LAW & ADMINISTRATION", "name": "ASIF ALI ANSARI", "guide": "PROF. (DR.) YSR MURTHY" },
+                { "sl": 220, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "KENEISENUO RUTSA", "guide": "PROF. (DR.) YSR MURTHY" },
+                { "sl": 221, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "DIANA TRICIA TLANG", "guide": "PROF. (DR.) YSR MURTHY" },
+                { "sl": 222, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "MANISHA DEKA", "guide": "PROF. (DR.) YSR MURTHY" },
+                { "sl": 223, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "NIMISHA SHARMA", "guide": "PROF. (DR.) YSR MURTHY" },
+                { "sl": 224, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "ANISHA HAQUE", "guide": "PROF. (DR.) YSR MURTHY" },
+                { "sl": 225, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BIRENDRA KUMAR BARMAN", "guide": "PROF. (DR.) THANESWAR KALITA" },
+                { "sl": 226, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "NAPHISABET KHARKONGOR", "guide": "PROF. (DR.) THANESWAR KALITA" },
+                { "sl": 227, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "RANI CHYRMANG", "guide": "DR. PRANITA CHAUDHURY" },
+                { "sl": 228, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "OINAM MITRABATI DEVI", "guide": "PROF. (DR.) PREETI GUPTA" },
+                { "sl": 229, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "HIMANI RABHA", "guide": "PROF. (DR.) PREETI GUPTA" },
+                { "sl": 230, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "CARLOS NONGSIEJ", "guide": "PROF. (DR.) PREETI GUPTA" },
+                { "sl": 231, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BIMAN NATH", "guide": "PROF. (DR.) PREETI GUPTA" },
+                { "sl": 232, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "PRIYANGSHU GOSWAMI", "guide": "PROF. (DR.) PREETI GUPTA" },
+                { "sl": 233, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "DIPSHIKHA ROY CHOWDHURY", "guide": "PROF. (DR.) PREETI GUPTA" },
+                { "sl": 234, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "JOYEETA RAJKHOWA", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+                { "sl": 235, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SARMISTHA CHAKRABARTY", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+                { "sl": 236, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "MANISHA BORTHAKUR", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+                { "sl": 237, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "RASHMI REKHA SAIKIA", "guide": "DR. PRANITA CHAUDHURY" },
+                { "sl": 238, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SHRISTI TODI", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+                { "sl": 239, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "PURBA GOSWAMI", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+                { "sl": 240, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "KANKANA CHOUDHURY", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+                { "sl": 241, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SUMITRA DEVI", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+                { "sl": 242, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "KONGKINA NATH", "guide": "DR. MUKUTOR RAHMAN" },
+                { "sl": 243, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "PRASANNA KUMAR KONCH", "guide": "DR. HIRAK JYOTI HAZARIKA" },
+                { "sl": 244, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "MERINA AHMED", "guide": "DR. MUKUTOR RAHMAN" },
+                { "sl": 245, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "BIKRAMADITYA BARMAN", "guide": "DR. MUKUTOR RAHMAN" },
+                { "sl": 246, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "NIHARIKA SAIKIA", "guide": "DR. HIRAK JYOTI HAZARIKA" },
+                { "sl": 247, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "BHAGABATI NARZARY", "guide": "DR. MUKUTOR RAHMAN" },
+                { "sl": 248, "session": "2024-25", "school": "RSLIS", "branch": "LIBRARY SCIENCE", "name": "Basera K. Sangma", "guide": "DR. HIRAK JYOTI HAZARIKA" },
+                { "sl": 249, "session": "2024-25", "school": "RSLIS", "branch": "LIBRARY SCIENCE", "name": "MANJUSHREE DEVI", "guide": "DR. HIRAK JYOTI HAZARIKA" },
+                { "sl": 250, "session": "2024-25", "school": "RSLIS", "branch": "LIBRARY SCIENCE", "name": "KISHUR NATH", "guide": "DR. NILANJANA PURKAYASTHA" },
+                { "sl": 251, "session": "2017-18", "school": "RSB", "branch": "MANAGEMENT", "name": "ROSHINI SAIKIA", "guide": "PROF. (DR.) S.P. SINGH" },
+                { "sl": 252, "session": "2019-20", "school": "RSB", "branch": "MANAGEMENT", "name": "MAHENDRA PRASAD", "guide": "PROF. (DR.) S.P. SINGH" },
+                { "sl": 253, "session": "2019-20", "school": "RSB", "branch": "MANAGEMENT", "name": "KALYANI GOHAIN", "guide": "PROF. (DR.) S.P. SINGH" },
+                { "sl": 254, "session": "2020-21", "school": "RSB", "branch": "MANAGEMENT", "name": "ASHIM KUMAR SARMAH", "guide": "DR. ARPEE SAIKIA" },
+                { "sl": 255, "session": "2021-22", "school": "RSB", "branch": "MANAGEMENT", "name": "AISHWARYA GOSWAMI", "guide": "DR. ARPEE SAIKIA" },
+                { "sl": 256, "session": "2021-22", "school": "RSB", "branch": "MANAGEMENT", "name": "DHRUBAJYOTI THAKURIA", "guide": "DR. ARPEE SAIKIA" },
+                { "sl": 257, "session": "2021-22", "school": "RSB", "branch": "MANAGEMENT", "name": "NEHA TIWARI", "guide": "PROF. (DR.) S.P. SINGH" },
+                { "sl": 258, "session": "2022-23", "school": "RSB", "branch": "MANAGEMENT", "name": "MONALISA KONWAR", "guide": "PROF. (DR.) GEORGE AP" },
+                { "sl": 259, "session": "2023-24", "school": "RSB", "branch": "MANAGEMENT", "name": "NILIMOY NATH", "guide": "DR. DARSHANA BHAGOBATI" },
+                { "sl": 260, "session": "2023-24", "school": "RSB", "branch": "MANAGEMENT", "name": "SHARIF AHMED", "guide": "DR. DARSHANA BHAGOBATI" },
+                { "sl": 261, "session": "2023-24", "school": "RSB", "branch": "MANAGEMENT", "name": "INDIRA DEV ROY", "guide": "PROF. (DR.) GEORGE AP" },
+                { "sl": 262, "session": "2023-24", "school": "RSB", "branch": "MANAGEMENT", "name": "BRISTY SRIVASTAVA", "guide": "PROF. (DR.) GEORGE AP" },
+                { "sl": 263, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "SUSHMITA KONJENGBAM", "guide": "DR. RISHI CHAKRAVARTY" },
+                { "sl": 264, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "RIMA DAS", "guide": "DR. ARPEE SAIKIA" },
+                { "sl": 265, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "NAZVI NASEEM", "guide": "DR. ARPEE SAIKIA" },
+                { "sl": 266, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "UTTAM BORAH", "guide": "DR. ARPEE SAIKIA" },
+                { "sl": 267, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "KUHELI DUTTA", "guide": "DR. SUMAN AGARWAL" },
+                { "sl": 268, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "MITHINGA MUSHAHARY", "guide": "DR. SUMAN AGARWAL" },
+                { "sl": 269, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "NEELU SWAMI", "guide": "PROF. (DR.) D.N. SINGH" },
+                { "sl": 270, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "NASREEN FIRDAUS CHOWDHURY", "guide": "PROF. (DR.) GEORGE AP" },
+                { "sl": 271, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "MOHINA AKHTARA", "guide": "DR. RISHI CHAKRAVARTY" },
+                { "sl": 272, "session": "2020-21", "school": "RSAPS", "branch": "MATHEMATICS", "name": "SINAM RAJKISHORE SINGHA", "guide": "DR. BIMALENDU KALITA" },
+                { "sl": 273, "session": "2022-23", "school": "RSAPS", "branch": "MATHEMATICS", "name": "MARDOR WANRI SYNREM", "guide": "PROF. (DR.) KAMAL DEBNATH" },
+                { "sl": 274, "session": "2022-23", "school": "RSAPS", "branch": "MATHEMATICS", "name": "MUSTAK EUCHUF", "guide": "PROF. (DR.) ANURADHA DEVI" },
+                { "sl": 275, "session": "2022-23", "school": "RSAPS", "branch": "MATHEMATICS", "name": "PUNAM DAS", "guide": "PROF. (DR.) KAMAL DEBNATH" },
+                { "sl": 276, "session": "2022-23", "school": "RSAPS", "branch": "MATHEMATICS", "name": "H IMO MANI SINGHA", "guide": "PROF. (DR.) ANURADHA DEVI" },
+                { "sl": 277, "session": "2023-24", "school": "RSAPS", "branch": "MATHEMATICS", "name": "FLORENCE DAIMARI", "guide": "DR. BIMALENDU KALITA" },
+                { "sl": 278, "session": "2023-24", "school": "RSAPS", "branch": "MATHEMATICS", "name": "KARISMITA MEDHI", "guide": "PROF. (DR.) KAMAL DEBNATH" },
+                { "sl": 279, "session": "2023-24", "school": "RSAPS", "branch": "MATHEMATICS", "name": "KHRUNIELU LOHE", "guide": "DR. BIMALENDU KALITA" },
+                { "sl": 280, "session": "2023-24", "school": "RSAPS", "branch": "MATHEMATICS", "name": "POMPI DAS", "guide": "PROF. (DR.) KAMAL DEBNATH" },
+                { "sl": 281, "session": "2023-24", "school": "RSAPS", "branch": "MATHEMATICS", "name": "ANANYA SHILPI", "guide": "DR. BAPAN KALITA" },
+                { "sl": 282, "session": "2024-25", "school": "RSAPS", "branch": "MATHEMATICS", "name": "Nandita Saikia", "guide": "PROF. (DR.) KAMAL DEBNATH" },
+                { "sl": 283, "session": "2024-25", "school": "RSAPS", "branch": "MATHEMATICS", "name": "OINDRILA ROY CHOWDHURY", "guide": "DR. BAPAN KALITA" },
+                { "sl": 284, "session": "2024-25", "school": "RSAPS", "branch": "MATHEMATICS", "name": "AKASH PAWAR", "guide": "DR. BAPAN KALITA" },
+                { "sl": 285, "session": "2023-24", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "ANUPAMA MOIRANGTHEM", "guide": "DR. BIRSON INGTI" },
+                { "sl": 286, "session": "2023-24", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "SYED HADI ABDUL ROUF", "guide": "DR. NIRAJ SINGH" },
+                { "sl": 287, "session": "2023-24", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "KOWSALYA", "guide": "DR. SUSHMITA PAUL" },
+                { "sl": 288, "session": "2023-24", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "RAMKRISHNA ROY", "guide": "DR. BIRSON INGTI" },
+                { "sl": 289, "session": "2024-25", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "NONGMAITHEM BISHWANATH SINGH", "guide": "PROF. (DR.) AMLAN DAS" },
+                { "sl": 290, "session": "2024-25", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "AFRID AHMED", "guide": "DR. PANKAJ LOSAN SHARMA" },
+                { "sl": 291, "session": "2023-24", "school": "RSMAS", "branch": "NUTRITION & DIETETICS", "name": "JEBIN SULTANA", "guide": "PROF. (DR.) PRANATI DAS" },
+                { "sl": 292, "session": "2020-21", "school": "RSP", "branch": "PHARMACY", "name": "GUJJALA SAI SRI HARSHA", "guide": "PROF. (DR.) PRANABESH SIKDAR" },
+                { "sl": 293, "session": "2020-21", "school": "RSP", "branch": "PHARMACY", "name": "RUNA CHAKRAVORTY", "guide": "PROF. (DR.) BIPUL NATH" },
+                { "sl": 294, "session": "2020-21", "school": "RSP", "branch": "PHARMACY", "name": "KAMAL DEKA", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+                { "sl": 295, "session": "2021-22", "school": "RSP", "branch": "PHARMACY", "name": "ARUP CHAKRABORTY", "guide": "PROF. (DR.) PRANABESH SIKDAR" },
+                { "sl": 296, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "MUKINUR HUSSAIN", "guide": "PROF. (DR.) PRANABESH SIKDAR" },
+                { "sl": 297, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "HADIUZ ZAMAN", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+                { "sl": 298, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "HIMANTA BISWA SAIKIA", "guide": "PROF. (DR.) BIPUL NATH" },
+                { "sl": 299, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "PAYAL DASGUPTA", "guide": "PROF. (DR.) BIPUL NATH" },
+                { "sl": 300, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "DR. SHAHINUR ISLAM", "guide": "PROF. (DR.) BIPUL NATH" },
+                { "sl": 301, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "BHASKAR JYOTI PATHAK", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+                { "sl": 302, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "MUZAMMAL HOQUE MALLAH", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+                { "sl": 303, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "NILUTPAL HAZARIKA", "guide": "PROF. (DR.) BIPUL NATH" },
+                { "sl": 304, "session": "2023-24", "school": "RSP", "branch": "PHARMACY", "name": "LOBSANG TENZING KOMU", "guide": "PROF. (DR.) PRANABESH SIKDAR" },
+                { "sl": 305, "session": "2023-24", "school": "RSP", "branch": "PHARMACY", "name": "SADHANA SHARMA", "guide": "PROF. (DR.) DEBARUPA DUTTA CHAKRABORTY" },
+                { "sl": 306, "session": "2023-24", "school": "RSP", "branch": "PHARMACY", "name": "SUMI BARMAN", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+                { "sl": 307, "session": "2023-24", "school": "RSP", "branch": "PHARMACY", "name": "PRIYANKA DAS", "guide": "PROF. (DR.) BIPUL NATH" },
+                { "sl": 308, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "NEELAKSHI SHARMA", "guide": "PROF. (DR.) BIPUL NATH" },
+                { "sl": 309, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "ARPAN SEN", "guide": "PROF. (DR.) PRITHVIRAJ CHAKRABORTY" },
+                { "sl": 310, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "SABNAM NARGIS", "guide": "PROF. (DR.) DEBARUPA DUTTA CHAKRABORTY" },
+                { "sl": 311, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "DR. RAKIBUR RAHMAN", "guide": "PROF. (DR.) PRANABESH SIKDAR" },
+                { "sl": 312, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "Paramjyoti Adhikary", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+                { "sl": 313, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "PALLAB KUMAR NATH", "guide": "PROF. (DR.) PRITHVIRAJ CHAKRABORTY" },
+                { "sl": 314, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "ARGHYA SAHA CHOWDHURY", "guide": "PROF. (DR.) PRITHVIRAJ CHAKRABORTY" },
+                { "sl": 315, "session": "2022-23", "school": "RSAPS", "branch": "PHYSICS", "name": "ARUP SAIKIA", "guide": "DR. DEVIKA PHUKAN" },
+                { "sl": 316, "session": "2022-23", "school": "RSAPS", "branch": "PHYSICS", "name": "BIDISH BORAH", "guide": "DR. DEVIKA PHUKAN" },
+                { "sl": 317, "session": "2022-23", "school": "RSAPS", "branch": "PHYSICS", "name": "PARTHA PRATIM BORAH", "guide": "DR. DEVIKA PHUKAN" },
+                { "sl": 318, "session": "2023-24", "school": "RSAPS", "branch": "PHYSICS", "name": "AIDASHISHA BAREH", "guide": "DR. BORNALI CHETIA" },
+                { "sl": 319, "session": "2023-24", "school": "RSAPS", "branch": "PHYSICS", "name": "VIOLINA DAS", "guide": "DR. DEVIKA PHUKAN" },
+                { "sl": 320, "session": "2023-24", "school": "RSAPS", "branch": "PHYSICS", "name": "LONGKHRAW KHONGLANG", "guide": "DR. SUJATA DEB" },
+                { "sl": 321, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "SNARMON LATO", "guide": "DR. SUJATA DEB" },
+                { "sl": 322, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "RAHUL DEY", "guide": "DR. SANCHITA ROY" },
+                { "sl": 323, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "GOURANGA MEDHI", "guide": "DR. DEVIKA PHUKAN" },
+                { "sl": 324, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "MANAS JYOTI NATH", "guide": "DR. DEVIKA PHUKAN" },
+                { "sl": 325, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "USHA RANI SWARGIARY", "guide": "DR. GITANJAL DEKA" },
+                { "sl": 326, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "MADHU RAM RABIDAS", "guide": "DR. BORNALI CHETIA" },
+                { "sl": 327, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "TAPAS SEN", "guide": "DR. SANCHITA ROY" },
+                { "sl": 328, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "PRABHAT SHARMA", "guide": "DR. MAIDUL ISLAM" },
+                { "sl": 329, "session": "2020-21", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "SHELZA JALAN", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+                { "sl": 330, "session": "2021-22", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "LIONG M PHOM", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+                { "sl": 331, "session": "2021-22", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "MUSTAFA SYED IHTIMUM ALAM", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+                { "sl": 332, "session": "2022-23", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "NAGENDRA NATH GOGOI", "guide": "DR. Y MONOJIT SINGHA" },
+                { "sl": 333, "session": "2022-23", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "TANJEELA MEHBOOB", "guide": "DR. Y MONOJIT SINGHA" },
+                { "sl": 334, "session": "2023-24", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "PRAJOYEETA KASHYAP", "guide": "DR. Y MONOJIT SINGHA" },
+                { "sl": 335, "session": "2023-24", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "SUBHASH BARO", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+                { "sl": 336, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "MONISHA BORDOLOI", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+                { "sl": 337, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "SHANGKY KHONGWAR", "guide": "DR. Y MONOJIT SINGHA" },
+                { "sl": 338, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "ROZY RANI SARMAH", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+                { "sl": 339, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "TH TREESHALI DEVI", "guide": "DR. BABA CHANDRA SINGHA" },
+                { "sl": 340, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "ELCHIRA R MARAK", "guide": "DR. BABA CHANDRA SINGHA" },
+                { "sl": 341, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "ANJUMA AHMED NARGIS", "guide": "DR. KRISHANGI SAIKIA" },
+                { "sl": 342, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "KONJENGBAM SURAJ", "guide": "DR. BABA CHANDRA SINGHA" },
+                { "sl": 343, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "BARNALI BHATTACHARYYA", "guide": "DR. KRISHANGI SAIKIA" },
+                { "sl": 344, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "SWRJISHA BASUMATARY", "guide": "DR. SUSHMITA HOSHI NONGMEIKAPAM" },
+                { "sl": 345, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "MAITRAYEE MALAKAR", "guide": "DR. SUSHMITA HOSHI NONGMEIKAPAM" },
+                { "sl": 346, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "ABHINAV CHALIHA", "guide": "DR. SUSHMITA HOSHI NONGMEIKAPAM" },
+                { "sl": 347, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "BIRINA BARTHAKUR", "guide": "DR. KRISHANGI SAIKIA" },
+                { "sl": 348, "session": "2020-21", "school": "RSBAS", "branch": "PSYCHOLOGY", "name": "AVI NUH", "guide": "DR. JWMWISHREE BORO" },
+                { "sl": 349, "session": "2021-22", "school": "RSBAS", "branch": "PSYCHOLOGY", "name": "SHUBHI JAIN", "guide": "DR. MAHUYA DEB" },
+                { "sl": 350, "session": "2022-23", "school": "RSBAS", "branch": "PSYCHOLOGY", "name": "ROSHNI NONGTHOMBAM", "guide": "DR. TAHERA HOQUE MOZUMDAR" },
+                { sl: 351, session: "2022-23", school: "RSBAS", branch: "PSYCHOLOGY", name: "BINOY JOHN", guide: "DR. QUEEN DEKA" },
+                { sl: 352, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "JAHNABI MAHANTA", guide: "DR. JWMWISHREE BORO" },
+                { sl: 353, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "LOYA AGARWALA", guide: "DR. QUEEN DEKA" },
+                { sl: 354, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "SUHANA SULTANA", guide: "DR. SYEDA ANJUM AFREEN" },
+                { sl: 355, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "VAIBHAV PURANIK", guide: "DR. FARIZA SAIDIN" },
+                { sl: 356, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "AYUKHSHYA BARO", guide: "DR. SHRADDHA BASU" },
+                { sl: 357, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "MANISHA NATH", guide: "DR. SHRADDHA BASU" },
+                { sl: 358, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "HUIDROM INDUMALA", guide: "DR. QUEEN DEKA" },
+                { sl: 359, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "JULIE BORAH", guide: "DR. FARIZA SAIDIN" },
+                { sl: 360, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "MEDIENO ZHASA", guide: "DR. PRINCE CP" },
+                { sl: 361, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "ROMILA THOUDAM", guide: "DR. FARIZA SAIDIN" },
+                { sl: 362, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "SANGITA YAMBEM", guide: "DR. TAHERA HOQUE MOZUMDAR" },
+                { sl: 363, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "ANWESHA CHUTIA", guide: "DR. PRINCE CP" },
+                { sl: 364, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "NZANRHONI PATTON", guide: "DR. JWMWISHREE BORO" },
+                { sl: 365, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "STEFFINA BEYTI", guide: "DR. PRINCE CP" },
+                { sl: 366, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "ROHIT KUMAR DEKA", guide: "DR. MAHUYA DEB" },
+                { sl: 367, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "SHUBHANGI BHAGAWATI", guide: "DR. FARIZA SAIDIN" },
+                { sl: 368, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "RENGKA TIMUNGPI", guide: "DR. SYEDA ANJUM AFREEN" },
+                { sl: 369, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "MANASHI NATH", guide: "DR. PRINCE CP" },
+                { sl: 370, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "RUKMINI RAJMOHAN", guide: "DR. JWMWISHREE BORO" },
+                { sl: 371, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "Vanthunglo Murry", guide: "DR. MAHUYA DEB" },
+                { sl: 372, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "UDITA DAS", guide: "DR. TAHERA HOQUE MOZUMDAR" },
+                { sl: 373, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "JERIN JOSE GEORGE", guide: "DR. PRINCE CP" },
+                { sl: 374, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY/CLINICAL", name: "ANKUR BARMAN", guide: "DR. QUEEN DEKA" },
+                { sl: 375, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY/CLINICAL", name: "MAHIMA SINGHI", guide: "DR. PRINCE CP" },
+                { sl: 376, session: "2021-22", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "TEMJENSOLA I", guide: "PROF. (DR.) MEENU SHARMA" },
+                { sl: 377, session: "2022-23", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "GRIKANCHIE M SANGMA", guide: "PROF. (DR.) MEENU SHARMA" },
+                { sl: 378, session: "2022-23", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "NIKITA BISWAKARMA", guide: "PROF. (DR.) MEENU SHARMA" },
+                { sl: 379, session: "2023-24", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "QUEENARITY NONGRUM", guide: "PROF. (DR.) MEENU SHARMA" },
+                { sl: 380, session: "2023-24", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "UNICE LALRINSIAMKIMI", guide: "PROF. (DR.) MEENU SHARMA" },
+                { sl: 381, session: "2024-25", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "NIHARIKA GOGOI", guide: "PROF. (DR.) MEENU SHARMA" },
+                { sl: 382, session: "2024-25", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "JOSEPHINE. H.M.", guide: "PROF. (DR.) MEENU SHARMA" },
+                { sl: 383, session: "2024-25", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "GITANJALI HAOBAM", guide: "PROF. (DR.) MEENU SHARMA" },
+                { sl: 384, session: "2020-21", school: "RSHSS", branch: "SOCIAL WORK", name: "ELIZABETH MISAO", guide: "DR. PRIYANKA PATOWARI" },
+                { sl: 385, session: "2023-24", school: "RSHSS", branch: "SOCIAL WORK", name: "ARCKPRAV DEWAN", guide: "DR. T LUITHUIWUNG AWUNGSHI" },
+                { sl: 386, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "PRAJUKTI PRIYADARSHINI", guide: "DR. MOSES NEWME" },
+                { sl: 387, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "BALITA SIANGSHAI", guide: "DR. T LUITHUIWUNG AWUNGSHI" },
+                { sl: 388, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "SYEDA SHAGUFTAH FARHEEN", guide: "DR. T LUITHUIWUNG AWUNGSHI" },
+                { sl: 389, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "BAIBHAVI BHAVNA", guide: "DR. MADHU MANJARI GOHAIN" },
+                { sl: 390, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "BIRINCHI BORAH", guide: "DR. PRIYANKA PATOWARI" },
+                { sl: 391, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "KIANZANDI ODYUO", guide: "DR. MOSES NEWME" },
+                { sl: 392, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "MOIRANGTHEM BIDYAMANI", guide: "DR. T LUITHUIWUNG AWUNGSHI" },
+                { sl: 393, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "MOON MOON AHMED", guide: "DR. MADHU MANJARI GOHAIN" },
+                { sl: 394, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "KRISTI SAIKIA", guide: "DR. PRIYANKA PATOWARI" },
+                { sl: 395, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "NAOREM KELVISH SINGH", guide: "DR. PRIYANKA PATOWARI" },
+                { sl: 396, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "ADIMA N ARENGH", guide: "DR. MOSES NEWME" },
+                { sl: 397, session: "2022-23", school: "RSHSS", branch: "SOCIOLOGY", name: "DEBALINA DEBBARMA", guide: "DR. SANGEETA DAS" },
+                { sl: 398, session: "2022-23", school: "RSHSS", branch: "SOCIOLOGY", name: "DEBIYA THONGAM", guide: "DR. SANGEETA DAS" },
+                { sl: 399, session: "2022-23", school: "RSHSS", branch: "SOCIOLOGY", name: "KENEISELHOU CHIELIE", guide: "DR. TRIPTI DAS" },
+                { sl: 400, session: "2024-25", school: "RSHSS", branch: "SOCIOLOGY", name: "APARAJITA GOON", guide: "DR. TRIPTI DAS" },
+                { sl: 401, session: "2024-25", school: "RSHSS", branch: "SOCIOLOGY", name: "MAN KUMAR BARAILY", guide: "DR. SANGEETA DAS" },
+                { sl: 402, session: "2019-20", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "SANJOY RONGHANG", guide: "PROF. (DR.) SOUMITRA SEN" },
+                { sl: 403, session: "2021-22", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "CHANDAN JYOTI BEZBORAH", guide: "PROF. (DR.) SOUMITRA SEN" },
+                { sl: 404, session: "2021-22", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "PIYUSH GUPTA", guide: "PROF. (DR.) SOUMITRA SEN" },
+                { sl: 405, session: "2022-23", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "SPARSH TIWARI", guide: "PROF. (DR.) SOUMITRA SEN" },
+                { sl: 406, session: "2023-24", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "ANKITA SAIKIA", guide: "PROF. (DR.) SOUMITRA SEN" },
+                { sl: 407, session: "2023-24", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "MEGHA PHUKAN", guide: "PROF. (DR.) SOUMITRA SEN" },
+                { sl: 408, session: "2023-24", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "SUPONGSANGLA LONGCHAR", guide: "DR. SYED SAJIDUL ISLAM" },
+                { sl: 409, session: "2023-24", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "KARISHMA AZIZ", guide: "DR. SYED SAJIDUL ISLAM" },
+                { sl: 410, session: "2024-25", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "NEEKITA DAOLAGUPU", guide: "DR. INDRAJIT DUTTA" },
+                { sl: 411, session: "2024-25", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "GEOBAR B MARAK", guide: "DR. INDRAJIT DUTTA" },
+                { sl: 412, session: "2024-25", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "KUNTAL KALITA", guide: "DR. INDRAJIT DUTTA" },
+                { sl: 413, session: "2020-21", school: "RSLSC", branch: "ZOOLOGY", name: "ABUJAM ROMIBALA DEVI", guide: "DR. SUSMITA DEY" },
+                { sl: 414, session: "2022-23", school: "RSLSC", branch: "ZOOLOGY", name: "SOIBAM PRIYADARSHINI", guide: "DR. DHARMESWAR BARHOI" },
+                { sl: 415, session: "2022-23", school: "RSLSC", branch: "ZOOLOGY", name: "SANJENBAM JOEL", guide: "DR. PARIMAL C RAY" },
+                { sl: 416, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "ANIRUDHA CHAKRABORTY", guide: "DR. PARIMAL C RAY" },
+                { sl: 417, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "MAYOUSHREE GOGOI", guide: "DR. ABESH CHAKRABORTY" },
+                { sl: 418, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "SANGEETA BISWAS", guide: "DR. PARIMAL C RAY" },
+                { sl: 419, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "ARPANA R RABHA", guide: "DR. DHARMESWAR BARHOI" },
+                { sl: 420, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "DIPSANU PAUL", guide: "DR. DHARMESWAR BARHOI" },
+                { sl: 421, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "SENT BUALGA M MARAK", guide: "DR. DHARMESWAR BARHOI" },
+                { sl: 422, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "ACHINTYA PRAN HAZARIKA", guide: "DR. ARVIND DWIVEDI" },
+                { sl: 423, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "BHITALI BARKAKATI", guide: "DR. ABESH CHAKRABORTY" },
+                { sl: 424, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "KRISHNAA BORO", guide: "DR. ABESH CHAKRABORTY" },
+                { sl: 425, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "MONISH KUMAR THAPA", guide: "DR. PARIMAL C RAY" },
+                { sl: 426, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "PRIYANKU BORAH", guide: "DR. ARVIND DWIVEDI" },
+                { sl: 427, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "KUMAR KRITARTHA KAUSHIK", guide: "DR. ANNU KUMARI" },
+                { sl: 428, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "SIKHA RABHA", guide: "DR. ANNU KUMARI" },
+                { sl: 429, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "JOBASMITA SHARMA", guide: "DR. ANNU KUMARI" },
+                { sl: 430, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "TINA CHETRY", guide: "DR. ANNU KUMARI" },
+                { sl: 431, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "NILAKHI LAHAN", guide: "DR. ARVIND DWIVEDI" },
+                { sl: 432, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "CHANDA GWALA", guide: "DR. ABESH CHAKRABORTY" },
+                { sl: 433, session: "2024-25", school: "RSLIS", branch: "ZOOLOGY", name: "ARUNDHUTI KASHYAP", guide: "DR. ARVIND DWIVEDI" }
+                // Add the rest of the data...
+            ];
+
+            const rowsPerPage = 20;
+            let currentPage = 1;
+
+            function displayTable(page) {
+                const tbody = document.querySelector('#dataTable tbody');
+                tbody.innerHTML = "";
+
+                const start = (page - 1) * rowsPerPage;
+                const end = start + rowsPerPage;
+                const paginatedItems = data.slice(start, end);
+
+                for (const row of paginatedItems) {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `<td>${row.sl}</td><td>${row.session}</td><td>${row.school}</td><td>${row.branch}</td><td>${row.name}</td><td>${row.guide}</td>`;
+                    tbody.appendChild(tr);
+                }
+
+                setupPagination();
+            }
+
+            function setupPagination() {
+                const pagination = document.getElementById('pagination');
+                pagination.innerHTML = "";
+                const pageCount = Math.ceil(data.length / rowsPerPage);
+
+                for (let i = 1; i <= pageCount; i++) {
+                    const btn = document.createElement('button');
+                    btn.textContent = i;
+                    btn.className = (i === currentPage) ? 'active' : '';
+                    btn.onclick = function () {
+                        currentPage = i;
+                        displayTable(currentPage);
+                    };
+                    pagination.appendChild(btn);
+                }
+            }
+
+            displayTable(currentPage);
+        </script>
+
+    {{-- mobile Script --}}
+    <script>
+        const data = [
+            { sl: 1, session: "2024-25", school: "RSA", branch: "ARCHITECTURE", name: "DIKSHA DUTTA", guide: "PROF. (DR.) HARI PRASAD AGARWAL" },
+            { sl: 2, session: "2024-25", school: "RSA", branch: "ARCHITECTURE", name: "KASTURI BORAH", guide: "PROF. (DR.) HARI PRASAD AGARWAL" },
+            { sl: 3, session: "2021-22", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "BISHWAPRIYA CHUTIA", guide: "DR. BHASKARJYOTI GOGOI" },
+            { sl: 4, session: "2021-22", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "DEBALEENA KASHYAP", guide: "DR. BHASKARJYOTI GOGOI" },
+            { sl: 5, session: "2021-22", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "SAHIBA KHAN", guide: "DR. DEBAJIT BORAH" },
+            { sl: 6, session: "2022-23", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "SAAHANA SYED JUHI", guide: "PROF. (DR.) RANJAN DUTTA KALITA" },
+            { sl: 7, session: "2023-24", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "IXORA WAIKHOM", guide: "DR. SIDDHARTHA NARAYAN BORAH" },
+            { sl: 8, session: "2023-24", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "ANMOL KAUR", guide: "DR. RUPSIKHA PATOWARY" },
+            { sl: 9, session: "2023-24", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "PANCHAMI BORPUJARI", guide: "DR. DEBAJIT BORAH" },
+            { sl: 10, session: "2024-25", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "AMARTYA DAS", guide: "PROF. (DR.) RANJAN DUTTA KALITA" },
+            { sl: 11, session: "2024-25", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "DEBOSMITA DUTTA", guide: "DR. MOUSUMI DAS GOSWAMI" },
+            { sl: 12, session: "2024-25", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "ANINDITA DUTTA", guide: "DR. RUPESH KUMAR" },
+            { sl: 13, session: "2024-25", school: "RSBSC", branch: "BIOTECHNOLOGY", name: "SHIKHA RANI BARO", guide: "DR. RUPESH KUMAR" },
+            { sl: 14, session: "2019-20", school: "RSLSC", branch: "BOTANY", name: "NAMITA DEKA", guide: "PROF.(DR.) SARANGA RANJAN PATGIRI" },
+            { sl: 15, session: "2020-21", school: "RSLSC", branch: "BOTANY", name: "JASMIN SULTANA", guide: "DR. ANUSHREE BARUAH" },
+            { sl: 16, session: "2020-21", school: "RSLSC", branch: "BOTANY", name: "RINGPHAMCHUNG KHATRU MOYON", guide: "PROF. (DR.) MINARAM NATH" },
+            { sl: 17, session: "2020-21", school: "RSLSC", branch: "BOTANY", name: "NARGIS ZAMAN", guide: "DR. ANUSHREE BARUAH" },
+            { sl: 18, session: "2020-21", school: "RSLSC", branch: "BOTANY", name: "SABNAM SULTANA", guide: "DR. ANUSHREE BARUAH" },
+            { sl: 19, session: "2021-22", school: "RSLSC", branch: "BOTANY", name: "MITALI BARUAH", guide: "DR. RAGHUVAR TIWARY" },
+            { sl: 20, session: "2021-22", school: "RSLSC", branch: "BOTANY", name: "RICA LANGSTANG", guide: "DR. UPASNA CHETTRY" },
+            { sl: 21, session: "2021-22", school: "RSLSC", branch: "BOTANY", name: "HIMAKSHI KALITA", guide: "DR. RAGHUVAR TIWARY" },
+            { sl: 22, session: "2022-23", school: "RSLSC", branch: "BOTANY", name: "HAFIUZ ZAMAN AHMED", guide: "DR. MANALEE PAUL" },
+            { sl: 23, session: "2023-24", school: "RSLSC", branch: "BOTANY", name: "DAIMULU BORO", guide: "DR. UPASNA CHETTRY" },
+            { sl: 24, session: "2023-24", school: "RSLSC", branch: "BOTANY", name: "JIREE BASUMATARY", guide: "DR. RAGHUVAR TIWARY" },
+            { sl: 25, session: "2023-24", school: "RSLSC", branch: "BOTANY", name: "CHETANA HASNU", guide: "DR. PRATIKSHYA BORAH" },
+            { sl: 26, session: "2024-25", school: "RSLSC", branch: "BOTANY", name: "JONEY LALNUNPUII PACHUAU", guide: "DR. RAGHUVAR TIWARY" },
+            { sl: 27, session: "2024-25", school: "RSLSC", branch: "BOTANY", name: "GITANJALI KALITA", guide: "DR. MANALEE PAUL" },
+            { sl: 28, session: "2024-25", school: "RSLSC", branch: "BOTANY", name: "P SUCHITRA SINGHA", guide: "DR. UPASNA CHETTRY" },
+            { sl: 29, session: "2024-25", school: "RSLSC", branch: "BOTANY", name: "DEEPRAJ KUNDU", guide: "DR. UPASHNA CHETTRI" },
+            { sl: 30, session: "2024-25", school: "RSLSC", branch: "BOTANY", name: "BIJIT NATH", guide: "DR. ANUSHREE BARUAH" },
+            { sl: 31, session: "2018-19", school: "RSET", branch: "CE", name: "KHAGEN CHANDRA NATH", guide: "PROF. (DR.) ARNAB SARMA" },
+            { sl: 32, session: "2019-20", school: "RSET", branch: "CE", name: "CHANDRA UPADHYAYA", guide: "PROF. (DR.) ARNAB SARMA" },
+            { sl: 33, session: "2019-20", school: "RSET", branch: "CE", name: "RANU GOWAL SARMAH", guide: "PROF. (DR.) ARNAB SARMA" },
+            { sl: 34, session: "2023-24", school: "RSET", branch: "CE", name: "ARJUN BARUAH", guide: "PROF. (DR.) ARNAB SARMA" },
+            { sl: 35, session: "2024-25", school: "RSET", branch: "CE", name: "Yudhajit Dey", guide: "PROF. (DR.) ARNAB SARMA" },
+            { sl: 36, session: "2024-25", school: "RSET", branch: "CE", name: "Arnold Dipak Das", guide: "PROF. (DR.) ARNAB SARMA" },
+            { sl: 37, session: "2023-24", school: "RSAPS", branch: "CHEMISTRY", name: "NEEKITA DUTTA", guide: "DR. BISWAJIT SARMA" },
+            { sl: 38, session: "2023-24", school: "RSAPS", branch: "CHEMISTRY", name: "TANZINA FIRDOUSHI BORBHUYAN", guide: "DR. DEBOJEET SAHU" },
+            { sl: 39, session: "2024-25", school: "RSAPS", branch: "CHEMISTRY", name: "RT STARTHRING", guide: "DR. ANUP MALAKAR" },
+            { sl: 40, session: "2024-25", school: "RSAPS", branch: "CHEMISTRY", name: "TONMOY DOLEY", guide: "DR. PUBALEE SARMAH" },
+            { sl: 41, session: "2024-25", school: "RSAPS", branch: "CHEMISTRY", name: "Joydeep Chakravorty", guide: "DR. BINOYARGHA DAM" },
+            { sl: 42, session: "2024-25", school: "RSAPS", branch: "CHEMISTRY", name: "LAKHMINANDAN GOSWAMI", guide: "DR. PUBALEE SARMAH" },
+            { sl: 43, session: "2021-22", school: "RSC", branch: "COMMERCE", name: "DIKSHYA SAIKIA", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+            { sl: 44, session: "2021-22", school: "RSC", branch: "COMMERCE", name: "VASUNDHARA JALAN", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+            { sl: 45, session: "2022-23", school: "RSC", branch: "COMMERCE", name: "ADITI BARUAH", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+            { sl: 46, session: "2022-23", school: "RSC", branch: "COMMERCE", name: "SAISANGPUII SAILO", guide: "DR. ARUNA DEV ROY" },
+            { sl: 47, session: "2022-23", school: "RSC", branch: "COMMERCE", name: "SAMARESH NANDY", guide: "DR. ARUNA DEV ROY" },
+            { sl: 48, session: "2022-23", school: "RSC", branch: "COMMERCE", name: "DARSHANA DEVI", guide: "DR. ARUNA DEV ROY" },
+            { sl: 49, session: "2022-23", school: "RSC", branch: "COMMERCE", name: "SANSKRITA BARMAN", guide: "DR. ARUNA DEV ROY" },
+            { sl: 50, session: "2023-24", school: "RSC", branch: "COMMERCE", name: "MOHIT CHOUDHARY", guide: "DR. RAJDEEP NAG" },
+            { sl: 51, session: "2023-24", school: "RSC", branch: "COMMERCE", name: "DIPAK JAIN", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+            { sl: 52, session: "2023-24", school: "RSC", branch: "COMMERCE", name: "DIPAK JAIN", guide: "DR. RAJDEEP NAG" },
+            { sl: 53, session: "2023-24", school: "RSC", branch: "COMMERCE", name: "JIMPY SAUD", guide: "DR. ARUNA DEV ROY" },
+            { sl: 54, session: "2024-25", school: "RSC", branch: "COMMERCE", name: "MOIRANGTHEM JINA CHANU", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+            { sl: 55, session: "2024-25", school: "RSC", branch: "COMMERCE", name: "ANANYA BANIK", guide: "DR. RAJDEEP NAG" },
+            { sl: 56, session: "2024-25", school: "RSC", branch: "COMMERCE", name: "BEENA RONGPIPI", guide: "DR. ARUNA DEV ROY" },
+            { sl: 57, session: "2024-25", school: "RSC", branch: "COMMERCE", name: "ANUPRIYA TALUKDAR", guide: "PROF. (DR.) SUDIP CHAKRABORTY" },
+            { sl: 58, session: "2024-25", school: "RSC", branch: "COMMERCE", name: "UZMA SADAF", guide: "DR. RAJDEEP NAG" },
+            { sl: 59, session: "2024-25", school: "RSET", branch: "CSE", name: "DHARITRI TALUKDAR", guide: "PROF. (DR.) RASHEL SARKAR" },
+            { sl: 60, session: "2020-21", school: "RSHSS", branch: "ECONOMICS", name: "SHWETA SINGH", guide: "DR. MD. DELUWAR HOQUE" },
+            { sl: 61, session: "2020-21", school: "RSHSS", branch: "ECONOMICS", name: "WAHIDA RAHMAN", guide: "PROF. (DR.) SWABERA ISLAM" },
+            { sl: 62, session: "2021-22", school: "RSHSS", branch: "ECONOMICS", name: "SANGHAMITRA DUWARAH", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+            { sl: 63, session: "2021-22", school: "RSHSS", branch: "ECONOMICS", name: "ASHA YENGKHOM", guide: "PROF. (DR.) SWABERA ISLAM" },
+            { sl: 64, session: "2022-23", school: "RSHSS", branch: "ECONOMICS", name: "TRISHA SAHA", guide: "DR. MD. DELUWAR HOQUE" },
+            { sl: 65, session: "2023-24", school: "RSHSS", branch: "ECONOMICS", name: "AJANTA DAS", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+            { sl: 66, session: "2023-24", school: "RSHSS", branch: "ECONOMICS", name: "HIMANGGI BORAH", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+            { sl: 67, session: "2023-24", school: "RSHSS", branch: "ECONOMICS", name: "ALORIKA DEB", guide: "DR. DURBA DUTTA" },
+            { sl: 68, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "CHANCHI R MARAK", guide: "DR. SANGHAMITRA HAZARIKA" },
+            { sl: 69, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "DEEPSHIKHA KALITA", guide: "DR. SANGHAMITRA HAZARIKA" },
+            { sl: 70, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "NABADEEPA KALITA", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+            { sl: 71, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "MANABENDRA BARMAN", guide: "DR. DURBA DUTTA" },
+            { sl: 72, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "SRIJANI HAZARIKA", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+            { sl: 73, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "PREETY SHAH ZIYA", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+            { sl: 74, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "VANLALREMRUATI KHIANGTE", guide: "DR. MD. DELUWAR HOQUE" },
+            { sl: 75, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "K LENANGH ANGH", guide: "DR. SANGHAMITRA HAZARIKA" },
+            { sl: 76, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "ANURADHA DEVI", guide: "DR. DURBA DUTTA" },
+            { sl: 77, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "SUPRIYA KONWAR", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+            { sl: 78, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "Nirupam Das", guide: "DR. MD. DELUWAR HOQUE" },
+            { sl: 79, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "AKALI CHISHI", guide: "PROF. (DR.) GAUTAM MAZUMDAR" },
+            { sl: 80, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "Mwikwm Narzary", guide: "DR. MD. DELUWAR HOQUE" },
+            { sl: 81, session: "2024-25", school: "RSHSS", branch: "ECONOMICS", name: "RITUPARNA BORGOHAIN", guide: "DR. MD. DELUWAR HOQUE" },
+            { sl: 82, session: "2019-20", school: "RSL", branch: "ENGLISH", name: "KARENG RONGHANGPI", guide: "DR. BAISHALEE RAJKHOWA" },
+            { sl: 83, session: "2019-20", school: "RSL", branch: "ENGLISH", name: "CHIBENI MERRY", guide: "DR. JASMINE CHOUDHURY" },
+            { sl: 84, session: "2019-20", school: "RSL", branch: "ENGLISH", name: "BANANI DAS", guide: "PROF. (DR.) INDRANI SINGH RAI" },
+            { sl: 85, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "FAHMIDA AKHTAR", guide: "DR. BAISHALEE RAJKHOWA" },
+            { sl: 86, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "GITIMA DEKA", guide: "PROF. (DR.) PRADIP JYOTI MAHANTA" },
+            { sl: 87, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "IFTIKAR ALI AHMED", guide: "DR. BAISHALEE RAJKHOWA" },
+            { sl: 88, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "CHANDAM CHANU NGANTHOIHANBI", guide: "DR. BAISHALEE RAJKHOWA" },
+            { sl: 89, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "CHINMOYEE DEKA", guide: "DR. JASMINE CHOUDHURY" },
+            { sl: 90, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "LAISHRAM PINKY", guide: "PROF. (DR.) INDRANI SINGH RAI" },
+            { sl: 91, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "SERAM RAJESHWARAN SINGH", guide: "PROF. (DR.) PRADIP JYOTI MAHANTA" },
+            { sl: 92, session: "2020-21", school: "RSL", branch: "ENGLISH", name: "HIMASHRI KUMAR", guide: "PROF. (DR.) KRISHNA BARUA" },
+            { sl: 93, session: "2021-22", school: "RSL", branch: "ENGLISH", name: "DIMPY BANIA", guide: "PROF. (DR.) KRISHNA BARUA" },
+            { sl: 94, session: "2021-22", school: "RSL", branch: "ENGLISH", name: "RASHMIREKHA BARMAN", guide: "PROF. (DR.) KRISHNA BARUA" },
+            { sl: 95, session: "2021-22", school: "RSL", branch: "ENGLISH", name: "GOURISHIKHA BORGOHAIN", guide: "DR. STUTI GOSWAMI" },
+            { sl: 96, session: "2022-23", school: "RSL", branch: "ENGLISH", name: "MIRANDA NGANGOM", guide: "DR. PRONAMI BHATTACHARYYA" },
+            { sl: 97, session: "2022-23", school: "RSL", branch: "ENGLISH", name: "DEIFY BAKORDOR SUTING", guide: "DR. PRONAMI BHATTACHARYYA" },
+            { sl: 98, session: "2022-23", school: "RSL", branch: "ENGLISH", name: "HEMANTA BORA", guide: "PROF. (DR.) BORNALI BHUYAN" },
+            { sl: 99, session: "2022-23", school: "RSL", branch: "ENGLISH", name: "KASTURI BORGOHAIN", guide: "DR. STUTI GOSWAMI" },
+            { sl: 100, session: "2022-23", school: "RSL", branch: "ENGLISH", name: "PAYEL DAS", guide: "DR. PRONAMI BHATTACHARYYA" },
+            { sl: 101, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "JUBIN NAHAR", guide: "DR. PRONAMI BHATTACHARYYA" },
+            { sl: 102, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "NIVEDITA DUTTA", guide: "DR. PAMPI BASUMATARY" },
+            { sl: 103, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "SINJINI SAIKIA", guide: "DR. STUTI GOSWAMI" },
+            { sl: 104, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "TAJUNGMENLA JAMIR", guide: "PROF. (DR.) BORNALI BHUYAN" },
+            { sl: 105, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "TUHISHA GHOSH", guide: "DR. STUTI GOSWAMI" },
+            { sl: 106, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "ABAMEDA GIRI KHARMALKI", guide: "DR. PRONAMI BHATTACHARYYA" },
+            { sl: 107, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "ADITI GHOSH", guide: "DR. STUTI GOSWAMI" },
+            { sl: 108, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "PUJA KUMARI", guide: "PROF. (DR.) TUSHTI SHARMA" },
+            { sl: 109, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "RUMA DEBNATH", guide: "PROF. (DR.) TUSHTI SHARMA" },
+            { sl: 110, session: "2023-24", school: "RSL", branch: "ENGLISH", name: "SATAVISHA HAZARIKA", guide: "DR. BAISHALEE RAJKHOWA" },
+            { sl: 111, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "NANCY PANGEIJAM", guide: "PROF. (DR.) TUSHTI SHARMA" },
+            { sl: 112, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "MAHFUZ AHMED", guide: "DR. JASMINE CHOUDHURY" },
+            { sl: 113, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "RT SHANGWARHRING", guide: "DR. BAISHALEE RAJKHOWA" },
+            { sl: 114, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "BHASKAR KOUSHIK DAS", guide: "DR. STUTI GOSWAMI" },
+            { sl: 115, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "T.LALAWMPUII", guide: "PROF. (DR.) TUSHTI SHARMA" },
+            { sl: 116, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "C.LALNUNPUII", guide: "DR. JYOTI MISHRA" },
+            { sl: 117, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "PRANITA KALITA", guide: "PROF. (DR.) TUSHTI SHARMA" },
+            { sl: 118, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "ARTIBIRTH CH MARAK", guide: "DR. PAMPI BASUMATARY" },
+            { sl: 119, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "JENIFAR SABNAM", guide: "DR. JASMINE CHOUDHURY" },
+            { sl: 120, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "HIMTRINA RABHA", guide: "PROF. (DR.) TUSHTI SHARMA" },
+            { sl: 121, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "HIMADRI BORAH", guide: "DR. PAMPI BASUMATARY" },
+            { sl: 122, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "BHASWATI CHETIA", guide: "PROF. (DR.) INDRANI SINGH RAI" },
+            { sl: 123, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "NIJWM BASUMATARY", guide: "PROF. (DR.) INDRANI SINGH RAI" },
+            { sl: 124, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "PINAZ MIRZA", guide: "DR. PRABUDDHA GHOSH" },
+            { sl: 125, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "HEMEN JYOTI DAS", guide: "DR. PRABUDDHA GHOSH" },
+            { sl: 126, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "ANGELINA THANGJAM", guide: "DR. PAMPI BASUMATARY" },
+            { sl: 127, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "DIVYAJYOTI DAS", guide: "PROF. (DR.) TUSHTI SHARMA" },
+            { sl: 128, session: "2024-25", school: "RSL", branch: "ENGLISH", name: "JIMLI DEKA", guide: "PROF. (DR.) TUSHTI SHARMA" },
+            { sl: 129, session: "2023-24", school: "RSEES", branch: "ENVIRONMENTAL SCIENCE", name: "ROBERT LYNDOH", guide: "DR. DEMSAI REANG" },
+            { sl: 130, session: "2023-24", school: "RSEES", branch: "ENVIRONMENTAL SCIENCE", name: "R LALRINNGHETI", guide: "DR. DEMSAI REANG" },
+            { sl: 131, session: "2023-24", school: "RSEES", branch: "ENVIRONMENTAL SCIENCE", name: "NAPHIBANIARLIN KSFIAR", guide: "DR. PALLABI BORAH" },
+            { sl: 132, session: "2019-20", school: "RSFA", branch: "FINE ARTS", name: "KISHAN BAGDI", guide: "DR. MOUSUMI DEKA" },
+            { sl: 133, session: "2022-23", school: "RSFA", branch: "FINE ARTS", name: "GAURAV MORAL", guide: "DR. MOUSUMI DEKA" },
+            { sl: 134, session: "2022-23", school: "RSFA", branch: "FINE ARTS", name: "LALREMRUATA VARTE", guide: "DR. MOUSUMI DEKA" },
+            { sl: 135, session: "2023-24", school: "RSFA", branch: "FINE ARTS", name: "ANKUR HAZARIKA", guide: "DR. MOUSUMI DEKA" },
+            { sl: 136, session: "2024-25", school: "RSBSC", branch: "FOOD TECHNOLOGY", name: "SYEDA JADIDA AKHTAR", guide: "DR. SHAGUFTA RIZWANA" },
+            { sl: 137, session: "2024-25", school: "RSBSC", branch: "FOOD TECHNOLOGY", name: "DIPANJALI DAS", guide: "DR. PREETISAGAR TALUKDAR" },
+            { sl: 138, session: "2024-25", school: "RSBSC", branch: "FOOD TECHNOLOGY", name: "RAHUL BORDOLOI", guide: "PROF. (DR.) PRANATI DAS" },
+            { sl: 139, session: "2024-25", school: "RSLSC", branch: "FORESTRY", name: "SATYAMJIT NEOG", guide: "DR. DEMSAI REANG" },
+            { sl: 140, session: "2024-25", school: "RSLSC", branch: "FORESTRY", name: "CHICHAKHA DEV BARMA", guide: "DR. PAUL LALREMSANG" },
+            { "sl": 141, "session": "2021-22", "school": "RSEES", "branch": "GEOGRAPHY", "name": "HASNE TOUFIKI", "guide": "PROF.(DR.) B S MIPUN" },
+            { "sl": 142, "session": "2022-23", "school": "RSEES", "branch": "GEOGRAPHY", "name": "DIPSHIKHA KALITA", "guide": "DR. ANNESHA BORAH" },
+            { "sl": 143, "session": "2023-24", "school": "RSEES", "branch": "GEOGRAPHY", "name": "EILEEN BETSY MYLLIEMNGAP", "guide": "PROF.(DR.) B S MIPUN" },
+            { "sl": 144, "session": "2023-24", "school": "RSEES", "branch": "GEOGRAPHY", "name": "SONIA SAMJETSABAM", "guide": "DR. TRISHNA CHANGKAKATI" },
+            { "sl": 145, "session": "2024-25", "school": "RSEES", "branch": "GEOGRAPHY", "name": "BIPLAB SARKAR", "guide": "PROF. (DR.) D.K. NAYAK" },
+            { "sl": 146, "session": "2024-25", "school": "RSEES", "branch": "GEOGRAPHY", "name": "GITALI. HAZARIKA", "guide": "DR. ANNESHA BORAH" },
+            { "sl": 147, "session": "2024-25", "school": "RSEES", "branch": "GEOGRAPHY", "name": "MRIDULA KALITA", "guide": "DR. ANNESHA BORAH" },
+            { "sl": 148, "session": "2024-25", "school": "RSEES", "branch": "GEOGRAPHY", "name": "KAKALI MEDHI", "guide": "PROF. (DR.) D.K. NAYAK" },
+            { "sl": 149, "session": "2024-25", "school": "RSEES", "branch": "GEOGRAPHY", "name": "GANESH CHANDRA DAS", "guide": "PROF. (DR.) D.K. NAYAK" },
+            { "sl": 150, "session": "2019-20", "school": "RSHSS", "branch": "HISTORY", "name": "JORDAN THAPA", "guide": "DR. SUSMITA HAZARIKA" },
+            { "sl": 151, "session": "2022-23", "school": "RSHSS", "branch": "HISTORY", "name": "POOJA BHATTACHARJEE", "guide": "PROF. (DR.) SAJAL NAG" },
+            { "sl": 152, "session": "2023-24", "school": "RSHSS", "branch": "HISTORY", "name": "PHOWLTHA SELTUN", "guide": "PROF. (DR.) SAJAL NAG" },
+            { "sl": 153, "session": "2023-24", "school": "RSHSS", "branch": "HISTORY", "name": "PUSPA DEORI", "guide": "DR. SUSMITA HAZARIKA" },
+            { "sl": 154, "session": "2023-24", "school": "RSHSS", "branch": "HISTORY", "name": "FREDDIE KHAWLHRING", "guide": "DR. MITALI KALITA" },
+            { "sl": 155, "session": "2023-24", "school": "RSHSS", "branch": "HISTORY", "name": "TANZIM MASUD", "guide": "PROF. (DR.) SAJAL NAG" },
+            { "sl": 156, "session": "2023-24", "school": "RSHSS", "branch": "HISTORY", "name": "RASHMIREKHA HAZARIKA", "guide": "DR. SUSMITA HAZARIKA" },
+            { "sl": 157, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "CHIDORA R MARAK", "guide": "DR. MITALI KALITA" },
+            { "sl": 158, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "PHURAILATPAM AARTI DEVI", "guide": "DR. SAIKHOM RONEL SINGH" },
+            { "sl": 159, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "AKANGSHA KALITA", "guide": "DR. SUSMITA HAZARIKA" },
+            { "sl": 160, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "ALEXANDER D SANGMA", "guide": "DR. SUSHMITA BANERJEE" },
+            { "sl": 161, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "BANTI TALUKDAR", "guide": "DR. SUSMITA HAZARIKA" },
+            { "sl": 162, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "BIKASHITA SAIKIA", "guide": "DR. SUSMITA HAZARIKA" },
+            { "sl": 163, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "HIMANGSHU SHEKHAR BORA", "guide": "DR. SAIKHOM RONEL SINGH" },
+            { "sl": 164, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "JUDITH LALNIVAR INTOVATE", "guide": "PROF. (DR.) SAJAL NAG" },
+            { "sl": 165, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "JURI DEKA", "guide": "DR. SAIKHOM RONEL SINGH" },
+            { "sl": 166, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "ROTHANGLIANA", "guide": "PROF. (DR.) SAJAL NAG" },
+            { "sl": 167, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "JINI RANI BORO", "guide": "DR. SUSHMITA BANERJEE" },
+            { "sl": 168, "session": "2024-25", "school": "RSHSS", "branch": "HISTORY", "name": "NH HINGNAMYI BLESSING NEWME", "guide": "DR. SAIKHOM RONEL SINGH" },
+            { "sl": 169, "session": "2020-21", "school": "RSIT", "branch": "I.T.", "name": "ASHOK KUMAR SARKAR", "guide": "DR. ANUPAM DAS" },
+            { "sl": 170, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "RASHMIREKHA BORAH", "guide": "DR. RISHI CHAKRAVARTY" },
+            { "sl": 171, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "ANKITA SARMA", "guide": "PROF. (DR.) D.N. SINGH" },
+            { "sl": 172, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "RUMI TALUKDAR", "guide": "PROF. (DR.) GEORGE AP" },
+            { "sl": 173, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "KANGKANA TALUKDAR", "guide": "DR. SYEDA ANJUM AFREEN" },
+            { "sl": 174, "session": "2024-25", "school": "RSMAS", "branch": "PHYSIOTHERAPY", "name": "SOMYATA CHITARANJAN SATPATHY SARMA", "guide": "PROF. (DR.) ABHIJIT DUTTA" },
+            { "sl": 175, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "MAYURI OJAH", "guide": "DR. MADHUSMITA KOCH" },
+            { "sl": 176, "session": "2024-25", "school": "CISR", "branch": "INTERDISCIPLINARY", "name": "RUCHI BHARDWAJ", "guide": "DR. SHRADDHA BASU" },
+            { "sl": 177, "session": "2018-19", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "PREETILATA KUMARI", "guide": "DR. HAOGINLEN. CHONGLOI" },
+            { "sl": 178, "session": "2022-23", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "UPEN BORA", "guide": "DR. RASHMI SARMAH" },
+            { "sl": 179, "session": "2023-24", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "BRISTI GOGOI", "guide": "PROF. (DR.) S. C. NAYAK" },
+            { "sl": 180, "session": "2023-24", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "ZAKIR HUSSAIN", "guide": "PROF. (DR.) S. C. NAYAK" },
+            { "sl": 181, "session": "2024-25", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "SAMUEL LALBELSANG", "guide": "PROF. (DR.) S. C. NAYAK" },
+            { "sl": 182, "session": "2024-25", "school": "RSCOM", "branch": "JOURNALISM AND MASS COMMUNICATION", "name": "AMIT BARUAH", "guide": "DR. RASHMI SARMAH" },
+            { "sl": 183, "session": "2019-20", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BINU HAZARIKA KASHYAP", "guide": "PROF. (DR.) H. C. NATH" },
+            { "sl": 184, "session": "2019-20", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "RASHMI REKHA PHUKAN", "guide": "DR. ANJUMAN A. BEGUM" },
+            { "sl": 185, "session": "2019-20", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "MAILINDA LYNSHING", "guide": "DR. ANJUMAN A. BEGUM" },
+            { "sl": 186, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "ABIDA SULTANA LASKAR", "guide": "PROF. (DR.) H. C. NATH" },
+            { "sl": 187, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "DILIP KUMAR BORA", "guide": "PROF. (DR.) H. C. NATH" },
+            { "sl": 188, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "DR RATHINDRA BHUYAN", "guide": "PROF. (DR.) H. C. NATH" },
+            { "sl": 189, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "PRONAB KR NATH", "guide": "PROF. (DR.) H. C. NATH" },
+            { "sl": 190, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "KRISHNA DAS", "guide": "PROF. (DR.) H. C. NATH" },
+            { "sl": 191, "session": "2021-22", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "POMPI DEKA", "guide": "PROF. (DR.) H. C. NATH" },
+            { "sl": 192, "session": "2022-23", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BONNIE SARMA", "guide": "PROF. (DR.) B. C. BAROOAH" },
+            { "sl": 193, "session": "2022-23", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "NARGIS CHOUDHURY", "guide": "DR. ANJUMAN A. BEGUM" },
+            { "sl": 194, "session": "2022-23", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SHAHNAJ SULTANA", "guide": "PROF. (DR.) B. C. BAROOAH" },
+            { "sl": 195, "session": "2022-23", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SONI TEP", "guide": "PROF. (DR.) B. C. BAROOAH" },
+            { "sl": 196, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BEATIFY LUNGDOH", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+            { "sl": 197, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "MANISH KUMAR DAS", "guide": "PROF. (DR.) B. C. BAROOAH" },
+            { "sl": 198, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BHASWATI BORAH", "guide": "PROF. (DR.) B. C. BAROOAH" },
+            { "sl": 199, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "ANUPAL DUTTA PATHAK", "guide": "PROF. (DR.) THANESWAR KALITA" },
+            { "sl": 200, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BONANI MAHANTA", "guide": "PROF. (DR.) B. C. BAROOAH" },
+            { "sl": 201, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "JAYSHREE SHARMA", "guide": "DR. ANJUMAN A. BEGUM" },
+            { "sl": 202, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "NEHA VERMA", "guide": "DR. PRANITA CHAUDHURY" },
+            { "sl": 203, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BEAUTY NEOG", "guide": "PROF. (DR.) THANESWAR KALITA" },
+            { "sl": 204, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BRANDON MESHAN PAJAT", "guide": "DR. PRANITA CHAUDHURY" },
+            { "sl": 205, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "LALSOLOMON DARNEI", "guide": "DR. ANJUMAN A. BEGUM" },
+            { "sl": 206, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "PRITY GUPTA", "guide": "PROF. (DR.) THANESWAR KALITA" },
+            { "sl": 207, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "RAJASHRI HAZARIKA", "guide": "PROF. (DR.) THANESWAR KALITA" },
+            { "sl": 208, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SATAVISA BORA", "guide": "PROF. (DR.) B. C. BAROOAH" },
+            { "sl": 209, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SHRUTI HAZARIKA BORPUJARI", "guide": "PROF. (DR.) H. C. NATH" },
+            { "sl": 210, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SRISTI AGARWAL", "guide": "PROF. (DR.) THANESWAR KALITA" },
+            { "sl": 211, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "UPASHANA GOSWAMI", "guide": "PROF. (DR.) THANESWAR KALITA" },
+            { "sl": 212, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BAMERI DONDOR KHARSOHTUN", "guide": "PROF. (DR.) H. C. NATH" },
+            { "sl": 213, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BICKEY PRASAD", "guide": "DR. PRANITA CHAUDHURY" },
+            { "sl": 214, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "JHARNA AKRAM", "guide": "DR. ANJUMAN A. BEGUM" },
+            { "sl": 215, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "NITA RIJIJU", "guide": "DR. PRANITA CHAUDHURY" },
+            { "sl": 216, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "PANKHI DEVI", "guide": "PROF. (DR.) B. C. BAROOAH" },
+            { "sl": 217, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "POOJA DEVI", "guide": "PROF. (DR.) PREETI GUPTA" },
+            { "sl": 218, "session": "2023-24", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BENZIR ZAMAN", "guide": "PROF. (DR.) PREETI GUPTA" },
+            { "sl": 219, "session": "2024-25", "school": "RSL", "branch": "LAW & ADMINISTRATION", "name": "ASIF ALI ANSARI", "guide": "PROF. (DR.) YSR MURTHY" },
+            { "sl": 220, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "KENEISENUO RUTSA", "guide": "PROF. (DR.) YSR MURTHY" },
+            { "sl": 221, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "DIANA TRICIA TLANG", "guide": "PROF. (DR.) YSR MURTHY" },
+            { "sl": 222, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "MANISHA DEKA", "guide": "PROF. (DR.) YSR MURTHY" },
+            { "sl": 223, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "NIMISHA SHARMA", "guide": "PROF. (DR.) YSR MURTHY" },
+            { "sl": 224, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "ANISHA HAQUE", "guide": "PROF. (DR.) YSR MURTHY" },
+            { "sl": 225, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BIRENDRA KUMAR BARMAN", "guide": "PROF. (DR.) THANESWAR KALITA" },
+            { "sl": 226, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "NAPHISABET KHARKONGOR", "guide": "PROF. (DR.) THANESWAR KALITA" },
+            { "sl": 227, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "RANI CHYRMANG", "guide": "DR. PRANITA CHAUDHURY" },
+            { "sl": 228, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "OINAM MITRABATI DEVI", "guide": "PROF. (DR.) PREETI GUPTA" },
+            { "sl": 229, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "HIMANI RABHA", "guide": "PROF. (DR.) PREETI GUPTA" },
+            { "sl": 230, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "CARLOS NONGSIEJ", "guide": "PROF. (DR.) PREETI GUPTA" },
+            { "sl": 231, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "BIMAN NATH", "guide": "PROF. (DR.) PREETI GUPTA" },
+            { "sl": 232, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "PRIYANGSHU GOSWAMI", "guide": "PROF. (DR.) PREETI GUPTA" },
+            { "sl": 233, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "DIPSHIKHA ROY CHOWDHURY", "guide": "PROF. (DR.) PREETI GUPTA" },
+            { "sl": 234, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "JOYEETA RAJKHOWA", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+            { "sl": 235, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SARMISTHA CHAKRABARTY", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+            { "sl": 236, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "MANISHA BORTHAKUR", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+            { "sl": 237, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "RASHMI REKHA SAIKIA", "guide": "DR. PRANITA CHAUDHURY" },
+            { "sl": 238, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SHRISTI TODI", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+            { "sl": 239, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "PURBA GOSWAMI", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+            { "sl": 240, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "KANKANA CHOUDHURY", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+            { "sl": 241, "session": "2024-25", "school": "RSLA", "branch": "LAW & ADMINISTRATION", "name": "SUMITRA DEVI", "guide": "PROF. (DR.) AJIT KAUSHAL" },
+            { "sl": 242, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "KONGKINA NATH", "guide": "DR. MUKUTOR RAHMAN" },
+            { "sl": 243, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "PRASANNA KUMAR KONCH", "guide": "DR. HIRAK JYOTI HAZARIKA" },
+            { "sl": 244, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "MERINA AHMED", "guide": "DR. MUKUTOR RAHMAN" },
+            { "sl": 245, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "BIKRAMADITYA BARMAN", "guide": "DR. MUKUTOR RAHMAN" },
+            { "sl": 246, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "NIHARIKA SAIKIA", "guide": "DR. HIRAK JYOTI HAZARIKA" },
+            { "sl": 247, "session": "2024-25", "school": "RSLISC", "branch": "LIBRARY SCIENCE", "name": "BHAGABATI NARZARY", "guide": "DR. MUKUTOR RAHMAN" },
+            { "sl": 248, "session": "2024-25", "school": "RSLIS", "branch": "LIBRARY SCIENCE", "name": "Basera K. Sangma", "guide": "DR. HIRAK JYOTI HAZARIKA" },
+            { "sl": 249, "session": "2024-25", "school": "RSLIS", "branch": "LIBRARY SCIENCE", "name": "MANJUSHREE DEVI", "guide": "DR. HIRAK JYOTI HAZARIKA" },
+            { "sl": 250, "session": "2024-25", "school": "RSLIS", "branch": "LIBRARY SCIENCE", "name": "KISHUR NATH", "guide": "DR. NILANJANA PURKAYASTHA" },
+            { "sl": 251, "session": "2017-18", "school": "RSB", "branch": "MANAGEMENT", "name": "ROSHINI SAIKIA", "guide": "PROF. (DR.) S.P. SINGH" },
+            { "sl": 252, "session": "2019-20", "school": "RSB", "branch": "MANAGEMENT", "name": "MAHENDRA PRASAD", "guide": "PROF. (DR.) S.P. SINGH" },
+            { "sl": 253, "session": "2019-20", "school": "RSB", "branch": "MANAGEMENT", "name": "KALYANI GOHAIN", "guide": "PROF. (DR.) S.P. SINGH" },
+            { "sl": 254, "session": "2020-21", "school": "RSB", "branch": "MANAGEMENT", "name": "ASHIM KUMAR SARMAH", "guide": "DR. ARPEE SAIKIA" },
+            { "sl": 255, "session": "2021-22", "school": "RSB", "branch": "MANAGEMENT", "name": "AISHWARYA GOSWAMI", "guide": "DR. ARPEE SAIKIA" },
+            { "sl": 256, "session": "2021-22", "school": "RSB", "branch": "MANAGEMENT", "name": "DHRUBAJYOTI THAKURIA", "guide": "DR. ARPEE SAIKIA" },
+            { "sl": 257, "session": "2021-22", "school": "RSB", "branch": "MANAGEMENT", "name": "NEHA TIWARI", "guide": "PROF. (DR.) S.P. SINGH" },
+            { "sl": 258, "session": "2022-23", "school": "RSB", "branch": "MANAGEMENT", "name": "MONALISA KONWAR", "guide": "PROF. (DR.) GEORGE AP" },
+            { "sl": 259, "session": "2023-24", "school": "RSB", "branch": "MANAGEMENT", "name": "NILIMOY NATH", "guide": "DR. DARSHANA BHAGOBATI" },
+            { "sl": 260, "session": "2023-24", "school": "RSB", "branch": "MANAGEMENT", "name": "SHARIF AHMED", "guide": "DR. DARSHANA BHAGOBATI" },
+            { "sl": 261, "session": "2023-24", "school": "RSB", "branch": "MANAGEMENT", "name": "INDIRA DEV ROY", "guide": "PROF. (DR.) GEORGE AP" },
+            { "sl": 262, "session": "2023-24", "school": "RSB", "branch": "MANAGEMENT", "name": "BRISTY SRIVASTAVA", "guide": "PROF. (DR.) GEORGE AP" },
+            { "sl": 263, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "SUSHMITA KONJENGBAM", "guide": "DR. RISHI CHAKRAVARTY" },
+            { "sl": 264, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "RIMA DAS", "guide": "DR. ARPEE SAIKIA" },
+            { "sl": 265, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "NAZVI NASEEM", "guide": "DR. ARPEE SAIKIA" },
+            { "sl": 266, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "UTTAM BORAH", "guide": "DR. ARPEE SAIKIA" },
+            { "sl": 267, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "KUHELI DUTTA", "guide": "DR. SUMAN AGARWAL" },
+            { "sl": 268, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "MITHINGA MUSHAHARY", "guide": "DR. SUMAN AGARWAL" },
+            { "sl": 269, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "NEELU SWAMI", "guide": "PROF. (DR.) D.N. SINGH" },
+            { "sl": 270, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "NASREEN FIRDAUS CHOWDHURY", "guide": "PROF. (DR.) GEORGE AP" },
+            { "sl": 271, "session": "2024-25", "school": "RSB", "branch": "MANAGEMENT", "name": "MOHINA AKHTARA", "guide": "DR. RISHI CHAKRAVARTY" },
+            { "sl": 272, "session": "2020-21", "school": "RSAPS", "branch": "MATHEMATICS", "name": "SINAM RAJKISHORE SINGHA", "guide": "DR. BIMALENDU KALITA" },
+            { "sl": 273, "session": "2022-23", "school": "RSAPS", "branch": "MATHEMATICS", "name": "MARDOR WANRI SYNREM", "guide": "PROF. (DR.) KAMAL DEBNATH" },
+            { "sl": 274, "session": "2022-23", "school": "RSAPS", "branch": "MATHEMATICS", "name": "MUSTAK EUCHUF", "guide": "PROF. (DR.) ANURADHA DEVI" },
+            { "sl": 275, "session": "2022-23", "school": "RSAPS", "branch": "MATHEMATICS", "name": "PUNAM DAS", "guide": "PROF. (DR.) KAMAL DEBNATH" },
+            { "sl": 276, "session": "2022-23", "school": "RSAPS", "branch": "MATHEMATICS", "name": "H IMO MANI SINGHA", "guide": "PROF. (DR.) ANURADHA DEVI" },
+            { "sl": 277, "session": "2023-24", "school": "RSAPS", "branch": "MATHEMATICS", "name": "FLORENCE DAIMARI", "guide": "DR. BIMALENDU KALITA" },
+            { "sl": 278, "session": "2023-24", "school": "RSAPS", "branch": "MATHEMATICS", "name": "KARISMITA MEDHI", "guide": "PROF. (DR.) KAMAL DEBNATH" },
+            { "sl": 279, "session": "2023-24", "school": "RSAPS", "branch": "MATHEMATICS", "name": "KHRUNIELU LOHE", "guide": "DR. BIMALENDU KALITA" },
+            { "sl": 280, "session": "2023-24", "school": "RSAPS", "branch": "MATHEMATICS", "name": "POMPI DAS", "guide": "PROF. (DR.) KAMAL DEBNATH" },
+            { "sl": 281, "session": "2023-24", "school": "RSAPS", "branch": "MATHEMATICS", "name": "ANANYA SHILPI", "guide": "DR. BAPAN KALITA" },
+            { "sl": 282, "session": "2024-25", "school": "RSAPS", "branch": "MATHEMATICS", "name": "Nandita Saikia", "guide": "PROF. (DR.) KAMAL DEBNATH" },
+            { "sl": 283, "session": "2024-25", "school": "RSAPS", "branch": "MATHEMATICS", "name": "OINDRILA ROY CHOWDHURY", "guide": "DR. BAPAN KALITA" },
+            { "sl": 284, "session": "2024-25", "school": "RSAPS", "branch": "MATHEMATICS", "name": "AKASH PAWAR", "guide": "DR. BAPAN KALITA" },
+            { "sl": 285, "session": "2023-24", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "ANUPAMA MOIRANGTHEM", "guide": "DR. BIRSON INGTI" },
+            { "sl": 286, "session": "2023-24", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "SYED HADI ABDUL ROUF", "guide": "DR. NIRAJ SINGH" },
+            { "sl": 287, "session": "2023-24", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "KOWSALYA", "guide": "DR. SUSHMITA PAUL" },
+            { "sl": 288, "session": "2023-24", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "RAMKRISHNA ROY", "guide": "DR. BIRSON INGTI" },
+            { "sl": 289, "session": "2024-25", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "NONGMAITHEM BISHWANATH SINGH", "guide": "PROF. (DR.) AMLAN DAS" },
+            { "sl": 290, "session": "2024-25", "school": "RSBSC", "branch": "MICRO-BIOLOGY", "name": "AFRID AHMED", "guide": "DR. PANKAJ LOSAN SHARMA" },
+            { "sl": 291, "session": "2023-24", "school": "RSMAS", "branch": "NUTRITION & DIETETICS", "name": "JEBIN SULTANA", "guide": "PROF. (DR.) PRANATI DAS" },
+            { "sl": 292, "session": "2020-21", "school": "RSP", "branch": "PHARMACY", "name": "GUJJALA SAI SRI HARSHA", "guide": "PROF. (DR.) PRANABESH SIKDAR" },
+            { "sl": 293, "session": "2020-21", "school": "RSP", "branch": "PHARMACY", "name": "RUNA CHAKRAVORTY", "guide": "PROF. (DR.) BIPUL NATH" },
+            { "sl": 294, "session": "2020-21", "school": "RSP", "branch": "PHARMACY", "name": "KAMAL DEKA", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+            { "sl": 295, "session": "2021-22", "school": "RSP", "branch": "PHARMACY", "name": "ARUP CHAKRABORTY", "guide": "PROF. (DR.) PRANABESH SIKDAR" },
+            { "sl": 296, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "MUKINUR HUSSAIN", "guide": "PROF. (DR.) PRANABESH SIKDAR" },
+            { "sl": 297, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "HADIUZ ZAMAN", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+            { "sl": 298, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "HIMANTA BISWA SAIKIA", "guide": "PROF. (DR.) BIPUL NATH" },
+            { "sl": 299, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "PAYAL DASGUPTA", "guide": "PROF. (DR.) BIPUL NATH" },
+            { "sl": 300, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "DR. SHAHINUR ISLAM", "guide": "PROF. (DR.) BIPUL NATH" },
+            { "sl": 301, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "BHASKAR JYOTI PATHAK", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+            { "sl": 302, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "MUZAMMAL HOQUE MALLAH", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+            { "sl": 303, "session": "2022-23", "school": "RSP", "branch": "PHARMACY", "name": "NILUTPAL HAZARIKA", "guide": "PROF. (DR.) BIPUL NATH" },
+            { "sl": 304, "session": "2023-24", "school": "RSP", "branch": "PHARMACY", "name": "LOBSANG TENZING KOMU", "guide": "PROF. (DR.) PRANABESH SIKDAR" },
+            { "sl": 305, "session": "2023-24", "school": "RSP", "branch": "PHARMACY", "name": "SADHANA SHARMA", "guide": "PROF. (DR.) DEBARUPA DUTTA CHAKRABORTY" },
+            { "sl": 306, "session": "2023-24", "school": "RSP", "branch": "PHARMACY", "name": "SUMI BARMAN", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+            { "sl": 307, "session": "2023-24", "school": "RSP", "branch": "PHARMACY", "name": "PRIYANKA DAS", "guide": "PROF. (DR.) BIPUL NATH" },
+            { "sl": 308, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "NEELAKSHI SHARMA", "guide": "PROF. (DR.) BIPUL NATH" },
+            { "sl": 309, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "ARPAN SEN", "guide": "PROF. (DR.) PRITHVIRAJ CHAKRABORTY" },
+            { "sl": 310, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "SABNAM NARGIS", "guide": "PROF. (DR.) DEBARUPA DUTTA CHAKRABORTY" },
+            { "sl": 311, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "DR. RAKIBUR RAHMAN", "guide": "PROF. (DR.) PRANABESH SIKDAR" },
+            { "sl": 312, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "Paramjyoti Adhikary", "guide": "PROF. (DR.) ATANU BHATTACHARJEE" },
+            { "sl": 313, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "PALLAB KUMAR NATH", "guide": "PROF. (DR.) PRITHVIRAJ CHAKRABORTY" },
+            { "sl": 314, "session": "2024-25", "school": "RSP", "branch": "PHARMACY", "name": "ARGHYA SAHA CHOWDHURY", "guide": "PROF. (DR.) PRITHVIRAJ CHAKRABORTY" },
+            { "sl": 315, "session": "2022-23", "school": "RSAPS", "branch": "PHYSICS", "name": "ARUP SAIKIA", "guide": "DR. DEVIKA PHUKAN" },
+            { "sl": 316, "session": "2022-23", "school": "RSAPS", "branch": "PHYSICS", "name": "BIDISH BORAH", "guide": "DR. DEVIKA PHUKAN" },
+            { "sl": 317, "session": "2022-23", "school": "RSAPS", "branch": "PHYSICS", "name": "PARTHA PRATIM BORAH", "guide": "DR. DEVIKA PHUKAN" },
+            { "sl": 318, "session": "2023-24", "school": "RSAPS", "branch": "PHYSICS", "name": "AIDASHISHA BAREH", "guide": "DR. BORNALI CHETIA" },
+            { "sl": 319, "session": "2023-24", "school": "RSAPS", "branch": "PHYSICS", "name": "VIOLINA DAS", "guide": "DR. DEVIKA PHUKAN" },
+            { "sl": 320, "session": "2023-24", "school": "RSAPS", "branch": "PHYSICS", "name": "LONGKHRAW KHONGLANG", "guide": "DR. SUJATA DEB" },
+            { "sl": 321, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "SNARMON LATO", "guide": "DR. SUJATA DEB" },
+            { "sl": 322, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "RAHUL DEY", "guide": "DR. SANCHITA ROY" },
+            { "sl": 323, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "GOURANGA MEDHI", "guide": "DR. DEVIKA PHUKAN" },
+            { "sl": 324, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "MANAS JYOTI NATH", "guide": "DR. DEVIKA PHUKAN" },
+            { "sl": 325, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "USHA RANI SWARGIARY", "guide": "DR. GITANJAL DEKA" },
+            { "sl": 326, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "MADHU RAM RABIDAS", "guide": "DR. BORNALI CHETIA" },
+            { "sl": 327, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "TAPAS SEN", "guide": "DR. SANCHITA ROY" },
+            { "sl": 328, "session": "2024-25", "school": "RSAPS", "branch": "PHYSICS", "name": "PRABHAT SHARMA", "guide": "DR. MAIDUL ISLAM" },
+            { "sl": 329, "session": "2020-21", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "SHELZA JALAN", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+            { "sl": 330, "session": "2021-22", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "LIONG M PHOM", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+            { "sl": 331, "session": "2021-22", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "MUSTAFA SYED IHTIMUM ALAM", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+            { "sl": 332, "session": "2022-23", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "NAGENDRA NATH GOGOI", "guide": "DR. Y MONOJIT SINGHA" },
+            { "sl": 333, "session": "2022-23", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "TANJEELA MEHBOOB", "guide": "DR. Y MONOJIT SINGHA" },
+            { "sl": 334, "session": "2023-24", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "PRAJOYEETA KASHYAP", "guide": "DR. Y MONOJIT SINGHA" },
+            { "sl": 335, "session": "2023-24", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "SUBHASH BARO", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+            { "sl": 336, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "MONISHA BORDOLOI", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+            { "sl": 337, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "SHANGKY KHONGWAR", "guide": "DR. Y MONOJIT SINGHA" },
+            { "sl": 338, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "ROZY RANI SARMAH", "guide": "DR. DHIRAJ KUMAR BORKOTOKY" },
+            { "sl": 339, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "TH TREESHALI DEVI", "guide": "DR. BABA CHANDRA SINGHA" },
+            { "sl": 340, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "ELCHIRA R MARAK", "guide": "DR. BABA CHANDRA SINGHA" },
+            { "sl": 341, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "ANJUMA AHMED NARGIS", "guide": "DR. KRISHANGI SAIKIA" },
+            { "sl": 342, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "KONJENGBAM SURAJ", "guide": "DR. BABA CHANDRA SINGHA" },
+            { "sl": 343, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "BARNALI BHATTACHARYYA", "guide": "DR. KRISHANGI SAIKIA" },
+            { "sl": 344, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "SWRJISHA BASUMATARY", "guide": "DR. SUSHMITA HOSHI NONGMEIKAPAM" },
+            { "sl": 345, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "MAITRAYEE MALAKAR", "guide": "DR. SUSHMITA HOSHI NONGMEIKAPAM" },
+            { "sl": 346, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "ABHINAV CHALIHA", "guide": "DR. SUSHMITA HOSHI NONGMEIKAPAM" },
+            { "sl": 347, "session": "2024-25", "school": "RSHSS", "branch": "POLITICAL SCIENCE", "name": "BIRINA BARTHAKUR", "guide": "DR. KRISHANGI SAIKIA" },
+            { "sl": 348, "session": "2020-21", "school": "RSBAS", "branch": "PSYCHOLOGY", "name": "AVI NUH", "guide": "DR. JWMWISHREE BORO" },
+            { "sl": 349, "session": "2021-22", "school": "RSBAS", "branch": "PSYCHOLOGY", "name": "SHUBHI JAIN", "guide": "DR. MAHUYA DEB" },
+            { "sl": 350, "session": "2022-23", "school": "RSBAS", "branch": "PSYCHOLOGY", "name": "ROSHNI NONGTHOMBAM", "guide": "DR. TAHERA HOQUE MOZUMDAR" },
+            { sl: 351, session: "2022-23", school: "RSBAS", branch: "PSYCHOLOGY", name: "BINOY JOHN", guide: "DR. QUEEN DEKA" },
+            { sl: 352, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "JAHNABI MAHANTA", guide: "DR. JWMWISHREE BORO" },
+            { sl: 353, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "LOYA AGARWALA", guide: "DR. QUEEN DEKA" },
+            { sl: 354, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "SUHANA SULTANA", guide: "DR. SYEDA ANJUM AFREEN" },
+            { sl: 355, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "VAIBHAV PURANIK", guide: "DR. FARIZA SAIDIN" },
+            { sl: 356, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "AYUKHSHYA BARO", guide: "DR. SHRADDHA BASU" },
+            { sl: 357, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "MANISHA NATH", guide: "DR. SHRADDHA BASU" },
+            { sl: 358, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "HUIDROM INDUMALA", guide: "DR. QUEEN DEKA" },
+            { sl: 359, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "JULIE BORAH", guide: "DR. FARIZA SAIDIN" },
+            { sl: 360, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "MEDIENO ZHASA", guide: "DR. PRINCE CP" },
+            { sl: 361, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "ROMILA THOUDAM", guide: "DR. FARIZA SAIDIN" },
+            { sl: 362, session: "2023-24", school: "RSBAS", branch: "PSYCHOLOGY", name: "SANGITA YAMBEM", guide: "DR. TAHERA HOQUE MOZUMDAR" },
+            { sl: 363, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "ANWESHA CHUTIA", guide: "DR. PRINCE CP" },
+            { sl: 364, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "NZANRHONI PATTON", guide: "DR. JWMWISHREE BORO" },
+            { sl: 365, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "STEFFINA BEYTI", guide: "DR. PRINCE CP" },
+            { sl: 366, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "ROHIT KUMAR DEKA", guide: "DR. MAHUYA DEB" },
+            { sl: 367, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "SHUBHANGI BHAGAWATI", guide: "DR. FARIZA SAIDIN" },
+            { sl: 368, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "RENGKA TIMUNGPI", guide: "DR. SYEDA ANJUM AFREEN" },
+            { sl: 369, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "MANASHI NATH", guide: "DR. PRINCE CP" },
+            { sl: 370, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "RUKMINI RAJMOHAN", guide: "DR. JWMWISHREE BORO" },
+            { sl: 371, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "Vanthunglo Murry", guide: "DR. MAHUYA DEB" },
+            { sl: 372, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "UDITA DAS", guide: "DR. TAHERA HOQUE MOZUMDAR" },
+            { sl: 373, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY", name: "JERIN JOSE GEORGE", guide: "DR. PRINCE CP" },
+            { sl: 374, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY/CLINICAL", name: "ANKUR BARMAN", guide: "DR. QUEEN DEKA" },
+            { sl: 375, session: "2024-25", school: "RSBAS", branch: "PSYCHOLOGY/CLINICAL", name: "MAHIMA SINGHI", guide: "DR. PRINCE CP" },
+            { sl: 376, session: "2021-22", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "TEMJENSOLA I", guide: "PROF. (DR.) MEENU SHARMA" },
+            { sl: 377, session: "2022-23", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "GRIKANCHIE M SANGMA", guide: "PROF. (DR.) MEENU SHARMA" },
+            { sl: 378, session: "2022-23", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "NIKITA BISWAKARMA", guide: "PROF. (DR.) MEENU SHARMA" },
+            { sl: 379, session: "2023-24", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "QUEENARITY NONGRUM", guide: "PROF. (DR.) MEENU SHARMA" },
+            { sl: 380, session: "2023-24", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "UNICE LALRINSIAMKIMI", guide: "PROF. (DR.) MEENU SHARMA" },
+            { sl: 381, session: "2024-25", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "NIHARIKA GOGOI", guide: "PROF. (DR.) MEENU SHARMA" },
+            { sl: 382, session: "2024-25", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "JOSEPHINE. H.M.", guide: "PROF. (DR.) MEENU SHARMA" },
+            { sl: 383, session: "2024-25", school: "RSHSS", branch: "PUBLIC ADMINISTRATION", name: "GITANJALI HAOBAM", guide: "PROF. (DR.) MEENU SHARMA" },
+            { sl: 384, session: "2020-21", school: "RSHSS", branch: "SOCIAL WORK", name: "ELIZABETH MISAO", guide: "DR. PRIYANKA PATOWARI" },
+            { sl: 385, session: "2023-24", school: "RSHSS", branch: "SOCIAL WORK", name: "ARCKPRAV DEWAN", guide: "DR. T LUITHUIWUNG AWUNGSHI" },
+            { sl: 386, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "PRAJUKTI PRIYADARSHINI", guide: "DR. MOSES NEWME" },
+            { sl: 387, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "BALITA SIANGSHAI", guide: "DR. T LUITHUIWUNG AWUNGSHI" },
+            { sl: 388, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "SYEDA SHAGUFTAH FARHEEN", guide: "DR. T LUITHUIWUNG AWUNGSHI" },
+            { sl: 389, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "BAIBHAVI BHAVNA", guide: "DR. MADHU MANJARI GOHAIN" },
+            { sl: 390, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "BIRINCHI BORAH", guide: "DR. PRIYANKA PATOWARI" },
+            { sl: 391, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "KIANZANDI ODYUO", guide: "DR. MOSES NEWME" },
+            { sl: 392, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "MOIRANGTHEM BIDYAMANI", guide: "DR. T LUITHUIWUNG AWUNGSHI" },
+            { sl: 393, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "MOON MOON AHMED", guide: "DR. MADHU MANJARI GOHAIN" },
+            { sl: 394, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "KRISTI SAIKIA", guide: "DR. PRIYANKA PATOWARI" },
+            { sl: 395, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "NAOREM KELVISH SINGH", guide: "DR. PRIYANKA PATOWARI" },
+            { sl: 396, session: "2024-25", school: "RSHSS", branch: "SOCIAL WORK", name: "ADIMA N ARENGH", guide: "DR. MOSES NEWME" },
+            { sl: 397, session: "2022-23", school: "RSHSS", branch: "SOCIOLOGY", name: "DEBALINA DEBBARMA", guide: "DR. SANGEETA DAS" },
+            { sl: 398, session: "2022-23", school: "RSHSS", branch: "SOCIOLOGY", name: "DEBIYA THONGAM", guide: "DR. SANGEETA DAS" },
+            { sl: 399, session: "2022-23", school: "RSHSS", branch: "SOCIOLOGY", name: "KENEISELHOU CHIELIE", guide: "DR. TRIPTI DAS" },
+            { sl: 400, session: "2024-25", school: "RSHSS", branch: "SOCIOLOGY", name: "APARAJITA GOON", guide: "DR. TRIPTI DAS" },
+            { sl: 401, session: "2024-25", school: "RSHSS", branch: "SOCIOLOGY", name: "MAN KUMAR BARAILY", guide: "DR. SANGEETA DAS" },
+            { sl: 402, session: "2019-20", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "SANJOY RONGHANG", guide: "PROF. (DR.) SOUMITRA SEN" },
+            { sl: 403, session: "2021-22", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "CHANDAN JYOTI BEZBORAH", guide: "PROF. (DR.) SOUMITRA SEN" },
+            { sl: 404, session: "2021-22", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "PIYUSH GUPTA", guide: "PROF. (DR.) SOUMITRA SEN" },
+            { sl: 405, session: "2022-23", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "SPARSH TIWARI", guide: "PROF. (DR.) SOUMITRA SEN" },
+            { sl: 406, session: "2023-24", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "ANKITA SAIKIA", guide: "PROF. (DR.) SOUMITRA SEN" },
+            { sl: 407, session: "2023-24", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "MEGHA PHUKAN", guide: "PROF. (DR.) SOUMITRA SEN" },
+            { sl: 408, session: "2023-24", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "SUPONGSANGLA LONGCHAR", guide: "DR. SYED SAJIDUL ISLAM" },
+            { sl: 409, session: "2023-24", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "KARISHMA AZIZ", guide: "DR. SYED SAJIDUL ISLAM" },
+            { sl: 410, session: "2024-25", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "NEEKITA DAOLAGUPU", guide: "DR. INDRAJIT DUTTA" },
+            { sl: 411, session: "2024-25", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "GEOBAR B MARAK", guide: "DR. INDRAJIT DUTTA" },
+            { sl: 412, session: "2024-25", school: "RSTTM", branch: "TRAVEL & TOURISM MANAGEMENT", name: "KUNTAL KALITA", guide: "DR. INDRAJIT DUTTA" },
+            { sl: 413, session: "2020-21", school: "RSLSC", branch: "ZOOLOGY", name: "ABUJAM ROMIBALA DEVI", guide: "DR. SUSMITA DEY" },
+            { sl: 414, session: "2022-23", school: "RSLSC", branch: "ZOOLOGY", name: "SOIBAM PRIYADARSHINI", guide: "DR. DHARMESWAR BARHOI" },
+            { sl: 415, session: "2022-23", school: "RSLSC", branch: "ZOOLOGY", name: "SANJENBAM JOEL", guide: "DR. PARIMAL C RAY" },
+            { sl: 416, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "ANIRUDHA CHAKRABORTY", guide: "DR. PARIMAL C RAY" },
+            { sl: 417, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "MAYOUSHREE GOGOI", guide: "DR. ABESH CHAKRABORTY" },
+            { sl: 418, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "SANGEETA BISWAS", guide: "DR. PARIMAL C RAY" },
+            { sl: 419, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "ARPANA R RABHA", guide: "DR. DHARMESWAR BARHOI" },
+            { sl: 420, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "DIPSANU PAUL", guide: "DR. DHARMESWAR BARHOI" },
+            { sl: 421, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "SENT BUALGA M MARAK", guide: "DR. DHARMESWAR BARHOI" },
+            { sl: 422, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "ACHINTYA PRAN HAZARIKA", guide: "DR. ARVIND DWIVEDI" },
+            { sl: 423, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "BHITALI BARKAKATI", guide: "DR. ABESH CHAKRABORTY" },
+            { sl: 424, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "KRISHNAA BORO", guide: "DR. ABESH CHAKRABORTY" },
+            { sl: 425, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "MONISH KUMAR THAPA", guide: "DR. PARIMAL C RAY" },
+            { sl: 426, session: "2023-24", school: "RSLSC", branch: "ZOOLOGY", name: "PRIYANKU BORAH", guide: "DR. ARVIND DWIVEDI" },
+            { sl: 427, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "KUMAR KRITARTHA KAUSHIK", guide: "DR. ANNU KUMARI" },
+            { sl: 428, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "SIKHA RABHA", guide: "DR. ANNU KUMARI" },
+            { sl: 429, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "JOBASMITA SHARMA", guide: "DR. ANNU KUMARI" },
+            { sl: 430, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "TINA CHETRY", guide: "DR. ANNU KUMARI" },
+            { sl: 431, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "NILAKHI LAHAN", guide: "DR. ARVIND DWIVEDI" },
+            { sl: 432, session: "2024-25", school: "RSLSC", branch: "ZOOLOGY", name: "CHANDA GWALA", guide: "DR. ABESH CHAKRABORTY" },
+            { sl: 433, session: "2024-25", school: "RSLIS", branch: "ZOOLOGY", name: "ARUNDHUTI KASHYAP", guide: "DR. ARVIND DWIVEDI" }
+            // Add the rest of the mobile data...
+        ];
+
+        const rowsPerPage = 20;
+        let currentPage = 1;
+
+        function displayTable(page) {
+            const tbody = document.querySelector('#dataTableMobile tbody');
+            tbody.innerHTML = "";
+
+            const start = (page - 1) * rowsPerPage;
+            const end = start + rowsPerPage;
+            const paginatedItems = data.slice(start, end);
+
+            for (const row of paginatedItems) {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `<td>${row.sl}</td><td>${row.session}</td><td>${row.school}</td><td>${row.branch}</td><td>${row.name}</td><td>${row.guide}</td>`;
+                tbody.appendChild(tr);
+            }
+
+            setupPagination();
+        }
+
+        function setupPagination() {
+            const pagination = document.getElementById('paginationmob');
+            pagination.innerHTML = "";
+            const pageCount = Math.ceil(data.length / rowsPerPage);
+
+            for (let i = 1; i <= pageCount; i++) {
+                const btn = document.createElement('button');
+                btn.textContent = i;
+                btn.className = (i === currentPage) ? 'active' : '';
+                btn.onclick = function () {
+                    currentPage = i;
+                    displayTable(currentPage);
+                };
+                pagination.appendChild(btn);
+            }
+        }
+
+        displayTable(currentPage);
+    </script>
+@endpush

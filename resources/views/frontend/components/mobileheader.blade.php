@@ -207,7 +207,25 @@
                 </a>
             </ul>
 
-
+            <!--Cell-->
+            <li onclick="toggleSubmenu('cell')" style="display: flex; align-items: center; justify-content: space-between;">
+                <span class="mobile-headd3 text-dark">Cell/ Centre</span>
+                <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
+            </li>
+            <ul class="submenu mobile-para1" id="cell">
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('phd-cell') }}">
+                    <li>Ph.D. CELL</li>
+                </a>
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('equal-opportunities-cell') }}">
+                    <li>EQUAL OPPORTUNITIES CELL</li>
+                </a>
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('counselling-cell') }}">
+                    <li>COUNSELLING CELL</li>
+                </a>
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('cisr') }}">
+                    <li>CISR</li>
+                </a>
+            </ul>
 
             <!--Convocation-->
             <li onclick="toggleSubmenu('convocation')"
