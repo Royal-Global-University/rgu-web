@@ -1,5 +1,5 @@
 <nav id="mainNavbar" class="navbar navbar-expand-lg"
-    style="background-color: transparent; padding: 10px 100px; box-shadow: none; position: absolute !important; top: 0; left: 0; right: 0; transition: all 0.3s ease; z-index: 999;">
+    style="background-color: transparent; padding: 10px 60px; box-shadow: none; position: absolute !important; top: 0; left: 0; right: 0; transition: all 0.3s ease; z-index: 999;">
     <div class="container-fluid">
 
         <a class="navbar-brand" href="#">
@@ -263,7 +263,7 @@
                 <!-- Cell with Submenu -->
                 <li class="nav-item dropdown" style="position: relative;">
                     <a class="nav-link dropdown-toggle para1" href="#"
-                        style="color: #fff; font-weight: 600; font-size: 17px;">Cell</a>
+                        style="color: #fff; font-weight: 600; font-size: 17px;">Cell/ Centre</a>
                     <ul class="dropdown-menu"
                         style="display: none; position: absolute; top: 100%; left: -40%; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
 
@@ -276,6 +276,10 @@
                                 OPPORTUNITIES <br> CELL</a></li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('counselling-cell') }}"
                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px;">COUNSELLING CELL</a></li>
+
+                        <li><a class="dropdown-item text-dark para1" href=""
+                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">CISR</a>
+                                    </li>
                     </ul>
                 </li>
 

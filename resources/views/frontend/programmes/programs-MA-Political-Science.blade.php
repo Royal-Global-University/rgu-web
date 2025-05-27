@@ -88,17 +88,16 @@
                             </p>
 
                             <p class="mobile-para1 text-dark">Bachelor’s Degree in any field from recognized
-                                University/Institution with minimum 50% marks or equivalent grade (5% relaxation to
+                                University/Institution with minimum 45% marks or equivalent grade (5% relaxation to
                                 SC/ST/OBC-Non-Creamy Layer)
                             </p>
 
                             <p class="mobile-headd3 fw-bold text-dark">Selection Process
                             </p>
 
-                            <p class="mobile-para1 text-dark">Candidates must obtain a valid score in NATA (National
-                                Aptitude Test in Architecture) or JEE (Mains) Paper II (Subject to clearance by COA)
-                                followed by Personal Interview.
-                            </p>
+                            <p class="text-dark pt-2 m-0">Based on overall performance in last examination followed by
+                                Personal
+                                Interview.</p>
 
                         </div>
                         <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
@@ -281,14 +280,13 @@
                     <div class="card-body para1">
                         <p class="text-dark pt-2 fw-bold m-0">Eligibility Criteria</p>
                         <p class="text-dark pt-2 m-0">
-                            Bachelor’s Degree in any field from recognized University/Institution with minimum 50% marks or
+                            Bachelor’s Degree in any field from recognized University/Institution with minimum 45% marks or
                             equivalent grade (5% relaxation to SC/ST/OBC-Non-Creamy Layer)
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
-                        <p class="text-dark pt-2 m-0">
-                            Candidates must obtain a valid score in JEE
-                            (Mains) Paper II (Subject to clearance by COA) followed by Personal Interview.
-                        </p>
+                        <p class="text-dark pt-2 m-0">Based on overall performance in last examination followed by
+                            Personal
+                            Interview.</p>
                     </div>
                 </div>
                 <div id="Brochure" class="w3-container city card p-5 shadow" style="display:none">

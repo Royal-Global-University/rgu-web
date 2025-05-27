@@ -2,17 +2,6 @@
 @section('content')
     <div id="page" class="site site_wrapper">
 
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
-            </div>
-        </div>
-
         @include('frontend/components/aheader')
 
         <!--About Section-->
@@ -75,7 +64,7 @@
                             Biology/ Biotechnology/ Biochemistry/ Microbiology / Environmental Science / Botany /
                             Zoology / Genetics / Applied Botany / Applied Zoology Home Science / Sericulture /
                             Biological Science / B.Sc. Agriculture/ Horticulture/ Forestry/ Bachelors degree in Medicine
-                            / Fisheries/ Veterinary / Diary and B.Tech. Biotechnology and allied fields with minimum 50%
+                            / Fisheries/ Veterinary / Diary and B.Tech. Biotechnology and allied fields with minimum 45%
                             marks in aggregate or equivalent grade from any recognized University/Institution ( 5%
                             relaxation to SC/ST/OBC – Non Creamy Layer)</p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
@@ -109,7 +98,7 @@
                             Existing students can seek help from their departmental coordinators to keep themselves
                             updated for the scholarship application deadlines and process.</p>
 
-                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="scholarship&funding.html">More details, click
+                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="scholarship&funding">More details, click
                                 to view...</a></p>
                     </div>
                 </div>
@@ -125,7 +114,7 @@
                             and
                             make invaluable contacts and lifelong friends.</p>
 
-                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="admission-how-to-apply.html"> more details
+                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="how-to-apply"> more details
                                 click to view... </a></p><br>
 
                         <p class="text-dark pt-2 fw-bold m-0">FULLY ONLINE ADMISSION PROCESS</p>

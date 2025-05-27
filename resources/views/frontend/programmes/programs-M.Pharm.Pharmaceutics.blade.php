@@ -114,7 +114,7 @@
                             for
                             the scholarship application deadlines and process.</p>
 
-                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="scholarship&funding.html">More details, click
+                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="scholarship&funding">More details, click
                                 to view...</a></p>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                             and
                             make invaluable contacts and lifelong friends.</p>
 
-                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="admission-how-to-apply.html"> more details
+                        <p class="pt-2 fw-bold" style="color: #FF9A1E;"><a href="how-to-apply"> more details
                                 click to view... </a></p><br>
 
                         <p class="text-dark pt-2 fw-bold m-0">FULLY ONLINE ADMISSION PROCESS</p>
