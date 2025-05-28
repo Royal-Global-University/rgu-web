@@ -2823,6 +2823,10 @@ Route::get('/grievance', function () {
     return view('frontend/quicklink/grievance');
 })->name('grievance');
 
+Route::get('/annual-report', function () {
+    return view('frontend/quicklink/annual-reports');
+})->name('annual-report');
+
 //Cell
 Route::get('/phd-cell', function () {
     return view('frontend/cell/phd-cell');
