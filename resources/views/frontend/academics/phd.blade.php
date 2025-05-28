@@ -124,7 +124,7 @@
                             <div class="txaa-slide-down-1">
                                 <div style="border: 2px solid #27467A; height: 320px; width: 100%;"
                                     class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                    <img class="rounded" decoding="async" src="mobile-assets/doctoral-programmee/headimg.jpeg"
+                                    <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/headimg.jpeg"
                                         alt="">
                                 </div>
                             </div>
@@ -277,59 +277,59 @@
                                         <strong class="text-primary">Syllabus-</strong>
                                         <ul>
                                             <li><a target="_blank"
-                                                    href="mobile-assets/doctoral-programmee/pdf/AY 2024-25 PhD Course Work Syllabus.pdf">Ph.D.
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/AY 2024-25 PhD Course Work Syllabus.pdf">Ph.D.
                                                     Course Work Syllabus for the AY 2024-25</a></li>
                                         </ul>
                                         <strong class="text-primary">PAPER 1 & 2 -</strong>
                                         <ul>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/PhD Course Work Syllabus PAPER 1 & 2.pdf">Ph.D.
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Course Work Syllabus PAPER 1 & 2.pdf">Ph.D.
                                                     Course Work Syllabus PAPER 1 & 2</a></li>
                                         </ul>
                                         <strong class="text-primary">PAPER 3 & 4 -</strong>
                                         <ul>
-                                            <li><a href="mobile-assets/doctoral-programmee/pdf/PAPER 3 MANAGEMENT.docx">PAPER 3
+                                            <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER 3 MANAGEMENT.docx">PAPER 3
                                                     MANAGEMENT</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/PAPER 3 NUTRITION and DIETICS.docx">PAPER
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER 3 NUTRITION and DIETICS.docx">PAPER
                                                     3 NUTRITION and DIETICS</a></li>
-                                            <li><a href="mobile-assets/doctoral-programmee/pdf/PAPER 3 SYLLABUS SCIOLOGY.doc">PAPER
+                                            <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER 3 SYLLABUS SCIOLOGY.doc">PAPER
                                                     3 SYLLABUS SCIOLOGY</a></li>
-                                            <li><a href="mobile-assets/doctoral-programmee/pdf/PAPER 4 MANAGEMENT.docx">PAPER 4
+                                            <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER 4 MANAGEMENT.docx">PAPER 4
                                                     MANAGEMENT</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/PAPER-3 & 4 COURSE WORK COMMERCE.pdf">PAPER-3
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER-3 & 4 COURSE WORK COMMERCE.pdf">PAPER-3
                                                     & 4 COURSE WORK COMMERCE</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/PAPER-3 & 4 COURSE WORK PSYCHOLOGY.pdf">PAPER-3
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER-3 & 4 COURSE WORK PSYCHOLOGY.pdf">PAPER-3
                                                     & 4 COURSE WORK PSYCHOLOGY</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/Ph.D COURSE WORK SYLLABUS ENGLISH.docx">Ph.D
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/Ph.D COURSE WORK SYLLABUS ENGLISH.docx">Ph.D
                                                     COURSE WORK SYLLABUS ENGLISH</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/Ph.D COURSE WORK SYLLABUS OF PUBLIC ADMINISTARTION.docx">Ph.D
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/Ph.D COURSE WORK SYLLABUS OF PUBLIC ADMINISTARTION.docx">Ph.D
                                                     COURSE WORK SYLLABUS OF PUBLIC ADMINISTARTION</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/PhD COURSE WORK PAPER 3 RSFA.docx">Ph.D.
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD COURSE WORK PAPER 3 RSFA.docx">Ph.D.
                                                     COURSE WORK PAPER 3 RSFA</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/Phd COURSE WORK PAPER 4 RSFA.docx">Ph.D.
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/Phd COURSE WORK PAPER 4 RSFA.docx">Ph.D.
                                                     COURSE WORK PAPER 4 RSFA</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/PhD SYLLABUS PAPER 3 BIOTECHNOLOGY.docx">Ph.D.
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD SYLLABUS PAPER 3 BIOTECHNOLOGY.docx">Ph.D.
                                                     SYLLABUS PAPER 3 BIOTECHNOLOGY</a></li>
                                         </ul>
                                         <hr>
                                         <strong class="text-primary">2023-24 Ph.D. Syllabus PHYSICS-</strong>
                                         <ul>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/1. SYLLABUS_Nonlinear optics_ Pre-Ph.D. PHYSICS COURSE WORK_DP.pdf">SYLLABUS_Nonlinear
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/1. SYLLABUS_Nonlinear optics_ Pre-Ph.D. PHYSICS COURSE WORK_DP.pdf">SYLLABUS_Nonlinear
                                                     optics_ Pre-Ph.D. PHYSICS COURSE WORK_DP</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/2. SYLLABUS_Nanoscience and Nanotechnology_Pre-Ph.D. PHYSICS COURSE WORK_SD.pdf">SYLLABUS_Nanoscience
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/2. SYLLABUS_Nanoscience and Nanotechnology_Pre-Ph.D. PHYSICS COURSE WORK_SD.pdf">SYLLABUS_Nanoscience
                                                     and Nanotechnology_Pre-Ph.D. PHYSICS COURSE WORK_SD</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/3. SYLLABUS_Atmospheric and Space Sciences _Pre-Ph.D. PHYSICS COURSE WORK_BC.pdf">SYLLABUS_Atmospheric
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/3. SYLLABUS_Atmospheric and Space Sciences _Pre-Ph.D. PHYSICS COURSE WORK_BC.pdf">SYLLABUS_Atmospheric
                                                     and Space Sciences _Pre-Ph.D. PHYSICS COURSE WORK_BC</a></li>
                                         </ul>
                                     </div>
@@ -349,34 +349,34 @@
                                         <strong class="text-primary">Exam Notification -</strong><br>
                                         <ul>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/1. Examination Form fill-up (Regular & Repeat) for PhD Coursework.pdf">Examination
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/1. Examination Form fill-up (Regular & Repeat) for PhD Coursework.pdf">Examination
                                                     Form fill-up (Regular & Repeat) for Ph.D. Coursework</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/2. PhD Course Work Examination Timetable.pdf">Ph.D.
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/2. PhD Course Work Examination Timetable.pdf">Ph.D.
                                                     Course Work Examination Timetable</a></li>
                                         </ul>
                                         <strong class="text-primary">Ph.D. Awareded Notification -</strong><br>
                                         <ul>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/Ph.D Notification_30-03-2024.pdf">Ph.D
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/Ph.D Notification_30-03-2024.pdf">Ph.D
                                                     Notification_30-03-2024</a></li>
-                                            <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notifcation 01.07.2024.pdf">Ph.D.
+                                            <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notifcation 01.07.2024.pdf">Ph.D.
                                                     Notification 01.07.2024</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/PhD Notification (Neha Garg)[58701].pdf">Ph.D.
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification (Neha Garg)[58701].pdf">Ph.D.
                                                     Notification (Neha Garg)[58701]</a></li>
                                             <li><a
-                                                    href="mobile-assets/doctoral-programmee/pdf/PhD Notification (Rajdeep Nag)[58700].pdf">Ph.D.
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification (Rajdeep Nag)[58700].pdf">Ph.D.
                                                     Notification (Rajdeep Nag)[58700]</a></li>
-                                            <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification 31.5.2024.pdf">Ph.D.
+                                            <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification 31.5.2024.pdf">Ph.D.
                                                     Notification 31.5.2024</a></li>
-                                            <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification_19-10-2023.pdf">Ph.D.
+                                            <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_19-10-2023.pdf">Ph.D.
                                                     Notification_19-10-2023</a></li>
-                                            <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification_28-02-2024.pdf">Ph.D.
+                                            <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_28-02-2024.pdf">Ph.D.
                                                     Notification_28-02-2024</a></li>
-                                            <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification_30-11-2023.pdf">Ph.D.
+                                            <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_30-11-2023.pdf">Ph.D.
                                                     Notification_30-11-2023</a></li>
-                                            <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification_31-08-2023.pdf">Ph.D.
+                                            <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_31-08-2023.pdf">Ph.D.
                                                     Notification_31-08-2023</a></li>
 
                                     </div>
@@ -426,422 +426,634 @@
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-
                                         <!--Table Start-->
                                         <div class="table-responsive">
                                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                                <thead class="text-white" style="background-color: #27467A;">
+                                                <thead class="text-white para1" style="background-color: #27467A;">
                                                     <tr>
-                                                        <th class="bg-blue text-white">S.NO.</th>
-                                                        <th class="bg-blue text-white">SESSION</th>
-                                                        <th class="bg-blue text-white">SCHOOL<br />/BRANCH</th>
-                                                        <th class="bg-blue text-white">NAME</th>
-                                                        <th class="bg-blue text-white">REGISTRATION NO.</th>
-                                                        <th class="bg-blue text-white">SUPERVISOR</th>
-                                                        <th class="bg-blue text-white">CO-SUPERVISOR</th>
-                                                        <th class="bg-blue text-white">DATE</th>
-                                                        <th class="bg-blue text-white">IMAGE</th>
-                                                        <th class="bg-blue text-white">TOPIC OF RESEARCH</th>
+                                                        <th>SL NO.</th>
+                                                        <th>SESSION</th>
+                                                        <th>SCHOOL</th>
+                                                        <th>BRANCH</th>
+                                                        <th>NAME</th>
+                                                        <th>REGISTRATION NO.</th>
+                                                        <th>GUIDE</th>
+                                                        <th>CO-GUIDE</th>
+                                                        <th>DATE</th>
+                                                        <th>TOPIC OF RESEARCH</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody class="mobile-para1" style="text-align: left !important;">
+                                                <tbody class="para1" style="text-align: left !important;">
                                                     <tr>
                                                         <td>1</td>
                                                         <td>2017-18</td>
-                                                        <td>RSC<br />Commerce</td>
-                                                        <td>Rajdeep Nag</td>
+                                                        <td>RSC</td>
+                                                        <td>COMMERCE</td>
+                                                        <td>RAJDEEP NAG</td>
                                                         <td>1170717</td>
-                                                        <td>Dr. Sudip Chakraborty</td>
-                                                        <td>Prof. N. B. Dey</td>
+                                                        <td>DR. SUDIP CHAKRABORTY</td>
+                                                        <td>PROF. N. B. DEY</td>
                                                         <td>31-07-2023</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/RAJDEEPNAG.jpeg" />
-                                                        </td>
-                                                        <td>Investors perception towards mutual funds: an empirical study in
-                                                            Guwahati city of Assam, India.</td>
+                                                        <td>INVESTORS PERCEPTION TOWARDS MUTUAL FUNDS : AN EMPIRICAL STUDY IN
+                                                            GWAHATI CITY OF ASSAM, INDIA.</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>2</td>
                                                         <td>2018-19</td>
-                                                        <td>RSC<br />Commerce</td>
-                                                        <td>Neha Garg</td>
+                                                        <td>RSC</td>
+                                                        <td>COMMERCE</td>
+                                                        <td>NEHA GARG</td>
                                                         <td>1181173</td>
-                                                        <td>Dr. Tanima Tarafdar</td>
-                                                        <td>Dr. Hari Prasad Goenka</td>
+                                                        <td>DR. TANIMA TARAFDAR</td>
+                                                        <td>DR. HARI PRASAD GOENKA</td>
                                                         <td>31-07-2023</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/NEHAGARG.jpeg" />
-                                                        </td>
-                                                        <td>Positioning of brick and mortar retailers with reference to
-                                                            apparels: a study of select retailers in Kamrup (Metro).</td>
+                                                        <td>POSITIONING OF BRICK AND MORTAR RETAILERS WITH REFERENCE TO
+                                                            APPARELS: A STUDY OF SELECT RETAILERS IN KAMRUP (METRO).</td>
                                                     </tr>
-                                                    <tr>
-                                                        <td>8</td>
-                                                        <td>2018-19</td>
-                                                        <td>RSC<br />Commerce</td>
-                                                        <td>Swati Tejawat</td>
-                                                        <td>1181174</td>
-                                                        <td>Dr. Sudip Chakraborty</td>
-                                                        <td>Prof. N. B. Dey</td>
-                                                        <td>31-08-2023</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/SWATITEJAWAT.jpeg" />
-                                                        </td>
-                                                        <td>Corporate governance practices under the companies act, 2013: a
-                                                            study on select BSE listed companies.</td>
-                                                    </tr>
+
                                                     <tr>
                                                         <td>3</td>
                                                         <td>2017-18</td>
-                                                        <td>RSCOM<br />J&amp;MC</td>
-                                                        <td>Ankita Agarwal</td>
+                                                        <td>RSCOM</td>
+                                                        <td>J&amp;MC</td>
+                                                        <td>ANKITA AGARWAL</td>
                                                         <td>1170704</td>
-                                                        <td>Dr. N. Rohin Kanta Singh</td>
-                                                        <td>Dr. Ruparani Sonowal</td>
+                                                        <td>DR. N. ROHIN KANTA SINGH</td>
+                                                        <td>DR. RUPARANI SONOWAL</td>
                                                         <td>31-08-2023</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/ANKITAAGARWAL.jpeg" />
-                                                        </td>
-                                                        <td>Usage pattern of WhatsApp among the students of selected
-                                                            universities of Assam.</td>
+                                                        <td>USAGE PATTERN OF WHATSAPP AMONG THE STUDENTS OF SELECTED
+                                                            UNIVERSITIES OF ASSAM.</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>4</td>
                                                         <td>2018-19</td>
-                                                        <td>RSCOM<br />J&amp;MC</td>
-                                                        <td>Farha Yashmin Rohman</td>
+                                                        <td>RSCOM</td>
+                                                        <td>J&amp;MC</td>
+                                                        <td>FARHA YASHMIN ROHMAN</td>
                                                         <td>1181179</td>
-                                                        <td>Dr. N. Rohin Kanta Singh</td>
-                                                        <td>Dr. Ruparani Sonowal</td>
+                                                        <td>DR. N. ROHIN KANTA SINGH</td>
+                                                        <td>DR. RUPARANI SONOWAL</td>
                                                         <td>31-08-2023</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/FARHAYASHMINROHMAN.jpeg" />
-                                                        </td>
-                                                        <td>Portrayal of identity on Facebook with reference to student leaders
-                                                            in Assam.</td>
+                                                        <td>PORTRAYAL OF IDENTITY ON FACEBOOK WITH REFERENCE TO STUDENT LEADERS
+                                                            IN ASSAM.</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>5</td>
                                                         <td>2018-19</td>
-                                                        <td>RSET<br />Computer Science Engineering</td>
-                                                        <td>Mayuri Sharma</td>
-                                                        <td>1170703</td>
-                                                        <td>Prof. (Dr.) Ankur Ganguly</td>
-                                                        <td>Dr. Aniruddha Deka, Dr. Chandan Jyoti Kumar</td>
-                                                        <td>16-10-2023</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/MAYURISHARMA.png" />
-                                                        </td>
-                                                        <td>Design and development of machine learning based framework for
-                                                            diagnosing disease and deficiency in rice plants.</td>
+                                                        <td>RSC</td>
+                                                        <td>COMMERCE</td>
+                                                        <td>SWATI TEJAWAT</td>
+                                                        <td>1181174</td>
+                                                        <td>DR. SUDIP CHAKRABORTY</td>
+                                                        <td>PROF. N. B. DEY</td>
+                                                        <td>31-08-2023</td>
+                                                        <td>CORPORATE GOVERNANCE PRACTICES UNDER THE COMPANIES ACT, 2013: A
+                                                            STUDY ON SELECT BSE LISTED COMPANIES.</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>6</td>
                                                         <td>2018-19</td>
-                                                        <td>RSHSS<br />Economics</td>
-                                                        <td>Alakesh Kalita</td>
-                                                        <td>1181181</td>
-                                                        <td>Prof. (Dr.) Swabera Islam</td>
-                                                        <td>Prof. (Dr.) Gautam Mazumder</td>
+                                                        <td>RSET</td>
+                                                        <td>COMPUTER SCIENCE ENGINEERING</td>
+                                                        <td>MAYURI SHARMA</td>
+                                                        <td>1170703</td>
+                                                        <td>PROF. (DR.) ANKUR GANGULY</td>
+                                                        <td>DR. ANIRUDDHA DEKA, DR. CHANDAN JYOTI KUMAR</td>
                                                         <td>16-10-2023</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/ALAKESHKALITA.jpeg" />
-                                                        </td>
-                                                        <td>Microfinance as the driver of income and employment: an analysis of
-                                                            socio-economic condition in undivided Barpeta district of Assam.
-                                                        </td>
+                                                        <td>DESIGN AND DEVELOPMENT OF MACHINE LEARNING BASED FRAMEWORK FOR
+                                                            DIAGNOSING DISEASE AND DEFICIENCY IN RICE PLANTS.</td>
                                                     </tr>
                                                     <tr>
                                                         <td>7</td>
                                                         <td>2018-19</td>
-                                                        <td>RSHSS<br />Economics</td>
-                                                        <td>Durba Duta</td>
-                                                        <td>1170722</td>
-                                                        <td>Dr. Mohammed Deluwar Hoque</td>
-                                                        <td>Dr. Rabin Jyoti Khataniar</td>
+                                                        <td>RSHSS</td>
+                                                        <td>ECONOMICS</td>
+                                                        <td>ALAKESH KALITA</td>
+                                                        <td>1181181</td>
+                                                        <td>PROF. (DR.) SWABERA ISLAM</td>
+                                                        <td>PROF. (DR.) GAUTAM MAZUMDER</td>
                                                         <td>16-10-2023</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/DURBADUTA.jpeg" />
+                                                        <td>MICROFINANCE AS THE DRIVER OF INCOME AND EMPLOYMENT: AN ANALYSIS OF
+                                                            SOCIO ECONOMIC CONDITION IN UNDIVIDED BARPETA DISTRICT OF ASSAM.
                                                         </td>
-                                                        <td>An assessment of urban poverty and its determinants: with special
-                                                            reference to the Kamrup Metro.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>2018-19</td>
+                                                        <td>RSHSS</td>
+                                                        <td>ECONOMICS</td>
+                                                        <td>DURBA DUTA</td>
+                                                        <td>1170722</td>
+                                                        <td>DR. MOHAMMED DELUWAR HOQUE</td>
+                                                        <td>DR. RABIN JYOTI KHATANIAR</td>
+                                                        <td>16-10-2023</td>
+                                                        <td>AN ASSESSMENT OF URBAN POVERTY AND ITS DETERMINANTS: WITH SPECIAL
+                                                            REFERENCE TO THE KAMRUP METRO.</td>
                                                     </tr>
                                                     <tr>
                                                         <td>9</td>
                                                         <td>2017-18</td>
-                                                        <td>RSLA<br />Law &amp; Administration</td>
-                                                        <td>Meghna Bora</td>
+                                                        <td>RSLA</td>
+                                                        <td>LAW & ADMINISTRATION</td>
+                                                        <td>MEGHNA BORA</td>
                                                         <td>1170709</td>
-                                                        <td>Prof. (Dr.) H. C. Nath</td>
-                                                        <td>Dr. Anup Hazarika</td>
+                                                        <td>PROF. (DR.) H. C. NATH</td>
+                                                        <td>DR. ANUP HAZARIKA</td>
                                                         <td>30-11-2023</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/MEGHNABORA.png" />
-                                                        </td>
-                                                        <td>A study on international and national legal framework on surrogacy
-                                                            and its conformity with rule of law.</td>
+                                                        <td>A STUDY ON INTERNATIONAL AND NATIONAL LEGAL FRAME WORK ON SURROGACY
+                                                            AND ITS CONFORMITY WITH RULE OF LAW.</td>
                                                     </tr>
                                                     <tr>
                                                         <td>10</td>
                                                         <td>2019-20</td>
-                                                        <td>RSLA<br />Law &amp; Administration</td>
-                                                        <td>Parveen Islam</td>
+                                                        <td>RSLA</td>
+                                                        <td>LAW & ADMINISTRATION</td>
+                                                        <td>PARVEEN ISLAM</td>
                                                         <td>1181196</td>
-                                                        <td>Prof. (Dr.) H. C. Nath</td>
-                                                        <td>Dr. Smita Sarmah</td>
+                                                        <td>PROF. (DR.) H. C. NATH</td>
+                                                        <td>DR. SMITA SARMAH</td>
                                                         <td>30-11-2023</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/PARVEENISLAM.png" />
-                                                        </td>
-                                                        <td>Right to education of transgender persons in India with specific
-                                                            reference to the state of Assam: a legal analysis.</td>
+                                                        <td>RIGHT TO EDUCATION OF TRANSGENDER PERSONS IN INDIA WITH SPECIFIC
+                                                            REFERENCE TO THE STATE OF ASSAM: A LEGAL ANALYSIS.</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>11</td>
                                                         <td>2020-21</td>
-                                                        <td>RSBSC<br />Bio-Technology</td>
-                                                        <td>Indukalpa Das</td>
+                                                        <td>RSBSC</td>
+                                                        <td>BIO-TECHNOLOGY</td>
+                                                        <td>INDUKALPA DAS</td>
                                                         <td>1191459</td>
-                                                        <td>Dr. Debajit Borah</td>
-                                                        <td>Dr. Bidisha Sharma</td>
+                                                        <td>DR. DEBAJIT BORAH</td>
+                                                        <td>DR. BIDISHA SHARMA</td>
                                                         <td>28-02-2024</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/INDUKALPADAS.png" />
-                                                        </td>
-                                                        <td>Biosurfactant mediated green synthesis of metal nano particles for
-                                                            enhancing seed germination and antimicrobial applications.</td>
+                                                        <td>BIOSURFACTANT MEDIATED GREEN SYNTHESIS OF METAL NANO PARTICLES FOR
+                                                            ENHANCING SEED GERMINATION AND ANTIMICROBIAL APPLICATIONS.</td>
                                                     </tr>
                                                     <tr>
                                                         <td>12</td>
                                                         <td>2018-19</td>
-                                                        <td>RSLA<br />Law &amp; Administration</td>
-                                                        <td>Sandeep Mishra</td>
+                                                        <td>RSLA</td>
+                                                        <td>LAW & ADMINISTRATION</td>
+                                                        <td>SANDEEP MISHRA</td>
                                                         <td>1170720</td>
-                                                        <td>Prof. (Dr.) H. C. Nath</td>
-                                                        <td>Prof. (Dr.) Nalini Kanta Dutta</td>
+                                                        <td>PROF. (DR.) H. C. NATH</td>
+                                                        <td>PROF. (DR.) NALINI KANTA DUTTA</td>
                                                         <td>28-02-2024</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/SANDEEPMISHRA.png" />
-                                                        </td>
-                                                        <td>Pardoning power and judicial review: a comparative study (with
-                                                            special reference to the constitution of India).</td>
+                                                        <td>PARDONING POWER AND JUDICIAL REVIEW: A COMPARATIVE STUDY (WITH
+                                                            SPECIAL REFERENCE TO THE CONSTITUTION OF INDIA).</td>
                                                     </tr>
                                                     <tr>
                                                         <td>13</td>
                                                         <td>2019-20</td>
-                                                        <td>RSTTM<br />Travel &amp; Tourism Management</td>
-                                                        <td>Indrajit Dutta</td>
+                                                        <td>RSTTM</td>
+                                                        <td>TRAVEL & TOURISM MANAGEMENT</td>
+                                                        <td>INDRAJIT DUTTA</td>
                                                         <td>1190018</td>
-                                                        <td>Prof. (Dr.) Soumitra Sen</td>
-                                                        <td>Dr. Dharma Ram Deka</td>
+                                                        <td>PROF. (DR.) SOUMITRA SEN</td>
+                                                        <td>DR. DHARMA RAM DEKA</td>
                                                         <td>28-02-2024</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/INDRAJITDUTTA.png" />
-                                                        </td>
-                                                        <td>A study on rural tourism in Ri-Bhoi district of Meghalaya: prospects
-                                                            and challenges.</td>
+                                                        <td>A STUDY ON RURAL TOURISM IN RI-BHOI DISTRICT OF MEGHALAYA: PROSPECTS
+                                                            AND CHALLENGES.</td>
                                                     </tr>
                                                     <tr>
                                                         <td>14</td>
                                                         <td>2019-20</td>
-                                                        <td>RSET<br />Civil Engineering</td>
-                                                        <td>Sudipta Chakraborty</td>
+                                                        <td>RSET</td>
+                                                        <td>CIVIL ENGINEERING</td>
+                                                        <td>SUDIPTA CHAKRABORTY</td>
                                                         <td>1190004</td>
-                                                        <td>Prof. (Dr.) Arnab Sarma</td>
-                                                        <td>Dr. A. R. Kambekar</td>
+                                                        <td>PROF. (DR.) ARNAB SARMA</td>
+                                                        <td>DR. A. R. KAMBEKAR</td>
                                                         <td>28-03-2024</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/SUDIPTACHAKRABORTY.png" />
-                                                        </td>
-                                                        <td>Sea level rise due to climate change and its impact along the coast
-                                                            of Mumbai.</td>
+                                                        <td>SEA LEVEL RISE DUE TO CLIMATE CHANGE AND ITS IMPACT ALONG THE COAST
+                                                            OF MUMBAI.</td>
                                                     </tr>
                                                     <tr>
                                                         <td>15</td>
                                                         <td>2019-20</td>
-                                                        <td>RSBSC<br />Bio-Technology</td>
-                                                        <td>Vanshika Sharma</td>
+                                                        <td>RSBSC</td>
+                                                        <td>BIO-TECHNOLOGY</td>
+                                                        <td>VANSHIKA SHARMA</td>
                                                         <td>1181198</td>
-                                                        <td>Dr. Ranjan Dutta Kalita</td>
-                                                        <td>Dr. Ajanita Mazumdar</td>
+                                                        <td>DR. RANJAN DUTTA KALITA</td>
+                                                        <td>DR. AJANITA MAZUMDAR</td>
                                                         <td>31-05-2024</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/VANSHIKASHARMA.png" />
-                                                        </td>
-                                                        <td>Wound healing and antimicrobial properties of Kaempferia galanga L.
-                                                            and formulation of topical applications.</td>
+                                                        <td>WOUND HEALING AND ANTIMICROBIAL PROPERTIES OF <i>KAEMPFERIA
+                                                                GALANAGA</i> L. AND FORMULATION OF TOPICAL APPLICATIONS.</td>
                                                     </tr>
+
                                                     <tr>
                                                         <td>16</td>
                                                         <td>2018-19</td>
-                                                        <td>RSAPS<br />Mathematics</td>
-                                                        <td>Bikash Koli Saha</td>
+                                                        <td>RSAPS</td>
+                                                        <td>MATHEMATICS</td>
+                                                        <td>BIKASH KOLI SAHA</td>
                                                         <td>1181166</td>
-                                                        <td>Dr. Kamal Debnath</td>
+                                                        <td>DR. KAMAL DEBNATH</td>
                                                         <td></td>
                                                         <td>31-05-2024</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/BIKASHKOLISAHA.png" />
-                                                        </td>
-                                                        <td>Behavioural study of visco elastic fluid flow characterized by
-                                                            Walters liquid (model B-).</td>
+                                                        <td>BEHAVIOURAL STUDY OF VISCO ELASTIC FLUID FLOW CHARACTERIZED BY
+                                                            WALTERS LIQUID (MODEL B-).</td>
                                                     </tr>
                                                     <tr>
                                                         <td>17</td>
                                                         <td>2018-19</td>
-                                                        <td>RSC<br />Commerce</td>
-                                                        <td>Kamal Mour</td>
+                                                        <td>RSC</td>
+                                                        <td>COMMERCE</td>
+                                                        <td>KAMAL MOUR</td>
                                                         <td>1170716</td>
-                                                        <td>Dr. Sudip Chakraborty</td>
-                                                        <td>Prof. N. B. Dey</td>
+                                                        <td>DR. SUDIP CHAKRABORTY</td>
+                                                        <td>PROF. N. B. DEY</td>
                                                         <td>28-06-2024</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/KAMALMOUR.jpeg" />
-                                                        </td>
-                                                        <td>Impact of Indian accounting standards (Ind AS) on the financial
-                                                            statements of select Indian companies.</td>
+                                                        <td>IMPACT OF INDIAN ACCOUNTING STANDARDS (IND AS) ON THE FINANCIAL
+                                                            STATEMENTS OF SELECT INDIAN COMPANIES.</td>
                                                     </tr>
                                                     <tr>
                                                         <td>18</td>
                                                         <td>2019-20</td>
-                                                        <td>RSFA<br />Fine Arts</td>
-                                                        <td>Laishram Samson Singh</td>
+                                                        <td>RSFA</td>
+                                                        <td>FINE ARTS</td>
+                                                        <td>LAISHRAM SAMSON SINGH</td>
                                                         <td>1170663</td>
-                                                        <td>Dr. Mousumi Deka</td>
-                                                        <td>Dr. Debasish Chakraborty</td>
+                                                        <td>DR. MOUSUMI DEKA</td>
+                                                        <td>DR. DEBASISH CHAKRABORTY</td>
                                                         <td>28-06-2024</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/LAISHRAMSAMSONSINGH.jpg" />
-                                                        </td>
-                                                        <td>Indian abstract art of post-independence era: a philosophical
-                                                            analysis.</td>
+                                                        <td>INDIAN ABSTRACT ART OF POST INDEPENDENCE ERA: A PHILOSOPHICAL
+                                                            ANALYSIS.</td>
                                                     </tr>
                                                     <tr>
                                                         <td>19</td>
                                                         <td>2018-19</td>
-                                                        <td>RSAPS<br />Mathematics</td>
-                                                        <td>Sankar Singha</td>
+                                                        <td>RSAPS</td>
+                                                        <td>MATHEMATICS</td>
+                                                        <td>SANKAR SINGHA</td>
                                                         <td>1181167</td>
-                                                        <td>Dr. Kamal Debnath</td>
+                                                        <td>DR. KAMAL DEBNATH</td>
                                                         <td></td>
                                                         <td>28-06-2024</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/SANKARSINGHA.png" />
-                                                        </td>
-                                                        <td>Some aspects of fluid flow problems with emphasis on
-                                                            visco-elasticity.</td>
+                                                        <td>SOME ASPECTS OF FLUID FLOW PROBLEMS WITH EMPHASIS ON
+                                                            VISCO-ELASTICITY.</td>
                                                     </tr>
                                                     <tr>
                                                         <td>20</td>
                                                         <td>2019-20</td>
-                                                        <td>RSAPS<br />Mathematics</td>
-                                                        <td>Md Nazir Hussain</td>
+                                                        <td>RSAPS</td>
+                                                        <td>MATHEMATICS</td>
+                                                        <td>MD NAZIR HUSSAIN</td>
                                                         <td>1191451</td>
-                                                        <td>Prof. (Dr.) Anuradha Devi</td>
-                                                        <td>Dr. Navalakhi Hazarika</td>
+                                                        <td>PROF. (DR.) ANURADHA DEVI</td>
+                                                        <td>DR. NAVALAKHI HAZARIKA</td>
                                                         <td>28-06-2024</td>
-                                                        <td class="text-center"><img
-                                                                src="mobile-assets/doctoral-programmee/phd_alumni/MDNAZIRHUSSAIN.png" />
-                                                        </td>
-                                                        <td>A study of distributive and multiplication N-groups in nearrings and
-                                                            their fuzzy aspects.</td>
+                                                        <td>A STUDY OF DISTRIBUTIVE AND MULTIPLICATION N-GROUPS IN NEARRINGS AND
+                                                            THEIR FUZZY ASPECTS.</td>
                                                     </tr>
+
+                                                    <tr>
+                                                        <td>21</td>
+                                                        <td>2017-18</td>
+                                                        <td>RSL</td>
+                                                        <td>ENGLISH</td>
+                                                        <td>NEIZOVO U</td>
+                                                        <td>1170706</td>
+                                                        <td>PROF. (DR.) PRADIP JYOTI MAHANTA</td>
+                                                        <td></td>
+                                                        <td>31-07-2024</td>
+                                                        <td>FOLKSONGS OF THE ANGAMI NAGAS: TRANSMISSION AND PRESERVATION OF
+                                                            CULTURE AND TRADITION</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>22</td>
+                                                        <td>2018-19</td>
+                                                        <td>RSLA</td>
+                                                        <td>LAW & ADMINISTRATION</td>
+                                                        <td>KASTURI SHARMA</td>
+                                                        <td>1181180</td>
+                                                        <td>PROF. (DR.) H. C. NATH</td>
+                                                        <td>PROF. (DR.) NALINI KANTA DUTTA</td>
+                                                        <td>31-07-2024</td>
+                                                        <td>LEGAL ASPECTS OF EUTHANASIA AND RIGHT TO DIE WITH DIGNITY: A
+                                                            COMPARATIVE STUDY</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>23</td>
+                                                        <td>2019-20</td>
+                                                        <td>RSL</td>
+                                                        <td>ENGLISH</td>
+                                                        <td>ASENLA YANGER</td>
+                                                        <td>1190012</td>
+                                                        <td>PROF. (DR.) KRISHNA BARUA</td>
+                                                        <td>PROF. (DR.) RAKHEE KALITA MORAL</td>
+                                                        <td>30-08-2024</td>
+                                                        <td>MILIEU, MEMORY, MYSTICISM: A COMPARATIVE STUDY OF NATURALISM AND
+                                                            DEEP ECOLOGY IN THE SELECTED NOVELS OF JOHN STEINBECK AND EASTERINE
+                                                            KIRE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>24</td>
+                                                        <td>2019-20</td>
+                                                        <td>RSAPS</td>
+                                                        <td>MATHEMATICS</td>
+                                                        <td>BALAJIED ME SYRTI</td>
+                                                        <td>1190001</td>
+                                                        <td>PROF. (DR.) ANURADHA DEVI</td>
+                                                        <td>DR. ADITYA GHOSH</td>
+                                                        <td>30-10-2024</td>
+                                                        <td>MATHEMATICAL MODELLING AND INTEGRATED MANAGEMENT OF
+                                                            ECO-EPIDEMIOLOGICAL SYSTEM UNDER THE APPLICATION OF PESTICIDES</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>25</td>
+                                                        <td>2020-21</td>
+                                                        <td>RSCOM</td>
+                                                        <td>JOURNALISM & MASS COMMUNICATION</td>
+                                                        <td>FLORENCE HANDIQUE RABHA</td>
+                                                        <td>1200008</td>
+                                                        <td>DR. RASHMI SARMAH</td>
+                                                        <td>DR. RAHUL CHANDA</td>
+                                                        <td>30-10-2024</td>
+                                                        <td>INFLUENCE OF TALK SHOWS WITH CELEBRITIES OF HINDI CINEMA ON
+                                                            UNIVERSITY STUDENTS IN ASSAM: A STUDY OF TWO HIGHLY POPULAR INDIAN
+                                                            TALK SHOWS AMONG SELECTED POPULATION</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>26</td>
+                                                        <td>2018-19</td>
+                                                        <td>RSC</td>
+                                                        <td>COMMERCE</td>
+                                                        <td>KRITI AGARWAL</td>
+                                                        <td>1181172</td>
+                                                        <td>DR. ARUNA DEV RROY</td>
+                                                        <td>PROF. (DR.) ANOOP PANDEY</td>
+                                                        <td>05-11-2024</td>
+                                                        <td>IMPACT OF CUSTOMER RELATIONSHIP MANAGEMENT PRACTICES ON CUSTOMER
+                                                            SATISFACTION AND LOYALTY - A STUDY ON RETAIL CUSTOMERS OF SELECT
+                                                            BANKS</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>27</td>
+                                                        <td>2019-20</td>
+                                                        <td>RSAPS</td>
+                                                        <td>PHYSICS</td>
+                                                        <td>PRANAMI SARMA</td>
+                                                        <td>1190002</td>
+                                                        <td>DR. DEVIKA PHUKAN</td>
+                                                        <td>DR. ANURUP GOHAIN BARUA</td>
+                                                        <td>20-11-2024</td>
+                                                        <td>SIMULATIONS OF SOLITON TRANSMISSION IN OPTICAL FIBRE FOR LONG
+                                                            DISTANCE OPTICAL COMMUNICATION</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>28</td>
+                                                        <td>2020-21</td>
+                                                        <td>RSCOM</td>
+                                                        <td>JOURNALISM & MASS COMMUNICATION</td>
+                                                        <td>ANINDITA DEY</td>
+                                                        <td>1170666</td>
+                                                        <td>DR. ESHA CHAKRABORTY</td>
+                                                        <td>DR. RAHUL CHANDA</td>
+                                                        <td>21-11-2024</td>
+                                                        <td>THE EFFECTS OF FACEBOOK ON MARRIED COUPLES IN THE CONTEXT OF
+                                                            RELATIONAL DIALECTICS WITH SPECIAL REFERENCE TO GUWAHATI, ASSAM</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>29</td>
+                                                        <td>2019-20</td>
+                                                        <td>RSEES</td>
+                                                        <td>GEOGRAPHY</td>
+                                                        <td>PARIMITA SAIKIA</td>
+                                                        <td>1191460</td>
+                                                        <td>PROF. (DR.) B.S.MIPUN</td>
+                                                        <td>DR. SHUKLA ACHARJEE</td>
+                                                        <td>22-11-2024</td>
+                                                        <td>GEOSPATIAL APPROACH FOR GROUNDWATER RESOURCE AND PROSPECT ZONE
+                                                            MAPPING OF KAMRUP METROPOLITAN DISTRICT, ASSAM</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>30</td>
+                                                        <td>2017-18</td>
+                                                        <td>RSCOM</td>
+                                                        <td>JOURNALISM & MASS COMMUNICATION</td>
+                                                        <td>ARNAB JAN DEKA</td>
+                                                        <td>1170719</td>
+                                                        <td>DR. RASHMI SARMAH</td>
+                                                        <td>PROF. (DR.) NARENDRA NATH SHARMA</td>
+                                                        <td>25-11-2024</td>
+                                                        <td>THE HISTORICAL NARRATIVE OF INDIAN CINEMA: A STUDY OF THE PIONEERING
+                                                            CINEMATIC INNOVATIONS OF HARISHCHANDRA SAKHARAM BHATAVADEKAR,
+                                                            RAMCHANDRA GOPAL TORNEY AND JYOTIPRASAD AGARWALA</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>31</td>
+                                                        <td>2020-21</td>
+                                                        <td>RSAPS</td>
+                                                        <td>PHYSICS</td>
+                                                        <td>PRIYANKA TALUKDAR</td>
+                                                        <td>1200002</td>
+                                                        <td>DR. DEVIKA PHUKAN</td>
+                                                        <td>PROF. (DR.) SUBRATA HAZARIKA</td>
+                                                        <td>26-11-2024</td>
+                                                        <td>STUDY OF THE VARIATION AND ANALYSIS OF OPTICAL PULSES IN OPTICAL
+                                                            COMMUNICATION MEDIUM BY SIMULATION</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>32</td>
+                                                        <td>2018-19</td>
+                                                        <td>RSB</td>
+                                                        <td>MANAGEMENT</td>
+                                                        <td>SUDIP BANIK</td>
+                                                        <td>1181170</td>
+                                                        <td>PROF. (DR.) S.P. SINGH</td>
+                                                        <td>DR. ASHUTOSH MURTI</td>
+                                                        <td>26-11-2024</td>
+                                                        <td>SOCIO-TECHNICAL SYSTEM: A STUDY OF TRIADIC ASPECT AMONG INDIVIDUAL,
+                                                            TEAM AND LOCI</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>33</td>
+                                                        <td>2019-20</td>
+                                                        <td>RSB</td>
+                                                        <td>MANAGEMENT</td>
+                                                        <td>SANTOSH KUMAR ANAND</td>
+                                                        <td>1190009</td>
+                                                        <td>PROF. (DR.) S.P. SINGH</td>
+                                                        <td>PROF. (DR.) VIVEKANAND PANDEY</td>
+                                                        <td>26-11-2024</td>
+                                                        <td>PUBLIC AND PRIVATE FUNDING OF HIGHER EDUCATION IN INDIA: A STUDY OF
+                                                            ITS EFFECT ON QUALITY OF SELECT UNIVERSITIES IN ASSAM</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>34</td>
+                                                        <td>2019-20</td>
+                                                        <td>RSAPS</td>
+                                                        <td>MATHEMATICS</td>
+                                                        <td>RUHUL KUDDUS AHMED</td>
+                                                        <td>1191453</td>
+                                                        <td>PROF. (DR.) KAMAL DEBNATH</td>
+                                                        <td>DR. NARAYAN NAYAK</td>
+                                                        <td>28-02-2025</td>
+                                                        <td>NON-NEWTON FLUID FLOWS OF SOME FRUIT AND VEGETABLE PRODUCTS IN FOOD
+                                                            PROCESSING INDUSTRIES OBEYING POWER-LAW FLUID MODEL.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>35</td>
+                                                        <td>2020-21</td>
+                                                        <td>RSP</td>
+                                                        <td>PHARMACY</td>
+                                                        <td>KUNAL BHATTACHARYA</td>
+                                                        <td>1201546</td>
+                                                        <td>PROF. (DR.) ATANU BHATTACHARJEE</td>
+                                                        <td>PROF. (DR.) MANODIP CHAKRABORTY</td>
+                                                        <td>28-03-2025</td>
+                                                        <td>IN-SILICO MARKER COMPOUND(S) ANALYSIS AND EVALUATION OF PHYTOSOME
+                                                            LOADED NOVEL DRUG DELIVERY SYSTEM OF PSIDIUM GUAJAVA (L) TARGETING
+                                                            ALZHEIMER'S DISEASE.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>36</td>
+                                                        <td>2019-20</td>
+                                                        <td>RSET</td>
+                                                        <td>COMPUTER SCIENCE ENGINEERING</td>
+                                                        <td>ANTARA MALAKAR</td>
+                                                        <td>1191454</td>
+                                                        <td>PROF. (DR.) ANKUR GANGULY</td>
+                                                        <td>DR. SWARNENDU KUMAR</td>
+                                                        <td>30-04-2025</td>
+                                                        <td>DESIGN AND DEVELOPMENT OF DEEP LEARNING BASED MODEL FOR PREDICTION
+                                                            OF EYE DISEASES IN NORTH EASTERN STATES OF INDIA</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>37</td>
+                                                        <td>2020-21</td>
+                                                        <td>RSP</td>
+                                                        <td>PHARMACY</td>
+                                                        <td>RAMEN KALITA</td>
+                                                        <td>1201547</td>
+                                                        <td>PROF. (DR.) BIPUL NATH</td>
+                                                        <td>PROF. (DR.) DIPANKAR SAHA</td>
+                                                        <td>30-04-2025</td>
+                                                        <td>DEVELOPMENT AND EVALUATION OF POLYHERBAL FORMULATIONS BASED ON
+                                                            POTENTIAL ETHNO MEDICINAL PLANTS OF NORTHEAST INDIA AS ANTI-DIABETIC
+                                                            PHYTOTHERAPEUTICS</td>
+                                                    </tr>
+
+
                                                 </tbody>
                                             </table>
                                         </div>
+
                                         <!--Table End-->
 
                                     </div>
                                 </div>
                             </div>
+
+
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed text-white" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
-                                        aria-controls="collapseSix">
+                                    <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                         Ph.D. Forms and Formats
                                     </button>
                                 </h2>
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/1)FORM~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> FORM FOR CONSENT OF Ph.D.
-                                                GUIDE & Ph.D.
-                                                STUDENT</a></p>
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/2)APPL~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FOR SYNOPSIS
-                                                (PLAN OF RESEAR
-                                                PRESENTATION)</a></p>
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/3)FORM~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> FORM FOR SYNOPSIS (PLAN OF
-                                                RESEARCH)
-                                                REPORT</a></p>
-                                        <p class="mobile-para1"><a
-                                                href="assets/img/all-phd/doctoral-programme/pdf/4) FORM FOR Ph.D. PROGRESS REPORT.pdf"
-                                                target="_blank"><i class="fa-solid fa-download"></i> FORM FOR Ph.D. PROGRESS
-                                                REPORT</a></p>
-                                        <p class="mobile-para1"><a
-                                                href="assets/img/all-phd/doctoral-programme/pdf/5) APPLICATION FOR PRE-SUBMISSION SEMINAR.pdf"
-                                                target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FOR
-                                                PRE-SUBMISSION SEMINAR</a></p>
-                                        <p class="mobile-para1"><a
-                                                href="assets/img/all-phd/doctoral-programme/pdf/6) Ph.D. PRE-SUBMISSION SEMINAR FORM.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> Ph.D. PRE-SUBMISSION
-                                                SEMINAR
-                                                FORM</a></p>
-                                        <p class="mobile-para1"><a
-                                                href="assets/img/all-phd/doctoral-programme/pdf/7) Ph.D. ABSTRACT SUBMISSION FORM.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> Ph.D. ABSTRACT SUBMISSION
-                                                FORM</a></p>
-                                        <p class="mobile-para1"><a
-                                                href="assets/img/all-phd/doctoral-programme/pdf/8) Ph.D. THESIS SUBMISSION FORM.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> Ph.D. THESIS SUBMISSION
-                                                FORM</a></p>
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/9)CHEC~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> CHECKLIST TO BE SUBMITTED
-                                                WITH Ph.D. THESIS
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/1)-FORM-FOR-CONSENT-OF-PH.D.-GUIDE-&-PH.D.-STUDENT.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                FORM FOR CONSENT OF PH.D. GUIDE & PH.D. STUDENT
                                             </a></p>
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/10)NOD~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> NO DUES CERTIFICATE FOR
-                                                Ph.D. THE
-                                                SUBMISSION</a></p>
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/11)TOT~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> TOTAL FEE SUBMISSION
-                                                CERTIFICATE FOR Ph.D.
-                                                THE
-                                                SUBMISSION</a></p>
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/12)FOR~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> FORM FOR SUBMITTING THE
-                                                LIST OF PROPOSED PH
-                                                THESIS EXAMINERS</a></p>
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/13)REP~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> REPORT OF ORAL DEFENCE
-                                                EVALUATION
-                                                COMMITTEE</a></p>
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/14)APP~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FORM FOR
-                                                EXTENSION OF TIME
-                                                SUBMISSION OF Ph.D. THESIS</a></p>
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/15)APP~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FOR CHANGE OF
-                                                GUIDE_CO-GUIDE</a></p>
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/16)APP~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FORM FOR CHANGE
-                                                OF
-                                                CANDIDATURE</a></p>
-                                        <p class="mobile-para1"><a
-                                                href="assets/img/all-phd/doctoral-programme/pdf/17) APPLICATION FORM FOR RE-REGISTRATION.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FORM FOR
-                                                RE-REGISTRATION</a></p>
-                                        <p class="mobile-para1"><a href="assets/img/all-phd/doctoral-programme/pdf/18)APP~1.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FORM FOR
-                                                RECOGNITION
-                                                GUIDE_CO-GUIDE FOR Ph.D. PROGRAMME</a></p>
-                                        <p class="mobile-para1"><a
-                                                href="assets/img/all-phd/doctoral-programme/pdf/19) Ph.D. THESIS TEMPLATE RGU.PDF"
-                                                target="_blank"><i class="fa-solid fa-download"></i> Ph.D. THESIS TEMPLATE
-                                                RGU</a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/2)-APPLICATION-FOR-SYNOPSIS-(PLAN-OF-RESEARCH)-PRESENTATION.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                APPLICATION FOR SYNOPSIS (PLAN OF RESEARCH) PRESENTATION
+                                            </a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/3)-FORM-FOR-SYNOPSIS-(PLAN-OF-RESEARCH)-REPORT.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                SYNOPSIS (PLAN OF RESEARCH)
+                                            </a></p>
+                                        <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/4)-FORM-FOR-PH.D.-PROGRESS-REPORT.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                PH.D. PROGRESS REPORT
+                                            </a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/5)-APPLICATION-FOR-PRE-SUBMISSION-SEMINAR.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                APPLICATION FOR PRE-SUBMISSION SEMINAR
+                                            </a></p>
+                                        <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/6)-PH.D.-PRE-SUBMISSION-SEMINAR-FORM.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                PH.D. PRE-SUBMISSION SEMINAR FORM
+                                            </a></p>
+                                        <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/7)-PH.D.-ABSTRACT-SUBMISSION-FORM.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                PH.D. ABSTRACT SUBMISSION FORM
+                                            </a></p>
+                                        <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/8)-PH.D.-THESIS-SUBMISSION-FORM.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                Office of the Controller of Examination - PH.D. THESIS SUBMISSION FORM
+                                            </a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/9)-CHECKLIST-TO-BE-SUBMITTED-WITH-PH.D.-THESIS.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                CHECKLIST TO BE SUBMITTED WITH PH.D. THESIS
+                                            </a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/10)-NO-DUES-CERTIFICATE-FOR-Ph.D.-THESIS-SUBMISSION.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                NO DUES CERTIFICATE FOR PH.D. THESIS SUBMISSION
+                                            </a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/11)-TOTAL-FEE-SUBMISSION-CERTIFICATE-FOR-PH.D.-THESIS-SUBMISSION.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                TOTAL FEE SUBMISSION CERTIFICATE FOR PH.D. THESIS SUBMISSION
+                                            </a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/12)-FORM-FOR-SUBMITTING-THE-LIST-OF-PROPOSED-PH.D.-THESIS-EXAMINERS.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                FORM FOR SUBMITTING THE LIST OF PROPOSED PH.D. THESIS EXAMINERS
+                                            </a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/13)-REPORT-OF-ORAL-DEFENCE-EVALUATION-COMMITTEE.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                REPORT OF ORAL DEFENCE EVALUATION COMMITTEE
+                                            </a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/14)-APPLICATION-FORM-FOR-EXTENSION-OF-TIME-FOR-SUBMISSION-OF-PH.D.-THESIS.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                APPLICATION FORM FOR EXTENSION OF TIME FOR SUBMISSION OF PH.D. THESIS
+                                            </a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/15)-APPLICATION-FOR-CHANGE-OF-GUIDE_CO-GUIDE.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                APPLICATION FOR CHANGE OF GUIDE/ CO-GUIDE
+                                            </a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/16)-APPLICATION-FORM-FOR-CHANGE-OF-CANDIDATURE.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                APPLICATION FORM FOR CHANGE OF CANDIDATURE
+                                            </a></p>
+                                        <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/17)-APPLICATION-FORM-FOR-RE-REGISTRATION.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                APPLICATION FORM FOR RE-REGISTRATION
+                                            </a></p>
+                                        <p class="para1"><a
+                                                href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/18)-APPLICATION-FORM-FOR-RECOGNITION-AS-GUIDE_CO-GUIDE-FOR-PH.D.-PROGRAMME.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                APPLICATION FORM FOR RECOGNITION AS GUIDE / CO-GUIDE FOR PH.D. PROGRAMME
+                                            </a></p>
+                                        <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/19)-PH.D.-THESIS-TEMPLATE-RGU.pdf"
+                                                target="_blank"><i class="fa-solid fa-download"></i>
+                                                The Importance of Research in Academia Beyond Just a Degree
+                                            </a></p>
                                     </div>
                                 </div>
                             </div>
@@ -1036,14 +1248,14 @@
             <!-- floating button  -->
 
             <!--head image Section-->
-            <section style="background-image: url(mobile-assets/background/bgg.svg); background-size: cover; padding: 50px 0px;">
+            <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/background/bgg.svg); background-size: cover; padding: 50px 0px;">
         <div class="container">
         <div class="row align-items-center gx-5">
             <div class="col-lg-6">
                 <div class="kd-about-3-img-wrap txaa-slide-down-1">
                     <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
                         <img class="rounded" decoding="async"
-                            src="mobile-assets/doctoral-programmee/headimg.jpeg"
+                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/headimg.jpeg"
                             alt="">
                     </div>
                 </div>
@@ -1198,32 +1410,32 @@
                                     <hr>
                                     <strong class="text-primary">Syllabus-</strong>
                                     <ul>
-                                        <li><a  target="_blank" href="mobile-assets/doctoral-programmee/pdf/AY 2024-25 PhD Course Work Syllabus.pdf">Ph.D. Course Work Syllabus for the AY 2024-25</a></li>
+                                        <li><a  target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/AY 2024-25 PhD Course Work Syllabus.pdf">Ph.D. Course Work Syllabus for the AY 2024-25</a></li>
                                     </ul>
                                     <strong class="text-primary">PAPER 1 & 2 -</strong>
                                     <ul>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Course Work Syllabus PAPER 1 & 2.pdf">Ph.D. Course Work Syllabus PAPER 1 & 2</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Course Work Syllabus PAPER 1 & 2.pdf">Ph.D. Course Work Syllabus PAPER 1 & 2</a></li>
                                     </ul>
                                     <strong class="text-primary">PAPER 3 & 4 -</strong>
                                     <ul>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PAPER 3 MANAGEMENT.docx">PAPER 3 MANAGEMENT</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PAPER 3 NUTRITION and DIETICS.docx">PAPER 3 NUTRITION and DIETICS</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PAPER 3 SYLLABUS SCIOLOGY.doc">PAPER 3 SYLLABUS SCIOLOGY</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PAPER 4 MANAGEMENT.docx">PAPER 4 MANAGEMENT</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PAPER-3 & 4 COURSE WORK COMMERCE.pdf">PAPER-3 & 4 COURSE WORK COMMERCE</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PAPER-3 & 4 COURSE WORK PSYCHOLOGY.pdf">PAPER-3 & 4 COURSE WORK PSYCHOLOGY</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/Ph.D COURSE WORK SYLLABUS ENGLISH.docx">Ph.D COURSE WORK SYLLABUS ENGLISH</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/Ph.D COURSE WORK SYLLABUS OF PUBLIC ADMINISTARTION.docx">Ph.D COURSE WORK SYLLABUS OF PUBLIC ADMINISTARTION</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PhD COURSE WORK PAPER 3 RSFA.docx">Ph.D. COURSE WORK PAPER 3 RSFA</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/Phd COURSE WORK PAPER 4 RSFA.docx">Ph.D. COURSE WORK PAPER 4 RSFA</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PhD SYLLABUS PAPER 3 BIOTECHNOLOGY.docx">Ph.D. SYLLABUS PAPER 3 BIOTECHNOLOGY</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER 3 MANAGEMENT.docx">PAPER 3 MANAGEMENT</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER 3 NUTRITION and DIETICS.docx">PAPER 3 NUTRITION and DIETICS</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER 3 SYLLABUS SCIOLOGY.doc">PAPER 3 SYLLABUS SCIOLOGY</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER 4 MANAGEMENT.docx">PAPER 4 MANAGEMENT</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER-3 & 4 COURSE WORK COMMERCE.pdf">PAPER-3 & 4 COURSE WORK COMMERCE</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PAPER-3 & 4 COURSE WORK PSYCHOLOGY.pdf">PAPER-3 & 4 COURSE WORK PSYCHOLOGY</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/Ph.D COURSE WORK SYLLABUS ENGLISH.docx">Ph.D COURSE WORK SYLLABUS ENGLISH</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/Ph.D COURSE WORK SYLLABUS OF PUBLIC ADMINISTARTION.docx">Ph.D COURSE WORK SYLLABUS OF PUBLIC ADMINISTARTION</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD COURSE WORK PAPER 3 RSFA.docx">Ph.D. COURSE WORK PAPER 3 RSFA</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/Phd COURSE WORK PAPER 4 RSFA.docx">Ph.D. COURSE WORK PAPER 4 RSFA</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD SYLLABUS PAPER 3 BIOTECHNOLOGY.docx">Ph.D. SYLLABUS PAPER 3 BIOTECHNOLOGY</a></li>
                                     </ul>
                                     <hr>
                                     <strong class="text-primary">2023-24 Ph.D. Syllabus PHYSICS-</strong>
                                     <ul>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/1. SYLLABUS_Nonlinear optics_ Pre-Ph.D. PHYSICS COURSE WORK_DP.pdf">SYLLABUS_Nonlinear optics_ Pre-Ph.D. PHYSICS COURSE WORK_DP</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/2. SYLLABUS_Nanoscience and Nanotechnology_Pre-Ph.D. PHYSICS COURSE WORK_SD.pdf">SYLLABUS_Nanoscience and Nanotechnology_Pre-Ph.D. PHYSICS COURSE WORK_SD</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/3. SYLLABUS_Atmospheric and Space Sciences _Pre-Ph.D. PHYSICS COURSE WORK_BC.pdf">SYLLABUS_Atmospheric and Space Sciences _Pre-Ph.D. PHYSICS COURSE WORK_BC</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/1. SYLLABUS_Nonlinear optics_ Pre-Ph.D. PHYSICS COURSE WORK_DP.pdf">SYLLABUS_Nonlinear optics_ Pre-Ph.D. PHYSICS COURSE WORK_DP</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/2. SYLLABUS_Nanoscience and Nanotechnology_Pre-Ph.D. PHYSICS COURSE WORK_SD.pdf">SYLLABUS_Nanoscience and Nanotechnology_Pre-Ph.D. PHYSICS COURSE WORK_SD</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/3. SYLLABUS_Atmospheric and Space Sciences _Pre-Ph.D. PHYSICS COURSE WORK_BC.pdf">SYLLABUS_Atmospheric and Space Sciences _Pre-Ph.D. PHYSICS COURSE WORK_BC</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1239,20 +1451,20 @@
 
                                     <strong class="text-primary">Exam Notification -</strong><br>
                                     <ul>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/1. Examination Form fill-up (Regular & Repeat) for PhD Coursework.pdf">Examination Form fill-up (Regular & Repeat) for Ph.D. Coursework</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/2. PhD Course Work Examination Timetable.pdf">Ph.D. Course Work Examination Timetable</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/1. Examination Form fill-up (Regular & Repeat) for PhD Coursework.pdf">Examination Form fill-up (Regular & Repeat) for Ph.D. Coursework</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/2. PhD Course Work Examination Timetable.pdf">Ph.D. Course Work Examination Timetable</a></li>
                                     </ul>
                                     <strong class="text-primary">Ph.D. Awareded Notification -</strong><br>
                                     <ul>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/Ph.D Notification_30-03-2024.pdf">Ph.D Notification_30-03-2024</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notifcation 01.07.2024.pdf">Ph.D. Notification 01.07.2024</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification (Neha Garg)[58701].pdf">Ph.D. Notification (Neha Garg)[58701]</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification (Rajdeep Nag)[58700].pdf">Ph.D. Notification (Rajdeep Nag)[58700]</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification 31.5.2024.pdf">Ph.D. Notification 31.5.2024</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification_19-10-2023.pdf">Ph.D. Notification_19-10-2023</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification_28-02-2024.pdf">Ph.D. Notification_28-02-2024</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification_30-11-2023.pdf">Ph.D. Notification_30-11-2023</a></li>
-                                        <li><a href="mobile-assets/doctoral-programmee/pdf/PhD Notification_31-08-2023.pdf">Ph.D. Notification_31-08-2023</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/Ph.D Notification_30-03-2024.pdf">Ph.D Notification_30-03-2024</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notifcation 01.07.2024.pdf">Ph.D. Notification 01.07.2024</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification (Neha Garg)[58701].pdf">Ph.D. Notification (Neha Garg)[58701]</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification (Rajdeep Nag)[58700].pdf">Ph.D. Notification (Rajdeep Nag)[58700]</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification 31.5.2024.pdf">Ph.D. Notification 31.5.2024</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_19-10-2023.pdf">Ph.D. Notification_19-10-2023</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_28-02-2024.pdf">Ph.D. Notification_28-02-2024</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_30-11-2023.pdf">Ph.D. Notification_30-11-2023</a></li>
+                                        <li><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/doctoral-programmee/pdf/PhD Notification_31-08-2023.pdf">Ph.D. Notification_31-08-2023</a></li>
 
                                 </div>
                             </div>
@@ -1286,328 +1498,647 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="accordion-item mb-2">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
                                     Alumni
                                 </button>
                             </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <!--Table Start-->
-                                    <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                        <thead class="text-white" style="background-color: #27467A;">
-                                            <tr>
-                                                <th class="bg-blue text-white">S.NO.</th>
-                                                <th class="bg-blue text-white">SESSION</th>
-                                                <th class="bg-blue text-white">SCHOOL<br />/BRANCH</th>
-                                                <th class="bg-blue text-white">NAME</th>
-                                                <th class="bg-blue text-white">REGISTRATION NO.</th>
-                                                <th class="bg-blue text-white">SUPERVISOR</th>
-                                                <th class="bg-blue text-white">CO-SUPERVISOR</th>
-                                                <th class="bg-blue text-white">DATE</th>
-                                                <th class="bg-blue text-white">IMAGE</th>
-                                                <th class="bg-blue text-white">TOPIC OF RESEARCH</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody class="para1" style="text-align: left !important;">
-                                            <tr>
-                                                <td>1</td>
-                                                <td>2017-18</td>
-                                                <td>RSC<br />Commerce</td>
-                                                <td>Rajdeep Nag</td>
-                                                <td>1170717</td>
-                                                <td>Dr. Sudip Chakraborty</td>
-                                                <td>Prof. N. B. Dey</td>
-                                                <td>31-07-2023</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/RAJDEEPNAG.jpeg" /></td>
-                                                <td>Investors perception towards mutual funds: an empirical study in Guwahati city of Assam, India.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>2018-19</td>
-                                                <td>RSC<br />Commerce</td>
-                                                <td>Neha Garg</td>
-                                                <td>1181173</td>
-                                                <td>Dr. Tanima Tarafdar</td>
-                                                <td>Dr. Hari Prasad Goenka</td>
-                                                <td>31-07-2023</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/NEHAGARG.jpeg" /></td>
-                                                <td>Positioning of brick and mortar retailers with reference to apparels: a study of select retailers in Kamrup (Metro).</td>
-                                            </tr>
-                                            <tr>
-                                                <td>8</td>
-                                                <td>2018-19</td>
-                                                <td>RSC<br />Commerce</td>
-                                                <td>Swati Tejawat</td>
-                                                <td>1181174</td>
-                                                <td>Dr. Sudip Chakraborty</td>
-                                                <td>Prof. N. B. Dey</td>
-                                                <td>31-08-2023</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/SWATITEJAWAT.jpeg" /></td>
-                                                <td>Corporate governance practices under the companies act, 2013: a study on select BSE listed companies.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>2017-18</td>
-                                                <td>RSCOM<br />J&amp;MC</td>
-                                                <td>Ankita Agarwal</td>
-                                                <td>1170704</td>
-                                                <td>Dr. N. Rohin Kanta Singh</td>
-                                                <td>Dr. Ruparani Sonowal</td>
-                                                <td>31-08-2023</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/ANKITAAGARWAL.jpeg" /></td>
-                                                <td>Usage pattern of WhatsApp among the students of selected universities of Assam.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>2018-19</td>
-                                                <td>RSCOM<br />J&amp;MC</td>
-                                                <td>Farha Yashmin Rohman</td>
-                                                <td>1181179</td>
-                                                <td>Dr. N. Rohin Kanta Singh</td>
-                                                <td>Dr. Ruparani Sonowal</td>
-                                                <td>31-08-2023</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/FARHAYASHMINROHMAN.jpeg" /></td>
-                                                <td>Portrayal of identity on Facebook with reference to student leaders in Assam.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>2018-19</td>
-                                                <td>RSET<br />Computer Science Engineering</td>
-                                                <td>Mayuri Sharma</td>
-                                                <td>1170703</td>
-                                                <td>Prof. (Dr.) Ankur Ganguly</td>
-                                                <td>Dr. Aniruddha Deka, Dr. Chandan Jyoti Kumar</td>
-                                                <td>16-10-2023</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/MAYURISHARMA.png" /></td>
-                                                <td>Design and development of machine learning based framework for diagnosing disease and deficiency in rice plants.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>6</td>
-                                                <td>2018-19</td>
-                                                <td>RSHSS<br />Economics</td>
-                                                <td>Alakesh Kalita</td>
-                                                <td>1181181</td>
-                                                <td>Prof. (Dr.) Swabera Islam</td>
-                                                <td>Prof. (Dr.) Gautam Mazumder</td>
-                                                <td>16-10-2023</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/ALAKESHKALITA.jpeg" /></td>
-                                                <td>Microfinance as the driver of income and employment: an analysis of socio-economic condition in undivided Barpeta district of Assam.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>7</td>
-                                                <td>2018-19</td>
-                                                <td>RSHSS<br />Economics</td>
-                                                <td>Durba Duta</td>
-                                                <td>1170722</td>
-                                                <td>Dr. Mohammed Deluwar Hoque</td>
-                                                <td>Dr. Rabin Jyoti Khataniar</td>
-                                                <td>16-10-2023</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/DURBADUTA.jpeg" /></td>
-                                                <td>An assessment of urban poverty and its determinants: with special reference to the Kamrup Metro.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>9</td>
-                                                <td>2017-18</td>
-                                                <td>RSLA<br />Law &amp; Administration</td>
-                                                <td>Meghna Bora</td>
-                                                <td>1170709</td>
-                                                <td>Prof. (Dr.) H. C. Nath</td>
-                                                <td>Dr. Anup Hazarika</td>
-                                                <td>30-11-2023</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/MEGHNABORA.png" /></td>
-                                                <td>A study on international and national legal framework on surrogacy and its conformity with rule of law.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>10</td>
-                                                <td>2019-20</td>
-                                                <td>RSLA<br />Law &amp; Administration</td>
-                                                <td>Parveen Islam</td>
-                                                <td>1181196</td>
-                                                <td>Prof. (Dr.) H. C. Nath</td>
-                                                <td>Dr. Smita Sarmah</td>
-                                                <td>30-11-2023</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/PARVEENISLAM.png" /></td>
-                                                <td>Right to education of transgender persons in India with specific reference to the state of Assam: a legal analysis.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>11</td>
-                                                <td>2020-21</td>
-                                                <td>RSBSC<br />Bio-Technology</td>
-                                                <td>Indukalpa Das</td>
-                                                <td>1191459</td>
-                                                <td>Dr. Debajit Borah</td>
-                                                <td>Dr. Bidisha Sharma</td>
-                                                <td>28-02-2024</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/INDUKALPADAS.png" /></td>
-                                                <td>Biosurfactant mediated green synthesis of metal nano particles for enhancing seed germination and antimicrobial applications.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>12</td>
-                                                <td>2018-19</td>
-                                                <td>RSLA<br />Law &amp; Administration</td>
-                                                <td>Sandeep Mishra</td>
-                                                <td>1170720</td>
-                                                <td>Prof. (Dr.) H. C. Nath</td>
-                                                <td>Prof. (Dr.) Nalini Kanta Dutta</td>
-                                                <td>28-02-2024</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/SANDEEPMISHRA.png" /></td>
-                                                <td>Pardoning power and judicial review: a comparative study (with special reference to the constitution of India).</td>
-                                            </tr>
-                                            <tr>
-                                                <td>13</td>
-                                                <td>2019-20</td>
-                                                <td>RSTTM<br />Travel &amp; Tourism Management</td>
-                                                <td>Indrajit Dutta</td>
-                                                <td>1190018</td>
-                                                <td>Prof. (Dr.) Soumitra Sen</td>
-                                                <td>Dr. Dharma Ram Deka</td>
-                                                <td>28-02-2024</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/INDRAJITDUTTA.png" /></td>
-                                                <td>A study on rural tourism in Ri-Bhoi district of Meghalaya: prospects and challenges.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>14</td>
-                                                <td>2019-20</td>
-                                                <td>RSET<br />Civil Engineering</td>
-                                                <td>Sudipta Chakraborty</td>
-                                                <td>1190004</td>
-                                                <td>Prof. (Dr.) Arnab Sarma</td>
-                                                <td>Dr. A. R. Kambekar</td>
-                                                <td>28-03-2024</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/SUDIPTACHAKRABORTY.png" /></td>
-                                                <td>Sea level rise due to climate change and its impact along the coast of Mumbai.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>15</td>
-                                                <td>2019-20</td>
-                                                <td>RSBSC<br />Bio-Technology</td>
-                                                <td>Vanshika Sharma</td>
-                                                <td>1181198</td>
-                                                <td>Dr. Ranjan Dutta Kalita</td>
-                                                <td>Dr. Ajanita Mazumdar</td>
-                                                <td>31-05-2024</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/VANSHIKASHARMA.png" /></td>
-                                                <td>Wound healing and antimicrobial properties of Kaempferia galanga L. and formulation of topical applications.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>16</td>
-                                                <td>2018-19</td>
-                                                <td>RSAPS<br />Mathematics</td>
-                                                <td>Bikash Koli Saha</td>
-                                                <td>1181166</td>
-                                                <td>Dr. Kamal Debnath</td>
-                                                <td></td>
-                                                <td>31-05-2024</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/BIKASHKOLISAHA.png" /></td>
-                                                <td>Behavioural study of visco elastic fluid flow characterized by Walters liquid (model B-).</td>
-                                            </tr>
-                                            <tr>
-                                                <td>17</td>
-                                                <td>2018-19</td>
-                                                <td>RSC<br />Commerce</td>
-                                                <td>Kamal Mour</td>
-                                                <td>1170716</td>
-                                                <td>Dr. Sudip Chakraborty</td>
-                                                <td>Prof. N. B. Dey</td>
-                                                <td>28-06-2024</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/KAMALMOUR.jpeg" /></td>
-                                                <td>Impact of Indian accounting standards (Ind AS) on the financial statements of select Indian companies.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>18</td>
-                                                <td>2019-20</td>
-                                                <td>RSFA<br />Fine Arts</td>
-                                                <td>Laishram Samson Singh</td>
-                                                <td>1170663</td>
-                                                <td>Dr. Mousumi Deka</td>
-                                                <td>Dr. Debasish Chakraborty</td>
-                                                <td>28-06-2024</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/LAISHRAMSAMSONSINGH.jpg" /></td>
-                                                <td>Indian abstract art of post-independence era: a philosophical analysis.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>19</td>
-                                                <td>2018-19</td>
-                                                <td>RSAPS<br />Mathematics</td>
-                                                <td>Sankar Singha</td>
-                                                <td>1181167</td>
-                                                <td>Dr. Kamal Debnath</td>
-                                                <td></td>
-                                                <td>28-06-2024</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/SANKARSINGHA.png" /></td>
-                                                <td>Some aspects of fluid flow problems with emphasis on visco-elasticity.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>20</td>
-                                                <td>2019-20</td>
-                                                <td>RSAPS<br />Mathematics</td>
-                                                <td>Md Nazir Hussain</td>
-                                                <td>1191451</td>
-                                                <td>Prof. (Dr.) Anuradha Devi</td>
-                                                <td>Dr. Navalakhi Hazarika</td>
-                                                <td>28-06-2024</td>
-                                                <td class="text-center"><img src="mobile-assets/doctoral-programmee/phd_alumni/MDNAZIRHUSSAIN.png" /></td>
-                                                <td>A study of distributive and multiplication N-groups in nearrings and their fuzzy aspects.</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="table-responsive">
+                                        <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+                                            <thead class="text-white para1" style="background-color: #27467A;">
+                                                <tr>
+                                                    <th>SL NO.</th>
+                                                    <th>SESSION</th>
+                                                    <th>SCHOOL</th>
+                                                    <th>BRANCH</th>
+                                                    <th>NAME</th>
+                                                    <th>REGISTRATION NO.</th>
+                                                    <th>GUIDE</th>
+                                                    <th>CO-GUIDE</th>
+                                                    <th>DATE</th>
+                                                    <th>TOPIC OF RESEARCH</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="para1" style="text-align: left !important;">
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>2017-18</td>
+                                                    <td>RSC</td>
+                                                    <td>COMMERCE</td>
+                                                    <td>RAJDEEP NAG</td>
+                                                    <td>1170717</td>
+                                                    <td>DR. SUDIP CHAKRABORTY</td>
+                                                    <td>PROF. N. B. DEY</td>
+                                                    <td>31-07-2023</td>
+                                                    <td>INVESTORS PERCEPTION TOWARDS MUTUAL FUNDS : AN EMPIRICAL STUDY IN
+                                                        GWAHATI CITY OF ASSAM, INDIA.</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSC</td>
+                                                    <td>COMMERCE</td>
+                                                    <td>NEHA GARG</td>
+                                                    <td>1181173</td>
+                                                    <td>DR. TANIMA TARAFDAR</td>
+                                                    <td>DR. HARI PRASAD GOENKA</td>
+                                                    <td>31-07-2023</td>
+                                                    <td>POSITIONING OF BRICK AND MORTAR RETAILERS WITH REFERENCE TO
+                                                        APPARELS: A STUDY OF SELECT RETAILERS IN KAMRUP (METRO).</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>2017-18</td>
+                                                    <td>RSCOM</td>
+                                                    <td>J&amp;MC</td>
+                                                    <td>ANKITA AGARWAL</td>
+                                                    <td>1170704</td>
+                                                    <td>DR. N. ROHIN KANTA SINGH</td>
+                                                    <td>DR. RUPARANI SONOWAL</td>
+                                                    <td>31-08-2023</td>
+                                                    <td>USAGE PATTERN OF WHATSAPP AMONG THE STUDENTS OF SELECTED
+                                                        UNIVERSITIES OF ASSAM.</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSCOM</td>
+                                                    <td>J&amp;MC</td>
+                                                    <td>FARHA YASHMIN ROHMAN</td>
+                                                    <td>1181179</td>
+                                                    <td>DR. N. ROHIN KANTA SINGH</td>
+                                                    <td>DR. RUPARANI SONOWAL</td>
+                                                    <td>31-08-2023</td>
+                                                    <td>PORTRAYAL OF IDENTITY ON FACEBOOK WITH REFERENCE TO STUDENT LEADERS
+                                                        IN ASSAM.</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSC</td>
+                                                    <td>COMMERCE</td>
+                                                    <td>SWATI TEJAWAT</td>
+                                                    <td>1181174</td>
+                                                    <td>DR. SUDIP CHAKRABORTY</td>
+                                                    <td>PROF. N. B. DEY</td>
+                                                    <td>31-08-2023</td>
+                                                    <td>CORPORATE GOVERNANCE PRACTICES UNDER THE COMPANIES ACT, 2013: A
+                                                        STUDY ON SELECT BSE LISTED COMPANIES.</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSET</td>
+                                                    <td>COMPUTER SCIENCE ENGINEERING</td>
+                                                    <td>MAYURI SHARMA</td>
+                                                    <td>1170703</td>
+                                                    <td>PROF. (DR.) ANKUR GANGULY</td>
+                                                    <td>DR. ANIRUDDHA DEKA, DR. CHANDAN JYOTI KUMAR</td>
+                                                    <td>16-10-2023</td>
+                                                    <td>DESIGN AND DEVELOPMENT OF MACHINE LEARNING BASED FRAMEWORK FOR
+                                                        DIAGNOSING DISEASE AND DEFICIENCY IN RICE PLANTS.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSHSS</td>
+                                                    <td>ECONOMICS</td>
+                                                    <td>ALAKESH KALITA</td>
+                                                    <td>1181181</td>
+                                                    <td>PROF. (DR.) SWABERA ISLAM</td>
+                                                    <td>PROF. (DR.) GAUTAM MAZUMDER</td>
+                                                    <td>16-10-2023</td>
+                                                    <td>MICROFINANCE AS THE DRIVER OF INCOME AND EMPLOYMENT: AN ANALYSIS OF
+                                                        SOCIO ECONOMIC CONDITION IN UNDIVIDED BARPETA DISTRICT OF ASSAM.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSHSS</td>
+                                                    <td>ECONOMICS</td>
+                                                    <td>DURBA DUTA</td>
+                                                    <td>1170722</td>
+                                                    <td>DR. MOHAMMED DELUWAR HOQUE</td>
+                                                    <td>DR. RABIN JYOTI KHATANIAR</td>
+                                                    <td>16-10-2023</td>
+                                                    <td>AN ASSESSMENT OF URBAN POVERTY AND ITS DETERMINANTS: WITH SPECIAL
+                                                        REFERENCE TO THE KAMRUP METRO.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>2017-18</td>
+                                                    <td>RSLA</td>
+                                                    <td>LAW & ADMINISTRATION</td>
+                                                    <td>MEGHNA BORA</td>
+                                                    <td>1170709</td>
+                                                    <td>PROF. (DR.) H. C. NATH</td>
+                                                    <td>DR. ANUP HAZARIKA</td>
+                                                    <td>30-11-2023</td>
+                                                    <td>A STUDY ON INTERNATIONAL AND NATIONAL LEGAL FRAME WORK ON SURROGACY
+                                                        AND ITS CONFORMITY WITH RULE OF LAW.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSLA</td>
+                                                    <td>LAW & ADMINISTRATION</td>
+                                                    <td>PARVEEN ISLAM</td>
+                                                    <td>1181196</td>
+                                                    <td>PROF. (DR.) H. C. NATH</td>
+                                                    <td>DR. SMITA SARMAH</td>
+                                                    <td>30-11-2023</td>
+                                                    <td>RIGHT TO EDUCATION OF TRANSGENDER PERSONS IN INDIA WITH SPECIFIC
+                                                        REFERENCE TO THE STATE OF ASSAM: A LEGAL ANALYSIS.</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>11</td>
+                                                    <td>2020-21</td>
+                                                    <td>RSBSC</td>
+                                                    <td>BIO-TECHNOLOGY</td>
+                                                    <td>INDUKALPA DAS</td>
+                                                    <td>1191459</td>
+                                                    <td>DR. DEBAJIT BORAH</td>
+                                                    <td>DR. BIDISHA SHARMA</td>
+                                                    <td>28-02-2024</td>
+                                                    <td>BIOSURFACTANT MEDIATED GREEN SYNTHESIS OF METAL NANO PARTICLES FOR
+                                                        ENHANCING SEED GERMINATION AND ANTIMICROBIAL APPLICATIONS.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSLA</td>
+                                                    <td>LAW & ADMINISTRATION</td>
+                                                    <td>SANDEEP MISHRA</td>
+                                                    <td>1170720</td>
+                                                    <td>PROF. (DR.) H. C. NATH</td>
+                                                    <td>PROF. (DR.) NALINI KANTA DUTTA</td>
+                                                    <td>28-02-2024</td>
+                                                    <td>PARDONING POWER AND JUDICIAL REVIEW: A COMPARATIVE STUDY (WITH
+                                                        SPECIAL REFERENCE TO THE CONSTITUTION OF INDIA).</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>13</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSTTM</td>
+                                                    <td>TRAVEL & TOURISM MANAGEMENT</td>
+                                                    <td>INDRAJIT DUTTA</td>
+                                                    <td>1190018</td>
+                                                    <td>PROF. (DR.) SOUMITRA SEN</td>
+                                                    <td>DR. DHARMA RAM DEKA</td>
+                                                    <td>28-02-2024</td>
+                                                    <td>A STUDY ON RURAL TOURISM IN RI-BHOI DISTRICT OF MEGHALAYA: PROSPECTS
+                                                        AND CHALLENGES.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>14</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSET</td>
+                                                    <td>CIVIL ENGINEERING</td>
+                                                    <td>SUDIPTA CHAKRABORTY</td>
+                                                    <td>1190004</td>
+                                                    <td>PROF. (DR.) ARNAB SARMA</td>
+                                                    <td>DR. A. R. KAMBEKAR</td>
+                                                    <td>28-03-2024</td>
+                                                    <td>SEA LEVEL RISE DUE TO CLIMATE CHANGE AND ITS IMPACT ALONG THE COAST
+                                                        OF MUMBAI.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>15</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSBSC</td>
+                                                    <td>BIO-TECHNOLOGY</td>
+                                                    <td>VANSHIKA SHARMA</td>
+                                                    <td>1181198</td>
+                                                    <td>DR. RANJAN DUTTA KALITA</td>
+                                                    <td>DR. AJANITA MAZUMDAR</td>
+                                                    <td>31-05-2024</td>
+                                                    <td>WOUND HEALING AND ANTIMICROBIAL PROPERTIES OF <i>KAEMPFERIA
+                                                            GALANAGA</i> L. AND FORMULATION OF TOPICAL APPLICATIONS.</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>16</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSAPS</td>
+                                                    <td>MATHEMATICS</td>
+                                                    <td>BIKASH KOLI SAHA</td>
+                                                    <td>1181166</td>
+                                                    <td>DR. KAMAL DEBNATH</td>
+                                                    <td></td>
+                                                    <td>31-05-2024</td>
+                                                    <td>BEHAVIOURAL STUDY OF VISCO ELASTIC FLUID FLOW CHARACTERIZED BY
+                                                        WALTERS LIQUID (MODEL B-).</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>17</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSC</td>
+                                                    <td>COMMERCE</td>
+                                                    <td>KAMAL MOUR</td>
+                                                    <td>1170716</td>
+                                                    <td>DR. SUDIP CHAKRABORTY</td>
+                                                    <td>PROF. N. B. DEY</td>
+                                                    <td>28-06-2024</td>
+                                                    <td>IMPACT OF INDIAN ACCOUNTING STANDARDS (IND AS) ON THE FINANCIAL
+                                                        STATEMENTS OF SELECT INDIAN COMPANIES.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>18</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSFA</td>
+                                                    <td>FINE ARTS</td>
+                                                    <td>LAISHRAM SAMSON SINGH</td>
+                                                    <td>1170663</td>
+                                                    <td>DR. MOUSUMI DEKA</td>
+                                                    <td>DR. DEBASISH CHAKRABORTY</td>
+                                                    <td>28-06-2024</td>
+                                                    <td>INDIAN ABSTRACT ART OF POST INDEPENDENCE ERA: A PHILOSOPHICAL
+                                                        ANALYSIS.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>19</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSAPS</td>
+                                                    <td>MATHEMATICS</td>
+                                                    <td>SANKAR SINGHA</td>
+                                                    <td>1181167</td>
+                                                    <td>DR. KAMAL DEBNATH</td>
+                                                    <td></td>
+                                                    <td>28-06-2024</td>
+                                                    <td>SOME ASPECTS OF FLUID FLOW PROBLEMS WITH EMPHASIS ON
+                                                        VISCO-ELASTICITY.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>20</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSAPS</td>
+                                                    <td>MATHEMATICS</td>
+                                                    <td>MD NAZIR HUSSAIN</td>
+                                                    <td>1191451</td>
+                                                    <td>PROF. (DR.) ANURADHA DEVI</td>
+                                                    <td>DR. NAVALAKHI HAZARIKA</td>
+                                                    <td>28-06-2024</td>
+                                                    <td>A STUDY OF DISTRIBUTIVE AND MULTIPLICATION N-GROUPS IN NEARRINGS AND
+                                                        THEIR FUZZY ASPECTS.</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>21</td>
+                                                    <td>2017-18</td>
+                                                    <td>RSL</td>
+                                                    <td>ENGLISH</td>
+                                                    <td>NEIZOVO U</td>
+                                                    <td>1170706</td>
+                                                    <td>PROF. (DR.) PRADIP JYOTI MAHANTA</td>
+                                                    <td></td>
+                                                    <td>31-07-2024</td>
+                                                    <td>FOLKSONGS OF THE ANGAMI NAGAS: TRANSMISSION AND PRESERVATION OF
+                                                        CULTURE AND TRADITION</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>22</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSLA</td>
+                                                    <td>LAW & ADMINISTRATION</td>
+                                                    <td>KASTURI SHARMA</td>
+                                                    <td>1181180</td>
+                                                    <td>PROF. (DR.) H. C. NATH</td>
+                                                    <td>PROF. (DR.) NALINI KANTA DUTTA</td>
+                                                    <td>31-07-2024</td>
+                                                    <td>LEGAL ASPECTS OF EUTHANASIA AND RIGHT TO DIE WITH DIGNITY: A
+                                                        COMPARATIVE STUDY</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>23</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSL</td>
+                                                    <td>ENGLISH</td>
+                                                    <td>ASENLA YANGER</td>
+                                                    <td>1190012</td>
+                                                    <td>PROF. (DR.) KRISHNA BARUA</td>
+                                                    <td>PROF. (DR.) RAKHEE KALITA MORAL</td>
+                                                    <td>30-08-2024</td>
+                                                    <td>MILIEU, MEMORY, MYSTICISM: A COMPARATIVE STUDY OF NATURALISM AND
+                                                        DEEP ECOLOGY IN THE SELECTED NOVELS OF JOHN STEINBECK AND EASTERINE
+                                                        KIRE</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>24</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSAPS</td>
+                                                    <td>MATHEMATICS</td>
+                                                    <td>BALAJIED ME SYRTI</td>
+                                                    <td>1190001</td>
+                                                    <td>PROF. (DR.) ANURADHA DEVI</td>
+                                                    <td>DR. ADITYA GHOSH</td>
+                                                    <td>30-10-2024</td>
+                                                    <td>MATHEMATICAL MODELLING AND INTEGRATED MANAGEMENT OF
+                                                        ECO-EPIDEMIOLOGICAL SYSTEM UNDER THE APPLICATION OF PESTICIDES</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>25</td>
+                                                    <td>2020-21</td>
+                                                    <td>RSCOM</td>
+                                                    <td>JOURNALISM & MASS COMMUNICATION</td>
+                                                    <td>FLORENCE HANDIQUE RABHA</td>
+                                                    <td>1200008</td>
+                                                    <td>DR. RASHMI SARMAH</td>
+                                                    <td>DR. RAHUL CHANDA</td>
+                                                    <td>30-10-2024</td>
+                                                    <td>INFLUENCE OF TALK SHOWS WITH CELEBRITIES OF HINDI CINEMA ON
+                                                        UNIVERSITY STUDENTS IN ASSAM: A STUDY OF TWO HIGHLY POPULAR INDIAN
+                                                        TALK SHOWS AMONG SELECTED POPULATION</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>26</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSC</td>
+                                                    <td>COMMERCE</td>
+                                                    <td>KRITI AGARWAL</td>
+                                                    <td>1181172</td>
+                                                    <td>DR. ARUNA DEV RROY</td>
+                                                    <td>PROF. (DR.) ANOOP PANDEY</td>
+                                                    <td>05-11-2024</td>
+                                                    <td>IMPACT OF CUSTOMER RELATIONSHIP MANAGEMENT PRACTICES ON CUSTOMER
+                                                        SATISFACTION AND LOYALTY - A STUDY ON RETAIL CUSTOMERS OF SELECT
+                                                        BANKS</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>27</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSAPS</td>
+                                                    <td>PHYSICS</td>
+                                                    <td>PRANAMI SARMA</td>
+                                                    <td>1190002</td>
+                                                    <td>DR. DEVIKA PHUKAN</td>
+                                                    <td>DR. ANURUP GOHAIN BARUA</td>
+                                                    <td>20-11-2024</td>
+                                                    <td>SIMULATIONS OF SOLITON TRANSMISSION IN OPTICAL FIBRE FOR LONG
+                                                        DISTANCE OPTICAL COMMUNICATION</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>28</td>
+                                                    <td>2020-21</td>
+                                                    <td>RSCOM</td>
+                                                    <td>JOURNALISM & MASS COMMUNICATION</td>
+                                                    <td>ANINDITA DEY</td>
+                                                    <td>1170666</td>
+                                                    <td>DR. ESHA CHAKRABORTY</td>
+                                                    <td>DR. RAHUL CHANDA</td>
+                                                    <td>21-11-2024</td>
+                                                    <td>THE EFFECTS OF FACEBOOK ON MARRIED COUPLES IN THE CONTEXT OF
+                                                        RELATIONAL DIALECTICS WITH SPECIAL REFERENCE TO GUWAHATI, ASSAM</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>29</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSEES</td>
+                                                    <td>GEOGRAPHY</td>
+                                                    <td>PARIMITA SAIKIA</td>
+                                                    <td>1191460</td>
+                                                    <td>PROF. (DR.) B.S.MIPUN</td>
+                                                    <td>DR. SHUKLA ACHARJEE</td>
+                                                    <td>22-11-2024</td>
+                                                    <td>GEOSPATIAL APPROACH FOR GROUNDWATER RESOURCE AND PROSPECT ZONE
+                                                        MAPPING OF KAMRUP METROPOLITAN DISTRICT, ASSAM</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>30</td>
+                                                    <td>2017-18</td>
+                                                    <td>RSCOM</td>
+                                                    <td>JOURNALISM & MASS COMMUNICATION</td>
+                                                    <td>ARNAB JAN DEKA</td>
+                                                    <td>1170719</td>
+                                                    <td>DR. RASHMI SARMAH</td>
+                                                    <td>PROF. (DR.) NARENDRA NATH SHARMA</td>
+                                                    <td>25-11-2024</td>
+                                                    <td>THE HISTORICAL NARRATIVE OF INDIAN CINEMA: A STUDY OF THE PIONEERING
+                                                        CINEMATIC INNOVATIONS OF HARISHCHANDRA SAKHARAM BHATAVADEKAR,
+                                                        RAMCHANDRA GOPAL TORNEY AND JYOTIPRASAD AGARWALA</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>31</td>
+                                                    <td>2020-21</td>
+                                                    <td>RSAPS</td>
+                                                    <td>PHYSICS</td>
+                                                    <td>PRIYANKA TALUKDAR</td>
+                                                    <td>1200002</td>
+                                                    <td>DR. DEVIKA PHUKAN</td>
+                                                    <td>PROF. (DR.) SUBRATA HAZARIKA</td>
+                                                    <td>26-11-2024</td>
+                                                    <td>STUDY OF THE VARIATION AND ANALYSIS OF OPTICAL PULSES IN OPTICAL
+                                                        COMMUNICATION MEDIUM BY SIMULATION</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>32</td>
+                                                    <td>2018-19</td>
+                                                    <td>RSB</td>
+                                                    <td>MANAGEMENT</td>
+                                                    <td>SUDIP BANIK</td>
+                                                    <td>1181170</td>
+                                                    <td>PROF. (DR.) S.P. SINGH</td>
+                                                    <td>DR. ASHUTOSH MURTI</td>
+                                                    <td>26-11-2024</td>
+                                                    <td>SOCIO-TECHNICAL SYSTEM: A STUDY OF TRIADIC ASPECT AMONG INDIVIDUAL,
+                                                        TEAM AND LOCI</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>33</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSB</td>
+                                                    <td>MANAGEMENT</td>
+                                                    <td>SANTOSH KUMAR ANAND</td>
+                                                    <td>1190009</td>
+                                                    <td>PROF. (DR.) S.P. SINGH</td>
+                                                    <td>PROF. (DR.) VIVEKANAND PANDEY</td>
+                                                    <td>26-11-2024</td>
+                                                    <td>PUBLIC AND PRIVATE FUNDING OF HIGHER EDUCATION IN INDIA: A STUDY OF
+                                                        ITS EFFECT ON QUALITY OF SELECT UNIVERSITIES IN ASSAM</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>34</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSAPS</td>
+                                                    <td>MATHEMATICS</td>
+                                                    <td>RUHUL KUDDUS AHMED</td>
+                                                    <td>1191453</td>
+                                                    <td>PROF. (DR.) KAMAL DEBNATH</td>
+                                                    <td>DR. NARAYAN NAYAK</td>
+                                                    <td>28-02-2025</td>
+                                                    <td>NON-NEWTON FLUID FLOWS OF SOME FRUIT AND VEGETABLE PRODUCTS IN FOOD
+                                                        PROCESSING INDUSTRIES OBEYING POWER-LAW FLUID MODEL.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>35</td>
+                                                    <td>2020-21</td>
+                                                    <td>RSP</td>
+                                                    <td>PHARMACY</td>
+                                                    <td>KUNAL BHATTACHARYA</td>
+                                                    <td>1201546</td>
+                                                    <td>PROF. (DR.) ATANU BHATTACHARJEE</td>
+                                                    <td>PROF. (DR.) MANODIP CHAKRABORTY</td>
+                                                    <td>28-03-2025</td>
+                                                    <td>IN-SILICO MARKER COMPOUND(S) ANALYSIS AND EVALUATION OF PHYTOSOME
+                                                        LOADED NOVEL DRUG DELIVERY SYSTEM OF PSIDIUM GUAJAVA (L) TARGETING
+                                                        ALZHEIMER'S DISEASE.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>36</td>
+                                                    <td>2019-20</td>
+                                                    <td>RSET</td>
+                                                    <td>COMPUTER SCIENCE ENGINEERING</td>
+                                                    <td>ANTARA MALAKAR</td>
+                                                    <td>1191454</td>
+                                                    <td>PROF. (DR.) ANKUR GANGULY</td>
+                                                    <td>DR. SWARNENDU KUMAR</td>
+                                                    <td>30-04-2025</td>
+                                                    <td>DESIGN AND DEVELOPMENT OF DEEP LEARNING BASED MODEL FOR PREDICTION
+                                                        OF EYE DISEASES IN NORTH EASTERN STATES OF INDIA</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>37</td>
+                                                    <td>2020-21</td>
+                                                    <td>RSP</td>
+                                                    <td>PHARMACY</td>
+                                                    <td>RAMEN KALITA</td>
+                                                    <td>1201547</td>
+                                                    <td>PROF. (DR.) BIPUL NATH</td>
+                                                    <td>PROF. (DR.) DIPANKAR SAHA</td>
+                                                    <td>30-04-2025</td>
+                                                    <td>DEVELOPMENT AND EVALUATION OF POLYHERBAL FORMULATIONS BASED ON
+                                                        POTENTIAL ETHNO MEDICINAL PLANTS OF NORTHEAST INDIA AS ANTI-DIABETIC
+                                                        PHYTOTHERAPEUTICS</td>
+                                                </tr>
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
                                     <!--Table End-->
 
                                 </div>
                             </div>
                         </div>
+
                         <div class="accordion-item mb-2">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                     Ph.D. Forms and Formats
                                 </button>
                             </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/1)FORM~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> FORM FOR CONSENT OF Ph.D. GUIDE & Ph.D.
-                                            STUDENT</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/2)APPL~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FOR SYNOPSIS (PLAN OF RESEAR
-                                            PRESENTATION)</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/3)FORM~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> FORM FOR SYNOPSIS (PLAN OF RESEARCH)
-                                            REPORT</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/4) FORM FOR Ph.D. PROGRESS REPORT.pdf" target="_blank"><i class="fa-solid fa-download"></i> FORM FOR Ph.D. PROGRESS
-                                            REPORT</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/5) APPLICATION FOR PRE-SUBMISSION SEMINAR.pdf" target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FOR
-                                            PRE-SUBMISSION SEMINAR</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/6) Ph.D. PRE-SUBMISSION SEMINAR FORM.PDF" target="_blank"><i class="fa-solid fa-download"></i> Ph.D. PRE-SUBMISSION SEMINAR
-                                            FORM</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/7) Ph.D. ABSTRACT SUBMISSION FORM.PDF" target="_blank"><i class="fa-solid fa-download"></i> Ph.D. ABSTRACT SUBMISSION
-                                            FORM</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/8) Ph.D. THESIS SUBMISSION FORM.PDF" target="_blank"><i class="fa-solid fa-download"></i> Ph.D. THESIS SUBMISSION
-                                            FORM</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/9)CHEC~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> CHECKLIST TO BE SUBMITTED WITH Ph.D. THESIS
-                                            </a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/10)NOD~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> NO DUES CERTIFICATE FOR Ph.D. THE
-                                            SUBMISSION</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/11)TOT~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> TOTAL FEE SUBMISSION CERTIFICATE FOR Ph.D.
-                                            THE
-                                            SUBMISSION</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/12)FOR~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> FORM FOR SUBMITTING THE LIST OF PROPOSED PH
-                                            THESIS EXAMINERS</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/13)REP~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> REPORT OF ORAL DEFENCE EVALUATION
-                                            COMMITTEE</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/14)APP~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FORM FOR EXTENSION OF TIME
-                                            SUBMISSION OF Ph.D. THESIS</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/15)APP~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FOR CHANGE OF
-                                            GUIDE_CO-GUIDE</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/16)APP~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FORM FOR CHANGE OF
-                                            CANDIDATURE</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/17) APPLICATION FORM FOR RE-REGISTRATION.PDF" target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FORM FOR
-                                            RE-REGISTRATION</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/18)APP~1.PDF" target="_blank"><i class="fa-solid fa-download"></i> APPLICATION FORM FOR RECOGNITION
-                                            GUIDE_CO-GUIDE FOR Ph.D. PROGRAMME</a></p>
-                                    <p class="para1"><a href="assets/img/all-phd/doctoral-programme/pdf/19) Ph.D. THESIS TEMPLATE RGU.PDF" target="_blank"><i class="fa-solid fa-download"></i> Ph.D. THESIS TEMPLATE
-                                            RGU</a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/1)-FORM-FOR-CONSENT-OF-PH.D.-GUIDE-&-PH.D.-STUDENT.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            FORM FOR CONSENT OF PH.D. GUIDE & PH.D. STUDENT
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/2)-APPLICATION-FOR-SYNOPSIS-(PLAN-OF-RESEARCH)-PRESENTATION.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            APPLICATION FOR SYNOPSIS (PLAN OF RESEARCH) PRESENTATION
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/3)-FORM-FOR-SYNOPSIS-(PLAN-OF-RESEARCH)-REPORT.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            SYNOPSIS (PLAN OF RESEARCH)
+                                        </a></p>
+                                    <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/4)-FORM-FOR-PH.D.-PROGRESS-REPORT.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            PH.D. PROGRESS REPORT
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/5)-APPLICATION-FOR-PRE-SUBMISSION-SEMINAR.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            APPLICATION FOR PRE-SUBMISSION SEMINAR
+                                        </a></p>
+                                    <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/6)-PH.D.-PRE-SUBMISSION-SEMINAR-FORM.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            PH.D. PRE-SUBMISSION SEMINAR FORM
+                                        </a></p>
+                                    <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/7)-PH.D.-ABSTRACT-SUBMISSION-FORM.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            PH.D. ABSTRACT SUBMISSION FORM
+                                        </a></p>
+                                    <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/8)-PH.D.-THESIS-SUBMISSION-FORM.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            Office of the Controller of Examination - PH.D. THESIS SUBMISSION FORM
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/9)-CHECKLIST-TO-BE-SUBMITTED-WITH-PH.D.-THESIS.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            CHECKLIST TO BE SUBMITTED WITH PH.D. THESIS
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/10)-NO-DUES-CERTIFICATE-FOR-Ph.D.-THESIS-SUBMISSION.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            NO DUES CERTIFICATE FOR PH.D. THESIS SUBMISSION
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/11)-TOTAL-FEE-SUBMISSION-CERTIFICATE-FOR-PH.D.-THESIS-SUBMISSION.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            TOTAL FEE SUBMISSION CERTIFICATE FOR PH.D. THESIS SUBMISSION
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/12)-FORM-FOR-SUBMITTING-THE-LIST-OF-PROPOSED-PH.D.-THESIS-EXAMINERS.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            FORM FOR SUBMITTING THE LIST OF PROPOSED PH.D. THESIS EXAMINERS
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/13)-REPORT-OF-ORAL-DEFENCE-EVALUATION-COMMITTEE.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            REPORT OF ORAL DEFENCE EVALUATION COMMITTEE
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/14)-APPLICATION-FORM-FOR-EXTENSION-OF-TIME-FOR-SUBMISSION-OF-PH.D.-THESIS.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            APPLICATION FORM FOR EXTENSION OF TIME FOR SUBMISSION OF PH.D. THESIS
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/15)-APPLICATION-FOR-CHANGE-OF-GUIDE_CO-GUIDE.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            APPLICATION FOR CHANGE OF GUIDE/ CO-GUIDE
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/16)-APPLICATION-FORM-FOR-CHANGE-OF-CANDIDATURE.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            APPLICATION FORM FOR CHANGE OF CANDIDATURE
+                                        </a></p>
+                                    <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/17)-APPLICATION-FORM-FOR-RE-REGISTRATION.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            APPLICATION FORM FOR RE-REGISTRATION
+                                        </a></p>
+                                    <p class="para1"><a
+                                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/18)-APPLICATION-FORM-FOR-RECOGNITION-AS-GUIDE_CO-GUIDE-FOR-PH.D.-PROGRAMME.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            APPLICATION FORM FOR RECOGNITION AS GUIDE / CO-GUIDE FOR PH.D. PROGRAMME
+                                        </a></p>
+                                    <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/19)-PH.D.-THESIS-TEMPLATE-RGU.pdf"
+                                            target="_blank"><i class="fa-solid fa-download"></i>
+                                            The Importance of Research in Academia Beyond Just a Degree
+                                        </a></p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="accordion-item mb-2">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">

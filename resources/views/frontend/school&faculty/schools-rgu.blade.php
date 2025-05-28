@@ -266,9 +266,9 @@
                         <a href="{{route('royal-s-school-of-design')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        {{-- <a href="{{route('faculty-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="{{route('faculty-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a> --}}
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -370,9 +370,9 @@
                         <a href="royal-s-school-of-humanities" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        {{-- <a href="{{route('faculty-humanities-social')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="{{route('faculty-humanities-social')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a> --}}
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -390,9 +390,9 @@
                         <a href="{{route('department-hotel-management')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        {{-- <a href="{{route('faculty-hotel-management')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="{{route('faculty-hotel-management')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a> --}}
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -410,9 +410,9 @@
                         <a href="{{route('department-information-technology')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        {{-- <a href="{{route('faculty-information-technology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="{{route('faculty-information-technology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a> --}}
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -430,9 +430,9 @@
                         <a href="{{route('department-law')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        {{-- <a href="{{route('faculty-law-administration')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="{{route('faculty-law-administration')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a> --}}
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -470,9 +470,9 @@
                         <a href="{{route('department-languages')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        {{-- <a href="{{route('faculty-languages')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="{{route('faculty-languages')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a> --}}
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -490,9 +490,9 @@
                         <a href="{{route('department-library-information')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        {{-- <a href="{{route('faculty-librarysciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="{{route('faculty-librarysciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a> --}}
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -873,9 +873,9 @@
                       <a class="para1" href="{{route('royal-s-school-of-design')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      {{-- <a class="para1" href="{{route('faculty-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      <a class="para1" href="{{route('faculty-design')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a> --}}
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -977,9 +977,9 @@
                       <a class="para1" href="royal-s-school-of-humanities" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      {{-- <a class="para1" href="{{route('faculty-humanities-social')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      <a class="para1" href="{{route('faculty-humanities-social')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a> --}}
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -997,9 +997,9 @@
                       <a class="para1" href="{{route('department-hotel-management')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      {{-- <a class="para1" href="{{route('faculty-hotel-management')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      <a class="para1" href="{{route('faculty-hotel-management')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a> --}}
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -1017,9 +1017,9 @@
                       <a class="para1" href="{{route('department-information-technology')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      {{-- <a class="para1" href="{{route('faculty-information-technology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      <a class="para1" href="{{route('faculty-information-technology')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a> --}}
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -1037,9 +1037,9 @@
                       <a class="para1" href="{{route('department-law')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      {{-- <a class="para1" href="{{route('faculty-law-administration')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      <a class="para1" href="{{route('faculty-law-administration')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a> --}}
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -1077,9 +1077,9 @@
                       <a class="para1" href="{{route('department-languages')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      {{-- <a class="para1" href="{{route('faculty-languages')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      <a class="para1" href="{{route('faculty-languages')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a> --}}
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -1097,9 +1097,9 @@
                       <a class="para1" href="{{route('department-library-information')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      {{-- <a class="para1" href="{{route('faculty-librarysciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      <a class="para1" href="{{route('faculty-librarysciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a> --}}
+                      </a>
                     </div>
                   </div>
                 </div>

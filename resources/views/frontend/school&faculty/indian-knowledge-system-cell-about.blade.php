@@ -72,7 +72,7 @@
 
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-4 pb-4"
                 style="color: #27467A; font-weight: 900;">
-                Indian Knowledge Systems (IKS) <span style="color: #FF9A1E; font-weight: 500;">Cell</span></h2>
+                Indian Knowledge Systems (IKS)</h2>
 
 
             <div class="container"
@@ -86,14 +86,6 @@
                             <h3 class="text-dark headd3 fw-bold mb-4"
                                 style="border-bottom: 2px solid #4a90e2; padding-bottom: 5px;">Indian Knowledge Systems (IKS)
                             </h3>
-                            <p class="para1 text-dark" style="line-height: 1.8;">The Indian Knowledge Systems (IKS), rooted
-                                in the principle of <strong style="font-style: italic !important;">"Gyan Vigyan Vimuktaye"</strong> (knowledge liberates),
-                                encompasses a wide array of traditional knowledge domains from ancient India, such as
-                                science, art, philosophy, health, geography, and economy, reflecting the holistic nature of
-                                India's traditional knowledge.</p>
-                            <p class="para1 text-dark" style="line-height: 1.8;">The Assam Royal Global University formally
-                                established an IKS Cell on <strong>24th January 2024</strong>, consisting of members
-                                committed to advancing this knowledge system.</p>
                             <p class="para1 text-dark" style="line-height: 1.8; text-align: justify;">Bridging Ancient Wisdom with Contemporary Thought
                             The Indian Knowledge Systems (IKS) embodies the profound synergy between ancient wisdom and modern innovation. Far from
                             being confined to the past, IKS offers a timeless framework for understanding the world—rooted in indigenous
@@ -102,7 +94,7 @@
                             IKS serves as a vital knowledge ecosystem that speaks to today’s global challenges.
                                 </p>
 
-                                <p class="para1 text-dark" style="line-height: 1.8; text-align: justify;">With the guiding principle of Gyan Vigyan Vimuktaye —knowledge and science as pathways to liberation—IKS champions
+                                <p class="para1 text-dark" style="line-height: 1.8; text-align: justify;">With the guiding principle of <span style="font-style: italic">Gyan Vigyan Vimuktaye</span> —knowledge and science as pathways to liberation—IKS champions
                                 integrative thought, fostering dialogue between classical insights and contemporary disciplines. The Assam Royal Global
                                 University, through its IKS Cell established on 24th January 2024, envisions this knowledge not as relics of the past,
                                 but as living traditions—to be studied, applied, and evolved. As the world seeks sustainable, inclusive, and ethical
@@ -128,7 +120,7 @@
 
                             <p class="para1 text-dark fw-bold" style="line-height: 1.8; text-align: justify;">Academic Integration</p>
                             <p class="para1 text-dark" style="line-height: 1.8; text-align: justify;">Embed IKS principles across academic curricula—including but not limited to philosophy, agriculture, mathematics,
-                            natural science, vernacular architecture, linguistics, literature, medicine (Ayurveda), yoga, folklore, and
+                            natural science, vernacular architecture, linguistics, literature, <span style="font-style: italic">Ayurveda, yoga</span>, folklore, and
                             environmental studies—through collaborations with national and global IKS networks, research bodies, and archives.
                             </p>
 
@@ -187,7 +179,7 @@
 
                                 <h3 class="text-dark headd3 fw-bold mb-4" style="border-bottom: 2px solid #4a90e2; padding-bottom: 5px;">Outcome and Impact:</h3>
                                 <p class="para1 text-dark" style="line-height: 1.8; text-align: justify;">This integrated initiative nurtures leadership, empathy, field experience, and interdisciplinary skills, while
-                                contributing directly to the national vision of Bharatiya Gyan Parampara as a driver of innovation and sustainability.
+                                contributing directly to the national vision of <span style="font-style: italic">Bharatiya Gyan Parampara</span> as a driver of innovation and sustainability.
                                 Interns become ambassadors of change, working at the intersection of heritage, research, and community transformation.</p>
 
                                 <h3 class="text-dark headd3 fw-bold mb-4" style="border-bottom: 2px solid #4a90e2; padding-bottom: 5px;">Scholarly Publication and Dissemination</h3>
