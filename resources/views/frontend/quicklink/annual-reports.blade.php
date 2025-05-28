@@ -32,7 +32,7 @@
                     <div class="col-lg-4 mb-4">
 
                         <a target="_blank"
-                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Annual%20Reporta%202021-22-min.pdf">
+                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Annual%20Report%202021-22-min.pdf">
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
 
@@ -153,7 +153,7 @@
                     <div class="col-lg-4 mb-4">
 
                         <a target="_blank"
-                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Annual%20Reporta%202021-22-min.pdf">
+                            href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Annual%20Report%202021-22-min.pdf">
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
 
