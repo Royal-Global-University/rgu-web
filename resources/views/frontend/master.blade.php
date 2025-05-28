@@ -1233,6 +1233,10 @@
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Brochure 2025 - 2026
                                                     </p>
                                                 </a>
+                                                <a href="annual-report">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Annual Report
+                                                    </p>
+                                                </a>
 
                                             </div>
 

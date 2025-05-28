@@ -3,7 +3,7 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <section
-            style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/bg.svg); background-size: cover;">
+            style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/bg.svg); background-size: cover; padding-top: 120px; position: relative;">
 
             <h2 class="headd2 fw-bold text-center kd-title-ani kd-split-text pt-4"
                 style="color: #27467A; font-weight: 900;">
@@ -126,7 +126,7 @@
         <section
             style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/mom/bg.svg); background-size: cover;">
 
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-4"
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
                 style="color: #27467A; font-weight: 900;">
                 Annual <span style="color: #FF9A1E; font-weight: 500;">Report</span></h2>
 
