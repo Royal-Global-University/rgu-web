@@ -18,13 +18,24 @@
                                 <img style="width: 800px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-cell/banner.png" />
                             </div>
                             <p class="para1" style="text-align: justify; color: #13223b;">
+                                The Ph.D. Cell at The Assam Royal Global University serves as the administrative backbone of the doctoral research
+                                programs. Its primary responsibility is to ensure a structured, transparent, and supportive environment for smooth
+                                conduct and completion of research leading to the Ph.D. degree. The Ph.D. Cell works in close coordination with the RGU
+                                Examination Cell with the objective of promoting academic excellence and compliance with institutional standards, rules
+                                and regulations. By effectively carrying out its assigned roles and responsibilities, the Ph.D. Cell contributes
+                                significantly to facilitate the academic and professional development of doctoral scholars ensuring maintenance of the
+                                highest standards of research. The Ph. D. Cell maintains the documents and records relating to each Ph.D. student
+                                through close coordination with the Departmental/ Centre Research Committees. This structured framework aims to ensure
+                                that every Ph.D. student receives comprehensive support throughout their academic journey, fostering a culture of
+                                innovation, collaboration, and ethics.
+                                {{-- <br>
                                 The Ph.D. Cell of the Assam Royal Global University plays a
                                 crucial role in coordinating
                                 doctoral research activities, overseeing policy implementation, and ensuring compliance with
                                 UGC
                                 guidelines. The
                                 current composition of the Ph.D. Cell was reconstituted through a notification dated
-                                30/11/2023.
+                                30/11/2023. --}}
                             </p>
                         </div>
                     </div>
@@ -166,14 +177,17 @@
                                 <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-3 pb-5 text-center"
                                     style="color: #27467A; font-weight: 900;">
                                     Ph.D. <span style="color: #FF9A1E; font-weight: 500;">Cell</span></h2>
-                                <p style="text-align: justify; color: #13223b; font-size: 24px; line-height: 1.5;">
-                                    The Ph.D. Cell of the Assam Royal Global University plays a
-                                    crucial role in coordinating
-                                    doctoral research activities, overseeing policy implementation, and ensuring compliance with
-                                    UGC
-                                    guidelines. The
-                                    current composition of the Ph.D. Cell was reconstituted through a notification dated
-                                    30/11/2023.</p>
+                                <p style="text-align: justify; color: #13223b; font-size: 20px; line-height: 1.5;">
+                                    The Ph.D. Cell at The Assam Royal Global University serves as the administrative backbone of the doctoral research
+                                    programs. Its primary responsibility is to ensure a structured, transparent, and supportive environment for smooth
+                                    conduct and completion of research leading to the Ph.D. degree. The Ph.D. Cell works in close coordination with the RGU
+                                    Examination Cell with the objective of promoting academic excellence and compliance with institutional standards, rules
+                                    and regulations. By effectively carrying out its assigned roles and responsibilities, the Ph.D. Cell contributes
+                                    significantly to facilitate the academic and professional development of doctoral scholars ensuring maintenance of the
+                                    highest standards of research. The Ph. D. Cell maintains the documents and records relating to each Ph.D. student
+                                    through close coordination with the Departmental/ Centre Research Committees. This structured framework aims to ensure
+                                    that every Ph.D. student receives comprehensive support throughout their academic journey, fostering a culture of
+                                    innovation, collaboration, and ethics.</p>
                             </div>
                         </div>
                     </div>
