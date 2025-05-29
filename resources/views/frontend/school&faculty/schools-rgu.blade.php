@@ -105,10 +105,10 @@
                                         style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                         Department
                                     </a>
-                                    {{-- <a href="{{route('faculty-csp')}}"
+                                    <a href="{{route('faculty-csp')}}"
                                         style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                         Faculty
-                                    </a> --}}
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -206,9 +206,9 @@
                         <a href="{{route('royal-s-school-of-bio-science')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Department
                         </a>
-                        {{-- <a href="{{route('faculty-bio-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                        <a href="{{route('faculty-bio-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                           Faculty
-                        </a> --}}
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -704,7 +704,7 @@
                             src="mobile-assets/school-rgu/ias-banner.png" class="img-fluid rounded" />
                     </div>
                     <div class="card-body d-flex flex-column flex-grow-1">
-                        <h5 style="font-weight: 600; color: #27467A; font-size: 23px !important;" class="card-title pb-4 fw-bold">Integrated Civil Service Programme
+                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Integrated Civil Service Programme
                         </h5>
                         <div class="mt-auto mb-4">
                             <div class="text-center">
@@ -712,10 +712,10 @@
                                     style="background-color: #27467A; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                     Department
                                 </a>
-                                {{-- <a href="{{route('faculty-csp')}}"
+                                <a href="{{route('faculty-csp')}}"
                                     style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 600; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                     Faculty
-                                </a> --}}
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -813,9 +813,9 @@
                       <a class="para1" href="{{route('royal-s-school-of-bio-science')}}" style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Department
                       </a>
-                      {{-- <a class="para1" href="{{route('faculty-bio-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                      <a class="para1" href="{{route('faculty-bio-sciences')}}" style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                         Faculty
-                      </a> --}}
+                      </a>
                     </div>
                   </div>
                 </div>
