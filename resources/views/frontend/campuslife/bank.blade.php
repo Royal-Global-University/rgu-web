@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Banking service : The Assam Royal Global University')
+@section('meta_description', 'Explore comprehensive banking services at Royal Global University designed to support students and staff with convenient, secure, and seamless financial solutions on campus.')
+@section('meta_keywords', 'Banking service')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

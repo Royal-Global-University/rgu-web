@@ -7,18 +7,25 @@
                 Architecture
             </a>
         </div>
-        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+        {{-- <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
             <a href="{{ route('doctoral-biochemistry') }}" target="_blank"
                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                 Bio-Chemistry
             </a>
-        </div>
+        </div> --}}
         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
             <a href="doctoral-biotechnology" target="_blank"
                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                 Bio-Technology
+            </a>
+        </div>
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="doctoral-management" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Business Administration
             </a>
         </div>
         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
@@ -46,7 +53,7 @@
             <a href="doctoral-com-sc-engg" target="_blank"
                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
-                Computer Science & Engineering
+                Computer Applications
             </a>
         </div>
         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
@@ -78,12 +85,47 @@
             </a>
         </div>
         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="#" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Food Technology
+            </a>
+        </div>
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="#" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Forensic Science
+            </a>
+        </div>
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="#" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Forestry
+            </a>
+        </div>
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="#" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Geoinformatics
+            </a>
+        </div>
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="doctoral-hotel-management" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Hotel Management
+            </a>
+        </div>
+        {{-- <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
             <a href="doctoral-environmental" target="_blank"
                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
                 Environmental Science
             </a>
-        </div>
+        </div> --}}
         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
             <a href="doctoral-fine-arts" target="_blank"
                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
@@ -114,12 +156,61 @@
         </div>
 
         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="doctoral-com-sc-engg" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Information Technology
+            </a>
+        </div>
+
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="doctoral-indian-knowledge-sys" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Indian Knowledge System
+            </a>
+        </div>
+
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
             <a href="#" target="_blank"
                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
-                Computer Technology & IT
+                Mathematics
             </a>
         </div>
+
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="#" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Mechanical Engineering
+            </a>
+        </div>
+
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="#" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Nutrition & Dietetics
+            </a>
+        </div>
+
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="#" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Physiotherapy
+            </a>
+        </div>
+
+        <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
+            <a href="#" target="_blank"
+                class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
+                style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
+                Medical Laboratory Technology
+            </a>
+        </div>
+
         <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
             <a href="doctoral-mass-comm-journalism" target="_blank"
                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"

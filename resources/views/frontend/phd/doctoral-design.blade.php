@@ -1,108 +1,214 @@
 @extends('frontend.master')
 @section('content')
-         <div class="mobile">
-            @include('frontend/components/mobileheader')
-        <img style="padding-top: 90px; position: relative;" src="mobile-assets/phd-mobile/mob-design.png" alt="">
-
-        <div class="container pb-3 pt-3" style="background-color: #f0f8ff;">
-            <h2 class="mobile-headd2 text-dark">
-                Ph.D. Curriculum
-            </h2>
-
-            @include('frontend/components/phddeptmob')
-        </div>
-     </div>
-
-     <div class="website">
-
-        <div id="page" class="site site_wrapper">
-
-            <div class="scroll-top">
-                <div class="scroll-top-wrap">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg" data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                        </path>
-                    </svg>
-                </div>
-            </div>
-
-            <!--Start Header-->
-            @include('frontend/components/aheader')
-            <!--End Header-->
-
-            <!--About Section-->
-            <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-                <section style="background-image: url(mobile-assets/phd-mobile/bgg.svg); background-size: cover; padding-top: 30px;" class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f481aaf" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-968af55" data-id="968af55" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-4878838 elementor-widget elementor-widget-go-img--bx" data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                            <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                                <img decoding="async" src="mobile-assets/phd-mobile/headimg.jpeg" alt="">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9b49111" data-id="9b49111" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-c8de01e elementor-widget elementor-widget-go-s-heading" data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="prthalign">
-                                            <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text">
-                                                Design</h1>
-                                            <div class="para1 text-dark kd-para-1 disc" data-splitting style="text-align: justify;">
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <section style="padding: 110px 10px; background-image: url(mobile-assets/placement-all/mobile-bg.svg);">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <h2 class="mobile-headd2 kd-title-ani kd-split mb-4 text-center"
+                            style="color: #264273; font-weight: 700;">
+                            About <span style="color: #FF9A1E; font-weight: 500;">
+                                Department</span> </h2>
+                        <div class="txaa-slide-down-1">
+                            <div style="border: 1px solid #27467A; height: 320px; width: 100%;"
+                                class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/hotel/headimg.jpeg"
+                                    alt="">
                             </div>
                         </div>
                     </div>
-                </section>
-                <hr>
-            </div>
-            <!--End About-->
+                    <div class="col-lg-12">
 
+                        <p class="para1 pt-3" style="color: #264273; text-align: justify;">
+                            The Ph.D. programme in Design offers a rigorous and interdisciplinary program aimed at advancing knowledge and innovation in design research, practice, and theory. The program provides a platform for scholars to explore complex design problems across domains such as product design, communication design, sustainability, and social innovation.
+                        </p>
+
+                        <p class="para1" style="color: #264273; text-align: justify;">
+                           Ph.D. candidates are encouraged to engage in original research that contributes to the academic body of knowledge while addressing real-world challenges. The department supports a research-driven environment with access to state-of-the-art facilities, experienced faculty, and a collaborative culture that spans across design, technology, and the humanities.
+                        </p>
+
+                        <h2 style="color: #333;" class="headd3 fw-bold pt-3 pb-2">
+                            Key research areas include:
+                        </h2>
+
+                        <div class="table-responsive">
+                <table class="table table-bordered text-dark bg-white">
+                    <thead class="fw-bold headd3 text-white" style="background-color: #264273;">
+                        <tr>
+                            <th style="width: 100px;">Sl. No.</th>
+                            <th>Research <Area></Area></th>
+                        </tr>
+                    </thead>
+                    <tbody class="para1 text-dark">
+
+                        <tr>
+                            <td>1</td>
+                            <td>Sustainable and inclusive design</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Design for social innovation</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Design theory and methodology</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Design education and practice</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                        </div>
+
+                        <p class="para1" style="color: #264273; text-align: justify;">
+                            The program is ideal for candidates with a background in design or related fields who are passionate about shaping the future of design through research, scholarship, and teaching.
+                        </p>
+
+                        <h2 style="color: #333;" class="headd3 fw-bold pt-4 pb-2">
+                            Ph.D. Guides and Research Interests:
+                        </h2>
+
+                        <div class="bg-white card">
+                            <div class="row p-3">
+                                <div class="col-lg-2">
+                                    <img style="height: 200px; width: 200px;"
+                                        src="mobile-assets/phd-mobile/doctoral-design/1.png" alt="">
+                                </div>
+                                <div class="col-lg-10">
+                                    <h2 class="headd3 fw-bold pt-3" style="color: #264273; font-size: 30px;">
+                                    Dr. Susmita Nath
+                                    </h2>
+
+                                    <!-- <p class="para1 fw-bold text-dark">Assistant Professor & Co-Coordinator, IKS Cell</p> -->
+
+                                    <p class="para1 text-dark"><strong> Research Interests:</strong>
+                                        Physical Ergonomics (Product and Workstation design), Cognitive Ergonomics (Information processing), Design and work environment, Design and Occupational Health, Sustainable Design
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="website">
+        <div id="page" class="site site_wrapper">
+            @include('frontend/components/aheader')
+            <section
+                style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/iks/bgg.svg); background-size: cover; padding: 50px 0px;">
+                <div class="container">
+                    <div class="row align-items-center gx-5">
+                        <div class="col-lg-6">
+                            <div class="kd-about-3-img-wrap txaa-slide-down-1">
+                                <div style="border: 2px solid #27467A;"
+                                    class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                    <img class="rounded" decoding="async"
+                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/hotel/headimg.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+
+                            <h2 class="headd2 fw-bold mt-3" style="color: #264273; font-weight: 700;">
+                                About <span style="color: #FF9A1E; font-weight: 500;">
+                                    Department</span> </h2>
+
+                            <p class="para1" style="color: #264273; text-align: justify;">
+                                The Ph.D. programme in Design offers a rigorous and interdisciplinary program aimed at
+                                advancing knowledge and innovation in design research, practice, and theory. The program
+                                provides a platform for scholars to explore complex design problems across domains such
+                                as product design, communication design, sustainability, and social innovation.
+                            </p>
+
+                            <p class="para1" style="color: #264273; text-align: justify;">
+                                Ph.D. candidates are encouraged to engage in original research that contributes to the
+                                academic body of knowledge while addressing real-world challenges. The department
+                                supports a research-driven environment with access to state-of-the-art facilities,
+                                experienced faculty, and a collaborative culture that spans across design, technology,
+                                and the humanities.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
 
         </div>
+
 
         <div style="padding: 40px 60px;">
 
-            <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
+            <h2 style="color: #333;" class="headd2 fw-bold pt-4 pb-2">
+                Key research areas include:
+            </h2>
 
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3" style="align-items: center;">
+            <div class="table-responsive">
+                <table class="table table-bordered text-dark bg-white">
+                    <thead class="fw-bold headd3 text-white" style="background-color: #264273;">
+                        <tr>
+                            <th style="width: 100px;">Sl. No.</th>
+                            <th>Research <Area></Area></th>
+                        </tr>
+                    </thead>
+                    <tbody class="para1 text-dark">
+
+                        <tr>
+                            <td>1</td>
+                            <td>Sustainable and inclusive design</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Design for social innovation</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Design theory and methodology</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Design education and practice</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="para1" style="color: #264273; text-align: justify;">
+                The program is ideal for candidates with a background in design or related
+                fields who are passionate about shaping the future of design through research, scholarship, and teaching.
+            </p>
+
+            <h2 style="color: #333;" class="headd2 fw-bold pt-3 pb-2">
+                Ph.D. Guides and Research Interests:
+            </h2>
+
+            <div class="bg-white card">
+                <div class="row p-3">
                     <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-design/1.png" alt="">
+                        <img style="height: 200px; width: 200px;" src="mobile-assets/phd-mobile/doctoral-design/1.png" alt="">
                     </div>
-                    <div class="col-lg-8">
-                        <h2 class="headd3 fw-bold text-dark">Dr. Sushmita Nath</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
+                    <div class="col-lg-10">
+                        <h2 class="headd3 fw-bold" style="color: #264273; font-size: 30px;">Dr. Susmita Nath</h2>
+                        <!-- <p class="para1 fw-bold text-dark">Assistant Professor & Co-Coordinator, IKS Cell</p> -->
 
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                        <ol class="text-dark para1">
-                            <li>Design for Sustainability</li>
-                            <li>Product and workstation design</li>
-                            <li>Design and work environment</li>
-                            <li>Design and Occupational Health</li>
-                        </ol>
+                        <p class="para1 text-dark"><strong> Research Interests:</strong>
+                            Physical Ergonomics (Product and Workstation design), Cognitive Ergonomics (Information processing), Design and work environment, Design and Occupational Health, Sustainable Design
                         </p>
                     </div>
                 </div>
             </div>
-
-            <div class="headd2 fw-bold text-dark pt-5 kd-title-ani kd-split-text">Ph.D. Curriculum</div>
-
-            @include('frontend/components/phddeptweb')
-
+            <!-- Insert PHD Curriculum here  -->
         </div>
-     </div>
+    </div>
 @endsection

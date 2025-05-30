@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Medical Facility : The Assam Royal Global University')
+@section('meta_description', 'Royal Global University provides on-campus medical facilities with qualified professionals to ensure prompt healthcare support for students and staff.')
+@section('meta_keywords', 'Medical Facility')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

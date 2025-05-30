@@ -98,7 +98,7 @@
         </div>
         </div>
 
-         <div class="col-lg-3 mb-4">
+         {{-- <div class="col-lg-3 mb-4">
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
@@ -112,22 +112,31 @@
                   <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <div class="col-lg-3 mb-4">
 
-    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-        <div class="p-3">
-          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/6.png" class="img-fluid rounded"/>
-        </div>
-        <div class="card-body d-flex flex-column flex-grow-1">
-          <h5 style="font-weight: 700; color: #27467A; " class="card-title headd2 pb-2">Sr. Adv. Angshuman Bora</h5>
-        <p class="para1" style="color: #27467A; line-height: 1.3; ">Sr. Advocate, <br> Gauhati High Court Guwahati</p>
+            <div class="card rounded d-flex flex-column"
+                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                <div class="p-3">
+                    <img style="height: 290px; width: 100%;"
+                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/9.png"
+                        class="img-fluid rounded" />
+                </div>
+                <div class="card-body d-flex flex-column flex-grow-1">
+                    <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) A.K. Buragohain
+                    </h5>
+                    <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 15px;">
+                        Chairperson Academic, The Assam Royal Global University; Former Chancellor, Girijananda Chowdhury
+                        University; Former Vice-Chancellor, Dibrugarh University
+                    </p>
 
-          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                </div>
+            </div>
         </div>
-    </div>
-        </div>
+
+
 
         <div class="col-lg-3 mb-4">
 
@@ -148,21 +157,22 @@
 
         <div class="col-lg-3 mb-4">
 
-            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+            <div class="card rounded d-flex flex-column"
+                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/9.png" class="img-fluid rounded"/>
+                    <img style="height: 290px; width: 100%;"
+                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/6.png"
+                        class="img-fluid rounded" />
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
-                  <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) A.K. Buragohain
-                </h5>
-                <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 15px;">
-                  Chairperson Academic, The Assam Royal Global University; Former Chancellor, Girijananda Chowdhury University; Former Vice-Chancellor, Dibrugarh University
-                </p>
+                    <h5 style="font-weight: 700; color: #27467A; " class="card-title headd2 pb-2">Sr. Adv. Angshuman Bora</h5>
+                    <p class="para1" style="color: #27467A; line-height: 1.3; ">Sr. Advocate, <br> Gauhati High Court Guwahati
+                    </p>
 
-                  <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
                 </div>
-            </div>
-        </div>
+            </div>  </div>
+
 
         <div class="col-lg-3 mb-4">
 
@@ -325,7 +335,7 @@
 
         <div class="row pt-3" style="display: flex; align-items: center; justify-content: center; gap: 230px;">
 
-        <div class="col-lg-3 mb-4">
+        {{-- <div class="col-lg-3 mb-4">
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                 <div class="p-3">
@@ -339,79 +349,92 @@
                   <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <div class="col-lg-3 mb-4">
 
-    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-        <div class="p-3">
-          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/6.png" class="img-fluid rounded"/>
-        </div>
-        <div class="card-body d-flex flex-column flex-grow-1">
-          <h5 style="font-weight: 700; color: #27467A; " class="card-title headd2 pb-2">Sr. Adv. Angshuman Bora</h5>
-        <p class="para1" style="color: #27467A; line-height: 1.3; ">Sr. Advocate, <br> Gauhati High Court Guwahati</p>
-
-          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-        </div>
-    </div>
-        </div>
-
-        </div>
-
-        <div class="row pt-3" style="display: flex; align-items: center; justify-content: center; gap: 70px;">
-
-        <div class="col-lg-3 mb-4">
-
-            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+            <div class="card rounded d-flex flex-column"
+                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/7.png" class="img-fluid rounded"/>
+                    <img style="height: 290px; width: 100%;"
+                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/9.png"
+                        class="img-fluid rounded" />
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
-                  <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ankur Pansari
-                </h5>
-                <p class="para1" style="color: #27467A; line-height: 1.3;">Executive Vice-President, <br>
-                    Gyan Sagar Foundation</p>
+                    <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) A.K. Buragohain
+                    </h5>
+                    <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 15px;">
+                        Vice-Chancellor, The Assam Royal Global University; Former Chancellor, Girijananda Chowdhury
+                        University; Former Vice-Chancellor, Dibrugarh University
+                    </p>
 
-                  <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
                 </div>
             </div>
         </div>
 
         <div class="col-lg-3 mb-4">
 
-            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+            <div class="card rounded d-flex flex-column"
+                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/9.png" class="img-fluid rounded"/>
+                    <img style="height: 290px; width: 100%;"
+                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/7.png"
+                        class="img-fluid rounded" />
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
-                  <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) A.K. Buragohain
-                </h5>
-                <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 15px;">
-                  Chairperson Academic, The Assam Royal Global University; Former Chancellor, Girijananda Chowdhury University; Former Vice-Chancellor, Dibrugarh University
-                </p>
+                    <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ankur Pansari
+                    </h5>
+                    <p class="para1" style="color: #27467A; line-height: 1.3;">Executive Vice-President, <br>
+                        Gyan Sagar Foundation</p>
 
-                  <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-3 mb-4">
 
-            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/8.png" class="img-fluid rounded"/>
-                </div>
-                <div class="card-body d-flex flex-column flex-grow-1">
-                  <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr) S. P. Singh
-                </h5>
-                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                  Director General (Vice Chancellor) <br> Kaushalya The Skill University, Ahmedabad
-                </p>
 
-                  <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+        </div>
+
+        <div class="row pt-3" style="display: flex; align-items: center; justify-content: center; gap: 230px;">
+
+            <div class="col-lg-3 mb-4">
+
+                <div class="card rounded d-flex flex-column"
+                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                    <div class="p-3">
+                        <img style="height: 290px; width: 100%;"
+                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/6.png"
+                            class="img-fluid rounded" />
+                    </div>
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                        <h5 style="font-weight: 700; color: #27467A; " class="card-title headd2 pb-2">Sr. Adv. Angshuman Bora</h5>
+                        <p class="para1" style="color: #27467A; line-height: 1.3; ">Sr. Advocate, <br> Gauhati High Court Guwahati
+                        </p>
+
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                    </div>
                 </div>
             </div>
-        </div>
+
+            <div class="col-lg-3 mb-4">
+
+                <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                    <div class="p-3">
+                    <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/8.png" class="img-fluid rounded"/>
+                    </div>
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                    <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr) S. P. Singh
+                    </h5>
+                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                    Director General (Vice Chancellor) <br> Kaushalya The Skill University, Ahmedabad
+                    </p>
+
+                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
 

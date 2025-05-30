@@ -1096,11 +1096,11 @@
                                                                 India
                                                             </li>
                                                             <!-- <li class="item">
-                                                                            <span class="icon">
-                                                                                <i aria-hidden="true" class="fas fa-phone-alt"></i>
-                                                                            </span>
-                                                                            +91 70860-93458
-                                                                        </li> -->
+                                                                                <span class="icon">
+                                                                                    <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                                                                </span>
+                                                                                +91 70860-93458
+                                                                            </li> -->
 
 
 
@@ -1257,9 +1257,10 @@
                                                 <a href="happy-happening">
                                                     <p class="m-0 text-white" style="font-size: 18px;">Campus Visit</p>
                                                 </a>
-                                                <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/vc-report.pdf">
+                                                {{-- <a
+                                                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/vc-report.pdf">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">VC Report</p>
-                                                </a>
+                                                </a> --}}
                                                 <a href="https://heyzine.com/flip-book/fd544660d3.html">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Brochure 2025 -
                                                         2026
@@ -1270,8 +1271,21 @@
 
                                             <div class="col-lg-3">
                                                 <a href="iqac-overview">
-                                                    <p class="m-0 text-white" style="font-size: 18px;">IQAC</p>
+                                                    <p class="m-0 text-white" style="font-size: 18px;">Cell and Committees
+                                                    </p>
                                                 </a>
+                                                <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
+                                                        Dropdown button
+                                                    </button>
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </div>
+                                                </div>
                                                 <a href="https://heyzine.com/flip-book/adfd7889ba.html">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">International
                                                         Brochure 2025 -

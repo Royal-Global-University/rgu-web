@@ -109,12 +109,8 @@
                 <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
                     <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
                         <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-journalism-mass-comm/3.jpeg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Randhir Gogoi</h2>
+                        <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Rashmi Sarmah</h2>
                         <p class="para1 text-dark">Ph.D.</p>
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Geography of tourism, Cultural Geography, , Developmental studies
-                        </p>
                         </div>
                 </div>
 

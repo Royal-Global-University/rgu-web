@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Hangouts : The Assam Royal Global University')
+@section('meta_description', 'Experience the social side of campus at Royal Global University with dynamic hangout zones that foster friendships, collaboration, and relaxation.')
+@section('meta_keywords', 'Hangouts')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

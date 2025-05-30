@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Student Gallery : The Assam Royal Global University')
+@section('meta_description', 'Explore the Student Gallery at Royal Global University — a vibrant space showcasing student achievements, creative work, and campus life highlights.')
+@section('meta_keywords', 'Student Gallery')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

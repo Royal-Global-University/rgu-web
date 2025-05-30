@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Departmental Store : The Assam Royal Global University')
+@section('meta_description', 'Royal Global University’s departmental store caters to students and staff with essential goods, academic supplies, personal care items, and more — all in one place.')
+@section('meta_keywords', 'Departmental Store')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

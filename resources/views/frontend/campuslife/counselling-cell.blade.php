@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Counselling cell : The Assam Royal Global University')
+@section('meta_description', 'Royal Global University empowers students through its Counselling Cell, promoting emotional resilience, self-awareness, and balanced personal growth.')
+@section('meta_keywords', 'Counselling cell')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

@@ -91,7 +91,7 @@
                 <div class="col-lg-12">
                     <h2 class="mobile-headd2 fw-bold text-center" style="color: #27467A;">LAW PROGRAMMES APPROVED BY BAR COUNCIL OF INDIA</h2>
                     <p class="mobile-para1 text-dark text-center" style="text-align: justify;">
-                        BA-LL.B (H) programmes/courses are approved by Bar Council of India (BCI).
+                        BA LL.B.(H)., BBA LL.B.(H) and LL.B.(H) programmes/courses are approved by Bar Council of India (BCI).
                     <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/8.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
                 </div>
             </div>
@@ -268,7 +268,7 @@
             <div class="col-lg-8">
                 <h2 class="headd2 fw-bold" style="color: #27467A;">LAW PROGRAMMES APPROVED BY BAR COUNCIL OF INDIA</h2>
                 <p class="para1 text-dark" style="text-align: justify;">
-                    BA-LL.B (H) programmes/courses are approved by Bar Council of India (BCI).
+                    BA LL.B.(H)., BBA LL.B.(H) and LL.B.(H) programmes/courses are approved by Bar Council of India (BCI).
                 <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/8.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
             </div>
         </div>

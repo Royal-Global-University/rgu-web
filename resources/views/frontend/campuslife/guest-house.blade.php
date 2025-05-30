@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Guest House : The Assam Royal Global University')
+@section('meta_description', 'The guest house at Royal Global University ensures a pleasant stay for guests with modern amenities and easy access to university facilities.')
+@section('meta_keywords', 'Guest House')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

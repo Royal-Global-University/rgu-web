@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Salon : The Assam Royal Global University')
+@section('meta_description', 'Look and feel your best with the salon services at Royal Global University — from haircuts to skincare, all available right on campus.')
+@section('meta_keywords', 'Salon')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

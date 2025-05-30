@@ -58,10 +58,9 @@
             <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf" target="_blank" style="
             position: fixed;
             bottom: 25px;
-            right: 75px;
             background-color: #ef991f;
             color: #fff;
-            padding: 12px 20px;
+            padding: 12px 10px;
             font-size: 16px;
             font-weight: bold;
             text-decoration: none;
@@ -75,7 +74,7 @@
             position: absolute;
             top: 0;
             left: -75%;
-            width: 50%;
+            width: 70%;
             height: 100%;
             background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
             transform: skewX(-25deg);
@@ -968,26 +967,26 @@
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/1)-FORM-FOR-CONSENT-OF-PH.D.-GUIDE-&-PH.D.-STUDENT.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                FORM FOR CONSENT OF PH.D. GUIDE & PH.D. STUDENT
+                                                Form for Consent of Ph.D. Guide & Ph.D. Student
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/2)-APPLICATION-FOR-SYNOPSIS-(PLAN-OF-RESEARCH)-PRESENTATION.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                APPLICATION FOR SYNOPSIS (PLAN OF RESEARCH) PRESENTATION
+                                                Application For Synopsis (Plan Of Research) Presentation
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/3)-FORM-FOR-SYNOPSIS-(PLAN-OF-RESEARCH)-REPORT.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                SYNOPSIS (PLAN OF RESEARCH)
+                                                Synopsis (Plan Of Research)
                                             </a></p>
                                         <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/4)-FORM-FOR-PH.D.-PROGRESS-REPORT.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                PH.D. PROGRESS REPORT
+                                                Ph.D. Progress Report
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/5)-APPLICATION-FOR-PRE-SUBMISSION-SEMINAR.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                APPLICATION FOR PRE-SUBMISSION SEMINAR
+                                                Application For Pre-Submission Seminar
                                             </a></p>
                                         <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/6)-PH.D.-PRE-SUBMISSION-SEMINAR-FORM.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
@@ -995,60 +994,60 @@
                                             </a></p>
                                         <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/7)-PH.D.-ABSTRACT-SUBMISSION-FORM.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                PH.D. ABSTRACT SUBMISSION FORM
+                                                Ph.D. Abstract Submission Form
                                             </a></p>
                                         <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/8)-PH.D.-THESIS-SUBMISSION-FORM.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                Office of the Controller of Examination - PH.D. THESIS SUBMISSION FORM
+                                                Office Of The Controller Of Examination - Ph.D. Thesis Submission Form
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/9)-CHECKLIST-TO-BE-SUBMITTED-WITH-PH.D.-THESIS.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                CHECKLIST TO BE SUBMITTED WITH PH.D. THESIS
+                                                Checklist To Be Submitted With Ph.D. Thesis
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/10)-NO-DUES-CERTIFICATE-FOR-Ph.D.-THESIS-SUBMISSION.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                NO DUES CERTIFICATE FOR PH.D. THESIS SUBMISSION
+                                                No Dues Certificate For Ph.D. Thesis Submission
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/11)-TOTAL-FEE-SUBMISSION-CERTIFICATE-FOR-PH.D.-THESIS-SUBMISSION.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                TOTAL FEE SUBMISSION CERTIFICATE FOR PH.D. THESIS SUBMISSION
+                                                Total Fee Submission Certificate For Ph.D. Thesis Submission
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/12)-FORM-FOR-SUBMITTING-THE-LIST-OF-PROPOSED-PH.D.-THESIS-EXAMINERS.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                FORM FOR SUBMITTING THE LIST OF PROPOSED PH.D. THESIS EXAMINERS
+                                                Form For Submitting The List Of Proposed Ph.D. Thesis Examiners
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/13)-REPORT-OF-ORAL-DEFENCE-EVALUATION-COMMITTEE.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                REPORT OF ORAL DEFENCE EVALUATION COMMITTEE
+                                                Report Of Oral Defence Evaluation Committee
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/14)-APPLICATION-FORM-FOR-EXTENSION-OF-TIME-FOR-SUBMISSION-OF-PH.D.-THESIS.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                APPLICATION FORM FOR EXTENSION OF TIME FOR SUBMISSION OF PH.D. THESIS
+                                                Application Form For Extension Of Time For Submission Of Ph.D. Thesis
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/15)-APPLICATION-FOR-CHANGE-OF-GUIDE_CO-GUIDE.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                APPLICATION FOR CHANGE OF GUIDE/ CO-GUIDE
+                                                Application For Change Of Guide/ Co-Guide
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/16)-APPLICATION-FORM-FOR-CHANGE-OF-CANDIDATURE.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                APPLICATION FORM FOR CHANGE OF CANDIDATURE
+                                                Application Form For Change Of Candidature
                                             </a></p>
                                         <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/17)-APPLICATION-FORM-FOR-RE-REGISTRATION.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                APPLICATION FORM FOR RE-REGISTRATION
+                                                Application Form For Re-Registration
                                             </a></p>
                                         <p class="para1"><a
                                                 href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/18)-APPLICATION-FORM-FOR-RECOGNITION-AS-GUIDE_CO-GUIDE-FOR-PH.D.-PROGRAMME.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
-                                                APPLICATION FORM FOR RECOGNITION AS GUIDE / CO-GUIDE FOR PH.D. PROGRAMME
+                                                Application Form For Recognition As Guide / Co-Guide For Ph.D. Programme
                                             </a></p>
                                         <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/19)-PH.D.-THESIS-TEMPLATE-RGU.pdf"
                                                 target="_blank"><i class="fa-solid fa-download"></i>
@@ -1078,7 +1077,7 @@
                                                         <th>Name</th>
                                                         <th>Designation</th>
                                                         <th>Designation in the Ph.D. Cell</th>
-                                                        <th>New nomination / Existing nomination</th>
+
                                                     </tr>
                                                 </thead>
                                                 <tbody class="para1 text-dark">
@@ -1088,28 +1087,28 @@
                                                         <td>Dr. D. N. Singh</td>
                                                         <td>Registrar</td>
                                                         <td>Academic Head, Ph.D. Cell</td>
-                                                        <td>New</td>
+
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
                                                         <td>Prof. (Dr.) Sudip Chakraborty</td>
                                                         <td>Deputy Dean (i/c), Royal School of Commerce</td>
                                                         <td>Deputy Director, Ph.D. Cell</td>
-                                                        <td>Existing</td>
+
                                                     </tr>
                                                     <tr>
                                                         <td>3</td>
                                                         <td>Dr. Niraj Singh</td>
                                                         <td>Assistant Professor, Department of Microbiology, Royal School of Biosciences</td>
                                                         <td>Coordinator, Ph.D. Cell</td>
-                                                        <td>Existing</td>
+
                                                     </tr>
                                                     <tr>
                                                         <td>4</td>
                                                         <td>Prof. (Dr.) Prithviraj Chakraborty</td>
                                                         <td>Professor & Principal, Royal School of Pharmacy</td>
                                                         <td>Member, Ph.D. Cell</td>
-                                                        <td>New</td>
+
                                                     </tr>
                                                     <tr>
                                                         <td>5</td>
@@ -1118,35 +1117,35 @@
                                                             Biosciences
                                                         </td>
                                                         <td>Member, Ph.D. Cell</td>
-                                                        <td>Existing</td>
+
                                                     </tr>
                                                     <tr>
                                                         <td>6</td>
                                                         <td>Dr. Indrajit Dutta</td>
                                                         <td>Associate Professor and Head, Royal School of Travel and Tourism Management</td>
                                                         <td>Member, Ph.D. Cell</td>
-                                                        <td>New</td>
+
                                                     </tr>
                                                     <tr>
                                                         <td>7</td>
                                                         <td>Dr. Rishi Chakravarty</td>
                                                         <td>Associate Professor, Royal School of Business</td>
                                                         <td>Member, Ph.D. Cell</td>
-                                                        <td>New</td>
+
                                                     </tr>
                                                     <tr>
                                                         <td>8</td>
                                                         <td>Dr. Hirak Jyoti Hazarika</td>
                                                         <td>Assistant Professor and Head, Royal School of Library Sciences</td>
                                                         <td>Member, Ph.D. Cell</td>
-                                                        <td>New</td>
+
                                                     </tr>
                                                     <tr>
                                                         <td>9</td>
                                                         <td>Dr. Pratikshya Borah</td>
                                                         <td>Assistant Professor, Department of Botany, Royal School of Life Sciences</td>
                                                         <td>Member, Ph.D. Cell</td>
-                                                        <td>New</td>
+
                                                     </tr>
                                                     <tr>
                                                         <td>10</td>
@@ -2048,88 +2047,88 @@
                                 <div class="accordion-body">
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/1)-FORM-FOR-CONSENT-OF-PH.D.-GUIDE-&-PH.D.-STUDENT.pdf"
-                                            target="_blank"><i class="fa-solid fa-download"></i>
-                                            FORM FOR CONSENT OF PH.D. GUIDE & PH.D. STUDENT
+                                            target="_blank" style="font-family: 'Montserrat', sans-serif;"><i class="fa-solid fa-download"></i>
+                                            Form for Consent of Ph.D. Guide & Ph.D. Student
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/2)-APPLICATION-FOR-SYNOPSIS-(PLAN-OF-RESEARCH)-PRESENTATION.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            APPLICATION FOR SYNOPSIS (PLAN OF RESEARCH) PRESENTATION
+                                            Application For Synopsis (Plan Of Research) Presentation
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/3)-FORM-FOR-SYNOPSIS-(PLAN-OF-RESEARCH)-REPORT.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            SYNOPSIS (PLAN OF RESEARCH)
+                                            Synopsis (Plan Of Research)
                                         </a></p>
                                     <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/4)-FORM-FOR-PH.D.-PROGRESS-REPORT.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            PH.D. PROGRESS REPORT
+                                            Ph.D. Progress Report
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/5)-APPLICATION-FOR-PRE-SUBMISSION-SEMINAR.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            APPLICATION FOR PRE-SUBMISSION SEMINAR
+                                            Application For Pre-Submission Seminar
                                         </a></p>
                                     <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/6)-PH.D.-PRE-SUBMISSION-SEMINAR-FORM.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            PH.D. PRE-SUBMISSION SEMINAR FORM
+                                            Ph.D. Pre-Submission Seminar Form
                                         </a></p>
                                     <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/7)-PH.D.-ABSTRACT-SUBMISSION-FORM.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            PH.D. ABSTRACT SUBMISSION FORM
+                                            Ph.D. Abstract Submission Form
                                         </a></p>
                                     <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/8)-PH.D.-THESIS-SUBMISSION-FORM.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            Office of the Controller of Examination - PH.D. THESIS SUBMISSION FORM
+                                            Office Of The Controller Of Examination - Ph.D. Thesis Submission Form
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/9)-CHECKLIST-TO-BE-SUBMITTED-WITH-PH.D.-THESIS.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            CHECKLIST TO BE SUBMITTED WITH PH.D. THESIS
+                                            Checklist To Be Submitted With Ph.D. Thesis
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/10)-NO-DUES-CERTIFICATE-FOR-Ph.D.-THESIS-SUBMISSION.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            NO DUES CERTIFICATE FOR PH.D. THESIS SUBMISSION
+                                            No Dues Certificate For Ph.D. Thesis Submission
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/11)-TOTAL-FEE-SUBMISSION-CERTIFICATE-FOR-PH.D.-THESIS-SUBMISSION.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            TOTAL FEE SUBMISSION CERTIFICATE FOR PH.D. THESIS SUBMISSION
+                                            Total Fee Submission Certificate For Ph.D. Thesis Submission
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/12)-FORM-FOR-SUBMITTING-THE-LIST-OF-PROPOSED-PH.D.-THESIS-EXAMINERS.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            FORM FOR SUBMITTING THE LIST OF PROPOSED PH.D. THESIS EXAMINERS
+                                            Form For Submitting The List Of Proposed Ph.D. Thesis Examiners
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/13)-REPORT-OF-ORAL-DEFENCE-EVALUATION-COMMITTEE.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            REPORT OF ORAL DEFENCE EVALUATION COMMITTEE
+                                            Report Of Oral Defence Evaluation Committee
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/14)-APPLICATION-FORM-FOR-EXTENSION-OF-TIME-FOR-SUBMISSION-OF-PH.D.-THESIS.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            APPLICATION FORM FOR EXTENSION OF TIME FOR SUBMISSION OF PH.D. THESIS
+                                            Application Form For Extension Of Time For Submission Of Ph.D. Thesis
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/15)-APPLICATION-FOR-CHANGE-OF-GUIDE_CO-GUIDE.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            APPLICATION FOR CHANGE OF GUIDE/ CO-GUIDE
+                                            Application For Change Of Guide/ Co-Guide
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/16)-APPLICATION-FORM-FOR-CHANGE-OF-CANDIDATURE.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            APPLICATION FORM FOR CHANGE OF CANDIDATURE
+                                            Application Form For Change Of Candidature
                                         </a></p>
                                     <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/17)-APPLICATION-FORM-FOR-RE-REGISTRATION.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            APPLICATION FORM FOR RE-REGISTRATION
+                                            Application Form For Re-Registration
                                         </a></p>
                                     <p class="para1"><a
                                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/18)-APPLICATION-FORM-FOR-RECOGNITION-AS-GUIDE_CO-GUIDE-FOR-PH.D.-PROGRAMME.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
-                                            APPLICATION FORM FOR RECOGNITION AS GUIDE / CO-GUIDE FOR PH.D. PROGRAMME
+                                            Application Form For Recognition As Guide / Co-Guide For Ph.D. Programme
                                         </a></p>
                                     <p class="para1"><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/new-phd-pdf/19)-PH.D.-THESIS-TEMPLATE-RGU.pdf"
                                             target="_blank"><i class="fa-solid fa-download"></i>
@@ -2156,7 +2155,7 @@
                                                     <th>Name</th>
                                                     <th>Designation</th>
                                                     <th>Designation in the Ph.D. Cell</th>
-                                                    <th>New nomination / Existing nomination</th>
+
                                                 </tr>
                                             </thead>
                                             <tbody class="para1 text-dark">
@@ -2166,28 +2165,28 @@
                                                     <td>Dr. D. N. Singh</td>
                                                     <td>Registrar</td>
                                                     <td>Academic Head, Ph.D. Cell</td>
-                                                    <td>New</td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>2</td>
                                                     <td>Prof. (Dr.) Sudip Chakraborty</td>
                                                     <td>Deputy Dean (i/c), Royal School of Commerce</td>
                                                     <td>Deputy Director, Ph.D. Cell</td>
-                                                    <td>Existing</td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>3</td>
                                                     <td>Dr. Niraj Singh</td>
                                                     <td>Assistant Professor, Department of Microbiology, Royal School of Biosciences</td>
                                                     <td>Coordinator, Ph.D. Cell</td>
-                                                    <td>Existing</td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>4</td>
                                                     <td>Prof. (Dr.) Prithviraj Chakraborty</td>
                                                     <td>Professor & Principal, Royal School of Pharmacy</td>
                                                     <td>Member, Ph.D. Cell</td>
-                                                    <td>New</td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>5</td>
@@ -2196,35 +2195,35 @@
                                                         Biosciences
                                                     </td>
                                                     <td>Member, Ph.D. Cell</td>
-                                                    <td>Existing</td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>6</td>
                                                     <td>Dr. Indrajit Dutta</td>
                                                     <td>Associate Professor and Head, Royal School of Travel and Tourism Management</td>
                                                     <td>Member, Ph.D. Cell</td>
-                                                    <td>New</td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>7</td>
                                                     <td>Dr. Rishi Chakravarty</td>
                                                     <td>Associate Professor, Royal School of Business</td>
                                                     <td>Member, Ph.D. Cell</td>
-                                                    <td>New</td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>8</td>
                                                     <td>Dr. Hirak Jyoti Hazarika</td>
                                                     <td>Assistant Professor and Head, Royal School of Library Sciences</td>
                                                     <td>Member, Ph.D. Cell</td>
-                                                    <td>New</td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>9</td>
                                                     <td>Dr. Pratikshya Borah</td>
                                                     <td>Assistant Professor, Department of Botany, Royal School of Life Sciences</td>
                                                     <td>Member, Ph.D. Cell</td>
-                                                    <td>New</td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>10</td>

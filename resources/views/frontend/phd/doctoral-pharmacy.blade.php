@@ -117,7 +117,7 @@
                         <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-pharmacy/3.jpeg" alt="">
                     </div>
                     <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Dr. Pranabesh Sikdar</h2>
+                        <h2 class="headd3 fw-bold text-dark">Prof.(Dr.) Pranabesh Sikdar</h2>
                         <p class="para1 text-dark">Ph.D.</p>
 
                         <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
@@ -133,7 +133,7 @@
                         <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-pharmacy/4.jpeg" alt="">
                     </div>
                     <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Prof. Prithiviraj Chakraborty</h2>
+                        <h2 class="headd3 fw-bold text-dark">Prof.(Dr.) Prithviraj Chakraborty</h2>
                         <p class="para1 text-dark">Ph.D.</p>
 
                         <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
@@ -142,20 +142,67 @@
               </div>
               </div>
 
-              <div class="card mt-4 shadow-sm">
+            <div class="card mt-4 shadow-sm">
                 <div class="row p-3">
                     <div class="col-lg-2">
                         <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-pharmacy/5.jpeg" alt="">
                     </div>
                     <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Dr. Debrupa D. Chakraborty</h2>
+                        <h2 class="headd3 fw-bold text-dark">Prof.(Dr.) Debarupa D. Chakraborty</h2>
                         <p class="para1 text-dark">Ph.D.</p>
 
                         <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
                         <p class="text-dark para1">Nanotechnology, Phytochemistry, Synthetic Chemistry, Analytical Chemistry.</p>
+                    </div>
+                </div>
+            </div>
+
+              <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-2">
+                            <img class="rounded shadow-sm border" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png" alt="">
                         </div>
+                        <div class="col-lg-9">
+                            <h2 class="headd3 fw-bold text-dark">Dr. Manas Jyoti Kapil</h2>
+                            <p class="para1 text-dark">Ph.D.</p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="text-dark para1">Formulation design, Carrier mediated drug delivery, Nanotechnology.</p>
+                            </div>
+                    </div>
               </div>
-              </div>
+
+
+
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">(Dr.) Sudarshana Borah</h2>
+                        <p class="para1 text-dark">Ph.D.</p>
+
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="text-dark para1">Phytochemistry, Neuropharmacology, Herbal technology.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">Prof.(Dr.) Ayesha A.K. Choudhury</h2>
+                        <p class="para1 text-dark">Ph.D.</p>
+
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="text-dark para1">Drug design, Synthetic Chemistry</p>
+                    </div>
+                </div>
+            </div>
 
 
             <div class="headd2 fw-bold text-dark pt-5 kd-title-ani kd-split-text">Ph.D. Curriculum</div>

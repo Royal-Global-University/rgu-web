@@ -144,7 +144,7 @@
                         </li>
 
                         <!-- Cell with Submenu -->
-                        <li class="nav-item dropdown" style="position: relative;">
+                        {{-- <li class="nav-item dropdown" style="position: relative;">
                             <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 17px;">Cell/
                                 Centre</a>
                             <ul class="dropdown-menu"
@@ -165,7 +165,11 @@
                                         FOR INTERDISCIPLINARY<br> STUDY & RESEARCH (CISR)</a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> --}}
+                        <li class="nav-item" style="position: relative;">
+                            <a class="nav-link para1" href="research-devlopment"
+                                style="color: #000000; font-weight: 600; font-size: 17px;">Research
+                            </a>   </li>
 
                         <!-- Campus Life with Submenu -->
                         <li class="nav-item dropdown" style="position: relative;">

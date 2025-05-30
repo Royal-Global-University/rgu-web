@@ -856,7 +856,7 @@
                             <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-size: 40px;">Notification</h2>
 
                             <div class="card" style="height: 530px; overflow: hidden; position: relative; background-color: #faebd7;">
-                                <div class="notification-wrapper"
+                                {{-- <div class="notification-wrapper"
                                     style="position: absolute; top: 100%; width: 100%; animation: scrollUp 20s linear infinite;">
                                     <div class="notification-item text-dark para1">
                                         <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf"
@@ -945,11 +945,18 @@
                                             Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with
                                             Higher Education'</a>
                                     </div>
+                                </div> --}}
+                                <div class="notification-item text-dark para1">
+                                    <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf"
+                                        style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                            style="width: 50px;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/output-onlinegiftools.gif" alt="">
+                                        Admission Open For Ph.D. 2025-2026 </a>
                                 </div>
                             </div>
-                            <a href="https://rgu.ac/notifications">
+                            {{-- <a href="https://rgu.ac/notifications">
                                 <h2 class="para1 fw-bold pt-3 text-center" style="color: #27467A;">View All Notifications -></h2>
-                            </a>
+                            </a> --}}
                         </div>
 
                         <style>

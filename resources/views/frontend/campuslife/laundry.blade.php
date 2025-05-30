@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Laundry Service : The Assam Royal Global University')
+@section('meta_description', 'Royal Global University provides a well-managed laundry facility on campus, making student life easier with quick, quality, and cost-effective garment care.')
+@section('meta_keywords', 'Laundry Service')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

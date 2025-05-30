@@ -654,6 +654,14 @@ Route::get('/placement-contacts', function () {
 
 //phd
 
+Route::get('/doctoral-hotel-management', function () {
+    return view('frontend/phd/doctoral-hotel-management');
+})->name('doctoral-hotel-management');
+
+Route::get('/doctoral-indian-knowledge-sys', function () {
+    return view('frontend/phd/doctoral-indian-knowledge-sys');
+})->name('doctoral-indian-knowledge-sys');
+
 Route::get('/doctoral-architecture', function () {
     return view('frontend/phd/doctoral-architecture');
 })->name('doctoral-architecture');
@@ -2841,3 +2849,11 @@ Route::get('/cisr', function () {
 Route::get('/dr-shwetambara-verma', function () {
     return view('frontend/facultyprofile/shwetambara-verma');
 })->name('dr-shwetambara-verma');
+
+Route::get('/dr-pallabi-borah', function () {
+    return view('frontend/facultyprofile/rslc-pallabi-borah');
+})->name('dr-pallabi-borah');
+
+Route::get('/dr-pundarikaksha-das', function () {
+    return view('frontend/facultyprofile/rslc-pundarikaksha-das');
+})->name('dr-pundarikaksha-das');

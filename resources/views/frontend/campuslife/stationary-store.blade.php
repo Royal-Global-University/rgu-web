@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Stationary Store : The Assam Royal Global University')
+@section('meta_description', 'Royal Global University features a well-stocked stationery store on campus, offering quality supplies at affordable prices for students and staff.')
+@section('meta_keywords', 'Stationary Store')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
