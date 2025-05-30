@@ -127,7 +127,7 @@
                     <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) A.K. Buragohain
                     </h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 15px;">
-                        Chairperson Academic, The Assam Royal Global University; Former Chancellor, Girijananda Chowdhury
+                        Vice-Chancellor (Interim), The Assam Royal Global University; Former Chancellor, Girijananda Chowdhury
                         University; Former Vice-Chancellor, Dibrugarh University
                     </p>
 
@@ -364,7 +364,7 @@
                     <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) A.K. Buragohain
                     </h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 15px;">
-                        Vice-Chancellor, The Assam Royal Global University; Former Chancellor, Girijananda Chowdhury
+                        Vice-Chancellor (Interim), The Assam Royal Global University; Former Chancellor, Girijananda Chowdhury
                         University; Former Vice-Chancellor, Dibrugarh University
                     </p>
 

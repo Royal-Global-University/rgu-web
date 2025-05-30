@@ -2,7 +2,7 @@
     style="background-color: transparent; padding: 10px 60px; box-shadow: none; position: absolute !important; top: 0; left: 0; right: 0; transition: all 0.3s ease; z-index: 999;">
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="https://www.rgu.ac/">
             <img id="logoImage" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/logo/light_logo.png" alt="Logo"
                 style="height: 110px; transition: height 0.4s ease, transform 0.4s ease;">
         </a>
@@ -16,7 +16,7 @@
                         style="color: white; font-weight: 600; font-size: 16px;">Discover RGU</a>
 
                     <ul class="dropdown-menu p-3"
-                        style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 800px; overflow: hidden; border-top: 3px solid #e68900;">
+                        style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 800px; border-top: 3px solid #e68900;">
                         <div class="row" style="display: flex;">
                             <div class="col-lg-4 p-2">
                                 <h2 class="para1 fw-bold text-center" style="color: #e68900;">ABOUT US</h2>
@@ -91,22 +91,15 @@
                                 <hr>
                                 <li class="dropdown-submenu" style="position: relative;">
                                     <a class="dropdown-item text-dark dropdown-toggle para1" href="#"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">STATUTORY
-                                        AUTHORITIES</a>
+                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">STATUTORY AUTHORITIES</a>
                                     <ul class="dropdown-menu"
                                         style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
-                                        <li><a class="dropdown-item text-dark   para1"
-                                                href="{{ route('governing-body') }}"
-                                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">GOVERNING
-                                                BODY</a></li>
-                                        <li><a class="dropdown-item text-dark   para1"
-                                                href="{{ route('board-of-management') }}"
-                                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">BOARD OF
-                                                MANAGEMENT</a></li>
-                                        <li><a class="dropdown-item text-dark   para1"
-                                                href="{{ route('academic-council') }}"
-                                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">ACADEMIC
-                                                COUNCIL</a>
+                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('governing-body') }}"
+                                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">GOVERNING BODY</a></li>
+                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('board-of-management') }}"
+                                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">BOARD OF MANAGEMENT</a></li>
+                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('academic-council') }}"
+                                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">ACADEMIC COUNCIL</a>
                                         </li>
                                     </ul>
                                 </li>

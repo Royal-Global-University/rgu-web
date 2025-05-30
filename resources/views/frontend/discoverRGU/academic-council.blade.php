@@ -67,7 +67,7 @@
                             </h5>
                             <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor (Interim), RGU</p>
 
-                            <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                            <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Chairman</p>
                         </div>
                     </div>
                 </div>
@@ -508,7 +508,7 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor (Interim), RGU</p>
 
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Chairman</p>
                             </div>
                         </div>
                     </div>
