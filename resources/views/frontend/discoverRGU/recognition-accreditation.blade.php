@@ -136,8 +136,8 @@
                     <h2 class="mobile-headd2 fw-bold text-center" style="color: #27467A;">NURSING PROGRAMMES APPROVED BY INDIAN NURSING COUNCIL (INC)</h2>
                     <p class="mobile-para1 text-dark text-center" style="text-align: justify;">
                         GNM and B.Sc. Nursing programme is approved by Indian Nursing Council (INC)
-                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/nursing/INC for GNM 2025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View</a>
-                    <br><a download style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/nursing/INC for B.Sc. Nursing 2025-26.jpg"> <i class="fas fa-image"></i> Click Here to View</a>
+                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/old/INC%20for%20GNM%202025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View</a>
+                    <br><a download style="color: #FF9A1E;" class="fw-bold" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/old/INC%20for%20B.Sc.%20Nursing%202025-26.pdf"> <i class="fas fa-image"></i> Click Here to View</a>
                     </p>
                 </div>
             </div>
@@ -214,20 +214,6 @@
             <div class="col-lg-8">
                 <h2 class="headd2 fw-bold" style="color: #27467A;">STATE GOVERNMENT</h2>
                 <p class="para1 text-dark" style="text-align: justify;">The Assam Royal Global University is established by ‘The Assam Royal Global University Act’, which has been notified by Government of Assam vide notification no. LGL.12/2013/22, in the year 2013. <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/3.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
-            </div>
-        </div>
-
-        <div class="p-3"><img src="mobile-assets/recognition/Reconation and accridiation yellow divider.svg" alt=""></div>
-
-        <div class="row" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-            <div class="col-lg-4 text-center">
-                <img style="height: 300px;" src="mobile-assets/recognition/Association of commonwealth Universities-22.svg" alt="Image">
-            </div>
-            <div class="col-lg-8">
-                <h2 class="headd2 fw-bold" style="color: #27467A;">ASSOCIATION OF COMMONWEALTH UNIVERSITIES (ACU)</h2>
-                <p class="para1 text-dark" style="text-align: justify;">
-                    The ACU is committed to delivering educational opportunities that make a positive, lasting difference. We enable university staff and students to pursue research and innovation through a range of funding opportunities, and this calendar outlines the awards available for 2024-25. Please note that our grants offer is under review and is subject to change.
-                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/5.pdf"><i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
             </div>
         </div>
 
@@ -313,9 +299,8 @@
                 <h2 class="headd2 fw-bold" style="color: #27467A;">NURSING PROGRAMMES APPROVED BY INDIAN NURSING COUNCIL (INC)</h2>
                 <p class="para1 text-dark" style="text-align: justify;">
                     GNM and B.Sc. Nursing programme is approved by Indian Nursing Council (INC)
-                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/GNM%202025-26%20(Notification).pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Notification</a>
-                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold"
-                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/B.Sc(N)%202025-26%20(Notification).pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Notification</a>
+                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/old/INC%20for%20GNM%202025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a>
+                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/old/INC%20for%20B.Sc.%20Nursing%202025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a>
             </p>
             </div>
         </div>
@@ -330,15 +315,31 @@
             Membership</h2>
             <div class="p-3"><img src="mobile-assets/recognition/Reconation and accridiation yellow divider.svg" alt=""></div>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <img style="height: 300px;" src="mobile-assets/recognition/AIU 250px-22.svg" alt="Image">
+                <div class="col-lg-6 text-center">
+                    <img style="height: 270px;" class="p-2" src="mobile-assets/recognition/AIU 250px-22.svg" alt="Image">
 
                     <h2 class="headd2 fw-bold" style="color: #27467A;">ASSOCIATION OF INDIAN UNIVERSITIES (AIU)</h2>
                 <p class="para1 text-dark text-center" style="text-align: justify;">The Governing Council of the Association of Indian Universities (AIU) at its 345th Meeting held on June 22, 2017 at AIU House, New Delhi considered the application for grant of provisional membership of AIU and resolved to grant the same with effect from 22.5.2017 <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/4.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
 
                 </div>
-                <div class="col-lg-6">
-
+                <div class="col-lg-6 text-center">
+                    <div>
+                        <div>
+                            <img style="height: 270px;" class="p-5" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/acu.png"
+                                alt="Image">
+                        </div>
+                        <div class="text-center">
+                            <h2 class="headd2 fw-bold" style="color: #27467A;">ASSOCIATION OF COMMONWEALTH UNIVERSITIES (ACU)</h2>
+                            <p class="para1 text-dark text-center">
+                                The ACU is committed to delivering educational opportunities that make a positive, lasting difference. We
+                                enable university staff and students to pursue research and innovation through a range of funding
+                                opportunities, and this calendar outlines the awards available for 2024-25. Please note that our grants
+                                offer is under review and is subject to change.
+                                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/5.pdf"><i
+                                        class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 

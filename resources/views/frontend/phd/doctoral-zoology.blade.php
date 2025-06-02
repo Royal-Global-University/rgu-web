@@ -1,191 +1,440 @@
 @extends('frontend.master')
 @section('content')
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <img style="padding-top: 90px; position: relative;" src="mobile-assets/phd-mobile/mob-Zoology.png" alt="">
-
-            <div class="container pb-3 pt-3" style="background-color: #f0f8ff;">
-                <h2 class="mobile-headd2 text-dark">
-                    Ph.D. Curriculum
-                </h2>
-
-                @include('frontend/components/phddeptmob')
-            </div>
-        </div>
-
-        <div class="website">
-            <div id="page" class="site site_wrapper">
-
-            <div class="scroll-top">
-                <div class="scroll-top-wrap">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg" data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                        </path>
-                    </svg>
-                </div>
-            </div>
-
-          <!--Start Header-->
-        @include('frontend/components/aheader')
-    <!--End Header-->
-
-            <!--About Section-->
-            <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-                <section style="background-image: url(mobile-assets/phd-mobile/bgg.svg); background-size: cover; padding-top: 30px;" class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f481aaf" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-968af55" data-id="968af55" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-4878838 elementor-widget elementor-widget-go-img--bx" data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                            <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                                <img decoding="async" src="mobile-assets/phd-mobile/headimg.jpeg" alt="">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9b49111" data-id="9b49111" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-c8de01e elementor-widget elementor-widget-go-s-heading" data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="prthalign">
-                                            <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
-                                                Zoology</h1>
-                                            <div class="para1 text-dark kd-para-1 disc" data-splitting style="text-align: justify;">
-                                                <p>
-                                                    A Ph.D. in Zoology is an advanced degree program that provides students with in-depth knowledge and research experience in the study of animal life. Zoology is a branch of biology that focuses on the structure, function, behavior, evolution, and ecology of animals, from the smallest invertebrates to the largest mammals.
-                                                </p>
-                                                <p>
-                                                    During a Ph.D. program in Zoology, students typically undertake advanced coursework in areas such as ecology, evolution, genetics, animal behavior, physiology, and anatomy, as well as statistics and research methods. They also engage in independent research under the guidance of a faculty advisor, and typically write and defend a thesis based on their research findings.The program aims to provide students with a deep understanding of animal life and prepare them for careers in academia, research, science communication, or conservation work.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <section style="padding: 110px 10px; background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/placement-all/mobile-bg.svg); position: relative;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <h2 class="mobile-headd2 kd-title-ani kd-split mb-4 text-center"
+                            style="color: #264273; font-weight: 700;">
+                            Ph.D. Programme <br><span style="color: #FF9A1E; font-weight: 500;">
+                                in Zoology</span> </h2>
+                        <div class="txaa-slide-down-1">
+                            <div style="border: 1px solid #27467A; height: 320px; width: 100%;"
+                                class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/headimg.jpeg" alt="">
                             </div>
                         </div>
                     </div>
-                </section>
-                <hr>
+
+                    <div class="col-lg-12 pt-4">
+
+
+                        <p class="para1" style="color: #264273; text-align: justify;">
+                            A Ph.D. in Zoology is an advanced degree programme that provides students with in-depth
+                            knowledge and research experience in the study of animal life. Zoology is a branch of
+                            biology that focuses on the structure, function, behavior, evolution, and ecology of
+                            animals, from the smallest invertebrates to the largest mammals.
+                        </p>
+
+                        <p class="para1" style="color: #264273; text-align: justify;">
+                            During a Ph.D. programme in Zoology, students typically undertake advanced
+                            coursework in areas such as ecology, evolution, genetics, animal
+                            behavior, physiology, and anatomy, as well as statistics and research
+                            methods. They also engage in independent research under the guidance of
+                            a faculty advisor, and typically write and defend a thesis based on
+                            their research findings.The programme aims to provide students with a deep
+                            understanding of animal life and prepare them for careers in academia,
+                            research, science communication, or conservation work.
+                        </p>
+
+                        <h2 class="mobile-headd3 fw-bold mt-3" style="color: #264273; font-weight: 700;">
+                            Ph.D. Guides <span style="color: #FF9A1E; font-weight: 500;">
+                                and Research Interests</span> </h2>
+
+                    </div>
+
+                    <div class="pt-3" style="display: flex; justify-content: center; align-items: center;">
+
+                        <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                            <div class="col-lg-3 mb-4">
+                                <div class="card rounded d-flex flex-column"
+                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                                    <div class="p-3">
+                                        <img style="height: 290px; width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-zoology/dharmeswar.jpg"
+                                            class="img-fluid rounded border" />
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
+                                            Dr. Dharmeshwar Barhoi
+                                        </h5>
+                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                            Assistant Professor & Co-ordinator
+                                        </p>
+
+                                        <p class="para1 fw-bold text-dark">
+                                            Research Interest:
+                                        </p>
+
+                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                            Environmental and Genetic Toxicology, Cancer Biology and Medicinal Plant
+                                            Research
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 mb-4">
+                                <div class="card rounded d-flex flex-column"
+                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                                    <div class="p-3">
+                                        <img style="height: 290px; width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-zoology/abesh.jpg"
+                                            class="img-fluid rounded border" />
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
+                                            Dr. Abesh Chakraborty
+                                        </h5>
+                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                            Assistant Professor
+                                        </p>
+
+                                        <p class="para1 fw-bold text-dark">
+                                            Research Interest:
+                                        </p>
+
+                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                            Insect Taxonomy, Wildlife Biology, Invertebrate Ecology, Biosystematics,
+                                            Biodiversity and
+                                            Climate change
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 mb-4">
+                                <div class="card rounded d-flex flex-column"
+                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                                    <div class="p-3">
+                                        <img style="height: 290px; width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-zoology/annu.png"
+                                            class="img-fluid rounded border" />
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
+                                            Dr. Annu Kumari
+                                        </h5>
+                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                            Assistant Professor
+                                        </p>
+
+                                        <p class="para1 fw-bold text-dark">
+                                            Research Interest:
+                                        </p>
+
+                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                            Animal Physiology, Ichthyology, Molecular and Biochemical Adaptation,
+                                            Endocrinology,
+                                            Genetics
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 mb-4">
+                                <div class="card rounded d-flex flex-column"
+                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                                    <div class="p-3">
+                                        <img style="height: 290px; width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-zoology/parimal.jpg"
+                                            class="img-fluid rounded border" />
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
+                                            Dr. Parimal Chandra Ray
+                                        </h5>
+                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                            Assistant Professor
+                                        </p>
+
+                                        <p class="para1 fw-bold text-dark">
+                                            Research Interest:
+                                        </p>
+
+                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                            Animal Ecology and Wildlife Biology
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 mb-4">
+                                <div class="card rounded d-flex flex-column"
+                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+                                    <div class="p-3">
+                                        <img style="height: 290px; width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-zoology/arvind.jpg"
+                                            class="img-fluid rounded border" />
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
+                                            Dr. Arvind Kumar Dwivedi
+                                        </h5>
+                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                            Assistant Professor
+                                        </p>
+
+                                        <p class="para1 fw-bold text-dark">
+                                            Research Interest:
+                                        </p>
+
+                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                            Fish biology, ecology and diversity, fish taxonomy, conservation and sustainable
+                                            management
+                                            of freshwater ecosystems
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
-            <!--End About-->
+        </section>
+
+    </div>
+
+    <div class="website">
+        <div id="page" class="site site_wrapper">
+
+            @include('frontend/components/aheader')
+            <section
+                style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/placement-all/bgg.svg); background-size: cover; padding: 50px 0px;">
+                <div class="container">
+                    <div class="row align-items-center gx-5">
+                        <div class="col-lg-6">
+                            <div class="kd-about-3-img-wrap txaa-slide-down-1">
+                                <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                    <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/headimg.jpeg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+
+                            <h2 class="headd1 fw-bold mt-3" style="color: #264273; font-weight: 700;">
+                                Ph.D. Programme <span style="color: #FF9A1E; font-weight: 500;"><br>in Zoology</span>
+                            </h2>
+
+                            <p class="para1" style="color: #264273; text-align: justify;">
+                                A Ph.D. in Zoology is an advanced degree programme that provides students with in-depth
+                                knowledge and research experience in the study of animal life. Zoology is a branch of
+                                biology that focuses on the structure, function, behavior, evolution, and ecology of
+                                animals, from the smallest invertebrates to the largest mammals.
+                            </p>
+
+                            <p class="para1" style="color: #264273; text-align: justify;">
+                                During a Ph.D. programme in Zoology, students typically undertake advanced
+                                coursework in areas such as ecology, evolution, genetics, animal
+                                behavior, physiology, and anatomy, as well as statistics and research
+                                methods. They also engage in independent research under the guidance of
+                                a faculty advisor, and typically write and defend a thesis based on
+                                their research findings.The programme aims to provide students with a deep
+                                understanding of animal life and prepare them for careers in academia,
+                                research, science communication, or conservation work.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
 
 
         </div>
 
-        <div style="padding: 40px 60px; text-align: justify;">
+        <div style="padding: 40px 60px; text-align: left;">
 
-            <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
+            <h2 class="headd1 fw-bold pb-3 pt-4" style="color: #264273; font-weight: 700;">Ph.D. Guides and <span
+                    style="color: #FF9A1E; font-weight: 500;">Research Interests</span>
+            </h2>
 
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-zoology/1.png" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Prof. (Dr.) Jashodeep Arjun</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
+            <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Environmental Toxicology, Wild-Life Biology.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-zoology/2.jpeg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Dr. Dharmeswar Barhoi</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Molecular Cell Biology, Genetic Toxicology, Environmental Toxicology, Medicinal Plant Research, Cancer Biology.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-zoology/3.jpeg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Dr. Utsab Singha</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Environmental Toxicology, Wildlife Biology and Ecology, Molecular Biology, Nanotechnology.                   </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-zoology/4.jpeg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Dr. Parimal Chandra Ray</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Ecology And Wildlife Biology, In Situ And Ex-Situ Conservation Biology, Behavioural Biology.
-                        </p>
+                <div class="col-lg-3 mb-4">
+                    <div class="card rounded d-flex flex-column"
+                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                        <div class="p-3">
+                            <img style="height: 290px; width: 100%;"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-zoology/dharmeswar.jpg"
+                                class="img-fluid rounded border" />
                         </div>
-                </div>
-            </div>
 
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-zoology/5.jpeg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Dr. Abesh Chakraborty</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
+                                Dr. Dharmeshwar Barhoi
+                            </h5>
+                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                Assistant Professor & Co-ordinator
+                            </p>
 
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Taxonomy, Biosystematics, Entomology, Biodiversity and Climate Change.
-                        </p>
+                            <p class="para1 fw-bold text-dark">
+                                Research Interest:
+                            </p>
+
+                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                Environmental and Genetic Toxicology, Cancer Biology and Medicinal Plant Research
+                            </p>
+
                         </div>
-                </div>
-            </div>
 
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-zoology/6.jpeg" alt="">
                     </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Dr. Annu Kumari</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Biochemical Adaptation, Genetics, Fisheries, Toxicology and Molecular Biology.
-                        </p>
-                        </div>
                 </div>
+
+                <div class="col-lg-3 mb-4">
+                    <div class="card rounded d-flex flex-column"
+                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                        <div class="p-3">
+                            <img style="height: 290px; width: 100%;"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-zoology/abesh.jpg"
+                                class="img-fluid rounded border" />
+                        </div>
+
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
+                                Dr. Abesh Chakraborty
+                            </h5>
+                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                Assistant Professor
+                            </p>
+
+                            <p class="para1 fw-bold text-dark">
+                                Research Interest:
+                            </p>
+
+                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                Insect Taxonomy, Wildlife Biology, Invertebrate Ecology, Biosystematics, Biodiversity and
+                                Climate change
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 mb-4">
+                    <div class="card rounded d-flex flex-column"
+                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                        <div class="p-3">
+                            <img style="height: 290px; width: 100%;"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-zoology/annu.png" class="img-fluid rounded border" />
+                        </div>
+
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
+                                Dr. Annu Kumari
+                            </h5>
+                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                Assistant Professor
+                            </p>
+
+                            <p class="para1 fw-bold text-dark">
+                                Research Interest:
+                            </p>
+
+                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                Animal Physiology, Ichthyology, Molecular and Biochemical Adaptation, Endocrinology,
+                                Genetics
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 mb-4">
+                    <div class="card rounded d-flex flex-column"
+                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                        <div class="p-3">
+                            <img style="height: 290px; width: 100%;"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-zoology/parimal.jpg"
+                                class="img-fluid rounded border" />
+                        </div>
+
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
+                                Dr. Parimal Chandra Ray
+                            </h5>
+                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                Assistant Professor
+                            </p>
+
+                            <p class="para1 fw-bold text-dark">
+                                Research Interest:
+                            </p>
+
+                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                Animal Ecology and Wildlife Biology
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 mb-4">
+                    <div class="card rounded d-flex flex-column"
+                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+                        <div class="p-3">
+                            <img style="height: 290px; width: 100%;"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-zoology/arvind.jpg"
+                                class="img-fluid rounded border" />
+                        </div>
+
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
+                                Dr. Arvind Kumar Dwivedi
+                            </h5>
+                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                Assistant Professor
+                            </p>
+
+                            <p class="para1 fw-bold text-dark">
+                                Research Interest:
+                            </p>
+
+                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                Fish biology, ecology and diversity, fish taxonomy, conservation and sustainable management
+                                of freshwater ecosystems
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
 
+            <!-- PHD Curriculum  -->
 
-            <div class="headd2 fw-bold text-dark pt-5 kd-title-ani kd-split-text">Ph.D. Curriculum</div>
+        </div>
+
+        <div class="container">
+            <div class="headd2 fw-bold text-dark kd-title-ani kd-split-text">Ph.D. Curriculum</div>
 
             @include('frontend/components/phddeptweb')
-
-            </div>
         </div>
+    </div>
 @endsection

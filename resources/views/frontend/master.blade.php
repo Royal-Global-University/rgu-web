@@ -77,7 +77,6 @@
     <style>
         a {
             text-decoration: none !important;
-            color: #000000
         }
 
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
