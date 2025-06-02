@@ -160,7 +160,7 @@
               <div class="card mt-4 shadow-sm">
                     <div class="row p-3">
                         <div class="col-lg-2">
-                            <img class="rounded shadow-sm border" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png" alt="">
+                            <img class="rounded shadow-sm border" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-pharmacy/Manas.jpeg" alt="">
                         </div>
                         <div class="col-lg-9">
                             <h2 class="headd3 fw-bold text-dark">Dr. Manas Jyoti Kapil</h2>
@@ -177,7 +177,7 @@
             <div class="card mt-4 shadow-sm">
                 <div class="row p-3">
                     <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png" alt="">
+                        <img class="rounded shadow-sm border" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-pharmacy/Sudarshana-borah.jpeg" alt="">
                     </div>
                     <div class="col-lg-9">
                         <h2 class="headd3 fw-bold text-dark">(Dr.) Sudarshana Borah</h2>
@@ -192,7 +192,7 @@
             <div class="card mt-4 shadow-sm">
                 <div class="row p-3">
                     <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png" alt="">
+                        <img class="rounded shadow-sm border" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-pharmacy/ayesha.jpeg" alt="">
                     </div>
                     <div class="col-lg-9">
                         <h2 class="headd3 fw-bold text-dark">Prof.(Dr.) Ayesha A.K. Choudhury</h2>

@@ -92,7 +92,7 @@
                     <h2 class="mobile-headd2 fw-bold text-center" style="color: #27467A;">LAW PROGRAMMES APPROVED BY BAR COUNCIL OF INDIA</h2>
                     <p class="mobile-para1 text-dark text-center" style="text-align: justify;">
                         BA LL.B.(H)., BBA LL.B.(H) and LL.B.(H) programmes/courses are approved by Bar Council of India (BCI).
-                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/8.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
+                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/BCI%202025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
                 </div>
             </div>
 
@@ -108,7 +108,7 @@
                         B.Sc. Nursing programme is approved by Assam Nurses' Midwives' & Health Visitors' Council (ANMHVC)
                         <br>
                         GNM programme is approved by Assam Nurses' Midwives' & Health Visitors' Council (ANMHVC)
-                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/9.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
+                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/SNC-2025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
                 </div>
             </div>
 
@@ -269,7 +269,7 @@
                 <h2 class="headd2 fw-bold" style="color: #27467A;">LAW PROGRAMMES APPROVED BY BAR COUNCIL OF INDIA</h2>
                 <p class="para1 text-dark" style="text-align: justify;">
                     BA LL.B.(H)., BBA LL.B.(H) and LL.B.(H) programmes/courses are approved by Bar Council of India (BCI).
-                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/8.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
+                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/BCI%202025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
             </div>
         </div>
 
@@ -285,7 +285,7 @@
                     B.Sc. Nursing programme is approved by Assam Nurses' Midwives' & Health Visitors' Council (ANMHVC)
                     <br>
                     GNM programme is approved by Assam Nurses' Midwives' & Health Visitors' Council (ANMHVC)
-                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/9.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
+                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/SNC-2025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
             </div>
         </div>
 
@@ -313,10 +313,9 @@
                 <h2 class="headd2 fw-bold" style="color: #27467A;">NURSING PROGRAMMES APPROVED BY INDIAN NURSING COUNCIL (INC)</h2>
                 <p class="para1 text-dark" style="text-align: justify;">
                     GNM and B.Sc. Nursing programme is approved by Indian Nursing Council (INC)
-                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/nursing/INC for GNM 2025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a>
+                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/GNM%202025-26%20(Notification).pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Notification</a>
                 <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold"
-                    href="mobile-assets/recognition/nursing/INC for B.Sc. Nursing 2025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View
-                    Approval Letter</a>
+                    href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/B.Sc(N)%202025-26%20(Notification).pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Notification</a>
             </p>
             </div>
         </div>
