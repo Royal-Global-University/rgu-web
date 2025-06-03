@@ -1,9 +1,9 @@
 <!--Start Header-->
-        <nav class="navbar navbar-expand-lg" style="padding: 10px 60px; position: relative !important;">
+        <nav class="navbar navbar-expand-lg" style="padding: 10px 40px; position: relative !important;">
             <div class="container-fluid">
 
                 <a class="navbar-brand" href="https://www.rgu.ac/">
-                    <img  src="mobile-assets/index/logo-dark.png" alt="Logo" style="height: 95px;">
+                    <img  src="mobile-assets/index/logo-dark.png" alt="Logo" style="height: 85px;">
                 </a>
 
                 <div class="collapse navbar-collapse" id="navbarNav">

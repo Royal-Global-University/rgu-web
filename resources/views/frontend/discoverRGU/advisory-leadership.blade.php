@@ -34,7 +34,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="advisory-prof-prabuddha-ganguli">
+                        <a href="advisor-prof-prabuddha-ganguli">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                                 <div class="p-3">
@@ -58,7 +58,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="advisory-sri-ravi-kant">
+                        <a href="advisor-sri-ravi-kant">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                                 <div class="p-3">
@@ -97,6 +97,53 @@
                                         MD of Tata Consultancy Services and Former Chairperson of NSDC and NSDA | Member of Governing Body, The Assam Royal Global University</p>
 
                                     <!-- <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p> -->
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a href="advisor-dr-amarjyoti-choudhury">
+                            <div class="card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
+                                <div class="p-3">
+                                    <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
+                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Amarjyoti.jpeg"
+                                        class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Amarjyoti
+                                        Choudhury</h5>
+                                    <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Professor Emeritus & Chair
+                                        Professor, Dr. Bhupen Hazarika Centre for Creativity,
+                                        The Assam Royal Global University</p>
+
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a href="advisor-prasanta-jyoti-baruah">
+                            <div class="card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
+                                <div class="p-3">
+                                    <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
+                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Prasanta.jpeg"
+                                        class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Prasanta Jyoti Baruah
+                                    </h5>
+                                    <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Distinguished Professor,
+                                        Royal School of Communication and Media (RSCOM)</p>
+
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+
                                 </div>
                             </div>
                         </a>
@@ -157,7 +204,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="advisory-prof-prabuddha-ganguli">
+                        <a href="advisor-prof-prabuddha-ganguli">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
@@ -181,7 +228,7 @@
 
                     <div class="col-lg-3 mb-4">
 
-                        <a href="advisory-sri-ravi-kant">
+                        <a href="advisor-sri-ravi-kant">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
@@ -220,6 +267,49 @@
                                         MD of Tata Consultancy Services and Former Chairperson of NSDC and NSDA | Member of Governing Body, The Assam Royal Global University</p>
 
                                     {{-- <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p> --}}
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a href="advisor-dr-amarjyoti-choudhury">
+                            <div class="card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
+                                <div class="p-3">
+                                    <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
+                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Amarjyoti.jpeg"
+                                        class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Amarjyoti Choudhury</h5>
+                                    <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Professor Emeritus & Chair Professor, Dr. Bhupen Hazarika Centre for Creativity,
+                                        The Assam Royal Global University</p>
+
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <a href="advisor-prasanta-jyoti-baruah">
+                            <div class="card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
+                                <div class="p-3">
+                                    <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
+                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Prasanta.jpeg"
+                                        class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Prasanta Jyoti Baruah</h5>
+                                    <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Distinguished Professor, Royal School of Communication and Media (RSCOM)</p>
+
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+
                                 </div>
                             </div>
                         </a>

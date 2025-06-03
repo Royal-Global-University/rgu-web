@@ -1,103 +1,269 @@
 @extends('frontend.master')
 @section('content')
-         <div class="mobile">
-            @include('frontend/components/mobileheader')
-        <img style="padding-top: 90px; position: relative;" src="mobile-assets/phd-mobile/mob-Travel-and-Tourism.png" alt="">
-
-        <div class="container pb-3 pt-3" style="background-color: #f0f8ff;">
-            <h2 class="mobile-headd2 text-dark">
-                Ph.D. Curriculum
-            </h2>
-
-            @include('frontend/components/phddeptmob')
-        </div>
-     </div>
-
-     <div class="website">
-        <div id="page" class="site site_wrapper">
-
-            <div class="scroll-top">
-                <div class="scroll-top-wrap">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg" data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                        </path>
-                    </svg>
-                </div>
-            </div>
-
-            <!--Start Header-->
-            @include('frontend/components/aheader')
-    <!--End Header-->
-
-            <!--About Section-->
-            <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-                <section style="background-image: url(mobile-assets/phd-mobile/bgg.svg); background-size: cover; padding-top: 30px;" class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f481aaf" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-968af55" data-id="968af55" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-4878838 elementor-widget elementor-widget-go-img--bx" data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                            <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                                <img decoding="async" src="mobile-assets/phd-mobile/headimg.jpeg" alt="">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9b49111" data-id="9b49111" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-c8de01e elementor-widget elementor-widget-go-s-heading" data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="prthalign">
-                                            <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
-                                                Travel and Tourism</h1>
-                                            <div class="para1 text-dark kd-para-1 disc" data-splitting style="text-align: justify;">
-                                                <p>
-                                                    The Travel and Tourism sector is a significant, diverse and ever-expanding industry that encompasses a wide range of activities, services and businesses related to travel, leisure and hospitality. Pursuing a Ph.D. Program in this field can be rewarding and intellectually stimulating journey, allowing you to conduct research, contribute to the knowledge based on the industry and potentially pursue a career in academia or advanced research within the travel, tourism and hospitality sector.
-                                                </p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <section style="padding: 110px 10px; background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/placement-all/mobile-bg.svg); position: relative;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <h2 class="mobile-headd2 kd-title-ani kd-split mb-4 text-center"
+                            style="color: #264273; font-weight: 700;">
+                            Ph.D. Programme <br><span style="color: #FF9A1E; font-weight: 500;">
+                                in Travel and Tourism</span> </h2>
+                        <div class="txaa-slide-down-1">
+                            <div style="border: 1px solid #27467A; height: 320px; width: 100%;"
+                                class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/headimg.jpeg"
+                                    alt="">
                             </div>
                         </div>
                     </div>
-                </section>
-                <hr>
-            </div>
-            <!--End About-->
 
+                    <div class="col-lg-12 pt-4">
 
-        </div>
+                        <p class="para1" style="color: #264273; text-align: justify;">
+                            The Travel and Tourism sector is a significant, diverse and ever-expanding industry that
+                            encompasses a wide range of activities, services and businesses related to travel, leisure
+                            and hospitality. Pursuing a Ph.D. Programme in this field can be rewarding and
+                            intellectually stimulating journey, allowing you to conduct research, contribute to the
+                            knowledge based on the industry and potentially pursue a career in academia or advanced
+                            research within the travel, tourism and hospitality sector.
+                        </p>
 
-        <div style="padding: 40px 60px;">
+                        <h2 class="mobile-headd3 fw-bold mt-3" style="color: #264273; font-weight: 700;">
+                            Ph.D. Guides <span style="color: #FF9A1E; font-weight: 500;">
+                                and Research Interests</span> </h2>
 
-            <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
+                    </div>
 
-            <div class="row d-flex"> <!-- Add d-flex here -->
+                    <div style="display: flex; justify-content: center; align-items: center; padding: 20px;">
+                        <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-travel-tourism-management/1.jpeg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Prof (Dr.) Soumitra Sen</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
+                            <div class="card mt-4 shadow-sm">
+                                <div class="row p-3">
+                                    <div class="col-lg-12">
+                                        <img class="rounded shadow-sm border" style="width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-travel-tourism-management/1.jpeg"
+                                            alt="">
+                                    </div>
+                                    <div class="col-lg-12 pt-3">
+                                        <h2 class="headd3 fw-bold " style="color: #264273;">
+                                            Dr. Soumitra Sen
+                                        </h2>
+                                        <p class="para1 text-dark">
+                                            Dean RSTTM
+                                        </p>
+
+                                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                                        <p class="para1 text-dark">
+                                            Hospitality operations, service quality management, sustainable tourism,
+                                            tourism
+                                            education, strategic hospitality leadership, destination management,
+                                            customer
+                                            satisfaction, hospitality training and development, tourism policy, the
+                                            industry-academia interface, emerging tourism markets, and innovation in
+                                            hospitality
+                                            services
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mt-4 shadow-sm">
+                                <div class="row p-3">
+                                    <div class="col-lg-12">
+                                        <img class="rounded shadow-sm border" style="width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-travel-tourism-management/INDRAJITDUTTA.png"
+                                            alt="">
+                                    </div>
+                                    <div class="col-lg-12 pt-3">
+                                        <h2 class="headd3 fw-bold " style="color: #264273;">
+                                            Dr. Indrajit Dutta
+                                        </h2>
+                                        <p class="para1 text-dark">
+                                            Associate Professor & HOD RSTTM
+                                        </p>
+
+                                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                                        <p class="para1 text-dark">
+                                            Sustainable tourism, community-based tourism, hospitality operations,
+                                            indigenous
+                                            communities, responsible tourism, human resource development, service
+                                            innovation, policy
+                                            formulation, tourism economics, rural tourism, destination management,
+                                            eco-tourism,
+                                            cultural tourism, hospitality marketing, tourism impact assessment
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mt-4 shadow-sm">
+                                <div class="row p-3">
+                                    <div class="col-lg-12">
+                                        <img class="rounded shadow-sm border" style="width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-travel-tourism-management/SyedSajidulIslamDP.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="col-lg-12 pt-3">
+                                        <h2 class="headd3 fw-bold " style="color: #264273;">
+                                            Dr. Syed Sajidul Islam
+                                        </h2>
+                                        <p class="para1 text-dark">
+                                            Associate Professor - RSTTM
+                                        </p>
+
+                                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                                        <p class="para1 text-dark">
+                                            Sustainable Tourism, Community-based Tourism,
+                                            Responsible Tourism, Rural Tourism, Tea Tourism, Green Tourism, Farm
+                                            Tourism, Eco-Tourism, Cultural Tourism, Destination Management, Tribal
+                                            Tourism, Ethno Tourism, Women Empowerment, Wildlife Tourism & Tourism Impact
+                                            Assessment.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="website">
+        @include('frontend/components/aheader')
+        <section
+            style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/placement-all/bgg.svg); background-size: cover; padding: 50px 0px;">
+            <div class="container">
+                <div class="row align-items-center gx-5">
+                    <div class="col-lg-6">
+                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
+                            <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/headimg.jpeg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <h2 class="headd1 fw-bold " style="color: #264273; font-weight: 700;">
+                            Ph.D. Programme <br><span style="color: #FF9A1E; font-weight: 500;">in Travel and
+                                Tourism</span>
+                        </h2>
+
+                        <p class="para1 pt-3" style="color: #264273; text-align: justify;">
+                            The Travel and Tourism sector is a significant, diverse and ever-expanding industry that
+                            encompasses a wide range of activities, services and businesses related to travel, leisure
+                            and hospitality. Pursuing a Ph.D. Programme in this field can be rewarding and
+                            intellectually
+                            stimulating journey, allowing you to conduct research, contribute to the knowledge based on
+                            the industry and potentially pursue a career in academia or advanced research within the
+                            travel, tourism and hospitality sector.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div style="padding: 40px 60px; text-align: left;">
+
+            <h2 class="headd1 fw-bold pt-4" style="color: #264273; font-weight: 700;">Ph.D. Guides and <span
+                    style="color: #FF9A1E; font-weight: 500;">Research Interests</span>
+            </h2>
+
+            <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-2">
+                            <img class="rounded shadow-sm border"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-travel-tourism-management/1.jpeg" alt="">
+                        </div>
+                        <div class="col-lg-9">
+                            <h2 class="headd3 fw-bold " style="color: #264273;">
+                                Dr. Soumitra Sen
+                            </h2>
+                            <p class="para1 text-dark">
+                                Dean RSTTM
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                Hospitality operations, service quality management, sustainable tourism, tourism
+                                education, strategic hospitality leadership, destination management, customer
+                                satisfaction, hospitality training and development, tourism policy, the
+                                industry-academia interface, emerging tourism markets, and innovation in hospitality
+                                services
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-2">
+                            <img class="rounded shadow-sm border"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-travel-tourism-management/INDRAJITDUTTA.png"
+                                alt="">
+                        </div>
+                        <div class="col-lg-9">
+                            <h2 class="headd3 fw-bold " style="color: #264273;">
+                                Dr. Indrajit Dutta
+                            </h2>
+                            <p class="para1 text-dark">
+                                Associate Professor & HOD RSTTM
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                Sustainable tourism, community-based tourism, hospitality operations, indigenous
+                                communities, responsible tourism, human resource development, service innovation, policy
+                                formulation, tourism economics, rural tourism, destination management, eco-tourism,
+                                cultural tourism, hospitality marketing, tourism impact assessment
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-2">
+                            <img class="rounded shadow-sm border"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-travel-tourism-management/SyedSajidulIslamDP.jpg"
+                                alt="">
+                        </div>
+                        <div class="col-lg-9">
+                            <h2 class="headd3 fw-bold " style="color: #264273;">
+                                Dr. Syed Sajidul Islam
+                            </h2>
+                            <p class="para1 text-dark">
+                                Associate Professor - RSTTM
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                Sustainable Tourism, Community-based Tourism,
+                                Responsible Tourism, Rural Tourism, Tea Tourism, Green Tourism, Farm
+                                Tourism, Eco-Tourism, Cultural Tourism, Destination Management, Tribal
+                                Tourism, Ethno Tourism, Women Empowerment, Wildlife Tourism & Tourism Impact Assessment.
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
 
-
-
-            <div class="headd2 fw-bold text-dark pt-5 kd-title-ani kd-split-text">Ph.D. Curriculum</div>
-
-            @include('frontend/components/phddeptweb')
+            <!-- PHD Curriculum  -->
 
         </div>
-     </div>
+
+    </div>
 
 @endsection

@@ -1,4 +1,4 @@
-<div class="main-container" style="margin-top: 100px; margin-bottom: 100px;">
+<div class="main-container" style="margin-top: 100px; margin-bottom: 100px; position: relative;">
     <section class="button-container">
         <div class="button-row">
             <a href="doctoral-architecture" class="button para1">Architecture</a>
@@ -7,7 +7,7 @@
             <a href="doctoral-biotechnology" class="button para1">Bio-Technology</a>
             <a href="doctoral-botany" class="button para1">Botany</a>
             <a href="doctoral-chemistry" class="button para1">Chemistry</a>
-            <a href="#" class="button para1">Commerce</a>
+            <a href="doctoral-commerce" class="button para1">Commerce</a>
             <a href="doctoral-com-sc-engg" class="button para1">Computer Applications</a>
             <a href="doctoral-civil-engineering" class="button para1">Civil Engineering</a>
         </div>

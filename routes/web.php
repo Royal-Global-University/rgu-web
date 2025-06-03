@@ -86,6 +86,15 @@ Route::get('/advisor-sri-ravi-kant', function () {
     return view('frontend/discoverRGU/advisory-sri-ravi-kant');
 })->name('advisory-sri-ravi-kant');
 
+//new
+Route::get('/advisor-dr-amarjyoti-choudhury', function () {
+    return view('frontend/discoverRGU/advisor-dr-amarjyoti-choudhury');
+})->name('advisor-dr-amarjyoti-choudhury');
+
+Route::get('/advisor-prasanta-jyoti-baruah', function () {
+    return view('frontend/discoverRGU/advisor-prasanta-jyoti-baruah');
+})->name('advisor-prasanta-jyoti-baruah');
+
 Route::get('/leadership-anil-kumar', function () {
     return view('frontend/discoverRGU/leadership-anil-kumar');
 })->name('leadership-anil-kumar');
@@ -714,7 +723,6 @@ Route::get('/doctoral-geology', function () {
     return view('frontend/phd/doctoral-geology');
 })->name('doctoral-geology');
 
-//
 Route::get('/doctoral-history', function () {
     return view('frontend/phd/doctoral-history');
 })->name('doctoral-history');
@@ -734,6 +742,10 @@ Route::get('/doctoral-management', function () {
 Route::get('/doctoral-mass-comm-journalism', function () {
     return view('frontend/phd/doctoral-mass-comm-journalism');
 })->name('doctoral-mass-comm-journalism');
+
+Route::get('/doctoral-commerce', function () {
+    return view('frontend/phd/doctoral-commerce');
+})->name('doctoral-commerce');
 
 Route::get('/doctoral-mathematics', function () {
     return view('frontend/phd/doctoral-mathematics');

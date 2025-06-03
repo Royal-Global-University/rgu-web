@@ -1288,12 +1288,12 @@
 
         <div style="padding: 40px 60px;">
 
-            <div class="headd2 fw-bold text-dark pt-4">Ph.D. Curriculum</div>
+            <div class="headd2 fw-bold text-dark pb-5">Ph.D. Curriculum</div>
 
             @include('frontend/components/phddeptweb')
 
 
-            <p class="para1 text-dark" style="text-align: justify;">
+            <p class="para1 text-dark pt-5" style="text-align: justify;">
                 In particular, RGU doctoral programme aims to train the researchers who extend the boundaries of current
                 knowledge and are also able to create new knowledge, are adept in the use of traditional methodologies and
                 latest tools and build on these to develop new techniques to answer questions that transcend disciplinary
