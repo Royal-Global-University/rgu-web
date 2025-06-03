@@ -696,7 +696,7 @@
           </div>
           <div class="card-body d-flex flex-column flex-grow-1">
           <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-4">Indian Knowledge
-            System (IKS)</h5>
+            Systems (IKS)</h5>
           <div class="mt-auto mb-4">
             <div class="text-center">
             <a href="indian-knowledge-system-cell-about"
@@ -1446,7 +1446,7 @@
             src="mobile-assets/school-rgu/IKS LOGO-new.jpeg" class="img-fluid rounded" />
           </div>
           <div class="card-body d-flex flex-column flex-grow-1">
-          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Indian Knowledge System
+          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Indian Knowledge Systems
             (IKS)</h5>
           <div class="mt-auto mb-4">
             <div class="text-center">

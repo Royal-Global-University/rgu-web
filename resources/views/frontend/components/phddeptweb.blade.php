@@ -28,7 +28,7 @@
             <a href="#" class="button para1">Geoinformatics</a>
             <a href="#" class="button para1">Forensic Science</a>
             <a href="doctoral-hotel-management" class="button para1">Hotel Management</a>
-            <a href="doctoral-indian-knowledge-sys" class="button para1">Indian Knowledge System</a>
+            <a href="doctoral-indian-knowledge-sys" class="button para1">Indian Knowledge Systems</a>
             <a href="doctoral-mathematics" class="button para1">Mathematics</a>
             <a href="#" class="button para1">Mechanical Engineering</a>
             <a href="#" class="button para1">Nutrition & Dietetics</a>

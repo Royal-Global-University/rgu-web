@@ -167,7 +167,7 @@
             <a href="doctoral-indian-knowledge-sys" target="_blank"
                 class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                 style="background-color: #13223b; color: white; font-weight: bold; padding: 15px; border-radius: 5px; text-decoration: none; min-height: 60px;">
-                Indian Knowledge System
+                Indian Knowledge Systems
             </a>
         </div>
 
