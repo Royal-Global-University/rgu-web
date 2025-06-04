@@ -21,7 +21,7 @@
                                 <td>
                                     CODE OF ETHICS IN ACADEMIC RESEARCH AT RGU
                                 </td>
-                                <td style="display: flex; justify-content: center;"><a target="_blank" href="#"><a
+                                <td style="display: flex; justify-content: center;"><a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/plolicy/policy1.pdf"><a
                                             target="_blank" href="assets/img/iqac/naac-docs/c2/"><button type="button"
                                                 class="btn btn-primary btn-sm custom-details-btn">Download</button></a></a></td>
                             </tr>
@@ -29,7 +29,7 @@
                                 <td>
                                     RGU’s POLICY ON RESEARCH
                                 </td>
-                                <td style="display: flex; justify-content: center;"><a target="_blank" href="#"><button
+                                <td style="display: flex; justify-content: center;"><a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/plolicy/policy2.pdf"><button
                                             type="button"
                                             class="btn btn-primary btn-sm custom-details-btn">Download</button></a></td>
                             </tr>
@@ -37,7 +37,7 @@
                                 <td>
                                     SEED-MONEY GRANT POLICY FOR FACULTY MEMBERS
                                 </td>
-                                <td style="display: flex; justify-content: center;"><a target="_blank" href="#"><button
+                                <td style="display: flex; justify-content: center;"><a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/plolicy/policy3.pdf"><button
                                             type="button"
                                             class="btn btn-primary btn-sm custom-details-btn">Download</button></a></td>
                             </tr>
@@ -45,7 +45,7 @@
                                 <td>
                                     RESEACH SUPPORT POLICY FOR UG/ PG STUDENTS
                                 </td>
-                                <td style="display: flex; justify-content: center;"><a target="_blank" href="#"><button
+                                <td style="display: flex; justify-content: center;"><a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/plolicy/policy4.pdf"><button
                                             type="button"
                                             class="btn btn-primary btn-sm custom-details-btn">Download</button></a></td>
                             </tr>
@@ -53,7 +53,7 @@
                                 <td>
                                     RESEARCH INCENTIVE POLICY
                                 </td>
-                                <td style="display: flex; justify-content: center;"><a target="_blank" href="#"><button
+                                <td style="display: flex; justify-content: center;"><a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/plolicy/policy5.pdf"><button
                                             type="button"
                                             class="btn btn-primary btn-sm custom-details-btn">Download</button></a></td>
                             </tr>
@@ -88,15 +88,14 @@
                                 <td>
                                     CODE OF ETHICS IN ACADEMIC RESEARCH AT RGU
                                 </td>
-                                <td style="display: flex; justify-content: center;"><a target="_blank" href="#"><a
-                                            target="_blank" href="#"><button type="button"
-                                                class="btn btn-primary btn-sm custom-details-btn">Download</button></a></a></td>
+                                <td style="display: flex; justify-content: center;"><a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/plolicy/policy1.pdf"><button type="button"
+                                                class="btn btn-primary btn-sm custom-details-btn">Download</button></a></td>
                             </tr>
                             <tr>
                                 <td>
                                     RGU’s POLICY ON RESEARCH
                                 </td>
-                                <td style="display: flex; justify-content: center;"><a target="_blank" href="#"><button
+                                <td style="display: flex; justify-content: center;"><a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/plolicy/policy2.pdf"><button
                                             type="button"
                                             class="btn btn-primary btn-sm custom-details-btn">Download</button></a></td>
                             </tr>
@@ -104,7 +103,7 @@
                                 <td>
                                     SEED-MONEY GRANT POLICY FOR FACULTY MEMBERS
                                 </td>
-                                <td style="display: flex; justify-content: center;"><a target="_blank" href="#"><button
+                                <td style="display: flex; justify-content: center;"><a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/plolicy/policy3.pdf"><button
                                             type="button"
                                             class="btn btn-primary btn-sm custom-details-btn">Download</button></a></td>
                             </tr>
@@ -112,7 +111,7 @@
                                 <td>
                                     RESEACH SUPPORT POLICY FOR UG/ PG STUDENTS
                                 </td>
-                                <td style="display: flex; justify-content: center;"><a target="_blank" href="#"><button
+                                <td style="display: flex; justify-content: center;"><a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/plolicy/policy4.pdf"><button
                                             type="button"
                                             class="btn btn-primary btn-sm custom-details-btn">Download</button></a></td>
                             </tr>
@@ -120,7 +119,7 @@
                                 <td>
                                     RESEARCH INCENTIVE POLICY
                                 </td>
-                                <td style="display: flex; justify-content: center;"><a target="_blank" href="#"><button
+                                <td style="display: flex; justify-content: center;"><a target="_blank" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/plolicy/policy5.pdf"><button
                                             type="button"
                                             class="btn btn-primary btn-sm custom-details-btn">Download</button></a></td>
                             </tr>

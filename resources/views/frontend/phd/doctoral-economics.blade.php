@@ -1,119 +1,372 @@
 @extends('frontend.master')
 @section('content')
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-        <img style="padding-top: 90px; position: relative;" src="mobile-assets/phd-mobile/mob-Economics.png" alt="">
-
-        <div class="container pb-3 pt-3" style="background-color: #f0f8ff;">
-            <h2 class="mobile-headd2 text-dark">
-                Ph.D. Curriculum
-            </h2>
-
-            @include('frontend/components/phddeptmob')
-        </div>
-     </div>
-
-     <div class="website">
-        <div id="page" class="site site_wrapper">
-
-            <div class="scroll-top">
-                <div class="scroll-top-wrap">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg" data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                        </path>
-                    </svg>
-                </div>
-            </div>
-
-            <!--Start Header-->
-            @include('frontend/components/aheader')
-            <!--End Header-->
-
-            <!--About Section-->
-            <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-                <section style="background-image: url(mobile-assets/phd-mobile/bgg.svg); background-size: cover; padding-top: 30px;" class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f481aaf" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-968af55" data-id="968af55" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-4878838 elementor-widget elementor-widget-go-img--bx" data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                            <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                                <img decoding="async" src="mobile-assets/phd-mobile/headimg.jpeg" alt="">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9b49111" data-id="9b49111" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-c8de01e elementor-widget elementor-widget-go-s-heading" data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="prthalign">
-                                            <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
-                                                Economics</h1>
-                                            <div class="para1 text-dark kd-para-1 disc" data-splitting style="text-align: justify;">
-                                                <p>
-                                                    Embracing the vision of National Education Policy (NEP), 2020, the Department of Economics, Royal Global University (RGU) is geared up to create a research environment for the faculty members and the students to meet the challenges of fast changing economic dynamics of our nation. At present there are three experienced full-fledged Ph.D guides in the Department to assist and facilitate meaningful empirical research. The department has also engaged a few co-guides from other universities such as Gauhati University and Alliance University, Bangalore. A few more co-guides are likely to be added soon as our Memorandum of Understanding (MoU) with various colleges of the state takes a practical shape. As regards research areas emphasis is given to concentrate on non-theoretical issues that can enhance our understanding about the economies of Assam, North-East as well as India as a whole.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <section style="padding: 110px 10px; background-image: url(mobile-assets/placement-all/mobile-bg.svg); position: relative;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <h2 class="mobile-headd2 kd-title-ani kd-split mb-4 text-center"
+                            style="color: #264273; font-weight: 700;">
+                            Ph.D. Programme <br><span style="color: #FF9A1E; font-weight: 500;">
+                                in Economics</span> </h2>
+                        <div class="txaa-slide-down-1">
+                            <div style="border: 1px solid #27467A; height: 320px; width: 100%;"
+                                class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/headimg.jpeg" alt="">
                             </div>
                         </div>
                     </div>
-                </section>
-                <hr>
+
+                    <div class="col-lg-12 pt-4">
+
+                        <p class="para1" style="color: #264273; text-align: justify;">
+                            Embracing the vision of National Education Policy (NEP), 2020, the Department of Economics,
+                            Royal Global University (RGU) is geared up to create a research environment for the faculty
+                            members and the students to meet the challenges of fast changing economic dynamics of our
+                            nation. At present there are three experienced full-fledged Ph.D guides in the Department to
+                            assist and facilitate meaningful empirical research. The department has also engaged a few
+                            co-guides from other universities such as Gauhati University and Alliance University,
+                            Bangalore. A few more co-guides are likely to be added soon as our Memorandum of
+                            Understanding (MoU) with various colleges of the state takes a practical shape. As regards
+                            research areas emphasis is given to concentrate on non-theoretical issues that can enhance
+                            our understanding about the economies of Assam, North-East as well as India as a whole.
+                        </p>
+
+                        <p class="para1" style="color: #264273; text-align: justify;">
+                            The department is ardently focusing on emerging issues as well as to have a fresh look on
+                            studies that appears to be failing to answer new questions that have been thrown up by the
+                            evolving economic landscape. The department specializes on international trade, finance,
+                            agriculture, micro, small and medium enterprises, physical and social infrastructure, state,
+                            and union government sponsored welfare-oriented schemes etc. and to help the government to
+                            formulate policies along with issues already under study. The tools and methodologies
+                            followed include both traditional and emerging methods that rely extensively on using
+                            computer software and computer languages. Efforts will be made to upgrade both the faculties
+                            and researchers in this regard.
+                        </p>
+
+
+
+                        <h2 class="mobile-headd3 fw-bold mt-3" style="color: #264273; font-weight: 700;">
+                            Ph.D. Guides <span style="color: #FF9A1E; font-weight: 500;">
+                                and Research Interests</span> </h2>
+
+                    </div>
+
+                    <div style="display: flex; justify-content: center; align-items: center; padding: 20px;">
+
+                        <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                            <div class="col-lg-3 mb-4">
+                                <div class="card rounded d-flex flex-column"
+                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                                    <div class="p-3">
+                                        <img style="height: 290px; width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-economics/dr-gautam.jpg"
+                                            class="img-fluid rounded border" />
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
+                                            Prof. (Dr.) Gautam Mazumdar
+                                        </h5>
+                                        <p class="para1 text-dark">
+                                            Professor
+                                        </p>
+
+                                        <p class="para1 fw-bold" style="color: #264273;">
+                                            Research Interest
+                                        </p>
+                                        <p class="para1" style="color: #333; line-height: 1.3;">
+                                            International Economics, Indian Economics, Trade and Finance, Financial
+                                            Economics
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 mb-4">
+                                <div class="card rounded d-flex flex-column"
+                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                                    <div class="p-3">
+                                        <img style="height: 290px; width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-economics/dr-deluwar.jpg"
+                                            class="img-fluid rounded border" />
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
+                                            Dr. Mohammed Deluwar Hoque
+                                        </h5>
+                                        <p class="para1 text-dark">
+                                            Associate Professor & HOD
+                                        </p>
+
+                                        <p class="para1 fw-bold" style="color: #264273;">
+                                            Research Interest
+                                        </p>
+                                        <p class="para1" style="color: #333; line-height: 1.3;">
+                                            Rural Development, Rural Poverty, Rural Banking, Tourism and Development,
+                                            Demography -
+                                            Migration, International Economics
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 mb-4">
+                                <div class="card rounded d-flex flex-column"
+                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                                    <div class="p-3">
+                                        <img style="height: 290px; width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-economics/dr-durba.png"
+                                            class="img-fluid rounded border" />
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
+                                            Dr. Durba Dutta
+                                        </h5>
+                                        <p class="para1 text-dark">
+                                            Associate Professor
+                                        </p>
+
+                                        <p class="para1 fw-bold" style="color: #264273;">
+                                            Research Interest
+                                        </p>
+                                        <p class="para1" style="color: #333; line-height: 1.3;">
+                                            Poverty,Urban Poverty, Floriculture, Micro Finance, Agricultural Economics
+                                            and Financial
+                                            Inclusion
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 mb-4">
+                                <div class="card rounded d-flex flex-column"
+                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                                    <div class="p-3">
+                                        <img style="height: 290px; width: 100%;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-economics/dr-sangamitra.png"
+                                            class="img-fluid rounded border" />
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
+                                            Dr. Sanghamitra Hazarika
+                                        </h5>
+                                        <p class="para1 text-dark">
+                                            Assistant Professor
+                                        </p>
+
+                                        <p class="para1 fw-bold" style="color: #264273;">
+                                            Research Interest
+                                        </p>
+                                        <p class="para1" style="color: #333; line-height: 1.3;">
+                                            Agricultural Economics, Banking and Finance, Women Studies
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
-            <!--End About-->
+        </section>
+    </div>
+
+    <div class="website">
+        @include('frontend/components/aheader')
+        <section
+            style="background-image: url(mobile-assets/placement-all/bgg.svg); background-size: cover; padding: 50px 0px;">
+            <div class="container">
+                <div class="row align-items-center gx-5">
+                    <div class="col-lg-6">
+                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
+                            <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/headimg.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <h2 class="headd1 fw-bold mt-3" style="color: #264273; font-weight: 700;">
+                            Ph.D. Programme <span style="color: #FF9A1E; font-weight: 500;"><br>in Economics</span>
+                        </h2>
+
+                        <p class="para1" style="color: #264273; text-align: justify;">
+                            Embracing the vision of National Education Policy (NEP), 2020, the Department of Economics,
+                            Royal Global University (RGU) is geared up to create a research environment for the faculty
+                            members and the students to meet the challenges of fast changing economic dynamics of our
+                            nation. At present there are three experienced full-fledged Ph.D guides in the Department to
+                            assist and facilitate meaningful empirical research. The department has also engaged a few
+                            co-guides from other universities such as Gauhati University and Alliance University,
+                            Bangalore. A few more co-guides are likely to be added soon as our Memorandum of
+                            Understanding (MoU) with various colleges of the state takes a practical shape. As regards
+                            research areas emphasis is given to concentrate on non-theoretical issues that can enhance
+                            our understanding about the economies of Assam, North-East as well as India as a whole.
+                        </p>
 
 
-        </div>
+                    </div>
+                </div>
 
-        <div style="padding: 40px 60px;">
+            </div>
 
-            <p class="para1 text-dark" style="text-align: justify;">
-                The department is ardently focusing on emerging issues as well as to have a fresh look on studies that appears to be failing to answer new questions that have been thrown up by the evolving economic landscape. The department specializes on international trade, finance, agriculture, micro, small and medium enterprises, physical and social infrastructure, state, and union government sponsored welfare-oriented schemes etc. and to help the government to formulate policies along with issues already under study. The tools and methodologies followed include both traditional and emerging methods that rely extensively on using computer software and computer languages. Efforts will be made to upgrade both the faculties and researchers in this regard.
+        </section>
+
+        <div style="padding: 20px 60px;">
+            <p class="para1" style="color: #333; text-align: justify;">
+                The department is ardently focusing on emerging issues as well as to have a fresh look on studies that
+                appears to be failing to answer new questions that have been thrown up by the evolving economic
+                landscape. The department specializes on international trade, finance, agriculture, micro, small and
+                medium enterprises, physical and social infrastructure, state, and union government sponsored
+                welfare-oriented schemes etc. and to help the government to formulate policies along with issues already
+                under study. The tools and methodologies followed include both traditional and emerging methods that
+                rely extensively on using computer software and computer languages. Efforts will be made to upgrade both
+                the faculties and researchers in this regard.
             </p>
 
-            <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
 
-            <div class="row d-flex"> <!-- Add d-flex here -->
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-economics/1.jpeg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Prof. (Dr.) Swabera Islam</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
+            <h2 class="headd1 fw-bold pt-4 pb-4" style="color: #264273; font-weight: 700;">Ph.D. Guides and <span
+                    style="color: #FF9A1E; font-weight: 500;">Research Interests</span>
+            </h2>
+
+
+            <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                <div class="col-lg-3 mb-4">
+                    <div class="card rounded d-flex flex-column"
+                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 620px;">
+                        <div class="p-3">
+                            <img style="height: 290px; width: 100%;"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-economics/dr-gautam.jpg"
+                                class="img-fluid rounded border" />
                         </div>
-                </div>
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-economics/2.jpeg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Prof. (Dr.) Gautam Mazumdar</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
+
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
+                                Prof. (Dr.) Gautam Mazumdar
+                            </h5>
+                            <p class="para1 text-dark">
+                                Professor
+                            </p>
+
+                            <p class="para1 fw-bold" style="color: #264273;">
+                                Research Interest
+                            </p>
+                            <p class="para1" style="color: #333; line-height: 1.3;">
+                                International Economics, Indian Economics, Trade and Finance, Financial Economics
+                            </p>
+
                         </div>
+
+                    </div>
                 </div>
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-economics/3.jpeg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Mohammed Deluwar Hoque</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-                        <h2 class="para1 fw-bold text-dark">Research Interest</h2>
-                        <p class="para1 text-dark">Rural Development, Rural Poverty, Rural Banking, International Economics</p>
+
+                <div class="col-lg-3 mb-4">
+                    <div class="card rounded d-flex flex-column"
+                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 620px;">
+                        <div class="p-3">
+                            <img style="height: 290px; width: 100%;"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-economics/dr-deluwar.jpg"
+                                class="img-fluid rounded border" />
+                        </div>
+
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
+                                Dr. Mohammed Deluwar Hoque
+                            </h5>
+                            <p class="para1 text-dark">
+                                Associate Professor & HOD
+                            </p>
+
+                            <p class="para1 fw-bold" style="color: #264273;">
+                                Research Interest
+                            </p>
+                            <p class="para1" style="color: #333; line-height: 1.3;">
+                                Rural Development, Rural Poverty, Rural Banking, Tourism and Development, Demography -
+                                Migration, International Economics
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 mb-4">
+                    <div class="card rounded d-flex flex-column"
+                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 620px;">
+                        <div class="p-3">
+                            <img style="height: 290px; width: 100%;"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-economics/dr-durba.png"
+                                class="img-fluid rounded border" />
+                        </div>
+
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
+                                Dr. Durba Dutta
+                            </h5>
+                            <p class="para1 text-dark">
+                                Associate Professor
+                            </p>
+
+                            <p class="para1 fw-bold" style="color: #264273;">
+                                Research Interest
+                            </p>
+                            <p class="para1" style="color: #333; line-height: 1.3;">
+                                Poverty,Urban Poverty, Floriculture, Micro Finance, Agricultural Economics and Financial
+                                Inclusion
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 mb-4">
+                    <div class="card rounded d-flex flex-column"
+                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 620px;">
+                        <div class="p-3">
+                            <img style="height: 290px; width: 100%;"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-economics/dr-sangamitra.png"
+                                class="img-fluid rounded border" />
+                        </div>
+
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
+                                Dr. Sanghamitra Hazarika
+                            </h5>
+                            <p class="para1 text-dark">
+                                Assistant Professor
+                            </p>
+
+                            <p class="para1 fw-bold" style="color: #264273;">
+                                Research Interest
+                            </p>
+                            <p class="para1" style="color: #333; line-height: 1.3;">
+                                Agricultural Economics, Banking and Finance, Women Studies
+                            </p>
+
+                        </div>
+
                     </div>
                 </div>
 
             </div>
 
-
-
-            <div class="headd2 fw-bold text-dark pt-5 kd-title-ani kd-split-text">Ph.D. Curriculum</div>
-
-            @include('frontend/components/phddeptweb')
-
         </div>
-     </div>
+    </div>
 @endsection

@@ -2859,13 +2859,45 @@ Route::get('/cisr', function () {
 
 //faculty profile
 Route::get('/dr-shwetambara-verma', function () {
-    return view('frontend/facultyprofile/shwetambara-verma');
+    return view('frontend/facultyprofile/rset/shwetambara-verma');
 })->name('dr-shwetambara-verma');
 
 Route::get('/dr-pallabi-borah', function () {
-    return view('frontend/facultyprofile/rslc-pallabi-borah');
+    return view('frontend/facultyprofile/rslsc/pallabi-borah');
 })->name('dr-pallabi-borah');
 
 Route::get('/dr-pundarikaksha-das', function () {
-    return view('frontend/facultyprofile/rslc-pundarikaksha-das');
+    return view('frontend/facultyprofile/rslsc/pundarikaksha-das');
 })->name('dr-pundarikaksha-das');
+
+Route::get('/dr-bornali-chetia', function () {
+    return view('frontend/facultyprofile/rsaps/rsaps-bornali-chetia');
+})->name('dr-bornali-chetia');
+
+Route::get('/dr-devika-chetia', function () {
+    return view('frontend/facultyprofile/rsaps/rsaps-devika-phukan');
+})->name('dr-devika-chetia');
+
+Route::get('/faizuddin-ahmed', function () {
+    return view('frontend/facultyprofile/rsaps/faizuddin-ahmed');
+})->name('faizuddin-ahmed');
+
+Route::get('/dr-maidul-islam', function () {
+    return view('frontend/facultyprofile/rsaps/maidul-islam');
+})->name('dr-maidul-islam');
+
+Route::get('/raju-kalita', function () {
+    return view('frontend/facultyprofile/rsaps/raju-kalita');
+})->name('raju-kalita');
+
+Route::get('/dr-sanchita-roy', function () {
+    return view('frontend/facultyprofile/rsaps/sanchita-roy');
+})->name('dr-sanchita-roy');
+
+Route::get('/dr-sankar-barman', function () {
+    return view('frontend/facultyprofile/rsaps/sankar-barman');
+})->name('dr-sankar-barman');
+
+Route::get('/dr-sujata-deb', function () {
+    return view('frontend/facultyprofile/rsaps/sujata-deb');
+})->name('dr-sujata-deb');

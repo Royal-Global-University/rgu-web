@@ -1,17 +1,17 @@
 @extends('frontend.master')
 @section('content')
-    <section>
+    <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <div style="background-color: #fff; height: 40vh;">
+            <div style="background-color: #fff; height: 40vh; padding-top: 90px;">
 
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
                                 <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Dr.Pundarikaksha.jpg"
+                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsaps/27.jpg"
                                     alt="">
                             </div>
                         </div>
@@ -23,77 +23,73 @@
 
             </div>
 
-            <div style="background-color: #27467A; padding-top: 70px; padding-bottom: 30px;">
+            <div style="background-color: #27467A; padding-top: 190px; padding-bottom: 50px;">
 
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6"></div>
                         <div class="col-lg-6 pt-4 pb-4">
 
-                            <h2 class="headd1 fw-bold pt-4" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
-                                Dr. Pundarikaksha Das
+                            <h2 class="headd1 fw-bold pt-5" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
+                                Dr. Sujata Deb
                             </h2>
 
-                            <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
-                                Assistant Professor and Coordinator, Department of Forensic Science, Royal School of Life
-                                Sciences, The Assam Royal Global University.
+                            <h2 class="headd3 mb-5 pt-3 fw-bold faculty-underline" style="color: #fff; font-weight: 700;">
+                                Associate Professor & Associate Dean (Admission),
+                                Department of Physics,
+                                Royal School of Applied & Pure Sciences,
+                                The Assam Royal Global University
+
                             </h2>
 
-                            <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
+                            <!-- <h2 class="para1 mb-5 faculty-underline" style="color: #fff; font-style: italic; font-size: 20px;">
                       Member of Advisory Board, The Assam Royal Global University
                     </h2> -->
 
                             <div>
-
-                                <h2 class="headd3 mb-3 fw-bold"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Academic Qualification
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">Ph.D. in Molecular Biology and Bioinformatics;
-                                            Specialization: Bioinformatics, Cancer Biology; Department of Molecular Biology
-                                            and Biotechnology, Tezpur University.</span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">Diploma in Forensic Science; Rabindranath Tagore
-                                            University, Bhopal.</span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">Integrated M.Sc. in Bioscience and Bioinformatics
-                                            (Life Science); Department of Molecular Biology and Biotechnology, Tezpur
-                                            University.</span>
-                                    </li>
-
-                                </ul>
-
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Total Experience
+                                    Qualifications
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Ph.D., Gauhati University, 2017 <br>
+                                            First class (9.5 score in Ph.D. course work)
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            M.Sc., Physics, Gauhati University, 2002 <br>
+                                            First class with two specializations - (i) Nuclear Physics and (ii) High Energy
+                                            Physics
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            B.Sc. (H) Physics, Gauhati University, 1999 <br>
+                                            First class with distinction
+                                        </span>
+                                    </li>
 
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            1 Years 6 Months
+                                            Bachelor of Education (B.Ed.) from Gauhati University, 2009
                                         </span>
                                     </li>
-
                                 </ul>
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
@@ -102,33 +98,33 @@
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            1 Year 6 Months
+                                            23 Years
                                         </span>
                                     </li>
-
                                 </ul>
 
-                                <!-- <h2 class="headd3 mb-3 fw-bold mt-4" style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                        Industry Experience
-                      </h2>
 
-                      <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
 
-                        <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                          <i class="fa fa-circle"
-                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                          <span style="display: block;">
-                            1 Year 6 Months
-                          </span>
-                        </li>
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Research
+                                </h2>
 
-                      </ul> -->
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Research (outside teaching): 14 Years
+                                        </span>
+                                    </li>
+                                </ul>
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
@@ -136,21 +132,46 @@
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Core/ Shell nanostructured materials
+                                        </span>
+                                    </li>
 
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Forensic Bioinformatics, Wildlife Forensics.
+                                            II-VI chalcogenide nanocomposites
                                         </span>
                                     </li>
 
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            2D materials
+                                        </span>
+                                    </li>
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Nano-optoelectronic materials and devices
+                                        </span>
+                                    </li>
                                 </ul>
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Paper Publications in Journals
+                                    Paper Publication in Journals:
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -160,15 +181,17 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            International: 7
+                                            International: 11
                                         </span>
                                     </li>
-
                                 </ul>
+
+
+
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Projects Undertaken
+                                    Book Chapter Published
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -178,17 +201,14 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Seed Money project- Assessing the nexus of microplastic contamination in
-                                            agricultural soils of Kharupetia-Dalgaon Belt, Assam: Implications for achieving
-                                            the UN SDG 3 (Intramural)
+                                            2
                                         </span>
                                     </li>
-
                                 </ul>
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Book Chapters Published
+                                    Projects
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -198,15 +218,14 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            1
+                                            2
                                         </span>
                                     </li>
-
                                 </ul>
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Any Other Achievements/Awards
+                                    Any Other Achievement/ Award
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -216,15 +235,13 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            DST INSPIRE Fellow (2018-2023)
+                                            Academic excellence (2017 & 2019)
                                         </span>
                                     </li>
 
                                 </ul>
-
 
                             </div>
-
 
                         </div>
                     </div>
@@ -235,17 +252,15 @@
         </div>
 
         <div class="website">
-
+            @include('frontend/components/aheader')
             <div style="background-color: #fff; height: 40vh; overflow: visible;">
-
-                <div style="background-color: #FF9A1E; position: absolute; width: 200px; height: 120px;"></div>
 
                 <div class="row">
                     <div class="col-lg-5 text-center">
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Dr.Pundarikaksha.jpg"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsaps/27.jpg"
                                 alt="">
                         </div>
 
@@ -254,16 +269,19 @@
                     <div class="col-lg-7 pt-5">
 
                         <h2 class="headd1 fw-bold pt-5 mb-3" style="color: #FF9A1E; font-weight: 700; font-size: 45px;">
-                            Dr. Pundarikaksha Das
+                            Dr. Sujata Deb
                         </h2>
 
-                        <h2 class="headd3 mb-5 fw-bold half-underline"
-                            style="color: #27467A; font-weight: 700; font-size: 20px;">
-                            Assistant Professor and Coordinator, Department of Forensic Science, Royal School of Life
-                            Sciences, The Assam Royal Global University
+                        <h2 class="headd3 mb-5 fw-bold faculty-underline"
+                            style="color: #27467A; font-weight: 700; font-size: 26px; padding-right: 30px;">
+                            Associate Professor & Associate Dean (Admission),
+                            Department of Physics,
+                            Royal School of Applied & Pure Sciences,<br>
+                            The Assam Royal Global University
+
                         </h2>
 
-                        <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
+                        <!-- <h2 class="headd3 mb-5 faculty-underline" style="color: #555; font-style: italic; font-size: 25px;">
                       Member of Advisory Board, The Assam Royal Global University
                     </h2> -->
 
@@ -278,51 +296,47 @@
                         <div class="col-lg-5"></div>
                         <div class="col-lg-7 pt-4 pb-4">
 
-                            <h2 class="headd3 mb-3 fw-bold" style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Academic Qualification
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">Ph.D. in Molecular Biology and Bioinformatics;
-                                        Specialization: Bioinformatics, Cancer Biology; Department of Molecular Biology and
-                                        Biotechnology, Tezpur University.</span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">Diploma in Forensic Science; Rabindranath Tagore
-                                        University, Bhopal.</span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">Integrated M.Sc. in Bioscience and Bioinformatics (Life
-                                        Science); Department of Molecular Biology and Biotechnology, Tezpur
-                                        University.</span>
-                                </li>
-
-                            </ul>
-
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Total Experience
+                                Qualifications
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Ph.D., Gauhati University, 2017 <br>
+                                        First class (9.5 score in Ph.D. course work)
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        M.Sc., Physics, Gauhati University, 2002 <br>
+                                        First class with two specializations - (i) Nuclear Physics and (ii) High Energy
+                                        Physics
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        B.Sc. (H) Physics, Gauhati University, 1999 <br>
+                                        First class with distinction
+                                    </span>
+                                </li>
 
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        1 Years 6 Months
+                                        Bachelor of Education (B.Ed.) from Gauhati University, 2009
                                     </span>
                                 </li>
-
                             </ul>
+
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
@@ -330,32 +344,31 @@
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        1 Year 6 Months
+                                        23 Years
                                     </span>
                                 </li>
-
                             </ul>
 
-                            <!-- <h2 class="headd3 mb-3 fw-bold mt-4" style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                        Industry Experience
-                      </h2>
 
-                      <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
 
-                        <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                          <i class="fa fa-circle"
-                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                          <span style="display: block;">
-                            1 Year 6 Months
-                          </span>
-                        </li>
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Research
+                            </h2>
 
-                      </ul> -->
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Research (outside teaching): 14 Years
+                                    </span>
+                                </li>
+                            </ul>
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
@@ -363,20 +376,42 @@
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Core/ Shell nanostructured materials
+                                    </span>
+                                </li>
 
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Forensic Bioinformatics, Wildlife Forensics.
+                                        II-VI chalcogenide nanocomposites
                                     </span>
                                 </li>
 
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        2D materials
+                                    </span>
+                                </li>
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Nano-optoelectronic materials and devices
+                                    </span>
+                                </li>
                             </ul>
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Paper Publications in Journals
+                                Paper Publication in Journals:
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -385,15 +420,15 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        International: 7
+                                        International: 11
                                     </span>
                                 </li>
-
                             </ul>
+
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Projects Undertaken
+                                Book Chapter Published
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -402,17 +437,14 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Seed Money project- Assessing the nexus of microplastic contamination in
-                                        agricultural soils of Kharupetia-Dalgaon Belt, Assam: Implications for achieving the
-                                        UN SDG 3 (Intramural)
+                                        2
                                     </span>
                                 </li>
-
                             </ul>
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Book Chapters Published
+                                Projects
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -421,15 +453,14 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        1
+                                        2
                                     </span>
                                 </li>
-
                             </ul>
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Any Other Achievements/Awards
+                                Any Other Achievement/ Award
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -438,11 +469,13 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        DST INSPIRE Fellow (2018-2023)
+                                        Academic excellence (2017 & 2019)
                                     </span>
                                 </li>
 
                             </ul>
+
+
                         </div>
                     </div>
                 </div>

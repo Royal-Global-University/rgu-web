@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <section style="background-image: url(mobile-assets/research/bg.svg); background-size: cover;">
+        <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/bg.svg); background-size: cover;">
             <div class="container">
 
                 <h2 class="mobile-headd1 kd-title-ani kd-split text-center pt-4" style="color: #264273; font-weight: 700;">
@@ -23,7 +23,9 @@
                             <th style="font-size: 16px;" class="text-white">View</th>
                         </thead>
 
+
                         <tbody class="para1" style="background-color: #f7f7f7 !important;">
+
                             <tr>
                                 <td>1</td>
                                 <td>Polar azimuthal temperature dependant light scattering device</td>
@@ -33,8 +35,7 @@
                                 <td>India</td>
                                 <td>23/08/2023</td>
                                 <td>03-01-2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link01.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -48,7 +49,7 @@
                                 <td>India</td>
                                 <td> 09/01/2024</td>
                                 <td> 19/01/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link05.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/PLANT%20LEAF%20DISEASE%20DETECTION%20USING%20COMPUTER%20VISION%20AND%20MACHINE%20LEARNINGALGORITHMS.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -65,7 +66,7 @@
                                 <td>India</td>
                                 <td> 14/12/2023</td>
                                 <td> 19/01/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link06.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/NANOPARTICLES%20BASED%20CANCER%20MEDICATION%20DEVICE.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -79,7 +80,7 @@
                                 <td>United Kingdom</td>
                                 <td>26/12/2023</td>
                                 <td>22/01/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link08.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/AI%20Chemical%20Mixing%20Device%20for%20Agriculture.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -93,7 +94,7 @@
                                 <td>India</td>
                                 <td>22/12/2023</td>
                                 <td>26/01/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link09.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/AI%20BASED%20SEED%20SOWING%20MACHINE%20FOR.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -107,7 +108,7 @@
                                 <td>United Kingdom</td>
                                 <td>12/01/2024</td>
                                 <td>09/04/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 29.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/AI%20based%20Intelligent%20System%20for%20Weather%20and%20Natural%20Disasters.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -121,7 +122,7 @@
                                 <td>India</td>
                                 <td>18/02/2024</td>
                                 <td>16/05/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 30.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/MACHINE%20LEARNING%20BASED%20FRUIT.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -135,7 +136,7 @@
                                 <td>India</td>
                                 <td>19/03/2024</td>
                                 <td>16/05/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 31.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/MACHINE%20SMART%20BRAIN%20MONITORING%20HEADSET.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -149,8 +150,7 @@
                                 <td>India</td>
                                 <td>25/03/2024</td>
                                 <td>30/05/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 32.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -166,7 +166,7 @@
                                 <td>India</td>
                                 <td>04/07/2024</td>
                                 <td>05/09/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 33.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/IOT%20AND%20SOLAR%20BASED%20REAL%20TIME%20SMART.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -181,8 +181,7 @@
                                 <td>India</td>
                                 <td>29/06/2024</td>
                                 <td>02/08/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 34.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -196,8 +195,7 @@
                                 <td>India</td>
                                 <td>28/06/2024</td>
                                 <td>02/08/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 35.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -211,8 +209,7 @@
                                 <td>India</td>
                                 <td>20/04/2024</td>
                                 <td>26/04/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link20.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -225,7 +222,7 @@
                                 <td>United Kingdom</td>
                                 <td>12/01/2023</td>
                                 <td>22/02/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link21.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/Data%20processing%20system%20for%20health%20advice.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -240,8 +237,7 @@
                                 <td>India</td>
                                 <td>12/07/2023</td>
                                 <td>15/12/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link02.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -255,7 +251,7 @@
                                 <td>India</td>
                                 <td>16/10/2023</td>
                                 <td>27/10/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link03.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/A%20New%20Novel%20Framework%20to%20Analyze%20and%20Detect%20the%20MRI%20based%20Brain%20Tumors%20and%20Alzheimer’s%20by%20using%20Convolution%20Neural%20Network.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -270,7 +266,7 @@
                                 <td>India</td>
                                 <td> 04/12/2023</td>
                                 <td>15/12/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link04.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/A%20HYBRID%20APPROACH%20FOR%20ANALYSING%20OF%20EARLY-STAGE%20DETECTIONAND%20PREVENTION%20OF%20LUNG%20CANCER%20USING%20ADVANCED%20MACHINELEARNING%20AND%20DEEP%20LEARNING%20ALGORITHMS.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -284,7 +280,7 @@
                                 <td>United Kingdom</td>
                                 <td>26/11/2023</td>
                                 <td>12-02-2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link07.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/ML%20and%20AI%20Based%20Device%20for%20Skin%20Cancer%20Detection.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -301,8 +297,7 @@
                                 <td>India</td>
                                 <td> 06/02/2023</td>
                                 <td> 17/02/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link10.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -317,8 +312,7 @@
                                 <td>India</td>
                                 <td> 06/03/2023</td>
                                 <td>03/10/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link17.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -332,8 +326,7 @@
                                 <td>India</td>
                                 <td>23/06/2023 </td>
                                 <td>25/08/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link18.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -346,8 +339,7 @@
                                 <td>India</td>
                                 <td>17/07/2023</td>
                                 <td>10/06/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link19.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -360,8 +352,7 @@
                                 <td>India</td>
                                 <td>02/02/2023</td>
                                 <td>02/10/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link22.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -376,8 +367,7 @@
                                 <td>India</td>
                                 <td> 20/05/2022</td>
                                 <td> 03/06/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link11.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -390,8 +380,7 @@
                                 <td>India</td>
                                 <td>04/11/2022</td>
                                 <td> 22/07/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link12.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -405,8 +394,7 @@
                                 <td>India</td>
                                 <td>08/08/2022</td>
                                 <td>09/09/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link13.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -420,8 +408,7 @@
                                 <td>India</td>
                                 <td>30/06/2022</td>
                                 <td> 22/07/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link14.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -436,8 +423,7 @@
                                 <td>India</td>
                                 <td> 23/08/2022</td>
                                 <td> 16/09/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link15.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -450,8 +436,7 @@
                                 <td>India</td>
                                 <td> 28/09/2022</td>
                                 <td> 07/10/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link16.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -466,8 +451,7 @@
                                 <td>India</td>
                                 <td> 06/12/2021</td>
                                 <td> 07/01/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link23.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -481,8 +465,7 @@
                                 <td>India</td>
                                 <td>08/09/2022</td>
                                 <td> 26/08/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link24.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -495,8 +478,7 @@
                                 <td>India</td>
                                 <td> 31/03/2022</td>
                                 <td> 08/04/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link25.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -510,8 +492,7 @@
                                 <td>India</td>
                                 <td>03/09/2022</td>
                                 <td>18/03/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link26.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -526,8 +507,7 @@
                                 <td>India</td>
                                 <td> 26/09/2021</td>
                                 <td>11/12/2021</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link27.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
 
@@ -541,11 +521,718 @@
                                 <td>India</td>
                                 <td>30/10/2021</td>
                                 <td>26/11/2021</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link28.pdf"
+                                <td><a href="#!" target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+
+                            <!-- new patents  -->
+
+                            <tr>
+                                <td>36</td>
+                                <td>DEVICE FOR DEVELOPING LIPID
+                                    LABRYNTHS AND NANOSTRUCTURES FOR ENHANCED DRUG DELIVERY</td>
+                                <td>
+                                    <ol>
+                                        <li>Nirmalkumar Shah</li>
+                                        <li>Dr. Amita Tilak</li>
+                                        <li>Dr. Sanmati Kumar Jain</li>
+                                        <li>Kritika Sachan</li>
+                                        <li>Dr. Manas Jyoti Kapil</li>
+                                        <li>Amrita Singh</li>
+                                        <li>Dr. Pruthviraj Karshanbhai Chaudhary</li>
+                                        <li>Prashant Sharma</li>
+                                        <li>Mr. Ikram</li>
+                                        <li>Priyanshi Chauhan</li>
+                                    </ol>
+
+                                </td>
+                                <td>Design</td>
+                                <td>437831-001</td>
+                                <td>---</td>
+                                <td>11/19/2024</td>
+                                <td>1/13/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/437831-001%20Gr%2013-01-2025%201.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
+
+                            <tr>
+                                <td>36</td>
+                                <td>DEVICE FOR TARGETED NOSE TO BRAIN DELIVERY OF DRUGS</td>
+                                <td>
+                                    <ol>
+                                        <li>Nirmal Shah</li>
+                                        <li>Dr. Megha Parashar</li>
+                                        <li>Dr. Amita Tilak</li>
+                                        <li>Dr. Sanmati Kumar Jain</li>
+                                        <li>Dr. Zulfa Nooreen</li>
+                                        <li>Dr. S. J. Shankar</li>
+                                        <li>Dr. Manas Jyoti Kapil</li>
+                                        <li>Debabrata Nath</li>
+                                        <li>Dr. Pareshkumar N. Patel</li>
+                                        <li>Dr. Rati Kailash Prasad Tripathi</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>438193-001</td>
+                                <td>---</td>
+                                <td>11/23/2024</td>
+                                <td>1/13/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/438193-001%20Gr%2013-01-2025%201.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>37</td>
+                                <td>REAL-TIME DIAGNOSTIC FEEDBACK ANALYZER</td>
+                                <td>
+                                    <ol>
+                                        <li>Dr. Suman Agarwal</li>
+                                        <li>Dr. Rishi Chakravarty</li>
+                                        <li>Dr. Arpee Saikia</li>
+                                        <li>Dr. Bitopi Gogoi</li>
+                                        <li>Prof. Dr. George A. Paul</li>
+                                        <li>Prof. Saket Jeswani</li>
+                                        <li>Dr. Dip Narayain Singh</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>436204-001</td>
+                                <td>---</td>
+                                <td>10/30/2024</td>
+                                <td>1/16/2025</td>
+                                <td><a href="#!" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>38</td>
+                                <td>SMART ID CARD OF EMPLOYEES THAT
+                                    MONITOR VITAL SIGNS </td>
+                                <td>
+                                    <ol>
+                                        <li>Dr. Saket Jeswani</li>
+                                        <li>Dr. Gunjan Jeswani</li>
+                                        <li>Dr. Dip Narayan Singh</li>
+                                        <li>Dr. Suman Agrawal</li>
+                                        <li>Dr. Shaji Mathai</li>
+                                        <li>Dr. Deepti Sharma</li>
+                                        <li>Prof. (Dr.) Ajit Kaushal</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>436856-001</td>
+                                <td>---</td>
+                                <td>11/9/2024</td>
+                                <td>1/30/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/436856-001%20Gr%2030-01-2025%201.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td>39</td>
+                                <td>SOCIAL MEDIA PAYMENT PLATFORM
+                                    INTEGRATION DEVICE </td>
+                                <td>
+                                    <ol>
+                                        <li>Ms. Lata Pandey</li>
+                                        <li>Prof. Ranjit Singh</li>
+                                        <li>Dr. Suman Agarwal</li>
+                                        <li>Mr. Rahul Tiwary</li>
+                                        <li>Dr. Darshana Bhagowati</li>
+                                        <li>Mr. Dipak Jain</li>
+                                        <li>Miss Tanisha Mukherjee</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>438114-001</td>
+                                <td>---</td>
+                                <td>11/22/2024</td>
+                                <td>1/9/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/438114-001%20Gr%2009-01-2025%201.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td>40</td>
+                                <td>DEVICE FOR TESTING FAST DISSOLVING
+                                    TABLETS </td>
+                                <td>
+                                    <ol>
+                                        <li>Dr. Amita Tilak</li>
+                                        <li>Dr. Sanmati Kumar Jain</li>
+                                        <li>Dr. Moumita Ray</li>
+                                        <li>Mr. Sudipto Mangal</li>
+                                        <li>Harshit Chaurasiya</li>
+                                        <li>Neelakshi Sharma</li>
+                                        <li>Uma Jyoti</li>
+                                        <li>Dr. Laxmikant Zawar</li>
+                                        <li>Tiyas Saha</li>
+                                        <li>Koustav Dutta</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>439616-001</td>
+                                <td>---</td>
+                                <td>12/5/2024</td>
+                                <td>1/28/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/439616-001%2028-01-2025%201.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>41</td>
+                                <td>MOSQUITO REPELLANT SPRAY BOTTLE </td>
+                                <td>
+                                    <ol>
+                                        <li>Dr. Lalit Saikia</li>
+                                        <li>Dr. Sudarshana Borah</li>
+                                        <li>Ms. Tanjima Tarique Laskar</li>
+                                        <li>Mr. Sumit Dutta</li>
+                                        <li>Dr. L.K. Nath</li>
+                                        <li>Dr. Monalisa B. Deka</li>
+                                        <li>Dr. Kumar Saurav Dey</li>
+                                        <li>Dr. Shankhadhwaj Borah</li>
+                                        <li>Dr. Sonjit Das</li>
+                                        <li>Ms. Kabita Mahato</li>
+                                        <li>Dr. Monica Arora</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>442954-001</td>
+                                <td>---</td>
+                                <td>1/3/2025</td>
+                                <td>3/10/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/442954-001%20Gr%2010-03-2025%201.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>42</td>
+                                <td>FORMULATION AND EVALUATION OF DIOSGENIN-LOADED NANOPARTICLES FOR ENHANCED ANTI-TUMOR
+                                    EFFICACY IN OVARIAN
+                                    CANCER</td>
+                                <td>
+                                    <ol>
+                                        <li>Mr. Bhaskar Jyoti Pathak</li>
+                                        <li>Mr. Hadiuz Zaman</li>
+                                        <li>Mr. Himanta Biswa Saikia</li>
+                                        <li>Mr. Tapoban Bordoloi</li>
+                                        <li>Mr. Rakibur Rahman</li>
+                                        <li>Mrs. Neelakshi Sharma</li>
+                                        <li>Dr. Manas Jyoti Kapil</li>
+                                        <li>Mr. Tanmay Sarma</li>
+                                        <li>Mr. Moidul Islam Judder</li>
+                                        <li>Mr. Sourin Sarma</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202531014821 A</td>
+                                <td>---</td>
+                                <td>3/14/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531014821%20A%2014-03-2025%201.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td>43</td>
+                                <td>
+                                    SYSTEM AND METHOD FOR QUANTUM COHERENCE ANALYSIS USING AN OPTICAL FIBER BRAGG GRATING, A
+                                    MULTIDISCIPLINARY APPROACHINTEGRATING PHYSICS, CHEMISTRY AND MATHEMATICAL MODELING </td>
+                                <td>
+                                    <ol>
+                                        <li>Dr. Devika Phukan</li>
+                                        <li>Dr. Biswajit Sarma</li>
+                                        <li>Dr. Pubalee Sarmah</li>
+                                        <li>Dr. Anup Malakar</li>
+                                        <li>Prof. (Dr.) Anuradha Devi</li>
+                                    </ol>
+                                </td>
+                                <td>Patent</td>
+                                <td>202531021638</td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531021638%20A%2028-03-2025%201.png"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>44</td>
+                                <td>
+                                    A SYSTEM AND METIIOD FOR DETECTION AND QUANTIFICATION OF HEAVY METALS IN WATER SAMPLES
+                                <td>
+                                    <ol>
+                                        <li>Mr. Nilutpal Hazarika</li>
+                                        <li>Mr. Keshav Kumar</li>
+                                        <li>Mr. Himanshu Bhardwaj</li>
+                                        <li>Ms. Sumi Barman</li>
+                                        <li>Mr. Akhileshar Prasad Mishra</li>
+                                        <li>Mr. Kamal Deka</li>
+                                        <li>Mr. Suman Kumar</li>
+                                        <li>Ms. Priyakshi Chutia</li>
+                                        <li>Mr. Tanmay Sarma</li>
+                                        <li>Mr. Bhaskar Jyoti Pathak</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202531020569 A </td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td><a href="#!" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td>43</td>
+                                <td>
+                                    DEVICE FOR PRODUCING POLYMER BASED IN-SITU GEL FOR RECTAL DRUG DELIVERY
+                                <td>
+                                    <ol>
+                                        <li>Mr. Aadi Sathyan</li>
+                                        <li>Dr. Maruthamuthu Sakthivel</li>
+                                        <li>Dr. Rajeev Kumar Malviya</li>
+                                        <li>Junmoni Nath</li>
+                                        <li>Prof. Balasubramaniam Viswanathan</li>
+                                        <li>Bandla Aswani</li>
+                                        <li>Dr. Preeti Gahlot</li>
+                                        <li>Moidul Islam Judder</li>
+                                        <li>Gopi Loganathan</li>
+                                        <li>Dr. Megha Chaukiyal</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>444125-001</td>
+                                <td>---</td>
+                                <td>1/14/2025</td>
+                                <td>3/28/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/444125-001%2028-03-2025%201.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>43</td>
+                                <td>
+                                    A PHYSICO-CHEMICAL AND MATHEMATICAL APPROACH TO THE SUSTAINABLE EXTRACTION OF NATURAL DYE
+                                    FROM COUROUPITA GUIANENSIS FLOWERS FOR TEXTILE APPLICATIONS
+                                <td>
+                                    <ol>
+                                        <li>Dr. Biswajit Sarma</li>
+                                        <li>Dr. Pubalee Sarmah</li>
+                                        <li>Dr. Anup Malakar</li>
+                                        <li>Dr. Devika Phukan</li>
+                                        <li>Prof. (Dr.) Anuradha Devi</li>
+                                    </ol>
+                                </td>
+                                <td>Patent</td>
+                                <td>202531028899 A</td>
+                                <td>---</td>
+                                <td>4/4/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531028899%20A-%2004-04-2025%201.jpeg"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>44</td>
+                                <td>
+                                    SMART MANNEQUINS FOR ECT TRAINING: ENHANCING SKILL AND PATIENT SAFETY
+                                <td>
+                                    <ol>
+                                        <li>Senthil</li>
+                                        <li>Dr. M. Vijayarani</li>
+                                        <li>Dr. Randevan Rajakumararavelu</li>
+                                        <li>Ms. Ushapriya M.</li>
+                                        <li>Ms. Selvi S</li>
+                                        <li>Mrs. Pradhiba SPM</li>
+                                        <li>Dr. R. Vijayalakshmi</li>
+                                        <li>Ms. Lakshmi Priyadharshini V.R.</li>
+                                        <li>Ms. Rumi Talukdar</li>
+                                        <li>Mrs. Mariamma V.</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202411098994 A</td>
+                                <td>---</td>
+                                <td>2/21/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202411098994%20A%2021-02-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>45</td>
+                                <td>
+                                    SMART MANNEQUINS FOR ECT TRAINING: ENHANCING SKILL AND PATIENT SAFETY
+                                <td>
+                                    <ol>
+                                        <li>Senthil</li>
+                                        <li>Dr. M. Vijayarani</li>
+                                        <li>Dr. Randevan Rajakumararavelu</li>
+                                        <li>Ms. Ushapriya M.</li>
+                                        <li>Ms. Selvi S</li>
+                                        <li>Mrs. Pradhiba SPM</li>
+                                        <li>Dr. R. Vijayalakshmi</li>
+                                        <li>Ms. Lakshmi Priyadharshini V.R.</li>
+                                        <li>Ms. Rumi Talukdar</li>
+                                        <li>Mrs. Mariamma V.</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202411098994 A</td>
+                                <td>---</td>
+                                <td>2/21/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202411098994%20A%2021-02-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>45</td>
+                                <td>
+                                    Implementation of Pattern Recognition and Segmentation Techniques on Images of Retinal Scans
+                                    for Faster Diagnoses and Better Tracking of Eye Disease Progression.
+                                <td>
+                                    <ol>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Ms. Nilakshi Deka</li>
+                                        <li>Spandan Kumar Barthakur</li>
+                                        <li>Ms. Priyankita Priyam Thakuria</li>
+                                        <li>Dr. Annu Kumari</li>
+                                        <li>Dr. P. Wankitlang Shangpliang</li>
+                                        <li>Ms. Akangkhi Borah</li>
+                                    </ol>
+                                </td>
+                                <td>Patent</td>
+                                <td>202531030055 A</td>
+                                <td>---</td>
+                                <td>4/11/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531030055%20A%2011-04-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>45</td>
+                                <td>
+                                    AI ENHANCED ROBOTICS ARM FOR
+                                    PRECISION ENGINEERING
+                                <td>
+                                    <ol>
+                                        <li>Dr. Rashel Sarkar</li>
+                                        <li>Dr. Jaishree Jain</li>
+                                        <li>Dr. K. Siva Agora Sakthivel Murugan</li>
+                                        <li>Debjani Chakraborty</li>
+                                        <li>Dr. Nitin Dubey</li>
+                                    </ol>
+
+                                </td>
+                                <td>Design</td>
+                                <td>436628-001</td>
+                                <td>---</td>
+                                <td>11/6/2024</td>
+                                <td>2/6/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/436628-001%206-02-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    AI BASED SMART IRRIGATION ROBOT FOR PRECISE FARMING
+                                <td>
+                                    <ol>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Dr. Pankaj S. Mishra</li>
+                                        <li>Dr. Kumuda P. R.</li>
+                                        <li>J. Paul Rajasingh</li>
+                                        <li>Dr. Sarthak Pattanayak</li>
+                                        <li>Dr. Nitin Dubey</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>437145-001</td>
+                                <td>---</td>
+                                <td>11/13/2024</td>
+                                <td>1/24/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/437145-001%2004-01-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    Deep Learning Based Detection of Breast Cancer on MammogramImages
+                                <td>
+                                    <ol>
+                                        <li>C. Pavin</li>
+                                        <li>Dr. Rajesh Kumar</li>
+                                        <li>Mr. Nikhilesh Prafulla Sawarkar</li>
+                                        <li>Ms. Karpagavadivu Karuppusamy</li>
+                                        <li>Mr. Omkar Adhikari</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Ms. Brindha Gopalan</li>
+                                        <li>Dr. Sakshi Sadhwani</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541023009</td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541023009%2028-03-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    EXPLORING MATH ATTITUDE AND BEHAVIORAL PATTERNS INHIGHER EDUCATION THROUGH MACHINE LEARNING
+                                <td>
+                                    <ol>
+                                        <li>Sohong Dhar</li>
+                                        <li>Dr. Rajakumaran V</li>
+                                        <li>RVS Praveen</li>
+                                        <li>Prof. Dr. Rashel Sarkar</li>
+                                        <li>Dr. C. Jenita Nancy</li>
+                                        <li>Munawar Y. Sayed</li>
+                                        <li>Dr. Srijan Paul</li>
+                                        <li>Vaishnavi Karthika R</li>
+                                        <li>Dr. Karthikeyan M. V</li>
+                                        <li>R. Srilekha</li>
+                                        <li>Udayakumar N</li>
+                                        <li>Vaishnavi Karthika R</li>
+                                    </ol>
+
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202531026864</td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531026864%2028-03-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    A SMART IOT-FUZZY HYBRID SYSTEM FOR DISEASE IDENTIFICATIONAND ENVIRONMENTAL MANAGEMENT IN
+                                    MUSHROOM CULTIVATION
+                                <td>
+                                    <ol>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Dr. Brajesh Kumar</li>
+                                        <li>B. Gnana Deepthi</li>
+                                        <li>E. Prabhakar</li>
+                                        <li>Dr. S. Arul Amirtha Raja</li>
+                                        <li>Dr. Amit Chauhan</li>
+                                        <li>Mr. C. P. Balaji</li>
+                                        <li>Dr. C. Dhanalakshmi</li>
+                                        <li>R. Veerappan</li>
+                                        <li>Bommirani B</li>
+                                        <li>Narmada Devi M</li>
+                                        <li>Mr. R. Dharmalingam</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202531025656</td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531025656%2028-03-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    AN AI-DRIVEN ONLINE INTRUSION DETECTION FRAMEWORK FORENHANCING THE SECURITY OF SMART EV
+                                    CHARGING STATIONS
+                                <td>
+                                    <ol>
+                                        <li>RVS Praveen</li>
+                                        <li>G. Venugopal</li>
+                                        <li>Mrs. Rohini Y. Sarode</li>
+                                        <li>Janani M</li>
+                                        <li>Srikanth Perla</li>
+                                        <li>Srinivas Maddela</li>
+                                        <li>Dr. P. Chandra Sekhar</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Mr. V. Nanthakumar</li>
+                                        <li>Dr. Manohar Golait</li>
+                                        <li>Mr. Mahendra Ridhorkar</li>
+                                        <li>Dr. M. Chandra Sekhara Reddy</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541026896</td>
+                                <td>---</td>
+                                <td>4/11/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541026896%2011-04-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    Decentralized Cloud Storage Solution Using Blockchain for DataSecurity
+                                <td>
+                                    <ol>
+                                        <li>Mr. Ezhumalai Perumal</li>
+                                        <li>Dr. I. Manimozhi</li>
+                                        <li>Prof. N. Neha Gopal</li>
+                                        <li>Mr. D. Yobu</li>
+                                        <li>M. Sarmila</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Mr. Gyanrao Dhote</li>
+                                        <li>Mrs. L. Priya</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541025320</td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541025320%2028-03-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    AN IOT AND MACHINE LEARNING-ENABLED SMART SOLAR-POWERED PESTICIDE SPRAYER FOR PRECISION
+                                    AGRICULTURE
+                                <td>
+                                    <ol>
+                                        <li>Bandi Alekhya</li>
+                                        <li>RVS Praveen</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Thilagavathi R</li>
+                                        <li>Dr. P. Chandra Sekhar</li>
+                                        <li>Dr. Sundararajan</li>
+                                        <li>S. Poorna Chander Rao</li>
+                                        <li>Dr. S. Sridharan</li>
+                                        <li>Dharmbir Singh</li>
+                                        <li>Dr. Mohd Faizan Hasan</li>
+                                        <li>Vemuru Naresh</li>
+                                        <li>Dharani Ramasamy</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541026572</td>
+                                <td>---</td>
+                                <td>4/11/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541026572%2011-04-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    INTEGRATING MACHINE LEARNING INTO SUSTAINABLE HRM TOPREDICT AND MANAGE EMPLOYEE WELL-BEING
+                                    IN HIGHEREDUCATION DURING AND AFTER THE COVID-19 PANDEMIC
+                                <td>
+                                    <ol>
+                                        <li>Dr. K. Suresh Kumar</li>
+                                        <li>Tandra Sowmya</li>
+                                        <li>A. Raajya Vardhini</li>
+                                        <li>RVS Praveen</li>
+                                        <li>E. Christina Dally</li>
+                                        <li>Dr. Uzmi Anjum</li>
+                                        <li>Divesh Dutt</li>
+                                        <li>D. Maria Sahaya Diran</li>
+                                        <li>Pranabes Gangopadhyay</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>V. Bharathi</li>
+                                        <li>R. Saravanakumar</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541026619</td>
+                                <td>---</td>
+                                <td>4/11/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541026619%2011-04-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    AI-DRIVEN BIOMEDICAL APPLICATIONS OF CARBON QUANTUMDOTS FOR WOUND HEALING AND INFECTION
+                                    CONTROL
+                                <td>
+                                    <ol>
+                                        <li>Dr. Satyesh Raj Anand</li>
+                                        <li>Dr. K. Arpitha</li>
+                                        <li>Dr. Navneet Kaur</li>
+                                        <li>Dr. S. Geeitha</li>
+                                        <li>RVS Praveen</li>
+                                        <li>Dr. Amit Chauhan</li>
+                                        <li>G. Senthilrajan</li>
+                                        <li>Dr. Vishnu Kiran Manam</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>A. Vijay</li>
+                                        <li>B. Yamini</li>
+                                        <li>Dharmbir Singh</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541026619</td>
+                                <td>---</td>
+                                <td>4/11/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541026619%2011-04-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
                         </tbody>
+
+
                     </table>
                 </div>
 
@@ -556,7 +1243,7 @@
     <div class="website">
         <!--head image Section-->
         @include('frontend/components/aheader')
-        <section style="background-image: url(mobile-assets/research/bg.svg); background-size: cover;">
+        <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/bg.svg); background-size: cover;">
             <div class="container">
 
                 <h2 class="headd1 kd-title-ani kd-split text-center pt-4" style="color: #264273; font-weight: 700;">Pate<span
@@ -578,6 +1265,7 @@
                         </thead>
 
                         <tbody class="para1" style="background-color: #f7f7f7 !important;">
+
                             <tr>
                                 <td>1</td>
                                 <td>Polar azimuthal temperature dependant light scattering device</td>
@@ -587,9 +1275,7 @@
                                 <td>India</td>
                                 <td>23/08/2023</td>
                                 <td>03-01-2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link01.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -602,7 +1288,7 @@
                                 <td>India</td>
                                 <td> 09/01/2024</td>
                                 <td> 19/01/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link05.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/PLANT%20LEAF%20DISEASE%20DETECTION%20USING%20COMPUTER%20VISION%20AND%20MACHINE%20LEARNINGALGORITHMS.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -619,7 +1305,7 @@
                                 <td>India</td>
                                 <td> 14/12/2023</td>
                                 <td> 19/01/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link06.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/NANOPARTICLES%20BASED%20CANCER%20MEDICATION%20DEVICE.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -633,7 +1319,7 @@
                                 <td>United Kingdom</td>
                                 <td>26/12/2023</td>
                                 <td>22/01/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link08.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/AI%20Chemical%20Mixing%20Device%20for%20Agriculture.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -647,7 +1333,7 @@
                                 <td>India</td>
                                 <td>22/12/2023</td>
                                 <td>26/01/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link09.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/AI%20BASED%20SEED%20SOWING%20MACHINE%20FOR.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -661,7 +1347,7 @@
                                 <td>United Kingdom</td>
                                 <td>12/01/2024</td>
                                 <td>09/04/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 29.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/AI%20based%20Intelligent%20System%20for%20Weather%20and%20Natural%20Disasters.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -675,7 +1361,7 @@
                                 <td>India</td>
                                 <td>18/02/2024</td>
                                 <td>16/05/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 30.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/MACHINE%20LEARNING%20BASED%20FRUIT.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -689,7 +1375,7 @@
                                 <td>India</td>
                                 <td>19/03/2024</td>
                                 <td>16/05/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 31.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/MACHINE%20SMART%20BRAIN%20MONITORING%20HEADSET.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -703,9 +1389,7 @@
                                 <td>India</td>
                                 <td>25/03/2024</td>
                                 <td>30/05/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 32.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
 
@@ -720,7 +1404,7 @@
                                 <td>India</td>
                                 <td>04/07/2024</td>
                                 <td>05/09/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 33.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/IOT%20AND%20SOLAR%20BASED%20REAL%20TIME%20SMART.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -735,9 +1419,7 @@
                                 <td>India</td>
                                 <td>29/06/2024</td>
                                 <td>02/08/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 34.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
 
@@ -750,9 +1432,7 @@
                                 <td>India</td>
                                 <td>28/06/2024</td>
                                 <td>02/08/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link 35.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -765,9 +1445,7 @@
                                 <td>India</td>
                                 <td>20/04/2024</td>
                                 <td>26/04/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link20.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -779,7 +1457,7 @@
                                 <td>United Kingdom</td>
                                 <td>12/01/2023</td>
                                 <td>22/02/2024</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link21.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/Data%20processing%20system%20for%20health%20advice.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -794,9 +1472,7 @@
                                 <td>India</td>
                                 <td>12/07/2023</td>
                                 <td>15/12/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link02.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -809,7 +1485,7 @@
                                 <td>India</td>
                                 <td>16/10/2023</td>
                                 <td>27/10/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link03.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/A%20New%20Novel%20Framework%20to%20Analyze%20and%20Detect%20the%20MRI%20based%20Brain%20Tumors%20and%20Alzheimer’s%20by%20using%20Convolution%20Neural%20Network.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -824,7 +1500,7 @@
                                 <td>India</td>
                                 <td> 04/12/2023</td>
                                 <td>15/12/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link04.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/A%20HYBRID%20APPROACH%20FOR%20ANALYSING%20OF%20EARLY-STAGE%20DETECTIONAND%20PREVENTION%20OF%20LUNG%20CANCER%20USING%20ADVANCED%20MACHINELEARNING%20AND%20DEEP%20LEARNING%20ALGORITHMS.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -838,7 +1514,7 @@
                                 <td>United Kingdom</td>
                                 <td>26/11/2023</td>
                                 <td>12-02-2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link07.pdf"
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/old-patents/ML%20and%20AI%20Based%20Device%20for%20Skin%20Cancer%20Detection.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
@@ -855,9 +1531,7 @@
                                 <td>India</td>
                                 <td> 06/02/2023</td>
                                 <td> 17/02/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link10.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -871,9 +1545,7 @@
                                 <td>India</td>
                                 <td> 06/03/2023</td>
                                 <td>03/10/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link17.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -886,9 +1558,7 @@
                                 <td>India</td>
                                 <td>23/06/2023 </td>
                                 <td>25/08/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link18.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -900,9 +1570,7 @@
                                 <td>India</td>
                                 <td>17/07/2023</td>
                                 <td>10/06/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link19.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -914,9 +1582,7 @@
                                 <td>India</td>
                                 <td>02/02/2023</td>
                                 <td>02/10/2023</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link22.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -930,9 +1596,7 @@
                                 <td>India</td>
                                 <td> 20/05/2022</td>
                                 <td> 03/06/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link11.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -944,9 +1608,7 @@
                                 <td>India</td>
                                 <td>04/11/2022</td>
                                 <td> 22/07/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link12.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
 
@@ -959,9 +1621,7 @@
                                 <td>India</td>
                                 <td>08/08/2022</td>
                                 <td>09/09/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link13.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -974,9 +1634,7 @@
                                 <td>India</td>
                                 <td>30/06/2022</td>
                                 <td> 22/07/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link14.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -990,9 +1648,7 @@
                                 <td>India</td>
                                 <td> 23/08/2022</td>
                                 <td> 16/09/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link15.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -1004,9 +1660,7 @@
                                 <td>India</td>
                                 <td> 28/09/2022</td>
                                 <td> 07/10/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link16.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -1020,9 +1674,7 @@
                                 <td>India</td>
                                 <td> 06/12/2021</td>
                                 <td> 07/01/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link23.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -1035,9 +1687,7 @@
                                 <td>India</td>
                                 <td>08/09/2022</td>
                                 <td> 26/08/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link24.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -1049,9 +1699,7 @@
                                 <td>India</td>
                                 <td> 31/03/2022</td>
                                 <td> 08/04/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link25.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -1064,9 +1712,7 @@
                                 <td>India</td>
                                 <td>03/09/2022</td>
                                 <td>18/03/2022</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link26.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -1080,9 +1726,7 @@
                                 <td>India</td>
                                 <td> 26/09/2021</td>
                                 <td>11/12/2021</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link27.pdf"
-                                        target="_blank" class="text-primary font-weight-semibold"><i
-                                            class="fa fa-download text-primary"></i></a></td>
+                                <td></td>
                             </tr>
 
                             <tr>
@@ -1095,10 +1739,712 @@
                                 <td>India</td>
                                 <td>30/10/2021</td>
                                 <td>26/11/2021</td>
-                                <td><a href="https://resource.rgu.ac/assets/docs/research/patents_links2024/Link28.pdf"
+                                <td></td>
+                            </tr>
+
+
+                            <!-- new patents  -->
+
+                            <tr>
+                                <td>36</td>
+                                <td>DEVICE FOR DEVELOPING LIPID
+                                    LABRYNTHS AND NANOSTRUCTURES FOR ENHANCED DRUG DELIVERY</td>
+                                <td>
+                                    <ol>
+                                        <li>Nirmalkumar Shah</li>
+                                        <li>Dr. Amita Tilak</li>
+                                        <li>Dr. Sanmati Kumar Jain</li>
+                                        <li>Kritika Sachan</li>
+                                        <li>Dr. Manas Jyoti Kapil</li>
+                                        <li>Amrita Singh</li>
+                                        <li>Dr. Pruthviraj Karshanbhai Chaudhary</li>
+                                        <li>Prashant Sharma</li>
+                                        <li>Mr. Ikram</li>
+                                        <li>Priyanshi Chauhan</li>
+                                    </ol>
+
+                                </td>
+                                <td>Design</td>
+                                <td>437831-001</td>
+                                <td>---</td>
+                                <td>11/19/2024</td>
+                                <td>1/13/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/437831-001%20Gr%2013-01-2025%201.pdf"
                                         target="_blank" class="text-primary font-weight-semibold"><i
                                             class="fa fa-download text-primary"></i></a></td>
                             </tr>
+
+                            <tr>
+                                <td>36</td>
+                                <td>DEVICE FOR TARGETED NOSE TO BRAIN DELIVERY OF DRUGS</td>
+                                <td>
+                                    <ol>
+                                        <li>Nirmal Shah</li>
+                                        <li>Dr. Megha Parashar</li>
+                                        <li>Dr. Amita Tilak</li>
+                                        <li>Dr. Sanmati Kumar Jain</li>
+                                        <li>Dr. Zulfa Nooreen</li>
+                                        <li>Dr. S. J. Shankar</li>
+                                        <li>Dr. Manas Jyoti Kapil</li>
+                                        <li>Debabrata Nath</li>
+                                        <li>Dr. Pareshkumar N. Patel</li>
+                                        <li>Dr. Rati Kailash Prasad Tripathi</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>438193-001</td>
+                                <td>---</td>
+                                <td>11/23/2024</td>
+                                <td>1/13/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/438193-001%20Gr%2013-01-2025%201.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>37</td>
+                                <td>REAL-TIME DIAGNOSTIC FEEDBACK ANALYZER</td>
+                                <td>
+                                    <ol>
+                                        <li>Dr. Suman Agarwal</li>
+                                        <li>Dr. Rishi Chakravarty</li>
+                                        <li>Dr. Arpee Saikia</li>
+                                        <li>Dr. Bitopi Gogoi</li>
+                                        <li>Prof. Dr. George A. Paul</li>
+                                        <li>Prof. Saket Jeswani</li>
+                                        <li>Dr. Dip Narayain Singh</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>436204-001</td>
+                                <td>---</td>
+                                <td>10/30/2024</td>
+                                <td>1/16/2025</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>38</td>
+                                <td>SMART ID CARD OF EMPLOYEES THAT
+                                    MONITOR VITAL SIGNS </td>
+                                <td>
+                                    <ol>
+                                        <li>Dr. Saket Jeswani</li>
+                                        <li>Dr. Gunjan Jeswani</li>
+                                        <li>Dr. Dip Narayan Singh</li>
+                                        <li>Dr. Suman Agrawal</li>
+                                        <li>Dr. Shaji Mathai</li>
+                                        <li>Dr. Deepti Sharma</li>
+                                        <li>Prof. (Dr.) Ajit Kaushal</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>436856-001</td>
+                                <td>---</td>
+                                <td>11/9/2024</td>
+                                <td>1/30/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/436856-001%20Gr%2030-01-2025%201.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td>39</td>
+                                <td>SOCIAL MEDIA PAYMENT PLATFORM
+                                    INTEGRATION DEVICE </td>
+                                <td>
+                                    <ol>
+                                        <li>Ms. Lata Pandey</li>
+                                        <li>Prof. Ranjit Singh</li>
+                                        <li>Dr. Suman Agarwal</li>
+                                        <li>Mr. Rahul Tiwary</li>
+                                        <li>Dr. Darshana Bhagowati</li>
+                                        <li>Mr. Dipak Jain</li>
+                                        <li>Miss Tanisha Mukherjee</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>438114-001</td>
+                                <td>---</td>
+                                <td>11/22/2024</td>
+                                <td>1/9/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/438114-001%20Gr%2009-01-2025%201.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td>40</td>
+                                <td>DEVICE FOR TESTING FAST DISSOLVING
+                                    TABLETS </td>
+                                <td>
+                                    <ol>
+                                        <li>Dr. Amita Tilak</li>
+                                        <li>Dr. Sanmati Kumar Jain</li>
+                                        <li>Dr. Moumita Ray</li>
+                                        <li>Mr. Sudipto Mangal</li>
+                                        <li>Harshit Chaurasiya</li>
+                                        <li>Neelakshi Sharma</li>
+                                        <li>Uma Jyoti</li>
+                                        <li>Dr. Laxmikant Zawar</li>
+                                        <li>Tiyas Saha</li>
+                                        <li>Koustav Dutta</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>439616-001</td>
+                                <td>---</td>
+                                <td>12/5/2024</td>
+                                <td>1/28/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/439616-001%2028-01-2025%201.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>41</td>
+                                <td>MOSQUITO REPELLANT SPRAY BOTTLE </td>
+                                <td>
+                                    <ol>
+                                        <li>Dr. Lalit Saikia</li>
+                                        <li>Dr. Sudarshana Borah</li>
+                                        <li>Ms. Tanjima Tarique Laskar</li>
+                                        <li>Mr. Sumit Dutta</li>
+                                        <li>Dr. L.K. Nath</li>
+                                        <li>Dr. Monalisa B. Deka</li>
+                                        <li>Dr. Kumar Saurav Dey</li>
+                                        <li>Dr. Shankhadhwaj Borah</li>
+                                        <li>Dr. Sonjit Das</li>
+                                        <li>Ms. Kabita Mahato</li>
+                                        <li>Dr. Monica Arora</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>442954-001</td>
+                                <td>---</td>
+                                <td>1/3/2025</td>
+                                <td>3/10/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/442954-001%20Gr%2010-03-2025%201.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>42</td>
+                                <td>FORMULATION AND EVALUATION OF DIOSGENIN-LOADED NANOPARTICLES FOR ENHANCED ANTI-TUMOR
+                                    EFFICACY IN OVARIAN
+                                    CANCER</td>
+                                <td>
+                                    <ol>
+                                        <li>Mr. Bhaskar Jyoti Pathak</li>
+                                        <li>Mr. Hadiuz Zaman</li>
+                                        <li>Mr. Himanta Biswa Saikia</li>
+                                        <li>Mr. Tapoban Bordoloi</li>
+                                        <li>Mr. Rakibur Rahman</li>
+                                        <li>Mrs. Neelakshi Sharma</li>
+                                        <li>Dr. Manas Jyoti Kapil</li>
+                                        <li>Mr. Tanmay Sarma</li>
+                                        <li>Mr. Moidul Islam Judder</li>
+                                        <li>Mr. Sourin Sarma</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202531014821 A</td>
+                                <td>---</td>
+                                <td>3/14/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531014821%20A%2014-03-2025%201.pdf"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+
+                            <tr>
+                                <td>43</td>
+                                <td>
+                                    SYSTEM AND METHOD FOR QUANTUM COHERENCE ANALYSIS USING AN OPTICAL FIBER BRAGG GRATING, A
+                                    MULTIDISCIPLINARY APPROACHINTEGRATING PHYSICS, CHEMISTRY AND MATHEMATICAL MODELING </td>
+                                <td>
+                                    <ol>
+                                        <li>Dr. Devika Phukan</li>
+                                        <li>Dr. Biswajit Sarma</li>
+                                        <li>Dr. Pubalee Sarmah</li>
+                                        <li>Dr. Anup Malakar</li>
+                                        <li>Prof. (Dr.) Anuradha Devi</li>
+                                    </ol>
+                                </td>
+                                <td>Patent</td>
+                                <td>202531021638</td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531021638%20A%2028-03-2025%201.png"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>44</td>
+                                <td>
+                                    A SYSTEM AND METIIOD FOR DETECTION AND QUANTIFICATION OF HEAVY METALS IN WATER SAMPLES
+                                <td>
+                                    <ol>
+                                        <li>Mr. Nilutpal Hazarika</li>
+                                        <li>Mr. Keshav Kumar</li>
+                                        <li>Mr. Himanshu Bhardwaj</li>
+                                        <li>Ms. Sumi Barman</li>
+                                        <li>Mr. Akhileshar Prasad Mishra</li>
+                                        <li>Mr. Kamal Deka</li>
+                                        <li>Mr. Suman Kumar</li>
+                                        <li>Ms. Priyakshi Chutia</li>
+                                        <li>Mr. Tanmay Sarma</li>
+                                        <li>Mr. Bhaskar Jyoti Pathak</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202531020569 A </td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+
+                            <tr>
+                                <td>43</td>
+                                <td>
+                                    DEVICE FOR PRODUCING POLYMER BASED IN-SITU GEL FOR RECTAL DRUG DELIVERY
+                                <td>
+                                    <ol>
+                                        <li>Mr. Aadi Sathyan</li>
+                                        <li>Dr. Maruthamuthu Sakthivel</li>
+                                        <li>Dr. Rajeev Kumar Malviya</li>
+                                        <li>Junmoni Nath</li>
+                                        <li>Prof. Balasubramaniam Viswanathan</li>
+                                        <li>Bandla Aswani</li>
+                                        <li>Dr. Preeti Gahlot</li>
+                                        <li>Moidul Islam Judder</li>
+                                        <li>Gopi Loganathan</li>
+                                        <li>Dr. Megha Chaukiyal</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>444125-001</td>
+                                <td>---</td>
+                                <td>1/14/2025</td>
+                                <td>3/28/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/444125-001%2028-03-2025%201.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>43</td>
+                                <td>
+                                    A PHYSICO-CHEMICAL AND MATHEMATICAL APPROACH TO THE SUSTAINABLE EXTRACTION OF NATURAL DYE
+                                    FROM COUROUPITA GUIANENSIS FLOWERS FOR TEXTILE APPLICATIONS
+                                <td>
+                                    <ol>
+                                        <li>Dr. Biswajit Sarma</li>
+                                        <li>Dr. Pubalee Sarmah</li>
+                                        <li>Dr. Anup Malakar</li>
+                                        <li>Dr. Devika Phukan</li>
+                                        <li>Prof. (Dr.) Anuradha Devi</li>
+                                    </ol>
+                                </td>
+                                <td>Patent</td>
+                                <td>202531028899 A</td>
+                                <td>---</td>
+                                <td>4/4/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531028899%20A-%2004-04-2025%201.jpeg"
+                                        target="_blank" class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>44</td>
+                                <td>
+                                    SMART MANNEQUINS FOR ECT TRAINING: ENHANCING SKILL AND PATIENT SAFETY
+                                <td>
+                                    <ol>
+                                        <li>Senthil</li>
+                                        <li>Dr. M. Vijayarani</li>
+                                        <li>Dr. Randevan Rajakumararavelu</li>
+                                        <li>Ms. Ushapriya M.</li>
+                                        <li>Ms. Selvi S</li>
+                                        <li>Mrs. Pradhiba SPM</li>
+                                        <li>Dr. R. Vijayalakshmi</li>
+                                        <li>Ms. Lakshmi Priyadharshini V.R.</li>
+                                        <li>Ms. Rumi Talukdar</li>
+                                        <li>Mrs. Mariamma V.</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202411098994 A</td>
+                                <td>---</td>
+                                <td>2/21/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202411098994%20A%2021-02-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>45</td>
+                                <td>
+                                    SMART MANNEQUINS FOR ECT TRAINING: ENHANCING SKILL AND PATIENT SAFETY
+                                <td>
+                                    <ol>
+                                        <li>Senthil</li>
+                                        <li>Dr. M. Vijayarani</li>
+                                        <li>Dr. Randevan Rajakumararavelu</li>
+                                        <li>Ms. Ushapriya M.</li>
+                                        <li>Ms. Selvi S</li>
+                                        <li>Mrs. Pradhiba SPM</li>
+                                        <li>Dr. R. Vijayalakshmi</li>
+                                        <li>Ms. Lakshmi Priyadharshini V.R.</li>
+                                        <li>Ms. Rumi Talukdar</li>
+                                        <li>Mrs. Mariamma V.</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202411098994 A</td>
+                                <td>---</td>
+                                <td>2/21/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202411098994%20A%2021-02-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>45</td>
+                                <td>
+                                    Implementation of Pattern Recognition and Segmentation Techniques on Images of Retinal Scans
+                                    for Faster Diagnoses and Better Tracking of Eye Disease Progression.
+                                <td>
+                                    <ol>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Ms. Nilakshi Deka</li>
+                                        <li>Spandan Kumar Barthakur</li>
+                                        <li>Ms. Priyankita Priyam Thakuria</li>
+                                        <li>Dr. Annu Kumari</li>
+                                        <li>Dr. P. Wankitlang Shangpliang</li>
+                                        <li>Ms. Akangkhi Borah</li>
+                                    </ol>
+                                </td>
+                                <td>Patent</td>
+                                <td>202531030055 A</td>
+                                <td>---</td>
+                                <td>4/11/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531030055%20A%2011-04-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>45</td>
+                                <td>
+                                    AI ENHANCED ROBOTICS ARM FOR
+                                    PRECISION ENGINEERING
+                                <td>
+                                    <ol>
+                                        <li>Dr. Rashel Sarkar</li>
+                                        <li>Dr. Jaishree Jain</li>
+                                        <li>Dr. K. Siva Agora Sakthivel Murugan</li>
+                                        <li>Debjani Chakraborty</li>
+                                        <li>Dr. Nitin Dubey</li>
+                                    </ol>
+
+                                </td>
+                                <td>Design</td>
+                                <td>436628-001</td>
+                                <td>---</td>
+                                <td>11/6/2024</td>
+                                <td>2/6/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/436628-001%206-02-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    AI BASED SMART IRRIGATION ROBOT FOR PRECISE FARMING
+                                <td>
+                                    <ol>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Dr. Pankaj S. Mishra</li>
+                                        <li>Dr. Kumuda P. R.</li>
+                                        <li>J. Paul Rajasingh</li>
+                                        <li>Dr. Sarthak Pattanayak</li>
+                                        <li>Dr. Nitin Dubey</li>
+                                    </ol>
+                                </td>
+                                <td>Design</td>
+                                <td>437145-001</td>
+                                <td>---</td>
+                                <td>11/13/2024</td>
+                                <td>1/24/2025</td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/437145-001%2004-01-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    Deep Learning Based Detection of Breast Cancer on MammogramImages
+                                <td>
+                                    <ol>
+                                        <li>C. Pavin</li>
+                                        <li>Dr. Rajesh Kumar</li>
+                                        <li>Mr. Nikhilesh Prafulla Sawarkar</li>
+                                        <li>Ms. Karpagavadivu Karuppusamy</li>
+                                        <li>Mr. Omkar Adhikari</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Ms. Brindha Gopalan</li>
+                                        <li>Dr. Sakshi Sadhwani</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541023009</td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541023009%2028-03-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    EXPLORING MATH ATTITUDE AND BEHAVIORAL PATTERNS INHIGHER EDUCATION THROUGH MACHINE LEARNING
+                                <td>
+                                    <ol>
+                                        <li>Sohong Dhar</li>
+                                        <li>Dr. Rajakumaran V</li>
+                                        <li>RVS Praveen</li>
+                                        <li>Prof. Dr. Rashel Sarkar</li>
+                                        <li>Dr. C. Jenita Nancy</li>
+                                        <li>Munawar Y. Sayed</li>
+                                        <li>Dr. Srijan Paul</li>
+                                        <li>Vaishnavi Karthika R</li>
+                                        <li>Dr. Karthikeyan M. V</li>
+                                        <li>R. Srilekha</li>
+                                        <li>Udayakumar N</li>
+                                        <li>Vaishnavi Karthika R</li>
+                                    </ol>
+
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202531026864</td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531026864%2028-03-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    A SMART IOT-FUZZY HYBRID SYSTEM FOR DISEASE IDENTIFICATIONAND ENVIRONMENTAL MANAGEMENT IN
+                                    MUSHROOM CULTIVATION
+                                <td>
+                                    <ol>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Dr. Brajesh Kumar</li>
+                                        <li>B. Gnana Deepthi</li>
+                                        <li>E. Prabhakar</li>
+                                        <li>Dr. S. Arul Amirtha Raja</li>
+                                        <li>Dr. Amit Chauhan</li>
+                                        <li>Mr. C. P. Balaji</li>
+                                        <li>Dr. C. Dhanalakshmi</li>
+                                        <li>R. Veerappan</li>
+                                        <li>Bommirani B</li>
+                                        <li>Narmada Devi M</li>
+                                        <li>Mr. R. Dharmalingam</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202531025656</td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202531025656%2028-03-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    AN AI-DRIVEN ONLINE INTRUSION DETECTION FRAMEWORK FORENHANCING THE SECURITY OF SMART EV
+                                    CHARGING STATIONS
+                                <td>
+                                    <ol>
+                                        <li>RVS Praveen</li>
+                                        <li>G. Venugopal</li>
+                                        <li>Mrs. Rohini Y. Sarode</li>
+                                        <li>Janani M</li>
+                                        <li>Srikanth Perla</li>
+                                        <li>Srinivas Maddela</li>
+                                        <li>Dr. P. Chandra Sekhar</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Mr. V. Nanthakumar</li>
+                                        <li>Dr. Manohar Golait</li>
+                                        <li>Mr. Mahendra Ridhorkar</li>
+                                        <li>Dr. M. Chandra Sekhara Reddy</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541026896</td>
+                                <td>---</td>
+                                <td>4/11/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541026896%2011-04-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    Decentralized Cloud Storage Solution Using Blockchain for DataSecurity
+                                <td>
+                                    <ol>
+                                        <li>Mr. Ezhumalai Perumal</li>
+                                        <li>Dr. I. Manimozhi</li>
+                                        <li>Prof. N. Neha Gopal</li>
+                                        <li>Mr. D. Yobu</li>
+                                        <li>M. Sarmila</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Mr. Gyanrao Dhote</li>
+                                        <li>Mrs. L. Priya</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541025320</td>
+                                <td>---</td>
+                                <td>3/28/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541025320%2028-03-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    AN IOT AND MACHINE LEARNING-ENABLED SMART SOLAR-POWERED PESTICIDE SPRAYER FOR PRECISION
+                                    AGRICULTURE
+                                <td>
+                                    <ol>
+                                        <li>Bandi Alekhya</li>
+                                        <li>RVS Praveen</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>Thilagavathi R</li>
+                                        <li>Dr. P. Chandra Sekhar</li>
+                                        <li>Dr. Sundararajan</li>
+                                        <li>S. Poorna Chander Rao</li>
+                                        <li>Dr. S. Sridharan</li>
+                                        <li>Dharmbir Singh</li>
+                                        <li>Dr. Mohd Faizan Hasan</li>
+                                        <li>Vemuru Naresh</li>
+                                        <li>Dharani Ramasamy</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541026572</td>
+                                <td>---</td>
+                                <td>4/11/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541026572%2011-04-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    INTEGRATING MACHINE LEARNING INTO SUSTAINABLE HRM TOPREDICT AND MANAGE EMPLOYEE WELL-BEING
+                                    IN HIGHEREDUCATION DURING AND AFTER THE COVID-19 PANDEMIC
+                                <td>
+                                    <ol>
+                                        <li>Dr. K. Suresh Kumar</li>
+                                        <li>Tandra Sowmya</li>
+                                        <li>A. Raajya Vardhini</li>
+                                        <li>RVS Praveen</li>
+                                        <li>E. Christina Dally</li>
+                                        <li>Dr. Uzmi Anjum</li>
+                                        <li>Divesh Dutt</li>
+                                        <li>D. Maria Sahaya Diran</li>
+                                        <li>Pranabes Gangopadhyay</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>V. Bharathi</li>
+                                        <li>R. Saravanakumar</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541026619</td>
+                                <td>---</td>
+                                <td>4/11/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541026619%2011-04-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>
+                                    AI-DRIVEN BIOMEDICAL APPLICATIONS OF CARBON QUANTUMDOTS FOR WOUND HEALING AND INFECTION
+                                    CONTROL
+                                <td>
+                                    <ol>
+                                        <li>Dr. Satyesh Raj Anand</li>
+                                        <li>Dr. K. Arpitha</li>
+                                        <li>Dr. Navneet Kaur</li>
+                                        <li>Dr. S. Geeitha</li>
+                                        <li>RVS Praveen</li>
+                                        <li>Dr. Amit Chauhan</li>
+                                        <li>G. Senthilrajan</li>
+                                        <li>Dr. Vishnu Kiran Manam</li>
+                                        <li>Prof. (Dr.) Rashel Sarkar</li>
+                                        <li>A. Vijay</li>
+                                        <li>B. Yamini</li>
+                                        <li>Dharmbir Singh</li>
+                                    </ol>
+
+                                </td>
+                                <td>Patent</td>
+                                <td>202541026619</td>
+                                <td>---</td>
+                                <td>4/11/2025</td>
+                                <td></td>
+                                <td><a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/research/patents/202541026619%2011-04-2025.pdf" target="_blank"
+                                        class="text-primary font-weight-semibold"><i
+                                            class="fa fa-download text-primary"></i></a></td>
+                            </tr>
+
                         </tbody>
                     </table>
                 </div>

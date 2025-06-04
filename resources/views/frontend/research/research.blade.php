@@ -19,7 +19,7 @@
                         </div>
                         <div class="col-lg-12">
 
-                            <p class="para1 pt-2" style="color: #333; text-align: justify;">
+                            <p class="para1 pt-5" style="color: #333; text-align: justify;">
                                 Royal Global University (RGU) is dedicated to fostering research and building a robust research
                                 ecosystem through a multifaceted approach. RGU emphasizes the importance of fundamental research to
                                 understand various phenomena and supports innovation-based research by promoting collaborations
@@ -44,7 +44,7 @@
             </section>
 
             <div class="container">
-                <h2 class="headd2 text-dark pb-3">
+                <h2 class="text-dark pb-3 pt-5 text-center" style="font-size: 32px;">
                     Research Highlights
                 </h2>
 
@@ -52,38 +52,38 @@
                     <div class="row" style="display: flex; align-items: center; justify-content: center;">
                         <div class="col-lg-6 pt-5">
                             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                <h2 class="text-center headd1 fw-bold" style="color: #264273;">800+</h2>
+                                <h2 class="text-center headd1 fw-bold" style="color: #264273;">721+</h2>
                                 <p class="text-center headd3 text-dark">Publications</p>
                             </div>
                         </div>
                         <div class="col-lg-6 pt-3">
                             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                <h2 class="text-center headd1 fw-bold" style="color: #264273;">110+</h2>
+                                <h2 class="text-center headd1 fw-bold" style="color: #264273;">166+</h2>
                                 <p class="text-center headd3 text-dark">Books</p>
                             </div>
                         </div>
                         <div class="col-lg-6 pt-3">
                             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                <h2 class="text-center headd1 fw-bold" style="color: #264273;">9+</h2>
+                                <h2 class="text-center headd1 fw-bold" style="color: #264273;">14+</h2>
                                 <p class="text-center headd3 text-dark">Projects</p>
                             </div>
                         </div>
                         <div class="col-lg-6 pt-3">
                             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                <h2 class="text-center headd1 fw-bold" style="color: #264273;">20+</h2>
+                                <h2 class="text-center headd1 fw-bold" style="color: #264273;">37+</h2>
                                 <p class="text-center headd3 text-dark">Doctorate</p>
                             </div>
                         </div>
                         <div class="col-lg-6 pt-3">
                             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                <h2 class="text-center headd1 fw-bold" style="color: #264273;">35+</h2>
+                                <h2 class="text-center headd1 fw-bold" style="color: #264273;">123+</h2>
                                 <p class="text-center headd3 text-dark">Patents</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <p class="para1 pt-3" style="color: #333; text-align: justify;">
+                <p class="para1 p-3" style="color: #333; text-align: justify;">
                     The Assam Royal Global University has achieved an impressive h-index of 68 as per the Scopus database, marking
                     it as one of the top-performing academic institutions in the North East India. With over 800 publications
                     between the years 2019 to 2024, the institution has demonstrated a strong commitment to research excellence.
@@ -114,10 +114,10 @@
 
                     <div class="col-lg-7 pt-3">
 
-                        <h2 class="headd3 fw-bold text-dark">
+                        <h2 class="headd2 fw-bold text-dark">
                             Welcome to R&D
                         </h2>
-                        <p class="para1" style="color: #333; text-align: justify;">
+                        <p class="para1 p-2" style="color: #333; text-align: justify;">
                             “At Royal Global University, our dedicated R&D team, led by the Advisor, Dean, Associate Deans,
                             Assistant Deans and office staffs, exemplifies an unwavering commitment to promote a culture of
                             research, development, and innovation. We place paramount importance on advancing knowledge and
@@ -136,7 +136,7 @@
             </div>
 
             <div class="container">
-                <h2 class="text-center headd2 text-dark pt-3 fw-bold"> Quick Links</h2>
+                <h2 class="text-center text-dark pt-3 pb-3 fw-bold" style="font-size: 32px;"> Quick Links</h2>
 
                 <div class="card p-3">
                     <div class="row p-3">
@@ -223,9 +223,9 @@
                     </div>
                     <div class="col-lg-6">
 
-                        <h2 class="headd2 kd-title-ani kd-split" style="color: #264273; font-weight: 700;">Research <span
+                        <h2 class="headd1 kd-title-ani kd-split" style="color: #264273; font-weight: 700;">Research <span
                                 style="color: #FF9A1E; font-weight: 500;">and development</span> </h2>
-                        <p class="para1" style="color: #333; text-align: justify;">
+                        <p class="para1 pt-2" style="color: #333; text-align: justify;">
                             Royal Global University (RGU) is dedicated to fostering research and building a robust research
                             ecosystem through a multifaceted approach. RGU emphasizes the importance of fundamental research to
                             understand various phenomena and supports innovation-based research by promoting collaborations
@@ -253,39 +253,39 @@
                 contributing to the advancement of knowledge and the university's research ecosystem.
             </p>
 
-            <h2 class="headd2 text-dark fw-bold">
-                Research Highlights
+            <h2 class="text-dark fw-bold pt-3" style="font-size: 32px;">
+                Research <span style="color: #FF9A1E; font-weight: 500;">Highlights</span>
             </h2>
 
             <div class="card p-3 m-4" style="background-color: #fff8f0;">
                 <div class="row pt-3" style="display: flex; align-items: center; justify-content: center;">
                     <div class="col-lg-2">
                         <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                            <h2 class="text-center headd1 fw-bold" style="color: #264273;">800+</h2>
+                            <h2 class="text-center headd1 fw-bold" style="color: #264273;">721+</h2>
                             <p class="text-center headd3 text-dark">Publications</p>
                         </div>
                     </div>
                     <div class="col-lg-2">
                         <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                            <h2 class="text-center headd1 fw-bold" style="color: #264273;">110+</h2>
+                            <h2 class="text-center headd1 fw-bold" style="color: #264273;">166+</h2>
                             <p class="text-center headd3 text-dark">Books</p>
                         </div>
                     </div>
                     <div class="col-lg-2">
                         <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                            <h2 class="text-center headd1 fw-bold" style="color: #264273;">9+</h2>
+                            <h2 class="text-center headd1 fw-bold" style="color: #264273;">14+</h2>
                             <p class="text-center headd3 text-dark">Projects</p>
                         </div>
                     </div>
                     <div class="col-lg-2">
                         <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                            <h2 class="text-center headd1 fw-bold" style="color: #264273;">20+</h2>
+                            <h2 class="text-center headd1 fw-bold" style="color: #264273;">37+</h2>
                             <p class="text-center headd3 text-dark">Doctorate</p>
                         </div>
                     </div>
                     <div class="col-lg-2">
                         <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                            <h2 class="text-center headd1 fw-bold" style="color: #264273;">35+</h2>
+                            <h2 class="text-center headd1 fw-bold" style="color: #264273;">123+</h2>
                             <p class="text-center headd3 text-dark">Patents</p>
                         </div>
                     </div>
@@ -313,10 +313,10 @@
             <div class="row" style="display: flex; justify-content: center; align-items: center;">
                 <div class="col-lg-7">
 
-                    <h2 class="headd2 fw-bold text-dark">
-                        Welcome to R&D
+                    <h2 class="fw-bold text-dark" style="font-size: 32px;">
+                        Welcome to <span style="color: #FF9A1E; font-weight: 500;">R&D</span>
                     </h2>
-                    <p class="para1" style="color: #333; text-align: justify;">
+                    <p class="para1 pt-3" style="color: #333; text-align: justify;">
                         “At Royal Global University, our dedicated R&D team, led by the Advisor, Dean, Associate Deans,
                         Assistant Deans and office staffs, exemplifies an unwavering commitment to promote a culture of
                         research, development, and innovation. We place paramount importance on advancing knowledge and
@@ -343,7 +343,7 @@
         </div>
 
         <div class="container">
-            <h2 class="text-center headd2 text-dark pt-3 fw-bold"> Quick Links</h2>
+            <h2 class="text-center headd1 text-dark pt-3 fw-bold"> Quick Links</h2>
 
             <div class="card p-3">
                 <div class="row p-3">
@@ -373,15 +373,16 @@
 
                     <div class="col-lg-3">
                         <div class="dropdown" style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;">
-                            <button class="btn dropdown-toggle text-white rounded" style="font-size: 22px" type="button" data-toggle="dropdown" aria-expanded="false">
+                            <button class="btn dropdown-toggle text-white rounded" style="font-size: 22px;" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Projects
                             </button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="research-extramural">Extramural Projects</a>
-                                <a class="dropdown-item" href="research-seed-grants-projects">RGU Seed Grant</a>
-                                <a class="dropdown-item" href="research-consultancy-projects">Consultancy Projetcs</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="{{ route('research-extramural') }}">Extramural Projects</a></li>
+                                <li><a class="dropdown-item" href="{{ route('research-seed-grants-projects') }}">RGU Seed Grant</a></li>
+                                <li><a class="dropdown-item" href="{{ route('research-consultancy-projects') }}">Consultancy Projetcs</a></li>
+                            </ul>
                             </div>
-                        </div>
                     </div>
 
                     <div class="col-lg-3">
