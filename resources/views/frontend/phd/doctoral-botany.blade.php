@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <section style="padding: 110px 10px; background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/placement-all/mobile-bg.svg); position: relative;">
+        <section style="padding: 110px 10px; background-image: url(mobile-assets/placement-all/mobile-bg.svg);">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12">
@@ -13,7 +13,7 @@
                         <div class="txaa-slide-down-1">
                             <div style="border: 1px solid #27467A; height: 320px; width: 100%;"
                                 class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/headimg.jpeg" alt="">
+                                <img class="rounded" decoding="async" src="mobile-assets/phd-mobile/headimg.jpeg" alt="">
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                                     <div class="p-3">
                                         <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Dr.UpasanaChhetry.jpg"
                                             class="img-fluid rounded border" />
                                     </div>
 
@@ -67,7 +67,7 @@
                                             Research Interest
                                         </p>
                                         <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Plant Molecular Biology; Plant Secondary metabolites
+                                            Plant Molecular Biology; Plant Secondary metabolites; Underutilized crops
                                         </p>
 
                                     </div>
@@ -80,7 +80,7 @@
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                                     <div class="p-3">
                                         <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Raghuvar.jpeg"
                                             class="img-fluid rounded border" />
                                     </div>
 
@@ -96,8 +96,7 @@
                                             Research Interest
                                         </p>
                                         <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Biodiversity conservation and Climate change, Plant Ecology & Taxonomy,
-                                            Ecosystem services
+                                            Biodiversity conservation and Climate change, Plant Ecology
                                         </p>
 
                                     </div>
@@ -110,7 +109,7 @@
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                                     <div class="p-3">
                                         <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Pratikshyas-rslsc.jpg"
                                             class="img-fluid rounded border" />
                                     </div>
 
@@ -126,7 +125,7 @@
                                             Research Interest
                                         </p>
                                         <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Plant Molecular Biology
+                                            Plant Molecular Biology, Protein Degradation Pathway, Root Architecture
                                         </p>
 
                                     </div>
@@ -139,7 +138,7 @@
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                                     <div class="p-3">
                                         <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/manalee.jpeg"
                                             class="img-fluid rounded border" />
                                     </div>
 
@@ -168,7 +167,7 @@
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                                     <div class="p-3">
                                         <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Upashna.jpg"
                                             class="img-fluid rounded border" />
                                     </div>
 
@@ -197,7 +196,7 @@
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                                     <div class="p-3">
                                         <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/anushree.jpeg"
                                             class="img-fluid rounded border" />
                                     </div>
 
@@ -213,8 +212,8 @@
                                             Research Interest
                                         </p>
                                         <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Climate smart agriculural practices; Greenhouse gas emission and mitigation
-                                            for agriculture sector; Plant nutrition and soil health management
+                                            Climate smart agriculural practices; Greenhouse gas emission and mitigation for
+                                            agriculture sector; Plant nutrition and soil health management
                                         </p>
 
                                     </div>
@@ -241,17 +240,17 @@
                     <div class="col-lg-6">
                         <div class="kd-about-3-img-wrap txaa-slide-down-1">
                             <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/headimg.jpeg" alt="">
+                                <img class="rounded" decoding="async" src="mobile-assets/phd-mobile/headimg.jpeg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
 
-                        <h2 class="fw-bold mt-3" style="color: #264273; font-weight: 700; font-size: 32px;">
-                            Ph.D. Programme <span style="color: #FF9A1E; font-weight: 500;">in Botany</span>
+                        <h2 class="headd1 fw-bold mt-3" style="color: #264273; font-weight: 700;">
+                            Ph.D. Programme <span style="color: #FF9A1E; font-weight: 500;"><br>in Botany</span>
                         </h2>
 
-                        <p class="para1 pt-3" style="color: #264273; text-align: justify;">
+                        <p class="para1" style="color: #264273; text-align: justify;">
                             The field of botany is very diverse, with branches in microbiology, horticulture, economic
                             botany, plant anatomists, physiologists and molecular biologists. Botany is the study of
                             plants and their properties. It is an important part of biology, which provides information
@@ -287,7 +286,7 @@
                         style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                         <div class="p-3">
                             <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Dr.UpasanaChhetry.jpg"
                                 class="img-fluid rounded border" />
                         </div>
 
@@ -303,7 +302,7 @@
                                 Research Interest
                             </p>
                             <p class="para1" style="color: #333; line-height: 1.3;">
-                                Plant Molecular Biology; Plant Secondary metabolites
+                                Plant Molecular Biology; Plant Secondary metabolites; Underutilized crops
                             </p>
 
                         </div>
@@ -316,7 +315,7 @@
                         style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                         <div class="p-3">
                             <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Raghuvar.jpeg"
                                 class="img-fluid rounded border" />
                         </div>
 
@@ -332,8 +331,7 @@
                                 Research Interest
                             </p>
                             <p class="para1" style="color: #333; line-height: 1.3;">
-                                Biodiversity conservation and Climate change, Plant Ecology & Taxonomy, Ecosystem
-                                services
+                                Biodiversity conservation and Climate change, Plant Ecology
                             </p>
 
                         </div>
@@ -346,7 +344,7 @@
                         style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                         <div class="p-3">
                             <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Pratikshyas-rslsc.jpg"
                                 class="img-fluid rounded border" />
                         </div>
 
@@ -362,7 +360,7 @@
                                 Research Interest
                             </p>
                             <p class="para1" style="color: #333; line-height: 1.3;">
-                                Plant Molecular Biology
+                                Plant Molecular Biology, Protein Degradation Pathway, Root Architecture
                             </p>
 
                         </div>
@@ -375,7 +373,7 @@
                         style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                         <div class="p-3">
                             <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/manalee.jpeg"
                                 class="img-fluid rounded border" />
                         </div>
 
@@ -404,7 +402,7 @@
                         style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 590px;">
                         <div class="p-3">
                             <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Upashna.jpg"
                                 class="img-fluid rounded border" />
                         </div>
 
@@ -433,7 +431,7 @@
                         style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 590px;">
                         <div class="p-3">
                             <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/no-pic.png"
+                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/anushree.jpeg"
                                 class="img-fluid rounded border" />
                         </div>
 
@@ -449,8 +447,8 @@
                                 Research Interest
                             </p>
                             <p class="para1" style="color: #333; line-height: 1.3;">
-                                Climate smart agriculural practices; Greenhouse gas emission and mitigation for
-                                agriculture sector; Plant nutrition and soil health management
+                                Climate smart agriculural practices; Greenhouse gas emission and mitigation for agriculture
+                                sector; Plant nutrition and soil health management
                             </p>
 
                         </div>
