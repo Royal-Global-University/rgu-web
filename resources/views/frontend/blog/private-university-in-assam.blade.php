@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Private University in Assam: Transforming Higher Education with Modern Vision')
+@section('meta_description', 'Royal Global University stands out as one of the top private universities in Northeast India when choosing the best place to pursue higher education.')
+@section('meta_keywords', 'Private University in Assam')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
