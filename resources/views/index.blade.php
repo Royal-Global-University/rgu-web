@@ -91,7 +91,7 @@
                             alt="...">
                     </div>
                     <div class="carousel-item active">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may21.jpeg"
+                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/mob-img.png"
                             class="d-block w-100 rounded" alt="...">
                     </div>
                 </div>
@@ -240,6 +240,8 @@
             </div>
         </section> --}}
         <!-- fast facts mobile  -->
+
+
 
         <!-- explore our courses at rgu  -->
         <section style="padding: 30px;">
@@ -754,8 +756,8 @@
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/subram-web.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may21-mob.jpeg"
-                                            style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/event1.png"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
 
@@ -952,6 +954,15 @@
                                             style="width: 50px;"
                                             src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/output-onlinegiftools.gif" alt="">
                                         Admission Open For Ph.D. 2025-2026 </a>
+
+                                        <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/Coffee%20table%20book%20Env%20Day%202025.pdf"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="assets/img/event-img/arrow-new.png"
+                                                alt="">
+                                                RGU observes
+                                                World Environment Day, 05th June
+                                                2025
+                                                </a>
                                 </div>
                             </div>
                             {{-- <a href="https://rgu.ac/notifications">
@@ -1459,6 +1470,8 @@
                 </section> --}}
                 <!-- fast facts -->
 
+
+
                 <!--campus life-->
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-f03cf62 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
@@ -1846,10 +1859,42 @@
                 </section>
                 <!--campus life-->
 
+                <!--LookBook-->
+                {{-- <div style="padding: 50px 20px; background-color: #bb9457;">
+                    <div class="row" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div class="col-lg-6" style="display: flex; justify-content: center;">
+                            <img style="width: 90%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/img1.png" alt="">
+                        </div>
+                        <div class="col-lg-6" style="display: flex; justify-content: center;">
+                            <video autoplay loop muted playsinline style="width: 90%; height: auto; pointer-events: none;">
+                                <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook/lookbook.mp4"
+                                    type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div> --}}
+                <div style="padding: 30px 20px; background-color: #590d22;">
+                    <div class="row" style="display: flex; align-items: center;">
+                        <div class="col-lg-7" style="display: flex; justify-content: center;">
+                            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook.png" alt="">
+                        </div>
+                        <div class="col-lg-5" style="display: flex; justify-content: center;">
+                            <video autoplay loop muted playsinline
+                                style="width: 100%; height: auto; pointer-events: none; border: 4px solid #fff;">
+                                <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook/lookbook.mp4"
+                                    type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                    </div>
+                </div>
+
                 <!--Courses-->
                 <div data-elementor-type="wp-page" data-elementor-id="2266" class="elementor elementor-2266 m-0 p-0">
                     <section
-                        class="elementor-section elementor-top-section elementor-element elementor-element-63fb9c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        class="elementor-section elementor-top-section elementor-element elementor-element-63fb9c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default pt-5"
                         data-id="63fb9c7" data-element_type="section">
                         <div class="elementor-column-gap-default"
                             style="padding-left: 50px; padding-right: 50px; padding-bottom: 50px;">

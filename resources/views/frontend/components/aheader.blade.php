@@ -64,7 +64,7 @@
                                             </ul>
                                         </li>
 
-                                        <li><a class="dropdown-item text-dark   para1" href="{{ route('finance-committee') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">FINANCE COMMITTEE</a></li>
+                                        {{-- <li><a class="dropdown-item text-dark   para1" href="{{ route('finance-committee') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">FINANCE COMMITTEE</a></li> --}}
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('internal-complaints-committee') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">INTERNAL COMPLAINTS <br> COMMITTEE</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('anti-ragging') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">ANTI RAGGING <br> COMMITTEE</a></li>
                                         <li><a class="dropdown-item text-dark   para1" href="{{ route('proctorial') }}" style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">PROCTORAL BOARD</a></li>

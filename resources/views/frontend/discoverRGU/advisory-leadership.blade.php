@@ -102,7 +102,7 @@
                         </a>
                     </div>
 
-                    {{-- <div class="col-lg-3 mb-4">
+                    <div class="col-lg-3 mb-4">
 
                         <a href="advisor-dr-amarjyoti-choudhury">
                             <div class="card rounded d-flex flex-column"
@@ -147,7 +147,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div> --}}
+                    </div>
 
                 </div>
 
@@ -272,7 +272,7 @@
                         </a>
                     </div>
 
-                    {{-- <div class="col-lg-3 mb-4">
+                     <div class="col-lg-3 mb-4">
 
                         <a href="advisor-dr-amarjyoti-choudhury">
                             <div class="card rounded d-flex flex-column"
@@ -313,7 +313,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div> --}}
+                    </div>
 
                 </div>
 
