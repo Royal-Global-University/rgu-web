@@ -1469,7 +1469,22 @@
                     </div>
                 </section> --}}
                 <!-- fast facts -->
+                <div style="padding: 30px 20px; background-color: #590d22;">
+                    <div class="row" style="display: flex; align-items: center;">
+                        <div class="col-lg-7" style="display: flex; justify-content: center;">
+                            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook.png" alt="">
+                        </div>
+                        <div class="col-lg-5" style="display: flex; justify-content: center;">
+                            <video autoplay loop muted playsinline
+                                style="width: 100%; height: auto; pointer-events: none; border: 4px solid #fff;">
+                                <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook/lookbook.mp4"
+                                    type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
 
+                    </div>
+                </div>
 
 
                 <!--campus life-->
@@ -1874,27 +1889,12 @@
                         </div>
                     </div>
                 </div> --}}
-                <div style="padding: 30px 20px; background-color: #590d22;">
-                    <div class="row" style="display: flex; align-items: center;">
-                        <div class="col-lg-7" style="display: flex; justify-content: center;">
-                            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook.png" alt="">
-                        </div>
-                        <div class="col-lg-5" style="display: flex; justify-content: center;">
-                            <video autoplay loop muted playsinline
-                                style="width: 100%; height: auto; pointer-events: none; border: 4px solid #fff;">
-                                <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook/lookbook.mp4"
-                                    type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
 
-                    </div>
-                </div>
 
                 <!--Courses-->
                 <div data-elementor-type="wp-page" data-elementor-id="2266" class="elementor elementor-2266 m-0 p-0">
                     <section
-                        class="elementor-section elementor-top-section elementor-element elementor-element-63fb9c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default pt-5"
+                        class="elementor-section elementor-top-section elementor-element elementor-element-63fb9c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                         data-id="63fb9c7" data-element_type="section">
                         <div class="elementor-column-gap-default"
                             style="padding-left: 50px; padding-right: 50px; padding-bottom: 50px;">
