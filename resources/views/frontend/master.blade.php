@@ -1151,7 +1151,7 @@
                                                 </a>
 
                                                 <a href="{{ route('admission-programs-fees-structure') }}">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">ELIGIBILITY &S ELECTION CRITERIA
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Eligibility & Selection Criteria
                                                     </p>
                                                 </a>
 

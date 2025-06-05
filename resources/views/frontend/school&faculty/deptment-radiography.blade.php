@@ -306,10 +306,15 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/UG Radiography.pdf"
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/UG-Radiography-syllabus.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 4 YEAR UG
-                                                    PROGRAMME - B.Sc. Radiography
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - UG Radiography
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/Radiology-2025-SYLLABUS.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - UG Radiography
                                                     <i class="fa fa-download"></i>
                                                 </a>
 

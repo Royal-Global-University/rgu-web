@@ -168,7 +168,7 @@
                             <div class="dropdown">
                                 <button
                                     style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;"
-                                    class="btn btn-secondary dropdown-toggle headdd3 mb-3" type="button" data-bs-toggle="dropdown"
+                                    class="btn btn-secondary dropdown-toggle headdd2 mb-3" type="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     Projects
                                 </button>
@@ -184,7 +184,7 @@
                         </div>
 
                         <div class="col-lg-3">
-                            <a href="research-Patents"
+                            <a href="research-patents"
                                 style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;"
                                 class="btn btn-lg active headdd3 mb-3" role="button" aria-pressed="true">Patents</a>
                         </div>
@@ -224,7 +224,7 @@
                     <div class="col-lg-6">
 
                         <h2 class="headd1 kd-title-ani kd-split" style="color: #264273; font-weight: 700;">Research <span
-                                style="color: #FF9A1E; font-weight: 500;">and development</span> </h2>
+                                style="color: #FF9A1E; font-weight: 500;">and Development</span> </h2>
                         <p class="para1 pt-2" style="color: #333; text-align: justify;">
                             Royal Global University (RGU) is dedicated to fostering research and building a robust research
                             ecosystem through a multifaceted approach. RGU emphasizes the importance of fundamental research to
@@ -373,7 +373,7 @@
 
                     <div class="col-lg-3">
                         <div class="dropdown" style="background-color: #13223b; color: #fff; width: 100%; height: 60px; display: flex; align-items: center; justify-content: center; text-align: center;">
-                            <button class="btn dropdown-toggle text-white rounded" style="font-size: 22px;" type="button"
+                            <button class="btn dropdown-toggle text-white rounded headdd3" style="font-size: 22px" type="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Projects
                             </button>

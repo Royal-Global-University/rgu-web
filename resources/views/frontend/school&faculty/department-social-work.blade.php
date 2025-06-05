@@ -581,7 +581,7 @@
 
             <div>
                 <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                    Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+                    Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
                 <div class="p-2">
                     <div class="row">
@@ -600,12 +600,17 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/SocialWork/BACHELOR OF SOCIAL WORK COURSE STRUCTURE.pdf"
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/SocialWork/Structure-of-syllabus-UG.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Structure - B.Sc. Social Work
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - UG Social Work
                                                     <i class="fa fa-download"></i>
                                                 </a>
 
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/SocialWork/BSW-Syllabus-UG.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - UG Social Work
+                                                    <i class="fa fa-download"></i>
+                                                </a>
 
                                             </div>
                                         </div>
@@ -624,11 +629,18 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/SocialWork/Master of Social Work_MSW.pdf"
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/SocialWork/Structure-of-syllabus-PG.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Syllabus - M.Sc. Social Work
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - PG Social Work
                                                     <i class="fa fa-download"></i>
                                                 </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/SocialWork/MSW-Syllabus-PG.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - PG Social Work
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -648,7 +660,8 @@
                                             <a href="phd" class="para1" target="_blank">
                                                 <strong>
                                                     Click to View...
-                                                </strong></a>
+                                                </strong>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -656,7 +669,7 @@
                         </div>
                         <div class="col-lg-6"></div>
                     </div>
-                </div>    </div>
+                </div>     </div>
 
         </div>
 

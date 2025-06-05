@@ -288,6 +288,7 @@
             </div>
 
             <div>
+
                 <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                     Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
@@ -308,12 +309,20 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/UG Nutrition and Dietetics.pdf"
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/UG-Nutrition-and-Dietetics.pdf"
                                                     target="_blank">
                                                     <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Sc. Nutrition and
                                                     Dietetics
                                                     <i class="fa fa-download"></i>
                                                 </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/NUTRITION-UG-2025-SYLLABUS.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - B.Sc. Nutrition and Dietetics
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -331,12 +340,20 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/Masters Nutrition and Dietetics.pdf"
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/Masters-Nutrition-and-Dietetics.pdf"
                                                     target="_blank">
                                                     <i class="fa fa-file-text px-2"></i> Structure of Syllabus - M.Sc. Nutrition and
                                                     Dietetics
                                                     <i class="fa fa-download"></i>
                                                 </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/NUTRITION-PG-2025-SYLLABUS.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - M.Sc. Nutrition and Dietetics
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
                                             </div>
                                         </div>
                                     </div>

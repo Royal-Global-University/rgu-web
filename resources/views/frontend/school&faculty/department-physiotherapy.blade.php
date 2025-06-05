@@ -633,9 +633,15 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/BPT SYLLABUS STRUCTURE 2025-26.pdf"
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/BPT-SYLLABUS-STRUCTURE-2025-26.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Syllabus Structure - B.Sc. Physiotherapy
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - UG Physiotherapy
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/BPT-2025-SYLLABUS.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Structure - UG Physiotherapy
                                                     <i class="fa fa-download"></i>
                                                 </a>
 
@@ -657,9 +663,15 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/Masters Physiotherapy.pdf"
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/Masters-Physiotherapy.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Syllabus Structure - M.Sc. Physiotherapy
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - PG Physiotherapy
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/MPT-2025-SYLLABUS.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Structure - PG Physiotherapy
                                                     <i class="fa fa-download"></i>
                                                 </a>
 

@@ -242,9 +242,17 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/OTT Structure.pdf"
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/UG-OTT-Structure.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> B.Sc. - Operation Theatre Technology
+                                                    <i class="fa fa-file-text px-2"></i> Struture of the Syllabus - UG Operation
+                                                    Theatre Technology
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/OT-UG-2025-SYLLABUS.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - UG Operation Theatre Technology
                                                     <i class="fa fa-download"></i>
                                                 </a>
 

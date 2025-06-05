@@ -472,7 +472,7 @@
                 </div>
 
                 <div>
-                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                         Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
                     <div class="p-2">
@@ -481,35 +481,34 @@
                                 <div class="accordion para1" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne"><strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><strong>
                                                     Under Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Syllabus_NEP 2020_B A PSY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE & SYLLABUS
-                                                        (BASED ON NATIONAL EDUCATION POLICY 2020)
+                                                        <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE & SYLLABUS (BASED ON
+                                                        NATIONAL EDUCATION POLICY 2020)
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of Syllabus- B.A. Applied Psychology.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4
-                                                        YEAR UG PROGRAMME
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4 YEAR UG
+                                                        PROGRAMME
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - B.A. Psychology.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4
-                                                        YEAR UG PROGRAMME
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4 YEAR UG
+                                                        PROGRAMME
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
@@ -520,49 +519,53 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo"><strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>
                                                     Post Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA PSY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 2
-                                                        YEAR PG PROGRAMME
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 2 YEAR PG
+                                                        PROGRAMME
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/MA Clinical Psychology course structure and syllabus.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
-                                                        M.A. Clinical Psychology
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR M.A. Clinical
+                                                        Psychology
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA CPY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
-                                                        M.A. CPY
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR M.A. CPY
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA PSY.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/structure-MA-psychology.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
-                                                        M.A. PSY
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR M.A.
+                                                        PSYCHOLOGY
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/syllabus-MA-psychology.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>SYLLABUS FOR M.A. PSYCHOLOGY
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA CPY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 2
-                                                        YEAR PG PROGRAMME - Clinical Physchology
+                                                        <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 2 YEAR PG
+                                                        PROGRAMME - Clinical Physchology
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
@@ -573,18 +576,18 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree"><strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree"><strong>
                                                     Doctoral Programme
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a href="phd" class="para1"
-                                                    target="_blank"><strong>Click to View...</strong></a>
+                                                <a href="phd" class="para1" target="_blank"><strong>Click to
+                                                        View...</strong></a>
                                             </div>
                                         </div>
                                     </div>
@@ -592,8 +595,7 @@
                             </div>
                             <div class="col-lg-6"></div>
                         </div>
-                    </div>
-                </div>
+                    </div>          </div>
 
             </div>
 
@@ -1086,35 +1088,34 @@
                                 <div class="accordion para1" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne"><strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><strong>
                                                     Under Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Syllabus_NEP 2020_B A PSY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE & SYLLABUS
-                                                        (BASED ON NATIONAL EDUCATION POLICY 2020)
+                                                        <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE & SYLLABUS (BASED ON
+                                                        NATIONAL EDUCATION POLICY 2020)
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of Syllabus- B.A. Applied Psychology.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4
-                                                        YEAR UG PROGRAMME
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4 YEAR UG
+                                                        PROGRAMME
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - B.A. Psychology.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4
-                                                        YEAR UG PROGRAMME
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 4 YEAR UG
+                                                        PROGRAMME
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
@@ -1125,49 +1126,53 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo"><strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>
                                                     Post Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA PSY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 2
-                                                        YEAR PG PROGRAMME
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR 2 YEAR PG
+                                                        PROGRAMME
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/MA Clinical Psychology course structure and syllabus.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
-                                                        M.A. Clinical Psychology
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR M.A. Clinical
+                                                        Psychology
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA CPY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
-                                                        M.A. CPY
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR M.A. CPY
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA PSY.pdf"
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/structure-MA-psychology.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR
-                                                        M.A. PSY
+                                                        <i class="fa fa-file-text px-2"></i>STRUCTURE OF THE SYLLABUS FOR M.A.
+                                                        PSYCHOLOGY
+                                                        <i class="fa fa-download"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/syllabus-new/3RSBAS/syllabus-MA-psychology.pdf"
+                                                        target="_blank">
+                                                        <i class="fa fa-file-text px-2"></i>SYLLABUS FOR M.A. PSYCHOLOGY
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
                                                     <a href="mobile-assets/department-all/syllabus-new/3RSBAS/Structure of syllabus - MA CPY.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 2
-                                                        YEAR PG PROGRAMME - Clinical Physchology
+                                                        <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 2 YEAR PG
+                                                        PROGRAMME - Clinical Physchology
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
@@ -1178,18 +1183,18 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree"><strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree"><strong>
                                                     Doctoral Programme
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a href="phd" class="para1"
-                                                    target="_blank"><strong>Click to View...</strong></a>
+                                                <a href="phd" class="para1" target="_blank"><strong>Click to
+                                                        View...</strong></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1197,8 +1202,7 @@
                             </div>
                             <div class="col-lg-6"></div>
                         </div>
-                    </div>
-                </div>
+                    </div>          </div>
 
             </div>
             <!-- End testimonials-->

@@ -480,10 +480,17 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/UG MLT.pdf"
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/BMLT-Syllabus-Structure.pdf"
                                                     target="_blank">
                                                     <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Sc. Medical Lab
                                                     Theatre
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/BMLT-2025-SYLLABUS.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - B.Sc. Medical Lab Theatre
                                                     <i class="fa fa-download"></i>
                                                 </a>
 
@@ -504,12 +511,20 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/Masters MLT.pdf"
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/MMLT-Syllabus-Structure.pdf"
                                                     target="_blank">
                                                     <i class="fa fa-file-text px-2"></i> Structure of Syllabus - M.Sc. Medical Lab
                                                     Theatre
                                                     <i class="fa fa-download"></i>
                                                 </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/MMLT-2025-SYLLABUS.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - M.Sc. Medical Lab Theatre
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -526,7 +541,7 @@
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong><a href="php">
+                                            <strong><a href="phd">
                                                     <strong>
                                                         Click to View...
                                                     </strong></a></strong>
@@ -537,8 +552,7 @@
                         </div>
                         <div class="col-lg-6"></div>
                     </div>
-                </div>
-            </div>
+                </div>  </div>
         </div>
     </div>
 @endsection

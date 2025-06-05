@@ -342,7 +342,14 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/UG Optometry.pdf"
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/UG-Optometry-structure.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Structure of the Syllabus - B.Optometry
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/OPTOMETRY-UG-2025-SYLLABUS.pdf"
                                                     target="_blank">
                                                     <i class="fa fa-file-text px-2"></i> Syllabus - B.Optometry
                                                     <i class="fa fa-download"></i>
@@ -354,19 +361,26 @@
                                 </div>
 
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
+                                    <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             <strong>
                                                 Post Graduate
                                             </strong>
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/Maters Optometry.pdf"
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/PG-Optometry-structure.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Structure of the Syllabus - M.Optometry
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSMAS/OPTOMETRY-PG-2025-SYLLABUS.pdf"
                                                     target="_blank">
                                                     <i class="fa fa-file-text px-2"></i> Syllabus - M.Optometry
                                                     <i class="fa fa-download"></i>
