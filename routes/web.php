@@ -2838,6 +2838,12 @@ Route::get('/lp', function () {
     return view('frontend/lp/lp');
 })->name('lp');
 
+//blog
+
+Route::get('/private-university-in-assam', function () {
+    return view('frontend/blog/private-university-in-assam');
+})->name('private-university-in-assam');
+
 //Quick link
 Route::get('/grievance', function () {
     return view('frontend/quicklink/grievance');

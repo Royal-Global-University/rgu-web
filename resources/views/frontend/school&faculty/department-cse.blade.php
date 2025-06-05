@@ -805,7 +805,7 @@
                                             <div class="row">
                                                 <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSET/Course Structure CSE New.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>Course Structure - CSE
+                                                    <i class="fa fa-file-text px-2"></i>Course Structure and Syllabus - CSE
                                                     <i class="fa fa-download"></i>
                                                 </a>
 
