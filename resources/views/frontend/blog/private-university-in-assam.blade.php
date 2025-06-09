@@ -1,7 +1,7 @@
 @extends('frontend.master')
-@section('title', 'Private University in Assam: Transforming Higher Education with Modern Vision')
-@section('meta_description', 'Royal Global University stands out as one of the top private universities in Northeast India when choosing the best place to pursue higher education.')
-@section('meta_keywords', 'Private University in Assam')
+@section('title', 'Royal Global University Blog | Latest News, Student Stories & Academic Insights – Royal Global University')
+@section('meta_description', 'Explore the official blog of Royal Global University for updates on campus life, academic tips, student achievements, and expert insights. Stay informed and inspired with RGU')
+@section('meta_keywords', 'Blog')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
@@ -16,7 +16,6 @@
                         Vision</h2>
                 </div>
             </div>
-
 
             <div class="container pt-4">
                 <p style="color: #27467A; text-align: justify;" class="para1">
@@ -391,7 +390,6 @@
             </div>
         </div>
 
-
         <div class="container pt-5">
             <p style="color: #27467A; text-align: justify;" class="para1">
                 Assam is at the center of the dramatic shift in Northeast India's educational scene. Even though
@@ -746,6 +744,13 @@
                 The private universities in Assam are laying the groundwork for a more promising academic
                 future for the entire Northeast by combining creativity, inclusion, and inspiration.
             </p>
+        </div>
+
+        <div class="container pt-5 pb-5">
+            <h5 class="text-dark"><strong>Focus Keyword:</strong> Private University in Assam</h5>
+            <h5 class="text-dark pt-3"><strong>Meta Title:</strong> Private University in Assam: Transforming Higher Education with Modern Vision</h5>
+            <h5 class="text-dark pt-3"><strong>Meta Description:</strong> Royal Global University stands out as one of the top private universities in Northeast India when choosing the best
+            place to pursue higher education.</h5>
         </div>
     </div>
 @endsection
