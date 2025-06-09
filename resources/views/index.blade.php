@@ -719,16 +719,18 @@
 
                             </div>
 
-
-                            <div class="video-container" style="position: relative; width: 100%; height: auto;">
-                                <img src="web-thumb.png" id="video-thumbnail2" alt="Video Thumbnail"
+                            <div class="video-container" style="position: relative; width: 100%; height: 95vh;">
+                                <img src="mobile-assets/index/headimgnew.jpg" id="video-thumbnail2" alt="Video Thumbnail" style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
+                                                                z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">                      </div>
+                            {{-- <div class="video-container" style="position: relative; width: 100%; height: auto;">
+                                <img src="mobile-assets/index/headimgnew.jpg" id="video-thumbnail2" alt="Video Thumbnail"
                                     style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
 
-                                {{-- <video autoplay loop muted id="video-bg2" oncanplay="showVideo2()"
+                                <video autoplay loop muted id="video-bg2" oncanplay="showVideo2()"
                                     style="width: 100%; height: auto; display: block;">
                                     <source src="https://d20cs3cmzywuh.cloudfront.net/v-2.mp4" type="video/mp4">
-                                </video> --}}
-                            </div>
+                                </video>
+                            </div> --}}
                         </div>
                     </div>
                 </header>
@@ -1475,7 +1477,7 @@
                             <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook.png" alt="">
                         </div>
                         <div class="col-lg-5" style="display: flex; justify-content: center;">
-                            <video autoplay loop muted playsinline
+                            <video autoplay muted playsinline
                                 style="width: 100%; height: auto; pointer-events: none; border: 4px solid #fff;">
                                 <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook/lookbook.mp4"
                                     type="video/mp4">
