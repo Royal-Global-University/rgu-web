@@ -385,7 +385,7 @@
         </div>
 
 
-        {{-- <div class="col-lg-3 mb-4 mt-3">
+        <div class="col-lg-3 mb-4 mt-3">
         <div class="card rounded d-flex flex-column"
           style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
           <div class="p-3">
@@ -409,7 +409,7 @@
           </div>
           </div>
         </div>
-        </div> --}}
+        </div>
 
 
         <div class="col-lg-3 mb-4 mt-3">
@@ -1109,7 +1109,7 @@
         </div>
 
 
-        {{-- <div class="col-lg-4 mb-4 mt-3">
+        <div class="col-lg-4 mb-4 mt-3">
         <div class="card rounded d-flex flex-column"
           style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
           <div class="p-3">
@@ -1133,7 +1133,7 @@
           </div>
           </div>
         </div>
-        </div> --}}
+        </div>
 
 
         <div class="col-lg-4 mb-4 mt-3">
