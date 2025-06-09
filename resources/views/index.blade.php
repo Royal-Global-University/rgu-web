@@ -49,7 +49,7 @@
         <!-- mobile video -->
         <div class="mobile-video" style="position: relative; width: 100%; height: auto;">
             <img src="mob-thumb.png" id="video-thumbnail" alt="Video Thumbnail"
-                style="width: 100%; height: auto; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
+                style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
 
             {{-- <video playsinline autoplay loop muted id="video-bg" oncanplay="showVideo()"
                 style="width: 100%; height: auto; display: block;">
@@ -1477,7 +1477,7 @@
                         <div class="col-lg-5" style="display: flex; justify-content: center;">
                             <video autoplay loop muted playsinline
                                 style="width: 100%; height: auto; pointer-events: none; border: 4px solid #fff;">
-                                <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook/lookbook.mp4"
+                                <source src="mobile-assets/lookbook/lookbook.mp4"
                                     type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2244,7 +2244,7 @@
                                         <div class="kd-about-4-left ">
                                             <div class="mb-5 fix img-cover">
                                                 <img decoding="async" class="rounded" style="height: 600px !important;"
-                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/rgu-building-square.webp" alt="">
+                                                    src="mobile-assets/index/rgu-advantages.png" alt="">
                                             </div>
                                             <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
                                                 <img decoding="async" style="height: 600px !important;"
