@@ -1477,7 +1477,7 @@
                         <div class="col-lg-5" style="display: flex; justify-content: center;">
                             <video autoplay loop muted playsinline
                                 style="width: 100%; height: auto; pointer-events: none; border: 4px solid #fff;">
-                                <source src="mobile-assets/lookbook/lookbook.mp4"
+                                <source src="/mobile-assets/lookbook/lookbook.mp4"
                                     type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
