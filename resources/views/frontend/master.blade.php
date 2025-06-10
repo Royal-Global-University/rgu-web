@@ -1210,10 +1210,7 @@
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Internal
                                                         Complaints Committee</p>
                                                 </a>
-                                                <a href="grievance">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Students'
-                                                        Grievance</p>
-                                                </a>
+
                                                 <a href="https://rgu.renocampus.com/">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online
                                                     </p>
@@ -1240,21 +1237,21 @@
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs & Vacancies
                                                     </p>
                                                 </a> --}}
-                                                <a href="iqac-overview">
+                                                {{-- <a href="iqac-overview">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">IQAC</p>
-                                                </a>
+                                                </a> --}}
                                                 <a href="research-devlopment">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Research &
                                                         Development</p>
                                                 </a>
 
-                                                <a href="recognition-accreditation">
+                                                {{-- <a href="recognition-accreditation">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Accreditation
                                                     </p>
-                                                </a>
-                                                <a href="happy-happening">
+                                                </a> --}}
+                                                {{-- <a href="happy-happening">
                                                     <p class="m-0 text-white" style="font-size: 18px;">Campus Visit</p>
-                                                </a>
+                                                </a> --}}
                                                 {{-- <a
                                                     href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/vc-report.pdf">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">VC Report</p>
@@ -1272,6 +1269,10 @@
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Caution Money Refund Application
                                                     </p>
                                                 </a>
+                                                <a href="grievance">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Students'
+                                                        Grievance</p>
+                                                </a>
 
                                             </div>
 
@@ -1287,11 +1288,11 @@
                                                         <li><a class="dropdown-item" href="{{ route('cisr') }}">CISR</a></li>
                                                     </ul>
                                                 </div>
-                                                <a href="https://heyzine.com/flip-book/adfd7889ba.html">
+                                                {{-- <a href="https://heyzine.com/flip-book/adfd7889ba.html">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">International
                                                         Brochure 2025 -
                                                         2026</p>
-                                                </a>
+                                                </a> --}}
                                                 <a href="360-tour">
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">360° View</p>
                                                 </a>

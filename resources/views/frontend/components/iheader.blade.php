@@ -397,6 +397,10 @@
                         <li><a class="dropdown-item text-dark   para1" href="{{ route('frro-process') }}"
                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">FRRO
                                 PROCESS</a></li>
+                                <li><a class="dropdown-item text-dark   para1" href="https://heyzine.com/flip-book/adfd7889ba.html"
+                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">INTERNATIONAL
+                                        BROCHURE
+                                        </a></li>
                         <li><a class="dropdown-item text-dark   para1" href="{{ route('how-to-apply-international') }}"
                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">HOW
                                 TO APPLY?</a></li>
