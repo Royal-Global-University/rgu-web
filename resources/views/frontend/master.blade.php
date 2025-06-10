@@ -910,6 +910,16 @@
         }
     </style>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4VG3BZ0CZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-H4VG3BZ0CZ');
+    </script>
+
     {{--
     <link rel="stylesheet" href="assets/css/modal/modal1.css"> --}}
     <link rel="icon" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/favicons/30x30.png" sizes="32x32" />
