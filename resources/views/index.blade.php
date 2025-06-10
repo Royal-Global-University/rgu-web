@@ -53,7 +53,7 @@
 
             {{-- <video playsinline autoplay loop muted id="video-bg" oncanplay="showVideo()"
                 style="width: 100%; height: auto; display: block;">
-                <source src="https://d20cs3cmzywuh.cloudfront.net/Websitemobilevideooo.mp4" type="video/mp4">
+                <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/Websitemobilevideooo.mp4" type="video/mp4">
             </video> --}}
         </div>
         <!-- mobile video -->
@@ -79,7 +79,7 @@
         <!-- discover rgu -->
 
         <!-- happening at rgu  -->
-        <section style="padding: 30px; background-image: url(https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/bg.svg);">
+        <section style="padding: 30px; background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/bg.svg);">
 
             <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-weight: 900; font-size: 40px;">
                 News and<span style="color: #FF9A1E; font-weight: 500;"> Events</span></h2>
@@ -134,7 +134,7 @@
                                 <div class="prthalign">
 
                                     <h6 class="mobile-headd2 kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                                        <img style="width: 40x; height: 40px;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/cap.svg" alt="">
+                                        <img style="width: 40x; height: 40px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg" alt="">
                                         Info
                                     </h6>
                                     <h2 class="mobile-headd1 elementor-gt-heading kd-title-ani kd-split-text"
@@ -251,7 +251,7 @@
             <a href="doctoral-programme">
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
                     <div class="main-img fix img-cover">
-                        <img fetchpriority="high" decoding="async" width="357" height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c6.svg"
+                        <img fetchpriority="high" decoding="async" width="357" height="220" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c6.svg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                     </div>
                 </div>
@@ -260,7 +260,7 @@
             <a href="programs">
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
                     <div class="main-img fix img-cover">
-                        <img decoding="async" width="357" height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c7.svg"
+                        <img decoding="async" width="357" height="220" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c7.svg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                     </div>
                 </div>
@@ -269,7 +269,7 @@
             <a href="programs">
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
                     <div class="main-img fix img-cover">
-                        <img decoding="async" width="357" height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c8.svg"
+                        <img decoding="async" width="357" height="220" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c8.svg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                     </div>
                 </div>
@@ -292,7 +292,7 @@
                             <div class="card d-flex flex-column shadow-sm rounded"
                                 style="background-color: #fff; height: 450px; border: none;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/electric1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/electric1.jpg"
                                         class="d-block w-100" alt="..." style="border-radius: 10px;">
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -313,7 +313,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/architecture1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/architecture1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -334,7 +334,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/computer1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/computer1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -355,7 +355,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/engineering1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/engineering1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -378,7 +378,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/foodtech1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/foodtech1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -401,7 +401,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/language1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/language1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -422,7 +422,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/physics1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/physics1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -463,7 +463,7 @@
                                     </div>
                                     <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
                                         <img decoding="async" class="rounded" style="height: 600px !important;"
-                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobileyellow.png" alt="">
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/mobileyellow.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -626,22 +626,22 @@
         <!-- new advantage end-->
 
         <!--Mobile Footprint-->
-        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/footprints2.png" alt="">
+        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/footprints2.png" alt="">
         <!--Mobile Footprint end  -->
 
         <!--Mobile Testimonial-->
-        <section style="padding: 40px 30px; background-image: url(https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/s2-bg-img-1.webp);">
+        <section style="padding: 40px 30px; background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/s2-bg-img-1.webp);">
             <h6 class="mobile-headd3 text-center kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                <img style="width: 40x; height: 40px;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/cap.svg" alt="">
+                <img style="width: 40x; height: 40px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg" alt="">
                 RGU Testimonials
             </h6>
             <h2 class="mobile-headd1 pb-4 pt-3" style="color: #27467A;">They Speak <span
                     style="font-weight: 500; color: #EF991F;">About Us</span></h2>
 
             <div class="row" style="display: flex; flex-direction: column;">
-                <a href="success"><img class="pb-3" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/alumni-student.png" /></a>
-                <a href="top-recruiters"><img class="pb-3" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/recruiters.png" /></a>
-                <a href="footprints"><img class="pb-3" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/dignitaries.png" /></a>
+                <a href="success"><img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/alumni-student.png" /></a>
+                <a href="top-recruiters"><img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/recruiters.png" /></a>
+                <a href="footprints"><img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/dignitaries.png" /></a>
             </div>
 
         </section>
@@ -728,7 +728,7 @@
 
                                 <video autoplay loop muted id="video-bg2" oncanplay="showVideo2()"
                                     style="width: 100%; height: auto; display: block;">
-                                    <source src="https://d20cs3cmzywuh.cloudfront.net/v-2.mp4" type="video/mp4">
+                                    <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/v-2.mp4" type="video/mp4">
                                 </video>
                             </div> --}}
                         </div>
@@ -740,7 +740,7 @@
 
             <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
 
-                <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/n-explore-rgu-15-15.png" alt="">
+                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/n-explore-rgu-15-15.png" alt="">
 
 
                 <!--New Events-->
@@ -1011,7 +1011,7 @@
                                     <div class="elementor-widget-container">
 
 
-                                        <div style="background-image: url(https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/bgnew.svg);"
+                                        <div style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/bgnew.svg);"
                                             class=" pb-5 kd-team-4-area p-relative fix">
 
 
@@ -1337,7 +1337,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="prthalign">
                                             <h6 class="para1 kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                                                <img style="width: 40x; height: 40px;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/cap.svg"
+                                                <img style="width: 40x; height: 40px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg"
                                                     alt="">
                                                 Info
                                             </h6>
@@ -1479,7 +1479,7 @@
                         <div class="col-lg-5" style="display: flex; justify-content: center;">
                             <video autoplay muted playsinline
                                 style="width: 100%; height: auto; pointer-events: none; border: 4px solid #fff;">
-                                <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook/lookbook.mp4"
+                                <source src="http://69.62.79.67/media/lookbook/lookbook.mp4"
                                     type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1503,7 +1503,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="kd-course-3-area p-relative pt-105 pb-60 fix">
                                             <div class="kd-course-1-bg-img img-cover fix">
-                                                <img decoding="async" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/head2.svg" alt="">
+                                                <img decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/head2.svg" alt="">
                                             </div>
                                             <div class="container kd-container-1 txaa-slide-down-1">
                                                 <!-- sectiont-title -->
@@ -1604,49 +1604,49 @@
                                                                                 <div class="carousel-item active">
                                                                                     <a
                                                                                         href="department-store"><img
-                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/1.svg"
+                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/1.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="infrastructure"><img
-                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/5.svg"
+                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/5.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="games&sports"> <img
-                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/7.svg"
+                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/7.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="clubs"><img
-                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/4.svg"
+                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/4.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="hostel-life"> <img
-                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/3.svg"
+                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/3.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="Student_Affairs"> <img
-                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/6.svg"
+                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/6.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="royal-fests"><img
-                                                                                            src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/2.svg"
+                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/2.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
@@ -1742,7 +1742,7 @@
                                                             <div class="right-content">
                                                                 <div class="kd-course-3-tabs-content-video img-cover fix">
                                                                     <img decoding="async"
-                                                                        src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/residence.jpg" alt="">
+                                                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/residence.jpg" alt="">
 
                                                                 </div>
                                                             </div>
@@ -1798,7 +1798,7 @@
                                                             <div class="right-content">
                                                                 <div class="kd-course-3-tabs-content-video img-cover fix">
                                                                     <img decoding="async"
-                                                                        src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/sports.jpg" alt="">
+                                                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/sports.jpg" alt="">
 
                                                                 </div>
 
@@ -1857,7 +1857,7 @@
                                                             <div class="right-content">
                                                                 <div class="kd-course-3-tabs-content-video img-cover fix">
                                                                     <img decoding="async"
-                                                                        src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/amenities.jpg" alt="">
+                                                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/amenities.jpg" alt="">
 
                                                                 </div>
                                                             </div>
@@ -1931,7 +1931,7 @@
                                                             style="border: solid 2px rgb(225, 225, 225);">
                                                             <div class="main-img fix img-cover">
                                                                 <img fetchpriority="high" decoding="async" width="357"
-                                                                    height="220" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c6.svg"
+                                                                    height="220" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c6.svg"
                                                                     class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                                                     alt="" />
                                                             </div>
@@ -1945,7 +1945,7 @@
                                                             style="border: solid 2px rgb(225, 225, 225);">
                                                             <div class="main-img fix img-cover">
                                                                 <img decoding="async" width="357" height="220"
-                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c7.svg"
+                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c7.svg"
                                                                     class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                                                     alt="" />
                                                             </div>
@@ -1958,7 +1958,7 @@
                                                             style="border: solid 2px rgb(225, 225, 225);">
                                                             <div class="main-img fix img-cover">
                                                                 <img decoding="async" width="357" height="220"
-                                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/c8.svg"
+                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c8.svg"
                                                                     class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                                                     alt="" />
                                                             </div>
@@ -1978,7 +1978,7 @@
 
                 <!--Labs-->
                 <section class="container-fluid"
-                    style="background-image: url('https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/lab-new1.png'); background-size: cover;">
+                    style="background-image: url('https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/lab-new1.png'); background-size: cover;">
                     <div class="elementor-column-gap-default pt-5 pb-5">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-818362c"
                             data-id="818362c" data-element_type="column">
@@ -2021,7 +2021,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/computer1.jpg"
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/computer1.jpg"
                                                                                 alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
@@ -2052,7 +2052,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/electric1.jpg"
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/electric1.jpg"
                                                                                 alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
@@ -2085,7 +2085,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/language1.jpg"
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/language1.jpg"
                                                                                 alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
@@ -2120,7 +2120,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/physicalchem1.jpg"
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/physicalchem1.jpg"
                                                                                 alt="List">
 
 
@@ -2148,7 +2148,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/physics1.jpg"
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/physics1.jpg"
                                                                                 alt="List">
 
 
@@ -2177,7 +2177,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/architecture1.jpg"
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/architecture1.jpg"
                                                                                 alt="List">
                                                                         </div>
 
@@ -2250,7 +2250,7 @@
                                             </div>
                                             <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
                                                 <img decoding="async" style="height: 600px !important;"
-                                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/mobileyellow.png" alt="">
+                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/mobileyellow.png" alt="">
 
                                             </div>
 
@@ -2437,13 +2437,13 @@
             <!-- footprint end  -->
 
             <!--Testimonial-->
-            <div style="background-image: url(https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/s2-bg-img-1.webp);"
+            <div style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/s2-bg-img-1.webp);"
                 class="pt-5 elementor-element elementor-element-41f1d73 elementor-widget elementor-widget-go-s-heading"
                 data-id="41f1d73" data-element_type="widget" data-widget_type="go-s-heading.default">
                 <div class="elementor-widget-container" style="padding-left: 50px;">
                     <div class="prthalign text-center">
                         <h6 class=" kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub headd3">
-                            <img style="width: 40x; height: 40px;" src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/cap.svg" alt="">
+                            <img style="width: 40x; height: 40px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg" alt="">
                             RGU Testimonials
                         </h6>
                         <h1 style="font-weight: 700;"
@@ -2455,17 +2455,17 @@
                 <div class="hover01 column row" style="padding-left: 1px;">
                     <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important; ">
                         <figure> <a href="success"><img style="border: 2px solid #fff;"
-                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/alumni-student.png" /></a></figure>
+                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/alumni-student.png" /></a></figure>
                     </div>
 
                     <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
                         <figure><a href="top-recruiters"><img style="border: 2px solid #fff;"
-                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/recruiters.png" /></a></figure>
+                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/recruiters.png" /></a></figure>
 
                     </div>
                     <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
                         <figure><a href="footprints"><img style="border: 2px solid #fff;"
-                                    src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/index/dignitaries.png" /></a></figure>
+                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/dignitaries.png" /></a></figure>
 
                     </div>
                 </div>
