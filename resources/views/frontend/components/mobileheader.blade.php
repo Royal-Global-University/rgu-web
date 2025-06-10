@@ -208,7 +208,7 @@
             </ul>
 
             <!--Cell-->
-            <li onclick="toggleSubmenu('cell')" style="display: flex; align-items: center; justify-content: space-between;">
+            {{-- <li onclick="toggleSubmenu('cell')" style="display: flex; align-items: center; justify-content: space-between;">
                 <span class="mobile-headd3 text-dark">Cell/ Centre</span>
                 <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
             </li>
@@ -225,7 +225,7 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('cisr') }}">
                     <li>CISR</li>
                 </a>
-            </ul>
+            </ul> --}}
 
             <!--Convocation-->
             <li onclick="toggleSubmenu('convocation')"
@@ -377,6 +377,9 @@
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('frro-process') }}">
                     <li>FRRO PROCESS</li>
+                </a>
+                <a class="mobile-para1" style="color: #27467A;" href="https://heyzine.com/flip-book/adfd7889ba.html">
+                    <li>INTERNATIONAL BROCHURE</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('how-to-apply-international') }}">
                     <li>HOW TO APPLY ?</li>
