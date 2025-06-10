@@ -1690,39 +1690,6 @@
     </script>
 
     <script>
-        // Get the modal
-        var modal = document.getElementById("videoModal");
-
-        // Get the image and the video
-        var thumbnail = document.getElementById("thumbnail");
-        var videoPlayer = document.getElementById("videoPlayer");
-
-        // Get the <span> element that closes the modal
-        var closeBtn = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on the image, open the modal and play the video
-        thumbnail.onclick = function () {
-            modal.style.display = "block";
-            videoPlayer.play(); // Auto-play the video
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        closeBtn.onclick = function () {
-            modal.style.display = "none";
-            videoPlayer.pause(); // Pause the video when modal is closed
-            videoPlayer.currentTime = 0; // Reset video to start
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-                videoPlayer.pause();
-                videoPlayer.currentTime = 0;
-            }
-        }
-    </script>
-    <script>
         document.querySelector('.menu-toggle').addEventListener('click', function () {
             document.querySelector('.menu').classList.toggle('open');
             document.querySelector('.menu-overlay').style.display = 'block';
@@ -1763,7 +1730,6 @@
     <link rel='stylesheet' id='google-fonts-2-css'
         href='https://fonts.googleapis.com/css?family=Urbanist%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.6.2'
         media='all' />
-    <script src="{{ asset('assets/css/modal/model1.js') }}"></script>
     <script src="{{ asset('assets/js/hooks.min.js') }}" id="wp-hooks-js"></script>
     <script src="{{ asset('assets/js/i18n.min.js') }}" id="wp-i18n-js"></script>
     <script id="wp-i18n-js-after">

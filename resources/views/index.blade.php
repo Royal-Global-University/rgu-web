@@ -1884,7 +1884,7 @@
                         </div>
                         <div class="col-lg-6" style="display: flex; justify-content: center;">
                             <video autoplay loop muted playsinline style="width: 90%; height: auto; pointer-events: none;">
-                                <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook/lookbook.mp4"
+                                <source src="http://69.62.79.67/media/lookbook/lookbook.mp4"
                                     type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
