@@ -707,10 +707,10 @@
 
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/about-website.png" alt="Slide 1">
+                                        <img src="https://media.rgu.ac/index/about-website.png" alt="Slide 1">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/research-website.png" alt="Slide 2">
+                                        <img src="https://media.rgu.ac/index/research-website.png" alt="Slide 2">
                                     </div>
                                     <!-- <div class="carousel-item">
                                             <img src="sarang/s3.png" alt="Slide 3">
@@ -726,7 +726,7 @@
                                 <img src="mobile-assets/index/headimgnew.jpg" id="video-thumbnail2" alt="Video Thumbnail"
                                     style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
 
-                                <video autoplay loop muted id="video-bg2" oncanplay="showVideo2()"
+                                <video autoplay loop muted playsinline id="video-bg2" oncanplay="showVideo2()"
                                     style="width: 100%; height: auto; display: block;">
                                     <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/v-2.mp4" type="video/mp4">
                                 </video>
@@ -740,7 +740,7 @@
 
             <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
 
-                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/n-explore-rgu-15-15.png" alt="">
+                <img src="https://media.rgu.ac/index/n-explore-rgu-15-15.png" alt="">
 
 
                 <!--New Events-->
@@ -754,13 +754,13 @@
                                     News and<span style="color: #FF9A1E; font-weight: 500;"> Events</span></h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.5s ease;">
-                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/prabuddha-web-may.jpeg"
+                                    <img class="zoomable" src="https://media.rgu.ac/index/prabuddha-web-may.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/subram-web.jpeg"
+                                    <img class="zoomable" src="https://media.rgu.ac/index/subram-web.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/event1.png"
+                                    <img src="https://media.rgu.ac/index/event1.png"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg"
+                                    <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
 
 
@@ -863,9 +863,9 @@
                                 {{-- <div class="notification-wrapper"
                                     style="position: absolute; top: 100%; width: 100%; animation: scrollUp 20s linear infinite;">
                                     <div class="notification-item text-dark para1">
-                                        <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf"
+                                        <a href=""
                                             style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/output-onlinegiftools.gif" alt=""> Admission Open For Ph.D. 2025-2026 </a>
+                                                style="width: 50px;" src="" alt=""> Admission Open For Ph.D. 2025-2026 </a>
                                     </div>
                                     <div class="notification-item text-dark para1">
                                         <a href="#"
@@ -892,9 +892,9 @@
                                     </div>
 
                                     <div class="notification-item text-dark para1 pt-5">
-                                        <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf"
+                                        <a href=""
                                             style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/output-onlinegiftools.gif" alt=""> Admission Open For Ph.D. 2025-2026 </a>
+                                                style="width: 50px;" src="" alt=""> Admission Open For Ph.D. 2025-2026 </a>
                                     </div>
                                     <div class="notification-item text-dark para1">
                                         <a href="#"
@@ -922,9 +922,9 @@
 
 
                                     <div class="notification-item text-dark para1 pt-5">
-                                        <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf"
+                                        <a href=""
                                             style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/output-onlinegiftools.gif" alt=""> Admission Open For Ph.D. 2025-2026 </a>
+                                                style="width: 50px;" src="" alt=""> Admission Open For Ph.D. 2025-2026 </a>
                                     </div>
                                     <div class="notification-item text-dark para1">
                                         <a href="#"
@@ -1474,12 +1474,12 @@
                 <div style="padding: 30px 20px; background-color: #590d22;">
                     <div class="row" style="display: flex; align-items: center;">
                         <div class="col-lg-7" style="display: flex; justify-content: center;">
-                            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/lookbook.png" alt="">
+                            <img src="https://media.rgu.ac/index/lookbook.png" alt="">
                         </div>
                         <div class="col-lg-5" style="display: flex; justify-content: center;">
-                            <video autoplay muted playsinline
+                            <video autoplay loop muted playsinline
                                 style="width: 100%; height: auto; pointer-events: none; border: 4px solid #fff;">
-                                <source src="https://media.rgu.ac/lookbook.mp4"
+                                <source src="https://media.rgu.ac/index/lookbook.mp4"
                                     type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1503,7 +1503,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="kd-course-3-area p-relative pt-105 pb-60 fix">
                                             <div class="kd-course-1-bg-img img-cover fix">
-                                                <img decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/head2.svg" alt="">
+                                                <img decoding="async" src="https://media.rgu.ac/index/head2.svg" alt="">
                                             </div>
                                             <div class="container kd-container-1 txaa-slide-down-1">
                                                 <!-- sectiont-title -->
@@ -1604,49 +1604,49 @@
                                                                                 <div class="carousel-item active">
                                                                                     <a
                                                                                         href="department-store"><img
-                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/1.svg"
+                                                                                            src="https://media.rgu.ac/index/1.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="infrastructure"><img
-                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/5.svg"
+                                                                                            src="https://media.rgu.ac/index/5.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="games&sports"> <img
-                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/7.svg"
+                                                                                            src="https://media.rgu.ac/index/7.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="clubs"><img
-                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/4.svg"
+                                                                                            src="https://media.rgu.ac/index/4.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="hostel-life"> <img
-                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/3.svg"
+                                                                                            src="https://media.rgu.ac/index/3.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="Student_Affairs"> <img
-                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/6.svg"
+                                                                                            src="https://media.rgu.ac/index/6.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
                                                                                 </div>
                                                                                 <div class="carousel-item">
                                                                                     <a href="royal-fests"><img
-                                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/2.svg"
+                                                                                            src="https://media.rgu.ac/index/2.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
                                                                                             alt="..."></a>
@@ -1742,7 +1742,7 @@
                                                             <div class="right-content">
                                                                 <div class="kd-course-3-tabs-content-video img-cover fix">
                                                                     <img decoding="async"
-                                                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/residence.jpg" alt="">
+                                                                        src="https://media.rgu.ac/index/residence.jpg" alt="">
 
                                                                 </div>
                                                             </div>
@@ -1798,7 +1798,7 @@
                                                             <div class="right-content">
                                                                 <div class="kd-course-3-tabs-content-video img-cover fix">
                                                                     <img decoding="async"
-                                                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/sports.jpg" alt="">
+                                                                        src="https://media.rgu.ac/index/sports.jpg" alt="">
 
                                                                 </div>
 
@@ -1857,7 +1857,7 @@
                                                             <div class="right-content">
                                                                 <div class="kd-course-3-tabs-content-video img-cover fix">
                                                                     <img decoding="async"
-                                                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/amenities.jpg" alt="">
+                                                                        src="https://media.rgu.ac/index/amenities.jpg" alt="">
 
                                                                 </div>
                                                             </div>
@@ -1880,7 +1880,7 @@
                 {{-- <div style="padding: 50px 20px; background-color: #bb9457;">
                     <div class="row" style="display: flex; align-items: center; justify-content: space-between;">
                         <div class="col-lg-6" style="display: flex; justify-content: center;">
-                            <img style="width: 90%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/img1.png" alt="">
+                            <img style="width: 90%;" src="" alt="">
                         </div>
                         <div class="col-lg-6" style="display: flex; justify-content: center;">
                             <video autoplay loop muted playsinline style="width: 90%; height: auto; pointer-events: none;">
@@ -1931,7 +1931,7 @@
                                                             style="border: solid 2px rgb(225, 225, 225);">
                                                             <div class="main-img fix img-cover">
                                                                 <img fetchpriority="high" decoding="async" width="357"
-                                                                    height="220" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c6.svg"
+                                                                    height="220" src="https://media.rgu.ac/index/c6.svg"
                                                                     class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                                                     alt="" />
                                                             </div>
@@ -1945,7 +1945,7 @@
                                                             style="border: solid 2px rgb(225, 225, 225);">
                                                             <div class="main-img fix img-cover">
                                                                 <img decoding="async" width="357" height="220"
-                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c7.svg"
+                                                                    src="https://media.rgu.ac/index/c7.svg"
                                                                     class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                                                     alt="" />
                                                             </div>
@@ -1958,7 +1958,7 @@
                                                             style="border: solid 2px rgb(225, 225, 225);">
                                                             <div class="main-img fix img-cover">
                                                                 <img decoding="async" width="357" height="220"
-                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c8.svg"
+                                                                    src="https://media.rgu.ac/index/c8.svg"
                                                                     class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                                                                     alt="" />
                                                             </div>
@@ -1978,7 +1978,7 @@
 
                 <!--Labs-->
                 <section class="container-fluid"
-                    style="background-image: url('https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/lab-new1.png'); background-size: cover;">
+                    style="background-image: url('https://media.rgu.ac/index/lab-new1.png'); background-size: cover;">
                     <div class="elementor-column-gap-default pt-5 pb-5">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-818362c"
                             data-id="818362c" data-element_type="column">
@@ -2021,7 +2021,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/computer1.jpg"
+                                                                                src="https://media.rgu.ac/index/computer1.jpg"
                                                                                 alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
@@ -2052,7 +2052,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/electric1.jpg"
+                                                                                src="https://media.rgu.ac/index/electric1.jpg"
                                                                                 alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
@@ -2085,7 +2085,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/language1.jpg"
+                                                                                src="https://media.rgu.ac/index/language1.jpg"
                                                                                 alt="List">
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
@@ -2120,11 +2120,8 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/physicalchem1.jpg"
+                                                                                src="https://media.rgu.ac/index/physicalchem1.jpg"
                                                                                 alt="List">
-
-
-
                                                                         </div>
 
                                                                         <div class="card-content">
@@ -2148,7 +2145,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/physics1.jpg"
+                                                                                src="https://media.rgu.ac/index/physics1.jpg"
                                                                                 alt="List">
 
 
@@ -2177,7 +2174,7 @@
                                                                         <div class="main-img fix img-cover">
 
                                                                             <img decoding="async"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/architecture1.jpg"
+                                                                                src="https://media.rgu.ac/index/architecture1.jpg"
                                                                                 alt="List">
                                                                         </div>
 
@@ -2250,7 +2247,7 @@
                                             </div>
                                             <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
                                                 <img decoding="async" style="height: 600px !important;"
-                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/mobileyellow.png" alt="">
+                                                    src="https://media.rgu.ac/index/mobileyellow.png" alt="">
 
                                             </div>
 
@@ -2437,13 +2434,13 @@
             <!-- footprint end  -->
 
             <!--Testimonial-->
-            <div style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/s2-bg-img-1.webp);"
+            <div style="background-image: url(https://media.rgu.ac/index/s2-bg-img-1.webp);"
                 class="pt-5 elementor-element elementor-element-41f1d73 elementor-widget elementor-widget-go-s-heading"
                 data-id="41f1d73" data-element_type="widget" data-widget_type="go-s-heading.default">
                 <div class="elementor-widget-container" style="padding-left: 50px;">
                     <div class="prthalign text-center">
                         <h6 class=" kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub headd3">
-                            <img style="width: 40x; height: 40px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg" alt="">
+                            <img style="width: 40x; height: 40px;" src="https://media.rgu.ac/index/cap.svg" alt="">
                             RGU Testimonials
                         </h6>
                         <h1 style="font-weight: 700;"
@@ -2455,17 +2452,17 @@
                 <div class="hover01 column row" style="padding-left: 1px;">
                     <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important; ">
                         <figure> <a href="success"><img style="border: 2px solid #fff;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/alumni-student.png" /></a></figure>
+                                    src="https://media.rgu.ac/index/alumni-student.png" /></a></figure>
                     </div>
 
                     <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
                         <figure><a href="top-recruiters"><img style="border: 2px solid #fff;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/recruiters.png" /></a></figure>
+                                    src="https://media.rgu.ac/index/recruiters.png" /></a></figure>
 
                     </div>
                     <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
                         <figure><a href="footprints"><img style="border: 2px solid #fff;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/dignitaries.png" /></a></figure>
+                                    src="https://media.rgu.ac/index/dignitaries.png" /></a></figure>
 
                     </div>
                 </div>
