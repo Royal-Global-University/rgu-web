@@ -62,10 +62,10 @@
         <div id="carouselExample" class="carousel slide mobile-image-slider" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/about-mobile.png" class="d-block w-100" alt="...">
+                    <img src="https://media.rgu.ac/index/about-mobile.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/landing/research-mobile.png" class="d-block w-100" alt="...">
+                    <img src="https://media.rgu.ac/index/research-mobile.png" class="d-block w-100" alt="...">
                 </div>
 
             </div>
@@ -79,7 +79,7 @@
         <!-- discover rgu -->
 
         <!-- happening at rgu  -->
-        <section style="padding: 30px; background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/bg.svg);">
+        <section style="padding: 30px; background-image: url(https://media.rgu.ac/index/bg.svg);">
 
             <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-weight: 900; font-size: 40px;">
                 News and<span style="color: #FF9A1E; font-weight: 500;"> Events</span></h2>
@@ -87,11 +87,11 @@
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded"
+                        <img src="https://media.rgu.ac/index/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded"
                             alt="...">
                     </div>
                     <div class="carousel-item active">
-                        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/mob-img.png"
+                        <img src="https://media.rgu.ac/index/mob-img.png"
                             class="d-block w-100 rounded" alt="...">
                     </div>
                 </div>
@@ -251,7 +251,7 @@
             <a href="doctoral-programme">
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
                     <div class="main-img fix img-cover">
-                        <img fetchpriority="high" decoding="async" width="357" height="220" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c6.svg"
+                        <img fetchpriority="high" decoding="async" width="357" height="220" src="https://media.rgu.ac/index/c6.svg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                     </div>
                 </div>
@@ -260,7 +260,7 @@
             <a href="programs">
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
                     <div class="main-img fix img-cover">
-                        <img decoding="async" width="357" height="220" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c7.svg"
+                        <img decoding="async" width="357" height="220" src="https://media.rgu.ac/index/c7.svg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                     </div>
                 </div>
@@ -269,7 +269,7 @@
             <a href="programs">
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
                     <div class="main-img fix img-cover">
-                        <img decoding="async" width="357" height="220" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/c8.svg"
+                        <img decoding="async" width="357" height="220" src="https://media.rgu.ac/index/c8.svg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                     </div>
                 </div>
@@ -292,7 +292,7 @@
                             <div class="card d-flex flex-column shadow-sm rounded"
                                 style="background-color: #fff; height: 450px; border: none;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/electric1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/electric1.jpg"
                                         class="d-block w-100" alt="..." style="border-radius: 10px;">
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -313,7 +313,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/architecture1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/architecture1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -334,7 +334,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/computer1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/computer1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -355,7 +355,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/engineering1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/engineering1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -378,7 +378,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/foodtech1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/foodtech1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -401,7 +401,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/language1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/language1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -422,7 +422,7 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/physics1.jpg"
+                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/physics1.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -459,11 +459,11 @@
                                 <div class="kd-about-4-left ">
                                     <div class="mb-5 fix img-cover">
                                         <img decoding="async" class="rounded" style="height: 400px !important;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/rgu-building-square.webp" alt="">
+                                            src="https://media.rgu.ac/index/rgu-building-square.webp" alt="">
                                     </div>
                                     <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
                                         <img decoding="async" class="rounded" style="height: 600px !important;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/mobileyellow.png" alt="">
+                                            src="https://media.rgu.ac/index/mobileyellow.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -626,11 +626,11 @@
         <!-- new advantage end-->
 
         <!--Mobile Footprint-->
-        <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/footprints2.png" alt="">
+        <img src="https://media.rgu.ac/index/footprints2.png" alt="">
         <!--Mobile Footprint end  -->
 
         <!--Mobile Testimonial-->
-        <section style="padding: 40px 30px; background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/s2-bg-img-1.webp);">
+        <section style="padding: 40px 30px; background-image: url(https://media.rgu.ac/index/s2-bg-img-1.webp);">
             <h6 class="mobile-headd3 text-center kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
                 <img style="width: 40x; height: 40px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg" alt="">
                 RGU Testimonials
