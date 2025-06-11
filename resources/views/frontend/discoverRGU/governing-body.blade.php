@@ -28,7 +28,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <section style="background-image: url('https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/bg.svg'); background-size: cover; padding-top: 90px; position: relative;">
+        <section style="background-image: url('https://media.rgu.ac/governing-body/bg.svg'); background-size: cover; padding-top: 90px; position: relative;">
             <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4" style="color: #27467A; font-weight: 900;">
             Governing <span style="color: #FF9A1E; font-weight: 500;">Body</span></h2>
 
@@ -40,7 +40,7 @@
 
                 <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                     <div class="p-3">
-                      <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/1.png" class="img-fluid rounded"/>
+                      <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/1.png" class="img-fluid rounded"/>
                     </div>
                     <div class="card-body d-flex flex-column flex-grow-1">
                       <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Dr. A.K. Pansari</h5>
@@ -55,7 +55,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/2.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/2.png" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ranjit Barthakur
@@ -71,7 +71,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/3.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/3.jpg" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Anil Kumar Modi</h5>
@@ -87,7 +87,7 @@
 
         <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
             <div class="p-3">
-              <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/4.png" class="img-fluid rounded"/>
+              <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/4.png" class="img-fluid rounded"/>
             </div>
             <div class="card-body d-flex flex-column flex-grow-1">
               <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Subramanian Ramadorai</h5>
@@ -102,7 +102,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/5.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/5.png" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Y.S.R. Murthy
@@ -120,7 +120,7 @@
                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
                     <img style="height: 290px; width: 100%;"
-                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/9.png"
+                        src="https://media.rgu.ac/governing-body/9.jpg"
                         class="img-fluid rounded" />
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -142,7 +142,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/7.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/7.jpg" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ankur Pansari
@@ -161,7 +161,7 @@
                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
                     <img style="height: 290px; width: 100%;"
-                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/6.png"
+                        src="https://media.rgu.ac/governing-body/6.png"
                         class="img-fluid rounded" />
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -178,7 +178,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/8.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/8.png" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr) S. P. Singh
@@ -196,7 +196,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/10-11.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/10-11.png" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Ms. Harsha Pansari
@@ -214,7 +214,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/10-11.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/10-11.png" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Ms. Sikha Modi Pansari
@@ -232,7 +232,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/12.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/12.png" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Dr. Diganta Munshi
@@ -260,7 +260,7 @@
     @include('frontend/components/aheader')
     <!--End Header-->
 
-    <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/bg.svg); background-size: cover;">
+    <section style="background-image: url(https://media.rgu.ac/governing-body/bg.svg); background-size: cover;">
 
     <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5 pb-5" style="color: #27467A; font-weight: 900;">
     Governing <span style="color: #FF9A1E; font-weight: 500;">Body</span></h2>
@@ -272,7 +272,7 @@
 
                 <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                     <div class="p-3">
-                      <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/1.png" class="img-fluid rounded"/>
+                      <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/1.png" class="img-fluid rounded"/>
                     </div>
                     <div class="card-body d-flex flex-column flex-grow-1">
                       <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Dr. A.K. Pansari</h5>
@@ -287,7 +287,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/2.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/2.png" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Ranjit Barthakur
@@ -305,7 +305,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/3.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/3.jpg" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Anil Kumar Modi</h5>
@@ -321,7 +321,7 @@
 
         <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
             <div class="p-3">
-              <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/4.png" class="img-fluid rounded"/>
+              <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/4.png" class="img-fluid rounded"/>
             </div>
             <div class="card-body d-flex flex-column flex-grow-1">
               <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Sri Subramanian Ramadorai</h5>
@@ -339,7 +339,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/5.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/5.png" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Y.S.R. Murthy
@@ -357,7 +357,7 @@
                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                 <div class="p-3">
                     <img style="height: 290px; width: 100%;"
-                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/9.png"
+                        src="https://media.rgu.ac/governing-body/9.jpg"
                         class="img-fluid rounded" />
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -379,7 +379,7 @@
                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                 <div class="p-3">
                     <img style="height: 290px; width: 100%;"
-                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/7.png"
+                        src="https://media.rgu.ac/governing-body/7.jpg"
                         class="img-fluid rounded" />
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -405,7 +405,7 @@
                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                     <div class="p-3">
                         <img style="height: 290px; width: 100%;"
-                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/6.png"
+                            src="https://media.rgu.ac/governing-body/6.png"
                             class="img-fluid rounded" />
                     </div>
                     <div class="card-body d-flex flex-column flex-grow-1">
@@ -422,7 +422,7 @@
 
                 <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                     <div class="p-3">
-                    <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/8.png" class="img-fluid rounded"/>
+                    <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/sp.png" class="img-fluid rounded"/>
                     </div>
                     <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr) S. P. Singh
@@ -444,7 +444,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/10-11.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/8.png" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Ms. Harsha Pansari
@@ -462,7 +462,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/10-11.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/8.png" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Ms. Sikha Modi Pansari
@@ -480,7 +480,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/governing-body-new/member-pics/12.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/12.png" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Dr. Diganta Munshi

@@ -1,121 +1,621 @@
 @extends('frontend.master')
 @section('content')
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-        <img style="padding-top: 90px; position: relative;" src="mobile-assets/phd-mobile/mob-Chemistry.png" alt="">
+    <div class="mobile">
+        @include('frontend/components/mobileheader')
+        <section style="padding: 110px 10px; background-image: url(mobile-assets/placement-all/mobile-bg.svg);">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <h2 class="mobile-headd2 kd-title-ani kd-split mb-4 text-center"
+                            style="color: #264273; font-weight: 700;">
+                            Ph.D. Programme <br><span style="color: #FF9A1E; font-weight: 500;">
+                                in Chemistry</span> </h2>
+                        <div class="txaa-slide-down-1">
+                            <div style="border: 1px solid #27467A; height: 320px; width: 100%;"
+                                class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                <img class="rounded" decoding="async" src="mobile-assets/phd-mobile/headimg.jpeg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
 
-        <div class="container pb-3 pt-3" style="background-color: #f0f8ff;">
-            <h2 class="mobile-headd2 text-dark">
-                Ph.D. Curriculum
+                        </p>
+                        <p class="mobile-para1" style="color: #264273; text-align: justify; font-size: 18px;">
+                            Being a central science, chemistry is used in every aspect of a person's life from the food,
+                            pharmaceutical, biomedical, cosmetic, agricultural to consumable products. Chemistry plays
+                            an important role towards the development and growth of different types of industries.
+                            Majority of the research in the department of chemistry are highly interdisciplinary,
+                            significantly contributing to the advancement of sciences at the intersection of variety of
+                            fields.The doctoral program in chemistry is designed to create research opportunities in a
+                            wide range of interest from traditional physical, inorganic, organic chemistry to new
+                            frontiers of chemical biology, material sciences, nanoscience, drug-designing, chemistry for
+                            energy and sustainability.
+                        </p>
+
+                        <h2 class="mobile-headd3 fw-bold mt-3" style="color: #264273; font-weight: 700;">
+                            Ph.D. Guides <span style="color: #FF9A1E; font-weight: 500;">
+                                and Research Interests</span> </h2>
+
+                    </div>
+                </div>
+            </div>
+
+            <div style="padding: 20px">
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-12">
+                            <img class="rounded shadow-sm border" style="width: 100%;"
+                                src="mobile-assets/phd-mobile/doctoral-chemistry/rama-ranjan.jpg" alt="">
+                        </div>
+                        <div class="col-lg-12">
+                            <h2 class="headd3 fw-bold text-dark pt-4">
+                                Prof. (Dr.) Rama Ranjan Bhattacharjee
+                            </h2>
+                            <p class="para1 text-dark">
+                                Professor
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                Physical chemistry of nanomaterials, nanobiotechnology
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-12">
+                            <img class="rounded shadow-sm border" style="width: 100%;"
+                                src="mobile-assets/phd-mobile/doctoral-chemistry/1.jpg" alt="">
+                        </div>
+                        <div class="col-lg-12">
+                            <h2 class="headd3 fw-bold text-dark pt-4">
+                                Dr. Pubalee Sarmah
+                            </h2>
+                            <p class="para1 text-dark">
+                                Associate Professor & HoD
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                Molecular Modeling, Computational Chemistry, Catalysis & Adsorption, Chemo-informatics,
+                                Anticancer drugs, Computer aided drug design, DFT based reactivity descriptors, QSAR,
+                                Waste-Management
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-12">
+                            <img class="rounded shadow-sm border" style="width: 100%;"
+                                src="mobile-assets/phd-mobile/doctoral-chemistry/biswajit.jpg" alt="">
+                        </div>
+                        <div class="col-lg-12">
+                            <h2 class="headd3 fw-bold text-dark pt-4">
+                                Dr. Biswajit Sarma
+                            </h2>
+                            <p class="para1 text-dark">
+                                Associate Professor
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                Natural Product Chemistry, Material Chemistry
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-12">
+                            <img class="rounded shadow-sm border" style="width: 100%;"
+                                src="mobile-assets/phd-mobile/doctoral-chemistry/debojeet.jpg" alt="">
+                        </div>
+                        <div class="col-lg-12">
+                            <h2 class="headd3 fw-bold text-dark pt-4">
+                                Dr. Debojeet Sahu
+                            </h2>
+                            <p class="para1 text-dark">
+                                Assistant Professor
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                Heterogeneous Catalysis, Photocatalysis and NanoCatalysis
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-12">
+                            <img class="rounded shadow-sm border" style="width: 100%;"
+                                src="mobile-assets/phd-mobile/doctoral-chemistry/binoyargha.jpg" alt="">
+                        </div>
+                        <div class="col-lg-12">
+                            <h2 class="headd3 fw-bold text-dark pt-4">
+                                Dr. Binoyargha Dam
+                            </h2>
+                            <p class="para1 text-dark">
+                                Assistant Professor
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                Photocatalytic organic transformations Electrocatalytic organic transformations
+                                Heterogeneous catalysis Organic Synthesis Heterocycle synthesis Green chemistry
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-12">
+                            <img class="rounded shadow-sm border" style="width: 100%;"
+                                src="mobile-assets/phd-mobile/doctoral-chemistry/biplob.png" alt="">
+                        </div>
+                        <div class="col-lg-12">
+                            <h2 class="headd3 fw-bold text-dark pt-4">
+                                Dr. Biplob Borah
+                            </h2>
+                            <p class="para1 text-dark">
+                                Assistant Professor
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                Asymmetric Synthesis, Organocatalysis, Photoredox Chemistry, Organic Synthesis,
+                                Photoacid
+                                Catalysis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-12">
+                            <img class="rounded shadow-sm border" style="width: 100%;"
+                                src="mobile-assets/phd-mobile/doctoral-chemistry/rajkumar.jpg" alt="">
+                        </div>
+                        <div class="col-lg-12">
+                            <h2 class="headd3 fw-bold text-dark pt-4">
+                                Dr. Rajkumar Imocha Singh
+                            </h2>
+                            <p class="para1 text-dark">
+                                Assistant Professor
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                <strong>Materials Chemistry:</strong> Synthesis and characterization of functional
+                                nanomaterials for
+                                biological applications. Research focuses on metal, metal oxides and 2D nanomaterials
+                                for
+                                sensing and drug delivery, magnetic nanoparticles for hyperthermia therapy, and
+                                fluorescent
+                                nanoparticles for photocatalytic applications. <br>
+
+                                <strong>Biophysical chemistry:</strong> Protein-ligand interactions through experimental
+                                and
+                                molecular
+                                docking MD simulations, inhibition of protein fibrillation and prevention of albumin
+                                glycation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-12">
+                            <img class="rounded shadow-sm border" style="width: 100%;"
+                                src="mobile-assets/phd-mobile/doctoral-chemistry/mullah.jpg" alt="">
+                        </div>
+                        <div class="col-lg-12">
+                            <h2 class="headd3 fw-bold text-dark pt-4">
+                                Dr. Mullah Muhaiminul Islam
+                            </h2>
+                            <p class="para1 text-dark">
+                                Assistant Professor
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                            <ol class="para1 text-dark">
+                                <li>Biophysical Chemistry, Photochemistry & Photobiology, Molecular Biology.</li>
+                                <li>Enzyme kinetics, Enzyme inhibition kinetics, Intercellular Enzyme Trafficking.</li>
+                                <li>Protein-drug integration, DNA-Drug Interaction, Bioinformatics.</li>
+                                <li>Photochemistry of organic fluorophores, Supramolecular host-guest interaction.</li>
+                                <li>Caging and light-induced de-caging of photolabile groups.</li>
+                            </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-12">
+                            <img class="rounded shadow-sm border" style="width: 100%;"
+                                src="mobile-assets/phd-mobile/doctoral-chemistry/Nongthombam.jpg" alt="">
+                        </div>
+                        <div class="col-lg-12">
+                            <h2 class="headd3 fw-bold text-dark pt-4">
+                                Dr. Nongthombam Geetmani Singh
+                            </h2>
+                            <p class="para1 text-dark">
+                                Assistant Professor
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                <strong>Organic Synthesis:</strong> Nanocatalysis, Organocatalysis, Photocatalysis,
+                                Electrocatalysis.
+                                <br>
+                                <strong>Chemical biology:</strong> Multi-step synthesis, Natural products, Steroid
+                                chemistry, Enzyme
+                                inhibitors, Anti-diabetic and NAFLD based Drug development based on in silico and in
+                                vitro,
+                                Photodynamic therapy and photophysical studies of fluorescent organic molecules,
+                                Molecular
+                                docking and Virtual screening of protein-ligand interactions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4 shadow-sm">
+                    <div class="row p-3">
+                        <div class="col-lg-12">
+                            <img class="rounded shadow-sm border" style="width: 100%;"
+                                src="mobile-assets/phd-mobile/doctoral-chemistry/sachidulal.jpg" alt="">
+                        </div>
+                        <div class="col-lg-12">
+                            <h2 class="headd3 fw-bold text-dark pt-4">
+                                Dr. Sachidulal Biswas
+                            </h2>
+                            <p class="para1 text-dark">
+                                Assistant Professor
+                            </p>
+
+                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                            <p class="para1 text-dark">
+                                <strong>Bioinspired catalysis</strong> <br>
+                                Synthesis of Heme and Nonheme metal complexes to mimic metalloenzymes.
+                                Electrocatalytic small molecule activation
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <div class="website">
+        @include('frontend/components/aheader')
+        <div class="scroll-top">
+            <div class="scroll-top-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
+                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                        d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+
+        <!--Start Header-->
+
+        <!--End Header-->
+
+        <section
+            style="background-image: url(mobile-assets/placement-all/bgg.svg); background-size: cover; padding: 50px 0px;">
+            <div class="container">
+                <div class="row align-items-center gx-5">
+                    <div class="col-lg-6">
+                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
+                            <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                <img class="rounded" decoding="async" src="mobile-assets/phd-mobile/headimg.jpeg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <h2 class="headd1 fw-bold mt-3" style="color: #264273; font-weight: 700;">
+                            Ph.D. Programme <span style="color: #FF9A1E; font-weight: 500;"><br>in Chemistry</span>
+                        </h2>
+
+                        <p class="para1" style="color: #264273; text-align: justify;">
+                            Being a central science, chemistry is used in every aspect of a person's life from the food,
+                            pharmaceutical, biomedical, cosmetic, agricultural to consumable products. Chemistry plays
+                            an important role towards the development and growth of different types of industries.
+                            Majority of the research in the department of chemistry are highly interdisciplinary,
+                            significantly contributing to the advancement of sciences at the intersection of variety of
+                            fields.The doctoral program in chemistry is designed to create research opportunities in a
+                            wide range of interest from traditional physical, inorganic, organic chemistry to new
+                            frontiers of chemical biology, material sciences, nanoscience, drug-designing, chemistry for
+                            energy and sustainability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div style="padding: 30px 60px; text-align: left;">
+
+            <h2 class="headd2 fw-bold pt-4 pb-4" style="color: #264273; font-weight: 700;">Ph.D. Guides and <span
+                    style="color: #FF9A1E; font-weight: 500;">Research Interests</span>
             </h2>
-            @include('frontend/components/phddeptmob')
-        </div>
-     </div>
 
-     <div class="website">
-        <div id="page" class="site site_wrapper">
-
-            <div class="scroll-top">
-                <div class="scroll-top-wrap">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg" data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                        </path>
-                    </svg>
-                </div>
-            </div>
-
-            <!--Start Header-->
-            @include('frontend/components/aheader')
-            <!--End Header-->
-
-            <!--About Section-->
-            <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-                <section style="background-image: url(mobile-assets/phd-mobile/bgg.svg); background-size: cover; padding-top: 30px;" class="elementor-section elementor-top-section elementor-element elementor-element-f481aaf elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f481aaf" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-968af55" data-id="968af55" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-4878838 elementor-widget elementor-widget-go-img--bx" data-id="4878838" data-element_type="widget" data-widget_type="go-img--bx.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                                            <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                                <img decoding="async" src="mobile-assets/phd-mobile/headimg.jpeg" alt="">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9b49111" data-id="9b49111" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-c8de01e elementor-widget elementor-widget-go-s-heading" data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="prthalign">
-                                            <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
-                                                Chemistry</h1>
-                                            <div class="para1 text-dark kd-para-1 disc" data-splitting style="text-align: justify;">
-                                                <p>
-                                                    Being a central science, chemistry is used in every aspect of a person's life from the food, pharmaceutical, biomedical, cosmetic, agricultural to consumable products. Chemistry plays an important role towards the development and growth of different types of industries. Majority of the research in the department of chemistry are highly interdisciplinary, significantly contributing to the advancement of sciences at the intersection of variety of fields.The doctoral program in chemistry is designed to create research opportunities in a wide range of interest from traditional physical, inorganic, organic chemistry to new frontiers of chemical biology, material sciences, nanoscience, drug-designing, chemistry for energy and sustainability.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" style="width: 100%;"
+                            src="mobile-assets/phd-mobile/doctoral-chemistry/rama-ranjan.jpg" alt="">
                     </div>
-                </section>
-                <hr>
-            </div>
-            <!--End About-->
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">
+                            Prof. (Dr.) Rama Ranjan Bhattacharjee
+                        </h2>
+                        <p class="para1 text-dark">
+                            Professor
+                        </p>
 
-
-        </div>
-
-        <div style="padding: 40px 60px;">
-
-            <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
-
-            <div class="row d-flex"> <!-- Add d-flex here -->
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-chemistry/1.jpg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Pubalee Sarmah</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-                        <h2 class="para1 fw-bold text-dark">Research Interest</h2>
-                        <p class="para1 text-dark">Computational Chemistry, medicinal chemistry.
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="para1 text-dark">
+                            Physical chemistry of nanomaterials, nanobiotechnology
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-chemistry/2.jfif" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Biswajit Sarma</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-                        <h2 class="para1 fw-bold text-dark">Research Interest</h2>
-                        <p class="para1 text-dark">Natural Product, Medicinal Chemistry, Material Chemistry.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex"> <!-- Add d-flex to columns -->
-                    <div class="card mt-4 shadow-sm p-3 flex-fill"> <!-- Add flex-fill to cards -->
-                        <img class="rounded shadow-sm border" src="mobile-assets/phd-mobile/doctoral-chemistry/3.jpg" alt="">
-                        <h2 class="pt-2 headd3 fw-bold text-dark">Dr. Debojit Sahu</h2>
-                        <p class="para1 text-dark">Ph.D.</p>
-                        <h2 class="para1 fw-bold text-dark">Research Interest</h2>
-                        <p class="para1 text-dark">Heterogeneous/Homogeneous Cataylsis, Environmental Chemistry & Material chemistry.
-                        </p>
-                    </div>
-                </div>
-
             </div>
 
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" style="width: 100%;"
+                            src="mobile-assets/phd-mobile/doctoral-chemistry/1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">
+                            Dr. Pubalee Sarmah
+                        </h2>
+                        <p class="para1 text-dark">
+                            Associate Professor & HoD
+                        </p>
 
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="para1 text-dark">
+                            Molecular Modeling, Computational Chemistry, Catalysis & Adsorption, Chemo-informatics,
+                            Anticancer drugs, Computer aided drug design, DFT based reactivity descriptors, QSAR,
+                            Waste-Management
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-            <div class="headd2 fw-bold text-dark pt-5 kd-title-ani kd-split-text">Ph.D. Curriculum</div>
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" style="width: 100%;"
+                            src="mobile-assets/phd-mobile/doctoral-chemistry/biswajit.jpg" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">
+                            Dr. Biswajit Sarma
+                        </h2>
+                        <p class="para1 text-dark">
+                            Associate Professor
+                        </p>
 
-            @include('frontend/components/phddeptweb')
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="para1 text-dark">
+                            Natural Product Chemistry, Material Chemistry
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" style="width: 100%;"
+                            src="mobile-assets/phd-mobile/doctoral-chemistry/debojeet.jpg" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">
+                            Dr. Debojeet Sahu
+                        </h2>
+                        <p class="para1 text-dark">
+                            Assistant Professor
+                        </p>
+
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="para1 text-dark">
+                            Heterogeneous Catalysis, Photocatalysis and NanoCatalysis
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" style="width: 100%;"
+                            src="mobile-assets/phd-mobile/doctoral-chemistry/binoyargha.jpg" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">
+                            Dr. Binoyargha Dam
+                        </h2>
+                        <p class="para1 text-dark">
+                            Assistant Professor
+                        </p>
+
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="para1 text-dark">
+                            Photocatalytic organic transformations Electrocatalytic organic transformations
+                            Heterogeneous catalysis Organic Synthesis Heterocycle synthesis Green chemistry
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" style="width: 100%;"
+                            src="mobile-assets/phd-mobile/doctoral-chemistry/biplob.png" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">
+                            Dr. Biplob Borah
+                        </h2>
+                        <p class="para1 text-dark">
+                            Assistant Professor
+                        </p>
+
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="para1 text-dark">
+                            Asymmetric Synthesis, Organocatalysis, Photoredox Chemistry, Organic Synthesis, Photoacid
+                            Catalysis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" style="width: 100%;"
+                            src="mobile-assets/phd-mobile/doctoral-chemistry/rajkumar.jpg" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">
+                            Dr. Rajkumar Imocha Singh
+                        </h2>
+                        <p class="para1 text-dark">
+                            Assistant Professor
+                        </p>
+
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="para1 text-dark">
+                            <strong>Materials Chemistry:</strong> Synthesis and characterization of functional
+                            nanomaterials for
+                            biological applications. Research focuses on metal, metal oxides and 2D nanomaterials for
+                            sensing and drug delivery, magnetic nanoparticles for hyperthermia therapy, and fluorescent
+                            nanoparticles for photocatalytic applications. <br>
+
+                            <strong>Biophysical chemistry:</strong> Protein-ligand interactions through experimental and
+                            molecular
+                            docking MD simulations, inhibition of protein fibrillation and prevention of albumin
+                            glycation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" style="width: 100%;"
+                            src="mobile-assets/phd-mobile/doctoral-chemistry/mullah.jpg" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">
+                            Dr. Mullah Muhaiminul Islam
+                        </h2>
+                        <p class="para1 text-dark">
+                            Assistant Professor
+                        </p>
+
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="para1 text-dark">
+                        <ol class="para1 text-dark">
+                            <li>Biophysical Chemistry, Photochemistry & Photobiology, Molecular Biology.</li>
+                            <li>Enzyme kinetics, Enzyme inhibition kinetics, Intercellular Enzyme Trafficking.</li>
+                            <li>Protein-drug integration, DNA-Drug Interaction, Bioinformatics.</li>
+                            <li>Photochemistry of organic fluorophores, Supramolecular host-guest interaction.</li>
+                            <li>Caging and light-induced de-caging of photolabile groups.</li>
+                        </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" style="width: 100%;"
+                            src="mobile-assets/phd-mobile/doctoral-chemistry/Nongthombam.jpg" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">
+                            Dr. Nongthombam Geetmani Singh
+                        </h2>
+                        <p class="para1 text-dark">
+                            Assistant Professor
+                        </p>
+
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="para1 text-dark">
+                            <strong>Organic Synthesis:</strong> Nanocatalysis, Organocatalysis, Photocatalysis,
+                            Electrocatalysis.
+                            <br>
+                            <strong>Chemical biology:</strong> Multi-step synthesis, Natural products, Steroid
+                            chemistry, Enzyme
+                            inhibitors, Anti-diabetic and NAFLD based Drug development based on in silico and in vitro,
+                            Photodynamic therapy and photophysical studies of fluorescent organic molecules, Molecular
+                            docking and Virtual screening of protein-ligand interactions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4 shadow-sm">
+                <div class="row p-3">
+                    <div class="col-lg-2">
+                        <img class="rounded shadow-sm border" style="width: 100%;"
+                            src="mobile-assets/phd-mobile/doctoral-chemistry/sachidulal.jpg" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h2 class="headd3 fw-bold text-dark">
+                            Dr. Sachidulal Biswas
+                        </h2>
+                        <p class="para1 text-dark">
+                            Assistant Professor
+                        </p>
+
+                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
+                        <p class="para1 text-dark">
+                            <strong>Bioinspired catalysis</strong> <br>
+                            Synthesis of Heme and Nonheme metal complexes to mimic metalloenzymes.
+                            Electrocatalytic small molecule activation
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHD Curriculum  -->
 
         </div>
-     </div>
+
+
+    </div>
 @endsection
