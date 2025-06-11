@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <section style="background-image: url('https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/bg.svg'); background-size: cover; padding-top: 90px; position: relative;">
+        <section style="background-image: url('https://media.rgu.ac/bg.svg'); background-size: cover; padding-top: 90px; position: relative;">
             <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4"
                 style="color: #27467A; font-weight: 900;">
                 Advisory <span style="color: #FF9A1E; font-weight: 500;">Leadership</span></h2>
@@ -18,7 +18,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Sri-Ranjit-Barthakur.png" />
+                                        src="https://media.rgu.ac/advisor-leadership/Sri-Ranjit-Barthakur.png" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri Ranjit
@@ -39,7 +39,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Professor-Dr-Prabuddha-Ganguli.png"
+                                        src="https://media.rgu.ac/advisor-leadership/Professor-Dr-Prabuddha-Ganguli.png"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -63,7 +63,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Sri-Ravi-Kant.png"
+                                        src="https://media.rgu.ac/advisor-leadership/Sri-Ravi-Kant.png"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -87,7 +87,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/sri-subramanian-ramadorai.jpg"
+                                        src="https://media.rgu.ac/advisor-leadership/sri-subramanian-ramadorai.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -109,7 +109,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Amarjyoti.jpeg"
+                                        src="https://media.rgu.ac/advisor-leadership/Amarjyoti.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -133,7 +133,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Prasanta.jpeg"
+                                        src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -161,7 +161,7 @@
         @include('frontend/components/aheader')
         <!--End Header-->
 
-        <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/bg.svg); background-size: cover;">
+        <section style="background-image: url(https://media.rgu.ac/bg.svg); background-size: cover;">
 
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5 pb-4"
                 style="color: #27467A; font-weight: 900;">
@@ -178,7 +178,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Sri-Ranjit-Barthakur.png" />
+                                        src="https://media.rgu.ac/advisor-leadership/Sri-Ranjit-Barthakur.png" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri Ranjit
@@ -209,7 +209,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Professor-Dr-Prabuddha-Ganguli.png"
+                                        src="https://media.rgu.ac/advisor-leadership/Professor-Dr-Prabuddha-Ganguli.png"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -233,7 +233,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Sri-Ravi-Kant.png"
+                                        src="https://media.rgu.ac/advisor-leadership/Sri-Ravi-Kant.png"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -257,7 +257,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/sri-subramanian-ramadorai.jpg"
+                                        src="https://media.rgu.ac/advisor-leadership/sri-subramanian-ramadorai.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -279,7 +279,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Amarjyoti.jpeg"
+                                        src="https://media.rgu.ac/advisor-leadership/Amarjyoti.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -301,7 +301,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/advisor-leadership/new/Prasanta.jpeg"
+                                        src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
