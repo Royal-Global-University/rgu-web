@@ -6,7 +6,7 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
-            <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/1.png" />
+            <img src="mobile-assets/innovation/1.png" />
             <div class="mobile-off"
                 style="background-image: url('mobile-assets/innovation/2.png'); background-size: cover;">
                 <div class=" container row pt-4 pb-5">
@@ -22,7 +22,7 @@
                                                 <video width="100%" height="auto" autoplay muted
                                                     controlslist="nodownload nofullscreen noremoteplayback"
                                                     disablepictureinpicture>
-                                                    <source src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/car-vid.mp4" type="video/mp4">
+                                                    <source src="mobile-assets/innovation/car-vid.mp4" type="video/mp4">
                                                 </video>
                                             </div>
 
@@ -37,10 +37,10 @@
                     </div>
                 </div>
             </div>
-            <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/3.png" />
+            <img src="mobile-assets/innovation/3.png" />
         </div>
 
-        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/iic-innovation-part.png" alt="">
+        <img src="mobile-assets/innovation/iic-innovation-part.png" alt="">
 
 
         <!-- <div class="pt-5 text-center elementor-element elementor-element-e22f91b elementor-widget elementor-widget-go-s-heading"
@@ -49,12 +49,12 @@
 
                 <div style="background-image: url(assets/img/iic-cell/background.svg); padding: 30px 0px;">
                     <div class="container">
-                        <img src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp12.jpg" alt="">
-                        <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp13.jpg" alt="">
-                        <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp14.jpg" alt="">
-                        <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp15.jpg" alt="">
-                        <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp16.jpg" alt="">
-                        <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp17.jpg" alt="">
+                        <img src="assets/img/iic-cell/pp12.jpg" alt="">
+                        <img class="pt-2" src="assets/img/iic-cell/pp13.jpg" alt="">
+                        <img class="pt-2" src="assets/img/iic-cell/pp14.jpg" alt="">
+                        <img class="pt-2" src="assets/img/iic-cell/pp15.jpg" alt="">
+                        <img class="pt-2" src="assets/img/iic-cell/pp16.jpg" alt="">
+                        <img class="pt-2" src="assets/img/iic-cell/pp17.jpg" alt="">
                     </div>
                 </div>
 
@@ -65,10 +65,10 @@
 
         <!-- <div style="background-image: url(assets/img/iic-cell/background.svg); padding: 30px 0px;">
                 <div class="container">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp18.jpg" alt="">
-                    <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp19.jpg" alt="">
-                    <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp20.jpg" alt="">
-                    <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp21.jpg" alt="">
+                    <img src="assets/img/iic-cell/pp18.jpg" alt="">
+                    <img class="pt-2" src="assets/img/iic-cell/pp19.jpg" alt="">
+                    <img class="pt-2" src="assets/img/iic-cell/pp20.jpg" alt="">
+                    <img class="pt-2" src="assets/img/iic-cell/pp21.jpg" alt="">
                 </div>
             </div> -->
 
@@ -101,7 +101,7 @@
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225); min-height: 450px; background-color: #fffaf4;">
                     <div class="main-img fix img-cover">
                         <img fetchpriority="high" decoding="async" width="357"
-                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/a1.jpeg"
+                            height="220" src="assets/img/iic-cell/a1.jpeg"
 
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
@@ -116,7 +116,7 @@
                 <div class="kd-course-2-card " style="border: solid 2px rgb(225, 225, 225); min-height: 450px; background-color: #fffaf4;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/a2.jpeg"
+                            src="assets/img/iic-cell/a2.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -132,7 +132,7 @@
                 <div class="kd-course-2-card " style="border: solid 2px rgb(225, 225, 225); min-height: 450px; background-color: #fffaf4;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/a3.jpeg"
+                            src="assets/img/iic-cell/a3.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -152,7 +152,7 @@
                 <div class="kd-course-2-card " style="border: solid 2px rgb(225, 225, 225); min-height: 420px; background-color: #fffaf4;">
                     <div class="main-img fix img-cover">
                         <img fetchpriority="high" decoding="async" width="357"
-                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/a5.jpeg"
+                            height="220" src="assets/img/iic-cell/a5.jpeg"
 
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
@@ -167,7 +167,7 @@
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225); min-height: 420px; background-color: #fffaf4;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/a4.jpeg"
+                            src="assets/img/iic-cell/a4.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -248,19 +248,19 @@
             <hr>
             <div class="row">
                 <div class="col-lg-12">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/ac4.jpg">
+                    <img src="mobile-assets/innovation/ac4.jpg">
                 </div>
             </div>
             <hr>
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/ac2.jpg">
+                    <img src="mobile-assets/innovation/ac2.jpg">
                 </div>
                 <div class="col-lg-4">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/ac3.jpeg">
+                    <img src="mobile-assets/innovation/ac3.jpeg">
                 </div>
                 <div class="col-lg-4">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/ac1.jpg">
+                    <img src="mobile-assets/innovation/ac1.jpg">
                 </div>
             </div>
             <hr>
@@ -547,7 +547,7 @@
         <!--End Header-->
 
         <div class="mobile-off">
-            <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/1.png" />
+            <img src="mobile-assets/innovation/1.png" />
             <div style="background-image: url('mobile-assets/innovation/2.png'); background-size: cover;">
                 <div class=" container row pt-4 pb-5">
                     <div class="col-lg-6">
@@ -562,7 +562,7 @@
                                                 <video width="100%" height="auto" autoplay muted
                                                     controlslist="nodownload nofullscreen noremoteplayback"
                                                     disablepictureinpicture>
-                                                    <source src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/car-vid.mp4" type="video/mp4">
+                                                    <source src="mobile-assets/innovation/car-vid.mp4" type="video/mp4">
                                                 </video>
                                             </div>
 
@@ -577,10 +577,10 @@
                     </div>
                 </div>
             </div>
-            <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/3.png" />
+            <img src="mobile-assets/innovation/3.png" />
         </div>
 
-        <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/iic-innovation-part.png" alt="">
+        <img src="mobile-assets/innovation/iic-innovation-part.png" alt="">
 
 
         <!-- <div class="pt-5 text-center elementor-element elementor-element-e22f91b elementor-widget elementor-widget-go-s-heading"
@@ -589,12 +589,12 @@
 
                 <div style="background-image: url(assets/img/iic-cell/background.svg); padding: 30px 0px;">
                     <div class="container">
-                        <img src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp12.jpg" alt="">
-                        <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp13.jpg" alt="">
-                        <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp14.jpg" alt="">
-                        <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp15.jpg" alt="">
-                        <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp16.jpg" alt="">
-                        <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp17.jpg" alt="">
+                        <img src="assets/img/iic-cell/pp12.jpg" alt="">
+                        <img class="pt-2" src="assets/img/iic-cell/pp13.jpg" alt="">
+                        <img class="pt-2" src="assets/img/iic-cell/pp14.jpg" alt="">
+                        <img class="pt-2" src="assets/img/iic-cell/pp15.jpg" alt="">
+                        <img class="pt-2" src="assets/img/iic-cell/pp16.jpg" alt="">
+                        <img class="pt-2" src="assets/img/iic-cell/pp17.jpg" alt="">
                     </div>
                 </div>
 
@@ -605,10 +605,10 @@
 
         <!-- <div style="background-image: url(assets/img/iic-cell/background.svg); padding: 30px 0px;">
                 <div class="container">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp18.jpg" alt="">
-                    <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp19.jpg" alt="">
-                    <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp20.jpg" alt="">
-                    <img class="pt-2" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/pp21.jpg" alt="">
+                    <img src="assets/img/iic-cell/pp18.jpg" alt="">
+                    <img class="pt-2" src="assets/img/iic-cell/pp19.jpg" alt="">
+                    <img class="pt-2" src="assets/img/iic-cell/pp20.jpg" alt="">
+                    <img class="pt-2" src="assets/img/iic-cell/pp21.jpg" alt="">
                 </div>
             </div> -->
 
@@ -641,7 +641,7 @@
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225); min-height: 450px; background-color: #fffaf4;">
                     <div class="main-img fix img-cover">
                         <img fetchpriority="high" decoding="async" width="357"
-                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/a1.jpeg"
+                            height="220" src="assets/img/iic-cell/a1.jpeg"
 
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
@@ -656,7 +656,7 @@
                 <div class="kd-course-2-card " style="border: solid 2px rgb(225, 225, 225); min-height: 450px; background-color: #fffaf4;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/a2.jpeg"
+                            src="assets/img/iic-cell/a2.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -672,7 +672,7 @@
                 <div class="kd-course-2-card " style="border: solid 2px rgb(225, 225, 225); min-height: 450px; background-color: #fffaf4;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/a3.jpeg"
+                            src="assets/img/iic-cell/a3.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -692,7 +692,7 @@
                 <div class="kd-course-2-card " style="border: solid 2px rgb(225, 225, 225); min-height: 420px; background-color: #fffaf4;">
                     <div class="main-img fix img-cover">
                         <img fetchpriority="high" decoding="async" width="357"
-                            height="220" src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/a5.jpeg"
+                            height="220" src="assets/img/iic-cell/a5.jpeg"
 
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
@@ -707,7 +707,7 @@
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225); min-height: 420px; background-color: #fffaf4;">
                     <div class="main-img fix img-cover">
                         <img decoding="async" width="357" height="500"
-                            src="https://d20cs3cmzywuh.cloudfront.net/assets/img/iic-cell/a4.jpeg"
+                            src="assets/img/iic-cell/a4.jpeg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
                             alt="" />
                     </div>
@@ -788,19 +788,19 @@
             <hr>
             <div class="row">
                 <div class="col-lg-12">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/ac4.jpg">
+                    <img src="mobile-assets/innovation/ac4.jpg">
                 </div>
             </div>
             <hr>
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/ac2.jpg">
+                    <img src="mobile-assets/innovation/ac2.jpg">
                 </div>
                 <div class="col-lg-4">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/ac3.jpeg">
+                    <img src="mobile-assets/innovation/ac3.jpeg">
                 </div>
                 <div class="col-lg-4">
-                    <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/innovation/ac1.jpg">
+                    <img src="mobile-assets/innovation/ac1.jpg">
                 </div>
             </div>
             <hr>

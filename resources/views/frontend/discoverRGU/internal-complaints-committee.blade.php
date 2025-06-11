@@ -6,14 +6,14 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 80px; position: relative;">
-          <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/internal-cc/ICC.jpg" />
+          <img src="mobile-assets/internal-cc/ICC.jpg" />
 
             <div
-                style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/internal-cc/bg.svg); background-size: cover; padding: 20px 0px;">
+                style="background-image: url(mobile-assets/internal-cc/bg.svg); background-size: cover; padding: 20px 0px;">
                 <div class="container">
                     <div class="text-center pb-4">
                         <img style="width: 800px;"
-                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/internal-cc/meet.png" />
+                            src="mobile-assets/internal-cc/meet.png" />
                     </div>
                     <p class="para1" style="text-align: justify; color: #13223b;">
                         In regard to the Internal Complaints Committee (ICC), RGU as per the University Grants Commission
@@ -134,14 +134,14 @@
                      Internal Complaints <span style="color: #FF9A1E; font-weight: 500;">Committee</span></h2>
 
                  <div>
-                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/internal-cc/ICC.jpg" />
+                    <img src="mobile-assets/internal-cc/ICC.jpg" />
 
                  </div>
 
-                 <div style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/internal-cc/bg.svg); background-size: cover; padding: 30px 0px;">
+                 <div style="background-image: url(mobile-assets/internal-cc/bg.svg); background-size: cover; padding: 30px 0px;">
                      <div class="container">
                          <div class="text-center pb-4">
-                      <img style="width: 800px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/internal-cc/meet.png" />
+                      <img style="width: 800px;" src="mobile-assets/internal-cc/meet.png" />
                       </div>
                       <p class="headd3" style="text-align: justify; color: #13223b;">
                          In regard to the Internal Complaints Committee (ICC), RGU as per the University Grants Commission (Prevention,
@@ -239,7 +239,7 @@
     <div class="contact-section">
 
     <div class="contact-icon">
-     <img style="width: 120px; height: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/intern-oncaampus-job/telephone-call.png" alt="Phone Icon">
+     <img style="width: 120px; height: 100%;" src="mobile-assets/intern-oncaampus-job/telephone-call.png" alt="Phone Icon">
     </div>
 
     <div class="contact-info">

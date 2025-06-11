@@ -6,7 +6,7 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
-            <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/diversity-inclusion/mob-diversity-inclusion.png" />
+            <img src="mobile-assets/diversity-inclusion/mob-diversity-inclusion.png" />
         </div>
     </div>
 
@@ -16,7 +16,7 @@
             @include('frontend/components/aheader')
             <!--End Header-->
             <div>
-                <img src="https://d20cs3cmzywuh.cloudfront.net/mobile-assets/diversity-inclusion/web.jpg" />
+                <img src="mobile-assets/diversity-inclusion/web.jpg" />
             </div>
         </div>
     </div>
