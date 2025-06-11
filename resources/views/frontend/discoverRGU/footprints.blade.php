@@ -19,7 +19,7 @@
                         <div class="txaa-slide-down-1">
                             <div style="border: 2px solid #27467A; height: 320px; width: 100%;"
                                 class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/headimg.jpg" alt="">
+                                <img class="rounded" decoding="async" src="https://media.rgu.ac/footprint-list/headimg.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/apjabdulkalam.jpeg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/apjabdulkalam.jpeg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. A.P.J.
@@ -88,7 +88,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Gurudev-Sri-Sri-Ravi-Shankar.png"
+                                        src="https://media.rgu.ac/footprint-list/Gurudev-Sri-Sri-Ravi-Shankar.png"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -104,7 +104,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Dr. Sonal Mansingh.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Dr. Sonal Mansingh.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -136,7 +136,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.010.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.010.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -152,7 +152,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.006.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.006.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -168,7 +168,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.008.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.008.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -184,7 +184,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.007.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.007.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -214,7 +214,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.020.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.020.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -228,7 +228,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.016.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.016.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -242,7 +242,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.014.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.014.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -256,7 +256,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.015.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.015.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -270,7 +270,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.018.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.018.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -284,7 +284,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.023.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.023.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -298,7 +298,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.024.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.024.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -312,7 +312,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.011.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.011.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -326,7 +326,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.013.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.013.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -340,7 +340,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.017.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.017.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -354,7 +354,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.027.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.027.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -368,7 +368,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint-seth.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/footprint-seth.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Kiran
@@ -381,7 +381,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Padmashree-Shovana-Narayan.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Padmashree-Shovana-Narayan.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -395,7 +395,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/prof-anil-boro.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/prof-anil-boro.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. Anil
@@ -422,7 +422,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.001.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.001.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -437,7 +437,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.003.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.003.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -452,7 +452,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.026.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.026.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -484,7 +484,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Jagdeep-Dhankhar.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Jagdeep-Dhankhar.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Jagdeep
@@ -498,7 +498,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Ranjan-Gogoi.png" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Ranjan-Gogoi.png" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Justice
@@ -512,7 +512,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.049.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.049.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -529,7 +529,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/ashoksinghal-footprints.jpg"
+                                        src="https://media.rgu.ac/footprint-list/ashoksinghal-footprints.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -546,7 +546,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.045.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.045.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -563,7 +563,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.044.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.044.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -580,7 +580,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.029.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.029.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -597,7 +597,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.002.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.002.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -614,7 +614,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.026.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.026.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -631,7 +631,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.005.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.005.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -648,7 +648,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.028.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.028.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -665,7 +665,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.024.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.024.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -682,7 +682,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.021.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.021.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -699,7 +699,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.020.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.020.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -716,7 +716,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.050.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.050.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -733,7 +733,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.043.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.043.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -750,7 +750,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.046.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.046.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -767,7 +767,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.019.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.019.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -784,7 +784,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.018.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.018.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -801,7 +801,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.013.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.013.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -818,7 +818,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.017.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.017.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -835,7 +835,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.030.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.030.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -852,7 +852,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.037.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.037.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -869,7 +869,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.007.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.007.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -886,7 +886,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.039.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.039.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -903,7 +903,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.033.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.033.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -920,7 +920,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.034.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.034.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -937,7 +937,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.015.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.015.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -954,7 +954,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.003.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.003.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -971,7 +971,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.010.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.010.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -988,7 +988,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.006.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.006.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1005,7 +1005,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.008.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.008.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1022,7 +1022,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.009.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.009.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1039,7 +1039,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.011.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.011.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1056,7 +1056,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.012.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.012.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1073,7 +1073,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.014.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.014.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1090,7 +1090,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.022.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.022.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1107,7 +1107,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.023.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.023.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1124,7 +1124,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.025.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.025.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1141,7 +1141,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.027.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.027.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1158,7 +1158,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.031.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.031.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1175,7 +1175,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.032.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.032.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1192,7 +1192,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.036.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.036.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1207,7 +1207,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.038.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.038.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1222,7 +1222,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.040.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.040.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1237,7 +1237,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.041.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.041.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1254,7 +1254,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.002.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.002.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1271,7 +1271,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.017.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.017.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1288,7 +1288,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.005.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.005.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1305,7 +1305,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.016.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.016.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1320,7 +1320,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.022.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.022.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1336,7 +1336,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.011.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.011.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1351,7 +1351,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.007.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.007.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1366,7 +1366,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.023.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.023.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1381,7 +1381,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.025.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.025.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1396,7 +1396,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.006.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.006.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1411,7 +1411,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.021.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.021.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1426,7 +1426,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.015.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.015.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1441,7 +1441,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.019.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.019.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1456,7 +1456,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.003.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.003.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1471,7 +1471,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.020.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.020.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1486,7 +1486,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.004.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.004.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1501,7 +1501,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.013.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.013.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1516,7 +1516,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.001.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.001.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1531,7 +1531,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.009.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.009.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1546,7 +1546,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.012.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.012.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1561,7 +1561,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.014.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.014.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1576,7 +1576,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.018.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.018.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1591,7 +1591,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.010.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.010.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1606,7 +1606,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.008.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.008.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1621,7 +1621,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Armaan-Malik.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Armaan-Malik.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Armaan
@@ -1635,7 +1635,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Prof-Prabuddha-Ganguli.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Prof-Prabuddha-Ganguli.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1650,7 +1650,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Temjen-Imna-Along.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Temjen-Imna-Along.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1665,7 +1665,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Pradeep-Purohit.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Pradeep-Purohit.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Pradeep
@@ -1679,7 +1679,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Prof-Amarjyoti-Choudhury.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Prof-Amarjyoti-Choudhury.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1694,7 +1694,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Maj-Gen-Rajesh-Kumar-Jha.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Maj-Gen-Rajesh-Kumar-Jha.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1709,7 +1709,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Mushtaq-Ahmed-Anfar-Ali.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Mushtaq-Ahmed-Anfar-Ali.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1724,7 +1724,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Conrad-K-Sangma.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Conrad-K-Sangma.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Conrad K
@@ -1738,7 +1738,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Dr-Arup-Kumar-Misra.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Dr-Arup-Kumar-Misra.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1753,7 +1753,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Lt-Gen-Rana-Pratap-Kalita.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Lt-Gen-Rana-Pratap-Kalita.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1768,7 +1768,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Bubagra-Pradyot-Bikram-Manikya.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Bubagra-Pradyot-Bikram-Manikya.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1783,7 +1783,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Chaitali-Panmei.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Chaitali-Panmei.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Chaitali
@@ -1797,7 +1797,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Barsha-Rani-Bishaya.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Barsha-Rani-Bishaya.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1812,7 +1812,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 180px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitor-group.001.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitor-group.001.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1841,13 +1841,13 @@
 
         <!--head image Section-->
         <section
-            style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/bgg.svg); background-size: cover; padding: 50px 0px;">
+            style="background-image: url(https://media.rgu.ac/footprint-list/bgg.svg); background-size: cover; padding: 50px 0px;">
             <div class="container">
                 <div class="row align-items-center gx-5">
                     <div class="col-lg-6">
                         <div class="kd-about-3-img-wrap txaa-slide-down-1">
                             <div style="border: 2px solid #27467A;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                <img class="rounded" decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/headimg.jpg" alt="">
+                                <img class="rounded" decoding="async" src="https://media.rgu.ac/footprint-list/headimg.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -1886,7 +1886,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/apjabdulkalam.jpeg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/apjabdulkalam.jpeg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. A.P.J.
@@ -1918,7 +1918,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Gurudev-Sri-Sri-Ravi-Shankar.png"
+                                        src="https://media.rgu.ac/footprint-list/Gurudev-Sri-Sri-Ravi-Shankar.png"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1935,7 +1935,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Dr. Sonal Mansingh.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Dr. Sonal Mansingh.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1968,7 +1968,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.010.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.010.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -1984,7 +1984,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.006.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.006.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2000,7 +2000,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.008.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.008.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2016,7 +2016,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.007.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.007.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2047,7 +2047,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.020.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.020.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2061,7 +2061,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.016.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.016.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2075,7 +2075,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.014.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.014.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2089,7 +2089,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.015.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.015.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2103,7 +2103,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.018.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.018.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2117,7 +2117,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.023.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.023.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2131,7 +2131,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.024.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.024.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2145,7 +2145,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.011.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.011.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2159,7 +2159,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.013.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.013.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2173,7 +2173,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.017.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.017.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2187,7 +2187,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.027.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.027.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2201,7 +2201,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint-seth.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/footprint-seth.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Dr. Kiran
@@ -2214,7 +2214,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Padmashree-Shovana-Narayan.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Padmashree-Shovana-Narayan.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2228,7 +2228,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/prof-anil-boro.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/prof-anil-boro.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. Anil
@@ -2256,7 +2256,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.001.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.001.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2271,7 +2271,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors2.003.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors2.003.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2286,7 +2286,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.026.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.026.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2318,7 +2318,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Jagdeep-Dhankhar.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Jagdeep-Dhankhar.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Jagdeep
@@ -2332,7 +2332,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Ranjan-Gogoi.png" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Ranjan-Gogoi.png" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Justice
@@ -2346,7 +2346,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.049.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.049.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2363,7 +2363,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/ashoksinghal-footprints.jpg"
+                                        src="https://media.rgu.ac/footprint-list/ashoksinghal-footprints.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2380,7 +2380,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.045.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.045.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2397,7 +2397,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.044.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.044.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2414,7 +2414,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.029.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.029.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2431,7 +2431,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.002.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.002.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2448,7 +2448,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.026.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.026.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2465,7 +2465,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.005.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.005.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2482,7 +2482,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.028.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.028.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2499,7 +2499,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.024.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.024.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2516,7 +2516,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.021.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.021.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2533,7 +2533,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.020.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.020.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2550,7 +2550,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.050.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.050.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2567,7 +2567,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.043.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.043.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2584,7 +2584,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.046.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.046.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2601,7 +2601,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.019.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.019.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2618,7 +2618,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.018.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.018.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2635,7 +2635,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.013.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.013.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2652,7 +2652,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.017.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.017.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2669,7 +2669,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.030.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.030.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2686,7 +2686,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.037.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.037.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2703,7 +2703,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.007.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.007.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2720,7 +2720,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.039.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.039.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2737,7 +2737,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.033.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.033.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2754,7 +2754,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.034.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.034.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2771,7 +2771,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.015.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.015.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2788,7 +2788,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.003.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.003.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2805,7 +2805,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.010.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.010.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2822,7 +2822,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.006.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.006.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2839,7 +2839,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.008.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.008.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2856,7 +2856,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.009.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.009.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2873,7 +2873,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.011.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.011.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2890,7 +2890,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.012.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.012.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2907,7 +2907,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.014.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.014.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2924,7 +2924,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.022.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.022.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2941,7 +2941,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.023.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.023.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2958,7 +2958,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.025.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.025.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2975,7 +2975,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.027.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.027.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -2992,7 +2992,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.031.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.031.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3009,7 +3009,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.032.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.032.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3026,7 +3026,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.036.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.036.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3041,7 +3041,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.038.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.038.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3056,7 +3056,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.040.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.040.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3071,7 +3071,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitors.041.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitors.041.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3088,7 +3088,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.002.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.002.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3105,7 +3105,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.017.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.017.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3122,7 +3122,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.005.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.005.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3139,7 +3139,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.016.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.016.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3154,7 +3154,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.022.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.022.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3170,7 +3170,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.011.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.011.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3185,7 +3185,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.007.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.007.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3200,7 +3200,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.023.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.023.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3215,7 +3215,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.025.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.025.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3230,7 +3230,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.006.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.006.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3245,7 +3245,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.021.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.021.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3260,7 +3260,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.015.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.015.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3275,7 +3275,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.019.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.019.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3290,7 +3290,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.003.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.003.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3305,7 +3305,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.020.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.020.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3320,7 +3320,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.004.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.004.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3335,7 +3335,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.013.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.013.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3350,7 +3350,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.001.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.001.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3365,7 +3365,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.009.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.009.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3380,7 +3380,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.012.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.012.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3395,7 +3395,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.014.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.014.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3410,7 +3410,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.018.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.018.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3425,7 +3425,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.010.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.010.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3440,7 +3440,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/footprint072024.008.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/footprint072024.008.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3455,7 +3455,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Armaan-Malik.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Armaan-Malik.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Armaan
@@ -3469,7 +3469,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Prof-Prabuddha-Ganguli.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Prof-Prabuddha-Ganguli.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3484,7 +3484,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Temjen-Imna-Along.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Temjen-Imna-Along.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3499,7 +3499,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Pradeep-Purohit.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Pradeep-Purohit.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Pradeep
@@ -3513,7 +3513,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Prof-Amarjyoti-Choudhury.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Prof-Amarjyoti-Choudhury.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3528,7 +3528,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Maj-Gen-Rajesh-Kumar-Jha.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Maj-Gen-Rajesh-Kumar-Jha.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3543,7 +3543,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Mushtaq-Ahmed-Anfar-Ali.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Mushtaq-Ahmed-Anfar-Ali.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3558,7 +3558,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Conrad-K-Sangma.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Conrad-K-Sangma.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Conrad K
@@ -3572,7 +3572,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Dr-Arup-Kumar-Misra.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Dr-Arup-Kumar-Misra.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3587,7 +3587,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Lt-Gen-Rana-Pratap-Kalita.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Lt-Gen-Rana-Pratap-Kalita.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3602,7 +3602,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Bubagra-Pradyot-Bikram-Manikya.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Bubagra-Pradyot-Bikram-Manikya.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3617,7 +3617,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Chaitali-Panmei.jpg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/footprint-list/Chaitali-Panmei.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Chaitali
@@ -3631,7 +3631,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/Barsha-Rani-Bishaya.jpg"
+                                        src="https://media.rgu.ac/footprint-list/Barsha-Rani-Bishaya.jpg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
@@ -3646,7 +3646,7 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%;"
-                                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/footprint-list/rgu-visitor-group.001.jpeg"
+                                        src="https://media.rgu.ac/footprint-list/rgu-visitor-group.001.jpeg"
                                         class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">

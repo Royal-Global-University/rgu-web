@@ -48,13 +48,13 @@
 
         <!-- mobile video -->
         <div class="mobile-video" style="position: relative; width: 100%; height: auto;">
-            <img src="mob-thumb.png" id="video-thumbnail" alt="Video Thumbnail"
-                style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
+            <img src="https://media.rgu.ac/head-video/mob-thumb.png" id="video-thumbnail" alt="Video Thumbnail"
+                style="width: 100%; height: auto; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
 
-            {{-- <video playsinline autoplay loop muted id="video-bg" oncanplay="showVideo()"
+            <video playsinline autoplay loop muted id="video-bg" oncanplay="showVideo()"
                 style="width: 100%; height: auto; display: block;">
-                <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/Websitemobilevideooo.mp4" type="video/mp4">
-            </video> --}}
+                <source src="https://media.rgu.ac/head-video/Websitemobilevideooo.mp4" type="video/mp4">
+            </video>
         </div>
         <!-- mobile video -->
 
@@ -719,18 +719,18 @@
 
                             </div>
 
-                            <div class="video-container" style="position: relative; width: 100%; height: 95vh;">
-                                <img src="mobile-assets/index/headimgnew.jpg" id="video-thumbnail2" alt="Video Thumbnail" style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
-                                                                z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">                      </div>
-                            {{-- <div class="video-container" style="position: relative; width: 100%; height: auto;">
-                                <img src="mobile-assets/index/headimgnew.jpg" id="video-thumbnail2" alt="Video Thumbnail"
-                                    style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
+                            {{-- <div class="video-container" style="position: relative; width: 100%; height: 95vh;">
+                                <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2" alt="Video Thumbnail" style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
+                                                                z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">                      </div> --}}
+                            <div class="video-container" style="position: relative; width: 100%; height: auto;">
+                                <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2" alt="Video Thumbnail"
+                                    style="width: 100%; height: auto; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
 
                                 <video autoplay loop muted playsinline id="video-bg2" oncanplay="showVideo2()"
                                     style="width: 100%; height: auto; display: block;">
-                                    <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/v-2.mp4" type="video/mp4">
+                                    <source src="https://media.rgu.ac/head-video/v-2.mp4" type="video/mp4">
                                 </video>
-                            </div> --}}
+                            </div>
                         </div>
                     </div>
                 </header>
