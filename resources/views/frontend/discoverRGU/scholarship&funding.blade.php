@@ -1086,12 +1086,12 @@
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed text-white" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false"
+                                        data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false"
                                         aria-controls="collapseSeven">
                                         I. RGU SPORTS SCHOLARSHIP
                                     </button>
                                 </h2>
-                                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <img src="https://media.rgu.ac/sport-policy/web-policy.png" alt="" />
