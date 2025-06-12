@@ -1105,7 +1105,7 @@
 
                 <!---->
 
-                <div>
+                {{-- <div>
                     <h3 class="headd3 text-dark fw-bold">Continuation of Scholarship for
                         subsequent
                         years will be governed
@@ -1134,7 +1134,7 @@
                         <img src="mobile-assets/scholarship/2.jpg">
                     </div>
 
-                </div>
+                </div> --}}
             </div>
 
         </section>
