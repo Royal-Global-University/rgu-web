@@ -952,13 +952,25 @@
                                 </div> --}}
                                 <div class="notification-item text-dark para1">
                                     <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf"
-                                        style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                        style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
                                             style="width: 50px;"
                                             src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/output-onlinegiftools.gif" alt="">
                                         Admission Open For Ph.D. 2025-2026 </a>
 
+                                        <a href="https://media.rgu.ac/Brochure/ICSP.pdf"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
+                                                style="width: 50px;" src="assets/img/event-img/arrow-new.png" alt="">
+                                                Integrated Civil Service Programme
+                                        </a>
+
+                                        <a href="https://media.rgu.ac/Brochure/sports-policy.pdf"
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
+                                                style="width: 50px;" src="assets/img/event-img/arrow-new.png" alt="">
+                                                Sports Policy
+                                        </a>
+
                                         <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/Coffee%20table%20book%20Env%20Day%202025.pdf"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
                                                 style="width: 50px;" src="assets/img/event-img/arrow-new.png"
                                                 alt="">
                                                 RGU observes
@@ -1474,7 +1486,12 @@
                 <div style="padding: 30px 20px; background-color: #590d22;">
                     <div class="row" style="display: flex; align-items: center;">
                         <div class="col-lg-7" style="display: flex; justify-content: center;">
-                            <img src="https://media.rgu.ac/index/lookbook.png" alt="">
+                            <div style="display: flex; flex-direction: column;">
+                                <img src="https://media.rgu.ac/index/lookbook.png" alt="" />
+                                <div class="mt-5 text-center">
+                                    <a class="text-center p-3 rounded bg-light fw-bold text-dark">Download LookBook 2025</a>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-5" style="display: flex; justify-content: center;">
                             <video autoplay loop muted playsinline
