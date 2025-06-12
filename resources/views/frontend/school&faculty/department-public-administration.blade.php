@@ -1,9 +1,9 @@
 @extends('frontend.master')
 @section('content')
-        <div style="background-image: url(mobile-assets/dept-public-admin/s2-bg-img-1.webp);">
+        <div style="background-image: url(https://media.rgu.ac/department-all/dept-public-admin/s2-bg-img-1.webp);">
       <div class="mobile">
         @include('frontend/components/mobileheader')
-        <img style="padding-top: 80px; position: relative;" class="pb-3" src="mobile-assets/dept-public-admin/mob-publicadministration.png" alt="">
+        <img style="padding-top: 80px; position: relative;" class="pb-3" src="https://media.rgu.ac/department-all/dept-public-admin/mob-publicadministration.png" alt="">
 
         <div class="container pb-5 pt-3">
 
@@ -408,7 +408,7 @@
 
       <div class="website">
         @include('frontend/components/aheader')
-        <img src="mobile-assets/dept-public-admin/web-publicadministration.png" alt="">
+        <img src="https://media.rgu.ac/department-all/dept-public-admin/web-publicadministration.png" alt="">
 
         <div class="container pb-5 pt-3">
 

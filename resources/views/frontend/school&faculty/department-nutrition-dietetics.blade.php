@@ -4,7 +4,7 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-nutrition/mob.png"
+            <img style="padding-top: 80px; position: relative;" src="https://media.rgu.ac/department-all/dept-nutrition/mob.png"
                 alt="">
 
             <div class="container">
@@ -50,7 +50,7 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-nutrition/web.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-nutrition/web.png" alt="">
 
             <div class="container">
 

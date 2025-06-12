@@ -4,7 +4,7 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-product-design/mob-productdesign.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-product-design/mob-productdesign.png" alt="">
 
             <div class="container">
 
@@ -46,7 +46,7 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-product-design/web-productdesign.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-product-design/web-productdesign.png" alt="">
 
             <div class="container">
 

@@ -4,7 +4,7 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-botany/mobile-top.png" alt="">
+            <img style="padding-top: 80px; position: relative;" src="https://media.rgu.ac/department-all/dept-botany/mobile-top.png" alt="">
 
             <div class="container">
                 <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -62,12 +62,12 @@
 
             </div>
 
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-botany/mob-btm.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-botany/mob-btm.png" alt="">
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-botany/web-top.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-botany/web-top.png" alt="">
 
             <div class="container">
 
@@ -126,7 +126,7 @@
 
             </div>
 
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-botany/web-btm.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-botany/web-btm.png" alt="">
         </div>
 
         <div class="container pb-5 pt-3">

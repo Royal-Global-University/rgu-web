@@ -480,68 +480,68 @@
                                             <div class="row">
                                                 <div class="col-md-4 mb-4">
                                                     <video class="w-100 fixed-video" controls>
-                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/1.mp4" type="video/mp4">
+                                                        <source src="https://media.rgu.ac/lp/1.mp4" type="video/mp4">
                                                         Your browser does not support the video tag.
                                                     </video>
                                                 </div>
                                                 <div class="col-md-4 mb-4">
                                                     <video class="w-100 fixed-video" controls>
-                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/2.mp4" type="video/mp4">
+                                                        <source src="https://media.rgu.ac/lp/2.mp4" type="video/mp4">
                                                         Your browser does not support the video tag.
                                                     </video>
                                                 </div>
                                                 <div class="col-md-4 mb-4">
                                                     <video class="w-100 fixed-video" controls>
-                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/3.mp4" type="video/mp4">
+                                                        <source src="https://media.rgu.ac/lp/3.mp4" type="video/mp4">
                                                         Your browser does not support the video tag.
                                                     </video>
                                                 </div>
                                                 <div class="col-md-4 mb-4">
                                                     <video class="w-100 fixed-video" controls>
-                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/4.mp4" type="video/mp4">
+                                                        <source src="https://media.rgu.ac/lp/4.mp4" type="video/mp4">
                                                         Your browser does not support the video tag.
                                                     </video>
                                                 </div>
                                                 <div class="col-md-4 mb-4">
                                                     <video class="w-100 fixed-video" controls>
-                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/5.mp4" type="video/mp4">
+                                                        <source src="https://media.rgu.ac/lp/5.mp4" type="video/mp4">
                                                         Your browser does not support the video tag.
                                                     </video>
                                                 </div>
 
                                                 <div class="col-md-4 mb-4">
                                                     <video class="w-100 fixed-video" controls>
-                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/7.mp4" type="video/mp4">
+                                                        <source src="https://media.rgu.ac/lp/7.mp4" type="video/mp4">
                                                         Your browser does not support the video tag.
                                                     </video>
                                                 </div>
                                                 <div class="col-md-4 mb-4">
                                                     <video class="w-100 fixed-video" controls>
-                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/8.mp4" type="video/mp4">
+                                                        <source src="https://media.rgu.ac/lp/8.mp4" type="video/mp4">
                                                         Your browser does not support the video tag.
                                                     </video>
                                                 </div>
                                                 <div class="col-md-4 mb-4">
                                                     <video class="w-100 fixed-video" controls>
-                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/9.mp4" type="video/mp4">
+                                                        <source src="https://media.rgu.ac/lp/9.mp4" type="video/mp4">
                                                         Your browser does not support the video tag.
                                                     </video>
                                                 </div>
                                                 <div class="col-md-4 mb-4">
                                                     <video class="w-100 fixed-video" controls>
-                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/10.mp4" type="video/mp4">
+                                                        <source src="https://media.rgu.ac/lp/10.mp4" type="video/mp4">
                                                         Your browser does not support the video tag.
                                                     </video>
                                                 </div>
                                                 <div class="col-md-4 mb-4">
                                                     <video class="w-100 fixed-video" controls>
-                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/11.mp4" type="video/mp4">
+                                                        <source src="https://media.rgu.ac/lp/11.mp4" type="video/mp4">
                                                         Your browser does not support the video tag.
                                                     </video>
                                                 </div>
                                                 <div class="col-md-4 mb-4">
                                                     <video class="w-100 fixed-video" controls>
-                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/12.mp4" type="video/mp4">
+                                                        <source src="https://media.rgu.ac/lp/12.mp4" type="video/mp4">
                                                         Your browser does not support the video tag.
                                                     </video>
                                                 </div>
@@ -684,7 +684,7 @@
                                                                 <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                                                     <div>
                                                                         <img class="rounded" decoding="async" style="height: 660px;"
-                                                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/pic2.png" alt="">
+                                                                            src="https://media.rgu.ac/lp/pic2.png" alt="">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -784,7 +784,7 @@
                                                 </script>
 
                                                 <div id="virtualtour" class="pt-4 text-center">
-                                                    <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/gallery1.png" alt="">
+                                                    <img src="https://media.rgu.ac/lp/gallery1.png" alt="">
                                                 </div>
 
                                                 <div style="padding: 0px 60px;">
@@ -801,10 +801,10 @@
                                                                 <div class="carousel-item active">
                                                                     <div class="row">
                                                                         <div class="col-md-6">
-                                                                            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/slidepic1.png" class="d-block w-100" alt="Image 1">
+                                                                            <img src="https://media.rgu.ac/lp/slidepic1.png" class="d-block w-100" alt="Image 1">
                                                                         </div>
                                                                         <div class="col-md-6">
-                                                                            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/slidepic2.png" class="d-block w-100" alt="Image 2">
+                                                                            <img src="https://media.rgu.ac/lp/slidepic2.png" class="d-block w-100" alt="Image 2">
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -812,10 +812,10 @@
                                                                 <div class="carousel-item">
                                                                     <div class="row">
                                                                         <div class="col-md-6">
-                                                                            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/slidepic1.png" class="d-block w-100" alt="Image 3">
+                                                                            <img src="https://media.rgu.ac/lp/slidepic1.png" class="d-block w-100" alt="Image 3">
                                                                         </div>
                                                                         <div class="col-md-6">
-                                                                            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/slidepic2.png" class="d-block w-100" alt="Image 4">
+                                                                            <img src="https://media.rgu.ac/lp/slidepic2.png" class="d-block w-100" alt="Image 4">
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1088,7 +1088,7 @@
                                                         <!-- Photo Gallery -->
                                                         <div class="tab-pane fade show active" id="photo" role="tabpanel" aria-labelledby="photo-tab">
                                                             <div class="row ">
-                                                                <div class="col-lg-12"><img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/gallery2.png" class="img-fluid rounded"
+                                                                <div class="col-lg-12"><img src="https://media.rgu.ac/lp/gallery2.png" class="img-fluid rounded"
                                                                         alt="Photo 1"></div>
 
                                                             </div>
@@ -1100,35 +1100,35 @@
                                                             <div class="row">
                                                                 <div class="col-md-4 mb-4">
                                                                     <video class="w-100 fixed-video" controls>
-                                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/1.mp4"
+                                                                        <source src="https://media.rgu.ac/lp/1.mp4"
                                                                             type="video/mp4">
                                                                         Your browser does not support the video tag.
                                                                     </video>
                                                                 </div>
                                                                 <div class="col-md-4 mb-4">
                                                                     <video class="w-100 fixed-video" controls>
-                                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/2.mp4"
+                                                                        <source src="https://media.rgu.ac/lp/2.mp4"
                                                                             type="video/mp4">
                                                                         Your browser does not support the video tag.
                                                                     </video>
                                                                 </div>
                                                                 <div class="col-md-4 mb-4">
                                                                     <video class="w-100 fixed-video" controls>
-                                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/3.mp4"
+                                                                        <source src="https://media.rgu.ac/lp/3.mp4"
                                                                             type="video/mp4">
                                                                         Your browser does not support the video tag.
                                                                     </video>
                                                                 </div>
                                                                 <div class="col-md-4 mb-4">
                                                                     <video class="w-100 fixed-video" controls>
-                                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/4.mp4"
+                                                                        <source src="https://media.rgu.ac/lp/4.mp4"
                                                                             type="video/mp4">
                                                                         Your browser does not support the video tag.
                                                                     </video>
                                                                 </div>
                                                                 <div class="col-md-4 mb-4">
                                                                     <video class="w-100 fixed-video" controls>
-                                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/5.mp4"
+                                                                        <source src="https://media.rgu.ac/lp/5.mp4"
                                                                             type="video/mp4">
                                                                         Your browser does not support the video tag.
                                                                     </video>
@@ -1136,42 +1136,42 @@
 
                                                                 <div class="col-md-4 mb-4">
                                                                     <video class="w-100 fixed-video" controls>
-                                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/7.mp4"
+                                                                        <source src="https://media.rgu.ac/lp/7.mp4"
                                                                             type="video/mp4">
                                                                         Your browser does not support the video tag.
                                                                     </video>
                                                                 </div>
                                                                 <div class="col-md-4 mb-4">
                                                                     <video class="w-100 fixed-video" controls>
-                                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/8.mp4"
+                                                                        <source src="https://media.rgu.ac/lp/8.mp4"
                                                                             type="video/mp4">
                                                                         Your browser does not support the video tag.
                                                                     </video>
                                                                 </div>
                                                                 <div class="col-md-4 mb-4">
                                                                     <video class="w-100 fixed-video" controls>
-                                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/9.mp4"
+                                                                        <source src="https://media.rgu.ac/lp/9.mp4"
                                                                             type="video/mp4">
                                                                         Your browser does not support the video tag.
                                                                     </video>
                                                                 </div>
                                                                 <div class="col-md-4 mb-4">
                                                                     <video class="w-100 fixed-video" controls>
-                                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/10.mp4"
+                                                                        <source src="https://media.rgu.ac/lp/10.mp4"
                                                                             type="video/mp4">
                                                                         Your browser does not support the video tag.
                                                                     </video>
                                                                 </div>
                                                                 <div class="col-md-4 mb-4">
                                                                     <video class="w-100 fixed-video" controls>
-                                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/11.mp4"
+                                                                        <source src="https://media.rgu.ac/lp/11.mp4"
                                                                             type="video/mp4">
                                                                         Your browser does not support the video tag.
                                                                     </video>
                                                                 </div>
                                                                 <div class="col-md-4 mb-4">
                                                                     <video class="w-100 fixed-video" controls>
-                                                                        <source src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/12.mp4"
+                                                                        <source src="https://media.rgu.ac/lp/12.mp4"
                                                                             type="video/mp4">
                                                                         Your browser does not support the video tag.
                                                                     </video>
@@ -1195,15 +1195,15 @@
                                                 <div style="padding: 0px 60px;">
                                                     <div class="row">
                                                         <div class="col-lg-4">
-                                                            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/t1.png" alt="">
+                                                            <img src="https://media.rgu.ac/lp/t1.png" alt="">
                                                         </div>
 
                                                         <div class="col-lg-4">
-                                                            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/t2.png" alt="">
+                                                            <img src="https://media.rgu.ac/lp/t2.png" alt="">
                                                         </div>
 
                                                         <div class="col-lg-4">
-                                                            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/lp/t3.png" alt="">
+                                                            <img src="https://media.rgu.ac/lp/t3.png" alt="">
                                                         </div>
                                                     </div>
                                                 </div>

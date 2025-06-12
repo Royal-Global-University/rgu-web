@@ -5,7 +5,7 @@
         <div class="mobile">
             @include('frontend/components/mobileheader')
             <img style="padding-top: 80px; position: relative;"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-physiotherapy/mob-top.png" alt="">
+                src="https://media.rgu.ac/department-all/dept-physiotherapy/mob-top.png" alt="">
 
             <div class="container">
 
@@ -83,13 +83,13 @@
 
             </div>
 
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-physiotherapy/mob-btm.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-physiotherapy/mob-btm.png" alt="">
 
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-physiotherapy/web-top.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-physiotherapy/web-top.png" alt="">
 
             <div class="container">
 
@@ -167,7 +167,7 @@
 
             </div>
 
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-physiotherapy/web-btm.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-physiotherapy/web-btm.png" alt="">
 
         </div>
 

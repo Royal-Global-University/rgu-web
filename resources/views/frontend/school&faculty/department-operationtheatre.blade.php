@@ -5,7 +5,7 @@
         <div class="mobile">
             @include('frontend/components/mobileheader')
             <img style="padding-top: 80px; position: relative;"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-operation/mob-top.png" alt="">
+                src="https://media.rgu.ac/department-all/dept-operation/mob-top.png" alt="">
 
             <div class="container">
 
@@ -47,12 +47,12 @@
 
             </div>
 
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-operation/mob-btm.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-operation/mob-btm.png" alt="">
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-operation/web-top.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-operation/web-top.png" alt="">
 
             <div class="container">
 
@@ -94,7 +94,7 @@
 
             </div>
 
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-operation/web-btm.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-operation/web-btm.png" alt="">
         </div>
 
         <div class="container pb-5 pt-3">

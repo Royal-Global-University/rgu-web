@@ -2,8 +2,9 @@
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
         <div class="mobile">
+            @include('frontend/components/mobileheader')
             <img style="padding-top: 80px; position: relative;" class="pb-3"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-interior-design/mob-interiordesign.png"
+                src="https://media.rgu.ac/department-all/dept-interior-design/mob-interiordesign.png"
                 alt="">
 
             <div class="container">
@@ -63,7 +64,8 @@
         </div>
 
         <div class="website">
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-interior-design/web-interiordesign.png"
+            @include('frontend/components/aheader')
+            <img src="https://media.rgu.ac/department-all/dept-interior-design/web-interiordesign.png"
                 alt="">
 
             <div class="container">

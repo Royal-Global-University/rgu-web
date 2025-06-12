@@ -3,7 +3,7 @@
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-environmental/mobile-environmental.png" alt="">
+            <img style="padding-top: 80px; position: relative;" class="pb-3" src="https://media.rgu.ac/department-all/dept-environmental/mobile-environmental.png" alt="">
         </div>
 
         <div class="website">
@@ -11,7 +11,7 @@
             @include('frontend/components/aheader')
             <!--End Header-->
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-environmental/web-environmental.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-environmental/web-environmental.png" alt="">
 
         </div>
 

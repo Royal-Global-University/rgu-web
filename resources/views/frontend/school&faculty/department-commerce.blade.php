@@ -4,7 +4,7 @@
         <div class="mobile">
             @include('frontend/components/mobileheader')
             <img class="pb-3" style="padding-top: 80px; position: relative;"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-commerce/mob-top.png"
+                src="https://media.rgu.ac/department-all/dept-commerce/mob-top.png"
                 alt="">
             <div class="container">
                 <!-- courses section web  -->
@@ -129,7 +129,7 @@
             </div>
 
             <img class="pb-3"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-commerce/mobile-btm.png"
+                src="https://media.rgu.ac/department-all/dept-commerce/mobile-btm.png"
                 alt="">
 
 
@@ -1240,7 +1240,7 @@
         <div class="website">
             @include('frontend/components/aheader')
             <img class="pb-3"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-commerce/web-top.png"
+                src="https://media.rgu.ac/department-all/dept-commerce/web-top.png"
                 alt="">
             <div class="container">
 
@@ -1366,7 +1366,7 @@
             </div>
 
             <img class="pb-3"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-commerce/web-btm.png"
+                src="https://media.rgu.ac/department-all/dept-commerce/web-btm.png"
                 alt="">
 
 

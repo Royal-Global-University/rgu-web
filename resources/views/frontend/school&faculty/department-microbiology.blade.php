@@ -4,7 +4,7 @@
 
         <div class="mobile" >
             @include('frontend/components/mobileheader')
-            <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-microbio/mobile-up.png" alt="">
+            <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://media.rgu.ac/department-all/dept-microbio/mobile-up.png" alt="">
 
 
             <div class="container">
@@ -61,7 +61,7 @@
 
             </div>
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-microbio/mobile-down.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-microbio/mobile-down.png" alt="">
 
             <!--About Section-->
 
@@ -420,7 +420,7 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-microbio/web-up.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-microbio/web-up.png" alt="">
             <div class="container">
 
                 <!-- courses section web  -->
@@ -475,7 +475,7 @@
 
             </div>
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-microbio/web-down.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-microbio/web-down.png" alt="">
 
             <!--About Section-->
 

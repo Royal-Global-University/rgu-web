@@ -4,7 +4,7 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-food-tech/mobile-top.png" alt="">
+            <img style="padding-top: 80px; position: relative;" class="pb-3" src="https://media.rgu.ac/department-all/dept-food-tech/mobile-top.png" alt="">
             <div class="container">
 
                 <!-- courses section web  -->
@@ -59,7 +59,7 @@
 
             </div>
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-food-tech/mobile-down.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-food-tech/mobile-down.png" alt="">
 
 
             <div class="container pb-5 pt-3">
@@ -376,7 +376,7 @@
             @include('frontend/components/aheader')
             <!--End Header-->
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-food-tech/web-top.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-food-tech/web-top.png" alt="">
 
             <div class="container">
 
@@ -432,7 +432,7 @@
 
             </div>
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-food-tech/web-down.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-food-tech/web-down.png" alt="">
 
 
             <div class="container pb-5 pt-3">

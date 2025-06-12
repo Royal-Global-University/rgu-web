@@ -6,7 +6,7 @@
             @include('frontend/components/mobileheader')
             <div style="position: relative; padding-top: 90px;">
 
-                <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-cse/mob-top.png" alt="">
+                <img class="pb-3" src="https://media.rgu.ac/department-all/dept-cse/mob-top.png" alt="">
 
                 <div class="container">
                     <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -117,14 +117,14 @@
 
                 </div>
 
-                <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-cse/mob-btm.png" alt="">
+                <img class="pb-3" src="https://media.rgu.ac/department-all/dept-cse/mob-btm.png" alt="">
 
             </div>
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-cse/web-top.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-cse/web-top.png" alt="">
 
             <div class="container">
                 <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -233,7 +233,7 @@
 
             </div>
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-cse/web-btm.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-cse/web-btm.png" alt="">
 
         </div>
 

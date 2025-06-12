@@ -3,7 +3,7 @@
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-pol-sc/mob-politicalscience.png" alt="">
+            <img style="padding-top: 80px; position: relative;" src="https://media.rgu.ac/department-all/dept-pol-sc/mob-politicalscience.png" alt="">
 
             <div class="container">
                 <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -63,7 +63,7 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-pol-sc/web-politicalscience.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-pol-sc/web-politicalscience.png" alt="">
 
             <div class="container">
                 <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">

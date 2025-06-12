@@ -1,10 +1,10 @@
 @extends('frontend.master')
 @section('content')
-    <div style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/bg.svg); background-size: cover;">
+    <div style="background-image: url(https://media.rgu.ac/department-all/bg.svg); background-size: cover;">
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-           <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-arch/mobile-top.png" alt="">
+           <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://media.rgu.ac/department-all/dept-arch/mobile-top.png" alt="">
 
 
         <div class="container">
@@ -524,7 +524,7 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-        <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-arch/web-architecture-up.png" alt="">
+        <img class="pb-3" src="https://media.rgu.ac/department-all/dept-arch/web-architecture-up.png" alt="">
 
 
         <div class="container">
@@ -562,7 +562,7 @@
 
         </div>
 
-        <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-arch/web-architecture-down.png" alt="">
+        <img class="pb-3" src="https://media.rgu.ac/department-all/dept-arch/web-architecture-down.png" alt="">
 
         <div class="container">
 

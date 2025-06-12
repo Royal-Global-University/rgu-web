@@ -3,7 +3,7 @@
     <div class="container-fluid">
 
         <a class="navbar-brand" href="https://www.rgu.ac/">
-            <img id="logoImage" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/logo/light_logo.png" alt="Logo"
+            <img id="logoImage" src="mobile-assets/logo/light_logo.png" alt="Logo"
                 style="height: 110px; transition: height 0.4s ease, transform 0.4s ease;">
         </a>
 

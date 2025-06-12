@@ -3,7 +3,7 @@
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
         <div class="mobile" >
             @include('frontend/components/mobileheader')
-            <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-psychology/mobile-top.png" alt="">
+            <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://media.rgu.ac/department-all/dept-psychology/mobile-top.png" alt="">
             <div class="container">
 
                 <!-- courses section web  -->
@@ -73,7 +73,7 @@
 
             </div>
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-psychology/mobile-down.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-psychology/mobile-down.png" alt="">
 
             <!--About Section-->
             <div class="container pt-3 pb-5">
@@ -607,7 +607,7 @@
             @include('frontend/components/aheader')
             <!--End Header-->
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-psychology/web-top.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-psychology/web-top.png" alt="">
 
 
             <div class="container">
@@ -680,7 +680,7 @@
 
             </div>
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-psychology/web-btm.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-psychology/web-btm.png" alt="">
 
             <!--About Section-->
             <div class="container pt-3 pb-5">

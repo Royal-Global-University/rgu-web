@@ -3,7 +3,7 @@
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
         <div class="mobile" >
             @include('frontend/components/mobileheader')
-            <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-business/mobile-top.png" alt="">
+            <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://media.rgu.ac/department-all/dept-business/mobile-top.png" alt="">
 
 
             <div class="container">
@@ -129,7 +129,7 @@
 
             </div>
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-business/mobile-down.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-business/mobile-down.png" alt="">
 
 
             <div class="container pt-3 pb-5">
@@ -997,7 +997,7 @@
             @include('frontend/components/aheader')
             <!--End Header-->
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-business/web-top.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-business/web-top.png" alt="">
 
 
             <div class="container">
@@ -1123,7 +1123,7 @@
 
             </div>
 
-            <img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-business/web-btm.png" alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-business/web-btm.png" alt="">
 
 
             <div class="container pt-3 pb-5">

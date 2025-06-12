@@ -4,7 +4,7 @@
         <div class="mobile">
             @include('frontend/components/mobileheader')
             <img style="padding-top: 80px; position: relative;" class="pb-3"
-                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-communication-design/mob-Communicationdesign.png" alt="">
+                src="https://media.rgu.ac/department-all/dept-communication-design/mob-Communicationdesign.png" alt="">
 
             <div class="container">
 
@@ -48,7 +48,7 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-            <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/department-all/update/dept-communication-design/web-communicationdesign.png" alt="">
+            <img src="https://media.rgu.ac/department-all/dept-communication-design/web-communicationdesign.png" alt="">
 
             <div class="container">
 
