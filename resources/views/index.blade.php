@@ -960,13 +960,13 @@
                                         <a href="https://media.rgu.ac/Brochure/ICSP.pdf"
                                             style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
                                                 style="width: 50px;" src="assets/img/event-img/arrow-new.png" alt="">
-                                                Integrated Civil Service Programme
+                                                Download Civil Service Brochure
                                         </a>
 
                                         <a href="https://media.rgu.ac/Brochure/sports-policy.pdf"
                                             style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
                                                 style="width: 50px;" src="assets/img/event-img/arrow-new.png" alt="">
-                                                Sports Policy
+                                                Download Sports Policy Brochure
                                         </a>
 
                                         <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/Coffee%20table%20book%20Env%20Day%202025.pdf"
