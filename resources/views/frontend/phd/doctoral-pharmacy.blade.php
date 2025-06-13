@@ -102,12 +102,12 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                             <div class="p-3">
                                 <img style="height: 300px; width: 100%;"
-                                    src="mobile-assets/phd-mobile/doctoral-pharmacy/4.jpeg"
+                                    src="mobile-assets/phd-mobile/doctoral-pharmacy/3.jpeg"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                    Dr. Pranabesh Sikdar
+                                    Prof. (Dr.) Pranabesh Sikdar
                                 </h5>
 
                                 <p class="para1 fw-bold" style="color: #333; line-height: 1.3;">
@@ -116,6 +116,31 @@
 
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Natural Chemistry especially in marine algae and Synthesis of compounds and their biological screening.
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                            <div class="p-3">
+                                <img style="height: 300px; width: 100%;" src="mobile-assets/phd-mobile/doctoral-pharmacy/4.jpeg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
+                                    Prof.(Dr.) Prithviraj Chakraborty
+                                </h5>
+
+                                <p class="para1 fw-bold" style="color: #333; line-height: 1.3;">
+                                    Research Interest:
+                                </p>
+
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Drug Delivery, Polymer Sciences, Nanotechnology, Statistical Optimization.
                                 </p>
 
 
@@ -275,7 +300,7 @@
                                     <div class="elementor-element elementor-element-c8de01e elementor-widget elementor-widget-go-s-heading" data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
                                         <div class="elementor-widget-container">
                                             <div class="prthalign">
-                                                <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
+                                                <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text">
                                                     Pharmacy</h1>
                                                 <div class="para1 text-dark kd-para-1 disc" data-splitting style="text-align: justify;">
                                                     <p>
@@ -298,7 +323,7 @@
 
             <div style="padding: 40px 60px; text-align: justify;">
 
-                <div class="headd2 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
+                <div class="headd1 fw-bold text-dark pt-4 kd-title-ani kd-split-text">Ph.D. Guides and Research Interests</div>
 
                 <div class="card mt-4 shadow-sm">
                     <div class="row p-3">

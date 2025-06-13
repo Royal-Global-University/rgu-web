@@ -160,7 +160,7 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        A. ROYAL MERIT - ON ADMISSION SCHOLARSHIP
+                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">A</span> Royal Merit - on Admission Scholarship
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -290,7 +290,7 @@
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        B. ROYAL ENDOWMENT & OTHER SCHOLARSHIP
+                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">B</span> Royal Endowment & Other Scholarship
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -457,10 +457,7 @@
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        C. 100% SCHOLARSHIP TO TWO STUDENTS FROM CHAKMA COMMUNITY OF MIAO SUB-DIVISION,
-                                        ARUNACHAL PRADESH AND RESPECTIVELY TO
-                                        THE HAJONG, KUKI, RIYANG, TIWA (LALUNG) AND KONYAK COMMUNITIES OF MEGHALAYA,
-                                        MANIPUR, TRIPURA, ASSAMAND NAGALAND.
+                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">C</span> 100% Scholarship to Two Students From Chakma Community of Miao Sub-Division, Arunachal Pradesh And Respectively to The Hajong, Kuki, Riyang, Tiwa (Lalung) And Konyak Communities Of Meghalaya, Manipur, Tripura, Assam And Nagaland.
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -546,8 +543,7 @@
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        D. 100% ROYAL SCHOLARSHIP TO THE STUDENT BELONGING TO THE ECONOMICALLY WEAKER
-                                        SECTION OF THE SOCIETY
+                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">D</span> 100% Royal Scholarship To The Student Belonging To The Economically Weaker Section Of The Society (BPL Category)
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -671,7 +667,7 @@
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                                        E. ROYAL MERIT - ON ADMISSION 100% SCHOLARSHIP TO FIVE INTERNATIONAL STUDENTS (from
+                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">E</span> Royal Merit - On Admission 100% Scholarship To Five International Students (from
                                         neighboring countries like Thailand, Bangladesh, Nepal, Bhutan and Myanmar)
                                     </button>
                                 </h2>
@@ -773,10 +769,8 @@
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false"
                                         aria-controls="collapseSeven">
-                                        F. ROYAL SHAURYA: FULL FREESHIP FOR WARDS OF BRAVEHEART SECURITY PERSONNELS
-                                        (MILITARY/
-                                        PARAMILITARY/NORTH-EASTERN POLICE
-                                        FORCES)
+                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">F</span> Royal Shaurya: Full Freeship For Wards Of Braveheart Security Personnels (Military/Paramilitary/North-Eastern Police
+                                        Forces)
                                     </button>
                                 </h2>
                                 <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -914,10 +908,8 @@
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false"
                                         aria-controls="collapseSeven">
-                                        G. ROYAL SURAKSHA: 50% SCHOLARSHIP FOR WARDS OF SERVING & RETIRED SECURITY
-                                        PERSONNELS
-                                        (MILITARY/
-                                        PARAMILITARY/NORTH-EASTERN POLICE FORCES)
+                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">G</span> Royal Suraksha: 50% Scholarship For Wards Of Serving & Retired Security Personnels (Military/Paramilitary/North-Eastern
+                                        Police Forces)
                                     </button>
                                 </h2>
                                 <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -1044,7 +1036,7 @@
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false"
                                         aria-controls="collapse11">
-                                        H. HOPE FOR MANIPUR SCHOLARSHIP - 100% ADMISSION FEE WAIVER (FOR STUDENTS FROM
+                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">H</span> HOPE FOR MANIPUR SCHOLARSHIP - 100% ADMISSION FEE WAIVER (FOR STUDENTS FROM
                                         VIOLENCE AFFECTED FAMILIES OF MANIPUR)
                                     </button>
                                 </h2>
@@ -1088,7 +1080,7 @@
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false"
                                         aria-controls="collapseSeven">
-                                        I. RGU SPORTS SCHOLARSHIP
+                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">I</span> RGU Sports Scholarship
                                     </button>
                                 </h2>
                                 <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="headingOne"

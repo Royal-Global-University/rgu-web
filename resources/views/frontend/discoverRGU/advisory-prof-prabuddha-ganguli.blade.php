@@ -8,6 +8,6 @@
     <div class="website">
         <!--head image Section-->
         @include('frontend/components/aheader')
-        <img src="https://media.rgu.ac/advisor-leadership/web-Prof-Prabuddha-Ganguli-v2.png" alt="">
+        <img src="https://media.rgu.ac/advisor-leadership/web-Prof-Prabuddha-Ganguli.png" alt="">
     </div>
 @endsection

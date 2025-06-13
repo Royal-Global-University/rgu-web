@@ -758,8 +758,6 @@
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/subram-web.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img src="https://media.rgu.ac/index/event1.png"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
 
@@ -951,32 +949,23 @@
                                     </div>
                                 </div> --}}
                                 <div class="notification-item text-dark para1">
-                                    <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf"
+                                    <a href="https://media.rgu.ac/phd.pdf"
                                         style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
                                             style="width: 50px;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/output-onlinegiftools.gif" alt="">
+                                            src="mobile-assets/icons/newicon.gif" alt="">
                                         Admission Open For Ph.D. 2025-2026 </a>
 
                                         <a href="https://media.rgu.ac/Brochure/ICSP.pdf"
                                             style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
-                                                style="width: 50px;" src="assets/img/event-img/arrow-new.png" alt="">
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt="">
                                                 Download Civil Service Brochure
                                         </a>
 
                                         <a href="https://media.rgu.ac/Brochure/sports-policy.pdf"
                                             style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
-                                                style="width: 50px;" src="assets/img/event-img/arrow-new.png" alt="">
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt="">
                                                 Download Sports Policy Brochure
                                         </a>
-
-                                        <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/Coffee%20table%20book%20Env%20Day%202025.pdf"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
-                                                style="width: 50px;" src="assets/img/event-img/arrow-new.png"
-                                                alt="">
-                                                RGU observes
-                                                World Environment Day, 05th June
-                                                2025
-                                                </a>
                                 </div>
                             </div>
                             {{-- <a href="https://rgu.ac/notifications">
