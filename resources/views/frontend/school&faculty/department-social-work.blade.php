@@ -23,7 +23,7 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">Master of Social Work</strong>
+                                        <strong style="color: #023e8a;" class="#">Master of Social Work (MSW)</strong>
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -41,7 +41,7 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="programs-BSW">Bachelor of Social
-                                            Work</strong>
+                                            Work (BSW)</strong>
                                         <br> Honours / Honours with Research
                                     </p>
 
@@ -85,7 +85,7 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">Master of Social Work</strong>
+                                        <strong style="color: #023e8a;" class="#">Master of Social Work (MSW)</strong>
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -103,7 +103,7 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="programs-BSW">Bachelor of Social
-                                            Work</strong>
+                                            Work (BSW)</strong>
                                         <br> Honours / Honours with Research
                                     </p>
 

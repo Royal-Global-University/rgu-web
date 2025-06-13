@@ -5,8 +5,8 @@
         <div class="logo">
             <a href="/"><img style="height: 70px;" src="mobile-assets/index/logo-dark.png" alt="Logo"></a>
         </div>
-        <div style="background-color: #27467A; color: #fff; border-radius: 8px;" class="call-icon p-2"><a href="tel:+917879998811"><i
-                class="fas fa-phone-alt"></i></a></div>
+        <div style="background-color: #27467A; color: #fff; border-radius: 8px;" class="call-icon p-2"><a
+                href="tel:+917879998811"><i class="fas fa-phone-alt"></i></a></div>
     </div>
 
     <div class="menu-overlay"></div>
@@ -28,100 +28,99 @@
             </li>
             <ul class="submenu mobile-para1" id="discover">
 
-                <h2 class="mobile-headd3 pt-3 fw-bold" style="color: #e68900;">ABOUT US</h2>
+                <h2 class="mobile-headd3 pt-3 fw-bold" style="color: #e68900;">About Us</h2>
 
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('preface') }}">
-                    <li>PREFACE</li>
+                    <li>Preface</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('leadership') }}">
-                    <li>LEADERSHIP TEAM</li>
+                    <li>Leadership Team</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('advisory-leadership') }}">
-                    <li>ADVISORY
-                    LEADERSHIP</li>
+                    <li>Advisory Leadership</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('vision-mission') }}">
-                    <li>VISION AND MISSION</li>
+                    <li>Vision and Mission</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('statutes-ordinance-policies') }}">
-                    <li>STATUTES, ORDINANCE AND POLICIES</li>
+                    <li>Statutes, Ordinance and Policies</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('facilities') }}">
-                    <li>FACILITIES</li>
+                    <li>Facilities</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('social-outreach') }}">
-                    <li>SOCIAL OUTREACH</li>
+                    <li>Social Outreach</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('footprints') }}">
-                    <li>ROYAL FOOTPRINTS</li>
+                    <li>Royal Footprints</li>
                 </a>
 
-
-                <h2 class="mobile-headd3 pt-3 fw-bold" style="color: #e68900;">WHAT SET US APART</h2>
+                <h2 class="mobile-headd3 pt-3 fw-bold" style="color: #e68900;">What Set Us Apart</h2>
 
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('recognition-accreditation') }}">
-                    <li>RECOGNITION AND ACCREDITATION</li>
+                    <li>Recognition and Accreditation</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('association-tieup') }}">
-                    <li>ASSOCIATIONS AND TIE UPS</li>
+                    <li>Associations and Tie Ups</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('award') }}">
-                    <li>AWARDS AND HONORS</li>
+                    <li>Awards and Honors</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('top-recruiters') }}">
-                    <li>TOP RECRUITERS</li>
+                    <li>Top Recruiters</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('success') }}">
-                    <li>SUCCESS STORIES</li>
+                    <li>Success Stories</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('360-tour') }}">
-                    <li>360 TOUR</li>
+                    <li>360 Tour</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('diversechoices') }}">
-                    <li>DIVERSE CHOICES</li>
+                    <li>Diverse Choices</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('diversity-inclusion') }}">
-                    <li>DIVERSITY AND INCLUSION</li>
+                    <li>Diversity and Inclusion</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('strategic-location') }}">
-                    <li>STRATEGIC LOCATION</li>
+                    <li>Strategic Location</li>
                 </a>
 
-                <h2 class="mobile-headd3 pt-3 fw-bold" style="color: #e68900;">STATUTORY BODIES</h2>
+                <h2 class="mobile-headd3 pt-3 fw-bold" style="color: #e68900;">Statutory Bodies</h2>
 
                 <li onclick="toggleSubmenu('authorities')"
                     style="cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
-                    <h2 class="mobile-para1" style="color: #27467A;">STATUTORY AUTHORITIES</h2>
+                    <h2 class="mobile-para1" style="color: #27467A;">Statutory Authorities</h2>
                     <i class="fas fa-chevron-down"></i>
                 </li>
                 <ul class="submenu mobile-para1" id="authorities" style="padding-left: 20px;">
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('governing-body') }}">GOVERNING BODY</a>
-                    </li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('board-of-management') }}">BOARD OF MANAGEMENT</a>
-                    </li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('academic-council') }}">ACADEMIC COUNCIL</a>
-                    </li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('governing-body') }}">Governing
+                            Body</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('board-of-management') }}">Board
+                            of Management</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('academic-council') }}">Academic
+                            Council</a></li>
                 </ul>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('finance-committee') }}">
-                    <li>FINANCE COMMITTEE</li>
+                    <li>Finance Committee</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('internal-complaints-committee') }}">
-                    <li>INTERNAL COMPLAINTS COMMITTEE</li>
+                    <li>Internal Complaints Committee</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('anti-ragging') }}">
-                    <li>ANTI RAGGING COMMITTEE</li>
+                    <li>Anti Ragging Committee</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('equal-opportunities-cell') }}">
-                    <li>EQUAL OPPORTUNITIES CELL</li>
+                    <li>Equal Opportunities Cell</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('proctorial') }}">
-                    <li>PROCTORAL BOARD</li>
+                    <li>Proctoral Board</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('organogram-planning') }}">
-                    <li>ORGANOGRAM AND PLANNING</li>
+                    <li>Organogram and Planning</li>
                 </a>
 
             </ul>
+
 
 
             <li onclick="toggleSubmenu('academics')"
@@ -131,40 +130,40 @@
             </li>
             <ul class="submenu mobile-para1" id="academics">
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('schools-rgu') }}">
-                    <li>OUR SCHOOLS AND FACULTIES</li>
+                    <li>Our Schools and Faculties</li>
                 </a>
                 {{-- <a class="mobile-para1" style="color: #27467A;" href="{{ route('deans') }}">
-                    <li>DEANS</li>
+                    <li>Deans</li>
                 </a> --}}
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('phd') }}">
-                    <li>DOCTORAL PROGRAMME</li>
+                    <li>Doctoral Programme</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('achievements') }}">
-                    <li>ACHIEVEMENTS</li>
+                    <li>Achievements</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('academic-calendar') }}">
-                    <li>ACADEMIC CALENDAR</li>
+                    <li>Academic Calendar</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('workshops-guest-lectures') }}">
-                    <li>GUEST LECTURES/ WORKSHOPS</li>
+                    <li>Guest Lectures/Workshops</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('innovation') }}">
-                    <li>INSTITUTION'S INNOVATION COUNCIL (IIC-RGU)</li>
+                    <li>Institution's Innovation Council (IIC-RGU)</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('library-Resources') }}">
-                    <li>LIBRARY</li>
+                    <li>Library</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('laboratories') }}">
-                    <li>LABORATORIES</li>
+                    <li>Laboratories</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('teaching-practice') }}">
-                    <li>TEACHING PRACTICES</li>
+                    <li>Teaching Practices</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('human-resource-development-centre') }}">
-                    <li>ROYAL CENTERE FOR HUMAN RESOURCE DEVELOPMENT (RCHRD)</li>
+                    <li>Royal Centre for Human Resource Development (RCHRD)</li>
                 </a>
-
             </ul>
+
 
 
             <li onclick="toggleSubmenu('admission')"
@@ -174,58 +173,61 @@
             </li>
             <ul class="submenu mobile-para1" id="admission">
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('faq') }}">
-                    <li>ADMISSION FAQs</li>
+                    <li>Admission FAQs</li>
                 </a>
                 <a class="mobile-para1 text-danger" style="color: #27467A;" href="https://admissions.rgu.ac/">
-                    <li>APPLY NOW!</li>
+                    <li>Apply Now!</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="doctoral-programme">
-                    <li>COURSE FEE</li>
+                    <li>Course Fee</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="programs">
-                    <li>ELIGIBILITY AND SELECTION CRITERIA</li>
+                    <li>Eligibility and Selection Criteria</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('general-elective') }}">
-                    <li>GENERAL ELECTIVE</li>
+                    <li>General Elective</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('how-to-apply') }}">
-                    <li>HOW TO APPLY?</li>
+                    <li>How to Apply?</li>
                 </a>
                 <li onclick="toggleSubmenu('scholarship')"
                     style="cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
-                    <h2 class="mobile-para1 fw-bold" style="color: #27467A;">SCHOLARSHIP AND FUNDING</h2>
+                    <h2 class="mobile-para1 fw-bold" style="color: #27467A;">Scholarship and Funding</h2>
                     <i class="fas fa-chevron-down"></i>
                 </li>
                 <ul class="submenu mobile-para1" id="scholarship" style="padding-left: 20px;">
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('scholarship&funding') }}">SCHOLARSHIPS</a>
-                    </li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('deans-listers') }}">DEANS LISTER</a>
-                    </li>
+                    <li><a class="mobile-para1" style="color: #27467A;"
+                            href="{{ route('scholarship&funding') }}">Scholarships</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('deans-listers') }}">Deans
+                            Lister</a></li>
                 </ul>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('schemes-differently-abled') }}">
-                    <li>SCHEMES FOR DIFFERENTLY-ABLED</li>
+                    <li>Schemes for Differently-Abled</li>
                 </a>
             </ul>
 
+
             <!--Cell-->
-            {{-- <li onclick="toggleSubmenu('cell')" style="display: flex; align-items: center; justify-content: space-between;">
-                <span class="mobile-headd3 text-dark">Cell/ Centre</span>
+            {{-- <li onclick="toggleSubmenu('cell')"
+                style="display: flex; align-items: center; justify-content: space-between;">
+                <span class="mobile-headd3 text-dark">Cell/Centre</span>
                 <i class="fas fa-chevron-down" style="margin-left: auto;"></i>
             </li>
             <ul class="submenu mobile-para1" id="cell">
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('phd-cell') }}">
-                    <li>Ph.D. CELL</li>
+                    <li>Ph.D. Cell</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('equal-opportunities-cell') }}">
-                    <li>EQUAL OPPORTUNITIES CELL</li>
+                    <li>Equal Opportunities Cell</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('counselling-cell') }}">
-                    <li>COUNSELLING CELL</li>
+                    <li>Counselling Cell</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('cisr') }}">
                     <li>CISR</li>
                 </a>
             </ul> --}}
+
 
             <!--Convocation-->
             <li onclick="toggleSubmenu('convocation')"
@@ -235,18 +237,19 @@
             </li>
             <ul class="submenu mobile-para1" id="convocation">
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('convocation-fourth') }}">
-                    <li>4th CONVOCATION</li>
+                    <li>4th Convocation</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('convocation-third') }}">
-                    <li>3rd CONVOCATION</li>
+                    <li>3rd Convocation</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('convocation-second') }}">
-                    <li>2nd CONVOCATION</li>
+                    <li>2nd Convocation</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('convocation-first') }}">
-                    <li>1st CONVOCATION</li>
+                    <li>1st Convocation</li>
                 </a>
             </ul>
+
 
 
             <!-- Campus Life -->
@@ -260,76 +263,77 @@
 
                 <li onclick="toggleSubmenu('amenities')"
                     style="cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
-                    <h2 class="mobile-para1 fw-bold" style="color: #27467A;">AMENITIES</h2>
+                    <h2 class="mobile-para1 fw-bold" style="color: #27467A;">Amenities</h2>
                     <i class="fas fa-chevron-down"></i>
                 </li>
-                <!-- Campus Life -->
+                <!-- Amenities Submenu -->
                 <ul class="submenu mobile-para1" id="amenities" style="padding-left: 20px;">
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('banking-services') }}">BANKING
-                            SERVICE</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('department-store') }}">DEPARTMENT
-                            STORE</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('hangout') }}">1st HANGOUTS</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('medical-facility') }}">MEDICAL
-                            FACILITY</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('counselling-cell') }}">COUNSELLING
-                            CELL</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('laundry') }}">LAUNDRY</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('salon') }}">SALON</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('stationary-store') }}">STATIONARY
-                            STORE</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('student-gallery') }}">STUDENT
-                            GALLERY</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('guest-house') }}">GUEST HOUSE</a>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('banking-services') }}">Banking
+                            Service</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;"
+                            href="{{ route('department-store') }}">Department Store</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('hangout') }}">1st Hangouts</a>
                     </li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('medical-facility') }}">Medical
+                            Facility</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;"
+                            href="{{ route('counselling-cell') }}">Counselling Cell</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('laundry') }}">Laundry</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('salon') }}">Salon</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;"
+                            href="{{ route('stationary-store') }}">Stationary Store</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('student-gallery') }}">Student
+                            Gallery</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('guest-house') }}">Guest
+                            House</a></li>
                 </ul>
 
                 <!-- Events Section -->
                 <li onclick="toggleSubmenu('events')"
                     style="display: flex; align-items: center; justify-content: space-between; cursor: pointer;">
-                    <h2 class="mobile-para1 fw-bold" style="color: #27467A;">EVENTS</h2>
+                    <h2 class="mobile-para1 fw-bold" style="color: #27467A;">Events</h2>
                     <i class="fas fa-chevron-down"></i>
                 </li>
                 <!-- Events Submenu -->
                 <ul class="submenu mobile-para1" id="events" style="padding-left: 20px;">
                     <li><a class="happy-happening-campus" style="color: #27467A;"
-                            href="{{ route('happy-happening') }}">HAPPY & HAPPENING CAMPUS</a></li>
-                    <li><a class="Royal_Fests" style="color: #27467A;" href="{{ route('royal-fests') }}">ROYAL
-                            FESTS</a></li>
+                            href="{{ route('happy-happening') }}">Happy & Happening Campus</a></li>
+                    <li><a class="Royal_Fests" style="color: #27467A;" href="{{ route('royal-fests') }}">Royal Fests</a>
+                    </li>
                 </ul>
+
                 <a class="mobile-para1" style="color: #27467A;" href="campus-life-games-sports">
-                    <li>GAMES AND SPORTS</li>
+                    <li>Games and Sports</li>
                 </a>
 
                 <!-- Hostel Section -->
                 <li onclick="toggleSubmenu('hostel')"
                     style="display: flex; align-items: center; justify-content: space-between; cursor: pointer;">
-                    <h2 class="mobile-para1 fw-bold" style="color: #27467A;">HOSTEL</h2>
+                    <h2 class="mobile-para1 fw-bold" style="color: #27467A;">Hostel</h2>
                     <i class="fas fa-chevron-down"></i>
                 </li>
-                <!-- Events Submenu -->
+                <!-- Hostel Submenu -->
                 <ul class="submenu mobile-para1" id="hostel" style="padding-left: 20px;">
                     <li><a class="happy-happening-campus" style="color: #27467A;"
-                            href="{{ route('hostel-life') }}">HOSTEL LIFE</a></li>
+                            href="{{ route('hostel-life') }}">Hostel Life</a></li>
                     <li><a class="Royal_Fests" style="color: #27467A;"
-                            href="{{ asset('assets/img/pdf/Hostel Policy Rules 2024.pdf') }}">HOSTEL POLICY</a></li>
+                            href="{{ asset('assets/img/pdf/Hostel Policy Rules 2024.pdf') }}">Hostel Policy</a></li>
                 </ul>
+
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('infrastructure') }}">
-                    <li>INFRASTRUCTURE</li>
+                    <li>Infrastructure</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('clubs') }}">
-                    <li>CLUBS</li>
+                    <li>Clubs</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('student-affairs') }}">
-                    <li>STUDENT AFFAIRS</li>
+                    <li>Student Affairs</li>
                 </a>
-
-
-
 
             </ul>
 
-            <!--PLACEMENTS section-->
+
+            <!-- Placements Section -->
             <li onclick="toggleSubmenu('placement')"
                 style="display: flex; align-items: center; justify-content: space-between;">
                 <span class="mobile-headd3 text-dark">Placement</span>
@@ -337,32 +341,33 @@
             </li>
             <ul class="submenu mobile-para1" id="placement">
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('placements-introduction') }}">
-                    <li>INTRODUCTION</li>
+                    <li>Introduction</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('placements-activities') }}">
-                    <li>ACTIVITIES UNDERTAKEN</li>
+                    <li>Activities Undertaken</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('placements-facilities') }}">
-                    <li>FACILITIES AVAILABLE</li>
+                    <li>Facilities Available</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('placements-process') }}">
-                    <li>PLACEMENT PROCESS</li>
+                    <li>Placement Process</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('placements-events') }}">
-                    <li>RCCR EVENTS</li>
+                    <li>RCCR Events</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('top-recruiters') }}">
-                    <li>RECRUITERS</li>
+                    <li>Recruiters</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('success') }}">
-                    <li>TESTIMONIALS</li>
+                    <li>Testimonials</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('placement-contacts') }}">
-                    <li>CONTACTS</li>
+                    <li>Contacts</li>
                 </a>
             </ul>
 
-            <!--INTERNATIONAL section-->
+
+            <!-- International Section -->
             <li onclick="toggleSubmenu('International')"
                 style="display: flex; align-items: center; justify-content: space-between;">
                 <span class="mobile-headd3 text-dark">International</span>
@@ -370,41 +375,39 @@
             </li>
             <ul class="submenu mobile-para1" id="International">
                 {{-- <a class="mobile-para1" style="color: #27467A;" href="international-fee-structure">
-                    <li>COURSE FEE</li>
+                    <li>Course Fee</li>
                 </a> --}}
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('international-faq') }}">
-                    <li>FAQ'S</li>
+                    <li>FAQs</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('frro-process') }}">
-                    <li>FRRO PROCESS</li>
+                    <li>FRRO Process</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="https://heyzine.com/flip-book/adfd7889ba.html">
-                    <li>INTERNATIONAL BROCHURE</li>
+                    <li>International Brochure</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('how-to-apply-international') }}">
-                    <li>HOW TO APPLY ?</li>
+                    <li>How to Apply?</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="international-student-helpline">
-                    <li>INTERNATIONAL STUDENT HELPLINE</li>
+                    <li>International Student Helpline</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="campus-job">
-                    <li>ON CAMPUS JOBS</li>
+                    <li>On-Campus Jobs</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="pre-arrival">
-                    <li>PRE-ARRIVAL,</li>
+                    <li>Pre-Arrival</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="scholarships-international">
-                    <li>SCHOLARSHIP FOR INTERNATIONAL STUDENTS</li>
+                    <li>Scholarship for International Students</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="visa-information">
-                    <li>VISA INFORMATION</li>
+                    <li>Visa Information</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="why-india">
-                    <li>WHY INDIA ?</li>
+                    <li>Why India?</li>
                 </a>
             </ul>
-
-
     </nav>
 </section>
 

@@ -26,7 +26,7 @@
         <td>1.</td>
         <td>
             <p>
-            <strong style="color: #023e8a;" class="#">Bachelor of Architecture</strong>
+            <strong style="color: #023e8a;" class="#">B.Arch.</strong>
             </p>
         </td>
         <td class="para1">
@@ -546,7 +546,7 @@
         <td>1.</td>
         <td>
             <p>
-            <strong style="color: #023e8a;" class="#">Bachelor of Architecture</strong>
+            <strong style="color: #023e8a;" class="#">B.Arch.</strong>
             </p>
         </td>
         <td class="para1">

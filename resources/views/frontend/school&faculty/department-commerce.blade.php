@@ -75,40 +75,6 @@
                             <td>4.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.Com. - with ACCA</strong>
-                                </p>
-                            </td>
-                            <td class="para1">
-                                4 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-bcom-finance-with-ica"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>5.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">B.Com. - with CMA</strong>
-                                </p>
-                            </td>
-                            <td class="para1">
-                                4 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-bcom-finance-with-ica"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>3.</td>
-                            <td>
-                                <p>
                                     <strong style="color: #023e8a;" class="#">M.Com.</strong>
                                 </p>
                             </td>
@@ -1310,40 +1276,6 @@
 
                         <tr>
                             <td>4.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">B.Com. - with ACCA</strong>
-                                </p>
-                            </td>
-                            <td class="para1">
-                                4 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-bcom-finance-with-ica"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>5.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">B.Com. - with CMA</strong>
-                                </p>
-                            </td>
-                            <td class="para1">
-                                4 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-bcom-finance-with-ica"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>3.</td>
                             <td>
                                 <p>
                                     <strong style="color: #023e8a;" class="#">M.Com.</strong>

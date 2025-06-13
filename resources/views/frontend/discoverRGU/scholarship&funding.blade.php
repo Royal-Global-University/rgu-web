@@ -1036,8 +1036,7 @@
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false"
                                         aria-controls="collapse11">
-                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">H</span> HOPE FOR MANIPUR SCHOLARSHIP - 100% ADMISSION FEE WAIVER (FOR STUDENTS FROM
-                                        VIOLENCE AFFECTED FAMILIES OF MANIPUR)
+                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">H</span> Hope For Manipur Scholarship - 100% Admission Fee Waiver (For Students From Violence Affected Families Of Manipur)
                                     </button>
                                 </h2>
                                 <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="headingOne"

@@ -23,7 +23,7 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">Master of Arts - Sociology</strong>
+                                        <strong style="color: #023e8a;" class="#">MA - Sociology</strong>
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -40,7 +40,7 @@
                                 <td>2.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">Bachelor of Arts - Sociology</strong>
+                                        <strong style="color: #023e8a;" class="#">BA - Sociology</strong>
                                         <br> Honours / Honours with Research
                                     </p>
 
@@ -83,7 +83,7 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">Master of Arts - Sociology</strong>
+                                        <strong style="color: #023e8a;" class="#">MA - Sociology</strong>
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -100,7 +100,7 @@
                                 <td>2.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">Bachelor of Arts - Sociology</strong>
+                                        <strong style="color: #023e8a;" class="#">BA - Sociology</strong>
                                         <br> Honours / Honours with Research
                                     </p>
 

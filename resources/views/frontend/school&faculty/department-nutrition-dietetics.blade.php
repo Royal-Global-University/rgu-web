@@ -40,6 +40,24 @@
                                 </td>
                             </tr>
 
+                            <tr class="align-middle">
+
+                                <td>1.</td>
+                                <td>
+                                    <p class="para1">
+                                        <strong style="color: #023e8a;" class="#">B.Sc. - Nutrition and Dietetics</strong>
+                                    </p>
+                                </td>
+                                <td class="para1">
+                                    4 years
+                                </td>
+                                <td>
+                                    <a target="_blank" href="programs-b-sc-nutrition&dietetics"><button type="button"
+                                            style="background-color: #FF9A1E; color: #fff;"
+                                            class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                                </td>
+                            </tr>
+
                         </tbody>
                     </table>
                 </div>
@@ -80,6 +98,24 @@
                                 </td>
                                 <td>
                                     <a target="_blank" href="programs-b-sc-nutrition&dietetics"><button type="button"
+                                            style="background-color: #FF9A1E; color: #fff;"
+                                            class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                                </td>
+                            </tr>
+
+                            <tr class="align-middle">
+
+                                <td>2.</td>
+                                <td>
+                                    <p class="para1">
+                                        <strong style="color: #023e8a;" class="#">M.Sc. - Nutrition and Dietetics</strong>
+                                    </p>
+                                </td>
+                                <td class="para1">
+                                    2 years
+                                </td>
+                                <td>
+                                    <a target="_blank" href="programs-MSc-Nutrition"><button type="button"
                                             style="background-color: #FF9A1E; color: #fff;"
                                             class="btn btn-md custom-details-btn fw-bold">Details</button></a>
                                 </td>

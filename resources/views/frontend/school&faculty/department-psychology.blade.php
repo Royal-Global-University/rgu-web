@@ -22,7 +22,7 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">BA Psychology</strong>
+                                    <strong style="color: #023e8a;" class="#">BA - Psychology</strong>
                                 </p>
                             </td>
                             <td class="para1">
@@ -56,7 +56,7 @@
                             <td>3.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">MA Psychology</strong>
+                                    <strong style="color: #023e8a;" class="#">MA - Psychology</strong>
                                 </p>
                             </td>
                             <td class="para1">
@@ -629,7 +629,7 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">BA Psychology</strong>
+                                    <strong style="color: #023e8a;" class="#">BA - Psychology</strong>
                                 </p>
                             </td>
                             <td class="para1">
@@ -663,7 +663,7 @@
                             <td>3.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">MA Psychology</strong>
+                                    <strong style="color: #023e8a;" class="#">MA - Psychology</strong>
                                 </p>
                             </td>
                             <td class="para1">

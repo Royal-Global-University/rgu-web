@@ -23,7 +23,7 @@
                     <td>1.</td>
                     <td>
                       <p class="para1">
-                        <strong style="color: #023e8a;" class="#">Master of Mathematics</strong>
+                        <strong style="color: #023e8a;" class="#">M.Sc. - Mathematics</strong>
                       </p>
                     </td>
                     <td class="para1">
@@ -40,7 +40,7 @@
                     <td>2.</td>
                     <td>
                       <p class="para1">
-                        <strong style="color: #023e8a;" class="#">Bachelor of Mathematics</strong>
+                        <strong style="color: #023e8a;" class="#">B.Sc. - Mathematics</strong>
                         <br> Honours / Honours with Research
                       </p>
 
@@ -90,7 +90,7 @@
                     <td>1.</td>
                     <td>
                       <p class="para1">
-                        <strong style="color: #023e8a;" class="#">Master of Mathematics</strong>
+                        <strong style="color: #023e8a;" class="#">M.Sc. - Mathematics</strong>
                       </p>
                     </td>
                     <td class="para1">
@@ -107,7 +107,7 @@
                     <td>2.</td>
                     <td>
                       <p class="para1">
-                        <strong style="color: #023e8a;" class="#">Bachelor of Mathematics</strong>
+                        <strong style="color: #023e8a;" class="#">B.Sc. - Mathematics</strong>
                         <br> Honours / Honours with Research
                       </p>
 

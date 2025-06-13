@@ -24,7 +24,7 @@
                     <td>1.</td>
                     <td>
                       <p class="para1">
-                        <strong style="color: #023e8a;" class="#">Master of Library & Information Sciences</strong>
+                        <strong style="color: #023e8a;" class="#">Master of Library & Information Sciences (M.L.I.Sc)</strong>
                       </p>
                     </td>
                     <td class="para1">
@@ -68,7 +68,7 @@
                     <td>1.</td>
                     <td>
                       <p class="para1">
-                        <strong style="color: #023e8a;" class="#">Master of Library & Information Sciences</strong>
+                        <strong style="color: #023e8a;" class="#">Master of Library & Information Sciences (M.L.I.Sc)</strong>
                       </p>
                     </td>
                     <td class="para1">

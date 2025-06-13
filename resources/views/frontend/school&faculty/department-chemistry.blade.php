@@ -23,7 +23,7 @@
                       <td>1.</td>
                       <td>
                           <p class="para1">
-                          <strong style="color: #023e8a;" class="#">Master of Chemistry</strong>
+                          <strong style="color: #023e8a;" class="#">M.Sc. - Chemistry</strong>
                           </p>
                       </td>
                       <td class="para1">
@@ -38,7 +38,7 @@
                     <td>2.</td>
                     <td >
                         <p class="para1">
-                        <strong style="color: #023e8a;" class="#">Bachelor of Chemistry</strong>
+                        <strong style="color: #023e8a;" class="#">B.Sc. - Chemistry</strong>
                         <br> Honours / Honours with Research
                         </p>
 
@@ -764,7 +764,7 @@
                         <td>1.</td>
                         <td>
                             <p class="para1">
-                            <strong style="color: #023e8a;" class="#">Master of Chemistry</strong>
+                            <strong style="color: #023e8a;" class="#">M.Sc. - Chemistry</strong>
                             </p>
                         </td>
                         <td class="para1">
@@ -779,7 +779,7 @@
                       <td>2.</td>
                       <td >
                           <p class="para1">
-                          <strong style="color: #023e8a;" class="#">Bachelor of Chemistry</strong>
+                          <strong style="color: #023e8a;" class="#">B.Sc. - Chemistry</strong>
                           <br> Honours / Honours with Research
                           </p>
 

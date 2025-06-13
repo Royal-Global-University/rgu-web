@@ -23,7 +23,7 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">Master of Arts History</strong>
+                                        <strong style="color: #023e8a;" class="#">MA - History</strong>
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -40,7 +40,7 @@
                                 <td>2.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">Bachelor of Arts History</strong>
+                                        <strong style="color: #023e8a;" class="#">BA - History</strong>
                                         <br> Honours / Honours with Research
                                     </p>
 
@@ -86,7 +86,7 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">Master of Arts History</strong>
+                                        <strong style="color: #023e8a;" class="#">MA - History</strong>
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -103,7 +103,7 @@
                                 <td>2.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">Bachelor of Arts History</strong>
+                                        <strong style="color: #023e8a;" class="#">BA - History</strong>
                                         <br> Honours / Honours with Research
                                     </p>
 
