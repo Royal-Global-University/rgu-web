@@ -1478,7 +1478,7 @@
                             <div style="display: flex; flex-direction: column;">
                                 <img src="https://media.rgu.ac/index/lookbook.png" alt="" />
                                 <div class="mt-5 text-center">
-                                    <a class="text-center p-3 rounded bg-light fw-bold text-dark">Download LookBook 2025</a>
+                                    <a href="https://heyzine.com/flip-book/601e0af13b.html" target="_blank" class="text-center p-3 rounded bg-light fw-bold text-dark">View LookBook 2025</a>
                                 </div>
                             </div>
                         </div>
@@ -1493,7 +1493,6 @@
 
                     </div>
                 </div>
-
 
                 <!--campus life-->
                 <section

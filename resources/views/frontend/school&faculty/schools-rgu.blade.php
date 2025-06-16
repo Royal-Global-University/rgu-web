@@ -1438,10 +1438,10 @@
                 (RSAG)</h5>
               <div class="mt-auto mb-4">
                 <div class="text-center">
-                {{-- <a class="para1"
-                  style="background-color: #656d7b; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                <a class="para1" href="{{ route('department-agriculture') }}"
+                  style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                   Department
-                </a> --}}
+                </a>
                 {{-- <a class="para1" href="{{route('faculty-travel-tourism')}}"
                   style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                   Faculty

@@ -106,12 +106,15 @@
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('schools-rgu') }}"
                                         style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Our
                                         Schools And <br> Faculties</a></li>
-                                {{-- <li><a class="dropdown-item text-dark para1" href="{{ route('deans') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Deans</a>
-                                </li> --}}
+
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('phd') }}"
                                         style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Doctoral
                                         Programme</a></li>
+
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('multi-disciplinary') }}"
+                                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Multidisciplinary/<br>
+                                                Interdisciplinary Courses</a>
+                                            </li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('achievements') }}"
                                         style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Achievements</a>
                                 </li>
@@ -155,7 +158,7 @@
                     <a class="nav-link dropdown-toggle para1" href="#"
                         style="color: #000000; font-weight: 600; font-size: 17px;">Admission</a>
                     <ul class="dropdown-menu"
-                        style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
+                        style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 300px; border-top: 3px solid #e68900;">
 
                         <li><a class="dropdown-item text-dark para1" href="{{ route('faq') }}"
                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Admission
@@ -174,12 +177,12 @@
                                 to Apply?</a></li>
                         <li><a class="dropdown-item text-dark para1" href="programs"
                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Eligibility
-                                & <br>Selection Criteria</a></li>
+                                & Selection Criteria</a></li>
 
                         <li class="dropdown-submenu" style="position: relative;">
                             <a class="dropdown-item text-dark dropdown-toggle para1" href="#"
                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">Scholarship
-                                and <br> Funding</a>
+                                and Funding</a>
                             <ul class="dropdown-menu"
                                 style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('scholarship&funding') }}"
@@ -193,7 +196,7 @@
 
                         <li><a class="dropdown-item text-dark para1" href="{{ route('schemes-differently-abled') }}"
                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Schemes
-                                for <br> Differently-Abled</a></li>
+                                for Differently-Abled</a></li>
                     </ul>
                 </li>
 
@@ -218,27 +221,6 @@
                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Convocation
                                 One</a></li>
 
-                    </ul>
-                </li>
-
-
-                <!-- Cell / Centre with Submenu -->
-                <li class="nav-item dropdown" style="position: relative;">
-                    <a class="nav-link dropdown-toggle para1" href="#"
-                        style="color: #000000; font-weight: 600; font-size: 17px;">Cell / Centre</a>
-                    <ul class="dropdown-menu"
-                        style="display: none; position: absolute; top: 100%; left: -40%; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 350px; border-top: 3px solid #e68900;">
-
-                        <li><a class="dropdown-item text-dark para1" href="{{ route('phd-cell') }}"
-                                style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Ph.D. Cell</a></li>
-                        <li><a class="dropdown-item text-dark para1" href="{{ route('equal-opportunities-cell') }}"
-                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Equal Opportunities
-                                Cell</a></li>
-                        <li><a class="dropdown-item text-dark para1" href="{{ route('counselling-cell') }}"
-                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Counselling Cell</a></li>
-                        <li><a class="dropdown-item text-dark para1" href="{{ route('cisr') }}"
-                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Centre for
-                                Interdisciplinary<br> Study & Research (CISR)</a></li>
                     </ul>
                 </li>
 

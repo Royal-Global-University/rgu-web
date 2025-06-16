@@ -1632,6 +1632,10 @@ Route::get('/faculty-csp', function () {
     return view('frontend/school&faculty/faculty-csp');
 })->name('faculty-csp');
 
+Route::get('/department-agriculture', function () {
+    return view('frontend/school&faculty/department-agriculture');
+})->name('department-agriculture');
+
 Route::get('/department-architecture', function () {
     return view('frontend/school&faculty/department-architecture');
 })->name('department-architecture');
@@ -2852,6 +2856,11 @@ Route::get('/grievance', function () {
 Route::get('/annual-report', function () {
     return view('frontend/quicklink/annual-reports');
 })->name('annual-report');
+
+Route::get('/multi-disciplinary', function () {
+    return view('frontend/academics/multi-disciplinary');
+})->name('multi-disciplinary');
+
 
 //Cell
 Route::get('/phd-cell', function () {

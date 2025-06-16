@@ -110,6 +110,11 @@
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('phd') }}"
                                         style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Doctoral
                                         Programme</a></li>
+
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('multi-disciplinary') }}"
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Multidisciplinary/<br> Interdisciplinary Courses</a>
+                                            </li>
+
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('achievements') }}"
                                         style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Achievements</a>
                                 </li>
