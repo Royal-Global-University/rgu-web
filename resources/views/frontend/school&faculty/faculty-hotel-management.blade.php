@@ -1,404 +1,459 @@
 @extends('frontend.master')
 @section('content')
-    <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/bg.svg); background-size: cover;">
+    <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
 
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-          <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text"
-            style="color: #27467A; font-weight: 900; padding-top: 120px; position: relative;">
-          Royal School of <br><span style="color: #FF9A1E; font-weight: 500;"> Hotel Management (RSHM)</span></h2>
+            <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text pt-5"
+                style="color: #27467A; font-weight: 900;">
+                Royal School of <br><span style="color: #FF9A1E; font-weight: 500; padding-top: 110px; position: relative;">
+                    Hotel Management (RSHM)</span></h2>
 
-          <div style="padding: 20px 30px;">
+            <div style="padding: 20px 30px;">
 
-            <div class="row" style="display: flex; align-items: center; justify-content: center;">
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/soumitra.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Prof. Soumitra Sen
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Senior Professor and i/c Dean
-                    </p>
-                  </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/soumitra-sen.jpeg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Prof. Soumitra Sen
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Senior Professor and i/c Dean
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rshm/piyush.jpg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Mr. Piyush Gupta
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor & Coordinator
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Indrajit-Dutta.jpeg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Indrajit Dutta
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Associate Professor & HoD, <br>
+                                    Royal School of Travel & Tourism Management
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Syed-Sajidul-Islam-RSHM.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Syed Sajidul Islam
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Associate Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Ms-Darshana-Gogoi-RSHM.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Ms. Darshana Gogoi
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/all-faculty/rshm/Ms.EkajollyDas.jpg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Ms. Ekajolly Das
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Phiba-Pariong-RSHM.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Ms. Phibapynhun Pariong
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Reemina-Narzary-RSHM.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Ms. Reemina Narzary
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Mr-Sparsh-Tiwari-RSHM.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Mr. Sparsh Tiwari
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rshm/Mr.Chandan.jpg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Mr. Chandan Jyoti Bezborah
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Teaching Assistant
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Prabahan-Puzari.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Mr. Prabahan Puzari
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Teaching Assistant
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/piyush.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Mr. Piyush Gupta
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor & Coordinator
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/indrajit.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Indrajit Dutta
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Associate Professor & HoD, <br>
-                      Royal School of Travel & Tourism Management
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-               <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/SyedSajidulIslamDP.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Syed Sajidul Islam
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Associate Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/Ms.DarshanaGogoi.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Darshana Gogoi
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/Ms.EkajollyDas.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Ekajolly Das
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/phiba.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Phibapynhun Pariong
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/ReeminaNarzaryRSHM.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Reemina Narzary
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/MrSparsh.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Mr. Sparsh Tiwari
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/Mr.Chandan.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Mr. Chandan Jyoti Bezborah
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Teaching Assistant
-                    </p>
-                  </div>
-                </div>
-              </div>
 
             </div>
-
-          </div>
 
         </div>
 
 
         <div class="website">
             @include('frontend/components/aheader')
-          <h2 class="headd1 mb-5 fw-bold text-center kd-title-ani kd-split-text pt-5"
-            style="color: #27467A; font-weight: 900;">
-          Royal School of<span style="color: #FF9A1E; font-weight: 500;"> Hotel Management (RSHM)</span></h2>
+            <h2 class="headd1 mb-5 fw-bold text-center kd-title-ani kd-split-text pt-5"
+                style="color: #27467A; font-weight: 900;">
+                Royal School of<span style="color: #FF9A1E; font-weight: 500;"> Hotel Management (RSHM)</span></h2>
 
-          <div style="padding: 20px 70px;">
+            <div style="padding: 20px 70px;">
 
-            <div class="row" style="display: flex; align-items: center; justify-content: center;">
+                <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/soumitra.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Prof. Soumitra Sen
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Senior Professor and i/c Dean
-                    </p>
-                  </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/soumitra-sen.jpeg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Prof. Soumitra Sen
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Senior Professor and i/c Dean
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rshm/piyush.jpg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Mr. Piyush Gupta
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor & Coordinator
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Indrajit-Dutta.jpeg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Indrajit Dutta
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Associate Professor & HoD, <br>
+                                    Royal School of Travel & Tourism Management
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Syed-Sajidul-Islam-RSHM.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Syed Sajidul Islam
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Associate Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Ms-Darshana-Gogoi-RSHM.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Ms. Darshana Gogoi
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/all-faculty/rshm/Ms.EkajollyDas.jpg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Ms. Ekajolly Das
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Phiba-Pariong-RSHM.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Ms. Phibapynhun Pariong
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Reemina-Narzary-RSHM.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Ms. Reemina Narzary
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Mr-Sparsh-Tiwari-RSHM.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Mr. Sparsh Tiwari
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rshm/Mr.Chandan.jpg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Mr. Chandan Jyoti Bezborah
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Teaching Assistant
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Prabahan-Puzari.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Mr. Prabahan Puzari
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Teaching Assistant
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/piyush.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Mr. Piyush Gupta
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor & Coordinator
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/indrajit.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Indrajit Dutta
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Associate Professor & HoD, <br>
-                      Royal School of Travel & Tourism Management
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-               <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/SyedSajidulIslamDP.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Syed Sajidul Islam
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Associate Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/Ms.DarshanaGogoi.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Darshana Gogoi
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/Ms.EkajollyDas.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Ekajolly Das
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/phiba.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Phibapynhun Pariong
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/ReeminaNarzaryRSHM.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Reemina Narzary
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/MrSparsh.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Mr. Sparsh Tiwari
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rshm/Mr.Chandan.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Mr. Chandan Jyoti Bezborah
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Teaching Assistant
-                    </p>
-                  </div>
-                </div>
-              </div>
 
             </div>
 
-          </div>
-
         </div>
 
-      </section>
+    </section>
 @endsection
