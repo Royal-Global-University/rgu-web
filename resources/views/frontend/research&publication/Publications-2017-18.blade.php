@@ -446,13 +446,6 @@
                                                 <td>-</td>
                                             </tr>
                                             <tr>
-                                                <td>59</td>
-                                                <td>Dr. Israfil Hussain, Assistant Professor &amp;HoD i/c</td>
-                                                <td>0</td>
-                                                <td>3</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
                                                 <td>60</td>
                                                 <td>Mr. Kaushik Jyoti Das, Assistant Professor</td>
                                                 <td>0</td>
@@ -1729,13 +1722,6 @@
                                                 </td>
                                                 <td>0</td>
                                                 <td>1</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td>59</td>
-                                                <td>Dr. Israfil Hussain, Assistant Professor &amp;HoD i/c</td>
-                                                <td>0</td>
-                                                <td>3</td>
                                                 <td>-</td>
                                             </tr>
                                             <tr>

@@ -2916,3 +2916,22 @@ Route::get('/dr-sankar-barman', function () {
 Route::get('/dr-sujata-deb', function () {
     return view('frontend/facultyprofile/rsaps/sujata-deb');
 })->name('dr-sujata-deb');
+
+
+//media-corner
+
+Route::get('/media-corner', function () {
+    return view('frontend/media-corner/media-corner');
+})->name('media-corner');
+
+Route::get('/RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy', function () {
+    return view('frontend/media-corner/news1');
+})->name('RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy');
+
+Route::get('/RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students', function () {
+    return view('frontend/media-corner/news2');
+})->name('RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students');
+
+Route::get('/129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance', function () {
+    return view('frontend/media-corner/news3');
+})->name('129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance'); 

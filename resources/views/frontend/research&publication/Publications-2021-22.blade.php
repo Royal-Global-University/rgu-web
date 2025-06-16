@@ -1159,16 +1159,6 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>102</td>
-                                                <td>Dr. Israfil Hussain</td>
-                                                <td>Royal School of Engineering &amp; Technology</td>
-                                                <td>Asstt. Professor</td>
-                                                <td>
-                                                    1 ) Conference Proceedings:Advances in Electrical and Computer
-                                                    Technologies
-                                                </td>
-                                            </tr>
-                                            <tr>
                                                 <td>103</td>
                                                 <td>Dr. Aniruddha Deka</td>
                                                 <td>Royal School of Engineering &amp; Technology</td>
@@ -2377,16 +2367,6 @@
                                                     1) Conference Proceedings: International Conference on Smart Technology
                                                     for Energy, Environment &amp; sustainable Development, 4-5 December,
                                                     2020, Nagpur
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>102</td>
-                                                <td>Dr. Israfil Hussain</td>
-                                                <td>Royal School of Engineering &amp; Technology</td>
-                                                <td>Asstt. Professor</td>
-                                                <td>
-                                                    1 ) Conference Proceedings:Advances in Electrical and Computer
-                                                    Technologies
                                                 </td>
                                             </tr>
                                             <tr>

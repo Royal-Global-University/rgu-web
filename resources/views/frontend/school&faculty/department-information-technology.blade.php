@@ -317,9 +317,7 @@
                                     <td>Member Secretary</td>
                                 </tr>
                                 <tr>
-                                    <td>Dr. Israfil Hussain</td>
-                                    <td>Associate Professor</td>
-                                    <td>Member</td>
+
                                 </tr>
                                 <tr>
                                     <td>4</td>

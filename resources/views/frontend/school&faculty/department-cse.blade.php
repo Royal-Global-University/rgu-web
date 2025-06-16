@@ -655,8 +655,6 @@
                                         <hr />
                                         Dr. Sumi Kankana Dewan, Assistant Professor
                                         <hr />
-                                        Dr. Israfil Hussain, Assistant Professor
-                                        <hr />
                                         Ms. Ankita Goyal Agarwala, Assistant Professor
                                         <hr />
                                         Mr. Saurabh Sutradhar, Assistant Professor
@@ -741,19 +739,13 @@
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Dr. Israfil Hussain</td>
-                                    <td>Associate Professor</td>
-                                    <td>Member</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
                                     <td>Assistant Professors holding Ph.D. degree</td>
                                     <td>Dr. Sumi Kankana Dewan</td>
                                     <td>Assistant Professor</td>
                                     <td>Member</td>
                                 </tr>
                                 <tr>
-                                    <td>7</td>
+                                    <td>6</td>
                                     <td rowspan="3" class="align-middle">
                                         Three external members not below the rank of Professors,
                                         including members from an allied department, who will be
@@ -764,13 +756,13 @@
                                     <td>External Member</td>
                                 </tr>
                                 <tr>
-                                    <td>8</td>
+                                    <td>7</td>
                                     <td>Prof. Kamal Debnath</td>
                                     <td>Professor</td>
                                     <td>External Member</td>
                                 </tr>
                                 <tr>
-                                    <td>9</td>
+                                    <td>8</td>
                                     <td>Prof. Hiren Deva Sarma</td>
                                     <td>Professor</td>
                                     <td>External Member</td>

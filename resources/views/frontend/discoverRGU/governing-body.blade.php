@@ -196,7 +196,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/10-11.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/Harsha.jpeg" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Ms. Harsha Pansari
@@ -214,7 +214,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/10-11.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/Sikha.jpg" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Ms. Sikha Modi Pansari
@@ -444,7 +444,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/8.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/Harsha.jpeg" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Ms. Harsha Pansari
@@ -462,7 +462,7 @@
 
             <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                 <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/8.png" class="img-fluid rounded"/>
+                  <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/Sikha.jpg" class="img-fluid rounded"/>
                 </div>
                 <div class="card-body d-flex flex-column flex-grow-1">
                   <h5 style="font-weight: 700; color: #27467A;" class="card-title headd2 pb-2">Ms. Sikha Modi Pansari

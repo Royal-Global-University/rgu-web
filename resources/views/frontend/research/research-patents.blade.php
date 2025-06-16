@@ -41,7 +41,7 @@
                             <tr>
                                 <td>2</td>
                                 <td>PLANT LEAF DISEASE DETECTION USING COMPUTER VISION AND MACHINE LEARNING ALGORITHMS</td>
-                                <td>Dr. Rashel Sarkar, Dr. Samarjit Das, Nilakshi Deka, Dr. Israfil Hussain, Dr. Novonita Baruah
+                                <td>Dr. Rashel Sarkar, Dr. Samarjit Das, Nilakshi Deka, Dr. Novonita Baruah
                                 </td>
                                 <td>Patent</td>
                                 <td>202431001745</td>
@@ -58,7 +58,7 @@
                                 <td>3</td>
                                 <td>NANOPARTICLES BASED CANCER MEDICATION DEVICE</td>
                                 <td>Dr RASHEL SARKAR,
-                                    Nilakshi Deka, Dr. Samarjit Das, Dr. Israfil Hussain, Dr. Novonita Baruah
+                                    Nilakshi Deka, Dr. Samarjit Das, Dr. Novonita Baruah
                                 </td>
                                 <td>Patent</td>
                                 <td>202331085356</td>
@@ -1252,7 +1252,7 @@
                             <tr>
                                 <td>2</td>
                                 <td>PLANT LEAF DISEASE DETECTION USING COMPUTER VISION AND MACHINE LEARNING ALGORITHMS</td>
-                                <td>Dr. Rashel Sarkar, Dr. Samarjit Das, Nilakshi Deka, Dr. Israfil Hussain, Dr. Novonita Baruah
+                                <td>Dr. Rashel Sarkar, Dr. Samarjit Das, Nilakshi Deka, Dr. Novonita Baruah
                                 </td>
                                 <td>Patent</td>
                                 <td>202431001745</td>
@@ -1269,7 +1269,7 @@
                                 <td>3</td>
                                 <td>NANOPARTICLES BASED CANCER MEDICATION DEVICE</td>
                                 <td>Dr RASHEL SARKAR,
-                                    Nilakshi Deka, Dr. Samarjit Das, Dr. Israfil Hussain, Dr. Novonita Baruah
+                                    Nilakshi Deka, Dr. Samarjit Das, Dr. Novonita Baruah
                                 </td>
                                 <td>Patent</td>
                                 <td>202331085356</td>

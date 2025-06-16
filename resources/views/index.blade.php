@@ -15,26 +15,26 @@
         <!-- Floating Section with Frosted Background -->
         <div class="container">
             <div class="floating-wrapper" style="
-                position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-                width: 90%; max-width: 400px; z-index: 800;
-                backdrop-filter: blur(30px);
-                background: #27467A; /* Frosty effect */
-                border-radius: 10px;
-                box-shadow: 0 1px 1px #ffffff97;
-                border: 1px solid #27467A;
-                padding: 15px;">
+                    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+                    width: 90%; max-width: 400px; z-index: 800;
+                    backdrop-filter: blur(30px);
+                    background: #27467A; /* Frosty effect */
+                    border-radius: 10px;
+                    box-shadow: 0 1px 1px #ffffff97;
+                    border: 1px solid #27467A;
+                    padding: 15px;">
 
                 <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
                     <span class="mobile-para1" style="
-                        font-weight: bold; font-size: 18px; line-height: 1.3;
-                        color: #fff; flex-grow: 1;">
+                            font-weight: bold; font-size: 18px; line-height: 1.3;
+                            color: #fff; flex-grow: 1;">
                         Admission open for 2025 - 2026
                     </span>
 
                     <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
-                        background-color: #ffb300; color: #fff;
-                        font-weight: bold; padding: 10px 14px; border-radius: 5px;
-                        text-decoration: none; white-space: nowrap;">
+                            background-color: #ffb300; color: #fff;
+                            font-weight: bold; padding: 10px 14px; border-radius: 5px;
+                            text-decoration: none; white-space: nowrap;">
                         Apply Now
                     </a>
                 </div>
@@ -74,7 +74,7 @@
 
         <!-- discover rgu -->
         <div>
-            <img src="mobile-rgu.png"/>
+            <img src="mobile-rgu.png" />
         </div>
         <!-- discover rgu -->
 
@@ -90,14 +90,90 @@
                         <img src="https://media.rgu.ac/index/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded"
                             alt="...">
                     </div>
-                    <div class="carousel-item active">
-                        <img src="https://media.rgu.ac/index/mob-img.png"
-                            class="d-block w-100 rounded" alt="...">
-                    </div>
                 </div>
             </div>
         </section>
         <!-- happening at rgu  -->
+
+        <div class="p-2">
+            <h2 class="headd2 fw-bold pb-2 pt-3 text-center" style="color: #27467A; font-size: 40px;">Media <span
+                    style="color: #FF9A1E; font-weight: 500;"> Corner</span></h2>
+            <div class="card" style="height: 300px; overflow: hidden; position: relative; background-color: #faebd7;">
+                <div class="notification-wrapper"
+                    style="position: absolute; top: 100%; width: 100%; animation: scrollUp 20s linear infinite;">
+
+                    <div class="notification-item text-dark para1 pt-5">
+                        <a href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy"
+                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated
+                            BA and
+                            BSc Programs with Civil Services Coaching by SPM IAS Academy</a>
+                    </div>
+                    <div class="notification-item text-dark para1">
+                        <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students"
+                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates
+                            Commendation Day
+                            for Placed Graduating Students </a>
+                    </div>
+                    <div class="notification-item text-dark para1">
+                        <a href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance"
+                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication
+                            Keys to
+                            Success: Lt Col Singh at RGU Scholarship Ceremony</a>
+                    </div>
+
+                    <div class="notification-item text-dark para1 pt-5">
+                        <a href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy"
+                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated
+                            BA and
+                            BSc Programs with Civil Services Coaching by SPM IAS Academy</a>
+                    </div>
+                    <div class="notification-item text-dark para1">
+                        <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students"
+                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates
+                            Commendation Day
+                            for Placed Graduating Students </a>
+                    </div>
+                    <div class="notification-item text-dark para1">
+                        <a href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance"
+                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication
+                            Keys to
+                            Success: Lt Col Singh at RGU Scholarship Ceremony</a>
+                    </div>
+
+                    <div class="notification-item text-dark para1 pt-5">
+                        <a href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy"
+                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated
+                            BA and
+                            BSc Programs with Civil Services Coaching by SPM IAS Academy</a>
+                    </div>
+                    <div class="notification-item text-dark para1">
+                        <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students"
+                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates
+                            Commendation Day
+                            for Placed Graduating Students </a>
+                    </div>
+                    <div class="notification-item text-dark para1">
+                        <a href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance"
+                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication
+                            Keys to
+                            Success: Lt Col Singh at RGU Scholarship Ceremony</a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="media-corner">
+                <h2 class="para1 fw-bold pt-3 text-center" style="color: #27467A;">View All</h2>
+            </a>
+        </div>
 
         <!-- mobile Notifications -->
         <div class="container mt-3">
@@ -105,10 +181,7 @@
                 <!-- Left Side: Marquee -->
                 <div class="col-9 overflow-hidden">
                     <div class="mobile-marquee">
-                        <span class="mobile-headd3">📢 Admission Open For Ph.D. 2025-2026 | 📢 International Seminar by The Assam Royal Global University in
-                            association with ELTAI, September, 2024 | 🎓 Advertisement No. : DST-SERB-01/2024 | 🏆 East Zone
-                            Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with Higher
-                            Education' </span>
+                        <span class="mobile-headd3">📢 Admission Open For Ph.D. 2025-2026 | 📢 Download Civil Service Brochure | 🎓 Download Sports Policy Brochure | 📢 Admission Open For Ph.D. 2025-2026 | 📢 Download Civil Service Brochure | 🎓 Download Sports Policy Brochure | 📢 Admission Open For Ph.D. 2025-2026 | 📢 Download Civil Service Brochure | 🎓 Download Sports Policy Brochure </span>
                     </div>
                 </div>
 
@@ -134,7 +207,9 @@
                                 <div class="prthalign">
 
                                     <h6 class="mobile-headd2 kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                                        <img style="width: 40x; height: 40px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg" alt="">
+                                        <img style="width: 40x; height: 40px;"
+                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg"
+                                            alt="">
                                         Info
                                     </h6>
                                     <h2 class="mobile-headd1 elementor-gt-heading kd-title-ani kd-split-text"
@@ -251,7 +326,8 @@
             <a href="doctoral-programme">
                 <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
                     <div class="main-img fix img-cover">
-                        <img fetchpriority="high" decoding="async" width="357" height="220" src="https://media.rgu.ac/index/c6.svg"
+                        <img fetchpriority="high" decoding="async" width="357" height="220"
+                            src="https://media.rgu.ac/index/c6.svg"
                             class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
                     </div>
                 </div>
@@ -313,8 +389,8 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/architecture1.jpg"
-                                        class="img-fluid rounded" />
+                                    <img style="height: 300px; width: 100%;"
+                                        src="https://media.rgu.ac/index/architecture1.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Architecture <span
@@ -355,8 +431,8 @@
                             <div class="card d-flex flex-column shadow-sm"
                                 style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
                                 <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/engineering1.jpg"
-                                        class="img-fluid rounded" />
+                                    <img style="height: 300px; width: 100%;"
+                                        src="https://media.rgu.ac/index/engineering1.jpg" class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
                                     <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Engineering <span
@@ -632,16 +708,20 @@
         <!--Mobile Testimonial-->
         <section style="padding: 40px 30px; background-image: url(https://media.rgu.ac/index/s2-bg-img-1.webp);">
             <h6 class="mobile-headd3 text-center kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                <img style="width: 40x; height: 40px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg" alt="">
+                <img style="width: 40x; height: 40px;"
+                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg" alt="">
                 RGU Testimonials
             </h6>
             <h2 class="mobile-headd1 pb-4 pt-3" style="color: #27467A;">They Speak <span
                     style="font-weight: 500; color: #EF991F;">About Us</span></h2>
 
             <div class="row" style="display: flex; flex-direction: column;">
-                <a href="success"><img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/alumni-student.png" /></a>
-                <a href="top-recruiters"><img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/recruiters.png" /></a>
-                <a href="footprints"><img class="pb-3" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/dignitaries.png" /></a>
+                <a href="success"><img class="pb-3"
+                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/alumni-student.png" /></a>
+                <a href="top-recruiters"><img class="pb-3"
+                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/recruiters.png" /></a>
+                <a href="footprints"><img class="pb-3"
+                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/dignitaries.png" /></a>
             </div>
 
         </section>
@@ -692,13 +772,13 @@
 
                                         <div class="col-lg-3">
 
-                                                <a href="https://admissions.rgu.ac/" target="_blank">
-                                                    <div class="btn-container">
-                                                        <div class="btn shiny-button">
-                                                            <p class="text-center headd3 fw-bold pt-3">APPLY NOW </p>
-                                                        </div>
+                                            <a href="https://admissions.rgu.ac/" target="_blank">
+                                                <div class="btn-container">
+                                                    <div class="btn shiny-button">
+                                                        <p class="text-center headd3 fw-bold pt-3">APPLY NOW </p>
                                                     </div>
-                                                </a>
+                                                </div>
+                                            </a>
                                         </div>
 
                                     </div>
@@ -713,17 +793,21 @@
                                         <img src="https://media.rgu.ac/index/research-website.png" alt="Slide 2">
                                     </div>
                                     <!-- <div class="carousel-item">
-                                            <img src="sarang/s3.png" alt="Slide 3">
-                                        </div> -->
+                                                <img src="sarang/s3.png" alt="Slide 3">
+                                            </div> -->
                                 </div>
 
                             </div>
 
                             {{-- <div class="video-container" style="position: relative; width: 100%; height: 95vh;">
-                                <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2" alt="Video Thumbnail" style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
-                                                                z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">                      </div> --}}
+                                <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
+                                    alt="Video Thumbnail"
+                                    style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
+                                                                    z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
+                            </div> --}}
                             <div class="video-container" style="position: relative; width: 100%; height: auto;">
-                                <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2" alt="Video Thumbnail"
+                                <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
+                                    alt="Video Thumbnail"
                                     style="width: 100%; height: auto; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
 
                                 <video autoplay loop muted playsinline id="video-bg2" oncanplay="showVideo2()"
@@ -768,7 +852,7 @@
                             <div style="text-align:center; margin-top:10px;">
                                 <button onclick="prevSlide()"
                                     style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">
-                                    <</button>
+                                    < </button>
                                         <button onclick="nextSlide()"
                                             style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">></button>
                             </div>
@@ -857,88 +941,83 @@
                         <div class="col-lg-5">
                             <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-size: 40px;">Notification</h2>
 
-                            <div class="card" style="height: 530px; overflow: hidden; position: relative; background-color: #faebd7;">
+                            <div class="card"
+                                style="height: 180px; overflow: hidden; position: relative; background-color: #faebd7;">
                                 <div class="notification-item text-dark para1">
                                     <a href="https://media.rgu.ac/phd.pdf" class="pt-3"
-                                        style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit; padding:15px;" target="_blank"><img
-                                            style="width: 50px;"
-                                            src="mobile-assets/icons/newicon.gif" alt="">
+                                        style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"
+                                        target="_blank"><img style="width: 50px;" src="mobile-assets/icons/newicon.gif"
+                                            alt="">
                                         Admission Open For Ph.D. 2025-2026 </a>
 
-                                        <a href="https://media.rgu.ac/Brochure/ICSP.pdf"
-                                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit; padding:15px;" target="_blank"><img
-                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt="">
-                                                Download Civil Service Brochure
-                                        </a>
+                                    <a href="https://media.rgu.ac/Brochure/ICSP.pdf"
+                                        style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"
+                                        target="_blank"><img style="width: 50px;" src="mobile-assets/icons/newicon.gif"
+                                            alt="">
+                                        Download Civil Service Brochure
+                                    </a>
 
-                                        <a href="https://media.rgu.ac/Brochure/sports-policy.pdf"
-                                            style="display: block; text-decoration: none; color: inherit; padding:15px;" target="_blank"><img
-                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt="">
-                                                Download Sports Policy Brochure
-                                        </a>
+                                    <a href="https://media.rgu.ac/Brochure/sports-policy.pdf"
+                                        style="display: block; text-decoration: none; color: inherit;" target="_blank"><img
+                                            style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt="">
+                                        Download Sports Policy Brochure
+                                    </a>
                                 </div>
                             </div>
-                            {{-- <h2 class="headd2 fw-bold pb-2 pt-3" style="color: #27467A; font-size: 40px;">Media <span style="color: #FF9A1E; font-weight: 500;"> Corner</span></h2>
-                            <div class="card" style="height: 300px; overflow: hidden; position: relative; background-color: #faebd7;">
+                            <h2 class="headd2 fw-bold pb-2 pt-3" style="color: #27467A; font-size: 40px;">Media <span
+                                    style="color: #FF9A1E; font-weight: 500;"> Corner</span></h2>
+                            <div class="card"
+                                style="height: 300px; overflow: hidden; position: relative; background-color: #faebd7;">
                                 <div class="notification-wrapper"
                                     style="position: absolute; top: 100%; width: 100%; animation: scrollUp 20s linear infinite;">
 
                                     <div class="notification-item text-dark para1 pt-5">
-                                        <a href=""
-                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated BA and BSc Programs with Civil Services Coaching by SPM IAS Academy</a>
+                                        <a href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy"
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU
+                                            Launches Integrated BA and BSc Programs with Civil Services Coaching by SPM IAS
+                                            Academy</a>
                                     </div>
                                     <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates Commendation Day for Placed Graduating Students </a>
+                                        <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students"
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU
+                                            Celebrates Commendation Day for Placed Graduating Students </a>
                                     </div>
                                     <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication Keys to Success: Lt Col Singh at RGU Scholarship Ceremony</a>
+                                        <a href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance"
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt="">
+                                            Discipline and Dedication Keys to Success: Lt Col Singh at RGU Scholarship
+                                            Ceremony</a>
                                     </div>
 
                                     <div class="notification-item text-dark para1 pt-5">
-                                        <a href=""
+                                        <a href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy"
                                             style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated BA and BSc
-                                            Programs with Civil Services Coaching by SPM IAS Academy</a>
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU
+                                            Launches Integrated BA and BSc Programs with Civil Services Coaching by SPM IAS
+                                            Academy</a>
                                     </div>
                                     <div class="notification-item text-dark para1">
-                                        <a href="#"
+                                        <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students"
                                             style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates Commendation Day for
-                                            Placed Graduating Students </a>
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU
+                                            Celebrates Commendation Day for Placed Graduating Students </a>
                                     </div>
                                     <div class="notification-item text-dark para1">
-                                        <a href="#"
+                                        <a href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance"
                                             style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication Keys to
-                                            Success: Lt Col Singh at RGU Scholarship Ceremony</a>
-                                    </div>
-
-                                    <div class="notification-item text-dark para1 pt-5">
-                                        <a href=""
-                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated BA and BSc
-                                            Programs with Civil Services Coaching by SPM IAS Academy</a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates Commendation Day for
-                                            Placed Graduating Students </a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication Keys to
-                                            Success: Lt Col Singh at RGU Scholarship Ceremony</a>
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt="">
+                                            Discipline and Dedication Keys to Success: Lt Col Singh at RGU Scholarship
+                                            Ceremony</a>
                                     </div>
 
                                 </div>
                             </div>
-                            <a href="https://rgu.ac/notifications">
-                                <h2 class="para1 fw-bold pt-3 text-center" style="color: #27467A;">View More -></h2>
-                            </a> --}}
+                            <div style="text-align:center; margin-top:10px;">
+                                <a href="media-corner"><button style="padding:2px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">View All</button></a>
+                            </div>
                         </div>
 
                         <style>
@@ -963,7 +1042,8 @@
                             }
                         </style>
 
-                    </div>  </div>
+                    </div>
+                </div>
                 <!--End Events-->
 
                 <!--Event Section-->
@@ -1156,29 +1236,36 @@
                                                                 <div class="swiper-wrapper">
                                                                     <div class="swiper-slide">
                                                                         <div class="kd-team-4-slide-main-item ">
-                                                                            <img decoding="async" style="height: 650px; width: 95%;"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-2.jpeg" alt="">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="swiper-slide">
-                                                                        <div class="kd-team-4-slide-main-item ">
-                                                                            <img decoding="async" style="height: 650px; width: 95%;"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-01.jpeg" alt="">
+                                                                            <img decoding="async"
+                                                                                style="height: 650px; width: 95%;"
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-2.jpeg"
+                                                                                alt="">
                                                                         </div>
                                                                     </div>
                                                                     <div class="swiper-slide">
                                                                         <div class="kd-team-4-slide-main-item ">
                                                                             <img decoding="async"
                                                                                 style="height: 650px; width: 95%;"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e03.jpeg" alt="">
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-01.jpeg"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="swiper-slide">
+                                                                        <div class="kd-team-4-slide-main-item ">
+                                                                            <img decoding="async"
+                                                                                style="height: 650px; width: 95%;"
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e03.jpeg"
+                                                                                alt="">
 
 
                                                                         </div>
                                                                     </div>
                                                                     <div class="swiper-slide">
                                                                         <div class="kd-team-4-slide-main-item ">
-                                                                            <img decoding="async" style="height: 650px; width: 95%;"
-                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg" alt="">
+                                                                            <img decoding="async"
+                                                                                style="height: 650px; width: 95%;"
+                                                                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg"
+                                                                                alt="">
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1204,25 +1291,35 @@
                                                                     class="swiper-container fix kd-team-4-slide-prview-active">
                                                                     <div class="swiper-wrapper">
                                                                         <div class="swiper-slide">
-                                                                            <div style="border: 1px solid #5887D6;" class="kd-team-4-slide-prview-item fix">
-                                                                                <img decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-2.jpeg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="swiper-slide">
-                                                                            <div style="border: 1px solid #5887D6;" class="kd-team-4-slide-prview-item fix">
-                                                                                <img decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-01.jpeg" alt="">
+                                                                            <div style="border: 1px solid #5887D6;"
+                                                                                class="kd-team-4-slide-prview-item fix">
+                                                                                <img decoding="async"
+                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-2.jpeg"
+                                                                                    alt="">
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide">
                                                                             <div style="border: 1px solid #5887D6;"
                                                                                 class="kd-team-4-slide-prview-item fix">
                                                                                 <img decoding="async"
-                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e03.jpeg" alt="">
+                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/may-01.jpeg"
+                                                                                    alt="">
                                                                             </div>
                                                                         </div>
                                                                         <div class="swiper-slide">
-                                                                            <div style="border: 1px solid #5887D6;" class="kd-team-4-slide-prview-item fix">
-                                                                                <img decoding="async" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg" alt="">
+                                                                            <div style="border: 1px solid #5887D6;"
+                                                                                class="kd-team-4-slide-prview-item fix">
+                                                                                <img decoding="async"
+                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e03.jpeg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div style="border: 1px solid #5887D6;"
+                                                                                class="kd-team-4-slide-prview-item fix">
+                                                                                <img decoding="async"
+                                                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/events/e04.jpeg"
+                                                                                    alt="">
                                                                             </div>
                                                                         </div>
 
@@ -1306,7 +1403,8 @@
                                     <div class="elementor-widget-container">
                                         <div class="prthalign">
                                             <h6 class="para1 kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                                                <img style="width: 40x; height: 40px;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg"
+                                                <img style="width: 40x; height: 40px;"
+                                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg"
                                                     alt="">
                                                 Info
                                             </h6>
@@ -1333,8 +1431,8 @@
                                                     <div class="swiper-slide">
                                                         <div class="kd-pop-cat-1-item text-center">
                                                             <!-- <img decoding="async"
-                                                                src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/pc-1-shape-1.webp"
-                                                                alt="" class="shape"> -->
+                                                                    src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/pc-1-shape-1.webp"
+                                                                    alt="" class="shape"> -->
                                                             <div class="icon d-flex align-items-center justify-content-center"
                                                                 style="background-color: antiquewhite;">
                                                                 <h3 class="text-dark fw-bold">22</h3>
@@ -1446,15 +1544,15 @@
                             <div style="display: flex; flex-direction: column;">
                                 <img src="https://media.rgu.ac/index/lookbook.png" alt="" />
                                 <div class="mt-5 text-center">
-                                    <a href="https://heyzine.com/flip-book/601e0af13b.html" target="_blank" class="text-center p-3 rounded bg-light fw-bold text-dark">View LookBook 2025</a>
+                                    <a href="https://heyzine.com/flip-book/601e0af13b.html" target="_blank"
+                                        class="text-center p-3 rounded bg-light fw-bold text-dark">View LookBook 2025</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-5" style="display: flex; justify-content: center;">
                             <video autoplay loop muted playsinline
                                 style="width: 100%; height: auto; pointer-events: none; border: 4px solid #fff;">
-                                <source src="https://media.rgu.ac/index/lookbook.mp4"
-                                    type="video/mp4">
+                                <source src="https://media.rgu.ac/index/lookbook.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -1483,12 +1581,12 @@
                                                 <div class="kd-course-1-scn-title">
                                                     <div class="left">
                                                         <!-- <h6
-                                                                class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
-                                                                <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
-                                                                    alt="">
+                                                                    class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
+                                                                    <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
+                                                                        alt="">
 
-                                                                RGU Campus
-                                                            </h6> -->
+                                                                    RGU Campus
+                                                                </h6> -->
                                                         <h1 style="color: #FF9A1E; font-weight: 800;"
                                                             class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text has-clr-white headd1 ">
                                                             Our Campus Life</h1>
@@ -1575,8 +1673,7 @@
                                                                             class="carousel slide" data-bs-ride="carousel">
                                                                             <div class="carousel-inner">
                                                                                 <div class="carousel-item active">
-                                                                                    <a
-                                                                                        href="department-store"><img
+                                                                                    <a href="department-store"><img
                                                                                             src="https://media.rgu.ac/index/1.svg"
                                                                                             class="d-block rounded"
                                                                                             style="width: 100%;"
@@ -1647,20 +1744,20 @@
                                                                 </div>
 
                                                                 <!-- <div class="kd-course-3-tabs-content-action text-center">
-                                                                        <h5
-                                                                            class="kd-heading-1 kd-font-700 has-clr-white action-link">
-                                                                            get your quality skills certificate from RGU</h5>
-                                                                        <a href="#" aria-label="name"
-                                                                            class="kd-pr-btn-1 text-uppercase">
-                                                                            <span class="text" data-back="get started now"
-                                                                                data-front="get started now"></span>
-                                                                        </a>
-                                                                    </div> -->
+                                                                            <h5
+                                                                                class="kd-heading-1 kd-font-700 has-clr-white action-link">
+                                                                                get your quality skills certificate from RGU</h5>
+                                                                            <a href="#" aria-label="name"
+                                                                                class="kd-pr-btn-1 text-uppercase">
+                                                                                <span class="text" data-back="get started now"
+                                                                                    data-front="get started now"></span>
+                                                                            </a>
+                                                                        </div> -->
                                                                 <!-- <div class="kd-course-3-tabs-content-il-1">
-                                                                        <img decoding="async"
-                                                                            src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
-                                                                            alt="">
-                                                                    </div> -->
+                                                                            <img decoding="async"
+                                                                                src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
+                                                                                alt="">
+                                                                        </div> -->
 
                                                             </div>
 
@@ -1698,8 +1795,7 @@
                                                                         periods of vacation and on holidays.</p>
                                                                 </div>
                                                                 <div class="">
-                                                                    <a href="hostel-life" rel="nofollow"
-                                                                        aria-label="name"
+                                                                    <a href="hostel-life" rel="nofollow" aria-label="name"
                                                                         class="kd-pr-btn-1 text-uppercase has-pr-clr">
                                                                         <span class="text" data-back="explore"
                                                                             data-front="Explore"></span>
@@ -1715,7 +1811,8 @@
                                                             <div class="right-content">
                                                                 <div class="kd-course-3-tabs-content-video img-cover fix">
                                                                     <img decoding="async"
-                                                                        src="https://media.rgu.ac/index/residence.jpg" alt="">
+                                                                        src="https://media.rgu.ac/index/residence.jpg"
+                                                                        alt="">
 
                                                                 </div>
                                                             </div>
@@ -1813,8 +1910,7 @@
                                                                 </div>
 
                                                                 <div class="">
-                                                                    <a href="salon" rel="nofollow"
-                                                                        aria-label="name"
+                                                                    <a href="salon" rel="nofollow" aria-label="name"
                                                                         class="kd-pr-btn-1 text-uppercase has-pr-clr">
                                                                         <span class="text" data-back="explore"
                                                                             data-front="Explore"></span>
@@ -1830,7 +1926,8 @@
                                                             <div class="right-content">
                                                                 <div class="kd-course-3-tabs-content-video img-cover fix">
                                                                     <img decoding="async"
-                                                                        src="https://media.rgu.ac/index/amenities.jpg" alt="">
+                                                                        src="https://media.rgu.ac/index/amenities.jpg"
+                                                                        alt="">
 
                                                                 </div>
                                                             </div>
@@ -1857,8 +1954,7 @@
                         </div>
                         <div class="col-lg-6" style="display: flex; justify-content: center;">
                             <video autoplay loop muted playsinline style="width: 90%; height: auto; pointer-events: none;">
-                                <source src="http://69.62.79.67/media/lookbook/lookbook.mp4"
-                                    type="video/mp4">
+                                <source src="http://69.62.79.67/media/lookbook/lookbook.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -1882,13 +1978,14 @@
                                         <div class="elementor-widget-container">
                                             <div class="prthalign">
                                                 <!-- <h6 class="kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub"
-                                                    style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
-                                                        <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
+                                                        style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
+                                                            <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
 
-                                                        RGU Programmes
-                                                    </h6> -->
+                                                            RGU Programmes
+                                                        </h6> -->
                                                 <h2 class="headd1 pb-4" style="color: #27467A; font-size: 50px;">Explore Our
-                                                    <span style="font-weight: 500; color: #EF991F;">Courses</span></h2>
+                                                    <span style="font-weight: 500; color: #EF991F;">Courses</span>
+                                                </h2>
                                             </div>
                                         </div>
                                     </div>
@@ -1999,8 +2096,8 @@
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                        <span class="item-student kd-heading-1">34,000
-                                                                                            students</span> -->
+                                                                                            <span class="item-student kd-heading-1">34,000
+                                                                                                students</span> -->
                                                                         </div>
 
                                                                         <div class="card-content">
@@ -2030,8 +2127,8 @@
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                        <span class="item-student kd-heading-1">34,000
-                                                                                            students</span> -->
+                                                                                            <span class="item-student kd-heading-1">34,000
+                                                                                                students</span> -->
 
                                                                         </div>
 
@@ -2063,7 +2160,7 @@
 
                                                                             <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                        <span class="item-student kd-heading-1">34,000 -->
+                                                                                            <span class="item-student kd-heading-1">34,000 -->
                                                                             students</span>
 
                                                                         </div>
@@ -2074,8 +2171,7 @@
                                                                                 <a href="lab-language-lab"
                                                                                     aria-label="name">Language Lab</a>
                                                                             </h4>
-                                                                            <a href="lab-language-lab"
-                                                                                aria-label="name"
+                                                                            <a href="lab-language-lab" aria-label="name"
                                                                                 class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
                                                                                 <i class="fa-solid fa-angles-right"></i>
                                                                                 Read More </a>
@@ -2158,8 +2254,7 @@
                                                                                     aria-label="name">Architecture
                                                                                     Lab</a>
                                                                             </h4>
-                                                                            <a href="lab-architecture"
-                                                                                aria-label="name"
+                                                                            <a href="lab-architecture" aria-label="name"
                                                                                 class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
                                                                                 <i class="fa-solid fa-angles-right"></i>
                                                                                 Read More </a>

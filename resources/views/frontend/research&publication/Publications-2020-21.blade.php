@@ -764,17 +764,6 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>58</td>
-                                                <td>Dr. Israfil Hussain</td>
-                                                <td>Royal School of Engineering &amp; Technology</td>
-                                                <td>Asstt. Professor</td>
-                                                <td>
-                                                    1) Name of the Journal: Energies, ISSN 1996-1073, Impact Factor: 2.822
-                                                    2) Book Chapter: Performance Evaluation of On-Grid Rooftop Solar PV
-                                                    System in GMCH, Guwahati, Assam 2020
-                                                </td>
-                                            </tr>
-                                            <tr>
                                                 <td>59</td>
                                                 <td>Dr. Aniruddha Deka</td>
                                                 <td>Royal School of Engineering &amp; Technology</td>
@@ -1651,17 +1640,6 @@
                                                     1) Seismic analysis of a multi-storied residential building in Northeast
                                                     India using Staad.Pro 2) Behaviour of soft ground reinforced by CFG
                                                     piles( Book Chapter)
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>58</td>
-                                                <td>Dr. Israfil Hussain</td>
-                                                <td>Royal School of Engineering &amp; Technology</td>
-                                                <td>Asstt. Professor</td>
-                                                <td>
-                                                    1) Name of the Journal: Energies, ISSN 1996-1073, Impact Factor: 2.822
-                                                    2) Book Chapter: Performance Evaluation of On-Grid Rooftop Solar PV
-                                                    System in GMCH, Guwahati, Assam 2020
                                                 </td>
                                             </tr>
                                             <tr>
