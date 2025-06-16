@@ -858,118 +858,86 @@
                             <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-size: 40px;">Notification</h2>
 
                             <div class="card" style="height: 530px; overflow: hidden; position: relative; background-color: #faebd7;">
-                                {{-- <div class="notification-wrapper"
-                                    style="position: absolute; top: 100%; width: 100%; animation: scrollUp 20s linear infinite;">
-                                    <div class="notification-item text-dark para1">
-                                        <a href=""
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="" alt=""> Admission Open For Ph.D. 2025-2026 </a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> International
-                                            Seminar by Royal Global University in association with ELTAI, September, 2024 </a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> Advertisement No.
-                                            : DST-SERB-01/2024 </a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">Viksit
-                                            Bharat 2047</a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">East
-                                            Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with
-                                            Higher Education'</a>
-                                    </div>
-
-                                    <div class="notification-item text-dark para1 pt-5">
-                                        <a href=""
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="" alt=""> Admission Open For Ph.D. 2025-2026 </a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> International
-                                            Seminar by Royal Global University in association with ELTAI, September, 2024 </a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> Advertisement No.
-                                            : DST-SERB-01/2024 </a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">Viksit
-                                            Bharat 2047</a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">East
-                                            Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with
-                                            Higher Education'</a>
-                                    </div>
-
-
-                                    <div class="notification-item text-dark para1 pt-5">
-                                        <a href=""
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 50px;" src="" alt=""> Admission Open For Ph.D. 2025-2026 </a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> International
-                                            Seminar by Royal Global University in association with ELTAI, September, 2024 </a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                                style="width: 30px;" src="assets/img/event-img/arrow-new.png" alt=""> Advertisement No.
-                                            : DST-SERB-01/2024 </a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">Viksit
-                                            Bharat 2047</a>
-                                    </div>
-                                    <div class="notification-item text-dark para1">
-                                        <a href="#"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;">East
-                                            Zone Vice Chancellors' Meet, 2023 on 'Integrating Bharatiya Knowledge System (BKS) with
-                                            Higher Education'</a>
-                                    </div>
-                                </div> --}}
                                 <div class="notification-item text-dark para1">
-                                    <a href="https://media.rgu.ac/phd.pdf"
-                                        style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
+                                    <a href="https://media.rgu.ac/phd.pdf" class="pt-3"
+                                        style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit; padding:15px;" target="_blank"><img
                                             style="width: 50px;"
                                             src="mobile-assets/icons/newicon.gif" alt="">
                                         Admission Open For Ph.D. 2025-2026 </a>
 
                                         <a href="https://media.rgu.ac/Brochure/ICSP.pdf"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
+                                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit; padding:15px;" target="_blank"><img
                                                 style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt="">
                                                 Download Civil Service Brochure
                                         </a>
 
                                         <a href="https://media.rgu.ac/Brochure/sports-policy.pdf"
-                                            style="display: block; padding: 15px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;" target="_blank"><img
+                                            style="display: block; text-decoration: none; color: inherit; padding:15px;" target="_blank"><img
                                                 style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt="">
                                                 Download Sports Policy Brochure
                                         </a>
                                 </div>
                             </div>
-                            {{-- <a href="https://rgu.ac/notifications">
-                                <h2 class="para1 fw-bold pt-3 text-center" style="color: #27467A;">View All Notifications -></h2>
+                            {{-- <h2 class="headd2 fw-bold pb-2 pt-3" style="color: #27467A; font-size: 40px;">Media <span style="color: #FF9A1E; font-weight: 500;"> Corner</span></h2>
+                            <div class="card" style="height: 300px; overflow: hidden; position: relative; background-color: #faebd7;">
+                                <div class="notification-wrapper"
+                                    style="position: absolute; top: 100%; width: 100%; animation: scrollUp 20s linear infinite;">
+
+                                    <div class="notification-item text-dark para1 pt-5">
+                                        <a href=""
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated BA and BSc Programs with Civil Services Coaching by SPM IAS Academy</a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates Commendation Day for Placed Graduating Students </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication Keys to Success: Lt Col Singh at RGU Scholarship Ceremony</a>
+                                    </div>
+
+                                    <div class="notification-item text-dark para1 pt-5">
+                                        <a href=""
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated BA and BSc
+                                            Programs with Civil Services Coaching by SPM IAS Academy</a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates Commendation Day for
+                                            Placed Graduating Students </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication Keys to
+                                            Success: Lt Col Singh at RGU Scholarship Ceremony</a>
+                                    </div>
+
+                                    <div class="notification-item text-dark para1 pt-5">
+                                        <a href=""
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated BA and BSc
+                                            Programs with Civil Services Coaching by SPM IAS Academy</a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates Commendation Day for
+                                            Placed Graduating Students </a>
+                                    </div>
+                                    <div class="notification-item text-dark para1">
+                                        <a href="#"
+                                            style="display: block; padding: 10px; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
+                                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication Keys to
+                                            Success: Lt Col Singh at RGU Scholarship Ceremony</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <a href="https://rgu.ac/notifications">
+                                <h2 class="para1 fw-bold pt-3 text-center" style="color: #27467A;">View More -></h2>
                             </a> --}}
                         </div>
 
