@@ -942,29 +942,29 @@
                             <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-size: 40px;">Notification</h2>
 
                             <div class="card"
-                                style="height: 180px; overflow: hidden; position: relative; background-color: #faebd7;">
+                                style="height: 520px; overflow: hidden; position: relative; background-color: #faebd7;">
                                 <div class="notification-item text-dark para1">
                                     <a href="https://media.rgu.ac/phd.pdf" class="pt-3"
-                                        style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"
+                                        style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit; padding: 15px;"
                                         target="_blank"><img style="width: 50px;" src="mobile-assets/icons/newicon.gif"
                                             alt="">
                                         Admission Open For Ph.D. 2025-2026 </a>
 
                                     <a href="https://media.rgu.ac/Brochure/ICSP.pdf"
-                                        style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"
+                                        style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit; padding: 15px;"
                                         target="_blank"><img style="width: 50px;" src="mobile-assets/icons/newicon.gif"
                                             alt="">
                                         Download Civil Service Brochure
                                     </a>
 
                                     <a href="https://media.rgu.ac/Brochure/sports-policy.pdf"
-                                        style="display: block; text-decoration: none; color: inherit;" target="_blank"><img
+                                        style="display: block; text-decoration: none; color: inherit; padding: 15px;" target="_blank"><img
                                             style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt="">
                                         Download Sports Policy Brochure
                                     </a>
                                 </div>
                             </div>
-                            <h2 class="headd2 fw-bold pb-2 pt-3" style="color: #27467A; font-size: 40px;">Media <span
+                            {{-- <h2 class="headd2 fw-bold pb-2 pt-3" style="color: #27467A; font-size: 40px;">Media <span
                                     style="color: #FF9A1E; font-weight: 500;"> Corner</span></h2>
                             <div class="card"
                                 style="height: 300px; overflow: hidden; position: relative; background-color: #faebd7;">
@@ -1017,7 +1017,7 @@
                             </div>
                             <div style="text-align:center; margin-top:10px;">
                                 <a href="media-corner"><button style="padding:2px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">View All</button></a>
-                            </div>
+                            </div> --}}
                         </div>
 
                         <style>
