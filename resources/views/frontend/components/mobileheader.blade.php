@@ -138,6 +138,10 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('phd') }}">
                     <li>Doctoral Programme</li>
                 </a>
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('multi-disciplinary') }}">
+                    <li>Multidisciplinary/<br>
+                    Interdisciplinary Courses</li>
+                </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('achievements') }}">
                     <li>Achievements</li>
                 </a>
