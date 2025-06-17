@@ -826,24 +826,6 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-bcom-finance-with-ica')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Com with ACCA</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p> <br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-bcom-finance-with-ica')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Com with CMA</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
                                     <a
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
