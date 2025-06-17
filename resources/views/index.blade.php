@@ -943,7 +943,7 @@
                         </div>
 
                         <div class="col-lg-5">
-                            {{-- {{-- <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-size: 40px;">Notification</h2> --}}
+                            <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-size: 40px;">Notification</h2> 
 
                             <div class="card"
                                 style="height: 520px; overflow: hidden; position: relative; background-color: #faebd7;">
