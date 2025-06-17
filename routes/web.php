@@ -452,6 +452,10 @@ Route::get('/lab-zoology', function () {
 
 //Academics RGU
 
+Route::get('/net-set-gate-coaching', function () {
+    return view('frontend/academics/net-set-gate-coaching');
+})->name('net-set-gate-coaching');
+
 Route::get('/deans', function () {
     return view('frontend/academics/deans');
 })->name('deans');
@@ -2861,6 +2865,10 @@ Route::get('/multi-disciplinary', function () {
     return view('frontend/academics/multi-disciplinary');
 })->name('multi-disciplinary');
 
+Route::get('/multi-disciplinary', function () {
+    return view('frontend/academics/multi-disciplinary');
+})->name('multi-disciplinary');
+
 
 //Cell
 Route::get('/phd-cell', function () {
@@ -2934,4 +2942,4 @@ Route::get('/RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students', fu
 
 Route::get('/129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance', function () {
     return view('frontend/media-corner/news3');
-})->name('129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance'); 
+})->name('129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance');

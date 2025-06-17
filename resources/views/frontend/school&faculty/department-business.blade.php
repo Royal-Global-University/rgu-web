@@ -122,6 +122,23 @@
                   </td>
                 </tr>
 
+                <tr>
+                    <td>7.</td>
+                    <td>
+                        <p>
+                            <strong style="color: #023e8a;" class="#">BBA</strong>
+                        </p>
+                    </td>
+                    <td class="para1">
+                        3/4 Yrs as per NEP
+                    </td>
+                    <td>
+                        <a target="_blank" href="programs-BBA"><button type="button"
+                                style="background-color: #FF9A1E; color: #fff;"
+                                class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                    </td>
+                    </tr>
+
               </tbody>
             </table>
 
@@ -256,6 +273,23 @@
                         class="btn btn-md custom-details-btn fw-bold">Details</button></a>
                   </td>
                 </tr>
+
+                <tr>
+                    <td>7.</td>
+                    <td>
+                        <p>
+                            <strong style="color: #023e8a;" class="#">BBA</strong>
+                        </p>
+                    </td>
+                    <td class="para1">
+                        3/4 Yrs as per NEP
+                    </td>
+                    <td>
+                        <a target="_blank" href="programs-BBA"><button type="button"
+                                style="background-color: #FF9A1E; color: #fff;"
+                                class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                    </td>
+                    </tr>
 
               </tbody>
             </table>

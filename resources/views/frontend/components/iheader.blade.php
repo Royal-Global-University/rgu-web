@@ -112,12 +112,14 @@
                                         Programme</a></li>
 
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('multi-disciplinary') }}"
-                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Multidisciplinary/<br> Interdisciplinary Courses</a>
+                                        style="font-size: 17px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Multidisciplinary/<br> Interdisciplinary Courses</a>
                                             </li>
 
-                                <li><a class="dropdown-item text-dark para1" href="{{ route('achievements') }}"
-                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Achievements</a>
-                                </li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('net-set-gate-coaching') }}"
+                                    style="font-size: 17px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">NET/SET/GATE<br>
+                                    Coaching</a>   </li>
+
+
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('academic-calendar') }}"
                                         style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Academic
                                         Calendar</a></li>
@@ -129,7 +131,12 @@
                             </div>
 
                             <div class="col-lg-6 p-2">
-
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('achievements') }}"
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Achievements</a>
+                                </li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('academic-calendar') }}"
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Academic
+                                        Calendar</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('innovation') }}"
                                         style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Institution's
                                         Innovation <br> Council (IIC-RGU)</a></li>

@@ -4,7 +4,7 @@
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px; position: relative;">
             <div>
-                <img src="mobile-assets/school-rgu/mob-ias.png" alt="">
+                <img src="mobile-assets/school-rgu/ias-mob.png" alt="">
             </div>
 
             <section style="background-image: url(mobile-assets/school-rgu/bg.svg); background-size: cover;">
@@ -294,13 +294,191 @@
             </section>
 
         </div>
+        <!-- table part  -->
+        <div class="container" style="padding: 30px 20px;">
+
+            <h2 class="headd2 fw-bold pt-3 pb-3" style="color: #27467A;">
+                Details of the Number of Class and Hours Required
+            </h2>
+
+            <div class="table-responsive">
+                <table class="para1 shadow-sm" style="width: 100%; font-size: 16px; border-collapse: collapse; color: #333;">
+
+                    <tr style="background-color: #f57c00; color: white; font-weight: bold;">
+                        <td style="padding: 10px; border: 1px solid white;" colspan="2">Total Credit</td>
+                        <td style="padding: 10px; text-align: center; border: 1px solid white;">41</td>
+                    </tr>
+
+                    <!-- Indian History -->
+                    <tr style="background-color: #e3f2fd;">
+                        <td style="padding: 10px; color: #27467A; font-weight: bold;">Indian History</td>
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid white;">Credit : 9</td>
+                        <td class="text-center"
+                            style="padding: 10px; font-weight: bold; color: #27467A; border: 1px solid white;">Hours</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Ancient
+                        </td>
+                        <td style="padding: 10px; text-align: center;  background-color: #ffe8da; border: 1px solid white;">24
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Mediaeval
+                        </td>
+                        <td style="padding: 10px; text-align: center;  background-color: #ffe8da; border: 1px solid white;">12
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Modern
+                        </td>
+                        <td style="padding: 10px; text-align: center;  background-color: #ffe8da; border: 1px solid white;">40
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Art and
+                            Culture</td>
+                        <td style="padding: 10px; text-align: center;  background-color: #ffe8da; border: 1px solid white;">30
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Indian
+                            Society</td>
+                        <td style="padding: 10px; text-align: center;  background-color: #ffe8da; border: 1px solid white;">30
+                        </td>
+                    </tr>
+
+                    <!-- Political Science -->
+                    <tr style="background-color: #e3f2fd;">
+                        <td style="padding: 10px; font-weight: bold; color: #27467A; border: 1px solid white;">Political Science
+                        </td>
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid white;">Credit : 12</td>
+                        <td style="background-color: #ffe8da; border: 1px solid white;"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Indian
+                            Polity</td>
+                        <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white;">60
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">
+                            Governance and social justice</td>
+                        <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white;">30
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">
+                            International Relation</td>
+                        <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white;">70
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Internal
+                            security</td>
+                        <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white;">20
+                        </td>
+                    </tr>
+
+                    <!-- Geography -->
+                    <tr style="background-color: #e3f2fd;">
+                        <td style="padding: 10px; font-weight: bold; color: #27467A; border: 1px solid white;">Geography</td>
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid white;">Credit : 6</td>
+                        <td style="background-color: #ffe8da; border: 1px solid white;"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; background-color: #ffe8da; border: 1px solid white;"></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Physical
+                            and Human Geography</td>
+                        <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white;">92
+                        </td>
+                    </tr>
+
+                    <!-- Environmental and General Science -->
+                    <tr style="background-color: #e3f2fd;">
+                        <td style="padding: 10px; font-weight: bold; color: #27467A; border: 1px solid white; ">Environmental
+                            and General Science</td>
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid white; ">Credit : 5</td>
+                        <td style="background-color: #ffe8da; border: 1px solid white;"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">
+                            Environment and Ecology</td>
+                        <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">50
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">General
+                            Science</td>
+                        <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">20
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Disaster
+                            Management</td>
+                        <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">8
+                        </td>
+                    </tr>
+
+                    <!-- Economics -->
+                    <tr style="background-color: #e3f2fd;">
+                        <td style="padding: 10px; font-weight: bold; color: #27467A;  ">Economics</td>
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid white; ">Credit : 4</td>
+                        <td style="background-color: #ffe8da; border: 1px solid white; "></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">
+                            Fundamentals of Indian Economy</td>
+                        <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">48
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; "></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">
+                            Agriculture Economy</td>
+                        <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">12
+                        </td>
+                    </tr>
+
+                    <!-- Ethics and Integrity -->
+                    <tr style="background-color: #e3f2fd;">
+                        <td style="padding: 10px; font-weight: bold; color: #27467A; border: 1px solid white;">Ethics and
+                            Integrity and Aptitude</td>
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid white; ">Credit : 5</td>
+                        <td style="background-color: #ffe8da; border: 1px solid white;"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffe8da; border: 1px solid white;"></td>
+                        <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Ethics
+                            and Integrity</td>
+                        <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">76
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+        <!-- table part  -->
     </div>
 
     <div class="website">
         <!--head image Section-->
         @include('frontend/components/aheader')
         <div>
-            <img src="mobile-assets/school-rgu/web-ias.png" alt="">
+            <img src="mobile-assets/school-rgu/ias-web.png" alt="">
         </div>
 
         <section style="background-image: url(mobile-assets/school-rgu/bg.svg); background-size: cover;">
@@ -310,8 +488,9 @@
 
             <div style="padding: 20px 80px;">
 
-                <div class="row">
-
+                <div class="row text-center">
+                    <div class="col-lg-1 mb-4">
+                    </div>
                     <div class="col-lg-3 mb-4">
 
                         <a href="ba-sociology">
@@ -345,7 +524,7 @@
 
                     </div>
 
-                    <div class="col-lg-3 mb-4">
+                    <div class="col-lg-4 mb-4">
 
                         <a href="ba-Public-Administration">
                             <div class="p-2 card rounded d-flex flex-column"
@@ -359,6 +538,13 @@
                                 </div>
                             </div>
                         </a>
+
+                    </div>
+
+                    <div class="col-lg-1 mb-4">
+
+                    </div>
+                    <div class="col-lg-3 mb-4">
 
                     </div>
 
@@ -404,7 +590,9 @@
                     Royal School of Applied <span style="color: #FF9A1E; font-weight: 500;">and Pure Science</span></h2>
 
                 <div class="row">
+                    <div class="col-lg-2">
 
+                    </div>
                     <div class="col-lg-3 mb-4">
 
                         <a href="bsc-Physics">
@@ -463,7 +651,9 @@
                     Royal School of Environmental <span style="color: #FF9A1E; font-weight: 500;">and Earth Sciences</span></h2>
 
                 <div class="row">
+                    <div class="col-lg-2">
 
+                    </div>
                     <div class="col-lg-3 mb-4">
 
                         <a href="bsc-Geography">
@@ -524,8 +714,8 @@
                     Royal School of Behavioral <span style="color: #FF9A1E; font-weight: 500;">and Allied Sciences</span></h2>
 
                 <div class="row">
-
-                    <div class="col-lg-3 mb-4">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4 mb-4">
 
                         <a href="ba-Psychology">
                             <div class="p-2 card rounded d-flex flex-column"
@@ -550,7 +740,7 @@
                     Royal School of Life <span style="color: #FF9A1E; font-weight: 500;">Sciences</span></h2>
 
                 <div class="row">
-
+                    <div class="col-lg-3"></div>
                     <div class="col-lg-3 mb-4">
 
                         <a href="bsc-Botany">
@@ -593,8 +783,8 @@
                     Royal School of <span style="color: #FF9A1E; font-weight: 500;">Languages</span></h2>
 
                 <div class="row">
-
-                    <div class="col-lg-3 mb-4">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4 mb-4">
 
                         <a href="ba-English">
                             <div class="p-2 card rounded d-flex flex-column"
@@ -616,6 +806,186 @@
             </div>
 
         </section>
+        <div>
+            <!-- table part  -->
+            <div class="container" style="padding: 30px 0px;">
+
+                <h2 class="text-center fw-bold pt-3 pb-3" style="color: #27467A; font-size: 30px;">
+                    Details of the Number of Class and Hours Required
+                </h2>
+
+                <div class="table-responsive">
+                    <table class="para1 shadow-sm" style="width: 100%; font-size: 19px; border-collapse: collapse; color: #333;">
+
+                        <tr style="background-color: #f57c00; color: white; font-weight: bold;">
+                            <td style="padding: 10px; border: 1px solid white;" colspan="2">Total Credit</td>
+                            <td style="padding: 10px; text-align: center; border: 1px solid white;">41</td>
+                        </tr>
+
+                        <!-- Indian History -->
+                        <tr style="background-color: #e3f2fd;">
+                            <td style="padding: 10px; color: #27467A; font-weight: bold;">Indian History</td>
+                            <td style="padding: 10px; font-weight: bold; border: 1px solid white;">Credit : 9</td>
+                            <td class="text-center"
+                                style="padding: 10px; font-weight: bold; color: #27467A; border: 1px solid white;">Hours</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Ancient
+                            </td>
+                            <td style="padding: 10px; text-align: center;  background-color: #ffe8da; border: 1px solid white;">24
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Mediaeval
+                            </td>
+                            <td style="padding: 10px; text-align: center;  background-color: #ffe8da; border: 1px solid white;">12
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Modern
+                            </td>
+                            <td style="padding: 10px; text-align: center;  background-color: #ffe8da; border: 1px solid white;">40
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Art and
+                                Culture</td>
+                            <td style="padding: 10px; text-align: center;  background-color: #ffe8da; border: 1px solid white;">30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Indian
+                                Society</td>
+                            <td style="padding: 10px; text-align: center;  background-color: #ffe8da; border: 1px solid white;">30
+                            </td>
+                        </tr>
+
+                        <!-- Political Science -->
+                        <tr style="background-color: #e3f2fd;">
+                            <td style="padding: 10px; font-weight: bold; color: #27467A; border: 1px solid white;">Political Science
+                            </td>
+                            <td style="padding: 10px; font-weight: bold; border: 1px solid white;">Credit : 12</td>
+                            <td style="background-color: #ffe8da; border: 1px solid white;"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Indian
+                                Polity</td>
+                            <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white;">60
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">
+                                Governance and social justice</td>
+                            <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white;">30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">
+                                International Relation</td>
+                            <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white;">70
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Internal
+                                security</td>
+                            <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white;">20
+                            </td>
+                        </tr>
+
+                        <!-- Geography -->
+                        <tr style="background-color: #e3f2fd;">
+                            <td style="padding: 10px; font-weight: bold; color: #27467A; border: 1px solid white;">Geography</td>
+                            <td style="padding: 10px; font-weight: bold; border: 1px solid white;">Credit : 6</td>
+                            <td style="background-color: #ffe8da; border: 1px solid white;"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; background-color: #ffe8da; border: 1px solid white;"></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Physical
+                                and Human Geography</td>
+                            <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white;">92
+                            </td>
+                        </tr>
+
+                        <!-- Environmental and General Science -->
+                        <tr style="background-color: #e3f2fd;">
+                            <td style="padding: 10px; font-weight: bold; color: #27467A; border: 1px solid white; ">Environmental
+                                and General Science</td>
+                            <td style="padding: 10px; font-weight: bold; border: 1px solid white; ">Credit : 5</td>
+                            <td style="background-color: #ffe8da; border: 1px solid white;"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">
+                                Environment and Ecology</td>
+                            <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">50
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">General
+                                Science</td>
+                            <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">20
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Disaster
+                                Management</td>
+                            <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">8
+                            </td>
+                        </tr>
+
+                        <!-- Economics -->
+                        <tr style="background-color: #e3f2fd;">
+                            <td style="padding: 10px; font-weight: bold; color: #27467A;  ">Economics</td>
+                            <td style="padding: 10px; font-weight: bold; border: 1px solid white; ">Credit : 4</td>
+                            <td style="background-color: #ffe8da; border: 1px solid white; "></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">
+                                Fundamentals of Indian Economy</td>
+                            <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">48
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; "></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">
+                                Agriculture Economy</td>
+                            <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">12
+                            </td>
+                        </tr>
+
+                        <!-- Ethics and Integrity -->
+                        <tr style="background-color: #e3f2fd;">
+                            <td style="padding: 10px; font-weight: bold; color: #27467A; border: 1px solid white;">Ethics and
+                                Integrity and Aptitude</td>
+                            <td style="padding: 10px; font-weight: bold; border: 1px solid white; ">Credit : 5</td>
+                            <td style="background-color: #ffe8da; border: 1px solid white;"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #ffe8da; border: 1px solid white;"></td>
+                            <td style="padding: 10px; color: #27467A; background-color: #ffe8da; border: 1px solid white;">Ethics
+                                and Integrity</td>
+                            <td style="padding: 10px; text-align: center; background-color: #ffe8da; border: 1px solid white; ">76
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+
+            </div>
+            <!-- table part  -->
+        </div>
     </div>
 @endsection
 
