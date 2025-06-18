@@ -17,14 +17,9 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/index-times-new-roman', function () {
-    return view('frontend/index-times-new-roman');
+Route::get('/index-media', function () {
+    return view('frontend/index-media');
 });
-
-Route::get('/index-Montserrat', function () {
-    return view('frontend/index-Montserrat');
-});
-
 
 Route::get('/contact', function () {
     return view('frontend/contact/contact-us');

@@ -15,26 +15,26 @@
         <!-- Floating Section with Frosted Background -->
         <div class="container">
             <div class="floating-wrapper" style="
-                            position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-                            width: 90%; max-width: 400px; z-index: 800;
-                            backdrop-filter: blur(30px);
-                            background: #27467A; /* Frosty effect */
-                            border-radius: 10px;
-                            box-shadow: 0 1px 1px #ffffff97;
-                            border: 1px solid #27467A;
-                            padding: 15px;">
+                                    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+                                    width: 90%; max-width: 400px; z-index: 800;
+                                    backdrop-filter: blur(30px);
+                                    background: #27467A; /* Frosty effect */
+                                    border-radius: 10px;
+                                    box-shadow: 0 1px 1px #ffffff97;
+                                    border: 1px solid #27467A;
+                                    padding: 15px;">
 
                 <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
                     <span class="mobile-para1" style="
-                                    font-weight: bold; font-size: 18px; line-height: 1.3;
-                                    color: #fff; flex-grow: 1;">
+                                            font-weight: bold; font-size: 18px; line-height: 1.3;
+                                            color: #fff; flex-grow: 1;">
                         Admission open for 2025 - 2026
                     </span>
 
                     <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
-                                    background-color: #ffb300; color: #fff;
-                                    font-weight: bold; padding: 10px 14px; border-radius: 5px;
-                                    text-decoration: none; white-space: nowrap;">
+                                            background-color: #ffb300; color: #fff;
+                                            font-weight: bold; padding: 10px 14px; border-radius: 5px;
+                                            text-decoration: none; white-space: nowrap;">
                         Apply Now
                     </a>
                 </div>
@@ -800,8 +800,8 @@
                                         <img src="https://media.rgu.ac/index/research-website.png" alt="Slide 2">
                                     </div>
                                     <!-- <div class="carousel-item">
-                                                        <img src="sarang/s3.png" alt="Slide 3">
-                                                    </div> -->
+                                                                <img src="sarang/s3.png" alt="Slide 3">
+                                                            </div> -->
                                 </div>
 
                             </div>
@@ -810,7 +810,7 @@
                                 <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
                                     alt="Video Thumbnail"
                                     style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
-                                                                            z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
+                                                                                    z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
                             </div> --}}
                             <div class="video-container" style="position: relative; width: 100%; height: auto;">
                                 <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
@@ -1048,21 +1048,30 @@
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">Discipline and
                                                     Dedication Keys to Success: Lt Col Singh at RGU Scholarship Ceremony</p>
-                                                <a href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance">
-                                                    <p class="pt-1 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                <a
+                                                    href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance">
+                                                    <p class="pt-1 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="row bg-light p-2 mt-3">
                                             <div class="col-lg-5">
-                                                <img class="rounded" src="mobile-assets/media-corner/news2/headimg.jpg" alt="" />
+                                                <img class="rounded" src="mobile-assets/media-corner/news2/headimg.jpg"
+                                                    alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">May 21, 2025</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">RGU Celebrates Commendation Day for Placed Graduating Students</p>
-                                                <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students"><p class="pt-1 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                    Read More ...</p></a>
+                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">May 21,
+                                                    2025</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">RGU Celebrates
+                                                    Commendation Day for Placed Graduating Students</p>
+                                                <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students">
+                                                    <p class="pt-1 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="row bg-light p-2 mt-3">
@@ -1071,11 +1080,18 @@
                                                     alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">May 16, 2025</p>
+                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">May 16,
+                                                    2025</p>
                                                 <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">RGU Launches Integrated BA and B.Sc. Programs with Civil Services Coaching by SPM IAS Academy</p>
-                                                <a href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy"><p class="pt-1 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                    Read More ...</p></a>
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">RGU Launches
+                                                    Integrated BA and B.Sc. Programs with Civil Services Coaching by SPM IAS
+                                                    Academy</p>
+                                                <a
+                                                    href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy">
+                                                    <p class="pt-1 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -1494,8 +1510,8 @@
                                             <div class="swiper-slide">
                                                 <div class="kd-pop-cat-1-item text-center">
                                                     <!-- <img decoding="async"
-                                                                            src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/pc-1-shape-1.webp"
-                                                                            alt="" class="shape"> -->
+                                                                                    src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/pc-1-shape-1.webp"
+                                                                                    alt="" class="shape"> -->
                                                     <div class="icon d-flex align-items-center justify-content-center"
                                                         style="background-color: antiquewhite;">
                                                         <h3 class="text-dark fw-bold">22</h3>
@@ -1601,6 +1617,183 @@
             </div>
         </section> --}}
         <!-- fast facts -->
+        <!--media corner section-->
+
+        <section
+            class="pt-5 pb-5 elementor-section elementor-top-section elementor-element elementor-element-5b9f94a elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="5b9f94a" data-element_type="section"
+            style="background-image: url(https://media.rgu.ac/index/head2.svg)">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1c6eade"
+                    data-id="1c6eade" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-3981c62 elementor-widget elementor-widget-go-s-heading"
+                            data-id="3981c62" data-element_type="widget" data-widget_type="go-s-heading.default">
+                            <div class="elementor-widget-container">
+                                <div class="prthalign" style="padding-top: 90px !important;">
+                                    <h2 class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text"
+                                        style="font-size: 57px; color: white;">Media Corner</h2>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-5 elementor-element elementor-element-3f49461 elementor-widget elementor-widget-ft-btn"
+                            data-id="3f49461" data-element_type="widget" data-widget_type="ft-btn.default">
+                            <div class="elementor-widget-container">
+                                <div class="prthalign">
+                                    <a href="media-corner" target="_blank" rel="nofollow" aria-label="name"
+                                        class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                        <span class="text" data-back="View All Media" data-front="View All Media"></span>
+                                        <span class="icon">
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-1e15263"
+                    data-id="1e15263" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-a0a0689 elementor-widget elementor-widget-go-testimonial-id"
+                            data-id="a0a0689" data-element_type="widget" data-widget_type="go-testimonial-id.default">
+                            <div class="elementor-widget-container">
+                                <div class="kd-testimonial-1-slider txaa-fade-right">
+                                    <div class="swiper-container fix kd-testimonial-1-active">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="kd-testimonial-1-item">
+                                                    <div class="main-img fix img-cover">
+                                                        <img decoding="async" src="mobile-assets/media-corner/news3/headimg.jpg" alt="">
+                                                    </div>
+                                                    <div class="item-content" style="padding-left: 25px; padding-right: 25px;">
+
+                                                        <div class="kd-ratting-1 d-inline-flex align-items-center flex-wrap fw-bold"
+                                                            style="padding: 3px 15px; font-size: 18px;">
+                                                            May 22, 2025
+                                                        </div>
+                                                        <h5 class="item-comment kd-heading-1 pt-3" style="color: #27467A; font-size: 26px;">Discipline
+                                                        and Dedication Keys to Success: Lt Col Singh at RGU Scholarship
+                                                        Ceremony</h5>
+
+                                                        <div class="kd-testimonial-1-item-author d-flex align-items-center">
+
+                                                            <div class="author-content">
+                                                                <a href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance"><h4 class="name kd-heading-1 kd-font-900">Read More...</h4></a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="kd-testimonial-1-item">
+                                                    <div class="main-img fix img-cover">
+                                                        <img decoding="async"
+                                                            src="mobile-assets/media-corner/news2/headimg.jpg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="item-content" style="padding-left: 25px; padding-right: 25px;">
+
+                                                        <div
+                                                            class="kd-ratting-1 d-inline-flex align-items-center flex-wrap fw-bold" style="padding: 3px 15px; font-size: 18px;">
+                                                            May 21, 2025
+                                                        </div>
+                                                        <h5 class="item-comment kd-heading-1 pt-3" style="color: #27467A; font-size: 26px;">RGU Celebrates Commendation Day for Placed Graduating Students </h5>
+
+                                                        <div class="kd-testimonial-1-item-author d-flex align-items-center">
+
+                                                            <div class="author-content">
+                                                                <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students">
+                                                                    <h4 class="name kd-heading-1 kd-font-900">Read More...</h4>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="swiper-slide">
+                                                <div class="kd-testimonial-1-item">
+                                                    <div class="main-img fix img-cover">
+                                                        <img decoding="async" src="mobile-assets/media-corner/news1/pic1.JPG" alt="">
+                                                    </div>
+                                                    <div class="item-content" style="padding-left: 25px; padding-right: 25px;">
+
+                                                        <div class="kd-ratting-1 d-inline-flex align-items-center flex-wrap fw-bold"
+                                                            style="padding: 3px 15px; font-size: 18px;">
+                                                            May 16, 2025
+                                                        </div>
+                                                        <h5 class="item-comment kd-heading-1 pt-3" style="color: #27467A; font-size: 26px;">RGU Launches Integrated BA and B.Sc. Programs with Civil Services Coaching by SPM IAS Academy </h5>
+
+                                                        <div class="kd-testimonial-1-item-author d-flex align-items-center">
+
+                                                            <div class="author-content">
+                                                                <a href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy"><h4 class="name kd-heading-1 kd-font-900">Read More...</h4></a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- slider-btn -->
+                                    <div class="kd-testimonial-1-slider-btn">
+
+                                        <div class="kd_testimonial_1_slider_prev">
+                                            <div
+                                                class="kd-slider-btn-1 d-flex align-items-center justify-content-center txaa-fade-right">
+                                                <span class="icon-1">
+                                                    <i class="fa-solid fa-arrow-left"></i>
+                                                </span>
+                                                <span class="icon-2">
+                                                    <i class="fa-solid fa-arrow-left"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="kd_testimonial_1_slider_next">
+                                            <div
+                                                class="kd-slider-btn-1 has-next d-flex align-items-center justify-content-center txaa-fade-left">
+                                                <span class="icon-1">
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </span>
+                                                <span class="icon-2">
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    new Swiper('.kd-testimonial-1-active', {
+                        loop: true,
+                        slidesPerView: 1, // Always show 1 slide
+                        spaceBetween: 30,
+                        autoplay: {
+                            delay: 4000,
+                            disableOnInteraction: false,
+                        },
+                        navigation: {
+                            nextEl: '.kd_testimonial_1_slider_next',
+                            prevEl: '.kd_testimonial_1_slider_prev',
+                        }
+                    });
+                });
+                 </script>
+        </section>
+
+
         <div style="padding: 30px 20px; background-color: #590d22;">
             <div class="row" style="display: flex; align-items: center;">
                 <div class="col-lg-7" style="display: flex; justify-content: center;">
@@ -1644,12 +1837,12 @@
                                         <div class="kd-course-1-scn-title">
                                             <div class="left">
                                                 <!-- <h6
-                                                                            class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
-                                                                            <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
-                                                                                alt="">
+                                                                                    class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
+                                                                                    <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
+                                                                                        alt="">
 
-                                                                            RGU Campus
-                                                                        </h6> -->
+                                                                                    RGU Campus
+                                                                                </h6> -->
                                                 <h1 style="color: #FF9A1E; font-weight: 800;"
                                                     class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text has-clr-white headd1 ">
                                                     Our Campus Life</h1>
@@ -1794,20 +1987,20 @@
                                                         </div>
 
                                                         <!-- <div class="kd-course-3-tabs-content-action text-center">
-                                                                                    <h5
-                                                                                        class="kd-heading-1 kd-font-700 has-clr-white action-link">
-                                                                                        get your quality skills certificate from RGU</h5>
-                                                                                    <a href="#" aria-label="name"
-                                                                                        class="kd-pr-btn-1 text-uppercase">
-                                                                                        <span class="text" data-back="get started now"
-                                                                                            data-front="get started now"></span>
-                                                                                    </a>
-                                                                                </div> -->
+                                                                                            <h5
+                                                                                                class="kd-heading-1 kd-font-700 has-clr-white action-link">
+                                                                                                get your quality skills certificate from RGU</h5>
+                                                                                            <a href="#" aria-label="name"
+                                                                                                class="kd-pr-btn-1 text-uppercase">
+                                                                                                <span class="text" data-back="get started now"
+                                                                                                    data-front="get started now"></span>
+                                                                                            </a>
+                                                                                        </div> -->
                                                         <!-- <div class="kd-course-3-tabs-content-il-1">
-                                                                                    <img decoding="async"
-                                                                                        src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
-                                                                                        alt="">
-                                                                                </div> -->
+                                                                                            <img decoding="async"
+                                                                                                src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
+                                                                                                alt="">
+                                                                                        </div> -->
 
                                                     </div>
 
@@ -2025,11 +2218,11 @@
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
                                         <!-- <h6 class="kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub"
-                                                                style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
-                                                                    <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
+                                                                        style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
+                                                                            <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
 
-                                                                    RGU Programmes
-                                                                </h6> -->
+                                                                            RGU Programmes
+                                                                        </h6> -->
                                         <h2 class="headd1 pb-4" style="color: #27467A; font-size: 50px;">Explore Our
                                             <span style="font-weight: 500; color: #EF991F;">Courses</span>
                                         </h2>
@@ -2138,8 +2331,8 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                                        students</span> -->
+                                                                                                            <span class="item-student kd-heading-1">34,000
+                                                                                                                students</span> -->
                                                                 </div>
 
                                                                 <div class="card-content">
@@ -2168,8 +2361,8 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                                        students</span> -->
+                                                                                                            <span class="item-student kd-heading-1">34,000
+                                                                                                                students</span> -->
 
                                                                 </div>
 
@@ -2200,7 +2393,7 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                    <span class="item-student kd-heading-1">34,000 -->
+                                                                                                            <span class="item-student kd-heading-1">34,000 -->
                                                                     students</span>
 
                                                                 </div>
