@@ -953,7 +953,7 @@
                             <div class="card"
                                 style="height: 520px; overflow: hidden; position: relative; background-color: #faebd7;">
                                 <div class="notification-item text-dark para1">
-                                    <a href="mobile-assets/notification/Summer School program 2025 with link.pdf" class="pt-3"
+                                    <a href="https://media.rgu.ac/notifications/Summer%20School%20program%202025%20with%20link.pdf" class="pt-3"
                                         style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit; padding: 15px;"
                                         target="_blank"><img style="width: 50px;" src="mobile-assets/icons/newicon.gif"
                                             alt="">
