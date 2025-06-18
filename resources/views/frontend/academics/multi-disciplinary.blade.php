@@ -1584,6 +1584,9 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>3D Modelling and Printing
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    A
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Accounting Software
                                                 </li>
@@ -1604,6 +1607,9 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Ayurvedic Science of Food
                                                     and Nutrition
+                                                </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    B
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Bakery and Confectionery
@@ -1694,6 +1700,9 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Business Tourism
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    C
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Characters & Illustration
                                                 </li>
@@ -1761,6 +1770,9 @@
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Cyber Space and Cyber
                                                     Crime
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    D
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Data Collection and
                                                     Analysis
@@ -1774,6 +1786,9 @@
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Disaster Management
+                                                </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    E
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Earth Sciences
@@ -1814,6 +1829,9 @@
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Event Management
+                                                </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    F
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Fashion Merchandising
@@ -1870,6 +1888,9 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Fundamentals of MLT
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    G
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Gandhian Studies
                                                 </li>
@@ -1890,15 +1911,13 @@
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Guest Handling Skills in
                                                     Hospitality
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    H
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>History of India from
                                                     Ancient to Modern
                                                 </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="col-lg-6 pt-4 pb-4" style="padding-left: 150px">
-                                            <ul class="para1 text-dark" style="list-style: none; padding-left: 0">
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>History of North-East
                                                 </li>
@@ -1908,6 +1927,16 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Human Biology and
                                                     Diseases
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-lg-6 pt-4 pb-4" style="padding-left: 150px">
+                                            <ul class="para1 text-dark" style="list-style: none; padding-left: 0">
+
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    I
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Illustration Techniques
@@ -1979,11 +2008,20 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>IT tools in Management
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    J
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Jewellery Design
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    L
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Legal Literacy
+                                                </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    M
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Materials Chemistry
@@ -2018,12 +2056,18 @@
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Museology: Theory and
                                                     Practice
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    N
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>News Presentation and
                                                     Radio Jockey
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Nursery and Gardening
+                                                </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    O
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Ocular Anatomy Lab
@@ -2044,6 +2088,9 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Orientation to Clinical
                                                     Science
+                                                </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    P
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Patient Care Management
@@ -2090,6 +2137,9 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Public Health and Hygiene
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    R
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Remote Sensing
                                                 </li>
@@ -2102,6 +2152,9 @@
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Rural Development
+                                                </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    S
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Science and Society
@@ -2161,6 +2214,9 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>System Administration
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    T
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>TALLY
                                                 </li>
@@ -2170,6 +2226,9 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Thermal Physics
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    U
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Understanding and
                                                     Managing Mental Health
@@ -2177,6 +2236,9 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Understanding of Life
                                                     Processes
+                                                </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    V
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Vermicompost and Its
@@ -2191,9 +2253,15 @@
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Visualisation Techniques
                                                 </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    W
+                                                </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Windows Programming using
                                                     C#
+                                                </li>
+                                                <li class="fw-bold" style="margin-bottom: 10px; font-size: 32px; color: #F69220;">
+                                                    Y
                                                 </li>
                                                 <li style="margin-bottom: 10px; font-size: 20px">
                                                     <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px"></i>Yoga - Philosophy and
