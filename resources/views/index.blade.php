@@ -948,7 +948,7 @@
                         </div>
 
                         <div class="col-lg-5">
-                            <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-size: 40px;">Notification</h2>
+                            {{-- <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-size: 40px;">Notification</h2>
 
                             <div class="card"
                                 style="height: 520px; overflow: hidden; position: relative; background-color: #faebd7;">
@@ -973,7 +973,7 @@
                                         Download Sports Policy Brochure
                                     </a>
                                 </div>
-                            </div>
+                            </div> --}}
                             <!--Media corner-->
                             {{-- <h2 class="headd2 fw-bold pb-2 pt-3" style="color: #27467A; font-size: 40px;">Media <span
                                     style="color: #FF9A1E; font-weight: 500;"> Corner</span></h2>
@@ -1032,7 +1032,7 @@
                                         All</button></a>
                             </div> --}}
 
-                            {{-- <h2 class="headd2 fw-bold pb-2" style="color: #27467A; font-size: 40px;">Media <span
+                            <h2 class="headd2 fw-bold pb-2" style="color: #27467A; font-size: 40px;">Media <span
                                     style="color: #FF9A1E; font-weight: 500;"> Corner</span></h2>
                             <div style="height: 550px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
@@ -1080,12 +1080,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div style="text-align:center; margin-top:15px;">
+                                <div style="text-align:center; margin-top:20px;">
                                     <a href="media-corner"><button
                                             style="padding:2px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">View
                                             All</button></a>
                                 </div>
-                            </div> --}}
+                            </div>
 
                         </div>
 
