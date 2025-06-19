@@ -1623,7 +1623,7 @@
             class="pt-5 pb-5 elementor-section elementor-top-section elementor-element elementor-element-5b9f94a elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="5b9f94a" data-element_type="section"
             style="background-image: url(https://media.rgu.ac/index/head2.svg)">
-            <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-container elementor-column-gap-default" style="margin-left: 130px !important; ">
                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1c6eade"
                     data-id="1c6eade" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -1659,7 +1659,7 @@
                         <div class="elementor-element elementor-element-a0a0689 elementor-widget elementor-widget-go-testimonial-id"
                             data-id="a0a0689" data-element_type="widget" data-widget_type="go-testimonial-id.default">
                             <div class="elementor-widget-container">
-                                <div class="kd-testimonial-1-slider txaa-fade-right">
+                                <div class="kd-testimonial-1-slider ">
                                     <div class="swiper-container fix kd-testimonial-1-active">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">

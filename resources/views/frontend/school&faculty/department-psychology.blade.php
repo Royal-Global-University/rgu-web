@@ -22,7 +22,8 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">BA - Psychology</strong>
+                                    <strong style="color: #023e8a;" class="#">BA - Psychology</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -39,7 +40,8 @@
                             <td>2.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">BA - Applied Psychology</strong>
+                                    <strong style="color: #023e8a;" class="#">BA - Applied Psychology</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -629,7 +631,8 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">BA - Psychology</strong>
+                                    <strong style="color: #023e8a;" class="#">BA - Psychology</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -646,7 +649,8 @@
                             <td>2.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">BA - Applied Psychology</strong>
+                                    <strong style="color: #023e8a;" class="#">BA - Applied Psychology</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">

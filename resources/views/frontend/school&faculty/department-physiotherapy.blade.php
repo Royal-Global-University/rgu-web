@@ -27,7 +27,8 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc. Physiotherapy</strong>
+                                        <strong style="color: #023e8a;" class="#">B.Sc. Physiotherapy</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -46,7 +47,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc. Physiotherapy (Lateral
-                                            Entry)</strong>
+                                            Entry)</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -111,7 +113,8 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc. Physiotherapy</strong>
+                                        <strong style="color: #023e8a;" class="#">B.Sc. Physiotherapy</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -130,7 +133,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc. Physiotherapy (Lateral
-                                            Entry)</strong>
+                                            Entry)</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">

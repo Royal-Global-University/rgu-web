@@ -25,7 +25,8 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">Bachelor of Design (Product Design)</strong>
+                                    <strong style="color: #023e8a;" class="#">Bachelor of Design (Product Design)</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">

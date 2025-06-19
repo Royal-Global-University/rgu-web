@@ -23,7 +23,8 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc./BA Hotel Management</strong>
+                                        <strong style="color: #023e8a;" class="#">B.Sc./BA Hotel Management</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -40,7 +41,8 @@
                                 <td>2.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">BA - in Culinary Arts</strong>
+                                        <strong style="color: #023e8a;" class="#">BA - in Culinary Arts</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -58,7 +60,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">Bachelor of Hotel Management -
-                                            BHM</strong>
+                                            BHM</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -120,7 +123,8 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc./BA Hotel Management</strong>
+                                        <strong style="color: #023e8a;" class="#">B.Sc./BA Hotel Management</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -137,7 +141,8 @@
                                 <td>2.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">BA - in Culinary Arts</strong>
+                                        <strong style="color: #023e8a;" class="#">BA - in Culinary Arts</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -155,7 +160,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">Bachelor of Hotel Management -
-                                            BHM</strong>
+                                            BHM</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">

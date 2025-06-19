@@ -24,7 +24,8 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.Com. (Day Shift)</strong>
+                                    <strong style="color: #023e8a;" class="#">B.Com. (Day Shift)</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -41,7 +42,8 @@
                             <td>2.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.Com. (Morning Shift)</strong>
+                                    <strong style="color: #023e8a;" class="#">B.Com. (Morning Shift)</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -58,7 +60,8 @@
                             <td>3.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.Com. - Finance with ICA</strong>
+                                    <strong style="color: #023e8a;" class="#">B.Com. - Finance with ICA</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -1227,7 +1230,8 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.Com. (Day Shift)</strong>
+                                    <strong style="color: #023e8a;" class="#">B.Com. (Day Shift)</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -1244,7 +1248,8 @@
                             <td>2.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.Com. (Morning Shift)</strong>
+                                    <strong style="color: #023e8a;" class="#">B.Com. (Morning Shift)</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -1261,7 +1266,8 @@
                             <td>3.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.Com. - Finance with ICA</strong>
+                                    <strong style="color: #023e8a;" class="#">B.Com. - Finance with ICA</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">

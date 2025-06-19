@@ -23,7 +23,8 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc. IT</strong>
+                                        <strong style="color: #023e8a;" class="#">B.Sc. IT</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -58,7 +59,8 @@
                                 <td>3.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">BCA</strong>
+                                        <strong style="color: #023e8a;" class="#">BCA</strong><br>
+                                        Honours / Honours with Research
                                     </p>
 
                                 </td>
@@ -121,7 +123,8 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc. IT</strong>
+                                        <strong style="color: #023e8a;" class="#">B.Sc. IT</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -156,7 +159,8 @@
                                 <td>3.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">BCA</strong>
+                                        <strong style="color: #023e8a;" class="#">BCA</strong><br>
+                                        Honours / Honours with Research
                                     </p>
 
                                 </td>

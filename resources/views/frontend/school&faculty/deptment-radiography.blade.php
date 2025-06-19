@@ -28,7 +28,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc. - Radiography and Advance Imaging
-                                            Technology</strong>
+                                            Technology</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -54,7 +55,7 @@
             @include('frontend/components/aheader')
             <img src="https://media.rgu.ac/department-all/dept-radiography/web-top.png" alt="">
 
-            <div class="container">
+            <div class="container mb-5">
 
                 <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                     Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
@@ -75,7 +76,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc. - Radiography and Advance Imaging
-                                            Technology</strong>
+                                            Technology</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">

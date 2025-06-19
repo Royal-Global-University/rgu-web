@@ -27,7 +27,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc./ BA Travel & Tourism
-                                            Management</strong>
+                                            Management</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -46,7 +47,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">Bachelor of Travel & Tourism Management
-                                            (BTTM)</strong>
+                                            (BTTM)</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -112,7 +114,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc./ BA Travel & Tourism
-                                            Management</strong>
+                                            Management</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -131,7 +134,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">Bachelor of Travel & Tourism Management
-                                            (BTTM)</strong>
+                                            (BTTM)</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">

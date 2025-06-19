@@ -28,7 +28,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc. Operation Theatre Technology
-                                            (OTT)</strong>
+                                            (OTT)</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -75,7 +76,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc. Operation Theatre Technology
-                                            (OTT)</strong>
+                                            (OTT)</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">

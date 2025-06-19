@@ -24,7 +24,8 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.A. Economics</strong>
+                                        <strong style="color: #023e8a;" class="#">B.A. Economics</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -86,7 +87,8 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.A. Economics</strong>
+                                        <strong style="color: #023e8a;" class="#">B.A. Economics</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">

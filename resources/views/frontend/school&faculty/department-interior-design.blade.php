@@ -26,7 +26,8 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">Bachelor of Interior Design (BID)</strong>
+                                    <strong style="color: #023e8a;" class="#">Bachelor of Interior Design (BID)</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -44,7 +45,8 @@
                             <td>
                                 <p>
                                     <strong style="color: #023e8a;" class="#">Bachelor of Interior Design (BID) Lateral
-                                        Entry</strong>
+                                        Entry</strong><br>
+                                        Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -87,7 +89,8 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">Bachelor of Interior Design (BID)</strong>
+                                    <strong style="color: #023e8a;" class="#">Bachelor of Interior Design (BID)</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -105,7 +108,8 @@
                             <td>
                                 <p>
                                     <strong style="color: #023e8a;" class="#">Bachelor of Interior Design (BID) Lateral
-                                        Entry</strong>
+                                        Entry</strong><br>
+                                        Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">

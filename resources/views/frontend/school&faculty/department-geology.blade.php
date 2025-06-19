@@ -41,7 +41,8 @@
                                 <td>2.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc. - Geology</strong>
+                                        <strong style="color: #023e8a;" class="#">B.Sc. - Geology</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -103,7 +104,8 @@
                                 <td>2.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc. - Geology</strong>
+                                        <strong style="color: #023e8a;" class="#">B.Sc. - Geology</strong><br>
+                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">

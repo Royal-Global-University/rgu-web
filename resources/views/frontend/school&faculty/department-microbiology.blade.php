@@ -26,7 +26,8 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.Sc. - Microbiology</strong>
+                                    <strong style="color: #023e8a;" class="#">B.Sc. - Microbiology</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -440,7 +441,8 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.Sc. - Microbiology</strong>
+                                    <strong style="color: #023e8a;" class="#">B.Sc. - Microbiology</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">

@@ -25,7 +25,8 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.Sc - Animation & Visual Effects</strong>
+                                    <strong style="color: #023e8a;" class="#">B.Sc - Animation & Visual Effects</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -42,7 +43,8 @@
                             <td>2.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.A. - J&MC</strong>
+                                    <strong style="color: #023e8a;" class="#">B.A. - J&MC</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -732,7 +734,8 @@
                             <td>1.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.Sc - Animation & Visual Effects</strong>
+                                    <strong style="color: #023e8a;" class="#">B.Sc - Animation & Visual Effects</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">
@@ -749,7 +752,8 @@
                             <td>2.</td>
                             <td>
                                 <p>
-                                    <strong style="color: #023e8a;" class="#">B.A. - J&MC</strong>
+                                    <strong style="color: #023e8a;" class="#">B.A. - J&MC</strong><br>
+                                    Honours / Honours with Research
                                 </p>
                             </td>
                             <td class="para1">

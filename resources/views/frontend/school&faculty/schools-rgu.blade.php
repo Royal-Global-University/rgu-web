@@ -736,16 +736,16 @@
                                                 style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                                 Department
                                             </a>
-                                            {{-- <a class="para1" href="{{route('faculty-travel-tourism')}}"
+                                            <a class="para1" href="{{route('faculty-architecture')}}"
                                                 style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                                 Faculty
-                                            </a> --}}
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-lg-3 mb-4 mt-3">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
@@ -1521,10 +1521,10 @@
                                                 style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                                 Department
                                             </a>
-                                            {{-- <a class="para1" href="{{route('faculty-travel-tourism')}}"
+                                            <a class="para1" href="{{route('faculty-agriculture')}}"
                                                 style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
                                                 Faculty
-                                            </a> --}}
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

@@ -44,7 +44,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc. - Medical Laboratory Technology
-                                            (BMLT)</strong>
+                                            (BMLT)</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -107,7 +108,8 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc. - Medical Laboratory Technology
-                                            (BMLT)</strong>
+                                            (BMLT)</strong><br>
+                                            Honours / Honours withResearch
                                     </p>
                                 </td>
                                 <td class="para1">

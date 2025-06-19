@@ -1719,6 +1719,10 @@ Route::get('/faculty-design', function () {
     return view('frontend/school&faculty/faculty-design');
 })->name('faculty-design');
 
+Route::get('/faculty-agriculture', function () {
+    return view('frontend/school&faculty/faculty-agriculture');
+})->name('faculty-agriculture');
+
 Route::get('/department-civil-engineering', function () {
     return view('frontend/school&faculty/department-civil-engineering');
 })->name('department-civil-engineering');
