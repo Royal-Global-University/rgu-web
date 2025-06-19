@@ -2942,3 +2942,41 @@ Route::get('/RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students', fu
 Route::get('/129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance', function () {
     return view('frontend/media-corner/news3');
 })->name('129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance');
+
+Route::get('/rgu-awarded-most-eminent-private-university-of-north-east-2025', function () {
+    return view('frontend/media-corner/news4');
+})->name('rgu-awarded-most-eminent-private-university-of-north-east-2025');
+
+Route::get('/ai-dependence-is-making-slaves-mind-is-far-superior-to-technology-jnu-vc-prof-santishree-pandit-at-rgu', function () {
+    return view('frontend/media-corner/news5');
+})->name('ai-dependence-is-making-slaves-mind-is-far-superior-to-technology-jnu-vc-prof-santishree-pandit-at-rgu');
+
+Route::get('/dr-bhupen-hazarika-centre-for-creativity-at-royal-global-university', function () {
+    return view('frontend/media-corner/news6');
+})->name('dr-bhupen-hazarika-centre-for-creativity-at-royal-global-university');
+
+Route::get('/veteran-journalist-pj-baruah-joins-royal-global-university', function () {
+    return view('frontend/media-corner/news7');
+})->name('veteran-journalist-pj-baruah-joins-royal-global-university');
+
+Route::get('/lookbook-launched-by-royal-school-of-fashion-design-&-technology', function () {
+    return view('frontend/media-corner/news8');
+})->name('lookbook-launched-by-royal-school-of-fashion-design-&-technology');
+
+Route::get('/world-environment-day-observed-at-rgu', function () {
+    return view('frontend/media-corner/news9');
+})->name('world-environment-day-observed-at-rgu');
+
+Route::get('/bhutan-to-strengthen-relations-with-institutions-in-assam-bhutanese-delegation-at-rgu', function () {
+    return view('frontend/media-corner/news10');
+})->name('bhutan-to-strengthen-relations-with-institutions-in-assam-bhutanese-delegation-at-rgu');
+
+Route::get('/industry-titan-&-former-tata-motors-chief-ravi-kant-joins-rgu-advisory-board', function () {
+    return view('frontend/media-corner/news11');
+})->name('industry-titan-&-former-tata-motors-chief-ravi-kant-joins-rgu-advisory-board');
+
+Route::get('/rgu-signs-mou-with-crpf-offers-new-scholarships-for-wards-of-security-forces', function () {
+    return view('frontend/media-corner/news12');
+})->name('rgu-signs-mou-with-crpf-offers-new-scholarships-for-wards-of-security-forces');
+
+

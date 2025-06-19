@@ -21,10 +21,6 @@
                     <input type="text" id="searchInput" placeholder="Search news..."
                         style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc;">
                 </div>
-                <div class="col-12 col-md-6">
-                    <input type="date" id="dateInput"
-                        style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc;">
-                </div>
             </div>
 
             {{-- News Items --}}
@@ -32,59 +28,75 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU Signs MoU with CRPF: Offers New Scholarships for Wards of Security Forces',
+                            'summary' => 'RGU-CRPF MoU Brings Scholarship Opportunities for Wards of Security Forces',
+                            'date' => 'Guwahati, June 18, 2025:',
+                            'link' => 'rgu-signs-mou-with-crpf-offers-new-scholarships-for-wards-of-security-forces',
+                            'image' => 'mobile-assets/media-corner/media-img/12.jpg',
+                            'content' => 'To promote quality access to higher education and honour the service and sacrifices of the personnel of the force, the Assam Royal Global University (RGU) has signed a Memorandum of Understanding with the Central Reserve Police Force (CRPF)...',
+                        ],
+                        [
+                            'title' => 'Industry Titan & Former Tata Motors Chief Ravi Kant Joins RGU Advisory Board',
+                            'summary' => '',
+                            'date' => 'Guwahati, June 13, 2025:',
+                            'link' => 'industry-titan-&-former-tata-motors-chief-ravi-kant-joins-rgu-advisory-board',
+                            'image' => 'mobile-assets/media-corner/media-img/news11.jpg',
+                            'content' => 'Eminent industry leader Sri Ravi Kant has recently joined The Assam Royal Global University (RGU) as Member of its Advisory Board. His inclusion marks a significant step forward in strengthening the university’s strategic vision and societal impact.',
+                        ],
+                        [
                             'title' => 'Bhutan to Strengthen Relations with Institutions in Assam: Bhutanese Delegation at RGU',
                             'summary' => 'Bhutan’s Gelephu Mindfulness City Delegation Visits Assam Royal Global University',
                             'date' => 'Guwahati, June 11, 2025:',
-                            'link' => '',
-                            'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
+                            'link' => 'bhutan-to-strengthen-relations-with-institutions-in-assam-bhutanese-delegation-at-rgu',
+                            'image' => 'mobile-assets/media-corner/media-img/news10.jpg',
                             'content' => 'A nine-member delegation from Bhutan’s Gelephu Mindfulness City, currently on a visit to Assam, today engaged in meaningful discussions with senior officials of Assam Royal Global University (RGU) at its campus in Guwahati.',
                         ],
                         [
                             'title' => 'World Environment Day observed at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, June 5, 2025:',
-                            'link' => '',
-                            'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
+                            'link' => 'world-environment-day-observed-at-rgu',
+                            'image' => 'mobile-assets/media-corner/media-img/news9.jpg',
                             'content' => 'On the occasion of the World Environment Day 2025, the Guwahati Municipal Corporation under the joint initiative of Swachh Bharat Mission 2.0 and the National Clean Air Programme, and in association with The Assam Royal Global University organized a day-long event at the university campus today.',
                         ],
                         [
                             'title' => 'The Threads of Tomorrow’: Lookbook Launched by Royal School of Fashion Design & Technology',
                             'summary' => '',
                             'date' => 'Guwahati, June 4, 2025:',
-                            'link' => '',
-                            'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
+                            'link' => 'lookbook-launched-by-royal-school-of-fashion-design-&-technology',
+                            'image' => 'mobile-assets/media-corner/media-img/news8.jpg',
                             'content' => 'The Royal School of Fashion Design and Technology (RSFT) has unveiled its first-ever lookbook, ‘The Threads of Tomorrow’ at The Assam Royal Global University (RGU) today. The lookbook was launched by acclaimed fashion designer and textile revivalist Ms. Arita Kashyap in the presence of Mr Ankur Pansari, Executive Vice President, RGU; Mrs Angira Mimani, Associate Dean, Student Affairs; and other dignitaries, faculty members and students.',
                         ],
                         [
                             'title' => 'Veteran Journalist PJ Baruah Joins Royal Global University as Distinguished Professor',
                             'summary' => '',
                             'date' => 'Guwahati, June 3, 2025:',
-                            'link' => '',
-                            'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
+                            'link' => 'veteran-journalist-pj-baruah-joins-royal-global-university',
+                            'image' => 'mobile-assets/media-corner/media-img/news7.jpg',
                             'content' => 'In a significant development for media education in the region, renowned journalist Shri Prasanta Jyoti Baruah has joined The Assam Royal Global University (RGU) as a Distinguished Professor at the Royal School of Communication and Media. A veteran in the field, Shri Baruah has served as the Executive Editor of The Assam Tribune for several decades, making notable contributions to journalism in Northeast India.',
                         ],
                         [
                             'title' => 'Prof. Amarjyoti Choudhury to Lead Dr Bhupen Hazarika Centre for Creativity at Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, June 2, 2025:',
-                            'link' => '',
-                            'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
+                            'link' => 'dr-bhupen-hazarika-centre-for-creativity-at-royal-global-university',
+                            'image' => 'mobile-assets/media-corner/media-img/news6.jpg',
                             'content' => 'In a historic and emotionally resonant announcement that bridges the past and the future, The Assam Royal Global University (RGU) has proudly welcomed Prof. (Dr.) Amarjyoti Choudhury, renowned scholar, scientist, artist and visionary thinker as Emeritus Prof. and Chair of the newly instituted ‘Dr Bhupen Hazarika Centre for Creativity’...',
                         ],
                         [
                             'title' => 'AI Dependence is Making Slaves, Mind is Far Superior to Technology: JNU VC Prof. Santishree Pandit at RGU',
                             'summary' => 'JNU VC Prof. Santishree Pandit addresses students and faculty members at Assam Royal Global University',
                             'date' => 'Guwahati, May 28, 2025:',
-                            'link' => '',
-                            'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
+                            'link' => 'ai-dependence-is-making-slaves-mind-is-far-superior-to-technology-jnu-vc-prof-santishree-pandit-at-rgu',
+                            'image' => 'mobile-assets/media-corner/media-img/news5.jpg',
                             'content' => 'Intelligence has become artificial, but stupidity is original. Machines are learning, humans are serving. Students, please don’t lose your talent to read, to write and to think independently. ChatGPT and AI dependence is making slaves...',
                         ],
                         [
                             'title' => 'RGU Awarded Most Eminent Private University of North East 2025',
                             'summary' => '',
                             'date' => 'Guwahati, May 25, 2025:',
-                            'link' => '',
-                            'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
+                            'link' => 'rgu-awarded-most-eminent-private-university-of-north-east-2025',
+                            'image' => 'mobile-assets/media-corner/media-img/news4.jpg',
                             'content' => 'In recognition to its contribution in the field of higher education, The Assam Royal Global University (RGU) has been conferred the “Most Eminent Private University of North East” Award at the prestigious Education Eminence Awards 2025 organised by News18 Assam North East in association with the Lions Club. Shri Pijush Hazarika, Minister of Information, Public Relations, Social Justice & Empowerment, Government of Assam and Lt. Gen. (Retd.) Rana Pratap Kalita handed over the award yesterday evening at a grand ceremony in the city in the presence... ',
                         ],
                         [
@@ -94,7 +106,7 @@
                             'link' => '129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance',
                             'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
                             'content' => 'With its continued effort to foster academic excellence and reward outstanding student performance, The Assam Royal Global University (RGU) yesterday organised a Monthly Scholarship award ceremony to honour the exemplary students who qualified for the Semester Topper Scholarship for the Odd Semester Examination 2024–25.
-                                                                                                                                                                                                                                                                                ',
+                                                                                                                                                                                                                                                                                                                                                                            ',
                         ],
                         [
                             'title' => 'RGU Celebrates Commendation Day for Placed Graduating Students',
@@ -155,11 +167,10 @@
 
     </section>
 
-    {{-- Inline JS for Search + Date + Pagination --}}
+    {{-- Inline JS for Search + Pagination --}}
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const searchInput = document.getElementById('searchInput');
-            const dateInput = document.getElementById('dateInput');
             const items = Array.from(document.querySelectorAll('.news-item'));
             const prevBtn = document.getElementById('prevPage');
             const nextBtn = document.getElementById('nextPage');
@@ -170,14 +181,9 @@
 
             function applyFilters() {
                 const searchText = searchInput.value.toLowerCase();
-                const selectedDate = dateInput.value;
-
                 return items.filter(item => {
                     const title = item.getAttribute('data-title');
-                    const date = item.getAttribute('data-date');
-                    const matchesSearch = title.includes(searchText);
-                    const matchesDate = !selectedDate || date === selectedDate;
-                    return matchesSearch && matchesDate;
+                    return title.includes(searchText);
                 });
             }
 
@@ -202,11 +208,6 @@
             }
 
             searchInput.addEventListener('input', () => {
-                currentPage = 1;
-                updatePagination();
-            });
-
-            dateInput.addEventListener('change', () => {
                 currentPage = 1;
                 updatePagination();
             });
