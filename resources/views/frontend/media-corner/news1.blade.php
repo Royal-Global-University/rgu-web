@@ -1,4 +1,120 @@
 @extends('frontend.master')
+@push('styles')
+    <!-- media corner css  -->
+    <style>
+        /* Desktop carousel styles */
+        .carousel-desktop-wrapper {
+            max-width: 100%;
+            overflow: hidden;
+            position: relative;
+            padding: 30px;
+            display: block;
+        }
+
+        .carousel-desktop-item {
+            flex: 0 0 33.3333%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .carousel-desktop-img {
+            height: 550px;
+            border: 2px solid #333;
+        }
+
+        .carousel-desktop-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 6px 15px;
+            background: #27467A;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .carousel-desktop-prev,
+        .carousel-desktop-next {
+            position: absolute;
+            top: 50%;
+            background: #27467A;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            transform: translateY(-50%);
+        }
+
+        .carousel-desktop-prev {
+            left: 10px;
+        }
+
+        .carousel-desktop-next {
+            right: 10px;
+        }
+
+        /* Mobile carousel styles */
+        .carousel-mobile-wrapper {
+            max-width: 100%;
+            overflow: hidden;
+            position: relative;
+            padding: 30px;
+            display: none;
+        }
+
+        .carousel-mobile-item {
+            flex: 0 0 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .carousel-mobile-img {
+            height: 550px;
+            border: 2px solid #333;
+        }
+
+        .carousel-mobile-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 6px 15px;
+            background: #27467A;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .carousel-mobile-prev,
+        .carousel-mobile-next {
+            position: absolute;
+            top: 50%;
+            background: #27467A;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            transform: translateY(-50%);
+        }
+
+        .carousel-mobile-prev {
+            left: 10px;
+        }
+
+        .carousel-mobile-next {
+            right: 10px;
+        }
+
+        /* Responsive display switch */
+        @media (max-width: 768px) {
+            .carousel-desktop-wrapper {
+                display: none;
+            }
+
+            .carousel-mobile-wrapper {
+                display: block;
+            }
+        }
+    </style>
+    <!-- media corner css  -->
+@endpush
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
 
@@ -82,6 +198,55 @@
                     and skill-building workshops.
                 </p>
 
+            </div>
+            <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4 pb-2"
+                style="color: #27467A; font-weight: 900;">
+                Media <span style="color: #FF9A1E; font-weight: 500;">Coverage</span></h2>
+
+            <!-- Mobile Carousel -->
+            <div class="carousel-mobile-wrapper">
+                <div class="carousel-mobile-track"
+                    style="display: flex; gap: 20px; transition: transform 0.5s ease-in-out;">
+                    <div class="carousel-mobile-item">
+                        <img src="mobile-assets/media-corner/news1/s1.png" class="carousel-mobile-img">
+                        <a href="#" class="carousel-mobile-btn">News Link</a>
+                    </div>
+                    <div class="carousel-mobile-item">
+                        <img src="mobile-assets/media-corner/news1/s2.png" class="carousel-mobile-img">
+                        <a href="#" class="carousel-mobile-btn">News Link</a>
+                    </div>
+                    <div class="carousel-mobile-item">
+                        <img src="mobile-assets/media-corner/news1/s3.png" class="carousel-mobile-img">
+                        <a href="#" class="carousel-mobile-btn">News Link</a>
+                    </div>
+                    <div class="carousel-mobile-item">
+                        <img src="mobile-assets/media-corner/news1/s4.png" class="carousel-mobile-img">
+                        <a href="#" class="carousel-mobile-btn">News Link</a>
+                    </div>
+                    <div class="carousel-mobile-item">
+                        <img src="mobile-assets/media-corner/news1/s5.png" class="carousel-mobile-img">
+                        <a href="#" class="carousel-mobile-btn">News Link</a>
+                    </div>
+                    <div class="carousel-mobile-item">
+                        <img src="mobile-assets/media-corner/news1/s7.png" class="carousel-mobile-img">
+                        <a href="#" class="carousel-mobile-btn">News Link</a>
+                    </div>
+                    <div class="carousel-mobile-item">
+                        <img src="mobile-assets/media-corner/news1/s8.png" class="carousel-mobile-img">
+                        <a href="#" class="carousel-mobile-btn">News Link</a>
+                    </div>
+                    <div class="carousel-mobile-item">
+                        <img src="mobile-assets/media-corner/news1/s9.png" class="carousel-mobile-img">
+                        <a href="#" class="carousel-mobile-btn">News Link</a>
+                    </div>
+                    <div class="carousel-mobile-item">
+                        <img src="mobile-assets/media-corner/news1/s10.png" class="carousel-mobile-img">
+                        <a href="#" class="carousel-mobile-btn">News Link</a>
+                    </div>
+
+                </div>
+                <button class="carousel-mobile-prev" onclick="moveCarouselMobile(-1)">&#8592;</button>
+                <button class="carousel-mobile-next" onclick="moveCarouselMobile(1)">&#8594;</button>
             </div>
 
         </div>
@@ -168,7 +333,108 @@
 
             </div>
 
-        </div>
+            <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4 pb-2"
+                style="color: #27467A; font-weight: 900;">
+                Media <span style="color: #FF9A1E; font-weight: 500;">Coverage</span></h2>
 
+
+
+            <div class="custom-carousel-container container">
+                <!-- Desktop Carousel -->
+                <div class="carousel-desktop-wrapper">
+                    <div class="carousel-desktop-track"
+                        style="display: flex; gap: 10px; transition: transform 0.5s ease-in-out;">
+                        <!-- Repeatable items -->
+                        <div class="carousel-desktop-item">
+                            <img src="mobile-assets/media-corner/news1/s1.png" class="carousel-desktop-img"> <br>
+                            <a href="#" class="carousel-desktop-btn">News Link</a>
+                        </div>
+                        <div class="carousel-desktop-item">
+                            <img src="mobile-assets/media-corner/news1/s2.png" class="carousel-desktop-img"> <br>
+                            <a href="#" class="carousel-desktop-btn">News Link</a>
+                        </div>
+                        <div class="carousel-desktop-item">
+                            <img src="mobile-assets/media-corner/news1/s3.png" class="carousel-desktop-img"> <br>
+                            <a href="#" class="carousel-desktop-btn">News Link</a>
+                        </div>
+                        <div class="carousel-desktop-item">
+                            <img src="mobile-assets/media-corner/news1/s4.png" class="carousel-desktop-img"> <br>
+                            <a href="#" class="carousel-desktop-btn">News Link</a>
+                        </div>
+                        <div class="carousel-desktop-item">
+                            <img src="mobile-assets/media-corner/news1/s5.png" class="carousel-desktop-img"> <br>
+                            <a href="#" class="carousel-desktop-btn">News Link</a>
+                        </div>
+                        <div class="carousel-desktop-item">
+                            <img src="mobile-assets/media-corner/news1/s6.png" class="carousel-desktop-img"> <br>
+                            <a href="#" class="carousel-desktop-btn">News Link</a>
+                        </div>
+                        <div class="carousel-desktop-item">
+                            <img src="mobile-assets/media-corner/news1/s7.png" class="carousel-desktop-img"> <br>
+                            <a href="#" class="carousel-desktop-btn">News Link</a>
+                        </div>
+                        <div class="carousel-desktop-item">
+                            <img src="mobile-assets/media-corner/news1/s8.png" class="carousel-desktop-img"> <br>
+                            <a href="#" class="carousel-desktop-btn">News Link</a>
+                        </div>
+                        <div class="carousel-desktop-item">
+                            <img src="mobile-assets/media-corner/news1/s9.png" class="carousel-desktop-img"> <br>
+                            <a href="#" class="carousel-desktop-btn">News Link</a>
+                        </div>
+                        <div class="carousel-desktop-item">
+                            <img src="mobile-assets/media-corner/news1/s10.png" class="carousel-desktop-img"> <br>
+                            <a href="#" class="carousel-desktop-btn">News Link</a>
+                        </div>
+                    </div>
+                    <button class="carousel-desktop-prev" onclick="moveCarouselDesktop(-1)">&#8592;</button>
+                    <button class="carousel-desktop-next" onclick="moveCarouselDesktop(1)">&#8594;</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- media corner js  -->
+        <script>
+            // DESKTOP
+            let desktopIndex = 0;
+            const desktopItems = document.querySelectorAll('.carousel-desktop-item');
+            const desktopTrack = document.querySelector('.carousel-desktop-track');
+            const desktopVisible = 3;
+
+            function updateCarouselDesktop() {
+                const total = desktopItems.length;
+                const offset = desktopIndex * (100 / desktopVisible);
+                desktopTrack.style.transform = `translateX(-${offset}%)`;
+            }
+
+            function moveCarouselDesktop(dir) {
+                desktopIndex += dir;
+                if (desktopIndex > desktopItems.length - desktopVisible) desktopIndex = 0;
+                if (desktopIndex < 0) desktopIndex = desktopItems.length - desktopVisible;
+                updateCarouselDesktop();
+            }
+
+            setInterval(() => moveCarouselDesktop(1), 3000);
+
+            // MOBILE
+            let mobileIndex = 0;
+            const mobileItems = document.querySelectorAll('.carousel-mobile-item');
+            const mobileTrack = document.querySelector('.carousel-mobile-track');
+            const mobileVisible = 1;
+
+            function updateCarouselMobile() {
+                const offset = mobileIndex * (100 / mobileVisible);
+                mobileTrack.style.transform = `translateX(-${offset}%)`;
+            }
+
+            function moveCarouselMobile(dir) {
+                mobileIndex += dir;
+                if (mobileIndex > mobileItems.length - mobileVisible) mobileIndex = 0;
+                if (mobileIndex < 0) mobileIndex = mobileItems.length - mobileVisible;
+                updateCarouselMobile();
+            }
+
+            setInterval(() => moveCarouselMobile(1), 3000);
+        </script>
+        <!-- media corner js  -->
     </section>
 @endsection

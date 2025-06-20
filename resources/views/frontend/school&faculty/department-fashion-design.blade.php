@@ -609,7 +609,16 @@
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-
+                                                <a href="mobile-assets/department-all/syllabus-new/fashion/Structure of syllabus RSFT- UG.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Structure of syllabus - BID
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+                                                <a href="mobile-assets/department-all/syllabus-new/fashion/2023 Batch Onwards (20th feb )11th BOS NEP.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - BID
+                                                    <i class="fa fa-download"></i>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
