@@ -24,7 +24,7 @@
                     <td>1.</td>
                     <td>
                       <p class="para1">
-                        <strong style="color: #023e8a;" class="#">M.Sc. - Finearts</strong>
+                        <strong style="color: #023e8a;" class="#">M.Sc. - Fine Arts</strong>
                       </p>
                     </td>
                     <td class="para1">
@@ -41,7 +41,7 @@
                     <td>2.</td>
                     <td>
                       <p class="para1">
-                        <strong style="color: #023e8a;" class="#">B.Sc. - Finearts</strong><br>
+                        <strong style="color: #023e8a;" class="#">B.Sc. - Fine Arts</strong><br>
                         Honours / Honours with Research
                       </p>
                     </td>
@@ -87,7 +87,7 @@
                     <td>1.</td>
                     <td>
                       <p class="para1">
-                        <strong style="color: #023e8a;" class="#">M.Sc. - Finearts</strong>
+                        <strong style="color: #023e8a;" class="#">M.Sc. - Fine Arts</strong>
                       </p>
                     </td>
                     <td class="para1">
@@ -104,7 +104,7 @@
                     <td>2.</td>
                     <td>
                       <p class="para1">
-                        <strong style="color: #023e8a;" class="#">B.Sc. - Finearts</strong><br>
+                        <strong style="color: #023e8a;" class="#">B.Sc. - Fine Arts</strong><br>
                         Honours / Honours with Research
                       </p>
                     </td>

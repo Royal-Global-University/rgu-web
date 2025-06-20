@@ -48,7 +48,7 @@
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc. Physiotherapy (Lateral
                                             Entry)</strong><br>
-                                            Honours / Honours withResearch
+                                            Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -134,7 +134,7 @@
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">B.Sc. Physiotherapy (Lateral
                                             Entry)</strong><br>
-                                            Honours / Honours withResearch
+                                            Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
