@@ -545,7 +545,7 @@
                                     Shwetambara Verma</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, <br> The Assam Royal
                                     Global University</p>
-
+                                  <a href="dr-shwetambara-verma"><p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p></a>
                             </div>
                         </div>
                     </div>
@@ -1261,7 +1261,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/all-faculty/rset/civil-engg/1.jpg"
@@ -1280,7 +1280,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Shwetambara-Verma-RSET.png"
@@ -1291,7 +1291,9 @@
                                     Shwetambara Verma</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, <br> The Assam Royal
                                     Global University</p>
-
+                                    <a href="dr-shwetambara-verma">
+                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    </a>
                             </div>
                         </div>
                     </div>
@@ -1299,7 +1301,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Mr.-Rishikesh-Duarah-RSET.png"
@@ -1318,7 +1320,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Bonisha-Borah-RSET.png"
@@ -1337,7 +1339,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/all-faculty/rset/civil-engg/5.jpg"
