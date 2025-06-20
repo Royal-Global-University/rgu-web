@@ -8,8 +8,8 @@
         <section style="background-image: url(mobile-assets/boardofmanagement/bg.svg); background-size: cover;">
 
             <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text"
-                style="color: #27467A; font-weight: 900; padding-top: 90px; position: relative;">
-                Royal School of <br><span style="color: #FF9A1E; font-weight: 500; padding-top: 110px; position: relative;">
+                style="color: #27467A; font-weight: 900; padding-top: 110px; position: relative;">
+                Royal School of <br><span style="color: #FF9A1E; font-weight: 500;">
                     Engineering & Technology (RSET)</span></h2>
 
 
@@ -62,7 +62,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Rashel-Sarkar-RSET.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Rashel-Sarkar-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -101,7 +102,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rset/cse/3.jpeg"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Anupam-Das-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -123,7 +125,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rset/cse/5.jpg"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Raghavendra-Prasad-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -165,7 +168,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Afsana-Laskar-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -226,7 +230,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rset/cse/9.jpg"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Nayan-J-Kalita-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -287,7 +292,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rset/cse/12.jpeg"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Spandan-Kumar-Barthakur-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -307,7 +313,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Ms-Vanita-Agrawal-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -473,7 +480,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rset/me/5.jpeg"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Zunaid-Ahmed-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -529,7 +537,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/civil-engg/2.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Shwetambara-Verma-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -548,7 +556,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/civil-engg/3.jpg"
+                                    src="mobile-assets/updated-faculty-img/Mr.-Rishikesh-Duarah-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -567,7 +575,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/civil-engg/4.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Bonisha-Borah-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -605,7 +613,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/civil-engg/6.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Shinjini-Paul-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -662,7 +670,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/civil-engg/9.jpg"
+                                    src="mobile-assets/updated-faculty-img/Chandra-Upadhyaya-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -719,7 +727,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Rajesh-Deb.png"
+                                    src="mobile-assets/updated-faculty-img/Rajesh-Deb-RSD.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -800,7 +808,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Rashel-Sarkar-RSET.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Rashel-Sarkar-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -839,7 +848,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rset/cse/3.jpeg"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Anupam-Das-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -861,7 +871,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rset/cse/5.jpg"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Raghavendra-Prasad-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -903,7 +914,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Afsana-Laskar-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -964,7 +976,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rset/cse/9.jpg"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Nayan-J-Kalita-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1025,7 +1038,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rset/cse/12.jpeg"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Spandan-Kumar-Barthakur-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1045,7 +1059,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Ms-Vanita-Agrawal-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1211,7 +1226,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 480px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rset/me/5.jpeg"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Zunaid-Ahmed-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1245,7 +1261,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/all-faculty/rset/civil-engg/1.jpg"
@@ -1264,10 +1280,10 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/civil-engg/2.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Shwetambara-Verma-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1275,7 +1291,7 @@
                                     Shwetambara Verma</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, <br> The Assam Royal
                                     Global University</p>
-                                    <a href="dr-shwetambara-verma" target="_blank"><p class="card-text para1 mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p></a>
+
                             </div>
                         </div>
                     </div>
@@ -1283,10 +1299,10 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/civil-engg/3.jpg"
+                                    src="mobile-assets/updated-faculty-img/Mr.-Rishikesh-Duarah-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1302,10 +1318,10 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/civil-engg/4.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Bonisha-Borah-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1343,7 +1359,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/civil-engg/6.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Shinjini-Paul-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1400,7 +1416,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/civil-engg/9.jpg"
+                                    src="mobile-assets/updated-faculty-img/Chandra-Upadhyaya-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1457,7 +1473,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Rajesh-Deb.png"
+                                    src="mobile-assets/updated-faculty-img/Rajesh-Deb-RSD.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">

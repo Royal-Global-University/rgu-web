@@ -1,13 +1,11 @@
 @extends('frontend.master')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
-
-
         <div class="mobile">
             @include('frontend/components/mobileheader')
             <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text"
-                style="color: #27467A; font-weight: 900; padding-top: 90px; position: relative;">
-                Royal School <br><span style="color: #FF9A1E; font-weight: 500; padding-top: 110px; position: relative;"> of
+                style="color: #27467A; font-weight: 900; padding-top: 110px; position: relative;">
+                Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of
                     Commerce (RSC)</span></h2>
 
             <div style="padding: 20px 35px;">
@@ -19,7 +17,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/1.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. George
@@ -45,7 +43,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Sudip-Chakraborty.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Sudip
@@ -80,7 +78,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/3.jpg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Aruna Dev
@@ -96,8 +94,9 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/4.jpg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Niva-Kalita-RSC.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Niva Kalita
@@ -113,7 +112,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/padum.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Padum-RSC.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -131,7 +131,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Rajdeep-Nag.png" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Dr-Rajdeep-Nag.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Rajdeep Nag
@@ -149,7 +150,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Baishali-Pathak.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Baishali
@@ -166,8 +167,9 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/7.jpg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Richika-Kedia-RSC.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Richika
@@ -185,7 +187,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Rikh-Roy.png" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Rikh-Roy.png" class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Rikh Roy
@@ -201,8 +203,9 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/9.jpg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Ritishna-RSC.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Ritishna
@@ -220,7 +223,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Rituparna-Baruah.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Rituparna
@@ -237,7 +240,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Roshni-Agarwal.png" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Roshni-Agarwal.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Roshni
@@ -254,8 +258,9 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/12.jpg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Srawan-goenka-RSC.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Srawan Kr.
@@ -291,7 +296,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Jimpy-Saud.png" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Jimpy-Saud.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Miss Jimpy Saud
@@ -325,7 +331,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/1.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. George
@@ -351,7 +357,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Sudip-Chakraborty.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Sudip
@@ -386,7 +392,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/3.jpg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Aruna Dev
@@ -402,8 +408,9 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/4.jpg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Niva-Kalita-RSC.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Niva Kalita
@@ -419,7 +426,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/padum.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Padum-RSC.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -437,7 +445,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Rajdeep-Nag.png" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Dr-Rajdeep-Nag.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Rajdeep Nag
@@ -455,7 +464,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Baishali-Pathak.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Baishali
@@ -472,8 +481,9 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/7.jpg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Richika-Kedia-RSC.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Richika
@@ -491,7 +501,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Rikh-Roy.png" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Rikh-Roy.png" class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Rikh Roy
@@ -507,8 +517,9 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/9.jpg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Ritishna-RSC.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Ritishna
@@ -526,7 +537,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Rituparna-Baruah.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Rituparna
@@ -543,7 +554,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Roshni-Agarwal.png" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Roshni-Agarwal.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Roshni
@@ -560,8 +572,9 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/12.jpg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Srawan-goenka-RSC.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Srawan Kr.
@@ -597,7 +610,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Jimpy-Saud.png" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Jimpy-Saud.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Miss Jimpy Saud

@@ -4,10 +4,10 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900;">
+            <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text"
+                style="color: #27467A; font-weight: 900; padding-top: 110px; position: relative;">
                 Royal School of Behavioural <br><span
-                    style="color: #FF9A1E; font-weight: 500; padding-top: 110px; position: relative;"> & Allied Sciences
+                    style="color: #FF9A1E; font-weight: 500;"> & Allied Sciences
                     (RSBAS)</span>
             </h2>
 
@@ -49,7 +49,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Queen-Deka-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Queen Deka
@@ -83,7 +83,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Fariza-Saidin-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Fariza
@@ -99,7 +99,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Jwmwishree-Boro-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Jwmwishree
@@ -115,7 +115,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Mahuya-Deb-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Mahuya Deb
@@ -164,7 +164,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Sayeda-Anjum-Afreen-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Syeda Anjum
@@ -180,7 +180,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Tahera-Haque-Majumder-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Tahera
@@ -229,7 +229,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Mahima-Singhi-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Mahima
@@ -291,7 +291,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Queen-Deka-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Queen Deka
@@ -325,7 +325,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Fariza-Saidin-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Fariza
@@ -341,7 +341,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Jwmwishree-Boro-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Jwmwishree
@@ -357,7 +357,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Mahuya-Deb-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Mahuya Deb
@@ -406,7 +406,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Sayeda-Anjum-Afreen-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Syeda Anjum
@@ -422,7 +422,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Tahera-Haque-Majumder-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Tahera
@@ -471,7 +471,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Mahima-Singhi-RSBAS.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Mahima

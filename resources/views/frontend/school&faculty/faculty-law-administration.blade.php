@@ -4,10 +4,9 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900;">
-                Royal School of <br><span style="color: #FF9A1E; font-weight: 500; padding-top: 110px; position: relative;">
-                    Law & Administration (RSLA)</span></h2>
+            <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text"
+                style="color: #27467A; font-weight: 900; padding-top: 110px; position: relative;">
+                Royal School of <br><span style="color: #FF9A1E; font-weight: 500;"> Law & Administration (RSLA)</span></h2>
 
             <div style="padding: 20px 35px;">
 
@@ -19,7 +18,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/all-faculty/rsla/Prof-Bhuban-Ch-Barooah.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -44,8 +43,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/ProfAjitKaushal_new.jpeg"
-                                    class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Ajit-Kaushal-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -63,7 +62,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/hirenchnath.jpeg" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Hiren-Chandra Nath-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -82,7 +82,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Prof-Preeti-Gupta.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -100,8 +100,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/Dr.ThaneswarKalita.jpeg"
-                                    class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Thaneswar-Kalita-RSLS.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -120,7 +120,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Anjuman-Ara-Begum-RSLA.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -137,27 +137,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/Ms.KuntalaRoychoudhury.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Kuntala Roychoudhury
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsla/DrPranita.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -175,7 +156,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsla/daiamon.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -193,7 +174,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Ms-Hiya-Das.png" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Ms-Hiya-Das.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -211,7 +193,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/indranikakati.jpeg" class="img-fluid rounded" />
+                                    src="mobile-assets/all-faculty/rsla/indranikakati.jpeg"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -229,7 +212,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/kumarroshan.jpeg" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Kumar-Roshan Dusad-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -246,8 +230,28 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsla/pravek.jpeg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Kuntala Roychoudhury-RSLA.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Kuntala Roychoudhury
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Pravek-Medhi-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -264,8 +268,9 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsla/sumitra.jpeg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Sumitra-Devi-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -283,7 +288,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsla/kankana.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -302,7 +307,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/all-faculty/rsla/Ms.SaTaskeenRahman.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -320,8 +325,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/Mrs.ShrutiHazarikaBorpujari.jpeg"
-                                    class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Shruti-Hazarika-Borpujar-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -356,7 +361,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/all-faculty/rsla/Prof-Bhuban-Ch-Barooah.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -381,8 +386,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/ProfAjitKaushal_new.jpeg"
-                                    class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Ajit-Kaushal-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -400,7 +405,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/hirenchnath.jpeg" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Hiren-Chandra Nath-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -419,7 +425,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Prof-Preeti-Gupta.png"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -437,8 +443,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/Dr.ThaneswarKalita.jpeg"
-                                    class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Thaneswar-Kalita-RSLS.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -457,7 +463,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Anjuman-Ara-Begum-RSLA.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -474,27 +480,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/Ms.KuntalaRoychoudhury.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Kuntala Roychoudhury
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsla/DrPranita.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -512,7 +499,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsla/daiamon.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -530,7 +517,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Ms-Hiya-Das.png" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Ms-Hiya-Das.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -548,7 +536,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/indranikakati.jpeg" class="img-fluid rounded" />
+                                    src="mobile-assets/all-faculty/rsla/indranikakati.jpeg"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -566,7 +555,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/kumarroshan.jpeg" class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Kumar-Roshan Dusad-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -579,13 +569,32 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Kuntala Roychoudhury-RSLA.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Kuntala Roychoudhury
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsla/pravek.jpeg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Pravek-Medhi-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -602,8 +611,9 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsla/sumitra.jpeg"
-                                    class="img-fluid rounded" />
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Sumitra-Devi-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -621,7 +631,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsla/kankana.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -640,7 +650,7 @@
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/all-faculty/rsla/Ms.SaTaskeenRahman.jpeg"
-                                    class="img-fluid rounded" />
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
@@ -658,8 +668,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsla/Mrs.ShrutiHazarikaBorpujari.jpeg"
-                                    class="img-fluid rounded" />
+                                    src="mobile-assets/updated-faculty-img/Shruti-Hazarika-Borpujar-RSLA.png"
+                                    class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
