@@ -78,7 +78,7 @@
                     <h2 class="mobile-headd2 fw-bold text-center" style="color: #27467A;">ARCHITECTURE PROGRAMME APPROVED BY COUNCIL OF ARCHITECTURE</h2>
                     <p class="mobile-para1 text-dark text-center" style="text-align: justify;">
                         B.Arch. programme/course is approved by Council of Architecture (COA).
-                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/7.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
+                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/Extension of Approval 2025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
                 </div>
             </div>
 
@@ -241,7 +241,7 @@
                 <h2 class="headd2 fw-bold" style="color: #27467A;">ARCHITECTURE PROGRAMME APPROVED BY COUNCIL OF ARCHITECTURE</h2>
                 <p class="para1 text-dark" style="text-align: justify;">
                     B.Arch. programme/course is approved by Council of Architecture (COA).
-                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/7.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
+                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/Extension of Approval 2025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
             </div>
         </div>
 
