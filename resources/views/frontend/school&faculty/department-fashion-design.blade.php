@@ -611,12 +611,12 @@
                                             <div class="row">
                                                 <a href="mobile-assets/department-all/syllabus-new/fashion/Structure of syllabus RSFT- UG.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Structure of syllabus
+                                                    <i class="fa fa-file-text px-2"></i> Structure of syllabus - RSD
                                                     <i class="fa fa-download"></i>
                                                 </a>
                                                 <a href="mobile-assets/department-all/syllabus-new/fashion/2023 Batch Onwards (20th feb )11th BOS NEP.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Syllabus
+                                                    <i class="fa fa-file-text px-2"></i> Syllabus - RSD
                                                     <i class="fa fa-download"></i>
                                                 </a>
                                             </div>
