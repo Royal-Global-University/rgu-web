@@ -8,7 +8,7 @@
         <section style="background-image: url(mobile-assets/boardofmanagement/bg.svg); background-size: cover;">
 
             <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text"
-                style="color: #27467A; font-weight: 900; padding-top: 90px; position: relative;">
+                style="color: #27467A; font-weight: 900; padding-top: 110px; position: relative;">
                 Royal School of <br><span style="color: #FF9A1E; font-weight: 500;">
                     Medical & Allied Sciences (RSMAS)</span>
             </h2>
