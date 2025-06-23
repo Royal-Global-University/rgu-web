@@ -205,7 +205,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                             <div class="p-3">
                                 <img style="height: 300px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-pharmacy/Sudarshana-borah.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Dr-Sudarshana.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -425,7 +425,7 @@
                 <div class="card mt-4 shadow-sm">
                     <div class="row p-3">
                         <div class="col-lg-2">
-                            <img class="rounded shadow-sm border" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-pharmacy/Sudarshana-borah.jpeg" alt="">
+                            <img class="rounded shadow-sm border" src="mobile-assets/updated-faculty-img/Dr-Sudarshana.png" alt="">
                         </div>
                         <div class="col-lg-9">
                             <h2 class="headd3 fw-bold text-dark">Dr. Sudarshana Borah</h2>

@@ -11,8 +11,7 @@
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
                                 <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsaps/27.jpg"
-                                    alt="">
+                                    src="mobile-assets/updated-faculty-img/Himashreemedhi.jpeg" alt="">
                             </div>
                         </div>
 
@@ -30,23 +29,20 @@
                         <div class="col-lg-6"></div>
                         <div class="col-lg-6 pt-4 pb-4">
 
-                            <h2 class="headd1 fw-bold pt-5" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
-                                Dr. Sujata Deb
+                            <h2 class="headd1 fw-bold pt-4" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
+                                Ms. Himashree Medhi
                             </h2>
 
-                            <h2 class="headd3 mb-5 pt-3 fw-bold faculty-underline" style="color: #fff; font-weight: 700;">
-                                Associate Professor & Associate Dean (Admission),
-                                Department of Physics,
-                                Royal School of Applied & Pure Sciences,
-                                The Assam Royal Global University
-
+                            <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
+                                Assistant Professor
                             </h2>
 
-                            <!-- <h2 class="para1 mb-5 faculty-underline" style="color: #fff; font-style: italic; font-size: 20px;">
+                            <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
                       Member of Advisory Board, The Assam Royal Global University
                     </h2> -->
 
                             <div>
+
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
                                     Qualifications
@@ -58,8 +54,9 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Ph.D., Gauhati University, 2017 <br>
-                                            First class (9.5 score in Ph.D. course work)
+                                            Masters of Physiotherapy in Community Based Rehabilitation (2019-2021), College
+                                            of Physiotherapy & Medical Sciences, Guwahati under Srimanta Sankardeva
+                                            University of Health Sciences.
                                         </span>
                                     </li>
                                     <li
@@ -67,27 +64,25 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            M.Sc., Physics, Gauhati University, 2002 <br>
-                                            First class with two specializations - (i) Nuclear Physics and (ii) High Energy
-                                            Physics
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            B.Sc. (H) Physics, Gauhati University, 1999 <br>
-                                            First class with distinction
+                                            Bachelors of physiotherapy (2014-2018), College of Physiotherapy & Medical
+                                            Sciences, Guwahati under Srimanta Sankardeva University of Health Sciences.
                                         </span>
                                     </li>
 
+                                </ul>
+
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Total Experience
+                                </h2>
+
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Bachelor of Education (B.Ed.) from Gauhati University, 2009
+                                            7.5 Years
                                         </span>
                                     </li>
                                 </ul>
@@ -103,16 +98,14 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            23 Years
+                                            3.5 Years
                                         </span>
                                     </li>
                                 </ul>
 
-
-
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Research
+                                    Industry Experience
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -121,10 +114,11 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Research (outside teaching): 14 Years
+                                            4 Years
                                         </span>
                                     </li>
                                 </ul>
+
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
@@ -137,41 +131,14 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Core/ Shell nanostructured materials
-                                        </span>
-                                    </li>
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            II-VI chalcogenide nanocomposites
-                                        </span>
-                                    </li>
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            2D materials
-                                        </span>
-                                    </li>
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Nano-optoelectronic materials and devices
+                                            Community Based Rehabilitation
                                         </span>
                                     </li>
                                 </ul>
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Paper Publication in Journals:
+                                    Paper Publications in Journals:
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -181,17 +148,15 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            International: 11
+                                            3
                                         </span>
                                     </li>
+
                                 </ul>
-
-
-
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Book Chapter Published
+                                    Any Other Achievements/Awards
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -201,41 +166,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            2
-                                        </span>
-                                    </li>
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Projects
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            2
-                                        </span>
-                                    </li>
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Any Other Achievement/ Award
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Academic excellence (2017 & 2019)
+                                            Best Outgoing in Masters of Physiotherapy
                                         </span>
                                     </li>
 
@@ -253,15 +184,14 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-            <div style="background-color: #fff; height: 40vh; overflow: visible;">
+            <div style="background-color: #fff; height: 35vh; overflow: visible;">
 
                 <div class="row">
                     <div class="col-lg-5 text-center">
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsaps/27.jpg"
-                                alt="">
+                                src="mobile-assets/updated-faculty-img/Himashreemedhi.jpeg" alt="">
                         </div>
 
                     </div>
@@ -269,23 +199,20 @@
                     <div class="col-lg-7 pt-5">
 
                         <h2 class="headd1 fw-bold pt-5 mb-3" style="color: #FF9A1E; font-weight: 700; font-size: 45px;">
-                            Dr. Sujata Deb
+                            Ms. Himashree Medhi
                         </h2>
 
-                        <h2 class="headd3 mb-5 fw-bold faculty-underline"
-                            style="color: #27467A; font-weight: 700; font-size: 26px; padding-right: 30px;">
-                            Associate Professor & Associate Dean (Admission),
-                            Department of Physics,
-                            Royal School of Applied & Pure Sciences,<br>
-                            The Assam Royal Global University
-
+                        <h2 class="headd3 mb-5 fw-bold half-underline"
+                            style="color: #27467A; font-weight: 700; font-size: 26px;">
+                            Assistant Professor
                         </h2>
 
-                        <!-- <h2 class="headd3 mb-5 faculty-underline" style="color: #555; font-style: italic; font-size: 25px;">
+                        <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
                       Member of Advisory Board, The Assam Royal Global University
                     </h2> -->
 
                     </div>
+
                 </div>
             </div>
 
@@ -306,37 +233,36 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Ph.D., Gauhati University, 2017 <br>
-                                        First class (9.5 score in Ph.D. course work)
+                                        Masters of Physiotherapy in Community Based Rehabilitation (2019-2021), College of
+                                        Physiotherapy & Medical Sciences, Guwahati under Srimanta Sankardeva University of
+                                        Health Sciences.
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        M.Sc., Physics, Gauhati University, 2002 <br>
-                                        First class with two specializations - (i) Nuclear Physics and (ii) High Energy
-                                        Physics
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        B.Sc. (H) Physics, Gauhati University, 1999 <br>
-                                        First class with distinction
+                                        Bachelors of physiotherapy (2014-2018), College of Physiotherapy & Medical Sciences,
+                                        Guwahati under Srimanta Sankardeva University of Health Sciences.
                                     </span>
                                 </li>
 
+                            </ul>
+
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Total Experience
+                            </h2>
+
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Bachelor of Education (B.Ed.) from Gauhati University, 2009
+                                        7.5 Years
                                     </span>
                                 </li>
                             </ul>
-
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
@@ -348,16 +274,14 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        23 Years
+                                        3.5 Years
                                     </span>
                                 </li>
                             </ul>
 
-
-
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Research
+                                Industry Experience
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -365,10 +289,11 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Research (outside teaching): 14 Years
+                                        4 Years
                                     </span>
                                 </li>
                             </ul>
+
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
@@ -380,38 +305,14 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Core/ Shell nanostructured materials
-                                    </span>
-                                </li>
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        II-VI chalcogenide nanocomposites
-                                    </span>
-                                </li>
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        2D materials
-                                    </span>
-                                </li>
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Nano-optoelectronic materials and devices
+                                        Community Based Rehabilitation
                                     </span>
                                 </li>
                             </ul>
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Paper Publication in Journals:
+                                Paper Publications in Journals:
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -420,15 +321,15 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        International: 11
+                                        3
                                     </span>
                                 </li>
-                            </ul>
 
+                            </ul>
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Book Chapter Published
+                                Any Other Achievements/Awards
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -437,46 +338,14 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        2
-                                    </span>
-                                </li>
-                            </ul>
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Projects
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        2
-                                    </span>
-                                </li>
-                            </ul>
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Any Other Achievement/ Award
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Academic excellence (2017 & 2019)
+                                        Best Outgoing in Masters of Physiotherapy
                                     </span>
                                 </li>
 
                             </ul>
-
 
                         </div>
+
                     </div>
                 </div>
 

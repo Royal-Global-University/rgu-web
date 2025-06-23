@@ -1,18 +1,16 @@
 @extends('frontend.master')
 @section('content')
-    <section>
+    <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <div style="background-color: #fff; height: 40vh;">
-
+            <div style="background-color: #fff; height: 40vh; padding-top: 90px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
                                 <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Dr.Pundarikaksha.jpg"
-                                    alt="">
+                                    src="mobile-assets/updated-faculty-img/Dr-Pundarikaksha-das.png" alt="">
                             </div>
                         </div>
 
@@ -23,7 +21,7 @@
 
             </div>
 
-            <div style="background-color: #27467A; padding-top: 70px; padding-bottom: 30px;">
+            <div style="background-color: #27467A; padding-top: 190px; padding-bottom: 50px;">
 
                 <div class="container">
                     <div class="row">
@@ -236,15 +234,16 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-            <div style="background-color: #fff; height: 40vh; overflow: visible;">
+            <div style="background-color: #fff; height: 35vh; overflow: visible;">
+
+
 
                 <div class="row">
                     <div class="col-lg-5 text-center">
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Dr.Pundarikaksha.jpg"
-                                alt="">
+                                src="mobile-assets/updated-faculty-img/Dr-Pundarikaksha-das.png" alt="">
                         </div>
 
                     </div>
