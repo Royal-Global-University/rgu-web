@@ -86,15 +86,12 @@
 
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item ">
-                        <img src="https://media.rgu.ac/index/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded"
-                            alt="...">
-                    </div>
-                    <div class="carousel-item active">
-                        <img src="mobile-assets/events/24june-mob.jpeg" class="d-block w-100 rounded" alt="...">
-                    </div>
+
                     <div class="carousel-item active">
                         <img src="mobile-assets/events/bhairav-mob.jpeg" class="d-block w-100 rounded" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="https://media.rgu.ac/index/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded" alt="...">
                     </div>
                 </div>
             </div>
@@ -850,8 +847,6 @@
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
                                     <img class="zoomable" src="mobile-assets/events/bhairav.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="mobile-assets/events/24june.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/prabuddha-web-may.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/subram-web.jpeg"
@@ -1041,45 +1036,44 @@
                                     style="color: #FF9A1E; font-weight: 500;"> Corner</span></h2>
                             <div style="height: 570px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
-                                    <div class="row p-1">
-                                        <div class="row bg-light p-2">
+                                    <div class="row">
+                                        <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
-                                                <img class="rounded" src="mobile-assets/media-corner/news3/headimg.jpg"
+                                                <img class="rounded" src="mobile-assets/media-corner/media-img/12.jpg"
                                                     alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">May 22,
+                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">June 18,
                                                     2025</p>
                                                 <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">Discipline and
-                                                    Dedication Keys to Success: Lt Col Singh at RGU Scholarship Ceremony</p>
-                                                <a href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance">
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">RGU Signs MoU with CRPF: Offers New Scholarships for Wards of Security Forces</p>
+                                                <a href="rgu-signs-mou-with-crpf-offers-new-scholarships-for-wards-of-security-forces">
                                                     <p class="pt-1 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="row bg-light p-2 mt-4">
+                                        <div class="row bg-light p-2 mt-4 rounded">
                                             <div class="col-lg-5">
-                                                <img class="rounded" src="mobile-assets/media-corner/news2/headimg.jpg" alt="" />
+                                                <img class="rounded" src="mobile-assets/media-corner/media-img/news11.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">May 21, 2025</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">RGU Celebrates Commendation Day for Placed Graduating Students</p>
-                                                <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students"><p class="pt-1 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">June 13, 2025</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">Industry Titan & Former Tata Motors Chief Ravi Kant Joins RGU Advisory Board</p>
+                                                <a href="industry-titan-&-former-tata-motors-chief-ravi-kant-joins-rgu-advisory-board"><p class="pt-1 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                     Read More ...</p></a>
                                             </div>
                                         </div>
-                                        <div class="row bg-light p-2 mt-4">
+                                        <div class="row bg-light p-2 mt-4 rounded">
                                             <div class="col-lg-5">
-                                                <img class="rounded" src="mobile-assets/media-corner/news1/pic1.JPG"
+                                                <img class="rounded" src="mobile-assets/media-corner/media-img/news10.jpg"
                                                     alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">May 16, 2025</p>
+                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">June 11, 2025</p>
                                                 <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">RGU Launches Integrated BA and B.Sc. Programs with Civil Services Coaching by SPM IAS Academy</p>
-                                                <a href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy"><p class="pt-1 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">Bhutan to Strengthen Relations with Institutions in Assam: Bhutanese Delegation at RGU</p>
+                                                <a href="bhutan-to-strengthen-relations-with-institutions-in-assam-bhutanese-delegation-at-rgu"><p class="pt-1 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                     Read More ...</p></a>
                                             </div>
                                         </div>
