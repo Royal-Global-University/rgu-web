@@ -2962,3 +2962,51 @@ Route::get('/faculty-dikshita-rabha', function () {
 Route::get('/faculty-himashree-medhi', function () {
     return view('frontend/facultyprofile/rsmas/himashree-medhi');
 })->name('faculty-himashree-medhi');
+//
+Route::get('/faculty-ashim-nath', function () {
+    return view('frontend/facultyprofile/rshss/ashim-nath');
+})->name('faculty-ashim-nath');
+
+Route::get('/faculty-bifuwada-nashibah', function () {
+    return view('frontend/facultyprofile/rshss/bifuwada-nashibah');
+})->name('faculty-bifuwada-nashibah');
+
+Route::get('/faculty-dr-mukta-agarwal', function () {
+    return view('frontend/facultyprofile/rsp/mukta');
+})->name('faculty-dr-mukta-agarwal');
+
+Route::get('/faculty-phurailatpam-jeny-sharma', function () {
+    return view('frontend/facultyprofile/rsmas/jeny-sharma');
+})->name('faculty-phurailatpam-jeny-sharma');
+
+Route::get('/faculty-kangkana-goswami', function () {
+    return view('frontend/facultyprofile/rsmas/kangkana-goswami');
+})->name('faculty-kangkana-goswami');
+
+Route::get('/faculty-lopa-das', function () {
+    return view('frontend/facultyprofile/rsmas/lopa-das');
+})->name('faculty-lopa-das');
+
+Route::get('/faculty-madhumita-das', function () {
+    return view('frontend/facultyprofile/rsmas/madhumita-das');
+})->name('faculty-madhumita-das');
+
+Route::get('/faculty-dr-madhusmita-koch', function () {
+    return view('frontend/facultyprofile/rsmas/madhusmita-koch');
+})->name('faculty-dr-madhusmita-koch');
+
+Route::get('/faculty-pallabi-sarmah', function () {
+    return view('frontend/facultyprofile/rsmas/pallabi-sarmah');
+})->name('faculty-pallabi-sarmah');
+
+Route::get('/faculty-rohit-sarma', function () {
+    return view('frontend/facultyprofile/rsmas/rohit-sarma');
+})->name('faculty-rohit-sarma');
+
+Route::get('/faculty-somyata-c-satpathy-sarma', function () {
+    return view('frontend/facultyprofile/rsmas/somyata-sarma');
+})->name('faculty-somyata-c-satpathy-sarma');
+
+Route::get('/faculty-sonia-lakhotia', function () {
+    return view('frontend/facultyprofile/rsmas/sonia-lakhotia');
+})->name('faculty-sonia-lakhotia');

@@ -93,6 +93,9 @@
                     <div class="carousel-item active">
                         <img src="mobile-assets/events/24june-mob.jpeg" class="d-block w-100 rounded" alt="...">
                     </div>
+                    <div class="carousel-item active">
+                        <img src="mobile-assets/events/bhairav-mob.jpeg" class="d-block w-100 rounded" alt="...">
+                    </div>
                 </div>
             </div>
         </section>
@@ -845,6 +848,8 @@
                                     Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span></h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
+                                    <img class="zoomable" src="mobile-assets/events/bhairav.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="mobile-assets/events/24june.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/prabuddha-web-may.jpeg"
