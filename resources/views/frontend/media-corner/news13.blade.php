@@ -78,7 +78,7 @@
                 <br><br>
             </p>
 
-            <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4 pb-2"
+            <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4 pb-4"
                 style="color: #27467A; font-weight: 900;">
                 Media <span style="color: #FF9A1E; font-weight: 500;">Coverage</span>
             </h2>
