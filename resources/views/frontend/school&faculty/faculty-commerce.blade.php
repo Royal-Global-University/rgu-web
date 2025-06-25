@@ -51,6 +51,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor & I/C Dy. Dean
                                 </p>
+                                <a href="faculty-sudip-chakraborty">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -85,6 +88,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor & HoD
                                 </p>
+                                <a href="faculty-dr-aruna-dev-roy">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -103,6 +109,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-dr-niva-kalita">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -121,6 +130,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-dr-padum-chetry">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -139,6 +151,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-dr-rajdeep-nag">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -157,6 +172,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-dr-baishali-pathak">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -176,6 +194,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-richika-kedia">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -194,6 +215,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-rikh-roy">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -212,6 +236,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-ritishna-sarma">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -230,6 +257,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-rituparna-baruah">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -286,6 +316,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Teaching Assistant
                                 </p>
+                                <a href="faculty-dr-ananya-banik">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -304,6 +337,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Teaching Assistant
                                 </p>
+                                <a href="faculty-jimpy-saud">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -364,6 +400,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor & I/C Dy. Dean
                                 </p>
+                                <a href="faculty-sudip-chakraborty">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -398,6 +437,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor & HoD
                                 </p>
+                                <a href="faculty-dr-aruna-dev-roy">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -416,13 +458,16 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-dr-niva-kalita">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Padum-RSC.png"
@@ -434,13 +479,16 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-dr-padum-chetry">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Rajdeep-Nag.png"
@@ -452,13 +500,16 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-dr-rajdeep-nag">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Baishali-Pathak.png"
@@ -470,6 +521,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-dr-baishali-pathak">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -477,7 +531,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Richika-Kedia-RSC.png"
@@ -489,6 +543,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-richika-kedia">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -496,7 +553,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Rikh-Roy.png" class="img-fluid rounded border" />
@@ -507,13 +564,16 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-rikh-roy">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ritishna-RSC.png"
@@ -525,13 +585,16 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-ritishna-sarma">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Rituparna-Baruah.png"
@@ -543,13 +606,16 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-rituparna-baruah">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Roshni-Agarwal.png"
@@ -561,6 +627,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-roshni-agarwal">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -568,7 +637,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Srawan-goenka-RSC.png"
@@ -587,7 +656,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ananya-Banik.png"
@@ -599,13 +668,16 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Teaching Assistant
                                 </p>
+                                <a href="faculty-dr-ananya-banik">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Jimpy-Saud.png"
@@ -617,6 +689,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Teaching Assistant
                                 </p>
+                                <a href="faculty-jimpy-saud">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>

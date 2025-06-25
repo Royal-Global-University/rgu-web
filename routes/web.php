@@ -3111,3 +3111,57 @@ Route::get('/faculty-sayak-sengupta', function () {
 Route::get('/faculty-dr-sujata-deb', function () {
     return view('frontend/facultyprofile/rsaps/sujata-deb');
 })->name('faculty-dr-sujata-deb');
+
+//RSC FACULTY PROFILE
+
+Route::get('/faculty-dr-ananya-banik', function () {
+    return view('frontend/facultyprofile/rsc/ananya-banik');
+})->name('faculty-dr-ananya-banik');
+
+Route::get('/faculty-dr-aruna-dev-roy', function () {
+    return view('frontend/facultyprofile/rsc/aruna-dev-roy');
+})->name('faculty-dr-aruna-dev-roy');
+
+Route::get('/faculty-dr-baishali-pathak', function () {
+    return view('frontend/facultyprofile/rsc/baishali-pathak');
+})->name('faculty-dr-baishali-pathak');
+
+Route::get('/faculty-jimpy-saud', function () {
+    return view('frontend/facultyprofile/rsc/jimpy-saud');
+})->name('faculty-jimpy-saud');
+
+Route::get('/faculty-dr-niva-kalita', function () {
+    return view('frontend/facultyprofile/rsc/niva-kalita');
+})->name('faculty-dr-niva-kalita');
+
+Route::get('/faculty-dr-padum-chetry', function () {
+    return view('frontend/facultyprofile/rsc/padum-chetry');
+})->name('faculty-dr-padum-chetry');
+
+Route::get('/faculty-dr-rajdeep-nag', function () {
+    return view('frontend/facultyprofile/rsc/rajdeep');
+})->name('faculty-dr-rajdeep-nag');
+
+Route::get('/faculty-richika-kedia', function () {
+    return view('frontend/facultyprofile/rsc/richika-kedia');
+})->name('faculty-richika-kedia');
+
+Route::get('/faculty-rikh-roy', function () {
+    return view('frontend/facultyprofile/rsc/rikh-roy');
+})->name('faculty-rikh-roy');
+
+Route::get('/faculty-ritishna-sarma', function () {
+    return view('frontend/facultyprofile/rsc/ritishna-sarma');
+})->name('faculty-ritishna-sarma');
+
+Route::get('/faculty-rituparna-baruah', function () {
+    return view('frontend/facultyprofile/rsc/rituparna-baruah');
+})->name('faculty-rituparna-baruah');
+
+Route::get('/faculty-roshni-agarwal', function () {
+    return view('frontend/facultyprofile/rsc/roshni-agarwal');
+})->name('faculty-roshni-agarwal');
+
+Route::get('/faculty-sudip-chakraborty', function () {
+    return view('frontend/facultyprofile/rsc/sudip-chakraborty');
+})->name('faculty-sudip-chakraborty');
