@@ -257,7 +257,7 @@
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="mobile-assets/updated-faculty-img/kamal-debnath-rsaps.png"
+                                src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Kamal-Debnath-RSAPS.png"
                                 alt="">
                         </div>
 
