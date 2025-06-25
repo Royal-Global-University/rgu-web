@@ -125,7 +125,7 @@
                                     Dr. Ranjan Dutta Kalita
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor, <br> The Assam Royal Global University
+                                    Professor
                                 </p>
 
                             </div>
@@ -145,7 +145,7 @@
                                     Dr. Debajit Borah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor & HoD, <br> The Assam Royal Global University
+                                    Associate Professor & HoD
                                 </p>
 
                             </div>
@@ -166,7 +166,7 @@
                                     Dr. Anuj Kumar Borah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -187,7 +187,7 @@
                                     Dr. Bhaskarjyoti Gogoi
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -208,7 +208,7 @@
                                     Dr. Chongtham Sovachandra Singh
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -228,7 +228,7 @@
                                     Dr. Mousumi Das Goswami
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -249,7 +249,7 @@
                                     Dr. Rupesh Kumar
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor and Coordinator, <br> MLT
+                                    Assistant Professor and Coordinator
                                 </p>
 
                             </div>
@@ -270,7 +270,7 @@
                                     Dr. Rupshikha Patowary
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -291,7 +291,7 @@
                                     Dr. Siddhartha Narayan Borah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -329,7 +329,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Amlan Das
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor & Co-cordinator, IKS, <br> The Assam Royal Global University
+                                    Professor & Co-cordinator, IKS
                                 </p>
 
                             </div>
@@ -349,7 +349,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Saranga
                                     Ranjan Patgiri</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor, <br> The Assam Royal Global University
+                                    Professor
                                 </p>
                             </div>
                         </div>
@@ -392,7 +392,7 @@
                                     Dr. Dipayan Das
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 
@@ -414,7 +414,7 @@
                                     Dr. Jiwasmika Baishya
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 
@@ -435,7 +435,7 @@
                                     Dr. Niraj Singh
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 
@@ -457,7 +457,7 @@
                                     Dr. Pankaj L Sharma
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 
@@ -479,7 +479,7 @@
                                     Dr. Susmita Paul
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 
@@ -501,7 +501,7 @@
                                     Dr. Taranga Jyoti Baruah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 
@@ -833,7 +833,7 @@
                                     Dr. Ranjan Dutta Kalita
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor, <br> The Assam Royal Global University
+                                    Professor
                                 </p>
 
                             </div>
@@ -853,7 +853,7 @@
                                     Dr. Debajit Borah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor & HoD, <br> The Assam Royal Global University
+                                    Associate Professor & HoD
                                 </p>
 
                             </div>
@@ -874,7 +874,7 @@
                                     Dr. Anuj Kumar Borah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -895,7 +895,7 @@
                                     Dr. Bhaskarjyoti Gogoi
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -916,7 +916,7 @@
                                     Dr. Chongtham Sovachandra Singh
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -936,7 +936,7 @@
                                     Dr. Mousumi Das Goswami
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -957,7 +957,7 @@
                                     Dr. Rupesh Kumar
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor and Coordinator, <br> MLT
+                                    Assistant Professor and Coordinator
                                 </p>
 
                             </div>
@@ -978,7 +978,7 @@
                                     Dr. Rupshikha Patowary
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -999,7 +999,7 @@
                                     Dr. Siddhartha Narayan Borah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -1036,7 +1036,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Amlan Das
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor & Co-cordinator, IKS, <br> The Assam Royal Global University
+                                    Professor & Co-cordinator, IKS
                                 </p>
 
                             </div>
@@ -1056,7 +1056,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Saranga
                                     Ranjan Patgiri</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor, <br> The Assam Royal Global University
+                                    Professor
                                 </p>
                             </div>
                         </div>
@@ -1099,7 +1099,7 @@
                                     Dr. Dipayan Das
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 
@@ -1121,7 +1121,7 @@
                                     Dr. Jiwasmika Baishya
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 
@@ -1142,7 +1142,7 @@
                                     Dr. Niraj Singh
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 
@@ -1164,7 +1164,7 @@
                                     Dr. Pankaj L Sharma
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 
@@ -1186,7 +1186,7 @@
                                     Dr. Susmita Paul
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 
@@ -1208,7 +1208,7 @@
                                     Dr. Taranga Jyoti Baruah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor
                                 </p>
                             </div>
 

@@ -110,7 +110,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Anupam Das
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor, <br> The Assam Royal Global University
+                                    Associate Professor, <br>
                                 </p>
 
                             </div>
@@ -156,7 +156,7 @@
                                     Das</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -177,7 +177,7 @@
                                     Laskar</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -197,7 +197,7 @@
                                     Borah</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -218,7 +218,7 @@
                                     Goyal Agarwala</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -239,7 +239,7 @@
                                     Kalita</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -260,7 +260,7 @@
                                     Deka</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -280,7 +280,7 @@
                                     Sutradhar</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -301,7 +301,7 @@
                                     Kumar Barthakur</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+                                   
                                 </p>
 
                             </div>
@@ -428,7 +428,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Hirak
                                     Ranjan Das</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor, <br> The Assam Royal Global University
+                                    Associate Professor, <br>
                                 </p>
 
                             </div>
@@ -448,7 +448,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Ashok
                                     Talukdar</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -468,7 +468,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Biswajit
                                     Choudhury</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -488,7 +488,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Zunaid
                                     Ahmed</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -620,7 +620,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Shinjini
                                     Paul Choudhury</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Assistant
-                                    Dean, Student Affairs <br> The Assam Royal Global University</p>
+                                    Dean, Student Affairs <br></p>
 
                             </div>
                         </div>
@@ -856,7 +856,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Anupam Das
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor, <br> The Assam Royal Global University
+                                    Associate Professor, <br>
                                 </p>
 
                             </div>
@@ -902,7 +902,7 @@
                                     Das</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -923,7 +923,7 @@
                                     Laskar</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -943,7 +943,7 @@
                                     Borah</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -964,7 +964,7 @@
                                     Goyal Agarwala</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -985,7 +985,7 @@
                                     Kalita</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -1006,7 +1006,7 @@
                                     Deka</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -1026,7 +1026,7 @@
                                     Sutradhar</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -1047,7 +1047,7 @@
                                     Kumar Barthakur</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -1174,7 +1174,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Hirak
                                     Ranjan Das</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor, <br> The Assam Royal Global University
+                                    Associate Professor, <br>
                                 </p>
 
                             </div>
@@ -1194,7 +1194,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Ashok
                                     Talukdar</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -1214,7 +1214,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Biswajit
                                     Choudhury</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -1234,7 +1234,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Zunaid
                                     Ahmed</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -1368,7 +1368,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Shinjini
                                     Paul Choudhury</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Assistant
-                                    Dean, Student Affairs <br> The Assam Royal Global University</p>
+                                    Dean, Student Affairs <br></p>
 
                             </div>
                         </div>

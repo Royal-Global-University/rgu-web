@@ -73,7 +73,7 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor, <br>
-                                    The Assam Royal Global University
+                                   
                                 </p>
                             </div>
                         </div>
@@ -514,7 +514,7 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
                             </div>
                         </div>

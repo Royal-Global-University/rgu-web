@@ -1033,11 +1033,26 @@
                             </div> --}}
 
                             <h2 class="headd2 fw-bold pb-2" style="color: #27467A; font-size: 40px;">Media <span
-                                    style="color: #FF9A1E; font-weight: 500;"> Corner</span></h2>
+                                    style="color: #FF9A1E; font-weight: 540;"> Corner</span></h2>
                             <div style="height: 570px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
                                     <div class="row">
+
                                         <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" src="mobile-assets/media-corner/news13/img1.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">June 24, 2025</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">Electric Vehicle Laboratory Skill Development Centre Inaugurated at RGU</p>
+                                                <a href="electric-vehicle-laboratory-skill-development-centre-inaugurated-at-rgu">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 mt-3 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" src="mobile-assets/media-corner/media-img/12.jpg"
                                                     alt="" />
@@ -1053,7 +1068,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="row bg-light p-2 mt-4 rounded">
+                                        <div class="row bg-light p-2 mt-3 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" src="mobile-assets/media-corner/media-img/news11.jpg" alt="" />
                                             </div>
@@ -1064,19 +1079,7 @@
                                                     Read More ...</p></a>
                                             </div>
                                         </div>
-                                        <div class="row bg-light p-2 mt-4 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" src="mobile-assets/media-corner/media-img/news10.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">June 11, 2025</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">Bhutan to Strengthen Relations with Institutions in Assam: Bhutanese Delegation at RGU</p>
-                                                <a href="bhutan-to-strengthen-relations-with-institutions-in-assam-bhutanese-delegation-at-rgu"><p class="pt-1 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                    Read More ...</p></a>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                                 <div style="text-align:center; margin-top:20px;">

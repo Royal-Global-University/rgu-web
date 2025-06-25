@@ -49,8 +49,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Sudip
                                     Chakraborty</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor & I/C Dy. Dean, <br>
-                                    Royal School of Commerce
+                                    Professor & I/C Dy. Dean
                                 </p>
                             </div>
                         </div>
@@ -363,8 +362,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Sudip
                                     Chakraborty</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor & I/C Dy. Dean, <br>
-                                    Royal School of Commerce
+                                    Professor & I/C Dy. Dean
                                 </p>
                             </div>
                         </div>

@@ -95,7 +95,7 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -135,7 +135,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Deepanjali
                                     Reang</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -155,7 +155,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Md. Hibjur
                                     Rahaman</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -175,7 +175,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Parimita
                                     Saikia</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -196,7 +196,7 @@
                                     Roychowdhury
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -217,7 +217,7 @@
                                     Takhellambam
                                     Prameshwori Devi</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -238,7 +238,7 @@
                                     Changkakati
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -258,7 +258,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Tushar
                                     Sarkar</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -278,7 +278,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Jubilee
                                     Goswami</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -298,7 +298,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Palme
                                     Borthakur</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -337,7 +337,7 @@
                                     Deka Sarma
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor, <br> The Assam Royal Global University
+                                    Professor, <br>
                                 </p>
 
                             </div>
@@ -377,7 +377,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Abhijit
                                     Gogoi</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -397,7 +397,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Neeta Moni
                                     Sharma</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -417,7 +417,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Nishanta
                                     Sahariah</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -437,7 +437,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Pritom
                                     Borah</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -457,7 +457,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Amarjyoti
                                     Borah</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -477,7 +477,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Rajdeep Deb
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -589,7 +589,7 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor, <br>
-                                    The Assam Royal Global University
+
                                 </p>
 
                             </div>
@@ -629,7 +629,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Deepanjali
                                     Reang</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -649,7 +649,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Md. Hibjur
                                     Rahaman</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -669,7 +669,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Parimita
                                     Saikia</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -690,7 +690,7 @@
                                     Roychowdhury
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -711,7 +711,7 @@
                                     Takhellambam
                                     Prameshwori Devi</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -732,7 +732,7 @@
                                     Changkakati
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -752,7 +752,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Tushar
                                     Sarkar</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -772,7 +772,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Jubilee
                                     Goswami</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -792,7 +792,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Palme
                                     Borthakur</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -830,7 +830,7 @@
                                     Deka Sarma
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor, <br> The Assam Royal Global University
+                                    Professor, <br>
                                 </p>
 
                             </div>
@@ -870,7 +870,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Abhijit
                                     Gogoi</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -890,7 +890,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Neeta Moni
                                     Sharma</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -910,7 +910,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Nishanta
                                     Sahariah</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -930,7 +930,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Pritom
                                     Borah</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -950,7 +950,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Amarjyoti
                                     Borah</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>
@@ -970,7 +970,7 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Rajdeep Deb
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br> The Assam Royal Global University
+                                    Assistant Professor, <br>
                                 </p>
 
                             </div>

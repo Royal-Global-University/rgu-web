@@ -259,7 +259,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 600px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 630px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsbas/surajit.jpeg"
                                     class="img-fluid rounded border" />
@@ -270,8 +270,8 @@
                                     Surajit Mukhopadhyay</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 18px;">Professor &
                                     Dean, <br>
-                                    Royal School of Humanities & Social Sciences <br>
-                                    Royal School of Behavioural & Allied Sciences <br>
+                                    Royal School of Humanities & Social Sciences, <br>
+                                    Royal School of Behavioural & Allied Sciences, <br>
                                     Director, Centre for Inter-Disciplinary Research
                                 </p>
                             </div>

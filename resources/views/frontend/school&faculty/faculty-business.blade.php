@@ -24,7 +24,10 @@
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. George AP
                                 </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Dean RSB & Dean, RSC
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Professor & Dean, <br>
+                                    Royal School of Commerce <br>
+                                    Royal School of Business
                                 </p>
                             </div>
                         </div>
@@ -48,7 +51,7 @@
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. D.N.
                                     Singh</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor Registrar</p>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Registrar</p>
                             </div>
                         </div>
                     </div>
@@ -310,7 +313,10 @@
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. George AP
                                 </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Dean RSB & Dean, RSC
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Professor & Dean, <br>
+                                    Royal School of Commerce <br>
+                                    Royal School of Business
                                 </p>
                             </div>
                         </div>
@@ -334,7 +340,7 @@
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. D.N.
                                     Singh</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor Registrar</p>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Registrar</p>
                             </div>
                         </div>
                     </div>

@@ -2932,6 +2932,10 @@ Route::get('/rgu-signs-mou-with-crpf-offers-new-scholarships-for-wards-of-securi
     return view('frontend/media-corner/news12');
 })->name('rgu-signs-mou-with-crpf-offers-new-scholarships-for-wards-of-security-forces');
 
+Route::get('/electric-vehicle-laboratory-skill-development-centre-inaugurated-at-rgu', function () {
+    return view('frontend/media-corner/news13');
+})->name('electric-vehicle-laboratory-skill-development-centre-inaugurated-at-rgu');
+
 
 
 //faculty profile
@@ -3010,3 +3014,100 @@ Route::get('/faculty-somyata-c-satpathy-sarma', function () {
 Route::get('/faculty-sonia-lakhotia', function () {
     return view('frontend/facultyprofile/rsmas/sonia-lakhotia');
 })->name('faculty-sonia-lakhotia');
+
+// RSAPS Faculty Profile
+Route::get('/faculty-anuradha-devi', function () {
+    return view('frontend/facultyprofile/rsaps/anuradha');
+})->name('faculty-anuradha-devi');
+
+Route::get('/faculty-dr-bapan-kalita', function () {
+    return view('frontend/facultyprofile/rsaps/bapan-kalita');
+})->name('faculty-dr-bapan-kalita');
+
+Route::get('/faculty-dr-bhagyashri-patgiri', function () {
+    return view('frontend/facultyprofile/rsaps/bhagyashri-patgiri');
+})->name('faculty-dr-bhagyashri-patgiri');
+
+Route::get('/faculty-dr-bikram-bir', function () {
+    return view('frontend/facultyprofile/rsaps/bikram');
+})->name('faculty-dr-bikram-bir');
+
+Route::get('/faculty-dr-bimalendu-kalita', function () {
+    return view('frontend/facultyprofile/rsaps/bimalendu');
+})->name('faculty-dr-bimalendu-kalita');
+
+Route::get('/faculty-dr-bornali-chetia', function () {
+    return view('frontend/facultyprofile/rsaps/bornali-chetia');
+})->name('faculty-dr-bornali-chetia');
+
+Route::get('/faculty-dr-devika-phukan', function () {
+    return view('frontend/facultyprofile/rsaps/devika-phukan');
+})->name('faculty-dr-devika-phukan');
+
+Route::get('/faculty-dilip-nath', function () {
+    return view('frontend/facultyprofile/rsaps/dilip-nath');
+})->name('faculty-dilip-nath');
+
+Route::get('/faculty-faizuddin-ahmed', function () {
+    return view('frontend/facultyprofile/rsaps/faizuddin-ahmed');
+})->name('faculty-faizuddin-ahmed');
+
+Route::get('/faculty-imo-mani-singha', function () {
+    return view('frontend/facultyprofile/rsaps/imo-mani');
+})->name('faculty-imo-mani-singha');
+
+Route::get('/faculty-dr-kamal-debnath', function () {
+    return view('frontend/facultyprofile/rsaps/kamal-debnath');
+})->name('faculty-dr-kamal-debnath');
+
+Route::get('/faculty-dr-koushik-saikia', function () {
+    return view('frontend/facultyprofile/rsaps/koushik-saikia');
+})->name('faculty-dr-koushik-saikia');
+
+Route::get('/faculty-dr-kshetrimayum-renubebeta-devi', function () {
+    return view('frontend/facultyprofile/rsaps/kshetrimayum');
+})->name('faculty-dr-kshetrimayum-renubebeta-devi');
+
+Route::get('/faculty-laishram-ladu-singh', function () {
+    return view('frontend/facultyprofile/rsaps/ladu-singh');
+})->name('faculty-laishram-ladu-singh');
+
+Route::get('/faculty-dr-maidul-islam', function () {
+    return view('frontend/facultyprofile/rsaps/maidul-islam');
+})->name('faculty-dr-maidul-islam');
+
+Route::get('/faculty-marbarisha-Kharkongor', function () {
+    return view('frontend/facultyprofile/rsaps/marbarisha');
+})->name('faculty-marbarisha-Kharkongor');
+
+Route::get('/faculty-neelav-sarma', function () {
+    return view('frontend/facultyprofile/rsaps/neelav');
+})->name('faculty-neelav-sarma');
+
+Route::get('/faculty-dr-nitu-borgohain', function () {
+    return view('frontend/facultyprofile/rsaps/nitu-borgohain');
+})->name('faculty-dr-nitu-borgohain');
+
+Route::get('/faculty-dr-parismita-phukan', function () {
+    return view('frontend/facultyprofile/rsaps/parismita-phukan');
+})->name('faculty-dr-parismita-phukan');
+
+Route::get('/faculty-dr-raju-kalita', function () {
+    return view('frontend/facultyprofile/rsaps/raju-kalita');
+})->name('faculty-dr-raju-kalita');
+
+Route::get('/faculty-dr-sanchita-roy', function () {
+    return view('frontend/facultyprofile/rsaps/sanchita-roy');
+})->name('faculty-dr-sanchita-roy');
+
+Route::get('/faculty-dr-sankar-barman', function () {
+    return view('frontend/facultyprofile/rsaps/sankar-barman');
+})->name('faculty-dr-sankar-barman');
+
+Route::get('/faculty-sayak-sengupta', function () {
+    return view('frontend/facultyprofile/rsaps/sayak');
+})->name('faculty-sayak-sengupta');
+
+Route::get('/faculty-dr-sujata-deb', function () {
+    return view('frontend/facultyprofile/rsaps/sujata-deb');
+})->name('faculty-dr-sujata-deb');
