@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('index');
 });
 
+// Add a test page for the voice assistant
+Route::get('/voice-assistant', function () {
+    return view('frontend/voice-assist/voice-assistant');
+});
+
 Route::get('/index-media', function () {
     return view('frontend/index-media');
 });
