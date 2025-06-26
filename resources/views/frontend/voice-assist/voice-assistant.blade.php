@@ -57,7 +57,7 @@
             const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
             if (!SpeechRecognition) {
-                alert("Speech Recognition is not supported in this browser.");
+                alert("Speech Recognition not supported in this browser.");
             } else {
                 let recognition;
                 let isCommandMode = false;
@@ -71,26 +71,33 @@
                     synth.speak(utterance);
                 }
 
+                function matchWakeWord(text) {
+                    // Normalize and fuzzy match
+                    const clean = text.replace(/[^a-z]/gi, '').toLowerCase();
+
+                    const variants = [
+                        "heyrgu", "hi rgu", "heyargu", "heyareyou", "hairgu", "hey r g u", "heyr g u"
+                    ];
+
+                    return variants.some(v => clean.includes(v.replace(/\s/g, '')));
+                }
+
                 function startListening() {
                     recognition = new SpeechRecognition();
-                    recognition.continuous = false; // ✅ Mobile prefers short sessions
+                    recognition.continuous = false;
                     recognition.lang = 'en-US';
                     recognition.interimResults = false;
 
                     status.textContent = isCommandMode ? "🎧 Listening for your command..." : "🎤 Say 'Hey RGU'";
 
-                    recognition.onstart = () => {
-                        console.log("Recognition started.");
-                    };
-
                     recognition.onresult = (event) => {
                         const transcript = event.results[0][0].transcript.toLowerCase();
                         console.log("Heard:", transcript);
 
-                        if (!isCommandMode && transcript.includes("hey rgu")) {
+                        if (!isCommandMode && matchWakeWord(transcript)) {
                             speak("Yes, how can I help you?");
                             isCommandMode = true;
-                            setTimeout(startListening, 1500); // restart for command
+                            setTimeout(startListening, 1500);
                         }
                         else if (isCommandMode) {
                             if (transcript.includes("home")) window.location.href = "/";
@@ -103,7 +110,7 @@
                             else if (transcript.includes("research")) window.location.href = "/research";
                             else if (transcript.includes("faculty")) window.location.href = "/faculty";
                             else {
-                                speak("I didn't understand. Try again.");
+                                speak("I didn’t understand. Try again.");
                             }
 
                             isCommandMode = false;
@@ -126,7 +133,6 @@
                     recognition.start();
                 }
 
-                // 🔘 Trigger on mic click
                 micButton.addEventListener("click", () => {
                     isCommandMode = false;
                     startListening();
