@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Voice Assistant | RGU</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@extends('frontend.master')
+@push('styles')
+    <!-- media corner css  -->
     <style>
         body {
             font-family: sans-serif;
@@ -45,10 +41,9 @@
             height: 28px;
         }
     </style>
-</head>
-
-<body>
-
+    <!-- media corner css  -->
+@endpush
+@section('content')
     <h1>Welcome to RGU Voice Assistant</h1>
     <p id="status">Say "Hey RGU" to begin...</p>
 
@@ -151,7 +146,5 @@
             });
         }
     </script>
+@endsection
 
-</body>
-
-</html>
