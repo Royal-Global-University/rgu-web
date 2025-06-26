@@ -58,117 +58,109 @@
             const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
             if (!SpeechRecognition) {
-                alert("Your browser does not support Speech Recognition.");
+                alert("Speech Recognition not supported in this browser.");
             } else {
-                let recognition;
-                let commandRecognition;
-                let isListening = false;
-                let wakeMode = true; // Controls whether we're listening for "Hey RGU"
-
                 const statusText = document.getElementById("status");
+                const synth = window.speechSynthesis;
+                let recognition = null;
+                let isListening = false;
 
                 function speak(text) {
-                    const synth = window.speechSynthesis;
                     const utter = new SpeechSynthesisUtterance(text);
                     synth.speak(utter);
                 }
 
-                function startRecognition() {
+                function startListening() {
+                    if (isListening) return; // prevent double start
+                    isListening = true;
+
                     recognition = new SpeechRecognition();
                     recognition.continuous = true;
                     recognition.lang = 'en-US';
                     recognition.interimResults = false;
 
                     recognition.onstart = () => {
-                        statusText.textContent = "Listening for 'Hey RGU'...";
-                        isListening = true;
+                        statusText.textContent = "🎤 Listening for 'Hey RGU'...";
+                        console.log("Recognition started");
                     };
 
                     recognition.onresult = (event) => {
                         const transcript = event.results[event.results.length - 1][0].transcript.toLowerCase();
                         console.log("Transcript:", transcript);
 
-                        if (wakeMode && transcript.includes(wakeWord)) {
-                            wakeMode = false;
-                            recognition.stop();
+                        if (transcript.includes(wakeWord)) {
                             speak("Yes, how can I help you?");
+                            recognition.stop(); // pause wake listening
+                            isListening = false;
                             listenForCommand();
                         }
                     };
 
                     recognition.onerror = (e) => {
-                        console.error("Error:", e);
-                        speak("Error occurred during recognition.");
+                        console.error("Recognition error:", e.error);
+                        statusText.textContent = `❌ Error: ${e.error}`;
+                        speak("Sorry, an error occurred while listening.");
+                        isListening = false;
                     };
 
                     recognition.onend = () => {
+                        console.log("Wake recognition ended");
                         isListening = false;
-                        if (wakeMode) {
-                            // Restart listening for wake word
-                            startRecognition();
-                        }
                     };
 
                     recognition.start();
                 }
 
                 function listenForCommand() {
-                    commandRecognition = new SpeechRecognition();
-                    commandRecognition.lang = 'en-US';
-                    commandRecognition.interimResults = false;
-                    commandRecognition.maxAlternatives = 1;
+                    const cmdRec = new SpeechRecognition();
+                    cmdRec.lang = 'en-US';
+                    cmdRec.interimResults = false;
+                    cmdRec.maxAlternatives = 1;
 
-                    statusText.textContent = "Listening for your command...";
+                    statusText.textContent = "🎧 Waiting for your command...";
 
-                    commandRecognition.onresult = (event) => {
+                    cmdRec.onresult = (event) => {
                         const command = event.results[0][0].transcript.toLowerCase();
                         console.log("Command:", command);
 
-                        // Match commands
-                        if (command.includes("home")) {
-                            window.location.href = "/";
-                        } else if (command.includes("about")) {
-                            window.location.href = "/about";
-                        } else if (command.includes("contact")) {
-                            window.location.href = "/contact";
-                        } else if (command.includes("services")) {
-                            window.location.href = "/services";
-                        } else if (command.includes("admissions")) {
-                            window.location.href = "/admissions";
-                        } else if (command.includes("news")) {
-                            window.location.href = "/news";
-                        } else if (command.includes("departments")) {
-                            window.location.href = "/departments";
-                        } else if (command.includes("research")) {
-                            window.location.href = "/research";
-                        } else if (command.includes("faculty")) {
-                            window.location.href = "/faculty";
-                        } else {
-                            speak("Sorry, I didn't understand that.");
-                            statusText.textContent = "Say: Home, Contact, Admissions, etc.";
+                        if (command.includes("home")) window.location.href = "/";
+                        else if (command.includes("about")) window.location.href = "/about";
+                        else if (command.includes("contact")) window.location.href = "/contact";
+                        else if (command.includes("services")) window.location.href = "/services";
+                        else if (command.includes("admissions")) window.location.href = "/admissions";
+                        else if (command.includes("news")) window.location.href = "/news";
+                        else if (command.includes("departments")) window.location.href = "/departments";
+                        else if (command.includes("research")) window.location.href = "/research";
+                        else if (command.includes("faculty")) window.location.href = "/faculty";
+                        else {
+                            speak("Sorry, I didn’t understand.");
+                            statusText.textContent = "❌ Unrecognized command.";
                         }
                     };
 
-                    commandRecognition.onerror = () => {
-                        speak("I had trouble understanding that.");
-                        statusText.textContent = "Command error.";
+                    cmdRec.onerror = (e) => {
+                        console.error("Command error:", e.error);
+                        statusText.textContent = `❌ Command Error: ${e.error}`;
+                        speak("Something went wrong.");
                     };
 
-                    commandRecognition.onend = () => {
-                        // After command processed, go back to listening for wake word
-                        wakeMode = true;
-                        startRecognition();
+                    cmdRec.onend = () => {
+                        // Go back to listening for "Hey RGU"
+                        startListening();
                     };
 
-                    commandRecognition.start();
+                    cmdRec.start();
                 }
 
-                // Mic button click handler
+                // Mic button triggers it manually
                 document.getElementById("mic-button").addEventListener("click", () => {
-                    if (!isListening) {
-                        startRecognition();
-                    }
+                    startListening();
                 });
+
+                // Optional auto start after interaction
+                window.addEventListener('click', () => {
+                    startListening();
+                }, { once: true });
             }
         </script>
     </section>
