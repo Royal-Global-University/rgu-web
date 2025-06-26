@@ -58,21 +58,22 @@
             const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
             if (!SpeechRecognition) {
-                alert("Speech Recognition not supported in this browser.");
+                alert("Your browser doesn't support voice recognition.");
             } else {
+                let recognition;
+                let isRecognizing = false;
+
                 const statusText = document.getElementById("status");
-                const synth = window.speechSynthesis;
-                let recognition = null;
-                let isListening = false;
 
                 function speak(text) {
-                    const utter = new SpeechSynthesisUtterance(text);
-                    synth.speak(utter);
+                    const synth = window.speechSynthesis;
+                    const utterance = new SpeechSynthesisUtterance(text);
+                    synth.speak(utterance);
                 }
 
-                function startListening() {
-                    if (isListening) return; // prevent double start
-                    isListening = true;
+                function startRecognition() {
+                    if (isRecognizing) return; // Prevent multiple recognitions
+                    isRecognizing = true;
 
                     recognition = new SpeechRecognition();
                     recognition.continuous = true;
@@ -81,7 +82,6 @@
 
                     recognition.onstart = () => {
                         statusText.textContent = "🎤 Listening for 'Hey RGU'...";
-                        console.log("Recognition started");
                     };
 
                     recognition.onresult = (event) => {
@@ -89,23 +89,22 @@
                         console.log("Transcript:", transcript);
 
                         if (transcript.includes(wakeWord)) {
+                            recognition.stop();
+                            isRecognizing = false;
                             speak("Yes, how can I help you?");
-                            recognition.stop(); // pause wake listening
-                            isListening = false;
-                            listenForCommand();
+                            listenForCommand(); // Next step
                         }
                     };
 
                     recognition.onerror = (e) => {
-                        console.error("Recognition error:", e.error);
-                        statusText.textContent = `❌ Error: ${e.error}`;
-                        speak("Sorry, an error occurred while listening.");
-                        isListening = false;
+                        console.error("Wake recognition error:", e.error);
+                        statusText.textContent = "❌ Error: " + e.error;
+                        speak("Sorry, something went wrong.");
+                        isRecognizing = false;
                     };
 
                     recognition.onend = () => {
-                        console.log("Wake recognition ended");
-                        isListening = false;
+                        isRecognizing = false;
                     };
 
                     recognition.start();
@@ -115,7 +114,6 @@
                     const cmdRec = new SpeechRecognition();
                     cmdRec.lang = 'en-US';
                     cmdRec.interimResults = false;
-                    cmdRec.maxAlternatives = 1;
 
                     statusText.textContent = "🎧 Waiting for your command...";
 
@@ -134,33 +132,28 @@
                         else if (command.includes("faculty")) window.location.href = "/faculty";
                         else {
                             speak("Sorry, I didn’t understand.");
-                            statusText.textContent = "❌ Unrecognized command.";
+                            statusText.textContent = "Unrecognized command.";
                         }
                     };
 
                     cmdRec.onerror = (e) => {
                         console.error("Command error:", e.error);
-                        statusText.textContent = `❌ Command Error: ${e.error}`;
-                        speak("Something went wrong.");
+                        statusText.textContent = "❌ Command error: " + e.error;
+                        speak("There was a problem with the command.");
                     };
 
                     cmdRec.onend = () => {
-                        // Go back to listening for "Hey RGU"
-                        startListening();
+                        // 🔁 DON'T auto-restart — mobile will block it
+                        statusText.textContent = "✅ Tap the mic again to reactivate.";
                     };
 
                     cmdRec.start();
                 }
 
-                // Mic button triggers it manually
+                // 🔘 Manual start via mic button
                 document.getElementById("mic-button").addEventListener("click", () => {
-                    startListening();
+                    startRecognition();
                 });
-
-                // Optional auto start after interaction
-                window.addEventListener('click', () => {
-                    startListening();
-                }, { once: true });
             }
         </script>
     </section>
