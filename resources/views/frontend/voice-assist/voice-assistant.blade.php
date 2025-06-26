@@ -46,96 +46,75 @@
 @endpush
 @section('content')
     <section id="body">
-        <h1>Welcome to RGU Voice Assistant</h1>
-        <p id="status">Say "Hey RGU" to begin...</p>
+        <h1>🎙️ Voice Assistant</h1>
+        <p id="status">Tap the mic to speak</p>
 
-        <button id="mic-button" title="Start Voice Recognition">
-            <img src="https://img.icons8.com/ios-filled/50/ffffff/microphone.png" alt="Mic Icon">
+        <button id="mic-button"
+            style="position:fixed;bottom:30px;right:30px;width:60px;height:60px;background:#007bff;color:white;border:none;border-radius:50%;font-size:24px;">
+            🎤
         </button>
 
         <script>
             const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
             if (!SpeechRecognition) {
-                alert("Speech Recognition not supported in this browser.");
+                alert("Speech Recognition is not supported in this browser.");
             } else {
                 let recognition;
-                let isCommandMode = false;
-
-                const status = document.getElementById("status");
                 const micButton = document.getElementById("mic-button");
+                const status = document.getElementById("status");
 
-                function speak(message) {
+                function speak(text) {
                     const synth = window.speechSynthesis;
-                    const utterance = new SpeechSynthesisUtterance(message);
-                    synth.speak(utterance);
+                    const utter = new SpeechSynthesisUtterance(text);
+                    synth.speak(utter);
                 }
 
-                function matchWakeWord(text) {
-                    // Normalize and fuzzy match
-                    const clean = text.replace(/[^a-z]/gi, '').toLowerCase();
-
-                    const variants = [
-                        "heyrgu", "hi rgu", "heyargu", "heyareyou", "hairgu", "hey r g u", "heyr g u"
-                    ];
-
-                    return variants.some(v => clean.includes(v.replace(/\s/g, '')));
-                }
-
-                function startListening() {
+                function listenForCommand() {
                     recognition = new SpeechRecognition();
-                    recognition.continuous = false;
                     recognition.lang = 'en-US';
                     recognition.interimResults = false;
+                    recognition.continuous = false;
 
-                    status.textContent = isCommandMode ? "🎧 Listening for your command..." : "🎤 Say 'Hey RGU'";
+                    status.textContent = "🎧 Listening for your command...";
 
                     recognition.onresult = (event) => {
-                        const transcript = event.results[0][0].transcript.toLowerCase();
-                        console.log("Heard:", transcript);
+                        const command = event.results[0][0].transcript.toLowerCase();
+                        console.log("Command:", command);
 
-                        if (!isCommandMode && matchWakeWord(transcript)) {
-                            speak("Yes, how can I help you?");
-                            isCommandMode = true;
-                            setTimeout(startListening, 1500);
-                        }
-                        else if (isCommandMode) {
-                            if (transcript.includes("home")) window.location.href = "/";
-                            else if (transcript.includes("about")) window.location.href = "/about";
-                            else if (transcript.includes("contact")) window.location.href = "/contact";
-                            else if (transcript.includes("services")) window.location.href = "/services";
-                            else if (transcript.includes("admissions")) window.location.href = "/admissions";
-                            else if (transcript.includes("news")) window.location.href = "/news";
-                            else if (transcript.includes("departments")) window.location.href = "/departments";
-                            else if (transcript.includes("research")) window.location.href = "/research";
-                            else if (transcript.includes("faculty")) window.location.href = "/faculty";
-                            else {
-                                speak("I didn’t understand. Try again.");
-                            }
-
-                            isCommandMode = false;
-                        } else {
-                            speak("Say 'Hey RGU' to start.");
+                        if (command.includes("home")) window.location.href = "/";
+                        else if (command.includes("about")) window.location.href = "/about";
+                        else if (command.includes("contact")) window.location.href = "/contact";
+                        else if (command.includes("services")) window.location.href = "/services";
+                        else if (command.includes("admissions")) window.location.href = "/admissions";
+                        else if (command.includes("news")) window.location.href = "/news";
+                        else if (command.includes("departments")) window.location.href = "/departments";
+                        else if (command.includes("research")) window.location.href = "/research";
+                        else if (command.includes("faculty")) window.location.href = "/faculty";
+                        else {
+                            speak("I didn’t understand. Try again.");
+                            status.textContent = "❓ Unrecognized command.";
                         }
                     };
 
                     recognition.onerror = (e) => {
                         console.error("Recognition error:", e);
                         status.textContent = "⚠️ Error: " + e.error;
-                        isCommandMode = false;
+                        speak("There was an error listening.");
                     };
 
                     recognition.onend = () => {
-                        console.log("Recognition ended");
-                        status.textContent = "🎤 Tap mic to speak again.";
+                        status.textContent = "🎤 Tap the mic to try again.";
                     };
 
                     recognition.start();
                 }
 
                 micButton.addEventListener("click", () => {
-                    isCommandMode = false;
-                    startListening();
+                    speak("How can I help you?");
+                    setTimeout(() => {
+                        listenForCommand();
+                    }, 1000); // Give time to speak before listening
                 });
             }
            </script>
