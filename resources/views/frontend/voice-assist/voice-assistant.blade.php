@@ -7,6 +7,7 @@
             background: #f8f9fa;
             text-align: center;
             padding-top: 100px;
+            height: 100vh;
         }
 
         h1 {
@@ -62,6 +63,7 @@
                 let recognition;
                 let commandRecognition;
                 let isListening = false;
+                let wakeMode = true; // Controls whether we're listening for "Hey RGU"
 
                 const statusText = document.getElementById("status");
 
@@ -71,16 +73,23 @@
                     synth.speak(utter);
                 }
 
-                function startWakeWordRecognition() {
+                function startRecognition() {
                     recognition = new SpeechRecognition();
                     recognition.continuous = true;
                     recognition.lang = 'en-US';
+                    recognition.interimResults = false;
+
+                    recognition.onstart = () => {
+                        statusText.textContent = "Listening for 'Hey RGU'...";
+                        isListening = true;
+                    };
 
                     recognition.onresult = (event) => {
                         const transcript = event.results[event.results.length - 1][0].transcript.toLowerCase();
-                        console.log("Heard:", transcript);
+                        console.log("Transcript:", transcript);
 
-                        if (transcript.includes(wakeWord)) {
+                        if (wakeMode && transcript.includes(wakeWord)) {
+                            wakeMode = false;
                             recognition.stop();
                             speak("Yes, how can I help you?");
                             listenForCommand();
@@ -88,24 +97,34 @@
                     };
 
                     recognition.onerror = (e) => {
-                        console.error(e);
-                        speak("An error occurred.");
+                        console.error("Error:", e);
+                        speak("Error occurred during recognition.");
+                    };
+
+                    recognition.onend = () => {
+                        isListening = false;
+                        if (wakeMode) {
+                            // Restart listening for wake word
+                            startRecognition();
+                        }
                     };
 
                     recognition.start();
-                    statusText.textContent = "Listening for 'Hey RGU'...";
-                    isListening = true;
                 }
 
                 function listenForCommand() {
                     commandRecognition = new SpeechRecognition();
                     commandRecognition.lang = 'en-US';
                     commandRecognition.interimResults = false;
+                    commandRecognition.maxAlternatives = 1;
+
+                    statusText.textContent = "Listening for your command...";
 
                     commandRecognition.onresult = (event) => {
                         const command = event.results[0][0].transcript.toLowerCase();
                         console.log("Command:", command);
 
+                        // Match commands
                         if (command.includes("home")) {
                             window.location.href = "/";
                         } else if (command.includes("about")) {
@@ -126,24 +145,29 @@
                             window.location.href = "/faculty";
                         } else {
                             speak("Sorry, I didn't understand that.");
-                            statusText.textContent = "Try again with a valid page name.";
+                            statusText.textContent = "Say: Home, Contact, Admissions, etc.";
                         }
                     };
 
                     commandRecognition.onerror = () => {
-                        speak("Error listening to your command.");
+                        speak("I had trouble understanding that.");
+                        statusText.textContent = "Command error.";
+                    };
+
+                    commandRecognition.onend = () => {
+                        // After command processed, go back to listening for wake word
+                        wakeMode = true;
+                        startRecognition();
                     };
 
                     commandRecognition.start();
-                    statusText.textContent = "Listening for your command...";
                 }
 
-                // Auto-start on page load
-                window.onload = () => startWakeWordRecognition();
-
-                // Mic button also activates it manually
+                // Mic button click handler
                 document.getElementById("mic-button").addEventListener("click", () => {
-                    if (!isListening) startWakeWordRecognition();
+                    if (!isListening) {
+                        startRecognition();
+                    }
                 });
             }
         </script>
