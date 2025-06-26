@@ -3,7 +3,23 @@
 @section('meta_description', 'Discover Royal Global University, the best private university in Assam offering world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG programs.')
 @section('meta_keywords', 'Best University in Assam')
 @section('content')
+    <!-- Popup -->
+    <div id="popup" class="popup-overlay">
+        <img src="{{ asset('mobile-assets/index-ads/ads1.jpeg') }}" class="popup-image" alt="Popup Image">
+    </div>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const popup = document.getElementById('popup');
+
+            // When click anywhere outside the image, hide the popup
+            popup.addEventListener('click', function (event) {
+                if (event.target === popup) {
+                    popup.style.display = 'none';
+                }
+            });
+        });
+    </script>
     <section class="mobile">
 
         <!-- Floating WhatsApp Button -->
@@ -1034,55 +1050,52 @@
 
                             <h2 class="headd2 fw-bold pb-2" style="color: #27467A; font-size: 40px;">Media <span
                                     style="color: #FF9A1E; font-weight: 540;"> Corner</span></h2>
-                            <div style="height: 570px; overflow: hidden; position: relative;">
+                            <div style="height: 600px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
                                     <div class="row">
-
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
-                                                <img class="rounded" src="mobile-assets/media-corner/news13/img1.jpg" alt="" />
+                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news15/1.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">June 24, 2025</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">Electric Vehicle Laboratory Skill Development Centre Inaugurated at RGU</p>
+                                                <p style="color: #27467A; font-style: 12px;" class="p-0 m-0 fw-bold">Ahir Bhairav: Musical Gathering for Cultural Enrichment at RGU</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">June 26, 2025</p>
+                                                <a href="ahir-bhairav-musical-gathering-for-cultural-enrichment-at-rgu">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row bg-light p-2 rounded mt-2">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news13/img1.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 12px;" class="p-0 m-0 fw-bold">Electric Vehicle Laboratory Skill Development Centre Inaugurated at RGU</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">June 24, 2025</p>
                                                 <a href="electric-vehicle-laboratory-skill-development-centre-inaugurated-at-rgu">
                                                     <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
                                         </div>
-
-                                        <div class="row bg-light p-2 mt-3 rounded">
+                                        <div class="row bg-light p-2 rounded mt-2">
                                             <div class="col-lg-5">
-                                                <img class="rounded" src="mobile-assets/media-corner/media-img/12.jpg"
-                                                    alt="" />
+                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news14/3.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">June 18,
-                                                    2025</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">RGU Signs MoU with CRPF: Offers New Scholarships for Wards of Security Forces</p>
-                                                <a href="rgu-signs-mou-with-crpf-offers-new-scholarships-for-wards-of-security-forces">
-                                                    <p class="pt-1 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                <p style="color: #27467A; font-style: 12px;" class="p-0 m-0 fw-bold">Memories and Melodies Echo as Doyens Recall Personal Moments with Kalaguru</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">June 20, 2025</p>
+                                                <a href="memories-and-melodies-echo-as-doyens-recall-personal-moments-with-kalaguru">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
-                                            </div>
-                                        </div>
-                                        <div class="row bg-light p-2 mt-3 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" src="mobile-assets/media-corner/media-img/news11.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 16px;" class="p-0 m-0 fw-bold">June 13, 2025</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">Industry Titan & Former Tata Motors Chief Ravi Kant Joins RGU Advisory Board</p>
-                                                <a href="industry-titan-&-former-tata-motors-chief-ravi-kant-joins-rgu-advisory-board"><p class="pt-1 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                    Read More ...</p></a>
                                             </div>
                                         </div>
 
                                     </div>
                                 </div>
-                                <div style="text-align:center; margin-top:20px;">
+                                <div style="text-align:center; margin-top:15px;">
                                     <a href="media-corner"><button
                                             style="padding:2px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">View
                                             All</button></a>

@@ -241,8 +241,6 @@
             @include('frontend/components/aheader')
             <div style="background-color: #fff; height: 35vh; overflow: visible;">
 
-
-
                 <div class="row">
                     <div class="col-lg-5 text-center">
 

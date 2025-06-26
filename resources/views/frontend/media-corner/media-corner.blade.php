@@ -28,12 +28,28 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Ahir Bhairav: Musical Gathering for Cultural Enrichment at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, June 26, 2025:',
+                            'link' => 'ahir-bhairav-musical-gathering-for-cultural-enrichment-at-rgu',
+                            'image' => 'mobile-assets/media-corner/news15/1.jpg',
+                            'content' => 'The Assam Royal Global University (RGU) has hosted a vibrant and enriching cultural gathering titled “Ahir Bhairav”. Organized by the Office of Student Affairs yesterday in the university campus, the event served as a joyful celebration of music and movement, fostering creative expression and camaraderie among members of the university community.',
+                        ],
+                        [
                             'title' => 'Electric Vehicle Laboratory Skill Development Centre Inaugurated at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, June 24, 2025:',
                             'link' => 'electric-vehicle-laboratory-skill-development-centre-inaugurated-at-rgu',
                             'image' => 'mobile-assets/media-corner/news13/img1.jpg',
                             'content' => 'A state-of-the-art Electric Vehicle (EV) Laboratory Skill Development Centre has been inaugurated today at The Assam Royal Global University (RGU) by Mr L. Lanuwabang, Director, National Institute of Electronics & Information Technology (NIELIT) Guwahati, Kohima and Shillong. The programme was organised under IQAC of RGU and it was graced by Prof. Alak Kumar Buragohain, Vice Chancellor RGU, Prof. Diganta Munshi...',
+                        ],
+                        [
+                            'title' => 'Memories and Melodies Echo as Doyens Recall Personal Moments with Kalaguru',
+                            'summary' => 'RGU Pays Heartfelt Tribute to Kalaguru Bishnu Rabha on Rabha Divas',
+                            'date' => 'Guwahati, June 20, 2025:',
+                            'link' => 'memories-and-melodies-echo-as-doyens-recall-personal-moments-with-kalaguru',
+                            'image' => 'mobile-assets/media-corner/news14/1.jpg',
+                            'content' => 'The Assam Royal Global University (RGU) observed Rabha Divas today with a heartfelt tribute to Kalaguru Bishnu Prasad Rabha, the legendary cultural stalwart of Assam, marking his 56th death anniversary. The commemorative event was organised...',
                         ],
                         [
                             'title' => 'RGU Signs MoU with CRPF: Offers New Scholarships for Wards of Security Forces',
@@ -114,7 +130,7 @@
                             'link' => '129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance',
                             'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
                             'content' => 'With its continued effort to foster academic excellence and reward outstanding student performance, The Assam Royal Global University (RGU) yesterday organised a Monthly Scholarship award ceremony to honour the exemplary students who qualified for the Semester Topper Scholarship for the Odd Semester Examination 2024–25.
-                                                                                                                                                                                                                                                                                                                                                                                                                ',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ',
                         ],
                         [
                             'title' => 'RGU Celebrates Commendation Day for Placed Graduating Students',
@@ -142,8 +158,8 @@
                         <div class="card shadow-sm">
                             <div class="row p-3 g-0">
                                 <div class="col-12 col-md-4">
-                                    <img class="rounded shadow-sm border" style="width: 100%; height:270px;" src="{{ asset($news['image']) }}"
-                                        alt="">
+                                    <img class="rounded shadow-sm border" style="width: 100%; height:270px;"
+                                        src="{{ asset($news['image']) }}" alt="">
                                 </div>
                                 <div class="col-12 col-md-8 ps-md-3 pt-3 pt-md-0">
                                     <h2 class="fw-bold" style="color: #264273; font-size: 23px;">{{ $news['title'] }}</h2>

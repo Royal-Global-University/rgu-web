@@ -2936,6 +2936,14 @@ Route::get('/electric-vehicle-laboratory-skill-development-centre-inaugurated-at
     return view('frontend/media-corner/news13');
 })->name('electric-vehicle-laboratory-skill-development-centre-inaugurated-at-rgu');
 
+Route::get('/memories-and-melodies-echo-as-doyens-recall-personal-moments-with-kalaguru', function () {
+    return view('frontend/media-corner/news14');
+})->name('memories-and-melodies-echo-as-doyens-recall-personal-moments-with-kalaguru');
+
+Route::get('/ahir-bhairav-musical-gathering-for-cultural-enrichment-at-rgu', function () {
+    return view('frontend/media-corner/news15');
+})->name('ahir-bhairav-musical-gathering-for-cultural-enrichment-at-rgu');
+
 
 
 //faculty profile

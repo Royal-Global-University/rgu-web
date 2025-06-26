@@ -64,7 +64,7 @@
                     <h2 class="mobile-headd2 fw-bold text-center" style="color: #27467A;">APPROVED BY ALL INDIA COUNCIL FOR TECHNICAL EDUCATION</h2>
                     <p class="mobile-para1 text-dark text-center" style="text-align: justify;">
                         B.Tech. & MBA programmes/courses are approved by All India Council for Technical Education (AICTE).
-                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/6.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
+                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/AICTE.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
                 </div>
             </div>
 
@@ -227,7 +227,7 @@
                 <h2 class="headd2 fw-bold" style="color: #27467A;">APPROVED BY ALL INDIA COUNCIL FOR TECHNICAL EDUCATION</h2>
                 <p class="para1 text-dark" style="text-align: justify;">
                     B.Tech. & MBA programmes/courses are approved by All India Council for Technical Education (AICTE).
-                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/6.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
+                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/AICTE.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
             </div>
         </div>
 

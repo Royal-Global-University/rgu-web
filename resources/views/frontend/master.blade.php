@@ -399,6 +399,30 @@
         }
     </style>
 
+    {{-- popup style --}}
+    <style>
+        /* Popup overlay */
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        /* Popup image */
+        .popup-image {
+            max-width: 90%;
+            max-height: 80%;
+            border-radius: 10px;
+        }
+    </style>
+
     <style>
         .mobile-headd1 {
             font-family: 'Montserrat', sans-serif !important;
