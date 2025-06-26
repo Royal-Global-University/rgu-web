@@ -54,108 +54,85 @@
         </button>
 
         <script>
-            const wakeWord = "hey rgu";
             const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
             if (!SpeechRecognition) {
-                alert("Your browser doesn't support voice recognition.");
+                alert("Speech Recognition is not supported in this browser.");
             } else {
                 let recognition;
-                let isRecognizing = false;
+                let isCommandMode = false;
 
-                const statusText = document.getElementById("status");
+                const status = document.getElementById("status");
+                const micButton = document.getElementById("mic-button");
 
-                function speak(text) {
+                function speak(message) {
                     const synth = window.speechSynthesis;
-                    const utterance = new SpeechSynthesisUtterance(text);
+                    const utterance = new SpeechSynthesisUtterance(message);
                     synth.speak(utterance);
                 }
 
-                function startRecognition() {
-                    if (isRecognizing) return; // Prevent multiple recognitions
-                    isRecognizing = true;
-
+                function startListening() {
                     recognition = new SpeechRecognition();
-                    recognition.continuous = true;
+                    recognition.continuous = false; // ✅ Mobile prefers short sessions
                     recognition.lang = 'en-US';
                     recognition.interimResults = false;
 
+                    status.textContent = isCommandMode ? "🎧 Listening for your command..." : "🎤 Say 'Hey RGU'";
+
                     recognition.onstart = () => {
-                        statusText.textContent = "🎤 Listening for 'Hey RGU'...";
+                        console.log("Recognition started.");
                     };
 
                     recognition.onresult = (event) => {
-                        const transcript = event.results[event.results.length - 1][0].transcript.toLowerCase();
-                        console.log("Transcript:", transcript);
+                        const transcript = event.results[0][0].transcript.toLowerCase();
+                        console.log("Heard:", transcript);
 
-                        if (transcript.includes(wakeWord)) {
-                            recognition.stop();
-                            isRecognizing = false;
+                        if (!isCommandMode && transcript.includes("hey rgu")) {
                             speak("Yes, how can I help you?");
-                            listenForCommand(); // Next step
+                            isCommandMode = true;
+                            setTimeout(startListening, 1500); // restart for command
+                        }
+                        else if (isCommandMode) {
+                            if (transcript.includes("home")) window.location.href = "/";
+                            else if (transcript.includes("about")) window.location.href = "/about";
+                            else if (transcript.includes("contact")) window.location.href = "/contact";
+                            else if (transcript.includes("services")) window.location.href = "/services";
+                            else if (transcript.includes("admissions")) window.location.href = "/admissions";
+                            else if (transcript.includes("news")) window.location.href = "/news";
+                            else if (transcript.includes("departments")) window.location.href = "/departments";
+                            else if (transcript.includes("research")) window.location.href = "/research";
+                            else if (transcript.includes("faculty")) window.location.href = "/faculty";
+                            else {
+                                speak("I didn't understand. Try again.");
+                            }
+
+                            isCommandMode = false;
+                        } else {
+                            speak("Say 'Hey RGU' to start.");
                         }
                     };
 
                     recognition.onerror = (e) => {
-                        console.error("Wake recognition error:", e.error);
-                        statusText.textContent = "❌ Error: " + e.error;
-                        speak("Sorry, something went wrong.");
-                        isRecognizing = false;
+                        console.error("Recognition error:", e);
+                        status.textContent = "⚠️ Error: " + e.error;
+                        isCommandMode = false;
                     };
 
                     recognition.onend = () => {
-                        isRecognizing = false;
+                        console.log("Recognition ended");
+                        status.textContent = "🎤 Tap mic to speak again.";
                     };
 
                     recognition.start();
                 }
 
-                function listenForCommand() {
-                    const cmdRec = new SpeechRecognition();
-                    cmdRec.lang = 'en-US';
-                    cmdRec.interimResults = false;
-
-                    statusText.textContent = "🎧 Waiting for your command...";
-
-                    cmdRec.onresult = (event) => {
-                        const command = event.results[0][0].transcript.toLowerCase();
-                        console.log("Command:", command);
-
-                        if (command.includes("home")) window.location.href = "/";
-                        else if (command.includes("about")) window.location.href = "/about";
-                        else if (command.includes("contact")) window.location.href = "/contact";
-                        else if (command.includes("services")) window.location.href = "/services";
-                        else if (command.includes("admissions")) window.location.href = "/admissions";
-                        else if (command.includes("news")) window.location.href = "/news";
-                        else if (command.includes("departments")) window.location.href = "/departments";
-                        else if (command.includes("research")) window.location.href = "/research";
-                        else if (command.includes("faculty")) window.location.href = "/faculty";
-                        else {
-                            speak("Sorry, I didn’t understand.");
-                            statusText.textContent = "Unrecognized command.";
-                        }
-                    };
-
-                    cmdRec.onerror = (e) => {
-                        console.error("Command error:", e.error);
-                        statusText.textContent = "❌ Command error: " + e.error;
-                        speak("There was a problem with the command.");
-                    };
-
-                    cmdRec.onend = () => {
-                        // 🔁 DON'T auto-restart — mobile will block it
-                        statusText.textContent = "✅ Tap the mic again to reactivate.";
-                    };
-
-                    cmdRec.start();
-                }
-
-                // 🔘 Manual start via mic button
-                document.getElementById("mic-button").addEventListener("click", () => {
-                    startRecognition();
+                // 🔘 Trigger on mic click
+                micButton.addEventListener("click", () => {
+                    isCommandMode = false;
+                    startListening();
                 });
             }
-        </script>
+           </script>
     </section>
 @endsection
 
