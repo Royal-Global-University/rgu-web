@@ -3233,3 +3233,20 @@ Route::get('/faculty-niraj-singh', function () {
 Route::get('/faculty-pankaj-losan-sharma', function () {
     return view('frontend/facultyprofile/rsbsc/pankaj-losan-sharma');
 })->name('faculty-pankaj-losan-sharma');
+
+//RSCOM Faculty Profile
+Route::get('/faculty-ankita-agarwal', function () {
+    return view('frontend/facultyprofile/rscom/ankita-agarwal');
+})->name('faculty-ankita-agarwal');
+
+Route::get('/faculty-champa-devi', function () {
+    return view('frontend/facultyprofile/rscom/champa-devi');
+})->name('faculty-champa-devi');
+
+Route::get('/faculty-florance-rabha', action: function () {
+    return view('frontend/facultyprofile/rscom/florance-rabha');
+})->name('faculty-florance-rabha');
+
+Route::get('/faculty-suresh-chandra', function () {
+    return view('frontend/facultyprofile/rscom/suresh-chandra');
+})->name('faculty-suresh-chandra');
