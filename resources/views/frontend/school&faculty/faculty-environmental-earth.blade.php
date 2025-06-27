@@ -157,7 +157,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
                                 </p>
-
+                                <a href="faculty-hibjur-rahaman">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -541,7 +543,7 @@
 
             <div class="pt-4 pb-4">
                 <div
-                    style=" display: flex; align-items: center; justify-content: center; height: 60px; background-color: #27467A; color: #fff; margin-right: 60%; border-radius: 0px 60px 60px 0px;">
+                    style=" display: flex; align-items: center; justify-content: center; height: 60px; background-color: #27467A; color: #fff; margin-right: 40%; border-radius: 0px 60px 60px 0px;">
                     <h4 class=" text-white fw-bold ">
                         Department of Geography and Geoinformatics
                     </h4>
@@ -651,6 +653,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
                                 </p>
+                                <a href="faculty-hibjur-rahaman">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
+
 
                             </div>
                         </div>

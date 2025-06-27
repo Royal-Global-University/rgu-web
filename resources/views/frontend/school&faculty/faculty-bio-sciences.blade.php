@@ -49,7 +49,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Dean & Professor, Royal School of Bio-Sciences
                                 </p>
-
+                                <a href="faculty-anupam-chatterjee">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -107,7 +109,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Dean & Professor, Royal School of Bio-Sciences
                                 </p>
-
+                                <a href="faculty-anupam-chatterjee">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -147,7 +151,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor & HoD
                                 </p>
-
+                                <a href="faculty-debajit-borah">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -210,7 +216,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
-
+                                <a href="faculty-chongtham-singh">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -230,7 +238,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
-
+                                <a href="faculty-mousumi-das-goswami">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -437,6 +447,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-niraj-singh">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
 
                         </div>
@@ -459,6 +472,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-pankaj-losan-sharma">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
 
                         </div>
@@ -633,6 +649,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor,<br> The Assam Royal Global University
                                 </p>
+                                <a href="faculty-pankaj-losan-sharma">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -758,7 +777,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Dean & Professor, Royal School of Bio-Sciences
                                 </p>
-
+                                <a href="faculty-anupam-chatterjee">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -815,7 +836,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Dean & Professor, Royal School of Bio-Sciences
                                 </p>
-
+                                <a href="faculty-anupam-chatterjee">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -855,7 +878,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor & HoD
                                 </p>
-
+                                <a href="faculty-debajit-borah">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -918,6 +943,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-chongtham-singh">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
 
                             </div>
                         </div>
@@ -938,7 +966,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
-
+                                <a href="faculty-mousumi-das-goswami">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1144,6 +1174,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-niraj-singh">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
 
                         </div>
@@ -1166,6 +1199,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
+                                <a href="faculty-pankaj-losan-sharma">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
 
                         </div>
@@ -1339,6 +1375,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor,<br> The Assam Royal Global University
                                 </p>
+                                <a href="faculty-pankaj-losan-sharma">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
