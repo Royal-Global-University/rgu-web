@@ -2956,6 +2956,20 @@ Route::get('/dr-shwetambara-verma', function () {
     return view('frontend/facultyprofile/rset/shwetambara-verma');
 })->name('dr-shwetambara-verma');
 
+//RSP Faculty Profile
+Route::get('/faculty-dr-mukta-agarwal', function () {
+    return view('frontend/facultyprofile/rsp/mukta');
+})->name('faculty-dr-mukta-agarwal');
+
+Route::get('/faculty-prithviraj-chakraborty', function () {
+    return view('frontend/facultyprofile/rsp/prithviraj-chakraborty');
+})->name('faculty-dprithviraj-chakraborty');
+
+Route::get('/faculty-dr-suman-kumar', function () {
+    return view('frontend/facultyprofile/rsp/suman-kumar');
+})->name('faculty-dr-suman-kumar');
+
+//RSLSC Faculty Profile
 Route::get('/faculty-dr-anirban-banik', function () {
     return view('frontend/facultyprofile/rslsc/anirban-banik');
 })->name('faculty-dr-anirban-banik');
@@ -2968,6 +2982,16 @@ Route::get('/faculty-dr-pundarikaksha-das', function () {
     return view('frontend/facultyprofile/rslsc/pundarikaksha-das');
 })->name('faculty-dr-pundarikaksha-das');
 
+Route::get('/faculty-arvind-dwivedi', function () {
+    return view('frontend/facultyprofile/rslsc/arvind');
+})->name('faculty-arvind-dwivedi');
+
+Route::get('/faculty-sthiti-dutta', function () {
+    return view('frontend/facultyprofile/rslsc/stithi');
+})->name('faculty-sthiti-dutta');
+
+//RSMAS FACULTY Profile
+
 Route::get('/faculty-dikshita-rabha', function () {
     return view('frontend/facultyprofile/rsmas/dikshita-rabha');
 })->name('faculty-dikshita-rabha');
@@ -2975,18 +2999,6 @@ Route::get('/faculty-dikshita-rabha', function () {
 Route::get('/faculty-himashree-medhi', function () {
     return view('frontend/facultyprofile/rsmas/himashree-medhi');
 })->name('faculty-himashree-medhi');
-//
-Route::get('/faculty-ashim-nath', function () {
-    return view('frontend/facultyprofile/rshss/ashim-nath');
-})->name('faculty-ashim-nath');
-
-Route::get('/faculty-bifuwada-nashibah', function () {
-    return view('frontend/facultyprofile/rshss/bifuwada-nashibah');
-})->name('faculty-bifuwada-nashibah');
-
-Route::get('/faculty-dr-mukta-agarwal', function () {
-    return view('frontend/facultyprofile/rsp/mukta');
-})->name('faculty-dr-mukta-agarwal');
 
 Route::get('/faculty-phurailatpam-jeny-sharma', function () {
     return view('frontend/facultyprofile/rsmas/jeny-sharma');
@@ -3023,6 +3035,10 @@ Route::get('/faculty-somyata-c-satpathy-sarma', function () {
 Route::get('/faculty-sonia-lakhotia', function () {
     return view('frontend/facultyprofile/rsmas/sonia-lakhotia');
 })->name('faculty-sonia-lakhotia');
+
+Route::get('/faculty-trishna-kakati', function () {
+    return view('frontend/facultyprofile/rsmas/trishna-kakati');
+})->name('faculty-trishna-kakati');
 
 // RSAPS Faculty Profile
 Route::get('/faculty-anuradha-devi', function () {
@@ -3250,3 +3266,33 @@ Route::get('/faculty-florance-rabha', action: function () {
 Route::get('/faculty-suresh-chandra', function () {
     return view('frontend/facultyprofile/rscom/suresh-chandra');
 })->name('faculty-suresh-chandra');
+
+//RSHSS Facuilty Profile
+Route::get('/faculty-ashim-nath', function () {
+    return view('frontend/facultyprofile/rshss/ashim-nath');
+})->name('faculty-ashim-nath');
+
+Route::get('/faculty-bifuwada-nashibah', function () {
+    return view('frontend/facultyprofile/rshss/bifuwada-nashibah');
+})->name('faculty-bifuwada-nashibah');
+
+Route::get('/faculty-denim-deka', function () {
+    return view('frontend/facultyprofile/rshss/denim-deka');
+})->name('faculty-denim-deka');
+
+Route::get('/faculty-durba-dutta', function () {
+    return view('frontend/facultyprofile/rshss/durba-dutta');
+})->name('faculty-durba-dutta');
+
+Route::get('/faculty-prajna-borah', function () {
+    return view('frontend/facultyprofile/rshss/prajna-borah');
+})->name('faculty-prajna-borah');
+
+//RSLA Facuilty Profile
+Route::get('/faculty-anjuman-ara-begum', function () {
+    return view('frontend/facultyprofile/rsla/anjuman-ara-begum');
+})->name('faculty-anjuman-ara-begum');
+
+Route::get('/faculty-indrani-kakati', function () {
+    return view('frontend/facultyprofile/rsla/indrani-kakati');
+})->name('faculty-indrani-kakati');
