@@ -54,7 +54,7 @@
                 </p>
 
                 <div>
-                    <ol class="para1" style="color: #27467A; text-align: justify;">
+                    <ol class="para1" style="color: #27467A;">
                         <li style="margin-bottom: 12px;"><strong style="font-size: 1.1em;">Peaceful and Eco-friendly
                                 Environment:</strong> Ideal for focused learning.</li>
                         <li style="margin-bottom: 12px;"><strong style="font-size: 1.1em;">Affordable Living Costs:</strong>
@@ -98,7 +98,7 @@
                         </p>
 
                         <div>
-                            <ol class="para1" style="color: #27467A; text-align: justify;">
+                            <ol class="para1" style="color: #27467A;">
                                 <li style="margin-bottom: 12px;"><strong style="font-size: 1.1em;">UGC-Recognized and NAAC
                                         Accredited</strong>
                                 </li>
