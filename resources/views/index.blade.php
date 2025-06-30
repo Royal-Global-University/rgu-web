@@ -4,7 +4,7 @@
 @section('meta_keywords', 'Best University in Assam')
 @section('content')
     <!-- Popup -->
-    <div id="popup" class="popup-overlay">
+    {{-- <div id="popup" class="popup-overlay">
         <img src="{{ asset('mobile-assets/index-ads/ads1.jpeg') }}" class="popup-image" alt="Popup Image">
     </div>
 
@@ -19,7 +19,7 @@
                 }
             });
         });
-    </script>
+    </script> --}}
     <section class="mobile">
 
         <!-- Floating WhatsApp Button -->

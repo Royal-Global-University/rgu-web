@@ -3044,6 +3044,10 @@ Route::get('/faculty-trishna-kakati', function () {
     return view('frontend/facultyprofile/rsmas/trishna-kakati');
 })->name('faculty-trishna-kakati');
 
+Route::get('/faculty-elizabeth', function () {
+    return view('frontend/facultyprofile/rsmas/elizabeth');
+})->name('faculty-elizabeth');
+
 // RSAPS Faculty Profile
 Route::get('/faculty-anuradha-devi', function () {
     return view('frontend/facultyprofile/rsaps/anuradha');
@@ -3316,6 +3320,18 @@ Route::get('/faculty-km-sudha', function () {
     return view('frontend/facultyprofile/rshss/km-sudha');
 })->name('faculty-km-sudha');
 
+Route::get('/faculty-mir-kamruzzaman', function () {
+    return view('frontend/facultyprofile/rshss/mirmir-kamruzzaman');
+})->name('faculty-mirmir-kamruzzaman');
+
+Route::get('/faculty-premmi', function () {
+    return view('frontend/facultyprofile/rshss/premmi');
+})->name('faculty-premmi');
+
+Route::get('/faculty-tania-begum', function () {
+    return view('frontend/facultyprofile/rshss/tania-begum');
+})->name('faculty-tania-begum');
+
 //RSLA Facuilty Profile
 Route::get('/faculty-anjuman-ara-begum', function () {
     return view('frontend/facultyprofile/rsla/anjuman-ara-begum');
@@ -3324,6 +3340,22 @@ Route::get('/faculty-anjuman-ara-begum', function () {
 Route::get('/faculty-indrani-kakati', function () {
     return view('frontend/facultyprofile/rsla/indrani-kakati');
 })->name('faculty-indrani-kakati');
+//
+Route::get('/faculty-hiren-nath', function () {
+    return view('frontend/facultyprofile/rsla/hiren-nath');
+})->name('faculty-hiren-nath');
+
+Route::get('/faculty-pravek-medhi', function () {
+    return view('frontend/facultyprofile/rsla/pravek-medhi');
+})->name('faculty-pravek-medhi');
+
+Route::get('/faculty-shruti-borpujari', function () {
+    return view('frontend/facultyprofile/rsla/shruti-borpujari');
+})->name('faculty-shruti-borpujari');
+
+Route::get('/faculty-sumitra-devi', function () {
+    return view('frontend/facultyprofile/rsla/sumitra-devi');
+})->name('faculty-sumitra-devi');
 
 //RSB Facuilty Profile
 Route::get('/faculty-darshana-bhagowati', function () {
@@ -3458,3 +3490,11 @@ Route::get('/faculty-linda-mawi', function () {
 Route::get('/faculty-hemeswari-bhuyan', function () {
     return view('frontend/facultyprofile/rsn/hemeswari');
 })->name('faculty-hemeswari-bhuyan');
+
+Route::get('/faculty-meghali-deka', function () {
+    return view('frontend/facultyprofile/rsn/meghali-deka');
+})->name('faculty-meghali-deka');
+
+Route::get('/faculty-mini-medhi', function () {
+    return view('frontend/facultyprofile/rsn/mini-medhi');
+})->name('faculty-mini-medhi');
