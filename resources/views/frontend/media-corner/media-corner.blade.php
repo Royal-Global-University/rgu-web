@@ -96,7 +96,7 @@
                             'summary' => '',
                             'date' => 'Guwahati, June 3, 2025:',
                             'link' => 'veteran-journalist-pj-baruah-joins-royal-global-university',
-                            'image' => 'mobile-assets/media-corner/media-img/news7.jpg',
+                            'image' => 'mobile-assets/media-corner/media-img/news7.JPG',
                             'content' => 'In a significant development for media education in the region, renowned journalist Shri Prasanta Jyoti Baruah has joined The Assam Royal Global University (RGU) as a Distinguished Professor at the Royal School of Communication and Media. A veteran in the field, Shri Baruah has served as the Executive Editor of The Assam Tribune for several decades, making notable contributions to journalism in Northeast India.',
                         ],
                         [

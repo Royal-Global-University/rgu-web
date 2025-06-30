@@ -2856,6 +2856,10 @@ Route::get('/private-university-in-assam', function () {
     return view('frontend/blog/private-university-in-assam');
 })->name('private-university-in-assam');
 
+Route::get('/best-university-in-north-east-india', function () {
+    return view('frontend/blog/best-university-in-north-east-india');
+})->name('best-university-in-north-east-india');
+
 //Quick link
 Route::get('/grievance', function () {
     return view('frontend/quicklink/grievance');
@@ -3296,3 +3300,93 @@ Route::get('/faculty-anjuman-ara-begum', function () {
 Route::get('/faculty-indrani-kakati', function () {
     return view('frontend/facultyprofile/rsla/indrani-kakati');
 })->name('faculty-indrani-kakati');
+//
+//RSB Facuilty Profile
+Route::get('/faculty-darshana-bhagowati', function () {
+    return view('frontend/facultyprofile/rsb/darshana-bhagowati');
+})->name('faculty-darshana-bhagowati');
+
+//RSN Facuilty Profile
+Route::get('/faculty-ankita-sarma', function () {
+    return view('frontend/facultyprofile/rsn/ankita-sarma');
+})->name('faculty-ankita-sarma');
+
+Route::get('/faculty-aziza-begum', function () {
+    return view('frontend/facultyprofile/rsn/aziza-begum');
+})->name('faculty-aziza-begum');
+
+Route::get('/faculty-bakor-kharbudon', function () {
+    return view('frontend/facultyprofile/rsn/bakor-kharbudon');
+})->name('faculty-bakor-kharbudon');
+
+Route::get('/faculty-bhanita-barman', function () {
+    return view('frontend/facultyprofile/rsn/bhanita-barman');
+})->name('faculty-bhanita-barman');
+
+Route::get('/faculty-ilawanpyntngen-kharsohnoh', function () {
+    return view('frontend/facultyprofile/rsn/ilawanpyntngen-kharsohnoh');
+})->name('faculty-ilawanpyntngen-kharsohnoh');
+
+Route::get('/faculty-juri-saikia', function () {
+    return view('frontend/facultyprofile/rsn/juri-saikia');
+})->name('faculty-juri-saikia');
+
+Route::get('/faculty-kangkana-talukdar', function () {
+    return view('frontend/facultyprofile/rsn/kangkana-talukdar');
+})->name('faculty-kangkana-talukdar');
+
+Route::get('/faculty-manisha-kalita', function () {
+    return view('frontend/facultyprofile/rsn/manisha-kalita');
+})->name('faculty-manisha-kalita');
+
+Route::get('/faculty-monika-kashyap', function () {
+    return view('frontend/facultyprofile/rsn/monika-kashyap');
+})->name('faculty-monika-kashyap');
+
+Route::get('/faculty-nabajani-dutta', function () {
+    return view('frontend/facultyprofile/rsn/nabajani-dutta');
+})->name('faculty-nabajani-dutta');
+
+Route::get('/faculty-noksanglila', function () {
+    return view('frontend/facultyprofile/rsn/noksanglila');
+})->name('faculty-noksanglila');
+
+Route::get('/faculty-pankhi-lahkar', function () {
+    return view('frontend/facultyprofile/rsn/pankhi-lahkar');
+})->name('faculty-pankhi-lahkar');
+
+Route::get('/faculty-punam-debbarma', function () {
+    return view('frontend/facultyprofile/rsn/punam-debbarma');
+})->name('faculty-punam-debbarma');
+
+Route::get('/faculty-purabi-rabha', function () {
+    return view('frontend/facultyprofile/rsn/purabi-rabha');
+})->name('faculty-purabi-rabha');
+
+Route::get('/faculty-rashmi-rekha-borah', function () {
+    return view('frontend/facultyprofile/rsn/rashmi-rekha-borah');
+})->name('faculty-rashmi-rekha-borah');
+
+Route::get('/faculty-rumi-talukdar', function () {
+    return view('frontend/facultyprofile/rsn/rumi-talukdar');
+})->name('faculty-rumi-talukdar');
+
+Route::get('/faculty-sapna-kumari', function () {
+    return view('frontend/facultyprofile/rsn/sapna-kumari');
+})->name('faculty-sapna-kumari');
+
+Route::get('/faculty-simi-das-purkayastha', function () {
+    return view('frontend/facultyprofile/rsn/simi-das-purkayastha');
+})->name('faculty-simi-das-purkayastha');
+
+Route::get('/faculty-yumkhaibam', function () {
+    return view('frontend/facultyprofile/rsn/yumkhaibam');
+})->name('faculty-yumkhaibam');
+
+Route::get('/faculty-linda-mawi', function () {
+    return view('frontend/facultyprofile/rsn/linda');
+})->name('faculty-linda-mawi');
+
+Route::get('/faculty-hemeswari-bhuyan', function () {
+    return view('frontend/facultyprofile/rsn/hemeswari');
+})->name('faculty-hemeswari-bhuyan');
