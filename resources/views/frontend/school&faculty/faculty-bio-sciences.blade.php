@@ -141,7 +141,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsbsc/4.jpeg"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Debajit-Borah-RSBSC.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -228,7 +228,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsbsc/8.jpeg"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mousumi-Das-Goswami-RSBSC.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -334,7 +334,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsbsc/12.jpeg"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Amlan-Das-RSBSC.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -872,7 +872,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsbsc/4.jpeg"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Debajit-Borah-RSBSC.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -960,7 +960,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsbsc/8.jpeg"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mousumi-Das-Goswami-RSBSC.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1065,7 +1065,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsbsc/12.jpeg"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Amlan-Das-RSBSC.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">

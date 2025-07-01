@@ -92,7 +92,7 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-                                    
+
                                 </p>
 
                             </div>
@@ -243,7 +243,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Barnali-Chakrabarty-RSA.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -265,7 +265,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsd/interior-design/5.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Barsha-Kunda-RSA.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -392,7 +392,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsd/interior-design/11.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Pooja-Singh-RSA.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -475,7 +475,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsd/interior-design/14.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Ritu-Rani-RSD.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -649,7 +649,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsd/fashion-design/3.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Gazala-Anjum-Goney-RSFT.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -670,7 +670,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsd/fashion-design/4.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Pubika-Michong-RSFT.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -979,7 +979,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Barnali-Chakrabarty-RSA.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -1001,7 +1001,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsd/interior-design/5.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Barsha-Kunda-RSA.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -1128,7 +1128,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsd/interior-design/11.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Pooja-Singh-RSA.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -1211,7 +1211,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsd/interior-design/14.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Ritu-Rani-RSD.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -1384,7 +1384,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsd/fashion-design/3.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Gazala-Anjum-Goney-RSFT.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -1405,7 +1405,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsd/fashion-design/4.jpeg"
+                                    src="mobile-assets/updated-faculty-img/Pubika-Michong-RSFT.png"
                                     class="img-fluid rounded border" />
                             </div>
 
