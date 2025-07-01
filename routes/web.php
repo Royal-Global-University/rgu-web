@@ -2972,6 +2972,50 @@ Route::get('/faculty-prithviraj-chakraborty', function () {
 Route::get('/faculty-dr-suman-kumar', function () {
     return view('frontend/facultyprofile/rsp/suman-kumar');
 })->name('faculty-dr-suman-kumar');
+//
+Route::get('/faculty-aitilaris', function () {
+    return view('frontend/facultyprofile/rsp/aitilaris');
+})->name('faculty-aitilaris');
+
+Route::get('/faculty-debapurba', function () {
+    return view('frontend/facultyprofile/rsp/debapurba');
+})->name('faculty-debapurba');
+
+Route::get('/himanta-saikia', function () {
+    return view('frontend/facultyprofile/rsp/himanta-saikia');
+})->name('himanta-saikia');
+
+Route::get('/lila-nath', function () {
+    return view('frontend/facultyprofile/rsp/lila-nath');
+})->name('lila-nath');
+
+Route::get('/madhusmita-gogoi', function () {
+    return view('frontend/facultyprofile/rsp/madhusmita-gogoi');
+})->name('madhusmita-gogoi');
+
+Route::get('/mevareen', function () {
+    return view('frontend/facultyprofile/rsp/mevareen');
+})->name('mevareen');
+
+Route::get('/moidul-islam', function () {
+    return view('frontend/facultyprofile/rsp/moidul-islam');
+})->name('moidul-islam');
+
+Route::get('/payal-dasgupta', function () {
+    return view('frontend/facultyprofile/rsp/payal-dasgupta');
+})->name('payal-dasgupta');
+
+Route::get('/rakibur-rahman', function () {
+    return view('frontend/facultyprofile/rsp/rakibur-rahman');
+})->name('rakibur-rahman');
+
+Route::get('/sabnam-nargis', function () {
+    return view('frontend/facultyprofile/rsp/sabnam-nargis');
+})->name('sabnam-nargis');
+
+Route::get('/sumi-barman', function () {
+    return view('frontend/facultyprofile/rsp/sumi-barman');
+})->name('sumi-barman');
 
 //RSLSC Faculty Profile
 Route::get('/faculty-dr-anirban-banik', function () {
@@ -3340,7 +3384,7 @@ Route::get('/faculty-anjuman-ara-begum', function () {
 Route::get('/faculty-indrani-kakati', function () {
     return view('frontend/facultyprofile/rsla/indrani-kakati');
 })->name('faculty-indrani-kakati');
-//
+
 Route::get('/faculty-hiren-nath', function () {
     return view('frontend/facultyprofile/rsla/hiren-nath');
 })->name('faculty-hiren-nath');
