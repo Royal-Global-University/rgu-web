@@ -861,8 +861,6 @@
                                     Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span></h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
-                                    <img class="zoomable" src="mobile-assets/events/bhairav.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/prabuddha-web-may.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/subram-web.jpeg"
@@ -1053,12 +1051,27 @@
                             <div style="height: 600px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
                                     <div class="row">
+
                                         <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news16/2.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">Academic Exchange of RGU Students at Krirk University, Bangkok</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 1, 2025</p>
+                                                <a href="academic-exchange-of-rgu-students-at-krirk-university-bangkok">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-2">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news15/1.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 12px;" class="p-0 m-0 fw-bold">Ahir Bhairav: Musical Gathering for Cultural Enrichment at RGU</p>
+                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">Ahir Bhairav: Musical Gathering for Cultural Enrichment at RGU</p>
                                                 <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">June 26, 2025</p>
                                                 <a href="ahir-bhairav-musical-gathering-for-cultural-enrichment-at-rgu">
                                                     <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
@@ -1071,7 +1084,7 @@
                                                 <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news13/img1.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 12px;" class="p-0 m-0 fw-bold">Electric Vehicle Laboratory Skill Development Centre Inaugurated at RGU</p>
+                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">Electric Vehicle Laboratory Skill Development Centre Inaugurated at RGU</p>
                                                 <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">June 24, 2025</p>
                                                 <a href="electric-vehicle-laboratory-skill-development-centre-inaugurated-at-rgu">
                                                     <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
@@ -1079,19 +1092,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="row bg-light p-2 rounded mt-2">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news14/3.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 12px;" class="p-0 m-0 fw-bold">Memories and Melodies Echo as Doyens Recall Personal Moments with Kalaguru</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">June 20, 2025</p>
-                                                <a href="memories-and-melodies-echo-as-doyens-recall-personal-moments-with-kalaguru">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
 
                                     </div>
                                 </div>

@@ -2953,12 +2953,30 @@ Route::get('/ahir-bhairav-musical-gathering-for-cultural-enrichment-at-rgu', fun
     return view('frontend/media-corner/news15');
 })->name('ahir-bhairav-musical-gathering-for-cultural-enrichment-at-rgu');
 
+Route::get('/academic-exchange-of-rgu-students-at-krirk-university-bangkok', function () {
+    return view('frontend/media-corner/news16');
+})->name('academic-exchange-of-rgu-students-at-krirk-university-bangkok');
+
 
 
 //faculty profile
+Route::get('/faculty-jagriti-pathak', function () {
+    return view('frontend/facultyprofile/rsa/jagriti-pathak');
+})->name('faculty-jagriti-pathak');
+
+//RSET Facuilty Profile
 Route::get('/dr-shwetambara-verma', function () {
     return view('frontend/facultyprofile/rset/shwetambara-verma');
 })->name('dr-shwetambara-verma');
+
+Route::get('/faculty-deepjyoti-choudhury', function () {
+    return view('frontend/facultyprofile/rset/deepjyoti-choudhury');
+})->name('faculty-deepjyoti-choudhury');
+
+//RSA Faculty Profile
+Route::get('/faculty-dr-mukta-agarwal', function () {
+    return view('frontend/facultyprofile/rsp/mukta');
+})->name('faculty-dr-mukta-agarwal');
 
 //RSP Faculty Profile
 Route::get('/faculty-dr-mukta-agarwal', function () {
@@ -3253,11 +3271,23 @@ Route::get('/faculty-hibjur-rahaman', function () {
     return view('frontend/facultyprofile/rsees/hibjur-rahaman');
 })->name('faculty-hibjur-rahaman');
 
+Route::get('/faculty-jubilee-goswami', function () {
+    return view('frontend/facultyprofile/rsees/jubilee-goswami');
+})->name('faculty-jubilee-goswami');
+
 
 //RSHM-RSTTM Faculty Profile
 Route::get('/faculty-indrajit-dutta', function () {
     return view('frontend/facultyprofile/rshm-rsttm/indrajit-dutta');
 })->name('faculty-indrajit-dutta');
+
+Route::get('/faculty-piyush-gupta', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/piyush-gupta');
+})->name('faculty-piyush-gupta');
+
+Route::get('/faculty-reemina-narzary', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/reemina-narzary');
+})->name('faculty-reemina-narzary');
 
 
 //RSBAS Faculty Profile
@@ -3281,7 +3311,20 @@ Route::get('/faculty-syeda-anjum-afreen', function () {
     return view('frontend/facultyprofile/rsbas/syeda-anjum-afreen');
 })->name('faculty-syeda-anjum-afreen');
 
+Route::get('/faculty-shraddha-basu', function () {
+    return view('frontend/facultyprofile/rsbas/shraddha-basu');
+})->name('faculty-shraddha-basu');
+
 //RSBSC Faculty Profile
+
+Route::get('/faculty-birson-ingti', function () {
+    return view('frontend/facultyprofile/rsbsc/birson-ingti');
+})->name('faculty-birson-ingti');
+
+Route::get('/faculty-rupshikha', function () {
+    return view('frontend/facultyprofile/rsbsc/rupshikha');
+})->name('faculty-rupshikha');
+
 Route::get('/faculty-dr-charulata-mahanta', function () {
     return view('frontend/facultyprofile/rsbsc/charulata-mahanta');
 })->name('faculty-dr-charulata-mahanta');
@@ -3340,6 +3383,19 @@ Route::get('/faculty-sailendra', function () {
 })->name('faculty-sailendra');
 
 //RSHSS Facuilty Profile
+
+Route::get('/faculty-mitali-kalita', function () {
+    return view('frontend/facultyprofile/rshss/mitali-kalita');
+})->name('faculty-mitali-kalita');
+
+Route::get('/faculty-susmita-hazarika', function () {
+    return view('frontend/facultyprofile/rshss/susmita-hazarika');
+})->name('faculty-susmita-hazarika');
+
+Route::get('/faculty-tanzim-masud', function () {
+    return view('frontend/facultyprofile/rshss/tanzim-masud');
+})->name('faculty-tanzim-masud');
+
 Route::get('/faculty-ashim-nath', function () {
     return view('frontend/facultyprofile/rshss/ashim-nath');
 })->name('faculty-ashim-nath');
@@ -3377,6 +3433,11 @@ Route::get('/faculty-tania-begum', function () {
 })->name('faculty-tania-begum');
 
 //RSLA Facuilty Profile
+
+Route::get('/faculty-tushti-sharma', function () {
+    return view('frontend/facultyprofile/rsla/tushti-sharma');
+})->name('faculty-tushti-sharma');
+
 Route::get('/faculty-anjuman-ara-begum', function () {
     return view('frontend/facultyprofile/rsla/anjuman-ara-begum');
 })->name('faculty-anjuman-ara-begum');

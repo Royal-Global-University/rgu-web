@@ -28,6 +28,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Academic Exchange of RGU Students at Krirk University, Bangkok',
+                            'summary' => '',
+                            'date' => 'Guwahati, July 1, 2025:',
+                            'link' => 'academic-exchange-of-rgu-students-at-krirk-university-bangkok',
+                            'image' => 'mobile-assets/media-corner/news16/2.jpeg',
+                            'content' => 'A team of students from the Assam Royal Global University (RGU) has participated in a prestigious academic exchange programme at Krirk University, Bangkok, Thailand from 23rd to 25th June 2025. The three-day exchange aimed at fostering academic collaboration, promoting intercultural understanding, and enhancing educational opportunities for both institutions.',
+                        ],
+                        [
                             'title' => 'Ahir Bhairav: Musical Gathering for Cultural Enrichment at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, June 26, 2025:',
@@ -130,7 +138,7 @@
                             'link' => '129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance',
                             'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
                             'content' => 'With its continued effort to foster academic excellence and reward outstanding student performance, The Assam Royal Global University (RGU) yesterday organised a Monthly Scholarship award ceremony to honour the exemplary students who qualified for the Semester Topper Scholarship for the Odd Semester Examination 2024–25.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ',
                         ],
                         [
                             'title' => 'RGU Celebrates Commendation Day for Placed Graduating Students',
