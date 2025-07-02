@@ -1249,6 +1249,10 @@
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online
                                                     </p>
                                                 </a>
+                                                <a href="blog">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Our Blog
+                                                    </p>
+                                                </a>
 
 
 

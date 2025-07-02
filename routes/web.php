@@ -2851,6 +2851,9 @@ Route::get('/lp', function () {
 })->name('lp');
 
 //blog
+Route::get('/blog', function () {
+    return view('frontend/blog/blog');
+})->name('blog');
 
 Route::get('/private-university-in-assam', function () {
     return view('frontend/blog/private-university-in-assam');
