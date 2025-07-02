@@ -31,7 +31,7 @@
                             'title' => 'Best University in North East India',
                             'summary' => '',
                             'date' => '',
-                            'link' => 'academic-exchange-of-rgu-students-at-krirk-university-bangkok',
+                            'link' => 'best-university-in-north-east-india',
                             'image' => 'mobile-assets/rgu-blog/blog2.jpeg',
                             'content' => 'India northeast is renowned for its diverse range of cultures, stunning scenery, and rising standards of education. The number of respectable universities in this area that provide top-notch academic possibilities has increased dramatically over the last few decades. The greatest institution in North East India can provide the groundwork for a prosperous future if you are a student hoping for a top-notch education in a serene yet intellectually stimulating setting.',
                         ],
