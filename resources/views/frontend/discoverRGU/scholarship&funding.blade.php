@@ -3,7 +3,7 @@
     <div id="page" class="site site_wrapper">
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <!-- floating button  -->
+            <!-- floating mob button  -->
             <div>
                 <a href="https://rgu.renocampus.com/scholarship/scholarshipForm" style="
             position: fixed;
@@ -63,8 +63,6 @@
                 </style>
             </div>
             <!-- floating button  -->
-
-
             <section
                 style="background-image: url(mobile-assets/scholarship/bg.svg); padding-top: 90px; position: relative;">
 
@@ -143,7 +141,6 @@
             <!-- floating button  -->
 
             <img class="pb-5" src="mobile-assets/scholarship/web-scholarship.png" alt="">
-
 
         </div>
 
