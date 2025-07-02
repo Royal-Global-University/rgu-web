@@ -1051,8 +1051,21 @@
                             <div style="height: 600px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
                                     <div class="row">
-
                                         <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 160px; width: 100%;" src="mobile-assets/media-corner/news17/Suman Kumar.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">RGU Faculty Awarded at ICPPS South Korea</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">June 2, 2025</p>
+                                                <a href="rgu-faculty-awarded-at-icpps-south-korea">
+                                                    <p class="pt-3 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-2">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news16/2.jpeg" alt="" />
                                             </div>
@@ -1079,20 +1092,6 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="row bg-light p-2 rounded mt-2">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news13/img1.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">Electric Vehicle Laboratory Skill Development Centre Inaugurated at RGU</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">June 24, 2025</p>
-                                                <a href="electric-vehicle-laboratory-skill-development-centre-inaugurated-at-rgu">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
 
                                     </div>
                                 </div>

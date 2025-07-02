@@ -2960,6 +2960,10 @@ Route::get('/academic-exchange-of-rgu-students-at-krirk-university-bangkok', fun
     return view('frontend/media-corner/news16');
 })->name('academic-exchange-of-rgu-students-at-krirk-university-bangkok');
 
+Route::get('/rgu-faculty-awarded-at-icpps-south-korea', function () {
+    return view('frontend/media-corner/news17');
+})->name('rgu-faculty-awarded-at-icpps-south-korea');
+
 
 
 //faculty profile

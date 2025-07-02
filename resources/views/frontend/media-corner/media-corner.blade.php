@@ -28,6 +28,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU Faculty Awarded at ICPPS South Korea',
+                            'summary' => '',
+                            'date' => 'Guwahati, July 2, 2025:',
+                            'link' => 'rgu-faculty-awarded-at-icpps-south-korea',
+                            'image' => 'mobile-assets/media-corner/news17/Suman Kumar.jpg',
+                            'content' => 'Mr. Suman Kumar, Assistant Professor at The Assam Royal Global University, has been awarded the Best Oral Presentation Award at the prestigious International Conference on Pharmacy and Pharmaceutical Sciences (ICPPS-2025) held in Jeju Island, South Korea.',
+                        ],
+                        [
                             'title' => 'Academic Exchange of RGU Students at Krirk University, Bangkok',
                             'summary' => '',
                             'date' => 'Guwahati, July 1, 2025:',
@@ -138,7 +146,7 @@
                             'link' => '129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance',
                             'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
                             'content' => 'With its continued effort to foster academic excellence and reward outstanding student performance, The Assam Royal Global University (RGU) yesterday organised a Monthly Scholarship award ceremony to honour the exemplary students who qualified for the Semester Topper Scholarship for the Odd Semester Examination 2024–25.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ',
                         ],
                         [
                             'title' => 'RGU Celebrates Commendation Day for Placed Graduating Students',
