@@ -2964,6 +2964,10 @@ Route::get('/rgu-faculty-awarded-at-icpps-south-korea', function () {
     return view('frontend/media-corner/news17');
 })->name('rgu-faculty-awarded-at-icpps-south-korea');
 
+Route::get('/week-long-fdp-on-indigenous-knowledge-systems-held-at-rgu', function () {
+    return view('frontend/media-corner/news18');
+})->name('week-long-fdp-on-indigenous-knowledge-systems-held-at-rgu');
+
 
 
 //faculty profile

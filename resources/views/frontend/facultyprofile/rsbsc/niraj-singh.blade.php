@@ -195,7 +195,7 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Books Published:
+                                    Books Chapter Published
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -211,7 +211,7 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Books Edited:
+                                    Books Published:
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -220,7 +220,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            3
+                                            5
                                         </span>
                                     </li>
                                 </ul>
@@ -455,7 +455,7 @@
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Books Published:
+                                Books Chapter Published
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -470,7 +470,7 @@
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Books Edited:
+                                Books Published:
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -478,7 +478,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        3
+                                        5
                                     </span>
                                 </li>
                             </ul>

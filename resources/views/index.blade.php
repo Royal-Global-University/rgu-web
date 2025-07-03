@@ -1053,11 +1053,24 @@
                                     <div class="row">
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
+                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news18/ind.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">Week-long FDP on Indigenous Knowledge Systems held at RGU</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 3, 2025</p>
+                                                <a href="week-long-fdp-on-indigenous-knowledge-systems-held-at-rgu">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row bg-light p-2 mt-2 rounded">
+                                            <div class="col-lg-5">
                                                 <img class="rounded" style="height: 160px; width: 100%;" src="mobile-assets/media-corner/news17/Suman Kumar.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">RGU Faculty Awarded at ICPPS South Korea</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">June 2, 2025</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 2, 2025</p>
                                                 <a href="rgu-faculty-awarded-at-icpps-south-korea">
                                                     <p class="pt-3 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
@@ -1073,20 +1086,6 @@
                                                 <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">Academic Exchange of RGU Students at Krirk University, Bangkok</p>
                                                 <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 1, 2025</p>
                                                 <a href="academic-exchange-of-rgu-students-at-krirk-university-bangkok">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row bg-light p-2 rounded mt-2">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news15/1.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">Ahir Bhairav: Musical Gathering for Cultural Enrichment at RGU</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">June 26, 2025</p>
-                                                <a href="ahir-bhairav-musical-gathering-for-cultural-enrichment-at-rgu">
                                                     <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
