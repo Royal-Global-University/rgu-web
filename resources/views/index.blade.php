@@ -1051,7 +1051,20 @@
                             <div style="height: 600px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
                                     <div class="row">
-                                        <div class="row bg-light p-2 rounded">
+                                        <div class="row bg-light p-2 rounded ">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news19/2.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">‘Sugandhi Pokhilar Kobi’ Hiren Bhattacharyya Remembered at RGU</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 4, 2025</p>
+                                                <a href="sugandhi-pokhilar-kobi-hiren-bhattacharyya-remembered-at-rgu">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row bg-light p-2 rounded mt-2">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news18/ind.jpg" alt="" />
                                             </div>
@@ -1078,19 +1091,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded mt-2">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news16/2.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">Academic Exchange of RGU Students at Krirk University, Bangkok</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 1, 2025</p>
-                                                <a href="academic-exchange-of-rgu-students-at-krirk-university-bangkok">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
 
                                     </div>
                                 </div>

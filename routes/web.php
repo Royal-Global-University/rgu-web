@@ -2968,6 +2968,10 @@ Route::get('/week-long-fdp-on-indigenous-knowledge-systems-held-at-rgu', functio
     return view('frontend/media-corner/news18');
 })->name('week-long-fdp-on-indigenous-knowledge-systems-held-at-rgu');
 
+Route::get('/sugandhi-pokhilar-kobi-hiren-bhattacharyya-remembered-at-rgu', function () {
+    return view('frontend/media-corner/news19');
+})->name('sugandhi-pokhilar-kobi-hiren-bhattacharyya-remembered-at-rgu');
+
 
 
 //faculty profile

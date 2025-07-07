@@ -28,6 +28,22 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => '‘Sugandhi Pokhilar Kobi’ Hiren Bhattacharyya Remembered at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, July 4, 2025:',
+                            'link' => 'sugandhi-pokhilar-kobi-hiren-bhattacharyya-remembered-at-rgu',
+                            'image' => 'mobile-assets/media-corner/news19/2.jpg',
+                            'content' => 'To honour the legacy of the beloved Assamese poet Hiren Bhattacharyya, fondly remembered as ‘Sugandhi Pokhilar Kobi’, the Dr. Bhupen Hazarika Centre for Creativity, Royal Global University, organized a heartfelt commemorative programme today on his death anniversary. The event was a celebration of Bhattacharyya’s poetic genius and his enduring contributions to Assamese literature. ',
+                        ],
+                        [
+                            'title' => 'Week-long FDP on Indigenous Knowledge Systems held at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, July 3, 2025:',
+                            'link' => 'week-long-fdp-on-indigenous-knowledge-systems-held-at-rgu',
+                            'image' => 'mobile-assets/media-corner/news18/day 6.jpg',
+                            'content' => 'The Indian Knowledge Systems (IKS) Cell, in collaboration with the Royal Centre for Human Resource Development and the Internal Quality Assurance Cell of RGU conducted a highly enriching week-long Faculty Development Programme from 23rd to 28th June 2025 on the theme “Reimagining Education through NEP 2020: Multidisciplinarity, Innovation, and Integration of Indigenous Knowledge Systems”.',
+                        ],
+                        [
                             'title' => 'RGU Faculty Awarded at ICPPS South Korea',
                             'summary' => '',
                             'date' => 'Guwahati, July 2, 2025:',
@@ -146,7 +162,7 @@
                             'link' => '129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance',
                             'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
                             'content' => 'With its continued effort to foster academic excellence and reward outstanding student performance, The Assam Royal Global University (RGU) yesterday organised a Monthly Scholarship award ceremony to honour the exemplary students who qualified for the Semester Topper Scholarship for the Odd Semester Examination 2024–25.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ',
                         ],
                         [
                             'title' => 'RGU Celebrates Commendation Day for Placed Graduating Students',
