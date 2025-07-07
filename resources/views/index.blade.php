@@ -1138,7 +1138,7 @@
                 btnBVideoSwitch.addEventListener('click', () => {
                     btnBVideoSwitch.style.backgroundColor = "#e68900";
                     btnAVideoSwitch.style.backgroundColor = "gray";
-                    videoSourceSwitch.src = "mobile-assets/magazine/museum-vid.mp4"; // Video B
+                    videoSourceSwitch.src = "https://media.rgu.ac/museum-vid.mp4"; // Video B
                     videoPlayerSwitch.load();
                     videoPlayerSwitch.play();
                 });
