@@ -324,6 +324,11 @@ Route::get('/facilities-legal-aid', function () {
 
 //End All Facilities
 
+//Magazine
+Route::get('/rgu-magazine', function () {
+    return view('frontend/magazine/magazine-index');
+})->name('rgu-magazine');
+
 //All Labs
 
 Route::get('/lab-architecture', function () {
