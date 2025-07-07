@@ -968,7 +968,22 @@
                             <div style="height: 600px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
                                     <div class="row">
-                                        <div class="row bg-light p-2 rounded ">
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 160px; width: 100%;" src="mobile-assets/media-corner/news20/1.jpg"
+                                                    alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; " class="p-0 m-0 fw-bold">Zimbabwe Education Delegation Explores Collaboration with RGU
+                                                </p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 7, 2025</p>
+                                                <a href="zimbabwe-education-delegation-explores-collaboration-with-royal-global-university">
+                                                    <p class="pt-3 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row bg-light p-2 mt-2 rounded ">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news19/2.jpg" alt="" />
                                             </div>
@@ -994,21 +1009,6 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="row bg-light p-2 mt-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 160px; width: 100%;" src="mobile-assets/media-corner/news17/Suman Kumar.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">RGU Faculty Awarded at ICPPS South Korea</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 2, 2025</p>
-                                                <a href="rgu-faculty-awarded-at-icpps-south-korea">
-                                                    <p class="pt-3 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-
 
                                     </div>
                                 </div>
@@ -1051,7 +1051,7 @@
         </div>
         <!--End Events-->
 
-        {{-- <div style="padding: 30px 20px; background-color: #590d22;">
+        <div style="padding: 30px 20px; background-color: #590d22;">
             <div class="row" style="display: flex; align-items: center;">
                 <div class="col-lg-7" style="display: flex; justify-content: center;">
                     <div style="display: flex; flex-direction: column;">
@@ -1071,14 +1071,13 @@
                 </div>
 
             </div>
-        </div> --}}
+        </div>
 
-        <div style="background-color: #13223b;">
+        {{-- <div style="background-color: #13223b;">
             <section style="padding: 40px; font-family: Arial, sans-serif;">
                 <div class="row" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
 
                     <div class="col-lg-7 pt-3">
-                    <!-- Left Column: Buttons -->
                     <div
                         style="flex: 1; padding: 20px; display: flex; justify-content: center; align-items: center;">
                         <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
@@ -1107,7 +1106,6 @@
                     </div>
 
                     <div class="col-lg-5">
-                    <!-- Right Column: Video -->
                     <div class="text-center">
                         <video id="videoPlayerSwitch" autoplay muted loop controlsList="nodownload"
                             style="width: 90%; height: 100%; border: 3px solid #fff;">
@@ -1130,7 +1128,7 @@
                 btnAVideoSwitch.addEventListener('click', () => {
                     btnAVideoSwitch.style.backgroundColor = "#e68900";
                     btnBVideoSwitch.style.backgroundColor = "gray";
-                    videoSourceSwitch.src = "https://media.rgu.ac/index/lookbook.mp4"; // Video A
+                    videoSourceSwitch.src = "https://media.rgu.ac/index/lookbook.mp4";
                     videoPlayerSwitch.load();
                     videoPlayerSwitch.play();
                 });
@@ -1138,12 +1136,12 @@
                 btnBVideoSwitch.addEventListener('click', () => {
                     btnBVideoSwitch.style.backgroundColor = "#e68900";
                     btnAVideoSwitch.style.backgroundColor = "gray";
-                    videoSourceSwitch.src = "https://media.rgu.ac/museum-vid.mp4"; // Video B
+                    videoSourceSwitch.src = "https://media.rgu.ac/museum-vid.mp4";
                     videoPlayerSwitch.load();
                     videoPlayerSwitch.play();
                 });
             </script>
-        </div>
+        </div> --}}
 
         <!--campus life-->
         <section

@@ -2977,6 +2977,10 @@ Route::get('/sugandhi-pokhilar-kobi-hiren-bhattacharyya-remembered-at-rgu', func
     return view('frontend/media-corner/news19');
 })->name('sugandhi-pokhilar-kobi-hiren-bhattacharyya-remembered-at-rgu');
 
+Route::get('/zimbabwe-education-delegation-explores-collaboration-with-royal-global-university', function () {
+    return view('frontend/media-corner/news20');
+})->name('zimbabwe-education-delegation-explores-collaboration-with-royal-global-university');
+
 
 
 //faculty profile
