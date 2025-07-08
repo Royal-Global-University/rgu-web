@@ -165,7 +165,7 @@
                         "diverse choices": "/diversechoices",
                         "diversity inclusion": "/diversity-inclusion",
                         "location": "/strategic-location",
-                        "governing-body": "/governing-body",
+                        "governing body": "/governing-body",
                         "board of management": "/board-of-management",
                         "academic council": "/academic-council",
                         "internal complaints committee": "/internal-complaints-committee",
