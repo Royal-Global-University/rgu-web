@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <!-- Floating AI Button -->
+    <!-- AI Button -->
     <button id="ai-button" style="
         position: fixed;
         bottom: 30px;
@@ -20,7 +20,7 @@
         🤖 AI
     </button>
 
-    <!-- AI Popup Wrapper -->
+    <!-- AI Popup -->
     <div id="ai-popup-wrapper" style="
         display: none;
         position: fixed;
@@ -30,7 +30,6 @@
         z-index: 999999;
         text-align: center;
     ">
-        <!-- AI Circle Popup -->
         <div id="ai-popup" style="
             width: 260px;
             height: 260px;
@@ -48,27 +47,14 @@
             position: relative;
             margin: auto;
         ">
-            <!-- Sound Wave Background -->
             <div class="sound-wave"></div>
 
-            <!-- Mic Button -->
-            <button id="start-mic" style="
-                background: rgba(255,255,255,0.2);
-                border: none;
-                border-radius: 50%;
-                width: 60px;
-                height: 60px;
-                font-size: 24px;
-                color: white;
-                cursor: pointer;
-                z-index: 1;
-            ">🎤</button>
-
-            <!-- Status -->
-            <p id="status" style="font-size: 14px; margin-top: 10px; color: #fff; z-index: 1;">Click mic to speak</p>
+            <!-- Mic Icon -->
+            <div style="font-size: 48px; z-index: 1;">🎤</div>
+            <p id="status" style="font-size: 14px; margin-top: 10px; color: #fff; z-index: 1;">Listening...</p>
         </div>
 
-        <!-- Close Button Below Popup -->
+        <!-- Close Button -->
         <button id="close-ai" style="
             margin-top: 12px;
             background: rgba(255,255,255,0.2);
@@ -83,7 +69,6 @@
         ">× Close</button>
     </div>
 
-    <!-- Styles -->
     <style>
         @keyframes popupFadeIn {
             from {
@@ -127,7 +112,6 @@
         }
     </style>
 
-    <!-- JavaScript -->
     <script>
         const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
@@ -138,9 +122,8 @@
             const aiPopupWrapper = document.getElementById("ai-popup-wrapper");
             const statusText = document.getElementById("status");
             const closeButton = document.getElementById("close-ai");
-            const micButton = document.getElementById("start-mic");
 
-            let recognition = null;
+            let recognition;
 
             function speak(text) {
                 const synth = window.speechSynthesis;
@@ -152,85 +135,72 @@
             }
 
             function startListening() {
-                try {
-                    if (!recognition) {
-                        recognition = new SpeechRecognition();
-                        recognition.lang = 'en-US';
-                        recognition.interimResults = false;
-                        recognition.continuous = false;
+                recognition = new SpeechRecognition();
+                recognition.lang = 'en-US';
+                recognition.interimResults = false;
+                recognition.continuous = false;
 
-                        recognition.onresult = (event) => {
-                            const command = event.results[0][0].transcript.toLowerCase().trim();
-                            console.log("Command:", command);
+                statusText.textContent = "🎧 Listening...";
 
-                            const commandToRoute = {
-                                "home": "/",
-                                "about": "/about",
-                                "contact": "/contact",
-                                "services": "/services",
-                                "admissions": "/admissions",
-                                "news": "/news",
-                                "departments": "/departments",
-                                "research": "/research",
-                                "faculty": "/faculty"
-                            };
+                recognition.onresult = (event) => {
+                    const command = event.results[0][0].transcript.toLowerCase().trim();
+                    console.log("Command:", command);
 
-                            let matched = false;
-                            for (const keyword in commandToRoute) {
-                                if (command.includes(keyword)) {
-                                    statusText.textContent = `✅ Opening ${keyword} page...`;
-                                    window.location.href = commandToRoute[keyword];
-                                    matched = true;
-                                    break;
-                                }
-                            }
+                    const routes = {
+                        "home": "/",
+                        "about": "/about",
+                        "contact": "/contact",
+                        "services": "/services",
+                        "admissions": "/admissions",
+                        "news": "/news",
+                        "departments": "/departments",
+                        "research": "/research",
+                        "faculty": "/faculty"
+                    };
 
-                            if (!matched) {
-                                speak("I didn’t understand. Try again.");
-                                statusText.textContent = "❓ Unrecognized command.";
-                            }
-                        };
-
-                        recognition.onerror = (e) => {
-                            console.error("Recognition error:", e);
-                            if (e.error === "not-allowed") {
-                                speak("Please allow microphone access.");
-                                statusText.textContent = "🚫 Microphone access denied.";
-                            } else {
-                                statusText.textContent = "⚠️ Error: " + e.error;
-                            }
-                        };
-
-                        recognition.onend = () => {
-                            console.log("Recognition ended.");
-                            statusText.textContent = "🎤 Click mic to speak";
-                        };
+                    for (const key in routes) {
+                        if (command.includes(key)) {
+                            statusText.textContent = `✅ Opening ${key} page...`;
+                            window.location.href = routes[key];
+                            return;
+                        }
                     }
 
+                    speak("I didn’t understand. Try again.");
+                    statusText.textContent = "❓ Unrecognized command.";
+                };
+
+                recognition.onerror = (e) => {
+                    console.error("Mic error:", e);
+                    if (e.error === "not-allowed") {
+                        statusText.textContent = "🚫 Mic blocked. Please allow access.";
+                        speak("Please allow microphone access in your browser.");
+                    } else {
+                        statusText.textContent = "⚠️ Error: " + e.error;
+                    }
+                };
+
+                recognition.onend = () => {
+                    statusText.textContent = "🎤 Tap AI again to retry.";
+                };
+
+                try {
                     recognition.start();
-                    statusText.textContent = "🎧 Listening...";
                 } catch (err) {
-                    console.error("SpeechRecognition start error:", err);
-                    statusText.textContent = "❌ Error starting mic";
+                    console.error("Error starting mic:", err);
+                    statusText.textContent = "❌ Failed to start mic";
                 }
             }
 
-            // ✅ Show popup only
             aiButton.addEventListener("click", () => {
                 aiPopupWrapper.style.display = "block";
                 speak("How can I help you?");
-                statusText.textContent = "🎤 Click mic to speak";
-            });
-
-            // ✅ Start mic only on mic click
-            micButton.addEventListener("click", () => {
-                startListening();
+                startListening(); // 🔁 Start mic immediately
             });
 
             closeButton.addEventListener("click", () => {
                 aiPopupWrapper.style.display = "none";
                 if (recognition) recognition.abort();
-                statusText.textContent = "🎤 Click mic to speak";
             });
 
             speechSynthesis.onvoiceschanged = () => {
