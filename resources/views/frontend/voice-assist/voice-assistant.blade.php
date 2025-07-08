@@ -51,9 +51,21 @@
             <!-- Sound Wave Background -->
             <div class="sound-wave"></div>
 
-            <!-- Mic Icon + Status -->
-            <div style="font-size: 48px; margin-top: 30px; z-index: 1;">🎤</div>
-            <p id="status" style="font-size: 14px; margin-top: 10px; color: #fff; z-index: 1;">Listening...</p>
+            <!-- Mic Button -->
+            <button id="start-mic" style="
+                background: rgba(255,255,255,0.2);
+                border: none;
+                border-radius: 50%;
+                width: 60px;
+                height: 60px;
+                font-size: 24px;
+                color: white;
+                cursor: pointer;
+                z-index: 1;
+            ">🎤</button>
+
+            <!-- Status -->
+            <p id="status" style="font-size: 14px; margin-top: 10px; color: #fff; z-index: 1;">Click mic to speak</p>
         </div>
 
         <!-- Close Button Below Popup -->
@@ -126,96 +138,101 @@
             const aiPopupWrapper = document.getElementById("ai-popup-wrapper");
             const statusText = document.getElementById("status");
             const closeButton = document.getElementById("close-ai");
+            const micButton = document.getElementById("start-mic");
 
-            let recognition;
+            let recognition = null;
 
             function speak(text) {
                 const synth = window.speechSynthesis;
                 const utter = new SpeechSynthesisUtterance(text);
                 const voices = synth.getVoices();
                 const enVoice = voices.find(v => v.lang.includes("en") && v.name.toLowerCase().includes("google"));
-                if (enVoice) {
-                    utter.voice = enVoice;
-                }
+                if (enVoice) utter.voice = enVoice;
                 synth.speak(utter);
             }
 
             function startListening() {
-                if (recognition) {
-                    try {
-                        recognition.abort(); // stop previous if still running
-                    } catch (e) { }
-                }
-
-                recognition = new SpeechRecognition();
-                recognition.lang = 'en-US';
-                recognition.interimResults = false;
-                recognition.continuous = false;
-
-                statusText.textContent = "🎧 Listening...";
-
-                recognition.onresult = (event) => {
-                    const command = event.results[0][0].transcript.toLowerCase().trim();
-                    console.log("Command:", command);
-
-                    const commandToRoute = {
-                        "home": "/",
-                        "about": "/about",
-                        "contact": "/contact",
-                        "services": "/services",
-                        "admissions": "/admissions",
-                        "news": "/news",
-                        "departments": "/departments",
-                        "research": "/research",
-                        "faculty": "/faculty"
-                    };
-
-                    let matched = false;
-                    for (const keyword in commandToRoute) {
-                        if (command.includes(keyword)) {
-                            statusText.textContent = `✅ Opening ${keyword} page...`;
-                            window.location.href = commandToRoute[keyword];
-                            matched = true;
-                            break;
-                        }
-                    }
-
-                    if (!matched) {
-                        speak("I didn’t understand. Try again.");
-                        statusText.textContent = "❓ Unrecognized command.";
-                    }
-                };
-
-                recognition.onerror = (e) => {
-                    console.error("Recognition error:", e);
-                    statusText.textContent = "⚠️ Error: " + e.error;
-                    speak("Click and tell me the page name.");
-                };
-
-                recognition.onend = () => {
-                    console.log("Recognition ended.");
-                };
-
                 try {
+                    if (!recognition) {
+                        recognition = new SpeechRecognition();
+                        recognition.lang = 'en-US';
+                        recognition.interimResults = false;
+                        recognition.continuous = false;
+
+                        recognition.onresult = (event) => {
+                            const command = event.results[0][0].transcript.toLowerCase().trim();
+                            console.log("Command:", command);
+
+                            const commandToRoute = {
+                                "home": "/",
+                                "about": "/about",
+                                "contact": "/contact",
+                                "services": "/services",
+                                "admissions": "/admissions",
+                                "news": "/news",
+                                "departments": "/departments",
+                                "research": "/research",
+                                "faculty": "/faculty"
+                            };
+
+                            let matched = false;
+                            for (const keyword in commandToRoute) {
+                                if (command.includes(keyword)) {
+                                    statusText.textContent = `✅ Opening ${keyword} page...`;
+                                    window.location.href = commandToRoute[keyword];
+                                    matched = true;
+                                    break;
+                                }
+                            }
+
+                            if (!matched) {
+                                speak("I didn’t understand. Try again.");
+                                statusText.textContent = "❓ Unrecognized command.";
+                            }
+                        };
+
+                        recognition.onerror = (e) => {
+                            console.error("Recognition error:", e);
+                            if (e.error === "not-allowed") {
+                                speak("Please allow microphone access.");
+                                statusText.textContent = "🚫 Microphone access denied.";
+                            } else {
+                                statusText.textContent = "⚠️ Error: " + e.error;
+                            }
+                        };
+
+                        recognition.onend = () => {
+                            console.log("Recognition ended.");
+                            statusText.textContent = "🎤 Click mic to speak";
+                        };
+                    }
+
                     recognition.start();
+                    statusText.textContent = "🎧 Listening...";
                 } catch (err) {
-                    console.error("Recognition start error:", err);
+                    console.error("SpeechRecognition start error:", err);
+                    statusText.textContent = "❌ Error starting mic";
                 }
             }
 
+            // ✅ Show popup only
             aiButton.addEventListener("click", () => {
                 aiPopupWrapper.style.display = "block";
                 speak("How can I help you?");
+                statusText.textContent = "🎤 Click mic to speak";
+            });
+
+            // ✅ Start mic only on mic click
+            micButton.addEventListener("click", () => {
                 startListening();
             });
 
             closeButton.addEventListener("click", () => {
                 aiPopupWrapper.style.display = "none";
                 if (recognition) recognition.abort();
-                statusText.textContent = "🎤 Tap AI again to speak";
+                statusText.textContent = "🎤 Click mic to speak";
             });
 
-            // Load voices on page load
             speechSynthesis.onvoiceschanged = () => {
                 speechSynthesis.getVoices();
             };
