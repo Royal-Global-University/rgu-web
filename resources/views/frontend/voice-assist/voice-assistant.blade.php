@@ -147,15 +147,58 @@
                     console.log("Command:", command);
 
                     const routes = {
+                        //Discover RGU
                         "home": "/",
-                        "about": "/about",
-                        "contact": "/contact",
-                        "services": "/services",
-                        "admissions": "/admissions",
-                        "news": "/news",
-                        "departments": "/departments",
-                        "research": "/research",
-                        "faculty": "/faculty"
+                        "preface": "/preface",
+                        "leadership team": "/leadership",
+                        "advisory leadership": "/advisory-leadership",
+                        "vision mission": "/vision-mission",
+                        "statutes ordinance policies": "/statutes-ordinance-policies",
+                        "facilities": "/facilities",
+                        "social outreach": "/social-outreach",
+                        "footprints": "/footprints"
+                        "recognition accreditation": "/recognition-accreditation",
+                        "associations tie up": "/association-tieup",
+                        "award": "/award",
+                        "top recruiters": "/top-recruiters",
+                        "success stories": "/success",
+                        "360 tour": "/360-tour",
+                        "diverse choices": "/diversechoices",
+                        "diversity inclusion": "/diversity-inclusion",
+                        "location": "/strategic-location"
+                        "governing-body": "/governing-body",
+                        "board of management": "/board-of-management",
+                        "academic council": "/academic-council",
+                        "internal complaints committee": "/internal-complaints-committee",
+                        "anti ragging": "/anti-ragging",
+                        "proctorial board": "/proctorial",
+                        "organogram planning": "/organogram-planning"
+                                // facilities
+                        "auditorium": "/facilities-auditorium",
+                        "banking services": "/banking-services",
+                        "classroom": "/facilities-classroom",
+                        "diagnostic lab": "/facilities-diagnostic",
+                        "fine arts studio": "/facilities-fineart",
+                        "fashion studio": "/facilities-fashion-studio",
+                        "games & sports": "/games&sports",
+                        "hangout": "/hangout",
+                        "incubation centre": "/facilities-legal-aid",
+                        "laboratories": "/laboratories",
+                        "library": "/library-Resources",
+                        "legal aid": "/facilities-legal-aid"
+                        "medical facility": "/medical-facility",
+                        "moot court": "/facilities-moot-court",
+                        "mass communication studio": "/facilities-mass-com",
+                        "royal boutique": "/facilities-royal-boutique",
+                        "fine arts studio": "/facilities-fineart",
+                        "salon": "/salon",
+                        "stationary store": "/stationary-store",
+                        "student gallery": "/student-gallery",
+                        "security": "/facilities-security"
+                        "seminar hall": "/facilities-seminar-hall",
+                        "student lounge": "/facilities-student-lounge",
+                        "transportation": "/facilities-transportation",
+                        "museum": "/facilities-museum"
                     };
 
                     for (const key in routes) {
