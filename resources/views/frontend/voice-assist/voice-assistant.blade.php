@@ -141,6 +141,12 @@
             }
 
             function startListening() {
+                if (recognition) {
+                    try {
+                        recognition.abort(); // stop previous if still running
+                    } catch (e) { }
+                }
+
                 recognition = new SpeechRecognition();
                 recognition.lang = 'en-US';
                 recognition.interimResults = false;
@@ -209,7 +215,7 @@
                 statusText.textContent = "🎤 Tap AI again to speak";
             });
 
-            // Ensure voices are available
+            // Load voices on page load
             speechSynthesis.onvoiceschanged = () => {
                 speechSynthesis.getVoices();
             };
