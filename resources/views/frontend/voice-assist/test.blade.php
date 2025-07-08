@@ -1,62 +1,65 @@
 @extends('frontend.master')
 
 @section('content')
-    <section id="body">
+    <div>
+        <h1>Welcome to My Laravel Site</h1>
+        <p>You can say "Hey RGU" or click the AI button to begin.</p>
+
         <!-- === AI Floating Button === -->
         <button id="ai-button" style="
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background: linear-gradient(135deg, #27467A, #FF9A1E);
-    color: white;
-    border: none;
-    border-radius: 50px;
-    padding: 12px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-    cursor: pointer;
-    z-index: 99999;
-    ">
+                position: fixed;
+                bottom: 30px;
+                right: 30px;
+                background: linear-gradient(135deg, #27467A, #FF9A1E);
+                color: white;
+                border: none;
+                border-radius: 50px;
+                padding: 12px 20px;
+                font-size: 16px;
+                font-weight: bold;
+                box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+                cursor: pointer;
+                z-index: 99999;
+            ">
             🤖 AI
         </button>
 
         <!-- === AI Popup (Initially Hidden) === -->
         <div id="ai-popup" style="
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 260px;
-    height: 260px;
-    background: linear-gradient(135deg, #27467A, #FF9A1E);
-    border-radius: 50%;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
-    z-index: 999999;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    overflow: hidden;
-    font-family: sans-serif;
-    ">
+                display: none;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 260px;
+                height: 260px;
+                background: linear-gradient(135deg, #27467A, #FF9A1E);
+                border-radius: 50%;
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+                z-index: 999999;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                overflow: hidden;
+                font-family: sans-serif;
+            ">
             <!-- Sound Wave Animation -->
             <div class="sound-wave"></div>
 
             <!-- Close Button -->
             <button id="close-ai" style="
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        background: rgba(255,255,255,0.2);
-        color: white;
-        border: none;
-        border-radius: 50%;
-        width: 30px;
-        height: 30px;
-        font-size: 16px;
-        cursor: pointer;
-    ">×</button>
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    background: rgba(255,255,255,0.2);
+                    color: white;
+                    border: none;
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    font-size: 16px;
+                    cursor: pointer;
+                ">×</button>
 
             <!-- Mic + Status -->
             <div id="ai-inner" style="display: none; flex-direction: column; align-items: center; z-index: 1;">
@@ -113,7 +116,6 @@
                 let recognition;
                 let wakeWordListening = true;
 
-                // Speak response using TTS
                 function speak(text) {
                     const synth = window.speechSynthesis;
                     const utter = new SpeechSynthesisUtterance(text);
@@ -123,7 +125,6 @@
                     synth.speak(utter);
                 }
 
-                // Listen for wake word "Hey RGU"
                 function listenForWakeWord() {
                     const wake = new SpeechRecognition();
                     wake.lang = 'en-US';
@@ -152,7 +153,6 @@
                     wake.start();
                 }
 
-                // Listen for voice command
                 function listenForCommand() {
                     recognition = new SpeechRecognition();
                     recognition.lang = 'en-US';
@@ -207,7 +207,6 @@
                     recognition.start();
                 }
 
-                // Open AI assistant popup
                 function openAIAssistant() {
                     aiPopup.style.display = "flex";
                     aiInner.style.display = "flex";
@@ -217,13 +216,11 @@
                     }, 1000);
                 }
 
-                // Manual AI button
                 aiButton.addEventListener("click", () => {
                     wakeWordListening = false;
                     openAIAssistant();
                 });
 
-                // Close button
                 closeButton.addEventListener("click", () => {
                     aiPopup.style.display = "none";
                     aiInner.style.display = "none";
@@ -233,14 +230,12 @@
                     listenForWakeWord();
                 });
 
-                // Load voices for TTS
                 speechSynthesis.onvoiceschanged = () => {
                     speechSynthesis.getVoices();
                 };
 
-                // Start wake word on page load
                 listenForWakeWord();
             }
         </script>
-    </section>
+    </div>
 @endsection
