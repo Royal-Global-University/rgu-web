@@ -1473,7 +1473,7 @@
                     });
 
                     logo.src = "https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/logo/logo.png";
-                    logo.style.height = "110px";
+                    logo.style.height = "90px";
                     logo.style.transform = "scale(0.95)";
                 } else {
                     navbar.style.position = "absolute";

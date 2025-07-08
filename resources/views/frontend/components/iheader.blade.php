@@ -1,5 +1,5 @@
 <nav id="mainNavbar" class="navbar navbar-expand-lg"
-    style="background-color: transparent; padding: 10px 60px; box-shadow: none; position: absolute !important; top: 0; left: 0; right: 0; transition: all 0.3s ease; z-index: 999;">
+    style="background-color: transparent; padding: 0px 60px; box-shadow: none; position: absolute !important; top: 0; left: 0; right: 0; transition: all 0.3s ease; z-index: 999;">
     <div class="container-fluid">
 
         <a class="navbar-brand" href="https://www.rgu.ac/">
