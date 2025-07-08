@@ -147,7 +147,6 @@
                     console.log("Command:", command);
 
                     const routes = {
-                        //Discover RGU
                         "home": "/",
                         "preface": "/preface",
                         "leadership team": "/leadership",
@@ -156,7 +155,7 @@
                         "statutes ordinance policies": "/statutes-ordinance-policies",
                         "facilities": "/facilities",
                         "social outreach": "/social-outreach",
-                        "footprints": "/footprints"
+                        "footprints": "/footprints",
                         "recognition accreditation": "/recognition-accreditation",
                         "associations tie up": "/association-tieup",
                         "award": "/award",
@@ -165,15 +164,14 @@
                         "360 tour": "/360-tour",
                         "diverse choices": "/diversechoices",
                         "diversity inclusion": "/diversity-inclusion",
-                        "location": "/strategic-location"
+                        "location": "/strategic-location",
                         "governing-body": "/governing-body",
                         "board of management": "/board-of-management",
                         "academic council": "/academic-council",
                         "internal complaints committee": "/internal-complaints-committee",
                         "anti ragging": "/anti-ragging",
                         "proctorial board": "/proctorial",
-                        "organogram planning": "/organogram-planning"
-                                // facilities
+                        "organogram planning": "/organogram-planning",
                         "auditorium": "/facilities-auditorium",
                         "banking services": "/banking-services",
                         "classroom": "/facilities-classroom",
@@ -185,16 +183,15 @@
                         "incubation centre": "/facilities-legal-aid",
                         "laboratories": "/laboratories",
                         "library": "/library-Resources",
-                        "legal aid": "/facilities-legal-aid"
+                        "legal aid": "/facilities-legal-aid",
                         "medical facility": "/medical-facility",
                         "moot court": "/facilities-moot-court",
                         "mass communication studio": "/facilities-mass-com",
                         "royal boutique": "/facilities-royal-boutique",
-                        "fine arts studio": "/facilities-fineart",
                         "salon": "/salon",
                         "stationary store": "/stationary-store",
                         "student gallery": "/student-gallery",
-                        "security": "/facilities-security"
+                        "security": "/facilities-security",
                         "seminar hall": "/facilities-seminar-hall",
                         "student lounge": "/facilities-student-lounge",
                         "transportation": "/facilities-transportation",
