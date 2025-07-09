@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <!-- AI Assistant Button -->
+    <!-- AI Button -->
     <button id="ai-button" style="
         position: fixed;
         bottom: 30px;
@@ -20,27 +20,37 @@
         🤖 AI
     </button>
 
-    <!-- AI Assistant Popup -->
-    <div id="ai-popup-wrapper"
-        style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:999999; text-align:center;">
+    <!-- AI Popup -->
+    <div id="ai-popup-wrapper" style="
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999999;
+        text-align: center;
+    ">
         <div id="ai-popup" style="
-            width:260px;
-            height:260px;
-            background:linear-gradient(135deg,#27467A,#FF9A1E);
-            border-radius:50%;
-            box-shadow:0 20px 40px rgba(0,0,0,0.25);
-            display:flex;
-            align-items:center;
-            justify-content:center;
-            flex-direction:column;
-            overflow:hidden;
-            font-family:sans-serif;
-            animation:popupFadeIn 0.3s ease;
-            color:white;
-            position:relative;">
+            width: 260px;
+            height: 260px;
+            background: linear-gradient(135deg, #27467A, #FF9A1E);
+            border-radius: 50%;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            overflow: hidden;
+            font-family: sans-serif;
+            animation: popupFadeIn 0.3s ease;
+            color: white;
+            position: relative;
+            margin: auto;
+        ">
             <div class="sound-wave"></div>
-            <div style="font-size:48px; z-index:1;">🎤</div>
-            <p id="status" style="font-size:14px; margin-top:10px; color:#fff; z-index:1;">Listening...</p>
+            <div style="font-size: 40px; z-index: 1;">🎤</div>
+            <p id="status" style="font-size: 14px; margin-top: 8px; color: #fff; z-index: 1;">Listening...</p>
+            <p id="user-command" style="font-size: 13px; margin-top: 4px; z-index: 1;"></p>
         </div>
 
         <!-- Close Button -->
@@ -110,77 +120,64 @@
             const aiButton = document.getElementById("ai-button");
             const aiPopupWrapper = document.getElementById("ai-popup-wrapper");
             const statusText = document.getElementById("status");
+            const userCommandText = document.getElementById("user-command");
             const closeButton = document.getElementById("close-ai");
+
             let recognition;
 
             const routes = {
-                "home": "/",
-                "preface": "/preface",
-                "leadership team": "/leadership",
-                "advisory leadership": "/advisory-leadership",
-                "vision mission": "/vision-mission",
-                "statutes ordinance policies": "/statutes-ordinance-policies",
-                "facilities": "/facilities",
-                "social outreach": "/social-outreach",
-                "footprints": "/footprints",
-                "recognition accreditation": "/recognition-accreditation",
-                "associations tie up": "/association-tieup",
-                "award": "/award",
-                "top recruiters": "/top-recruiters",
-                "success stories": "/success",
-                "360 tour": "/360-tour",
-                "diverse choices": "/diversechoices",
-                "diversity inclusion": "/diversity-inclusion",
-                "location": "/strategic-location",
-                "governing body": "/governing-body",
-                "board of management": "/board-of-management",
-                "academic council": "/academic-council",
-                "internal complaints committee": "/internal-complaints-committee",
-                "anti ragging": "/anti-ragging",
-                "proctorial board": "/proctorial",
-                "organogram planning": "/organogram-planning",
-
-                // Facilities
-                "auditorium": "/facilities-auditorium",
-                "banking services": "/banking-services",
-                "classroom": "/facilities-classroom",
-                "diagnostic lab": "/facilities-diagnostic",
-                "fine arts studio": "/facilities-fineart",
-                "fashion studio": "/facilities-fashion-studio",
-                "games and sports": "/games&sports",
-                "hangout": "/hangout",
-                "incubation centre": "/facilities-legal-aid",
-                "laboratories": "/laboratories",
-                "library": "/library-Resources",
-                "legal aid": "/facilities-legal-aid",
-                "medical facility": "/medical-facility",
-                "moot court": "/facilities-moot-court",
-                "mass communication studio": "/facilities-mass-com",
-                "royal boutique": "/facilities-royal-boutique",
-                "salon": "/salon",
-                "stationary store": "/stationary-store",
-                "student gallery": "/student-gallery",
-                "security": "/facilities-security",
-                "seminar hall": "/facilities-seminar-hall",
-                "student lounge": "/facilities-student-lounge",
-                "transportation": "/facilities-transportation",
+                "home": "/", "preface": "/preface", "leadership team": "/leadership",
+                "advisory leadership": "/advisory-leadership", "vision mission": "/vision-mission",
+                "statutes ordinance policies": "/statutes-ordinance-policies", "facilities": "/facilities",
+                "social outreach": "/social-outreach", "footprints": "/footprints",
+                "recognition accreditation": "/recognition-accreditation", "associations tie up": "/association-tieup",
+                "award": "/award", "top recruiters": "/top-recruiters", "success stories": "/success",
+                "360 tour": "/360-tour", "diverse choices": "/diversechoices", "diversity inclusion": "/diversity-inclusion",
+                "location": "/strategic-location", "governing body": "/governing-body",
+                "board of management": "/board-of-management", "academic council": "/academic-council",
+                "internal complaints committee": "/internal-complaints-committee", "anti ragging": "/anti-ragging",
+                "proctorial board": "/proctorial", "organogram planning": "/organogram-planning",
+                "auditorium": "/facilities-auditorium", "banking services": "/banking-services",
+                "classroom": "/facilities-classroom", "diagnostic lab": "/facilities-diagnostic",
+                "fine arts studio": "/facilities-fineart", "fashion studio": "/facilities-fashion-studio",
+                "games and sports": "/games&sports", "hangout": "/hangout", "incubation centre": "/facilities-legal-aid",
+                "laboratories": "/laboratories", "library": "/library-Resources", "legal aid": "/facilities-legal-aid",
+                "medical facility": "/medical-facility", "moot court": "/facilities-moot-court",
+                "mass communication studio": "/facilities-mass-com", "royal boutique": "/facilities-royal-boutique",
+                "salon": "/salon", "stationary store": "/stationary-store", "student gallery": "/student-gallery",
+                "security": "/facilities-security", "seminar hall": "/facilities-seminar-hall",
+                "student lounge": "/facilities-student-lounge", "transportation": "/facilities-transportation",
                 "museum": "/facilities-museum"
             };
 
             function speak(text) {
                 const synth = window.speechSynthesis;
                 const utter = new SpeechSynthesisUtterance(text);
-                utter.lang = "en-US";
+                const voices = synth.getVoices();
+                const enVoice = voices.find(v => v.lang.includes("en") && v.name.toLowerCase().includes("google"));
+                if (enVoice) utter.voice = enVoice;
                 synth.speak(utter);
             }
 
-            function normalizeCommand(command) {
-                return command
-                    .toLowerCase()
-                    .replace(/^(go to|open|navigate to|show me|take me to)\s+/i, "")
-                    .replace(/&/g, "and")
-                    .replace(/\s{2,}/g, " ")
-                    .trim();
+            function getBestMatch(command) {
+                let best = null, maxScore = 0;
+                for (const key in routes) {
+                    const score = stringSimilarity(key, command);
+                    if (score > maxScore && score > 0.4) {
+                        maxScore = score;
+                        best = key;
+                    }
+                }
+                return best;
+            }
+
+            function stringSimilarity(a, b) {
+                a = a.toLowerCase(); b = b.toLowerCase();
+                let matches = 0;
+                a.split(' ').forEach(word => {
+                    if (b.includes(word)) matches++;
+                });
+                return matches / a.split(' ').length;
             }
 
             function startListening() {
@@ -192,24 +189,22 @@
                 statusText.textContent = "🎧 Listening...";
 
                 recognition.onresult = (event) => {
-                    const rawCommand = event.results[0][0].transcript;
-                    const command = normalizeCommand(rawCommand);
-                    console.log("Command:", command);
+                    const command = event.results[0][0].transcript.toLowerCase().trim();
+                    userCommandText.textContent = `🗣 You said: "${command}"`;
 
-                    for (const key in routes) {
-                        if (command.includes(key)) {
-                            statusText.textContent = `✅ Opening ${key} page...`;
-                            window.location.href = routes[key];
-                            return;
-                        }
+                    const matchedKey = getBestMatch(command);
+                    if (matchedKey) {
+                        const route = routes[matchedKey];
+                        statusText.textContent = `✅ Opening "${matchedKey}"`;
+                        speak(`Opening ${matchedKey} page`);
+                        setTimeout(() => { window.location.href = route; }, 1500);
+                    } else {
+                        speak("I didn’t understand. Try again.");
+                        statusText.textContent = "❓ Unrecognized command.";
                     }
-
-                    speak("I didn’t understand that. Please try again.");
-                    statusText.textContent = "❓ Unrecognized command.";
                 };
 
                 recognition.onerror = (e) => {
-                    console.error("Mic error:", e);
                     if (e.error === "not-allowed") {
                         statusText.textContent = "🚫 Mic blocked. Please allow access.";
                         speak("Please allow microphone access.");
@@ -219,15 +214,10 @@
                 };
 
                 recognition.onend = () => {
-                    statusText.textContent = "🎤 Tap AI again to retry.";
+                    console.log("Voice recognition ended.");
                 };
 
-                try {
-                    recognition.start();
-                } catch (err) {
-                    console.error("Error starting recognition:", err);
-                    statusText.textContent = "❌ Failed to start mic";
-                }
+                recognition.start();
             }
 
             aiButton.addEventListener("click", () => {
