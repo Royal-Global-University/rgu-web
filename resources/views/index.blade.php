@@ -90,7 +90,7 @@
 
         <!-- discover rgu -->
         <div>
-            <img src="mobile-rgu.png" />
+            <img src="https://media.rgu.ac/index/explore-mob.png" alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape." />
         </div>
         <!-- discover rgu -->
 
@@ -847,7 +847,7 @@
 
             <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
 
-                <img src="https://media.rgu.ac/index/n-explore-rgu-15-15.png" alt="">
+                <img src="https://media.rgu.ac/index/explore-web.png" alt="">
 
 
                 <!--New Events-->
@@ -1220,27 +1220,13 @@
                                                             Campus Life</h4>
 
                                                         <div class="para1 muted" style="text-align: justify;">
-                                                            <p style="color: #323232 !important;">Recognized as
-                                                                the best private university in Assam,
-                                                                The Assam Royal Global University offers a
-                                                                vibrant and dynamic
-                                                                campus life
-                                                                that significantly enhances the educational
-                                                                experience. Our campus is bustling with a
-                                                                variety of
-                                                                extracurricular
-                                                                activities, including cultural festivals,
-                                                                academic
-                                                                clubs, sports teams, and volunteer
-                                                                organizations.
-                                                                These activities
-                                                                provide students with opportunities to develop
-                                                                essential life skills such as leadership,
-                                                                teamwork,
-                                                                and time management,
-                                                                while also allowing them to explore their
-                                                                interests
-                                                                and passions beyond the classroom.</p>
+                                                            <p style="color: #323232 !important;">Recognized as the<strong> best private university</strong> in Assam, The Assam Royal Global University provides an enriching campus life
+                                                            that complements academic excellence. As the best <strong>University in Northeast</strong> Assam, we foster holistic development through
+                                                            vibrant cultural festivals, academic clubs, and sports activities. Students thrive in a dynamic atmosphere that nurtures
+                                                            leadership and teamwork. Known as the top <strong>private university in Assam</strong>, we offer platforms for students to explore their
+                                                            interests beyond the classroom. With a reputation as the <strong>best private university in Assam</strong>, our inclusive environment
+                                                            supports both academic growth and personal development for those studying at the <strong>Best University in Guwahati</strong> or the <strong>Best
+                                                            Management College in Guwahati</strong>.</p>
                                                         </div>
 
                                                     </div>
@@ -1535,9 +1521,13 @@
 
                                                                     RGU Programmes
                                                                 </h6> -->
-                                        <h2 class="headd1 pb-4" style="color: #27467A; font-size: 50px;">Explore Our
-                                            <span style="font-weight: 500; color: #EF991F;">Courses</span>
-                                        </h2>
+                                        <h1 class="headd1 pb-4" style="color: #27467A; font-size: 50px; font-weight: 800;">Explore Our
+                                            <span style="font-weight: 800; color: #EF991F;">Courses</span>
+                                        </h1>
+                                        <p class="para1 text-center text-dark">At The Assam Royal Global University, we offer a diverse range of academic programs designed to shape future leaders and
+                                        innovators. Recognized as the Best University in Assam, RGU is committed to academic excellence across undergraduate,
+                                        postgraduate, and doctoral levels. As a leading university in Northeast Assam, we blend global standards with regional
+                                        values to deliver impactful education.</p>
                                     </div>
                                 </div>
                             </div>
