@@ -35,26 +35,19 @@
             height: 260px;
             background: linear-gradient(135deg, #27467A, #FF9A1E);
             border-radius: 50%;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            overflow: hidden;
             font-family: sans-serif;
-            animation: popupFadeIn 0.3s ease;
             color: white;
             position: relative;
-            margin: auto;
         ">
             <div class="sound-wave"></div>
-
-            <!-- Mic Icon -->
             <div style="font-size: 48px; z-index: 1;">🎤</div>
-            <p id="status" style="font-size: 14px; margin-top: 10px; color: #fff; z-index: 1;">Listening...</p>
+            <p id="status" style="font-size: 14px; margin-top: 10px; z-index: 1;">Listening...</p>
         </div>
-
-        <!-- Close Button -->
         <button id="close-ai" style="
             margin-top: 12px;
             background: rgba(255,255,255,0.2);
@@ -69,19 +62,8 @@
         ">× Close</button>
     </div>
 
+    <!-- Style -->
     <style>
-        @keyframes popupFadeIn {
-            from {
-                opacity: 0;
-                transform: scale(0.8) translate(-50%, -50%);
-            }
-
-            to {
-                opacity: 1;
-                transform: scale(1) translate(-50%, -50%);
-            }
-        }
-
         .sound-wave {
             position: absolute;
             top: 0;
@@ -112,29 +94,52 @@
         }
     </style>
 
+    <!-- JS -->
     <script>
         const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
         if (!SpeechRecognition) {
-            alert("Speech Recognition is not supported in this browser.");
+            alert("Speech Recognition not supported.");
         } else {
-            const aiButton = document.getElementById("ai-button");
-            const aiPopupWrapper = document.getElementById("ai-popup-wrapper");
+            const aiBtn = document.getElementById("ai-button");
+            const aiPopup = document.getElementById("ai-popup-wrapper");
             const statusText = document.getElementById("status");
-            const closeButton = document.getElementById("close-ai");
+            const closeBtn = document.getElementById("close-ai");
 
             let recognition;
+            let voices = [];
+
+            window.speechSynthesis.onvoiceschanged = () => {
+                voices = speechSynthesis.getVoices();
+            };
 
             function speak(text) {
-                const synth = window.speechSynthesis;
                 const utter = new SpeechSynthesisUtterance(text);
-                const voices = synth.getVoices();
-                const enVoice = voices.find(v => v.lang.includes("en") && v.name.toLowerCase().includes("google"));
-                if (enVoice) utter.voice = enVoice;
-                synth.speak(utter);
+                utter.voice = voices.find(v => v.lang.includes("en")) || null;
+                speechSynthesis.speak(utter);
+            }
+
+            const routeMap = new Map([
+                ["home", "/"],
+                ["library", "/library-resources"],
+                ["leadership", "/leadership"],
+                ["contact", "/contact"],
+                ["vision", "/vision-mission"],
+                ["medical", "/medical-facility"],
+                ["auditorium", "/facilities-auditorium"],
+                ["transport", "/facilities-transportation"],
+                ["classroom", "/facilities-classroom"],
+                ["faculty", "/faculty"],
+                // ➕ Add more here as needed
+            ]);
+
+            function normalizeCommand(cmd) {
+                return cmd.toLowerCase().replace(/(go to|open|take me to|navigate to)/gi, "").trim();
             }
 
             function startListening() {
+                if (recognition) recognition.abort();
+
                 recognition = new SpeechRecognition();
                 recognition.lang = 'en-US';
                 recognition.interimResults = false;
@@ -143,109 +148,51 @@
                 statusText.textContent = "🎧 Listening...";
 
                 recognition.onresult = (event) => {
-                    const command = event.results[0][0].transcript.toLowerCase().trim();
-                    console.log("Command:", command);
+                    let command = normalizeCommand(event.results[0][0].transcript);
+                    console.log("🎙️ Command:", command);
 
-                    const routes = {
-                        "home": "/",
-                        "preface": "/preface",
-                        "leadership team": "/leadership",
-                        "advisory leadership": "/advisory-leadership",
-                        "vision mission": "/vision-mission",
-                        "statutes ordinance policies": "/statutes-ordinance-policies",
-                        "facilities": "/facilities",
-                        "social outreach": "/social-outreach",
-                        "footprints": "/footprints",
-                        "recognition accreditation": "/recognition-accreditation",
-                        "associations tie up": "/association-tieup",
-                        "award": "/award",
-                        "top recruiters": "/top-recruiters",
-                        "success stories": "/success",
-                        "360 tour": "/360-tour",
-                        "diverse choices": "/diversechoices",
-                        "diversity inclusion": "/diversity-inclusion",
-                        "location": "/strategic-location",
-                        "governing body": "/governing-body",
-                        "board of management": "/board-of-management",
-                        "academic council": "/academic-council",
-                        "internal complaints committee": "/internal-complaints-committee",
-                        "anti ragging": "/anti-ragging",
-                        "proctorial board": "/proctorial",
-                        "organogram planning": "/organogram-planning",
-                        "auditorium": "/facilities-auditorium",
-                        "banking services": "/banking-services",
-                        "classroom": "/facilities-classroom",
-                        "diagnostic lab": "/facilities-diagnostic",
-                        "fine arts studio": "/facilities-fineart",
-                        "fashion studio": "/facilities-fashion-studio",
-                        "games & sports": "/games&sports",
-                        "hangout": "/hangout",
-                        "incubation centre": "/facilities-legal-aid",
-                        "laboratories": "/laboratories",
-                        "library": "/library-Resources",
-                        "legal aid": "/facilities-legal-aid",
-                        "medical facility": "/medical-facility",
-                        "moot court": "/facilities-moot-court",
-                        "mass communication studio": "/facilities-mass-com",
-                        "royal boutique": "/facilities-royal-boutique",
-                        "salon": "/salon",
-                        "stationary store": "/stationary-store",
-                        "student gallery": "/student-gallery",
-                        "security": "/facilities-security",
-                        "seminar hall": "/facilities-seminar-hall",
-                        "student lounge": "/facilities-student-lounge",
-                        "transportation": "/facilities-transportation",
-                        "museum": "/facilities-museum"
-                    };
-
-                    for (const key in routes) {
-                        if (command.includes(key)) {
-                            statusText.textContent = `✅ Opening ${key} page...`;
-                            window.location.href = routes[key];
+                    for (let [keyword, url] of routeMap) {
+                        if (command.includes(keyword)) {
+                            speak("Opening " + keyword);
+                            window.location.href = url;
                             return;
                         }
                     }
 
-                    speak("I didn’t understand. Try again.");
+                    speak("I didn’t get that. Try again.");
                     statusText.textContent = "❓ Unrecognized command.";
                 };
 
                 recognition.onerror = (e) => {
-                    console.error("Mic error:", e);
+                    console.error("❌ Mic Error:", e.error);
                     if (e.error === "not-allowed") {
-                        statusText.textContent = "🚫 Mic blocked. Please allow access.";
-                        speak("Please allow microphone access in your browser.");
-                    } else {
-                        statusText.textContent = "⚠️ Error: " + e.error;
+                        speak("Microphone access is blocked. Please allow.");
                     }
+                    statusText.textContent = "⚠️ Mic error: " + e.error;
                 };
 
                 recognition.onend = () => {
+                    console.log("🔇 Recognition ended.");
                     statusText.textContent = "🎤 Tap AI again to retry.";
                 };
 
                 try {
                     recognition.start();
                 } catch (err) {
-                    console.error("Error starting mic:", err);
-                    statusText.textContent = "❌ Failed to start mic";
+                    console.error("Error starting recognition:", err);
                 }
             }
 
-            aiButton.addEventListener("click", () => {
-                aiPopupWrapper.style.display = "block";
+            aiBtn.addEventListener("click", () => {
+                aiPopup.style.display = "block";
                 speak("How can I help you?");
-                startListening(); // 🔁 Start mic immediately
+                startListening();
             });
 
-            closeButton.addEventListener("click", () => {
-                aiPopupWrapper.style.display = "none";
+            closeBtn.addEventListener("click", () => {
+                aiPopup.style.display = "none";
                 if (recognition) recognition.abort();
             });
-
-            speechSynthesis.onvoiceschanged = () => {
-                speechSynthesis.getVoices();
-            };
         }
     </script>
 
