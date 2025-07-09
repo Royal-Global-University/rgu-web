@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg" style="padding: 10px 40px; position: relative !important;">
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="https://www.rgu.ac/">
+        <a class="navbar-brand" href="/">
             <img src="mobile-assets/index/logo-dark.png" alt="Logo" style="height: 80px;">
         </a>
 
