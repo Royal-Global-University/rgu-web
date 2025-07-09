@@ -3460,6 +3460,9 @@ Route::get('/faculty-tania-begum', function () {
     return view('frontend/facultyprofile/rshss/tania-begum');
 })->name('faculty-tania-begum');
 
+Route::get('/faculty-shalini-saxena', function () {
+    return view('frontend/facultyprofile/rshss/shalini-saxena');
+})->name('faculty-shalini-saxena');
 //RSLA Facuilty Profile
 
 Route::get('/faculty-tushti-sharma', function () {
