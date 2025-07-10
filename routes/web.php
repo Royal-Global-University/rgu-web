@@ -2985,6 +2985,14 @@ Route::get('/zimbabwe-education-delegation-explores-collaboration-with-royal-glo
     return view('frontend/media-corner/news20');
 })->name('zimbabwe-education-delegation-explores-collaboration-with-royal-global-university');
 
+Route::get('/rgu-offers-scholarship-opportunities-for-wards-of-police-personnel-of-8-ne-states', function () {
+    return view('frontend/media-corner/news21');
+})->name('rgu-offers-scholarship-opportunities-for-wards-of-police-personnel-of-8-ne-states');
+
+Route::get('/rgu-outreach-awareness-on-conservation-of-salamander-habitats', function () {
+    return view('frontend/media-corner/news22');
+})->name('rgu-outreach-awareness-on-conservation-of-salamander-habitats');
+
 
 
 //faculty profile

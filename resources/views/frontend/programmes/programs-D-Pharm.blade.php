@@ -85,7 +85,7 @@
                     <p class="mobile-headd3 fw-bold text-dark">Eligibility Criteria
                     </p>
 
-                    <p class="mobile-para1 text-dark">10+2 in science stream or equivalent from a recognized Board/ Council with English as one of the subjects and Physics, Chemistry and Mathematics /Biology as compulsory subjects with minimum 45% marks or equivalent grade and minimum 45% in subject opted (5% relaxation to SC/ST/OBC - Non-Creamy Layer)
+                    <p class="mobile-para1 text-dark">10+2 in science stream or equivalent from a recognized Board/ Council with English as one of the subjects and Physics, Chemistry and Mathematics /Biology as compulsory subjects with minimum 50% marks or equivalent grade and minimum 50% in subject opted (5% relaxation to SC/ST/OBC - Non-Creamy Layer)
                     </p>
 
                     <p class="mobile-headd3 fw-bold text-dark">Selection Process
@@ -262,7 +262,7 @@
                 <div id="Eligibility" class="w3-container city card p-5 shadow" style="display:none">
                     <div class="card-body para1">
                         <p class="text-dark pt-2 fw-bold m-0">Eligibility Criteria</p>
-                        <p class="text-dark pt-2 m-0">10+2 in science stream or equivalent from a recognized Board/ Council with English as one of the subjects and Physics, Chemistry and Mathematics /Biology as compulsory subjects with minimum 45% marks or equivalent grade and minimum 45% in subject opted (5% relaxation to SC/ST/OBC - Non-Creamy Layer)
+                        <p class="text-dark pt-2 m-0">10+2 in science stream or equivalent from a recognized Board/ Council with English as one of the subjects and Physics, Chemistry and Mathematics /Biology as compulsory subjects with minimum 50% marks or equivalent grade and minimum 50% in subject opted (5% relaxation to SC/ST/OBC - Non-Creamy Layer)
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
                         <p class="text-dark pt-2 m-0">Based on overall performance in last examination followed by

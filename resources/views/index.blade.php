@@ -78,6 +78,9 @@
         <div id="carouselExample" class="carousel slide mobile-image-slider" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
+                    <img src="mobile-assets/events/mob10.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
                     <img src="https://media.rgu.ac/index/about-mobile.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
@@ -861,6 +864,8 @@
                                     Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span></h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
+                                    <img class="zoomable" src="mobile-assets/events/web10.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/prabuddha-web-may.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/subram-web.jpeg"
@@ -968,29 +973,15 @@
                             <div style="height: 600px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
                                     <div class="row">
-                                        <div class="row bg-light p-2 rounded">
+
+                                        <div class="row bg-light p-2 rounded ">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 160px; width: 100%;" src="mobile-assets/media-corner/news20/1.jpg"
-                                                    alt="" />
+                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news22/3.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; " class="p-0 m-0 fw-bold">Zimbabwe Education Delegation Explores Collaboration with RGU
-                                                </p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 7, 2025</p>
-                                                <a href="zimbabwe-education-delegation-explores-collaboration-with-royal-global-university">
-                                                    <p class="pt-3 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="row bg-light p-2 mt-2 rounded ">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news19/2.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">‘Sugandhi Pokhilar Kobi’ Hiren Bhattacharyya Remembered at RGU</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 4, 2025</p>
-                                                <a href="sugandhi-pokhilar-kobi-hiren-bhattacharyya-remembered-at-rgu">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1.2;" class="pt-2 m-0 fw-bold">RGU Outreach: Awareness on Conservation of Salamander Habitats</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 10, 2025</p>
+                                                <a href="rgu-outreach-awareness-on-conservation-of-salamander-habitats">
                                                     <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
@@ -998,18 +989,35 @@
                                         </div>
                                         <div class="row bg-light p-2 rounded mt-2">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 160px; width: 100%" src="mobile-assets/media-corner/news17/Suman Kumar.jpg" alt="" />
+                                                <img class="rounded" style="height: 160px; width: 100%" src="mobile-assets/rgu-blog/blog2.jpeg"
+                                                    alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px;" class="p-0 m-0 fw-bold">RGU Faculty Awarded at ICPPS South Korea</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 2, 2025</p>
-                                                <a href="rgu-faculty-awarded-at-icpps-south-korea">
-                                                    <p class="pt-4 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                <p style="color: #27467A; font-size: 19px; line-height: 1.2;" class="pt-2 m-0 fw-bold">RGU offers Scholarship Opportunities for Wards of Police personnel of 8 NE states
+                                                </p>
+                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 8, 2025</p>
+                                                <a href="rgu-offers-scholarship-opportunities-for-wards-of-police-personnel-of-8-ne-states">
+                                                    <p class="pt-3 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
                                         </div>
 
+                                        <div class="row bg-light p-2 rounded mt-2">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 160px; width: 100%;" src="mobile-assets/media-corner/news20/1.jpg"
+                                                    alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; line-height: 1.2;" class="pt-2 m-0 fw-bold">Zimbabwe Education Delegation Explores Collaboration with RGU
+                                                </p>
+                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 7, 2025</p>
+                                                <a href="zimbabwe-education-delegation-explores-collaboration-with-royal-global-university">
+                                                    <p class="pt-3 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div style="text-align:center; margin-top:15px;">
