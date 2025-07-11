@@ -39,7 +39,7 @@
             @include('frontend/components/aheader')
             <h2 class="headd1 mb-5 fw-bold text-center kd-title-ani kd-split-text pt-5"
                 style="color: #27467A; font-weight: 900;">
-                Royal School of <span style="color: #FF9A1E; font-weight: 500;"> Architecture (RSA)</span></h2>
+                Royal School of <span style="color: #FF9A1E; font-weight: 500;"> Agriculture (RSAG)</span></h2>
 
             <div style="padding: 20px 90px;">
 

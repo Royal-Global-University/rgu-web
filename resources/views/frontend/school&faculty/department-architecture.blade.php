@@ -7,31 +7,31 @@
             <!-- floating mob button  -->
             <div>
                 <a href="https://admissions.rgu.ac" style="
-                                                                                                position: fixed;
-                                                                                                bottom: 25px;
-                                                                                                right: 75px;
-                                                                                                background-color: #ef991f;
-                                                                                                color: #fff;
-                                                                                                padding: 12px 20px;
-                                                                                                font-size: 16px;
-                                                                                                font-weight: bold;
-                                                                                                text-decoration: none;
-                                                                                                border-radius: 20px;
-                                                                                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                z-index: 1000;
-                                                                                                overflow: hidden;
-                                                                                                animation: pulse 2s infinite;
-                                                                                                ">
+                                                                                                    position: fixed;
+                                                                                                    bottom: 25px;
+                                                                                                    right: 75px;
+                                                                                                    background-color: #ef991f;
+                                                                                                    color: #fff;
+                                                                                                    padding: 12px 20px;
+                                                                                                    font-size: 16px;
+                                                                                                    font-weight: bold;
+                                                                                                    text-decoration: none;
+                                                                                                    border-radius: 20px;
+                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                                                    z-index: 1000;
+                                                                                                    overflow: hidden;
+                                                                                                    animation: pulse 2s infinite;
+                                                                                                    ">
                     <span style="
-                                                                                                position: absolute;
-                                                                                                top: 0;
-                                                                                                left: -75%;
-                                                                                                width: 50%;
-                                                                                                height: 100%;
-                                                                                                background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                transform: skewX(-25deg);
-                                                                                                animation: shine 2s infinite;
-                                                                                                "></span>
+                                                                                                    position: absolute;
+                                                                                                    top: 0;
+                                                                                                    left: -75%;
+                                                                                                    width: 50%;
+                                                                                                    height: 100%;
+                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                                                    transform: skewX(-25deg);
+                                                                                                    animation: shine 2s infinite;
+                                                                                                    "></span>
                     Admisssion Open - Apply Now
                 </a>
                 <style>
@@ -501,12 +501,12 @@
                                                         <i class="fa fa-download"></i>
                                                     </a>
                                                     <!-- <a
-                                          href="mobile-assets/department-all/Departmentalpdf/Old Syllabus B.ARCH.pdf"
-                                          target="_blank"
-                                        >
-                                          <i class="fa fa-file-text px-2"></i> Old Syllabus B.ARCH.pdf
-                                          <i class="fa fa-download"></i>
-                                        </a> -->
+                                              href="mobile-assets/department-all/Departmentalpdf/Old Syllabus B.ARCH.pdf"
+                                              target="_blank"
+                                            >
+                                              <i class="fa fa-file-text px-2"></i> Old Syllabus B.ARCH.pdf
+                                              <i class="fa fa-download"></i>
+                                            </a> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -559,31 +559,31 @@
             <!-- floating button  -->
             <div>
                 <a href="https://admissions.rgu.ac/" style="
-                                                                                                            position: fixed;
-                                                                                                            bottom: 35px;
-                                                                                                            right: 50px;
-                                                                                                            background-color: #ef991f;
-                                                                                                            color: #fff;
-                                                                                                            padding: 12px 20px;
-                                                                                                            font-size: 18px;
-                                                                                                            font-weight: bold;
-                                                                                                            text-decoration: none;
-                                                                                                            border-radius: 20px;
-                                                                                                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                            z-index: 1000;
-                                                                                                            overflow: hidden;
-                                                                                                            animation: pulse 2s infinite;
-                                                                                                            ">
+                                                                                                                position: fixed;
+                                                                                                                bottom: 35px;
+                                                                                                                right: 50px;
+                                                                                                                background-color: #ef991f;
+                                                                                                                color: #fff;
+                                                                                                                padding: 12px 20px;
+                                                                                                                font-size: 18px;
+                                                                                                                font-weight: bold;
+                                                                                                                text-decoration: none;
+                                                                                                                border-radius: 20px;
+                                                                                                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                                                                z-index: 1000;
+                                                                                                                overflow: hidden;
+                                                                                                                animation: pulse 2s infinite;
+                                                                                                                ">
                     <span style="
-                                                                                                            position: absolute;
-                                                                                                            top: 0;
-                                                                                                            left: -75%;
-                                                                                                            width: 50%;
-                                                                                                            height: 100%;
-                                                                                                            background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                            transform: skewX(-25deg);
-                                                                                                            animation: shine 2s infinite;
-                                                                                                            "></span>
+                                                                                                                position: absolute;
+                                                                                                                top: 0;
+                                                                                                                left: -75%;
+                                                                                                                width: 50%;
+                                                                                                                height: 100%;
+                                                                                                                background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                                                                transform: skewX(-25deg);
+                                                                                                                animation: shine 2s infinite;
+                                                                                                                "></span>
                     Admisssion Open - Apply Now
                 </a>
                 <style>
@@ -1051,12 +1051,12 @@
                                                         <i class="fa fa-download"></i>
                                                     </a>
                                                     <!-- <a
-                                          href="mobile-assets/department-all/Departmentalpdf/Old Syllabus B.ARCH.pdf"
-                                          target="_blank"
-                                        >
-                                          <i class="fa fa-file-text px-2"></i> Old Syllabus B.ARCH.pdf
-                                          <i class="fa fa-download"></i>
-                                        </a> -->
+                                              href="mobile-assets/department-all/Departmentalpdf/Old Syllabus B.ARCH.pdf"
+                                              target="_blank"
+                                            >
+                                              <i class="fa fa-file-text px-2"></i> Old Syllabus B.ARCH.pdf
+                                              <i class="fa fa-download"></i>
+                                            </a> -->
                                                 </div>
                                             </div>
                                         </div>
