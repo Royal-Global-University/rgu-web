@@ -1909,7 +1909,6 @@
         <img src="https://media.rgu.ac/sports-image/index-sports.PNG" alt=""/>
         <!-- new advantage end-->
 
-        </div>
         <!--Innovation & Publication end-->
 
         <!--Footprint-->
@@ -1950,7 +1949,5 @@
             </div>
         </div>
         <!-- testimonial end -->
-
-        </div>
     </section>
 @endsection
