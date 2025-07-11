@@ -78,6 +78,9 @@
         <div id="carouselExample" class="carousel slide mobile-image-slider" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
+                    <img src="https://media.rgu.ac/sports-image/head-mob-sport.PNG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
                     <img src="https://media.rgu.ac/index/about-mobile.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
@@ -215,130 +218,6 @@
             </div>
         </div>
         <!-- mobile Notifications -->
-
-        <!-- fast facts mobile  -->
-        {{-- <section style="padding: 0px 30px;"
-            class="elementor-section elementor-top-section pt-3  elementor-element elementor-element-943e56e elementor-section-boxed elementor-section-height-default elementor-section-height-default pb-5"
-            data-id="943e56e" data-element_type="section">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-23f6d50"
-                    data-id="23f6d50" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-6cdc10e elementor-widget elementor-widget-go-s-heading"
-                            data-id="6cdc10e" data-element_type="widget" data-widget_type="go-s-heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="prthalign">
-
-                                    <h6 class="mobile-headd2 kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                                        <img style="width: 40x; height: 40px;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg"
-                                            alt="">
-                                        Info
-                                    </h6>
-                                    <h2 class="mobile-headd1 elementor-gt-heading kd-title-ani kd-split-text"
-                                        style="color: #27467A;">Fast <span
-                                            style="font-weight: 600; color: #EF991F;">facts</span></h2>
-                                    <div class="mobile-para1 elementor-gt-desc kd-para-1 disc wow" data-splitting>
-                                        Transformative and Multidisciplinary Education</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-878c6de"
-                    data-id="878c6de" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-4923d22 elementor-widget elementor-widget-go-category"
-                            data-id="4923d22" data-element_type="widget" data-widget_type="go-category.default">
-                            <div class="elementor-widget-container">
-                                <div class="kd-pop-cat-1-slider">
-                                    <div class="swiper-container fix kd-pop-cat-1-active">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="kd-pop-cat-1-item text-center">
-                                                    <div class="icon d-flex align-items-center justify-content-center"
-                                                        style="background-color: antiquewhite;">
-                                                        <h3 class="text-dark fw-bold">22</h3>
-                                                    </div>
-                                                    <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                        style="background-color: #27467a;">
-                                                        <a aria-label="name"> Years Of Education </a>
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="kd-pop-cat-1-item text-center">
-                                                    <div class="icon d-flex align-items-center justify-content-center"
-                                                        style="background-color: antiquewhite;">
-                                                        <h3 class="text-dark fw-bold">8000+</h3>
-                                                    </div>
-                                                    <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                        style="background-color: #27467a;">
-                                                        <a aria-label="name"> Students </a>
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="kd-pop-cat-1-item text-center">
-                                                    <div class="icon d-flex align-items-center justify-content-center"
-                                                        style="background-color: antiquewhite;">
-                                                        <h3 class="text-dark fw-bold">460+</h3>
-                                                    </div>
-                                                    <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                        style="background-color: #27467a;">
-                                                        <a aria-label="name"> Faculty Members </a>
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="kd-pop-cat-1-item text-center">
-                                                    <div class="icon d-flex align-items-center justify-content-center"
-                                                        style="background-color: antiquewhite;">
-                                                        <h3 class="text-dark fw-bold">23</h3>
-                                                    </div>
-                                                    <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                        style="background-color: #27467a;">
-                                                        <a aria-label="name"> Schools</a>
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="kd-pop-cat-1-item text-center">
-                                                    <div class="icon d-flex align-items-center justify-content-center"
-                                                        style="background-color: antiquewhite;">
-                                                        <h3 class="text-dark fw-bold">800+</h3>
-                                                    </div>
-                                                    <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                        style="background-color: #27467a;">
-                                                        <a aria-label="name"> Research Publications </a>
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="kd-pop-cat-1-item text-center">
-                                                    <div class="icon d-flex align-items-center justify-content-center"
-                                                        style="background-color: antiquewhite;">
-                                                        <h3 class="text-dark fw-bold">100+</h3>
-                                                    </div>
-                                                    <h4 class="title kd-heading-1 has-clr-white kd-font-700 has-bg-1"
-                                                        style="background-color: #27467a;">
-                                                        <a aria-label="name"> Hi-Tech Labs </a>
-                                                    </h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-        <!-- fast facts mobile  -->
-
 
 
         <!-- explore our courses at rgu  -->
@@ -544,7 +423,7 @@
         <!--Labs-->
 
         <!-- new advantage -->
-        <section style="padding: 80px 30px 0px 30px; background-color: #13223b;"
+        {{-- <section style="padding: 80px 30px 0px 30px; background-color: #13223b;"
             class=" elementor-section elementor-top-section elementor-element elementor-element-5b53581 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="5b53581" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -721,7 +600,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
+
+        <img src="https://media.rgu.ac/sports-image/index-mobsports.PNG" alt="" />
         <!-- new advantage end-->
 
         <!--Mobile Footprint-->
@@ -810,10 +691,13 @@
 
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="https://media.rgu.ac/index/about-website.png" alt="Slide 1">
+                                        <img src="https://media.rgu.ac/sports-image/head-web-sport.PNG" alt="Slide 1">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="https://media.rgu.ac/index/research-website.png" alt="Slide 2">
+                                        <img src="https://media.rgu.ac/index/about-website.png" alt="Slide 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://media.rgu.ac/index/research-website.png" alt="Slide 3">
                                     </div>
                                     <!-- <div class="carousel-item">
                                                         <img src="sarang/s3.png" alt="Slide 3">
@@ -1832,7 +1716,7 @@
         <!--End Labs-->
 
         <!-- new advantage -->
-        <section style="padding: 50px 0px 0px 0px; background-color: #13223b;"
+        {{-- <section style="padding: 50px 0px 0px 0px; background-color: #13223b;"
             class=" elementor-section elementor-top-section elementor-element elementor-element-5b53581 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="5b53581" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2020,7 +1904,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
+
+        <img src="https://media.rgu.ac/sports-image/index-sports.PNG" alt=""/>
         <!-- new advantage end-->
 
         </div>
