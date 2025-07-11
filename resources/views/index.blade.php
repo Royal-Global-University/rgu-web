@@ -78,9 +78,6 @@
         <div id="carouselExample" class="carousel slide mobile-image-slider" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="mobile-assets/events/mob10.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
                     <img src="https://media.rgu.ac/index/about-mobile.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
@@ -107,7 +104,7 @@
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
-                        <img src="mobile-assets/events/bhairav-mob.jpeg" class="d-block w-100 rounded" alt="...">
+                        <img src="mobile-assets/events/mob10.jpeg" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item ">
                         <img src="https://media.rgu.ac/index/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded" alt="...">
