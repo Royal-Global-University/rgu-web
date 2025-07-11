@@ -47,7 +47,7 @@
                 @php
                     $newsItems = [
                         [
-                            'title' => ' RGU Outreach: Awareness on Conservation of Salamander Habitats',
+                            'title' => ' RGU Outreach: Awareness on Conservation of Salamander Habitat',
                             'summary' => '',
                             'date' => 'Guwahati, July 10, 2025:',
                             'link' => 'rgu-outreach-awareness-on-conservation-of-salamander-habitats',

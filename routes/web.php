@@ -2989,9 +2989,9 @@ Route::get('/rgu-offers-scholarship-opportunities-for-wards-of-police-personnel-
     return view('frontend/media-corner/news21');
 })->name('rgu-offers-scholarship-opportunities-for-wards-of-police-personnel-of-8-ne-states');
 
-Route::get('/rgu-outreach-awareness-on-conservation-of-salamander-habitats', function () {
+Route::get('/rgu-outreach-awareness-on-conservation-of-salamander-habitat', function () {
     return view('frontend/media-corner/news22');
-})->name('rgu-outreach-awareness-on-conservation-of-salamander-habitats');
+})->name('rgu-outreach-awareness-on-conservation-of-salamander-habitat');
 
 
 

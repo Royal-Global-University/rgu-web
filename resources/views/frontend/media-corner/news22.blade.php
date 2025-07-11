@@ -15,7 +15,7 @@
         <div class="container" style="padding: 20px; text-align: justify;">
 
             <h2 class="headd2 fw-bold text-center" style="color: #27467A; font-size: 32px;">
-                RGU Outreach: Awareness on Conservation of Salamander Habitats
+                RGU Outreach: Awareness on Conservation of Salamander Habitat
             </h2>
 
             <div class="container pt-3 pb-4 text-center">

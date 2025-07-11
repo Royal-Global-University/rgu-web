@@ -979,7 +979,7 @@
                                                 <img class="rounded" style="height: 160px;" src="mobile-assets/media-corner/news22/3.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1.2;" class="pt-2 m-0 fw-bold">RGU Outreach: Awareness on Conservation of Salamander Habitats</p>
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1.2;" class="pt-2 m-0 fw-bold">RGU Outreach: Awareness on Conservation of Salamander Habitat</p>
                                                 <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 10, 2025</p>
                                                 <a href="rgu-outreach-awareness-on-conservation-of-salamander-habitats">
                                                     <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
