@@ -283,28 +283,6 @@
                 </div>
               </div>
 
-              <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Ms-Bifuwada-Nashibah-RSHSS.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Bifuwada Nashibah
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Teaching Assistant
-                    </p>
-                    <a href="faculty-bifuwada-nashibah">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
 
            </div>
 
@@ -495,26 +473,6 @@
                 <div class="card rounded d-flex flex-column"
                   style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                   <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rshss/Saikhom.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Saikhom Ronel Singh
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                  <div class="p-3">
                     <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Tania-Begum.png"
                       class="img-fluid rounded border" />
                   </div>
@@ -587,28 +545,6 @@
                       Assistant Professor
                     </p>
                     <a href="faculty-km-sudha">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Tanzim-Masud.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                     Ms. Tanzim Masud
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                    <a href="faculty-tanzim-masud">
                         <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
                     </a>
                   </div>
@@ -814,48 +750,6 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Ms-Birina-Barthakur-RSHSS.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Birina Barthakur
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                       Teaching Assistant
-                    </p>
-
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mustafa-Syed-Ihtimum-Alam-RSHSS.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                     Mr. Mustafa Syed Ihtimum Alam
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                       Teaching Assistant
-                    </p>
-
-                  </div>
-                </div>
-            </div>
-
-
-
            </div>
 
            </div>
@@ -947,26 +841,6 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
                       Dr. Monika Kumari
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-
-                  </div>
-                </div>
-            </div>
-
-             <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mabel-Aind-RSHSS.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Mabel Aind
                     </h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Assistant Professor
@@ -1761,28 +1635,6 @@
                 </div>
               </div>
 
-              <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Ms-Bifuwada-Nashibah-RSHSS.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Bifuwada Nashibah
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Teaching Assistant
-                    </p>
-                    <a href="faculty-bifuwada-nashibah">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
 
            </div>
 
@@ -1970,26 +1822,6 @@
                 <div class="card rounded d-flex flex-column"
                   style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                   <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rshss/Saikhom.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Saikhom Ronel Singh
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                  <div class="p-3">
                     <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Tania-Begum.png"
                       class="img-fluid rounded border" />
                   </div>
@@ -2065,28 +1897,6 @@
                       Assistant Professor
                     </p>
                     <a href="faculty-km-sudha">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Tanzim-Masud.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                     Ms. Tanzim Masud
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-                    <a href="faculty-tanzim-masud">
                         <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
                     </a>
                   </div>
@@ -2293,48 +2103,6 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Ms-Birina-Barthakur-RSHSS.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Birina Barthakur
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                       Teaching Assistant
-                    </p>
-
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mustafa-Syed-Ihtimum-Alam-RSHSS.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                     Mr. Mustafa Syed Ihtimum Alam
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                       Teaching Assistant
-                    </p>
-
-                  </div>
-                </div>
-            </div>
-
-
-
            </div>
 
            </div>
@@ -2425,26 +2193,6 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
                       Dr. Monika Kumari
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor
-                    </p>
-
-                  </div>
-                </div>
-            </div>
-
-             <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mabel-Aind-RSHSS.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Ms. Mabel Aind
                     </h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Assistant Professor
