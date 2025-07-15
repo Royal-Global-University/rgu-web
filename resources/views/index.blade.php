@@ -1051,7 +1051,7 @@
             </div>
         </div>
         <!--new code-->
-        <div style="background-color: #13223b;">
+        {{-- <div style="background-color: #13223b;">
             <section style="padding: 40px; font-family: Arial, sans-serif;">
                 <div class="row" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
 
@@ -1164,7 +1164,7 @@
                     });
                 });
             </script>
-        </div>
+        </div> --}}
 
         <!--campus life-->
         <section class=" elementor-section elementor-top-section elementor-element elementor-element-f03cf62
