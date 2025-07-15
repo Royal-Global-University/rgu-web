@@ -130,7 +130,7 @@
                                 <div class="card-body">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
                                             style="color: #27467A;" class="fas fa-download fa-1x"></i> Institutional Information
-                                        for Quality Assessment (IIQA) Report</h5>
+                                        for Quality Assessment Report</h5>
 
                                 </div>
                             </div>
