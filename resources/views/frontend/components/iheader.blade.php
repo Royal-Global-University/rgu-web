@@ -13,7 +13,7 @@
                 <!-- Discover RGU -->
                 <li class="nav-item dropdown" style="position: relative;">
                     <a class="nav-link dropdown-toggle para1" href="#"
-                        style="color: white; font-weight: 600; font-size: 18px;">Discover RGU</a>
+                        style="color: white; font-weight: 600; font-size: 17px;">Discover RGU</a>
 
                     <ul class="dropdown-menu p-3"
                         style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 800px; border-top: 3px solid #e68900;">
@@ -78,11 +78,10 @@
                                                 href="{{ route('board-of-management') }}">Board of Management</a></li>
                                         <li><a class="dropdown-item text-dark para1"
                                                 href="{{ route('academic-council') }}">Academic Council</a></li>
+                                        <li><a class="dropdown-item text-dark para1"
+                                                href="{{ route('internal-complaints-committee') }}">Internal Complaints Committee</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item text-dark para1"
-                                        href="{{ route('internal-complaints-committee') }}">Internal Complaints <br>
-                                        Committee</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('anti-ragging') }}">Anti
                                         Ragging <br> Committee</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('proctorial') }}">Proctorial
@@ -112,12 +111,13 @@
                                         Programme</a></li>
 
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('multi-disciplinary') }}"
-                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Multidisciplinary/<br> Interdisciplinary Courses</a>
-                                            </li>
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Multidisciplinary/<br>
+                                        Interdisciplinary Courses</a>
+                                </li>
 
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('net-set-gate-coaching') }}"
-                                    style="font-size: 17px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">NET/SET/GATE<br>
-                                    Coaching</a>   </li>
+                                        style="font-size: 17px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">NET/SET/GATE<br>
+                                        Coaching</a> </li>
 
 
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('academic-calendar') }}"

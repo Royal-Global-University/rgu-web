@@ -77,11 +77,10 @@
                                                 href="{{ route('board-of-management') }}">Board of Management</a></li>
                                         <li><a class="dropdown-item text-dark para1"
                                                 href="{{ route('academic-council') }}">Academic Council</a></li>
+                                        <li><a class="dropdown-item text-dark para1"
+                                                href="{{ route('internal-complaints-committee') }}">Internal Complaints Committee</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item text-dark para1"
-                                        href="{{ route('internal-complaints-committee') }}">Internal Complaints <br>
-                                        Committee</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('anti-ragging') }}">Anti
                                         Ragging <br> Committee</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('proctorial') }}">Proctorial
@@ -112,12 +111,12 @@
                                         Programme</a></li>
 
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('multi-disciplinary') }}"
-                                                style="font-size: 17px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Multidisciplinary/<br>
-                                                Interdisciplinary Courses</a>
-                                            </li>
-                                            <li><a class="dropdown-item text-dark para1" href="{{ route('net-set-gate-coaching') }}"
-                                                    style="font-size: 17px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">NET/SET/GATE<br>
-                                                    Coaching</a>   </li>
+                                        style="font-size: 17px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Multidisciplinary/<br>
+                                        Interdisciplinary Courses</a>
+                                </li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('net-set-gate-coaching') }}"
+                                        style="font-size: 17px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">NET/SET/GATE<br>
+                                        Coaching</a> </li>
 
 
                                 <li><a class="dropdown-item text-dark para1"
