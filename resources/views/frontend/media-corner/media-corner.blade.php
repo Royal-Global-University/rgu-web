@@ -47,6 +47,16 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => ' A Living Call to Memory: The Bhupen Hazarika Museum Beckons',
+                            'summary' => '',
+                            'date' => 'Guwahati, July 16, 2025:',
+                            'link' => 'a-living-call-to-memory-the-bhupen-hazarika-museum-beckons',
+                            'image' => 'mobile-assets/media-corner/news23/1.avif',
+                            'content' => 'As Assam and the world mark the birth centenary of Sudhakantha Dr. Bhupen Hazarika, the Dr. Bhupen Hazarika Centre for
+                                        Creativity at the Assam Royal Global University (RGU) is crafting a tribute not of marble and silence, but of memory,
+                                        melody, and meaning. Speaking about the initiative, Shamim Goney, Deputy Registrar (Administration) at RGU, said, “Our museum will not be a static display of artefacts.',
+                        ],
+                        [
                             'title' => ' RGU Outreach: Awareness on Conservation of Salamander Habitat',
                             'summary' => '',
                             'date' => 'Guwahati, July 10, 2025:',
@@ -61,8 +71,8 @@
                             'link' => 'rgu-offers-scholarship-opportunities-for-wards-of-police-personnel-of-8-ne-states',
                             'image' => 'mobile-assets/rgu-blog/blog2.jpeg',
                             'content' => 'To promote quality access to higher education and honour the service and sacrifices of the personnel of the force, the
-                                                                            Assam Royal Global University (RGU) has launched two distinct categories of academic scholarships for the benefit of
-                                                                            eligible dependents and wards of Police personnel belonging to all the eight Northeastern states.',
+                                                                                                                                        Assam Royal Global University (RGU) has launched two distinct categories of academic scholarships for the benefit of
+                                                                                                                                        eligible dependents and wards of Police personnel belonging to all the eight Northeastern states.',
                         ],
                         [
                             'title' => 'Zimbabwe Education Delegation Explores Collaboration with Royal Global University',
@@ -207,7 +217,7 @@
                             'link' => '129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance',
                             'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
                             'content' => 'With its continued effort to foster academic excellence and reward outstanding student performance, The Assam Royal Global University (RGU) yesterday organised a Monthly Scholarship award ceremony to honour the exemplary students who qualified for the Semester Topper Scholarship for the Odd Semester Examination 2024–25.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ',
                         ],
                         [
                             'title' => 'RGU Celebrates Commendation Day for Placed Graduating Students',
