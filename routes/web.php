@@ -2993,6 +2993,10 @@ Route::get('/rgu-outreach-awareness-on-conservation-of-salamander-habitat', func
     return view('frontend/media-corner/news22');
 })->name('rgu-outreach-awareness-on-conservation-of-salamander-habitat');
 
+Route::get('/a-living-call-to-memory-the-bhupen-hazarika-museum-beckons', function () {
+    return view('frontend/media-corner/news23');
+})->name('a-living-call-to-memory-the-bhupen-hazarika-museum-beckons');
+
 
 
 //faculty profile

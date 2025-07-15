@@ -927,7 +927,24 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
 
-                                        <div class="row bg-light p-2 rounded ">
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 150px; width: 100%;" src="mobile-assets/media-corner/news23/1.avif" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; line-height: 1.2;" class="pt-2 m-0 fw-bold">
+                                                A Living Call to Memory: The Bhupen Hazarika Museum Beckons
+                                                </p>
+                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 16, 2025
+                                                </p>
+                                                <a href="a-living-call-to-memory-the-bhupen-hazarika-museum-beckons">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 150px;"
                                                     src="mobile-assets/media-corner/news22/index.jpg" alt="" />
@@ -968,26 +985,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news20/2.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; line-height: 1.2;" class="pt-2 m-0 fw-bold">
-                                                    Zimbabwe Education Delegation Explores Collaboration with RGU
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">July 7, 2025
-                                                </p>
-                                                <a
-                                                    href="zimbabwe-education-delegation-explores-collaboration-with-royal-global-university">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                                 <div style="text-align:center; margin-top:20px;">
