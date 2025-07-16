@@ -649,7 +649,7 @@
               <img style="height: 230px; width: 100%;" src="https://media.rgu.ac/facilities/ClassroomStudio.jpg" class="img-fluid rounded"/>
             </div>
             <div class="card-body d-flex flex-column flex-grow-1">
-              <h6 style=" font-weight: 800; color: #27467A; font-size: 32px;" class="card-title headd2 pb-2">Classrooms <span style="font-weight: 600 !important;">and Studios</span> </h6>
+              <h6 style=" font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Classrooms <span style="font-weight: 600 !important;">and Studios</span> </h6>
 
              <a href="facilities-classroom"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
             </div>
@@ -909,7 +909,7 @@
                 <img style="height: 230px; width: 100%;" src="https://media.rgu.ac/facilities/Security.JPG" class="img-fluid rounded"/>
               </div>
               <div class="card-body d-flex flex-column flex-grow-1">
-                <h5 style="font-weight: 800; color: #27467A; font-size: 28px !important;" class="card-title headd2 pb-2">Security <span style="font-weight: 600 !important;">and Surveillance</span> </h5>
+                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Security <span style="font-weight: 600 !important;">and Surveillance</span> </h5>
 
 
                <a href="facilities-security"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>

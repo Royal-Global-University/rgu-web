@@ -27,6 +27,7 @@
                                         Team</a></li>
                                 <li><a class="dropdown-item text-dark para1"
                                         href="{{ route('advisory-leadership') }}">Advisory Leadership</a></li>
+                                        <li><a class="dropdown-item text-dark para1" href="{{ route('deans') }}">Dean's</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('vision-mission') }}">Vision
                                         and Mission</a></li>
                                 <li><a class="dropdown-item text-dark para1"
@@ -104,7 +105,7 @@
 
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('schools-rgu') }}"
                                         style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Our
-                                        Schools And <br> Faculties</a></li>
+                                        Schools and <br> Faculties</a></li>
 
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('phd') }}"
                                         style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Doctoral
