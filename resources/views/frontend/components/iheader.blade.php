@@ -27,7 +27,7 @@
                                         Team</a></li>
                                 <li><a class="dropdown-item text-dark para1"
                                         href="{{ route('advisory-leadership') }}">Advisory Leadership</a></li>
-                                        <li><a class="dropdown-item text-dark para1" href="{{ route('deans') }}">Dean's</a></li>
+                                        {{-- <li><a class="dropdown-item text-dark para1" href="{{ route('deans') }}">Dean's</a></li> --}}
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('vision-mission') }}">Vision
                                         and Mission</a></li>
                                 <li><a class="dropdown-item text-dark para1"
