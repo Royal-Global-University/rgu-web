@@ -91,8 +91,8 @@
 
         <!-- discover rgu -->
         <div>
-            <img src="https://media.rgu.ac/index/explore-mob.png"
-                alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape." />
+            <a href=""><img src="https://media.rgu.ac/explore/mob.png"
+                alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape." /></a>
         </div>
         <!-- discover rgu -->
 
@@ -106,7 +106,7 @@
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
-                        <img src="mobile-assets/events/mob10.jpeg" class="d-block w-100 rounded" alt="...">
+                        <img src="mobile-assets/events/mob-17.jpg" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item ">
                         <img src="https://media.rgu.ac/index/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded"
@@ -805,7 +805,7 @@
 
             <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
 
-                <img src="https://media.rgu.ac/index/explore-web.png" alt="">
+                <a href="/preface"><img src="https://media.rgu.ac/explore/web.png" alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape."></a>
 
 
                 <!--New Events-->
@@ -819,7 +819,7 @@
                                     Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span></h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
-                                    <img class="zoomable" src="mobile-assets/events/jul16.jpeg"
+                                    <img class="zoomable active" src="mobile-assets/events/17jul.jpg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/prabuddha-web-may.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
@@ -1050,14 +1050,14 @@
         </div>
         <!--new code-->
         {{-- <div style="background-color: #13223b;">
-            <section style="padding: 40px; font-family: Arial, sans-serif;">
+            <section style=" font-family: Arial, sans-serif; padding-left: 30px; padding-top: 20px; padding-bottom: 20px;">
                 <div class="row" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
 
                     <!-- Left: Video -->
                     <div class="col-lg-5">
                         <div class="text-center">
                             <video id="videoPlayer" autoplay muted loop controlsList="nodownload"
-                                style="width: 90%; height: 100%; border: 3px solid #fff;">
+                                style="width: 100%; height: 100%; border: 3px solid #fff;">
                                 <source id="videoSource" src="https://media.rgu.ac/index/lookbook.mp4" type="video/mp4">
                                 Your browser does not support HTML5 video.
                             </video>
@@ -1066,23 +1066,23 @@
 
                     <!-- Right: Image Carousel & Controls -->
                     <div class="col-lg-7 pt-3">
-                        <div style="padding: 20px; display: flex; flex-direction: column; align-items: center;">
+                        <div style="padding: 10px; display: flex; flex-direction: column; align-items: center;">
                             <!-- Thumbnails -->
                             <div style="position: relative; width: 100%; overflow: hidden;">
                                 <div id="carousel"
                                     style="display: flex; overflow: hidden; scroll-behavior: smooth; gap: 20px; padding: 10px 40px;">
                                     <img class="thumb" data-video="https://media.rgu.ac/index/lookbook.mp4"
                                         src="mobile-assets/magazine/1.png"
-                                        style="height: 320px; width: auto; cursor: pointer; border: 3px solid white;" />
+                                        style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
                                     <img class="thumb" data-video="https://media.rgu.ac/museum-vid.mp4"
                                         src="mobile-assets/magazine/2.png"
-                                        style="height: 320px; width: auto; cursor: pointer; border: 3px solid white;" />
+                                        style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
                                     <img class="thumb" data-video="https://media.rgu.ac/index/lookbook.mp4"
                                         src="mobile-assets/magazine/1.png"
-                                        style="height: 320px; width: auto; cursor: pointer; border: 3px solid white;" />
+                                        style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
                                     <img class="thumb" data-video="https://media.rgu.ac/museum-vid.mp4"
                                         src="mobile-assets/magazine/2.png"
-                                        style="height: 320px; width: auto; cursor: pointer; border: 3px solid white;" />
+                                        style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
                                 </div>
                             </div>
 
