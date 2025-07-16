@@ -1148,54 +1148,451 @@
         </div>
 
         <!--campus life-->
-        <section class=" elementor-section elementor-top-section elementor-element elementor-element-f03cf62
-                                                        elementor-section-full_width elementor-section-height-default
-                                                        elementor-section-height-default" data-id="f03cf62"
-            data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bd58a9"
-                    data-id="8bd58a9" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-2d6d76a elementor-widget elementor-widget-go-content-tab"
-                            data-id="2d6d76a" data-element_type="widget" data-widget_type="go-content-tab.default">
-                            <div class="elementor-widget-container">
-                                <div class="kd-course-3-area p-relative pt-105 pb-60 fix">
-                                    <div class="kd-course-1-bg-img img-cover fix">
-                                        <img decoding="async" src="https://media.rgu.ac/index/head2.svg" alt="">
-                                    </div>
-                                    <div class="container kd-container-1 txaa-slide-down-1">
-                                        <!-- sectiont-title -->
-                                        <div class="kd-course-1-scn-title">
-                                            <div class="left">
-                                                <!-- <h6
-                                                                                        class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
-                                                                                        <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
-                                                                                            alt="">
-
-                                                                                        RGU Campus
-                                                                                    </h6> -->
-                                                <h1 style="color: #FF9A1E; font-weight: 800;"
-                                                    class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text has-clr-white headd1 ">
-                                                    Our Campus Life</h1>
+                <section class=" elementor-section elementor-top-section elementor-element elementor-element-f03cf62
+                                                                    elementor-section-full_width elementor-section-height-default
+                                                                    elementor-section-height-default" data-id="f03cf62"
+                    data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-no">
+                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bd58a9"
+                            data-id="8bd58a9" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-2d6d76a elementor-widget elementor-widget-go-content-tab"
+                                    data-id="2d6d76a" data-element_type="widget" data-widget_type="go-content-tab.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="kd-course-3-area p-relative pt-105 pb-60 fix">
+                                            <div class="kd-course-1-bg-img img-cover fix">
+                                                <img decoding="async" src="https://media.rgu.ac/index/head2.svg" alt="">
                                             </div>
+                                            <div class="container kd-container-1 txaa-slide-down-1">
+                                                <!-- sectiont-title -->
+                                                <div class="kd-course-1-scn-title">
+                                                    <div class="left">
+                                                        <!-- <h6
+                                                                                                    class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
+                                                                                                    <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
+                                                                                                        alt="">
 
+                                                                                                    RGU Campus
+                                                                                                </h6> -->
+                                                        <h1 style="color: #FF9A1E; font-weight: 800;"
+                                                            class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text has-clr-white headd1 ">
+                                                            Our Campus Life</h1>
+                                                    </div>
+
+                                                    <div class="right txaa-fade-right">
+                                                        <ul class="kd-course-1-tabs-btn" id="myTab" role="tablist">
+                                                            <li class="nav-item" role="presentation">
+                                                                <button class="nav-link active kd-heading-1 para1 fw-bold text-dark"
+                                                                    id="home-tab0" data-bs-toggle="tab" data-bs-target="#home0"
+                                                                    type="button" role="tab" aria-controls="home0"
+                                                                    aria-selected="true">Campus</button>
+                                                            </li>
+                                                            <li class="nav-item" role="presentation">
+                                                                <button class="nav-link  kd-heading-1 para1 text-dark" id="home-tab1"
+                                                                    data-bs-toggle="tab" data-bs-target="#home1" type="button"
+                                                                    role="tab" aria-controls="home1" aria-selected="true">Residence
+                                                                    Life</button>
+                                                            </li>
+                                                            <li class="nav-item" role="presentation">
+                                                                <button class="nav-link  kd-heading-1 para1 text-dark" id="home-tab2"
+                                                                    data-bs-toggle="tab" data-bs-target="#home2" type="button"
+                                                                    role="tab" aria-controls="home2" aria-selected="true">Sports
+                                                                    &
+                                                                    Exercise</button>
+                                                            </li>
+                                                            <li class="nav-item" role="presentation">
+                                                                <button class="nav-link  kd-heading-1 para1 text-dark" id="home-tab3"
+                                                                    data-bs-toggle="tab" data-bs-target="#home3" type="button"
+                                                                    role="tab" aria-controls="home3"
+                                                                    aria-selected="true">Amenities</button>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <!-- tabs-content -->
+                                                <div class="tab-content kd-course-3-tabs-content-wrap txaa-slide-down-1-item"
+                                                    id="myTabContent">
+
+                                                    <div class="tab-pane fade animated fadeInUp show active" id="home0" role="tabpanel"
+                                                        aria-labelledby="home-tab0">
+                                                        <div class="kd-course-3-tabs-content">
+                                                            <div class="left-content">
+                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                                    Campus Life</h4>
+
+                                                                <div class="para1 muted" style="text-align: justify;">
+                                                                    <p style="color: #323232 !important;">
+                                                                        Recognized as
+                                                                        the<strong> best private
+                                                                            university</strong>
+                                                                        in Assam, The Assam
+                                                                        Royal Global University
+                                                                        provides an enriching
+                                                                        campus life
+                                                                        that complements
+                                                                        academic excellence. As
+                                                                        the best
+                                                                        <strong>University in
+                                                                            Northeast</strong>
+                                                                        Assam, we foster
+                                                                        holistic development
+                                                                        through
+                                                                        vibrant cultural
+                                                                        festivals, academic
+                                                                        clubs, and sports
+                                                                        activities. Students
+                                                                        thrive in a dynamic
+                                                                        atmosphere that nurtures
+                                                                        leadership and teamwork.
+                                                                        Known as the top
+                                                                        <strong>private
+                                                                            university in
+                                                                            Assam</strong>, we
+                                                                        offer platforms for
+                                                                        students to explore
+                                                                        their
+                                                                        interests beyond the
+                                                                        classroom. With a
+                                                                        reputation as the
+                                                                        <strong>best private
+                                                                            university in
+                                                                            Assam</strong>, our
+                                                                        inclusive environment
+                                                                        supports both academic
+                                                                        growth and personal
+                                                                        development for those
+                                                                        studying at the
+                                                                        <strong>Best University
+                                                                            in Guwahati</strong>
+                                                                        or the <strong>Best
+                                                                            Management College
+                                                                            in
+                                                                            Guwahati</strong>.
+                                                                    </p>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <!-- right -->
+                                                            <div class="right-content">
+                                                                <div class="rounded">
+                                                                    <div class="kd-price-4-content">
+                                                                        <div id="carouselExampleControls" class="carousel slide"
+                                                                            data-bs-ride="carousel">
+                                                                            <div class="carousel-inner">
+                                                                                <div class="carousel-item active">
+                                                                                    <a href="department-store"><img
+                                                                                            src="https://media.rgu.ac/index/1.svg"
+                                                                                            class="d-block rounded" style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="infrastructure"><img
+                                                                                            src="https://media.rgu.ac/index/5.svg"
+                                                                                            class="d-block rounded" style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="games&sports">
+                                                                                        <img src="https://media.rgu.ac/index/7.svg"
+                                                                                            class="d-block rounded" style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="clubs"><img
+                                                                                            src="https://media.rgu.ac/index/4.svg"
+                                                                                            class="d-block rounded" style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="hostel-life">
+                                                                                        <img src="https://media.rgu.ac/index/3.svg"
+                                                                                            class="d-block rounded" style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="Student_Affairs">
+                                                                                        <img src="https://media.rgu.ac/index/6.svg"
+                                                                                            class="d-block rounded" style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                                <div class="carousel-item">
+                                                                                    <a href="royal-fests"><img
+                                                                                            src="https://media.rgu.ac/index/2.svg"
+                                                                                            class="d-block rounded" style="width: 100%;"
+                                                                                            alt="..."></a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <button class="carousel-control-prev" type="button"
+                                                                                data-bs-target="#carouselExampleControls"
+                                                                                data-bs-slide="prev">
+                                                                                <span class="carousel-control-prev-icon"
+                                                                                    aria-hidden="true"></span>
+                                                                                <span class="visually-hidden">Previous</span>
+                                                                            </button>
+                                                                            <button class="carousel-control-next" type="button"
+                                                                                data-bs-target="#carouselExampleControls"
+                                                                                data-bs-slide="next">
+                                                                                <span class="carousel-control-next-icon"
+                                                                                    aria-hidden="true"></span>
+                                                                                <span class="visually-hidden">Next</span>
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- <div class="kd-course-3-tabs-content-action text-center">
+                                                                                                            <h5
+                                                                                                                class="kd-heading-1 kd-font-700 has-clr-white action-link">
+                                                                                                                get your quality skills certificate from RGU</h5>
+                                                                                                            <a href="#" aria-label="name"
+                                                                                                                class="kd-pr-btn-1 text-uppercase">
+                                                                                                                <span class="text" data-back="get started now"
+                                                                                                                    data-front="get started now"></span>
+                                                                                                            </a>
+                                                                                                        </div> -->
+                                                                <!-- <div class="kd-course-3-tabs-content-il-1">
+                                                                                                            <img decoding="async"
+                                                                                                                src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
+                                                                                                                alt="">
+                                                                                                        </div> -->
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade animated fadeInUp " id="home1" role="tabpanel"
+                                                        aria-labelledby="home-tab1">
+                                                        <div class="kd-course-3-tabs-content">
+                                                            <div class="left-content">
+                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                                    Residence Life</h4>
+
+                                                                <div class="para1" style="text-align: justify;">
+                                                                    <p>The Assam Royal Global
+                                                                        University residence
+                                                                        halls
+                                                                        aim at
+                                                                        enhancing the
+                                                                        educational experience
+                                                                        of students
+                                                                        by
+                                                                        providing all the
+                                                                        comforts and
+                                                                        conveniences they need
+                                                                        to succeed.
+                                                                        Beautifully situated in
+                                                                        the midst of an
+                                                                        eco-friendly
+                                                                        and green campus,
+                                                                        the separate in-house
+                                                                        hostels for boys and
+                                                                        girls
+                                                                        are
+                                                                        equipped with adequate
+                                                                        facilities for holistic
+                                                                        mental and physical
+                                                                        growth. The hostel
+                                                                        environment will help
+                                                                        each
+                                                                        boarder get the most out
+                                                                        of their time during
+                                                                        the
+                                                                        period of stay. Close
+                                                                        proximity
+                                                                        of the hostels to the
+                                                                        academic buildings
+                                                                        facilitates
+                                                                        frequent interactions
+                                                                        between studentsand the
+                                                                        faculties even during
+                                                                        periods of vacation and
+                                                                        on holidays.</p>
+                                                                </div>
+                                                                <div class="">
+                                                                    <a href="hostel-life" rel="nofollow" aria-label="name"
+                                                                        class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                        <span class="text" data-back="explore"
+                                                                            data-front="Explore"></span>
+                                                                        <span class="icon">
+                                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <!-- right -->
+                                                            <div class="right-content">
+                                                                <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                                    <img decoding="async" src="https://media.rgu.ac/index/residence.jpg"
+                                                                        alt="">
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade animated fadeInUp " id="home2" role="tabpanel"
+                                                        aria-labelledby="home-tab2">
+                                                        <div class="kd-course-3-tabs-content">
+                                                            <div class="left-content">
+                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                                    Games & Sports</h4>
+
+                                                                <div class="para1" style="text-align: justify;">
+                                                                    <p>There are multiple sport
+                                                                        facilities to keep our
+                                                                        students engaged and
+                                                                        physically fit. Our
+                                                                        campus
+                                                                        has
+                                                                        outdoor game
+                                                                        facilities like Cricket,
+                                                                        Football, Basketball,
+                                                                        tennis, baseball,
+                                                                        athletics and so on. Its
+                                                                        international standard
+                                                                        indoor
+                                                                        sports complex “The
+                                                                        Cube” offers a variety
+                                                                        of
+                                                                        indoor
+                                                                        games including
+                                                                        badminton courts,
+                                                                        squash,
+                                                                        billiards,
+                                                                        and table
+                                                                        tennis. Fitness
+                                                                        conscious students can
+                                                                        go for a
+                                                                        jog
+                                                                        around the scenic
+                                                                        university campus or
+                                                                        work out
+                                                                        at
+                                                                        the well-equipped
+                                                                        gymnasium available both
+                                                                        at the Boys and Girls
+                                                                        hostel. The Gymnasium is
+                                                                        equipped with various
+                                                                        equipment like
+                                                                        treadmills,
+                                                                        dumbbells & plates,
+                                                                        weights, shoulder press,
+                                                                        leg-pull, leg extension,
+                                                                        incline shoulder,
+                                                                        double
+                                                                        twisters, etc.</p>
+                                                                </div>
+                                                                <div class="">
+                                                                    <a href="games&sports" rel="nofollow" aria-label="name"
+                                                                        class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                        <span class="text" data-back="explore"
+                                                                            data-front="Explore"></span>
+                                                                        <span class="icon">
+                                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- right -->
+                                                            <div class="right-content">
+                                                                <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                                    <img decoding="async" src="https://media.rgu.ac/index/sports.jpg"
+                                                                        alt="">
+
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade animated fadeInUp " id="home3" role="tabpanel"
+                                                        aria-labelledby="home-tab3">
+                                                        <div class="kd-course-3-tabs-content">
+                                                            <div class="left-content">
+                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                                    Amenities</h4>
+
+                                                                <div class="para1" style="text-align: justify;">
+                                                                    <p>A sensational
+                                                                        rejuvenation and beauty
+                                                                        experience.
+                                                                        Kurls and Spykes,
+                                                                        Guwahati, is a wellness
+                                                                        and
+                                                                        beauty
+                                                                        lounge for both
+                                                                        men and women. It offers
+                                                                        an unmatched array of
+                                                                        services designed to
+                                                                        renew, refresh and
+                                                                        replenish
+                                                                        one’s soul. As a
+                                                                        leading hair studio,
+                                                                        Kurls and Spykes offer
+                                                                        warm
+                                                                        hospitality, an inviting
+                                                                        atmosphere and
+                                                                        top-notch
+                                                                        services to wide and
+                                                                        varied client base which
+                                                                        also includes business
+                                                                        and
+                                                                        leisure travellers. It
+                                                                        offers non exhaustive
+                                                                        range
+                                                                        of services
+                                                                        including a host of hair
+                                                                        services such as
+                                                                        haircut,
+                                                                        hair colour, creative
+                                                                        makeover, keratin and
+                                                                        bridal
+                                                                        makeup services
+                                                                        using some
+                                                                        internationally renowned
+                                                                        brands.</p>
+                                                                </div>
+
+                                                                <div class="">
+                                                                    <a href="salon" rel="nofollow" aria-label="name"
+                                                                        class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                        <span class="text" data-back="explore"
+                                                                            data-front="Explore"></span>
+                                                                        <span class="icon">
+                                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <!-- right -->
+                                                            <div class="right-content">
+                                                                <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                                    <img decoding="async" src="https://media.rgu.ac/index/amenities.jpg"
+                                                                        alt="">
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
                                         </div>
-
-                                        <!-- tabs-content -->
-                                        <section class="p-2 bg-light rounded">
-                                            <div class="container ">
-                                                <iframe src="https://tourmkr.com/F1frQvpkMz/" width="100%" height="700" style="border:0;" allowfullscreen=""
-                                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                            </div>
-                                        </section>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
+                </section>
         <!--campus life-->
 
 
