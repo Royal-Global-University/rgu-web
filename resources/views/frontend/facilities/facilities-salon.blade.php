@@ -2,17 +2,6 @@
 @section('content')
     <div id="page" class="site site_wrapper">
 
-        <div class="scroll-top">
-            <div class="scroll-top-wrap">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                    </path>
-                </svg>
-            </div>
-        </div>
-
         @include('frontend/components/aheader')
 
         <!--About Section-->
@@ -29,7 +18,7 @@
                                 <div class="elementor-widget-container">
                                     <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                         <div style="border: 2px solid #fff;" class="kd-about-3-img img-cover fix kd-img-ani-1">
-                                            <img decoding="async" src="assets/img/all-facilities/saloon/headimg.jpeg" alt="">
+                                            <img decoding="async" src="https://media.rgu.ac/facilities/Salon.JPG" alt="">
                                         </div>
 
                                     </div>
@@ -45,7 +34,7 @@
                                 data-id="c8de01e" data-element_type="widget" data-widget_type="go-s-heading.default">
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
-                                        <h1 class="headd2 text-dark fw-bold kd-title-ani kd-split-text">
+                                        <h1 class="headd1 text-dark fw-bold kd-title-ani kd-split-text">
                                             Kurls & Spykes Salon</h1>
 
                                         <div class="para1 text-dark" data-splitting style="text-align: justify;">
@@ -62,16 +51,6 @@
                                                 team. Kurls and Spykes offers the best matched services to pamper one’s
                                                 senses. It is a vacation that one can take every day.
                                             </p>
-
-                                            <div class="container text-center mt-4 mb-4">
-                                                <div class="d-flex justify-content-center gap-3">
-                                                    <a target="_blank" href="assets/img/all-facilities/saloon/salon.pdf">
-                                                        <button class="btn btn-primary download-btn fw-bold headd3">
-                                                            <i class="bi bi-download"></i> More About Kurls & Spykes
-                                                        </button>
-                                                    </a>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -83,44 +62,22 @@
             </section>
         </div>
 
-        <div>
-            <img src="assets/img/all-facilities/saloon/contact.svg" alt="">
-        </div>
-
         <section style="background-color: #0e0e0e;">
             <div class="container-fluid pt-5 pb-5" style="padding: 0px 45px;">
-                <p class="text-light headd2 text-center kd-title-ani kd-split-text fw-bold">Glimpse of our Salon
+                <p class="text-light headd1 text-center pt-2 kd-title-ani kd-split-text fw-bold">Glimpse of our Salon
                 </p>
 
                 <div class="row pt-3">
-                    <div class="col-lg-4">
-                        <img style="width: 100%;" class="rounded border shadow-sm" src="assets/img/all-facilities/saloon/1.jpeg"
+                    <div class="col-lg-6">
+                        <img style="width: 100%;" class="rounded border shadow-sm" src="mobile-assets/salon/salon 5.jpg"
                             alt="">
                     </div>
-                    <div class="col-lg-4">
-                        <img style="width: 100%;" class="rounded border shadow-sm" src="assets/img/all-facilities/saloon/2.jpeg"
-                            alt="">
-                    </div>
-                    <div class="col-lg-4">
-                        <img style="width: 100%;" class="rounded border shadow-sm" src="assets/img/all-facilities/saloon/3.jpeg"
+                    <div class="col-lg-6">
+                        <img style="width: 100%;" class="rounded border shadow-sm" src="mobile-assets/salon/salon 6.jpg"
                             alt="">
                     </div>
                 </div>
 
-                <div class="row pt-3">
-                    <div class="col-lg-4">
-                        <img style="width: 100%;" class="rounded border shadow-sm" src="assets/img/all-facilities/saloon/4.jpeg"
-                            alt="">
-                    </div>
-                    <div class="col-lg-4">
-                        <img style="width: 100%;" class="rounded border shadow-sm" src="assets/img/all-facilities/saloon/5.jpeg"
-                            alt="">
-                    </div>
-                    <div class="col-lg-4">
-                        <img style="width: 100%;" class="rounded border shadow-sm" src="assets/img/all-facilities/saloon/6.jpeg"
-                            alt="">
-                    </div>
-                </div>
             </div>
         </section>
         <!--End About-->

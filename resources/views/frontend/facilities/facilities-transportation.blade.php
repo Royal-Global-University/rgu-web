@@ -3,7 +3,7 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
             <div style="padding-top: 90px; position: relative;">
-                <img src="mobile-assets/facilities-transportation/mob.png" alt="">
+                <img src="mobile-assets/facilities-transportation/transport-mob.png" alt="">
 
                 <h2 class="mobile-headd2 fw-bold pb-1 pt-4 text-center" style="color: #27467A; font-weight: 900;">
                     Bus <span style="color: #FF9A1E; font-weight: 500;">Route</span></h2>
@@ -202,9 +202,12 @@
                 </div>
                 <div class="col-lg-6">
                     <h2 class="headd1 fw-bold kd-title-ani kd-split-text pb-2" style="color: #27467A; font-weight: 900;">
-                        University <span style="color: #FF9A1E; font-weight: 500;">Transportation</span></h2>
+                        <span style="color: #27467A; font-weight: 900;">Transportation</span></h2>
                     <p style="color: #27467A;" class="para1">
-                        Having reliable transportation options is an important part of staying safe. We have many ways to commute safely to and from the campus. University’s own fleet of vehicles with experienced and professional drivers and helpers with a dedicated team of Transport Incharge ensures that our students reach on time safely.
+                        Our university provides a convenient and reliable bus service for students and staff, ensuring a hassle-free commute to
+                        and from campus. The bus service operates on designated routes, offering comfortable and safe travel. With punctual and
+                        reliable pickups and drop-offs, students can focus on their academic pursuits without worrying about transportation.
+                        The bus service is also affordable, with subsidized fares making it an attractive option for those who rely on it.
                     </p>
                 </div>
             </div>
@@ -214,7 +217,7 @@
 
     <hr>
     <section style="background-color: #f0f8ff;">
-        <h2 class="headd2 fw-bold pb-1 pt-4 text-center" style="color: #27467A; font-weight: 900;">
+        <h2 class="headd1 fw-bold pb-1 pt-4 text-center" style="color: #27467A; font-weight: 900;">
             Bus <span style="color: #FF9A1E; font-weight: 500;">Route</span></h2>
 
     <div class="table-responsive rounded" style="padding: 10px 50px 20px 50px;">

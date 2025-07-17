@@ -406,7 +406,7 @@
 
                 <div class="col-lg-12 mb-4">
 
-                    <a href="salon">
+                    <a href="facilities-salon">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 340px;">
                             <div class="p-3">
@@ -418,7 +418,7 @@
                                     Salon</h5>
 
 
-                                <a href="salon">
+                                <a href="facilities-salon">
                                     <p class="card-text mobile-para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">
                                         Explore More</p>
                                 </a>
@@ -511,7 +511,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 900 !important; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                    Seminar <span style="font-weight: 600 !important;">Halls</span> </h5>
+                                    Conference & Seminar <span style="font-weight: 600 !important;">Halls</span> </h5>
 
                                 <a href="facilities-seminar-hall">
                                     <p class="card-text mobile-para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">
@@ -534,7 +534,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 900 !important; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                    Student <span style="font-weight: 600 !important;">Lounge</span> </h5>
+                                    Student <span style="font-weight: 600 !important;">Lounge & Hangout Places</span> </h5>
 
 
                                 <a href="facilities-student-lounge">
@@ -725,7 +725,7 @@
                 <img style="height: 230px; width: 100%;" src="https://media.rgu.ac/facilities/Hangouts.jpg" class="img-fluid rounded"/>
               </div>
               <div class="card-body d-flex flex-column flex-grow-1">
-                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Hangout</h5>
+                <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Food Court</h5>
 
                <a href="hangout"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
               </div>
@@ -857,7 +857,7 @@
 
       <div class="col-lg-4 mb-4">
 
-          <a href="salon"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
+          <a href="facilities-salon"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
               <div class="p-3">
                 <img style="height: 230px; width: 100%;" src="https://media.rgu.ac/facilities/Salon.JPG" class="img-fluid rounded"/>
               </div>
@@ -865,7 +865,7 @@
                 <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Salon</h5>
 
 
-               <a href="salon"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
+               <a href="facilities-salon"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
               </div>
           </div></a>
 
@@ -925,7 +925,7 @@
               <img style="height: 230px; width: 100%;" src="https://media.rgu.ac/facilities/SeminarHalls.png" class="img-fluid rounded"/>
             </div>
             <div class="card-body d-flex flex-column flex-grow-1">
-              <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Seminar <span style="font-weight: 600 !important;">Halls</span> </h5>
+              <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Conference & Seminar <span style="font-weight: 600 !important;">Halls</span> </h5>
 
              <a href="facilities-seminar-hall"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
             </div>
@@ -940,7 +940,7 @@
               <img style="height: 230px; width: 100%;" src="https://media.rgu.ac/facilities/StudentLounge.jpg" class="img-fluid rounded"/>
             </div>
             <div class="card-body d-flex flex-column flex-grow-1">
-              <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Student <span style="font-weight: 600 !important;">Lounge</span> </h5>
+              <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Student <span style="font-weight: 600 !important;">Lounge & Hangout Places</span> </h5>
 
 
              <a href="facilities-student-lounge"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>

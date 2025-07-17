@@ -259,7 +259,7 @@
                                     Dr. Rupesh Kumar
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor and Coordinator
+                                    Assistant Professor and Coordinator, MLT
                                 </p>
 
                             </div>
@@ -996,7 +996,7 @@
                                     Dr. Rupesh Kumar
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor and Coordinator
+                                    Assistant Professor and Coordinator, MLT
                                 </p>
 
                             </div>
