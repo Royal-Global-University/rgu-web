@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'MBA in Assam | Royal Global University, Guwahati')
+@section('meta_description', 'Advance your career with an MBA in Finance at Royal Global University, Assam. Learn financial management, investment strategies & corporate finance from top faculty. Apply now for a successful career in finance!')
+@section('meta_keywords', 'MBA in Assam')
 @section('content')
 <div class="mobile">
 @include('frontend/components/mobileheader')
