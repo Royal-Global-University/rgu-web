@@ -28,12 +28,12 @@
                     <div class="row pb-2 text-center justify-content-center">
                         <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
                             <a href="how-to-apply" class="btn text-white w-100 p-3 rounded" style="
-                    font-size: 16px;
-                    font-weight: 600;
-                    background: #27467a;
-                    border: none;
-                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                    transition: transform 0.4s, box-shadow 0.4s;"
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
                                 onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
                                 How to Apply
@@ -42,12 +42,12 @@
 
                         <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
                             <a href="placements-process" class="btn text-white w-100 p-3 rounded" style="
-                    font-size: 16px;
-                    font-weight: 600;
-                    background: #27467a;
-                    border: none;
-                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                    transition: transform 0.4s, box-shadow 0.4s;"
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
                                 onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
                                 Placements
@@ -56,12 +56,12 @@
 
                         <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
                             <a href="programs" class="btn text-white w-100 p-3 rounded" style="
-                    font-size: 16px;
-                    font-weight: 600;
-                    background: #27467a;
-                    border: none;
-                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                    transition: transform 0.4s, box-shadow 0.4s;"
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
                                 onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
                                 Eligibility & Selection Criteria
@@ -70,12 +70,12 @@
 
                         <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
                             <a href="admission-programs-fees-structure" class="btn text-white w-100 p-3 rounded" style="
-                    font-size: 16px;
-                    font-weight: 600;
-                    background: #27467a;
-                    border: none;
-                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                    transition: transform 0.4s, box-shadow 0.4s;"
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
                                 onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
                                 Fee Structure
@@ -116,6 +116,34 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-lg-4 mb-4 mt-3">
+                            <div class="card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                                <div class="p-3">
+                                    <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                        src="mobile-assets/agri.png" class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal
+                                        School of Agriculture
+                                        (RSAG)</h5>
+                                    <div class="mt-auto mb-4">
+                                        <div class="text-center">
+                                            <a class="para1" href="{{ route('department-agriculture') }}"
+                                                style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                                Department
+                                            </a>
+                                            <a class="para1" href="{{route('faculty-agriculture')}}"
+                                                style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                                Faculty
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="col-lg-3 mb-4 mt-3">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
@@ -719,33 +747,6 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 mb-4 mt-3">
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
-                                <div class="p-3">
-                                    <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;" src="mobile-assets/agri.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal
-                                        School of Agriculture
-                                        (RSAG)</h5>
-                                    <div class="mt-auto mb-4">
-                                        <div class="text-center">
-                                            <a class="para1" href="{{ route('department-agriculture') }}"
-                                                style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
-                                                Department
-                                            </a>
-                                            <a class="para1" href="{{route('faculty-agriculture')}}"
-                                                style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
-                                                Faculty
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="col-lg-3 mb-4 mt-3">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
@@ -808,12 +809,12 @@
                     <div class="row pb-2 text-center justify-content-center">
                         <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
                             <a href="how-to-apply" class="btn text-white w-100 p-3 rounded" style="
-                    font-size: 16px;
-                    font-weight: 600;
-                    background: #27467a;
-                    border: none;
-                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                    transition: transform 0.4s, box-shadow 0.4s;"
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
                                 onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
                                 How to Apply
@@ -822,12 +823,12 @@
 
                         <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
                             <a href="placements-process" class="btn text-white w-100 p-3 rounded" style="
-                    font-size: 16px;
-                    font-weight: 600;
-                    background: #27467a;
-                    border: none;
-                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                    transition: transform 0.4s, box-shadow 0.4s;"
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
                                 onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
                                 Placements
@@ -836,12 +837,12 @@
 
                         <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
                             <a href="programs" class="btn text-white w-100 p-3 rounded" style="
-                    font-size: 16px;
-                    font-weight: 600;
-                    background: #27467a;
-                    border: none;
-                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                    transition: transform 0.4s, box-shadow 0.4s;"
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
                                 onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
                                 Eligibility & Selection Criteria
@@ -850,12 +851,12 @@
 
                         <div class="col-12 col-sm-6 col-lg-3 animate__animated animate__fadeInDown mb-2">
                             <a href="admission-programs-fees-structure" class="btn text-white w-100 p-3 rounded" style="
-                    font-size: 16px;
-                    font-weight: 600;
-                    background: #27467a;
-                    border: none;
-                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-                    transition: transform 0.4s, box-shadow 0.4s;"
+                        font-size: 16px;
+                        font-weight: 600;
+                        background: #27467a;
+                        border: none;
+                        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.4s, box-shadow 0.4s;"
                                 onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0px 12px 20px rgba(0, 0, 0, 0.3)';"
                                 onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.2)';">
                                 Fee Structure
@@ -901,6 +902,34 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-lg-4 mb-4 mt-3">
+                            <div class="card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                                <div class="p-3">
+                                    <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
+                                        src="mobile-assets/agri.png" class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body d-flex flex-column flex-grow-1">
+                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal
+                                        School of Agriculture
+                                        (RSAG)</h5>
+                                    <div class="mt-auto mb-4">
+                                        <div class="text-center">
+                                            <a class="para1" href="{{ route('department-agriculture') }}"
+                                                style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                                Department
+                                            </a>
+                                            <a class="para1" href="{{route('faculty-agriculture')}}"
+                                                style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
+                                                Faculty
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="col-lg-4 mb-4 mt-3">
                             <div class="card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
@@ -1504,32 +1533,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 mb-4 mt-3">
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
-                                <div class="p-3">
-                                    <img style="height: 200px; width: 100%; object-fit: cover; border-radius: 8px;"
-                                        src="mobile-assets/agri.png" class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-4">Royal
-                                        School of Agriculture
-                                        (RSAG)</h5>
-                                    <div class="mt-auto mb-4">
-                                        <div class="text-center">
-                                            <a class="para1" href="{{ route('department-agriculture') }}"
-                                                style="background-color: #27467A; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
-                                                Department
-                                            </a>
-                                            <a class="para1" href="{{route('faculty-agriculture')}}"
-                                                style="background-color: #FF9A1E; border: none; color: #fff; font-weight: 400; border-radius: 8px; padding: 10px 0; text-align: center; width: 48%; text-decoration: none; display: inline-block;">
-                                                Faculty
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
 
                         <div class="col-lg-4 mb-4 mt-3">
                             <div class="card rounded d-flex flex-column"

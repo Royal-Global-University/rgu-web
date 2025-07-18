@@ -176,7 +176,7 @@
                                                                                                                 transform: skewX(-25deg);
                                                                                                                 animation: shine 2s infinite;
                                                                                                                 "></span>
-                            Admisssion Open - Apply Now
+                            Admission Open - Apply Now
                         </a>
                         <style>
                             @keyframes pulse {
