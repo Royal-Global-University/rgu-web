@@ -2913,6 +2913,10 @@ Route::get('/press-coverage', function () {
     return view('frontend/media-corner/press-coverage');
 })->name('press-coverage');
 
+Route::get('/icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty', function () {
+    return view('frontend/media-corner/news24');
+})->name('icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty');
+
 Route::get('/RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy', function () {
     return view('frontend/media-corner/news1');
 })->name('RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy');

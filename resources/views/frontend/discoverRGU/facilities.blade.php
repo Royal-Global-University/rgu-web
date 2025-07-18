@@ -534,7 +534,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 900 !important; color: #27467A;" class="card-title mobile-headd2 pb-2">
-                                    Student <span style="font-weight: 600 !important;">Lounge & Hangout Places</span> </h5>
+                                Hangout &<span style="font-weight: 600 !important;">Student Lounge</span> </h5>
 
 
                                 <a href="facilities-student-lounge">
@@ -940,7 +940,8 @@
               <img style="height: 230px; width: 100%;" src="https://media.rgu.ac/facilities/StudentLounge.jpg" class="img-fluid rounded"/>
             </div>
             <div class="card-body d-flex flex-column flex-grow-1">
-              <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Student <span style="font-weight: 600 !important;">Lounge & Hangout Places</span> </h5>
+            <h5 style="font-weight: 900 !important; color: #27467A;" class="card-title mobile-headd2 pb-2">
+                Hangout &<span style="font-weight: 600 !important;">Student Lounge</span> </h5>
 
 
              <a href="facilities-student-lounge"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>

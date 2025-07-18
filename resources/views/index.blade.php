@@ -927,6 +927,22 @@
 
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
+                                                <img class="rounded" style="height: 150px; width: 100%" src="mobile-assets/rgu-blog/blog2.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-size: 19px; line-height: 1.2;" class="pt-2 m-0 fw-bold">ICMR Awards 3 Start-up Grants worth over ₹1 Crore to RGU Faculty
+                                                </p>
+                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 18, 2025
+                                                </p>
+                                                <a href="icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-3">
+                                            <div class="col-lg-5">
                                                 <img class="rounded" style="height: 150px; width: 100%;" src="mobile-assets/media-corner/news23/1.avif" alt="" />
                                             </div>
                                             <div class="col-lg-7">
@@ -954,34 +970,14 @@
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">July 10, 2025
                                                 </p>
-                                                <a href="rgu-outreach-awareness-on-conservation-of-salamander-habitats">
+                                                <a href="rgu-outreach-awareness-on-conservation-of-salamander-habitat">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px; width: 100%"
-                                                    src="mobile-assets/rgu-blog/blog2.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1.2;"
-                                                    class="pt-2 m-0 fw-bold">RGU offers Scholarship Opportunities for Wards
-                                                    of Police personnel of 8 NE states
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">July 8, 2025
-                                                </p>
-                                                <a
-                                                    href="rgu-offers-scholarship-opportunities-for-wards-of-police-personnel-of-8-ne-states">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
 
 
                                     </div>
