@@ -720,14 +720,14 @@
 
       <div class="col-lg-4 mb-4">
 
-          <a href="hangout"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
+          <a href="facilities-foodcourt"> <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 400px;">
               <div class="p-3">
                 <img style="height: 230px; width: 100%;" src="https://media.rgu.ac/facilities/Hangouts.jpg" class="img-fluid rounded"/>
               </div>
               <div class="card-body d-flex flex-column flex-grow-1">
                 <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Food Court</h5>
 
-               <a href="hangout"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
+               <a href="facilities-foodcourt"><p class="card-text para1 fw-bold half-underline mt-auto" style="color: #FF9A1E;">Explore More</p></a>
               </div>
           </div></a>
 

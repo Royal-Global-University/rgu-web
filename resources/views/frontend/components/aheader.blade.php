@@ -27,7 +27,7 @@
                                 <li><a class="dropdown-item text-dark para1"
                                         href="{{ route('advisory-leadership') }}">Advisory Leadership</a></li>
                                 <li><a class="dropdown-item text-dark para1"
-                                        href="{{ route('deans') }}">Deans</a></li>
+                                        href="{{ route('deans') }}">Deans’ Corner</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('vision-mission') }}">Vision
                                         and Mission</a></li>
                                 <li><a class="dropdown-item text-dark para1"

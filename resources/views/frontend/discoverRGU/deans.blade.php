@@ -5,7 +5,7 @@
         <section style="background-image: url('mobile-assets/boardofmanagement/bg.svg');">
             <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4"
                 style="color: #27467A; font-weight: 900;">
-                Dean</h2>
+                Deans’ Corner</h2>
 
             <div style="padding: 20px 30px;">
 
@@ -346,7 +346,7 @@
 
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
                 style="color: #27467A; font-weight: 900;">
-                Deans </h2>
+                Deans’ Corner </h2>
 
             <div style="padding: 20px 80px;">
 

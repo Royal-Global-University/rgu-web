@@ -242,6 +242,10 @@ Route::get('/360-tour', function () {
 
 //All Facilities
 
+Route::get('/facilities-foodcourt', function () {
+    return view('frontend/facilities/facilities-foodcourt');
+})->name('facilities-foodcourt');
+
 Route::get('/facilities-auditorium', function () {
     return view('frontend/facilities/facilities-auditorium');
 })->name('facilities-auditorium');
