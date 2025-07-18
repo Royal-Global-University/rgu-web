@@ -58,21 +58,38 @@
                 <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
                     <div class="col-lg-3 mb-4">
-
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Rashel-Sarkar-RSET.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Rashel-Sarkar-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Rashel
-                                    Sarkar</h5>
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Rashel Sarkar
+                                </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor
                                 </p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsit/raghvendra.jpg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Raghavendra Prasad
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Associate Professor & HOD, <br>
+                                    Royal School of Information Technology
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -80,7 +97,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Deepjyoti-Choudhury-RSIT.png"
@@ -93,51 +110,27 @@
                                     Associate Professor & HOD, Computer Science & Engineering
                                 </p>
                                 <a href="faculty-deepjyoti-choudhury">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
 
+                    <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Raghavendra-Prasad-RSET.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Anupam-Das-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Raghavendra
-                                    Prasad</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor & HOD, <br>
-                                    Royal School of Information Technology
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Anupam-Das-RSET.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Anupam Das
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Anupam Das
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor, <br>
+                                    Associate Professor
                                 </p>
-
                             </div>
                         </div>
                     </div>
@@ -155,27 +148,6 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor <br>
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Samarjit-Das-RSIT.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Samarjit
-                                    Das</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor, <br>
-
                                 </p>
 
                             </div>
@@ -291,8 +263,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Saurabh-Sutradhar-RSET.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Saurabh-Sutradhar-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -565,10 +536,7 @@
                                     Shwetambara Verma</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, <br> The Assam Royal
                                     Global University</p>
-                                <a href="dr-shwetambara-verma">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
+                                  <a href="dr-shwetambara-verma"><p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p></a>
                             </div>
                         </div>
                     </div>
@@ -808,21 +776,38 @@
                 <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
                     <div class="col-lg-3 mb-4">
-
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Rashel-Sarkar-RSET.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Rashel-Sarkar-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Rashel
-                                    Sarkar</h5>
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Rashel Sarkar
+                                </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor
                                 </p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsit/raghvendra.jpg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Raghavendra Prasad
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Associate Professor & HOD, <br>
+                                    Royal School of Information Technology
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -830,7 +815,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Deepjyoti-Choudhury-RSIT.png"
@@ -843,51 +828,27 @@
                                     Associate Professor & HOD, Computer Science & Engineering
                                 </p>
                                 <a href="faculty-deepjyoti-choudhury">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
 
+                    <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Raghavendra-Prasad-RSET.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Anupam-Das-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Raghavendra
-                                    Prasad</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor & HOD, <br>
-                                    Royal School of Information Technology
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Anupam-Das-RSET.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Anupam Das
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Anupam Das
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor <br>
+                                    Associate Professor
                                 </p>
-
                             </div>
                         </div>
                     </div>
@@ -905,28 +866,6 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor <br>
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Samarjit-Das-RSIT.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Samarjit
-                                    Das</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor, <br>
-
                                 </p>
 
                             </div>
@@ -1042,8 +981,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Saurabh-Sutradhar-RSET.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Saurabh-Sutradhar-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1316,10 +1254,9 @@
                                     Shwetambara Verma</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, <br> The Assam Royal
                                     Global University</p>
-                                <a href="dr-shwetambara-verma">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
+                                    <a href="dr-shwetambara-verma">
+                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    </a>
                             </div>
                         </div>
                     </div>

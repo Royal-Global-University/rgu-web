@@ -151,6 +151,91 @@
 
                     <h2 style="color: #27467A; padding: 20px 0px;" class="headd2 fw-bold">July, 2025</h2>
 
+                    <!-- Accordion 14 -->
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header" id="headingForteen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseForteen" aria-expanded="false" aria-controls="collapseForteen">
+                                A Living Call to Memory: The Bhupen Hazarika Museum Beckons
+                            </button>
+                        </h2>
+                        <div id="collapseForteen" class="accordion-collapse collapse" aria-labelledby="headingForteen"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="custom-carousel-container container" id="carousel14">
+                                    <div class="carousel-desktop-wrapper">
+                                        <div class="carousel-desktop-track"
+                                            style="display: flex; gap: 10px; transition: transform 0.5s ease-in-out;">
+
+                                            <div class="carousel-desktop-item"><img src="mobile-assets/media-corner/accordion14/1.png"
+                                                    class="carousel-desktop-img">
+                                                <a target="_blank"
+                                                    href="https://theassamrising.com/amp/assam/rgu-to-establish-living-museum-honouring-bhupen-hazarikas-centenary-1513098"
+                                                    class="carousel-desktop-btn para1">View News</a>
+                                            </div>
+
+                                            <div class="carousel-desktop-item"><img src="mobile-assets/media-corner/accordion14/2.png"
+                                                    class="carousel-desktop-img">
+                                            </div>
+
+                                            <div class="carousel-desktop-item"><img src="mobile-assets/media-corner/accordion14/3.png"
+                                                    class="carousel-desktop-img">
+                                            </div>
+
+                                            <div class="carousel-desktop-item"><img src="mobile-assets/media-corner/accordion14/4.png"
+                                                    class="carousel-desktop-img">
+                                            </div>
+
+                                            <div class="carousel-desktop-item"><img src="mobile-assets/media-corner/accordion14/5.png"
+                                                    class="carousel-desktop-img">
+                                            </div>
+
+                                            <div class="carousel-desktop-item"><img src="mobile-assets/media-corner/accordion14/6.png"
+                                                    class="carousel-desktop-img">
+                                            </div>
+
+                                        </div>
+                                        <button class="carousel-desktop-prev">&#8592;</button>
+                                        <button class="carousel-desktop-next">&#8594;</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accordion 13 -->
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header" id="headingThirteen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                RGU Outreach: Awareness on Conservation of Salamander Habitat
+                            </button>
+                        </h2>
+                        <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="custom-carousel-container container" id="carousel13">
+                                    <div class="carousel-desktop-wrapper">
+                                        <div class="carousel-desktop-track"
+                                            style="display: flex; gap: 10px; transition: transform 0.5s ease-in-out;">
+
+                                            <div class="carousel-desktop-item"><img src="mobile-assets/media-corner/accordion13/1.png"
+                                                    class="carousel-desktop-img">
+                                            </div>
+
+                                            <div class="carousel-desktop-item"><img src="mobile-assets/media-corner/accordion13/2.png"
+                                                    class="carousel-desktop-img">
+                                            </div>
+
+                                        </div>
+                                        <!-- <button class="carousel-desktop-prev">&#8592;</button>
+                                        <button class="carousel-desktop-next">&#8594;</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Accordion 11 -->
                     <div class="accordion-item mb-2">
                         <h2 class="accordion-header" id="headingEleven">
