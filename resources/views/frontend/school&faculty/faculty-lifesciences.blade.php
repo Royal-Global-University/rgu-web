@@ -164,6 +164,25 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rslsc/Pratikshyas-rslsc.jpg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Pratikshya Borah
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor & Coordinator
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 mb-4">
 
@@ -179,7 +198,7 @@
                                     Dr. Upasna Chettry
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor & Coordinator, Botany & Plant Science
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -207,26 +226,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rslsc/Pratikshyas-rslsc.jpg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Pratikshya Borah
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-lg-3 mb-4">
 
@@ -950,6 +950,26 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rslsc/Pratikshyas-rslsc.jpg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Pratikshya Borah
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor & Coordinator
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
+                            <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/upasana-chettry-botany.jpeg"
                                     class="img-fluid rounded border" />
@@ -959,7 +979,7 @@
                                     Dr. Upasna Chettry
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor & Coordinator, Botany & Plant Science
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -987,26 +1007,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 470px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rslsc/Pratikshyas-rslsc.jpg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Pratikshya Borah
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-lg-3 mb-4">
 
