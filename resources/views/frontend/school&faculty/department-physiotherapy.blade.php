@@ -87,8 +87,7 @@
                                 <td>1.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc. Physiotherapy</strong><br>
-                                        Honours / Honours with Research
+                                        <strong style="color: #023e8a;" class="#">Bachelor of Physiotherapy (BPT)</strong><br>
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -106,9 +105,7 @@
                                 <td>2.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.Sc. Physiotherapy (Lateral
-                                            Entry)</strong><br>
-                                            Honours / Honours with Research
+                                        <strong style="color: #023e8a;" class="#">Bachelor of Physiotherapy (BPT) Lateral Entry</strong><br>
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -126,7 +123,7 @@
                                 <td>3.</td>
                                 <td>
                                     <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">M.Sc. Physiotherapy</strong>
+                                        <strong style="color: #023e8a;" class="#">Master of Physiotherapy (MPT)</strong>
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -234,7 +231,6 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">Bachelor of Physiotherapy (BPT)</strong><br>
-                                        Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
@@ -253,7 +249,6 @@
                                 <td>
                                     <p class="para1">
                                         <strong style="color: #023e8a;" class="#">Bachelor of Physiotherapy (BPT) Lateral Entry</strong><br>
-                                            Honours / Honours with Research
                                     </p>
                                 </td>
                                 <td class="para1">
