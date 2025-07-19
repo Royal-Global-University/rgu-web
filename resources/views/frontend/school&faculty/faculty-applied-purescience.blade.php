@@ -430,6 +430,9 @@
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Pubalee Sarmah</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HoD, Chemistry
                     </p>
+                    <a href="faculty-pubalee-sarmah">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -444,6 +447,9 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Binoyargha Dam</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                    <a href="faculty-binoyargha-dam">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -458,6 +464,9 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Biplob Borah</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                    <a href="faculty-biplob-borah">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -472,6 +481,9 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Debojit Sahu</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                    <a href="faculty-debojeet-sahu">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -514,6 +526,9 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Rajkumar Imocha Singh</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                    <a href="faculty-rajkumar-imocha">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1154,6 +1169,9 @@
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Pubalee Sarmah</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HoD, Chemistry
                     </p>
+                    <a href="faculty-pubalee-sarmah">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1168,6 +1186,9 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Binoyargha Dam</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                    <a href="faculty-binoyargha-dam">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1182,6 +1203,9 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Biplob Borah</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                    <a href="faculty-biplob-borah">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1196,6 +1220,9 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Debojit Sahu</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                    <a href="faculty-debojeet-sahu">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1238,6 +1265,9 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Rajkumar Imocha Singh</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                    <a href="faculty-rajkumar-imocha">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
