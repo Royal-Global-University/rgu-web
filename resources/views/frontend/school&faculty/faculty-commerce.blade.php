@@ -16,7 +16,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/1.jpeg"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Prof-George-AP-RSB.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -27,6 +27,9 @@
                                     Royal School of Commerce <br>
                                     Royal School of Business
                                 </p>
+                                <a href="faculty-george-ap">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -363,9 +366,9 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/1.jpeg"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Prof-George-AP-RSB.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -376,6 +379,9 @@
                                     Royal School of Commerce <br>
                                     Royal School of Business
                                 </p>
+                                <a href="faculty-george-ap">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
