@@ -3031,6 +3031,16 @@ Route::get('/faculty-deepjyoti-choudhury', function () {
     return view('frontend/facultyprofile/rset/deepjyoti-choudhury');
 })->name('faculty-deepjyoti-choudhury');
 
+Route::get('/faculty-dipankar-dutta', function () {
+    return view('frontend/facultyprofile/rset/dipankar-dutta');
+})->name('faculty-dipankar-dutta');
+
+//RSL Faculty Profile
+
+Route::get('/faculty-tushti-sharma', function () {
+    return view('frontend/facultyprofile/rsl/tushti-sharma');
+})->name('faculty-tushti-sharma');
+
 //RSA Faculty Profile
 
 Route::get('/faculty-barnali-chakraborty', function () {
@@ -3467,6 +3477,10 @@ Route::get('/faculty-jubilee-goswami', function () {
     return view('frontend/facultyprofile/rsees/jubilee-goswami');
 })->name('faculty-jubilee-goswami');
 
+Route::get('/faculty-shobhit-pipil', function () {
+    return view('frontend/facultyprofile/rsees/shobhit-pipil');
+})->name('faculty-shobhit-pipil');
+
 
 //RSHM-RSTTM Faculty Profile
 Route::get('/faculty-indrajit-dutta', function () {
@@ -3572,6 +3586,10 @@ Route::get('/faculty-siddhartha-narayan', function () {
 
 //RSCOM Faculty Profile
 
+Route::get('/faculty-subhajit-paul', function () {
+    return view('frontend/facultyprofile/rscom/subhajit-paul');
+})->name('faculty-subhajit-paul');
+
 Route::get('/faculty-suresh-goduka', function () {
     return view('frontend/facultyprofile/rscom/suresh-goduka');
 })->name('faculty-suresh-goduka');
@@ -3649,7 +3667,12 @@ Route::get('/faculty-tania-begum', function () {
 Route::get('/faculty-shalini-saxena', function () {
     return view('frontend/facultyprofile/rshss/shalini-saxena');
 })->name('faculty-shalini-saxena');
+
 //RSLA Facuilty Profile
+
+Route::get('/faculty-saif-rasul-khan', function () {
+    return view('frontend/facultyprofile/rsla/saif-rasul-khan');
+})->name('faculty-saif-rasul-khan');
 
 Route::get('/faculty-tushti-sharma', function () {
     return view('frontend/facultyprofile/rsla/tushti-sharma');
@@ -3696,9 +3719,6 @@ Route::get('/faculty-Nibir-Pratim', function () {
 Route::get('/faculty-santosh-kumar-anand', function () {
     return view('frontend/facultyprofile/rsb/santosh-kumar-anand');
 })->name('faculty-santosh-kumar-anand');
-
-
-
 
 Route::get('/faculty-darshana-bhagowati', function () {
     return view('frontend/facultyprofile/rsb/darshana-bhagowati');

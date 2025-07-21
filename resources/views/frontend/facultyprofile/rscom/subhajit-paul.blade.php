@@ -11,7 +11,7 @@
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
                                 <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
-                                    src="mobile-assets/updated-faculty-img/bhupali.jpeg" alt="">
+                                    src="mobile-assets/updated-faculty-img/no-pic.png" alt="">
                             </div>
                         </div>
 
@@ -30,7 +30,7 @@
                         <div class="col-lg-6 pt-4 pb-4">
 
                             <h2 class="headd1 fw-bold pt-4" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
-                                Dr. Bhupali Saikia
+                                Dr. Subhajit Paul
                             </h2>
 
                             <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
@@ -49,12 +49,13 @@
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Ph.D (Law) – Gujarat National Law University
+                                            Ph.D. - Tezpur University
                                         </span>
                                     </li>
                                     <li
@@ -62,7 +63,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            LL.M (Corporate and Business Laws) – Gujarat National Law University
+                                            Master of Arts - Pondicherry University
                                         </span>
                                     </li>
                                     <li
@@ -70,9 +71,10 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            BA.LLB – Gauhati University
+                                            Bachelor of Arts - St. Anthony’s College, Northeastern Hill University
                                         </span>
                                     </li>
+
                                 </ul>
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
@@ -87,7 +89,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            5 Years 10 Months
+                                            1.5 Years
                                         </span>
                                     </li>
 
@@ -105,13 +107,47 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            5 Years 10 Months
+                                            10 Months
                                         </span>
                                     </li>
 
                                 </ul>
 
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Industry Experience:
+                                </h2>
 
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            6 Months
+                                        </span>
+                                    </li>
+
+                                </ul>
+
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Research (Outside Teaching):
+                                </h2>
+
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            4 years (JRF/ SRF)
+                                        </span>
+                                    </li>
+
+                                </ul>
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
@@ -125,9 +161,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Oil and Gas Industry, Corporate Governance, Environment, Sustainability, Public
-                                            Policy and
-                                            Administration.
+                                            Intersections of politics, identity, and media
                                         </span>
                                     </li>
 
@@ -162,6 +196,24 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Book Chapters Published:
+                                </h2>
+
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            4
+                                        </span>
+                                    </li>
+
+                                </ul>
+
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
                                     Projects Undertaken:
                                 </h2>
 
@@ -172,7 +224,9 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Research Project as Principal Investigator and as Co-Investigator
+                                            Received funding for a project titled “Religious Assertion and Media
+                                            Polarization in Assam: A Case study of the English Print Media” under Research
+                                            and Innovation Grant, Tezpur University
                                         </span>
                                     </li>
 
@@ -180,38 +234,21 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Any Other Achievements/Awards:
+                                    Any Other Achievements/ Awards:
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Dr. Bashi Ram Bodo Doctoral Fellowship. (2021)
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            First Class Fourth in BALLB (H) under Gauhati University. (2015)
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Recognised as ‘Child Scientist’ at the National Level of National Children’s
-                                            Science Congress,
-                                            Department of Science and Technology, Government of India. (2007)
-                                        </span>
-                                    </li>
-                                </ul>
 
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Awarded UGC Junior Research Fellowship in 2020, subsequently upgraded to Senior
+                                            Research Fellowship in 2022 </span>
+                                    </li>
+
+                                </ul>
 
 
                             </div>
@@ -233,7 +270,7 @@
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="mobile-assets/updated-faculty-img/bhupali.jpeg" alt="">
+                                src="mobile-assets/updated-faculty-img/no-pic.png" alt="">
                         </div>
 
                     </div>
@@ -241,7 +278,7 @@
                     <div class="col-lg-7 pt-5">
 
                         <h2 class="headd1 fw-bold pt-5 mb-3" style="color: #FF9A1E; font-weight: 700; font-size: 45px;">
-                            Dr. Bhupali Saikia
+                            Dr. Subhajit Paul
                         </h2>
 
                         <h2 class="headd3 mb-5 fw-bold half-underline"
@@ -271,27 +308,29 @@
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Ph.D (Law) – Gujarat National Law University
+                                        Ph.D. - Tezpur University
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        LL.M (Corporate and Business Laws) – Gujarat National Law University
+                                        Master of Arts - Pondicherry University
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        BA.LLB – Gauhati University
+                                        Bachelor of Arts - St. Anthony’s College, Northeastern Hill University
                                     </span>
                                 </li>
+
                             </ul>
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
@@ -305,7 +344,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        5 Years 10 Months
+                                        1.5 Years
                                     </span>
                                 </li>
 
@@ -322,13 +361,45 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        5 Years 10 Months
+                                        10 Months
                                     </span>
                                 </li>
 
                             </ul>
 
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Industry Experience:
+                            </h2>
 
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        6 Months
+                                    </span>
+                                </li>
+
+                            </ul>
+
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Research (Outside Teaching):
+                            </h2>
+
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        4 years (JRF/ SRF)
+                                    </span>
+                                </li>
+
+                            </ul>
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
@@ -341,9 +412,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Oil and Gas Industry, Corporate Governance, Environment, Sustainability, Public
-                                        Policy and
-                                        Administration.
+                                        Intersections of politics, identity, and media
                                     </span>
                                 </li>
 
@@ -376,6 +445,23 @@
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Book Chapters Published:
+                            </h2>
+
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        4
+                                    </span>
+                                </li>
+
+                            </ul>
+
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
                                 Projects Undertaken:
                             </h2>
 
@@ -385,7 +471,9 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Research Project as Principal Investigator and as Co-Investigator
+                                        Received funding for a project titled “Religious Assertion and Media Polarization in
+                                        Assam: A Case study of the English Print Media” under Research and Innovation Grant,
+                                        Tezpur University
                                     </span>
                                 </li>
 
@@ -393,35 +481,20 @@
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Any Other Achievements/Awards:
+                                Any Other Achievements/ Awards:
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Dr. Bashi Ram Bodo Doctoral Fellowship. (2021)
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        First Class Fourth in BALLB (H) under Gauhati University. (2015)
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Recognised as ‘Child Scientist’ at the National Level of National Children’s Science
-                                        Congress,
-                                        Department of Science and Technology, Government of India. (2007)
-                                    </span>
-                                </li>
-                            </ul>
 
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Awarded UGC Junior Research Fellowship in 2020, subsequently upgraded to Senior
+                                        Research Fellowship in 2022 </span>
+                                </li>
+
+                            </ul>
 
 
                         </div>

@@ -11,7 +11,7 @@
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
                                 <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
-                                    src="mobile-assets/updated-faculty-img/bhupali.jpeg" alt="">
+                                    src="mobile-assets/updated-faculty-img/Dipankar.jpg" alt="">
                             </div>
                         </div>
 
@@ -30,11 +30,11 @@
                         <div class="col-lg-6 pt-4 pb-4">
 
                             <h2 class="headd1 fw-bold pt-4" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
-                                Dr. Bhupali Saikia
+                                Dr. Dipankar Dutta
                             </h2>
 
                             <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
-                                Assistant Professor
+                                Associate Professor
                             </h2>
 
                             <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
@@ -49,12 +49,13 @@
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Ph.D (Law) – Gujarat National Law University
+                                            Ph.D. (Speech processing using Machine Learning) - Gauhati University.
                                         </span>
                                     </li>
                                     <li
@@ -62,7 +63,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            LL.M (Corporate and Business Laws) – Gujarat National Law University
+                                            MCA (Computer Application) – NERIM Group of Institutions, Dibrugarh University.
                                         </span>
                                     </li>
                                     <li
@@ -70,9 +71,10 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            BA.LLB – Gauhati University
+                                            B.Sc., (Physics) – Bahona College, Dibrugarh University.
                                         </span>
                                     </li>
+
                                 </ul>
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
@@ -87,7 +89,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            5 Years 10 Months
+                                            17 Years
                                         </span>
                                     </li>
 
@@ -105,13 +107,29 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            5 Years 10 Months
+                                            17 Years
                                         </span>
                                     </li>
 
                                 </ul>
 
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Research (Outside Teaching):
+                                </h2>
 
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            7 Years
+                                        </span>
+                                    </li>
+
+                                </ul>
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
@@ -125,9 +143,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Oil and Gas Industry, Corporate Governance, Environment, Sustainability, Public
-                                            Policy and
-                                            Administration.
+                                            Speech Processing, Image Processing, Machine Learning
                                         </span>
                                     </li>
 
@@ -145,16 +161,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            National: 3
-                                        </span>
-                                    </li>
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            International: 2
+                                            International: 6
                                         </span>
                                     </li>
 
@@ -162,7 +169,7 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Projects Undertaken:
+                                    Patent Published:
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -172,7 +179,8 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Research Project as Principal Investigator and as Co-Investigator
+                                            “DEVICE TO DETECT EMOTIONS IN ORGANIZATIONAL STRUCTURE”, Design no: 390090-001,
+                                            Date: 12-07-2023.
                                         </span>
                                     </li>
 
@@ -180,39 +188,39 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Any Other Achievements/Awards:
+                                    Book Chapter Published:
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Dr. Bashi Ram Bodo Doctoral Fellowship. (2021)
+                                            16
                                         </span>
                                     </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            First Class Fourth in BALLB (H) under Gauhati University. (2015)
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Recognised as ‘Child Scientist’ at the National Level of National Children’s
-                                            Science Congress,
-                                            Department of Science and Technology, Government of India. (2007)
-                                        </span>
-                                    </li>
+
                                 </ul>
 
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Books Edited:
+                                </h2>
 
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            1
+                                        </span>
+                                    </li>
+
+                                </ul>
 
                             </div>
 
@@ -233,7 +241,7 @@
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="mobile-assets/updated-faculty-img/bhupali.jpeg" alt="">
+                                src="mobile-assets/updated-faculty-img/Dipankar.jpg" alt="">
                         </div>
 
                     </div>
@@ -241,12 +249,12 @@
                     <div class="col-lg-7 pt-5">
 
                         <h2 class="headd1 fw-bold pt-5 mb-3" style="color: #FF9A1E; font-weight: 700; font-size: 45px;">
-                            Dr. Bhupali Saikia
+                            Dr. Dipankar Dutta
                         </h2>
 
                         <h2 class="headd3 mb-5 fw-bold half-underline"
                             style="color: #27467A; font-weight: 700; font-size: 26px;">
-                            Assistant Professor
+                            Associate Professor
                         </h2>
 
                         <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
@@ -271,27 +279,29 @@
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Ph.D (Law) – Gujarat National Law University
+                                        Ph.D. (Speech processing using Machine Learning) - Gauhati University.
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        LL.M (Corporate and Business Laws) – Gujarat National Law University
+                                        MCA (Computer Application) – NERIM Group of Institutions, Dibrugarh University.
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        BA.LLB – Gauhati University
+                                        B.Sc., (Physics) – Bahona College, Dibrugarh University.
                                     </span>
                                 </li>
+
                             </ul>
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
@@ -305,7 +315,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        5 Years 10 Months
+                                        17 Years
                                     </span>
                                 </li>
 
@@ -322,13 +332,28 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        5 Years 10 Months
+                                        17 Years
                                     </span>
                                 </li>
 
                             </ul>
 
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Research (Outside Teaching):
+                            </h2>
 
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        7 Years
+                                    </span>
+                                </li>
+
+                            </ul>
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
@@ -341,9 +366,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Oil and Gas Industry, Corporate Governance, Environment, Sustainability, Public
-                                        Policy and
-                                        Administration.
+                                        Speech Processing, Image Processing, Machine Learning
                                     </span>
                                 </li>
 
@@ -360,15 +383,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        National: 3
-                                    </span>
-                                </li>
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        International: 2
+                                        International: 6
                                     </span>
                                 </li>
 
@@ -376,7 +391,7 @@
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Projects Undertaken:
+                                Patent Published:
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -385,7 +400,8 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Research Project as Principal Investigator and as Co-Investigator
+                                        “DEVICE TO DETECT EMOTIONS IN ORGANIZATIONAL STRUCTURE”, Design no: 390090-001,
+                                        Date: 12-07-2023.
                                     </span>
                                 </li>
 
@@ -393,36 +409,37 @@
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Any Other Achievements/Awards:
+                                Book Chapter Published:
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Dr. Bashi Ram Bodo Doctoral Fellowship. (2021)
+                                        16
                                     </span>
                                 </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        First Class Fourth in BALLB (H) under Gauhati University. (2015)
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Recognised as ‘Child Scientist’ at the National Level of National Children’s Science
-                                        Congress,
-                                        Department of Science and Technology, Government of India. (2007)
-                                    </span>
-                                </li>
+
                             </ul>
 
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Books Edited:
+                            </h2>
 
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        1
+                                    </span>
+                                </li>
+
+                            </ul>
 
                         </div>
 
