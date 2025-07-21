@@ -3032,6 +3032,40 @@ Route::get('/faculty-deepjyoti-choudhury', function () {
 })->name('faculty-deepjyoti-choudhury');
 
 //RSA Faculty Profile
+
+Route::get('/faculty-barnali-chakraborty', function () {
+    return view('frontend/facultyprofile/rsa/barnali-chakraborty');
+})->name('faculty-barnali-chakraborty');
+
+Route::get('/faculty-barsha-kunda', function () {
+    return view('frontend/facultyprofile/rsa/barsha-kunda');
+})->name('faculty-barsha-kunda');
+
+Route::get('/faculty-Bhola-Saha', function () {
+    return view('frontend/facultyprofile/rsa/Bhola-Saha');
+})->name('faculty-Bhola-Saha');
+
+Route::get('/faculty-kasturi-borah', function () {
+    return view('frontend/facultyprofile/rsa/kasturi-borah');
+})->name('faculty-kasturi-borah');
+
+Route::get('/faculty-pooja-singh', function () {
+    return view('frontend/facultyprofile/rsa/pooja-singh');
+})->name('faculty-pooja-singh');
+
+Route::get('/faculty-pratyasha-das', function () {
+    return view('frontend/facultyprofile/rsa/pratyasha-das');
+})->name('faculty-pratyasha-das');
+
+Route::get('/faculty-ritu-rani', function () {
+    return view('frontend/facultyprofile/rsa/ritu-rani');
+})->name('faculty-ritu-rani');
+
+Route::get('/faculty-sanchari-kar', function () {
+    return view('frontend/facultyprofile/rsa/sanchari-kar');
+})->name('faculty-sanchari-kar');
+
+
 Route::get('/faculty-dr-mukta-agarwal', function () {
     return view('frontend/facultyprofile/rsp/mukta');
 })->name('faculty-dr-mukta-agarwal');
@@ -3213,7 +3247,18 @@ Route::get('/faculty-elizabeth', function () {
     return view('frontend/facultyprofile/rsmas/elizabeth');
 })->name('faculty-elizabeth');
 
+
+// RSFT Faculty Profile
+
+Route::get('/faculty-thangjam-roshini', function () {
+    return view('frontend/facultyprofile/rsft/thangjam-roshini');
+})->name('faculty-thangjam-roshini');
+
 // RSAPS Faculty Profile
+
+Route::get('/faculty-amdrendra-rajput', function () {
+    return view('frontend/facultyprofile/rsaps/amdrendra-rajput');
+})->name('faculty-amdrendra-rajput');
 
 Route::get('/faculty-binoyargha-dam', function () {
     return view('frontend/facultyprofile/rsaps/binoyargha-dam');

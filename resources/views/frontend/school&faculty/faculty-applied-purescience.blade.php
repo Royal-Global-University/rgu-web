@@ -579,6 +579,9 @@
                       Prof. Amarendra Rajput</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 18px;">Professor and Advisor
                     </p>
+                    <a href="faculty-amdrendra-rajput">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -817,6 +820,9 @@
                   <div class="card-body d-flex flex-column flex-grow-1">
                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Amarendra Rajput</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Advisor</p>
+                    <a href="faculty-amdrendra-rajput">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1319,6 +1325,9 @@
                       Prof. Amarendra Rajput</h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 18px;">Professor and Advisor
                     </p>
+                    <a href="faculty-amdrendra-rajput">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
