@@ -3256,6 +3256,19 @@ Route::get('/faculty-thangjam-roshini', function () {
 
 // RSAPS Faculty Profile
 
+Route::get('/faculty-mullah-muhaiminul-islam', function () {
+    return view('frontend/facultyprofile/rsaps/mullah-muhaiminul-islam');
+})->name('faculty-mullah-muhaiminul-islam');
+
+Route::get('/faculty-nongthombam-geetmani-singh', function () {
+    return view('frontend/facultyprofile/rsaps/nongthombam-geetmani-singh');
+})->name('faculty-nongthombam-geetmani-singh');
+
+Route::get('/faculty-sachidulal-biswas', function () {
+    return view('frontend/facultyprofile/rsaps/sachidulal-biswas');
+})->name('faculty-sachidulal-biswas');
+
+
 Route::get('/faculty-amdrendra-rajput', function () {
     return view('frontend/facultyprofile/rsaps/amdrendra-rajput');
 })->name('faculty-amdrendra-rajput');
