@@ -374,7 +374,7 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Teaching Assistant
                                 </p>
-                                <a href="faculty-dr-padum-chetry">
+                                <a href="faculty-prachi-khetan">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
                                         Profile</p>
                                 </a>
@@ -765,7 +765,7 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Teaching Assistant
                                 </p>
-                                <a href="faculty-dr-padum-chetry">
+                                <a href="faculty-prachi-khetan">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
                                         Profile</p>
                                 </a>
