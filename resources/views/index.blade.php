@@ -3,24 +3,27 @@
 @section('meta_description', 'Discover Royal Global University, the best private university in Assam offering world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG programs.')
 @section('meta_keywords', 'Best University in Assam')
 @section('content')
-    <!-- Popup -->
-    <div id="popup" class="popup-overlay">
-        <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}" style="width: 550px; height: 550px;"  class="popup-image" alt="Popup Image"></a>
-    </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const popup = document.getElementById('popup');
-
-            // When click anywhere outside the image, hide the popup
-            popup.addEventListener('click', function (event) {
-                if (event.target === popup) {
-                    popup.style.display = 'none';
-                }
-            });
-        });
-    </script>
     <section class="mobile">
+
+                    <!-- Popup -->
+                    <div id="popup-web" class="popup-overlay">
+                        <a href="https://admissions.rgu.ac/" target="_blank" class="text-center"><img src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}"
+                                style="width: 400px; height: 400px;" class="popup-image" alt="Popup Image"></a>
+                    </div>
+
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function () {
+                            const popup = document.getElementById('popup-web');
+
+                            // When click anywhere outside the image, hide the popup
+                            popup.addEventListener('click', function (event) {
+                                if (event.target === popup) {
+                                    popup.style.display = 'none';
+                                }
+                            });
+                        });
+                    </script>
 
         <!-- Floating WhatsApp Button -->
         <a href="https://wa.me/917099028518" class="whatsapp-float" target="_blank">
@@ -634,6 +637,24 @@
     </section>
 
     <section class="website">
+            <!-- Popup -->
+            <div id="popup-web" class="popup-overlay">
+                <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}"
+                        style="width: 550px; height: 550px;" class="popup-image" alt="Popup Image"></a>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const popup = document.getElementById('popup-web');
+
+                    // When click anywhere outside the image, hide the popup
+                    popup.addEventListener('click', function (event) {
+                        if (event.target === popup) {
+                            popup.style.display = 'none';
+                        }
+                    });
+                });
+            </script>
         <div id="page" class="site site_wrapper">
 
             <div class="scroll-top">
