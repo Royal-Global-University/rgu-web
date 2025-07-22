@@ -3765,6 +3765,43 @@ Route::get('/faculty-shalini-saxena', function () {
     return view('frontend/facultyprofile/rshss/shalini-saxena');
 })->name('faculty-shalini-saxena');
 
+
+Route::get('/faculty-amlan-das-rshss', function () {
+    return view('frontend/facultyprofile/rshss/amlan-das-rshss');
+})->name('faculty-amlan-das-rshss');
+
+Route::get('/faculty-bikash-chetry', function () {
+    return view('frontend/facultyprofile/rshss/bikash-chetry');
+})->name('faculty-bikash-chetry');
+
+Route::get('/faculty-joyeeta-bhattacharjee', function () {
+    return view('frontend/facultyprofile/rshss/joyeeta-bhattacharjee');
+})->name('faculty-joyeeta-bhattacharjee');
+
+Route::get('/faculty-kristi-saikia', function () {
+    return view('frontend/facultyprofile/rshss/kristi-saikia');
+})->name('faculty-kristi-saikia');
+
+Route::get('/faculty-luithuiwung-awungshi', function () {
+    return view('frontend/facultyprofile/rshss/luithuiwung-awungshi');
+})->name('faculty-luithuiwung-awungshi');
+
+Route::get('/faculty-madhu-monjuri-gohain', function () {
+    return view('frontend/facultyprofile/rshss/madhu-monjuri-gohain');
+})->name('faculty-madhu-monjuri-gohain');
+
+Route::get('/faculty-moses-newme', function () {
+    return view('frontend/facultyprofile/rshss/moses-newme');
+})->name('faculty-moses-newme');
+
+Route::get('/faculty-nabanita-hazarika', function () {
+    return view('frontend/facultyprofile/rshss/nabanita-hazarika');
+})->name('faculty-nabanita-hazarika');
+
+Route::get('/faculty-priyanka-patowari', function () {
+    return view('frontend/facultyprofile/rshss/priyanka-patowari');
+})->name('faculty-priyanka-patowari');
+
 //RSLA Facuilty Profile
 
 Route::get('/faculty-sumit-agarwala', function () {
