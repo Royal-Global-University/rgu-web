@@ -113,7 +113,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-Abhisek">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -173,7 +176,10 @@
                                     Teaching Assistant, <br>
 
                                 </p>
-
+                                <a href="/faculty-ankit-bordoloi">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -858,7 +864,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-Abhisek">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -906,7 +915,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
                                     class="img-fluid rounded border" />
@@ -918,7 +927,10 @@
                                     Teaching Assistant, <br>
 
                                 </p>
-
+                                <a href="/faculty-ankit-bordoloi">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>

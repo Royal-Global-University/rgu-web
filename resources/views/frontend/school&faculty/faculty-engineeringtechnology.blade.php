@@ -555,6 +555,28 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Abhijeet-Dey-RSET.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Abhijeet
+                                    Dey</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal
+                                Global University</p>
+                                <a href="faculty-abhijeet-dey">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
@@ -566,7 +588,10 @@
                                     Duarah</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor &
                                     Coordinator, Civil Engineering and Assistant Dean, Admission</p>
-
+                                    <a href="faculty-rishikesh-duarah">
+                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                            Profile</p>
+                                    </a>
                             </div>
                         </div>
                     </div>
@@ -585,7 +610,10 @@
                                     Borah</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor <br> The
                                     Assam Royal Global University</p>
-
+                                <a href="faculty-bonisha-borah">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -604,7 +632,10 @@
                                     Rahman</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor <br> The
                                     Assam Royal Global University</p>
-
+                                    <a href="faculty-shehnaz-ara-rahman">
+                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                            Profile</p>
+                                    </a>
                             </div>
                         </div>
                     </div>
@@ -623,7 +654,10 @@
                                     Paul Choudhury</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Assistant
                                     Dean, Student Affairs <br></p>
-
+                                    <a href="faculty-shinjini-paul-choudhury">
+                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                            Profile</p>
+                                    </a>
                             </div>
                         </div>
                     </div>
@@ -661,7 +695,10 @@
                                     Upadhyaya</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor <br> The
                                     Assam Royal Global University</p>
-
+                                <a href="faculty-chandra-upadhyaya">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1287,15 +1324,18 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Mr.-Rishikesh-Duarah-RSET.png"
+                                    src="mobile-assets/updated-faculty-img/Abhijeet-Dey-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Rishikesh
-                                    Duarah</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor &
-                                    Coordinator, Civil Engineering and Assistant Dean, Admission</p>
-
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Abhijeet
+                                    Dey</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, <br> The Assam Royal
+                                Global University</p>
+                                <a href="faculty-abhijeet-dey">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1306,6 +1346,28 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Mr.-Rishikesh-Duarah-RSET.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Rishikesh
+                                    Duarah</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor &
+                                    Coordinator, Civil Engineering and Assistant Dean, Admission</p>
+                                    <a href="faculty-rishikesh-duarah">
+                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                            Profile</p>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Bonisha-Borah-RSET.png"
                                     class="img-fluid rounded border" />
                             </div>
@@ -1314,7 +1376,10 @@
                                     Borah</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor <br> The
                                     Assam Royal Global University</p>
-
+                                <a href="faculty-bonisha-borah">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1322,7 +1387,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Shehnaz-Ara-Rahman-RSET.png"
@@ -1333,7 +1398,10 @@
                                     Rahman</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor <br> The
                                     Assam Royal Global University</p>
-
+                                    <a href="faculty-shehnaz-ara-rahman">
+                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                            Profile</p>
+                                    </a>
                             </div>
                         </div>
                     </div>
@@ -1341,7 +1409,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Shinjini-Paul-RSET.png"
@@ -1352,7 +1420,10 @@
                                     Paul Choudhury</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Assistant
                                     Dean, Student Affairs <br></p>
-
+                                    <a href="faculty-shinjini-paul-choudhury">
+                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                            Profile</p>
+                                    </a>
                             </div>
                         </div>
                     </div>
@@ -1360,7 +1431,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Antara-Banerjee-RSET.png"
@@ -1371,7 +1442,10 @@
                                     Banerjee</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor <br> The
                                     Assam Royal Global University</p>
-
+                                <a href="faculty-antara-banerjee">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1379,7 +1453,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Chandra-Upadhyaya-RSET.png"
@@ -1390,7 +1464,10 @@
                                     Upadhyaya</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor <br> The
                                     Assam Royal Global University</p>
-
+                                <a href="faculty-chandra-upadhyaya">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1398,7 +1475,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Jemima-Yasmin.png"
@@ -1417,7 +1494,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Raisa-Tamsin-Hussain.png"
@@ -1428,7 +1505,10 @@
                                     Tamsin Hussain</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor <br> The
                                     Assam Royal Global University</p>
-
+                                <a href="faculty-raisa-tamsin-hussain">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1436,7 +1516,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Rajesh-Deb-RSD.png"
@@ -1447,7 +1527,10 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor <br> The
                                     Assam Royal Global University</p>
-
+                                <a href="faculty-rajesh-deb">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>

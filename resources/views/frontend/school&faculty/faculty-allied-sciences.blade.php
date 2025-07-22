@@ -57,6 +57,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor &
                                     Coordinator, Psychology
                                 </p>
+                                <a href="faculty-queen-deka">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -92,6 +95,9 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Fariza
                                     Saidin</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="faculty-fariza-saidin">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -108,6 +114,9 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Jwmwishree
                                     Boro</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="faculty-jwmwishree-boro">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -202,6 +211,9 @@
                                     Hoque Mozumdar
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="faculty-tahera-mozumdar">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -218,6 +230,9 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Jahnabi
                                     Mahanta</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="faculty-jahnabi-mahanta">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -298,6 +313,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor &
                                     Coordinator, Psychology
                                 </p>
+                                <a href="faculty-queen-deka">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -333,6 +351,9 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Fariza
                                     Saidin</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="faculty-fariza-saidin">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -349,6 +370,9 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Jwmwishree
                                     Boro</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="faculty-jwmwishree-boro">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -443,6 +467,9 @@
                                     Hoque Mozumdar
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="faculty-tahera-mozumdar">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -478,6 +505,9 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Jahnabi
                                     Mahanta</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="faculty-jahnabi-mahanta">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
