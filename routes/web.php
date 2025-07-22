@@ -3468,6 +3468,15 @@ Route::get('/faculty-sudip-chakraborty', function () {
     return view('frontend/facultyprofile/rsc/sudip-chakraborty');
 })->name('faculty-sudip-chakraborty');
 
+//RSD Faculty Profile
+Route::get('/faculty-Abhisek', function () {
+    return view('frontend/facultyprofile/rsd/Abhisek');
+})->name('faculty-Abhisek');
+
+Route::get('/faculty-ankit-bordoloi', function () {
+    return view('frontend/facultyprofile/rsd/ankit-bordoloi');
+})->name('faculty-ankit-bordoloi');
+
 //RSEES Faculty Profile
 Route::get('/faculty-hibjur-rahaman', function () {
     return view('frontend/facultyprofile/rsees/hibjur-rahaman');
@@ -3480,6 +3489,38 @@ Route::get('/faculty-jubilee-goswami', function () {
 Route::get('/faculty-shobhit-pipil', function () {
     return view('frontend/facultyprofile/rsees/shobhit-pipil');
 })->name('faculty-shobhit-pipil');
+
+Route::get('/faculty-abhijit-gogoi', function () {
+    return view('frontend/facultyprofile/rsees/abhijit-gogoi');
+})->name('faculty-abhijit-gogoi');
+
+Route::get('/faculty-amarjyoti-borah', function () {
+    return view('frontend/facultyprofile/rsees/amarjyoti-borah');
+})->name('faculty-amarjyoti-borah');
+
+Route::get('/faculty-hemangi-deka', function () {
+    return view('frontend/facultyprofile/rsees/hemangi-deka');
+})->name('faculty-hemangi-deka');
+
+Route::get('/faculty-neeta-moni-sharma', function () {
+    return view('frontend/facultyprofile/rsees/neeta-moni-sharma');
+})->name('faculty-neeta-moni-sharma');
+
+Route::get('/faculty-nishanta-sahariah', function () {
+    return view('frontend/facultyprofile/rsees/nishanta-sahariah');
+})->name('faculty-nishanta-sahariah');
+
+Route::get('/faculty-pritom-borah', function () {
+    return view('frontend/facultyprofile/rsees/pritom-borah');
+})->name('faculty-pritom-borah');
+
+Route::get('/faculty-rajdeep-deb', function () {
+    return view('frontend/facultyprofile/rsees/rajdeep-deb');
+})->name('faculty-rajdeep-deb');
+
+Route::get('/faculty-roshmi-boruah', function () {
+    return view('frontend/facultyprofile/rsees/roshmi-boruah');
+})->name('faculty-roshmi-boruah');
 
 
 //RSHM-RSTTM Faculty Profile
