@@ -7,14 +7,14 @@
     <section class="mobile">
 
                     <!-- Popup -->
-                    <div id="popup-web" class="popup-overlay">
+                    <div id="popup-mob" class="popup-overlay">
                         <a href="https://admissions.rgu.ac/" target="_blank" class="text-center"><img src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}"
                                 style="width: 400px; height: 400px;" class="popup-image" alt="Popup Image"></a>
                     </div>
 
                     <script>
                         document.addEventListener('DOMContentLoaded', function () {
-                            const popup = document.getElementById('popup-web');
+                            const popup = document.getElementById('popup-mob');
 
                             // When click anywhere outside the image, hide the popup
                             popup.addEventListener('click', function (event) {
