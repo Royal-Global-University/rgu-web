@@ -4,7 +4,7 @@
 @section('meta_keywords', 'Best University in Assam')
 @section('content')
     <!-- Popup -->
-    <div id="popup" class="popup-overlay">
+    {{-- <div id="popup" class="popup-overlay">
         <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}" style="width: 550px; height: 550px;"  class="popup-image" alt="Popup Image"></a>
     </div>
 
@@ -19,7 +19,7 @@
                 }
             });
         });
-    </script>
+    </script> --}}
     <section class="mobile">
 
         <!-- Floating WhatsApp Button -->
