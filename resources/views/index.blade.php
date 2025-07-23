@@ -639,7 +639,7 @@
     <section class="website">
             <!-- Popup -->
             <div id="popup-web" class="popup-overlay">
-                <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}"
+                <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-2025.png') }}"
                         style="width: 550px; height: 550px;" class="popup-image" alt="Popup Image"></a>
             </div>
 
