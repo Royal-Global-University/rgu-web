@@ -109,7 +109,7 @@
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
-                        <img src="mobile-assets/events/mob-17.jpg" class="d-block w-100 rounded" alt="...">
+                        <img src="mobile-assets/events/adira-mob.jpg" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item ">
                         <img src="https://media.rgu.ac/index/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded"
@@ -840,7 +840,7 @@
                                     Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span></h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
-                                    <img class="zoomable active" src="mobile-assets/events/22.jpg"
+                                    <img class="zoomable active" src="mobile-assets/events/adira-web.jpg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
