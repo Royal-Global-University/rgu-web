@@ -72,6 +72,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor
                                 </p>
+                                <a href="faculty-rashel-sarkar">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -134,6 +138,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor
                                 </p>
+                                <a href="faculty-anupam-das">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -141,7 +149,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dipankar.jpg" class="img-fluid rounded border" />
@@ -154,6 +162,28 @@
                                     Associate Professor <br>
                                 </p>
                                 <a href="faculty-dipankar-dutta">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Samarjit-Das-RSIT.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Samarjit Das
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Associate Professor
+                                </p>
+                                <a href="faculty-samarjit-das">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
                                         Profile</p>
                                 </a>
@@ -197,7 +227,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-akangkhi-borah">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -218,7 +251,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-ankita-goyal-agarwala">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -239,7 +275,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-nayan-jyoti-kalita">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -260,7 +299,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-nilakshi-deka">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -281,7 +323,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-saurabh-sutradhar">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -302,7 +347,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-spandan-barthakur">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -838,6 +886,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor
                                 </p>
+                                <a href="faculty-rashel-sarkar">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -900,6 +952,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor
                                 </p>
+                                <a href="faculty-anupam-das">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -920,6 +976,28 @@
                                     Associate Professor <br>
                                 </p>
                                 <a href="faculty-dipankar-dutta">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Samarjit-Das-RSIT.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Samarjit Das
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Associate Professor
+                                </p>
+                                <a href="faculty-samarjit-das">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
                                         Profile</p>
                                 </a>
@@ -963,7 +1041,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-akangkhi-borah">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -984,7 +1065,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-ankita-goyal-agarwala">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1005,7 +1089,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-nayan-jyoti-kalita">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1026,7 +1113,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-nilakshi-deka">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1047,7 +1137,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-saurabh-sutradhar">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1068,7 +1161,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-spandan-barthakur">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>

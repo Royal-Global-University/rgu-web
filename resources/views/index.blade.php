@@ -827,7 +827,7 @@
             <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
 
                 <a href="/preface"><img src="https://media.rgu.ac/explore/web.png" alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape."></a>
-
+                
 
                 <!--New Events-->
                 <div class="container" style="padding: 30px 0px;">

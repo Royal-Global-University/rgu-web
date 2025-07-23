@@ -3,24 +3,27 @@
 @section('meta_description', 'Discover Royal Global University, the best private university in Assam offering world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG programs.')
 @section('meta_keywords', 'Best University in Assam')
 @section('content')
-    <!-- Popup -->
-    {{-- <div id="popup" class="popup-overlay">
-        <img src="{{ asset('mobile-assets/index-ads/ads1.jpeg') }}" class="popup-image" alt="Popup Image">
-    </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const popup = document.getElementById('popup');
-
-            // When click anywhere outside the image, hide the popup
-            popup.addEventListener('click', function (event) {
-                if (event.target === popup) {
-                    popup.style.display = 'none';
-                }
-            });
-        });
-    </script> --}}
     <section class="mobile">
+
+                    <!-- Popup -->
+                    <div id="popup-mob" class="popup-overlay">
+                        <a href="https://admissions.rgu.ac/" target="_blank" class="text-center"><img src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}"
+                                style="width: 400px; height: 400px;" class="popup-image" alt="Popup Image"></a>
+                    </div>
+
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function () {
+                            const popup = document.getElementById('popup-mob');
+
+                            // When click anywhere outside the image, hide the popup
+                            popup.addEventListener('click', function (event) {
+                                if (event.target === popup) {
+                                    popup.style.display = 'none';
+                                }
+                            });
+                        });
+                    </script>
 
         <!-- Floating WhatsApp Button -->
         <a href="https://wa.me/917099028518" class="whatsapp-float" target="_blank">
@@ -31,26 +34,26 @@
         <!-- Floating Section with Frosted Background -->
         <div class="container">
             <div class="floating-wrapper" style="
-                                        position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-                                        width: 90%; max-width: 400px; z-index: 800;
-                                        backdrop-filter: blur(30px);
-                                        background: #27467A; /* Frosty effect */
-                                        border-radius: 10px;
-                                        box-shadow: 0 1px 1px #ffffff97;
-                                        border: 1px solid #27467A;
-                                        padding: 15px;">
+                                    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+                                    width: 90%; max-width: 400px; z-index: 800;
+                                    backdrop-filter: blur(30px);
+                                    background: #27467A; /* Frosty effect */
+                                    border-radius: 10px;
+                                    box-shadow: 0 1px 1px #ffffff97;
+                                    border: 1px solid #27467A;
+                                    padding: 15px;">
 
                 <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
                     <span class="mobile-para1" style="
-                                                font-weight: bold; font-size: 18px; line-height: 1.3;
-                                                color: #fff; flex-grow: 1;">
+                                            font-weight: bold; font-size: 18px; line-height: 1.3;
+                                            color: #fff; flex-grow: 1;">
                         Admission open for 2025 - 2026
                     </span>
 
                     <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
-                                                background-color: #ffb300; color: #fff;
-                                                font-weight: bold; padding: 10px 14px; border-radius: 5px;
-                                                text-decoration: none; white-space: nowrap;">
+                                            background-color: #ffb300; color: #fff;
+                                            font-weight: bold; padding: 10px 14px; border-radius: 5px;
+                                            text-decoration: none; white-space: nowrap;">
                         Apply Now
                     </a>
                 </div>
@@ -92,9 +95,233 @@
         <!-- discover rgu -->
         <div>
             <a href=""><img src="https://media.rgu.ac/explore/mob.png"
-                    alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape." /></a>
+                alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape." /></a>
         </div>
         <!-- discover rgu -->
+
+        <div>
+            <div>
+                <div class="text-center">
+                    <img class="text-center" src="mobile-assets/events/deeksharambh.png" style="width: 50%" />
+                </div>
+                <div class="row p-3">
+                    <div class="col-lg-5 pb-5" style="display: flex; flex-direction: column; padding-left: 40px;">
+
+
+                        <div id="slider" style="width: 620px; overflow: hidden; margin: auto; position: relative;">
+
+
+                            <div id="slides" style="display: flex; transition: transform 0.7s ease;">
+                                <img class="zoomable active" src="mobile-assets/events/adira-web.jpg"
+                                    style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
+                                    style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                <img class="zoomable" src="mobile-assets/events/model.jpeg"
+                                    style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                            </div>
+                        </div>
+
+                        <div style="text-align:center; margin-top:10px;">
+                            <button onclick="prevSlide()"
+                                style="padding:5px 10px; background-color: #FEAA4E; color: #fff; border-radius: 3px;">
+                                < </button>
+                                    <button onclick="nextSlide()"
+                                        style="padding:5px 10px; background-color: #FEAA4E; color: #fff; border-radius: 3px;">></button>
+                        </div>
+
+                        <div id="lightbox"
+                            style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); justify-content:center; align-items:center; z-index:1000;">
+                            <img id="lightbox-img" style="max-width:90%; max-height:90%; border-radius:10px;">
+                        </div>
+
+                        <script>
+                            const zoomableImages = document.querySelectorAll('.zoomable');
+                            const lightbox = document.getElementById('lightbox');
+                            const lightboxImg = document.getElementById('lightbox-img');
+
+                            zoomableImages.forEach(img => {
+                                img.style.cssText = 'width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px; cursor:pointer;';
+                                img.addEventListener('click', () => {
+                                    lightbox.style.display = 'flex';
+                                    lightboxImg.src = img.src;
+                                });
+                            });
+
+                            lightbox.addEventListener('click', () => {
+                                lightbox.style.display = 'none';
+                            });
+                        </script>
+
+                        <script>
+                            const slideWidth = 320; // 300px image + 20px margin
+                            const slider = document.getElementById("slider");
+                            const slides = document.getElementById("slides");
+                            let index = 0;
+                            let isTransitioning = false;
+
+                            // Clone first few slides and append
+                            const cloneslides = () => {
+                                const children = slides.children;
+                                for (let i = 0; i < 2; i++) {
+                                    const clone = children[i].cloneNode(true);
+                                    slides.appendChild(clone);
+                                }
+                            };
+
+                            cloneslides();
+
+                            function nextSlide() {
+                                if (isTransitioning) return;
+                                isTransitioning = true;
+                                index++;
+                                slides.style.transition = "transform 0.5s ease";
+                                slides.style.transform = `translateX(-${index * slideWidth}px)`;
+
+                                setTimeout(() => {
+                                    if (index >= slides.children.length - 2) {
+                                        slides.style.transition = "none";
+                                        index = 0;
+                                        slides.style.transform = `translateX(0px)`;
+                                    }
+                                    isTransitioning = false;
+                                }, 600);
+                            }
+
+                            function prevSlide() {
+                                if (isTransitioning) return;
+                                isTransitioning = true;
+                                if (index <= 0) {
+                                    index = slides.children.length - 3;
+                                    slides.style.transition = "none";
+                                    slides.style.transform = `translateX(-${(index + 1) * slideWidth}px)`;
+                                    setTimeout(() => {
+                                        slides.style.transition = "transform 0.5s ease";
+                                        prevSlide();
+                                    }, 20);
+                                    return;
+                                }
+                                index--;
+                                slides.style.transition = "transform 0.5s ease";
+                                slides.style.transform = `translateX(-${index * slideWidth}px)`;
+                                setTimeout(() => isTransitioning = false, 600);
+                            }
+
+                            setInterval(nextSlide, 3000); // Auto-slide
+                        </script>
+                    </div>
+                    <div class="col-lg-1"></div>
+
+                    <div class="col-lg-6 pt-3">
+                        <style>
+                            #video-container-reel-ads {
+                                position: relative;
+                                width: 100%;
+                                height: 70vh;
+                                overflow: hidden;
+                                background-color: black;
+                            }
+
+                            #video-reel-main {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                min-width: 100%;
+                                min-height: 100%;
+                                transform: translate(-50%, -50%);
+                                object-fit: cover;
+                            }
+
+                            .text-carousel-reel {
+                                display: flex;
+                                overflow-x: auto;
+                                padding: 10px;
+                                scroll-snap-type: x mandatory;
+                            }
+
+                            .text-carousel-reel button {
+                                flex: 0 0 calc(33.33% - 20px);
+                                /* 3 items in full width with some gap */
+                                margin-right: 10px;
+                                padding: 10px 10px;
+                                background: #fff;
+                                border: 1px solid #ccc;
+                                border-radius: 20px;
+                                font-size: 14px;
+                                cursor: pointer;
+                                scroll-snap-align: start;
+                                transition: background 0.3s;
+                                white-space: nowrap;
+                            }
+
+                            .text-carousel-reel button:hover {
+                                background: #03203e;
+                                color: white;
+                            }
+                        </style>
+
+                        <!-- Main Video Container -->
+                        <div id="video-container-reel-ads">
+                            <video autoplay loop muted playsinline id="video-reel-main">
+                                <source src="https://media.rgu.ac/head-video/v-2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+
+                        <!-- Bottom Text Carousel (3 items at a time) -->
+                        <div class="text-carousel-reel">
+                            <button onclick="changeVideoReel('mobile-assets/first-convo/first-convo.mp4')">
+                                <span>Day 1</span><br><span class="fw-bold">Shri Rakkam A. Sangma</span>
+                            </button>
+                            <button onclick="changeVideoReel('mobile-assets/second-convo/second-convo.mp4')">
+                                <span>Day 2</span><br><span class="fw-bold">Sana</span>
+                            </button>
+                            <button onclick="changeVideoReel('mobile-assets/third-Convo/third-convo.mp4')">
+                                <span>Day 3</span><br><span class="fw-bold">Arjun</span>
+                            </button>
+                            <button onclick="changeVideoReel('mobile-assets/first-convo/first-convo.mp4')">
+                                <span>Day 4</span><br><span class="fw-bold">Riya</span>
+                            </button>
+                            <button onclick="changeVideoReel('https://media.rgu.ac/head-video/v-5.mp4')">
+                                <span>Day 5</span><br><span class="fw-bold">Neha</span>
+                            </button>
+                        </div>
+
+                        <script>
+                            function changeVideoReel(src) {
+                                const video = document.getElementById('video-reel-main');
+                                video.pause();
+                                video.src = src;
+                                video.load();
+                                video.play();
+                            }
+                        </script>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <style>
+                @keyframes scrollUp {
+                    0% {
+                        top: 100%;
+                    }
+
+                    100% {
+                        top: -100%;
+                    }
+                }
+
+                /* Pause the animation when hovering over the notification-wrapper */
+                .notification-wrapper:hover {
+                    animation-play-state: paused;
+                }
+
+                /* Add hover effect for links */
+                .notification-item a:hover {
+                    text-decoration: underline;
+                }
+            </style>
+        </div>
 
         <!-- happening at rgu  -->
         <section style="padding: 30px; background-image: url(https://media.rgu.ac/index/bg.svg);">
@@ -106,7 +333,7 @@
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
-                        <img src="mobile-assets/events/mob-17.jpg" class="d-block w-100 rounded" alt="...">
+                        <img src="mobile-assets/events/adira-mob.jpg" class="d-block w-100 rounded" alt="...">
                     </div>
                     <div class="carousel-item ">
                         <img src="https://media.rgu.ac/index/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded"
@@ -634,6 +861,24 @@
     </section>
 
     <section class="website">
+            <!-- Popup -->
+            <div id="popup-web" class="popup-overlay">
+                <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-2025.png') }}"
+                        style="width: 550px; height: 550px;" class="popup-image" alt="Popup Image"></a>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const popup = document.getElementById('popup-web');
+
+                    // When click anywhere outside the image, hide the popup
+                    popup.addEventListener('click', function (event) {
+                        if (event.target === popup) {
+                            popup.style.display = 'none';
+                        }
+                    });
+                });
+            </script>
         <div id="page" class="site site_wrapper">
 
             <div class="scroll-top">
@@ -784,7 +1029,7 @@
                                 <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
                                     alt="Video Thumbnail"
                                     style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
-                                                                                        z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
+                                                                                    z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
                             </div> --}}
                             <div class="video-container" style="position: relative; width: 100%; height: auto;">
                                 <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
@@ -805,118 +1050,301 @@
 
             <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
 
-                <a href="/preface"><img src="https://media.rgu.ac/explore/web.png"
-                        alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape."></a>
+                <a href="/preface"><img src="https://media.rgu.ac/explore/web.png" alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape."></a>
 
 
-                <!--New Events-->
+                <div class="pb-4" style="background-image: url('mobile-assets/events/deeksharam-bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                    <div class="text-center pt-5">
+                        <img class="text-center" src="mobile-assets/deekshara/deeksharambh-new.png" style="width: 50%" />
+                    </div>
+                    <div class="row p-3">
+                        <div class="col-lg-5 pb-5" style="display: flex; flex-direction: column; padding-left: 40px;">
+                            <div style="width: 642px; overflow: hidden; margin: auto; position: relative;" id="custom-carousel-container">
+                                <div id="custom-carousel-track" style="display: flex; transition: transform 0.5s ease;">
+                                    <img src="mobile-assets/deekshara/1.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="https://media.rgu.ac/index/e04.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/events/model.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <!-- Clones for looping -->
+                                    <img src="mobile-assets/deekshara/1.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="https://media.rgu.ac/index/e04.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                </div>
+                            </div>
+
+                            <div style="text-align: center; margin-top: 10px;">
+                                <button onclick="prevCustomSlide()"
+                                    style="padding: 5px 10px; background-color: #FEAA4E; color: #fff; border-radius: 3px;">&lt;</button>
+                                <button onclick="nextCustomSlide()"
+                                    style="padding: 5px 10px; background-color: #FEAA4E; color: #fff; border-radius: 3px;">&gt;</button>
+                            </div>
+
+                            <script>
+                                const customTrack = document.getElementById('custom-carousel-track');
+                                const customSlideWidth = 320; // 400 + 20px margin
+                                const customVisibleSlides = 2;
+                                let customIndex = 0;
+                                let customIsSliding = false;
+
+                                function nextCustomSlide() {
+                                    if (customIsSliding) return;
+                                    customIsSliding = true;
+                                    customIndex++;
+                                    customTrack.style.transition = 'transform 0.5s ease';
+                                    customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
+
+                                    setTimeout(() => {
+                                        if (customIndex >= customTrack.children.length - customVisibleSlides) {
+                                            customTrack.style.transition = 'none';
+                                            customIndex = 0;
+                                            customTrack.style.transform = 'translateX(0px)';
+                                        }
+                                        customIsSliding = false;
+                                    }, 500);
+                                }
+
+                                function prevCustomSlide() {
+                                    if (customIsSliding) return;
+                                    customIsSliding = true;
+                                    if (customIndex <= 0) {
+                                        customIndex = customTrack.children.length - customVisibleSlides;
+                                        customTrack.style.transition = 'none';
+                                        customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
+                                        setTimeout(() => {
+                                            customIndex--;
+                                            customTrack.style.transition = 'transform 0.5s ease';
+                                            customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
+                                            customIsSliding = false;
+                                        }, 20);
+                                    } else {
+                                        customIndex--;
+                                        customTrack.style.transition = 'transform 0.5s ease';
+                                        customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
+                                        setTimeout(() => customIsSliding = false, 500);
+                                    }
+                                }
+
+                                setInterval(nextCustomSlide, 3000); // Auto-slide every 3 seconds
+                            </script>
+                        </div>
+                        <div class="col-lg-1"></div>
+
+                        <div class="col-lg-6 pt-3">
+                            <style>
+                                #video-container-reel-ads {
+                                    position: relative;
+                                    width: 100%;
+                                    height: 70vh;
+                                    overflow: hidden;
+                                    background-color: black;
+                                }
+
+                                #video-reel-main {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    min-width: 100%;
+                                    min-height: 100%;
+                                    transform: translate(-50%, -50%);
+                                    object-fit: cover;
+                                }
+
+                                .text-carousel-reel {
+                                    display: flex;
+                                    overflow-x: auto;
+                                    padding: 10px;
+                                    scroll-snap-type: x mandatory;
+                                }
+
+                                .text-carousel-reel button {
+                                    flex: 0 0 calc(33.33% - 20px);
+                                    /* 3 items in full width with some gap */
+                                    margin-right: 10px;
+                                    padding: 10px 10px;
+                                    background: #fff;
+                                    border: 1px solid #ccc;
+                                    border-radius: 20px;
+                                    font-size: 14px;
+                                    cursor: pointer;
+                                    scroll-snap-align: start;
+                                    transition: background 0.3s;
+                                    white-space: nowrap;
+                                }
+
+                                .text-carousel-reel button:hover {
+                                    background: #03203e;
+                                    color: white;
+                                }
+                            </style>
+
+                            <!-- Main Video Container -->
+                            <div id="video-container-reel-ads">
+                                <video autoplay loop muted playsinline id="video-reel-main">
+                                    <source src="mobile-assets/deekshara/deekshara.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                            <!-- Bottom Text Carousel (3 items at a time) -->
+                            <div class="text-carousel-reel">
+                                <button onclick="changeVideoReel('mobile-assets/first-convo/first-convo.mp4')">
+                                    <span>Day 1</span><br><span class="fw-bold">Shri Rakkam A. Sangma</span>
+                                </button>
+                                <button onclick="changeVideoReel('mobile-assets/second-convo/second-convo.mp4')">
+                                    <span>Day 2</span><br><span class="fw-bold">Sana</span>
+                                </button>
+                                <button onclick="changeVideoReel('mobile-assets/third-Convo/third-convo.mp4')">
+                                    <span>Day 3</span><br><span class="fw-bold">Arjun</span>
+                                </button>
+                                <button onclick="changeVideoReel('mobile-assets/first-convo/first-convo.mp4')">
+                                    <span>Day 4</span><br><span class="fw-bold">Riya</span>
+                                </button>
+                                <button onclick="changeVideoReel('https://media.rgu.ac/head-video/v-5.mp4')">
+                                    <span>Day 5</span><br><span class="fw-bold">Neha</span>
+                                </button>
+                            </div>
+
+                            <script>
+                                function changeVideoReel(src) {
+                                    const video = document.getElementById('video-reel-main');
+                                    video.pause();
+                                    video.src = src;
+                                    video.load();
+                                    video.play();
+                                }
+                            </script>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <style>
+                    @keyframes scrollUp {
+                        0% {
+                            top: 100%;
+                        }
+
+                        100% {
+                            top: -100%;
+                        }
+                    }
+
+                    /* Pause the animation when hovering over the notification-wrapper */
+                    .notification-wrapper:hover {
+                        animation-play-state: paused;
+                    }
+
+                    /* Add hover effect for links */
+                    .notification-item a:hover {
+                        text-decoration: underline;
+                    }
+                </style>
+                <!--rgu Events-->
                 <div class="container" style="padding: 30px 0px;">
                     <div class="row">
                         <div class="col-lg-7" style="display: flex; flex-direction: column;">
 
-
-                            <div id="slider" style="width: 620px; overflow: hidden; margin: auto; position: relative;">
+                            <div id="slider-events-section-1" style="width: 620px; overflow: hidden; margin: auto; position: relative;">
                                 <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-weight: 900; font-size: 40px;">
-                                    Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span></h2>
+                                    Events at <span style="color: #FF9A1E; font-weight: 500;">RGU</span>
+                                </h2>
 
-                                <div id="slides" style="display: flex; transition: transform 0.7s ease;">
-                                    <img class="zoomable active" src="mobile-assets/events/17jul.jpg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="https://media.rgu.ac/index/prabuddha-web-may.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="https://media.rgu.ac/index/subram-web.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                <div id="slides-events-section-1" style="display: flex; transition: transform 0.7s ease;">
+                                    <img class="zoomable" src="mobile-assets/events/adira-web.jpg"
+                                        style="width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                        style="width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px;">
+                                    <img class="zoomable" src="mobile-assets/events/model.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px;">
                                 </div>
                             </div>
 
                             <div style="text-align:center; margin-top:10px;">
-                                <button onclick="prevSlide()"
-                                    style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">
-                                    < </button>
-                                        <button onclick="nextSlide()"
-                                            style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">></button>
+                                <button onclick="prevSlideEventsSection1()"
+                                    style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">‹</button>
+                                <button onclick="nextSlideEventsSection1()"
+                                    style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">›</button>
                             </div>
 
-                            <div id="lightbox"
+                            <div id="lightbox-events-section-1"
                                 style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); justify-content:center; align-items:center; z-index:1000;">
-                                <img id="lightbox-img" style="max-width:90%; max-height:90%; border-radius:10px;">
+                                <img id="lightbox-img-events-section-1" style="max-width:90%; max-height:90%; border-radius:10px;">
                             </div>
 
                             <script>
-                                const zoomableImages = document.querySelectorAll('.zoomable');
-                                const lightbox = document.getElementById('lightbox');
-                                const lightboxImg = document.getElementById('lightbox-img');
+                                // Lightbox logic
+                                const zoomableImages1 = document.querySelectorAll('#slides-events-section-1 .zoomable');
+                                const lightbox1 = document.getElementById('lightbox-events-section-1');
+                                const lightboxImg1 = document.getElementById('lightbox-img-events-section-1');
 
-                                zoomableImages.forEach(img => {
-                                    img.style.cssText = 'width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px; cursor:pointer;';
+                                zoomableImages1.forEach(img => {
+                                    img.style.cursor = 'pointer';
                                     img.addEventListener('click', () => {
-                                        lightbox.style.display = 'flex';
-                                        lightboxImg.src = img.src;
+                                        lightbox1.style.display = 'flex';
+                                        lightboxImg1.src = img.src;
                                     });
                                 });
 
-                                lightbox.addEventListener('click', () => {
-                                    lightbox.style.display = 'none';
+                                lightbox1.addEventListener('click', () => {
+                                    lightbox1.style.display = 'none';
                                 });
-                            </script>
 
-                            <script>
-                                const slideWidth = 320; // 300px image + 20px margin
-                                const slider = document.getElementById("slider");
-                                const slides = document.getElementById("slides");
-                                let index = 0;
-                                let isTransitioning = false;
+                                // Slider logic
+                                const slideWidth1 = 320; // 400px image + 20px margin
+                                const slides1 = document.getElementById("slides-events-section-1");
+                                let index1 = 0;
+                                let isTransitioning1 = false;
 
-                                // Clone first few slides and append
-                                const cloneSlides = () => {
-                                    const children = slides.children;
+                                function cloneSlides1() {
+                                    const children = slides1.children;
                                     for (let i = 0; i < 2; i++) {
                                         const clone = children[i].cloneNode(true);
-                                        slides.appendChild(clone);
+                                        slides1.appendChild(clone);
                                     }
-                                };
+                                }
 
-                                cloneSlides();
+                                cloneSlides1();
 
-                                function nextSlide() {
-                                    if (isTransitioning) return;
-                                    isTransitioning = true;
-                                    index++;
-                                    slides.style.transition = "transform 0.5s ease";
-                                    slides.style.transform = `translateX(-${index * slideWidth}px)`;
+                                function nextSlideEventsSection1() {
+                                    if (isTransitioning1) return;
+                                    isTransitioning1 = true;
+                                    index1++;
+                                    slides1.style.transition = "transform 0.5s ease";
+                                    slides1.style.transform = `translateX(-${index1 * slideWidth1}px)`;
 
                                     setTimeout(() => {
-                                        if (index >= slides.children.length - 2) {
-                                            slides.style.transition = "none";
-                                            index = 0;
-                                            slides.style.transform = `translateX(0px)`;
+                                        if (index1 >= slides1.children.length - 2) {
+                                            slides1.style.transition = "none";
+                                            index1 = 0;
+                                            slides1.style.transform = `translateX(0px)`;
                                         }
-                                        isTransitioning = false;
+                                        isTransitioning1 = false;
                                     }, 600);
                                 }
 
-                                function prevSlide() {
-                                    if (isTransitioning) return;
-                                    isTransitioning = true;
-                                    if (index <= 0) {
-                                        index = slides.children.length - 3;
-                                        slides.style.transition = "none";
-                                        slides.style.transform = `translateX(-${(index + 1) * slideWidth}px)`;
+                                function prevSlideEventsSection1() {
+                                    if (isTransitioning1) return;
+                                    isTransitioning1 = true;
+                                    if (index1 <= 0) {
+                                        index1 = slides1.children.length - 3;
+                                        slides1.style.transition = "none";
+                                        slides1.style.transform = `translateX(-${(index1 + 1) * slideWidth1}px)`;
                                         setTimeout(() => {
-                                            slides.style.transition = "transform 0.5s ease";
-                                            prevSlide();
+                                            slides1.style.transition = "transform 0.5s ease";
+                                            prevSlideEventsSection1();
                                         }, 20);
                                         return;
                                     }
-                                    index--;
-                                    slides.style.transition = "transform 0.5s ease";
-                                    slides.style.transform = `translateX(-${index * slideWidth}px)`;
-                                    setTimeout(() => isTransitioning = false, 600);
+                                    index1--;
+                                    slides1.style.transition = "transform 0.5s ease";
+                                    slides1.style.transform = `translateX(-${index1 * slideWidth1}px)`;
+                                    setTimeout(() => isTransitioning1 = false, 600);
                                 }
 
-                                setInterval(nextSlide, 3000); // Auto-slide
+                                setInterval(nextSlideEventsSection1, 3000); // Auto-slide every 3s
                             </script>
                         </div>
 
@@ -930,19 +1358,32 @@
 
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news23/1.avif" alt="" />
+                                                <img class="rounded" style="height: 150px; width: 100%" src="mobile-assets/rgu-blog/blog2.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-size: 19px; line-height: 1.2;" class="pt-2 m-0 fw-bold">ICMR Awards 3 Start-up Grants worth over ₹1 Crore to RGU Faculty
+                                                </p>
+                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 18, 2025
+                                                </p>
+                                                <a href="icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-3">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 150px; width: 100%;" src="mobile-assets/media-corner/news23/1.avif" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; line-height: 1.2;" class="pt-2 m-0 fw-bold">
-                                                    A Living Call to Memory: The Bhupen Hazarika Museum Beckons
+                                                A Living Call to Memory: The Bhupen Hazarika Museum Beckons
                                                 </p>
-                                                <p class="pt-1 pt-2 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">July 16, 2025
+                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 16, 2025
                                                 </p>
                                                 <a href="a-living-call-to-memory-the-bhupen-hazarika-museum-beckons">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
@@ -960,34 +1401,14 @@
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">July 10, 2025
                                                 </p>
-                                                <a href="rgu-outreach-awareness-on-conservation-of-salamander-habitats">
+                                                <a href="rgu-outreach-awareness-on-conservation-of-salamander-habitat">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px; width: 100%"
-                                                    src="mobile-assets/rgu-blog/blog2.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1.2;"
-                                                    class="pt-2 m-0 fw-bold">RGU offers Scholarship Opportunities for Wards
-                                                    of Police personnel of 8 NE states
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">July 8, 2025
-                                                </p>
-                                                <a
-                                                    href="rgu-offers-scholarship-opportunities-for-wards-of-police-personnel-of-8-ne-states">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
 
 
                                     </div>
@@ -1031,8 +1452,29 @@
         </div>
         <!--End Events-->
 
+        <div style="padding: 30px 20px; background-color: #590d22;">
+            <div class="row" style="display: flex; align-items: center;">
+                <div class="col-lg-7" style="display: flex; justify-content: center;">
+                    <div style="display: flex; flex-direction: column;">
+                        <img src="https://media.rgu.ac/index/lookbook.png" alt="" />
+                        <div class="mt-5 text-center">
+                            <a href="https://heyzine.com/flip-book/601e0af13b.html" target="_blank"
+                                class="text-center p-3 rounded bg-light fw-bold text-dark">View LookBook 2025</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5" style="display: flex; justify-content: center;">
+                    <video autoplay loop muted playsinline
+                        style="width: 100%; height: auto; pointer-events: none; border: 4px solid #fff;">
+                        <source src="https://media.rgu.ac/index/lookbook.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+            </div>
+        </div>
         <!--new code-->
-        <div style="background-color: #13223b;">
+        {{-- <div style="background-color: #13223b;">
             <section style=" font-family: Arial, sans-serif; padding-left: 30px; padding-top: 20px; padding-bottom: 20px;">
                 <div class="row" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
 
@@ -1053,19 +1495,19 @@
                             <!-- Thumbnails -->
                             <div style="position: relative; width: 100%; overflow: hidden;">
                                 <div id="carousel"
-                                    style="display: flex; overflow: hidden; scroll-behavior: smooth; gap: 20px; padding: 10px 20px;">
+                                    style="display: flex; overflow: hidden; scroll-behavior: smooth; gap: 20px; padding: 10px 40px;">
                                     <img class="thumb" data-video="https://media.rgu.ac/index/lookbook.mp4"
                                         src="mobile-assets/magazine/1.png"
                                         style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
                                     <img class="thumb" data-video="https://media.rgu.ac/museum-vid.mp4"
                                         src="mobile-assets/magazine/2.png"
                                         style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
-                                    {{-- <img class="thumb" data-video="https://media.rgu.ac/index/lookbook.mp4"
+                                    <img class="thumb" data-video="https://media.rgu.ac/index/lookbook.mp4"
                                         src="mobile-assets/magazine/1.png"
                                         style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
                                     <img class="thumb" data-video="https://media.rgu.ac/museum-vid.mp4"
                                         src="mobile-assets/magazine/2.png"
-                                        style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" /> --}}
+                                        style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
                                 </div>
                             </div>
 
@@ -1145,454 +1587,456 @@
                     });
                 });
             </script>
-        </div>
+        </div> --}}
 
         <!--campus life-->
-                <section class=" elementor-section elementor-top-section elementor-element elementor-element-f03cf62
-                                                                    elementor-section-full_width elementor-section-height-default
-                                                                    elementor-section-height-default" data-id="f03cf62"
-                    data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                    <div class="elementor-container elementor-column-gap-no">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bd58a9"
-                            data-id="8bd58a9" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-2d6d76a elementor-widget elementor-widget-go-content-tab"
-                                    data-id="2d6d76a" data-element_type="widget" data-widget_type="go-content-tab.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="kd-course-3-area p-relative pt-105 pb-60 fix">
-                                            <div class="kd-course-1-bg-img img-cover fix">
-                                                <img decoding="async" src="https://media.rgu.ac/index/head2.svg" alt="">
+        <section class=" elementor-section elementor-top-section elementor-element elementor-element-f03cf62
+                                                    elementor-section-full_width elementor-section-height-default
+                                                    elementor-section-height-default" data-id="f03cf62"
+            data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bd58a9"
+                    data-id="8bd58a9" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-2d6d76a elementor-widget elementor-widget-go-content-tab"
+                            data-id="2d6d76a" data-element_type="widget" data-widget_type="go-content-tab.default">
+                            <div class="elementor-widget-container">
+                                <div class="kd-course-3-area p-relative pt-105 pb-60 fix">
+                                    <div class="kd-course-1-bg-img img-cover fix">
+                                        <img decoding="async" src="https://media.rgu.ac/index/head2.svg" alt="">
+                                    </div>
+                                    <div class="container kd-container-1 txaa-slide-down-1">
+                                        <!-- sectiont-title -->
+                                        <div class="kd-course-1-scn-title">
+                                            <div class="left">
+                                                <!-- <h6
+                                                                                    class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
+                                                                                    <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
+                                                                                        alt="">
+
+                                                                                    RGU Campus
+                                                                                </h6> -->
+                                                <h1 style="color: #FF9A1E; font-weight: 800;"
+                                                    class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text has-clr-white headd1 ">
+                                                    Our Campus Life</h1>
                                             </div>
-                                            <div class="container kd-container-1 txaa-slide-down-1">
-                                                <!-- sectiont-title -->
-                                                <div class="kd-course-1-scn-title">
-                                                    <div class="left">
-                                                        <!-- <h6
-                                                                                                    class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
-                                                                                                    <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
-                                                                                                        alt="">
 
-                                                                                                    RGU Campus
-                                                                                                </h6> -->
-                                                        <h1 style="color: #FF9A1E; font-weight: 800;"
-                                                            class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text has-clr-white headd1 ">
-                                                            Our Campus Life</h1>
+                                            <div class="right txaa-fade-right">
+                                                <ul class="kd-course-1-tabs-btn" id="myTab" role="tablist">
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link active kd-heading-1 para1 fw-bold text-dark"
+                                                            id="home-tab0" data-bs-toggle="tab" data-bs-target="#home0"
+                                                            type="button" role="tab" aria-controls="home0"
+                                                            aria-selected="true">Campus</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link  kd-heading-1 para1 text-dark"
+                                                            id="home-tab1" data-bs-toggle="tab" data-bs-target="#home1"
+                                                            type="button" role="tab" aria-controls="home1"
+                                                            aria-selected="true">Residence
+                                                            Life</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link  kd-heading-1 para1 text-dark"
+                                                            id="home-tab2" data-bs-toggle="tab" data-bs-target="#home2"
+                                                            type="button" role="tab" aria-controls="home2"
+                                                            aria-selected="true">Sports
+                                                            &
+                                                            Exercise</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link  kd-heading-1 para1 text-dark"
+                                                            id="home-tab3" data-bs-toggle="tab" data-bs-target="#home3"
+                                                            type="button" role="tab" aria-controls="home3"
+                                                            aria-selected="true">Amenities</button>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <!-- tabs-content -->
+                                        <div class="tab-content kd-course-3-tabs-content-wrap txaa-slide-down-1-item"
+                                            id="myTabContent">
+
+                                            <div class="tab-pane fade animated fadeInUp show active" id="home0"
+                                                role="tabpanel" aria-labelledby="home-tab0">
+                                                <div class="kd-course-3-tabs-content">
+                                                    <div class="left-content">
+                                                        <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                            Campus Life</h4>
+
+                                                        <div class="para1 muted" style="text-align: justify;">
+                                                            <p style="color: #323232 !important;">
+                                                                Recognized as
+                                                                the<strong> best private
+                                                                    university</strong>
+                                                                in Assam, The Assam
+                                                                Royal Global University
+                                                                provides an enriching
+                                                                campus life
+                                                                that complements
+                                                                academic excellence. As
+                                                                the best
+                                                                <strong>University in
+                                                                    Northeast</strong>
+                                                                Assam, we foster
+                                                                holistic development
+                                                                through
+                                                                vibrant cultural
+                                                                festivals, academic
+                                                                clubs, and sports
+                                                                activities. Students
+                                                                thrive in a dynamic
+                                                                atmosphere that nurtures
+                                                                leadership and teamwork.
+                                                                Known as the top
+                                                                <strong>private
+                                                                    university in
+                                                                    Assam</strong>, we
+                                                                offer platforms for
+                                                                students to explore
+                                                                their
+                                                                interests beyond the
+                                                                classroom. With a
+                                                                reputation as the
+                                                                <strong>best private
+                                                                    university in
+                                                                    Assam</strong>, our
+                                                                inclusive environment
+                                                                supports both academic
+                                                                growth and personal
+                                                                development for those
+                                                                studying at the
+                                                                <strong>Best University
+                                                                    in Guwahati</strong>
+                                                                or the <strong>Best
+                                                                    Management College
+                                                                    in
+                                                                    Guwahati</strong>.
+                                                            </p>
+                                                        </div>
+
                                                     </div>
 
-                                                    <div class="right txaa-fade-right">
-                                                        <ul class="kd-course-1-tabs-btn" id="myTab" role="tablist">
-                                                            <li class="nav-item" role="presentation">
-                                                                <button class="nav-link active kd-heading-1 para1 fw-bold text-dark"
-                                                                    id="home-tab0" data-bs-toggle="tab" data-bs-target="#home0"
-                                                                    type="button" role="tab" aria-controls="home0"
-                                                                    aria-selected="true">Campus</button>
-                                                            </li>
-                                                            <li class="nav-item" role="presentation">
-                                                                <button class="nav-link  kd-heading-1 para1 text-dark" id="home-tab1"
-                                                                    data-bs-toggle="tab" data-bs-target="#home1" type="button"
-                                                                    role="tab" aria-controls="home1" aria-selected="true">Residence
-                                                                    Life</button>
-                                                            </li>
-                                                            <li class="nav-item" role="presentation">
-                                                                <button class="nav-link  kd-heading-1 para1 text-dark" id="home-tab2"
-                                                                    data-bs-toggle="tab" data-bs-target="#home2" type="button"
-                                                                    role="tab" aria-controls="home2" aria-selected="true">Sports
-                                                                    &
-                                                                    Exercise</button>
-                                                            </li>
-                                                            <li class="nav-item" role="presentation">
-                                                                <button class="nav-link  kd-heading-1 para1 text-dark" id="home-tab3"
-                                                                    data-bs-toggle="tab" data-bs-target="#home3" type="button"
-                                                                    role="tab" aria-controls="home3"
-                                                                    aria-selected="true">Amenities</button>
-                                                            </li>
-
-                                                        </ul>
-                                                    </div>
-                                                </div>
-
-                                                <!-- tabs-content -->
-                                                <div class="tab-content kd-course-3-tabs-content-wrap txaa-slide-down-1-item"
-                                                    id="myTabContent">
-
-                                                    <div class="tab-pane fade animated fadeInUp show active" id="home0" role="tabpanel"
-                                                        aria-labelledby="home-tab0">
-                                                        <div class="kd-course-3-tabs-content">
-                                                            <div class="left-content">
-                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                                    Campus Life</h4>
-
-                                                                <div class="para1 muted" style="text-align: justify;">
-                                                                    <p style="color: #323232 !important;">
-                                                                        Recognized as
-                                                                        the<strong> best private
-                                                                            university</strong>
-                                                                        in Assam, The Assam
-                                                                        Royal Global University
-                                                                        provides an enriching
-                                                                        campus life
-                                                                        that complements
-                                                                        academic excellence. As
-                                                                        the best
-                                                                        <strong>University in
-                                                                            Northeast</strong>
-                                                                        Assam, we foster
-                                                                        holistic development
-                                                                        through
-                                                                        vibrant cultural
-                                                                        festivals, academic
-                                                                        clubs, and sports
-                                                                        activities. Students
-                                                                        thrive in a dynamic
-                                                                        atmosphere that nurtures
-                                                                        leadership and teamwork.
-                                                                        Known as the top
-                                                                        <strong>private
-                                                                            university in
-                                                                            Assam</strong>, we
-                                                                        offer platforms for
-                                                                        students to explore
-                                                                        their
-                                                                        interests beyond the
-                                                                        classroom. With a
-                                                                        reputation as the
-                                                                        <strong>best private
-                                                                            university in
-                                                                            Assam</strong>, our
-                                                                        inclusive environment
-                                                                        supports both academic
-                                                                        growth and personal
-                                                                        development for those
-                                                                        studying at the
-                                                                        <strong>Best University
-                                                                            in Guwahati</strong>
-                                                                        or the <strong>Best
-                                                                            Management College
-                                                                            in
-                                                                            Guwahati</strong>.
-                                                                    </p>
-                                                                </div>
-
-                                                            </div>
-
-                                                            <!-- right -->
-                                                            <div class="right-content">
-                                                                <div class="rounded">
-                                                                    <div class="kd-price-4-content">
-                                                                        <div id="carouselExampleControls" class="carousel slide"
-                                                                            data-bs-ride="carousel">
-                                                                            <div class="carousel-inner">
-                                                                                <div class="carousel-item active">
-                                                                                    <a href="department-store"><img
-                                                                                            src="https://media.rgu.ac/index/1.svg"
-                                                                                            class="d-block rounded" style="width: 100%;"
-                                                                                            alt="..."></a>
-                                                                                </div>
-                                                                                <div class="carousel-item">
-                                                                                    <a href="infrastructure"><img
-                                                                                            src="https://media.rgu.ac/index/5.svg"
-                                                                                            class="d-block rounded" style="width: 100%;"
-                                                                                            alt="..."></a>
-                                                                                </div>
-                                                                                <div class="carousel-item">
-                                                                                    <a href="games&sports">
-                                                                                        <img src="https://media.rgu.ac/index/7.svg"
-                                                                                            class="d-block rounded" style="width: 100%;"
-                                                                                            alt="..."></a>
-                                                                                </div>
-                                                                                <div class="carousel-item">
-                                                                                    <a href="clubs"><img
-                                                                                            src="https://media.rgu.ac/index/4.svg"
-                                                                                            class="d-block rounded" style="width: 100%;"
-                                                                                            alt="..."></a>
-                                                                                </div>
-                                                                                <div class="carousel-item">
-                                                                                    <a href="hostel-life">
-                                                                                        <img src="https://media.rgu.ac/index/3.svg"
-                                                                                            class="d-block rounded" style="width: 100%;"
-                                                                                            alt="..."></a>
-                                                                                </div>
-                                                                                <div class="carousel-item">
-                                                                                    <a href="Student_Affairs">
-                                                                                        <img src="https://media.rgu.ac/index/6.svg"
-                                                                                            class="d-block rounded" style="width: 100%;"
-                                                                                            alt="..."></a>
-                                                                                </div>
-                                                                                <div class="carousel-item">
-                                                                                    <a href="royal-fests"><img
-                                                                                            src="https://media.rgu.ac/index/2.svg"
-                                                                                            class="d-block rounded" style="width: 100%;"
-                                                                                            alt="..."></a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <button class="carousel-control-prev" type="button"
-                                                                                data-bs-target="#carouselExampleControls"
-                                                                                data-bs-slide="prev">
-                                                                                <span class="carousel-control-prev-icon"
-                                                                                    aria-hidden="true"></span>
-                                                                                <span class="visually-hidden">Previous</span>
-                                                                            </button>
-                                                                            <button class="carousel-control-next" type="button"
-                                                                                data-bs-target="#carouselExampleControls"
-                                                                                data-bs-slide="next">
-                                                                                <span class="carousel-control-next-icon"
-                                                                                    aria-hidden="true"></span>
-                                                                                <span class="visually-hidden">Next</span>
-                                                                            </button>
+                                                    <!-- right -->
+                                                    <div class="right-content">
+                                                        <div class="rounded">
+                                                            <div class="kd-price-4-content">
+                                                                <div id="carouselExampleControls" class="carousel slide"
+                                                                    data-bs-ride="carousel">
+                                                                    <div class="carousel-inner">
+                                                                        <div class="carousel-item active">
+                                                                            <a href="department-store"><img
+                                                                                    src="https://media.rgu.ac/index/1.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="infrastructure"><img
+                                                                                    src="https://media.rgu.ac/index/5.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="games&sports">
+                                                                                <img src="https://media.rgu.ac/index/7.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="clubs"><img
+                                                                                    src="https://media.rgu.ac/index/4.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="hostel-life">
+                                                                                <img src="https://media.rgu.ac/index/3.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="Student_Affairs">
+                                                                                <img src="https://media.rgu.ac/index/6.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <a href="royal-fests"><img
+                                                                                    src="https://media.rgu.ac/index/2.svg"
+                                                                                    class="d-block rounded"
+                                                                                    style="width: 100%;" alt="..."></a>
                                                                         </div>
                                                                     </div>
+                                                                    <button class="carousel-control-prev" type="button"
+                                                                        data-bs-target="#carouselExampleControls"
+                                                                        data-bs-slide="prev">
+                                                                        <span class="carousel-control-prev-icon"
+                                                                            aria-hidden="true"></span>
+                                                                        <span class="visually-hidden">Previous</span>
+                                                                    </button>
+                                                                    <button class="carousel-control-next" type="button"
+                                                                        data-bs-target="#carouselExampleControls"
+                                                                        data-bs-slide="next">
+                                                                        <span class="carousel-control-next-icon"
+                                                                            aria-hidden="true"></span>
+                                                                        <span class="visually-hidden">Next</span>
+                                                                    </button>
                                                                 </div>
-
-                                                                <!-- <div class="kd-course-3-tabs-content-action text-center">
-                                                                                                            <h5
-                                                                                                                class="kd-heading-1 kd-font-700 has-clr-white action-link">
-                                                                                                                get your quality skills certificate from RGU</h5>
-                                                                                                            <a href="#" aria-label="name"
-                                                                                                                class="kd-pr-btn-1 text-uppercase">
-                                                                                                                <span class="text" data-back="get started now"
-                                                                                                                    data-front="get started now"></span>
-                                                                                                            </a>
-                                                                                                        </div> -->
-                                                                <!-- <div class="kd-course-3-tabs-content-il-1">
-                                                                                                            <img decoding="async"
-                                                                                                                src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
-                                                                                                                alt="">
-                                                                                                        </div> -->
-
                                                             </div>
-
                                                         </div>
+
+                                                        <!-- <div class="kd-course-3-tabs-content-action text-center">
+                                                                                            <h5
+                                                                                                class="kd-heading-1 kd-font-700 has-clr-white action-link">
+                                                                                                get your quality skills certificate from RGU</h5>
+                                                                                            <a href="#" aria-label="name"
+                                                                                                class="kd-pr-btn-1 text-uppercase">
+                                                                                                <span class="text" data-back="get started now"
+                                                                                                    data-front="get started now"></span>
+                                                                                            </a>
+                                                                                        </div> -->
+                                                        <!-- <div class="kd-course-3-tabs-content-il-1">
+                                                                                            <img decoding="async"
+                                                                                                src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
+                                                                                                alt="">
+                                                                                        </div> -->
+
                                                     </div>
-                                                    <div class="tab-pane fade animated fadeInUp " id="home1" role="tabpanel"
-                                                        aria-labelledby="home-tab1">
-                                                        <div class="kd-course-3-tabs-content">
-                                                            <div class="left-content">
-                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                                    Residence Life</h4>
 
-                                                                <div class="para1" style="text-align: justify;">
-                                                                    <p>The Assam Royal Global
-                                                                        University residence
-                                                                        halls
-                                                                        aim at
-                                                                        enhancing the
-                                                                        educational experience
-                                                                        of students
-                                                                        by
-                                                                        providing all the
-                                                                        comforts and
-                                                                        conveniences they need
-                                                                        to succeed.
-                                                                        Beautifully situated in
-                                                                        the midst of an
-                                                                        eco-friendly
-                                                                        and green campus,
-                                                                        the separate in-house
-                                                                        hostels for boys and
-                                                                        girls
-                                                                        are
-                                                                        equipped with adequate
-                                                                        facilities for holistic
-                                                                        mental and physical
-                                                                        growth. The hostel
-                                                                        environment will help
-                                                                        each
-                                                                        boarder get the most out
-                                                                        of their time during
-                                                                        the
-                                                                        period of stay. Close
-                                                                        proximity
-                                                                        of the hostels to the
-                                                                        academic buildings
-                                                                        facilitates
-                                                                        frequent interactions
-                                                                        between studentsand the
-                                                                        faculties even during
-                                                                        periods of vacation and
-                                                                        on holidays.</p>
-                                                                </div>
-                                                                <div class="">
-                                                                    <a href="hostel-life" rel="nofollow" aria-label="name"
-                                                                        class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                        <span class="text" data-back="explore"
-                                                                            data-front="Explore"></span>
-                                                                        <span class="icon">
-                                                                            <i class="fa-solid fa-arrow-right"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade animated fadeInUp " id="home1" role="tabpanel"
+                                                aria-labelledby="home-tab1">
+                                                <div class="kd-course-3-tabs-content">
+                                                    <div class="left-content">
+                                                        <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                            Residence Life</h4>
 
-                                                            </div>
-
-                                                            <!-- right -->
-                                                            <div class="right-content">
-                                                                <div class="kd-course-3-tabs-content-video img-cover fix">
-                                                                    <img decoding="async" src="https://media.rgu.ac/index/residence.jpg"
-                                                                        alt="">
-
-                                                                </div>
-                                                            </div>
-
+                                                        <div class="para1" style="text-align: justify;">
+                                                            <p>The Assam Royal Global
+                                                                University residence
+                                                                halls
+                                                                aim at
+                                                                enhancing the
+                                                                educational experience
+                                                                of students
+                                                                by
+                                                                providing all the
+                                                                comforts and
+                                                                conveniences they need
+                                                                to succeed.
+                                                                Beautifully situated in
+                                                                the midst of an
+                                                                eco-friendly
+                                                                and green campus,
+                                                                the separate in-house
+                                                                hostels for boys and
+                                                                girls
+                                                                are
+                                                                equipped with adequate
+                                                                facilities for holistic
+                                                                mental and physical
+                                                                growth. The hostel
+                                                                environment will help
+                                                                each
+                                                                boarder get the most out
+                                                                of their time during
+                                                                the
+                                                                period of stay. Close
+                                                                proximity
+                                                                of the hostels to the
+                                                                academic buildings
+                                                                facilitates
+                                                                frequent interactions
+                                                                between studentsand the
+                                                                faculties even during
+                                                                periods of vacation and
+                                                                on holidays.</p>
                                                         </div>
-                                                    </div>
-                                                    <div class="tab-pane fade animated fadeInUp " id="home2" role="tabpanel"
-                                                        aria-labelledby="home-tab2">
-                                                        <div class="kd-course-3-tabs-content">
-                                                            <div class="left-content">
-                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                                    Games & Sports</h4>
-
-                                                                <div class="para1" style="text-align: justify;">
-                                                                    <p>There are multiple sport
-                                                                        facilities to keep our
-                                                                        students engaged and
-                                                                        physically fit. Our
-                                                                        campus
-                                                                        has
-                                                                        outdoor game
-                                                                        facilities like Cricket,
-                                                                        Football, Basketball,
-                                                                        tennis, baseball,
-                                                                        athletics and so on. Its
-                                                                        international standard
-                                                                        indoor
-                                                                        sports complex “The
-                                                                        Cube” offers a variety
-                                                                        of
-                                                                        indoor
-                                                                        games including
-                                                                        badminton courts,
-                                                                        squash,
-                                                                        billiards,
-                                                                        and table
-                                                                        tennis. Fitness
-                                                                        conscious students can
-                                                                        go for a
-                                                                        jog
-                                                                        around the scenic
-                                                                        university campus or
-                                                                        work out
-                                                                        at
-                                                                        the well-equipped
-                                                                        gymnasium available both
-                                                                        at the Boys and Girls
-                                                                        hostel. The Gymnasium is
-                                                                        equipped with various
-                                                                        equipment like
-                                                                        treadmills,
-                                                                        dumbbells & plates,
-                                                                        weights, shoulder press,
-                                                                        leg-pull, leg extension,
-                                                                        incline shoulder,
-                                                                        double
-                                                                        twisters, etc.</p>
-                                                                </div>
-                                                                <div class="">
-                                                                    <a href="games&sports" rel="nofollow" aria-label="name"
-                                                                        class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                        <span class="text" data-back="explore"
-                                                                            data-front="Explore"></span>
-                                                                        <span class="icon">
-                                                                            <i class="fa-solid fa-arrow-right"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <!-- right -->
-                                                            <div class="right-content">
-                                                                <div class="kd-course-3-tabs-content-video img-cover fix">
-                                                                    <img decoding="async" src="https://media.rgu.ac/index/sports.jpg"
-                                                                        alt="">
-
-                                                                </div>
-
-                                                            </div>
-
+                                                        <div class="">
+                                                            <a href="hostel-life" rel="nofollow" aria-label="name"
+                                                                class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                <span class="text" data-back="explore"
+                                                                    data-front="Explore"></span>
+                                                                <span class="icon">
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </span>
+                                                            </a>
                                                         </div>
+
                                                     </div>
-                                                    <div class="tab-pane fade animated fadeInUp " id="home3" role="tabpanel"
-                                                        aria-labelledby="home-tab3">
-                                                        <div class="kd-course-3-tabs-content">
-                                                            <div class="left-content">
-                                                                <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                                    Amenities</h4>
 
-                                                                <div class="para1" style="text-align: justify;">
-                                                                    <p>A sensational
-                                                                        rejuvenation and beauty
-                                                                        experience.
-                                                                        Kurls and Spykes,
-                                                                        Guwahati, is a wellness
-                                                                        and
-                                                                        beauty
-                                                                        lounge for both
-                                                                        men and women. It offers
-                                                                        an unmatched array of
-                                                                        services designed to
-                                                                        renew, refresh and
-                                                                        replenish
-                                                                        one’s soul. As a
-                                                                        leading hair studio,
-                                                                        Kurls and Spykes offer
-                                                                        warm
-                                                                        hospitality, an inviting
-                                                                        atmosphere and
-                                                                        top-notch
-                                                                        services to wide and
-                                                                        varied client base which
-                                                                        also includes business
-                                                                        and
-                                                                        leisure travellers. It
-                                                                        offers non exhaustive
-                                                                        range
-                                                                        of services
-                                                                        including a host of hair
-                                                                        services such as
-                                                                        haircut,
-                                                                        hair colour, creative
-                                                                        makeover, keratin and
-                                                                        bridal
-                                                                        makeup services
-                                                                        using some
-                                                                        internationally renowned
-                                                                        brands.</p>
-                                                                </div>
-
-                                                                <div class="">
-                                                                    <a href="salon" rel="nofollow" aria-label="name"
-                                                                        class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                        <span class="text" data-back="explore"
-                                                                            data-front="Explore"></span>
-                                                                        <span class="icon">
-                                                                            <i class="fa-solid fa-arrow-right"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-
-                                                            </div>
-
-                                                            <!-- right -->
-                                                            <div class="right-content">
-                                                                <div class="kd-course-3-tabs-content-video img-cover fix">
-                                                                    <img decoding="async" src="https://media.rgu.ac/index/amenities.jpg"
-                                                                        alt="">
-
-                                                                </div>
-                                                            </div>
+                                                    <!-- right -->
+                                                    <div class="right-content">
+                                                        <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                            <img decoding="async"
+                                                                src="https://media.rgu.ac/index/residence.jpg" alt="">
 
                                                         </div>
                                                     </div>
 
                                                 </div>
                                             </div>
+                                            <div class="tab-pane fade animated fadeInUp " id="home2" role="tabpanel"
+                                                aria-labelledby="home-tab2">
+                                                <div class="kd-course-3-tabs-content">
+                                                    <div class="left-content">
+                                                        <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                            Games & Sports</h4>
+
+                                                        <div class="para1" style="text-align: justify;">
+                                                            <p>There are multiple sport
+                                                                facilities to keep our
+                                                                students engaged and
+                                                                physically fit. Our
+                                                                campus
+                                                                has
+                                                                outdoor game
+                                                                facilities like Cricket,
+                                                                Football, Basketball,
+                                                                tennis, baseball,
+                                                                athletics and so on. Its
+                                                                international standard
+                                                                indoor
+                                                                sports complex “The
+                                                                Cube” offers a variety
+                                                                of
+                                                                indoor
+                                                                games including
+                                                                badminton courts,
+                                                                squash,
+                                                                billiards,
+                                                                and table
+                                                                tennis. Fitness
+                                                                conscious students can
+                                                                go for a
+                                                                jog
+                                                                around the scenic
+                                                                university campus or
+                                                                work out
+                                                                at
+                                                                the well-equipped
+                                                                gymnasium available both
+                                                                at the Boys and Girls
+                                                                hostel. The Gymnasium is
+                                                                equipped with various
+                                                                equipment like
+                                                                treadmills,
+                                                                dumbbells & plates,
+                                                                weights, shoulder press,
+                                                                leg-pull, leg extension,
+                                                                incline shoulder,
+                                                                double
+                                                                twisters, etc.</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <a href="games&sports" rel="nofollow" aria-label="name"
+                                                                class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                <span class="text" data-back="explore"
+                                                                    data-front="Explore"></span>
+                                                                <span class="icon">
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- right -->
+                                                    <div class="right-content">
+                                                        <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                            <img decoding="async"
+                                                                src="https://media.rgu.ac/index/sports.jpg" alt="">
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade animated fadeInUp " id="home3" role="tabpanel"
+                                                aria-labelledby="home-tab3">
+                                                <div class="kd-course-3-tabs-content">
+                                                    <div class="left-content">
+                                                        <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
+                                                            Amenities</h4>
+
+                                                        <div class="para1" style="text-align: justify;">
+                                                            <p>A sensational
+                                                                rejuvenation and beauty
+                                                                experience.
+                                                                Kurls and Spykes,
+                                                                Guwahati, is a wellness
+                                                                and
+                                                                beauty
+                                                                lounge for both
+                                                                men and women. It offers
+                                                                an unmatched array of
+                                                                services designed to
+                                                                renew, refresh and
+                                                                replenish
+                                                                one’s soul. As a
+                                                                leading hair studio,
+                                                                Kurls and Spykes offer
+                                                                warm
+                                                                hospitality, an inviting
+                                                                atmosphere and
+                                                                top-notch
+                                                                services to wide and
+                                                                varied client base which
+                                                                also includes business
+                                                                and
+                                                                leisure travellers. It
+                                                                offers non exhaustive
+                                                                range
+                                                                of services
+                                                                including a host of hair
+                                                                services such as
+                                                                haircut,
+                                                                hair colour, creative
+                                                                makeover, keratin and
+                                                                bridal
+                                                                makeup services
+                                                                using some
+                                                                internationally renowned
+                                                                brands.</p>
+                                                        </div>
+
+                                                        <div class="">
+                                                            <a href="salon" rel="nofollow" aria-label="name"
+                                                                class="kd-pr-btn-1 text-uppercase has-pr-clr">
+                                                                <span class="text" data-back="explore"
+                                                                    data-front="Explore"></span>
+                                                                <span class="icon">
+                                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <!-- right -->
+                                                    <div class="right-content">
+                                                        <div class="kd-course-3-tabs-content-video img-cover fix">
+                                                            <img decoding="async"
+                                                                src="https://media.rgu.ac/index/amenities.jpg" alt="">
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
+            </div>
+        </section>
         <!--campus life-->
 
 
@@ -1611,11 +2055,11 @@
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
                                         <!-- <h6 class="kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub"
-                                                                            style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
-                                                                                <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
+                                                                        style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
+                                                                            <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
 
-                                                                                RGU Programmes
-                                                                            </h6> -->
+                                                                            RGU Programmes
+                                                                        </h6> -->
                                         <h1 class="headd1 pb-4" style="color: #27467A; font-size: 50px; font-weight: 800;">
                                             Explore Our
                                             <span style="font-weight: 800; color: #EF991F;">Courses</span>
@@ -1733,8 +2177,8 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                    students</span> -->
+                                                                                                            <span class="item-student kd-heading-1">34,000
+                                                                                                                students</span> -->
                                                                 </div>
 
                                                                 <div class="card-content">
@@ -1763,8 +2207,8 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                    students</span> -->
+                                                                                                            <span class="item-student kd-heading-1">34,000
+                                                                                                                students</span> -->
 
                                                                 </div>
 
@@ -1795,7 +2239,7 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                <span class="item-student kd-heading-1">34,000 -->
+                                                                                                            <span class="item-student kd-heading-1">34,000 -->
                                                                     students</span>
 
                                                                 </div>

@@ -3023,6 +3023,43 @@ Route::get('/faculty-Mehjabin-Rahman', function () {
 })->name('faculty-Mehjabin-Rahman');
 
 //RSET Facuilty Profile
+
+Route::get('/faculty-akangkhi-borah', function () {
+    return view('frontend/facultyprofile/rset/akangkhi-borah');
+})->name('faculty-akangkhi-borah');
+
+Route::get('/faculty-ankita-goyal-agarwala', function () {
+    return view('frontend/facultyprofile/rset/ankita-goyal-agarwala');
+})->name('faculty-ankita-goyal-agarwala');
+
+Route::get('/faculty-anupam-das', function () {
+    return view('frontend/facultyprofile/rset/anupam-das');
+})->name('faculty-anupam-das');
+
+Route::get('/faculty-nayan-jyoti-kalita', function () {
+    return view('frontend/facultyprofile/rset/nayan-jyoti-kalita');
+})->name('faculty-nayan-jyoti-kalita');
+
+Route::get('/faculty-nilakshi-deka', function () {
+    return view('frontend/facultyprofile/rset/nilakshi-deka');
+})->name('faculty-nilakshi-deka');
+
+Route::get('/faculty-rashel-sarkar', function () {
+    return view('frontend/facultyprofile/rset/rashel-sarkar');
+})->name('faculty-rashel-sarkar');
+
+Route::get('/faculty-samarjit-das', function () {
+    return view('frontend/facultyprofile/rset/samarjit-das');
+})->name('faculty-samarjit-das');
+
+Route::get('/faculty-saurabh-sutradhar', function () {
+    return view('frontend/facultyprofile/rset/saurabh-sutradhar');
+})->name('faculty-saurabh-sutradhar');
+
+Route::get('/faculty-spandan-barthakur', function () {
+    return view('frontend/facultyprofile/rset/spandan-barthakur');
+})->name('faculty-spandan-barthakur');
+
 Route::get('/dr-shwetambara-verma', function () {
     return view('frontend/facultyprofile/rset/shwetambara-verma');
 })->name('dr-shwetambara-verma');
@@ -3559,6 +3596,8 @@ Route::get('/faculty-roshmi-boruah', function () {
 })->name('faculty-roshmi-boruah');
 
 
+
+
 //RSHM-RSTTM Faculty Profile
 Route::get('/faculty-indrajit-dutta', function () {
     return view('frontend/facultyprofile/rshm-rsttm/indrajit-dutta');
@@ -3571,6 +3610,42 @@ Route::get('/faculty-piyush-gupta', function () {
 Route::get('/faculty-reemina-narzary', function () {
     return view('frontend/facultyprofile/rshm-rsttm/reemina-narzary');
 })->name('faculty-reemina-narzary');
+//
+Route::get('/faculty-bishnu-gurung', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/bishnu-gurung');
+})->name('faculty-bishnu-gurung');
+
+Route::get('/faculty-mukesh-kalita', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/mukesh-kalita');
+})->name('faculty-mukesh-kalita');
+
+Route::get('/faculty-phibapynhun-pariong', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/phibapynhun-pariong');
+})->name('faculty-phibapynhun-pariong');
+
+Route::get('/faculty-prabahan-puzari', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/prabahan-puzari');
+})->name('faculty-prabahan-puzari');
+
+Route::get('/faculty-sajal-nag', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/sajal-nag');
+})->name('faculty-sajal-nag');
+
+Route::get('/faculty-shiela-bora', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/shiela-bora');
+})->name('faculty-shiela-bora');
+
+Route::get('/faculty-soumitra-sen', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/soumitra-sen');
+})->name('faculty-soumitra-sen');
+
+Route::get('/faculty-susmita-banerjee', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/susmita-banerjee');
+})->name('faculty-susmita-banerjee');
+
+Route::get('/faculty-syed-sajidul-islam', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/syed-sajidul-islam');
+})->name('faculty-syed-sajidul-islam');
 
 
 //RSBAS Faculty Profile
@@ -3765,7 +3840,6 @@ Route::get('/faculty-shalini-saxena', function () {
     return view('frontend/facultyprofile/rshss/shalini-saxena');
 })->name('faculty-shalini-saxena');
 
-
 Route::get('/faculty-amlan-das-rshss', function () {
     return view('frontend/facultyprofile/rshss/amlan-das-rshss');
 })->name('faculty-amlan-das-rshss');
@@ -3801,6 +3875,52 @@ Route::get('/faculty-nabanita-hazarika', function () {
 Route::get('/faculty-priyanka-patowari', function () {
     return view('frontend/facultyprofile/rshss/priyanka-patowari');
 })->name('faculty-priyanka-patowari');
+
+Route::get('/faculty-susmita-hazarika', function () {
+    return view('frontend/facultyprofile/rshss/susmita-hazarika');
+})->name('faculty-susmita-hazarika');
+
+//
+Route::get('/faculty-abhinav-chaliha', function () {
+    return view('frontend/facultyprofile/rshss/abhinav-chaliha');
+})->name('faculty-abhinav-chaliha');
+
+Route::get('/faculty-babachandra-singha', function () {
+    return view('frontend/facultyprofile/rshss/babachandra-singha');
+})->name('faculty-babachandra-singha');
+
+Route::get('/faculty-krishangi-saikia', function () {
+    return view('frontend/facultyprofile/rshss/krishangi-saikia');
+})->name('faculty-krishangi-saikia');
+
+Route::get('/faculty-meenu', function () {
+    return view('frontend/facultyprofile/rshss/meenu');
+})->name('faculty-meenu');
+
+Route::get('/faculty-monika-kumari', function () {
+    return view('frontend/facultyprofile/rshss/monika-kumari');
+})->name('faculty-monika-kumari');
+
+Route::get('/faculty-monisha-bordoloi', function () {
+    return view('frontend/facultyprofile/rshss/monisha-bordoloi');
+})->name('faculty-monisha-bordoloi');
+
+Route::get('/faculty-monojit-singha', function () {
+    return view('frontend/facultyprofile/rshss/monojit-singha');
+})->name('faculty-monojit-singha');
+
+Route::get('/faculty-nikita-biswakarma', function () {
+    return view('frontend/facultyprofile/rshss/nikita-biswakarma');
+})->name('faculty-nikita-biswakarma');
+
+Route::get('/faculty-sushmita-hoshi-nongmeikapam', function () {
+    return view('frontend/facultyprofile/rshss/sushmita-hoshi-nongmeikapam');
+})->name('faculty-sushmita-hoshi-nongmeikapam');
+
+Route::get('/faculty-tanjeela-mehboob', function () {
+    return view('frontend/facultyprofile/rshss/tanjeela-mehboob');
+})->name('faculty-tanjeela-mehboob');
+
 
 //RSLA Facuilty Profile
 
