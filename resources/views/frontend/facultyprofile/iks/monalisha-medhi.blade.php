@@ -10,8 +10,8 @@
                     <div class="row">
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
-                                <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;" src="https://media.rgu.ac/iks/Pranab.jpg"
-                                    alt="">
+                                <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
+                                    src="https://media.rgu.ac/iks/Ms.MonalishaMedhi.jpg" alt="">
                             </div>
                         </div>
 
@@ -30,7 +30,7 @@
                         <div class="col-lg-6 pt-4 pb-4">
 
                             <h2 class="headd1 fw-bold pt-4" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
-                                Dr Pranab Jyoti Sarma
+                                Ms. Monalisha Medhi
                             </h2>
 
                             <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
@@ -55,31 +55,33 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Ph.D., 2007 – Archaeology, Deccan College Postgraduate & Research Institute,
-                                            Pune
+                                            Ph.D. (Pursuing) – Folklore Studies, Gauhati University
                                         </span>
                                     </li>
-
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            M.A., 2000 – Ancient Indian History, Culture & Archaeology, Deccan College
-                                            Postgraduate & Research
-                                            Institute, Pune
+                                            M.A., 2023 – Folklore & Culture Studies, IGNOU
                                         </span>
                                     </li>
-
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            B.A. (History Honours), 1998 – Gauhati University, Guwahati
+                                            M.A., 2018 – English, University of Delhi, Delhi
                                         </span>
                                     </li>
-
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            B.A. (Hons.), 2016 – English, University of Delhi, Delhi
+                                        </span>
+                                    </li>
 
                                 </ul>
 
@@ -95,7 +97,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            23 Years
+                                            4 Years
                                         </span>
                                     </li>
 
@@ -113,7 +115,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            1 Year
+                                            2 Years
                                         </span>
                                     </li>
 
@@ -121,7 +123,7 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Industry Experience:
+                                    Seminars and Conferences:
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -131,7 +133,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            15 Years
+                                            15
                                         </span>
                                     </li>
 
@@ -139,7 +141,7 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Research (Outside Teaching):
+                                    Research (outside teaching):
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -149,7 +151,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            7 Years
+                                            4
                                         </span>
                                     </li>
 
@@ -157,7 +159,7 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Research Interests:
+                                    Others (Short Term/ Certificate/ Refresher Courses)-
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -167,7 +169,9 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Historical archaeology of North East India
+                                            Certificate Course – Documentation and Digitization in Archives (2024),
+                                            Varahamihira
+                                            Multidisciplinary Institute
                                         </span>
                                     </li>
                                     <li
@@ -175,7 +179,9 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Archaeological theory and research methodology
+                                            Refresher Course – Traditional Indian Knowledge System; Sources, Concepts,
+                                            Practice and Relevance
+                                            (2023), UGC-HRDC Gauhati University
                                         </span>
                                     </li>
                                     <li
@@ -183,7 +189,9 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Cultural & religious studies
+                                            Online Short-Term Training Program – Folklore Studies in The Digital Age (2023),
+                                            CLTCS, Netaji
+                                            Subhas Open University
                                         </span>
                                     </li>
                                     <li
@@ -191,7 +199,29 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Theories of knowledge emergence and knowledge generation
+                                            Certificate Course – Folklore and Intangible Cultural Heritage (2020), Janapada
+                                            Sampada, IGNCA
+                                        </span>
+                                    </li>
+
+                                </ul>
+
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Research Interest:
+                                </h2>
+
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Folklore, Culture Studies, Oral Narratives and traditions, Folk Literature,
+                                            Cultural Ecology,
+                                            Gender
+                                            Studies, Indian Knowledge Systems
                                         </span>
                                     </li>
 
@@ -209,7 +239,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            National:
+                                            National: 5
                                         </span>
                                     </li>
 
@@ -218,40 +248,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            2006: “Roles Played by Two River Valleys of Assam in the Indo-Chinese Trade
-                                            Network,” <i>Journal of
-                                                Indian Ocean Archaeology</i>, No. 3, 2006.
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            2005: “Preliminary Report of the Third Season of Excavations at Sanjan-2004,”
-                                            <i>Journal of Indian
-                                                Ocean Archaeology</i>, No. 2, 2005.
-                                        </span>
-                                    </li>
-
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            International:
-                                        </span>
-                                    </li>
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            “Historical Myth or Mythological History: A Fresh Approach to Understand the
-                                            History of Assam”,
-                                            Space and Culture – India, 2(3): 61. DOI:10.20896/saci.v2i3.94
+                                            International: 3
                                         </span>
                                     </li>
 
@@ -259,7 +256,7 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Books Chapter Published: 2
+                                    Books Chapter Published:
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -269,23 +266,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            2014: “Situating Northeast Indian Archaeology in Chronological Perspective:
-                                            Fresh Observations”, in
-                                            Tiatoshi Jamir and Manjil Hazarika (eds.), <i>50 Years after Daojali-Hading:
-                                                Emerging Perspectives
-                                                in the Archaeology of Northeast India</i>.
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            2011: “Reconstructing the Medieval Fort at Numoligarh: A Multidisciplinary
-                                            Approach”, in Madhu
-                                            Rajput (ed.), <i>Social and Cultural Stratification in North East India</i>. New
-                                            Delhi: Manak
-                                            Publications.
+                                            4
                                         </span>
                                     </li>
 
@@ -293,41 +274,7 @@
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
                                     style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Projects Undertaken: 2
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            2024: Completed NCPCR-funded project as the Principal Investigator (Project
-                                            title: “Educational
-                                            Status of the Children of Migrant Labours”).
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            2023: Completed NCPCR-funded project as the Principal Investigator (Project
-                                            title: “A Study to
-                                            Examine the Availability of Hostels and the Effectiveness of Different Schemes
-                                            Providing Hostels to
-                                            School Children in Preventing Dropout in North-Eastern States”).
-                                        </span>
-                                    </li>
-
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Any Other Achievements/Awards:
+                                    Any other Achievements/ Awards:
                                 </h2>
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -337,11 +284,124 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            2005: Small-scale Study Grant from Nehru Trust for the Indian Collections at the
-                                            Victoria and Albert
-                                            Museum, New Delhi. Report entitled “A Historical Understanding of the
-                                            Archaeological Remains of the
-                                            Dhansiri-Doyang Valley, Assam”, 2005.
+                                            Qualified UGC NET-JRF, December 2020
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Invited as a Speaker to deliver a lecture at the seminar on “Construction of
+                                            Gender in Folk
+                                            Narrative” organised by The North East Student’s Group, Janki Devi Memorial
+                                            College, University of
+                                            Delhi (2022)
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Invited as an honorary Resource Person to deliver a lecture at the national
+                                            webinar on “Echoes of
+                                            Tradition: The Role of Oral Narratives in shaping India’s Knowledge Heritage”
+                                            organised by Nucleus
+                                            of Learning and Development (2024)
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Conducted One-week National Faculty Development Program as a Resource Person on
+                                            “Wisdom in Words:
+                                            Exploring the Importance of Oral Narratives in the Indian Knowledge System”
+                                            organised by Gokul
+                                            Global University in collaboration with Nucleus of Learning and Development
+                                            (2024)
+                                        </span>
+                                    </li>
+
+                                </ul>
+
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Faculty Development Programs:
+                                </h2>
+
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Participated in the One-week Online Faculty Development Program on “Theory and
+                                            Practice:
+                                            Folkloristics” organized by Gokul Global University, Gujarat in collaboration
+                                            with Nucleus of
+                                            Learning and Development from 5 to 10 August, 2024.
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Participated in the Online Faculty Development Program on “Contribution of
+                                            Indian Knowledge
+                                            Systems
+                                            in Various Fields” organized by ARKA Jain University, Jharkhand in collaboration
+                                            with Nucleus of
+                                            Learning and Development from 16 September to 21 September, 2024.
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Participated in an online National Level Faculty Development Program on “AI
+                                            Driven Teaching
+                                            Strategies for Enhanced Learning” organized by Faculty of Engineering, Gokul
+                                            Global University,
+                                            Gujarat in collaboration with Nucleus of Learning and Development.
+                                        </span>
+                                    </li>
+
+                                </ul>
+
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Workshop Attended:
+                                </h2>
+
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Participated in a Three Days Capacity Building Workshop on Research Writing &
+                                            Methodology in
+                                            Social
+                                            Sciences organised by Dept. of Pol. Sc. and Administrative Services, The Assam
+                                            Royal Global
+                                            University in collaboration with O.P. Jindal Global University (17 to 19 Feb).
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Participated in Translation Workshop, held at Gauhati University Institute of
+                                            North East India
+                                            Studies, Gauhati University on September 30, 2021.
                                         </span>
                                     </li>
 
@@ -366,7 +426,7 @@
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="https://media.rgu.ac/iks/Pranab.jpg" alt="">
+                                src="https://media.rgu.ac/iks/Ms.MonalishaMedhi.jpg" alt="">
                         </div>
 
                     </div>
@@ -374,7 +434,7 @@
                     <div class="col-lg-7 pt-5">
 
                         <h2 class="headd1 fw-bold pt-5 mb-3" style="color: #FF9A1E; font-weight: 700; font-size: 45px;">
-                            Dr Pranab Jyoti Sarma
+                            Ms. Monalisha Medhi
                         </h2>
 
                         <h2 class="headd3 mb-5 fw-bold half-underline"
@@ -409,28 +469,30 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Ph.D., 2007 – Archaeology, Deccan College Postgraduate & Research Institute, Pune
+                                        Ph.D. (Pursuing) – Folklore Studies, Gauhati University
                                     </span>
                                 </li>
-
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        M.A., 2000 – Ancient Indian History, Culture & Archaeology, Deccan College
-                                        Postgraduate & Research
-                                        Institute, Pune
+                                        M.A., 2023 – Folklore & Culture Studies, IGNOU
                                     </span>
                                 </li>
-
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        B.A. (History Honours), 1998 – Gauhati University, Guwahati
+                                        M.A., 2018 – English, University of Delhi, Delhi
                                     </span>
                                 </li>
-
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        B.A. (Hons.), 2016 – English, University of Delhi, Delhi
+                                    </span>
+                                </li>
 
                             </ul>
 
@@ -445,7 +507,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        23 Years
+                                        4 Years
                                     </span>
                                 </li>
 
@@ -462,7 +524,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        1 Year
+                                        2 Years
                                     </span>
                                 </li>
 
@@ -470,7 +532,7 @@
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Industry Experience:
+                                Seminars and Conferences:
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -479,7 +541,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        15 Years
+                                        15
                                     </span>
                                 </li>
 
@@ -487,7 +549,7 @@
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Research (Outside Teaching):
+                                Research (outside teaching):
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -496,7 +558,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        7 Years
+                                        4
                                     </span>
                                 </li>
 
@@ -504,7 +566,7 @@
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Research Interests:
+                                Others (Short Term/ Certificate/ Refresher Courses)-
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -513,28 +575,53 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Historical archaeology of North East India
+                                        Certificate Course – Documentation and Digitization in Archives (2024), Varahamihira
+                                        Multidisciplinary Institute
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Archaeological theory and research methodology
+                                        Refresher Course – Traditional Indian Knowledge System; Sources, Concepts, Practice
+                                        and Relevance
+                                        (2023), UGC-HRDC Gauhati University
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Cultural & religious studies
+                                        Online Short-Term Training Program – Folklore Studies in The Digital Age (2023),
+                                        CLTCS, Netaji
+                                        Subhas Open University
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Theories of knowledge emergence and knowledge generation
+                                        Certificate Course – Folklore and Intangible Cultural Heritage (2020), Janapada
+                                        Sampada, IGNCA
+                                    </span>
+                                </li>
+
+                            </ul>
+
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Research Interest:
+                            </h2>
+
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Folklore, Culture Studies, Oral Narratives and traditions, Folk Literature, Cultural
+                                        Ecology, Gender
+                                        Studies, Indian Knowledge Systems
                                     </span>
                                 </li>
 
@@ -551,7 +638,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        National:
+                                        National: 5
                                     </span>
                                 </li>
 
@@ -559,37 +646,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        2006: “Roles Played by Two River Valleys of Assam in the Indo-Chinese Trade
-                                        Network,” <i>Journal of
-                                            Indian Ocean Archaeology</i>, No. 3, 2006.
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        2005: “Preliminary Report of the Third Season of Excavations at Sanjan-2004,”
-                                        <i>Journal of Indian
-                                            Ocean Archaeology</i>, No. 2, 2005.
-                                    </span>
-                                </li>
-
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        International:
-                                    </span>
-                                </li>
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        “Historical Myth or Mythological History: A Fresh Approach to Understand the History
-                                        of Assam”,
-                                        Space and Culture – India, 2(3): 61. DOI:10.20896/saci.v2i3.94
+                                        International: 3
                                     </span>
                                 </li>
 
@@ -597,7 +654,7 @@
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Books Chapter Published: 2
+                                Books Chapter Published:
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -606,22 +663,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        2014: “Situating Northeast Indian Archaeology in Chronological Perspective: Fresh
-                                        Observations”, in
-                                        Tiatoshi Jamir and Manjil Hazarika (eds.), <i>50 Years after Daojali-Hading:
-                                            Emerging Perspectives
-                                            in the Archaeology of Northeast India</i>.
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        2011: “Reconstructing the Medieval Fort at Numoligarh: A Multidisciplinary
-                                        Approach”, in Madhu
-                                        Rajput (ed.), <i>Social and Cultural Stratification in North East India</i>. New
-                                        Delhi: Manak
-                                        Publications.
+                                        4
                                     </span>
                                 </li>
 
@@ -629,39 +671,7 @@
 
                             <h2 class="headd3 mb-3 fw-bold mt-4"
                                 style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Projects Undertaken: 2
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        2024: Completed NCPCR-funded project as the Principal Investigator (Project title:
-                                        “Educational
-                                        Status of the Children of Migrant Labours”).
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        2023: Completed NCPCR-funded project as the Principal Investigator (Project title:
-                                        “A Study to
-                                        Examine the Availability of Hostels and the Effectiveness of Different Schemes
-                                        Providing Hostels to
-                                        School Children in Preventing Dropout in North-Eastern States”).
-                                    </span>
-                                </li>
-
-
-                            </ul>
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Any Other Achievements/Awards:
+                                Any other Achievements/ Awards:
                             </h2>
 
                             <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
@@ -670,11 +680,113 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        2005: Small-scale Study Grant from Nehru Trust for the Indian Collections at the
-                                        Victoria and Albert
-                                        Museum, New Delhi. Report entitled “A Historical Understanding of the Archaeological
-                                        Remains of the
-                                        Dhansiri-Doyang Valley, Assam”, 2005.
+                                        Qualified UGC NET-JRF, December 2020
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Invited as a Speaker to deliver a lecture at the seminar on “Construction of Gender
+                                        in Folk
+                                        Narrative” organised by The North East Student’s Group, Janki Devi Memorial College,
+                                        University of
+                                        Delhi (2022)
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Invited as an honorary Resource Person to deliver a lecture at the national webinar
+                                        on “Echoes of
+                                        Tradition: The Role of Oral Narratives in shaping India’s Knowledge Heritage”
+                                        organised by Nucleus
+                                        of Learning and Development (2024)
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Conducted One-week National Faculty Development Program as a Resource Person on
+                                        “Wisdom in Words:
+                                        Exploring the Importance of Oral Narratives in the Indian Knowledge System”
+                                        organised by Gokul
+                                        Global University in collaboration with Nucleus of Learning and Development (2024)
+                                    </span>
+                                </li>
+
+                            </ul>
+
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Faculty Development Programs:
+                            </h2>
+
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Participated in the One-week Online Faculty Development Program on “Theory and
+                                        Practice:
+                                        Folkloristics” organized by Gokul Global University, Gujarat in collaboration with
+                                        Nucleus of
+                                        Learning and Development from 5 to 10 August, 2024.
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Participated in the Online Faculty Development Program on “Contribution of Indian
+                                        Knowledge Systems
+                                        in Various Fields” organized by ARKA Jain University, Jharkhand in collaboration
+                                        with Nucleus of
+                                        Learning and Development from 16 September to 21 September, 2024.
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Participated in an online National Level Faculty Development Program on “AI Driven
+                                        Teaching
+                                        Strategies for Enhanced Learning” organized by Faculty of Engineering, Gokul Global
+                                        University,
+                                        Gujarat in collaboration with Nucleus of Learning and Development.
+                                    </span>
+                                </li>
+
+                            </ul>
+
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Workshop Attended:
+                            </h2>
+
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Participated in a Three Days Capacity Building Workshop on Research Writing &
+                                        Methodology in Social
+                                        Sciences organised by Dept. of Pol. Sc. and Administrative Services, The Assam Royal
+                                        Global
+                                        University in collaboration with O.P. Jindal Global University (17 to 19 Feb).
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Participated in Translation Workshop, held at Gauhati University Institute of North
+                                        East India
+                                        Studies, Gauhati University on September 30, 2021.
                                     </span>
                                 </li>
 

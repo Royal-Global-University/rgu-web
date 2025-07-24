@@ -3013,13 +3013,27 @@ Route::get('/a-living-call-to-memory-the-bhupen-hazarika-museum-beckons', functi
     return view('frontend/media-corner/news23');
 })->name('a-living-call-to-memory-the-bhupen-hazarika-museum-beckons');
 
+//IKS Faculty Profile
 
+Route::get('/faculty-monalisha-medhi', function () {
+    return view('frontend/facultyprofile/iks/monalisha-medhi');
+})->name('faculty-monalisha-medhi');
 
-//faculty profile
-Route::get('/faculty-jagriti-pathak', function () {
-    return view('frontend/facultyprofile/rsa/jagriti-pathak');
-})->name('faculty-jagriti-pathak');
+Route::get('/faculty-pranab-sarma', function () {
+    return view('frontend/facultyprofile/iks/pranab-sarma');
+})->name('faculty-pranab-sarma');
 
+Route::get('/faculty-saswati-bordoloi', function () {
+    return view('frontend/facultyprofile/iks/saswati-bordoloi');
+})->name('faculty-saswati-bordoloi');
+
+Route::get('/faculty-siddhant-medhi', function () {
+    return view('frontend/facultyprofile/iks/siddhant-medhi');
+})->name('faculty-siddhant-medhi');
+
+Route::get('/faculty-tinku', function () {
+    return view('frontend/facultyprofile/iks/tinku');
+})->name('faculty-tinku');
 
 //RSAG Faculty Profile
 Route::get('/faculty-Mehjabin-Rahman', function () {
@@ -3139,6 +3153,14 @@ Route::get('/faculty-tushti-sharma', function () {
 })->name('faculty-tushti-sharma');
 
 //RSA Faculty Profile
+
+Route::get('/faculty-hari-prasad-agarwal', function () {
+    return view('frontend/facultyprofile/rsa/hari-prasad-agarwal');
+})->name('faculty-hari-prasad-agarwal');
+
+Route::get('/faculty-jagriti-pathak', function () {
+    return view('frontend/facultyprofile/rsa/jagriti-pathak');
+})->name('faculty-jagriti-pathak');
 
 Route::get('/faculty-barnali-chakraborty', function () {
     return view('frontend/facultyprofile/rsa/barnali-chakraborty');
@@ -3280,6 +3302,11 @@ Route::get('/sumi-barman', function () {
 })->name('sumi-barman');
 
 //RSLSC Faculty Profile
+
+Route::get('/faculty-arati-sharma', function () {
+    return view('frontend/facultyprofile/rslsc/arati-sharma');
+})->name('faculty-arati-sharma');
+
 Route::get('/faculty-dr-anirban-banik', function () {
     return view('frontend/facultyprofile/rslsc/anirban-banik');
 })->name('faculty-dr-anirban-banik');
@@ -3618,6 +3645,10 @@ Route::get('/faculty-rajdeep-deb', function () {
 Route::get('/faculty-roshmi-boruah', function () {
     return view('frontend/facultyprofile/rsees/roshmi-boruah');
 })->name('faculty-roshmi-boruah');
+
+Route::get('/faculty-palme-borthakur', function () {
+    return view('frontend/facultyprofile/rsees/palme-borthakur');
+})->name('faculty-palme-borthakur');
 
 
 
