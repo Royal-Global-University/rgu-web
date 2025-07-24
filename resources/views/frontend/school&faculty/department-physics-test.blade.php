@@ -936,8 +936,148 @@
                 </div>
 
             </div>
+            <!--infrs & achei-->
+            <section>
+                <!-- achievement section  -->
+                <section class="container" style="padding: 30px 20px;">
+                    <div class="row" style="display: flex; flex-wrap: wrap; gap: 20px;">
 
-            <img src="https://media.rgu.ac/department-all/dept-physics/web-btm.png" alt="">
+                        <!-- Infrastructure Column -->
+                        <div class="col-lg-6" style="flex: 1; min-width: 300px;">
+                            <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 40px;">
+                                Infrastructure
+                            </h2>
+                            <div class="quick-links-container bg-white" style="padding: 10px;">
+                                <div id="carouselInfra" class="carousel"
+                                    style="position: relative; overflow: hidden; width: 100%; max-height: 300px;">
+                                    <div class="slides" style="display: flex; transition: transform 0.5s ease;">
+                                        <img src="mobile-assets/dept-img/dept-phy/i1.png" style="width: 100%; object-fit: cover;">
+                                        <img src="mobile-assets/dept-img/dept-phy/i2.png" style="width: 100%; object-fit: cover;">
+                                        <img src="mobile-assets/dept-img/dept-phy/i3.png" style="width: 100%; object-fit: cover;">
+                                        <img src="mobile-assets/dept-img/dept-phy/i4.png" style="width: 100%; object-fit: cover;">
+                                        <img src="mobile-assets/dept-img/dept-phy/i5.png" style="width: 100%; object-fit: cover;">
+                                    </div>
+                                    <div class="carousel-controls"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Achievements Column -->
+                        <div class="col-lg-6" style="flex: 1; min-width: 300px;">
+                            <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 40px;">
+                                Department <span style="color: #FF9A1E; font-weight: 500;">Activities</span>
+                            </h2>
+                            <div class="quick-links-container bg-white" style="padding: 10px;">
+                                <div id="carouselAchieve" class="carousel"
+                                    style="position: relative; overflow: hidden; width: 100%; max-height: 300px;">
+                                    <div class="slides" style="display: flex; transition: transform 0.5s ease;">
+                                        <img src="mobile-assets/dept-img/dept-phy/achievement.png" onclick="openPopup(this.src)"
+                                            style="width: 100%; object-fit: cover; cursor: pointer;">
+
+                                    </div>
+                                    <div class="carousel-controls"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Popup Modal -->
+                <div id="imgPopup" onclick="closePopup()" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+                      background: rgba(0,0,0,0.7); justify-content:center; align-items:center; z-index:9999;">
+                    <span onclick="closePopup()"
+                        style="position:absolute; top:20px; right:30px; font-size:35px; color:white; cursor:pointer;">&times;</span>
+                    <img id="popupImg" src="" style="max-width:90%; max-height:80%; border-radius:10px; box-shadow:0 0 20px black;">
+                </div>
+
+                <!-- JavaScript -->
+                <script>
+                    const carousels = {
+                        carouselInfra: 0,
+                        carouselAchieve: 0
+                    };
+
+                    function setupCarousel(id) {
+                        const container = document.getElementById(id);
+                        const slides = container.querySelector(".slides");
+                        const images = slides.children;
+                        const count = images.length;
+                        carousels[id] = { index: 0, total: count };
+
+                        const controlDiv = container.querySelector(".carousel-controls");
+                        if (count <= 1) {
+                            controlDiv.innerHTML = '';
+                            return;
+                        }
+
+                        // Add controls and indicators
+                        controlDiv.innerHTML = `
+                      <button onclick="prevSlide('${id}')" style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%);
+                        background: rgba(0,0,0,0.5); color: white; border: none; padding: 5px 10px; cursor: pointer;">❮</button>
+                      <button onclick="nextSlide('${id}')" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%);
+                        background: rgba(0,0,0,0.5); color: white; border: none; padding: 5px 10px; cursor: pointer;">❯</button>
+                      <div class="indicators" style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);
+                        display: flex; gap: 6px;">
+                        ${Array.from(images).map((_, i) =>
+                            `<span onclick="goToSlide('${id}', ${i})"
+                              style="width: 10px; height: 10px; background: #ccc; border-radius: 50%; cursor: pointer;"></span>`).join("")}
+                      </div>
+                    `;
+                    }
+
+                    function showSlide(id) {
+                        const container = document.getElementById(id);
+                        const slideData = carousels[id];
+                        const slides = container.querySelector(".slides");
+                        slides.style.transform = `translateX(-${slideData.index * 100}%)`;
+
+                        const indicators = container.querySelectorAll(".indicators span");
+                        indicators.forEach((dot, i) => {
+                            dot.style.background = i === slideData.index ? "#27467A" : "#ccc";
+                        });
+                    }
+
+                    function nextSlide(id) {
+                        const data = carousels[id];
+                        data.index = (data.index + 1) % data.total;
+                        showSlide(id);
+                    }
+
+                    function prevSlide(id) {
+                        const data = carousels[id];
+                        data.index = (data.index - 1 + data.total) % data.total;
+                        showSlide(id);
+                    }
+
+                    function goToSlide(id, index) {
+                        carousels[id].index = index;
+                        showSlide(id);
+                    }
+
+                    function openPopup(src) {
+                        document.getElementById("popupImg").src = src;
+                        document.getElementById("imgPopup").style.display = "flex";
+                    }
+
+                    function closePopup() {
+                        document.getElementById("imgPopup").style.display = "none";
+                    }
+
+                    // Setup carousels on load
+                    window.onload = () => {
+                        setupCarousel("carouselInfra");
+                        setupCarousel("carouselAchieve");
+
+                        // Auto Slide
+                        setInterval(() => {
+                            if (carousels.carouselInfra.total > 1) nextSlide('carouselInfra');
+                            if (carousels.carouselAchieve.total > 1) nextSlide('carouselAchieve');
+                        }, 5000);
+                    };
+                </script>
+                <!-- achievement section  -->
+            </section>
+
 
             <!--About Section-->
 
