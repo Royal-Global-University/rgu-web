@@ -23,7 +23,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Nikhil Kumar Chrungoo</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Prof. Nikhil Kumar Chrungoo Professor & Dean, Royal School of Life Sciences Available</p>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Dean, Royal School of Life Sciences</p>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">I/C Dean, Royal School of Agriculture</p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Nikhil Kumar Chrungoo</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Prof. Nikhil Kumar Chrungoo Professor & Dean, Royal School of Life Sciences Available</p>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Dean, Royal School of Life Sciences</p>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">I/C Dean, Royal School of Agriculture</p>
                             </div>
                         </div>

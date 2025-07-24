@@ -35,7 +35,10 @@
                                     Dean, Royal School of Engineering & Technology <br>
                                     Royal School of Information Technology
                                 </p>
-
+                                <a href="faculty-diganta-munshi">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -370,7 +373,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor & Head, Laboratory Services
                                 </p>
-
+                                <a href="faculty-vanita-agarwal">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -458,7 +464,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor & Coordinator, Mechanical Engineering
                                 </p>
-
+                                <a href="faculty-bishal-podder">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -517,7 +526,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
                                 </p>
-
+                                <a href="faculty-biswajit-choudhury">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -537,7 +549,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
                                 </p>
-
+                                <a href="faculty-zunaid-ahmed">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -834,7 +849,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 570px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 630px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/all-faculty/rset/diganta-munshi.jpeg"
@@ -849,7 +864,10 @@
                                     Dean, Royal School of Engineering & Technology <br>
                                     Royal School of Information Technology
                                 </p>
-
+                                <a href="faculty-diganta-munshi">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1184,7 +1202,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor & Head, Laboratory Services
                                 </p>
-
+                                <a href="faculty-vanita-agarwal">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1223,44 +1244,12 @@
                 </div>
             </div>
 
-            <div style="padding: 20px 70px;">
-
                 <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 570px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/diganta-munshi.jpeg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Diganta
-                                    Munshi</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor & Registrar, Administration <br>
-                                    Director, IQAC <br>
-                                    Dean, Royal School of Engineering & Technology <br>
-                                    Royal School of Information Technology
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <hr>
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 480px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Bishal-Podder-RSET.png"
@@ -1272,7 +1261,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor & Coordinator, Mechanical Engineering
                                 </p>
-
+                                <a href="faculty-bishal-podder">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1280,7 +1272,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 480px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rset/me/2.png"
                                     class="img-fluid rounded border" />
@@ -1299,7 +1291,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 480px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Mr-Ashok-Talukdar-RSET.png"
@@ -1319,7 +1311,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 480px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Mr-Biswajit-Choudhury-RSET.png"
@@ -1331,7 +1323,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
                                 </p>
-
+                                <a href="faculty-biswajit-choudhury">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1339,7 +1334,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 480px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Zunaid-Ahmed-RSET.png"
@@ -1351,7 +1346,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
                                 </p>
-
+                                <a href="faculty-zunaid-ahmed">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>

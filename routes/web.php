@@ -3028,6 +3028,26 @@ Route::get('/faculty-Mehjabin-Rahman', function () {
 
 //RSET Facuilty Profile
 
+Route::get('/faculty-vanita-agarwal', function () {
+    return view('frontend/facultyprofile/rset/vanita-agarwal');
+})->name('faculty-vanita-agarwal');
+
+Route::get('/faculty-bishal-podder', function () {
+    return view('frontend/facultyprofile/rset/bishal-podder');
+})->name('faculty-bishal-podder');
+
+Route::get('/faculty-biswajit-choudhury', function () {
+    return view('frontend/facultyprofile/rset/biswajit-choudhury');
+})->name('faculty-biswajit-choudhury');
+
+Route::get('/faculty-diganta-munshi', function () {
+    return view('frontend/facultyprofile/rset/diganta-munshi');
+})->name('faculty-diganta-munshi');
+
+Route::get('/faculty-zunaid-ahmed', function () {
+    return view('frontend/facultyprofile/rset/zunaid-ahmed');
+})->name('faculty-zunaid-ahmed');
+
 Route::get('/faculty-akangkhi-borah', function () {
     return view('frontend/facultyprofile/rset/akangkhi-borah');
 })->name('faculty-akangkhi-borah');
@@ -3792,6 +3812,31 @@ Route::get('/faculty-sailendra', function () {
 
 //RSHSS Facuilty Profile
 
+Route::get('/faculty-adam-samphri-timung', function () {
+    return view('frontend/facultyprofile/rshss/adam-samphri-timung');
+})->name('faculty-adam-samphri-timung');
+
+Route::get('/faculty-adishree-borgohain', function () {
+    return view('frontend/facultyprofile/rshss/adishree-borgohain');
+})->name('faculty-adishree-borgohain');
+
+Route::get('/faculty-kadiguang-panmei', function () {
+    return view('frontend/facultyprofile/rshss/kadiguang-panmei');
+})->name('faculty-kadiguang-panmei');
+
+Route::get('/faculty-lalzikpuii-rajkhowa', function () {
+    return view('frontend/facultyprofile/rshss/lalzikpuii-rajkhowa');
+})->name('faculty-lalzikpuii-rajkhowa');
+
+Route::get('/faculty-sangeeta-das', function () {
+    return view('frontend/facultyprofile/rshss/sangeeta-das');
+})->name('faculty-sangeeta-das');
+
+Route::get('/faculty-tripti-das', function () {
+    return view('frontend/facultyprofile/rshss/tripti-das');
+})->name('faculty-tripti-das');
+
+//
 Route::get('/faculty-mitali-kalita', function () {
     return view('frontend/facultyprofile/rshss/mitali-kalita');
 })->name('faculty-mitali-kalita');

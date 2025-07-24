@@ -30,7 +30,7 @@
                                     Prof. Nikhil Kumar Chrungoo
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Prof. Nikhil Kumar Chrungoo Professor & Dean, Royal School of Life Sciences
+                                    Professor & Dean, Royal School of Life Sciences<br>I/C Dean, Royal School of Agriculture
                                 </p>
 
                             </div>
@@ -117,7 +117,7 @@
                                     Prof. Nikhil Kumar Chrungoo
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor & Dean, Royal School of Life Sciences
+                                    Professor & Dean, Royal School of Life Sciences<br>I/C Dean, Royal School of Agriculture
                                 </p>
 
                             </div>
@@ -201,7 +201,7 @@
                                     Dr. Anushree Baruah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
+                                    Assistant Professor & Coordinator, RSAG
                                 </p>
 
                             </div>
@@ -819,7 +819,7 @@
                                     Prof. Nikhil Kumar Chrungoo
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Prof. Nikhil Kumar Chrungoo Professor & Dean, Royal School of Life Sciences
+                                    Professor & Dean, Royal School of Life Sciences<br>I/C Dean, Royal School of Agriculture
                                 </p>
 
                             </div>
@@ -905,7 +905,7 @@
                                     Prof. Nikhil Kumar Chrungoo
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor & Dean, Royal School of Life Sciences
+                                Professor & Dean, Royal School of Life Sciences<br>I/C Dean, Royal School of Agriculture
                                 </p>
 
                             </div>
@@ -990,7 +990,7 @@
                                     Dr. Anushree Baruah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
+                                    Assistant Professor & Coordinator, RSAG
                                 </p>
 
                             </div>
