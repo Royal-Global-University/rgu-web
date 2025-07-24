@@ -1183,7 +1183,7 @@
                             <!-- Main Video Container -->
                             <div id="video-container-reel-ads">
                                 <video autoplay loop muted playsinline id="video-reel-main">
-                                    <source src="mobile-assets/deekshara/deekshara.mp4" type="video/mp4">
+                                    <source src="https://media.rgu.ac/deekshara.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
