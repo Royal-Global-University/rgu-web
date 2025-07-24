@@ -119,7 +119,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Professor & Advisor
                     </p>
-
+                    <a href="faculty-swabera-islam">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -158,7 +160,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Professor
                     </p>
-
+                    <a href="faculty-gautam-mazumdar">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -178,7 +182,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Professor and Advisor
                     </p>
-
+                    <a href="faculty-swabera-islam">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -198,7 +204,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Associate Professor & HOD, Economics
                     </p>
-
+                    <a href="faculty-mohammed-deluwar-hoque">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -240,7 +248,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Assistant Professor
                     </p>
-
+                    <a href="faculty-sanghamitra-hazarika">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -260,7 +270,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Assistant Professor & Coordinator GE/AEEC
                     </p>
-
+                    <a href="faculty-jugal-kishore-bhattacharyya">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1515,7 +1527,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Professor & Advisor
                     </p>
-
+                    <a href="faculty-swabera-islam">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1540,7 +1554,7 @@
              <div class="col-lg-3 mb-4">
 
                 <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                   <div class="p-3">
                     <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rshss/Gautam.jpeg"
                       class="img-fluid rounded border" />
@@ -1552,7 +1566,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Professor
                     </p>
-
+                    <a href="faculty-gautam-mazumdar">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1560,7 +1576,7 @@
                <div class="col-lg-3 mb-4">
 
                 <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                   <div class="p-3">
                     <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rshss/swabera.jpeg"
                       class="img-fluid rounded border" />
@@ -1572,7 +1588,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Professor and Advisor
                     </p>
-
+                    <a href="faculty-swabera-islam">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1580,7 +1598,7 @@
               <div class="col-lg-3 mb-4">
 
                 <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                   <div class="p-3">
                     <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rshss/Deluwar.jpeg"
                       class="img-fluid rounded border" />
@@ -1592,7 +1610,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Associate Professor & HOD, Economics
                     </p>
-
+                    <a href="faculty-mohammed-deluwar-hoque">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1600,7 +1620,7 @@
               <div class="col-lg-3 mb-4">
 
                 <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                   <div class="p-3">
                     <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Durba-Dutta-RSHSS.png"
                       class="img-fluid rounded border" />
@@ -1622,7 +1642,7 @@
               <div class="col-lg-3 mb-4">
 
                 <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                   <div class="p-3">
                     <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Sanghamitra-Hazarika.png"
                       class="img-fluid rounded border" />
@@ -1634,7 +1654,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Assistant Professor
                     </p>
-
+                    <a href="faculty-sanghamitra-hazarika">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1642,7 +1664,7 @@
               <div class="col-lg-3 mb-4">
 
                 <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                   <div class="p-3">
                     <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rshss/jugal.jpeg"
                       class="img-fluid rounded border" />
@@ -1654,7 +1676,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Assistant Professor & Coordinator GE/AEEC
                     </p>
-
+                    <a href="faculty-jugal-kishore-bhattacharyya">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1662,7 +1686,7 @@
               <div class="col-lg-3 mb-4">
 
                 <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                   <div class="p-3">
                     <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mr-Ashim-Nath-RSHSS.png"
                       class="img-fluid rounded border" />

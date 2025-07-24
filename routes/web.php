@@ -3651,8 +3651,6 @@ Route::get('/faculty-palme-borthakur', function () {
 })->name('faculty-palme-borthakur');
 
 
-
-
 //RSHM-RSTTM Faculty Profile
 Route::get('/faculty-indrajit-dutta', function () {
     return view('frontend/facultyprofile/rshm-rsttm/indrajit-dutta');
@@ -3842,6 +3840,31 @@ Route::get('/faculty-sailendra', function () {
 })->name('faculty-sailendra');
 
 //RSHSS Facuilty Profile
+
+Route::get('/faculty-gautam-mazumdar', function () {
+    return view('frontend/facultyprofile/rshss/gautam-mazumdar');
+})->name('faculty-gautam-mazumdar');
+
+Route::get('/faculty-jugal-kishore-bhattacharyya', function () {
+    return view('frontend/facultyprofile/rshss/jugal-kishore-bhattacharyya');
+})->name('faculty-jugal-kishore-bhattacharyya');
+
+Route::get('/faculty-lalzikpuii-rajkhow', function () {
+    return view('frontend/facultyprofile/rshss/lalzikpuii-rajkhow');
+})->name('faculty-lalzikpuii-rajkhow');
+
+Route::get('/faculty-mohammed-deluwar-hoque', function () {
+    return view('frontend/facultyprofile/rshss/mohammed-deluwar-hoque');
+})->name('faculty-mohammed-deluwar-hoque');
+
+Route::get('/faculty-sanghamitra-hazarika', function () {
+    return view('frontend/facultyprofile/rshss/sanghamitra-hazarika');
+})->name('faculty-sanghamitra-hazarika');
+
+Route::get('/faculty-swabera-islam', function () {
+    return view('frontend/facultyprofile/rshss/swabera-islam');
+})->name('faculty-swabera-islam');
+//
 
 Route::get('/faculty-adam-samphri-timung', function () {
     return view('frontend/facultyprofile/rshss/adam-samphri-timung');
