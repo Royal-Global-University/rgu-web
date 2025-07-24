@@ -21,6 +21,10 @@ Route::get('/test', function () {
     return view('test');
 });
 
+Route::get('/test1', function () {
+    return view('test1');
+});
+
 // Add a test page for the voice assistant
 Route::get('/voice-assistant', function () {
     return view('frontend/voice-assist/voice-assistant');
