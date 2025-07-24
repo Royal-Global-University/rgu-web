@@ -1058,19 +1058,19 @@
                         <img class="text-center" src="mobile-assets/deekshara/deeksharambh-new.png" style="width: 50%" />
                     </div>
                     <div class="row p-3">
-                        <div class="col-lg-5 pb-5" style="display: flex; flex-direction: column; padding-left: 40px;">
+                        <div class="col-lg-5 pt-3" style="display: flex; flex-direction: column; padding-left: 40px;">
                             <div style="width: 642px; overflow: hidden; margin: auto; position: relative;" id="custom-carousel-container">
                                 <div id="custom-carousel-track" style="display: flex; transition: transform 0.5s ease;">
                                     <img src="mobile-assets/deekshara/1.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="https://media.rgu.ac/index/e04.jpeg"
+                                    <img src="mobile-assets/deekshara/2.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/events/model.jpeg"
+                                    <img src="mobile-assets/deekshara/3.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                     <!-- Clones for looping -->
                                     <img src="mobile-assets/deekshara/1.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="https://media.rgu.ac/index/e04.jpeg"
+                                    <img src="mobile-assets/deekshara/2.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                 </div>
                             </div>
@@ -1137,7 +1137,7 @@
                                 #video-container-reel-ads {
                                     position: relative;
                                     width: 100%;
-                                    height: 70vh;
+                                    height: 65vh;
                                     overflow: hidden;
                                     background-color: black;
                                 }
@@ -1189,7 +1189,7 @@
                             </div>
 
                             <!-- Bottom Text Carousel (3 items at a time) -->
-                            <div class="text-carousel-reel">
+                            {{-- <div class="text-carousel-reel">
                                 <button onclick="changeVideoReel('mobile-assets/first-convo/first-convo.mp4')">
                                     <span>Day 1</span><br><span class="fw-bold">Shri Rakkam A. Sangma</span>
                                 </button>
@@ -1205,7 +1205,7 @@
                                 <button onclick="changeVideoReel('https://media.rgu.ac/head-video/v-5.mp4')">
                                     <span>Day 5</span><br><span class="fw-bold">Neha</span>
                                 </button>
-                            </div>
+                            </div> --}}
 
                             <script>
                                 function changeVideoReel(src) {

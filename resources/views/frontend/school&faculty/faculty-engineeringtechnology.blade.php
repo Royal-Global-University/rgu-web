@@ -55,7 +55,6 @@
                     </h5>
                 </div>
             </div>
-
             <div style="padding: 20px 35px;">
 
                 <div class="row" style="display: flex; align-items: center; justify-content: center;">

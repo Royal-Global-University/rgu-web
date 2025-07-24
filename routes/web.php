@@ -21,8 +21,8 @@ Route::get('/test', function () {
     return view('test');
 });
 
-Route::get('/test1', function () {
-    return view('test1');
+Route::get('/physics-test', function () {
+    return view('frontend/school&faculty/department-physics-test');
 });
 
 // Add a test page for the voice assistant
@@ -2442,6 +2442,7 @@ Route::get('/international-programs-BA-English', function () {
 })->name('international-programs-BA-English');
 
 //Royal School of Law & Administration (RSLA)
+
 Route::get('/international-programs-LLM-Day-Shift', function () {
     return view('frontend/international-fee/international-programs-LLM-Day-Shift');
 })->name('international-programs-LLM-Day-Shift');
@@ -4026,6 +4027,28 @@ Route::get('/faculty-tanjeela-mehboob', function () {
 
 
 //RSLA Facuilty Profile
+
+Route::get('/faculty-hiya-das', function () {
+    return view('frontend/facultyprofile/rsla/hiya-das');
+})->name('faculty-hiya-das');
+
+Route::get('/faculty-kuntala-roychoudhury', function () {
+    return view('frontend/facultyprofile/rsla/kuntala-roychoudhury');
+})->name('faculty-kuntala-roychoudhury');
+
+Route::get('/faculty-pranita-choudhury', function () {
+    return view('frontend/facultyprofile/rsla/pranita-choudhury');
+})->name('faculty-pranita-choudhury');
+
+Route::get('/faculty-preeti-gupta', function () {
+    return view('frontend/facultyprofile/rsla/preeti-gupta');
+})->name('faculty-preeti-gupta');
+
+Route::get('/faculty-thaneshwar-kalita', function () {
+    return view('frontend/facultyprofile/rsla/thaneshwar-kalita');
+})->name('faculty-thaneshwar-kalita');
+
+//
 
 Route::get('/faculty-sumit-agarwala', function () {
     return view('frontend/facultyprofile/rsla/sumit-agarwala');
