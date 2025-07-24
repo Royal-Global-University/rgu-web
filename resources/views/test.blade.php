@@ -1055,10 +1055,10 @@
 
                 <div class="pb-4" style="background-image: url('mobile-assets/events/deeksharam-bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                     <div class="text-center pt-5">
-                        <img class="text-center" src="mobile-assets/deekshara/deeksharambh-new.png" style="width: 50%" />
+                        <img class="text-center" src="mobile-assets/deekshara/one-logo.png" style="width: 50%" />
                     </div>
                     <div class="row p-3">
-                        <div class="col-lg-5 pt-3" style="display: flex; flex-direction: column; padding-left: 40px;">
+                        <div class="col-lg-5" style="display: flex; flex-direction: column; padding-left: 40px;">
                             <div style="width: 642px; overflow: hidden; margin: auto; position: relative;" id="custom-carousel-container">
                                 <div id="custom-carousel-track" style="display: flex; transition: transform 0.5s ease;">
                                     <img src="mobile-assets/deekshara/1.jpeg"
@@ -1132,7 +1132,7 @@
                         </div>
                         <div class="col-lg-1"></div>
 
-                        <div class="col-lg-6 pt-3">
+                        <div class="col-lg-6">
                             <style>
                                 #video-container-reel-ads {
                                     position: relative;
