@@ -828,6 +828,180 @@
 
                 <a href="/preface"><img src="https://media.rgu.ac/explore/web.png" alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape."></a>
 
+                <!--daksha-->
+                <div class="pb-4"
+                    style="background-image: url('mobile-assets/events/deeksharam-bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                    <div class="text-center pt-5">
+                        <img class="text-center" src="mobile-assets/deekshara/one-logo.png" style="width: 50%" />
+                    </div>
+                    <div class="row p-3">
+                        <div class="col-lg-5" style="display: flex; flex-direction: column; padding-left: 40px;">
+                            <div style="width: 642px; overflow: hidden; margin: auto; position: relative;"
+                                id="custom-carousel-container">
+                                <div id="custom-carousel-track" style="display: flex; transition: transform 0.5s ease;">
+                                    <img src="mobile-assets/deekshara/1.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/2.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/3.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <!-- Clones for looping -->
+                                    <img src="mobile-assets/deekshara/1.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/2.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                </div>
+                            </div>
+
+                            <div style="text-align: center; margin-top: 10px;">
+                                <button onclick="prevCustomSlide()"
+                                    style="padding: 5px 10px; background-color: #FEAA4E; color: #fff; border-radius: 3px;">&lt;</button>
+                                <button onclick="nextCustomSlide()"
+                                    style="padding: 5px 10px; background-color: #FEAA4E; color: #fff; border-radius: 3px;">&gt;</button>
+                            </div>
+
+                            <script>
+                                const customTrack = document.getElementById('custom-carousel-track');
+                                const customSlideWidth = 320; // 400 + 20px margin
+                                const customVisibleSlides = 2;
+                                let customIndex = 0;
+                                let customIsSliding = false;
+
+                                function nextCustomSlide() {
+                                    if (customIsSliding) return;
+                                    customIsSliding = true;
+                                    customIndex++;
+                                    customTrack.style.transition = 'transform 0.5s ease';
+                                    customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
+
+                                    setTimeout(() => {
+                                        if (customIndex >= customTrack.children.length - customVisibleSlides) {
+                                            customTrack.style.transition = 'none';
+                                            customIndex = 0;
+                                            customTrack.style.transform = 'translateX(0px)';
+                                        }
+                                        customIsSliding = false;
+                                    }, 500);
+                                }
+
+                                function prevCustomSlide() {
+                                    if (customIsSliding) return;
+                                    customIsSliding = true;
+                                    if (customIndex <= 0) {
+                                        customIndex = customTrack.children.length - customVisibleSlides;
+                                        customTrack.style.transition = 'none';
+                                        customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
+                                        setTimeout(() => {
+                                            customIndex--;
+                                            customTrack.style.transition = 'transform 0.5s ease';
+                                            customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
+                                            customIsSliding = false;
+                                        }, 20);
+                                    } else {
+                                        customIndex--;
+                                        customTrack.style.transition = 'transform 0.5s ease';
+                                        customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
+                                        setTimeout(() => customIsSliding = false, 500);
+                                    }
+                                }
+
+                                setInterval(nextCustomSlide, 3000); // Auto-slide every 3 seconds
+                            </script>
+                        </div>
+                        <div class="col-lg-1"></div>
+
+                        <div class="col-lg-6">
+                            <style>
+                                #video-container-reel-ads {
+                                    position: relative;
+                                    width: 100%;
+                                    height: 65vh;
+                                    overflow: hidden;
+                                    background-color: black;
+                                }
+
+                                #video-reel-main {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    min-width: 100%;
+                                    min-height: 100%;
+                                    transform: translate(-50%, -50%);
+                                    object-fit: cover;
+                                }
+
+                                .text-carousel-reel {
+                                    display: flex;
+                                    overflow-x: auto;
+                                    padding: 10px;
+                                    scroll-snap-type: x mandatory;
+                                }
+
+                                .text-carousel-reel button {
+                                    flex: 0 0 calc(33.33% - 20px);
+                                    /* 3 items in full width with some gap */
+                                    margin-right: 10px;
+                                    padding: 10px 10px;
+                                    background: #fff;
+                                    border: 1px solid #ccc;
+                                    border-radius: 20px;
+                                    font-size: 14px;
+                                    cursor: pointer;
+                                    scroll-snap-align: start;
+                                    transition: background 0.3s;
+                                    white-space: nowrap;
+                                }
+
+                                .text-carousel-reel button:hover {
+                                    background: #03203e;
+                                    color: white;
+                                }
+                            </style>
+
+                            <!-- Main Video Container -->
+                            <div id="video-container-reel-ads">
+                                <video autoplay loop muted playsinline id="video-reel-main">
+                                    <source src="https://media.rgu.ac/deekshara.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+
+                            <!-- Bottom Text Carousel (3 items at a time) -->
+                            {{-- <div class="text-carousel-reel">
+                                <button onclick="changeVideoReel('mobile-assets/first-convo/first-convo.mp4')">
+                                    <span>Day 1</span><br><span class="fw-bold">Shri Rakkam A. Sangma</span>
+                                </button>
+                                <button onclick="changeVideoReel('mobile-assets/second-convo/second-convo.mp4')">
+                                    <span>Day 2</span><br><span class="fw-bold">Sana</span>
+                                </button>
+                                <button onclick="changeVideoReel('mobile-assets/third-Convo/third-convo.mp4')">
+                                    <span>Day 3</span><br><span class="fw-bold">Arjun</span>
+                                </button>
+                                <button onclick="changeVideoReel('mobile-assets/first-convo/first-convo.mp4')">
+                                    <span>Day 4</span><br><span class="fw-bold">Riya</span>
+                                </button>
+                                <button onclick="changeVideoReel('https://media.rgu.ac/head-video/v-5.mp4')">
+                                    <span>Day 5</span><br><span class="fw-bold">Neha</span>
+                                </button>
+                            </div> --}}
+
+                            <script>
+                                function changeVideoReel(src) {
+                                    const video = document.getElementById('video-reel-main');
+                                    const source = video.querySelector('source');
+
+                                    video.pause();                        // Pause current video
+                                    source.setAttribute('src', src);     // Update the source src attribute
+                                    video.load();                        // Reload the video element
+                                    video.play();                        // Play the new video
+                                }
+                            </script>
+                        </div>
+
+
+                    </div>
+                </div>
+
 
                 <!--New Events-->
                 <div class="container" style="padding: 30px 0px;">
