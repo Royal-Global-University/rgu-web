@@ -520,7 +520,7 @@
                 <div
                     style=" display: flex; align-items: center; justify-content: center; height: 80px; background-color: #27467A; color: #fff;">
                     <h5 class=" text-center text-white fw-bold ">
-                        Department of Medical Lab Tech
+                        Department of Medical Lab Technology
                     </h5>
                 </div>
             </div>
@@ -1398,7 +1398,7 @@
                 <div
                     style=" display: flex; align-items: center; justify-content: center; height: 60px; background-color: #27467A; color: #fff; margin-right: 50%; border-radius: 0px 60px 60px 0px;">
                     <h4 class=" text-white fw-bold ">
-                        Department of Medical Lab tech
+                        Department of Medical Lab Technology
                     </h4>
                 </div>
             </div>
