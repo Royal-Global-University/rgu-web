@@ -1311,6 +1311,10 @@
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Students'
                                                         Grievance</p>
                                                 </a>
+                                                <a href="mobile-assets/Policy/consultancy policy.pdf">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">RGU
+                                                        Policy</p>
+                                                </a>
 
                                             </div>
 

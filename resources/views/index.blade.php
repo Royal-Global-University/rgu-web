@@ -828,7 +828,7 @@
 
                 <a href="/preface"><img src="https://media.rgu.ac/explore/web.png" alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape."></a>
 
-                <!--daksha-->
+                <!--Deekharambh-->
                 <div class="pb-4"
                     style="background-image: url('mobile-assets/events/deeksharam-bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                     <div class="text-center pt-5">
@@ -961,7 +961,7 @@
                             <!-- Main Video Container -->
                             <div id="video-container-reel-ads">
                                 <video autoplay loop muted playsinline id="video-reel-main">
-                                    <source src="https://media.rgu.ac/deekshara.mp4" type="video/mp4">
+                                    <source src="https://media.rgu.ac/deeksharambh/hd.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
