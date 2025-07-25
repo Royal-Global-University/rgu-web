@@ -6,24 +6,25 @@
 
     <section class="mobile">
 
-                    <!-- Popup -->
-                    <div id="popup-mob" class="popup-overlay">
-                        <a href="https://admissions.rgu.ac/" target="_blank" class="text-center"><img src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}"
-                                style="width: 400px; height: 400px;" class="popup-image" alt="Popup Image"></a>
-                    </div>
+        <!-- Popup -->
+        <div id="popup-mob" class="popup-overlay">
+            <a href="https://admissions.rgu.ac/" target="_blank" class="text-center"><img
+                    src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}" style="width: 400px; height: 400px;"
+                    class="popup-image" alt="Popup Image"></a>
+        </div>
 
-                    <script>
-                        document.addEventListener('DOMContentLoaded', function () {
-                            const popup = document.getElementById('popup-mob');
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const popup = document.getElementById('popup-mob');
 
-                            // When click anywhere outside the image, hide the popup
-                            popup.addEventListener('click', function (event) {
-                                if (event.target === popup) {
-                                    popup.style.display = 'none';
-                                }
-                            });
-                        });
-                    </script>
+                // When click anywhere outside the image, hide the popup
+                popup.addEventListener('click', function (event) {
+                    if (event.target === popup) {
+                        popup.style.display = 'none';
+                    }
+                });
+            });
+        </script>
 
         <!-- Floating WhatsApp Button -->
         <a href="https://wa.me/917099028518" class="whatsapp-float" target="_blank">
@@ -34,26 +35,26 @@
         <!-- Floating Section with Frosted Background -->
         <div class="container">
             <div class="floating-wrapper" style="
-                                    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-                                    width: 90%; max-width: 400px; z-index: 800;
-                                    backdrop-filter: blur(30px);
-                                    background: #27467A; /* Frosty effect */
-                                    border-radius: 10px;
-                                    box-shadow: 0 1px 1px #ffffff97;
-                                    border: 1px solid #27467A;
-                                    padding: 15px;">
+                                        position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+                                        width: 90%; max-width: 400px; z-index: 800;
+                                        backdrop-filter: blur(30px);
+                                        background: #27467A; /* Frosty effect */
+                                        border-radius: 10px;
+                                        box-shadow: 0 1px 1px #ffffff97;
+                                        border: 1px solid #27467A;
+                                        padding: 15px;">
 
                 <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
                     <span class="mobile-para1" style="
-                                            font-weight: bold; font-size: 18px; line-height: 1.3;
-                                            color: #fff; flex-grow: 1;">
+                                                font-weight: bold; font-size: 18px; line-height: 1.3;
+                                                color: #fff; flex-grow: 1;">
                         Admission open for 2025 - 2026
                     </span>
 
                     <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
-                                            background-color: #ffb300; color: #fff;
-                                            font-weight: bold; padding: 10px 14px; border-radius: 5px;
-                                            text-decoration: none; white-space: nowrap;">
+                                                background-color: #ffb300; color: #fff;
+                                                font-weight: bold; padding: 10px 14px; border-radius: 5px;
+                                                text-decoration: none; white-space: nowrap;">
                         Apply Now
                     </a>
                 </div>
@@ -95,7 +96,7 @@
         <!-- discover rgu -->
         <div>
             <a href=""><img src="https://media.rgu.ac/explore/mob.png"
-                alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape." /></a>
+                    alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape." /></a>
         </div>
         <!-- discover rgu -->
 
@@ -637,24 +638,24 @@
     </section>
 
     <section class="website">
-            <!-- Popup -->
-            <div id="popup-web" class="popup-overlay">
-                <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-2025.png') }}"
-                        style="width: 550px; height: 550px;" class="popup-image" alt="Popup Image"></a>
-            </div>
+        <!-- Popup -->
+        <div id="popup-web" class="popup-overlay">
+            <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-2025.png') }}"
+                    style="width: 550px; height: 550px;" class="popup-image" alt="Popup Image"></a>
+        </div>
 
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    const popup = document.getElementById('popup-web');
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const popup = document.getElementById('popup-web');
 
-                    // When click anywhere outside the image, hide the popup
-                    popup.addEventListener('click', function (event) {
-                        if (event.target === popup) {
-                            popup.style.display = 'none';
-                        }
-                    });
+                // When click anywhere outside the image, hide the popup
+                popup.addEventListener('click', function (event) {
+                    if (event.target === popup) {
+                        popup.style.display = 'none';
+                    }
                 });
-            </script>
+            });
+        </script>
         <div id="page" class="site site_wrapper">
 
             <div class="scroll-top">
@@ -805,7 +806,7 @@
                                 <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
                                     alt="Video Thumbnail"
                                     style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
-                                                                                    z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
+                                                                                        z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
                             </div> --}}
                             <div class="video-container" style="position: relative; width: 100%; height: auto;">
                                 <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
@@ -826,7 +827,8 @@
 
             <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
 
-                <a href="/preface"><img src="https://media.rgu.ac/explore/web.png" alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape."></a>
+                <a href="/preface"><img src="https://media.rgu.ac/explore/web.png"
+                        alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape."></a>
 
                 <!--Deekharambh-->
                 <div class="pb-4"
@@ -839,12 +841,29 @@
                             <div style="width: 642px; overflow: hidden; margin: auto; position: relative;"
                                 id="custom-carousel-container">
                                 <div id="custom-carousel-track" style="display: flex; transition: transform 0.5s ease;">
-                                    <img src="mobile-assets/deekshara/1.jpeg"
+                                    <img src="mobile-assets/deekshara/new/1.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/2.jpeg"
+                                    <img src="mobile-assets/deekshara/new/2.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/3.jpeg"
+                                    <img src="mobile-assets/deekshara/new/3.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/4.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/5.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/6.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/7.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/8.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/9.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/10.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/11.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+
                                     <!-- Clones for looping -->
                                     <img src="mobile-assets/deekshara/1.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
@@ -1122,15 +1141,20 @@
 
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px; width: 100%" src="mobile-assets/rgu-blog/blog2.jpeg" alt="" />
+                                                <img class="rounded" style="height: 150px; width: 100%"
+                                                    src="mobile-assets/rgu-blog/blog2.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1.2;" class="pt-2 m-0 fw-bold">ICMR Awards 3 Start-up Grants worth over ₹1 Crore to RGU Faculty
+                                                <p style="color: #27467A; font-size: 19px; line-height: 1.2;"
+                                                    class="pt-2 m-0 fw-bold">ICMR Awards 3 Start-up Grants worth over ₹1
+                                                    Crore to RGU Faculty
                                                 </p>
-                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 18, 2025
+                                                <p class="pt-1 pt-2 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">July 18, 2025
                                                 </p>
                                                 <a href="icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
@@ -1138,16 +1162,19 @@
 
                                         <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px; width: 100%;" src="mobile-assets/media-corner/news23/1.avif" alt="" />
+                                                <img class="rounded" style="height: 150px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news23/1.avif" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; line-height: 1.2;" class="pt-2 m-0 fw-bold">
-                                                A Living Call to Memory: The Bhupen Hazarika Museum Beckons
+                                                    A Living Call to Memory: The Bhupen Hazarika Museum Beckons
                                                 </p>
-                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 16, 2025
+                                                <p class="pt-1 pt-2 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">July 16, 2025
                                                 </p>
                                                 <a href="a-living-call-to-memory-the-bhupen-hazarika-museum-beckons">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
@@ -1355,8 +1382,8 @@
 
         <!--campus life-->
         <section class=" elementor-section elementor-top-section elementor-element elementor-element-f03cf62
-                                                    elementor-section-full_width elementor-section-height-default
-                                                    elementor-section-height-default" data-id="f03cf62"
+                                                        elementor-section-full_width elementor-section-height-default
+                                                        elementor-section-height-default" data-id="f03cf62"
             data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-no">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bd58a9"
@@ -1374,12 +1401,12 @@
                                         <div class="kd-course-1-scn-title">
                                             <div class="left">
                                                 <!-- <h6
-                                                                                    class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
-                                                                                    <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
-                                                                                        alt="">
+                                                                                        class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
+                                                                                        <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
+                                                                                            alt="">
 
-                                                                                    RGU Campus
-                                                                                </h6> -->
+                                                                                        RGU Campus
+                                                                                    </h6> -->
                                                 <h1 style="color: #FF9A1E; font-weight: 800;"
                                                     class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text has-clr-white headd1 ">
                                                     Our Campus Life</h1>
@@ -1552,20 +1579,20 @@
                                                         </div>
 
                                                         <!-- <div class="kd-course-3-tabs-content-action text-center">
-                                                                                            <h5
-                                                                                                class="kd-heading-1 kd-font-700 has-clr-white action-link">
-                                                                                                get your quality skills certificate from RGU</h5>
-                                                                                            <a href="#" aria-label="name"
-                                                                                                class="kd-pr-btn-1 text-uppercase">
-                                                                                                <span class="text" data-back="get started now"
-                                                                                                    data-front="get started now"></span>
-                                                                                            </a>
-                                                                                        </div> -->
+                                                                                                <h5
+                                                                                                    class="kd-heading-1 kd-font-700 has-clr-white action-link">
+                                                                                                    get your quality skills certificate from RGU</h5>
+                                                                                                <a href="#" aria-label="name"
+                                                                                                    class="kd-pr-btn-1 text-uppercase">
+                                                                                                    <span class="text" data-back="get started now"
+                                                                                                        data-front="get started now"></span>
+                                                                                                </a>
+                                                                                            </div> -->
                                                         <!-- <div class="kd-course-3-tabs-content-il-1">
-                                                                                            <img decoding="async"
-                                                                                                src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
-                                                                                                alt="">
-                                                                                        </div> -->
+                                                                                                <img decoding="async"
+                                                                                                    src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
+                                                                                                    alt="">
+                                                                                            </div> -->
 
                                                     </div>
 
@@ -1819,11 +1846,11 @@
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
                                         <!-- <h6 class="kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub"
-                                                                        style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
-                                                                            <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
+                                                                            style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
+                                                                                <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
 
-                                                                            RGU Programmes
-                                                                        </h6> -->
+                                                                                RGU Programmes
+                                                                            </h6> -->
                                         <h1 class="headd1 pb-4" style="color: #27467A; font-size: 50px; font-weight: 800;">
                                             Explore Our
                                             <span style="font-weight: 800; color: #EF991F;">Courses</span>
@@ -1941,8 +1968,8 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                students</span> -->
+                                                                                                                <span class="item-student kd-heading-1">34,000
+                                                                                                                    students</span> -->
                                                                 </div>
 
                                                                 <div class="card-content">
@@ -1971,8 +1998,8 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                students</span> -->
+                                                                                                                <span class="item-student kd-heading-1">34,000
+                                                                                                                    students</span> -->
 
                                                                 </div>
 
@@ -2003,7 +2030,7 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                            <span class="item-student kd-heading-1">34,000 -->
+                                                                                                                <span class="item-student kd-heading-1">34,000 -->
                                                                     students</span>
 
                                                                 </div>
