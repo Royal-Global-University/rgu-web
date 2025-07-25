@@ -1527,8 +1527,6 @@ Route::get('/ba-English', function () {
     return view('frontend/programmes/ias/ba-English');
 })->name('ba-English');
 
-
-
 //End admission-programmes
 
 //School & Faculty
@@ -3840,7 +3838,33 @@ Route::get('/faculty-sailendra', function () {
     return view('frontend/facultyprofile/rscom/sailendra');
 })->name('faculty-sailendra');
 
+//RSFA Facuilty Profile
+
+Route::get('/faculty-kishan-bagdi', function () {
+    return view('frontend/facultyprofile/rsfa/kishan-bagdi');
+})->name('faculty-kishan-bagdi');
+
+Route::get('/faculty-mousumi-deka', function () {
+    return view('frontend/facultyprofile/rsfa/mousumi-deka');
+})->name('faculty-mousumi-deka');
+
+Route::get('/faculty-sehnaz-saikia', function () {
+    return view('frontend/facultyprofile/rsfa/sehnaz-saikia');
+})->name('faculty-sehnaz-saikia');
+
+Route::get('/faculty-suman-saha', function () {
+    return view('frontend/facultyprofile/rsfa/suman-saha');
+})->name('faculty-suman-saha');
+
+Route::get('/faculty-sumanta-dutta-chowdhury', function () {
+    return view('frontend/facultyprofile/rsfa/sumanta-dutta-chowdhury');
+})->name('faculty-sumanta-dutta-chowdhury');
+
 //RSHSS Facuilty Profile
+
+Route::get('/faculty-dhiraj-kumar-borkotoky', function () {
+    return view('frontend/facultyprofile/rshss/dhiraj-kumar-borkotoky');
+})->name('faculty-dhiraj-kumar-borkotoky');
 
 Route::get('/faculty-gautam-mazumdar', function () {
     return view('frontend/facultyprofile/rshss/gautam-mazumdar');

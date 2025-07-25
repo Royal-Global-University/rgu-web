@@ -653,7 +653,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Associate Professor
                     </p>
-
+                    <a href="faculty-dhiraj-kumar-borkotoky">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
             </div>
@@ -1573,7 +1575,7 @@
                 </div>
               </div>
 
-              
+
 
                <div class="col-lg-3 mb-4">
 
@@ -2064,7 +2066,9 @@
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
                       Associate Professor
                     </p>
-
+                    <a href="faculty-dhiraj-kumar-borkotoky">
+                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                    </a>
                   </div>
                 </div>
             </div>
