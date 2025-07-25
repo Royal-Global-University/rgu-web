@@ -861,8 +861,6 @@
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                     <img src="mobile-assets/deekshara/new/11.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/12.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
 
                                     <!-- Clones for looping -->
                                     <img src="mobile-assets/deekshara/1.jpeg"
@@ -1035,7 +1033,7 @@
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
                                     <img class="zoomable active" src="mobile-assets/events/25-jul-4.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable active" src="mobile-assets/events/25-jul-3.jpeg"
+                                    <img class="zoomable active" src="mobile-assets/events/25-jul-3.2.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable active" src="mobile-assets/events/24web.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
