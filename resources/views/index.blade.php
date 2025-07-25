@@ -1033,12 +1033,10 @@
                                     Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span></h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
+                                    <img class="zoomable active" src="mobile-assets/events/25-jul-4.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable active" src="mobile-assets/events/25-jul-3.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable active" src="mobile-assets/events/25-jul-1.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                        <img class="zoomable active" src="mobile-assets/events/25-jul-2.jpeg"
-                                            style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable active" src="mobile-assets/events/24web.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
