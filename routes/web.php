@@ -2916,10 +2916,6 @@ Route::get('/press-coverage', function () {
     return view('frontend/media-corner/press-coverage');
 })->name('press-coverage');
 
-Route::get('/icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty', function () {
-    return view('frontend/media-corner/news24');
-})->name('icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty');
-
 Route::get('/RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy', function () {
     return view('frontend/media-corner/news1');
 })->name('RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy');
@@ -3011,6 +3007,18 @@ Route::get('/rgu-outreach-awareness-on-conservation-of-salamander-habitat', func
 Route::get('/a-living-call-to-memory-the-bhupen-hazarika-museum-beckons', function () {
     return view('frontend/media-corner/news23');
 })->name('a-living-call-to-memory-the-bhupen-hazarika-museum-beckons');
+
+Route::get('/icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty', function () {
+    return view('frontend/media-corner/news24');
+})->name('icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty');
+
+Route::get('/rgu-signs-mou-with-indira-gandhi-national-centre-for-the-arts-ignca-an-autonomous-trust-of-ministry-of-culture-govt-of-india', function () {
+    return view('frontend/media-corner/news25');
+})->name('rgu-signs-mou-with-indira-gandhi-national-centre-for-the-arts-ignca-an-autonomous-trust-of-ministry-of-culture-govt-of-india');
+
+Route::get('/union-education-minister-dharmendra-pradhan-to-grace-rgus-5th-convocation', function () {
+    return view('frontend/media-corner/news26');
+})->name('union-education-minister-dharmendra-pradhan-to-grace-rgus-5th-convocation');
 
 //IKS Faculty Profile
 

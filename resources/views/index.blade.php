@@ -1145,7 +1145,38 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
 
-                                        <div class="row bg-light p-2 rounded">
+                                        <div class="row bg-light p-2 rounded ">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 150px;" src="mobile-assets/media-corner/news26/1.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1.2;" class="pt-2 m-0 fw-bold">Union Education Minister Dharmendra Pradhan to Grace RGU’s 5th Convocation</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 25, 2025
+                                                </p>
+                                                <a
+                                                    href="union-education-minister-dharmendra-pradhan-to-grace-rgus-5th-convocation">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-3">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 150px;" src="mobile-assets/media-corner/news25/2.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1.2;" class="pt-2 m-0 fw-bold">RGU Signs MoU with Indira Gandhi National Centre for the Arts (IGNCA)</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 24, 2025
+                                                </p>
+                                                <a href="rgu-signs-mou-with-indira-gandhi-national-centre-for-the-arts-ignca-an-autonomous-trust-of-ministry-of-culture-govt-of-india">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 150px; width: 100%"
                                                     src="mobile-assets/rgu-blog/blog2.jpeg" alt="" />
@@ -1165,49 +1196,6 @@
                                                 </a>
                                             </div>
                                         </div>
-
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news23/1.avif" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; line-height: 1.2;" class="pt-2 m-0 fw-bold">
-                                                    A Living Call to Memory: The Bhupen Hazarika Museum Beckons
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">July 16, 2025
-                                                </p>
-                                                <a href="a-living-call-to-memory-the-bhupen-hazarika-museum-beckons">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px;"
-                                                    src="mobile-assets/media-corner/news22/index.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1.2;"
-                                                    class="pt-2 m-0 fw-bold">RGU Outreach: Awareness on Conservation of
-                                                    Salamander Habitat</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">July 10, 2025
-                                                </p>
-                                                <a href="rgu-outreach-awareness-on-conservation-of-salamander-habitat">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-
-
                                     </div>
                                 </div>
                                 <div style="text-align:center; margin-top:20px;">
