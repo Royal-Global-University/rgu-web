@@ -779,7 +779,10 @@
                                     Yasmin</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor <br> The
                                     Assam Royal Global University</p>
-
+                                    <a href="faculty-jemima-yasmin">
+                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                            Profile</p>
+                                    </a>
                             </div>
                         </div>
                     </div>
@@ -1579,7 +1582,10 @@
                                     Yasmin</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor <br> The
                                     Assam Royal Global University</p>
-
+                                <a href="faculty-jemima-yasmin">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>

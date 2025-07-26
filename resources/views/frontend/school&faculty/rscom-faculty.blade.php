@@ -153,6 +153,10 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Esha
                                     Chakraborty</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="faculty-esha-chakraborty">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -422,6 +426,10 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Esha
                                     Chakraborty</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="faculty-esha-chakraborty">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
