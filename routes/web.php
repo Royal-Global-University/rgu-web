@@ -1539,6 +1539,10 @@ Route::get('/schools-rgu', function () {
     return view('frontend/school&faculty/schools-rgu');
 })->name('schools-rgu');
 
+Route::get('/department-IKS', function () {
+    return view('frontend/school&faculty/department-IKS');
+})->name('department-IKS');
+
 Route::get('/department-travel', function () {
     return view('frontend/school&faculty/department-travel');
 })->name('department-travel');

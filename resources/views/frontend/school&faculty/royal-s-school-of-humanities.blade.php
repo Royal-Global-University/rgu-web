@@ -116,6 +116,23 @@
                         </a>
                     </div>
 
+                    <div class="col-lg-4 mb-4">
+
+                        <a href="department-IKS">
+                            <div class="p-4 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                                <div class="p-3 text-center">
+                                    <i class="fas fa-scroll fa-4x" style="color: #27467A;"></i>
+                                </div>
+                                <div class="card-body ">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title mobile-headd2 pb-2">Centre
+                                        for
+                                        Indian knowledge System</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
 
             </div>
@@ -238,6 +255,21 @@
                                 <div class="card-body ">
                                     <h5 style="font-weight: 800; color: #27467A;"
                                         class="text-center card-title mobile-headd2 pb-2">Department of Social Work</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+
+                        <a href="department-IKS">
+                            <div class="p-4 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                                <div class="p-3 text-center">
+                                    <i class="fas fa-scroll fa-4x" style="color: #27467A;"></i>
+                                </div>
+                                <div class="card-body ">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title mobile-headd2 pb-2">Centre for
+                                        Indian knowledge System</h5>
                                 </div>
                             </div>
                         </a>
