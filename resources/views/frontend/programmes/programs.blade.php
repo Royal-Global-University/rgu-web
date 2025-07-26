@@ -1661,11 +1661,11 @@
                     <h2 class="accordion-header" id="headingSixteen">
                         <button style="font-size: 18px; background-color: #00465d;"
                             class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
+                            data-bs-target="#collapsesixsix" aria-expanded="true" aria-controls="collapsesixsix">
                             Royal School of Humanities & Social Sciences (RSHSS)
                         </button>
                     </h2>
-                    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen"
+                    <div id="collapsesixsix" class="accordion-collapse collapse" aria-labelledby="headingSixteen"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color: #fff;">
                             <p class="m-0 pb-4 text-dark fw-bold para1">HUMANITIES & SOCIAL SCIENCES</p>
@@ -1726,6 +1726,15 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-3 pt-3">
+                                    <a href="{{route('program-ma-IKS')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">MA - IKS</p>
+                                            <p class="text-center text-white para1">2 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 pt-3">
                                     <a href="{{route('programs-BA-Economics')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
@@ -1745,7 +1754,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-3 pt-3">
+                                <div class="col-lg-3 mt-3">
                                     <a href="{{route('programs-BA-Sociology')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
@@ -1754,7 +1763,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 mt-3">
                                     <a href="{{route('ba-sociology')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
                                         <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">

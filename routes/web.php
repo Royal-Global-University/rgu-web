@@ -931,6 +931,10 @@ Route::get('/admission-programs-fees-structure', function () {
     return view('frontend/programmes/admission-programs-fees-structure');
 })->name('admission-programs-fees-structure');
 
+Route::get('/program-ma-IKS', function () {
+    return view('frontend/programmes/programs-MA-IKS');
+})->name('program-ma-IKS');
+
 Route::get('/program-bsc-agriculture', function () {
     return view('frontend/programmes/program-bsc-agriculture');
 })->name('program-bsc-agriculture');
