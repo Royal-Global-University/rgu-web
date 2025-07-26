@@ -2887,6 +2887,10 @@ Route::get('/best-university-in-north-east-india', function () {
     return view('frontend/blog/best-university-in-north-east-india');
 })->name('best-university-in-north-east-india');
 
+Route::get('/a-complete-guide-to-studying-btech-in-guwahati', function () {
+    return view('frontend/blog/a-complete-guide-to-studying-btech-in-guwahati');
+})->name('a-complete-guide-to-studying-btech-in-guwahati');
+
 //Quick link
 Route::get('/grievance', function () {
     return view('frontend/quicklink/grievance');
