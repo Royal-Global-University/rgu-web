@@ -130,6 +130,23 @@
                                         class="btn btn-md custom-details-btn fw-bold">Details</button></a>
                             </td>
                         </tr>
+
+                        <tr>
+                            <td>4.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">MA - Clinical Psychology</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                2 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-MA-Clinical-Psychology"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
 
@@ -795,6 +812,22 @@
                             </td>
                             <td>
                                 <a target="_blank" href="programs-MA-Psychology"><button type="button"
+                                        style="background-color: #FF9A1E; color: #fff;"
+                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>
+                                <p>
+                                    <strong style="color: #023e8a;" class="#">MA - Clinical Psychology</strong>
+                                </p>
+                            </td>
+                            <td class="para1">
+                                2 years
+                            </td>
+                            <td>
+                                <a target="_blank" href="programs-MA-Clinical-Psychology"><button type="button"
                                         style="background-color: #FF9A1E; color: #fff;"
                                         class="btn btn-md custom-details-btn fw-bold">Details</button></a>
                             </td>
