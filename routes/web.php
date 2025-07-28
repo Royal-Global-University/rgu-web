@@ -3032,6 +3032,11 @@ Route::get('/union-education-minister-dharmendra-pradhan-to-grace-rgus-5th-convo
     return view('frontend/media-corner/news26');
 })->name('union-education-minister-dharmendra-pradhan-to-grace-rgus-5th-convocation');
 
+Route::get('/indian-rupee-symbol-creator-interacts-with-design-and-architecture-students-at-royal-global-university', function () {
+    return view('frontend/media-corner/news27');
+})->name('indian-rupee-symbol-creator-interacts-with-design-and-architecture-students-at-royal-global-university');
+
+
 //IKS Faculty Profile
 
 Route::get('/faculty-monalisha-medhi', function () {

@@ -1025,11 +1025,9 @@
                                     Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span></h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
-                                    <img class="zoomable active" src="mobile-assets/events/25-jul-4.jpeg"
+                                    <img class="zoomable active" src="mobile-assets/events/28-jul-1.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable active" src="mobile-assets/events/25-jul-3.2.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable active" src="mobile-assets/events/24web.jpeg"
+                                    <img class="zoomable active" src="mobile-assets/events/28-jul-2.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
@@ -1134,8 +1132,23 @@
                             <div style="height: 600px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
                                     <div class="row">
-
                                         <div class="row bg-light p-2 rounded ">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 150px; width: 100%" src="mobile-assets/media-corner/news27/1.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-size: 19px; line-height: 1.2;" class="pt-2 m-0 fw-bold">Develop Assam’s Typography: Rupee Symbol Designer Dr. Dharmalingam urges students
+                                                </p>
+                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 28, 2025
+                                                </p>
+                                                <a href="indian-rupee-symbol-creator-interacts-with-design-and-architecture-students-at-royal-global-university">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 150px;" src="mobile-assets/media-corner/news26/1.jpg" alt="" />
                                             </div>
@@ -1161,27 +1174,6 @@
                                                 </p>
                                                 <a href="rgu-signs-mou-with-indira-gandhi-national-centre-for-the-arts-ignca-an-autonomous-trust-of-ministry-of-culture-govt-of-india">
                                                     <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px; width: 100%"
-                                                    src="mobile-assets/rgu-blog/blog2.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1.2;"
-                                                    class="pt-2 m-0 fw-bold">ICMR Awards 3 Start-up Grants worth over ₹1
-                                                    Crore to RGU Faculty
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">July 18, 2025
-                                                </p>
-                                                <a href="icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
