@@ -841,8 +841,6 @@
                             <div style="width: 642px; overflow: hidden; margin: auto; position: relative;"
                                 id="custom-carousel-container">
                                 <div id="custom-carousel-track" style="display: flex; transition: transform 0.5s ease;">
-                                    <img src="mobile-assets/deekshara/new/1.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                     <img src="mobile-assets/deekshara/new/2.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                     <img src="mobile-assets/deekshara/new/3.jpeg"
@@ -860,12 +858,6 @@
                                     <img src="mobile-assets/deekshara/new/10.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                     <img src="mobile-assets/deekshara/new/11.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-
-                                    <!-- Clones for looping -->
-                                    <img src="mobile-assets/deekshara/1.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/2.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                 </div>
                             </div>
