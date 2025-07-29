@@ -101,28 +101,21 @@
 
                 <h2 class="mobile-headd2 fw-bold" style="color: #264273;">RCHRD Committee:</h2>
                 <ol class="mobile-para1 text-dark">
-                    <li>Prof. Dr. Y. S. R. Murthy, Vice Chancellor - Chief Advisor</li>
-                    <li>Prof. (Dr.) Ladu Singh (Prof. Emeritus) - Advisor</li>
-                    <li>Prof. (Dr.) L.K. Nath (Dean, RSP) - Special Invitee</li>
-                    <li>Prof. Nikhil Chrungoo (Dean, RSLS) - Special Invitee</li>
-                    <li>Prof. Bijay Singh Mipun (Dean, DSW & RSEES) - Special Invitee</li>
                     <li>Prof. Dr. George A.P. (Dean, RSB & RSC) - Chairman</li>
-                    <li>Prof. D.N. Singh (Registrar) - Member</li>
-                    <li>Prof. Ankur Ganguly (Dean Academic & Dean RSET & IT) - Member</li>
-                    <li>Prof. Anuradha Devi (Dean RSAPS & Director, IQAC) - Member</li>
-                    <li>Dr. Annu Kumari (Asst Prof, Zoology) - Member Secretary</li>
-                    <li>Prof. Ajit Kaushal (HOD, RSLA) - Member</li>
-                    <li>Prof. (Dr) Suresh Chandra Nayak (Dean i/c RSCOM) - Member</li>
-                    <li>Prof. (Dr) Saket Jeswani (Dean Consultancy, Prof. RSB) - Member</li>
-                    <li>Dr. Amlan Das (Assoc. Professor, RSBSC) - Member</li>
-                    <li>Dr. Ranjan Dutta Kalita (Assoc. Prof., RSBSC) - Member</li>
-                    <li>Prof (Dr.) Prince (Associate Professor, RSBAS) - Member</li>
-                    <li>Dr. Shankar Burman (Coordinator, IIC-RGU) - Member</li>
-                    <li>Dr. Ashok Kumar (Dy Director, RCCR) - Member</li>
+                    <li>Prof. L.K. Nath (Dean, RSP) - Member</li>
+                    <li>Prof. (Dr.) Ladu Singh (Prof. Emeritus) - Member</li>
+                    <li>Prof. D.N. Singh (Registrar-Academics) - Member</li>
+                    <li>Prof. (Dr.) Diganta Munshi, Dean RSIT & RSET - Member</li>
+                    <li>Prof. Surajit Mukhopadhyay (Dean, RSHS) - Member</li>
+                    <li>Dr. Sankar Burman (Coordinator, IIC-RGU) - Member</li>
+                    <li>Prof. Samip Baruah (Prof. RSB) - Member</li>
                     <li>Dr. Indrajit Dutta (Asst. Professor, RSTTM) - Member</li>
-                    <li>Dr. Mousmi Deka (Asst. Professor, RSFA) - Member</li>
                     <li>Ms. Baishali Pathak (Asst. Professor, RSC) - Member</li>
-                    <li>Dr. Sujata Deb (Assoc. Prof, RSAPS) - Ex-officio Member</li>
+                    <li>Dr. Hirak Jyoti Hazarika (HOD-RSLISC) - Member</li>
+                    <li>Ms. Bristy Srivastava, Head RCCR - Member</li>
+                    <li>Prof. Nikhil K Chrungoo (Dean, RSLS) - Special Invitee</li>
+                    <li>Dr. Suman Agarwal (Asst Prof, RSB) - MDP Coordinator</li>
+                    <li>Dr. Annu Kumari (Asst Prof, Zoology) - Member Secretary</li>
                 </ol>
 
                 <hr>
@@ -235,28 +228,21 @@
 
             <h2 class="headd2 fw-bold" style="color: #264273;">RCHRD Committee:</h2>
             <ol class="para1 text-dark">
-                <li>Prof. Dr. Y. S. R. Murthy, Vice Chancellor - Chief Advisor</li>
-                <li>Prof. (Dr.) Ladu Singh (Prof. Emeritus) - Advisor</li>
-                <li>Prof. (Dr.) L.K. Nath (Dean, RSP) - Special Invitee</li>
-                <li>Prof. Nikhil Chrungoo (Dean, RSLS) - Special Invitee</li>
-                <li>Prof. Bijay Singh Mipun (Dean, DSW & RSEES) - Special Invitee</li>
                 <li>Prof. Dr. George A.P. (Dean, RSB & RSC) - Chairman</li>
-                <li>Prof. D.N. Singh (Registrar) - Member</li>
-                <li>Prof. Ankur Ganguly (Dean Academic & Dean RSET & IT) - Member</li>
-                <li>Prof. Anuradha Devi (Dean RSAPS & Director, IQAC) - Member</li>
-                <li>Dr. Annu Kumari (Asst Prof, Zoology) - Member Secretary</li>
-                <li>Prof. Ajit Kaushal (HOD, RSLA) - Member</li>
-                <li>Prof. (Dr) Suresh Chandra Nayak (Dean i/c RSCOM) - Member</li>
-                <li>Prof. (Dr) Saket Jeswani (Dean Consultancy, Prof. RSB) - Member</li>
-                <li>Dr. Amlan Das (Assoc. Professor, RSBSC) - Member</li>
-                <li>Dr. Ranjan Dutta Kalita (Assoc. Prof., RSBSC) - Member</li>
-                <li>Prof (Dr.) Prince (Associate Professor, RSBAS) - Member</li>
-                <li>Dr. Shankar Burman (Coordinator, IIC-RGU) - Member</li>
-                <li>Dr. Ashok Kumar (Dy Director, RCCR) - Member</li>
+                <li>Prof. L.K. Nath (Dean, RSP) - Member</li>
+                <li>Prof. (Dr.) Ladu Singh (Prof. Emeritus) - Member</li>
+                <li>Prof. D.N. Singh (Registrar-Academics) - Member</li>
+                <li>Prof. (Dr.) Diganta Munshi, Dean RSIT & RSET - Member</li>
+                <li>Prof. Surajit Mukhopadhyay (Dean, RSHS) - Member</li>
+                <li>Dr. Sankar Burman (Coordinator, IIC-RGU) - Member</li>
+                <li>Prof. Samip Baruah (Prof. RSB) - Member</li>
                 <li>Dr. Indrajit Dutta (Asst. Professor, RSTTM) - Member</li>
-                <li>Dr. Mousmi Deka (Asst. Professor, RSFA) - Member</li>
                 <li>Ms. Baishali Pathak (Asst. Professor, RSC) - Member</li>
-                <li>Dr. Sujata Deb (Assoc. Prof, RSAPS) - Ex-officio Member</li>
+                <li>Dr. Hirak Jyoti Hazarika (HOD-RSLISC) - Member</li>
+                <li>Ms. Bristy Srivastava, Head RCCR - Member</li>
+                <li>Prof. Nikhil K Chrungoo (Dean, RSLS) - Special Invitee</li>
+                <li>Dr. Suman Agarwal (Asst Prof, RSB) - MDP Coordinator</li>
+                <li>Dr. Annu Kumari (Asst Prof, Zoology) - Member Secretary</li>
             </ol>
 
             <hr>

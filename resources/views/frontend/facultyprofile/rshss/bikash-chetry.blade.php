@@ -50,30 +50,30 @@
 
                                 <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
 
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Ph.D (pursuing) University of Cape Town
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            MSW from Delhi School of Social Work, University of Delhi
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            BA (Geopgraphy), Delhi University
-                                        </span>
-                                    </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Ph.D (pursuing) University of Cape Town
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        M.Phil. Delhi School of Social Work, University of Delhi
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        MSW from Delhi School of Social Work, University of Delhi
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        B.A (Hons.) Geography, University of Delhi
+                                    </span>
+                                </li>
 
                                 </ul>
 
@@ -206,7 +206,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            supported by North Eastern Council, GOI
+                                            1
                                         </span>
                                     </li>
 
@@ -429,6 +429,12 @@
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle" style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        M.Phil. Delhi School of Social Work, University of Delhi
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
@@ -439,7 +445,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        BA (Geopgraphy), Delhi University
+                                        B.A (Hons.) Geography, University of Delhi
                                     </span>
                                 </li>
 
@@ -564,7 +570,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        supported by North Eastern Council, GOI
+                                        1
                                     </span>
                                 </li>
 
