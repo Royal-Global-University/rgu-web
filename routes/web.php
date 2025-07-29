@@ -3416,6 +3416,27 @@ Route::get('/faculty-thangjam-roshini', function () {
     return view('frontend/facultyprofile/rsft/thangjam-roshini');
 })->name('faculty-thangjam-roshini');
 
+Route::get('/faculty-akriti-mazumdar', function () {
+    return view('frontend/facultyprofile/rsft/akriti-mazumdar');
+})->name('faculty-akriti-mazumdar');
+
+Route::get('/faculty-aruniva-bhagawati', function () {
+    return view('frontend/facultyprofile/rsft/aruniva-bhagawati');
+})->name('faculty-aruniva-bhagawati');
+
+Route::get('/faculty-asif-iqbal-mazid', function () {
+    return view('frontend/facultyprofile/rsft/asif-iqbal-mazid');
+})->name('faculty-asif-iqbal-mazid');
+
+Route::get('/faculty-gazala-anjum-goney', function () {
+    return view('frontend/facultyprofile/rsft/gazala-anjum-goney');
+})->name('faculty-gazala-anjum-goney');
+
+Route::get('/faculty-pubika-michong', function () {
+    return view('frontend/facultyprofile/rsft/pubika-michong');
+})->name('faculty-pubika-michong');
+
+
 // RSAPS Faculty Profile
 
 Route::get('/faculty-mullah-muhaiminul-islam', function () {
@@ -4096,6 +4117,14 @@ Route::get('/faculty-tanjeela-mehboob', function () {
 
 
 //RSLA Facuilty Profile
+
+Route::get('/faculty-ajit-kaushal', function () {
+    return view('frontend/facultyprofile/rsla/ajit-kaushal');
+})->name('faculty-ajit-kaushal');
+
+Route::get('/faculty-saranga-ranjan-patgiri', function () {
+    return view('frontend/facultyprofile/rsla/saranga-ranjan-patgiri');
+})->name('faculty-saranga-ranjan-patgiri');
 
 Route::get('/faculty-hiya-das', function () {
     return view('frontend/facultyprofile/rsla/hiya-das');
