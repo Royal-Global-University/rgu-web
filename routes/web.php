@@ -3036,6 +3036,10 @@ Route::get('/indian-rupee-symbol-creator-interacts-with-design-and-architecture-
     return view('frontend/media-corner/news27');
 })->name('indian-rupee-symbol-creator-interacts-with-design-and-architecture-students-at-royal-global-university');
 
+Route::get('/royal-global-universitys-21-day-deeksharambh-induction-programme-inaugurated', function () {
+    return view('frontend/media-corner/news28');
+})->name('royal-global-universitys-21-day-deeksharambh-induction-programme-inaugurated');
+
 
 //IKS Faculty Profile
 
@@ -4074,7 +4078,6 @@ Route::get('/faculty-susmita-hazarika', function () {
     return view('frontend/facultyprofile/rshss/susmita-hazarika');
 })->name('faculty-susmita-hazarika');
 
-//
 Route::get('/faculty-abhinav-chaliha', function () {
     return view('frontend/facultyprofile/rshss/abhinav-chaliha');
 })->name('faculty-abhinav-chaliha');
