@@ -231,10 +231,10 @@
               </div>
 
               <div class="text-center mt-2">
-                <button class="para1"
+                <a href="/social-work-events" class="para1"
                   style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
                   View All
-                </button>
+                </a>
               </div>
 
               <script>
@@ -420,7 +420,7 @@
 
 
           <div class="container">
-            <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
               Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
             <div class="table-responsive">
@@ -589,10 +589,10 @@
                   </div>
 
                   <div style="text-align: center; margin-top: 10px;">
-                    <button class="para1"
+                    <a href="social-work-events" class="para1"
                       style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
                       View All
-                    </button>
+                    </a>
                   </div>
                 </div>
 
@@ -749,7 +749,7 @@
 
           <div>
             <div>
-              <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                 The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies (Bos)</span></h2>
 
               <div class="table-responsive">
@@ -827,7 +827,7 @@
 
           <div>
             <div>
-              <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                 The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span></h2>
 
               <div class="table-responsive">
@@ -894,7 +894,7 @@
 
           <div>
             <div>
-              <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                 Ph.D. Research <span style="color: #FF9A1E; font-weight: 500;">and Research Interest</span></h2>
 
               <div class="table-responsive">
@@ -934,7 +934,7 @@
           </div>
 
           <div>
-            <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
               Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
             <div class="p-2">

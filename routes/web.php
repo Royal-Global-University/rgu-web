@@ -4358,3 +4358,17 @@ Route::get('/faculty-meghali-deka', function () {
 Route::get('/faculty-mini-medhi', function () {
     return view('frontend/facultyprofile/rsn/mini-medhi');
 })->name('faculty-mini-medhi');
+
+
+//department media
+Route::get('/department-mathematics-events', function () {
+    return view('frontend/school&faculty/department-mathematics-events');
+})->name('department-mathematics-events');
+
+Route::get('/public-administration-events', function () {
+    return view('frontend/school&faculty/public-administration-events');
+})->name('public-administration-events');
+
+Route::get('/social-work-events', function () {
+    return view('frontend/school&faculty/social-work-events');
+})->name('social-work-events');
