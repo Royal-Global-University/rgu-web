@@ -843,8 +843,6 @@
                                 <div id="custom-carousel-track" style="display: flex; transition: transform 0.5s ease;">
                                     <img src="mobile-assets/deekshara/new/2.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/3.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                     <img src="mobile-assets/deekshara/new/4.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                     <img src="mobile-assets/deekshara/new/5.jpeg"
