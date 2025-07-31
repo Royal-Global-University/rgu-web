@@ -127,7 +127,7 @@
                                 <div class="card-body ">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title mobile-headd2 pb-2">Centre
                                         for
-                                        Indian knowledge System</h5>
+                                        Indian knowledge Systems</h5>
                                 </div>
                             </div>
                         </a>
@@ -269,7 +269,7 @@
                                 </div>
                                 <div class="card-body ">
                                     <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title mobile-headd2 pb-2">Centre for
-                                        Indian knowledge System</h5>
+                                        Indian knowledge Systems</h5>
                                 </div>
                             </div>
                         </a>
