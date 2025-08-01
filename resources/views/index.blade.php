@@ -7,7 +7,7 @@
     <section class="mobile">
 
         <!-- Popup -->
-        <div id="popup-mob" class="popup-overlay">
+        {{-- <div id="popup-mob" class="popup-overlay">
             <a href="https://admissions.rgu.ac/" target="_blank" class="text-center"><img
                     src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}" style="width: 400px; height: 400px;"
                     class="popup-image" alt="Popup Image"></a>
@@ -17,14 +17,13 @@
             document.addEventListener('DOMContentLoaded', function () {
                 const popup = document.getElementById('popup-mob');
 
-                // When click anywhere outside the image, hide the popup
                 popup.addEventListener('click', function (event) {
                     if (event.target === popup) {
                         popup.style.display = 'none';
                     }
                 });
             });
-        </script>
+        </script> --}}
 
         <!-- Floating WhatsApp Button -->
         <a href="https://wa.me/917099028518" class="whatsapp-float" target="_blank">
@@ -639,7 +638,7 @@
 
     <section class="website">
         <!-- Popup -->
-        <div id="popup-web" class="popup-overlay">
+        {{-- <div id="popup-web" class="popup-overlay">
             <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-2025.png') }}"
                     style="width: 550px; height: 550px;" class="popup-image" alt="Popup Image"></a>
         </div>
@@ -648,14 +647,13 @@
             document.addEventListener('DOMContentLoaded', function () {
                 const popup = document.getElementById('popup-web');
 
-                // When click anywhere outside the image, hide the popup
                 popup.addEventListener('click', function (event) {
                     if (event.target === popup) {
                         popup.style.display = 'none';
                     }
                 });
             });
-        </script>
+        </script> --}}
         <div id="page" class="site site_wrapper">
 
             <div class="scroll-top">
