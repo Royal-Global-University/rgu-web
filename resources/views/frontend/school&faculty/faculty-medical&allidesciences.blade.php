@@ -77,7 +77,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Rathindra Bhuya
+                                    Dr. Rathindra Bhuyan
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Senior Professor & Advisor
@@ -976,7 +976,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Rathindra Bhuya
+                                    Dr. Rathindra Bhuyan
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Senior Professor & Advisor
@@ -1485,7 +1485,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Rathindra Bhuya
+                                    Dr. Rathindra Bhuyan
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Senior Professor & Advisor
