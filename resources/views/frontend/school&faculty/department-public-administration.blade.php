@@ -1,6 +1,6 @@
-@extends('frontend.master')
+    @extends('frontend.master')
 @section('content')
-        <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+         <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
         <div class="mobile">
           @include('frontend/components/mobileheader')
@@ -185,7 +185,7 @@
               </div>
 
               <div class="text-center mt-2">
-                <a href="/public-administration-events"  class="para1"
+                <a href="/public-administration-events" class="para1"
                   style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
                   View All
                 </a>
@@ -289,6 +289,156 @@
           </div>
           <!-- events and highlights  -->
 
+          <div class="mt-3">
+              <!-- WRAPPER -->
+              <div>
+                <section style="background-color: #F0F8FF; border-bottom: 1px solid #023e8a;">
+                  <div class="p-4"
+                    style="background-image: url(mobile-assets/department-all/new-bg.svg); background-size: cover;">
+                    <h2 class="headd1 text-center" style="color: #fff; font-size: 30px;">
+                      Academic Excellence: <span style="color: #FEC100;">NET/ SET Qualified Students</span>
+                    </h2>
+                  </div>
+
+                  <div class="container py-4">
+                    <!-- Tab Buttons -->
+                    <div class="d-flex justify-content-center mb-3 flex-wrap">
+                      <button class="year-btn-netset" data-year="2025"
+                        style="border: none; border-radius: 10px; padding: 10px 60px; font-weight: 700; font-size: 18px; color: white; background: linear-gradient(to right, #000000, #005c99); margin: 5px;">
+                        2024
+                      </button>
+                      <!-- <button class="year-btn-netset" data-year="2024"
+                        style="border: 2px solid #003366; border-radius: 10px; padding: 10px 60px; font-weight: 700; font-size: 18px; color: #003366; background-color: #f0f4ff; margin: 5px;">
+                        2024
+                      </button> -->
+                    </div>
+
+                    <hr style="margin: 0 0 20px 0;">
+
+                    <!-- Tab Content for 2024 -->
+                    <div id="tab-netset-2024" class="tab-content-netset d-none">
+                      <div style="max-width: 500px; margin: 0 auto; overflow: hidden; position: relative;">
+                        <div id="carousel-netset-2024" style="display: flex; transition: transform 0.5s ease;">
+                          <!-- CARD 1 -->
+                          <div style="min-width: 100%; padding: 10px; box-sizing: border-box;">
+                            <div
+                              style="background: white; border-radius: 15px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                              <div style="background: #0e4c8c; border-radius: 15px 15px 0 0; padding: 20px;">
+                                <img src="mobile-assets/department-all/dept-public-admin/ugc-net/AVOURINE JYRWA.jpg"
+                                  style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid white;" />
+                              </div>
+                              <div style="padding: 20px;">
+                                <h4 class="para1 fw-bold" style="margin: 5px 0; color: #003366;">FAVOURINE JYRWA</h4>
+                                <p class="para1" style="margin: 5px 0; color: #003366;">Social Work</p>
+                                <button
+                                  style="background: #003366; color: yellow; padding: 6px 15px; border: none; border-radius: 5px; font-weight: bold;">Batch:
+                                  2023 - 25</button>
+                                <p class="headd3 fw-bold text-dark" style="margin-top: 10px;">June 2025</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- CARD 2 -->
+                          <div style="min-width: 100%; padding: 10px; box-sizing: border-box;">
+                            <div
+                              style="background: white; border-radius: 15px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                              <div style="background: #0e4c8c; border-radius: 15px 15px 0 0; padding: 20px;">
+                                <img src="mobile-assets/department-all/dept-social-work/ugc-section/hiba.jpg"
+                                  style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid white;" />
+                              </div>
+                              <div style="padding: 20px;">
+                                <h4 class="para1 fw-bold" style="margin: 5px 0; color: #003366;">HIBA ANSARI</h4>
+                                <p class="para1" style="margin: 5px 0; color: #003366;">Social Work</p>
+                                <button
+                                  style="background: #003366; color: yellow; padding: 6px 15px; border: none; border-radius: 5px; font-weight: bold;">Batch:
+                                  2023 - 25</button>
+                                <p class="headd3 fw-bold text-dark" style="margin-top: 10px;">June 2025</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Tab Content for 2025 -->
+                    <div id="tab-netset-2025" class="tab-content-netset">
+                      <div style="max-width: 500px; margin: 0 auto; overflow: hidden; position: relative;">
+                        <div id="carousel-netset-2025" style="display: flex; transition: transform 0.5s ease;">
+                          <!-- CARD -->
+                          <div style="min-width: 100%; padding: 10px; box-sizing: border-box;">
+                            <div
+                              style="background: white; border-radius: 15px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                              <div style="background: #0e4c8c; border-radius: 15px 15px 0 0; padding: 20px;">
+                                <img
+                                  src="mobile-assets/department-all/dept-public-admin/ugc-net/AVOURINE JYRWA.jpg"
+                                  style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid white;" />
+                              </div>
+                              <div style="padding: 20px;">
+                                <h4 class="para1 fw-bold" style="margin: 5px 0; color: #003366;">FAVOURINE JYRWA</h4>
+                                <p class="para1" style="margin: 5px 0; color: #003366;">Public Administration</p>
+                                <button
+                                  style="background: #003366; color: yellow; padding: 6px 15px; border: none; border-radius: 5px; font-weight: bold;">Batch:
+                                  2022 - 24</button>
+                                <p class="headd3 fw-bold text-dark" style="margin-top: 10px;">Dec 2024</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Scripts -->
+                    <script>
+                      let carouselIntervals = {};
+
+                      function setupNetsetCarousel(carouselId) {
+                        const carousel = document.getElementById(carouselId);
+                        let currentIndex = 0;
+                        const totalSlides = carousel.children.length;
+
+                        function updateSlider() {
+                          carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                        }
+
+                        clearInterval(carouselIntervals[carouselId]);
+                        carouselIntervals[carouselId] = setInterval(() => {
+                          currentIndex = (currentIndex + 1) % totalSlides;
+                          updateSlider();
+                        }, 3000);
+                      }
+
+                      function handleTabSwitchNetset(year) {
+                        document.querySelectorAll('.tab-content-netset').forEach(el => el.classList.add('d-none'));
+                        document.getElementById('tab-netset-' + year).classList.remove('d-none');
+
+                        document.querySelectorAll('.year-btn-netset').forEach(btn => {
+                          btn.style.background = '#f0f4ff';
+                          btn.style.color = '#003366';
+                          btn.style.border = '2px solid #003366';
+                        });
+
+                        document.querySelector('.year-btn-netset[data-year="' + year + '"]').style.background = 'linear-gradient(to right, #000000, #005c99)';
+                        document.querySelector('.year-btn-netset[data-year="' + year + '"]').style.color = 'white';
+                        document.querySelector('.year-btn-netset[data-year="' + year + '"]').style.border = 'none';
+
+                        setupNetsetCarousel('carousel-netset-' + year);
+                      }
+
+                      document.querySelectorAll('.year-btn-netset').forEach(btn => {
+                        btn.addEventListener('click', function () {
+                          const year = this.getAttribute('data-year');
+                          handleTabSwitchNetset(year);
+                        });
+                      });
+
+                      // Init first tab
+                      handleTabSwitchNetset('2025');
+                    </script>
+                  </div>
+                </section>
+              </div>
+
+          </div>
+
         </div>
 
         <div class="website">
@@ -372,7 +522,7 @@
 
 
           <div class="container">
-            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+            <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
               Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
             <div class="table-responsive">
@@ -490,8 +640,8 @@
 
                   <div style="text-align: center; margin-top: 10px;">
                     <a href="/public-administration-events" class="para1"
-                      style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
-                      View All
+                        style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
+                        View All
                     </a>
                   </div>
                 </div>
@@ -630,6 +780,296 @@
 
           </div>
 
+           <div class="section" style="background-image: url(mobile-assets/department-all/bg1.svg); background-size: cover;">
+
+            <h2 class="headd1 text-center pt-4" style="color: #fff; font-size: 50px;">
+              Academic Excellence
+            </h2>
+
+            <div class="row" style="padding: 0px 40px;">
+              <div class="col-lg-6">
+
+              <div style=" height: 80vh;">
+                <div class="container pb-5">
+                  <div class="row align-items-center justify-content-center" style="height: 100%;">
+
+                    <!-- Left Column -->
+                    <div class="col-lg-12" style="padding-top: 3%; animation: fadeSlideLeft 1.5s ease-out;">
+                      <h2 class="headd1 text-center fw-bold" style="color: #FF9A1E; font-size: 30px; margin-bottom: 10px;">Government Job
+                      </h2>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-lg-12" style="padding-top: 2%;">
+
+                      <!-- Year Buttons -->
+                      <div style="display: flex; justify-content: center; margin-bottom: 16px;" id="yearFilterContainer">
+                        <button class="year-btn active" data-year="2023"
+                          style="padding: 6px 30px; margin: 0 8px; border: 1.5px solid #FF9A1E; background: #FF9A1E; color: white; font-weight: bold; border-radius: 25px; cursor: pointer;">2023</button>
+                        <button class="year-btn" data-year="2024"
+                          style="padding: 6px 30px; margin: 0 8px; border: 1.5px solid white; background: transparent; color: white; font-weight: bold; border-radius: 25px; cursor: pointer;">2024</button>
+
+                      </div>
+
+                      <!-- Carousel -->
+                      <div id="carouselNETSET" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+                        style="border-radius: 20px; background: white; overflow: hidden; height: 350px; width: 650px; margin: auto;">
+                        <div class="carousel-indicators" id="carouselIndicatorsNETSET"></div>
+                        <div class="carousel-inner p-4" id="carouselInnerNETSET"></div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- Animation Style (inline via JS) -->
+              <script>
+                // Define keyframes for fade+slide animation
+                const style = document.createElement('style');
+                style.innerHTML = `
+        @keyframes fadeSlideLeft {
+          from { opacity: 0; transform: translateX(-40px); }
+          to { opacity: 1; transform: translateX(0); }
+        }
+      `;
+                document.head.appendChild(style);
+              </script>
+
+              <script>
+                const dataByYear = {
+                  "2023": [
+                    {
+                       img: "mobile-assets/department-all/no-pic.jpg",
+                      name: "Grikanchie M Sangma",
+                      subject: "PHD Public Administration",
+                      text: "Batch: Pursuing",
+                      year: ""
+                    },
+
+                  ],
+                  "2024": [
+                    {
+                      img: "mobile-assets/department-all/no-pic.jpg",
+                      name: "Astrita Phonglo",
+                      subject: "MA Public Administration",
+                      text: "Batch: 2022 - 23",
+                      year: ""
+                    }
+                  ],
+
+                };
+
+                const inner = document.getElementById("carouselInnerNETSET");
+                const indicators = document.getElementById("carouselIndicatorsNETSET");
+                const controls = document.querySelectorAll('#carouselNETSET .carousel-control-prev, #carouselNETSET .carousel-control-next');
+                const yearButtons = document.querySelectorAll('.year-btn');
+
+                function updateCarousel(year) {
+                  const slides = dataByYear[year] || [];
+                  inner.innerHTML = '';
+                  indicators.innerHTML = '';
+
+                  slides.forEach((item, index) => {
+                    const slide = document.createElement("div");
+                    slide.className = `carousel-item${index === 0 ? ' active' : ''}`;
+                    slide.style.transition = "transform 1s ease-in-out";
+                    slide.innerHTML = `
+            <div class="d-flex align-items-center">
+              <img src="${item.img}" class="rounded border shadow-sm" style="width: 40%; height: 270px; object-fit: cover; margin-right: 20px;">
+              <div>
+
+                <div style="color: #27467A; font-size: 35px; padding: 10px 0px;" class="fw-bold">${item.name}</div>
+
+                <small class="mb-5" style="color: #333; font-size: 26px;">${item.subject}</small>
+
+
+                <p style="font-size: 20px; padding-bottom: 10px; font-weight: 800; border-radius: 15px;">${item.year}</p>
+
+                <p style="font-size: 20px; padding: 5px 20px; background-color: #FF9A1E; color: #27467A; font-weight: 800; border-radius: 15px;">${item.text}</p>
+              </div>
+            </div>
+          `;
+                    inner.appendChild(slide);
+
+                    const indicator = document.createElement("button");
+                    indicator.type = "button";
+                    indicator.setAttribute("data-bs-target", "#carouselNETSET");
+                    indicator.setAttribute("data-bs-slide-to", index);
+                    indicator.setAttribute("aria-label", `Slide ${index + 1}`);
+                    indicator.style.backgroundColor = "#023e8a";
+                    if (index === 0) {
+                      indicator.className = "active";
+                      indicator.setAttribute("aria-current", "true");
+                    }
+                    indicators.appendChild(indicator);
+                  });
+
+                  if (slides.length <= 1) {
+                    indicators.style.display = "none";
+                    controls.forEach(c => c.style.display = "none");
+                  } else {
+                    indicators.style.display = "flex";
+                    controls.forEach(c => c.style.display = "block");
+                  }
+                }
+
+                yearButtons.forEach(btn => {
+                  btn.addEventListener("click", () => {
+                    yearButtons.forEach(b => {
+                      b.style.background = "transparent";
+                      b.style.color = "white";
+                      b.style.border = "1.5px solid white";
+                    });
+
+                    btn.style.background = "#FF9A1E";
+                    btn.style.color = "white";
+                    btn.style.border = "1.5px solid #FF9A1E";
+
+                    updateCarousel(btn.getAttribute("data-year"));
+                  });
+                });
+
+                // Load default view (2023)
+                updateCarousel("2023");
+              </script>
+              </div>
+
+              <div class="col-lg-6">
+
+              <div style="height: 80vh;">
+                <div class="container pb-5">
+                  <div class="row align-items-center justify-content-center" style="height: 100%;">
+
+                    <!-- Text Section -->
+                    <div class="col-lg-12" style="padding-top: 3%; animation: fadeSlideLeft 1.5s ease-out;">
+                      <h2 class="headd1 text-center fw-bold" style="color: #FF9A1E; font-size: 30px; margin-bottom: 10px;">UGC NET Qualified
+                      </h2>
+                    </div>
+
+                    <!-- Carousel Section -->
+                    <div class="col-lg-12" style="padding-top: 2%;">
+
+                      <!-- Year Filter Buttons -->
+                      <div style="display: flex; justify-content: center; margin-bottom: 16px;" id="yearButtonPanel">
+                        <button class="filter-year-btn active" data-year="2024">2024</button>
+                        <!-- <button class="filter-year-btn" data-year="2024">2024</button>
+                        <button class="filter-year-btn" data-year="2025">2025</button> -->
+                      </div>
+
+                      <!-- Carousel Container -->
+                      <div id="carouselAchievers" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+                        style="border-radius: 20px; background: white; overflow: hidden; height: 350px; margin: auto; width: 650px;">
+                        <div class="carousel-indicators" id="carouselIndicatorsAchievers"></div>
+                        <div class="carousel-inner p-4" id="carouselInnerAchievers"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Animation Keyframes -->
+              <script>
+                const slideStyle = document.createElement('style');
+                slideStyle.innerHTML = `
+      @keyframes slideInLeft {
+        from { opacity: 0; transform: translateX(-40px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+
+      .filter-year-btn {
+        padding: 6px 30px;
+        margin: 0 8px;
+        border: 1.5px solid white;
+        background: transparent;
+        color: white;
+        font-weight: bold;
+        border-radius: 25px;
+        cursor: pointer;
+      }
+
+      .filter-year-btn.active {
+        background: #FF9A1E;
+        border-color: #FF9A1E;
+        color: white;
+      }
+    `;
+                document.head.appendChild(slideStyle);
+              </script>
+
+              <!-- Carousel Script -->
+              <script>
+                const achieverData = {
+                  "2024": [
+                    {
+                      img: "mobile-assets/department-all/dept-public-admin/candidates/ugc-net1.jpg",
+                      name: "Favourine Jyrwa",
+                      subject: "MA Public Administration",
+                      text: "Batch: 2022 - 24",
+                      year: ""
+                    }
+
+                  ]
+
+                };
+
+                const innerAchievers = document.getElementById("carouselInnerAchievers");
+                const indicatorsAchievers = document.getElementById("carouselIndicatorsAchievers");
+                const yearBtnGroup = document.querySelectorAll(".filter-year-btn");
+
+                function loadCarouselContent(year) {
+                  const content = achieverData[year] || [];
+                  innerAchievers.innerHTML = '';
+                  indicatorsAchievers.innerHTML = '';
+
+                  content.forEach((item, index) => {
+                    const card = document.createElement("div");
+                    card.className = `carousel-item${index === 0 ? ' active' : ''}`;
+                    card.style.transition = "transform 1s ease-in-out";
+                    card.innerHTML = `
+          <div class="d-flex align-items-center">
+            <img src="${item.img}" class="rounded border shadow-sm" style="width: 40%; height: 270px; object-fit: cover; margin-right: 20px;">
+            <div>
+              <div style="color: #27467A; font-size: 35px; padding: 10px 0;" class="fw-bold">${item.name}</div>
+              <small style="color: #333; font-size: 26px;">${item.subject}</small>
+              <p style="font-size: 20px; font-weight: 800;">${item.year}</p>
+              <p style="font-size: 20px; padding: 5px 20px; background-color: #FF9A1E; color: #27467A; font-weight: 800; border-radius: 15px;">${item.text}</p>
+            </div>
+          </div>
+        `;
+                    innerAchievers.appendChild(card);
+
+                    const dot = document.createElement("button");
+                    dot.type = "button";
+                    dot.setAttribute("data-bs-target", "#carouselAchievers");
+                    dot.setAttribute("data-bs-slide-to", index);
+                    dot.setAttribute("aria-label", `Slide ${index + 1}`);
+                    dot.style.backgroundColor = "#023e8a";
+                    if (index === 0) {
+                      dot.className = "active";
+                      dot.setAttribute("aria-current", "true");
+                    }
+                    indicatorsAchievers.appendChild(dot);
+                  });
+                }
+
+                yearBtnGroup.forEach(btn => {
+                  btn.addEventListener("click", () => {
+                    yearBtnGroup.forEach(b => b.classList.remove("active"));
+                    btn.classList.add("active");
+                    loadCarouselContent(btn.getAttribute("data-year"));
+                  });
+                });
+
+                // Initial load
+                loadCarouselContent("2024");
+              </script>
+
+              </div>
+            </div>
+
+          </div>
+
           <!--End Section-->
         </div>
 
@@ -638,7 +1078,7 @@
           <div>
             <div>
 
-              <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                 The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
 
               <div class="table-responsive">
@@ -688,7 +1128,7 @@
           <div>
             <div>
 
-              <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                 The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span></h2>
 
               <div class="table-responsive">
@@ -752,7 +1192,7 @@
           </div>
 
           <div>
-            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+            <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
               Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
             <div class="p-2">

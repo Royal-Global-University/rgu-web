@@ -4372,3 +4372,7 @@ Route::get('/public-administration-events', function () {
 Route::get('/social-work-events', function () {
     return view('frontend/school&faculty/social-work-events');
 })->name('social-work-events');
+
+Route::get('/architecture-events', function () {
+    return view('frontend/school&faculty/architecture-events');
+})->name('architecture-events');

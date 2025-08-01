@@ -566,10 +566,10 @@
                   </div>
 
                   <div style="text-align: center; margin-top: 10px;">
-                    <button class="para1"
+                    <a href="/architecture-events" class="para1"
                       style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
                       View All
-                    </button>
+                    </a>
                   </div>
                 </div>
 
