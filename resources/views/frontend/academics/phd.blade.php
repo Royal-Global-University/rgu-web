@@ -54,7 +54,7 @@
         @include('frontend/components/mobileheader')
 
         <!-- floating button  -->
-        <div>
+        {{-- <div>
             <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf" target="_blank" style="
             position: fixed;
             bottom: 25px;
@@ -110,7 +110,7 @@
                     }
                 }
             </style>
-        </div>
+        </div> --}}
         <!-- floating button  -->
         <div style="padding-top: 90px; position: relative;">
             <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
@@ -1186,7 +1186,7 @@
             <!--End Header-->
 
             <!-- floating button  -->
-            <div>
+            {{-- <div>
                 <a href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/admission/phd.pdf" target="_blank" style="
                     position: fixed;
                     bottom: 35px;
@@ -1243,7 +1243,7 @@
                         }
                     }
                 </style>
-            </div>
+            </div> --}}
             <!-- floating button  -->
 
             <!--head image Section-->
