@@ -241,6 +241,23 @@
                         </a>
                     </div>
 
+                    <div class="col-lg-4 mb-4">
+
+                        <a href="departement-food-science&nutrition">
+                            <div class="p-4 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 100%;">
+                                <div class="p-3 text-center">
+                                    <i style="color: #27467A;" class="fas fa-apple-alt fa-4x"></i>
+
+                                </div>
+                                <div class="p-4 card-body ">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title mobile-headd2 pb-2">
+                                        Department of Food Science & Nutrition</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
 
             </div>

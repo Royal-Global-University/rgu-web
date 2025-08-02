@@ -1995,6 +1995,10 @@ Route::get('/department-physiotherapy', function () {
     return view('frontend/school&faculty/department-physiotherapy');
 })->name('department-physiotherapy');
 
+Route::get('/departement-food-science&nutrition', function () {
+    return view('frontend/school&faculty/departement-food-science&nutrition');
+})->name('departement-food-science&nutrition');
+
 Route::get('/ias-courses', function () {
     return view('frontend/school&faculty/ias-courses');
 })->name('ias-courses');
@@ -2835,6 +2839,10 @@ Route::get('/Research_Department_Forestry', function () {
     return view('frontend/research/dept/Research_Department_Forestry');
 })->name('Research_Department_Forestry');
 
+Route::get('/Research_Department_Forestry', function () {
+    return view('frontend/research/dept/Research_Department_Forestry');
+})->name('Research_Department_Forestry');
+
 //research & Publication
 
 Route::get('/research-publication-overview', function () {
@@ -2865,9 +2873,6 @@ Route::get('/Publications-2022-23', function () {
     return view('frontend/research&publication/Publications-2022-23');
 })->name('Publications-2022-23');
 
-Route::get('/Publications-2023-24', function () {
-    return view('frontend/research&publication/Publications-2023-24');
-})->name('Publications-2023-24');
 
 // lp page
 Route::get('/lp', function () {
