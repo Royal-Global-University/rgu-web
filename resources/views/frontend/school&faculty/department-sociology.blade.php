@@ -277,10 +277,10 @@
               </div>
 
               <div class="text-center mt-2">
-                <button class="para1"
+                <a href="/sociology-events" class="para1"
                   style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
                  <a href="department-new-rshss-sociology-events.html"> View All </a>
-                </button>
+                </a>
               </div>
 
               <script>
@@ -309,9 +309,9 @@
 
         </div>
 
-        <div class="website">
-          <!--Start Header-->
-           @include('frontend/components/aheader')
+         <div class="website">
+      <!--Start Header-->
+      @include('frontend/components/aheader')
                         <!-- floating button  -->
                         <div>
                             <a href="https://admissions.rgu.ac/" style="
@@ -372,556 +372,746 @@
                             </style>
                         </div>
                         <!-- floating button  -->
-          <!--End Header-->
+      <!--End Header-->
 
-          <section style="background-color: #FFF8F0;">
-            <div class="p-5">
-              <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Department of
-                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Sociology</span>
-              </h1>
+      <section style="background-color: #FFF8F0;">
+        <div class="p-5">
+          <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Department of
+            <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Sociology</span>
+          </h1>
 
-              <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
-                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Royal School of</span>
-                Humanities & Social Sciences (RSHSS)
-              </h2>
-            </div>
+          <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
+            <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Royal School of</span>
+            Humanities & Social Sciences (RSHSS)
+          </h2>
+        </div>
 
-            <div class="container p-4">
-              <div class="row align-items-center gx-5">
+        <div class="container p-4">
+          <div class="row align-items-center gx-5">
 
-                <div class="col-lg-6 text-center">
-                  <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                    <div>
-                      <img class="rounded w-60" decoding="async"
-                        src="mobile-assets/department-all/dept-sociology/head-img.png" alt="">
-                    </div>
-                  </div>
+            <div class="col-lg-6 text-center">
+              <div class="kd-about-3-img-wrap txaa-slide-down-1">
+                <div>
+                  <img class="rounded w-60" decoding="async"
+                    src="mobile-assets/department-all/dept-sociology/head-img.png" alt="">
                 </div>
-
-                <div class="col-lg-6">
-
-                  <h2 class="headd1" style="color: #264273; font-weight: 700;">
-                    About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
-
-                  <p class="mobile-para1 pt-3" style="color: #264273; text-align: justify; line-height: 1.5;">
-                    The faculties of Department of Sociology are from various reputed institution like Jawaharlal Nehru
-                    University, Tata Institute of Social Sciences, Delhi School of Economics, Indian Institute of Technology
-                    and these diversities in terms of the institution they belong to is the major strength of the
-                    Department. The interests and expertise of the faculty cover a broad sociological canvas. The courses
-                    therefore offered are interdisciplinary in nature. Classical sociological theories, Research Methods,
-                    Gender studies, Visual Culture, Health and Illness, are a few among the expertise of the department.
-                    Another strength of the department is to promote experiential learning. Sociology touches upon every
-                    aspect of human social life and activity. Therefore, to make learning in the department experiential
-                    students are encouraged to write projects based on field experiences, students are taken for fieldwork
-                    to experience reality and draw correlations between theory and practice.
-                  </p>
-
-                </div>
-
               </div>
             </div>
 
-            <div class="bg-white">
+            <div class="col-lg-6">
 
-              <div class="container">
+              <h2 class="headd1" style="color: #264273; font-weight: 700;">
+                About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
 
-                <p class="headd3 fw-bold" style="color: #24477f; text-align: justify; padding-top: 30px;">
-                  The courses offered in the department are interdisciplinary in nature however, some of the important trust
-                  areas are as follows:
-                </p>
-
-                <ol class="para1" style="color: #27467A; line-height: 1.6;">
-                  <li>Sociology of Law</li>
-                  <li>Sociology of Music</li>
-                  <li>Sociology of Religion</li>
-                  <li>Sociology of Northeast India</li>
-                  <li>Gender Studies</li>
-                  <li>Culture Studies</li>
-                  <li>Sociology of Environment, etc.</li>
-                </ol>
-
-
-                <p class="headd3 fw-bold" style="color: #24477f; text-align: justify;">
-                  Future Prospects of the graduate and post graduate
-                </p>
-
-                <ol class="para1" style="color: #27467A; line-height: 1.6; padding-bottom: 30px;">
-                  <li>The graduate from the department get the opportunity to engage in teaching at primary and secondary
-                    schools.</li>
-                  <li>The graduate often get admitted in different reputed institutions like University of Delhi, Tezpur
-                    University, Delhi School of Economics, South Asia University, TISS, IIT, etc.</li>
-                  <li>The post graduate often pursue higher education or get engaged in academia (research and teaching).
-                  </li>
-                  <li>Students also pursue government civil service or other competitive examinations.</li>
-                </ol>
-
-              </div>
+              <p class="mobile-para1 pt-3" style="color: #264273; text-align: justify; line-height: 1.5;">
+                The faculties of Department of Sociology are from various reputed institution like Jawaharlal Nehru
+                University, Tata Institute of Social Sciences, Delhi School of Economics, Indian Institute of Technology
+                and these diversities in terms of the institution they belong to is the major strength of the
+                Department. The interests and expertise of the faculty cover a broad sociological canvas. The courses
+                therefore offered are interdisciplinary in nature. Classical sociological theories, Research Methods,
+                Gender studies, Visual Culture, Health and Illness, are a few among the expertise of the department.
+                Another strength of the department is to promote experiential learning. Sociology touches upon every
+                aspect of human social life and activity. Therefore, to make learning in the department experiential
+                students are encouraged to write projects based on field experiences, students are taken for fieldwork
+                to experience reality and draw correlations between theory and practice.
+              </p>
 
             </div>
 
-            <div style="background-color: #fff;">
-              <div class="p-5">
-                <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Vision & Mission
-                  <span class="headd1" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
-                </h1>
+          </div>
+        </div>
 
-                <img class="w-100" src="mobile-assets/department-all/dept-sociology/vision-mission-web.png" alt="">
-              </div>
-            </div>
-
-            <div>
-              <img src="mobile-assets/department-all/dept-sociology/web-mathematics-down.png" alt="">
-            </div>
-          </section>
-
+        <div class="bg-white">
 
           <div class="container">
-            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-              Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
-            <div class="table-responsive">
-              <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
-                <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
-                  <th class="text-light  font-weight-bold">SL. NO.</th>
-                  <th class="text-light  font-weight-bold">COURSES</th>
-                  <th class="text-light  font-weight-bold">DURATION</th>
-                  <th class="text-light  font-weight-bold">DETAILS</th>
-                </thead>
-                <tbody class="para1 bg-light">
-                  <tr class="align-middle">
-                    <td>1.</td>
-                    <td>
-                      <p class="para1">
-                        <strong style="color: #023e8a;" class="#">Master of Arts - Sociology</strong>
-                      </p>
-                    </td>
-                    <td class="para1">
-                      2 years
-                    </td>
-                    <td>
-                      <a target="_blank" href="programs-MA-Sociology"><button type="button"
-                          style="background-color: #FF9A1E; color: #fff;"
-                          class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                    </td>
-                  </tr>
+            <p class="headd3 fw-bold" style="color: #24477f; text-align: justify; padding-top: 30px;">
+              The courses offered in the department are interdisciplinary in nature however, some of the important trust
+              areas are as follows:
+            </p>
 
-                  <tr class="align-middle">
-                    <td>2.</td>
-                    <td>
-                      <p class="para1">
-                        <strong style="color: #023e8a;" class="#">Bachelor of Arts - Sociology</strong>
-                        <br> Honours / Honours with Research
-                      </p>
+            <ol class="para1" style="color: #27467A; line-height: 1.6;">
+              <li>Sociology of Law</li>
+              <li>Sociology of Music</li>
+              <li>Sociology of Religion</li>
+              <li>Sociology of Northeast India</li>
+              <li>Gender Studies</li>
+              <li>Culture Studies</li>
+              <li>Sociology of Environment, etc.</li>
+            </ol>
 
-                    </td>
-                    <td>
-                      4 years as per NEP
-                    </td>
-                    <td>
-                      <a target="_blank" href="programs-BA-Sociology"><button type="button"
-                          style="background-color: #FF9A1E; color: #fff;"
-                          class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+
+            <p class="headd3 fw-bold" style="color: #24477f; text-align: justify;">
+              Future Prospects of the graduate and post graduate
+            </p>
+
+            <ol class="para1" style="color: #27467A; line-height: 1.6; padding-bottom: 30px;">
+              <li>The graduate from the department get the opportunity to engage in teaching at primary and secondary
+                schools.</li>
+              <li>The graduate often get admitted in different reputed institutions like University of Delhi, Tezpur
+                University, Delhi School of Economics, South Asia University, TISS, IIT, etc.</li>
+              <li>The post graduate often pursue higher education or get engaged in academia (research and teaching).
+              </li>
+              <li>Students also pursue government civil service or other competitive examinations.</li>
+            </ol>
 
           </div>
 
-          <!--About Section-->
+        </div>
 
-          <div class="container pb-5 pt-3">
+        <div style="background-color: #fff;">
+          <div class="p-5">
+            <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Vision & Mission
+              <span class="headd1" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
+            </h1>
 
-            <!-- events  -->
-            <div class="row" style="display: flex; justify-content: center;">
-              <div class="col-lg-10">
-                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                  Events </h2>
+            <img class="w-100" src="mobile-assets/department-all/dept-sociology/vision-mission-web.png" alt="">
+          </div>
+        </div>
 
-                <div style="max-width: 100%; position: relative;">
-                  <div style="border: 1px solid #ccc;">
-
-                    <div id="scrollContainer" style="height: 350px; overflow: hidden;">
-                      <table class="table table-bordered mb-0" style="font-size: 16px;">
-                        <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9;">
-
-                          <tr>
-                            <td>Webinar on "Plagiarism and its Prevention in Academic Writing"</td>
-                          </tr>
-                          <tr>
-                            <td>Webinar on "Higher Education in India: Challenges and Strategies for Reforms"</td>
-                          </tr>
-                          <tr>
-                            <td>Webinar on "Fake News in the Time of Pandemic"</td>
-                          </tr>
-                          <tr>
-                            <td>Seminar on "Ecosystem &amp; Society: Discussion on Social Accountability on Environment"
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Panel Discussion on "Feminist Epistemology with Ethnographic Evidence"</td>
-                          </tr>
-                          <tr>
-                            <td>Seminar on "Social Science and Democracy"</td>
-                          </tr>
-                          <tr>
-                            <td>Panel Discussion on "Multiculturalism and Identity: Highlighting the Centrality of Mother
-                              Language on Ocassion of International Mother Language Day"</td>
-                          </tr>
-                          <tr>
-                            <td>Talk on "Urban Bazaars in the Age of Platform Capitalism"</td>
-                          </tr>
-                          <tr>
-                            <td>Talk on "Understanding IKS: Literary Criticism in Hindi and Other Languages"</td>
-                          </tr>
-                          <tr>
-                            <td>Talk on "Why I Do Sociology"</td>
-                          </tr>
-                          <tr>
-                            <td>Talk on "Technology Society Interface"</td>
-                          </tr>
-                          <tr>
-                            <td>Talk on "Comparative Health Care Systems and Models of Health Coverage"</td>
-                          </tr>
-                          <tr>
-                            <td>Talk on "Digital Humanities: Meaning, Importance and Scope"</td>
-                          </tr>
+        <div>
+          <img src="mobile-assets/department-all/dept-sociology/web-mathematics-down.png" alt="">
+        </div>
+      </section>
 
 
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
+      <div class="container">
+        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+          Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
-                  <div style="text-align: center; margin-top: 10px;">
-                    <button class="para1"
-                      style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
-                      <a href="department-new-rshss-sociology-events.html"> View All </a>
-                    </button>
-                  </div>
+        <div class="table-responsive">
+          <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
+            <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
+              <th class="text-light  font-weight-bold">SL. NO.</th>
+              <th class="text-light  font-weight-bold">COURSES</th>
+              <th class="text-light  font-weight-bold">DURATION</th>
+              <th class="text-light  font-weight-bold">DETAILS</th>
+            </thead>
+            <tbody class="para1 bg-light">
+              <tr class="align-middle">
+                <td>1.</td>
+                <td>
+                  <p class="para1">
+                    <strong style="color: #023e8a;" class="#">Master of Arts - Sociology</strong>
+                  </p>
+                </td>
+                <td class="para1">
+                  2 years
+                </td>
+                <td>
+                  <a target="_blank" href="programs-MA-Sociology"><button type="button"
+                      style="background-color: #FF9A1E; color: #fff;"
+                      class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                </td>
+              </tr>
+
+              <tr class="align-middle">
+                <td>2.</td>
+                <td>
+                  <p class="para1">
+                    <strong style="color: #023e8a;" class="#">Bachelor of Arts - Sociology</strong>
+                    <br> Honours / Honours with Research
+                  </p>
+
+                </td>
+                <td>
+                  4 years as per NEP
+                </td>
+                <td>
+                  <a target="_blank" href="programs-BA-Sociology"><button type="button"
+                      style="background-color: #FF9A1E; color: #fff;"
+                      class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <!--About Section-->
+
+      <div class="container pb-5 pt-3">
+
+        <!-- events  -->
+        <div class="row" style="display: flex; justify-content: center;">
+          <div class="col-lg-10">
+            <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              Events </h2>
+
+            <div style="max-width: 100%; position: relative;">
+              <div style="border: 1px solid #ccc;">
+
+                <div id="scrollContainer" style="height: 350px; overflow: hidden;">
+                  <table class="table table-bordered mb-0" style="font-size: 16px;">
+                    <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9;">
+
+                      <tr>
+                        <td>Webinar on "Plagiarism and its Prevention in Academic Writing"</td>
+                      </tr>
+                      <tr>
+                        <td>Webinar on "Higher Education in India: Challenges and Strategies for Reforms"</td>
+                      </tr>
+                      <tr>
+                        <td>Webinar on "Fake News in the Time of Pandemic"</td>
+                      </tr>
+                      <tr>
+                        <td>Seminar on "Ecosystem &amp; Society: Discussion on Social Accountability on Environment"
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Panel Discussion on "Feminist Epistemology with Ethnographic Evidence"</td>
+                      </tr>
+                      <tr>
+                        <td>Seminar on "Social Science and Democracy"</td>
+                      </tr>
+                      <tr>
+                        <td>Panel Discussion on "Multiculturalism and Identity: Highlighting the Centrality of Mother
+                          Language on Ocassion of International Mother Language Day"</td>
+                      </tr>
+                      <tr>
+                        <td>Talk on "Urban Bazaars in the Age of Platform Capitalism"</td>
+                      </tr>
+                      <tr>
+                        <td>Talk on "Understanding IKS: Literary Criticism in Hindi and Other Languages"</td>
+                      </tr>
+                      <tr>
+                        <td>Talk on "Why I Do Sociology"</td>
+                      </tr>
+                      <tr>
+                        <td>Talk on "Technology Society Interface"</td>
+                      </tr>
+                      <tr>
+                        <td>Talk on "Comparative Health Care Systems and Models of Health Coverage"</td>
+                      </tr>
+                      <tr>
+                        <td>Talk on "Digital Humanities: Meaning, Importance and Scope"</td>
+                      </tr>
+
+
+                    </tbody>
+                  </table>
                 </div>
+              </div>
 
-                <script>
-                  const scrollContainer = document.getElementById('scrollContainer');
-                  const scrollContent = document.getElementById('scrollContent');
+              <div style="text-align: center; margin-top: 10px;">
+                <a href="/sociology-events" class="para1"
+                  style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
+                  <a href="department-new-rshss-sociology-events"> View All </a>
+                </a>
+              </div>
+            </div>
 
-                  // Duplicate content for infinite scroll
-                  scrollContent.innerHTML += scrollContent.innerHTML;
+            <script>
+              const scrollContainer = document.getElementById('scrollContainer');
+              const scrollContent = document.getElementById('scrollContent');
 
-                  let scrollPos = 0;
-                  const scrollSpeed = 0.2;
+              // Duplicate content for infinite scroll
+              scrollContent.innerHTML += scrollContent.innerHTML;
 
-                  function scrollStep() {
-                    scrollPos += scrollSpeed;
-                    if (scrollPos >= scrollContent.scrollHeight / 2) {
-                      scrollPos = 0;
-                    }
-                    scrollContainer.scrollTop = scrollPos;
-                    requestAnimationFrame(scrollStep);
+              let scrollPos = 0;
+              const scrollSpeed = 0.2;
+
+              function scrollStep() {
+                scrollPos += scrollSpeed;
+                if (scrollPos >= scrollContent.scrollHeight / 2) {
+                  scrollPos = 0;
+                }
+                scrollContainer.scrollTop = scrollPos;
+                requestAnimationFrame(scrollStep);
+              }
+
+              scrollStep();
+            </script>
+
+
+          </div>
+
+        </div>
+        <!-- events  -->
+
+      </div>
+
+      <!-- academic excellence  -->
+      <section
+        style="background-image: url(mobile-assets/department-all/bgg-academic-excellence-png.png); background-size: cover; height: 100%;">
+
+        <h2 class="headd1 text-center pt-5" style="color: #fff; font-size: 50px;">Academic <span
+            style="color: #FF9A1E;">Excellence</span></h2>
+
+        <div class="row" style="display: flex; justify-content: center; align-items: center; padding: 30px 80px;">
+          <div class="col-lg-6">
+
+            <div style="background-color: #ffffff10; border-radius: 20px; border: 1px solid #ffffff61; padding: 30px;">
+
+              <div class="p-1 text-center " style="background-color: #FF9A1E; width: 130px; border-radius: 20px;">
+                <h2 class="pt-2 headd3 fw-bold text-dark">UGC NET</h2>
+              </div>
+
+
+              <div
+                style="height: 420px; width: 600px; margin: 20px auto; overflow: hidden; border-radius: 15px; position: relative; background: transparent;">
+
+                <div id="verticalCarousel"
+                  style="position: absolute; top: 0; left: 0; right: 0; animation: scrollUp 20s linear infinite; ">
+
+                   <!-- Slide 1 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc25-1.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc25-2.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc25-3.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc25-4.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                   <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc25-5.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc25-6.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc25-7.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <!-- Slide 1 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc24-1.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <!-- Slide 2 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc24-2.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <!-- duplicates  -->
+
+                  <!-- Slide 1 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc24-3.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <!-- Slide 2 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc24-4.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+                   <!-- Slide 1 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc24-5.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <!-- Slide 2 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc24-6.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+                   <!-- Slide 1 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc24-7.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <!-- Slide 2 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc24-8.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+                   <!-- Slide 1 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc24-9.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <!-- Slide 2 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-sociology/candidates/ugc-net/ugc24-10.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- Keyframes for vertical scroll -->
+              <style>
+                @keyframes scrollUp {
+                  0% {
+                    top: 0;
                   }
 
-                  scrollStep();
-                </script>
+                  33% {
+                    top: -180px;
+                  }
+
+                  66% {
+                    top: -360px;
+                  }
+
+                  100% {
+                    top: 0;
+                  }
+                }
+              </style>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div style="background-color: #ffffff10; border-radius: 20px; border: 1px solid #ffffff61; padding: 30px;">
+
+              <div class="p-1 text-center " style="background-color: #FF9A1E; width: 130px; border-radius: 20px;">
+                <h2 class="pt-2 headd3 fw-bold text-dark">APSC</h2>
+              </div>
+
+              <div>
+                <div id="multiImageCarousel" class="carousel slide" data-bs-ride="carousel"
+                  style="width: 100%;  border-radius: 12px; overflow: hidden; padding-bottom: 30px; padding-top: 20px;">
+
+                  <!-- Indicators -->
+                  <!-- <div class="carousel-indicators" style="top: 430px;">
+                    <button type="button" data-bs-target="#multiImageCarousel" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"
+                      style="width: 50px; height: 4px; border-radius: 40%; background-color: #ffffff;"></button>
+                    <button type="button" data-bs-target="#multiImageCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                      style="width: 50px; height: 4px; border-radius: 40%; background-color: #ffffff;"></button>
+                    <button type="button" data-bs-target="#multiImageCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                      style="width: 50px; height: 4px; border-radius: 40%; background-color: #ffffff;"></button>
+                  </div> -->
+
+                  <!-- Slides -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                      <img src="mobile-assets/department-all/dept-sociology/candidates/apsc/apsc1.png" class="d-block w-100"
+                        alt="Image 1" style="height: 50%; object-fit: cover;">
+                    </div>
 
 
+                  </div>
+
+                </div>
               </div>
 
             </div>
-            <!-- events  -->
 
           </div>
-
-          <!--End Section-->
         </div>
 
-        <div class="container">
+      </section>
+      <!-- academic excellence  -->
+
+      <!--End Section-->
+    </div>
+
+    <div class="container">
 
 
-          <div>
+      <div>
 
-            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-              The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
+        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+          The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
 
-            <div class="table-responsive">
-              <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                <thead class="text-white" style="background-color: #27467a">
-                  <tr>
-                    <th class="text-white">#</th>
-                    <th class="text-white">Position in D-BoS</th>
-                    <th class="text-white">Name and Designation</th>
-                  </tr>
-                </thead>
-                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                  <tr>
-                    <td>1</td>
-                    <td>Convener (Ex-Officio)- Head of the Department</td>
-                    <td>
-                      Dr. Sangeeta Das, Assistant Professor &amp; Co-ordinator
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>
-                      All Faculty members of the Department Members (Ex-Officio)
-                    </td>
-                    <td>
-                      Dr. Prithibi Pratibha Gogoi, ssistant Professor
-                      <hr />
-                      Dr. Tripti Das, Assistant Professor
-                      <hr />
-                      Ms. Prajna Borah, Assistant Professor
-                      <hr />
-                      Ms. Swagata Chakraborty, Assistant Professor
-                      <hr />
-                      Ms. Lalzikpuii Rajkhowa, Assistant Professor
-                      <hr />
-                      Mr. Adam Timung, Assistant Professor
-                      <hr />
-                      Mr. Kadiguang Panmei, Assistant Professor
-                      <hr />
-                      Ms. Adishree Borgohain, Assistant Professor
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>External Expert (Academic)</td>
-                    <td>
-                      Dr. Uddipan Dutta, Scientific officer, Department of
-                      Sociology, Guwahati University
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>External Expert (Industry)</td>
-                    <td>Mr. Nayan Jyoti Bhuyan, Project lead, NE Cluster</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-
-
-          <div>
-
-            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-              The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span></h2>
-
-            <div class="table-responsive">
-              <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                <thead class="text-white" style="background-color: #27467a">
-                  <tr>
-                    <th class="text-white">#</th>
-                    <th class="text-white">Content</th>
-                    <th class="text-white">Name of the Member</th>
-                    <th class="text-white">Designation</th>
-                    <th class="text-white">Designation in the committee</th>
-                  </tr>
-                </thead>
-                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                  <tr>
-                    <td>1.</td>
-                    <td>Head of the Department</td>
-                    <td>Prof. (Dr.) Sajal Nag</td>
-                    <td>Dean, RSHSS</td>
-                    <td>Chairperson</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="2">2.</td>
-                    <td rowspan="2" class="align-middle">
-                      Two Assistant Professors holding Ph.D. degree
-                    </td>
-                    <td>Dr. Priyanka Patowari</td>
-                    <td>Assistant Professor, Department of Social Work, RSHSS</td>
-                    <td>Member</td>
-                  </tr>
-                  <tr>
-                    <td>Dr. T Luithuiwung Awungshi</td>
-                    <td>Assistant Professor, Department of Social Work, RSHSS</td>
-                    <td>Member</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="3">3.</td>
-                    <td rowspan="3" class="align-middle">
-                      Three external members not below the rank of Professors,
-                      including members from an allied department, who will be
-                      nominated by the URC
-                    </td>
-                    <td>Prof. Gautam Mazumder</td>
-                    <td>Professor, Department of Economics, RSHSS, RGU</td>
-                    <td>External Member</td>
-                  </tr>
-                  <tr>
-                    <td>Prof. Swabera Islam</td>
-                    <td>Professor, Department of Economics, RSHSS, RGU</td>
-                    <td>External Member</td>
-                  </tr>
-                  <tr>
-                    <td>Prof. Shiela Bora</td>
-                    <td>
-                      Professor &amp; Advisor, Department of History, RSHSS, RGU
-                    </td>
-                    <td>External Member</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+        <div class="table-responsive">
+          <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+            <thead class="text-white" style="background-color: #27467a">
+              <tr>
+                <th class="text-white">#</th>
+                <th class="text-white">Position in D-BoS</th>
+                <th class="text-white">Name and Designation</th>
+              </tr>
+            </thead>
+            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+              <tr>
+                <td>1</td>
+                <td>Convener (Ex-Officio)- Head of the Department</td>
+                <td>
+                  Dr. Sangeeta Das, Assistant Professor &amp; Co-ordinator
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>
+                  All Faculty members of the Department Members (Ex-Officio)
+                </td>
+                <td>
+                  Dr. Prithibi Pratibha Gogoi, ssistant Professor
+                  <hr />
+                  Dr. Tripti Das, Assistant Professor
+                  <hr />
+                  Ms. Prajna Borah, Assistant Professor
+                  <hr />
+                  Ms. Swagata Chakraborty, Assistant Professor
+                  <hr />
+                  Ms. Lalzikpuii Rajkhowa, Assistant Professor
+                  <hr />
+                  Mr. Adam Timung, Assistant Professor
+                  <hr />
+                  Mr. Kadiguang Panmei, Assistant Professor
+                  <hr />
+                  Ms. Adishree Borgohain, Assistant Professor
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>External Expert (Academic)</td>
+                <td>
+                  Dr. Uddipan Dutta, Scientific officer, Department of
+                  Sociology, Guwahati University
+                </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>External Expert (Industry)</td>
+                <td>Mr. Nayan Jyoti Bhuyan, Project lead, NE Cluster</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
 
 
-          <div>
+      <div>
 
-            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-              The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span></h2>
+        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+          The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span></h2>
 
-            <div class="table-responsive">
-              <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                <thead class="text-white" style="background-color: #27467a">
-                  <tr>
-                    <th class="text-white">#</th>
-                    <th class="text-white">Content</th>
-                    <th class="text-white">Name of the Member</th>
-                    <th class="text-white">Designation</th>
-                    <th class="text-white">Designation in the committee</th>
-                  </tr>
-                </thead>
-                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                  <tr>
-                    <td>1.</td>
-                    <td>Head of the Department</td>
-                    <td>Prof. Sajal Nag</td>
-                    <td>Professor, Dean RSHSS</td>
-                    <td>Chairperson</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="2">2.</td>
-                    <td rowspan="2" class="align-middle">
-                      Two Assistant Professors holding Ph.D. degree
-                    </td>
-                    <td>Dr. Sangeeta Das</td>
-                    <td>Assistant Professor, Dept of Sociology</td>
-                    <td>Member Secretary</td>
-                  </tr>
-                  <tr>
-                    <td>Dr. Tripti Das</td>
-                    <td>Assistant Professor, Dept of Sociology</td>
-                    <td>Members</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="3">3.</td>
-                    <td rowspan="3" class="align-middle">
-                      Three external members not below the rank of Professors,
-                      including members from an allied department, who will be
-                      nominated by the URC
-                    </td>
-                    <td>Prof. Shiela Bora</td>
-                    <td>Professor, Dept of History, RSHSS</td>
-                    <td>External Member</td>
-                  </tr>
-                  <tr>
-                    <td>Prof Gautam Mazumdar</td>
-                    <td>Professor, Dept of Economics, RSHSS</td>
-                    <td>External Member</td>
-                  </tr>
-                  <tr>
-                    <td>Prof. Swabera Islam</td>
-                    <td>Professor, Dept of Economics, RSHSS</td>
-                    <td>External Member</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+        <div class="table-responsive">
+          <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+            <thead class="text-white" style="background-color: #27467a">
+              <tr>
+                <th class="text-white">#</th>
+                <th class="text-white">Content</th>
+                <th class="text-white">Name of the Member</th>
+                <th class="text-white">Designation</th>
+                <th class="text-white">Designation in the committee</th>
+              </tr>
+            </thead>
+            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+              <tr>
+                <td>1.</td>
+                <td>Head of the Department</td>
+                <td>Prof. (Dr.) Sajal Nag</td>
+                <td>Dean, RSHSS</td>
+                <td>Chairperson</td>
+              </tr>
+              <tr>
+                <td rowspan="2">2.</td>
+                <td rowspan="2" class="align-middle">
+                  Two Assistant Professors holding Ph.D. degree
+                </td>
+                <td>Dr. Priyanka Patowari</td>
+                <td>Assistant Professor, Department of Social Work, RSHSS</td>
+                <td>Member</td>
+              </tr>
+              <tr>
+                <td>Dr. T Luithuiwung Awungshi</td>
+                <td>Assistant Professor, Department of Social Work, RSHSS</td>
+                <td>Member</td>
+              </tr>
+              <tr>
+                <td rowspan="3">3.</td>
+                <td rowspan="3" class="align-middle">
+                  Three external members not below the rank of Professors,
+                  including members from an allied department, who will be
+                  nominated by the URC
+                </td>
+                <td>Prof. Gautam Mazumder</td>
+                <td>Professor, Department of Economics, RSHSS, RGU</td>
+                <td>External Member</td>
+              </tr>
+              <tr>
+                <td>Prof. Swabera Islam</td>
+                <td>Professor, Department of Economics, RSHSS, RGU</td>
+                <td>External Member</td>
+              </tr>
+              <tr>
+                <td>Prof. Shiela Bora</td>
+                <td>
+                  Professor &amp; Advisor, Department of History, RSHSS, RGU
+                </td>
+                <td>External Member</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
 
-          <div>
 
-            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-              Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+      <div>
 
-            <div class="p-2">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="accordion para1" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                          <strong>
-                            Under Graduate
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <div class="row">
-                            <a href="mobile-assets/department-all/dept-sociology/syllabus-pdf/structure-course-sociology-ug.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i> Course Structure - Sociology
-                              <i class="fa fa-download"></i>
-                            </a>
+        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+          The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span></h2>
 
-                            <a href="mobile-assets/department-all/dept-sociology/syllabus-pdf/syllabus-ug.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i> Syllabus - B.A. Sociology
-                              <i class="fa fa-download"></i>
-                            </a>
-                          </div>
-                        </div>
+        <div class="table-responsive">
+          <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+            <thead class="text-white" style="background-color: #27467a">
+              <tr>
+                <th class="text-white">#</th>
+                <th class="text-white">Content</th>
+                <th class="text-white">Name of the Member</th>
+                <th class="text-white">Designation</th>
+                <th class="text-white">Designation in the committee</th>
+              </tr>
+            </thead>
+            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+              <tr>
+                <td>1.</td>
+                <td>Head of the Department</td>
+                <td>Prof. Sajal Nag</td>
+                <td>Professor, Dean RSHSS</td>
+                <td>Chairperson</td>
+              </tr>
+              <tr>
+                <td rowspan="2">2.</td>
+                <td rowspan="2" class="align-middle">
+                  Two Assistant Professors holding Ph.D. degree
+                </td>
+                <td>Dr. Sangeeta Das</td>
+                <td>Assistant Professor, Dept of Sociology</td>
+                <td>Member Secretary</td>
+              </tr>
+              <tr>
+                <td>Dr. Tripti Das</td>
+                <td>Assistant Professor, Dept of Sociology</td>
+                <td>Members</td>
+              </tr>
+              <tr>
+                <td rowspan="3">3.</td>
+                <td rowspan="3" class="align-middle">
+                  Three external members not below the rank of Professors,
+                  including members from an allied department, who will be
+                  nominated by the URC
+                </td>
+                <td>Prof. Shiela Bora</td>
+                <td>Professor, Dept of History, RSHSS</td>
+                <td>External Member</td>
+              </tr>
+              <tr>
+                <td>Prof Gautam Mazumdar</td>
+                <td>Professor, Dept of Economics, RSHSS</td>
+                <td>External Member</td>
+              </tr>
+              <tr>
+                <td>Prof. Swabera Islam</td>
+                <td>Professor, Dept of Economics, RSHSS</td>
+                <td>External Member</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+      <div>
+
+        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+          Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+
+        <div class="p-2">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="accordion para1" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      <strong>
+                        Under Graduate
+                      </strong>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row">
+                        <a href="mobile-assets/department-all/dept-sociology/syllabus-pdf/structure-course-sociology-ug.pdf"
+                          target="_blank">
+                          <i class="fa fa-file-text px-2"></i> Course Structure - Sociology
+                          <i class="fa fa-download"></i>
+                        </a>
+
+                        <a href="mobile-assets/department-all/dept-sociology/syllabus-pdf/syllabus-ug.pdf"
+                          target="_blank">
+                          <i class="fa fa-file-text px-2"></i> Syllabus - B.A. Sociology
+                          <i class="fa fa-download"></i>
+                        </a>
                       </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          <strong>
-                            Post Graduate
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <div class="row">
-                            <a href="mobile-assets/department-all/dept-sociology/syllabus-pdf/syllabus-ma-pg.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i> Syllabus - M.A. Sociology
-                              <i class="fa fa-download"></i>
-                            </a>
-                          </div>
-                        </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <strong>
+                        Post Graduate
+                      </strong>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row">
+                        <a href="mobile-assets/department-all/dept-sociology/syllabus-pdf/syllabus-ma-pg.pdf"
+                          target="_blank">
+                          <i class="fa fa-file-text px-2"></i> Syllabus - M.A. Sociology
+                          <i class="fa fa-download"></i>
+                        </a>
                       </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          <strong>
-                            Doctoral Programme
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <a href="doctoral-programme.html" class="para1" target="_blank">
-                            <strong>
-                              Click to View...
-                            </strong>
-                          </a>
-                        </div>
-                      </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <strong>
+                        Doctoral Programme
+                      </strong>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <a href="phd" class="para1" target="_blank">
+                        <strong>
+                          Click to View...
+                        </strong>
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
+      </div>
+
+    </div>
 
       </div>
 

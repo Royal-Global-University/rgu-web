@@ -3189,6 +3189,10 @@ Route::get('/faculty-tushti-sharma', function () {
     return view('frontend/facultyprofile/rsl/tushti-sharma');
 })->name('faculty-tushti-sharma');
 
+Route::get('/faculty-anjali-kumar', function () {
+    return view('frontend/facultyprofile/rsl/anjali-kumar');
+})->name('faculty-anjali-kumar');
+
 //RSA Faculty Profile
 
 Route::get('/faculty-hari-prasad-agarwal', function () {
@@ -4381,3 +4385,11 @@ Route::get('/social-work-events', function () {
 Route::get('/architecture-events', function () {
     return view('frontend/school&faculty/architecture-events');
 })->name('architecture-events');
+
+Route::get('/sociology-events', function () {
+    return view('frontend/school&faculty/sociology-events');
+})->name('sociology-events');
+
+Route::get('/history-events', function () {
+    return view('frontend/school&faculty/history-events');
+})->name('history-events');

@@ -351,10 +351,10 @@
               </div>
 
               <div class="text-center mt-2">
-                <button class="para1"
+                <a href="/history-events" class="para1"
                   style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
                  <a href="department-new-rshss-history-events.html">View All</a>
-                </button>
+                </a>
               </div>
 
               <script>
@@ -385,7 +385,7 @@
         </div>
 
         <div class="website">
-          <!--Start Header-->
+      <!--Start Header-->
            @include('frontend/components/aheader')
                         <!-- floating button  -->
                         <div>
@@ -447,1009 +447,749 @@
                             </style>
                         </div>
                         <!-- floating button  -->
-          <!--End Header-->
+      <!--End Header-->
 
-          <section style="background-color: #FFF8F0;">
-            <div class="p-5">
-              <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Department of
-                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">History</span>
-              </h1>
+      <section style="background-color: #FFF8F0;">
+        <div class="p-5">
+          <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Department of
+            <span class="headd1" style="color: #FF9A1E; font-weight: 500;">History</span>
+          </h1>
 
-              <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
-                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Royal School of</span>
-                Humanities & Social Sciences (RSHSS)
-              </h2>
+          <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
+            <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Royal School of</span>
+            Humanities & Social Sciences (RSHSS)
+          </h2>
+        </div>
+
+        <div class="container p-4">
+          <div class="row align-items-center gx-5">
+
+            <div class="col-lg-6 text-center">
+              <div class="kd-about-3-img-wrap txaa-slide-down-1">
+                <div>
+                  <img class="rounded w-60" decoding="async"
+                    src="mobile-assets/department-all/dept-history/head-img.png" alt="">
+                </div>
+              </div>
             </div>
 
-            <div class="container p-4">
-              <div class="row align-items-center gx-5">
+            <div class="col-lg-6">
 
-                <div class="col-lg-6 text-center">
-                  <div class="kd-about-3-img-wrap txaa-slide-down-1">
-                    <div>
-                      <img class="rounded w-60" decoding="async"
-                        src="mobile-assets/department-all/dept-history/head-img.png" alt="">
-                    </div>
-                  </div>
-                </div>
+              <h2 class="headd1" style="color: #264273; font-weight: 700;">
+                About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
 
-                <div class="col-lg-6">
+              <p class="mobile-para1 pt-3" style="color: #264273; text-align: justify; line-height: 1.5;">
+                The Department of History is one of the premier departments of Royal Global University. It has eminent
+                and scholarly faculty with global exposure. It is emerging as one of the leading centre of historical
+                learning and research in the north-east India. Its objective is to initiate innovative research and
+                world class curriculum design with industry-oriented pedagogy, to ground historical erudition in the
+                shared national culture of compassion, social responsibility and sound ethical outlook and to enrich
+                society by producing nationally and internationally acclaimed historians and historical works with acute
+                transformative potential in the domain of social sciences. In its thrust to update its curriculum
+                according to the mandate of New Education Policy of the GOl, it has included skill enhancement courses
+                like Museology, Archeology, Heritage management, Basic Writing Skills, Value-Added Courses as well as
+                mandatory project work in it is curriculum. It has MoU with leading academic and research institutions
+                which provide internships to our students for quick employability.
+              </p>
 
-                  <h2 class="headd1" style="color: #264273; font-weight: 700;">
-                    About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
+            </div>
 
-                  <p class="mobile-para1 pt-3" style="color: #264273; text-align: justify; line-height: 1.5;">
-                    The Department of History is one of the premier departments of Royal Global University. It has eminent
-                    and scholarly faculty with global exposure. It is emerging as one of the leading centre of historical
-                    learning and research in the north-east India. Its objective is to initiate innovative research and
-                    world class curriculum design with industry-oriented pedagogy, to ground historical erudition in the
-                    shared national culture of compassion, social responsibility and sound ethical outlook and to enrich
-                    society by producing nationally and internationally acclaimed historians and historical works with acute
-                    transformative potential in the domain of social sciences. In its thrust to update its curriculum
-                    according to the mandate of New Education Policy of the GOl, it has included skill enhancement courses
-                    like Museology, Archeology, Heritage management, Basic Writing Skills, Value-Added Courses as well as
-                    mandatory project work in it is curriculum. It has MoU with leading academic and research institutions
-                    which provide internships to our students for quick employability.
+          </div>
+        </div>
+
+        <div class="bg-white">
+          <p class="para1 container" style="color: #24477f; text-align: justify; padding: 30px 0px;">
+            The Department often organizes short trips to historical/archeological sites, traditional heritage sites,
+            traditional industrial and handicraft sites for firsthand experience of students. Within a short span of its
+            existence, it has already produced NET and JRF qualified students, officers in Indian Banking Service as
+            well as faculty in reputed universities. Some of our students have received admission in reputed
+            universities abroad for higher studies. The department has started an Outreach programme with the motto
+            'Popularizing History, Supplementing Syllabus: Using alternative Pedagogy to start society-academia
+            interface. To facilitate research, and writing skills of our students the Department has established History
+            Society - Vrittaanta which provide a platform to all students and research scholars of the Department for
+            popularizing the discipline, engage in debate and discussion in historical themes amongst students and
+            members of the larger society. It has also the credit of publishing the first Departmental student
+            e-research magazine of the University named Anveshan: A Voyage into the Unexplored Past. The Department and
+            its faculty strive to produce distinguished students who would be leading historical research in the region.
+          </p>
+        </div>
+
+
+
+
+        <div style="background-color: #fff;">
+          <div class="p-5">
+            <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Vision & Mission
+              <span class="headd1" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
+            </h1>
+
+            <img class="w-100" src="mobile-assets/department-all/dept-history/vision-mission-web.png" alt="">
+          </div>
+        </div>
+
+
+      </section>
+
+      <div class="container">
+        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+          Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+
+        <div class="table-responsive">
+          <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
+            <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
+              <th class="text-light  font-weight-bold">SL. NO.</th>
+              <th class="text-light  font-weight-bold">COURSES</th>
+              <th class="text-light  font-weight-bold">DURATION</th>
+              <th class="text-light  font-weight-bold">DETAILS</th>
+            </thead>
+            <tbody class="para1 bg-light">
+              <tr class="align-middle">
+                <td>1.</td>
+                <td>
+                  <p class="para1">
+                    <strong style="color: #023e8a;" class="#">Master of Arts History</strong>
+                  </p>
+                </td>
+                <td class="para1">
+                  2 years
+                </td>
+                <td>
+                  <a target="_blank" href="programs-MA-History"><button type="button"
+                      style="background-color: #FF9A1E; color: #fff;"
+                      class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                </td>
+              </tr>
+
+              <tr class="align-middle">
+                <td>2.</td>
+                <td>
+                  <p class="para1">
+                    <strong style="color: #023e8a;" class="#">Bachelor of Arts History</strong>
+                    <br> Honours / Honours with Research
                   </p>
 
+                </td>
+                <td>
+                  4 years as per NEP
+                </td>
+                <td>
+                  <a target="_blank" href="programs-BA-History"><button type="button"
+                      style="background-color: #FF9A1E; color: #fff;"
+                      class="btn btn-md custom-details-btn fw-bold">Details</button></a>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <!--About Section-->
+
+      <div class="container pb-5 pt-3">
+
+        <!-- events  -->
+        <div class="row" style="display: flex; justify-content: center;">
+          <div class="col-lg-10">
+            <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+              Events </h2>
+
+            <div style="max-width: 100%; position: relative;">
+              <div style="border: 1px solid #ccc;">
+
+                <div id="scrollContainer" style="height: 350px; overflow: hidden;">
+                  <table class="table table-bordered mb-0" style="font-size: 16px;">
+                    <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9;">
+
+
+                      <tr>
+                        <td>Kuldeep Patowary, Assistant Professor, Department of History, Gauhati University, delivered
+                          a webinar on the topic ‘Jo Jeeta Wohi Sikandar: War and the Shaping of History’.</td>
+                      </tr>
+                      <tr>
+                        <td>Prof. Amarendra Kumar Thakur, Professor, Department of History, NEHU Shillong, delivered a
+                          webinar on the topic ‘Intellectuals in Exile’.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Saswati Choudhury, Associate Professor, OKD Institute of Social Change and Development,
+                          delivered a webinar on ‘Healthcare in Assam: Looking from a Gendered Perspective’.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Sikha Das, Assistant Professor, Department of Sociology, MSSV Nagaon, delivered a
+                          webinar on ‘Gender, Power and Conflict of Identities: A Witch-Hunting’.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Suryasikha Pathak, Associate Professor, Assam University (Diphu Campus), delivered a
+                          webinar on ‘Visual Sources for Missionary History’.</td>
+                      </tr>
+                      <tr>
+                        <td>Prof. Rajib Handique, HoD, History Department, Gauhati University, delivered a webinar on
+                          ‘Pandemics in History’.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Radha Das, Assistant Professor of History, delivered a webinar on ‘The Life and
+                          Contributions of Rupkonwar Jyoti Prasad Agarwala’.</td>
+                      </tr>
+                      <tr>
+                        <td>Pabitra Margherita, Chairman of Jyoti Chitraban and eminent film and TV personality,
+                          participated in a webinar on ‘The Life and Contributions of Rupkonwar Jyoti Prasad Agarwala’.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Mr. Swapnanil Barua, Retired IAS officer, delivered a webinar on ‘Remembering Bishnu Prasad
+                          Rabha: The Political Figure and the Artist’.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Moushumi Kandali, writer and academician, participated in a webinar on ‘Remembering
+                          Bishnu Prasad Rabha: The Political Figure and the Artist’.</td>
+                      </tr>
+                      <tr>
+                        <td>Venerable Tenzin Legtsok, Monk from Sera Jaya Monastic University, Karnataka, gave an
+                          invited talk.</td>
+                      </tr>
+                      <tr>
+                        <td>Stephen Bognar, Director, Sustainability Asia for Wildlife Works Carbon (WWC), delivered an
+                          invited talk titled “Why Whales Worry? Finding a new direction with real depth”.</td>
+                      </tr>
+                      <tr>
+                        <td>Snigdha Hasnu, Curator in charge, Assam State Museum, delivered an invited talk on ‘Study of
+                          Assam History Through the Collections of the Assam State Museum’.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Loya Sinha, Chairperson, S.K. Bhuyan Memorial Trust, participated in an MoU signing
+                          ceremony.</td>
+                      </tr>
+                      <tr>
+                        <td>Yazing Shimray Wunglengton, Former Director of Museums, Assam, participated in an MoU
+                          signing ceremony.</td>
+                      </tr>
+                      <tr>
+                        <td>Prof. Prasenjit Biswas, Professor, Department of Philosophy, NEHU, served as an FDP resource
+                          person.</td>
+                      </tr>
+                      <tr>
+                        <td>Prof. Sarah Hilaly, Professor, Rajiv Gandhi University, served as an FDP resource person.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Sonali Ghosh, Chief Conservator of Forests, Assam, served as an FDP resource person.</td>
+                      </tr>
+                      <tr>
+                        <td>Bonojit Hussain, former Assistant Professor, SNU and entrepreneur, served as an FDP resource
+                          person.</td>
+                      </tr>
+                      <tr>
+                        <td>Prof. Amarendra K. Thakur, Professor, NEHU, served as an FDP resource person.</td>
+                      </tr>
+                      <tr>
+                        <td>Prof. Rajib Handique, Professor, Gauhati University, served as an FDP resource person.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Binayak Dutta, Associate Professor, NEHU, served as an FDP resource person.</td>
+                      </tr>
+                      <tr>
+                        <td>Prof. Arabinda Samanta, Professor (Retd.), Burdwan University, served as an FDP resource
+                          person.</td>
+                      </tr>
+                      <tr>
+                        <td>Prof. Imdad Hussain, Professor, NEHU, served as an FDP resource person.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Shahana Bhattacharya, Associate Professor, Kirori Mal College, Delhi University, served
+                          as an FDP resource person.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Manjil Hazarika, Assistant Professor, Cotton University, served as an FDP resource
+                          person.</td>
+                      </tr>
+                      <tr>
+                        <td>Prof. Chandan Kumar Sharma, Professor, Tezpur University, served as an FDP resource person.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Prof. Monorama Sharma, Professor, NEHU, served as an FDP resource person.</td>
+                      </tr>
+                      <tr>
+                        <td>Prof. Apurba Baruah, Professor, NEHU, served as an FDP resource person.</td>
+                      </tr>
+                      <tr>
+                        <td>Shri SK Bose, Numismatist, delivered an invited lecture on ‘Numismatic Heritage of Assam and
+                          its Emerging Trend in Study’.</td>
+                      </tr>
+                      <tr>
+                        <td>Ms. Vandana Manchanda, Director, Architectural Heritage Division and Head of Heritage Crafts
+                          and Community Division, INTACH, delivered a lecture on ‘Craft Revival and its socio-economic
+                          impact on Communities’.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Nachiket Chanchani, Associate Professor in History of the Art Department, delivered a
+                          talk on ‘Decoding India's Temples and the Challenges of Reconstructing Them’.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Sangeeta Gogoi, Director In-Charge, Directorate of Historical and Antiquarian Studies,
+                          Assam, participated in an MoU signing ceremony.</td>
+                      </tr>
+                      <tr>
+                        <td>Dr. Sanjeev Chopra, Former Director, Lal Bahadur Shastri National Academy of Administration,
+                          author and historian, delivered a lecture titled “We the people of the states of Bharat”.</td>
+                      </tr>
+
+
+                    </tbody>
+                  </table>
                 </div>
+              </div>
 
+              <div style="text-align: center; margin-top: 10px;">
+                <a href="/history-events" class="para1"
+                  style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
+                 <a href="department-new-rshss-history-events">View All</a>
+                </a>
               </div>
             </div>
 
-            <div class="bg-white">
-              <p class="para1 container" style="color: #24477f; text-align: justify; padding: 30px 0px;">
-                The Department often organizes short trips to historical/archeological sites, traditional heritage sites,
-                traditional industrial and handicraft sites for firsthand experience of students. Within a short span of its
-                existence, it has already produced NET and JRF qualified students, officers in Indian Banking Service as
-                well as faculty in reputed universities. Some of our students have received admission in reputed
-                universities abroad for higher studies. The department has started an Outreach programme with the motto
-                'Popularizing History, Supplementing Syllabus: Using alternative Pedagogy to start society-academia
-                interface. To facilitate research, and writing skills of our students the Department has established History
-                Society - Vrittaanta which provide a platform to all students and research scholars of the Department for
-                popularizing the discipline, engage in debate and discussion in historical themes amongst students and
-                members of the larger society. It has also the credit of publishing the first Departmental student
-                e-research magazine of the University named Anveshan: A Voyage into the Unexplored Past. The Department and
-                its faculty strive to produce distinguished students who would be leading historical research in the region.
-              </p>
-            </div>
+            <script>
+              const scrollContainer = document.getElementById('scrollContainer');
+              const scrollContent = document.getElementById('scrollContent');
+
+              // Duplicate content for infinite scroll
+              scrollContent.innerHTML += scrollContent.innerHTML;
+
+              let scrollPos = 0;
+              const scrollSpeed = 0.2;
+
+              function scrollStep() {
+                scrollPos += scrollSpeed;
+                if (scrollPos >= scrollContent.scrollHeight / 2) {
+                  scrollPos = 0;
+                }
+                scrollContainer.scrollTop = scrollPos;
+                requestAnimationFrame(scrollStep);
+              }
+
+              scrollStep();
+            </script>
+
+          </div>
 
 
+        </div>
+        <!-- events  -->
 
+      </div>
 
-            <div style="background-color: #fff;">
-              <div class="p-5">
-                <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Vision & Mission
-                  <span class="headd1" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
-                </h1>
+       <!-- academic excellence  -->
+      <section
+        style="background-image: url(mobile-assets/department-all/bgg-academic-excellence-png.png); background-size: cover; height: 100%;">
 
-                <img class="w-100" src="mobile-assets/department-all/dept-history/vision-mission-web.png" alt="">
+        <h2 class="headd1 text-center pt-5" style="color: #fff; font-size: 50px;">Academic <span
+            style="color: #FF9A1E;">Excellence</span></h2>
+
+        <div class="row" style="display: flex; justify-content: center; align-items: center; padding: 30px 80px;">
+          <div class="col-lg-6">
+
+            <div style="background-color: #ffffff10; border-radius: 20px; border: 1px solid #ffffff61; padding: 30px;">
+
+              <div class="p-1 text-center " style="background-color: #FF9A1E; width: 130px; border-radius: 20px;">
+                <h2 class="pt-2 headd3 fw-bold text-dark">UGC NET</h2>
               </div>
-            </div>
 
 
-          </section>
+              <div
+                style="height: 420px; width: 600px; margin: 20px auto; overflow: hidden; border-radius: 15px; position: relative; background: transparent;">
+
+                <div id="verticalCarousel"
+                  style="position: absolute; top: 0; left: 0; right: 0; animation: scrollUp 20s linear infinite; ">
+
+                   <!-- Slide 1 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-history/candidates/ugc-net/ugc24-1.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-history/candidates/ugc-net/ugc24-2.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-history/candidates/ugc-net/ugc24-3.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-history/candidates/ugc-net/ugc24-4.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
 
 
-          <div class="container">
-            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-              Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+                  <!-- duplicates  -->
 
-            <div class="table-responsive">
-              <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
-                <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
-                  <th class="text-light  font-weight-bold">SL. NO.</th>
-                  <th class="text-light  font-weight-bold">COURSES</th>
-                  <th class="text-light  font-weight-bold">DURATION</th>
-                  <th class="text-light  font-weight-bold">DETAILS</th>
-                </thead>
-                <tbody class="para1 bg-light">
-                  <tr class="align-middle">
-                    <td>1.</td>
-                    <td>
-                      <p class="para1">
-                        <strong style="color: #023e8a;" class="#">Master of Arts History</strong>
-                      </p>
-                    </td>
-                    <td class="para1">
-                      2 years
-                    </td>
-                    <td>
-                      <a target="_blank" href="programs-MA-History"><button type="button"
-                          style="background-color: #FF9A1E; color: #fff;"
-                          class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                    </td>
-                  </tr>
+                    <!-- Slide 1 -->
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-history/candidates/ugc-net/ugc24-1.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
 
-                  <tr class="align-middle">
-                    <td>2.</td>
-                    <td>
-                      <p class="para1">
-                        <strong style="color: #023e8a;" class="#">Bachelor of Arts History</strong>
-                        <br> Honours / Honours with Research
-                      </p>
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-history/candidates/ugc-net/ugc24-2.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
 
-                    </td>
-                    <td>
-                      4 years as per NEP
-                    </td>
-                    <td>
-                      <a target="_blank" href="programs-BA-History"><button type="button"
-                          style="background-color: #FF9A1E; color: #fff;"
-                          class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                    </td>
-                  </tr>
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-history/candidates/ugc-net/ugc24-3.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
 
-                </tbody>
-              </table>
+                  <div class="d-flex" style=" border-radius: 15px; margin: 10px;">
+                    <img src="mobile-assets/department-all/dept-history/candidates/ugc-net/ugc24-4.png" alt="Chanda Devi"
+                      style="height: 100%; width: 100%; object-fit: cover; border-radius: 12px;">
+                  </div>
+
+
+                </div>
+              </div>
+
+              <!-- Keyframes for vertical scroll -->
+              <style>
+                @keyframes scrollUp {
+                  0% {
+                    top: 0;
+                  }
+
+                  33% {
+                    top: -180px;
+                  }
+
+                  66% {
+                    top: -360px;
+                  }
+
+                  100% {
+                    top: 0;
+                  }
+                }
+              </style>
+
             </div>
 
           </div>
 
-          <!--About Section-->
+          <div class="col-lg-6">
 
-          <div class="container pb-5 pt-3">
+            <div style="background-color: #ffffff10; border-radius: 20px; border: 1px solid #ffffff61; padding-top:30px; padding-bottom:30px; padding-left:10px; padding-right:10px;">
 
-            <!-- events  -->
-            <div class="row" style="display: flex; justify-content: center;">
-              <div class="col-lg-10">
-                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                  Events </h2>
+              <div class="p-1 text-center " style="background-color: #FF9A1E; width: 200px; border-radius: 20px;">
+                <h2 class="pt-2 headd3 fw-bold text-dark">Government Job</h2>
+              </div>
 
-                <div style="max-width: 100%; position: relative;">
-                  <div style="border: 1px solid #ccc;">
+              <div>
+                <div id="multiImageCarousel" class="carousel slide" data-bs-ride="carousel"
+                  style="width: 100%;  border-radius: 12px; overflow: hidden; padding-bottom: 30px; padding-top: 20px;">
 
-                    <div id="scrollContainer" style="height: 350px; overflow: hidden;">
-                      <table class="table table-bordered mb-0" style="font-size: 16px;">
-                        <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9;">
-
-
-                          <tr>
-                            <td>Kuldeep Patowary, Assistant Professor, Department of History, Gauhati University, delivered
-                              a webinar on the topic ‘Jo Jeeta Wohi Sikandar: War and the Shaping of History’.</td>
-                          </tr>
-                          <tr>
-                            <td>Prof. Amarendra Kumar Thakur, Professor, Department of History, NEHU Shillong, delivered a
-                              webinar on the topic ‘Intellectuals in Exile’.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Saswati Choudhury, Associate Professor, OKD Institute of Social Change and Development,
-                              delivered a webinar on ‘Healthcare in Assam: Looking from a Gendered Perspective’.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Sikha Das, Assistant Professor, Department of Sociology, MSSV Nagaon, delivered a
-                              webinar on ‘Gender, Power and Conflict of Identities: A Witch-Hunting’.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Suryasikha Pathak, Associate Professor, Assam University (Diphu Campus), delivered a
-                              webinar on ‘Visual Sources for Missionary History’.</td>
-                          </tr>
-                          <tr>
-                            <td>Prof. Rajib Handique, HoD, History Department, Gauhati University, delivered a webinar on
-                              ‘Pandemics in History’.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Radha Das, Assistant Professor of History, delivered a webinar on ‘The Life and
-                              Contributions of Rupkonwar Jyoti Prasad Agarwala’.</td>
-                          </tr>
-                          <tr>
-                            <td>Pabitra Margherita, Chairman of Jyoti Chitraban and eminent film and TV personality,
-                              participated in a webinar on ‘The Life and Contributions of Rupkonwar Jyoti Prasad Agarwala’.
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Mr. Swapnanil Barua, Retired IAS officer, delivered a webinar on ‘Remembering Bishnu Prasad
-                              Rabha: The Political Figure and the Artist’.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Moushumi Kandali, writer and academician, participated in a webinar on ‘Remembering
-                              Bishnu Prasad Rabha: The Political Figure and the Artist’.</td>
-                          </tr>
-                          <tr>
-                            <td>Venerable Tenzin Legtsok, Monk from Sera Jaya Monastic University, Karnataka, gave an
-                              invited talk.</td>
-                          </tr>
-                          <tr>
-                            <td>Stephen Bognar, Director, Sustainability Asia for Wildlife Works Carbon (WWC), delivered an
-                              invited talk titled “Why Whales Worry? Finding a new direction with real depth”.</td>
-                          </tr>
-                          <tr>
-                            <td>Snigdha Hasnu, Curator in charge, Assam State Museum, delivered an invited talk on ‘Study of
-                              Assam History Through the Collections of the Assam State Museum’.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Loya Sinha, Chairperson, S.K. Bhuyan Memorial Trust, participated in an MoU signing
-                              ceremony.</td>
-                          </tr>
-                          <tr>
-                            <td>Yazing Shimray Wunglengton, Former Director of Museums, Assam, participated in an MoU
-                              signing ceremony.</td>
-                          </tr>
-                          <tr>
-                            <td>Prof. Prasenjit Biswas, Professor, Department of Philosophy, NEHU, served as an FDP resource
-                              person.</td>
-                          </tr>
-                          <tr>
-                            <td>Prof. Sarah Hilaly, Professor, Rajiv Gandhi University, served as an FDP resource person.
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Sonali Ghosh, Chief Conservator of Forests, Assam, served as an FDP resource person.</td>
-                          </tr>
-                          <tr>
-                            <td>Bonojit Hussain, former Assistant Professor, SNU and entrepreneur, served as an FDP resource
-                              person.</td>
-                          </tr>
-                          <tr>
-                            <td>Prof. Amarendra K. Thakur, Professor, NEHU, served as an FDP resource person.</td>
-                          </tr>
-                          <tr>
-                            <td>Prof. Rajib Handique, Professor, Gauhati University, served as an FDP resource person.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Binayak Dutta, Associate Professor, NEHU, served as an FDP resource person.</td>
-                          </tr>
-                          <tr>
-                            <td>Prof. Arabinda Samanta, Professor (Retd.), Burdwan University, served as an FDP resource
-                              person.</td>
-                          </tr>
-                          <tr>
-                            <td>Prof. Imdad Hussain, Professor, NEHU, served as an FDP resource person.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Shahana Bhattacharya, Associate Professor, Kirori Mal College, Delhi University, served
-                              as an FDP resource person.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Manjil Hazarika, Assistant Professor, Cotton University, served as an FDP resource
-                              person.</td>
-                          </tr>
-                          <tr>
-                            <td>Prof. Chandan Kumar Sharma, Professor, Tezpur University, served as an FDP resource person.
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Prof. Monorama Sharma, Professor, NEHU, served as an FDP resource person.</td>
-                          </tr>
-                          <tr>
-                            <td>Prof. Apurba Baruah, Professor, NEHU, served as an FDP resource person.</td>
-                          </tr>
-                          <tr>
-                            <td>Shri SK Bose, Numismatist, delivered an invited lecture on ‘Numismatic Heritage of Assam and
-                              its Emerging Trend in Study’.</td>
-                          </tr>
-                          <tr>
-                            <td>Ms. Vandana Manchanda, Director, Architectural Heritage Division and Head of Heritage Crafts
-                              and Community Division, INTACH, delivered a lecture on ‘Craft Revival and its socio-economic
-                              impact on Communities’.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Nachiket Chanchani, Associate Professor in History of the Art Department, delivered a
-                              talk on ‘Decoding India's Temples and the Challenges of Reconstructing Them’.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Sangeeta Gogoi, Director In-Charge, Directorate of Historical and Antiquarian Studies,
-                              Assam, participated in an MoU signing ceremony.</td>
-                          </tr>
-                          <tr>
-                            <td>Dr. Sanjeev Chopra, Former Director, Lal Bahadur Shastri National Academy of Administration,
-                              author and historian, delivered a lecture titled “We the people of the states of Bharat”.</td>
-                          </tr>
-
-
-                        </tbody>
-                      </table>
-                    </div>
+                  <!-- Indicators -->
+                  <div class="carousel-indicators" style="top: 430px;">
+                    <!-- <button type="button" data-bs-target="#multiImageCarousel" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"
+                      style="width: 50px; height: 4px; border-radius: 40%; background-color: #ffffff;"></button> -->
+                    <!-- <button type="button" data-bs-target="#multiImageCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                      style="width: 50px; height: 4px; border-radius: 40%; background-color: #ffffff;"></button>
+                    <button type="button" data-bs-target="#multiImageCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                      style="width: 50px; height: 4px; border-radius: 40%; background-color: #ffffff;"></button> -->
                   </div>
 
-                  <div style="text-align: center; margin-top: 10px;">
-                    <button class="para1"
-                      style="padding: 6px 15px; background-color: #27467a; color: white; border: none; border-radius: 4px;">
-                     <a href="department-new-rshss-history-events.html">View All</a>
+                  <!-- Slides -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                      <img src="mobile-assets/department-all/dept-history/candidates/govt-job/govt-job1.png" class="d-block w-100"
+                        alt="Image 1" style="height: 50%; object-fit: cover;">
+                    </div>
+
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 mt-5">
+
+            <div style="background-color: #ffffff10; border-radius: 20px; border: 1px solid #ffffff61; padding: 30px;">
+
+              <div class="p-1 text-center " style="background-color: #FF9A1E; width: 200px; border-radius: 20px;">
+                <h2 class="pt-2 headd3 fw-bold text-dark">CTET</h2>
+              </div>
+
+              <div>
+                <div id="multiImageCarousel" class="carousel slide" data-bs-ride="carousel"
+                  style="width: 100%;  border-radius: 12px; overflow: hidden; padding-bottom: 30px; padding-top: 20px;">
+
+                  <!-- Indicators -->
+                  <div class="carousel-indicators" style="top: 430px;">
+                    <!-- <button type="button" data-bs-target="#multiImageCarousel" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"
+                      style="width: 50px; height: 4px; border-radius: 40%; background-color: #ffffff;"></button> -->
+                    <!-- <button type="button" data-bs-target="#multiImageCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                      style="width: 50px; height: 4px; border-radius: 40%; background-color: #ffffff;"></button>
+                    <button type="button" data-bs-target="#multiImageCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                      style="width: 50px; height: 4px; border-radius: 40%; background-color: #ffffff;"></button> -->
+                  </div>
+
+                  <!-- Slides -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                      <img src="mobile-assets/department-all/dept-history/candidates/ctet/ctet1.png" class="d-block w-100"
+                        alt="Image 1" style="height: 50%; object-fit: cover;">
+                    </div>
+
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+      <!-- academic excellence  -->
+
+
+      <!--End Section-->
+    </div>
+
+    <div class="container">
+
+
+      <div>
+        <div>
+          <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+            The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies (Bos)</span></h2>
+
+          <div class="table-responsive">
+            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+              <thead class="text-white" style="background-color: #27467a">
+                <tr>
+                  <th class="text-white">#</th>
+                  <th class="text-white">Position in D-BoS</th>
+                  <th class="text-white">Name and Designation</th>
+                </tr>
+              </thead>
+              <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+                <tr>
+                  <td>1</td>
+                  <td>Convener (Ex-Officio)- Head of the Department</td>
+                  <td>Dr. Susmita Hazarika, Associate Professor, History</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>
+                    All Faculty members of the Department Members (Ex-Officio)
+                  </td>
+                  <td>
+                    Prof. Sajal Nag, Distinguished Professor of History Mr. Mukesh
+                    Kalita
+                    <hr />
+                    Prof. Shiela Bora, Advisor, Dept. of History
+                    <hr />
+                    Dr. Mitali Kalita, Assistant Professor, History
+                    <hr />
+                    Dr. Saikhom Ronel Singh Assistant Professor, History
+                    <hr />
+                    Ms. Tanzim Masud Assistant Professor, History
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>External Expert (Academic)</td>
+                  <td>
+                    KM Sudha
+                    <hr />
+                    Ms. Shalaka Pravinkumar Bhandare
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+            The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committe (DRC)</span></h2>
+
+          <div class="table-responsive">
+            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+              <thead class="text-white" style="background-color: #27467a">
+                <tr>
+                  <th class="text-white">#</th>
+                  <th class="text-white">Content</th>
+                  <th class="text-white">Name of the Member</th>
+                  <th class="text-white">Designation</th>
+                  <th class="text-white">Designation in the committee</th>
+                </tr>
+              </thead>
+              <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+                <tr>
+                  <td>1.</td>
+                  <td>Head of the Department</td>
+                  <td>Prof. Sajal Nag</td>
+                  <td>Dean, RSHSS;<br />Distinguished Professor of History</td>
+                  <td>Chairperson</td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>Two Professors</td>
+                  <td>Prof. Shiela Bora</td>
+                  <td>Advisor, Dept. of History</td>
+                  <td>Member</td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td>
+                    Two Associate Professors – one of them will be the member
+                    secretary
+                  </td>
+                  <td>Dr. Susmita Hazarika</td>
+                  <td>Associate Professor, Dept. of History</td>
+                  <td>Member Secretary</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">4.</td>
+                  <td rowspan="2" class="align-middle">
+                    Two Assistant Professors holding Ph.D. degree
+                  </td>
+                  <td>Dr. Saikhom Ronel Singh</td>
+                  <td>Asst. Professor, Dept. of History</td>
+                  <td>Member</td>
+                </tr>
+                <tr>
+                  <td>Dr. Susmita Banerjee</td>
+                  <td>Asst. Professor, Dept. of History</td>
+                  <td>Member</td>
+                </tr>
+                <tr>
+                  <td rowspan="3">5.</td>
+                  <td rowspan="3" class="align-middle">
+                    Three external members not below the rank of Professors,
+                    including members from an allied department, who will be
+                    nominated by the URC
+                  </td>
+                  <td>Prof. Gautam Majumdar</td>
+                  <td>Professor, Dept. of Economics</td>
+                  <td>External Member</td>
+                </tr>
+                <tr>
+                  <td>Prof. Tushti Sharma</td>
+                  <td>HOD, Dept. of English, RSL</td>
+                  <td>External Member</td>
+                </tr>
+                <tr>
+                  <td>Prof. Ankur Ganguly</td>
+                  <td>Dean of Academics, RGU</td>
+                  <td>External Member</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+          Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+
+        <div class="p-2">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="accordion para1" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                      aria-controls="collapseOne">
+                      <strong>
+                        Under Graduate
+                      </strong>
                     </button>
-                  </div>
-                </div>
-
-                <script>
-                  const scrollContainer = document.getElementById('scrollContainer');
-                  const scrollContent = document.getElementById('scrollContent');
-
-                  // Duplicate content for infinite scroll
-                  scrollContent.innerHTML += scrollContent.innerHTML;
-
-                  let scrollPos = 0;
-                  const scrollSpeed = 0.2;
-
-                  function scrollStep() {
-                    scrollPos += scrollSpeed;
-                    if (scrollPos >= scrollContent.scrollHeight / 2) {
-                      scrollPos = 0;
-                    }
-                    scrollContainer.scrollTop = scrollPos;
-                    requestAnimationFrame(scrollStep);
-                  }
-
-                  scrollStep();
-                </script>
-
-              </div>
-
-
-            </div>
-            <!-- events  -->
-
-          </div>
-
-          <div class="section" style="background-image: url(mobile-assets/department-all/new-bg.svg); background-size: cover;">
-
-            <h2 class="headd1 text-center pt-4" style="color: #fff; font-size: 50px;">
-              Academic Excellence
-            </h2>
-
-            <div class="row" style="padding: 50px 40px; display: flex; justify-content: center;">
-
-              <div class="col-lg-6">
-
-                <div style="height: 80vh;">
-                  <div class="container pb-5">
-                    <div class="row align-items-center justify-content-center" style="height: 100%;">
-
-                      <!-- Text Section -->
-                      <div class="col-lg-12" style="padding-top: 3%; animation: fadeSlideLeft 1.5s ease-out;">
-                        <h2 class="headd1 text-center fw-bold"
-                          style="color: #FF9A1E; font-size: 30px; margin-bottom: 10px;">UGC NET Qualified
-                        </h2>
-                      </div>
-
-                      <!-- Carousel Section -->
-                      <div class="col-lg-12" style="padding-top: 2%;">
-
-                        <!-- Year Filter Buttons -->
-                        <div style="display: flex; justify-content: center; margin-bottom: 16px;" id="yearButtonPanel">
-                          <button class="filter-year-btn active" data-year="2024">2024</button>
-                        </div>
-
-                        <!-- Carousel Container -->
-                        <div id="carouselAchievers" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
-                          style="border-radius: 20px; background: white; overflow: hidden; height: 350px; margin: auto; width: 650px;">
-                          <div class="carousel-indicators" id="carouselIndicatorsAchievers"></div>
-                          <div class="carousel-inner p-4" id="carouselInnerAchievers"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Animation Keyframes -->
-                <script>
-                  const slideStyle = document.createElement('style');
-                  slideStyle.innerHTML = `
-      @keyframes slideInLeft {
-        from { opacity: 0; transform: translateX(-40px); }
-        to { opacity: 1; transform: translateX(0); }
-      }
-
-      .filter-year-btn {
-        padding: 6px 30px;
-        margin: 0 8px;
-        border: 1.5px solid white;
-        background: transparent;
-        color: white;
-        font-weight: bold;
-        border-radius: 25px;
-        cursor: pointer;
-      }
-
-      .filter-year-btn.active {
-        background: #FF9A1E;
-        border-color: #FF9A1E;
-        color: white;
-      }
-    `;
-                  document.head.appendChild(slideStyle);
-                </script>
-
-                <!-- Carousel Script -->
-                <script>
-                  const achieverData = {
-
-                    "2024": [
-                      {
-                        img: "mobile-assets/department-all/dept-history/candidates/ugc-net/bhargabi-dec-2024.png",
-                        name: "Bhargabi Nath",
-                        subject: "MA History",
-                        text: "Batch: 2018 - 21",
-                        year: "Dec 2024"
-                      },
-
-                      {
-                        img: "mobile-assets/department-all/dept-history/candidates/ugc-net/jupitara-dec-24.png",
-                        name: "Jupitara Deka",
-                        subject: "MA History",
-                        text: "Batch: 2022 - 24",
-                        year: "Dec 2024"
-                      },
-
-                      {
-                        img: "mobile-assets/department-all/dept-history/candidates/ugc-net/hileemona.png",
-                        name: "Hileemona Baishya",
-                        subject: "MA History",
-                        text: "Batch: 2020 - 22",
-                        year: "June 2024"
-                      },
-
-                      {
-                        img: "mobile-assets/department-all/dept-history/candidates/ugc-net/angshuman.jpg",
-                        name: "Angshuman Boro",
-                        subject: "MA History",
-                        text: "Batch: 2022 - 24",
-                        year: "June 2024"
-                      }
-
-                    ]
-
-                  };
-
-                  const innerAchievers = document.getElementById("carouselInnerAchievers");
-                  const indicatorsAchievers = document.getElementById("carouselIndicatorsAchievers");
-                  const yearBtnGroup = document.querySelectorAll(".filter-year-btn");
-
-                  function loadCarouselContent(year) {
-                    const content = achieverData[year] || [];
-                    innerAchievers.innerHTML = '';
-                    indicatorsAchievers.innerHTML = '';
-
-                    content.forEach((item, index) => {
-                      const card = document.createElement("div");
-                      card.className = `carousel-item${index === 0 ? ' active' : ''}`;
-                      card.style.transition = "transform 1s ease-in-out";
-                      card.innerHTML = `
-          <div class="d-flex align-items-center">
-            <img src="${item.img}" class="rounded border shadow-sm" style="width: 40%; height: 270px; object-fit: cover; margin-right: 20px;">
-            <div>
-              <div style="color: #27467A; font-size: 35px; padding: 10px 0;" class="fw-bold">${item.name}</div>
-              <small style="color: #333; font-size: 26px;">${item.subject}</small>
-              <p style="font-size: 20px; font-weight: 800;">${item.year}</p>
-              <p style="font-size: 20px; padding: 5px 20px; background-color: #FF9A1E; color: #27467A; font-weight: 800; border-radius: 15px;">${item.text}</p>
-            </div>
-          </div>
-        `;
-                      innerAchievers.appendChild(card);
-
-                      const dot = document.createElement("button");
-                      dot.type = "button";
-                      dot.setAttribute("data-bs-target", "#carouselAchievers");
-                      dot.setAttribute("data-bs-slide-to", index);
-                      dot.setAttribute("aria-label", `Slide ${index + 1}`);
-                      dot.style.backgroundColor = "#023e8a";
-                      if (index === 0) {
-                        dot.className = "active";
-                        dot.setAttribute("aria-current", "true");
-                      }
-                      indicatorsAchievers.appendChild(dot);
-                    });
-                  }
-
-                  yearBtnGroup.forEach(btn => {
-                    btn.addEventListener("click", () => {
-                      yearBtnGroup.forEach(b => b.classList.remove("active"));
-                      btn.classList.add("active");
-                      loadCarouselContent(btn.getAttribute("data-year"));
-                    });
-                  });
-
-                  // Initial load
-                  loadCarouselContent("2024");
-                </script>
-
-              </div>
-
-              <div class="col-lg-6">
-
-                <div style=" height: 80vh;">
-                  <div class="container pb-5">
-                    <div class="row align-items-center justify-content-center" style="height: 100%;">
-
-                      <!-- Left Column -->
-                      <div class="col-lg-12" style="padding-top: 3%; animation: fadeSlideLeft 1.5s ease-out;">
-                        <h2 class="headd1 text-center fw-bold"
-                          style="color: #FF9A1E; font-size: 30px; margin-bottom: 10px;">Government Job
-                        </h2>
-                      </div>
-
-                      <!-- Right Column -->
-                      <div class="col-lg-12" style="padding-top: 2%;">
-
-                        <!-- Year Buttons -->
-                        <div style="display: flex; justify-content: center; margin-bottom: 16px;" id="yearFilterContainer">
-                          <button class="year-btn active" data-year="2024"
-                            style="padding: 6px 30px; margin: 0 8px; border: 1.5px solid #FF9A1E; background: #FF9A1E; color: white; font-weight: bold; border-radius: 25px; cursor: pointer;">2024</button>
-
-                          <button class="year-btn" data-year="2023"
-                            style="padding: 6px 30px; margin: 0 8px; border: 1.5px solid white; background: transparent; color: white; font-weight: bold; border-radius: 25px; cursor: pointer;">2023</button>
-
-
-                        </div>
-
-                        <!-- Carousel -->
-                        <div id="carouselNETSET" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
-                          style="border-radius: 20px; background: white; overflow: hidden; height: 350px; width: 650px; margin: auto;">
-                          <div class="carousel-indicators" id="carouselIndicatorsNETSET"></div>
-                          <div class="carousel-inner p-4" id="carouselInnerNETSET"></div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Animation Style (inline via JS) -->
-                <script>
-                  // Define keyframes for fade+slide animation
-                  const style = document.createElement('style');
-                  style.innerHTML = `
-        @keyframes fadeSlideLeft {
-          from { opacity: 0; transform: translateX(-40px); }
-          to { opacity: 1; transform: translateX(0); }
-        }
-      `;
-                  document.head.appendChild(style);
-                </script>
-
-                <script>
-                  const dataByYear = {
-
-                    "2024": [
-                      {
-                        img: "mobile-assets/department-all/no-pic.jpg",
-                        name: "Sithuibou Pamei",
-                        subject: "MA history",
-                        text: "Batch: 2022 - 24",
-                        year: ""
-                      }
-                    ],
-
-                    "2023": [
-                      {
-                        img: "mobile-assets/department-all/no-pic.jpg",
-                        name: "Amajyoti Kashyap",
-                        subject: "History",
-                        text: "Batch: 2018 - 2019",
-                        year: ""
-                      }
-
-                    ]
-
-                  };
-
-                  const inner = document.getElementById("carouselInnerNETSET");
-                  const indicators = document.getElementById("carouselIndicatorsNETSET");
-                  const controls = document.querySelectorAll('#carouselNETSET .carousel-control-prev, #carouselNETSET .carousel-control-next');
-                  const yearButtons = document.querySelectorAll('.year-btn');
-
-                  function updateCarousel(year) {
-                    const slides = dataByYear[year] || [];
-                    inner.innerHTML = '';
-                    indicators.innerHTML = '';
-
-                    slides.forEach((item, index) => {
-                      const slide = document.createElement("div");
-                      slide.className = `carousel-item${index === 0 ? ' active' : ''}`;
-                      slide.style.transition = "transform 1s ease-in-out";
-                      slide.innerHTML = `
-            <div class="d-flex align-items-center">
-              <img src="${item.img}" class="rounded border shadow-sm" style="width: 40%; height: 270px; object-fit: cover; margin-right: 20px;">
-              <div>
-
-                <div style="color: #27467A; font-size: 35px; padding: 10px 0px;" class="fw-bold">${item.name}</div>
-
-                <small class="mb-5" style="color: #333; font-size: 26px;">${item.subject}</small>
-
-
-                <p style="font-size: 20px; padding-bottom: 10px; font-weight: 800; border-radius: 15px;">${item.year}</p>
-
-                <p style="font-size: 20px; padding: 5px 20px; background-color: #FF9A1E; color: #27467A; font-weight: 800; border-radius: 15px;">${item.text}</p>
-              </div>
-            </div>
-          `;
-                      inner.appendChild(slide);
-
-                      const indicator = document.createElement("button");
-                      indicator.type = "button";
-                      indicator.setAttribute("data-bs-target", "#carouselNETSET");
-                      indicator.setAttribute("data-bs-slide-to", index);
-                      indicator.setAttribute("aria-label", `Slide ${index + 1}`);
-                      indicator.style.backgroundColor = "#023e8a";
-                      if (index === 0) {
-                        indicator.className = "active";
-                        indicator.setAttribute("aria-current", "true");
-                      }
-                      indicators.appendChild(indicator);
-                    });
-
-                    if (slides.length <= 1) {
-                      indicators.style.display = "none";
-                      controls.forEach(c => c.style.display = "none");
-                    } else {
-                      indicators.style.display = "flex";
-                      controls.forEach(c => c.style.display = "block");
-                    }
-                  }
-
-                  yearButtons.forEach(btn => {
-                    btn.addEventListener("click", () => {
-                      yearButtons.forEach(b => {
-                        b.style.background = "transparent";
-                        b.style.color = "white";
-                        b.style.border = "1.5px solid white";
-                      });
-
-                      btn.style.background = "#FF9A1E";
-                      btn.style.color = "white";
-                      btn.style.border = "1.5px solid #FF9A1E";
-
-                      updateCarousel(btn.getAttribute("data-year"));
-                    });
-                  });
-
-                  // Load default view (2023)
-                  updateCarousel("2024");
-                </script>
-              </div>
-
-              <div class="col-lg-6">
-
-                <!-- Text Section -->
-                <div class="col-lg-12" style="animation: fadeSlideLeft 1.5s ease-out;">
-                  <h2 class="headd1 text-center fw-bold" style="color: #FF9A1E; font-size: 30px; margin-bottom: 10px;">
-                    CTET
                   </h2>
-                </div>
-
-                <!-- Year Selector -->
-                <div style="display: flex; justify-content: center; margin-bottom: 16px;" id="yearStarsPanel">
-                  <button class="year-selector-btn active" data-year="2024">2024</button>
-                </div>
-
-                <!-- Carousel -->
-                <div id="carouselAchieveStars" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500"
-                  style="border-radius: 20px; background: #fff; overflow: hidden; height: 370px;">
-                  <div class="carousel-indicators" id="carouselIndicatorsStars"></div>
-                  <div class="carousel-inner p-4" id="carouselContentStars"></div>
-                </div>
-
-                <!-- Inline CSS for Animation + Button Style -->
-                <script>
-                  const extraStyle = document.createElement('style');
-                  extraStyle.innerHTML = `
-        @keyframes fadeInFromLeft {
-          0% { opacity: 0; transform: translateX(-50px); }
-          100% { opacity: 1; transform: translateX(0); }
-        }
-
-        .year-selector-btn {
-          padding: 6px 28px;
-          margin: 0 6px;
-          border: 1.5px solid white;
-          background: transparent;
-          color: white;
-          font-weight: 600;
-          border-radius: 25px;
-          cursor: pointer;
-          transition: all 0.3s ease;
-        }
-
-        .year-selector-btn.active {
-          background: #FF9A1E;
-          color: #fff;
-          border-color: #FF9A1E;
-        }
-      `;
-                  document.head.appendChild(extraStyle);
-                </script>
-
-                <!-- Carousel Script -->
-                <script>
-                  const topAchieversData = {
-                    "2024": [
-                      {
-                        img: "mobile-assets/department-all/no-pic.jpg",
-                        name: "Pooja Shill",
-                        subject: "BA history",
-                        text: "Batch: 2019 - 22",
-                        year: ""
-                      }
-                    ],
-                  };
-
-                  const contentStars = document.getElementById("carouselContentStars");
-                  const indicatorsStars = document.getElementById("carouselIndicatorsStars");
-                  const yearStarButtons = document.querySelectorAll(".year-selector-btn");
-
-                  function showCarouselSlides(year) {
-                    const entries = topAchieversData[year] || [];
-                    contentStars.innerHTML = '';
-                    indicatorsStars.innerHTML = '';
-
-                    entries.forEach((entry, i) => {
-                      const item = document.createElement("div");
-                      item.className = `carousel-item${i === 0 ? " active" : ""}`;
-                      item.innerHTML = `
-            <div class="d-flex align-items-center">
-              <img src="${entry.img}" class="rounded border shadow-sm" style="width: 40%; height: 270px; object-fit: cover; margin-right: 20px;">
-              <div>
-                <div style="color: #27467A; font-size: 35px; padding: 10px 0px;" class="fw-bold">${entry.name}</div>
-                <small class="mb-5" style="color: #333; font-size: 26px;">${entry.subject}</small>
-                <p style="font-size: 20px; padding-bottom: 10px; font-weight: 800; border-radius: 15px;">${entry.year}</p>
-                <p style="font-size: 20px; padding: 5px 20px; background-color: #FF9A1E; color: #27467A; font-weight: 800; border-radius: 15px;">${entry.text}</p>
-              </div>
-            </div>
-          `;
-                      contentStars.appendChild(item);
-
-                      const dot = document.createElement("button");
-                      dot.type = "button";
-                      dot.setAttribute("data-bs-target", "#carouselAchieveStars");
-                      dot.setAttribute("data-bs-slide-to", i);
-                      dot.setAttribute("aria-label", `Slide ${i + 1}`);
-                      dot.style.backgroundColor = "#023e8a";
-                      if (i === 0) {
-                        dot.className = "active";
-                        dot.setAttribute("aria-current", "true");
-                      }
-                      indicatorsStars.appendChild(dot);
-                    });
-                  }
-
-                  // Year filter button logic
-                  yearStarButtons.forEach(btn => {
-                    btn.addEventListener("click", () => {
-                      yearStarButtons.forEach(b => b.classList.remove("active"));
-                      btn.classList.add("active");
-                      showCarouselSlides(btn.getAttribute("data-year"));
-                    });
-                  });
-
-                  // Default view
-                  showCarouselSlides("2024");
-                </script>
-
-
-              </div>
-
-            </div>
-
-          </div>
-
-
-          <!--End Section-->
-        </div>
-
-        <div class="container">
-
-
-          <div>
-            <div>
-              <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies (Bos)</span></h2>
-
-              <div class="table-responsive">
-                <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                  <thead class="text-white" style="background-color: #27467a">
-                    <tr>
-                      <th class="text-white">#</th>
-                      <th class="text-white">Position in D-BoS</th>
-                      <th class="text-white">Name and Designation</th>
-                    </tr>
-                  </thead>
-                  <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                    <tr>
-                      <td>1</td>
-                      <td>Convener (Ex-Officio)- Head of the Department</td>
-                      <td>Dr. Susmita Hazarika, Associate Professor, History</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>
-                        All Faculty members of the Department Members (Ex-Officio)
-                      </td>
-                      <td>
-                        Prof. Sajal Nag, Distinguished Professor of History Mr. Mukesh
-                        Kalita
-                        <hr />
-                        Prof. Shiela Bora, Advisor, Dept. of History
-                        <hr />
-                        Dr. Mitali Kalita, Assistant Professor, History
-                        <hr />
-                        Dr. Saikhom Ronel Singh Assistant Professor, History
-                        <hr />
-                        Ms. Tanzim Masud Assistant Professor, History
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>External Expert (Academic)</td>
-                      <td>
-                        KM Sudha
-                        <hr />
-                        Ms. Shalaka Pravinkumar Bhandare
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committe (DRC)</span></h2>
-
-              <div class="table-responsive">
-                <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                  <thead class="text-white" style="background-color: #27467a">
-                    <tr>
-                      <th class="text-white">#</th>
-                      <th class="text-white">Content</th>
-                      <th class="text-white">Name of the Member</th>
-                      <th class="text-white">Designation</th>
-                      <th class="text-white">Designation in the committee</th>
-                    </tr>
-                  </thead>
-                  <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                    <tr>
-                      <td>1.</td>
-                      <td>Head of the Department</td>
-                      <td>Prof. Sajal Nag</td>
-                      <td>Dean, RSHSS;<br />Distinguished Professor of History</td>
-                      <td>Chairperson</td>
-                    </tr>
-                    <tr>
-                      <td>2.</td>
-                      <td>Two Professors</td>
-                      <td>Prof. Shiela Bora</td>
-                      <td>Advisor, Dept. of History</td>
-                      <td>Member</td>
-                    </tr>
-                    <tr>
-                      <td>3.</td>
-                      <td>
-                        Two Associate Professors – one of them will be the member
-                        secretary
-                      </td>
-                      <td>Dr. Susmita Hazarika</td>
-                      <td>Associate Professor, Dept. of History</td>
-                      <td>Member Secretary</td>
-                    </tr>
-                    <tr>
-                      <td rowspan="2">4.</td>
-                      <td rowspan="2" class="align-middle">
-                        Two Assistant Professors holding Ph.D. degree
-                      </td>
-                      <td>Dr. Saikhom Ronel Singh</td>
-                      <td>Asst. Professor, Dept. of History</td>
-                      <td>Member</td>
-                    </tr>
-                    <tr>
-                      <td>Dr. Susmita Banerjee</td>
-                      <td>Asst. Professor, Dept. of History</td>
-                      <td>Member</td>
-                    </tr>
-                    <tr>
-                      <td rowspan="3">5.</td>
-                      <td rowspan="3" class="align-middle">
-                        Three external members not below the rank of Professors,
-                        including members from an allied department, who will be
-                        nominated by the URC
-                      </td>
-                      <td>Prof. Gautam Majumdar</td>
-                      <td>Professor, Dept. of Economics</td>
-                      <td>External Member</td>
-                    </tr>
-                    <tr>
-                      <td>Prof. Tushti Sharma</td>
-                      <td>HOD, Dept. of English, RSL</td>
-                      <td>External Member</td>
-                    </tr>
-                    <tr>
-                      <td>Prof. Ankur Ganguly</td>
-                      <td>Dean of Academics, RGU</td>
-                      <td>External Member</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-              Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
-
-            <div class="p-2">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="accordion para1" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;"
-                          type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                          aria-controls="collapseOne">
-                          <strong>
-                            Under Graduate
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <div class="row">
-                            <a href="mobile-assets/department-all/dept-history/syllabus-pdf/course-structure.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i> Course Structure
-                              <i class="fa fa-download"></i>
-                            </a>
-                            <a href="mobile-assets/department-all/dept-history/syllabus-pdf/syllabus-ug.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i> Syllabus - BA History
-                              <i class="fa fa-download"></i>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;"
-                          type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                          aria-controls="collapseTwo">
-                          <strong>
-                            Post Graduate
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <div class="row">
-                            <a href="mobile-assets/department-all/dept-history/syllabus-pdf/syllabus-pg.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i> Syllabus - MA History
-                              <i class="fa fa-download"></i>
-                            </a>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;"
-                          type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                          aria-controls="collapseThree"><strong>
-                            Doctoral Programme
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <a href="phd" class="para1" target="_blank">
-                            <strong>Click to View...
-                            </strong>
-                          </a>
-                        </div>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row">
+                        <a href="mobile-assets/department-all/dept-history/syllabus-pdf/course-structure.pdf"
+                          target="_blank">
+                          <i class="fa fa-file-text px-2"></i> Course Structure
+                          <i class="fa fa-download"></i>
+                        </a>
+                        <a href="mobile-assets/department-all/dept-history/syllabus-pdf/syllabus-ug.pdf"
+                          target="_blank">
+                          <i class="fa fa-file-text px-2"></i> Syllabus - BA History
+                          <i class="fa fa-download"></i>
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6"></div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                      aria-controls="collapseTwo">
+                      <strong>
+                        Post Graduate
+                      </strong>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row">
+                        <a href="mobile-assets/department-all/dept-history/syllabus-pdf/syllabus-pg.pdf"
+                          target="_blank">
+                          <i class="fa fa-file-text px-2"></i> Syllabus - MA History
+                          <i class="fa fa-download"></i>
+                        </a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #24477f; color: #fff;"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                      aria-controls="collapseThree"><strong>
+                        Doctoral Programme
+                      </strong>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <a href="phd" class="para1" target="_blank">
+                        <strong>Click to View...
+                        </strong>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+            <div class="col-lg-6"></div>
           </div>
-
         </div>
+      </div>
+
+    </div>
 
       </div>
 @endsection
