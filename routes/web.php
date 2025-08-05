@@ -3045,6 +3045,10 @@ Route::get('/royal-global-universitys-21-day-deeksharambh-induction-programme-in
     return view('frontend/media-corner/news28');
 })->name('royal-global-universitys-21-day-deeksharambh-induction-programme-inaugurated');
 
+Route::get('/renowned-actor-ravi-sharma-interacts-with-freshers-at-royal-global-university', function () {
+    return view('frontend/media-corner/news29');
+})->name('renowned-actor-ravi-sharma-interacts-with-freshers-at-royal-global-university');
+
 
 //IKS Faculty Profile
 

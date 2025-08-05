@@ -1132,7 +1132,23 @@
                             <div style="height: 600px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
                                     <div class="row">
+
                                         <div class="row bg-light p-2 rounded ">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 150px;" src="mobile-assets/media-corner/news29/3.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1.2;" class="pt-2 m-0 fw-bold">Renowned Actor Ravi Sharma Interacts with Freshers at Royal Global University</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 5, 2025
+                                                </p>
+                                                <a href="renowned-actor-ravi-sharma-interacts-with-freshers-at-royal-global-university">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 150px;" src="mobile-assets/media-corner/news28/i1.jpg" alt="" />
                                             </div>
@@ -1163,21 +1179,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px;" src="mobile-assets/media-corner/news26/1.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1.2;" class="pt-2 m-0 fw-bold">Union Education Minister Dharmendra Pradhan to Grace RGU’s 5th Convocation</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 25, 2025
-                                                </p>
-                                                <a
-                                                    href="union-education-minister-dharmendra-pradhan-to-grace-rgus-5th-convocation">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
 
 
                                     </div>
