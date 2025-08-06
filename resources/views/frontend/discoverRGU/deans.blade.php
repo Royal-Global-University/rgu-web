@@ -370,7 +370,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;" src="mobile-assets/all-faculty/rsa/1.jpeg"
                                     class="img-fluid rounded border" />
@@ -388,16 +388,16 @@
                                 </ul>
 
 
-                                <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                    </a> -->
+                                <a href="faculty-hari-prasad-agarwal" style="position: absolute; bottom: 20px;">
+                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Anuradhadevi-RSAPS.png"
@@ -419,7 +419,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Prof-George-AP-RSB.png"
@@ -444,7 +444,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;" src="mobile-assets/all-faculty/rsbas/surajit.jpeg"
                                     class="img-fluid rounded border" />
@@ -557,7 +557,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 630px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/all-faculty/rset/diganta-munshi.jpeg"
@@ -575,16 +575,16 @@
                                     <li>• Dean, Royal School of Information Technology</li>
                                 </ul>
 
-                                <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                        <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                    </a> -->
+                               <a href="faculty-diganta-munshi" style="position: absolute; bottom: 20px;">
+                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 630px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/all-faculty/rsla/Prof-Bhuban-Ch-Barooah.jpeg"
@@ -609,7 +609,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 630px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/all-faculty/rslsc/nikhilkumar.jpeg"
@@ -634,7 +634,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 630px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
                                     src="mobile-assets/all-faculty/rsl/dr-indrani-singh-rai.jpg"
@@ -658,7 +658,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;" src="mobile-assets/all-faculty/rsmas/Abhijit.jpg"
                                     class="img-fluid rounded border" />
