@@ -1140,7 +1140,7 @@
                                                 <img class="rounded" style="height: 140px;" src="mobile-assets/media-corner/news29/3.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1.2;" class="pt-2 m-0 fw-bold">Renowned Actor Ravi Sharma Interacts with Freshers at Royal Global University</p>
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1;" class="pt-2 m-0 fw-bold">Renowned Actor Ravi Sharma Interacts with Freshers at Royal Global University</p>
                                                 <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 5, 2025
                                                 </p>
                                                 <a href="renowned-actor-ravi-sharma-interacts-with-freshers-at-royal-global-university">
@@ -1155,7 +1155,7 @@
                                                 <img class="rounded" style="height: 150px;" src="mobile-assets/media-corner/news28/i1.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1.2;" class="pt-2 m-0 fw-bold">Royal Global University’s 21-day Deeksharambh Induction Programme Inaugurated</p>
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1;" class="pt-2 m-0 fw-bold">Royal Global University’s 21-day Deeksharambh Induction Programme Inaugurated</p>
                                                 <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 30, 2025
                                                 </p>
                                                 <a
@@ -1170,7 +1170,7 @@
                                                 <img class="rounded" style="height: 150px; width: 100%" src="mobile-assets/media-corner/news27/1.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1.2;" class="pt-2 m-0 fw-bold">Develop Assam’s Typography: Rupee Symbol Designer Dr. Dharmalingam urges students
+                                                <p style="color: #27467A; font-size: 19px; line-height: 1;" class="pt-2 m-0 fw-bold">Develop Assam’s Typography: Rupee Symbol Designer Dr. Dharmalingam urges students
                                                 </p>
                                                 <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 28, 2025
                                                 </p>
