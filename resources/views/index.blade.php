@@ -1137,6 +1137,23 @@
 
                                         <div class="row bg-light p-2 rounded ">
                                             <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%" src="mobile-assets/media-corner/news30/inda.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-size: 19px; line-height: 1;" class="pt-2 m-0 fw-bold">RGU Student Awarded Funding Grant by CERN, Geneva
+                                                </p>
+                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 28, 2025
+                                                </p>
+                                                <a
+                                                    href="rgu-student-awarded-funding-grant-by-cern-geneva">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-3">
+                                            <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px;" src="mobile-assets/media-corner/news29/3.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
@@ -1165,21 +1182,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%" src="mobile-assets/media-corner/news27/1.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1;" class="pt-2 m-0 fw-bold">Develop Assam’s Typography: Rupee Symbol Designer Dr. Dharmalingam urges students
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 28, 2025
-                                                </p>
-                                                <a href="indian-rupee-symbol-creator-interacts-with-design-and-architecture-students-at-royal-global-university">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
 
 
 

@@ -3049,6 +3049,10 @@ Route::get('/renowned-actor-ravi-sharma-interacts-with-freshers-at-royal-global-
     return view('frontend/media-corner/news29');
 })->name('renowned-actor-ravi-sharma-interacts-with-freshers-at-royal-global-university');
 
+Route::get('/rgu-student-awarded-funding-grant-by-cern-geneva', function () {
+    return view('frontend/media-corner/news30');
+})->name('rgu-student-awarded-funding-grant-by-cern-geneva');
+
 
 //IKS Faculty Profile
 
