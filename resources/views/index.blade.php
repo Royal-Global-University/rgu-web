@@ -1137,7 +1137,7 @@
 
                                         <div class="row bg-light p-2 rounded ">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 140px;" src="mobile-assets/media-corner/news29/3.jpg" alt="" />
+                                                <img class="rounded" style="height: 130px;" src="mobile-assets/media-corner/news29/3.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1;" class="pt-2 m-0 fw-bold">Renowned Actor Ravi Sharma Interacts with Freshers at Royal Global University</p>
@@ -1152,7 +1152,7 @@
 
                                         <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px;" src="mobile-assets/media-corner/news28/i1.jpg" alt="" />
+                                                <img class="rounded" style="height: 130px;" src="mobile-assets/media-corner/news28/i1.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1;" class="pt-2 m-0 fw-bold">Royal Global University’s 21-day Deeksharambh Induction Programme Inaugurated</p>
@@ -1167,7 +1167,7 @@
                                         </div>
                                         <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px; width: 100%" src="mobile-assets/media-corner/news27/1.jpg" alt="" />
+                                                <img class="rounded" style="height: 130px; width: 100%" src="mobile-assets/media-corner/news27/1.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-size: 19px; line-height: 1;" class="pt-2 m-0 fw-bold">Develop Assam’s Typography: Rupee Symbol Designer Dr. Dharmalingam urges students
