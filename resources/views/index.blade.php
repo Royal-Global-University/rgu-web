@@ -1139,17 +1139,32 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
 
-                                        <div class="row bg-light p-2 rounded ">
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;" src="mobile-assets/media-corner/news31/1.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1;" class="pt-2 m-0 fw-bold">RGU Students Gain Learning Exposure at INTI International University, Malaysia</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 8, 2025
+                                                </p>
+                                                <a href="/rgu-students-gain-learning-exposure-at-inti-international-university">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%" src="mobile-assets/media-corner/news30/inda.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-size: 19px; line-height: 1;" class="pt-2 m-0 fw-bold">RGU Student Awarded Funding Grant by CERN, Geneva
                                                 </p>
-                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 28, 2025
+                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 5, 2025
                                                 </p>
                                                 <a
-                                                    href="rgu-student-awarded-funding-grant-by-cern-geneva">
+                                                    href="/rgu-student-awarded-funding-grant-by-cern-geneva">
                                                     <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
@@ -1164,30 +1179,12 @@
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1;" class="pt-2 m-0 fw-bold">Renowned Actor Ravi Sharma Interacts with Freshers at Royal Global University</p>
                                                 <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 5, 2025
                                                 </p>
-                                                <a href="renowned-actor-ravi-sharma-interacts-with-freshers-at-royal-global-university">
+                                                <a href="/renowned-actor-ravi-sharma-interacts-with-freshers-at-royal-global-university">
                                                     <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
                                         </div>
-
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px;" src="mobile-assets/media-corner/news28/i1.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1;" class="pt-2 m-0 fw-bold">Royal Global University’s 21-day Deeksharambh Induction Programme Inaugurated</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 30, 2025
-                                                </p>
-                                                <a
-                                                    href="royal-global-universitys-21-day-deeksharambh-induction-programme-inaugurated">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-
 
 
 

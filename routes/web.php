@@ -3053,6 +3053,10 @@ Route::get('/rgu-student-awarded-funding-grant-by-cern-geneva', function () {
     return view('frontend/media-corner/news30');
 })->name('rgu-student-awarded-funding-grant-by-cern-geneva');
 
+Route::get('/rgu-students-gain-learning-exposure-at-inti-international-university', function () {
+    return view('frontend/media-corner/news31');
+})->name('rgu-students-gain-learning-exposure-at-inti-international-university');
+
 
 //IKS Faculty Profile
 
