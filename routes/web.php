@@ -3085,6 +3085,10 @@ Route::get('/faculty-tinku', function () {
 })->name('faculty-tinku');
 
 //RSAG Faculty Profile
+Route::get('/faculty-supriyo-sen', function () {
+    return view('frontend/facultyprofile/rsa/supriyo-sen-rsa');
+})->name('faculty-supriyo-sen');
+
 Route::get('/faculty-Mehjabin-Rahman', function () {
     return view('frontend/facultyprofile/rsag/Mehjabin-Rahman');
 })->name('faculty-Mehjabin-Rahman');
