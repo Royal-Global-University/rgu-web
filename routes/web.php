@@ -3965,6 +3965,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 
 //RSHSS Facuilty Profile
 
+Route::get('/faculty-suhail-ahmed', function () {
+    return view('frontend/facultyprofile/rshss/suhail-ahmed');
+})->name('faculty-suhail-ahmed');
+
 Route::get('/faculty-dhiraj-kumar-borkotoky', function () {
     return view('frontend/facultyprofile/rshss/dhiraj-kumar-borkotoky');
 })->name('faculty-dhiraj-kumar-borkotoky');
