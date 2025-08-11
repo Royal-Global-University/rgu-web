@@ -1139,7 +1139,22 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
 
-                                        <div class="row bg-light p-2 rounded">
+                                        <div class="row bg-light p-2 rounded ">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;" src="mobile-assets/media-corner/news32/1.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1;" class="pt-2 m-0 fw-bold">Royal Global University to Confer Honorary D.Sc. Degree upon Dr. Trehan</p>
+                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 9, 2025
+                                                </p>
+                                                <a href="/royal-global-university-to-confer-honorary-dsc-degree-upon-dr-trehan">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;" src="mobile-assets/media-corner/news31/1.jpg" alt="" />
                                             </div>
@@ -1170,24 +1185,6 @@
                                                 </a>
                                             </div>
                                         </div>
-
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px;" src="mobile-assets/media-corner/news29/3.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1;" class="pt-2 m-0 fw-bold">Renowned Actor Ravi Sharma Interacts with Freshers at Royal Global University</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 5, 2025
-                                                </p>
-                                                <a href="/renowned-actor-ravi-sharma-interacts-with-freshers-at-royal-global-university">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-
-
                                     </div>
                                 </div>
                                 <div style="text-align:center; margin-top:20px;">

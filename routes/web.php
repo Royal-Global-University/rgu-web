@@ -3057,6 +3057,10 @@ Route::get('/rgu-students-gain-learning-exposure-at-inti-international-universit
     return view('frontend/media-corner/news31');
 })->name('rgu-students-gain-learning-exposure-at-inti-international-university');
 
+Route::get('/royal-global-university-to-confer-honorary-dsc-degree-upon-dr-trehan', function () {
+    return view('frontend/media-corner/news32');
+})->name('royal-global-university-to-confer-honorary-dsc-degree-upon-dr-trehan');
+
 
 //IKS Faculty Profile
 
