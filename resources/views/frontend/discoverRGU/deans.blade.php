@@ -179,17 +179,16 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Prof-B-S-Mipun-RSEES.png"
+                                    src="mobile-assets/updated-faculty-img/Debendra-Kumar-Nayak.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1"
                                 style="position: relative; padding-bottom: 50px;">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. B.S. Mipun
+                                    Prof. Debendra Kumar Nayak
                                 </h5>
                                 <ul class="para1 pb-3" style="color: #27467A; font-size: 16px; line-height: 1.4;">
-                                    <li>• Professor & Dean, Royal School of Environmental & Earth Sciences</li>
-                                    <li>• Dean, Student Welfare</li>
+                                    <li>Professor & Dean, Royal School of Environmental & Earth Sciences</li>
                                 </ul>
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">
@@ -535,17 +534,16 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
                             <div class="p-3">
                                 <img style="height: 290px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Prof-B-S-Mipun-RSEES.png"
+                                    src="mobile-assets/updated-faculty-img/Debendra-Kumar-Nayak.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1"
                                 style="position: relative; padding-bottom: 50px;">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. B.S. Mipun
+                                    Prof. Debendra Kumar Nayak
                                 </h5>
                                 <ul class="para1" style="color: #27467A; font-size: 16px; line-height: 1.4;">
-                                    <li>• Professor & Dean, Royal School of Environmental & Earth Sciences</li>
-                                    <li>• Dean, Student Welfare</li>
+                                    <li>Professor & Dean, Royal School of Environmental & Earth Sciences</li>
                                 </ul>
 
                                 <!-- <a href="" style="position: absolute; bottom: 20px;">

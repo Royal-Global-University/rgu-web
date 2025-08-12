@@ -3789,6 +3789,10 @@ Route::get('/faculty-syed-sajidul-islam', function () {
 
 //RSBAS Faculty Profile
 
+Route::get('/Prof-dn-singh', function () {
+    return view('frontend/facultyprofile/rsb/dn-singh');
+})->name('/Prof-dn-singh');
+
 Route::get('/bachaspatimayum-deeparani-devi', function () {
     return view('frontend/facultyprofile/rsbas/bachaspatimayum-deeparani-devi');
 })->name('bachaspatimayum-deeparani-devi');
