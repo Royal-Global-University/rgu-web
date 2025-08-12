@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'SYNTHESIS-2025: Innovative Creations Showcased by RGU Fashion Design & Technology Graduates',
+                            'summary' => '',
+                            'date' => 'Guwahati, August 12, 2025:',
+                            'link' => 'synthesis-2025-innovative-creations-showcased-by-rgu-fashion-design-and-technology-graduates',
+                            'image' => 'mobile-assets/media-corner/news33/1.jpg',
+                            'content' => 'The Royal School of Fashion Design and Technology at the Assam Royal Global University (RGU) today presented SYNTHESIS-2025, a celebration of creativity, innovation, and the inspiring design journey of its graduating students from the batch of 2021–2025.',
+                        ],
+                        [
                             'title' => 'Royal Global University to Confer Honorary D.Sc. Degree upon Dr. Trehan',
                             'summary' => '',
                             'date' => 'Guwahati, August 09, 2025:',
@@ -69,8 +77,8 @@
                             'link' => 'rgu-student-awarded-funding-grant-by-cern-geneva',
                             'image' => 'mobile-assets/media-corner/news30/Zahid Mamud.jpg',
                             'content' => 'Zahid Mamud, an MSc Physics student at The Assam Royal Global University (RGU), has been awarded a prestigious funding
-                                                                                                                grant by CERN—the European Organization for Nuclear Research, one of the world’s leading centres for scientific
-                                                                                                                research..',
+                                                                                                                                                    grant by CERN—the European Organization for Nuclear Research, one of the world’s leading centres for scientific
+                                                                                                                                                    research..',
                         ],
                         [
                             'title' => ' Renowned Actor Ravi Sharma Interacts with Freshers at Royal Global University',
@@ -103,7 +111,7 @@
                             'link' => 'union-education-minister-dharmendra-pradhan-to-grace-rgus-5th-convocation',
                             'image' => 'mobile-assets/media-corner/news26/1.jpg',
                             'content' => 'In a significant development for The Assam Royal Global University (RGU), Dr. A. K. Pansari, Chancellor of RGU, met Shri
-                                                                                                                                                                                                                                                                                        Dharmendra Pradhan, Hon’ble Union Minister of Education, Government of India, in New Delhi yesterday.',
+                                                                                                                                                                                                                                                                                                                            Dharmendra Pradhan, Hon’ble Union Minister of Education, Government of India, in New Delhi yesterday.',
                         ],
                         [
                             'title' => 'RGU Signs MoU with Indira Gandhi National Centre for the Arts (IGNCA), an Autonomous Trust of Ministry of Culture, Govt.of India',
@@ -128,8 +136,8 @@
                             'link' => 'a-living-call-to-memory-the-bhupen-hazarika-museum-beckons',
                             'image' => 'mobile-assets/media-corner/news23/1.avif',
                             'content' => 'As Assam and the world mark the birth centenary of Sudhakantha Dr. Bhupen Hazarika, the Dr. Bhupen Hazarika Centre for
-                                                                                                                                                                                                                                                                                                                                                                                                                            Creativity at the Assam Royal Global University (RGU) is crafting a tribute not of marble and silence, but of memory,
-                                                                                                                                                                                                                                                                                                                                                                                                                            melody, and meaning. Speaking about the initiative, Shamim Goney, Deputy Registrar (Administration) at RGU, said, “Our museum will not be a static display of artefacts.',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                Creativity at the Assam Royal Global University (RGU) is crafting a tribute not of marble and silence, but of memory,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                melody, and meaning. Speaking about the initiative, Shamim Goney, Deputy Registrar (Administration) at RGU, said, “Our museum will not be a static display of artefacts.',
                         ],
                         [
                             'title' => ' RGU Outreach: Awareness on Conservation of Salamander Habitat',
@@ -146,8 +154,8 @@
                             'link' => 'rgu-offers-scholarship-opportunities-for-wards-of-police-personnel-of-8-ne-states',
                             'image' => 'mobile-assets/rgu-blog/blog2.jpeg',
                             'content' => 'To promote quality access to higher education and honour the service and sacrifices of the personnel of the force, the
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Assam Royal Global University (RGU) has launched two distinct categories of academic scholarships for the benefit of
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            eligible dependents and wards of Police personnel belonging to all the eight Northeastern states.',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Assam Royal Global University (RGU) has launched two distinct categories of academic scholarships for the benefit of
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                eligible dependents and wards of Police personnel belonging to all the eight Northeastern states.',
                         ],
                         [
                             'title' => 'Zimbabwe Education Delegation Explores Collaboration with Royal Global University',
@@ -292,7 +300,7 @@
                             'link' => '129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance',
                             'image' => 'mobile-assets/media-corner/news3/headimg.jpg',
                             'content' => 'With its continued effort to foster academic excellence and reward outstanding student performance, The Assam Royal Global University (RGU) yesterday organised a Monthly Scholarship award ceremony to honour the exemplary students who qualified for the Semester Topper Scholarship for the Odd Semester Examination 2024–25.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ',
                         ],
                         [
                             'title' => 'RGU Celebrates Commendation Day for Placed Graduating Students',

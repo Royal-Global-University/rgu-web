@@ -3061,6 +3061,10 @@ Route::get('/royal-global-university-to-confer-honorary-dsc-degree-upon-dr-treha
     return view('frontend/media-corner/news32');
 })->name('royal-global-university-to-confer-honorary-dsc-degree-upon-dr-trehan');
 
+Route::get('/synthesis-2025-innovative-creations-showcased-by-rgu-fashion-design-and-technology-graduates', function () {
+    return view('frontend/media-corner/news33');
+})->name('synthesis-2025-innovative-creations-showcased-by-rgu-fashion-design-and-technology-graduates');
+
 
 //IKS Faculty Profile
 

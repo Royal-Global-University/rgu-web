@@ -1138,8 +1138,24 @@
                             <div style="height: 600px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
                                     <div class="row">
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%" src="mobile-assets/media-corner/news33/1.jpg"
+                                                    alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-size: 19px; line-height: 1;" class="pt-2 m-0 fw-bold">Innovative Creations Showcased by RGU Fashion Design & Technology Graduates
+                                                </p>
+                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 12, 2025
+                                                </p>
+                                                <a href="/synthesis-2025-innovative-creations-showcased-by-rgu-fashion-design-and-technology-graduates">
+                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
 
-                                        <div class="row bg-light p-2 rounded ">
+                                        <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;" src="mobile-assets/media-corner/news32/1.jpg" alt="" />
                                             </div>
@@ -1169,22 +1185,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%" src="mobile-assets/media-corner/news30/inda.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1;" class="pt-2 m-0 fw-bold">RGU Student Awarded Funding Grant by CERN, Geneva
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 5, 2025
-                                                </p>
-                                                <a
-                                                    href="/rgu-student-awarded-funding-grant-by-cern-geneva">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                                 <div style="text-align:center; margin-top:20px;">
