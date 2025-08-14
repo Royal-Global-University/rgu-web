@@ -1,4 +1,8 @@
 @extends('frontend.master')
+@section('title', 'Royal Global University to Confer Honorary D.Sc. Degree upon Dr. Trehan')
+@section('meta_description', 'The Assam Royal Global University (RGU) will confer the Honorary Doctor of Science Degree (D.Sc.) Honoris Causa upon Dr.
+Naresh Trehan...')
+@section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
 
