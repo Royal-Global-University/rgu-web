@@ -34,26 +34,26 @@
         <!-- Floating Section with Frosted Background -->
         <div class="container">
             <div class="floating-wrapper" style="
-                                        position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-                                        width: 90%; max-width: 400px; z-index: 800;
-                                        backdrop-filter: blur(30px);
-                                        background: #27467A; /* Frosty effect */
-                                        border-radius: 10px;
-                                        box-shadow: 0 1px 1px #ffffff97;
-                                        border: 1px solid #27467A;
-                                        padding: 15px;">
+                                            position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+                                            width: 90%; max-width: 400px; z-index: 800;
+                                            backdrop-filter: blur(30px);
+                                            background: #27467A; /* Frosty effect */
+                                            border-radius: 10px;
+                                            box-shadow: 0 1px 1px #ffffff97;
+                                            border: 1px solid #27467A;
+                                            padding: 15px;">
 
                 <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
                     <span class="mobile-para1" style="
-                                                font-weight: bold; font-size: 18px; line-height: 1.3;
-                                                color: #fff; flex-grow: 1;">
+                                                    font-weight: bold; font-size: 18px; line-height: 1.3;
+                                                    color: #fff; flex-grow: 1;">
                         Admission open for 2025 - 2026
                     </span>
 
                     <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
-                                                background-color: #ffb300; color: #fff;
-                                                font-weight: bold; padding: 10px 14px; border-radius: 5px;
-                                                text-decoration: none; white-space: nowrap;">
+                                                    background-color: #ffb300; color: #fff;
+                                                    font-weight: bold; padding: 10px 14px; border-radius: 5px;
+                                                    text-decoration: none; white-space: nowrap;">
                         Apply Now
                     </a>
                 </div>
@@ -804,7 +804,7 @@
                                 <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
                                     alt="Video Thumbnail"
                                     style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
-                                                                                        z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
+                                                                                            z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
                             </div> --}}
                             <div class="video-container" style="position: relative; width: 100%; height: auto;">
                                 <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
@@ -861,8 +861,8 @@
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                     <img src="mobile-assets/deekshara/new/14.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                        <img src="mobile-assets/deekshara/new/15.jpeg"
-                                            style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/15.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                     <img src="mobile-assets/deekshara/new/17.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                     <img src="mobile-assets/deekshara/new/18.jpeg"
@@ -1035,8 +1035,8 @@
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
                                     <img class="zoomable" src="mobile-assets/events/stu-1.png"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                        <img class="zoomable" src="mobile-assets/events/stu2.png"
-                                            style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="mobile-assets/events/stu2.png"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="mobile-assets/events/model.jpeg"
@@ -1140,18 +1140,22 @@
                             <div style="height: 600px; overflow: hidden; position: relative;">
                                 <div class="p-0 rounded">
                                     <div class="row">
+
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%" src="mobile-assets/media-corner/news33/1.jpg"
-                                                    alt="" />
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news34/1.JPG" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1;" class="pt-2 m-0 fw-bold">Innovative Creations Showcased by RGU Fashion Design & Technology Graduates
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1;"
+                                                    class="pt-2 m-0 fw-bold">Apply Critical Thinking and Creativity for a Successful Living: IITG Director Prof. Jalihal to students of RGU</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">August 14, 2025
                                                 </p>
-                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 12, 2025
-                                                </p>
-                                                <a href="/synthesis-2025-innovative-creations-showcased-by-rgu-fashion-design-and-technology-graduates">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                <a
+                                                    href="/apply-critical-thinking-and-creativity-for-a-successful-living-iitg-director-prof-jalihal-to-students-of-rgu">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
@@ -1159,14 +1163,21 @@
 
                                         <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;" src="mobile-assets/media-corner/news32/1.jpg" alt="" />
+                                                <img class="rounded" style="height: 130px; width: 100%"
+                                                    src="mobile-assets/media-corner/news33/1.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1;" class="pt-2 m-0 fw-bold">Royal Global University to Confer Honorary D.Sc. Degree upon Dr. Trehan</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 9, 2025
+                                                <p style="color: #27467A; font-size: 19px; line-height: 1;"
+                                                    class="pt-2 m-0 fw-bold">Innovative Creations Showcased by RGU Fashion
+                                                    Design & Technology Graduates
                                                 </p>
-                                                <a href="/royal-global-university-to-confer-honorary-dsc-degree-upon-dr-trehan">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                <p class="pt-1 pt-2 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">August 12, 2025
+                                                </p>
+                                                <a
+                                                    href="/synthesis-2025-innovative-creations-showcased-by-rgu-fashion-design-and-technology-graduates">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
@@ -1174,20 +1185,24 @@
 
                                         <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;" src="mobile-assets/media-corner/news31/1.jpg" alt="" />
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news32/1.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1;" class="pt-2 m-0 fw-bold">RGU Students Gain Learning Exposure at INTI International University, Malaysia</p>
-                                                <p class="pt-1 p-0 m-0" style="font-size: 16px; color: black; line-height: 1.4;">August 8, 2025
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1;"
+                                                    class="pt-2 m-0 fw-bold">Royal Global University to Confer Honorary
+                                                    D.Sc. Degree upon Dr. Trehan</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">August 9, 2025
                                                 </p>
-                                                <a href="/rgu-students-gain-learning-exposure-at-inti-international-university">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                <a
+                                                    href="/royal-global-university-to-confer-honorary-dsc-degree-upon-dr-trehan">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
                                                 </a>
                                             </div>
                                         </div>
-
-
                                     </div>
                                 </div>
                                 <div style="text-align:center; margin-top:20px;">
@@ -1368,8 +1383,8 @@
 
         <!--campus life-->
         <section class=" elementor-section elementor-top-section elementor-element elementor-element-f03cf62
-                                                        elementor-section-full_width elementor-section-height-default
-                                                        elementor-section-height-default" data-id="f03cf62"
+                                                            elementor-section-full_width elementor-section-height-default
+                                                            elementor-section-height-default" data-id="f03cf62"
             data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-no">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bd58a9"
@@ -1387,12 +1402,12 @@
                                         <div class="kd-course-1-scn-title">
                                             <div class="left">
                                                 <!-- <h6
-                                                                                        class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
-                                                                                        <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
-                                                                                            alt="">
+                                                                                            class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
+                                                                                            <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
+                                                                                                alt="">
 
-                                                                                        RGU Campus
-                                                                                    </h6> -->
+                                                                                            RGU Campus
+                                                                                        </h6> -->
                                                 <h1 style="color: #FF9A1E; font-weight: 800;"
                                                     class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text has-clr-white headd1 ">
                                                     Our Campus Life</h1>
@@ -1565,20 +1580,20 @@
                                                         </div>
 
                                                         <!-- <div class="kd-course-3-tabs-content-action text-center">
-                                                                                                <h5
-                                                                                                    class="kd-heading-1 kd-font-700 has-clr-white action-link">
-                                                                                                    get your quality skills certificate from RGU</h5>
-                                                                                                <a href="#" aria-label="name"
-                                                                                                    class="kd-pr-btn-1 text-uppercase">
-                                                                                                    <span class="text" data-back="get started now"
-                                                                                                        data-front="get started now"></span>
-                                                                                                </a>
-                                                                                            </div> -->
+                                                                                                    <h5
+                                                                                                        class="kd-heading-1 kd-font-700 has-clr-white action-link">
+                                                                                                        get your quality skills certificate from RGU</h5>
+                                                                                                    <a href="#" aria-label="name"
+                                                                                                        class="kd-pr-btn-1 text-uppercase">
+                                                                                                        <span class="text" data-back="get started now"
+                                                                                                            data-front="get started now"></span>
+                                                                                                    </a>
+                                                                                                </div> -->
                                                         <!-- <div class="kd-course-3-tabs-content-il-1">
-                                                                                                <img decoding="async"
-                                                                                                    src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
-                                                                                                    alt="">
-                                                                                            </div> -->
+                                                                                                    <img decoding="async"
+                                                                                                        src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
+                                                                                                        alt="">
+                                                                                                </div> -->
 
                                                     </div>
 
@@ -1832,11 +1847,11 @@
                                 <div class="elementor-widget-container">
                                     <div class="prthalign">
                                         <!-- <h6 class="kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub"
-                                                                            style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
-                                                                                <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
+                                                                                style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
+                                                                                    <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
 
-                                                                                RGU Programmes
-                                                                            </h6> -->
+                                                                                    RGU Programmes
+                                                                                </h6> -->
                                         <h1 class="headd1 pb-4" style="color: #27467A; font-size: 50px; font-weight: 800;">
                                             Explore Our
                                             <span style="font-weight: 800; color: #EF991F;">Courses</span>
@@ -1954,8 +1969,8 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                    students</span> -->
+                                                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                                                        students</span> -->
                                                                 </div>
 
                                                                 <div class="card-content">
@@ -1984,8 +1999,8 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                    students</span> -->
+                                                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                                                        students</span> -->
 
                                                                 </div>
 
@@ -2016,7 +2031,7 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                <span class="item-student kd-heading-1">34,000 -->
+                                                                                                                    <span class="item-student kd-heading-1">34,000 -->
                                                                     students</span>
 
                                                                 </div>

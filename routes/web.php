@@ -3065,6 +3065,9 @@ Route::get('/synthesis-2025-innovative-creations-showcased-by-rgu-fashion-design
     return view('frontend/media-corner/news33');
 })->name('synthesis-2025-innovative-creations-showcased-by-rgu-fashion-design-and-technology-graduates');
 
+Route::get('/apply-critical-thinking-and-creativity-for-a-successful-living-iitg-director-prof-jalihal-to-students-of-rgu', function () {
+    return view('frontend/media-corner/news34');
+})->name('apply-critical-thinking-and-creativity-for-a-successful-living-iitg-director-prof-jalihal-to-students-of-rgu');
 
 //IKS Faculty Profile
 
