@@ -643,73 +643,31 @@
             <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
               Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
-            <div class="p-2">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="accordion mobile-para1" id="accordionExample">
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" style="background-color: #264273; color: #fff;"
-                          type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                          aria-controls="collapseOne"><strong>
+            <div class="accordion-item">
+                <h1 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed p-3" style="background-color: #264273; color: #fff;" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                        aria-controls="collapseOne"><strong>
                             Under Graduate
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <div class="row">
-                            <a href="mobile-assets/department-all/dept-arch/arch-pdf/structure-b.arch.pdf" target="_blank">
-                              <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Arch
-                              <i class="fa fa-download"></i>
+                        </strong>
+                    </button>
+                </h1>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <a href="mobile-assets/department-all/dept-arch/updated-syllabus/structure-b.arch.pdf" target="_blank">
+                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Arch
+                                <i class="fa fa-download"></i>
                             </a>
-                            <a href="mobile-assets/department-all/syllabus-new/2_RSA/Structure of syllabus - UG B.Arch 2025.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Arch
-                              <i class="fa fa-download"></i>
+                            <a href="mobile-assets/department-all/dept-arch/updated-syllabus/detailed-syllabus.pdf" target="_blank">
+                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Arch
+                                <i class="fa fa-download"></i>
                             </a>
-                            <!-- <a
-                                    href="mobile-assets/department-all/Departmentalpdf/Old Syllabus B.ARCH.pdf"
-                                    target="_blank"
-                                  >
-                                    <i class="fa fa-file-text px-2"></i> Old Syllabus B.ARCH.pdf
-                                    <i class="fa fa-download"></i>
-                                  </a> -->
-                          </div>
+
                         </div>
-                      </div>
                     </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" style="background-color: #264273; color: #fff;"
-                          type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                          aria-controls="collapseTwo"><strong>
-                            Doctoral Programme
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <div class="row">
-                            <a href="phd" target="_blank">
-                              <i class="fa fa-file-text px-2"></i> Click Here...
-
-                            </a>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-
-                  </div>
                 </div>
-                <div class="col-lg-6"></div>
-              </div>
             </div>
           </div>
 

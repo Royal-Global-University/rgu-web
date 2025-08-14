@@ -634,93 +634,7 @@
                 </div>
 
                 <div>
-                    <div>
-                        <h2 class="headd3 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                            The Departmental Research <span style="color: #FF9A1E; font-weight: 500;">Committee (DRC)</span>
-                        </h2>
-
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <th class="text-white">#</th>
-                                    <th class="text-white">Content</th>
-                                    <th class="text-white">Name of the Member</th>
-                                    <th class="text-white">Designation</th>
-                                    <th class="text-white">Designation in the committee</th>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Head of the Department Chairperson</td>
-                                        <td>Dr. Devika Phukan</td>
-                                        <td>Associate Professor</td>
-                                        <td>Chairperson</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Two Professors</td>
-                                        <td>Prof. (Dr. ) Amarendra Rajput</td>
-                                        <td>Professor, Dept. of Physics</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">3</td>
-                                        <td rowspan="2" class="align-middle">
-                                            Two Associate Professors – one of them will be the member
-                                            secretary
-                                        </td>
-                                        <td>Dr. Sujata Deb</td>
-                                        <td>Associate Professor, Dept. of Physics</td>
-                                        <td>Member secretary</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Sankar Barman</td>
-                                        <td>Associate Professor, Dept. of Physics</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">4</td>
-                                        <td rowspan="2" class="align-middle">
-                                            Two Assistant Professors holding Ph.D. degree
-                                        </td>
-                                        <td>Dr. Gitanjal Deka</td>
-                                        <td>Assistant professor, Dept. of Physics</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Bornali Chetia</td>
-                                        <td>Assistant professor, Dept. of Physics</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="3">5</td>
-                                        <td rowspan="3" class="align-middle">
-                                            Three external members not below the rank of Professors,
-                                            including members from an allied department, who will be
-                                            nominated by the URC
-                                        </td>
-                                        <td>Prof. (Dr.) Ankur Ganguly</td>
-                                        <td>Dean, Academics, Dean (i/c), RSET/RSIT</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof.(Dr.) Anuradha Devi</td>
-                                        <td>Dean, RSAPS</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Rita Choudhury</td>
-                                        <td>Professor, Dept. Of Mathematics</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                         Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
                     <div class="p-2">
@@ -729,73 +643,69 @@
                                 <div class="accordion para1" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne"><strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><strong>
                                                     Under Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a href="mobile-assets/department-all/syllabus-new/1RSAPS/Physics/Course Structure and Syllabus UG Physics.pdf"
+                                                <a href="mobile-assets/department-all/dept-physics/updated-syllabus/structure-ug.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> COURSE STRUCTURE & SYLLABUS (BASED
-                                                    ON NATIONAL
-                                                    EDUCATION POLICY 2020)
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - UG
                                                     <i class="fa fa-download"></i>
                                                 </a>
                                                 <br />
 
-                                                <a href="mobile-assets/department-all/syllabus-new/1RSAPS/Physics/Structure of syllabus - UG_PHYSICS.pdf"
+                                                <a href="mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-ug.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 4
-                                                    YEAR UG
-                                                    PROGRAMME
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus - UG
                                                     <i class="fa fa-download"></i> </a><br />
-                                                <!-- <a
-                                                href="mobile-assets/department-all/Departmentalpdf/Old Syllabus B.Sc. Physics.pdf"
-                                                target="_blank"
-                                              >
-                                                <i class="fa fa-file-text px-2"></i> Old Syllabus B.Sc.
-                                                Physics.pdf
-                                                <i class="fa fa-download"></i>
-                                              </a> -->
+
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                <strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>
                                                     Post Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a
-                                                    href="mobile-assets/department-all/syllabus-new/1RSAPS/Physics/Structure of syllabus - PG_PHYSICS.pdf">
-                                                    STRUCTURE OF THE SYLLABUS FOR 2 YEAR PG PROGRAMME
-                                                    <i class="fa fa-download"></i></a>
+                                                <a href="mobile-assets/department-all/dept-physics/updated-syllabus/structure-pg.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - PG
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+                                                <br />
+
+                                                <a href="mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-pg.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus - PG
+                                                    <i class="fa fa-download"></i> </a><br />
+
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree"><strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree"><strong>
                                                     Doctoral Programme
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <a href="phd" class="para1" target="_blank">
                                                     <strong>
@@ -1531,96 +1441,94 @@
                     </div>
                 </div>
 
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+            <div>
+                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
-                    <div class="p-2">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne"><strong>
-                                                    Under Graduate
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <a href="mobile-assets/department-all/syllabus-new/1RSAPS/Physics/Course Structure and Syllabus UG Physics.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> COURSE STRUCTURE & SYLLABUS (BASED
-                                                    ON NATIONAL EDUCATION POLICY 2020)
-                                                    <i class="fa fa-download"></i>
-                                                </a>
-                                                <br />
+                <div class="p-2">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="accordion para1" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><strong>
+                                                Under Graduate
+                                            </strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <a href="mobile-assets/department-all/dept-physics/updated-syllabus/structure-ug.pdf"
+                                                target="_blank">
+                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus - UG
+                                                <i class="fa fa-download"></i>
+                                            </a>
+                                            <br />
 
-                                                <a href="mobile-assets/department-all/syllabus-new/1RSAPS/Physics/Structure of syllabus - UG_PHYSICS.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 4
-                                                    YEAR UG PROGRAMME
-                                                    <i class="fa fa-download"></i> </a><br />
-                                                <!-- <a
-                                    href="mobile-assets/department-all/Departmentalpdf/Old Syllabus B.Sc. Physics.pdf"
-                                    target="_blank"
-                                  >
-                                    <i class="fa fa-file-text px-2"></i> Old Syllabus B.Sc.
-                                    Physics.pdf
-                                    <i class="fa fa-download"></i>
-                                  </a> -->
-                                            </div>
+                                            <a href="mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-ug.pdf"
+                                                target="_blank">
+                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus - UG
+                                                <i class="fa fa-download"></i> </a><br />
+
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>
+                                                Post Graduate
+                                            </strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <a href="mobile-assets/department-all/dept-physics/updated-syllabus/structure-pg.pdf"
+                                                target="_blank">
+                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus - PG
+                                                <i class="fa fa-download"></i>
+                                            </a>
+                                            <br />
+
+                                            <a href="mobile-assets/department-all/dept-physics/updated-syllabus/detailed-syllabus-pg.pdf"
+                                                target="_blank">
+                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus - PG
+                                                <i class="fa fa-download"></i> </a><br />
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree"><strong>
+                                                Doctoral Programme
+                                            </strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <a href="phd" class="para1" target="_blank">
                                                 <strong>
-                                                    Post Graduate
+                                                    Click to View...
                                                 </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <a
-                                                    href="mobile-assets/department-all/syllabus-new/1RSAPS/Physics/Structure of syllabus - PG_PHYSICS.pdf">
-                                                    STRUCTURE OF THE SYLLABUS FOR 2 YEAR PG PROGRAMME
-                                                    <i class="fa fa-download"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree"><strong>
-                                                    Doctoral Programme
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <a href="phd" class="para1" target="_blank">
-                                                    <strong>
-                                                        Click to View...
-                                                    </strong>
-                                                </a>
-                                            </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6"></div>
                         </div>
+                        <div class="col-lg-6"></div>
                     </div>
                 </div>
+            </div>
             </div>
 
             <!--End Section-->

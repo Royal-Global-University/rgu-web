@@ -1,4 +1,9 @@
 @extends('frontend.master')
+@section('title', 'SYNTHESIS-2025: Innovative Creations Showcased by RGU Fashion Design & Technology Graduates')
+@section('meta_description', 'The Royal School of Fashion Design and Technology at the Assam Royal Global University (RGU) today presented
+    SYNTHESIS-2025, a celebration of creativity, innovation, and the inspiring design journey of its graduating students
+from the batch of 2021–2025.')
+@section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
 

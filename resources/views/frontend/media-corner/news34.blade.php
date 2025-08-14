@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Apply Critical Thinking and Creativity for a Successful Living: IITG Director Prof. Jalihal to students of RGU')
+@section('meta_description', 'IIT Guwahati Director Prof. D. Jalihal Address Students at Royal Global University')
+@section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
 

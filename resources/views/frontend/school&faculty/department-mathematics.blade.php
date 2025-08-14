@@ -1390,102 +1390,95 @@
           </div>
 
 
-          <div>
+        <div>
             <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-              Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+                Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
             <div class="p-2">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="accordion para1" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" style="background-color: #264273; color: #fff;"
-                          type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                          aria-controls="collapseOne"><strong>
-                            Under Graduate
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <div class="row">
-                            <a href="mobile-assets/department-all/dept-mathematics/syllabus-pdf/structure-UG-mathematics.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i>
-                              Structure of Syllabus - UG Mathematics
-                              <i class="fa fa-download"></i>
-                            </a>
-                            <a href="mobile-assets/department-all/dept-mathematics/syllabus-pdf/syllabus-UG-mathematics.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i>
-                              Detailed Syllabus - UG Mathematics
-                              <i class="fa fa-download"></i>
-                            </a>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="accordion para1" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" style="background-color: #264273; color: #fff;"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="false" aria-controls="collapseOne"><strong>
+                                            Under Graduate
+                                        </strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <a href="mobile-assets/department-all/dept-mathematics/updated-syllabus/structure-of-syllabus.pdf"
+                                                target="_blank">
+                                                <i class="fa fa-file-text px-2"></i>
+                                                Structure of Syllabus
+                                                <i class="fa fa-download"></i>
+                                            </a>
+                                            <a href="mobile-assets/department-all/dept-mathematics/updated-syllabus/detailed-syllabus-ug.pdf"
+                                                target="_blank">
+                                                <i class="fa fa-file-text px-2"></i>
+                                                Detailed Syllabus - UG Mathematics
+                                                <i class="fa fa-download"></i>
+                                            </a>
 
-                            <!-- <a
-                         href="assets/Departmentalpdf/AY-2021-22 B.Sc Mathematics and computing.pdf"
-                         target="_blank"
-                       >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" style="background-color: #264273; color: #fff;"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        <strong>
+                                            Post Graduate
+                                        </strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <a href="mobile-assets/department-all/dept-mathematics/updated-syllabus/detailed-syllabus-pg.pdf"
+                                                target="_blank">
+                                                <i class="fa fa-file-text px-2"></i>
+                                                Detailed Syllabus - PG Mathematics
+                                                <i class="fa fa-download"></i>
+                                            </a>
 
-                       </a> -->
-
-                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" style="background-color: #264273; color: #fff;"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree"><strong>
+                                            Doctoral Programme
+                                        </strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="phd" class="para1" target="_blank">
+                                            <strong>
+                                                Click to View...
+                                            </strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" style="background-color: #264273; color: #fff;"
-                          type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                          aria-controls="collapseTwo">
-                          <strong>
-                            Post Graduate
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <div class="row">
-                            <a href="mobile-assets/department-all/dept-mathematics/syllabus-pdf/structure-UG-mathematics.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i>
-                              Structure of Syllabus - PG Mathematics
-                              <i class="fa fa-download"></i>
-                            </a>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" style="background-color: #264273; color: #fff;"
-                          type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                          aria-controls="collapseThree"><strong>
-                            Doctoral Programme
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <a href="phd" class="para1" target="_blank">
-                            <strong>
-                              Click to View...
-                            </strong>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                    <div class="col-lg-6"></div>
                 </div>
-                <div class="col-lg-6"></div>
-              </div>
             </div>
-          </div>
+        </div>
 
         </div>
 
