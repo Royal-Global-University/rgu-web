@@ -140,7 +140,8 @@
                                     Associate Professor & HOD
                                 </p>
                                 <a href="faculty-lopa-das">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -183,7 +184,8 @@
                                     Associate Professor
                                 </p>
                                 <a href="faculty-somyata-c-satpathy-sarma">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -206,7 +208,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-dikshita-rabha">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -229,7 +232,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -273,7 +277,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-phurailatpam-jeny-sharma">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -296,7 +301,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-rohit-sarma">
-                                    <p class="card-text para1 half-underline fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline fw-bold" style="color: #FF9A1E;">View Profile
+                                    </p>
                                 </a>
                             </div>
                         </div>
@@ -319,7 +325,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-trishna-kakati">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -555,7 +562,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Rupesh-Kumar-RSBSC.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Rupesh-Kumar-RSBSC.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -629,7 +637,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-elizabeth">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
 
                             </div>
@@ -822,7 +831,8 @@
                                     Professor,<br> The Assam Royal Global University
                                 </p>
                                 <a href="faculty-dr-charulata-mahanta">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile
                                     </p>
                                 </a>
                             </div>
@@ -897,7 +907,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Jon-Jyoti-Kalita.png" class="img-fluid rounded border" />
+                                    src="mobile-assets/updated-faculty-img/Jon-Jyoti-Kalita.png"
+                                    class="img-fluid rounded border" />
                             </div>
 
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -917,7 +928,8 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Pankaj-Jha-RSBSC.png" class="img-fluid rounded border" />
+                                    src="mobile-assets/updated-faculty-img/Pankaj-Jha-RSBSC.png"
+                                    class="img-fluid rounded border" />
                             </div>
 
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -978,7 +990,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dipanjali-Das.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dipanjali-Das.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -1143,7 +1156,8 @@
                                     Associate Professor & HOD
                                 </p>
                                 <a href="faculty-lopa-das">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -1166,7 +1180,8 @@
                                     Associate Professor
                                 </p>
                                 <a href="faculty-dr-madhusmita-koch">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -1188,7 +1203,8 @@
                                     Associate Professor
                                 </p>
                                 <a href="faculty-somyata-c-satpathy-sarma">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -1211,7 +1227,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-dikshita-rabha">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -1234,7 +1251,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-kangkana-goswami">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -1257,7 +1275,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-madhumita-das">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -1280,7 +1299,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-phurailatpam-jeny-sharma">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -1303,7 +1323,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-rohit-sarma">
-                                    <p class="card-text para1 half-underline fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline fw-bold" style="color: #FF9A1E;">View Profile
+                                    </p>
                                 </a>
                             </div>
                         </div>
@@ -1326,7 +1347,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-trishna-kakati">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -1581,7 +1603,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Rupesh-Kumar-RSBSC.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Rupesh-Kumar-RSBSC.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1654,7 +1677,8 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-elizabeth">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -1827,35 +1851,222 @@
 
                 <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
+                    <div class="col-lg-3 mb-4">
 
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Charu.jpg"
+                                    class="img-fluid rounded border" />
+                            </div>
+
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Prof. Charu Lata Mahanta
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Professor
+                                </p>
+                                <a href="faculty-dr-charulata-mahanta">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
                                         <div class="col-lg-3 mb-4">
 
                                             <div class="card rounded d-flex flex-column"
-                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                                                 <div class="p-3">
-                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Charu.jpg"
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Pranati-Das-RSBSC.png"
                                                         class="img-fluid rounded border" />
                                                 </div>
 
                                                 <div class="card-body d-flex flex-column flex-grow-1">
                                                     <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                                        Dr. Charu Lata Mahanta
+                                                        Prof. Pranati Das
                                                     </h5>
                                                     <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                                        Professor,<br> The Assam Royal Global University
+                                                        Professor
                                                     </p>
-                                                    <a href="faculty-dr-charulata-mahanta">
-                                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile
-                                                        </p>
-                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
+
+                                                            <div class="col-lg-3 mb-4">
+
+                                                                <div class="card rounded d-flex flex-column"
+                                                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                                                                    <div class="p-3">
+                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/no-pic.png"
+                                                                            class="img-fluid rounded border" />
+                                                                    </div>
+
+                                                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                                            Dr. Debjani Das
+                                                                        </h5>
+                                                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                                            Assistant Professor
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-lg-3 mb-4">
+
+                                                                <div class="card rounded d-flex flex-column"
+                                                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                                                                    <div class="p-3">
+                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Jon-Jyoti-Kalita.png"
+                                                                            class="img-fluid rounded border" />
+                                                                    </div>
+
+                                                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                                            Dr. Jon Jyoti Kalita
+                                                                        </h5>
+                                                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                                            Assistant Professor
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-lg-3 mb-4">
+
+                                                                <div class="card rounded d-flex flex-column"
+                                                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                                                                    <div class="p-3">
+                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Pankaj-Jha-RSBSC.png"
+                                                                            class="img-fluid rounded border" />
+                                                                    </div>
+
+                                                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                                            Dr. Pankaj Jha
+                                                                        </h5>
+                                                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                                            Assistant Professor
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-lg-3 mb-4">
+
+                                                                <div class="card rounded d-flex flex-column"
+                                                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                                                                    <div class="p-3">
+                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/no-pic.png"
+                                                                            class="img-fluid rounded border" />
+                                                                    </div>
+
+                                                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                                            Dr. Priyanka Bhattacharya
+                                                                        </h5>
+                                                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                                            Assistant Professor
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Preetisagar-Talukdar.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Preetisagar Talukdar
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor and Coordinator
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Robbarts-Nongmaithem.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Robbarts Nongmaithem
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Shagufta-Rizwana-RSBSC.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Shagufta Rizwana
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dipanjali-Das.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Ms. Dipanjali Das
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                                         <div class="col-lg-3 mb-4">
 
                                             <div class="card rounded d-flex flex-column"
-                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                                                 <div class="p-3">
                                                     <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Jebin-Sultana-RSMAS.png"
                                                         class="img-fluid rounded border" />
@@ -1868,146 +2079,6 @@
                                                         Assistant Professor & Coordinator
                                                     </p>
 
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 mb-4">
-
-                                            <div class="card rounded d-flex flex-column"
-                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                                                <div class="p-3">
-                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Pranati-Das-RSBSC.png"
-                                                        class="img-fluid rounded border" />
-                                                </div>
-
-                                                <div class="card-body d-flex flex-column flex-grow-1">
-                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                                        Prof. Pranati Das
-                                                    </h5>
-                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                                        Professor,<br> The Assam Royal Global University
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 mb-4">
-
-                                            <div class="card rounded d-flex flex-column"
-                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                                                <div class="p-3">
-                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Preetisagar-Talukdar.png"
-                                                        class="img-fluid rounded border" />
-                                                </div>
-
-                                                <div class="card-body d-flex flex-column flex-grow-1">
-                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                                        Dr. Preetisagar Talukdar
-                                                    </h5>
-                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                                        Assistant Professor and Coordinator,<br> The Assam Royal Global University
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 mb-4">
-
-                                            <div class="card rounded d-flex flex-column"
-                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                                                <div class="p-3">
-                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Jon-Jyoti-Kalita.png"
-                                                        class="img-fluid rounded border" />
-                                                </div>
-
-                                                <div class="card-body d-flex flex-column flex-grow-1">
-                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                                        Dr. Jon Jyoti Kalita
-                                                    </h5>
-                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                                        Assistant Professor,<br> The Assam Royal Global University
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 mb-4">
-
-                                            <div class="card rounded d-flex flex-column"
-                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
-                                                <div class="p-3">
-                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Pankaj-Jha-RSBSC.png"
-                                                        class="img-fluid rounded border" />
-                                                </div>
-
-                                                <div class="card-body d-flex flex-column flex-grow-1">
-                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                                        Dr. Pankaj Jha
-                                                    </h5>
-                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                                        Assistant Professor,<br> The Assam Royal Global University
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 mb-4">
-
-                                            <div class="card rounded d-flex flex-column"
-                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
-                                                <div class="p-3">
-                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Robbarts-Nongmaithem.png"
-                                                        class="img-fluid rounded border" />
-                                                </div>
-
-                                                <div class="card-body d-flex flex-column flex-grow-1">
-                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                                        Dr. Robbarts Nongmaithem
-                                                    </h5>
-                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                                        Assistant Professor,<br> The Assam Royal Global University
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 mb-4">
-
-                                            <div class="card rounded d-flex flex-column"
-                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
-                                                <div class="p-3">
-                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Shagufta-Rizwana-RSBSC.png"
-                                                        class="img-fluid rounded border" />
-                                                </div>
-
-                                                <div class="card-body d-flex flex-column flex-grow-1">
-                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                                        Dr. Shagufta Rizwana
-                                                    </h5>
-                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                                        Assistant Professor,<br> The Assam Royal Global University
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 mb-4">
-
-                                            <div class="card rounded d-flex flex-column"
-                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
-                                                <div class="p-3">
-                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dipanjali-Das.png"
-                                                        class="img-fluid rounded border" />
-                                                </div>
-
-                                                <div class="card-body d-flex flex-column flex-grow-1">
-                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                                        Ms. Dipanjali Das
-                                                    </h5>
-                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                                        Assistant Professor,<br> The Assam Royal Global University
-                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
