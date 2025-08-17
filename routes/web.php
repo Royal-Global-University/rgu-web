@@ -3069,6 +3069,10 @@ Route::get('/apply-critical-thinking-and-creativity-for-a-successful-living-iitg
     return view('frontend/media-corner/news34');
 })->name('apply-critical-thinking-and-creativity-for-a-successful-living-iitg-director-prof-jalihal-to-students-of-rgu');
 
+Route::get('/royal-global-university-celebrates-79th-independence-day', function () {
+    return view('frontend/media-corner/news35');
+})->name('royal-global-university-celebrates-79th-independence-day');
+
 //IKS Faculty Profile
 
 Route::get('/faculty-monalisha-medhi', function () {
