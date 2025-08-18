@@ -51,7 +51,7 @@
                         'summary' => 'Technological Sovereignty of India must be celebrated along with the Political Sovereignty: RGU Vice Chancellor',
                         'date' => 'Guwahati, August 16, 2025:',
                         'link' => 'royal-global-university-celebrates-79th-independence-day',
-                        'image' => 'mobile-assets/media-corner/news35/1.JPG',
+                        'image' => 'mobile-assets/media-corner/news35/1.jpg',
                         'content' => 'Entire campus of The Assam Royal Global University (RGU) bloomed with the tri-colour and the spirit of all grew high with patriotic speeches, music and dance celebrating the 79th Independence Day of the country in a grand and exemplary manner.',
                     ],
                                         [
