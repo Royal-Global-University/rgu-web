@@ -637,351 +637,307 @@
 
             </div>
 
-            <div class="pt-2 pb-4">
-                <div
-                    style=" display: flex; align-items: center; justify-content: center; height: 80px; background-color: #27467A; color: #fff;">
-                    <h5 class=" text-center text-white fw-bold ">
-                        Department of Political Science
-                    </h5>
-                </div>
-            </div>
-
-            <div style="padding: 20px 35px;">
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/shalini.jpeg" class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. Shalini Saxena
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor
-                                </p>
-                                <a href="faculty-shalini-saxena">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
+                        <div class="pt-4 pb-4">
+                            <div
+                                style=" display: flex; align-items: center; justify-content: center; height: 60px; background-color: #27467A; color: #fff; margin-right: 40%; border-radius: 0px 60px 60px 0px;">
+                                <h4 class=" text-white fw-bold ">
+                                    Department of Political Science & Public Administration
+                                </h4>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-3 mb-4">
+                        <div style="padding: 20px 70px;">
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/monojit-singha-pol-sc.jpeg"
-                                    class="img-fluid rounded border" />
+                            <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Meenu-RSHSS.png"
+                                                class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Prof. Meenu
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Professor
+                                            </p>
+                                            <a href="faculty-meenu">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/shalini.jpeg"
+                                                class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Prof. Shalini Saxena
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Professor
+                                            </p>
+                                            <a href="faculty-shalini-saxena">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;"
+                                                src="mobile-assets/updated-faculty-img/monojit-singha-pol-sc.jpeg"
+                                                class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Dr. Y. Monojit Singha
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Assistant Professor & Coordinator, Political Science & Administrative Service
+                                            </p>
+                                            <a href="faculty-monojit-singha">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;"
+                                                src="mobile-assets/updated-faculty-img/Dhiraj-Kumar-Borkotoky.jpg"
+                                                class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Dr. Dhiraj Kumar Borkotoky
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Associate Professor
+                                            </p>
+                                            <a href="faculty-dhiraj-kumar-borkotoky">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;"
+                                                src="mobile-assets/updated-faculty-img/Baba-Chandra-Singha.jpg"
+                                                class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Dr. Baba Chandra Singha
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Assistant Professor
+                                            </p>
+                                            <a href="faculty-babachandra-singha">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;"
+                                                src="mobile-assets/updated-faculty-img/Krishangi-Saikia.png" class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Dr. Krishangi Saikia
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Assistant Professor
+                                            </p>
+                                            <a href="faculty-krishangi-saikia">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;"
+                                                src="mobile-assets/updated-faculty-img/Dr-Monika-Kumari-RSHSS.png"
+                                                class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Dr. Monika Kumari
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Assistant Professor
+                                            </p>
+                                            <a href="faculty-monika-kumari">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;"
+                                                src="mobile-assets/updated-faculty-img/Dr-Sushmita-Nongmeikapam.png"
+                                                class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Dr. Sushmita Nongmeikapam
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Assistant Professor
+                                            </p>
+                                            <a href="faculty-sushmita-hoshi-nongmeikapam">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;"
+                                                src="mobile-assets/updated-faculty-img/Abhinav-Chaliha-RSHSS.png"
+                                                class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Mr. Abhinav Chaliha
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Assistant Professor
+                                            </p>
+                                            <a href="faculty-abhinav-chaliha">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;"
+                                                src="mobile-assets/updated-faculty-img/Monisha-Bordoloi-RSHSS.png"
+                                                class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Ms. Monisha Bordoloi
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Assistant Professor
+                                            </p>
+                                            <a href="faculty-monisha-bordoloi">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;"
+                                                src="mobile-assets/updated-faculty-img/Tanjeela-Mehboob-RSHSS.png"
+                                                class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Ms. Tanjeela Mehboob
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Assistant Professor
+                                            </p>
+                                            <a href="faculty-tanjeela-mehboob">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 mb-4">
+
+                                    <div class="card rounded d-flex flex-column"
+                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                                        <div class="p-3">
+                                            <img style="height: 310px; width: 100%;"
+                                                src="mobile-assets/updated-faculty-img/Ms-Nikita-Biswakarma-RSHSS.png"
+                                                class="img-fluid rounded border" />
+                                        </div>
+                                        <div class="card-body d-flex flex-column flex-grow-1">
+                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                Ms. Nikita Biswakarma
+                                            </h5>
+                                            <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                Teaching Assistant
+                                            </p>
+                                            <a href="faculty-nikita-biswakarma">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Y. Monojit Singha
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor & Coordinator, Political Science & Administrative Service
-                                </p>
-                                <a href="faculty-monojit-singha">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
+
                         </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dhiraj-Kumar-Borkotoky.jpg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Dhiraj Kumar Borkotoky
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Associate Professor
-                                </p>
-                                <a href="faculty-dhiraj-kumar-borkotoky">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Baba-Chandra-Singha.jpg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Baba Chandra Singha
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-babachandra-singha">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Krishangi-Saikia.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Krishangi Saikia
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-krishangi-saikia">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Sushmita-Nongmeikapam.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Sushmita Nongmeikapam
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-sushmita-hoshi-nongmeikapam">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Abhinav-Chaliha-RSHSS.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Mr. Abhinav Chaliha
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-abhinav-chaliha">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Monisha-Bordoloi-RSHSS.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Ms. Monisha Bordoloi
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-monisha-bordoloi">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Tanjeela-Mehboob-RSHSS.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Ms. Tanjeela Mehboob
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-tanjeela-mehboob">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="pt-2 pb-4">
-                <div
-                    style=" display: flex; align-items: center; justify-content: center; height: 80px; background-color: #27467A; color: #fff;">
-                    <h5 class=" text-center text-white fw-bold ">
-                        Department of Public Administration
-                    </h5>
-                </div>
-            </div>
-
-
-            <div style="padding: 20px 35px;">
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Meenu-RSHSS.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. Meenu
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor
-                                </p>
-                                <a href="faculty-meenu">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/shalini.jpeg" class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. Shalini Saxena
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor
-                                </p>
-                                <a href="faculty-shalini-saxena">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Monika-Kumari-RSHSS.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Monika Kumari
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-monika-kumari">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Ms-Nikita-Biswakarma-RSHSS.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Ms. Nikita Biswakarma
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Teaching Assistant
-                                </p>
-                                <a href="faculty-nikita-biswakarma">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
 
             <div class="pt-2 pb-4">
                 <div
@@ -2169,9 +2125,9 @@
 
             <div class="pt-4 pb-4">
                 <div
-                    style=" display: flex; align-items: center; justify-content: center; height: 60px; background-color: #27467A; color: #fff; margin-right: 60%; border-radius: 0px 60px 60px 0px;">
+                    style=" display: flex; align-items: center; justify-content: center; height: 60px; background-color: #27467A; color: #fff; margin-right: 40%; border-radius: 0px 60px 60px 0px;">
                     <h4 class=" text-white fw-bold ">
-                        Department of Political Science
+                        Department of Political Science & Public Administration
                     </h4>
                 </div>
             </div>
@@ -2179,6 +2135,29 @@
             <div style="padding: 20px 70px;">
 
                 <div class="row" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Meenu-RSHSS.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Prof. Meenu
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Professor
+                                </p>
+                                <a href="faculty-meenu">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 mb-4">
 
@@ -2299,6 +2278,29 @@
                         </div>
                     </div>
 
+                                        <div class="col-lg-3 mb-4">
+
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Dr-Monika-Kumari-RSHSS.png"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                        Dr. Monika Kumari
+                                                    </h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Assistant Professor
+                                                    </p>
+                                                    <a href="faculty-monika-kumari">
+                                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                            Profile</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
@@ -2395,95 +2397,7 @@
                         </div>
                     </div>
 
-                </div>
-
-            </div>
-
-            <div class="pt-4 pb-4">
-                <div
-                    style=" display: flex; align-items: center; justify-content: center; height: 60px; background-color: #27467A; color: #fff; margin-right: 60%; border-radius: 0px 60px 60px 0px;">
-                    <h4 class=" text-white fw-bold ">
-                        Department of Public Administration
-                    </h4>
-                </div>
-            </div>
-
-            <div style="padding: 20px 70px;">
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Meenu-RSHSS.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. Meenu
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor
-                                </p>
-                                <a href="faculty-meenu">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/shalini.jpeg" class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. Shalini Saxena
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor
-                                </p>
-                                <a href="faculty-shalini-saxena">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Monika-Kumari-RSHSS.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Monika Kumari
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-monika-kumari">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
+                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
@@ -2506,7 +2420,6 @@
                             </div>
                         </div>
                     </div>
-
 
                 </div>
 
