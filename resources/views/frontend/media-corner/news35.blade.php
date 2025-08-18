@@ -39,7 +39,7 @@
                 with patriotic speeches, music and dance celebrating the 79th Independence Day of the country in a grand and exemplary
                 manner.
                 <br><br>
-                The National Flag was unfurled at 8:55 am in the University campus by Dr AK Pansari, Chancellor, Shri A. K. Modi,
+                The National Flag was hoisted at 8:55 am in the University campus by Dr AK Pansari, Chancellor, Shri A. K. Modi,
                 Pro-Chancellor and Prof. AK Buragohain, Vice Chancellor of the University. The NCC cadets of RGU presented the guard of
                 honour. Flag hoist was followed by the National Anthem and a patriotic speech delivered by the RGU Vice Chancellor. This
                 was followed by the badge conferring ceremony of the NCC cadets by K. M. Sudha.
