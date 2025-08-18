@@ -189,6 +189,27 @@
                         </div>
                     </div>
 
+                                        <div class="col-lg-3 mb-4">
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Anju-Das-RSP.png"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                        Dr. Anju Das
+                                                    </h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Assistant Professor
+                                                    </p>
+                                                    <a href="faculty-anju-das">
+                                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
@@ -210,6 +231,46 @@
                             </div>
                         </div>
                     </div>
+
+                                        <div class="col-lg-3 mb-4">
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Kamal-Deka-RSP.png"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                        Dr. Kamal Deka
+                                                    </h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Assistant Professor
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 mb-4">
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;"
+                                                        src="mobile-assets/updated-faculty-img/Dr-Moidul-Islam-Judder-RSP.png"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                        Dr. Moidul Islam Judder
+                                                    </h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Assistant Professor
+                                                    </p>
+                                                    <a href="moidul-islam">
+                                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
@@ -268,28 +329,6 @@
                                     Assistant Professor
                                 </p>
                                 <a href="faculty-aitilaris">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Anju-Das-RSP.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Anju Das
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-anju-das">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
                                 </a>
                             </div>
@@ -367,25 +406,6 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Kamal-Deka-RSP.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Kamal Deka
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Madhusmita-Gogoi-RSP.png"
                                     class="img-fluid rounded border" />
                             </div>
@@ -425,27 +445,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Moidul-Islam-Judder-RSP.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Moidul Islam Judder
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="moidul-islam">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
@@ -591,28 +591,6 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Mr-Suman-Kumar.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Suman Kumar
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-dr-suman-kumar">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -875,6 +853,27 @@
                         </div>
                     </div>
 
+                                        <div class="col-lg-3 mb-4">
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Anju-Das-RSP.png"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                        Dr. Anju Das
+                                                    </h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Assistant Professor
+                                                    </p>
+                                                    <a href="faculty-anju-das">
+                                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
@@ -897,6 +896,46 @@
                         </div>
                     </div>
 
+                                        <div class="col-lg-3 mb-4">
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Kamal-Deka-RSP.png"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                        Dr. Kamal Deka
+                                                    </h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Assistant Professor
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 mb-4">
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;"
+                                                        src="mobile-assets/updated-faculty-img/Dr-Moidul-Islam-Judder-RSP.png"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                        Dr. Moidul Islam Judder
+                                                    </h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Assistant Professor
+                                                    </p>
+                                                    <a href="moidul-islam">
+                                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
@@ -918,6 +957,27 @@
                             </div>
                         </div>
                     </div>
+
+                                        <div class="col-lg-3 mb-4">
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mr-Suman-Kumar.png"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                        Dr. Suman Kumar
+                                                    </h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Assistant Professor
+                                                    </p>
+                                                    <a href="faculty-dr-suman-kumar">
+                                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
@@ -960,27 +1020,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Anju-Das-RSP.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Anju Das
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-anju-das">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
@@ -1048,24 +1088,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Kamal-Deka-RSP.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Kamal Deka
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
@@ -1111,27 +1134,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Moidul-Islam-Judder-RSP.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Moidul Islam Judder
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="moidul-islam">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
