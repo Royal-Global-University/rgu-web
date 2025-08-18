@@ -3379,6 +3379,10 @@ Route::get('/sumi-barman', function () {
 
 //RSLSC Faculty Profile
 
+Route::get('/faculty-romeet-saha', function () {
+    return view('frontend/facultyprofile/rslsc/romeet-saha');
+})->name('faculty-romeet-saha');
+
 Route::get('/faculty-arati-sharma', function () {
     return view('frontend/facultyprofile/rslsc/arati-sharma');
 })->name('faculty-arati-sharma');
