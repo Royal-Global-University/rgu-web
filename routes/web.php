@@ -2896,6 +2896,10 @@ Route::get('/a-complete-guide-to-studying-btech-in-guwahati', function () {
     return view('frontend/blog/a-complete-guide-to-studying-btech-in-guwahati');
 })->name('a-complete-guide-to-studying-btech-in-guwahati');
 
+Route::get('/why-royal-global-university-is-considered-the-best-university-in-guwahati', function () {
+    return view('frontend/blog/why-royal-global-university-is-considered-the-best-university-in-guwahati');
+})->name('why-royal-global-university-is-considered-the-best-university-in-guwahati');
+
 //Quick link
 Route::get('/grievance', function () {
     return view('frontend/quicklink/grievance');

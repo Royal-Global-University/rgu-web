@@ -4,8 +4,7 @@
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <img style="padding-top: 100px; position: relative;" src="mobile-assets/rgu-blog/rgu-blog-mob.png"
-                alt="" />
+            <img style="padding-top: 100px; position: relative;" src="mobile-assets/rgu-blog/rgu-blog-mob.png" alt="" />
         </div>
 
         <div class="website">
@@ -27,6 +26,14 @@
             <div id="newsContainer" class="row">
                 @php
                     $newsItems = [
+                        [
+                            'title' => 'A Complete Guide To Studying B.tech in Guwahati',
+                            'summary' => '',
+                            'date' => '',
+                            'link' => 'a-complete-guide-to-studying-btech-in-guwahati',
+                            'image' => 'mobile-assets/rgu-blog/blog1.jpeg',
+                            'content' => 'The entry point to Northeast India, Guwahati, is quickly becoming a center for top-notch higher education. As more and more reputable universities offer engineering degrees, the city is becoming a popular choice for students hoping to earn a B.Tech degree. With an emphasis on Royal Global University (RGU), we will cover all you need to know about studying B.Tech in Guwahati in this extensive guide, including specializations, the admissions process, employment opportunities...',
+                        ],
                         [
                             'title' => 'Best University in North East India',
                             'summary' => '',
@@ -57,7 +64,8 @@
                                         src="{{ asset($news['image']) }}" alt="">
                                 </div>
                                 <div class="col-12 col-md-8 ps-md-3 pt-3 pt-md-0">
-                                    <h2 class="fw-bold pb-3 pt-1" style="color: #264273; font-size: 23px;">{{ $news['title'] }}</h2>
+                                    <h2 class="fw-bold pb-3 pt-1" style="color: #264273; font-size: 23px;">{{ $news['title'] }}
+                                    </h2>
                                     @if ($news['summary'])
                                         <p class="fw-bold text-dark" style="font-size: 20px !important;">{{ $news['summary'] }}</p>
                                     @endif
