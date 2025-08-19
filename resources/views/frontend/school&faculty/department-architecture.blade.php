@@ -654,13 +654,13 @@
                 </h1>
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
+                    <div class="accordion-body pb-5">
                         <div class="row">
-                            <a href="mobile-assets/department-all/dept-arch/updated-syllabus/structure-b.arch.pdf" target="_blank">
+                            <a href="mobile-assets/department-all/dept-arch/updated-syllabus/structure-b.arch.pdf" style="font-size: 22px;" class="text-dark pt-4" target="_blank">
                                 <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Arch
                                 <i class="fa fa-download"></i>
                             </a>
-                            <a href="mobile-assets/department-all/dept-arch/updated-syllabus/detailed-syllabus.pdf" target="_blank">
+                            <a href="mobile-assets/department-all/dept-arch/updated-syllabus/detailed-syllabus.pdf" style="font-size: 22px;" class="text-dark pt-4" target="_blank">
                                 <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Arch
                                 <i class="fa fa-download"></i>
                             </a>
