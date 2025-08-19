@@ -593,7 +593,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/premmi.jpeg"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -2076,7 +2076,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/premmi.jpeg"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
