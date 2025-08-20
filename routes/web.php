@@ -3413,6 +3413,14 @@ Route::get('/faculty-sthiti-dutta', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-priyanka-bhattacharyya', function () {
+    return view('frontend/facultyprofile/rsmas/priyanka');
+})->name('faculty-priyanka-bhattacharyya');
+
+Route::get('/faculty-debjani-das', function () {
+    return view('frontend/facultyprofile/rsmas/debjani');
+})->name('faculty-debjani-das');
+
 Route::get('/faculty-dikshita-rabha', function () {
     return view('frontend/facultyprofile/rsmas/dikshita-rabha');
 })->name('faculty-dikshita-rabha');

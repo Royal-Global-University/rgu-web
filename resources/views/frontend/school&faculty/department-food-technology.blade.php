@@ -333,7 +333,7 @@
 
                 <div>
 
-                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                         Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
                     <div class="p-2">
@@ -342,28 +342,25 @@
                                 <div class="accordion para1" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne"><strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><strong>
                                                     Under Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Food Technology/Structure of syllabus - UG.pdf"
+                                                    <a href="mobile-assets/department-all/dept-food-sc-nutrition/updated-syllabus/course-structure-ug.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 4
-                                                        YEAR UG PROGRAMME
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus - Food Technology
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Food Technology/UG syllabus NEP 2020.pdf"
+                                                    <a href="mobile-assets/department-all/dept-food-sc-nutrition/updated-syllabus/detailed-syllabus-food-tech-ug.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> B.Sc. IN FOOD TECHNOLOGY (4
-                                                        YEARS SINGLE MAJOR)
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Sc. Food Technology
                                                         <i class="fa fa-download"></i>
                                                     </a>
                                                 </div>
@@ -372,51 +369,41 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                 <strong>
                                                     Post Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Food Technology/Proposed PG syllabus 2025-26 (NEP).pdf"
+                                                    <a href="mobile-assets/department-all/dept-food-sc-nutrition/updated-syllabus/detailed-syllabus-food-tech-pg.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> M.Sc. in Food Technology
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - M.Sc. Food Technology
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Food Technology/Structure of syllabus - PG.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 2
-                                                        YEAR PG PROGRAMME
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                <strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree"><strong>
                                                     Doctoral Programme
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a href="doctoral-programme.html" class="para1" target="_blank">
-                                                    <strong>
-                                                        Click to View...
-                                                    </strong></a>
+                                                <a href="phd" class="para1" target="_blank"><strong>Click to
+                                                        View...</strong></a>
                                             </div>
                                         </div>
                                     </div>
@@ -775,28 +762,25 @@
                                 <div class="accordion para1" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne"><strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><strong>
                                                     Under Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Food Technology/Structure of syllabus - UG.pdf"
+                                                    <a href="mobile-assets/department-all/dept-food-sc-nutrition/updated-syllabus/course-structure-ug.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 4
-                                                        YEAR UG PROGRAMME
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus - Food Technology
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Food Technology/UG syllabus NEP 2020.pdf"
+                                                    <a href="mobile-assets/department-all/dept-food-sc-nutrition/updated-syllabus/detailed-syllabus-food-tech-ug.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> B.Sc. IN FOOD TECHNOLOGY (4
-                                                        YEARS SINGLE MAJOR)
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Sc. Food Technology
                                                         <i class="fa fa-download"></i>
                                                     </a>
                                                 </div>
@@ -805,51 +789,41 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                 <strong>
                                                     Post Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Food Technology/Proposed PG syllabus 2025-26 (NEP).pdf"
+                                                    <a href="mobile-assets/department-all/dept-food-sc-nutrition/updated-syllabus/detailed-syllabus-food-tech-pg.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> M.Sc. in Food Technology
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - M.Sc. Food Technology
                                                         <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Food Technology/Structure of syllabus - PG.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 2
-                                                        YEAR PG PROGRAMME
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                <strong>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree"><strong>
                                                     Doctoral Programme
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a href="phd" class="para1" target="_blank">
-                                                    <strong>
-                                                        Click to View...
-                                                    </strong></a>
+                                                <a href="phd" class="para1" target="_blank"><strong>Click to
+                                                        View...</strong></a>
                                             </div>
                                         </div>
                                     </div>

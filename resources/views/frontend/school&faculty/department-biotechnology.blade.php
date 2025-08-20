@@ -429,8 +429,7 @@
                 </div>
 
                 <div>
-
-                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                         Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
                     <div class="p-2">
@@ -440,30 +439,28 @@
                                 <div class="accordion para1" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                                 <strong>
                                                     Under Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Biotechnology/STRUCTURE_BSc BIOTECHNOLOGY.pdf"
+                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/course-structure-bsc-bio-tech.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Outline of the syllabus for
-                                                        B.Sc. in Biotechnology <i class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Sc. Biotechnology
+                                                        <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Biotechnology/SYLLABUS_BSc BIOTECHNOLOGY.pdf"
+                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/detailed-syllabus-bsc-bio-tech.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE AND
-                                                        SYLLABUS FOR B.SC. IN BIOTECHNOLOGY (4 YEARS SINGLE MAJOR) <i
-                                                            class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Sc. Biotechnology
+                                                        <i class="fa fa-download"></i>
                                                     </a>
 
                                                 </div>
@@ -473,31 +470,22 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                 <strong>
                                                     Post Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Biotechnology/STRUCTURE_PG BIOTECHNOLOGY.pdf"
+                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/detailed-syllabus-msc-bio-tech.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Proposed outline of the
-                                                        syllabus for M.Sc. in Biotechnology (As per NEP 2020) <i
-                                                            class="fa fa-download"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Biotechnology/SYLLABUS_PG BIOTECHNOLOGY.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Curriculum and Credit
-                                                        Framework for Postgraduate Programmes in Biotechnology <i
-                                                            class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - M.Sc. Biotechnology
+                                                        <i class="fa fa-download"></i>
                                                     </a>
 
                                                 </div>
@@ -506,19 +494,17 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                 <strong>
                                                     Doctoral Programme
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a href="phd" class=" para1" target="_blank"><strong>Click to
-                                                        View...</strong></a>
+                                                <a href="phd" class=" para1" target="_blank"><strong>Click to View...</strong></a>
                                             </div>
                                         </div>
                                     </div>
@@ -959,7 +945,6 @@
                 </div>
 
                 <div>
-
                     <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                         Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
@@ -970,30 +955,28 @@
                                 <div class="accordion para1" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                                 <strong>
                                                     Under Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Biotechnology/STRUCTURE_BSc BIOTECHNOLOGY.pdf"
+                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/course-structure-bsc-bio-tech.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Outline of the syllabus for
-                                                        B.Sc. in Biotechnology <i class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Sc. Biotechnology
+                                                        <i class="fa fa-download"></i>
                                                     </a>
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Biotechnology/SYLLABUS_BSc BIOTECHNOLOGY.pdf"
+                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/detailed-syllabus-bsc-bio-tech.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>COURSE STRUCTURE AND
-                                                        SYLLABUS FOR B.SC. IN BIOTECHNOLOGY (4 YEARS SINGLE MAJOR) <i
-                                                            class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Sc. Biotechnology
+                                                        <i class="fa fa-download"></i>
                                                     </a>
 
                                                 </div>
@@ -1003,31 +986,22 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                 <strong>
                                                     Post Graduate
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="row">
 
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Biotechnology/STRUCTURE_PG BIOTECHNOLOGY.pdf"
+                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/detailed-syllabus-msc-bio-tech.pdf"
                                                         target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Proposed outline of the
-                                                        syllabus for M.Sc. in Biotechnology (As per NEP 2020) <i
-                                                            class="fa fa-download"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/syllabus-new/4RSBSC/Biotechnology/SYLLABUS_PG BIOTECHNOLOGY.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Curriculum and Credit
-                                                        Framework for Postgraduate Programmes in Biotechnology <i
-                                                            class="fa fa-download"></i>
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - M.Sc. Biotechnology
+                                                        <i class="fa fa-download"></i>
                                                     </a>
 
                                                 </div>
@@ -1036,19 +1010,17 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                 <strong>
                                                     Doctoral Programme
                                                 </strong>
                                             </button>
                                         </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <a href="phd" class=" para1" target="_blank"><strong>Click to
-                                                        View...</strong></a>
+                                                <a href="phd" class=" para1" target="_blank"><strong>Click to View...</strong></a>
                                             </div>
                                         </div>
                                     </div>
