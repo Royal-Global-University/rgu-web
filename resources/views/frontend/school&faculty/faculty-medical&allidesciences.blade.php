@@ -134,7 +134,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. Lopa Das
+                                    Ms. Lopa Das
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor & HOD
@@ -1150,7 +1150,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. Lopa Das
+                                    Ms. Lopa Das
                                 </h5>
                                 <p class="para1 pb-3" style="color: #27467A; line-height: 1.3;">
                                     Associate Professor & HOD
