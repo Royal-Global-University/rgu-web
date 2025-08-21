@@ -3077,6 +3077,10 @@ Route::get('/royal-global-university-celebrates-79th-independence-day', function
     return view('frontend/media-corner/news35');
 })->name('royal-global-university-celebrates-79th-independence-day');
 
+Route::get('/500-newly-admitted-students-awarded-scholarships-by-royal-global-university', function () {
+    return view('frontend/media-corner/news36');
+})->name('500-newly-admitted-students-awarded-scholarships-by-royal-global-university');
+
 //IKS Faculty Profile
 
 Route::get('/faculty-monalisha-medhi', function () {
