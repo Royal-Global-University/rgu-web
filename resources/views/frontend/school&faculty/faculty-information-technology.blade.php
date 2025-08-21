@@ -168,7 +168,7 @@
                                 Dr. Dillip Rout
                             </h5>
                             <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Associate Professor
+                                Assistant Professor
                             </p>
 
                         </div>
@@ -531,7 +531,7 @@
                                 Dr. Dillip Rout
                             </h5>
                             <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Associate Professor
+                                Assistant Professor
                             </p>
 
                         </div>
