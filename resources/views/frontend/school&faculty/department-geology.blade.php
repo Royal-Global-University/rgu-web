@@ -407,7 +407,7 @@
             </div>
 
             <div>
-                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                     Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
                 <div class="p-2">
@@ -417,7 +417,8 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            style="background-color: #27467A; color: #fff;" data-bs-target="#collapseOne"
+                                            aria-expanded="false" aria-controls="collapseOne">
                                             <strong>
                                                 Under Graduate
                                             </strong>
@@ -427,14 +428,14 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geology/Structure of syllabus - UG.pdf"
+                                                <a href="mobile-assets/department-all/rsses/geology/Course_structure_UG_Geology.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Sc. Geology
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- B.Sc. Geology
                                                     <i class="fa fa-download"></i>
                                                 </a>
-                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geology/RGU B.Sc Geology Approved Syllabus (2023 Batch) v.Feb_25.pdf"
+                                                <a href="mobile-assets/department-all/rsses/geology/B.Sc_Geology_Syllabus.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Syllabus - B.Sc. Geology
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc. Geology
                                                     <i class="fa fa-download"></i>
                                                 </a>
 
@@ -445,7 +446,8 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            style="background-color: #27467A; color: #fff;" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
                                             <strong>
                                                 Post Graduate
                                             </strong>
@@ -455,14 +457,14 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geology/Structure of syllabus - PG.pdf"
+                                                <a href="mobile-assets/department-all/rsses/geology/Course_structure_PG_Geology.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - M.Sc. Geology
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- M.Sc. Geology
                                                     <i class="fa fa-download"></i>
                                                 </a>
-                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geology/RGU M.Sc Geology Approved Syllabus v.Feb25.pdf"
+                                                <a href="mobile-assets/department-all/rsses/geology/M.Sc_Geology_Syllabus.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Syllabus - M.Sc. Geology
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Sc. Geology
                                                     <i class="fa fa-download"></i>
                                                 </a>
                                             </div>
@@ -472,8 +474,8 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree"><strong>
+                                            style="background-color: #27467A; color: #fff;" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree"><strong>
                                                 Doctoral Programme
                                             </strong>
                                         </button>
@@ -494,7 +496,7 @@
                         <div class="col-lg-6"></div>
                     </div>
                 </div>
-                </div>
+            </div>
 
         </div>
 

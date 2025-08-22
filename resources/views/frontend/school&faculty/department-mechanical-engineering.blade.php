@@ -4,69 +4,68 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-                    <!-- floating mob button  -->
-                    <div>
-                        <a href="https://admissions.rgu.ac" style="
-                                                                                                    position: fixed;
-                                                                                                    bottom: 25px;
-                                                                                                    right: 75px;
-                                                                                                    background-color: #ef991f;
-                                                                                                    color: #fff;
-                                                                                                    padding: 12px 20px;
-                                                                                                    font-size: 16px;
-                                                                                                    font-weight: bold;
-                                                                                                    text-decoration: none;
-                                                                                                    border-radius: 20px;
-                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                    z-index: 1000;
-                                                                                                    overflow: hidden;
-                                                                                                    animation: pulse 2s infinite;
-                                                                                                    ">
-                            <span style="
-                                                                                                    position: absolute;
-                                                                                                    top: 0;
-                                                                                                    left: -75%;
-                                                                                                    width: 50%;
-                                                                                                    height: 100%;
-                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                    transform: skewX(-25deg);
-                                                                                                    animation: shine 2s infinite;
-                                                                                                    "></span>
-                            Admission Open - Apply Now
-                        </a>
-                        <style>
-                            @keyframes pulse {
-                                0% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
+            <!-- floating mob button  -->
+            <div>
+                <a href="https://admissions.rgu.ac" style="
+                                                                                                            position: fixed;
+                                                                                                            bottom: 25px;
+                                                                                                            right: 75px;
+                                                                                                            background-color: #ef991f;
+                                                                                                            color: #fff;
+                                                                                                            padding: 12px 20px;
+                                                                                                            font-size: 16px;
+                                                                                                            font-weight: bold;
+                                                                                                            text-decoration: none;
+                                                                                                            border-radius: 20px;
+                                                                                                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                                                            z-index: 1000;
+                                                                                                            overflow: hidden;
+                                                                                                            animation: pulse 2s infinite;
+                                                                                                            ">
+                    <span style="
+                                                                                                            position: absolute;
+                                                                                                            top: 0;
+                                                                                                            left: -75%;
+                                                                                                            width: 50%;
+                                                                                                            height: 100%;
+                                                                                                            background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                                                            transform: skewX(-25deg);
+                                                                                                            animation: shine 2s infinite;
+                                                                                                            "></span>
+                    Admission Open - Apply Now
+                </a>
+                <style>
+                    @keyframes pulse {
+                        0% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
 
-                                50% {
-                                    transform: scale(1.05);
-                                    box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                                }
+                        50% {
+                            transform: scale(1.05);
+                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
+                        }
 
-                                100% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
-                            }
+                        100% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
+                    }
 
-                            @keyframes shine {
-                                0% {
-                                    left: -75%;
-                                }
+                    @keyframes shine {
+                        0% {
+                            left: -75%;
+                        }
 
-                                100% {
-                                    left: 125%;
-                                }
-                            }
-                        </style>
-                    </div>
-                    <!-- floating button  -->
+                        100% {
+                            left: 125%;
+                        }
+                    }
+                </style>
+            </div>
+            <!-- floating button  -->
             <img class="pb-3" style="padding-top: 80px; position: relative;"
-                src="https://media.rgu.ac/department-all/dept-mechanical/mobile-top.png"
-                alt="">
+                src="https://media.rgu.ac/department-all/dept-mechanical/mobile-top.png" alt="">
 
             <div class="container">
                 <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -122,77 +121,74 @@
 
             </div>
 
-            <img class="pb-3"
-                src="https://media.rgu.ac/department-all/dept-mechanical/mobile-btm.png"
-                alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-mechanical/mobile-btm.png" alt="">
 
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
-                    <!-- floating button  -->
-                    <div>
-                        <a href="https://admissions.rgu.ac/" style="
-                                                                                                                position: fixed;
-                                                                                                                bottom: 35px;
-                                                                                                                right: 50px;
-                                                                                                                background-color: #ef991f;
-                                                                                                                color: #fff;
-                                                                                                                padding: 12px 20px;
-                                                                                                                font-size: 18px;
-                                                                                                                font-weight: bold;
-                                                                                                                text-decoration: none;
-                                                                                                                border-radius: 20px;
-                                                                                                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                z-index: 1000;
-                                                                                                                overflow: hidden;
-                                                                                                                animation: pulse 2s infinite;
-                                                                                                                ">
-                            <span style="
-                                                                                                                position: absolute;
-                                                                                                                top: 0;
-                                                                                                                left: -75%;
-                                                                                                                width: 50%;
-                                                                                                                height: 100%;
-                                                                                                                background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                transform: skewX(-25deg);
-                                                                                                                animation: shine 2s infinite;
-                                                                                                                "></span>
-                            Admission Open - Apply Now
-                        </a>
-                        <style>
-                            @keyframes pulse {
-                                0% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
+            <!-- floating button  -->
+            <div>
+                <a href="https://admissions.rgu.ac/" style="
+                                                                                                                        position: fixed;
+                                                                                                                        bottom: 35px;
+                                                                                                                        right: 50px;
+                                                                                                                        background-color: #ef991f;
+                                                                                                                        color: #fff;
+                                                                                                                        padding: 12px 20px;
+                                                                                                                        font-size: 18px;
+                                                                                                                        font-weight: bold;
+                                                                                                                        text-decoration: none;
+                                                                                                                        border-radius: 20px;
+                                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                                                                        z-index: 1000;
+                                                                                                                        overflow: hidden;
+                                                                                                                        animation: pulse 2s infinite;
+                                                                                                                        ">
+                    <span
+                        style="
+                                                                                                                        position: absolute;
+                                                                                                                        top: 0;
+                                                                                                                        left: -75%;
+                                                                                                                        width: 50%;
+                                                                                                                        height: 100%;
+                                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                                                                        transform: skewX(-25deg);
+                                                                                                                        animation: shine 2s infinite;
+                                                                                                                        "></span>
+                    Admission Open - Apply Now
+                </a>
+                <style>
+                    @keyframes pulse {
+                        0% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
 
-                                50% {
-                                    transform: scale(1.05);
-                                    box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                                }
+                        50% {
+                            transform: scale(1.05);
+                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
+                        }
 
-                                100% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
-                            }
+                        100% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
+                    }
 
-                            @keyframes shine {
-                                0% {
-                                    left: -75%;
-                                }
+                    @keyframes shine {
+                        0% {
+                            left: -75%;
+                        }
 
-                                100% {
-                                    left: 125%;
-                                }
-                            }
-                        </style>
-                    </div>
-                    <!-- floating button  -->
-            <img class="pb-3"
-                src="https://media.rgu.ac/department-all/dept-mechanical/web-top.png"
-                alt="">
+                        100% {
+                            left: 125%;
+                        }
+                    }
+                </style>
+            </div>
+            <!-- floating button  -->
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-mechanical/web-top.png" alt="">
 
             <div class="container">
                 <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
@@ -248,9 +244,7 @@
 
             </div>
 
-            <img class="pb-3"
-                src="https://media.rgu.ac/department-all/dept-mechanical/web-btm.png"
-                alt="">
+            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-mechanical/web-btm.png" alt="">
 
         </div>
 
@@ -376,61 +370,68 @@
 
 
             <div>
-                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467a; font-weight: 900">
-                    Courses Structure
-                    <span style="color: #ff9a1e; font-weight: 500">and Syllabus</span>
-                </h2>
+
+                <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                    Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
                 <div class="p-2">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="accordion para1" id="accordionExample">
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            <strong> Under Graduate </strong>
+                                            style="background-color: #27467A; color: #fff;" data-bs-target="#collapseOne"
+                                            aria-expanded="false" aria-controls="collapseOne">
+                                            <strong>
+                                                Under Graduate
+                                            </strong>
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSET/B.TECH MECHANICAL ENGINEERING.pdf"
+
+                                                <a href="mobile-assets/department-all/rset/dept-me/Course_structure_ME.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>
-                                                    COURSE STRUCTURE FOR B.Tech. MECHANICAL ENGINEERING
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - Mechanical
+                                                    Engineering
                                                     <i class="fa fa-download"></i>
                                                 </a>
+
+                                                <a href="mobile-assets/department-all/rset/dept-me/BTech_Syllabus_ME.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Tech
+                                                    Mechanical
+                                                    Engineering
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <strong> Post Graduate </strong>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                        data-bs-parent="#accordionExample">
-                                        <div class="accordion-body"></div>
-                                    </div>
-                                </div>
+
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                            <strong> Doctoral Programme </strong>
+                                            style="background-color: #27467A; color: #fff;" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            <strong>
+                                                Doctoral Programme
+                                            </strong>
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <a href="pdf" class="para1" target="_blank">
-                                                <strong> Click to View... </strong>
+                                            <a href="phd" class="para1" target="_blank">
+                                                <strong>
+                                                    Click to View...
+                                                </strong>
                                             </a>
                                         </div>
                                     </div>

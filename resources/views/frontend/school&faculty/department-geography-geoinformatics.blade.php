@@ -399,76 +399,107 @@
                 <div class="p-2">
                     <div class="row">
                         <div class="col-lg-12">
+
                             <div class="accordion para1" id="accordionExample">
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><strong>
+                                            style="background-color: #27467a; color: #fff;" data-bs-target="#collapseOne"
+                                            aria-expanded="false" aria-controls="collapseOne"><strong>
                                                 Under Graduate
                                             </strong>
                                         </button>
                                     </h2>
+
                                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row para1">
-                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geography/UG Geography/Structure of syllabus - UG Geography (1).pdf"
+                                                <a href="mobile-assets/department-all/rsses/geography-geoinformatics/Course_Structure_PG_Geoinformatics.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Sc. Geography
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- Geoinformatics
                                                     <i class="fa fa-download"></i>
                                                 </a>
-                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geography/UG Geography/UG NEP syllabus Geography (2) (1).pdf"
+
+                                                <a href="mobile-assets/department-all/rsses/geography-geoinformatics/MSc_Geoinformatics_Syllabus.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Syllabus - B.Sc. Geography
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Geoinformatics
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <hr>
+
+                                                <a href="mobile-assets/department-all/rsses/geography-geoinformatics/Course_Structure_UG_Geography.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- Geography
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/rsses/geography-geoinformatics/UG_Syllabus_Geography.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Geology
                                                     <i class="fa fa-download"></i>
                                                 </a>
 
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <strong>
+                                            style="background-color: #27467a; color: #fff;" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo"><strong>
                                                 Post Graduate
                                             </strong>
+                                        </button>
                                     </h2>
+
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row para1">
-                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geography/PG Geography/PG NEP syllabus Geography.pdf"
+
+                                                <a href="mobile-assets/department-all/rsses/geography-geoinformatics/Course_Structure_PG_Geoinformatics.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Syllabus - M.Sc. Geography
-                                                    <i class="fa fa-download"></i>
-                                                </a>
-                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geography/PG Geography/Structure of syllabus - PG Geography.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - M.Sc. Geography
-                                                    <i class="fa fa-download"></i>
-                                                </a>
-                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geography/PG Geoinformatics/PG NEP Syllabus Geoinformatics.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Syllabus - M.Sc. Geoinformatics
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - Geoinformatics
                                                     <i class="fa fa-download"></i>
                                                 </a>
 
-                                                <a href="mobile-assets/department-all/syllabus-new/11RSEES/Geography/PG Geoinformatics/Structure of syllabus - PG Geoinformatics.pdf"
+                                                <a href="mobile-assets/department-all/rsses/geography-geoinformatics/MSc_Geoinformatics_Syllabus.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - M.Sc.
-                                                    Geoinformatics
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus - Geoinformatics
                                                     <i class="fa fa-download"></i>
                                                 </a>
+
+                                                <hr>
+
+                                                <a href="mobile-assets/department-all/rsses/geography-geoinformatics/Course_Structure_PG_Geography.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Structure of Syllabus - Geology
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/rsses/geography-geoinformatics/PG_syllabus_Geography.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus - Geology
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            style="background-color: #27467a; color: #fff;" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
                                             <strong>
                                                 Doctoral Programme
                                             </strong>
@@ -485,11 +516,14 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+
                         </div>
                         <div class="col-lg-6"></div>
                     </div>
-                </div>          </div>
+                </div>
+            </div>
         </div>
 
     </div>

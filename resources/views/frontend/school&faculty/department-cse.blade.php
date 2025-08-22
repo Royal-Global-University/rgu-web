@@ -893,19 +893,21 @@
                 </div>
             </div>
 
+            <!-- Department CSE  -->
             <div>
-
-                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
                     Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
                 <div class="p-2">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="accordion para1" id="accordionExample">
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            style="background-color: #27467A; color: #fff;" data-bs-target="#collapseOne"
+                                            aria-expanded="false" aria-controls="collapseOne">
                                             <strong>
                                                 Under Graduate
                                             </strong>
@@ -915,9 +917,47 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/remaining-syllabus/RSET/Course Structure CSE New.pdf"
+                                                <a href="mobile-assets/department-all/rset/dept-cse/Course_structure_CSE.pdf"
                                                     target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i>Course Structure and Syllabus - CSE
+                                                    <i class="fa fa-file-text px-2"></i> Course Structure - CSE
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/rset/dept-cse/BTech_Syllabus_CSE.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus - CSE
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                                <a href="mobile-assets/department-all/rset/dept-cse/BTech_Syllabus_AI.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus - CSE AI
+                                                    <i class="fa fa-download"></i>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            style="background-color: #27467A; color: #fff;" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <strong>
+                                                Post Graduate
+                                            </strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="row">
+
+                                                <a href="mobile-assets/department-all/rset/dept-cse/MTech_Syllabus_CSE_25-26.pdf"
+                                                    target="_blank">
+                                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus - CSE AI
                                                     <i class="fa fa-download"></i>
                                                 </a>
 
@@ -929,7 +969,8 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            style="background-color: #27467A; color: #fff;" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
                                             <strong>
                                                 Doctoral Programme
                                             </strong>
@@ -938,7 +979,7 @@
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <a href="phd" class="para1" target="_blank">
+                                            <a href="doctoral-programme.html" class="para1" target="_blank">
                                                 <strong>
                                                     Click to View...
                                                 </strong>
@@ -946,11 +987,14 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                         <div class="col-lg-6"></div>
                     </div>
-                </div>          </div>
+                </div>
+            </div>
+            <!-- Department CSE  -->
         </div>
 
     </div>

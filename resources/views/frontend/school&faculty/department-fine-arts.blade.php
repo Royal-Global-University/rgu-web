@@ -653,93 +653,98 @@
             </div>
           </div>
 
-          <div>
+        <div>
 
             <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-              Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+                Course Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
             <div class="p-2">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="accordion para1" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><strong>
-                            Under Graduate
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <div class="row">
-                            <a href="https://media.rgu.ac/department-all/syllabus-new/15_RSFA/BFA Syllabus  AY April 2025 - docx.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i> Syllabus - BACHELORS OF FINE ARTS (BFA)
-                              <i class="fa fa-download"></i>
-                            </a>
-                            <a href="https://media.rgu.ac/department-all/syllabus-new/15_RSFA/Structure of syllabus 25 -  BFA.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i>Structure of Syllabus - BACHELORS OF FINE ARTS (BFA)
-                              <i class="fa fa-download"></i>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          <strong>
-                            Post Graduate
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <div class="row">
-                            <a href="https://media.rgu.ac/department-all/syllabus-new/15_RSFA/MFA Syllabus  AY April 2025.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i>Syllabus - MASTER OF FINE ARTS (MFA)
-                              <i class="fa fa-download"></i>
-                            </a>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="accordion para1" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        style="background-color: #27467A; color: #fff;" data-bs-target="#collapseOne"
+                                        aria-expanded="false" aria-controls="collapseOne">
+                                        <strong>
+                                            Under Graduate
+                                        </strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <a href="mobile-assets/department-all/rsfa/Course_structure_UG_RSFA.pdf"
+                                                target="_blank">
+                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- BFA
+                                                <i class="fa fa-download"></i>
+                                            </a>
+                                            <a href="mobile-assets/department-all/rsfa/BFA_Detailed_Syllabus.pdf"
+                                                target="_blank">
+                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- BFA
+                                                <i class="fa fa-download"></i>
+                                            </a>
 
-                            <a href="https://media.rgu.ac/department-all/syllabus-new/15_RSFA/Structure of syllabus 25 -  MFA.pdf"
-                              target="_blank">
-                              <i class="fa fa-file-text px-2"></i>Structure of Syllabus - MASTER OF FINE ARTS (MFA)
-                              <i class="fa fa-download"></i>
-                            </a>
-                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        style="background-color: #27467A; color: #fff;" data-bs-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        <strong>
+                                            Post Graduate
+                                        </strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <a href="mobile-assets/department-all/rsfa/Course_structure_PG_RSFA.pdf"
+                                                target="_blank">
+                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- MFA
+                                                <i class="fa fa-download"></i>
+                                            </a>
+                                            <a href="mobile-assets/department-all/rsfa/MFA_Detailed_Syllabus.pdf"
+                                                target="_blank">
+                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- MFA
+                                                <i class="fa fa-download"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        style="background-color: #27467A; color: #fff;" data-bs-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree"><strong>
+                                            Doctoral Programme
+                                        </strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="phd" class="para1" target="_blank">
+                                            <strong>
+                                                Click to View...
+                                            </strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><strong>
-                            Doctoral Programme
-                          </strong>
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <a href="phd" class="para1" target="_blank">
-                            <strong>
-                              Click to View...
-                            </strong></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                    <div class="col-lg-6"></div>
                 </div>
-                <div class="col-lg-6"></div>
-              </div>
             </div>
-          </div>
+        </div>
 
         </div>
 

@@ -993,11 +993,10 @@
                                                     <div class="container" style="padding: 30px 0px;">
                                                         <div class="row pb-5">
                                                             <div class="col-lg-7" style="display: flex; flex-direction: column;">
-
-
                                                                 <div id="slider" style="width: 620px; overflow: hidden; margin: auto; position: relative;">
                                                                     <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-weight: 900; font-size: 40px;">
-                                                                        Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span></h2>
+                                                                        Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span>
+                                                                    </h2>
 
                                                                     <div id="slides" style="display: flex; transition: transform 0.7s ease;">
                                                                         <img class="zoomable" src="mobile-assets/events/22-1.jpeg"
@@ -1010,7 +1009,6 @@
                                                                             style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                                                         <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
                                                                             style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-
                                                                     </div>
                                                                 </div>
 
