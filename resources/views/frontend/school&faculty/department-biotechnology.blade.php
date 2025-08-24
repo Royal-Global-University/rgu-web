@@ -1,535 +1,18 @@
 @extends('frontend.master')
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+
         <div class="mobile">
             <!-- floating mob button  -->
             <div>
                 <a href="https://admissions.rgu.ac" style="
-                                                                position: fixed;
-                                                                bottom: 25px;
-                                                                right: 75px;
-                                                                background-color: #ef991f;
-                                                                color: #fff;
-                                                                padding: 12px 20px;
-                                                                font-size: 16px;
-                                                                font-weight: bold;
-                                                                text-decoration: none;
-                                                                border-radius: 20px;
-                                                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                z-index: 1000;
-                                                                overflow: hidden;
-                                                                animation: pulse 2s infinite;
-                                                                ">
-                    <span style="
-                                                                position: absolute;
-                                                                top: 0;
-                                                                left: -75%;
-                                                                width: 50%;
-                                                                height: 100%;
-                                                                background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                transform: skewX(-25deg);
-                                                                animation: shine 2s infinite;
-                                                                "></span>
-                    Admission Open - Apply Now
-                </a>
-                <style>
-                    @keyframes pulse {
-                        0% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-
-                        50% {
-                            transform: scale(1.05);
-                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                        }
-
-                        100% {
-                            transform: scale(1);
-                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                        }
-                    }
-
-                    @keyframes shine {
-                        0% {
-                            left: -75%;
-                        }
-
-                        100% {
-                            left: 125%;
-                        }
-                    }
-                </style>
-            </div>
-            <!-- floating button  -->
-            @include('frontend/components/mobileheader')
-            <img style="padding-top: 80px; position: relative;" class="pb-3"
-                src="https://media.rgu.ac/department-all/dept-biotech/mobile-top.png" alt="">
-
-
-            <div class="container">
-
-                <!-- courses section web  -->
-                <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-
-                <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
-                    <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
-                        <th class="text-light  font-weight-bold">SL. NO.</th>
-                        <th class="text-light  font-weight-bold">COURSES</th>
-                        <th class="text-light  font-weight-bold">DURATION</th>
-                        <th class="text-light  font-weight-bold">DETAILS</th>
-                    </thead>
-                    <tbody class="para1 bg-light">
-
-                        <tr>
-                            <td>1.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">B.Sc. - Bio-Technology</strong><br>
-                                    Honours / Honours with Research
-                                </p>
-                            </td>
-                            <td class="para1">
-                                4 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-b-sc-bio-technology"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>2.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">M.Sc. Bio-Technology</strong>
-                                </p>
-                            </td>
-                            <td class="para1">
-                                2 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-MSc-Bio-Technology"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
-
-            </div>
-
-            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-biotech/mobile-down.png" alt="">
-
-            <!--About Section-->
-
-            <div class="container pb-5 pt-3">
-
-                <div>
-
-
-                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
-
-                    <div class="table-responsive">
-
-                        <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
-                            <thead class="text-white" style="background-color: #27467A;">
-
-                                <th class="text-white">Date</th>
-                                <th class="text-white">Name of the
-                                    Conference/Seminar/Workshop</th>
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                <tr>
-                                    <td>4-Mar-19</td>
-                                    <td>Study tour to Sikkim</td>
-                                </tr>
-                                <tr>
-                                    <td>March 29, 2019</td>
-                                    <td>Invited talk on hepatic stellate cells and hepatocellular carcinoma
-                                        by Dr. Dola Das, Scientist at Cleveland Clinic Foundation, Ohio</td>
-                                </tr>
-                                <tr>
-                                    <td>May 6, 2019</td>
-                                    <td>Study tour to ICAR Research Complex Barapani, Meghalaya</td>
-                                </tr>
-                                <tr>
-                                    <td>September 24, 2019</td>
-                                    <td>Invited talk by eminent scientist Prof. Santosh Kar</td>
-                                </tr>
-                                <tr>
-                                    <td>November 28, 2019</td>
-                                    <td>Student visit to IASST</td>
-                                </tr>
-
-                                <tr>
-                                    <td>June 4, 2020</td>
-                                    <td>Webinar organized on the occasion of World Environment Day by RSBSC
-                                        in collaboration with RSLSC on ‘Time for Nature’</td>
-                                </tr>
-                                <tr>
-                                    <td>June 12, 2020</td>
-                                    <td>Webinar on 'Bioprospecting Microorganisms for Bioactive Metabolites'
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>June 12, 2020</td>
-                                    <td>Webinar on 'Advances in Animal Sciences'</td>
-                                </tr>
-                                <tr>
-                                    <td>June 16-23, 2020</td>
-                                    <td>7-day E-FDP programme on 'Importance of Cross-Disciplinary research
-                                        in the post covid-19 scenario: Social perspectives'</td>
-                                </tr>
-                                <tr>
-                                    <td>July 21, 2020</td>
-                                    <td>Webinar on 'The spread of SARD-CoV2 and the role of environment'
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>28/12/2024</td>
-                                    <td>"Invited lecture on ""Silicon intelligence in managing gap for new
-                                        drug entities"" by Dr. Saurov Mahanta, Scientist- NEILIT, Guwahati
-                                        "</td>
-                                </tr>
-                                <tr>
-                                    <td>30/12/2021</td>
-                                    <td>"Invited lecture on ""Bacterial drug resistance"" by Dr. Bhaskar
-                                        Thakuria, Additional Professor, AIIMS-Patna
-                                        "</td>
-                                </tr>
-                                <tr>
-                                    <td>31/05/2021</td>
-                                    <td>Invited lecture on "" by Prof. SR Joshi, Dept. of Biotechnology,
-                                        NEHU </td>
-                                </tr>
-                                <tr>
-                                    <td>13/07/2021</td>
-                                    <td>"Invited lecture on ""Fungal invasion of microbes through the airway
-                                        of epithelial cells"" by Dr. Nausaba Hasin, Research Supervisor,
-                                        University of Maryland, Baltimore
-                                        "</td>
-                                </tr>
-                                <tr>
-                                    <td>6/7/2021</td>
-                                    <td>Invited talk on "" by Dr. B. N. Dubey University of Düsseldorf,
-                                        Germany</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td>"Invited talk on ""Genome of cancer: a bouquet of stories"" by Prof.
-                                        P. P. Majumder NIBMG, Kalyani, WB
-                                        "</td>
-                                </tr>
-                                <tr>
-                                    <td>15/06/2021</td>
-                                    <td>Invited talk on ''" by Dr. R. S. Kumar, NICPR, Noida</td>
-                                </tr>
-                                <tr>
-                                    <td>1/7/2021</td>
-                                    <td>Invited talk on ''" by Prof. Piyush Pandey, Dept. of Biotechnology,
-                                        Assam University</td>
-                                </tr>
-
-                                <tr>
-                                    <td>May 6, 2022</td>
-                                    <td>Awareness programme on ‘Harmful effects of tobacco and how it cause
-                                        cancer’</td>
-                                </tr>
-                                <tr>
-                                    <td>May 6, 2022</td>
-                                    <td>Guest lecture by Dr. Mojibur Rohman Khan, Associate Professor at
-                                        IASST</td>
-                                </tr>
-                                <tr>
-                                    <td>May 27, 2022</td>
-                                    <td>Lecture by Dr. Amitabh Arya, Additional Professor in the Department
-                                        of Nuclear medicine at SGPGIMS Lucknow</td>
-                                </tr>
-                                <tr>
-                                    <td>October 28, 2022</td>
-                                    <td>Invited talk by Dr. Ranjan Tamuli, Professor in the Department of
-                                        Biosciences and Bioengineering, IITG</td>
-                                </tr>
-                                <tr>
-                                    <td>October 29, 2022</td>
-                                    <td>Cancer Awareness Programme in the Deuchutal community</td>
-                                </tr>
-                                <tr>
-                                    <td>November 23, 2023</td>
-                                    <td>Invited talk by Dr. Gaurav Das, Professor of Surgical Oncology at
-                                        BBCI</td>
-                                </tr>
-                                <tr>
-                                    <td>December 7, 2023</td>
-                                    <td>Invited talk on ‘Caring for Chronic Diseases Through Modern Biology’
-                                        by Prof. Subash Chandra Gupta, HoD Biochemistry at AIIMS Guwahati
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>March 15, 2024</td>
-                                    <td>Outreach programme to Deuchutal community near RGU</td>
-                                </tr>
-                                <tr>
-                                    <td>1/2/2024</td>
-                                    <td>Invited talk on "Surfaces and interfaces at nanoscale" by Prof. SG.
-                                        Verma, Dept. of Nanotechnology, Punjab University</td>
-                                </tr>
-                                <tr>
-                                    <td>April 22, 2024</td>
-                                    <td>Invited talk by Prof. Partha Pratim Majumdar on Genomics of Cancer
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-                </div>
-
-                <div>
-                    <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
-                    <div class="table-responsive">
-                        <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
-                            <thead class="text-white" style="background-color: #27467A;">
-                                <th class="text-white">#</th>
-                                <th class="text-white">Position in D-BoS</th>
-                                <th class="text-white">Name and Designation</th>
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                <tr>
-                                    <td>1</td>
-                                    <td>Convener (Ex-Officio)- Head of the Department</td>
-                                    <td>Dr. Ranjan Dutta Kalita,
-                                        Associate Professor and HoD, Dept of Biotechnology, RSBSC
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td class="justify-align-center">All Faculty members of the Department Members
-                                        (Ex-Officio)</td>
-                                    <td>Dr. Debajit Borah,
-                                        Associate Professor, Dept of Biotechnology,RSBSC
-                                        <hr>
-                                        Dr. Rupesh Kumar,
-                                        Assistant Professor, Dept of Biotechnology,RSBSC
-                                        <hr>Dr. Bhaskarjyoti Gogoi,
-                                        Assistant Professor, Dept of Biotechnology,RSBSC
-                                        <hr>Dr. Siddhartha Narayan Borah,
-                                        Assistant Professor, Dept of Biotechnology,RSBSC
-                                        <hr>Dr.Rupsikha Patowary,
-                                        Assistant Professor, Dept of Biotechnology,RSBSC
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>External Expert</td>
-                                    <td>Prof. Probodh Borah,
-                                        Professor and Head of Dept, Dept. Of Animal Biotechnology, College of
-                                        Vererinary
-                                        Sciences, Assam Agricultural University, Khanapara, Guwahati
-                                        <hr>Dr.Hridip Kr Sarma,
-                                        Associate Professor, Dept of Biotechnology, Gauhati University
-
-                                    </td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-
-                        <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                            The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee
-                                (DRC)</span></h2>
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
-                                <thead class="text-white" style="background-color: #27467A;">
-                                    <th class="text-white">#</th>
-                                    <th class="text-white">Content</th>
-                                    <th class="text-white">Name of the Member</th>
-                                    <th class="text-white">Designation</th>
-                                    <th class="text-white">Designation in the committee</th>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1.</td>
-                                        <td>Head of the Department </td>
-                                        <td>Dr. Debajit Borah</td>
-                                        <td>Associate Prof. and Head, Dept. of Biotechnology </td>
-                                        <td>Chairperson</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">2.</td>
-                                        <td rowspan="2" class="align-middle">Two Professors</td>
-                                        <td>Prof. Anupam Chaterjee, </td>
-                                        <td>Prof. and Dean, RSBSC </td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Ranjan Dutta Kalita</td>
-                                        <td>Professor, Dept. of Biotechnology </td>
-                                        <td>Member </td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">3.</td>
-                                        <td rowspan="2" class="align-middle">Two Assistant Professors holding Ph.D.
-                                            degree
-                                        </td>
-                                        <td>Dr. Bhaskarjyoti Gogoi </td>
-                                        <td>Asst. Prof., Dept. of Biotechnology</td>
-                                        <td>Member </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Siddhartha Narayan Borah </td>
-                                        <td>Asst. Prof., Dept. of Biotechnology</td>
-                                        <td>Member&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="3">4.</td>
-                                        <td rowspan="3" class="align-middle">Three external members not below the rank
-                                            of
-                                            Professors, including members from an allied department, who will be
-                                            nominated
-                                            by
-                                            the URC </td>
-                                        <td>Prof. Amlan Das </td>
-                                        <td>Professor, Dept. of Microbiology </td>
-                                        <td>External Member </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Minaram Nath</td>
-                                        <td>Professor, Dept. of Botany </td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Bipul Nath </td>
-                                        <td>Professor, Royal School of Pharmacy</td>
-                                        <td>External Member</td>
-                                    </tr>
-
-
-                                </tbody>
-                            </table>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
-
-                    <div class="p-2">
-
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                                <strong>
-                                                    Under Graduate
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="row">
-
-                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/course-structure-bsc-bio-tech.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Sc. Biotechnology
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/detailed-syllabus-bsc-bio-tech.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Sc. Biotechnology
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                <strong>
-                                                    Post Graduate
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="row">
-
-                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/detailed-syllabus-msc-bio-tech.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - M.Sc. Biotechnology
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                <strong>
-                                                    Doctoral Programme
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <a href="phd" class=" para1" target="_blank"><strong>Click to View...</strong></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="website">
-            @include('frontend/components/aheader')
-            <!-- floating button  -->
-            <div>
-                <a href="https://admissions.rgu.ac/" style="
                                                                     position: fixed;
-                                                                    bottom: 35px;
-                                                                    right: 50px;
+                                                                    bottom: 25px;
+                                                                    right: 75px;
                                                                     background-color: #ef991f;
                                                                     color: #fff;
                                                                     padding: 12px 20px;
-                                                                    font-size: 18px;
+                                                                    font-size: 16px;
                                                                     font-weight: bold;
                                                                     text-decoration: none;
                                                                     border-radius: 20px;
@@ -580,304 +63,561 @@
                 </style>
             </div>
             <!-- floating button  -->
-            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-biotech/web-top.png" alt="">
+            @include('frontend/components/mobileheader')
+            <!-- till about dept  -->
+            <section style="background-color: #fff8f0; padding: 130px 10px 0px 10px;">
 
+                <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Department of
+                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Biotechnology</span>
+                </h1>
 
+                <h2 class="headd3 text-center" style="color: #27467A; font-weight: 700;">
+                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Royal School of</span> <br>
+                    Bio-Sciences (RSBSC)
+                </h2>
+
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+
+                            <div class="txaa-slide-down-1">
+                                <div style=" height: 500px; width: 100%;" class="kd-about-3-img img-cover fix kd-img-ani-1">
+                                    <img class="rounded " decoding="async"
+                                        src="mobile-assets/department-all/rsbsc/biotechnology/headimg.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+
+                            <h2 class="headd3 text-center pt-4" style="color: #264273; font-weight: 700; font-size: 30px;">
+                                About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
+
+                            <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
+                                The Department of Biotechnology was established in the year 2018 with an objective of
+                                imparting
+                                quality education and carrying out of quality research in the subject area. The department
+                                provides
+                                graduate, masters and PhD programs in biotechnology, focusing on multidisciplinary skills
+                                for
+                                students to pursue careers in biotechnology and develop innovative ideas for
+                                bio-entrepreneurship.
+                                Various elective courses are floated by experienced faculty of the school, enabling the
+                                students to
+                                choose and receive specialization in the area of their research interest. The school has
+                                faculty
+                                members from reputable academic institutions and universities, with diverse and
+                                inter-disciplinary
+                                backgrounds, who align with national strategic development policies and their demands.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background-color: #fff;">
+                    <div class="container p-4">
+                        <p class="mobile-para1 pt-2" style="color: #264273; text-align: justify; line-height: 1.5;">
+                            The school’s academic and research programs provide basic to advanced infrastructure for the
+                            students
+                            to enhance their technical and innovative skills. Upon completion of the requirements of The
+                            Assam
+                            Royal Global University’s degree in biotechnology—you will be able to understand and apply basic
+                            science, perform technical skills, learn written and oral communication skills, develop critical
+                            thinking, understand the societal and environmental impact of life sciences, and realize
+                            practical
+                            perspectives of biotechnology in the private sector and government.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pt-3">
+
+                    <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Vision and Mission
+                        <span class="headd3" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
+                    </h1>
+
+                    <img src="mobile-assets/department-all/rsbsc/biotechnology/vision-mission-mob.png" alt="">
+                </div>
+
+                <div class="p-4">
+                    <img class="w-100" src="mobile-assets/department-all/rsbsc/biotechnology/infra-mob.png" alt="">
+                </div>
+
+            </section>
+            <!-- till about dept  -->
+
+            <!-- courses offered  -->
             <div class="container">
-
-                <!-- courses section web  -->
-                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
                     Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
+                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                    <!-- Heading Section -->
+                    <div
+                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
-                    <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
-                        <th class="text-light  font-weight-bold">SL. NO.</th>
-                        <th class="text-light  font-weight-bold">COURSES</th>
-                        <th class="text-light  font-weight-bold">DURATION</th>
-                        <th class="text-light  font-weight-bold">DETAILS</th>
-                    </thead>
-                    <tbody class="para1 bg-light">
+                        <span style="font-size:18px;">M.Sc. Bio-Technology</span>
+                        <span
+                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                    </div>
 
-                        <tr>
-                            <td>1.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">B.Sc. - Bio-Technology</strong><br>
-                                    Honours / Honours with Research
-                                </p>
-                            </td>
-                            <td class="para1">
-                                4 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-b-sc-bio-technology"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
+                    <!-- Statute Items -->
+                    <a target="_blank" href="programs-MSc-Bio-Technology" style="text-decoration:none;">
+                        <div
+                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                        <tr>
-                            <td>2.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">M.Sc. Bio-Technology</strong>
-                                </p>
-                            </td>
-                            <td class="para1">
-                                2 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-MSc-Bio-Technology"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
+                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">2 years</span>
+                            <span>
+                                <a class="para1 fw-bold"
+                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                    href="programs-MSc-Bio-Technology">View Details</a>
+                            </span>
+                        </div>
+                    </a>
+                </div>
 
-                    </tbody>
-                </table>
+                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                    <!-- Heading Section -->
+                    <div
+                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                        <span style="font-size:18px; padding-right: 20px;">B.Sc. Bio-Technology</span> | <span
+                            style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours
+                            with
+                            Research</span>
+                        <span
+                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                    </div>
+
+                    <!-- Statute Items -->
+                    <a target="_blank" href="programs-b-sc-bio-technology" style="text-decoration:none;">
+                        <div
+                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
+                            <span>
+                                <a class="para1 fw-bold"
+                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                    href="programs-b-sc-bio-technology">View Details</a>
+                            </span>
+                        </div>
+                    </a>
+                </div>
 
             </div>
+            <!-- courses offered  -->
 
-            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-biotech/web-down.png" alt="">
-
-            <!--About Section-->
-
-            <div class="container pb-5 pt-3">
-
+            <!-- syllabus  -->
+            <div class="container">
                 <div>
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
+                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
+                    </h2>
 
-
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
-
-                    <div class="table-responsive">
-
-                        <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
-                            <thead class="text-white" style="background-color: #27467A;">
-
-                                <th class="text-white">Date</th>
-                                <th class="text-white">Name of the
-                                    Conference/Seminar/Workshop</th>
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                <tr>
-                                    <td>4-Mar-19</td>
-                                    <td>Study tour to Sikkim</td>
-                                </tr>
-                                <tr>
-                                    <td>March 29, 2019</td>
-                                    <td>Invited talk on hepatic stellate cells and hepatocellular carcinoma
-                                        by Dr. Dola Das, Scientist at Cleveland Clinic Foundation, Ohio</td>
-                                </tr>
-                                <tr>
-                                    <td>May 6, 2019</td>
-                                    <td>Study tour to ICAR Research Complex Barapani, Meghalaya</td>
-                                </tr>
-                                <tr>
-                                    <td>September 24, 2019</td>
-                                    <td>Invited talk by eminent scientist Prof. Santosh Kar</td>
-                                </tr>
-                                <tr>
-                                    <td>November 28, 2019</td>
-                                    <td>Student visit to IASST</td>
-                                </tr>
-
-                                <tr>
-                                    <td>June 4, 2020</td>
-                                    <td>Webinar organized on the occasion of World Environment Day by RSBSC
-                                        in collaboration with RSLSC on ‘Time for Nature’</td>
-                                </tr>
-                                <tr>
-                                    <td>June 12, 2020</td>
-                                    <td>Webinar on 'Bioprospecting Microorganisms for Bioactive Metabolites'
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>June 12, 2020</td>
-                                    <td>Webinar on 'Advances in Animal Sciences'</td>
-                                </tr>
-                                <tr>
-                                    <td>June 16-23, 2020</td>
-                                    <td>7-day E-FDP programme on 'Importance of Cross-Disciplinary research
-                                        in the post covid-19 scenario: Social perspectives'</td>
-                                </tr>
-                                <tr>
-                                    <td>July 21, 2020</td>
-                                    <td>Webinar on 'The spread of SARD-CoV2 and the role of environment'
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>28/12/2024</td>
-                                    <td>"Invited lecture on ""Silicon intelligence in managing gap for new
-                                        drug entities"" by Dr. Saurov Mahanta, Scientist- NEILIT, Guwahati
-                                        "</td>
-                                </tr>
-                                <tr>
-                                    <td>30/12/2021</td>
-                                    <td>"Invited lecture on ""Bacterial drug resistance"" by Dr. Bhaskar
-                                        Thakuria, Additional Professor, AIIMS-Patna
-                                        "</td>
-                                </tr>
-                                <tr>
-                                    <td>31/05/2021</td>
-                                    <td>Invited lecture on "" by Prof. SR Joshi, Dept. of Biotechnology,
-                                        NEHU </td>
-                                </tr>
-                                <tr>
-                                    <td>13/07/2021</td>
-                                    <td>"Invited lecture on ""Fungal invasion of microbes through the airway
-                                        of epithelial cells"" by Dr. Nausaba Hasin, Research Supervisor,
-                                        University of Maryland, Baltimore
-                                        "</td>
-                                </tr>
-                                <tr>
-                                    <td>6/7/2021</td>
-                                    <td>Invited talk on "" by Dr. B. N. Dubey University of Düsseldorf,
-                                        Germany</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td>"Invited talk on ""Genome of cancer: a bouquet of stories"" by Prof.
-                                        P. P. Majumder NIBMG, Kalyani, WB
-                                        "</td>
-                                </tr>
-                                <tr>
-                                    <td>15/06/2021</td>
-                                    <td>Invited talk on ''" by Dr. R. S. Kumar, NICPR, Noida</td>
-                                </tr>
-                                <tr>
-                                    <td>1/7/2021</td>
-                                    <td>Invited talk on ''" by Prof. Piyush Pandey, Dept. of Biotechnology,
-                                        Assam University</td>
-                                </tr>
-
-                                <tr>
-                                    <td>May 6, 2022</td>
-                                    <td>Awareness programme on ‘Harmful effects of tobacco and how it cause
-                                        cancer’</td>
-                                </tr>
-                                <tr>
-                                    <td>May 6, 2022</td>
-                                    <td>Guest lecture by Dr. Mojibur Rohman Khan, Associate Professor at
-                                        IASST</td>
-                                </tr>
-                                <tr>
-                                    <td>May 27, 2022</td>
-                                    <td>Lecture by Dr. Amitabh Arya, Additional Professor in the Department
-                                        of Nuclear medicine at SGPGIMS Lucknow</td>
-                                </tr>
-                                <tr>
-                                    <td>October 28, 2022</td>
-                                    <td>Invited talk by Dr. Ranjan Tamuli, Professor in the Department of
-                                        Biosciences and Bioengineering, IITG</td>
-                                </tr>
-                                <tr>
-                                    <td>October 29, 2022</td>
-                                    <td>Cancer Awareness Programme in the Deuchutal community</td>
-                                </tr>
-                                <tr>
-                                    <td>November 23, 2023</td>
-                                    <td>Invited talk by Dr. Gaurav Das, Professor of Surgical Oncology at
-                                        BBCI</td>
-                                </tr>
-                                <tr>
-                                    <td>December 7, 2023</td>
-                                    <td>Invited talk on ‘Caring for Chronic Diseases Through Modern Biology’
-                                        by Prof. Subash Chandra Gupta, HoD Biochemistry at AIIMS Guwahati
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>March 15, 2024</td>
-                                    <td>Outreach programme to Deuchutal community near RGU</td>
-                                </tr>
-                                <tr>
-                                    <td>1/2/2024</td>
-                                    <td>Invited talk on "Surfaces and interfaces at nanoscale" by Prof. SG.
-                                        Verma, Dept. of Nanotechnology, Punjab University</td>
-                                </tr>
-                                <tr>
-                                    <td>April 22, 2024</td>
-                                    <td>Invited talk by Prof. Partha Pratim Majumdar on Genomics of Cancer
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-                </div>
-
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
-                    <div class="table-responsive">
-                        <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
-                            <thead class="text-white" style="background-color: #27467A;">
-                                <th class="text-white">#</th>
-                                <th class="text-white">Position in D-BoS</th>
-                                <th class="text-white">Name and Designation</th>
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                <tr>
-                                    <td>1</td>
-                                    <td>Convener (Ex-Officio)- Head of the Department</td>
-                                    <td>Dr. Ranjan Dutta Kalita,
-                                        Associate Professor and HoD, Dept of Biotechnology, RSBSC
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td class="justify-align-center">All Faculty members of the Department Members
-                                        (Ex-Officio)</td>
-                                    <td>Dr. Debajit Borah,
-                                        Associate Professor, Dept of Biotechnology,RSBSC
-                                        <hr>
-                                        Dr. Rupesh Kumar,
-                                        Assistant Professor, Dept of Biotechnology,RSBSC
-                                        <hr>Dr. Bhaskarjyoti Gogoi,
-                                        Assistant Professor, Dept of Biotechnology,RSBSC
-                                        <hr>Dr. Siddhartha Narayan Borah,
-                                        Assistant Professor, Dept of Biotechnology,RSBSC
-                                        <hr>Dr.Rupsikha Patowary,
-                                        Assistant Professor, Dept of Biotechnology,RSBSC
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>External Expert</td>
-                                    <td>Prof. Probodh Borah,
-                                        Professor and Head of Dept, Dept. Of Animal Biotechnology, College of
-                                        Vererinary
-                                        Sciences, Assam Agricultural University, Khanapara, Guwahati
-                                        <hr>Dr.Hridip Kr Sarma,
-                                        Associate Professor, Dept of Biotechnology, Gauhati University
-
-                                    </td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-
-                    </div>
-                </div>
-
-                <div>
                     <div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="accordion para1" id="mobileAccordionCourses"
+                                    style="border-radius: 12px; overflow: hidden;">
 
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                            The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee
-                                (DRC)</span></h2>
+                                    <!-- UG -->
+                                    <div class="accordion-item"
+                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button collapsed"
+                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="false" aria-controls="collapseOne">
+                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body"
+                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                    <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/course-structure-bsc-bio-tech.pdf"
+                                                        target="_blank" style="color: #27467A;">
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- B.Sc.
+                                                        Biotechnology
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-bsc-bio-tech.pdf"
+                                                        target="_blank" style="color: #27467A;">
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc.
+                                                        Biotechnology
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- PG -->
+                                    <div class="accordion-item"
+                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed"
+                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                <i class="fa fa-university me-2"></i> Post Graduate
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body"
+                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                    <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-msc-bio-tech.pdf"
+                                                        target="_blank"
+                                                        style="color: #27467A; font-weight: 500; text-decoration: none;">
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Sc.
+                                                        Biotechnology
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Doctoral -->
+                                    <div class="accordion-item"
+                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed"
+                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                <i class="fa fa-book me-2"></i> Doctoral Programme
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body"
+                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                <a href="phd" class="para1" target="_blank"
+                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
+                                                    <i class="fa fa-external-link me-2"></i> Click to View...
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- syllabus  -->
+
+            <hr>
+
+            <!-- events and highlights  -->
+            <div class="container pb-4">
+
+                <div class="row" style="display: flex; justify-content: center;">
+                    <div class="col-lg-12">
+                        <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
+                            Events
+                        </h2>
+
+                        <div style="max-width: 100%; position: relative;">
+                            <div style="border: 1px solid #ccc;">
+
+                                <div id="mobileEventScrollContainer"
+                                    style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
+                                    <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
+                                        <tbody class="para1" id="mobileEventScrollContent"
+                                            style="background-color: #f9f9f9; ">
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            14-05-2025 | One day Seminar on Centenary Anniversary of Quantum
+                                                            Mechanics.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            More
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            28-03-2025 | Invited Talk by Prof. Bipin Kumar Gupta.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            More
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            19-03-2025 | Invited Talk by Dr. Namrata Gogoi.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            More
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            28-02-2025 | National Science Day Celebration.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            More
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            24-02-2025 | Invited Talk by Dr. Hemen Kumar Kalita.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            More
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            21-02-2025 | Field visit to Center of Plasma Physics – Institute
+                                                            for Plasma Research
+                                                            (CPP-IPR) Guwahati.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            More
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            04-06-2022 | As part of the MoU with ICT Mumbai, a lecture
+                                                            series was organized by the
+                                                            Department of Chemistry and Biotechnology.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            More
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            13-03-2020 | Interactive session with Ms. Priyanka Das
+                                                            Rajkakati.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            More
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+
+                            </div>
+
+                            <div style="text-align: center; margin-top: 15px;">
+                                <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
+                background: linear-gradient(135deg, #243B95, #151B5B);
+                color: #fff; font-weight: 600; font-size: 16px;
+                border-radius: 25px; text-decoration: none;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                transition: all 0.3s ease-in-out;">
+                                    View All
+                                </a>
+                            </div>
+
+
+                        </div>
+
+                        <script>
+                            const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
+                            const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
+
+                            // Duplicate content for infinite scroll (mobile)
+                            mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
+
+                            let mobileEventScrollPos = 0;
+                            const mobileEventScrollSpeed = 0.2;
+
+                            function mobileEventScrollStep() {
+                                mobileEventScrollPos += mobileEventScrollSpeed;
+                                if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
+                                    mobileEventScrollPos = 0;
+                                }
+                                mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
+                                requestAnimationFrame(mobileEventScrollStep);
+                            }
+
+                            mobileEventScrollStep();
+                        </script>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- events and highlights  -->
+
+            <!-- Mobile-Friendly Board of Studies & DRC -->
+            <div id="bos-mobile" class="container pb-5">
+
+                <!-- Board of Studies -->
+                <div style="margin-bottom:20px;">
+                    <button id="mobAccBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
+          background:linear-gradient(135deg,#24477f,#1a365d);
+          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
+                        <i class="fa fa-users me-2"></i> The Board of Studies
+                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                    </button>
+
+                    <div id="mobAccPanel1"
+                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
+
                         <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
                                 <thead class="text-white" style="background-color: #27467A;">
-                                    <th class="text-white">#</th>
-                                    <th class="text-white">Content</th>
-                                    <th class="text-white">Name of the Member</th>
-                                    <th class="text-white">Designation</th>
-                                    <th class="text-white">Designation in the committee</th>
+                                    <tr>
+                                        <th class="text-white">#</th>
+                                        <th class="text-white">Position in D-BoS</th>
+                                        <th class="text-white">Name and Designation</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Convener (Ex-Officio)- Head of the Department</td>
+                                        <td>Dr. Ranjan Dutta Kalita,
+                                            Associate Professor and HoD, Dept of Biotechnology, RSBSC
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="justify-align-center">All Faculty members of the Department Members
+                                            (Ex-Officio)</td>
+                                        <td>Dr. Debajit Borah,
+                                            Associate Professor, Dept of Biotechnology,RSBSC
+                                            <hr>
+                                            Dr. Rupesh Kumar,
+                                            Assistant Professor, Dept of Biotechnology,RSBSC
+                                            <hr>Dr. Bhaskarjyoti Gogoi,
+                                            Assistant Professor, Dept of Biotechnology,RSBSC
+                                            <hr>Dr. Siddhartha Narayan Borah,
+                                            Assistant Professor, Dept of Biotechnology,RSBSC
+                                            <hr>Dr.Rupsikha Patowary,
+                                            Assistant Professor, Dept of Biotechnology,RSBSC
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>External Expert</td>
+                                        <td>Prof. Probodh Borah,
+                                            Professor and Head of Dept, Dept. Of Animal Biotechnology, College of
+                                            Vererinary
+                                            Sciences, Assam Agricultural University, Khanapara, Guwahati
+                                            <hr>Dr.Hridip Kr Sarma,
+                                            Associate Professor, Dept of Biotechnology, Gauhati University
+
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Departmental Research Committee (DRC) -->
+                <div style="margin-bottom:20px;">
+                    <button id="mobAccBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
+          background:linear-gradient(135deg,#24477f,#1a365d);
+          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
+                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
+                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                    </button>
+
+                    <div id="mobAccPanel2"
+                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
+
+                        <div class="table-responsive">
+                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
+                                <thead class="text-white" style="background-color: #27467A;">
+                                    <tr>
+                                        <th class="text-white">#</th>
+                                        <th class="text-white">Content</th>
+                                        <th class="text-white">Name of the Member</th>
+                                        <th class="text-white">Designation</th>
+                                        <th class="text-white">Designation in the committee</th>
+                                    </tr>
                                 </thead>
                                 <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
                                     <tr>
@@ -941,97 +681,1237 @@
                             </table>
 
                         </div>
+
                     </div>
                 </div>
 
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
 
-                    <div class="p-2">
+            </div>
 
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                                <strong>
-                                                    Under Graduate
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="row">
+            <script>
+                const mobAccPairs = [
+                    { btn: 'mobAccBtn1', panel: 'mobAccPanel1' },
+                    { btn: 'mobAccBtn2', panel: 'mobAccPanel2' },
+                ];
 
-                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/course-structure-bsc-bio-tech.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus - B.Sc. Biotechnology
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
+                function closeAllMob() {
+                    mobAccPairs.forEach(p => {
+                        const b = document.getElementById(p.btn);
+                        const panel = document.getElementById(p.panel);
+                        if (panel) panel.style.display = 'none';
+                        if (b) {
+                            b.setAttribute('aria-expanded', 'false');
+                            const sp = b.querySelector('span');
+                            if (sp) sp.textContent = '＋';
+                        }
+                    });
+                }
 
-                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/detailed-syllabus-bsc-bio-tech.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Sc. Biotechnology
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
+                mobAccPairs.forEach(p => {
+                    const b = document.getElementById(p.btn);
+                    const panel = document.getElementById(p.panel);
+                    if (!b || !panel) return;
 
-                                                </div>
+                    b.addEventListener('click', function () {
+                        const isOpen = this.getAttribute('aria-expanded') === 'true';
+                        if (isOpen) {
+                            panel.style.display = 'none';
+                            this.setAttribute('aria-expanded', 'false');
+                            const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
+                        } else {
+                            closeAllMob();
+                            panel.style.display = 'block';
+                            this.setAttribute('aria-expanded', 'true');
+                            const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
+                        }
+                    });
+                });
 
-                                            </div>
+                document.addEventListener('keydown', function (e) {
+                    if (e.key === 'Escape') closeAllMob();
+                });
+            </script>
+            <!-- Mobile-Friendly Board of Studies & DRC -->
+
+        </div>
+
+        <div class="website">
+            @include('frontend/components/aheader')
+            <!-- floating button  -->
+            <div>
+                <a href="https://admissions.rgu.ac/" style="
+                                                                        position: fixed;
+                                                                        bottom: 35px;
+                                                                        right: 50px;
+                                                                        background-color: #ef991f;
+                                                                        color: #fff;
+                                                                        padding: 12px 20px;
+                                                                        font-size: 18px;
+                                                                        font-weight: bold;
+                                                                        text-decoration: none;
+                                                                        border-radius: 20px;
+                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                        z-index: 1000;
+                                                                        overflow: hidden;
+                                                                        animation: pulse 2s infinite;
+                                                                        ">
+                    <span style="
+                                                                        position: absolute;
+                                                                        top: 0;
+                                                                        left: -75%;
+                                                                        width: 50%;
+                                                                        height: 100%;
+                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                        transform: skewX(-25deg);
+                                                                        animation: shine 2s infinite;
+                                                                        "></span>
+                    Admission Open - Apply Now
+                </a>
+                <style>
+                    @keyframes pulse {
+                        0% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
+
+                        50% {
+                            transform: scale(1.05);
+                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
+                        }
+
+                        100% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
+                    }
+
+                    @keyframes shine {
+                        0% {
+                            left: -75%;
+                        }
+
+                        100% {
+                            left: 125%;
+                        }
+                    }
+                </style>
+            </div>
+            <!-- floating button  -->
+            <section>
+
+                <!-- floating buttons  -->
+                <div
+                    style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
+
+                    <!-- About -->
+                    <a href="#about" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
+                    </a>
+
+                    <!-- Course -->
+                    <a href="#course" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
+                            Offered</span>
+                    </a>
+
+                    <!-- Syllabus -->
+                    <a href="#syllabus" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure
+                            &
+                            Syllabus</span>
+                    </a>
+
+                    <!-- Events -->
+                    <a href="#events" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
+                            Highlights</span>
+                    </a>
+
+                    <!-- Academic Excellence -->
+                    <a href="#academic-excellence" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
+                            Excellence</span>
+                    </a>
+
+                    <!-- BOS -->
+                    <a href="#bos" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
+                            Studies</span>
+                    </a>
+
+                    <!-- DRC -->
+                    <a href="#drc" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
+                    </a>
+
+                </div>
+                <!-- floating buttons  -->
+
+                <section id="about">
+                    <section style="background-color: #FFF8F0;">
+                        <div class="p-5">
+                            <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Department of
+                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Biotechnology</span>
+                            </h1>
+
+                            <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
+                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Royal School of</span>
+                                Bio-Sciences (RSBSC)
+                            </h2>
+                        </div>
+
+                        <div class="container p-4">
+                            <div class="row align-items-center gx-5">
+
+                                <div class="col-lg-6 text-center">
+                                    <div class="kd-about-3-img-wrap txaa-slide-down-1">
+                                        <div>
+                                            <img class="rounded w-60" decoding="async"
+                                                src="mobile-assets/department-all/rsbsc/biotechnology/headimg.png" alt="">
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                <strong>
-                                                    Post Graduate
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="row">
+                                </div>
 
-                                                    <a href="mobile-assets/department-all/dept-biotech/updated-syllabus/detailed-syllabus-msc-bio-tech.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - M.Sc. Biotechnology
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
+                                <div class="col-lg-6">
 
+                                    <h2 class="headd1" style="color: #264273; font-weight: 700;">
+                                        About <span style="color: #FF9A1E; font-weight: 500;">Department</span></h2>
+
+                                    <p class="mobile-para1 pt-3"
+                                        style="color: #264273; text-align: justify; line-height: 1.5;">
+                                        The Department of Biotechnology was established in the year 2018 with an objective
+                                        of imparting
+                                        quality education and carrying out of quality research in the subject area. The
+                                        department provides
+                                        graduate, masters and PhD programs in biotechnology, focusing on multidisciplinary
+                                        skills for
+                                        students to pursue careers in biotechnology and develop innovative ideas for
+                                        bio-entrepreneurship.
+                                        Various elective courses are floated by experienced faculty of the school, enabling
+                                        the students to
+                                        choose and receive specialization in the area of their research interest. The school
+                                        has faculty
+                                        members from reputable academic institutions and universities, with diverse and
+                                        inter-disciplinary
+                                        backgrounds, who align with national strategic development policies and their
+                                        demands.
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div style="background-color: #fff;">
+                            <div class="container p-4">
+                                <p style="color: #243B95; text-align: justify;" class="para1">
+                                    The school’s academic and research programs provide basic to advanced infrastructure for
+                                    the students
+                                    to enhance their technical and innovative skills. Upon completion of the requirements of
+                                    The Assam
+                                    Royal Global University’s degree in biotechnology—you will be able to understand and
+                                    apply basic
+                                    science, perform technical skills, learn written and oral communication skills, develop
+                                    critical
+                                    thinking, understand the societal and environmental impact of life sciences, and realize
+                                    practical
+                                    perspectives of biotechnology in the private sector and government.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div style="background-color: #fff;">
+                            <div class="p-5">
+                                <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Vision & Mission
+                                    <span class="headd1" style="color: #FF9A1E; font-weight: 500;">of the Department</span>
+                                </h1>
+
+                                <img class="w-100"
+                                    src="mobile-assets/department-all/rsbsc/biotechnology/vision-mission-web.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="p-4">
+                            <img class="w-100" src="mobile-assets/department-all/rsbsc/biotechnology/infra-web.png" alt="">
+                        </div>
+
+                    </section>
+                </section>
+
+                <section id="course">
+
+                    <div class="container">
+                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                            style="color: #27467A; font-weight: 900; font-size: 35px;">
+                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+
+                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                            <!-- Heading Section -->
+                            <div
+                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                                <span style="font-size:22px;">M.Sc. Bio-Technology</span>
+                                <span
+                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            </div>
+
+                            <!-- Statute Items -->
+                            <a target="_blank" href="programs-MSc-Bio-Technology" style="text-decoration:none;">
+                                <div
+                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 2
+                                        years</span>
+                                    <span>
+                                        <a class="para1 fw-bold"
+                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                                            href="programs-MSc-Bio-Technology">View Details</a>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                            <!-- Heading Section -->
+                            <div
+                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                                <span style="font-size:22px; padding-right: 20px;">B.Sc. Bio-Technology</span> | <span
+                                    style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours /
+                                    Honours with
+                                    Research</span>
+                                <span
+                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            </div>
+
+                            <!-- Statute Items -->
+                            <a target="_blank" href="programs-b-sc-bio-technology" style="text-decoration:none;">
+                                <div
+                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4
+                                        years</span>
+                                    <span>
+                                        <a class="para1 fw-bold"
+                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                                            href="programs-b-sc-bio-technology">View Details</a>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section id="syllabus">
+                    <div class="container">
+                        <div>
+                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                                style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
+                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
+                            </h2>
+
+                            <div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="accordion para1" id="accordionExample"
+                                            style="border-radius: 12px; overflow: hidden;">
+
+                                            <!-- UG -->
+                                            <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseOne" aria-expanded="false"
+                                                        aria-controls="collapseOne">
+                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <div class="row"
+                                                            style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                            <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/course-structure-bsc-bio-tech.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                                -- B.Sc. Biotechnology
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                            <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-bsc-bio-tech.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
+                                                                B.Sc. Biotechnology
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                <strong>
-                                                    Doctoral Programme
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <a href="phd" class=" para1" target="_blank"><strong>Click to View...</strong></a>
+
+                                            <!-- PG -->
+                                            <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseTwo" aria-expanded="false"
+                                                        aria-controls="collapseTwo">
+                                                        <i class="fa fa-university me-2"></i> Post Graduate
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <div class="row"
+                                                            style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                            <a href="mobile-assets/department-all/rsbsc/biotechnology/updated-syllabus/detailed-syllabus-msc-bio-tech.pdf"
+                                                                target="_blank"
+                                                                style="color: #27467A; font-weight: 500; text-decoration: none;">
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
+                                                                M.Sc. Biotechnology
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
+
+                                            <!-- Doctoral -->
+                                            <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                                        aria-controls="collapseThree">
+                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <a href="phd" class="para1" target="_blank"
+                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
+                                                            <i class="fa fa-external-link me-2"></i> Click to View...
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
+                </section>
+
+                <section id="events">
+                    <div class="container pb-4">
+                        <div class="row" style="display: flex; justify-content: center;">
+                            <div class="col-lg-12">
+                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                                    Events
+                                </h2>
+
+                                <div style="max-width: 100%; position: relative;">
+                                    <div style="border: 1px solid #ccc;">
+                                        <div id="scrollContainer"
+                                            style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
+                                            <table class="table table-borderless mb-0"
+                                                style="font-size: 16px; width: 100%;">
+                                                <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9;">
+
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    14-05-2025 | One day Seminar on Centenary Anniversary of
+                                                                    Quantum Mechanics.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    More
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    28-03-2025 | Invited Talk by Prof. Bipin Kumar Gupta.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    More
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    19-03-2025 | Invited Talk by Dr. Namrata Gogoi.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    More
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    28-02-2025 | National Science Day Celebration.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    More
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    24-02-2025 | Invited Talk by Dr. Hemen Kumar Kalita.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    More
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    21-02-2025 | Field visit to Center of Plasma Physics –
+                                                                    Institute for Plasma Research
+                                                                    (CPP-IPR) Guwahati.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    More
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    04-06-2022 | As part of the MoU with ICT Mumbai, a
+                                                                    lecture series was organized by the
+                                                                    Department of Chemistry and Biotechnology.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    More
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    13-03-2020 | Interactive session with Ms. Priyanka Das
+                                                                    Rajkakati.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    More
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <div style="text-align: center; margin-top: 15px;">
+                                        <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
+                  background: linear-gradient(135deg, #243B95, #151B5B);
+                  color: #fff; font-weight: 600; font-size: 16px;
+                  border-radius: 25px; text-decoration: none;
+                  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                  transition: all 0.3s ease-in-out;">
+                                            View All
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <script>
+                                    const scrollContainer = document.getElementById('scrollContainer');
+                                    const scrollContent = document.getElementById('scrollContent');
+
+                                    scrollContent.innerHTML += scrollContent.innerHTML;
+
+                                    let scrollPos = 0;
+                                    const scrollSpeed = 0.2;
+
+                                    function scrollStep() {
+                                        scrollPos += scrollSpeed;
+                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
+                                            scrollPos = 0;
+                                        }
+                                        scrollContainer.scrollTop = scrollPos;
+                                        requestAnimationFrame(scrollStep);
+                                    }
+
+                                    scrollStep();
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- <section id="academic-excellence">
+              <section
+                style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
+
+                <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
+                  Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
+                </h2>
+
+                <div
+                  style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
                 </div>
 
-            </div>
+                <div class="row">
+
+                  <div class="col-lg-6">
+
+                    <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
+                    </h2>
+
+                    <div
+                      style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
+                      <div style="padding: 30px 20px;">
+                        <div class="carousel" mask>
+                          <div class="carousel-track">
+
+                            <article class="bg-white text-dark rounded"
+                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para1 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Yubita Deka<br>
+                                    <span class="text-dark" style="font-size: 18px;">Physics</span>
+                                  </p>
+                                </div>
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para1 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Susmita Paul<br>
+                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
+                                  </p>
+                                </div>
+
+                              </div>
+
+                              <div class="rounded text-center"
+                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
+                              </div>
+
+                            </article>
+
+                            <article class="bg-white text-dark rounded"
+                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para1 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Bhaskar Jyoti Borah<br>
+                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
+                                  </p>
+                                </div>
+
+                              </div>
+
+                              <div class="rounded text-center"
+                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
+                              </div>
+
+                            </article>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <style>
+                      .carousel {
+                        --carousel-width: min(85vw, 650px);
+                        --carousel-item-width: 280px;
+                        --carousel-item-height: 350px;
+                        --carousel-item-gap: 2rem;
+                        position: relative;
+                        width: var(--carousel-width);
+                        overflow: hidden;
+                      }
+
+                      .carousel[mask] {
+                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+                      }
+
+                      .carousel-track {
+                        display: flex;
+                        gap: var(--carousel-item-gap);
+                        animation: marquee var(--carousel-duration) linear infinite;
+                      }
+
+                      .carousel article {
+                        flex: 0 0 var(--carousel-item-width);
+                        height: var(--carousel-item-height);
+                        display: grid;
+                        grid-template-rows: 200px auto 1fr auto;
+                        border-radius: 10px;
+                        background: white;
+                        color: #314158;
+                      }
+
+                      .carousel img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 15px !important;
+                      }
+
+                      .carousel article>*:not(img) {
+                        padding: 0 1rem;
+                      }
+
+                      @keyframes marquee {
+                        from {
+                          transform: translateX(0);
+                        }
+
+                        to {
+                          transform: translateX(var(--scroll-distance));
+                        }
+                      }
+                    </style>
+
+                    <script>
+                      const track = document.querySelector('.carousel-track');
+                      const cards = Array.from(track.children);
+
+                      cards.forEach(card => {
+                        track.appendChild(card.cloneNode(true));
+                      });
+
+                      const carouselEl = document.querySelector('.carousel');
+                      const styles = getComputedStyle(carouselEl);
+                      const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
+                      const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
+                      const totalCards = track.children.length;
+                      const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
+                      track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
+
+                      const speed = 80;
+                      const duration = halfTrackWidth / speed;
+                      track.style.setProperty('--carousel-duration', `${duration}s`);
+                    </script>
+
+                  </div>
+
+                  <div class="col-lg-6">
+
+                    <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
+                    </h2>
+
+                    <div
+                      style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
+                      <div style="padding: 30px 20px;">
+                        <div class="carousel2" mask>
+                          <div class="carousel-track2">
+
+                            <article class="bg-white text-dark rounded"
+                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para2 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Ritu Sharma<br>
+                                    <span class="text-dark" style="font-size: 18px;">Chemistry</span>
+                                  </p>
+                                </div>
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para2 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Anil Kumar<br>
+                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
+                                  </p>
+                                </div>
+
+                              </div>
+
+                              <div class="rounded text-center"
+                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
+                              </div>
+
+                            </article>
+
+                            <article class="bg-white text-dark rounded"
+                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para2 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Meera Das<br>
+                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
+                                  </p>
+                                </div>
+
+                              </div>
+
+                              <div class="rounded text-center"
+                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
+                              </div>
+
+                            </article>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <style>
+                      .carousel2 {
+                        --carousel-width: min(85vw, 650px);
+                        --carousel-item-width: 280px;
+                        --carousel-item-height: 350px;
+                        --carousel-item-gap: 2rem;
+                        position: relative;
+                        width: var(--carousel-width);
+                        overflow: hidden;
+                      }
+
+                      .carousel2[mask] {
+                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+                      }
+
+                      .carousel-track2 {
+                        display: flex;
+                        gap: var(--carousel-item-gap);
+                        animation: marquee2 var(--carousel-duration) linear infinite;
+                      }
+
+                      .carousel2 article {
+                        flex: 0 0 var(--carousel-item-width);
+                        height: var(--carousel-item-height);
+                        display: grid;
+                        grid-template-rows: 200px auto 1fr auto;
+                        border-radius: 10px;
+                        background: white;
+                        color: #314158;
+                      }
+
+                      .carousel2 img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 15px !important;
+                      }
+
+                      .carousel2 article>*:not(img) {
+                        padding: 0 1rem;
+                      }
+
+                      @keyframes marquee2 {
+                        from {
+                          transform: translateX(0);
+                        }
+
+                        to {
+                          transform: translateX(var(--scroll-distance));
+                        }
+                      }
+                    </style>
+
+                    <script>
+                      const track2 = document.querySelector('.carousel-track2');
+                      const cards2 = Array.from(track2.children);
+
+                      cards2.forEach(card => {
+                        track2.appendChild(card.cloneNode(true));
+                      });
+
+                      const carouselEl2 = document.querySelector('.carousel2');
+                      const styles2 = getComputedStyle(carouselEl2);
+                      const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
+                      const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
+                      const totalCards2 = track2.children.length;
+                      const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
+                      track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
+
+                      const speed2 = 80;
+                      const duration2 = halfTrackWidth2 / speed2;
+                      track2.style.setProperty('--carousel-duration', `${duration2}s`);
+                    </script>
+
+                  </div>
+
+                </div>
+
+              </section>
+            </section> -->
+
+                <div id="bos" class="container pb-5 pt-5">
+
+                    <!-- Container -->
+                    <div id="drc" style="margin:0 auto;">
+
+                        <!-- Row 1 -->
+                        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
+
+
+                            <!-- Board of Studies -->
+                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
+                                <div
+                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
+                                    <button id="accBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
+                       background:linear-gradient(135deg,#24477f,#1a365d);
+                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
+                                        <i class="fa fa-users me-2"></i> The Board of Studies
+                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                                    </button>
+                                    <div id="accPanel1"
+                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
+
+                                        <div class="table-responsive">
+                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
+                                                <thead class="text-white" style="background-color: #27467A;">
+                                                    <tr>
+                                                        <th class="text-white">#</th>
+                                                        <th class="text-white">Position in D-BoS</th>
+                                                        <th class="text-white">Name and Designation</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="para1 align-middle"
+                                                    style="background-color: #f9f9f9; text-align: start;">
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Convener (Ex-Officio)- Head of the Department</td>
+                                                        <td>Dr. Ranjan Dutta Kalita,
+                                                            Associate Professor and HoD, Dept of Biotechnology, RSBSC
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td class="justify-align-center">All Faculty members of the
+                                                            Department Members
+                                                            (Ex-Officio)</td>
+                                                        <td>Dr. Debajit Borah,
+                                                            Associate Professor, Dept of Biotechnology,RSBSC
+                                                            <hr>
+                                                            Dr. Rupesh Kumar,
+                                                            Assistant Professor, Dept of Biotechnology,RSBSC
+                                                            <hr>Dr. Bhaskarjyoti Gogoi,
+                                                            Assistant Professor, Dept of Biotechnology,RSBSC
+                                                            <hr>Dr. Siddhartha Narayan Borah,
+                                                            Assistant Professor, Dept of Biotechnology,RSBSC
+                                                            <hr>Dr.Rupsikha Patowary,
+                                                            Assistant Professor, Dept of Biotechnology,RSBSC
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>External Expert</td>
+                                                        <td>Prof. Probodh Borah,
+                                                            Professor and Head of Dept, Dept. Of Animal Biotechnology,
+                                                            College of
+                                                            Vererinary
+                                                            Sciences, Assam Agricultural University, Khanapara, Guwahati
+                                                            <hr>Dr.Hridip Kr Sarma,
+                                                            Associate Professor, Dept of Biotechnology, Gauhati University
+
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- DRC -->
+                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
+                                <div
+                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
+                                    <button id="accBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
+                       background:linear-gradient(135deg,#24477f,#1a365d);
+                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
+                                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
+                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                                    </button>
+                                    <div id="accPanel2"
+                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
+
+                                        <div class="table-responsive">
+                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 ">
+                                                <thead class="text-white" style="background-color: #27467A;">
+                                                    <tr>
+                                                        <th class="text-white">#</th>
+                                                        <th class="text-white">Content</th>
+                                                        <th class="text-white">Name of the Member</th>
+                                                        <th class="text-white">Designation</th>
+                                                        <th class="text-white">Designation in the committee</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="para1 align-middle"
+                                                    style="background-color: #f9f9f9; text-align: start;">
+                                                    <tr>
+                                                        <td>1.</td>
+                                                        <td>Head of the Department </td>
+                                                        <td>Dr. Debajit Borah</td>
+                                                        <td>Associate Prof. and Head, Dept. of Biotechnology </td>
+                                                        <td>Chairperson</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td rowspan="2">2.</td>
+                                                        <td rowspan="2" class="align-middle">Two Professors</td>
+                                                        <td>Prof. Anupam Chaterjee, </td>
+                                                        <td>Prof. and Dean, RSBSC </td>
+                                                        <td>Member</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Prof. Ranjan Dutta Kalita</td>
+                                                        <td>Professor, Dept. of Biotechnology </td>
+                                                        <td>Member </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td rowspan="2">3.</td>
+                                                        <td rowspan="2" class="align-middle">Two Assistant Professors
+                                                            holding Ph.D.
+                                                            degree
+                                                        </td>
+                                                        <td>Dr. Bhaskarjyoti Gogoi </td>
+                                                        <td>Asst. Prof., Dept. of Biotechnology</td>
+                                                        <td>Member </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Dr. Siddhartha Narayan Borah </td>
+                                                        <td>Asst. Prof., Dept. of Biotechnology</td>
+                                                        <td>Member&nbsp;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td rowspan="3">4.</td>
+                                                        <td rowspan="3" class="align-middle">Three external members not
+                                                            below the rank
+                                                            of
+                                                            Professors, including members from an allied department, who
+                                                            will be
+                                                            nominated
+                                                            by
+                                                            the URC </td>
+                                                        <td>Prof. Amlan Das </td>
+                                                        <td>Professor, Dept. of Microbiology </td>
+                                                        <td>External Member </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Prof. Minaram Nath</td>
+                                                        <td>Professor, Dept. of Botany </td>
+                                                        <td>External Member</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Prof. Bipul Nath </td>
+                                                        <td>Professor, Royal School of Pharmacy</td>
+                                                        <td>External Member</td>
+                                                    </tr>
+
+
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- JS remains same -->
+                    <script>
+
+                        const accPairs = [
+                            { btn: 'accBtn1', panel: 'accPanel1' },
+                            { btn: 'accBtn2', panel: 'accPanel2' }
+                        ];
+
+                        function closeAll() {
+                            accPairs.forEach(p => {
+                                const b = document.getElementById(p.btn);
+                                const panel = document.getElementById(p.panel);
+                                if (panel) panel.style.display = 'none';
+                                if (b) {
+                                    b.setAttribute('aria-expanded', 'false');
+                                    const sp = b.querySelector('span');
+                                    if (sp) sp.textContent = '＋';
+                                }
+                            });
+                        }
+
+                        accPairs.forEach(p => {
+                            const b = document.getElementById(p.btn);
+                            const panel = document.getElementById(p.panel);
+                            if (!b || !panel) return;
+
+                            b.addEventListener('click', function () {
+                                const isOpen = this.getAttribute('aria-expanded') === 'true';
+                                if (isOpen) {
+                                    panel.style.display = 'none';
+                                    this.setAttribute('aria-expanded', 'false');
+                                    const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
+                                } else {
+                                    closeAll();
+                                    panel.style.display = 'block';
+                                    this.setAttribute('aria-expanded', 'true');
+                                    const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
+                                }
+                            });
+                        });
+
+                        document.addEventListener('keydown', function (e) {
+                            if (e.key === 'Escape') closeAll();
+                        });
+                    </script>
+
+                </div>
+
+                <script>
+                    document.querySelectorAll('a.special-link').forEach(anchor => {
+                        anchor.addEventListener('mouseover', function () {
+                            this.style.width = '200px';
+                            this.querySelector('span').style.opacity = '1';
+                        });
+                        anchor.addEventListener('mouseout', function () {
+                            this.style.width = '42px';
+                            this.querySelector('span').style.opacity = '0';
+                        });
+                        anchor.addEventListener('click', function (e) {
+                            e.preventDefault();
+                            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                                behavior: 'smooth'
+                            });
+                        });
+                    });
+
+                </script>
+
+            </section>
 
         </div>
+
     </div>
 @endsection

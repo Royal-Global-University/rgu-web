@@ -1,518 +1,522 @@
 @extends('frontend.master')
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+
         <div class="mobile">
             @include('frontend/components/mobileheader')
-                    <!-- floating mob button  -->
-                    <div>
-                        <a href="https://admissions.rgu.ac" style="
-                                                                                                    position: fixed;
-                                                                                                    bottom: 25px;
-                                                                                                    right: 75px;
-                                                                                                    background-color: #ef991f;
-                                                                                                    color: #fff;
-                                                                                                    padding: 12px 20px;
-                                                                                                    font-size: 16px;
-                                                                                                    font-weight: bold;
-                                                                                                    text-decoration: none;
-                                                                                                    border-radius: 20px;
-                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                    z-index: 1000;
-                                                                                                    overflow: hidden;
-                                                                                                    animation: pulse 2s infinite;
-                                                                                                    ">
-                            <span style="
-                                                                                                    position: absolute;
-                                                                                                    top: 0;
-                                                                                                    left: -75%;
-                                                                                                    width: 50%;
-                                                                                                    height: 100%;
-                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                    transform: skewX(-25deg);
-                                                                                                    animation: shine 2s infinite;
-                                                                                                    "></span>
-                            Admission Open - Apply Now
-                        </a>
-                        <style>
-                            @keyframes pulse {
-                                0% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
+            <!-- floating mob button  -->
+            <div>
+                <a href="https://admissions.rgu.ac" style="
+                                                                                                        position: fixed;
+                                                                                                        bottom: 25px;
+                                                                                                        right: 75px;
+                                                                                                        background-color: #ef991f;
+                                                                                                        color: #fff;
+                                                                                                        padding: 12px 20px;
+                                                                                                        font-size: 16px;
+                                                                                                        font-weight: bold;
+                                                                                                        text-decoration: none;
+                                                                                                        border-radius: 20px;
+                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                                                        z-index: 1000;
+                                                                                                        overflow: hidden;
+                                                                                                        animation: pulse 2s infinite;
+                                                                                                        ">
+                    <span style="
+                                                                                                        position: absolute;
+                                                                                                        top: 0;
+                                                                                                        left: -75%;
+                                                                                                        width: 50%;
+                                                                                                        height: 100%;
+                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                                                        transform: skewX(-25deg);
+                                                                                                        animation: shine 2s infinite;
+                                                                                                        "></span>
+                    Admission Open - Apply Now
+                </a>
+                <style>
+                    @keyframes pulse {
+                        0% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
 
-                                50% {
-                                    transform: scale(1.05);
-                                    box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                                }
+                        50% {
+                            transform: scale(1.05);
+                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
+                        }
 
-                                100% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
-                            }
+                        100% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
+                    }
 
-                            @keyframes shine {
-                                0% {
-                                    left: -75%;
-                                }
+                    @keyframes shine {
+                        0% {
+                            left: -75%;
+                        }
 
-                                100% {
-                                    left: 125%;
-                                }
-                            }
-                        </style>
-                    </div>
-                    <!-- floating button  -->
-            <img class="pb-3" style="padding-top: 80px; position: relative;" src="https://media.rgu.ac/department-all/dept-communication-media/mob-top.png" alt="">
+                        100% {
+                            left: 125%;
+                        }
+                    }
+                </style>
+            </div>
+            <!-- floating button  -->
+            <!-- till about dept  -->
 
+            <section style="padding-top: 130px;">
+                <img src="mobile-assets/department-all/dept-communication-media/mob-top.png" alt="">
+                <img src="mobile-assets/department-all/dept-communication-media/mob-down.png" alt="">
+            </section>
+
+            <!-- till about dept  -->
+
+            <!-- courses offered  -->
             <div class="container">
-
-                <!-- courses section web  -->
-                <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
                     Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
+                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                    <!-- Heading Section -->
+                    <div
+                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
-                    <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
-                        <th class="text-light  font-weight-bold">SL. NO.</th>
-                        <th class="text-light  font-weight-bold">COURSES</th>
-                        <th class="text-light  font-weight-bold">DURATION</th>
-                        <th class="text-light  font-weight-bold">DETAILS</th>
-                    </thead>
-                    <tbody class="para1 bg-light">
+                        <span style="font-size:18px;">MA - J&MC</span>
+                        <span
+                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                    </div>
 
-                        <tr>
-                            <td>1.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">B.Sc - Animation & Visual Effects</strong><br>
-                                    Honours / Honours with Research
-                                </p>
-                            </td>
-                            <td class="para1">
-                                4 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-b-sc-animation-visual-effects"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
+                    <!-- Statute Items -->
+                    <a target="_blank" href="programs-MA-J&MC" style="text-decoration:none;">
+                        <div
+                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                        <tr>
-                            <td>2.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">B.A. - J&MC</strong><br>
-                                    Honours / Honours with Research
-                                </p>
-                            </td>
-                            <td class="para1">
-                                4 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-BA-J&MC"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
+                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">2 years</span>
+                            <span>
+                                <a class="para1 fw-bold"
+                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                    href="programs-MA-J&MC">View Details</a>
+                            </span>
+                        </div>
+                    </a>
+                </div>
 
-                        <tr>
-                            <td>3.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">M.Sc. - Animation & Visual Effects</strong>
-                                </p>
-                            </td>
-                            <td class="para1">
-                                2 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-MSc-Animation-&-Visual-Effects"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
+                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                    <!-- Heading Section -->
+                    <div
+                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                        <tr>
-                            <td>4.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">MA - J&MC</strong>
-                                </p>
-                            </td>
-                            <td class="para1">
-                                2 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-MA-J&MC"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
+                        <span style="font-size:18px;">M.Sc. - Animation & Visual Effects</span>
+                        <span
+                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                    </div>
 
-                    </tbody>
-                </table>
+                    <!-- Statute Items -->
+                    <a target="_blank" href="programs-MSc-Animation-&-Visual-Effects" style="text-decoration:none;">
+                        <div
+                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">2 years</span>
+                            <span>
+                                <a class="para1 fw-bold"
+                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                    href="programs-MSc-Animation-&-Visual-Effects">View Details</a>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+
+                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                    <!-- Heading Section -->
+                    <div
+                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                        <span style="font-size:18px;">B.A. - J&MC</span>
+                        <span
+                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                    </div>
+
+                    <!-- Statute Items -->
+                    <a target="_blank" href="programs-BA-J&MC" style="text-decoration:none;">
+                        <div
+                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
+                            <span>
+                                <a class="para1 fw-bold"
+                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                    href="programs-BA-J&MC">View Details</a>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+
+                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                    <!-- Heading Section -->
+                    <div
+                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                        <span style="font-size:18px;">B.Sc - Animation & Visual Effects</span>
+                        <span
+                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                    </div>
+
+                    <!-- Statute Items -->
+                    <a target="_blank" href="programs-b-sc-animation-visual-effects" style="text-decoration:none;">
+                        <div
+                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
+                            <span>
+                                <a class="para1 fw-bold"
+                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                    href="programs-b-sc-animation-visual-effects">View Details</a>
+                            </span>
+                        </div>
+                    </a>
+                </div>
 
             </div>
+            <!-- courses offered  -->
 
-            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-communication-media/mob-down.png" alt="">
-
-            <div class="container pb-5 pt-3">
+            <!-- syllabus  -->
+            <div class="container">
                 <div>
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
+                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
+                    </h2>
+
                     <div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="accordion para1" id="mobileAccordionCourses"
+                                    style="border-radius: 12px; overflow: hidden;">
 
-                        <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                            Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
+                                    <!-- UG -->
+                                    <div class="accordion-item"
+                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button collapsed"
+                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="false" aria-controls="collapseOne">
+                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body"
+                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="font-weight-bold text-white">Name</th>
-                                        <th class="font-weight-bold text-white">DESIGNATION</th>
-                                        <th class="font-weight-bold text-white">PURPOSE OF VISIT</th>
-                                        <th class="font-weight-bold text-white">DATE OF VISIT</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>Mr. Shahnab Alam</td>
-                                        <td>
-                                            "Trans-media professional, Creative Producer, Former Executive
-                                            producer at Yash Raj Films"
-                                        </td>
-                                        <td>Interactive session on Film making</td>
-                                        <td>6th March 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Abhijeet Deb</td>
-                                        <td>Northeast In charge for United News of India</td>
-                                        <td>"Speaker for Orientation Programme"</td>
-                                        <td>13th August 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>"Mr. Chinmoy Saikia, Bijoy Ghimmere, RJ Pallavi"</td>
-                                        <td>Team of 95FM Radio Mirchi</td>
-                                        <td>"Speakers for Orientation Programme"</td>
-                                        <td>13th August 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ms. Naheed Khan</td>
-                                        <td>
-                                            "Neuro-linguistic Practitioner, Behavioral Consultant &amp;
-                                            Inspirational Speaker"
-                                        </td>
-                                        <td>Inspirational Talk</td>
-                                        <td>28th August 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Suraj Mani</td>
-                                        <td>"Composer &amp; Frontline vocalist – Rockband Motherjane"</td>
-                                        <td>"Interactive session on the effect of music on students"</td>
-                                        <td>30th August 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Chinmoy Sarma</td>
-                                        <td>Founder of Sangeeta Communications</td>
-                                        <td>"Special Lecture on “Advertising”"</td>
-                                        <td>7th September 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ms. Mani Mahanta</td>
-                                        <td>Renowned writer &amp; Journalist</td>
-                                        <td>"Special Lecture on “Advertising”"</td>
-                                        <td>7th September 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Anjshuman Dey</td>
-                                        <td>Deputy General Manager, Times Group</td>
-                                        <td>"Special Lecture on “Advertising”"</td>
-                                        <td>7th September 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Anindo Basu</td>
-                                        <td>Mentor At Nikon School of Photography</td>
-                                        <td>Photography Workshop</td>
-                                        <td>11th September 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ms. Tanushree Hazarika</td>
-                                        <td>
-                                            "Founder of Tattva Creations, East Mojo &amp; Brahmaputra Valley
-                                            Film Festival"
-                                        </td>
-                                        <td>
-                                            "Interactive session on New Media &amp; Digital Marketing"
-                                        </td>
-                                        <td>6th March 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Paul Salopek</td>
-                                        <td>Journalist</td>
-                                        <td>"Interactive session on Art on story telling"</td>
-                                        <td>2nd April 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Priyanka Borpujari</td>
-                                        <td>Slow Journalist</td>
-                                        <td>"Interactive session on Art on story telling"</td>
-                                        <td>2nd April 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Jatin Srivastava</td>
-                                        <td>Associate Professor Ohio University</td>
-                                        <td>"National Seminar on Voice of the Grass - Roots"</td>
-                                        <td>14th and 16th May 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Enakshi Roy</td>
-                                        <td>Assistant Professor WK University USA</td>
-                                        <td>"National Seminar on Voice of the Grass - Roots"</td>
-                                        <td>14th and 16th May 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Ankuran Dutta</td>
-                                        <td>Guwahati University</td>
-                                        <td>"National Seminar on Voice of the Grass - Roots"</td>
-                                        <td>14th and 16th May 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Karma Paljor</td>
-                                        <td>Founder of East Mojo</td>
-                                        <td>Interactive session</td>
-                                        <td>16th August 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Jatin Srivastava</td>
-                                        <td>Associate Professor Ohio University</td>
-                                        <td>
-                                            "Interactive session on The world of communication with special
-                                            focus on journalism and new media"
-                                        </td>
-                                        <td>27th August 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Dr. K.G. Suresh</td>
-                                        <td>Jagran Lakecity University, Bhopal</td>
-                                        <td>
-                                            "Interactive session on Media yesterday, today, tomorrow a
-                                            perspective"
-                                        </td>
-                                        <td>30th August 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>"Mr. Saikh. Md. Sabah. Al. Ahmed"</td>
-                                        <td>Journalist</td>
-                                        <td>Interactive session</td>
-                                        <td>13th September 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Surendra Kumar</td>
-                                        <td>IPS, Inspector General of Police,CID, Assam</td>
-                                        <td>
-                                            "Interactive session on human trafficking, crimes committed
-                                            against women and children"
-                                        </td>
-                                        <td>16th September 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>"Ms.Jyotishmita Baruah"</td>
-                                        <td>"State winner of FBB Femina Miss India 2019"</td>
-                                        <td>Interactive session</td>
-                                        <td>19th September 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ms. Rima Das</td>
-                                        <td>Director</td>
-                                        <td>
-                                            "Interactive session on the changing trends and future of
-                                            cinema"
-                                        </td>
-                                        <td>23rd September 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Rishi Baruah</td>
-                                        <td>"Director of Business Development at Asomiya Pratidin"</td>
-                                        <td>"Interactive session on Importance of media business"</td>
-                                        <td>28th January 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Sunit Jain</td>
-                                        <td>MD &amp; Publisher G plus</td>
-                                        <td>Interactive session</td>
-                                        <td>2nd March 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Dhrubajit Chaliha</td>
-                                        <td>"Director Green Gold (Assam Pvt.Ltd Korangani Tea"</td>
-                                        <td>"Interactive session on Advertising and branding"</td>
-                                        <td>3rd March 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Mrinal Talukdar</td>
-                                        <td>Senior Journalist</td>
-                                        <td>
-                                            "Webinar on emergence of Mojo as the new trend in journalism
-                                            during emergencies"
-                                        </td>
-                                        <td>4th June 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Ujjwal Choudhury</td>
-                                        <td>Adam University, Kolkata</td>
-                                        <td>"Webinar on Impact of COVID 19 on media,"</td>
-                                        <td>1st July 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td>"Entertainment, Politics and society"</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Charvik</td>
-                                        <td>Assam University, Silchar</td>
-                                        <td>
-                                            "Webinar on Impact of COVID 19 on media, Entertainment, Politics
-                                            and society"
-                                        </td>
-                                        <td>1st July 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Ronnie Lahiri</td>
-                                        <td>Bollywood Film Producer</td>
-                                        <td>"Webinar on Movie Making and Film Production"</td>
-                                        <td>15th July 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Jayanta Kumar Sharma</td>
-                                        <td>
-                                            "Director Bhupen Hazarika School of Mass Communication, KKHSOU"
-                                        </td>
-                                        <td>Webinar on politics and Public Relations</td>
-                                        <td>19th May 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Asha Kuthari Charudhuri</td>
-                                        <td>"Professor Dept. of English Gauhati University"</td>
-                                        <td>Webinar on Rise of Digital Theater</td>
-                                        <td>28th May 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>"Ms Atreyee Borooah Thekedath"</td>
-                                        <td>"Founder of web.com (India) pvt. ltd"</td>
-                                        <td>"Webinar on building a branding"</td>
-                                        <td>11th June 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Portim sharma</td>
-                                        <td>
-                                            "Associate Professor and Head, Dept. of English Dikhowmukh
-                                            collage, Sivasagar"
-                                        </td>
-                                        <td>"Webinar on write right : leads that lead"</td>
-                                        <td>30th June 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Miguel Das Queah</td>
-                                        <td>Child Right Activist</td>
-                                        <td>"Webinar on communication for development"</td>
-                                        <td>26th October 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Ujjwal K Choudhury</td>
-                                        <td>Secretary of Global Media Education Council</td>
-                                        <td>
-                                            "Interactive session on COVID impact on media and post COVID
-                                            careers"
-                                        </td>
-                                        <td>13th Dec 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Nava Kumar Baro</td>
-                                        <td>Lead for PR, India Accelerator</td>
-                                        <td>"Interactive session on career in public relations"</td>
-                                        <td>8th Feb 2022</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ms. Kakoly K Chalihi</td>
-                                        <td>Journalist</td>
-                                        <td>
-                                            "Interactive session and workshop on Personal grooming for
-                                            professional careers"
-                                        </td>
-                                        <td>18th Feb 2022</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Miguel Das Queah</td>
-                                        <td>
-                                            "Child Right activist and founder of Utsah child rights
-                                            organization"
-                                        </td>
-                                        <td>"Lecture session on role of media on child Protection"</td>
-                                        <td>20th March 2024</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Ajit Pathaka</td>
-                                        <td>President Public Relation Society India</td>
-                                        <td>
-                                            "Webinar on Practicing public relations in the light of Santana
-                                            values"
-                                        </td>
-                                        <td>21st April 2024</td>
-                                    </tr>
-                                    <tr>
-                                        <td>"Mr. Rajeev Bhattacharyya"</td>
-                                        <td>Freelance Conflict Journalist</td>
-                                        <td>"Panel Discussion on Peace and conflict :"</td>
-                                        <td>3rd May 2024</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td>"journalism and its transition"</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Khaba Kabi</td>
-                                        <td>
-                                            Professor, Journalism and Mass communication, Rajiv Gandhi
-                                            University
-                                        </td>
-                                        <td>
-                                            "Panel Discussion on Peace and conflict : journalism and its
-                                            transition"
-                                        </td>
-                                        <td>3rd May 2024</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Judy Bordoloi</td>
-                                        <td>
-                                            "Senior Consultant and HOD Dept. of Obstetrics and Gynecology,
-                                            Apollo Excel Care Hospital"
-                                        </td>
-                                        <td>Interactive Session on Menstrual Hygiene Day</td>
-                                        <td>28th May 2024</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20UG.pdf"
+                                                        target="_blank" style="color: #27467A;">
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- J&M
+
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20UG%20AVE.pdf"
+                                                        target="_blank" style="color: #27467A;">
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus --
+                                                        Animation & Visual Effects
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/detailed-syllabus-bsc-animation-visualeffects.pdf"
+                                                        target="_blank" style="color: #27467A;">
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Animation
+                                                        & Visual Effects
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- PG -->
+                                    <div class="accordion-item"
+                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed"
+                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                <i class="fa fa-university me-2"></i> Post Graduate
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body"
+                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20PG%20%20(25th%20April%2025).pdf"
+                                                        target="_blank" style="color: #27467A;">
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- J&M
+
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Final%20Syllabus%20MA%20NEP%202025%20-2026.pdf"
+                                                        target="_blank" style="color: #27467A;">
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- J&M
+
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Doctoral -->
+                                    <div class="accordion-item"
+                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed"
+                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                <i class="fa fa-book me-2"></i> Doctoral Programme
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body"
+                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                <a href="phd" class="para1" target="_blank"
+                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
+                                                    <i class="fa fa-external-link me-2"></i> Click to View...
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- syllabus  -->
+
+            <hr>
+
+            <!-- events and highlights  -->
+            <div class="container pb-4">
+
+                <div class="row" style="display: flex; justify-content: center;">
+                    <div class="col-lg-12">
+                        <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
+                            Events
+                        </h2>
+
+                        <div style="max-width: 100%; position: relative;">
+                            <div style="border: 1px solid #ccc;">
+
+                                <div id="mobileEventScrollContainer"
+                                    style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
+                                    <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
+                                        <tbody class="para1" id="mobileEventScrollContent"
+                                            style="background-color: #f9f9f9; ">
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            06-03-2018 | Mr. Shahnab Alam (Trans-media professional,
+                                                            creative producer, former
+                                                            executive producer at Yash Raj Films) | Interactive session on
+                                                            film making.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            more
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            13-08-2018 | Mr. Abhijeet Deb (Northeast in charge for United
+                                                            News of India) | Speaker
+                                                            for orientation programme.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            more
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            13-08-2018 | Mr. Chinmoy Saikia, Bijoy Ghimmere, Rj Pallavi
+                                                            (Team of 95fm Radio
+                                                            Mirchi) | Speakers for orientation programme.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            more
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            28-08-2018 | Ms. Naheed Khan (Neuro-linguistic practitioner,
+                                                            behavioral consultant &
+                                                            inspirational speaker) | Inspirational talk.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            more
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            30-08-2018 | Mr. Suraj Mani (Composer & frontline vocalist –
+                                                            rockband Motherjane) |
+                                                            Interactive session on the effect of music on students.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            more
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            07-09-2018 | Mr. Chinmoy Sarma (Founder of Sangeeta
+                                                            Communications) | Special lecture
+                                                            on advertising.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            more
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: center; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Event Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div>
+                                                        <div style="font-weight: bold; color: #27467A;">
+                                                            07-09-2018 | Ms. Mani Mahanta (Renowned writer & journalist) |
+                                                            Special lecture on
+                                                            advertising.
+                                                        </div>
+                                                        <a href="#"
+                                                            style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                            more
+                                                            ...</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+
+                            </div>
+
+                            <div style="text-align: center; margin-top: 15px;">
+                                <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
+                background: linear-gradient(135deg, #243B95, #151B5B);
+                color: #fff; font-weight: 600; font-size: 16px;
+                border-radius: 25px; text-decoration: none;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                transition: all 0.3s ease-in-out;">
+                                    View All
+                                </a>
+                            </div>
+
+
+                        </div>
+
+                        <script>
+                            const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
+                            const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
+
+                            // Duplicate content for infinite scroll (mobile)
+                            mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
+
+                            let mobileEventScrollPos = 0;
+                            const mobileEventScrollSpeed = 0.2;
+
+                            function mobileEventScrollStep() {
+                                mobileEventScrollPos += mobileEventScrollSpeed;
+                                if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
+                                    mobileEventScrollPos = 0;
+                                }
+                                mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
+                                requestAnimationFrame(mobileEventScrollStep);
+                            }
+
+                            mobileEventScrollStep();
+                        </script>
+
                     </div>
                 </div>
 
 
-                <div>
-                    <div>
+            </div>
+            <!-- events and highlights  -->
 
-                        <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                            The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
+            <!-- Mobile-Friendly Board of Studies & DRC -->
+            <div id="bos-mobile" class="container pb-5">
+
+                <!-- Board of Studies -->
+                <div style="margin-bottom:20px;">
+                    <button id="mobAccBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
+          background:linear-gradient(135deg,#24477f,#1a365d);
+          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
+                        <i class="fa fa-users me-2"></i> The Board of Studies
+                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                    </button>
+
+                    <div id="mobAccPanel1"
+                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
 
                         <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
@@ -539,9 +543,9 @@
                                         <td>External Experts for each Department (Academic)</td>
                                         <td>
                                             Dr. Juri Hazarika, Assistant Professor, KKHSOU
-                                            <hr />
+                                            <hr>
                                             Dr. Rahul Chanda, Bureau Chief, G Plus
-                                            <hr />
+                                            <hr>
                                             Ms. Alaka Goswami, Academic Head, Arena Animation Centre
                                         </td>
                                     </tr>
@@ -559,7 +563,7 @@
                                         <td>
                                             Dr. Rashmi Sarmah, Assistant Professor, RSCOM
 
-                                            <hr />
+                                            <hr>
                                             Dr. Esha Chakraborty, Assistant Professor, RSCOM
                                         </td>
                                     </tr>
@@ -573,16 +577,21 @@
                                 </tbody>
                             </table>
                         </div>
+
                     </div>
                 </div>
 
+                <!-- Departmental Research Committee (DRC) -->
+                <div style="margin-bottom:20px;">
+                    <button id="mobAccBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
+          background:linear-gradient(135deg,#24477f,#1a365d);
+          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
+                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
+                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                    </button>
 
-                <div>
-                    <div>
-
-                        <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                            The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span>
-                        </h2>
+                    <div id="mobAccPanel2"
+                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
 
                         <div class="table-responsive">
                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
@@ -648,868 +657,1204 @@
                                 </tbody>
                             </table>
                         </div>
+
                     </div>
                 </div>
 
 
-                <div>
-
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
-
-                    <div class="p-2">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><strong>
-                                                    Under Graduate
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="row">
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure of syllabus - UG.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Structure of Syllabus - Journalism & Mass
-                                                        Communication
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure of syllabus - UG AVE.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Structure of Syllabus - Animation & Visual
-                                                        Effects
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/detailed-syllabus-bsc-animation-visualeffects.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Sc. Animation &
-                                                        Visual Effects
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>
-                                                    Post Graduate
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="row">
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure of syllabus - PG  (25th April 25).pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Structure of Syllabus - PG Journalism and
-                                                        Mass
-                                                        Communication
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Final Syllabus MA NEP 2025 -2026.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Syllabus (BASED ON NATIONAL EDUCATION POLICY
-                                                        2020) - PG
-                                                        Journalism and Mass Communication
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                <strong>
-                                                    Doctoral Programme
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <a href="phd" class="para1" target="_blank"><strong>Click to View...
-                                                    </strong></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6"></div>
-                        </div>
-                    </div>
-                </div>
             </div>
+
+            <script>
+                const mobAccPairs = [
+                    { btn: 'mobAccBtn1', panel: 'mobAccPanel1' },
+                    { btn: 'mobAccBtn2', panel: 'mobAccPanel2' },
+                ];
+
+                function closeAllMob() {
+                    mobAccPairs.forEach(p => {
+                        const b = document.getElementById(p.btn);
+                        const panel = document.getElementById(p.panel);
+                        if (panel) panel.style.display = 'none';
+                        if (b) {
+                            b.setAttribute('aria-expanded', 'false');
+                            const sp = b.querySelector('span');
+                            if (sp) sp.textContent = '＋';
+                        }
+                    });
+                }
+
+                mobAccPairs.forEach(p => {
+                    const b = document.getElementById(p.btn);
+                    const panel = document.getElementById(p.panel);
+                    if (!b || !panel) return;
+
+                    b.addEventListener('click', function () {
+                        const isOpen = this.getAttribute('aria-expanded') === 'true';
+                        if (isOpen) {
+                            panel.style.display = 'none';
+                            this.setAttribute('aria-expanded', 'false');
+                            const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
+                        } else {
+                            closeAllMob();
+                            panel.style.display = 'block';
+                            this.setAttribute('aria-expanded', 'true');
+                            const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
+                        }
+                    });
+                });
+
+                document.addEventListener('keydown', function (e) {
+                    if (e.key === 'Escape') closeAllMob();
+                });
+            </script>
+            <!-- Mobile-Friendly Board of Studies & DRC -->
 
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
-                    <!-- floating button  -->
-                    <div>
-                        <a href="https://admissions.rgu.ac/" style="
-                                                                                                                position: fixed;
-                                                                                                                bottom: 35px;
-                                                                                                                right: 50px;
-                                                                                                                background-color: #ef991f;
-                                                                                                                color: #fff;
-                                                                                                                padding: 12px 20px;
-                                                                                                                font-size: 18px;
-                                                                                                                font-weight: bold;
-                                                                                                                text-decoration: none;
-                                                                                                                border-radius: 20px;
-                                                                                                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                z-index: 1000;
-                                                                                                                overflow: hidden;
-                                                                                                                animation: pulse 2s infinite;
-                                                                                                                ">
-                            <span style="
-                                                                                                                position: absolute;
-                                                                                                                top: 0;
-                                                                                                                left: -75%;
-                                                                                                                width: 50%;
-                                                                                                                height: 100%;
-                                                                                                                background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                transform: skewX(-25deg);
-                                                                                                                animation: shine 2s infinite;
-                                                                                                                "></span>
-                            Admission Open - Apply Now
-                        </a>
-                        <style>
-                            @keyframes pulse {
-                                0% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
+            <!-- floating button  -->
+            <div>
+                <a href="https://admissions.rgu.ac/" style="
+                                                                                                                    position: fixed;
+                                                                                                                    bottom: 35px;
+                                                                                                                    right: 50px;
+                                                                                                                    background-color: #ef991f;
+                                                                                                                    color: #fff;
+                                                                                                                    padding: 12px 20px;
+                                                                                                                    font-size: 18px;
+                                                                                                                    font-weight: bold;
+                                                                                                                    text-decoration: none;
+                                                                                                                    border-radius: 20px;
+                                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                                                                    z-index: 1000;
+                                                                                                                    overflow: hidden;
+                                                                                                                    animation: pulse 2s infinite;
+                                                                                                                    ">
+                    <span
+                        style="
+                                                                                                                    position: absolute;
+                                                                                                                    top: 0;
+                                                                                                                    left: -75%;
+                                                                                                                    width: 50%;
+                                                                                                                    height: 100%;
+                                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                                                                    transform: skewX(-25deg);
+                                                                                                                    animation: shine 2s infinite;
+                                                                                                                    "></span>
+                    Admission Open - Apply Now
+                </a>
+                <style>
+                    @keyframes pulse {
+                        0% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
 
-                                50% {
-                                    transform: scale(1.05);
-                                    box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                                }
+                        50% {
+                            transform: scale(1.05);
+                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
+                        }
 
-                                100% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
-                            }
+                        100% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
+                    }
 
-                            @keyframes shine {
-                                0% {
-                                    left: -75%;
-                                }
+                    @keyframes shine {
+                        0% {
+                            left: -75%;
+                        }
 
-                                100% {
-                                    left: 125%;
-                                }
-                            }
-                        </style>
-                    </div>
-                    <!-- floating button  -->
-            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-communication-media/web-top.png" alt="">
-
-            <div class="container">
-
-                <!-- courses section web  -->
-                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-
-                <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
-                    <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
-                        <th class="text-light  font-weight-bold">SL. NO.</th>
-                        <th class="text-light  font-weight-bold">COURSES</th>
-                        <th class="text-light  font-weight-bold">DURATION</th>
-                        <th class="text-light  font-weight-bold">DETAILS</th>
-                    </thead>
-                    <tbody class="para1 bg-light">
-
-                        <tr>
-                            <td>1.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">B.Sc - Animation & Visual Effects</strong><br>
-                                    Honours / Honours with Research
-                                </p>
-                            </td>
-                            <td class="para1">
-                                4 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-b-sc-animation-visual-effects"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>2.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">B.A. - J&MC</strong><br>
-                                    Honours / Honours with Research
-                                </p>
-                            </td>
-                            <td class="para1">
-                                4 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-BA-J&MC"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>3.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">M.Sc. - Animation & Visual Effects</strong>
-                                </p>
-                            </td>
-                            <td class="para1">
-                                2 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-MSc-Animation-&-Visual-Effects"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>4.</td>
-                            <td>
-                                <p>
-                                    <strong style="color: #023e8a;" class="#">MA - J&MC</strong>
-                                </p>
-                            </td>
-                            <td class="para1">
-                                2 years
-                            </td>
-                            <td>
-                                <a target="_blank" href="programs-MA-J&MC"><button type="button"
-                                        style="background-color: #FF9A1E; color: #fff;"
-                                        class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
-
+                        100% {
+                            left: 125%;
+                        }
+                    }
+                </style>
             </div>
+            <!-- floating button  -->
+            <section>
 
-            <img class="pb-3" src="https://media.rgu.ac/department-all/dept-communication-media/web-down.png" alt="">
+                <!-- floating buttons  -->
+                <div
+                    style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
 
-            <div class="container pb-5 pt-3">
-                <div>
-                    <div>
+                    <!-- About -->
+                    <a href="#about" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
+                    </a>
 
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                            Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
+                    <!-- Course -->
+                    <a href="#course" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
+                            Offered</span>
+                    </a>
 
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="font-weight-bold text-white">Name</th>
-                                        <th class="font-weight-bold text-white">DESIGNATION</th>
-                                        <th class="font-weight-bold text-white">PURPOSE OF VISIT</th>
-                                        <th class="font-weight-bold text-white">DATE OF VISIT</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>Mr. Shahnab Alam</td>
-                                        <td>
-                                            "Trans-media professional, Creative Producer, Former Executive
-                                            producer at Yash Raj Films"
-                                        </td>
-                                        <td>Interactive session on Film making</td>
-                                        <td>6th March 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Abhijeet Deb</td>
-                                        <td>Northeast In charge for United News of India</td>
-                                        <td>"Speaker for Orientation Programme"</td>
-                                        <td>13th August 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>"Mr. Chinmoy Saikia, Bijoy Ghimmere, RJ Pallavi"</td>
-                                        <td>Team of 95FM Radio Mirchi</td>
-                                        <td>"Speakers for Orientation Programme"</td>
-                                        <td>13th August 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ms. Naheed Khan</td>
-                                        <td>
-                                            "Neuro-linguistic Practitioner, Behavioral Consultant &amp;
-                                            Inspirational Speaker"
-                                        </td>
-                                        <td>Inspirational Talk</td>
-                                        <td>28th August 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Suraj Mani</td>
-                                        <td>"Composer &amp; Frontline vocalist – Rockband Motherjane"</td>
-                                        <td>"Interactive session on the effect of music on students"</td>
-                                        <td>30th August 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Chinmoy Sarma</td>
-                                        <td>Founder of Sangeeta Communications</td>
-                                        <td>"Special Lecture on “Advertising”"</td>
-                                        <td>7th September 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ms. Mani Mahanta</td>
-                                        <td>Renowned writer &amp; Journalist</td>
-                                        <td>"Special Lecture on “Advertising”"</td>
-                                        <td>7th September 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Anjshuman Dey</td>
-                                        <td>Deputy General Manager, Times Group</td>
-                                        <td>"Special Lecture on “Advertising”"</td>
-                                        <td>7th September 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Anindo Basu</td>
-                                        <td>Mentor At Nikon School of Photography</td>
-                                        <td>Photography Workshop</td>
-                                        <td>11th September 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ms. Tanushree Hazarika</td>
-                                        <td>
-                                            "Founder of Tattva Creations, East Mojo &amp; Brahmaputra Valley
-                                            Film Festival"
-                                        </td>
-                                        <td>
-                                            "Interactive session on New Media &amp; Digital Marketing"
-                                        </td>
-                                        <td>6th March 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Paul Salopek</td>
-                                        <td>Journalist</td>
-                                        <td>"Interactive session on Art on story telling"</td>
-                                        <td>2nd April 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Priyanka Borpujari</td>
-                                        <td>Slow Journalist</td>
-                                        <td>"Interactive session on Art on story telling"</td>
-                                        <td>2nd April 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Jatin Srivastava</td>
-                                        <td>Associate Professor Ohio University</td>
-                                        <td>"National Seminar on Voice of the Grass - Roots"</td>
-                                        <td>14th and 16th May 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Enakshi Roy</td>
-                                        <td>Assistant Professor WK University USA</td>
-                                        <td>"National Seminar on Voice of the Grass - Roots"</td>
-                                        <td>14th and 16th May 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Ankuran Dutta</td>
-                                        <td>Guwahati University</td>
-                                        <td>"National Seminar on Voice of the Grass - Roots"</td>
-                                        <td>14th and 16th May 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Karma Paljor</td>
-                                        <td>Founder of East Mojo</td>
-                                        <td>Interactive session</td>
-                                        <td>16th August 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Jatin Srivastava</td>
-                                        <td>Associate Professor Ohio University</td>
-                                        <td>
-                                            "Interactive session on The world of communication with special
-                                            focus on journalism and new media"
-                                        </td>
-                                        <td>27th August 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Dr. K.G. Suresh</td>
-                                        <td>Jagran Lakecity University, Bhopal</td>
-                                        <td>
-                                            "Interactive session on Media yesterday, today, tomorrow a
-                                            perspective"
-                                        </td>
-                                        <td>30th August 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>"Mr. Saikh. Md. Sabah. Al. Ahmed"</td>
-                                        <td>Journalist</td>
-                                        <td>Interactive session</td>
-                                        <td>13th September 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Surendra Kumar</td>
-                                        <td>IPS, Inspector General of Police,CID, Assam</td>
-                                        <td>
-                                            "Interactive session on human trafficking, crimes committed
-                                            against women and children"
-                                        </td>
-                                        <td>16th September 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>"Ms.Jyotishmita Baruah"</td>
-                                        <td>"State winner of FBB Femina Miss India 2019"</td>
-                                        <td>Interactive session</td>
-                                        <td>19th September 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ms. Rima Das</td>
-                                        <td>Director</td>
-                                        <td>
-                                            "Interactive session on the changing trends and future of
-                                            cinema"
-                                        </td>
-                                        <td>23rd September 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Rishi Baruah</td>
-                                        <td>"Director of Business Development at Asomiya Pratidin"</td>
-                                        <td>"Interactive session on Importance of media business"</td>
-                                        <td>28th January 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Sunit Jain</td>
-                                        <td>MD &amp; Publisher G plus</td>
-                                        <td>Interactive session</td>
-                                        <td>2nd March 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Dhrubajit Chaliha</td>
-                                        <td>"Director Green Gold (Assam Pvt.Ltd Korangani Tea"</td>
-                                        <td>"Interactive session on Advertising and branding"</td>
-                                        <td>3rd March 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Mrinal Talukdar</td>
-                                        <td>Senior Journalist</td>
-                                        <td>
-                                            "Webinar on emergence of Mojo as the new trend in journalism
-                                            during emergencies"
-                                        </td>
-                                        <td>4th June 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Ujjwal Choudhury</td>
-                                        <td>Adam University, Kolkata</td>
-                                        <td>"Webinar on Impact of COVID 19 on media,"</td>
-                                        <td>1st July 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td>"Entertainment, Politics and society"</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Charvik</td>
-                                        <td>Assam University, Silchar</td>
-                                        <td>
-                                            "Webinar on Impact of COVID 19 on media, Entertainment, Politics
-                                            and society"
-                                        </td>
-                                        <td>1st July 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Ronnie Lahiri</td>
-                                        <td>Bollywood Film Producer</td>
-                                        <td>"Webinar on Movie Making and Film Production"</td>
-                                        <td>15th July 2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Jayanta Kumar Sharma</td>
-                                        <td>
-                                            "Director Bhupen Hazarika School of Mass Communication, KKHSOU"
-                                        </td>
-                                        <td>Webinar on politics and Public Relations</td>
-                                        <td>19th May 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Asha Kuthari Charudhuri</td>
-                                        <td>"Professor Dept. of English Gauhati University"</td>
-                                        <td>Webinar on Rise of Digital Theater</td>
-                                        <td>28th May 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>"Ms Atreyee Borooah Thekedath"</td>
-                                        <td>"Founder of web.com (India) pvt. ltd"</td>
-                                        <td>"Webinar on building a branding"</td>
-                                        <td>11th June 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Portim sharma</td>
-                                        <td>
-                                            "Associate Professor and Head, Dept. of English Dikhowmukh
-                                            collage, Sivasagar"
-                                        </td>
-                                        <td>"Webinar on write right : leads that lead"</td>
-                                        <td>30th June 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Miguel Das Queah</td>
-                                        <td>Child Right Activist</td>
-                                        <td>"Webinar on communication for development"</td>
-                                        <td>26th October 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Ujjwal K Choudhury</td>
-                                        <td>Secretary of Global Media Education Council</td>
-                                        <td>
-                                            "Interactive session on COVID impact on media and post COVID
-                                            careers"
-                                        </td>
-                                        <td>13th Dec 2021</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Nava Kumar Baro</td>
-                                        <td>Lead for PR, India Accelerator</td>
-                                        <td>"Interactive session on career in public relations"</td>
-                                        <td>8th Feb 2022</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ms. Kakoly K Chalihi</td>
-                                        <td>Journalist</td>
-                                        <td>
-                                            "Interactive session and workshop on Personal grooming for
-                                            professional careers"
-                                        </td>
-                                        <td>18th Feb 2022</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mr. Miguel Das Queah</td>
-                                        <td>
-                                            "Child Right activist and founder of Utsah child rights
-                                            organization"
-                                        </td>
-                                        <td>"Lecture session on role of media on child Protection"</td>
-                                        <td>20th March 2024</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Ajit Pathaka</td>
-                                        <td>President Public Relation Society India</td>
-                                        <td>
-                                            "Webinar on Practicing public relations in the light of Santana
-                                            values"
-                                        </td>
-                                        <td>21st April 2024</td>
-                                    </tr>
-                                    <tr>
-                                        <td>"Mr. Rajeev Bhattacharyya"</td>
-                                        <td>Freelance Conflict Journalist</td>
-                                        <td>"Panel Discussion on Peace and conflict :"</td>
-                                        <td>3rd May 2024</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td>"journalism and its transition"</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Khaba Kabi</td>
-                                        <td>
-                                            Professor, Journalism and Mass communication, Rajiv Gandhi
-                                            University
-                                        </td>
-                                        <td>
-                                            "Panel Discussion on Peace and conflict : journalism and its
-                                            transition"
-                                        </td>
-                                        <td>3rd May 2024</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Judy Bordoloi</td>
-                                        <td>
-                                            "Senior Consultant and HOD Dept. of Obstetrics and Gynecology,
-                                            Apollo Excel Care Hospital"
-                                        </td>
-                                        <td>Interactive Session on Menstrual Hygiene Day</td>
-                                        <td>28th May 2024</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+                    <!-- Syllabus -->
+                    <a href="#syllabus" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure
+                            &
+                            Syllabus</span>
+                    </a>
+
+                    <!-- Events -->
+                    <a href="#events" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
+                            Highlights</span>
+                    </a>
+
+                    <!-- Academic Excellence -->
+                    <a href="#academic-excellence" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
+                            Excellence</span>
+                    </a>
+
+                    <!-- BOS -->
+                    <a href="#bos" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
+                            Studies</span>
+                    </a>
+
+                    <!-- DRC -->
+                    <a href="#drc" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
+                    </a>
+
                 </div>
+                <!-- floating buttons  -->
 
+                <section id="about">
 
-                <div>
-                    <div>
+                    <img src="mobile-assets/department-all/dept-communication-media/web-top.png" alt="">
+                    <img src="mobile-assets/department-all/dept-communication-media/web-down.png" alt="">
 
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                            The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
+                </section>
 
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Position in S-BoS</th>
-                                        <th class="text-white">Name and Designation</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Chairperson (Ex-Officio) Dean of School</td>
-                                        <td>Prof. P. J. Mahanta, Dean I/C, RSCOM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>All Heads of the Departments - Member (Ex-Officio)</td>
-                                        <td>Ms. Florenc Handique Rabha, Head, RSCOM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>External Experts for each Department (Academic)</td>
-                                        <td>
-                                            Dr. Juri Hazarika, Assistant Professor, KKHSOU
-                                            <hr />
-                                            Dr. Rahul Chanda, Bureau Chief, G Plus
-                                            <hr />
-                                            Ms. Alaka Goswami, Academic Head, Arena Animation Centre
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>External Experts for each Department (Industry)</td>
-                                        <td>Mr. Suraj Duwara, Film Maker</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>
-                                            Two Faculty members of the School nominated by the Vice
-                                            Chancellor
-                                        </td>
-                                        <td>
-                                            Dr. Rashmi Sarmah, Assistant Professor, RSCOM
+                <section id="course">
 
-                                            <hr />
-                                            Dr. Esha Chakraborty, Assistant Professor, RSCOM
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>
-                                            Registrar, Member Secretary (Ex-officio)/Registrar nominee
-                                        </td>
-                                        <td>Dr. Dip Narayain Singh, Registrar or his nominee</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    <div class="container">
+                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                            style="color: #27467A; font-weight: 900; font-size: 35px;">
+                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+
+                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                            <!-- Heading Section -->
+                            <div
+                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                                <span style="font-size:22px;">MA - J&MC</span>
+                                <span
+                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            </div>
+
+                            <!-- Statute Items -->
+                            <a target="_blank" href="programs-MA-J&MC" style="text-decoration:none;">
+                                <div
+                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 2
+                                        years</span>
+                                    <span>
+                                        <a class="para1 fw-bold"
+                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                                            href="programs-MA-J&MC">View Details</a>
+                                    </span>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                </div>
 
+                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                            <!-- Heading Section -->
+                            <div
+                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                <div>
-                    <div>
+                                <span style="font-size:22px;">M.Sc. - Animation & Visual Effects</span>
+                                <span
+                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            </div>
 
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                            The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span>
-                        </h2>
+                            <!-- Statute Items -->
+                            <a target="_blank" href="programs-MSc-Animation-&-Visual-Effects" style="text-decoration:none;">
+                                <div
+                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                        <div class="table-responsive">
-                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                                <thead class="text-white" style="background-color: #27467a">
-                                    <tr>
-                                        <th class="text-white">#</th>
-                                        <th class="text-white">Content</th>
-                                        <th class="text-white">Name of the Member</th>
-                                        <th class="text-white">Designation</th>
-                                        <th class="text-white">Designation in the committee</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Head of the Department</td>
-                                        <td>Dr. Florence Handique Rabha</td>
-                                        <td>Assistant Professor &amp; Head, RSCOM</td>
-                                        <td>Chairperson</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Two Professors</td>
-                                        <td>Prof. (Dr.) Suresh Chandra Nayak</td>
-                                        <td>Dean i/c, RSCOM</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">3</td>
-                                        <td rowspan="2" class="align-middle">
-                                            Two Assistant Professors holding Ph.D. degree
-                                        </td>
-                                        <td>Dr. Rashmi Sarmah</td>
-                                        <td>Assistant Professor, RSCOM</td>
-                                        <td>Member Secretary</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Haoginlen Chongloi</td>
-                                        <td>Assistant Professor, RSCOM</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="3">4</td>
-                                        <td rowspan="3" class="align-middle">
-                                            Three external members not below the rank of Professors,
-                                            including members froman allied department, who will be
-                                            nominated by the URC
-                                        </td>
-                                        <td>Prof. (Dr.) Sajal Nag</td>
-                                        <td>Dean i/c, RSHSS</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. (Dr) Hari Prasad Agarwal</td>
-                                        <td>Dean i/c, RSA, RSFD &amp; RSFA</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. (Dr.) BS Mipun</td>
-                                        <td>Professor &amp; Dean, Students’ Affairs</td>
-                                        <td>External Member</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 2
+                                        years</span>
+                                    <span>
+                                        <a class="para1 fw-bold"
+                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                                            href="programs-MSc-Animation-&-Visual-Effects">View Details</a>
+                                    </span>
+                                </div>
+                            </a>
                         </div>
+
+                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                            <!-- Heading Section -->
+                            <div
+                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                                <span style="font-size:22px; padding-right: 20px;">B.A. - J&MC</span> | <span
+                                    style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours /
+                                    Honours with
+                                    Research</span>
+                                <span
+                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            </div>
+
+                            <!-- Statute Items -->
+                            <a target="_blank" href="programs-BA-J&MC" style="text-decoration:none;">
+                                <div
+                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4
+                                        years
+                                    </span>
+                                    <span>
+                                        <a class="para1 fw-bold"
+                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                                            href="programs-BA-J&MC">View Details</a>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                            <!-- Heading Section -->
+                            <div
+                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                                <span style="font-size:22px; padding-right: 20px;">B.Sc - Animation & Visual Effects</span>
+                                | <span style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours /
+                                    Honours with
+                                    Research</span>
+                                <span
+                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            </div>
+
+                            <!-- Statute Items -->
+                            <a target="_blank" href="programs-b-sc-animation-visual-effects" style="text-decoration:none;">
+                                <div
+                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4
+                                        years
+                                    </span>
+                                    <span>
+                                        <a class="para1 fw-bold"
+                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                                            href="programs-b-sc-animation-visual-effects">View Details</a>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
                     </div>
-                </div>
 
+                </section>
 
-                <div>
+                <section id="syllabus">
+                    <div class="container">
+                        <div>
+                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                                style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
+                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
+                            </h2>
 
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+                            <div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="accordion para1" id="accordionExample"
+                                            style="border-radius: 12px; overflow: hidden;">
 
-                    <div class="p-2">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><strong>
-                                                    Under Graduate
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="row">
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure of syllabus - UG.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Structure of Syllabus - Journalism & Mass
-                                                        Communication
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
+                                            <!-- UG -->
+                                            <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseOne" aria-expanded="false"
+                                                        aria-controls="collapseOne">
+                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <div class="row"
+                                                            style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure of syllabus - UG AVE.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Structure of Syllabus - Animation & Visual
-                                                        Effects
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
+                                                            <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20UG.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                                -- J&M
 
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/detailed-syllabus-bsc-animation-visualeffects.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - B.Sc. Animation &
-                                                        Visual Effects
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
 
+                                                            <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20UG%20AVE.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                                -- Animation & Visual Effects
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                            <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/detailed-syllabus-bsc-animation-visualeffects.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
+                                                                Animation & Visual Effects
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>
-                                                    Post Graduate
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="row">
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure of syllabus - PG  (25th April 25).pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Structure of Syllabus - PG Journalism and
-                                                        Mass
-                                                        Communication
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
 
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Final Syllabus MA NEP 2025 -2026.pdf"
-                                                        target="_blank">
-                                                        <i class="fa fa-file-text px-2"></i>Syllabus (BASED ON NATIONAL EDUCATION POLICY
-                                                        2020) - PG
-                                                        Journalism and Mass Communication
-                                                        <i class="fa fa-download"></i>
-                                                    </a>
+                                            <!-- PG -->
+                                            <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseTwo" aria-expanded="false"
+                                                        aria-controls="collapseTwo">
+                                                        <i class="fa fa-university me-2"></i> Post Graduate
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <div class="row"
+                                                            style="display: flex; flex-direction: column; gap: 12px;">
 
+                                                            <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20PG%20%20(25th%20April%2025).pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                                -- J&M
+
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                            <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Final%20Syllabus%20MA%20NEP%202025%20-2026.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
+                                                                J&M
+
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                <strong>
-                                                    Doctoral Programme
-                                                </strong>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <a href="phd" class="para1" target="_blank"><strong>Click to View...
-                                                    </strong></a>
+
+                                            <!-- Doctoral -->
+                                            <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                                        aria-controls="collapseThree">
+                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <a href="phd" class="para1" target="_blank"
+                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
+                                                            <i class="fa fa-external-link me-2"></i> Click to View...
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6"></div>
+
                         </div>
                     </div>
+                </section>
+
+                <section id="events">
+                    <div class="container pb-4">
+                        <div class="row" style="display: flex; justify-content: center;">
+                            <div class="col-lg-12">
+                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                                    Events
+                                </h2>
+
+                                <div style="max-width: 100%; position: relative;">
+                                    <div style="border: 1px solid #ccc;">
+                                        <div id="scrollContainer"
+                                            style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
+                                            <table class="table table-borderless mb-0"
+                                                style="font-size: 16px; width: 100%;">
+                                                <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9;">
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    06-03-2018 | Mr. Shahnab Alam (Trans-media professional,
+                                                                    creative producer, former
+                                                                    executive producer at Yash Raj Films) | Interactive
+                                                                    session on film making.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    more
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    13-08-2018 | Mr. Abhijeet Deb (Northeast in charge for
+                                                                    United News of India) | Speaker
+                                                                    for orientation programme.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    more
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    13-08-2018 | Mr. Chinmoy Saikia, Bijoy Ghimmere, Rj
+                                                                    Pallavi (Team of 95fm Radio
+                                                                    Mirchi) | Speakers for orientation programme.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    more
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    28-08-2018 | Ms. Naheed Khan (Neuro-linguistic
+                                                                    practitioner, behavioral consultant &
+                                                                    inspirational speaker) | Inspirational talk.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    more
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    30-08-2018 | Mr. Suraj Mani (Composer & frontline
+                                                                    vocalist – rockband Motherjane) |
+                                                                    Interactive session on the effect of music on students.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    more
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    07-09-2018 | Mr. Chinmoy Sarma (Founder of Sangeeta
+                                                                    Communications) | Special lecture
+                                                                    on advertising.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    more
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: center; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Event Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div>
+                                                                <div style="font-weight: bold; color: #27467A;">
+                                                                    07-09-2018 | Ms. Mani Mahanta (Renowned writer &
+                                                                    journalist) | Special lecture on
+                                                                    advertising.
+                                                                </div>
+                                                                <a href="#"
+                                                                    style="color: #FF9A1E; font-weight: bold; font-size: 14px;">Read
+                                                                    more
+                                                                    ...</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <div style="text-align: center; margin-top: 15px;">
+                                        <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
+                  background: linear-gradient(135deg, #243B95, #151B5B);
+                  color: #fff; font-weight: 600; font-size: 16px;
+                  border-radius: 25px; text-decoration: none;
+                  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                  transition: all 0.3s ease-in-out;">
+                                            View All
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <script>
+                                    const scrollContainer = document.getElementById('scrollContainer');
+                                    const scrollContent = document.getElementById('scrollContent');
+
+                                    scrollContent.innerHTML += scrollContent.innerHTML;
+
+                                    let scrollPos = 0;
+                                    const scrollSpeed = 0.2;
+
+                                    function scrollStep() {
+                                        scrollPos += scrollSpeed;
+                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
+                                            scrollPos = 0;
+                                        }
+                                        scrollContainer.scrollTop = scrollPos;
+                                        requestAnimationFrame(scrollStep);
+                                    }
+
+                                    scrollStep();
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- <section id="academic-excellence">
+              <section
+                style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
+
+                <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
+                  Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
+                </h2>
+
+                <div
+                  style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
                 </div>
-            </div>
+
+                <div class="row">
+
+                  <div class="col-lg-6">
+
+                    <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
+                    </h2>
+
+                    <div
+                      style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
+                      <div style="padding: 30px 20px;">
+                        <div class="carousel" mask>
+                          <div class="carousel-track">
+
+                            <article class="bg-white text-dark rounded"
+                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para1 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Yubita Deka<br>
+                                    <span class="text-dark" style="font-size: 18px;">Physics</span>
+                                  </p>
+                                </div>
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para1 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Susmita Paul<br>
+                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
+                                  </p>
+                                </div>
+
+                              </div>
+
+                              <div class="rounded text-center"
+                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
+                              </div>
+
+                            </article>
+
+                            <article class="bg-white text-dark rounded"
+                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para1 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Bhaskar Jyoti Borah<br>
+                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
+                                  </p>
+                                </div>
+
+                              </div>
+
+                              <div class="rounded text-center"
+                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
+                              </div>
+
+                            </article>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <style>
+                      .carousel {
+                        --carousel-width: min(85vw, 650px);
+                        --carousel-item-width: 280px;
+                        --carousel-item-height: 350px;
+                        --carousel-item-gap: 2rem;
+                        position: relative;
+                        width: var(--carousel-width);
+                        overflow: hidden;
+                      }
+
+                      .carousel[mask] {
+                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+                      }
+
+                      .carousel-track {
+                        display: flex;
+                        gap: var(--carousel-item-gap);
+                        animation: marquee var(--carousel-duration) linear infinite;
+                      }
+
+                      .carousel article {
+                        flex: 0 0 var(--carousel-item-width);
+                        height: var(--carousel-item-height);
+                        display: grid;
+                        grid-template-rows: 200px auto 1fr auto;
+                        border-radius: 10px;
+                        background: white;
+                        color: #314158;
+                      }
+
+                      .carousel img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 15px !important;
+                      }
+
+                      .carousel article>*:not(img) {
+                        padding: 0 1rem;
+                      }
+
+                      @keyframes marquee {
+                        from {
+                          transform: translateX(0);
+                        }
+
+                        to {
+                          transform: translateX(var(--scroll-distance));
+                        }
+                      }
+                    </style>
+
+                    <script>
+                      const track = document.querySelector('.carousel-track');
+                      const cards = Array.from(track.children);
+
+                      cards.forEach(card => {
+                        track.appendChild(card.cloneNode(true));
+                      });
+
+                      const carouselEl = document.querySelector('.carousel');
+                      const styles = getComputedStyle(carouselEl);
+                      const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
+                      const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
+                      const totalCards = track.children.length;
+                      const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
+                      track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
+
+                      const speed = 80;
+                      const duration = halfTrackWidth / speed;
+                      track.style.setProperty('--carousel-duration', `${duration}s`);
+                    </script>
+
+                  </div>
+
+                  <div class="col-lg-6">
+
+                    <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
+                    </h2>
+
+                    <div
+                      style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
+                      <div style="padding: 30px 20px;">
+                        <div class="carousel2" mask>
+                          <div class="carousel-track2">
+
+                            <article class="bg-white text-dark rounded"
+                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para2 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Ritu Sharma<br>
+                                    <span class="text-dark" style="font-size: 18px;">Chemistry</span>
+                                  </p>
+                                </div>
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para2 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Anil Kumar<br>
+                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
+                                  </p>
+                                </div>
+
+                              </div>
+
+                              <div class="rounded text-center"
+                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
+                              </div>
+
+                            </article>
+
+                            <article class="bg-white text-dark rounded"
+                              style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                              <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                <div class="rounded"
+                                  style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                  <p class="para2 fw-bold m-0 text-center"
+                                    style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                    Meera Das<br>
+                                    <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
+                                  </p>
+                                </div>
+
+                              </div>
+
+                              <div class="rounded text-center"
+                                style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
+                              </div>
+
+                            </article>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <style>
+                      .carousel2 {
+                        --carousel-width: min(85vw, 650px);
+                        --carousel-item-width: 280px;
+                        --carousel-item-height: 350px;
+                        --carousel-item-gap: 2rem;
+                        position: relative;
+                        width: var(--carousel-width);
+                        overflow: hidden;
+                      }
+
+                      .carousel2[mask] {
+                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+                      }
+
+                      .carousel-track2 {
+                        display: flex;
+                        gap: var(--carousel-item-gap);
+                        animation: marquee2 var(--carousel-duration) linear infinite;
+                      }
+
+                      .carousel2 article {
+                        flex: 0 0 var(--carousel-item-width);
+                        height: var(--carousel-item-height);
+                        display: grid;
+                        grid-template-rows: 200px auto 1fr auto;
+                        border-radius: 10px;
+                        background: white;
+                        color: #314158;
+                      }
+
+                      .carousel2 img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 15px !important;
+                      }
+
+                      .carousel2 article>*:not(img) {
+                        padding: 0 1rem;
+                      }
+
+                      @keyframes marquee2 {
+                        from {
+                          transform: translateX(0);
+                        }
+
+                        to {
+                          transform: translateX(var(--scroll-distance));
+                        }
+                      }
+                    </style>
+
+                    <script>
+                      const track2 = document.querySelector('.carousel-track2');
+                      const cards2 = Array.from(track2.children);
+
+                      cards2.forEach(card => {
+                        track2.appendChild(card.cloneNode(true));
+                      });
+
+                      const carouselEl2 = document.querySelector('.carousel2');
+                      const styles2 = getComputedStyle(carouselEl2);
+                      const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
+                      const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
+                      const totalCards2 = track2.children.length;
+                      const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
+                      track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
+
+                      const speed2 = 80;
+                      const duration2 = halfTrackWidth2 / speed2;
+                      track2.style.setProperty('--carousel-duration', `${duration2}s`);
+                    </script>
+
+                  </div>
+
+                </div>
+
+              </section>
+            </section> -->
+
+                <div id="bos" class="container pb-5 pt-5">
+
+                    <!-- Container -->
+                    <div id="drc" style="margin:0 auto;">
+
+                        <!-- Row 1 -->
+                        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
+
+                            <!-- Board of Studies -->
+                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
+                                <div
+                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
+                                    <button id="accBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
+                       background:linear-gradient(135deg,#24477f,#1a365d);
+                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
+                                        <i class="fa fa-users me-2"></i> The Board of Studies
+                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                                    </button>
+                                    <div id="accPanel1"
+                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
+
+                                        <div class="table-responsive">
+                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+                                                <thead class="text-white" style="background-color: #27467a">
+                                                    <tr>
+                                                        <th class="text-white">#</th>
+                                                        <th class="text-white">Position in S-BoS</th>
+                                                        <th class="text-white">Name and Designation</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="para1 align-middle"
+                                                    style="background-color: #f9f9f9; text-align: start;">
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Chairperson (Ex-Officio) Dean of School</td>
+                                                        <td>Prof. P. J. Mahanta, Dean I/C, RSCOM</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>All Heads of the Departments - Member (Ex-Officio)</td>
+                                                        <td>Ms. Florenc Handique Rabha, Head, RSCOM</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>External Experts for each Department (Academic)</td>
+                                                        <td>
+                                                            Dr. Juri Hazarika, Assistant Professor, KKHSOU
+                                                            <hr>
+                                                            Dr. Rahul Chanda, Bureau Chief, G Plus
+                                                            <hr>
+                                                            Ms. Alaka Goswami, Academic Head, Arena Animation Centre
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>External Experts for each Department (Industry)</td>
+                                                        <td>Mr. Suraj Duwara, Film Maker</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>
+                                                            Two Faculty members of the School nominated by the Vice
+                                                            Chancellor
+                                                        </td>
+                                                        <td>
+                                                            Dr. Rashmi Sarmah, Assistant Professor, RSCOM
+
+                                                            <hr>
+                                                            Dr. Esha Chakraborty, Assistant Professor, RSCOM
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>
+                                                            Registrar, Member Secretary (Ex-officio)/Registrar nominee
+                                                        </td>
+                                                        <td>Dr. Dip Narayain Singh, Registrar or his nominee</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- DRC -->
+                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
+                                <div
+                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
+                                    <button id="accBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
+                       background:linear-gradient(135deg,#24477f,#1a365d);
+                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
+                                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
+                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                                    </button>
+                                    <div id="accPanel2"
+                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
+
+                                        <div class="table-responsive">
+                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+                                                <thead class="text-white" style="background-color: #27467a">
+                                                    <tr>
+                                                        <th class="text-white">#</th>
+                                                        <th class="text-white">Content</th>
+                                                        <th class="text-white">Name of the Member</th>
+                                                        <th class="text-white">Designation</th>
+                                                        <th class="text-white">Designation in the committee</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="para1 align-middle"
+                                                    style="background-color: #f9f9f9; text-align: start;">
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Head of the Department</td>
+                                                        <td>Dr. Florence Handique Rabha</td>
+                                                        <td>Assistant Professor &amp; Head, RSCOM</td>
+                                                        <td>Chairperson</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Two Professors</td>
+                                                        <td>Prof. (Dr.) Suresh Chandra Nayak</td>
+                                                        <td>Dean i/c, RSCOM</td>
+                                                        <td>Member</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td rowspan="2">3</td>
+                                                        <td rowspan="2" class="align-middle">
+                                                            Two Assistant Professors holding Ph.D. degree
+                                                        </td>
+                                                        <td>Dr. Rashmi Sarmah</td>
+                                                        <td>Assistant Professor, RSCOM</td>
+                                                        <td>Member Secretary</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Dr. Haoginlen Chongloi</td>
+                                                        <td>Assistant Professor, RSCOM</td>
+                                                        <td>Member</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td rowspan="3">4</td>
+                                                        <td rowspan="3" class="align-middle">
+                                                            Three external members not below the rank of Professors,
+                                                            including members froman allied department, who will be
+                                                            nominated by the URC
+                                                        </td>
+                                                        <td>Prof. (Dr.) Sajal Nag</td>
+                                                        <td>Dean i/c, RSHSS</td>
+                                                        <td>External Member</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Prof. (Dr) Hari Prasad Agarwal</td>
+                                                        <td>Dean i/c, RSA, RSFD &amp; RSFA</td>
+                                                        <td>External Member</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Prof. (Dr.) BS Mipun</td>
+                                                        <td>Professor &amp; Dean, Students’ Affairs</td>
+                                                        <td>External Member</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- JS remains same -->
+                    <script>
+
+                        const accPairs = [
+                            { btn: 'accBtn1', panel: 'accPanel1' },
+                            { btn: 'accBtn2', panel: 'accPanel2' }
+                        ];
+
+                        function closeAll() {
+                            accPairs.forEach(p => {
+                                const b = document.getElementById(p.btn);
+                                const panel = document.getElementById(p.panel);
+                                if (panel) panel.style.display = 'none';
+                                if (b) {
+                                    b.setAttribute('aria-expanded', 'false');
+                                    const sp = b.querySelector('span');
+                                    if (sp) sp.textContent = '＋';
+                                }
+                            });
+                        }
+
+                        accPairs.forEach(p => {
+                            const b = document.getElementById(p.btn);
+                            const panel = document.getElementById(p.panel);
+                            if (!b || !panel) return;
+
+                            b.addEventListener('click', function () {
+                                const isOpen = this.getAttribute('aria-expanded') === 'true';
+                                if (isOpen) {
+                                    panel.style.display = 'none';
+                                    this.setAttribute('aria-expanded', 'false');
+                                    const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
+                                } else {
+                                    closeAll();
+                                    panel.style.display = 'block';
+                                    this.setAttribute('aria-expanded', 'true');
+                                    const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
+                                }
+                            });
+                        });
+
+                        document.addEventListener('keydown', function (e) {
+                            if (e.key === 'Escape') closeAll();
+                        });
+                    </script>
+
+                </div>
+
+                <script>
+                    document.querySelectorAll('a.special-link').forEach(anchor => {
+                        anchor.addEventListener('mouseover', function () {
+                            this.style.width = '200px';
+                            this.querySelector('span').style.opacity = '1';
+                        });
+                        anchor.addEventListener('mouseout', function () {
+                            this.style.width = '42px';
+                            this.querySelector('span').style.opacity = '0';
+                        });
+                        anchor.addEventListener('click', function (e) {
+                            e.preventDefault();
+                            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                                behavior: 'smooth'
+                            });
+                        });
+                    });
+
+                </script>
+
+            </section>
 
         </div>
 
