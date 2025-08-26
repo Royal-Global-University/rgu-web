@@ -1219,11 +1219,10 @@
 
                             <!-- Board of Studies -->
                             <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
+                                <div style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
                                     <button id="accBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
+                                               background:linear-gradient(135deg,#24477f,#1a365d);
+                                               color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
                                         <i class="fa fa-users me-2"></i> The Board of Studies
                                         <span style="float:right; font-weight:700; font-size:20px;">＋</span>
                                     </button>
@@ -1234,27 +1233,53 @@
                                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                                 <thead class="text-white" style="background-color: #27467a">
                                                     <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Position in S-BoS</th>
-                                                        <th class="text-white">Name and Designation</th>
+                                                        <th>Sl. No.</th>
+                                                        <th>Name &amp; Designation</th>
+                                                        <th>Category / Role</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
+                                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
                                                     <tr>
                                                         <td>1</td>
-                                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                                        <td>Prof. Nikhil Kumar Chrungoo, Dean, RSLSC, RGU</td>
+                                                        <td>Dr. Pallabi Borah, Coordinator, Department of Forestry</td>
+                                                        <td>Convenor (Ex-Officio)</td>
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
-                                                        <td>All Heads of the Departments - Members (Ex-Officio)</td>
-                                                        <td>Dr. Anushree Baruah, RSLSC, RGU</td>
+                                                        <td>Prof. Kalidas Upadhyaya, Professor, Department of Forestry, Mizoram University</td>
+                                                        <td>External Academic Expert (Subject Expert – Forestry)</td>
                                                     </tr>
                                                     <tr>
                                                         <td>3</td>
-                                                        <td>Professors of the School Members (Ex-Officio)</td>
-                                                        <td>Prof. M.R Nath, Professor, Dept of Botany</td>
+                                                        <td>Dr. A. Arunachalam, FNAAS, Director, Central Agroforestry Research Institute, ICAR,
+                                                            Jhansi</td>
+                                                        <td>External Academic Expert (Subject Expert – Forestry)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Prof. Nikhil Kumar Chrungoo, Professor and Dean, RSLSC</td>
+                                                        <td>Member (Ex-Officio)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Mr. Arvind Madhav Singh, Retired IFS, Advisor &amp; Visiting Professor (Adjunct),
+                                                            Department of Forestry</td>
+                                                        <td>Member (Ex-Officio)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>Dr. Demsai Reang, Assistant Professor, Department of Forestry</td>
+                                                        <td>Member (Ex-Officio)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>Dr. Paul Lalremsang, Assistant Professor, Department of Forestry</td>
+                                                        <td>Member (Ex-Officio)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>8</td>
+                                                        <td>Mr. Puskal Bagchie, Assistant Professor, Department of Forestry</td>
+                                                        <td>Member (Ex-Officio)</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -1266,11 +1291,10 @@
 
                             <!-- DRC -->
                             <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
+                                <div style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
                                     <button id="accBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
+                                               background:linear-gradient(135deg,#24477f,#1a365d);
+                                               color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
                                         <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
                                         <span style="float:right; font-weight:700; font-size:20px;">＋</span>
                                     </button>
@@ -1282,41 +1306,53 @@
                                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                                 <thead class="text-white" style="background-color: #27467a">
                                                     <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Content</th>
-                                                        <th class="text-white">Name of the Member</th>
-                                                        <th class="text-white">Designation</th>
-                                                        <th class="text-white">Designation in the committee</th>
+                                                        <th class="font-weight-bold text-white">Role</th>
+                                                        <th class="font-weight-bold text-white">Name & Designation</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
-                                                    <tr>
-                                                        <td>1.</td>
-                                                        <td>Head of the Department</td>
-                                                        <td>Dr. Pallabi Borah</td>
-                                                        <td>Assistant Professor &amp; Coordinator, Dept. of Forestry</td>
-                                                        <td>Chairperson</td>
+                                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="font-weight: bold; color: #27467A; padding: 12px;">Chairperson</td>
+                                                        <td style="padding: 12px; color: #27467A;">
+                                                            Dr. Pallabi Borah, Assistant Professor & Coordinator, Department of Forestry
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="font-weight: bold; color: #27467A; padding: 12px;" rowspan="4">Members</td>
+                                                        <td style="padding: 12px; color: #27467A;">
+                                                            Mr. Arvind Madhav Singh, Professor (Adjunct), Department of Forestry
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="padding: 12px; color: #27467A;">
+                                                            Prof. Nikhil Kumar Chrungoo, Dean, RSLSC, RGU
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="padding: 12px; color: #27467A;">
+                                                            Dr. Demsai Reang, Assistant Professor, Department of Forestry (Member Secretary)
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="padding: 12px; color: #27467A;">
+                                                            Dr. Paul Lalremsang, Assistant Professor, Department of Forestry
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="font-weight: bold; color: #27467A; padding: 12px;" rowspan="2">External Experts
+                                                        </td>
+                                                        <td style="padding: 12px; color: #27467A;">
+                                                            Prof. Pranati Das, Professor, Department of Food Technology, RGU
+                                                        </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>2.</td>
-                                                        <td>Two Professors</td>
-                                                        <td>Mr. Arvind Madhav Singh</td>
-                                                        <td>Professor (Adjunct), Dept. of Forestry</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="2">3.</td>
-                                                        <td rowspan="2" class="align-middle">Two Assistant Professors
-                                                            holding Ph.D. degree</td>
-                                                        <td>Dr. Demsai Reang</td>
-                                                        <td>Assistant Professor, Dept. of Forestry</td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Dr. Paul Lalremsang</td>
-                                                        <td>Assistant Professor, Dept. of Forestry</td>
-                                                        <td>Member</td>
+                                                        <td style="padding: 12px; color: #27467A;">
+                                                            Dr. K.K. Sarma, Sci./Engr. ‘G’ and Group Head, Remote Sensing Applications Group
+                                                            (GHRSAG),
+                                                            NESAC
+                                                        </td>
                                                     </tr>
                                                 </tbody>
                                             </table>
