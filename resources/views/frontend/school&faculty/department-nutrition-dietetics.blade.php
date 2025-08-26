@@ -68,7 +68,7 @@
             <section style="background-color: #fff8f0; padding: 130px 10px 0px 10px;">
 
                 <h1 class="headd3 text-center" style="color: #27467A; font-weight: 700;">Department of
-                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Food Science & Nutrition</span>
+                    <span class="headd3" style="color: #FF9A1E; font-weight: 500;">Nutrition & Dietetics</span>
                 </h1>
 
                 <h2 class="headd3 text-center" style="color: #27467A; font-weight: 700;">
@@ -772,8 +772,7 @@
                     <section style="background-color: #FFF8F0;">
                         <div class="p-5">
                             <h1 class="headd1 text-center" style="color: #27467A; font-weight: 700;">Department of
-                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Food Science &
-                                    Nutrition</span>
+                                <span class="headd1" style="color: #FF9A1E; font-weight: 500;">Nutrition & Dietetics</span>
                             </h1>
 
                             <h2 class="headd1 text-center" style="color: #27467A; font-weight: 700;">
@@ -809,26 +808,6 @@
                                         the science of
                                         nutrition, clinical dietetics, food service management, and public health nutrition.
 
-                                    </p>
-
-                                    <p class="mobile-para1 pt-1"
-                                        style="color: #264273; text-align: justify; line-height: 1.5;">
-                                        Department of Food Technology at The Assam Royal Global University, Guwahati, offers
-                                        B.Sc, M.Sc and
-                                        Ph.D programmes to produce future food technologists of global fame with strong
-                                        knowledge and
-                                        understanding of the subject. The courses gives in depth background of physical,
-                                        chemical and
-                                        biological compositions of foods, different processing technologies for quality food
-                                        production and
-                                        development of innovative, healthy and safe foods. The department is self sufficient
-                                        carry out the
-                                        programme with proper infrastructure interms of class rooms and laboratories with
-                                        state of art
-                                        facilities. The graduate and post graduates develop competencies to serve in
-                                        academia, food
-                                        industries, research institutes, food regulatory agencies or to become a food
-                                        entrepreneur.
                                     </p>
 
                                 </div>
