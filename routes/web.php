@@ -4468,3 +4468,18 @@ Route::get('/sociology-events', function () {
 Route::get('/history-events', function () {
     return view('frontend/school&faculty/history-events');
 })->name('history-events');
+
+
+
+Route::get('/program-msc-emergency-critical-care', function () {
+    return view('frontend/programmes/rsmas/program-msc-emergency-critical');
+})->name('program-msc-emergency-critical-care');
+
+
+Route::get('/programs-msc-dialysis', function () {
+    return view('frontend/programmes/rsmas/programs-msc-dialysis');
+})->name('programs-msc-dialysis');
+
+Route::get('/programs-msc-radiography-advance-imaging-tech', function () {
+    return view('frontend/programmes/rsmas/programs-msc-radiography-advance-imaging-tech');
+})->name('programs-msc-radiography-advance-imaging-tech');

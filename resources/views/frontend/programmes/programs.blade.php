@@ -2466,6 +2466,38 @@
                                         </div>
                                     </a>
                                 </div>
+                                {{-- start --}}
+                                <div class="col-lg-3">
+                                    <a href="{{route('programs-msc-radiography-advance-imaging-tech')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Radiography and Advance Imaging Technology</p>
+                                            <p class="text-center text-white para1">2 Years</p><br>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3">
+                                    <a href="{{route('program-msc-emergency-critical-care')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Emergency & Critical Care
+                                            </p>
+                                            <p class="text-center text-white para1">2 Years</p><br>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3">
+                                    <a href="{{route('programs-msc-dialysis')}}"
+                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
+                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Dialysis</p>
+                                            <p class="text-center text-white para1">2 Years</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                                {{-- end --}}
                                 <div class="col-lg-3">
                                     <a href="{{route('programs-M-Optometry')}}"
                                         class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
