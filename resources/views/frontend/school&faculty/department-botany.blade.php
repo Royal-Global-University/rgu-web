@@ -1522,11 +1522,10 @@
 
                             <!-- Board of Studies -->
                             <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
+                                <div style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
                                     <button id="accBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
+                                               background:linear-gradient(135deg,#24477f,#1a365d);
+                                               color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
                                         <i class="fa fa-users me-2"></i> The Board of Studies
                                         <span style="float:right; font-weight:700; font-size:20px;">＋</span>
                                     </button>
@@ -1537,47 +1536,38 @@
                                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                                 <thead class="text-white" style="background-color: #27467a">
                                                     <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Position in D-BoS</th>
-                                                        <th class="text-white">Name and Designation</th>
+                                                        <th>Sl. No.</th>
+                                                        <th>Faculty Name</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
+                                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
                                                     <tr>
                                                         <td>1</td>
-                                                        <td>Convener (Ex-Officio)- Head of the Department</td>
-                                                        <td>
-                                                            Dr. Anushree Baruah, Assistant Professor, Coordinator,
-                                                            Dept. of Botany, RGU
-                                                        </td>
+                                                        <td>Prof. Nikhil K. Chrungoo</td>
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
-                                                        <td>
-                                                            All Faculty members of the Department Members (Ex-Officio)
-                                                        </td>
-                                                        <td>
-                                                            Dr. Anushree Baruah, Assistant Professor, Coordinator,
-                                                            Dept. of Botany, RGU
-                                                            <hr>
-                                                            Prof. (Dr.) Mina Ram Nath, Professor
-                                                            <hr>
-                                                            Dr. Manalee Paul, Assistan Professor
-                                                            <hr>
-                                                            Dr. Upashna Chettri, Assistant Professor
-                                                            <hr>
-                                                            Dr. Pratikshya Borah, Assistant Professor
-                                                        </td>
+                                                        <td>Prof. Bandana N. Das</td>
                                                     </tr>
                                                     <tr>
                                                         <td>3</td>
-                                                        <td>External Expert (Academic)</td>
-                                                        <td>
-                                                            Prof. Neelakshi Devi, Dept of Botany Gauhati University
-                                                            <hr>
-                                                            Prof. Bhaben Tanti, Dept of Botany, Gauhati University
-                                                        </td>
+                                                        <td>Dr. Pratikshya Borah</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Dr. Anushree Baruah</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Dr. Upasna Chettry</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>Dr. Upashna Chettri</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>7</td>
+                                                        <td>Dr. Raghuvar Tiwary</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -1589,11 +1579,10 @@
 
                             <!-- DRC -->
                             <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
-                                <div
-                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
+                                <div style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
                                     <button id="accBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
-                       background:linear-gradient(135deg,#24477f,#1a365d);
-                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
+                                               background:linear-gradient(135deg,#24477f,#1a365d);
+                                               color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
                                         <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
                                         <span style="float:right; font-weight:700; font-size:20px;">＋</span>
                                     </button>
@@ -1604,79 +1593,36 @@
                                             <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
                                                 <thead class="text-white" style="background-color: #27467a">
                                                     <tr>
-                                                        <th class="text-white">#</th>
-                                                        <th class="text-white">Content</th>
-                                                        <th class="text-white">Name of the Member</th>
-                                                        <th class="text-white">Designation</th>
-                                                        <th class="text-white">Designation in the committee</th>
+                                                        <th>Sl. No.</th>
+                                                        <th>Designation</th>
+                                                        <th>Faculty Name</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody class="para1 align-middle"
-                                                    style="background-color: #f9f9f9; text-align: start;">
+                                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
                                                     <tr>
-                                                        <td>1.</td>
-                                                        <td>Head of the Department</td>
-                                                        <td>Dr. Upasna Chettry</td>
-                                                        <td>
-                                                            Assistant Professor, Coordinator, Department of Botany
-                                                        </td>
+                                                        <td>1</td>
                                                         <td>Chairperson</td>
+                                                        <td>Dr. Pratikshya Borah</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">2.</td>
-                                                        <td rowspan="2" class="align-middle">Two Professors</td>
-                                                        <td>Prof Bandana Das</td>
-                                                        <td>Professor, Department of Botany</td>
-                                                        <td>Member</td>
+                                                        <td>2</td>
+                                                        <td>Two Professors</td>
+                                                        <td>Prof. Nikhil K. Chrungoo &amp; Prof. Bandana N. Das</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Prof Minaram Nath</td>
-                                                        <td>Professor, Department of Botany</td>
-                                                        <td>Member</td>
+                                                        <td>3</td>
+                                                        <td>Two Assistant Professors</td>
+                                                        <td>Dr. Upashna Chettri &amp; Dr. Raghuvar Tiwary</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">3.</td>
-                                                        <td rowspan="2" class="align-middle">
-                                                            Two Assistant Professors holding Ph.D. degree
-                                                        </td>
-                                                        <td>Dr Anushree Baruah</td>
-                                                        <td>
-                                                            Assistant Professor, Department of Botany, Royal Global
-                                                            University
-                                                        </td>
-                                                        <td>Member</td>
+                                                        <td>4</td>
+                                                        <td>External Expert</td>
+                                                        <td>Prof. S. K. Barik, North Eastern Hill University, Shillong</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Dr N. Seema Devi</td>
-                                                        <td>
-                                                            Assistant Professor, Department of Botany, Royal Global
-                                                            University
-                                                        </td>
-                                                        <td>Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="3">4.</td>
-                                                        <td rowspan="3" class="align-middle">
-                                                            Three external members not below the rank of Professors,
-                                                            including members from an allied department, who will be
-                                                            nominated by the URC
-                                                        </td>
-                                                        <td>Prof Lingaraj Sahoo, IIT Guwahati</td>
-                                                        <td>Professor, IIT Guwahati</td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof. SR Joshi, North-Eastern Hill University</td>
-                                                        <td>
-                                                            Professor, Department of Biotechnology, North-Eastern Hill
-                                                            University
-                                                        </td>
-                                                        <td>External Member</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prof N K Churungoo, Dean RSLSC</td>
-                                                        <td>Dean, Department of Botany, Royal Global University</td>
-                                                        <td>External Member</td>
+                                                        <td>5</td>
+                                                        <td>Member Secretary</td>
+                                                        <td>Dr. Upashna Chettri</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
