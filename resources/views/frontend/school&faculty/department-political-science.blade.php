@@ -1,683 +1,1569 @@
 @extends('frontend.master')
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+
         <div class="mobile">
             @include('frontend/components/mobileheader')
-                    <!-- floating mob button  -->
-                    <div>
-                        <a href="https://admissions.rgu.ac" style="
-                                                                                                    position: fixed;
-                                                                                                    bottom: 25px;
-                                                                                                    right: 75px;
-                                                                                                    background-color: #ef991f;
-                                                                                                    color: #fff;
-                                                                                                    padding: 12px 20px;
-                                                                                                    font-size: 16px;
-                                                                                                    font-weight: bold;
-                                                                                                    text-decoration: none;
-                                                                                                    border-radius: 20px;
-                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                    z-index: 1000;
-                                                                                                    overflow: hidden;
-                                                                                                    animation: pulse 2s infinite;
-                                                                                                    ">
-                            <span style="
-                                                                                                    position: absolute;
-                                                                                                    top: 0;
-                                                                                                    left: -75%;
-                                                                                                    width: 50%;
-                                                                                                    height: 100%;
-                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                    transform: skewX(-25deg);
-                                                                                                    animation: shine 2s infinite;
-                                                                                                    "></span>
-                            Admission Open - Apply Now
-                        </a>
-                        <style>
-                            @keyframes pulse {
-                                0% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
+            <!-- floating mob button  -->
+            <div>
+                <a href="https://admissions.rgu.ac" style="
+                                                                                                        position: fixed;
+                                                                                                        bottom: 25px;
+                                                                                                        right: 75px;
+                                                                                                        background-color: #ef991f;
+                                                                                                        color: #fff;
+                                                                                                        padding: 12px 20px;
+                                                                                                        font-size: 16px;
+                                                                                                        font-weight: bold;
+                                                                                                        text-decoration: none;
+                                                                                                        border-radius: 20px;
+                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                                                        z-index: 1000;
+                                                                                                        overflow: hidden;
+                                                                                                        animation: pulse 2s infinite;
+                                                                                                        ">
+                    <span style="
+                                                                                                        position: absolute;
+                                                                                                        top: 0;
+                                                                                                        left: -75%;
+                                                                                                        width: 50%;
+                                                                                                        height: 100%;
+                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                                                        transform: skewX(-25deg);
+                                                                                                        animation: shine 2s infinite;
+                                                                                                        "></span>
+                    Admission Open - Apply Now
+                </a>
+                <style>
+                    @keyframes pulse {
+                        0% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
 
-                                50% {
-                                    transform: scale(1.05);
-                                    box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                                }
+                        50% {
+                            transform: scale(1.05);
+                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
+                        }
 
-                                100% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
-                            }
+                        100% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
+                    }
 
-                            @keyframes shine {
-                                0% {
-                                    left: -75%;
-                                }
+                    @keyframes shine {
+                        0% {
+                            left: -75%;
+                        }
 
-                                100% {
-                                    left: 125%;
-                                }
-                            }
-                        </style>
-                    </div>
-                    <!-- floating button  -->
-            <img style="padding-top: 80px; position: relative;" src="https://media.rgu.ac/department-all/dept-pol-sc/mob-politicalscience.png" alt="">
+                        100% {
+                            left: 125%;
+                        }
+                    }
+                </style>
+            </div>
+            <!-- floating button  -->
+            <!-- till about dept  -->
+            <section style="background-color: #fff8f0; padding: 130px 10px 0px 10px;">
 
+                <img src="mobile-assets/department-all/rshss/pol-sc/mob-politicalscience.png" alt="">
+
+            </section>
+            <!-- till about dept  -->
+
+            <!-- courses offered  -->
             <div class="container">
-                <h2 class="headd2 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
                     Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
-                <div class="table-responsive">
-                    <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
-                        <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
-                            <th class="text-light  font-weight-bold">SL. NO.</th>
-                            <th class="text-light  font-weight-bold">COURSES</th>
-                            <th class="text-light  font-weight-bold">DURATION</th>
-                            <th class="text-light  font-weight-bold">DETAILS</th>
-                        </thead>
-                        <tbody class="para1 bg-light">
+                <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
+                    <!-- Heading Section -->
+                    <div
+                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                            <tr class="align-middle">
-                                <td>1.</td>
-                                <td>
-                                    <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.A. Political Science</strong><br>
-                                        Honours / Honours with Research
-                                    </p>
-                                </td>
-                                <td class="para1">
-                                    4 years
-                                </td>
-                                <td>
-                                    <a target="_blank" href="programs-BA-Political-Science"><button type="button"
-                                            style="background-color: #FF9A1E; color: #fff;"
-                                            class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                                </td>
-                            </tr>
+                        <span style="font-size: 16px;">MA Political Science</span>
+                        <span
+                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                    </div>
 
-                            <tr class="align-middle">
-                                <td>2.</td>
-                                <td>
-                                    <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">M.A. Political Science</strong>
-                                    </p>
-                                </td>
-                                <td class="para1">
-                                    2 years
-                                </td>
-                                <td>
-                                    <a target="_blank" href="programs-MA-Political-Science"><button type="button"
-                                            style="background-color: #FF9A1E; color: #fff;"
-                                            class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                                </td>
-                            </tr>
+                    <!-- Statute Items -->
+                    <a target="_blank" href="programs-MA-Political-Science" style="text-decoration:none;">
+                        <div
+                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                        </tbody>
-                    </table>
+                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">2 years</span>
+                            <span>
+                                <a class="para1 fw-bold"
+                                    style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                    href="programs-MA-Political-Science">View Details</a>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+
+                <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
+                    <!-- Heading Section -->
+                    <div
+                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                        <span style="font-size: 16px; padding-right: 0px; line-height: 1.3;">BA Political Science</span> |
+                        <span style="font-size: 13px; padding-left: 16px; font-weight: 300px !important; line-height: 1.3;">
+                            Honours/ Honours with Research
+                        </span>
+
+                        <span
+                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                    </div>
+
+                    <!-- Statute Items -->
+                    <a target="_blank" href="programs-BA-Political-Science" style="text-decoration:none;">
+                        <div
+                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">4 years</span>
+                            <span>
+                                <a class="para1 fw-bold"
+                                    style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                    href="programs-BA-Political-Science">View Details</a>
+                            </span>
+                        </div>
+                    </a>
                 </div>
 
             </div>
+            <!-- courses offered  -->
+
+            <!-- syllabus  -->
+            <div class="container">
+                <div>
+                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
+                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
+                    </h2>
+
+                    <div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="accordion para1" id="mobileAccordionCourses"
+                                    style="border-radius: 12px; overflow: hidden;">
+
+                                    <!-- UG -->
+                                    <div class="accordion-item"
+                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button collapsed"
+                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="false" aria-controls="collapseOne">
+                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body"
+                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                    <a href="mobile-assets/department-all/rshss/pol-sc/updated-syllabus/Course-structure_Pol-Sc.pdf"
+                                                        target="_blank" style="color: #27467A;">
+                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/rshss/pol-sc/updated-syllabus/BA-PSc-Syllabus.pdf"
+                                                        target="_blank" style="color: #27467A;">
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - BA
+                                                        Political Science
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                    <a href="mobile-assets/department-all/rshss/pol-sc/updated-syllabus/BA-Admin-Syllabus.pdf"
+                                                        target="_blank" style="color: #27467A;">
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - BA
+                                                        Administrative Service
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- PG -->
+                                    <div class="accordion-item"
+                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed"
+                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                <i class="fa fa-university me-2"></i> Post Graduate
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body"
+                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                    <a href="mobile-assets/department-all/rshss/pol-sc/updated-syllabus/PG-Syllabus-ma-pol.pdf"
+                                                        target="_blank" style="color: #27467A;">
+                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus - MA
+                                                        Political Science
+                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Doctoral -->
+                                    <div class="accordion-item"
+                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed"
+                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                <i class="fa fa-book me-2"></i> Doctoral Programme
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body"
+                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                <a href="doctoral-programme" class="para1" target="_blank"
+                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
+                                                    <i class="fa fa-external-link me-2"></i> Click to View...
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- syllabus  -->
+
+            <!-- events and highlights  -->
+            <div class="container pb-4">
+
+                <!-- mobile events  -->
+                <div class="row" style="display: flex; justify-content: center;">
+                    <div class="col-lg-12">
+                        <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 28px;">
+                            Events
+                        </h2>
+
+                        <div style="max-width: 100%; position: relative;">
+                            <div style="border: 1px solid #ccc;">
+
+                                <div id="mobileEventScrollContainer"
+                                    style="height: 450px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
+                                    <table class="table table-borderless mb-0" style="font-size: 16px; width: 100%;">
+                                        <tbody class="para1" id="mobileEventScrollContent"
+                                            style="background-color: #f9f9f9; ">
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Guest Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div style="color: #27467A; font-weight: bold;">
+                                                        On 10th December 2018, <b>Dr. Shubhrajeet Konwar</b>, Associate
+                                                        Professor, Department of
+                                                        Political Science, Gauhati University, visited the institution.
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Guest Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div style="color: #27467A; font-weight: bold;">
+                                                        On 6th March 2019, <b>Dr. Nilima Bhagabati</b>, Former Professor and
+                                                        Head, Department of
+                                                        Education, Gauhati University, was invited as a guest.
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Guest Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div style="color: #27467A; font-weight: bold;">
+                                                        On 25th April 2019, <b>Mr. Sumanta Basu</b>, Senior Programme
+                                                        Officer/Manager, United
+                                                        States-India Educational Foundation (USIEF), American Centre,
+                                                        delivered a session.
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Guest Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div style="color: #27467A; font-weight: bold;">
+                                                        On 27th September 2019, <b>Dr. Kiran Keshavamurthy</b>, Assistant
+                                                        Professor, Department of
+                                                        Humanities and Social Sciences, IIT Guwahati, visited the campus.
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Guest Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div style="color: #27467A; font-weight: bold;">
+                                                        On 2nd December 2019, <b>Prof. (Dr.) Nani Gopal Mahanta</b>,
+                                                        Professor, Department of
+                                                        Political Science and Director, Centre for South East Asian Studies,
+                                                        Gauhati University, was
+                                                        the guest of honor.
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Guest Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div style="color: #27467A; font-weight: bold;">
+                                                        On 5th March 2020, <b>Prof. (Dr.) Joydeep Baruah</b>, Professor,
+                                                        Department of Economics,
+                                                        Omeo Kumar Das Institute of Social Change and Development, visited
+                                                        for an invited lecture.
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Guest Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div style="color: #27467A; font-weight: bold;">
+                                                        On 6th March 2020, <b>Patricia Mukhim</b> (social activist, writer,
+                                                        journalist, editor of
+                                                        Shillong Times), <b>Mitra Phukan</b> (author, translator,
+                                                        columnist), and <b>Teresa
+                                                            Rehman</b> (journalist) shared their insights in a special
+                                                        session.
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div style="color: #27467A; font-weight: bold;">
+                                                        On 16th October 2023, Dr. Daisy Gogoi delivered a guest lecture on
+                                                        "World Anaesthesia Day".
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div style="color: #27467A; font-weight: bold;">
+                                                        On 1st April 2024, Mr. Rickystar Syiemlieh conducted a webinar on
+                                                        "Laparoscopic
+                                                        Instrumentation".
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div style="color: #27467A; font-weight: bold;">
+                                                        On 9th August 2024, Mr. Chinmoy Thakuria delivered a guest lecture
+                                                        during the "Student
+                                                        Induction Programme".
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr style="border-bottom: 1px solid #ddd;">
+                                                <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                    <img src="mobile-assets/department-all/imgg.jpg" alt="Speaker Image"
+                                                        style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                    <div style="color: #27467A; font-weight: bold;">
+                                                        On 18th September 2024, Ms. Sarita Chettri delivered a guest lecture
+                                                        for students.
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+
+                            <div style="text-align: center; margin-top: 15px;">
+                                <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
+                background: linear-gradient(135deg, #243B95, #151B5B);
+                color: #fff; font-weight: 600; font-size: 16px;
+                border-radius: 25px; text-decoration: none;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                transition: all 0.3s ease-in-out;">
+                                    View All
+                                </a>
+                            </div>
+
+
+                        </div>
+
+                        <script>
+                            const mobileEventScrollContainer = document.getElementById('mobileEventScrollContainer');
+                            const mobileEventScrollContent = document.getElementById('mobileEventScrollContent');
+
+                            // Duplicate content for infinite scroll (mobile)
+                            mobileEventScrollContent.innerHTML += mobileEventScrollContent.innerHTML;
+
+                            let mobileEventScrollPos = 0;
+                            const mobileEventScrollSpeed = 0.6;
+
+                            function mobileEventScrollStep() {
+                                mobileEventScrollPos += mobileEventScrollSpeed;
+                                if (mobileEventScrollPos >= mobileEventScrollContent.scrollHeight / 2) {
+                                    mobileEventScrollPos = 0;
+                                }
+                                mobileEventScrollContainer.scrollTop = mobileEventScrollPos;
+                                requestAnimationFrame(mobileEventScrollStep);
+                            }
+
+                            mobileEventScrollStep();
+                        </script>
+
+                    </div>
+                </div>
+                <!-- mobile events  -->
+
+            </div>
+            <!-- events and highlights  -->
+
+            <!-- Mobile-Friendly Board of Studies & DRC -->
+            <div id="bos-mobile" class="container pb-5">
+
+
+                <!-- Departmental Research Committee (DRC) -->
+                <div>
+                    <button id="mobAccBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
+          background:linear-gradient(135deg,#24477f,#1a365d);
+          color:white; font-weight:600; font-size:16px; cursor:pointer; border-radius:12px;">
+                        <i class="fa fa-flask me-2"></i> Board of Studies
+                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                    </button>
+
+                    <div id="mobAccPanel2"
+                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
+
+                        <div class="table-responsive">
+                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+                                <thead class="text-white" style="background-color: #27467a">
+                                    <tr>
+                                        <th class="text-white">S.NO.</th>
+                                        <th class="text-white">POSITION IN D-BOS</th>
+                                        <th class="text-white">NAME AND DESIGNATION</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Convener (Ex-Officio)- Head of the Department</td>
+                                        <td>
+                                            Dr. Dhiraj Borkotoky, Associate Professor and Co-ordinator
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            All Faculty members of the Department Members (Ex-Officio)
+                                        </td>
+                                        <td>
+                                            Dr. Y Monojit Singha, Assistant Professor
+                                            <hr>
+                                            Dr. Banasmita Sarma, Assistant Professor
+                                            <hr>
+                                            Dr. Baba Chandra Singha, Assistant Professor, Political Sc.
+                                            <hr>
+                                            Dr. Abhinav Chaliha, Assistant Professor, Political Sc.
+                                            <hr>
+                                            Rhitwique Dutta, Assistant Professor
+                                            <hr>
+                                            Barsha Sharma
+                                            <hr>
+                                            Tanjeela Meghboob, Assistant Professor
+                                            <hr>
+                                            Monisha Bordoloi
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>External Expert (Academic)</td>
+                                        <td>
+                                            Dr. Subhrajeet Konwer, Associate Professor, GU
+                                            <hr>
+                                            Dr. Dilip Gogoi, Associate Professor, Cotton University
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Departmental Research Committee (DRC) -->
+                <div class="mt-3">
+                    <button id="mobAccBtn3" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:14px 18px; border:0;
+          background:linear-gradient(135deg,#24477f,#1a365d);
+          color:white; font-weight:600; font-size:15px; cursor:pointer; border-radius:12px;">
+                        <i class="fa fa-magnifying-glass me-2"></i> Departmental Research Committee (DRC)
+                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                    </button>
+
+                    <div id="mobAccPanel3"
+                        style="display:none; padding:16px; background:#f9fbfd; border:1px solid #ddd; border-radius:0 0 12px 12px; margin-top:5px;">
+
+                        <div class="table-responsive">
+                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+                                <thead class="text-white" style="background-color: #27467a">
+                                    <tr>
+                                        <th class="text-white">#</th>
+                                        <th class="text-white">Content</th>
+                                        <th class="text-white">Name of the Member</th>
+                                        <th class="text-white">Designation</th>
+                                        <th class="text-white">Designation in the committee</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Head of the Department</td>
+                                        <td>Dr. Y Monojit Singha</td>
+                                        <td>Assistant Professor</td>
+                                        <td>Chairperson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.</td>
+                                        <td>
+                                            Two Associate Professors – one of them will be the member
+                                            secretary
+                                        </td>
+                                        <td>Dr. Dhiraj Kumar Borkotoky</td>
+                                        <td>Associate Professor</td>
+                                        <td>Member Secretary</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.</td>
+                                        <td>Two Assistant Professors holding Ph.D. degree</td>
+                                        <td>Dr. Babachandra Singha</td>
+                                        <td>Assistant Professor</td>
+                                        <td>Member</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">4.</td>
+                                        <td rowspan="3" class="align-middle">
+                                            Three external members not below the rank of Professors,
+                                            including members from an allied department, who will be
+                                            nominated by the URC
+                                        </td>
+                                        <td>Prof. Shiela Bora</td>
+                                        <td>Professor</td>
+                                        <td>External Member</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prof. Sajal Nag</td>
+                                        <td>Professor</td>
+                                        <td>External Member</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prof. B.S. Mipun</td>
+                                        <td>Professor</td>
+                                        <td>External Member</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <script>
+                const mobAccPairs = [
+                    { btn: 'mobAccBtn1', panel: 'mobAccPanel1' },
+                    { btn: 'mobAccBtn2', panel: 'mobAccPanel2' },
+                    { btn: 'mobAccBtn3', panel: 'mobAccPanel3' },
+                ];
+
+                function closeAllMob() {
+                    mobAccPairs.forEach(p => {
+                        const b = document.getElementById(p.btn);
+                        const panel = document.getElementById(p.panel);
+                        if (panel) panel.style.display = 'none';
+                        if (b) {
+                            b.setAttribute('aria-expanded', 'false');
+                            const sp = b.querySelector('span');
+                            if (sp) sp.textContent = '＋';
+                        }
+                    });
+                }
+
+                mobAccPairs.forEach(p => {
+                    const b = document.getElementById(p.btn);
+                    const panel = document.getElementById(p.panel);
+                    if (!b || !panel) return;
+
+                    b.addEventListener('click', function () {
+                        const isOpen = this.getAttribute('aria-expanded') === 'true';
+                        if (isOpen) {
+                            panel.style.display = 'none';
+                            this.setAttribute('aria-expanded', 'false');
+                            const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
+                        } else {
+                            closeAllMob();
+                            panel.style.display = 'block';
+                            this.setAttribute('aria-expanded', 'true');
+                            const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
+                        }
+                    });
+                });
+
+                document.addEventListener('keydown', function (e) {
+                    if (e.key === 'Escape') closeAllMob();
+                });
+            </script>
+            <!-- Mobile-Friendly Board of Studies & DRC -->
 
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
-                    <!-- floating button  -->
-                    <div>
-                        <a href="https://admissions.rgu.ac/" style="
-                                                                                                                position: fixed;
-                                                                                                                bottom: 35px;
-                                                                                                                right: 50px;
-                                                                                                                background-color: #ef991f;
-                                                                                                                color: #fff;
-                                                                                                                padding: 12px 20px;
-                                                                                                                font-size: 18px;
-                                                                                                                font-weight: bold;
-                                                                                                                text-decoration: none;
-                                                                                                                border-radius: 20px;
-                                                                                                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                z-index: 1000;
-                                                                                                                overflow: hidden;
-                                                                                                                animation: pulse 2s infinite;
-                                                                                                                ">
-                            <span style="
-                                                                                                                position: absolute;
-                                                                                                                top: 0;
-                                                                                                                left: -75%;
-                                                                                                                width: 50%;
-                                                                                                                height: 100%;
-                                                                                                                background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                transform: skewX(-25deg);
-                                                                                                                animation: shine 2s infinite;
-                                                                                                                "></span>
-                            Admission Open - Apply Now
-                        </a>
-                        <style>
-                            @keyframes pulse {
-                                0% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
-
-                                50% {
-                                    transform: scale(1.05);
-                                    box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                                }
-
-                                100% {
-                                    transform: scale(1);
-                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                }
-                            }
-
-                            @keyframes shine {
-                                0% {
-                                    left: -75%;
-                                }
-
-                                100% {
-                                    left: 125%;
-                                }
-                            }
-                        </style>
-                    </div>
-                    <!-- floating button  -->
-            <img src="https://media.rgu.ac/department-all/dept-pol-sc/web-politicalscience.png" alt="">
-
-            <div class="container">
-                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
-
-                <div class="table-responsive">
-                    <table class="table bg-white table-responsive table-striped table-bordered border-top  vertical-scroll">
-                        <thead class="text-white  para1" style="font-size: 14px; background-color: #27467A;">
-                            <th class="text-light  font-weight-bold">SL. NO.</th>
-                            <th class="text-light  font-weight-bold">COURSES</th>
-                            <th class="text-light  font-weight-bold">DURATION</th>
-                            <th class="text-light  font-weight-bold">DETAILS</th>
-                        </thead>
-                        <tbody class="para1 bg-light">
-
-                            <tr class="align-middle">
-                                <td>1.</td>
-                                <td>
-                                    <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">B.A. Political Science</strong><br>
-                                        Honours / Honours with Research
-                                    </p>
-                                </td>
-                                <td class="para1">
-                                    4 years
-                                </td>
-                                <td>
-                                    <a target="_blank" href="programs-BA-Political-Science"><button type="button"
-                                            style="background-color: #FF9A1E; color: #fff;"
-                                            class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                                </td>
-                            </tr>
-
-                            <tr class="align-middle">
-                                <td>2.</td>
-                                <td>
-                                    <p class="para1">
-                                        <strong style="color: #023e8a;" class="#">M.A. Political Science</strong>
-                                    </p>
-                                </td>
-                                <td class="para1">
-                                    2 years
-                                </td>
-                                <td>
-                                    <a target="_blank" href="programs-MA-Political-Science"><button type="button"
-                                            style="background-color: #FF9A1E; color: #fff;"
-                                            class="btn btn-md custom-details-btn fw-bold">Details</button></a>
-                                </td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="container pb-5 pt-3">
-
+            <!-- floating button  -->
             <div>
-                <div>
+                <a href="https://admissions.rgu.ac/" style="
+                                                                                                                    position: fixed;
+                                                                                                                    bottom: 35px;
+                                                                                                                    right: 50px;
+                                                                                                                    background-color: #ef991f;
+                                                                                                                    color: #fff;
+                                                                                                                    padding: 12px 20px;
+                                                                                                                    font-size: 18px;
+                                                                                                                    font-weight: bold;
+                                                                                                                    text-decoration: none;
+                                                                                                                    border-radius: 20px;
+                                                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                                                                    z-index: 1000;
+                                                                                                                    overflow: hidden;
+                                                                                                                    animation: pulse 2s infinite;
+                                                                                                                    ">
+                    <span
+                        style="
+                                                                                                                    position: absolute;
+                                                                                                                    top: 0;
+                                                                                                                    left: -75%;
+                                                                                                                    width: 50%;
+                                                                                                                    height: 100%;
+                                                                                                                    background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                                                                    transform: skewX(-25deg);
+                                                                                                                    animation: shine 2s infinite;
+                                                                                                                    "></span>
+                    Admission Open - Apply Now
+                </a>
+                <style>
+                    @keyframes pulse {
+                        0% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
 
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        Events <span style="color: #FF9A1E; font-weight: 500;">and Achievements</span></h2>
+                        50% {
+                            transform: scale(1.05);
+                            box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
+                        }
 
-                    <div class="table-responsive">
-                        <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                            <thead class="text-white" style="background-color: #27467a">
-                                <tr>
-                                    <th class="font-weight-bold text-white">S.No.</th>
-                                    <th class="font-weight-bold text-white">Date</th>
-                                    <th class="font-weight-bold text-white">Invitee</th>
-                                    <th class="font-weight-bold text-white">Designation</th>
-                                </tr>
-                            </thead>
+                        100% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                        }
+                    }
 
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                <tr>
-                                    <td>1</td>
-                                    <td>10/12/2018</td>
-                                    <td>Dr. Shubhrajeet Konwar</td>
-                                    <td>
-                                        Associate Professor Department of Political Science, Gauhati
-                                        University
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>6/3/2019</td>
-                                    <td>Dr. Nilima Bhagabati</td>
-                                    <td>
-                                        Former Professor and Head of the Department of Education,
-                                        Gauhati University
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>25/4/2019</td>
-                                    <td>Mr. Sumanta Basu</td>
-                                    <td>
-                                        Senior Programme Officer/Manager, United States-India
-                                        Educational Foundation (USIEF), American Centre
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>27/9/2019</td>
-                                    <td>Dr. Kiran Keshavamurthy</td>
-                                    <td>
-                                        Assistant Professor, Department of Humanities and Social
-                                        Sciences, IIT Guwahati
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>2/12/2019</td>
-                                    <td>Prof (Dr) Nani Gopal Mahanta</td>
-                                    <td>
-                                        Professor, Department of Political Science and Director, Centre
-                                        for South East Asian Studies, Gauhati University
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>5/3/2020</td>
-                                    <td>Prof (Dr) Joydeep Baruah</td>
-                                    <td>
-                                        Professor, Department of Economics, Omeo Kumar Das Institute of
-                                        Social Change and Development
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>6/3/2020</td>
-                                    <td>Patricia Mukhim, Mitra Phukan, Teresa Rehman</td>
-                                    <td>
-                                        Patricia Mukhim: Social activist, writer, journalist and the
-                                        editor of Shillong times. <br />
-                                        Mitra Phukan: Author, translator and columnist. <br />
-                                        Teresa Rehman: Journalist.
-                                    </td>
-                                </tr>
+                    @keyframes shine {
+                        0% {
+                            left: -75%;
+                        }
 
-                                <tr>
-                                    <td>8</td>
-                                    <td>8/3/2021</td>
-                                    <td>Dr. Samhita barooah, Pomi Baruah, Amrita Kar</td>
-                                    <td>
-                                        Dr. Samhita Barooah: Assistant Professor, Department of Social
-                                        work <br />
-                                        Pomi Baruah: ACS Director Directorate of Higher Education
-                                        Department <br />Amrita Kar: Senior anchor and editor
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>8/3/2022</td>
-                                    <td>Prof (Dr) Vijaylakshmi Brara</td>
-                                    <td>
-                                        Professor, Department of Sociology, Royal Global University
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>28/11/2022</td>
-                                    <td>Prof (Dr) Akhil Ranjan Dutta</td>
-                                    <td>
-                                        Professor, Department of Political Science, Gauhati University
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>11</td>
-                                    <td>18/10/2023</td>
-                                    <td>Geetanjal Deka, Prithvi Gogoi, Saswati Bordoloi</td>
-                                    <td>
-                                        Geetanjal Deka: Assistant Professor Department of Physics, Royal
-                                        Global University <br />
-                                        Prithvi Gogoi: Assistant Professor, Department of Sociology,
-                                        Royal Global University <br />
-                                        Saswati Bordoloi: Assistant Professor, Department of Indian
-                                        Knowledge System, Royal Global University
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>12</td>
-                                    <td>24/11/2023</td>
-                                    <td>Prof (Dr) Diptimoni Baruah</td>
-                                    <td>
-                                        Professor, National Law University and Judicial Academy, Assam
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>13</td>
-                                    <td>7/3/2024</td>
-                                    <td>Violet Baruah, Suranjana Senapati, Dr. Meghali Senapati</td>
-                                    <td>
-                                        Violet Baruah: Retired Inspector General of Police
-                                        <br />Suranjana Senapati: Director of Elementary Education,
-                                        Government of Assam <br />Dr. Meghali Senapati: Associate
-                                        Professor School of Social Work, Tata Institute of Social
-                                        Sciences
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>14</td>
-                                    <td>11/3/2024</td>
-                                    <td>Prof (Dr) R Sudarshan</td>
-                                    <td>
-                                        Dean of Jindal School of Government &amp; Public Policy, O.P.
-                                        Jindal Global University, Sonepat, Haryana
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>15</td>
-                                    <td>14/5/2024</td>
-                                    <td>Dr. Jintu Gohain, Breehivorna Talukdar</td>
-                                    <td>
-                                        Dr. Jintu Gohain: Assistant Professor, Department of Political
-                                        Science, Paschim Guwahati Mahavidyalaya <br />
-                                        Breehivorna Talukdar: Assistant Professor, Department of
-                                        Political Science, Saraighat College
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>16</td>
-                                    <td>7/8/2024</td>
-                                    <td>Rajarshi Sarma</td>
-                                    <td>Chief Operating Officer, Assam Start Up</td>
-                                </tr>
-                                <tr>
-                                    <td>17</td>
-                                    <td>5/9/2024</td>
-                                    <td>Prof (Dr) Sajal Nag</td>
-                                    <td>
-                                        Professor, Dean of Royal School of Humanities and Social
-                                        Sciences
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>18</td>
-                                    <td>20/9/2024</td>
-                                    <td>Prof (Dr) Dilip Chandra Nath</td>
-                                    <td>Professor Emeritus, Royal Global University</td>
-                                </tr>
-                                <tr>
-                                    <td>19</td>
-                                    <td></td>
-                                    <td>Prof (Dr) Ladu Singh Laishram</td>
-                                    <td>Professor Emeritus, Royal Global University</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td></td>
-                                    <td>Sattyakee D'Com Bhuyan</td>
-                                    <td>
-                                        Adjunct Faculty, Royal School of Communications &amp; Media
-                                        (RSCOM), Royal Global University
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+                        100% {
+                            left: 125%;
+                        }
+                    }
+                </style>
             </div>
+            <!-- floating button  -->
+            <section>
 
-            <div>
-                <div>
+                <!-- floating buttons  -->
+                <div
+                    style="position: fixed; top: 50%; left: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 1000;">
 
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        The Board <span style="color: #FF9A1E; font-weight: 500;">of Studies</span></h2>
+                    <!-- About -->
+                    <a href="#about" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start; color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsl(33, 100%, 56%) 0%, hsla(8, 52%, 50%, 1) 100%); box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-home" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">About</span>
+                    </a>
 
-                    <div class="table-responsive">
-                        <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                            <thead class="text-white" style="background-color: #27467a">
-                                <th class="text-white">S.NO.</th>
-                                <th class="text-white">POSITION IN D-BOS</th>
-                                <th class="text-white">NAME AND DESIGNATION</th>
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                <tr>
-                                    <td>1</td>
-                                    <td>Convener (Ex-Officio)- Head of the Department</td>
-                                    <td>
-                                        Dr. Dhiraj Borkotoky, Associate Professor and Co-ordinator
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>
-                                        All Faculty members of the Department Members (Ex-Officio)
-                                    </td>
-                                    <td>
-                                        Dr. Y Monojit Singha, Assistant Professor
-                                        <hr />
-                                        Dr. Banasmita Sarma, Assistant Professor
-                                        <hr />
-                                        Dr. Baba Chandra Singha, Assistant Professor, Political Sc.
-                                        <hr />
-                                        Dr. Abhinav Chaliha, Assistant Professor, Political Sc.
-                                        <hr />
-                                        Rhitwique Dutta, Assistant Professor
-                                        <hr />
-                                        Barsha Sharma
-                                        <hr />
-                                        Tanjeela Meghboob, Assistant Professor
-                                        <hr />
-                                        Monisha Bordoloi
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>External Expert (Academic)</td>
-                                    <td>
-                                        Dr. Subhrajeet Konwer, Associate Professor, GU
-                                        <hr />
-                                        Dr. Dilip Gogoi, Associate Professor, Cotton University
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <!-- Course -->
+                    <a href="#course" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
+                            Offered</span>
+                    </a>
+
+                    <!-- Syllabus -->
+                    <a href="#syllabus" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-file-text" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Structure
+                            &
+                            Syllabus</span>
+                    </a>
+
+                    <!-- Events -->
+                    <a href="#events" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
+                            Highlights</span>
+                    </a>
+
+                    <!-- Academic Excellence -->
+                    <a href="#academic-excellence" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
+                            Excellence</span>
+                    </a>
+
+                    <!-- BOS -->
+                    <a href="#bos" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
+                            Studies</span>
+                    </a>
+
+                    <!-- DRC -->
+                    <a href="#drc" class="special-link"
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                            style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
+                    </a>
+
+
+
                 </div>
-            </div>
+                <!-- floating buttons  -->
 
-            <div>
-                <div>
+                <section id="about">
+                    <section style="background-color: #FFF8F0;">
+                        <img src="mobile-assets/department-all/rshss/pol-sc/web-politicalscience.png" alt="">
+                    </section>
+                </section>
 
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                        The Departmental <span style="color: #FF9A1E; font-weight: 500;">Research Committee (DRC)</span>
-                    </h2>
+                <section id="course">
 
-                    <div class="table-responsive">
-                        <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
-                            <thead class="text-white" style="background-color: #27467a">
-                                <tr>
-                                    <th class="text-white">#</th>
-                                    <th class="text-white">Content</th>
-                                    <th class="text-white">Name of the Member</th>
-                                    <th class="text-white">Designation</th>
-                                    <th class="text-white">Designation in the committee</th>
-                                </tr>
-                            </thead>
-                            <tbody class="para1 align-middle" style="background-color: #f9f9f9; text-align: start;">
-                                <tr>
-                                    <td>1.</td>
-                                    <td>Head of the Department</td>
-                                    <td>Dr. Y Monojit Singha</td>
-                                    <td>Assistant Professor</td>
-                                    <td>Chairperson</td>
-                                </tr>
-                                <tr>
-                                    <td>2.</td>
-                                    <td>
-                                        Two Associate Professors – one of them will be the member
-                                        secretary
-                                    </td>
-                                    <td>Dr. Dhiraj Kumar Borkotoky</td>
-                                    <td>Associate Professor</td>
-                                    <td>Member Secretary</td>
-                                </tr>
-                                <tr>
-                                    <td>3.</td>
-                                    <td>Two Assistant Professors holding Ph.D. degree</td>
-                                    <td>Dr. Babachandra Singha</td>
-                                    <td>Assistant Professor</td>
-                                    <td>Member</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="3">4.</td>
-                                    <td rowspan="3" class="align-middle">
-                                        Three external members not below the rank of Professors,
-                                        including members from an allied department, who will be
-                                        nominated by the URC
-                                    </td>
-                                    <td>Prof. Shiela Bora</td>
-                                    <td>Professor</td>
-                                    <td>External Member</td>
-                                </tr>
-                                <tr>
-                                    <td>Prof. Sajal Nag</td>
-                                    <td>Professor</td>
-                                    <td>External Member</td>
-                                </tr>
-                                <tr>
-                                    <td>Prof. B.S. Mipun</td>
-                                    <td>Professor</td>
-                                    <td>External Member</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+                    <div class="container">
+                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                            style="color: #27467A; font-weight: 900; font-size: 35px;">
+                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
-            <div>
+                        <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
+                            <!-- Heading Section -->
+                            <div
+                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                    Courses Structure <span style="color: #FF9A1E; font-weight: 500;">and Syllabus</span></h2>
+                                <span style="font-size: 16px;">MA Political Science</span>
+                                <span
+                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            </div>
 
-                <div class="p-2">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="accordion para1" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            <strong>
-                                                Under Graduate
-                                            </strong>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                        data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/17RSHSS/Pol Sci/B.A. Syllabus FINAL.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> COURSE STRUCTURE & SYLLABUS (BASED
-                                                    ON NATIONAL EDUCATION POLICY 2020) For BA in Political Science (4 YEARS
-                                                    SINGLE MAJOR)
-                                                    <i class="fa fa-download"></i>
-                                                </a>
-                                                <a href="mobile-assets/department-all/syllabus-new/17RSHSS/Pol Sci/BA Syllabus Structure Final.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 4
-                                                    YEAR UG PROGRAMME
-                                                    Science.pdf <i class="fa fa-download"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <!-- Statute Items -->
+                            <a target="_blank" href="programs-MA-Political-Science" style="text-decoration:none;">
+                                <div
+                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">2
+                                        years</span>
+                                    <span>
+                                        <a class="para1 fw-bold"
+                                            style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                            href="programs-MA-Political-Science">View Details</a>
+                                    </span>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo"><strong>
-                                                Post Graduate
-                                            </strong>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                        data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <div class="row">
-                                                <a href="mobile-assets/department-all/syllabus-new/17RSHSS/Pol Sci/MA STRUCTURE.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> STRUCTURE OF THE SYLLABUS FOR 2
-                                                    YEAR PG PROGRAMME
-                                                    <i class="fa fa-download"></i>
-                                                </a>
+                            </a>
+                        </div>
 
-                                                <a href="mobile-assets/department-all/syllabus-new/17RSHSS/Pol Sci/MA Syllabus FINAL.pdf"
-                                                    target="_blank">
-                                                    <i class="fa fa-file-text px-2"></i> SYLLABUS FOR 2 YEAR PG PROGRAMME
-                                                    <i class="fa fa-download"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+                        <div style="background-color: transparent; padding:10px; width:100%; margin: 0px auto;">
+                            <!-- Heading Section -->
+                            <div
+                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                                <span style="font-size: 16px; padding-right: 0px; line-height: 1.3;">BA Political
+                                    Science</span> |
+                                <span
+                                    style="font-size: 13px; padding-left: 16px; font-weight: 300px !important; line-height: 1.3;">
+                                    Honours/ Honours with Research
+                                </span>
+
+                                <span
+                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                            </div>
+
+                            <!-- Statute Items -->
+                            <a target="_blank" href="programs-BA-Political-Science" style="text-decoration:none;">
+                                <div
+                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left: 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 18px;">4
+                                        years</span>
+                                    <span>
+                                        <a class="para1 fw-bold"
+                                            style="padding: 5px 15px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                                            href="programs-BA-Political-Science">View Details</a>
+                                    </span>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                            <strong>
-                                                Doctoral Programme
-                                            </strong>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <a href="phd" class="para1" target="_blank">
-                                                <strong>
-                                                    Click to View...
-                                                </strong>
-                                            </a>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section id="syllabus">
+                    <div class="container">
+                        <div>
+                            <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                                style="color: #27467A; font-weight: 900; font-size: 35px; letter-spacing: 0.5px;">
+                                Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
+                            </h2>
+
+                            <div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="accordion para1" id="accordionExample"
+                                            style="border-radius: 12px; overflow: hidden;">
+
+                                            <!-- UG -->
+                                            <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseOne" aria-expanded="false"
+                                                        aria-controls="collapseOne">
+                                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <div class="row"
+                                                            style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                            <a href="mobile-assets/department-all/rshss/pol-sc/updated-syllabus/Course-structure_Pol-Sc.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                            <a href="mobile-assets/department-all/rshss/pol-sc/updated-syllabus/BA-PSc-Syllabus.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus - BA
+                                                                Political Science
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                            <a href="mobile-assets/department-all/rshss/pol-sc/updated-syllabus/BA-Admin-Syllabus.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus - BA
+                                                                Administrative Service
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- PG -->
+                                            <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseTwo" aria-expanded="false"
+                                                        aria-controls="collapseTwo">
+                                                        <i class="fa fa-university me-2"></i> Post Graduate
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <div class="row"
+                                                            style="display: flex; flex-direction: column; gap: 12px;">
+
+                                                            <a href="mobile-assets/department-all/rshss/pol-sc/updated-syllabus/PG-Syllabus-ma-pol.pdf"
+                                                                target="_blank" style="color: #27467A;">
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus - MA
+                                                                Political Science
+                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Doctoral -->
+                                            <div class="accordion-item"
+                                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                                <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed"
+                                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                                        aria-controls="collapseThree">
+                                                        <i class="fa fa-book me-2"></i> Doctoral Programme
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body"
+                                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                                        <a href="doctoral-programme" class="para1" target="_blank"
+                                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
+                                                            <i class="fa fa-external-link me-2"></i> Click to View...
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
-                        <div class="col-lg-6"></div>
                     </div>
+                </section>
+
+                <section id="events">
+
+                    <div class="container pb-4">
+
+                        <!-- events  -->
+                        <div class="row" style="display: flex; justify-content: center;">
+
+                            <div class="col-lg-12">
+                                <h2 class="headd1 fw-bold pt-4 pb-3" style="color: #27467A; font-weight: 900;">
+                                    Events
+                                </h2>
+
+                                <div style="max-width: 100%; position: relative;">
+                                    <div style="border: 1px solid #ccc;">
+
+                                        <div id="scrollContainer"
+                                            style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
+                                            <table class="table table-borderless mb-0"
+                                                style="font-size: 16px; width: 100%;">
+                                                <tbody class="para1" id="scrollContent" style="background-color: #f9f9f9; ">
+
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Guest Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div style="color: #27467A; font-weight: bold;">
+                                                                On 10th December 2018, <b>Dr. Shubhrajeet Konwar</b>,
+                                                                Associate Professor, Department of
+                                                                Political Science, Gauhati University, visited the
+                                                                institution.
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Guest Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div style="color: #27467A; font-weight: bold;">
+                                                                On 6th March 2019, <b>Dr. Nilima Bhagabati</b>, Former
+                                                                Professor and Head, Department of
+                                                                Education, Gauhati University, was invited as a guest.
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Guest Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div style="color: #27467A; font-weight: bold;">
+                                                                On 25th April 2019, <b>Mr. Sumanta Basu</b>, Senior
+                                                                Programme Officer/Manager, United
+                                                                States-India Educational Foundation (USIEF), American
+                                                                Centre, delivered a session.
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Guest Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div style="color: #27467A; font-weight: bold;">
+                                                                On 27th September 2019, <b>Dr. Kiran Keshavamurthy</b>,
+                                                                Assistant Professor, Department of
+                                                                Humanities and Social Sciences, IIT Guwahati, visited the
+                                                                campus.
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Guest Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div style="color: #27467A; font-weight: bold;">
+                                                                On 2nd December 2019, <b>Prof. (Dr.) Nani Gopal Mahanta</b>,
+                                                                Professor, Department of
+                                                                Political Science and Director, Centre for South East Asian
+                                                                Studies, Gauhati University, was
+                                                                the guest of honor.
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Guest Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div style="color: #27467A; font-weight: bold;">
+                                                                On 5th March 2020, <b>Prof. (Dr.) Joydeep Baruah</b>,
+                                                                Professor, Department of Economics,
+                                                                Omeo Kumar Das Institute of Social Change and Development,
+                                                                visited for an invited lecture.
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Guest Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div style="color: #27467A; font-weight: bold;">
+                                                                On 6th March 2020, <b>Patricia Mukhim</b> (social activist,
+                                                                writer, journalist, editor of
+                                                                Shillong Times), <b>Mitra Phukan</b> (author, translator,
+                                                                columnist), and <b>Teresa
+                                                                    Rehman</b> (journalist) shared their insights in a
+                                                                special session.
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Speaker Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div style="color: #27467A; font-weight: bold;">
+                                                                On 16th October 2023, Dr. Daisy Gogoi delivered a guest
+                                                                lecture on "World Anaesthesia Day".
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Speaker Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div style="color: #27467A; font-weight: bold;">
+                                                                On 1st April 2024, Mr. Rickystar Syiemlieh conducted a
+                                                                webinar on "Laparoscopic
+                                                                Instrumentation".
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Speaker Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div style="color: #27467A; font-weight: bold;">
+                                                                On 9th August 2024, Mr. Chinmoy Thakuria delivered a guest
+                                                                lecture during the "Student
+                                                                Induction Programme".
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr style="border-bottom: 1px solid #ddd;">
+                                                        <td style="display: flex; align-items: flex-start; padding: 12px;">
+                                                            <img src="mobile-assets/department-all/imgg.jpg"
+                                                                alt="Speaker Image"
+                                                                style="width: 120px; height: 80px; object-fit: cover; border-radius: 12px; border: 1px solid #ccc; margin-right: 15px;">
+                                                            <div style="color: #27467A; font-weight: bold;">
+                                                                On 18th September 2024, Ms. Sarita Chettri delivered a guest
+                                                                lecture for students.
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+
+                                    <div style="text-align: center; margin-top: 15px;">
+                                        <a href="department-new-rshss-sociology-events" style="display: inline-block; padding: 10px 28px;
+                background: linear-gradient(135deg, #243B95, #151B5B);
+                color: #fff; font-weight: 600; font-size: 16px;
+                border-radius: 25px; text-decoration: none;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                transition: all 0.3s ease-in-out;">
+                                            View All
+                                        </a>
+                                    </div>
+
+
+                                </div>
+
+                                <script>
+                                    const scrollContainer = document.getElementById('scrollContainer');
+                                    const scrollContent = document.getElementById('scrollContent');
+
+                                    // Duplicate content for infinite scroll
+                                    scrollContent.innerHTML += scrollContent.innerHTML;
+
+                                    let scrollPos = 0;
+                                    const scrollSpeed = 0.2;
+
+                                    function scrollStep() {
+                                        scrollPos += scrollSpeed;
+                                        if (scrollPos >= scrollContent.scrollHeight / 2) {
+                                            scrollPos = 0;
+                                        }
+                                        scrollContainer.scrollTop = scrollPos;
+                                        requestAnimationFrame(scrollStep);
+                                    }
+
+                                    scrollStep();
+                                </script>
+
+                            </div>
+
+
+
+                        </div>
+                        <!-- events  -->
+
+                    </div>
+
+                </section>
+
+                <!-- <section id="academic-excellence">
+
+              <section
+                style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 95vh; padding: 50px;">
+
+                <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
+                  Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
+                </h2>
+
+                <div
+                  style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
                 </div>
-            </div>
+
+                <div class="row">
+
+                  <div class="col-lg-12">
+
+                    <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">UGC NET
+                    </h2>
+
+                    <div style="display: flex; justify-content: center;">
+                      <div style="padding: 30px 20px;">
+                        <div class="carousel" mask>
+                          <div class="carousel-track">
+
+
+                            <article class="bg-white text-dark">
+                              <img class="p-2 rounded"
+                                src="mobile-assets/department-all/dept-social-work/candidates/ugc-net/a.png" alt="">
+                              <h2 class="headd1 fw-bold" style="color: #24477f; font-size: 26px;">Hiba Ansari</h2>
+                              <p class="para1 fw-bold">Social Work</p>
+                              <div class="rounded text-center" style="background-color: #FF9A1E; height: 45px;">
+                                <p class="para1 fw-bold text-white pt-2">Batch: 2025</p>
+                              </div>
+                            </article>
+
+                            <article class="bg-white text-dark">
+                              <img class="p-2 rounded"
+                                src="mobile-assets/department-all/dept-social-work/candidates/ugc-net/b.png" alt="">
+                              <h2 class="headd1 fw-bold" style="color: #24477f; font-size: 20px;">Grace Lampahhoi Kipgen
+                              </h2>
+                              <p class="para1 fw-bold">Social Work</p>
+                              <div class="rounded text-center" style="background-color: #FF9A1E; height: 45px;">
+                                <p class="para1 fw-bold text-white pt-2">Batch: 2023 - 2025</p>
+                              </div>
+                            </article>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <style>
+                      .carousel {
+                        --carousel-width: min(85vw, 880px);
+                        --carousel-item-width: 280px;
+                        --carousel-item-height: 350px;
+                        --carousel-item-gap: 2rem;
+                        position: relative;
+                        width: var(--carousel-width);
+                        overflow: hidden;
+                      }
+
+                      .carousel[mask] {
+                        mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+                      }
+
+                      .carousel-track {
+                        display: flex;
+                        justify-content: center;
+                        gap: var(--carousel-item-gap);
+                        animation: marquee var(--carousel-duration) linear infinite;
+                      }
+
+                      .carousel article {
+                        flex: 0 0 var(--carousel-item-width);
+                        height: var(--carousel-item-height);
+                        display: grid;
+                        grid-template-rows: 200px auto 1fr auto;
+                        border-radius: 10px;
+                        background: white;
+                        color: #314158;
+                      }
+
+                      .carousel img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 15px !important;
+                      }
+
+                      .carousel article>*:not(img) {
+                        padding: 0 1rem;
+                      }
+
+                      @keyframes marquee {
+                        from {
+                          transform: translateX(0);
+                        }
+
+                        to {
+                          transform: translateX(var(--scroll-distance));
+                        }
+                      }
+                    </style>
+
+
+
+                  </div>
+
+                </div>
+
+              </section>
+
+            </section> -->
+
+                <div id="bos" class="container pb-5 pt-5">
+
+                    <!-- Container -->
+                    <div id="drc" style="margin:0 auto;">
+
+                        <!-- Row 1 -->
+                        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
+
+                            <!-- Board of Studies -->
+                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
+                                <div
+                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
+                                    <button id="accBtn1" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
+                       background:linear-gradient(135deg,#24477f,#1a365d);
+                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
+                                        <i class="fa fa-users me-2"></i> The Board of Studies
+                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                                    </button>
+                                    <div id="accPanel1"
+                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
+
+                                        <div class="table-responsive">
+                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+                                                <thead class="text-white" style="background-color: #27467a">
+                                                    <tr>
+                                                        <th class="text-white">S.NO.</th>
+                                                        <th class="text-white">POSITION IN D-BOS</th>
+                                                        <th class="text-white">NAME AND DESIGNATION</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="para1 align-middle"
+                                                    style="background-color: #f9f9f9; text-align: start;">
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Convener (Ex-Officio)- Head of the Department</td>
+                                                        <td>
+                                                            Dr. Dhiraj Borkotoky, Associate Professor and Co-ordinator
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>
+                                                            All Faculty members of the Department Members (Ex-Officio)
+                                                        </td>
+                                                        <td>
+                                                            Dr. Y Monojit Singha, Assistant Professor
+                                                            <hr>
+                                                            Dr. Banasmita Sarma, Assistant Professor
+                                                            <hr>
+                                                            Dr. Baba Chandra Singha, Assistant Professor, Political Sc.
+                                                            <hr>
+                                                            Dr. Abhinav Chaliha, Assistant Professor, Political Sc.
+                                                            <hr>
+                                                            Rhitwique Dutta, Assistant Professor
+                                                            <hr>
+                                                            Barsha Sharma
+                                                            <hr>
+                                                            Tanjeela Meghboob, Assistant Professor
+                                                            <hr>
+                                                            Monisha Bordoloi
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>External Expert (Academic)</td>
+                                                        <td>
+                                                            Dr. Subhrajeet Konwer, Associate Professor, GU
+                                                            <hr>
+                                                            Dr. Dilip Gogoi, Associate Professor, Cotton University
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- DRC -->
+                            <div style="flex:1 1 calc(50% - 8px); box-sizing:border-box;">
+                                <div
+                                    style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); background:white; overflow:hidden;">
+                                    <button id="accBtn2" aria-expanded="false" class="para1" style="width:100%; text-align:left; padding:16px 20px; border:0;
+                       background:linear-gradient(135deg,#24477f,#1a365d);
+                       color:white; font-weight:600; font-size:18px; cursor:pointer; border-radius:12px;">
+                                        <i class="fa fa-flask me-2"></i> The Departmental Research Committee (DRC)
+                                        <span style="float:right; font-weight:700; font-size:20px;">＋</span>
+                                    </button>
+                                    <div id="accPanel2"
+                                        style="display:none; padding:20px; background:#f9fbfd; border-top:1px solid #e5e5e5; color:#222; line-height:1.6; border-radius:0 0 12px 12px;">
+
+                                        <div class="table-responsive">
+                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5">
+                                                <thead class="text-white" style="background-color: #27467a">
+                                                    <tr>
+                                                        <th class="text-white">#</th>
+                                                        <th class="text-white">Content</th>
+                                                        <th class="text-white">Name of the Member</th>
+                                                        <th class="text-white">Designation</th>
+                                                        <th class="text-white">Designation in the committee</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="para1 align-middle"
+                                                    style="background-color: #f9f9f9; text-align: start;">
+                                                    <tr>
+                                                        <td>1.</td>
+                                                        <td>Head of the Department</td>
+                                                        <td>Dr. Y Monojit Singha</td>
+                                                        <td>Assistant Professor</td>
+                                                        <td>Chairperson</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2.</td>
+                                                        <td>
+                                                            Two Associate Professors – one of them will be the member
+                                                            secretary
+                                                        </td>
+                                                        <td>Dr. Dhiraj Kumar Borkotoky</td>
+                                                        <td>Associate Professor</td>
+                                                        <td>Member Secretary</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3.</td>
+                                                        <td>Two Assistant Professors holding Ph.D. degree</td>
+                                                        <td>Dr. Babachandra Singha</td>
+                                                        <td>Assistant Professor</td>
+                                                        <td>Member</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td rowspan="3">4.</td>
+                                                        <td rowspan="3" class="align-middle">
+                                                            Three external members not below the rank of Professors,
+                                                            including members from an allied department, who will be
+                                                            nominated by the URC
+                                                        </td>
+                                                        <td>Prof. Shiela Bora</td>
+                                                        <td>Professor</td>
+                                                        <td>External Member</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Prof. Sajal Nag</td>
+                                                        <td>Professor</td>
+                                                        <td>External Member</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Prof. B.S. Mipun</td>
+                                                        <td>Professor</td>
+                                                        <td>External Member</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- JS remains same -->
+                    <script>
+
+                        const accPairs = [
+                            { btn: 'accBtn1', panel: 'accPanel1' },
+                            { btn: 'accBtn2', panel: 'accPanel2' },
+                            { btn: 'accBtn3', panel: 'accPanel3' }
+                        ];
+
+                        function closeAll() {
+                            accPairs.forEach(p => {
+                                const b = document.getElementById(p.btn);
+                                const panel = document.getElementById(p.panel);
+                                if (panel) panel.style.display = 'none';
+                                if (b) {
+                                    b.setAttribute('aria-expanded', 'false');
+                                    const sp = b.querySelector('span');
+                                    if (sp) sp.textContent = '＋';
+                                }
+                            });
+                        }
+
+                        accPairs.forEach(p => {
+                            const b = document.getElementById(p.btn);
+                            const panel = document.getElementById(p.panel);
+                            if (!b || !panel) return;
+
+                            b.addEventListener('click', function () {
+                                const isOpen = this.getAttribute('aria-expanded') === 'true';
+                                if (isOpen) {
+                                    panel.style.display = 'none';
+                                    this.setAttribute('aria-expanded', 'false');
+                                    const sp = this.querySelector('span'); if (sp) sp.textContent = '＋';
+                                } else {
+                                    closeAll();
+                                    panel.style.display = 'block';
+                                    this.setAttribute('aria-expanded', 'true');
+                                    const sp = this.querySelector('span'); if (sp) sp.textContent = '−';
+                                }
+                            });
+                        });
+
+                        document.addEventListener('keydown', function (e) {
+                            if (e.key === 'Escape') closeAll();
+                        });
+                    </script>
+
+                </div>
+
+                <script>
+                    document.querySelectorAll('a.special-link').forEach(anchor => {
+                        anchor.addEventListener('mouseover', function () {
+                            this.style.width = '200px';
+                            this.querySelector('span').style.opacity = '1';
+                        });
+                        anchor.addEventListener('mouseout', function () {
+                            this.style.width = '42px';
+                            this.querySelector('span').style.opacity = '0';
+                        });
+                        anchor.addEventListener('click', function (e) {
+                            e.preventDefault();
+                            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                                behavior: 'smooth'
+                            });
+                        });
+                    });
+
+                </script>
+
+            </section>
+
         </div>
 
     </div>
