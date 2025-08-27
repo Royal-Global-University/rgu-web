@@ -1,4 +1,4 @@
-@extends('frontend.master')
+A@extends('frontend.master')
 @section('title', 'The Assam Royal Global University | Best Private University in Assam, India')
 @section('meta_description', 'Discover Royal Global University, the best private university in Assam offering world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG programs.')
 @section('meta_keywords', 'Best University in Assam')
