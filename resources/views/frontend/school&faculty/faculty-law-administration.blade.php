@@ -418,7 +418,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Mr. Vinod kumar chandak
+                                    Mr. Vinod Kumar Chandak
                                 </h5>
                             </div>
                         </div>
@@ -434,7 +434,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Ms. Rakhee sirauthia choudhury
+                                    Ms. Rakhee Sirauthia Choudhury
                                 </h5>
                             </div>
                         </div>
@@ -863,7 +863,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Mr. Vinod kumar chandak
+                                    Mr. Vinod Kumar Chandak
                                 </h5>
                             </div>
                         </div>
@@ -879,7 +879,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Ms. Rakhee sirauthia choudhury
+                                    Ms. Rakhee Sirauthia Choudhury
                                 </h5>
                             </div>
                         </div>
