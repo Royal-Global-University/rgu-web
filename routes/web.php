@@ -2937,6 +2937,10 @@ Route::get('/press-coverage', function () {
     return view('frontend/media-corner/press-coverage');
 })->name('press-coverage');
 
+Route::get('/chinese-diplomats-visit-royal-global-university-for-educational-collaboration', function () {
+    return view('frontend/media-corner/news37');
+})->name('chinese-diplomats-visit-royal-global-university-for-educational-collaboration');
+
 Route::get('/RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy', function () {
     return view('frontend/media-corner/news1');
 })->name('RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy');
