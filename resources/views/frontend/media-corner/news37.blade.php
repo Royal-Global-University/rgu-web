@@ -1,6 +1,6 @@
 @extends('frontend.master')
-@section('title', 'Royal Global University Celebrates 79th Independence-Day')
-@section('meta_description', 'Technological Sovereignty of India must be celebrated along with the Political Sovereignty: RGU Vice Chancellor')
+@section('title', 'Chinese Diplomats visit Royal Global University for Educational Collaboration')
+@section('meta_description', 'Ice between India-China relations melting: Chinese Diplomats ')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
