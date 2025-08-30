@@ -6,24 +6,25 @@
 
     <section class="mobile">
 
-                    <!-- Popup -->
-                    <div id="popup-mob" class="popup-overlay">
-                        <a href="https://admissions.rgu.ac/" target="_blank" class="text-center"><img src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}"
-                                style="width: 400px; height: 400px;" class="popup-image" alt="Popup Image"></a>
-                    </div>
+        <!-- Popup -->
+        <div id="popup-mob" class="popup-overlay">
+            <a href="https://admissions.rgu.ac/" target="_blank" class="text-center"><img
+                    src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}" style="width: 400px; height: 400px;"
+                    class="popup-image" alt="Popup Image"></a>
+        </div>
 
-                    <script>
-                        document.addEventListener('DOMContentLoaded', function () {
-                            const popup = document.getElementById('popup-mob');
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const popup = document.getElementById('popup-mob');
 
-                            // When click anywhere outside the image, hide the popup
-                            popup.addEventListener('click', function (event) {
-                                if (event.target === popup) {
-                                    popup.style.display = 'none';
-                                }
-                            });
-                        });
-                    </script>
+                // When click anywhere outside the image, hide the popup
+                popup.addEventListener('click', function (event) {
+                    if (event.target === popup) {
+                        popup.style.display = 'none';
+                    }
+                });
+            });
+        </script>
 
         <!-- Floating WhatsApp Button -->
         <a href="https://wa.me/917099028518" class="whatsapp-float" target="_blank">
@@ -34,26 +35,26 @@
         <!-- Floating Section with Frosted Background -->
         <div class="container">
             <div class="floating-wrapper" style="
-                                    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-                                    width: 90%; max-width: 400px; z-index: 800;
-                                    backdrop-filter: blur(30px);
-                                    background: #27467A; /* Frosty effect */
-                                    border-radius: 10px;
-                                    box-shadow: 0 1px 1px #ffffff97;
-                                    border: 1px solid #27467A;
-                                    padding: 15px;">
+                                                    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+                                                    width: 90%; max-width: 400px; z-index: 800;
+                                                    backdrop-filter: blur(30px);
+                                                    background: #27467A; /* Frosty effect */
+                                                    border-radius: 10px;
+                                                    box-shadow: 0 1px 1px #ffffff97;
+                                                    border: 1px solid #27467A;
+                                                    padding: 15px;">
 
                 <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
                     <span class="mobile-para1" style="
-                                            font-weight: bold; font-size: 18px; line-height: 1.3;
-                                            color: #fff; flex-grow: 1;">
+                                                            font-weight: bold; font-size: 18px; line-height: 1.3;
+                                                            color: #fff; flex-grow: 1;">
                         Admission open for 2025 - 2026
                     </span>
 
                     <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
-                                            background-color: #ffb300; color: #fff;
-                                            font-weight: bold; padding: 10px 14px; border-radius: 5px;
-                                            text-decoration: none; white-space: nowrap;">
+                                                            background-color: #ffb300; color: #fff;
+                                                            font-weight: bold; padding: 10px 14px; border-radius: 5px;
+                                                            text-decoration: none; white-space: nowrap;">
                         Apply Now
                     </a>
                 </div>
@@ -72,7 +73,7 @@
 
             <video playsinline autoplay loop muted id="video-bg" oncanplay="showVideo()"
                 style="width: 100%; height: auto; display: block;">
-                <source src="https://media.rgu.ac/head-video/Websitemobilevideooo.mp4" type="video/mp4">
+                <source src="https://media.rgu.ac/head-video/v-2.mp4" type="video/mp4">
             </video>
         </div>
         <!-- mobile video -->
@@ -95,7 +96,7 @@
         <!-- discover rgu -->
         <div>
             <a href=""><img src="https://media.rgu.ac/explore/mob.png"
-                alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape." /></a>
+                    alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape." /></a>
         </div>
         <!-- discover rgu -->
 
@@ -861,24 +862,86 @@
     </section>
 
     <section class="website">
-            <!-- Popup -->
-            <div id="popup-web" class="popup-overlay">
-                <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-2025.png') }}"
-                        style="width: 550px; height: 550px;" class="popup-image" alt="Popup Image"></a>
-            </div>
+        <!-- Popup -->
+        <!-- <div id="popup-web" class="popup-overlay">
+                                <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-2025.png') }}"
+                                        style="width: 550px; height: 550px;" class="popup-image" alt="Popup Image"></a>
+                            </div>
 
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    const popup = document.getElementById('popup-web');
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function () {
+                                    const popup = document.getElementById('popup-web');
 
-                    // When click anywhere outside the image, hide the popup
-                    popup.addEventListener('click', function (event) {
-                        if (event.target === popup) {
-                            popup.style.display = 'none';
-                        }
-                    });
-                });
-            </script>
+                                    popup.addEventListener('click', function (event) {
+                                        if (event.target === popup) {
+                                            popup.style.display = 'none';
+                                        }
+                                    });
+                                });
+                            </script> -->
+
+        <!-- floating button  -->
+        <div>
+            <a href="https://forms.gle/t7dhtshNKYwcHumq7"
+                style="
+                                                                                                                                                                                position: fixed;
+                                                                                                                                                                                bottom: 35px;
+                                                                                                                                                                                right: 50px;
+                                                                                                                                                                                background-color: #ef641f;
+                                                                                                                                                                                color: #fff;
+                                                                                                                                                                                padding: 12px 20px;
+                                                                                                                                                                                font-size: 18px;
+                                                                                                                                                                                font-weight: bold;
+                                                                                                                                                                                text-decoration: none;
+                                                                                                                                                                                border-radius: 20px;
+                                                                                                                                                                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                                                                                                                                z-index: 1000;
+                                                                                                                                                                                overflow: hidden;
+                                                                                                                                                                                animation: pulse 2s infinite;
+                                                                                                                                                                                ">
+                <span
+                    style="
+                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                top: 0;
+                                                                                                                                                                                left: -75%;
+                                                                                                                                                                                width: 50%;
+                                                                                                                                                                                height: 100%;
+                                                                                                                                                                                background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                                                                                                                                transform: skewX(-25deg);
+                                                                                                                                                                                animation: shine 2s infinite;
+                                                                                                                                                                                "></span>
+                Registration for 5th Convocation
+            </a>
+            <style>
+                @keyframes pulse {
+                    0% {
+                        transform: scale(1);
+                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                    }
+
+                    50% {
+                        transform: scale(1.05);
+                        box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
+                    }
+
+                    100% {
+                        transform: scale(1);
+                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                    }
+                }
+
+                @keyframes shine {
+                    0% {
+                        left: -75%;
+                    }
+
+                    100% {
+                        left: 125%;
+                    }
+                }
+            </style>
+        </div>
+        <!-- floating button  -->
         <div id="page" class="site site_wrapper">
 
             <div class="scroll-top">
@@ -912,7 +975,7 @@
 
                                         <div class="col-lg-9">
                                             <h2 style="color: #fff;" class="headd2 fw-bold">
-                                                Applications are now open for Admission in 2025 - 2026.
+                                                Applications are now open for Admission in 2025 - 2026
                                             </h2>
                                             <p class="para1 text-white">
                                                 Explore the full range of graduate courses that are accepting applications
@@ -1029,7 +1092,7 @@
                                 <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
                                     alt="Video Thumbnail"
                                     style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
-                                                                                    z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
+                                                                                                                                                                                                                                        z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
                             </div> --}}
                             <div class="video-container" style="position: relative; width: 100%; height: auto;">
                                 <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
@@ -1050,27 +1113,49 @@
 
             <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
 
-                <a href="/preface"><img src="https://media.rgu.ac/explore/web.png" alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape."></a>
+                <a href="/preface"><img src="https://media.rgu.ac/explore/web.png"
+                        alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape."></a>
 
-
-                <div class="pb-4" style="background-image: url('mobile-assets/events/deeksharam-bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                <!--Deekharambh-->
+                {{-- <div class="pb-4"
+                    style="background-image: url('mobile-assets/events/deeksharam-bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                     <div class="text-center pt-5">
                         <img class="text-center" src="mobile-assets/deekshara/one-logo.png" style="width: 50%" />
                     </div>
                     <div class="row p-3">
                         <div class="col-lg-5" style="display: flex; flex-direction: column; padding-left: 40px;">
-                            <div style="width: 642px; overflow: hidden; margin: auto; position: relative;" id="custom-carousel-container">
+                            <div style="width: 642px; overflow: hidden; margin: auto; position: relative;"
+                                id="custom-carousel-container">
                                 <div id="custom-carousel-track" style="display: flex; transition: transform 0.5s ease;">
-                                    <img src="mobile-assets/deekshara/1.jpeg"
+                                    <img src="mobile-assets/deekshara/new/2.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/2.jpeg"
+                                    <img src="mobile-assets/deekshara/new/4.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/3.jpeg"
+                                    <img src="mobile-assets/deekshara/new/aug-1.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <!-- Clones for looping -->
-                                    <img src="mobile-assets/deekshara/1.jpeg"
+                                    <img src="mobile-assets/deekshara/new/5.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/2.jpeg"
+                                    <img src="mobile-assets/deekshara/new/6.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/8.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/9.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/10.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/11.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/13.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/14.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/15.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/17.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/18.jpeg"
+                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <img src="mobile-assets/deekshara/new/21.jpeg"
                                         style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
                                 </div>
                             </div>
@@ -1084,7 +1169,7 @@
 
                             <script>
                                 const customTrack = document.getElementById('custom-carousel-track');
-                                const customSlideWidth = 320; // 400 + 20px margin
+                                const customSlideWidth = 320;
                                 const customVisibleSlides = 2;
                                 let customIndex = 0;
                                 let customIsSliding = false;
@@ -1127,7 +1212,7 @@
                                     }
                                 }
 
-                                setInterval(nextCustomSlide, 3000); // Auto-slide every 3 seconds
+                                setInterval(nextCustomSlide, 3000);
                             </script>
                         </div>
                         <div class="col-lg-1"></div>
@@ -1180,152 +1265,142 @@
                                 }
                             </style>
 
-                            <!-- Main Video Container -->
                             <div id="video-container-reel-ads">
                                 <video autoplay loop muted playsinline id="video-reel-main">
-                                    <source src="https://media.rgu.ac/deekshara.mp4" type="video/mp4">
+                                    <source src="https://media.rgu.ac/deeksharambh/hd.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
-
-                            <!-- Bottom Text Carousel (3 items at a time) -->
-                            {{-- <div class="text-carousel-reel">
-                                <button onclick="changeVideoReel('mobile-assets/first-convo/first-convo.mp4')">
-                                    <span>Day 1</span><br><span class="fw-bold">Shri Rakkam A. Sangma</span>
-                                </button>
-                                <button onclick="changeVideoReel('mobile-assets/second-convo/second-convo.mp4')">
-                                    <span>Day 2</span><br><span class="fw-bold">Sana</span>
-                                </button>
-                                <button onclick="changeVideoReel('mobile-assets/third-Convo/third-convo.mp4')">
-                                    <span>Day 3</span><br><span class="fw-bold">Arjun</span>
-                                </button>
-                                <button onclick="changeVideoReel('mobile-assets/first-convo/first-convo.mp4')">
-                                    <span>Day 4</span><br><span class="fw-bold">Riya</span>
-                                </button>
-                                <button onclick="changeVideoReel('https://media.rgu.ac/head-video/v-5.mp4')">
-                                    <span>Day 5</span><br><span class="fw-bold">Neha</span>
-                                </button>
-                            </div> --}}
 
                             <script>
                                 function changeVideoReel(src) {
                                     const video = document.getElementById('video-reel-main');
                                     const source = video.querySelector('source');
 
-                                    video.pause();                        // Pause current video
-                                    source.setAttribute('src', src);     // Update the source src attribute
-                                    video.load();                        // Reload the video element
-                                    video.play();                        // Play the new video
+                                    video.pause();
+                                    source.setAttribute('src', src);
+                                    video.load();
+                                    video.play();
                                 }
                             </script>
                         </div>
 
 
                     </div>
-                </div>
-                <!--rgu Events-->
-                <div class="container" style="padding: 30px 0px;">
-                    <div class="row">
-                        <div class="col-lg-7" style="display: flex; flex-direction: column;">
+                </div> --}}
 
-                            <div id="slider-events-section-1" style="width: 620px; overflow: hidden; margin: auto; position: relative;">
+
+                <!--New Events-->
+                <div class="container" style="padding: 30px 0px;">
+                    <div class="row pb-5">
+                        <div class="col-lg-7" style="display: flex; flex-direction: column;">
+                            <div id="slider" style="width: 620px; overflow: hidden; margin: auto; position: relative;">
                                 <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-weight: 900; font-size: 40px;">
-                                    Events at <span style="color: #FF9A1E; font-weight: 500;">RGU</span>
+                                    Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span>
                                 </h2>
 
-                                <div id="slides-events-section-1" style="display: flex; transition: transform 0.7s ease;">
-                                    <img class="zoomable" src="mobile-assets/events/adira-web.jpg"
-                                        style="width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px;">
+                                <div id="slides" style="display: flex; transition: transform 0.7s ease;">
+                                    <img class="zoomable" src="mobile-assets/events/29-1.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="mobile-assets/events/29-2.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="mobile-assets/events/27-2.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="mobile-assets/events/stu-1.png"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="mobile-assets/events/stu2.png"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px;">
-                                    <img class="zoomable" src="mobile-assets/events/model.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px;">
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                 </div>
                             </div>
 
                             <div style="text-align:center; margin-top:10px;">
-                                <button onclick="prevSlideEventsSection1()"
-                                    style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">‹</button>
-                                <button onclick="nextSlideEventsSection1()"
-                                    style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">›</button>
+                                <button onclick="prevSlide()"
+                                    style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">
+                                    < </button>
+                                        <button onclick="nextSlide()"
+                                            style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">></button>
                             </div>
 
-                            <div id="lightbox-events-section-1"
+                            <div id="lightbox"
                                 style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); justify-content:center; align-items:center; z-index:1000;">
-                                <img id="lightbox-img-events-section-1" style="max-width:90%; max-height:90%; border-radius:10px;">
+                                <img id="lightbox-img" style="max-width:90%; max-height:90%; border-radius:10px;">
                             </div>
 
                             <script>
-                                // Lightbox logic
-                                const zoomableImages1 = document.querySelectorAll('#slides-events-section-1 .zoomable');
-                                const lightbox1 = document.getElementById('lightbox-events-section-1');
-                                const lightboxImg1 = document.getElementById('lightbox-img-events-section-1');
+                                const zoomableImages = document.querySelectorAll('.zoomable');
+                                const lightbox = document.getElementById('lightbox');
+                                const lightboxImg = document.getElementById('lightbox-img');
 
-                                zoomableImages1.forEach(img => {
-                                    img.style.cursor = 'pointer';
+                                zoomableImages.forEach(img => {
+                                    img.style.cssText = 'width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px; cursor:pointer;';
                                     img.addEventListener('click', () => {
-                                        lightbox1.style.display = 'flex';
-                                        lightboxImg1.src = img.src;
+                                        lightbox.style.display = 'flex';
+                                        lightboxImg.src = img.src;
                                     });
                                 });
 
-                                lightbox1.addEventListener('click', () => {
-                                    lightbox1.style.display = 'none';
+                                lightbox.addEventListener('click', () => {
+                                    lightbox.style.display = 'none';
                                 });
+                            </script>
 
-                                // Slider logic
-                                const slideWidth1 = 320; // 400px image + 20px margin
-                                const slides1 = document.getElementById("slides-events-section-1");
-                                let index1 = 0;
-                                let isTransitioning1 = false;
+                            <script>
+                                const slideWidth = 320; // 300px image + 20px margin
+                                const slider = document.getElementById("slider");
+                                const slides = document.getElementById("slides");
+                                let index = 0;
+                                let isTransitioning = false;
 
-                                function cloneSlides1() {
-                                    const children = slides1.children;
+                                // Clone first few slides and append
+                                const cloneSlides = () => {
+                                    const children = slides.children;
                                     for (let i = 0; i < 2; i++) {
                                         const clone = children[i].cloneNode(true);
-                                        slides1.appendChild(clone);
+                                        slides.appendChild(clone);
                                     }
-                                }
+                                };
 
-                                cloneSlides1();
+                                cloneSlides();
 
-                                function nextSlideEventsSection1() {
-                                    if (isTransitioning1) return;
-                                    isTransitioning1 = true;
-                                    index1++;
-                                    slides1.style.transition = "transform 0.5s ease";
-                                    slides1.style.transform = `translateX(-${index1 * slideWidth1}px)`;
+                                function nextSlide() {
+                                    if (isTransitioning) return;
+                                    isTransitioning = true;
+                                    index++;
+                                    slides.style.transition = "transform 0.5s ease";
+                                    slides.style.transform = `translateX(-${index * slideWidth}px)`;
 
                                     setTimeout(() => {
-                                        if (index1 >= slides1.children.length - 2) {
-                                            slides1.style.transition = "none";
-                                            index1 = 0;
-                                            slides1.style.transform = `translateX(0px)`;
+                                        if (index >= slides.children.length - 2) {
+                                            slides.style.transition = "none";
+                                            index = 0;
+                                            slides.style.transform = `translateX(0px)`;
                                         }
-                                        isTransitioning1 = false;
+                                        isTransitioning = false;
                                     }, 600);
                                 }
 
-                                function prevSlideEventsSection1() {
-                                    if (isTransitioning1) return;
-                                    isTransitioning1 = true;
-                                    if (index1 <= 0) {
-                                        index1 = slides1.children.length - 3;
-                                        slides1.style.transition = "none";
-                                        slides1.style.transform = `translateX(-${(index1 + 1) * slideWidth1}px)`;
+                                function prevSlide() {
+                                    if (isTransitioning) return;
+                                    isTransitioning = true;
+                                    if (index <= 0) {
+                                        index = slides.children.length - 3;
+                                        slides.style.transition = "none";
+                                        slides.style.transform = `translateX(-${(index + 1) * slideWidth}px)`;
                                         setTimeout(() => {
-                                            slides1.style.transition = "transform 0.5s ease";
-                                            prevSlideEventsSection1();
+                                            slides.style.transition = "transform 0.5s ease";
+                                            prevSlide();
                                         }, 20);
                                         return;
                                     }
-                                    index1--;
-                                    slides1.style.transition = "transform 0.5s ease";
-                                    slides1.style.transform = `translateX(-${index1 * slideWidth1}px)`;
-                                    setTimeout(() => isTransitioning1 = false, 600);
+                                    index--;
+                                    slides.style.transition = "transform 0.5s ease";
+                                    slides.style.transform = `translateX(-${index * slideWidth}px)`;
+                                    setTimeout(() => isTransitioning = false, 600);
                                 }
 
-                                setInterval(nextSlideEventsSection1, 3000); // Auto-slide every 3s
+                                setInterval(nextSlide, 3000); // Auto-slide
                             </script>
                         </div>
 
@@ -1339,50 +1414,18 @@
 
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px; width: 100%" src="mobile-assets/rgu-blog/blog2.jpeg" alt="" />
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news37/3.JPG" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1.2;" class="pt-2 m-0 fw-bold">ICMR Awards 3 Start-up Grants worth over ₹1 Crore to RGU Faculty
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 18, 2025
-                                                </p>
-                                                <a href="icmr-awards-3-start-up-grants-worth-over-1-crore-to-rgu-faculty">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px; width: 100%;" src="mobile-assets/media-corner/news23/1.avif" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; line-height: 1.2;" class="pt-2 m-0 fw-bold">
-                                                A Living Call to Memory: The Bhupen Hazarika Museum Beckons
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0" style="font-size: 16px; color: black; line-height: 1.4;">July 16, 2025
-                                                </p>
-                                                <a href="a-living-call-to-memory-the-bhupen-hazarika-museum-beckons">
-                                                    <p class="pt-2 fw-bold m-0" style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 150px;"
-                                                    src="mobile-assets/media-corner/news22/index.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1.2;"
-                                                    class="pt-2 m-0 fw-bold">RGU Outreach: Awareness on Conservation of
-                                                    Salamander Habitat</p>
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1;"
+                                                    class="pt-2 m-0 fw-bold">Chinese Diplomats visit Royal Global University
+                                                    for Educational Collaboration</p>
                                                 <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">July 10, 2025
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">August 29, 2025
                                                 </p>
-                                                <a href="rgu-outreach-awareness-on-conservation-of-salamander-habitat">
+                                                <a
+                                                    href="/chinese-diplomats-visit-royal-global-university-for-educational-collaboration">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
@@ -1390,6 +1433,47 @@
                                             </div>
                                         </div>
 
+                                        <div class="row bg-light p-2 rounded mt-3">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%"
+                                                    src="mobile-assets/media-corner/news36/1.JPG" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-size: 19px; line-height: 1;"
+                                                    class="pt-2 m-0 fw-bold">500 Newly Admitted Students Awarded
+                                                    Scholarships by Royal Global University
+                                                </p>
+                                                <p class="pt-1 pt-2 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">August 12, 2025
+                                                </p>
+                                                <a
+                                                    href="/500-newly-admitted-students-awarded-scholarships-by-royal-global-university">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded  mt-3">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news35/1.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1;"
+                                                    class="pt-2 m-0 fw-bold">Royal Global University Celebrates 79th
+                                                    Independence-Day</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">August 16, 2025
+                                                </p>
+                                                <a href="/royal-global-university-celebrates-79th-independence-day">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
 
 
                                     </div>
@@ -1431,683 +1515,453 @@
 
             </div>
         </div>
-        <!--End Events-->
 
-        <div style="padding: 30px 20px; background-color: #590d22;">
-            <div class="row" style="display: flex; align-items: center;">
-                <div class="col-lg-7" style="display: flex; justify-content: center;">
-                    <div style="display: flex; flex-direction: column;">
-                        <img src="https://media.rgu.ac/index/lookbook.png" alt="" />
-                        <div class="mt-5 text-center">
-                            <a href="https://heyzine.com/flip-book/601e0af13b.html" target="_blank"
-                                class="text-center p-3 rounded bg-light fw-bold text-dark">View LookBook 2025</a>
-                        </div>
-                    </div>
+        <!-- campus life New -->
+        <section style="background-image: url(Our-Campus-Life-bg.png); background-size: cover; height: 90vh;">
+            <div class="container py-5">
+
+                <!-- Row: Left Heading, Right Tabs -->
+                <div class="d-flex justify-content-between align-items-start">
+
+                    <!-- Heading on left -->
+                    <!-- <h2 style="color:white; font-weight: 800; margin:0; letter-spacing: 2px;">Our Campus Life</h2> -->
+
+                    <!-- Tabs on right -->
+                    <!-- <ul class="nav nav-tabs flex-row align-items-end mb-3" id="myTab" role="tablist"
+                                                style="border:0;">
+
+                                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px;" class="nav-item"
+                                                    role="presentation">
+                                                    <button class="nav-link active" id="campus-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#campus" type="button" role="tab"
+                                                        style="color:#F6921E; font-weight:bold; background:transparent; border:0;">
+                                                        Campus
+                                                    </button>
+                                                </li>
+
+                                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px; padding-left: 5px;"
+                                                    class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="residence-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#residence" type="button" role="tab"
+                                                        style="color:white; font-weight:normal; background:transparent; border:0;">
+                                                        Residence Life
+                                                    </button>
+                                                </li>
+
+                                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px; padding-left: 5px;"
+                                                    class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="games-tab" data-bs-toggle="tab" data-bs-target="#games"
+                                                        type="button" role="tab"
+                                                        style="color:white; font-weight:normal; background:transparent; border:0;">
+                                                        Games & Sports
+                                                    </button>
+                                                </li>
+
+                                                <li style="padding-right: 5px;" class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="amenities-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#amenities" type="button" role="tab"
+                                                        style="color:white; font-weight:normal; background:transparent; border:0;">
+                                                        Amenities
+                                                    </button>
+                                                </li>
+                                            </ul> -->
                 </div>
-                <div class="col-lg-5" style="display: flex; justify-content: center;">
-                    <video autoplay loop muted playsinline
-                        style="width: 100%; height: auto; pointer-events: none; border: 4px solid #fff;">
-                        <source src="https://media.rgu.ac/index/lookbook.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+
+                <!-- Tab content below -->
+                <div class="tab-content w-100 mt-2" id="myTabContent"
+                    style="margin-top:20px; padding:15px; background: transparent; color:white; border-radius:8px;">
+
+                    <div class="tab-pane fade show active" id="campus" role="tabpanel" aria-labelledby="campus-tab">
+
+                        <div class="row">
+
+                            <div class="col-lg-6" style="display: flex; flex-direction: column; justify-content: center;">
+                                <h2 class="headd1"
+                                    style="color:#e68900; font-weight: 700; margin:0; letter-spacing: 2px; font-size: 45px;">
+                                    Our Campus <span
+                                        style="color:white; font-weight: 500; margin:0; letter-spacing: 2px; font-size: 45px;">Life</span>
+                                </h2>
+
+                                <p class="para1 mt-4" style="font-size: 18px; text-align: justify;">
+                                    Recognized as the best private university in Assam, The Assam Royal Global
+                                    University provides an enriching campus life that complements academic
+                                    excellence. As the best University in Northeast Assam, we foster holistic
+                                    development through vibrant cultural festivals, academic clubs, and sports
+                                    activities. Students thrive in a dynamic atmosphere that nurtures leadership and
+                                    teamwork. Known as the top private university in Assam, we offer platforms for
+                                    students to explore their interests beyond the classroom. With a reputation as
+                                    the best private university in Assam, our inclusive environment supports both
+                                    academic growth and personal development for those studying at the Best
+                                    University in Guwahati or the Best Management College in Guwahati.
+                                </p>
+                            </div>
+
+                            <div class="col-lg-6" style="display: flex; justify-content: center;">
+                                <div id="squareCarousel" class="carousel slide" data-bs-ride="carousel"
+                                    data-bs-interval="2500" style="width: 100%; max-width:80%;">
+
+                                    <!-- Indicators -->
+                                    <div class="carousel-indicators" style="margin-bottom: -2rem;">
+                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"
+                                            style="width:10px;height:10px;border-radius:50%;"></button>
+                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="1"
+                                            aria-label="Slide 2" style="width:10px;height:10px;border-radius:50%;"></button>
+                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="2"
+                                            aria-label="Slide 3" style="width:10px;height:10px;border-radius:50%;"></button>
+                                    </div>
+
+                                    <!-- Slides -->
+                                    <div class="carousel-inner" style="border-radius: 16px; overflow: hidden; width:100%;">
+
+                                        <!-- Slide 1 -->
+                                        <div class="carousel-item active">
+                                            <div
+                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
+                                                <img src="infra1.png" alt="Slide 1"
+                                                    style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 2 -->
+                                        <div class="carousel-item">
+                                            <div
+                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
+                                                <img src="infra1.png" alt="Slide 2"
+                                                    style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 3 -->
+                                        <div class="carousel-item">
+                                            <div
+                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
+                                                <img src="infra1.png" alt="Slide 3"
+                                                    style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Controls -->
+                                    <div class="text-center mt-2">
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#squareCarousel"
+                                            data-bs-slide="prev" style="filter: drop-shadow(0 0 4px rgba(0,0,0,0.6));">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#squareCarousel"
+                                            data-bs-slide="next" style="filter: drop-shadow(0 0 4px rgba(0,0,0,0.6));">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="residence" role="tabpanel" aria-labelledby="residence-tab">
+                        <h3>Residence Content</h3>
+                        <p>This is the Residence Life tab content.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="games" role="tabpanel" aria-labelledby="games-tab">
+                        <h3>Games & Sports Content</h3>
+                        <p>This is the Games & Sports tab content.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="amenities" role="tabpanel" aria-labelledby="amenities-tab">
+                        <h3>Amenities Content</h3>
+                        <p>This is the Amenities tab content.</p>
+                    </div>
                 </div>
 
             </div>
-        </div>
-        <!--new code-->
-        {{-- <div style="background-color: #13223b;">
-            <section style=" font-family: Arial, sans-serif; padding-left: 30px; padding-top: 20px; padding-bottom: 20px;">
-                <div class="row" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
 
-                    <!-- Left: Video -->
-                    <div class="col-lg-5">
-                        <div class="text-center">
-                            <video id="videoPlayer" autoplay muted loop controlsList="nodownload"
-                                style="width: 100%; height: 100%; border: 3px solid #fff;">
-                                <source id="videoSource" src="https://media.rgu.ac/index/lookbook.mp4" type="video/mp4">
-                                Your browser does not support HTML5 video.
-                            </video>
-                        </div>
-                    </div>
-
-                    <!-- Right: Image Carousel & Controls -->
-                    <div class="col-lg-7 pt-3">
-                        <div style="padding: 10px; display: flex; flex-direction: column; align-items: center;">
-                            <!-- Thumbnails -->
-                            <div style="position: relative; width: 100%; overflow: hidden;">
-                                <div id="carousel"
-                                    style="display: flex; overflow: hidden; scroll-behavior: smooth; gap: 20px; padding: 10px 40px;">
-                                    <img class="thumb" data-video="https://media.rgu.ac/index/lookbook.mp4"
-                                        src="mobile-assets/magazine/1.png"
-                                        style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
-                                    <img class="thumb" data-video="https://media.rgu.ac/museum-vid.mp4"
-                                        src="mobile-assets/magazine/2.png"
-                                        style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
-                                    <img class="thumb" data-video="https://media.rgu.ac/index/lookbook.mp4"
-                                        src="mobile-assets/magazine/1.png"
-                                        style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
-                                    <img class="thumb" data-video="https://media.rgu.ac/museum-vid.mp4"
-                                        src="mobile-assets/magazine/2.png"
-                                        style="height: 360px; width: auto; cursor: pointer; border: 3px solid white;" />
-                                </div>
-                            </div>
-
-                            <!-- Controls Row (Arrows + View All) -->
-                            <div class="d-flex justify-content-between align-items-center w-100 mt-3 px-4">
-                                <!-- Arrows (Left) -->
-                                <div>
-                                    <button id="scrollLeft"
-                                        style="background: #e68900; border: none; padding: 10px 20px; color: white; font-size: 18px; cursor: pointer;">←</button>
-                                    <button id="scrollRight"
-                                        style="background: #e68900; border: none; padding: 10px 20px; color: white; font-size: 18px; cursor: pointer;">→</button>
-                                </div>
-
-                                <!-- View All (Right) -->
-                                <div>
-                                    <a href="rgu-magazine">
-                                        <p style="background-color: #e68900; color: #fff; padding: 10px 16px;"
-                                            class="rounded fw-bold mb-0">View All Magazine</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- JavaScript -->
             <script>
-                const video = document.getElementById('videoPlayer');
-                const source = document.getElementById('videoSource');
-                const carousel = document.getElementById('carousel');
-                const thumbnails = document.querySelectorAll('.thumb');
-                const scrollLeftBtn = document.getElementById('scrollLeft');
-                const scrollRightBtn = document.getElementById('scrollRight');
-
-                const visibleItems = 1;
-                const totalItems = thumbnails.length;
-                const totalSlides = Math.ceil(totalItems / visibleItems);
-                let currentSlide = 0;
-
-                function scrollToSlide(index) {
-                    const itemWidth = thumbnails[0].offsetWidth + 20; // image width + gap
-                    carousel.scrollTo({
-                        left: index * itemWidth * visibleItems,
-                        behavior: 'smooth'
-                    });
-                }
-
-                scrollLeftBtn.addEventListener('click', () => {
-                    currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
-                    scrollToSlide(currentSlide);
-                });
-
-                scrollRightBtn.addEventListener('click', () => {
-                    currentSlide = (currentSlide + 1) % totalSlides;
-                    scrollToSlide(currentSlide);
-                });
-
-                // Auto-scroll every 3 seconds
-                // setInterval(() => {
-                //     currentSlide = (currentSlide + 1) % totalSlides;
-                //     scrollToSlide(currentSlide);
-                // }, 3000);
-
-                // On image click
-                thumbnails.forEach(thumb => {
-                    thumb.addEventListener('click', () => {
-                        const videoURL = thumb.dataset.video;
-                        source.src = videoURL;
-                        video.load();
-                        video.play();
-
-                        // Move clicked image to front
-                        carousel.prepend(thumb);
-                        scrollToSlide(0);
-                        currentSlide = 0;
+                // Keep active tab orange + bold
+                const tabLinks = document.querySelectorAll('.nav-link');
+                tabLinks.forEach(tab => {
+                    tab.addEventListener('shown.bs.tab', () => {
+                        tabLinks.forEach(btn => { btn.style.color = 'white'; btn.style.fontWeight = 'normal'; });
+                        tab.style.color = '#F6921E';
+                        tab.style.fontWeight = 'bold';
                     });
                 });
             </script>
-        </div> --}}
+        </section>
+        <!-- campus life New -->
 
-        <!--campus life-->
-        <section class=" elementor-section elementor-top-section elementor-element elementor-element-f03cf62
-                                                    elementor-section-full_width elementor-section-height-default
-                                                    elementor-section-height-default" data-id="f03cf62"
-            data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8bd58a9"
-                    data-id="8bd58a9" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-2d6d76a elementor-widget elementor-widget-go-content-tab"
-                            data-id="2d6d76a" data-element_type="widget" data-widget_type="go-content-tab.default">
-                            <div class="elementor-widget-container">
-                                <div class="kd-course-3-area p-relative pt-105 pb-60 fix">
-                                    <div class="kd-course-1-bg-img img-cover fix">
-                                        <img decoding="async" src="https://media.rgu.ac/index/head2.svg" alt="">
-                                    </div>
-                                    <div class="container kd-container-1 txaa-slide-down-1">
-                                        <!-- sectiont-title -->
-                                        <div class="kd-course-1-scn-title">
-                                            <div class="left">
-                                                <!-- <h6
-                                                                                    class="kd-subtitle-1 kd-subtitle-ani-1 has-clr-2 elementor-kadu-sub para1">
-                                                                                    <img style="width: 40x; height: 40px;" src="assets/img/cap.svg"
-                                                                                        alt="">
+        <!-- Fashion Museum  -->
+        <section>
 
-                                                                                    RGU Campus
-                                                                                </h6> -->
-                                                <h1 style="color: #FF9A1E; font-weight: 800;"
-                                                    class="elementor-gt-heading kd-section-title-1 kd-title-ani kd-split-text has-clr-white headd1 ">
-                                                    Our Campus Life</h1>
-                                            </div>
+            <style>
+                /* Styles that cannot be inlined, now with unique names */
+                #bgc-gallery-wrapper {
+                    transition: background-color 0.5s ease-in-out;
+                }
 
-                                            <div class="right txaa-fade-right">
-                                                <ul class="kd-course-1-tabs-btn" id="myTab" role="tablist">
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="nav-link active kd-heading-1 para1 fw-bold text-dark"
-                                                            id="home-tab0" data-bs-toggle="tab" data-bs-target="#home0"
-                                                            type="button" role="tab" aria-controls="home0"
-                                                            aria-selected="true">Campus</button>
-                                                    </li>
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="nav-link  kd-heading-1 para1 text-dark"
-                                                            id="home-tab1" data-bs-toggle="tab" data-bs-target="#home1"
-                                                            type="button" role="tab" aria-controls="home1"
-                                                            aria-selected="true">Residence
-                                                            Life</button>
-                                                    </li>
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="nav-link  kd-heading-1 para1 text-dark"
-                                                            id="home-tab2" data-bs-toggle="tab" data-bs-target="#home2"
-                                                            type="button" role="tab" aria-controls="home2"
-                                                            aria-selected="true">Sports
-                                                            &
-                                                            Exercise</button>
-                                                    </li>
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="nav-link  kd-heading-1 para1 text-dark"
-                                                            id="home-tab3" data-bs-toggle="tab" data-bs-target="#home3"
-                                                            type="button" role="tab" aria-controls="home3"
-                                                            aria-selected="true">Amenities</button>
-                                                    </li>
+                .bgc-gallery-selector-btn:hover {
+                    transform: scale(1.05);
+                }
 
-                                                </ul>
-                                            </div>
-                                        </div>
+                /* Updated the active class name */
+                .bgc-gallery-selector-btn.bgc-gallery-active {
+                    border-color: #007bff !important;
+                    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+                }
 
-                                        <!-- tabs-content -->
-                                        <div class="tab-content kd-course-3-tabs-content-wrap txaa-slide-down-1-item"
-                                            id="myTabContent">
+                .bgc-gallery-nav-btn:hover {
+                    background-color: rgba(0, 0, 0, 0.8) !important;
+                }
 
-                                            <div class="tab-pane fade animated fadeInUp show active" id="home0"
-                                                role="tabpanel" aria-labelledby="home-tab0">
-                                                <div class="kd-course-3-tabs-content">
-                                                    <div class="left-content">
-                                                        <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                            Campus Life</h4>
+                /* New: Styles for carousel images */
+                .bgc-gallery-slider img {
+                    border-right: 1px solid rgba(0, 0, 0, 0.5);
+                    /* Light border on the right */
+                    box-sizing: border-box;
+                    /* Include padding and border in the element's total width and height */
+                    aspect-ratio: 1 / 1;
+                    /* Ensure images are square */
+                }
+            </style>
 
-                                                        <div class="para1 muted" style="text-align: justify;">
-                                                            <p style="color: #323232 !important;">
-                                                                Recognized as
-                                                                the<strong> best private
-                                                                    university</strong>
-                                                                in Assam, The Assam
-                                                                Royal Global University
-                                                                provides an enriching
-                                                                campus life
-                                                                that complements
-                                                                academic excellence. As
-                                                                the best
-                                                                <strong>University in
-                                                                    Northeast</strong>
-                                                                Assam, we foster
-                                                                holistic development
-                                                                through
-                                                                vibrant cultural
-                                                                festivals, academic
-                                                                clubs, and sports
-                                                                activities. Students
-                                                                thrive in a dynamic
-                                                                atmosphere that nurtures
-                                                                leadership and teamwork.
-                                                                Known as the top
-                                                                <strong>private
-                                                                    university in
-                                                                    Assam</strong>, we
-                                                                offer platforms for
-                                                                students to explore
-                                                                their
-                                                                interests beyond the
-                                                                classroom. With a
-                                                                reputation as the
-                                                                <strong>best private
-                                                                    university in
-                                                                    Assam</strong>, our
-                                                                inclusive environment
-                                                                supports both academic
-                                                                growth and personal
-                                                                development for those
-                                                                studying at the
-                                                                <strong>Best University
-                                                                    in Guwahati</strong>
-                                                                or the <strong>Best
-                                                                    Management College
-                                                                    in
-                                                                    Guwahati</strong>.
-                                                            </p>
-                                                        </div>
+            <main id="bgc-gallery-wrapper"
+                style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: rgb(240, 242, 245); margin: 0px; padding: 2rem; display: flex; justify-content: center; align-items: center; min-height: 85vh;">
 
-                                                    </div>
+                <section class="bgc-gallery-content"
+                    style="display: flex; gap: 2rem; width: 100%; max-width: 900px; background: rgb(255, 255, 255); padding: 2rem; border-radius: 12px; box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 20px; height: 85vh; box-sizing: border-box;">
 
-                                                    <!-- right -->
-                                                    <div class="right-content">
-                                                        <div class="rounded">
-                                                            <div class="kd-price-4-content">
-                                                                <div id="carouselExampleControls" class="carousel slide"
-                                                                    data-bs-ride="carousel">
-                                                                    <div class="carousel-inner">
-                                                                        <div class="carousel-item active">
-                                                                            <a href="department-store"><img
-                                                                                    src="https://media.rgu.ac/index/1.svg"
-                                                                                    class="d-block rounded"
-                                                                                    style="width: 100%;" alt="..."></a>
-                                                                        </div>
-                                                                        <div class="carousel-item">
-                                                                            <a href="infrastructure"><img
-                                                                                    src="https://media.rgu.ac/index/5.svg"
-                                                                                    class="d-block rounded"
-                                                                                    style="width: 100%;" alt="..."></a>
-                                                                        </div>
-                                                                        <div class="carousel-item">
-                                                                            <a href="games&sports">
-                                                                                <img src="https://media.rgu.ac/index/7.svg"
-                                                                                    class="d-block rounded"
-                                                                                    style="width: 100%;" alt="..."></a>
-                                                                        </div>
-                                                                        <div class="carousel-item">
-                                                                            <a href="clubs"><img
-                                                                                    src="https://media.rgu.ac/index/4.svg"
-                                                                                    class="d-block rounded"
-                                                                                    style="width: 100%;" alt="..."></a>
-                                                                        </div>
-                                                                        <div class="carousel-item">
-                                                                            <a href="hostel-life">
-                                                                                <img src="https://media.rgu.ac/index/3.svg"
-                                                                                    class="d-block rounded"
-                                                                                    style="width: 100%;" alt="..."></a>
-                                                                        </div>
-                                                                        <div class="carousel-item">
-                                                                            <a href="Student_Affairs">
-                                                                                <img src="https://media.rgu.ac/index/6.svg"
-                                                                                    class="d-block rounded"
-                                                                                    style="width: 100%;" alt="..."></a>
-                                                                        </div>
-                                                                        <div class="carousel-item">
-                                                                            <a href="royal-fests"><img
-                                                                                    src="https://media.rgu.ac/index/2.svg"
-                                                                                    class="d-block rounded"
-                                                                                    style="width: 100%;" alt="..."></a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <button class="carousel-control-prev" type="button"
-                                                                        data-bs-target="#carouselExampleControls"
-                                                                        data-bs-slide="prev">
-                                                                        <span class="carousel-control-prev-icon"
-                                                                            aria-hidden="true"></span>
-                                                                        <span class="visually-hidden">Previous</span>
-                                                                    </button>
-                                                                    <button class="carousel-control-next" type="button"
-                                                                        data-bs-target="#carouselExampleControls"
-                                                                        data-bs-slide="next">
-                                                                        <span class="carousel-control-next-icon"
-                                                                            aria-hidden="true"></span>
-                                                                        <span class="visually-hidden">Next</span>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                    <div class="bgc-gallery-left"
+                        style="flex-basis: 30%; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
+                        <button class="bgc-gallery-selector-btn bgc-gallery-active" data-set="landscapes"
+                            style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;">
+                            <img src="demo-assets/switcher/lookbook/headimg.png" alt="Select Landscape Images"
+                                style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
+                        </button>
 
-                                                        <!-- <div class="kd-course-3-tabs-content-action text-center">
-                                                                                            <h5
-                                                                                                class="kd-heading-1 kd-font-700 has-clr-white action-link">
-                                                                                                get your quality skills certificate from RGU</h5>
-                                                                                            <a href="#" aria-label="name"
-                                                                                                class="kd-pr-btn-1 text-uppercase">
-                                                                                                <span class="text" data-back="get started now"
-                                                                                                    data-front="get started now"></span>
-                                                                                            </a>
-                                                                                        </div> -->
-                                                        <!-- <div class="kd-course-3-tabs-content-il-1">
-                                                                                            <img decoding="async"
-                                                                                                src="https://themexriver.com/wp/kadu/wp-content/uploads/2024/06/course-3-il-1.webp"
-                                                                                                alt="">
-                                                                                        </div> -->
+                        <button class="bgc-gallery-selector-btn" data-set="architecture"
+                            style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;">
+                            <img src="demo-assets/switcher/museum/headimg.jpg" alt="Select Architecture Images"
+                                style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
+                        </button>
 
-                                                    </div>
+                    </div>
 
-                                                </div>
-                                            </div>
-                                            <div class="tab-pane fade animated fadeInUp " id="home1" role="tabpanel"
-                                                aria-labelledby="home-tab1">
-                                                <div class="kd-course-3-tabs-content">
-                                                    <div class="left-content">
-                                                        <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                            Residence Life</h4>
-
-                                                        <div class="para1" style="text-align: justify;">
-                                                            <p>The Assam Royal Global
-                                                                University residence
-                                                                halls
-                                                                aim at
-                                                                enhancing the
-                                                                educational experience
-                                                                of students
-                                                                by
-                                                                providing all the
-                                                                comforts and
-                                                                conveniences they need
-                                                                to succeed.
-                                                                Beautifully situated in
-                                                                the midst of an
-                                                                eco-friendly
-                                                                and green campus,
-                                                                the separate in-house
-                                                                hostels for boys and
-                                                                girls
-                                                                are
-                                                                equipped with adequate
-                                                                facilities for holistic
-                                                                mental and physical
-                                                                growth. The hostel
-                                                                environment will help
-                                                                each
-                                                                boarder get the most out
-                                                                of their time during
-                                                                the
-                                                                period of stay. Close
-                                                                proximity
-                                                                of the hostels to the
-                                                                academic buildings
-                                                                facilitates
-                                                                frequent interactions
-                                                                between studentsand the
-                                                                faculties even during
-                                                                periods of vacation and
-                                                                on holidays.</p>
-                                                        </div>
-                                                        <div class="">
-                                                            <a href="hostel-life" rel="nofollow" aria-label="name"
-                                                                class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                <span class="text" data-back="explore"
-                                                                    data-front="Explore"></span>
-                                                                <span class="icon">
-                                                                    <i class="fa-solid fa-arrow-right"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-
-                                                    </div>
-
-                                                    <!-- right -->
-                                                    <div class="right-content">
-                                                        <div class="kd-course-3-tabs-content-video img-cover fix">
-                                                            <img decoding="async"
-                                                                src="https://media.rgu.ac/index/residence.jpg" alt="">
-
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="tab-pane fade animated fadeInUp " id="home2" role="tabpanel"
-                                                aria-labelledby="home-tab2">
-                                                <div class="kd-course-3-tabs-content">
-                                                    <div class="left-content">
-                                                        <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                            Games & Sports</h4>
-
-                                                        <div class="para1" style="text-align: justify;">
-                                                            <p>There are multiple sport
-                                                                facilities to keep our
-                                                                students engaged and
-                                                                physically fit. Our
-                                                                campus
-                                                                has
-                                                                outdoor game
-                                                                facilities like Cricket,
-                                                                Football, Basketball,
-                                                                tennis, baseball,
-                                                                athletics and so on. Its
-                                                                international standard
-                                                                indoor
-                                                                sports complex “The
-                                                                Cube” offers a variety
-                                                                of
-                                                                indoor
-                                                                games including
-                                                                badminton courts,
-                                                                squash,
-                                                                billiards,
-                                                                and table
-                                                                tennis. Fitness
-                                                                conscious students can
-                                                                go for a
-                                                                jog
-                                                                around the scenic
-                                                                university campus or
-                                                                work out
-                                                                at
-                                                                the well-equipped
-                                                                gymnasium available both
-                                                                at the Boys and Girls
-                                                                hostel. The Gymnasium is
-                                                                equipped with various
-                                                                equipment like
-                                                                treadmills,
-                                                                dumbbells & plates,
-                                                                weights, shoulder press,
-                                                                leg-pull, leg extension,
-                                                                incline shoulder,
-                                                                double
-                                                                twisters, etc.</p>
-                                                        </div>
-                                                        <div class="">
-                                                            <a href="games&sports" rel="nofollow" aria-label="name"
-                                                                class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                <span class="text" data-back="explore"
-                                                                    data-front="Explore"></span>
-                                                                <span class="icon">
-                                                                    <i class="fa-solid fa-arrow-right"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <!-- right -->
-                                                    <div class="right-content">
-                                                        <div class="kd-course-3-tabs-content-video img-cover fix">
-                                                            <img decoding="async"
-                                                                src="https://media.rgu.ac/index/sports.jpg" alt="">
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="tab-pane fade animated fadeInUp " id="home3" role="tabpanel"
-                                                aria-labelledby="home-tab3">
-                                                <div class="kd-course-3-tabs-content">
-                                                    <div class="left-content">
-                                                        <h4 class="kd-heading-1 kd-font-900 headd1 item-title">
-                                                            Amenities</h4>
-
-                                                        <div class="para1" style="text-align: justify;">
-                                                            <p>A sensational
-                                                                rejuvenation and beauty
-                                                                experience.
-                                                                Kurls and Spykes,
-                                                                Guwahati, is a wellness
-                                                                and
-                                                                beauty
-                                                                lounge for both
-                                                                men and women. It offers
-                                                                an unmatched array of
-                                                                services designed to
-                                                                renew, refresh and
-                                                                replenish
-                                                                one’s soul. As a
-                                                                leading hair studio,
-                                                                Kurls and Spykes offer
-                                                                warm
-                                                                hospitality, an inviting
-                                                                atmosphere and
-                                                                top-notch
-                                                                services to wide and
-                                                                varied client base which
-                                                                also includes business
-                                                                and
-                                                                leisure travellers. It
-                                                                offers non exhaustive
-                                                                range
-                                                                of services
-                                                                including a host of hair
-                                                                services such as
-                                                                haircut,
-                                                                hair colour, creative
-                                                                makeover, keratin and
-                                                                bridal
-                                                                makeup services
-                                                                using some
-                                                                internationally renowned
-                                                                brands.</p>
-                                                        </div>
-
-                                                        <div class="">
-                                                            <a href="salon" rel="nofollow" aria-label="name"
-                                                                class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                                <span class="text" data-back="explore"
-                                                                    data-front="Explore"></span>
-                                                                <span class="icon">
-                                                                    <i class="fa-solid fa-arrow-right"></i>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-
-                                                    </div>
-
-                                                    <!-- right -->
-                                                    <div class="right-content">
-                                                        <div class="kd-course-3-tabs-content-video img-cover fix">
-                                                            <img decoding="async"
-                                                                src="https://media.rgu.ac/index/amenities.jpg" alt="">
-
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="bgc-gallery-right"
+                        style="flex-basis: 70%; display: flex; align-items: center; justify-content: center;">
+                        <div class="bgc-gallery-container"
+                            style="position: relative; width: 100%; max-height: 100%; aspect-ratio: 1 / 1; overflow: hidden; border-radius: 8px;">
+                            <div class="bgc-gallery-slider"
+                                style="display: flex; height: 100%; transition: transform 0.5s ease-in-out 0s;">
                             </div>
+                            <button class="bgc-gallery-nav-btn bgc-gallery-prev"
+                                style="position: absolute; top: 50%; transform: translateY(-50%); background-color: rgba(0, 0, 0, 0.5); color: white; border: none; cursor: pointer; padding: 0.75rem; font-size: 1.5rem; line-height: 1; z-index: 10; transition: background-color 0.3s ease 0s; border-radius: 50%; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; left: 15px;">&#10094;</button>
+                            <button class="bgc-gallery-nav-btn bgc-gallery-next"
+                                style="position: absolute; top: 50%; transform: translateY(-50%); background-color: rgba(0, 0, 0, 0.5); color: white; border: none; cursor: pointer; padding: 0.75rem; font-size: 1.5rem; line-height: 1; z-index: 10; transition: background-color 0.3s ease 0s; border-radius: 50%; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; right: 15px;">&#10095;</button>
                         </div>
                     </div>
+
+                </section>
+
+            </main>
+
+            <script>
+                // The entire script is self-contained and won't clash with global variables.
+                document.addEventListener('DOMContentLoaded', () => {
+                    const carouselData = {
+                        landscapes: [
+                            'demo-assets/switcher/lookbook/1.png',
+                            'demo-assets/switcher/lookbook/2.png',
+                            'demo-assets/switcher/lookbook/3.png',
+                            'demo-assets/switcher/lookbook/4.png',
+                            'demo-assets/switcher/lookbook/5.png',
+                            'demo-assets/switcher/lookbook/6.png',
+                            'demo-assets/switcher/lookbook/7.png',
+                            'demo-assets/switcher/lookbook/8.png',
+                            'demo-assets/switcher/lookbook/9.png',
+                            'demo-assets/switcher/lookbook/10.png',
+                            'demo-assets/switcher/lookbook/11.png',
+                            'demo-assets/switcher/lookbook/12.png',
+                            'demo-assets/switcher/lookbook/13.png',
+                            'demo-assets/switcher/lookbook/14.png',
+                            'demo-assets/switcher/lookbook/15.png',
+                            'demo-assets/switcher/lookbook/16.png',
+                            'demo-assets/switcher/lookbook/17.png',
+                            'demo-assets/switcher/lookbook/18.png',
+                            'demo-assets/switcher/lookbook/19.png',
+                            'demo-assets/switcher/lookbook/20.png',
+                            'demo-assets/switcher/lookbook/21.png',
+                            'demo-assets/switcher/lookbook/22.png',
+                            'demo-assets/switcher/lookbook/23.png',
+                            'demo-assets/switcher/lookbook/24.png',
+                            'demo-assets/switcher/lookbook/25.png',
+
+                        ],
+                        architecture: [
+                            'demo-assets/switcher/museum/2.jpg',
+                            'demo-assets/switcher/museum/3.jpg',
+                            'demo-assets/switcher/museum/4.jpg',
+                            'demo-assets/switcher/museum/5.jpg',
+                            'demo-assets/switcher/museum/6.jpg',
+                            'demo-assets/switcher/museum/7.jpg',
+                            'demo-assets/switcher/museum/8.jpg',
+                            'demo-assets/switcher/museum/9.jpg',
+                            'demo-assets/switcher/museum/10.jpg',
+                            'demo-assets/switcher/museum/11.jpg'
+                        ]
+                    };
+                    const backgroundColors = {
+                        landscapes: '#590D22',
+                        architecture: '#59380d'
+                    };
+
+                    const mainSection = document.querySelector('#bgc-gallery-wrapper');
+                    const selectorBtns = document.querySelectorAll('.bgc-gallery-selector-btn');
+                    const slider = document.querySelector('.bgc-gallery-slider');
+                    const prevBtn = document.querySelector('.bgc-gallery-prev');
+                    const nextBtn = document.querySelector('.bgc-gallery-next');
+
+                    let currentIndex = 0;
+                    let currentImageSet = [];
+                    let autoSlideInterval;
+                    const AUTO_SLIDE_DELAY = 2500;
+
+                    function showSlide(index) {
+                        slider.style.transform = `translateX(-${index * 100}%)`;
+                    }
+                    function nextSlide() {
+                        currentIndex = (currentIndex + 1) % currentImageSet.length;
+                        showSlide(currentIndex);
+                    }
+                    function prevSlide() {
+                        currentIndex = (currentIndex - 1 + currentImageSet.length) % currentImageSet.length;
+                        showSlide(currentIndex);
+                    }
+                    function startAutoSlide() {
+                        stopAutoSlide();
+                        autoSlideInterval = setInterval(nextSlide, AUTO_SLIDE_DELAY);
+                    }
+                    function stopAutoSlide() {
+                        clearInterval(autoSlideInterval);
+                    }
+                    function updateCarousel(setName) {
+                        if (backgroundColors[setName]) {
+                            mainSection.style.backgroundColor = backgroundColors[setName];
+                        }
+                        currentImageSet = carouselData[setName];
+                        currentIndex = 0;
+                        slider.innerHTML = '';
+                        currentImageSet.forEach(src => {
+                            const img = document.createElement('img');
+                            img.src = src;
+                            img.alt = "Carousel Image";
+                            img.style.width = '100%';
+                            img.style.height = '100%';
+                            img.style.objectFit = 'cover';
+                            img.style.flexShrink = '0';
+                            slider.appendChild(img);
+                        });
+                        selectorBtns.forEach(btn => {
+                            btn.classList.toggle('bgc-gallery-active', btn.dataset.set === setName);
+                        });
+                        showSlide(currentIndex);
+                        startAutoSlide();
+                    }
+                    selectorBtns.forEach(btn => {
+                        btn.addEventListener('click', () => {
+                            const setName = btn.dataset.set;
+                            updateCarousel(setName);
+                        });
+                    });
+                    nextBtn.addEventListener('click', () => {
+                        nextSlide();
+                        startAutoSlide();
+                    });
+                    prevBtn.addEventListener('click', () => {
+                        prevSlide();
+                        startAutoSlide();
+                    });
+
+                    const initialSetName = document.querySelector('.bgc-gallery-selector-btn.bgc-gallery-active').dataset.set;
+                    updateCarousel(initialSetName);
+                });
+            </script>
+        </section>
+
+        <!-- Courses Card  -->
+        <style>
+            /* Styling for the card itself */
+            .gph-zoom-container {
+                display: block;
+                /* Ensures the anchor behaves like a block for padding/margin */
+                text-decoration: none;
+                /* Removes default underline from link */
+                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+                /* Smooth transition for zoom and shadow */
+            }
+
+            /* Styling for the image inside the card */
+            .gph-zoom-container img {
+                display: block;
+                transition: transform 0.3s ease-in-out;
+                /* Smooth transition for image zoom */
+            }
+
+            /* Hover effects for the card */
+            .gph-zoom-container:hover {
+                transform: translateY(-5px);
+                /* Moves the card up slightly */
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                /* Adds a shadow */
+            }
+
+            /* Hover effect for the image inside the card (zoom) */
+            .gph-zoom-container:hover img {
+                transform: scale(1.02);
+                /* Zooms the image to 105% */
+            }
+        </style>
+
+        <section style="padding: 50px; text-align: center;">
+            <div style="max-width: 1800px; margin: 0 auto;">
+                <h2 style="color: #27467A; font-size: 50px; font-weight: 700; margin-bottom: 10px; margin-top: 0;">
+                    Explore Our <span style="font-weight: 500; color: #EF991F;">Courses</span>
+                </h2>
+
+                <p class="para1 mb-5" style="color: #27467A;">
+                    At The Assam Royal Global University, we offer a diverse range of academic programs designed to shape
+                    future leaders and innovators. Recognized as the Best University in Assam, RGU is committed to academic
+                    excellence across undergraduate, postgraduate, and doctoral levels. As a leading university in Northeast
+                    Assam, we blend global standards with regional values to deliver impactful education.
+                </p>
+
+                <div style="display: flex; flex-wrap: wrap; gap: 50px; justify-content: center;">
+
+                    <a href="doctoral-programme.html" class="gph-zoom-container"
+                        style="padding: 20px; border-radius: 20px; border: 1px solid #888;">
+                        <img style="border-radius: 20px;" src="mobile-assets/index/c6.svg" alt="Course Image">
+                    </a>
+
+                    <a href="doctoral-programme.html" class="gph-zoom-container"
+                        style="padding: 20px; border-radius: 20px; border: 1px solid #888;">
+                        <img style="border-radius: 20px;" src="mobile-assets/index/c7.svg" alt="Course Image">
+                    </a>
+
+                    <a href="doctoral-programme.html" class="gph-zoom-container"
+                        style="padding: 20px; border-radius: 20px; border: 1px solid #888;">
+                        <img style="border-radius: 20px;" src="mobile-assets/index/c8.svg" alt="Course Image">
+                    </a>
+
                 </div>
             </div>
         </section>
-        <!--campus life-->
-
-
-        <!--Courses-->
-        <div data-elementor-type="wp-page" data-elementor-id="2266" class="elementor elementor-2266 m-0 p-0">
-            <section
-                class="elementor-section elementor-top-section elementor-element elementor-element-63fb9c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="63fb9c7" data-element_type="section">
-                <div class="elementor-column-gap-default"
-                    style="padding-left: 50px; padding-right: 50px; padding-bottom: 50px;">
-                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aa60b72"
-                        data-id="aa60b72" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-9b5574a elementor-widget elementor-widget-go-s-heading text-center"
-                                data-id="9b5574a" data-element_type="widget" data-widget_type="go-s-heading.default">
-                                <div class="elementor-widget-container">
-                                    <div class="prthalign">
-                                        <!-- <h6 class="kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub"
-                                                                        style="font-family:Georgia, 'Times New Roman', Times, serif !important; font-size: 22px;">
-                                                                            <img style="width: 40x; height: 40px;" src="assets/img/cap.svg" alt="">
-
-                                                                            RGU Programmes
-                                                                        </h6> -->
-                                        <h1 class="headd1 pb-4" style="color: #27467A; font-size: 50px; font-weight: 800;">
-                                            Explore Our
-                                            <span style="font-weight: 800; color: #EF991F;">Courses</span>
-                                        </h1>
-                                        <p class="para1 text-center text-dark">At The Assam Royal Global University, we
-                                            offer a diverse range of academic programs designed to shape future leaders
-                                            and
-                                            innovators. Recognized as the Best University in Assam, RGU is committed to
-                                            academic excellence across undergraduate,
-                                            postgraduate, and doctoral levels. As a leading university in Northeast
-                                            Assam, we blend global standards with regional
-                                            values to deliver impactful education.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-cbc3c3f elementor-widget elementor-widget-go-course-item"
-                                data-id="cbc3c3f" data-element_type="widget" data-widget_type="go-course-item.default">
-                                <div class="elementor-widget-container">
-                                    <div class="row txaa-slide-down-1">
-
-                                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                                            <a href="doctoral-programme">
-                                                <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
-                                                    <div class="main-img fix img-cover">
-                                                        <img fetchpriority="high" decoding="async" width="357" height="220"
-                                                            src="https://media.rgu.ac/index/c6.svg"
-                                                            class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
-                                                            alt="" />
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                                            <a href="programs">
-                                                <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
-                                                    <div class="main-img fix img-cover">
-                                                        <img decoding="async" width="357" height="220"
-                                                            src="https://media.rgu.ac/index/c7.svg"
-                                                            class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
-                                                            alt="" />
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 txaa-slide-down-1-item">
-                                            <a href="programs">
-                                                <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
-                                                    <div class="main-img fix img-cover">
-                                                        <img decoding="async" width="357" height="220"
-                                                            src="https://media.rgu.ac/index/c8.svg"
-                                                            class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image"
-                                                            alt="" />
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <!--End Courses-->
+        <!-- Courses Card  -->
 
         <!--Labs-->
         <section class="container-fluid"
@@ -2158,8 +2012,8 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                students</span> -->
+                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                        students</span> -->
                                                                 </div>
 
                                                                 <div class="card-content">
@@ -2188,15 +2042,16 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                students</span> -->
+                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                        students</span> -->
 
                                                                 </div>
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
                                                                         <a href="lab-electrical"
-                                                                            aria-label="name">Electrical Lab</a>
+                                                                            aria-label="name">Electrical
+                                                                            Lab</a>
                                                                     </h4>
                                                                     <a href="lab-electrical" aria-label="name"
                                                                         class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
@@ -2220,7 +2075,7 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                            <span class="item-student kd-heading-1">34,000 -->
+                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000 -->
                                                                     students</span>
 
                                                                 </div>
@@ -2228,7 +2083,8 @@
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
                                                                         <a href="lab-language-lab"
-                                                                            aria-label="name">Language Lab</a>
+                                                                            aria-label="name">Language
+                                                                            Lab</a>
                                                                     </h4>
                                                                     <a href="lab-language-lab" aria-label="name"
                                                                         class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
@@ -2351,239 +2207,259 @@
         </section>
         <!--End Labs-->
 
-        <!-- new advantage -->
-        {{-- <section style="padding: 50px 0px 0px 0px; background-color: #13223b;"
-            class=" elementor-section elementor-top-section elementor-element elementor-element-5b53581 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="5b53581" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d665cde"
-                    data-id="d665cde" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-dbbd17f elementor-widget elementor-widget-go-img--bx"
-                            data-id="dbbd17f" data-element_type="widget" data-widget_type="go-img--bx.default">
-                            <div class="elementor-widget-container">
-                                <div class="kd-about-4-left ">
-                                    <div class="mb-5 fix img-cover">
-                                        <img decoding="async" class="rounded" style="height: 600px !important;"
-                                            src="mobile-assets/index/rgu-advantages.png" alt="">
-                                    </div>
-                                    <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
-                                        <img decoding="async" style="height: 600px !important;"
-                                            src="https://media.rgu.ac/index/mobileyellow.png" alt="">
+        <!-- Trail Blazer  -->
+        <section style="
+                        margin: 0;
+                        font-family: sans-serif;
+                        background-image: url(demo-assets/bg4.png);
+                        background-size: cover;
+                        background-position: center;
+                        min-height: 90vh;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        overflow: hidden;
+                        color: #f0f0f0;
+                    ">
+            <section style="
+                            max-height: 750px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 20px;
+                            box-sizing: border-box;
+                            position: relative;
+                        ">
+                <img class="trailblazer-carousel-speed-text" style="margin: 50px 0px; width: 1200px;"
+                    src="demo-assets/texts1.png" alt="Speed Text">
 
-                                    </div>
-
-
-                                </div>
-                            </div>
+                <div class="trailblazer-carousel-scene" style="
+                                width: 70vw;
+                                max-width: 900px;
+                                height: 400px;
+                                perspective: 1200px;
+                                margin-bottom: 120px;
+                                position: relative;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            ">
+                    <div class="trailblazer-carousel-container" style="
+                                    width: 100%;
+                                    height: 100%;
+                                    position: absolute;
+                                    transform-style: preserve-3d;
+                                    transition: transform 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+                                ">
+                        <div class="trailblazer-carousel-item" style="
+                                        position: absolute;
+                                        width: 90%;
+                                        height: 100%;
+                                        left: 5%;
+                                        top: 0;
+                                        border: 2px solid #FFD700; /* Yellow-goldenish border */
+                                        border-radius: 10px;
+                                        overflow: visible;
+                                        background-color: rgba(255, 255, 255, 0.05);
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        box-shadow: 0 0 5px #FFD70092, 0 0 10px #FFD70092, 0 0 15px #FFD70092; /* Yellow-goldenish shadow */
+                                    ">
+                            <img src="demo-assets/p11.png" alt="Carousel Image 1"
+                                style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
+                        </div>
+                        <div class="trailblazer-carousel-item" style="
+                                        position: absolute;
+                                        width: 90%;
+                                        height: 100%;
+                                        left: 5%;
+                                        top: 0;
+                                        border: 2px solid #FFD700; /* Yellow-goldenish border */
+                                        border-radius: 10px;
+                                        overflow: visible;
+                                        background-color: rgba(255, 255, 255, 0.05);
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        box-shadow: 0 0 5px #FFD70092, 0 0 10px #FFD70092, 0 0 15px #FFD70092; /* Yellow-goldenish shadow */
+                                    ">
+                            <img src="demo-assets/p12.png" alt="Carousel Image 2"
+                                style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
+                        </div>
+                        <div class="trailblazer-carousel-item" style="
+                                        position: absolute;
+                                        width: 90%;
+                                        height: 100%;
+                                        left: 5%;
+                                        top: 0;
+                                        border: 2px solid #FFD700; /* Yellow-goldenish border */
+                                        border-radius: 10px;
+                                        overflow: visible;
+                                        background-color: rgba(255, 255, 255, 0.05);
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        box-shadow: 0 0 5px #FFD70092, 0 0 10px #FFD70092, 0 0 15px #FFD70092; /* Yellow-goldenish shadow */
+                                    ">
+                            <img src="demo-assets/p13.png" alt="Carousel Image 3"
+                                style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
                         </div>
                     </div>
-                </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-be85421"
-                    data-id="be85421" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-f5f1b7b elementor-widget elementor-widget-go-s-heading"
-                            data-id="f5f1b7b" data-element_type="widget" data-widget_type="go-s-heading.default">
-                            <div class="elementor-widget-container">
+                    <div style="
+                                    position: absolute;
+                                    bottom: -80px;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    display: flex;
+                                    gap: 30px;
+                                    z-index: 10;
+                                ">
+                        <button id="trailblazer-carousel-prev-btn" style="
+                                        padding: 8px 25px;
+                                        font-size: 18px;
+                                        font-weight: bold;
+                                        color: #fff;
+                                        background-color: #333;
+                                        border: 2px solid #FFD70092; /* Yellow-goldenish border */
+                                        border-radius: 8px;
+                                        cursor: pointer;
+                                        transition: all 0.3s ease;
+                                        box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); /* Yellow-goldenish shadow */
+                                    ">Prev</button>
 
-                                <div class="prthalign">
-                                    <h1 style="font-weight: 700;" class="mobile-headd1 text-light">RGU Advantages
-                                    </h1>
-                                    <div class="elementor-gt-desc kd-para-2 scn-disc"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-3c95150 elementor-widget elementor-widget-go-kadu-accordion"
-                            data-id="3c95150" data-element_type="widget" data-widget_type="go-kadu-accordion.default">
-                            <div class="elementor-widget-container">
-                                <div class="kd-about-4-according mb-60" id="accordionExample_449027">
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-a06e874">
-                                            <button class="item-title kd-heading-2 kd-font-700 " type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-a06e874"
-                                                aria-expanded="false" aria-controls="collapse449027-a06e874">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 25px; font-family: 'Host Grotesk', sans-serif;"
-                                                    class="text">Affordable</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-a06e874" class="accordion-collapse collapse show"
-                                            aria-labelledby="heading449027-a06e874"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm mobile-headd3">Highly
-                                                    affordable
-                                                    Fees.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-c4b748f">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b748f"
-                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 25px; font-family: 'Host Grotesk', sans-serif;"
-                                                    class="text">Hi-Tech and Vibrant Campus</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-c4b748f" class="accordion-collapse collapse "
-                                            aria-labelledby="heading449027-c4b748f"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm mobile-headd3">Most Hi-Tech and
-                                                    Vibrant Campus with culturally diverse community in the
-                                                    North-East with fully air-conditioned built-up area</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-d109252">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-d109252"
-                                                aria-expanded="false" aria-controls="collapse449027-d109252">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
-                                                    class="text">Research</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-d109252" class="accordion-collapse collapse "
-                                            aria-labelledby="heading449027-d109252"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm headd3">Research intensive
-                                                    and Updated Curriculum.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-c4b7489">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b7489"
-                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
-                                                    class="text">Worldwide Students</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-c4b7489" class="accordion-collapse collapse "
-                                            aria-labelledby="heading449027-c4b7489"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm headd3">Students from 6
-                                                    Countries</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-c4b7486">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b7486"
-                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
-                                                    class="text">Location</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-c4b7486" class="accordion-collapse collapse "
-                                            aria-labelledby="heading449027-c4b7486"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm headd3">Centrally Located
-                                                    in Guwahati City with easy access to all modern amenities.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-c4b7485">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b7485"
-                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span
-                                                    style="font-weight: 400; font-size: 30px; font-family: 'Host Grotesk', sans-serif;"
-                                                    class="text">Rich Capital</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-c4b7485" class="accordion-collapse collapse "
-                                            aria-labelledby="heading449027-c4b7485"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm headd3">Rich Intellectual
-                                                    Capital with strong distinguished academicians and domain
-                                                    experts.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <button id="trailblazer-carousel-next-btn" style="
+                                        padding: 8px 25px;
+                                        font-size: 18px;
+                                        font-weight: bold;
+                                        color: #fff;
+                                        background-color: #333;
+                                        border: 2px solid #FFD70092; /* Yellow-goldenish border */
+                                        border-radius: 8px;
+                                        cursor: pointer;
+                                        transition: all 0.3s ease;
+                                        box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); /* Yellow-goldenish shadow */
+                                    ">Next</button>
                     </div>
                 </div>
-            </div>
-        </section> --}}
+            </section>
+        </section>
 
-        <img src="https://media.rgu.ac/sports-image/index-sports.PNG" alt="" />
-        <!-- new advantage end-->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                // Selectors
+                const carouselContainer = document.querySelector('.trailblazer-carousel-container');
+                const carouselItems = document.querySelectorAll('.trailblazer-carousel-item');
+                const prevButton = document.getElementById('trailblazer-carousel-prev-btn');
+                const nextButton = document.getElementById('trailblazer-carousel-next-btn');
+                const scene = document.querySelector('.trailblazer-carousel-scene'); // Added scene for hover detection
 
-        <!--Innovation & Publication end-->
+                if (!carouselContainer || !prevButton || !nextButton || carouselItems.length === 0) {
+                    console.error("Trailblazer Carousel elements not found.");
+                    return;
+                }
 
-        <!--Footprint-->
-        <img src="footprint.png" alt="">
-        <!-- footprint end  -->
+                // Carousel setup variables
+                const cellCount = carouselItems.length;
+                const theta = 360 / cellCount;
+                let selectedIndex = 0;
+                const carouselWidth = scene.offsetWidth * 0.9;
+                const radius = Math.round((carouselWidth / 2) / Math.tan(Math.PI / cellCount)) + 100;
 
-        <!--Testimonial-->
-        <div style="background-image: url(https://media.rgu.ac/index/s2-bg-img-1.webp);"
-            class="pt-5 elementor-element elementor-element-41f1d73 elementor-widget elementor-widget-go-s-heading"
-            data-id="41f1d73" data-element_type="widget" data-widget_type="go-s-heading.default">
-            <div class="elementor-widget-container" style="padding-left: 50px;">
-                <div class="prthalign text-center">
-                    <h6 class=" kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub headd3">
-                        <img style="width: 40x; height: 40px;" src="https://media.rgu.ac/index/cap.svg" alt="">
-                        RGU Testimonials
-                    </h6>
-                    <h1 style="font-weight: 700;" class="elementor-gt-heading text-dark kd-title-ani kd-split-text headd1">
-                        They Speak About Us</h1>
-                </div>
-            </div>
+                // NEW: Variable to hold the interval timer
+                let autoSlideInterval;
 
-            <div class="hover01 column row" style="padding-left: 1px;">
-                <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important; ">
-                    <figure> <a href="success"><img style="border: 2px solid #fff;"
-                                src="https://media.rgu.ac/index/alumni-student.png" /></a></figure>
-                </div>
+                function setupCarousel() {
+                    carouselItems.forEach((cell, i) => {
+                        const cellAngle = theta * i;
+                        cell.style.transform = `rotateY(${cellAngle}deg) translateZ(${radius}px)`;
+                        const img = cell.querySelector('img');
+                        if (img && !cell.querySelector('.trailblazer-carousel-reflection')) {
+                            const reflection = document.createElement('div');
+                            reflection.className = 'trailblazer-carousel-reflection';
+                            Object.assign(reflection.style, {
+                                position: 'absolute', top: '100%', left: '0', width: '100%',
+                                height: '100%', backgroundImage: `url(${img.src})`,
+                                backgroundSize: 'cover', backgroundPosition: 'center top',
+                                transform: 'scaleY(-1)', transformOrigin: 'center top',
+                                opacity: '0.3', maskImage: 'linear-gradient(to bottom, transparent 30%, black 100%)',
+                                WebkitMaskImage: 'linear-gradient(to bottom, transparent 30%, black 100%)',
+                                zIndex: '0', pointerEvents: 'none', marginTop: '5px', borderRadius: '7px'
+                            });
+                            img.parentNode.appendChild(reflection);
+                        }
+                    });
+                }
 
-                <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
-                    <figure><a href="top-recruiters"><img style="border: 2px solid #fff;"
-                                src="https://media.rgu.ac/index/recruiters.png" /></a></figure>
+                function setupButtonHovers(button) {
+                    const originalStyle = {
+                        backgroundColor: button.style.backgroundColor, color: button.style.color,
+                        boxShadow: button.style.boxShadow, transform: 'translateY(0px)'
+                    };
+                    button.addEventListener('mouseover', () => {
+                        button.style.backgroundColor = '#FFD700'; button.style.color = '#fff';
+                        button.style.boxShadow = '0 6px 20px rgba(255, 215, 0, 0.5)';
+                        button.style.transform = 'translateY(-2px)';
+                    });
+                    button.addEventListener('mouseout', () => {
+                        button.style.backgroundColor = originalStyle.backgroundColor;
+                        button.style.color = originalStyle.color;
+                        button.style.boxShadow = originalStyle.boxShadow;
+                        button.style.transform = originalStyle.transform;
+                    });
+                }
 
-                </div>
-                <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
-                    <figure><a href="footprints"><img style="border: 2px solid #fff;"
-                                src="https://media.rgu.ac/index/dignitaries.png" /></a></figure>
+                function rotateCarousel() {
+                    const angle = theta * selectedIndex * -1;
+                    carouselContainer.style.transform = `translateZ(-${radius}px) rotateY(${angle}deg)`;
+                }
 
-                </div>
-            </div>
-        </div>
-        <!-- testimonial end -->
+                // NEW: Function to start the auto-slide timer
+                function startAutoSlide() {
+                    // Clear any existing interval to avoid multiple timers running
+                    clearInterval(autoSlideInterval);
+                    autoSlideInterval = setInterval(() => {
+                        selectedIndex++;
+                        rotateCarousel();
+                    }, 2500); // 2.5 seconds
+                }
+
+                // NEW: Function to stop the auto-slide timer
+                function stopAutoSlide() {
+                    clearInterval(autoSlideInterval);
+                }
+
+                nextButton.addEventListener('click', () => {
+                    selectedIndex++;
+                    rotateCarousel();
+                    startAutoSlide(); // Reset timer on manual click
+                });
+
+                prevButton.addEventListener('click', () => {
+                    selectedIndex--;
+                    rotateCarousel();
+                    startAutoSlide(); // Reset timer on manual click
+                });
+
+                // NEW: Pause auto-slide on hover and resume on mouse out
+                scene.addEventListener('mouseover', stopAutoSlide);
+                scene.addEventListener('mouseout', startAutoSlide);
+
+                // Initial setup calls
+                setupCarousel();
+                setupButtonHovers(prevButton);
+                setupButtonHovers(nextButton);
+                rotateCarousel();
+
+                // Start the auto-sliding initially
+                startAutoSlide();
+            });
+        </script>
+        <!-- Trail Blazer  -->
+
+        <!-- foot prints  -->
+        <img style="width: 100%;" src="demo-assets/footprints.png" alt="">
+        <!-- foot prints  -->
     </section>
 @endsection

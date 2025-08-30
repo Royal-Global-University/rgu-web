@@ -89,7 +89,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                                                                         position: fixed;
                                                                                                                                                                         bottom: 300px;
                                                                                                                                                                         right: 30px;
-                                                                                                                                                                        background-color: #ef641f;
+                                                                                                                                                                        background-color: orange;
                                                                                                                                                                         color: #fff;
                                                                                                                                                                         padding: 12px 10px;
                                                                                                                                                                         font-size: 18px;
@@ -685,7 +685,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                                                                         position: fixed;
                                                                                                                                                                         bottom: 35px;
                                                                                                                                                                         right: 50px;
-                                                                                                                                                                        background-color: #ef641f;
+                                                                                                                                                                        background-color: orange;
                                                                                                                                                                         color: #fff;
                                                                                                                                                                         padding: 12px 20px;
                                                                                                                                                                         font-size: 18px;
