@@ -663,7 +663,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                             <!-- Popup -->
                             <div id="popup-web" class="popup-overlay">
                                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKAyNyc88p6x7K-rFpnG9C25dneSv79DvxkvHXlOi_CHGixA/viewform" target="_blank"><img src="{{ asset('mobile-assets/notification/convo-5.jpeg') }}"
-                                        style="width: 600px; height: 550px;" class="popup-image" alt="Popup Image"></a>
+                                        style="width: 700px; height: 550px;" class="popup-image" alt="Popup Image"></a>
                             </div>
 
                             <script>
