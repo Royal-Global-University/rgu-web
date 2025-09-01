@@ -3093,6 +3093,7 @@ Route::get('/aicte-vaani-grant-sanctioned-to-rgu-for-indian-knowledge-systems-co
     return view('frontend/media-corner/news39');
 })->name('aicte-vaani-grant-sanctioned-to-rgu-for-indian-knowledge-systems-conference');
 
+
 //IKS Faculty Profile
 
 Route::get('/faculty-monalisha-medhi', function () {
@@ -3247,6 +3248,10 @@ Route::get('/faculty-anjali-kumar', function () {
 Route::get('/faculty-debarchana-baruah', function () {
     return view('frontend/facultyprofile/rsl/debarchana-baruah');
 })->name('faculty-debarchana-baruah');
+
+Route::get('/Dr-Nandana-Dutta', function () {
+    return view('frontend/facultyprofile/rsl/nandana');
+})->name('Dr-Nandana-Dutta');
 
 //RSA Faculty Profile
 

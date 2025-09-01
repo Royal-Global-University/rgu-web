@@ -15,6 +15,25 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                             <div class="p-3">
+                                <img style="height: 290px; width: 100%;" src="mobile-assets/updated-faculty-img/Nandana.jpeg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1" style="position: relative; padding-bottom: 50px;">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Nandana Dutta</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Dean Academic and Professor of English, The Assam
+                                    Royal Global University</p>
+
+                                <a href="faculty-hari-prasad-agarwal" style="position: absolute; bottom: 20px;">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+                            <div class="p-3">
                                 <img style="height: 290px; width: 100%;" src="mobile-assets/all-faculty/rsa/1.jpeg"
                                     class="img-fluid rounded border" />
                             </div>
@@ -366,6 +385,24 @@
             <div style="padding: 20px 80px;">
 
                 <div class="row">
+
+                     <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
+                            <div class="p-3">
+                                <img style="height: 290px; width: 100%;" src="mobile-assets/updated-faculty-img/Nandana.jpeg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1" style="position: relative; padding-bottom: 50px;">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Nandana Dutta</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Dean Academic and Professor of English, The Assam Royal Global University</p>
+
+                                <a href="Dr-Nandana-Dutta" style="position: absolute; bottom: 20px;">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
