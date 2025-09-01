@@ -3085,6 +3085,10 @@ Route::get('/500-newly-admitted-students-awarded-scholarships-by-royal-global-un
     return view('frontend/media-corner/news36');
 })->name('500-newly-admitted-students-awarded-scholarships-by-royal-global-university');
 
+Route::get('/supreme-court-judge-unveils-one-of-india’s-largest-gavels-at-royal-global-university', function () {
+    return view('frontend/media-corner/news38');
+})->name('supreme-court-judge-unveils-one-of-india’s-largest-gavels-at-royal-global-university');
+
 //IKS Faculty Profile
 
 Route::get('/faculty-monalisha-medhi', function () {
