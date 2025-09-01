@@ -3089,6 +3089,10 @@ Route::get('/supreme-court-judge-unveils-one-of-india’s-largest-gavels-at-roya
     return view('frontend/media-corner/news38');
 })->name('supreme-court-judge-unveils-one-of-india’s-largest-gavels-at-royal-global-university');
 
+Route::get('/aicte-vaani-grant-sanctioned-to-rgu-for-indian-knowledge-systems-conference', function () {
+    return view('frontend/media-corner/news39');
+})->name('aicte-vaani-grant-sanctioned-to-rgu-for-indian-knowledge-systems-conference');
+
 //IKS Faculty Profile
 
 Route::get('/faculty-monalisha-medhi', function () {

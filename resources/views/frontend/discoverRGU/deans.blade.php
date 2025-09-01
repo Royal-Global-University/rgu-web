@@ -332,7 +332,7 @@
                             <div class="card-body d-flex flex-column flex-grow-1"
                                 style="position: relative; padding-bottom: 50px;">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. Ch. M M Prasad Rao
+                                    Prof. (Dr.) Chennu Maruthi Malya Prasada Rao
                                 </h5>
                                 <p class="para1 pb-3" style="color: #27467A; font-size: 16px; line-height: 1.4;">
                                     Professor and Dean, Royal School of Pharmacy
@@ -687,7 +687,7 @@
                             <div class="card-body d-flex flex-column flex-grow-1"
                                 style="position: relative; padding-bottom: 50px;">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. Ch. M M Prasad Rao
+                                    Prof. (Dr.) Chennu Maruthi Malya Prasada Rao
                                 </h5>
                                 <p class="para1" style="color: #27467A; font-size: 16px; line-height: 1.4;">
                                     Professor and Dean, Royal School of Pharmacy

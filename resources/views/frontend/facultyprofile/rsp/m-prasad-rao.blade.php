@@ -30,7 +30,7 @@
                         <div class="col-lg-6 pt-4 pb-4">
 
                             <h2 class="headd1 fw-bold pt-4" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
-                                Prof. Lila Kanta Nath
+                                Prof. (Dr.) Chennu Maruthi Malya Prasada Rao
                             </h2>
 
                             <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
@@ -43,211 +43,24 @@
 
                             <div>
 
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Qualifications
-                                </h2>
+                                <p style="color: #fff; text-align: justify; font-size: 22px; line-height: 2.1;">Prof. (Dr.) Chennu Maruthi Malya Prasada
+                                    Rao has earned his Ph.D. in Pharmaceutical Sciences from JNTU-Kakinada, M.Pharm. in Pharmaceutical
+                                    Chemistry from Annamalai University, and B.Pharm. from Acharya Nagarjuna University. With over 18 years of teaching
+                                    and
+                                    research experience, Pro. Rao has served as Research Director at Raffles University prior to joining RGU, and played
+                                    a
+                                    key role in the NAAC activities. He has 64+ publications, 5 patents, 2 book chapters, and several MOUs to his
+                                    credit,
+                                    and also authored and co-authored books in pharmacy and Allied Sciences. He has guided 25 M.Pharm. and 4 Ph.D.
+                                    scholars,
+                                    and actively contributed through conferences, guest lectures, professional associations and has been recognized with
+                                    awards such as the Best Researcher Award (2020) and Global Teacher Role Model Award (2020). His research interests
+                                    span
+                                    drug synthesis, novel drug delivery systems, QbD/DoE, analytical method development, and pharmacological screening
+                                    of
+                                    plant extracts.
+                                </p>
 
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Ph.D. (Pharmacy) – Jadavpur University, Kolkata
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            M. Pharm. (Pharmaceutics) – Dr. H.S. Gour Vishwavidyalaya
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            B. Pharm. – Dr. H.S. Gour Vishwavidyalaya
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Total Experience:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            41 years
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Academic Experience:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            41 years
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Research Interest:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Formulation design, Polymer Science, Novel Drug Delivery, Nanotechnology
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Paper publications in journals:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            National: 75
-                                        </span>
-                                    </li>
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            International: 25
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Patents Published:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            2
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Book Chapter Published:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            3
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Book Edited:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            1
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Projects Undertaken:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            11
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Any Other Achievements/Awards:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            1
-                                        </span>
-                                    </li>
-
-                                </ul>
 
                             </div>
 
@@ -276,7 +89,7 @@
                     <div class="col-lg-7 pt-5">
 
                         <h2 class="headd1 fw-bold pt-5 mb-3" style="color: #FF9A1E; font-weight: 700; font-size: 45px;">
-                            Prof. Ch. M M Prasad Rao
+                            Prof. (Dr.) Chennu Maruthi Malya Prasada Rao
                         </h2>
 
                         <h2 class="headd3 mb-5 fw-bold half-underline"
@@ -300,7 +113,7 @@
                         <div class="col-lg-5"></div>
                         <div class="col-lg-7 pt-4 pb-4">
 
-                            <p style="color: #fff; text-align: justify; font-size: 22px; line-height: 2.1;">Prof. Ch. M M Prasad Rao has earned his Ph.D. in Pharmaceutical Sciences from JNTU-Kakinada, M.Pharm. in Pharmaceutical
+                            <p style="color: #fff; text-align: justify; font-size: 22px; line-height: 2.1;">Prof. (Dr.) Chennu Maruthi Malya Prasada Rao has earned his Ph.D. in Pharmaceutical Sciences from JNTU-Kakinada, M.Pharm. in Pharmaceutical
                             Chemistry from Annamalai University, and B.Pharm. from Acharya Nagarjuna University. With over 18 years of teaching and
                             research experience, Pro. Rao has served as Research Director at Raffles University prior to joining RGU, and played a
                             key role in the NAAC activities. He has 64+ publications, 5 patents, 2 book chapters, and several MOUs to his credit,
