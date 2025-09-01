@@ -29,9 +29,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor and Dean, Royal School of Pharmacy
                                 </p>
-                                {{-- <a href="lila-nath">
+                                <a href="/ch-m-m-prasad-rao">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a> --}}
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -693,9 +693,9 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor and Dean, Royal School of Pharmacy
                                 </p>
-                                {{-- <a href="lila-nath">
+                                <a href="/ch-m-m-prasad-rao">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a> --}}
+                                </a>
                             </div>
                         </div>
                     </div>

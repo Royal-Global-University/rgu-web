@@ -3365,6 +3365,10 @@ Route::get('/lila-nath', function () {
     return view('frontend/facultyprofile/rsp/lila-nath');
 })->name('lila-nath');
 
+Route::get('/ch-m-m-prasad-rao', function () {
+    return view('frontend/facultyprofile/rsp/m-prasad-rao');
+})->name('m-prasad-rao');
+
 Route::get('/madhusmita-gogoi', function () {
     return view('frontend/facultyprofile/rsp/madhusmita-gogoi');
 })->name('madhusmita-gogoi');
