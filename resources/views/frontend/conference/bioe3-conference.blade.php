@@ -1,4 +1,5 @@
 @extends('frontend.master')
+@section('title', content: 'Transforming Northeast India from Biodiversity Hot Spot to Biomanufacturing Hot Spot: A BioE3 Perspective')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
