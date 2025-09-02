@@ -2879,6 +2879,11 @@ Route::get('/lp', function () {
     return view('frontend/lp/lp');
 })->name('lp');
 
+//conference
+Route::get('/bioe3-conference', function () {
+    return view('frontend/conference/bioe3-conference');
+})->name('bioe3-conference');
+
 //blog
 Route::get('/blog', function () {
     return view('frontend/blog/blog');
