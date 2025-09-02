@@ -540,37 +540,46 @@
 
 
                 <div class="container pt-5">
-                    <p style="text-align: justify;" class="para1 text-dark">
-                        The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy of India aims to transform the
-                        country’s biomanufacturing sector by integrating cutting-edge biotechnological processes that improve
-                        efficiency, sustainability, and product quality. This policy lays out a framework of principles and
-                        guidelines to promote high-performance biomanufacturing across multiple sectors. Key highlights include
-                        fostering innovation-driven research and development, and encouraging entrepreneurship in priority
-                        thematic areas. To speed up technology development and commercialization, the policy envisions setting
-                        up dedicated Biomanufacturing Hubs and Biofoundries. In addition, it emphasizes promoting regenerative
-                        bioeconomy models focused on green growth, expanding India’s skilled workforce, and boosting employment
-                        opportunities. While BioE3 is designed primarily for economic, environmental, and employment purposes
-                        through green biomanufacturing, its biological manufacturing infrastructure and competencies can also be
-                        strategically relevant to the defence sector. Through policy alignment, shared infrastructure, workforce
-                        readiness, and coordinated planning, India’s advancements under BioE3 in biologicals could support
-                        defence needs, especially in medical countermeasures, biosecurity, and rapid biological response
-                        systems. <br>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Northeast India, a globally recognized
-                        biodiversity hotspot, holds immense untapped potential with its
-                        rich flora, fauna, and microbial resources that have proven value in pharmaceutical, nutraceutical, and
-                        industrial applications. Despite this wealth of bioresources, commercial exploration remains limited.
-                        Assam, in particular, has vast potential for developing bio-based healthcare, nutrition, and
-                        environmental solutions. However, the region’s biomanufacturing sector and startup ecosystem are still
-                        at an early stage and require urgent support from the scientific community to nurture entrepreneurship,
-                        ensure steady raw material supply, and strengthen the agro-economy. <br>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp This conference seeks to bring together
-                        researchers, academicians, entrepreneurs, and policymakers from
-                        biotechnology and related fields onto a shared platform. By exchanging ideas and strategies,
-                        participants can help achieve the vision of the BioE3 Policy while aligning with the Sustainable
-                        Development Goals (SDGs). Ultimately, this collaborative effort aims to drive inclusive economic growth,
-                        environmental stewardship, and social equity through sustainable biomanufacturing and innovation.
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <p style="text-align: justify;" class="para1 text-dark">
+                                The BioE3 (Biotechnology for Economy, Environment, and Employment) Policy of India aims to transform the
+                                country’s biomanufacturing sector by integrating cutting-edge biotechnological processes that improve
+                                efficiency, sustainability, and product quality. This policy lays out a framework of principles and
+                                guidelines to promote high-performance biomanufacturing across multiple sectors. Key highlights include
+                                fostering innovation-driven research and development, and encouraging entrepreneurship in priority
+                                thematic areas. To speed up technology development and commercialization, the policy envisions setting
+                                up dedicated Biomanufacturing Hubs and Biofoundries. In addition, it emphasizes promoting regenerative
+                                bioeconomy models focused on green growth, expanding India’s skilled workforce, and boosting employment
+                                opportunities. While BioE3 is designed primarily for economic, environmental, and employment purposes
+                                through green biomanufacturing, its biological manufacturing infrastructure and competencies can also be
+                                strategically relevant to the defence sector. Through policy alignment, shared infrastructure, workforce
+                                readiness, and coordinated planning, India’s advancements under BioE3 in biologicals could support
+                                defence needs, especially in medical countermeasures, biosecurity, and rapid biological response
+                                systems. <br>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Northeast India, a globally recognized
+                                biodiversity hotspot, holds immense untapped potential with its
+                                rich flora, fauna, and microbial resources that have proven value in pharmaceutical, nutraceutical, and
+                                industrial applications. Despite this wealth of bioresources, commercial exploration remains limited.
+                                Assam, in particular, has vast potential for developing bio-based healthcare, nutrition, and
+                                environmental solutions. However, the region’s biomanufacturing sector and startup ecosystem are still
+                                at an early stage and require urgent support from the scientific community to nurture entrepreneurship,
+                                ensure steady raw material supply, and strengthen the agro-economy. <br>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp This conference seeks to bring together
+                                researchers, academicians, entrepreneurs, and policymakers from
+                                biotechnology and related fields onto a shared platform. By exchanging ideas and strategies,
+                                participants can help achieve the vision of the BioE3 Policy while aligning with the Sustainable
+                                Development Goals (SDGs). Ultimately, this collaborative effort aims to drive inclusive economic growth,
+                                environmental stewardship, and social equity through sustainable biomanufacturing and innovation.
 
-                    </p>
+                            </p>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <img src="mobile-assets/conference/bioe3/qr.png"/>
+                            <p style="color: #27467A" class="fw-bold pb-4">biodiversity2biomanufacturing@gmail.com</p>
+                            <a href="" style="background-color: #FF9A1E; color: white; font-size: 24px;" class="rounded fw-bold p-2">Register Now</a>
+                        </div>
+                    </div>
 
                     <div class="row" style="display: flex; justify-content: center; align-items: center;">
                         <div class="col-lg-6">
