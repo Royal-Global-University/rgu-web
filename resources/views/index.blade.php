@@ -2014,7 +2014,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                             <h1 style="font-weight: 900; color: #27467A;"
                                                                                                                                 class="elementor-gt-heading kd-title-ani kd-split-text headd">
                                                                                                                                 LABORATORIES AND <span
-                                                                                                                                    style="font-weight: 500; color: #EF991F;">STUDIOS</span>
+                                                                                                                                    style="font-weight: 500; color: #EF991F;">STUDIOS..</span>
                                                                                                                             </h1>
                                                                                                                         </div>
                                                                                                                     </div>
