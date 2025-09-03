@@ -3098,6 +3098,10 @@ Route::get('/aicte-vaani-grant-sanctioned-to-rgu-for-indian-knowledge-systems-co
     return view('frontend/media-corner/news39');
 })->name('aicte-vaani-grant-sanctioned-to-rgu-for-indian-knowledge-systems-conference');
 
+Route::get('/national-leadership-conclave-2025-from-11th-september-at-royal-global-university', function () {
+    return view('frontend/media-corner/news40');
+})->name('national-leadership-conclave-2025-from-11th-september-at-royal-global-university');
+
 
 //IKS Faculty Profile
 
