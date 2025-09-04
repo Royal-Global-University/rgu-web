@@ -294,6 +294,10 @@ Route::get('/facilities-royal-boutique', function () {
     return view('frontend/facilities/facilities-royal-boutique');
 })->name('facilities-royal-boutique');
 
+Route::get('/bhupen-hazarika-songs', function () {
+    return view('frontend/bhupen');
+})->name('bhupen-hazarika-songs');
+
 Route::get('/facilities-salon', function () {
     return view('frontend/facilities/facilities-salon');
 })->name('facilities-salon');
@@ -3105,6 +3109,10 @@ Route::get('/aicte-vaani-grant-sanctioned-to-rgu-for-indian-knowledge-systems-co
 Route::get('/national-leadership-conclave-2025-from-11th-september-at-royal-global-university', function () {
     return view('frontend/media-corner/news40');
 })->name('national-leadership-conclave-2025-from-11th-september-at-royal-global-university');
+
+Route::get('/former-tata-motors-ceo-to-talk-on-leading-from-the-back-to-achieve-the-impossible-at-rgu', function () {
+    return view('frontend/media-corner/news41');
+})->name('former-tata-motors-ceo-to-talk-on-leading-from-the-back-to-achieve-the-impossible-at-rgu');
 
 
 //IKS Faculty Profile
