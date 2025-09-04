@@ -2884,6 +2884,10 @@ Route::get('/bioe3-conference', function () {
     return view('frontend/conference/bioe3-conference');
 })->name('bioe3-conference');
 
+Route::get('/climate-change-and-livelihood-in-northeast-india', function () {
+    return view('frontend/conference/climate');
+})->name('climate-change-and-livelihood-in-northeast-india');
+
 //blog
 Route::get('/blog', function () {
     return view('frontend/blog/blog');
