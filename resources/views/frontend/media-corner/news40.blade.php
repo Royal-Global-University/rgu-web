@@ -27,7 +27,7 @@
                 style="display: flex; justify-content: center; align-items: center; gap:10px">
                 <div class="col-lg-10">
                     <img class=" rounded" src="mobile-assets/media-corner/news39/Leadership Conclave 2025.jpg"
-                        style=" width: 100%; border: 3px solid black; height: 420px;" alt="">
+                        style=" width: 70%; border: 3px solid black; height: 420px;" alt="">
                 </div>
             </div>
 
