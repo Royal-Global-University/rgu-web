@@ -861,711 +861,557 @@
 
     </section>
 
-    <section class="website">
-        <!-- Popup -->
-        <!-- <div id="popup-web" class="popup-overlay">
-                                <a href="https://admissions.rgu.ac/" target="_blank"><img src="{{ asset('mobile-assets/ads/phd-2025.png') }}"
-                                        style="width: 550px; height: 550px;" class="popup-image" alt="Popup Image"></a>
+    <div class="website">
+         <!-- Popup -->
+                                                                                                    <div id="popup-web" class="popup-overlay">
+                                                                                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKAyNyc88p6x7K-rFpnG9C25dneSv79DvxkvHXlOi_CHGixA/viewform" target="_blank"><img src="{{ asset('mobile-assets/notification/convo-5th.jpeg') }}"
+                                                                                                                style="width: 700px; height: 550px;" class="popup-image" alt="Popup Image"></a>
+                                                                                                    </div>
+
+                                                                                                    <script>
+                                                                                                        document.addEventListener('DOMContentLoaded', function () {
+                                                                                                            const popup = document.getElementById('popup-web');
+
+                                                                                                            popup.addEventListener('click', function (event) {
+                                                                                                                if (event.target === popup) {
+                                                                                                                    popup.style.display = 'none';
+                                                                                                                }
+                                                                                                            });
+                                                                                                        });
+                                                                                                    </script>
+
+                                                                                                    <!-- floating button  -->
+                                                                                                    <div>
+                                                                                                        <a href="https://forms.gle/t7dhtshNKYwcHumq7"
+                                                                                                            style="
+                                                                                                                                                                                                                                                        position: fixed;
+                                                                                                                                                                                                                                                        bottom: 35px;
+                                                                                                                                                                                                                                                        right: 50px;
+                                                                                                                                                                                                                                                        background-color: orange;
+                                                                                                                                                                                                                                                        color: #fff;
+                                                                                                                                                                                                                                                        padding: 12px 20px;
+                                                                                                                                                                                                                                                        font-size: 18px;
+                                                                                                                                                                                                                                                        font-weight: bold;
+                                                                                                                                                                                                                                                        text-decoration: none;
+                                                                                                                                                                                                                                                        border-radius: 20px;
+                                                                                                                                                                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                                                                                                                                                                                                        z-index: 1000;
+                                                                                                                                                                                                                                                        overflow: hidden;
+                                                                                                                                                                                                                                                        animation: pulse 2s infinite;
+                                                                                                                                                                                                                                                        ">
+                                                                                                            <span
+                                                                                                                style="
+                                                                                                                                                                                                                                                        position: absolute;
+                                                                                                                                                                                                                                                        top: 0;
+                                                                                                                                                                                                                                                        left: -75%;
+                                                                                                                                                                                                                                                        width: 50%;
+                                                                                                                                                                                                                                                        height: 100%;
+                                                                                                                                                                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                                                                                                                                                                                                        transform: skewX(-25deg);
+                                                                                                                                                                                                                                                        animation: shine 2s infinite;
+                                                                                                                                                                                                                                                        "></span>
+                                                                                                            Registration for 5th Convocation
+                                                                                                        </a>
+                                                                                                        <style>
+                                                                                                            @keyframes pulse {
+                                                                                                                0% {
+                                                                                                                    transform: scale(1);
+                                                                                                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                                                                                                                }
+
+                                                                                                                50% {
+                                                                                                                    transform: scale(1.05);
+                                                                                                                    box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
+                                                                                                                }
+
+                                                                                                                100% {
+                                                                                                                    transform: scale(1);
+                                                                                                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                                                                                                                }
+                                                                                                            }
+
+                                                                                                            @keyframes shine {
+                                                                                                                0% {
+                                                                                                                    left: -75%;
+                                                                                                                }
+
+                                                                                                                100% {
+                                                                                                                    left: 125%;
+                                                                                                                }
+                                                                                                            }
+                                                                                                        </style>
+                                                                                                    </div>
+                                                                                                    <!-- floating button  -->
+
+        <!-- Hero Section  -->
+        <section>
+            <header>
+                <div>
+                    @include('frontend/components/iheader')
+                    <div>
+
+                        <!-- Carousel container for 4-image slider -->
+                        <div id="imageCarousel" class="carousel slide carousel-container" data-bs-ride="carousel"
+                            data-pause="false" data-interval="2000">
+
+                            <!-- admission banner  -->
+                            <section class="container border mb-3"
+                                style="background-color: #ffffff1c; box-shadow: -1px 3px 5px 0px rgba(255, 255, 255, 0.2); border-radius: 20px;  backdrop-filter: blur(20px);">
+
+                                <div class="row"
+                                    style="display: flex; align-items: center; justify-content: center; padding: 20px 10px;">
+
+                                    <div class="col-lg-9">
+                                        <h2 style="color: #fff;" class="headd3 fw-bold">
+                                            Applications are now open for Admission in 2025 - 2026
+                                        </h2>
+                                        <p class="para1 text-white">
+                                            Explore the full range of graduate courses that are accepting
+                                            applications
+                                        </p>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div>
+                                            <a href="https://admissions.rgu.ac/" style="
+      position: fixed;
+      bottom: 35px;
+      right: 50px;
+      background-color: #ef991f;
+      color: #fff;
+      padding: 12px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+      overflow: hidden;
+      animation: pulse 2s infinite;
+    ">
+                                                <span style="
+        position: absolute;
+        top: 0;
+        left: -75%;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+        transform: skewX(-25deg);
+        animation: shine 2s infinite;
+      "></span>
+                                                APPLY NOW
+                                            </a>
+                                            <style>
+                                                @keyframes pulse {
+                                                    0% {
+                                                        transform: scale(1);
+                                                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                                                    }
+
+                                                    50% {
+                                                        transform: scale(1.05);
+                                                        box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
+                                                    }
+
+                                                    100% {
+                                                        transform: scale(1);
+                                                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                                                    }
+                                                }
+
+                                                @keyframes shine {
+                                                    0% {
+                                                        left: -75%;
+                                                    }
+
+                                                    100% {
+                                                        left: 125%;
+                                                    }
+                                                }
+                                            </style>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </section>
+                            <!-- admission banner  -->
+
+                            <div class="carousel-inner pt-3">
+                                <div class="carousel-item active">
+                                    <img src="home-banner/about-web-mont.png" alt="Slide 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="home-banner/research-web-mont.png" alt="Slide 2">
+                                </div>
+                                <!-- <div class="carousel-item">
+                                        <img src="sarang/s3.png" alt="Slide 3">
+                                    </div> -->
                             </div>
 
-                            <script>
-                                document.addEventListener('DOMContentLoaded', function () {
-                                    const popup = document.getElementById('popup-web');
 
-                                    popup.addEventListener('click', function (event) {
-                                        if (event.target === popup) {
-                                            popup.style.display = 'none';
-                                        }
-                                    });
-                                });
-                            </script> -->
+                            <!-- Controls for the carousel -->
+                            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button> -->
 
-        <!-- floating button  -->
-        <div>
-            <a href="https://forms.gle/t7dhtshNKYwcHumq7"
-                style="
-                                                                                                                                                                                position: fixed;
-                                                                                                                                                                                bottom: 35px;
-                                                                                                                                                                                right: 50px;
-                                                                                                                                                                                background-color: #ef641f;
-                                                                                                                                                                                color: #fff;
-                                                                                                                                                                                padding: 12px 20px;
-                                                                                                                                                                                font-size: 18px;
-                                                                                                                                                                                font-weight: bold;
-                                                                                                                                                                                text-decoration: none;
-                                                                                                                                                                                border-radius: 20px;
-                                                                                                                                                                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                                                                                z-index: 1000;
-                                                                                                                                                                                overflow: hidden;
-                                                                                                                                                                                animation: pulse 2s infinite;
-                                                                                                                                                                                ">
-                <span
-                    style="
-                                                                                                                                                                                position: absolute;
-                                                                                                                                                                                top: 0;
-                                                                                                                                                                                left: -75%;
-                                                                                                                                                                                width: 50%;
-                                                                                                                                                                                height: 100%;
-                                                                                                                                                                                background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                                                                                transform: skewX(-25deg);
-                                                                                                                                                                                animation: shine 2s infinite;
-                                                                                                                                                                                "></span>
-                Registration for 5th Convocation
-            </a>
+
+
+                        </div>
+
+                        <!-- Video Container -->
+                        <div class="video-container" style="position: relative; width: 100%; height: auto;">
+                            <img src="web-thumb.png" id="video-thumbnail2" alt="Video Thumbnail"
+                                style="width: 100%; height: auto; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
+
+                            <video autoplay loop muted id="video-bg2" oncanplay="showVideo2()"
+                                style="width: 100%; height: auto; display: block;">
+                                <source src="https://media.rgu.ac/head-video/v-2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <!-- Video Container -->
+
+                        <script>
+                            function showVideo2() {
+                                let thumbnail = document.getElementById("video-thumbnail2");
+                                thumbnail.style.opacity = "0";  // Fade out smoothly
+                                setTimeout(() => {
+                                    thumbnail.style.display = "none";  // Remove after transition
+                                }, 1000);  // Matches transition duration
+                            }
+                        </script>
+
+                    </div>
+                </div>
+            </header>
+
+        </section>
+        <!-- Hero Section  -->
+
+        <!-- Explore RGU New  -->
+        <a href="/preface"><img src="demo-assets/explore-rgu.png" alt=""></a>
+        <!-- Explore RGU New  -->
+
+        <!--Event Section-->
+        <section>
+
             <style>
-                @keyframes pulse {
-                    0% {
-                        transform: scale(1);
-                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                    }
-
-                    50% {
-                        transform: scale(1.05);
-                        box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                    }
-
-                    100% {
-                        transform: scale(1);
-                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                    }
+                .events-section {
+                    padding: 30px 15px;
+                    border-radius: 10px;
+                    background-color: #f8f9fa;
                 }
 
-                @keyframes shine {
-                    0% {
-                        left: -75%;
-                    }
+                .section-title {
+                    color: #27467A;
+                    font-weight: 800;
+                    font-size: 40px;
+                    padding-bottom: 1rem;
+                }
 
-                    100% {
-                        left: 125%;
-                    }
+                .section-title .highlight {
+                    color: #FF9A1E;
+                    font-weight: 500;
+                }
+
+                /* Apply flex properties ONLY to the active slide */
+                .carousel-item.active {
+                    display: flex;
+                    align-items: center;
+                    /* Vertically center the images */
+                }
+
+                .carousel-img {
+                    width: 100%;
+                    height: auto;
+                    /* Allow image to scale proportionally */
+                    border: 2px solid #e68900;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+
+                /* --- MODIFIED STYLES FOR CONTROLS --- */
+                .carousel-control-prev,
+                .carousel-control-next {
+                    position: static;
+                    /* Override Bootstrap's absolute positioning */
+                    display: inline-flex;
+                    /* Display them side-by-side */
+                    transform: none;
+                    /* Remove the vertical centering transform */
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 5px;
+                    /* Add a little space between buttons */
+                    background-color: #27467A;
+                    border-radius: 50%;
+                }
+
+                /* Lightbox Styles */
+                #lightbox {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.9);
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 1050;
+                }
+
+                #lightbox-img {
+                    max-width: 90%;
+                    max-height: 90%;
+                    border-radius: 10px;
                 }
             </style>
-        </div>
-        <!-- floating button  -->
-        <div id="page" class="site site_wrapper">
 
-            <div class="scroll-top">
-                <div class="scroll-top-wrap">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                        data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path
-                            d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                        </path>
-                    </svg>
-                </div>
-            </div>
 
-            <!--Start Header-->
-            <section>
-                <header>
-                    <div>
-                        @include('frontend/components/iheader')
-                        <div>
-                            <!-- Carousel container for 4-image slider -->
-                            <div id="imageCarousel" class="carousel slide carousel-container" data-bs-ride="carousel"
-                                data-pause="false" data-interval="2000">
+            <section class="events-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h2 class="section-title">E-Board, <span class="highlight"> RGU</span></h2>
 
-                                <!-- admission banner  -->
-                                <section class="container border mb-3"
-                                    style="background-color: #ffffff41; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.20); border-radius: 20px;  backdrop-filter: blur(20px);">
-
-                                    <div class="row"
-                                        style="display: flex; align-items: center; justify-content: center; padding: 20px 25px;">
-
-                                        <div class="col-lg-9">
-                                            <h2 style="color: #fff;" class="headd2 fw-bold">
-                                                Applications are now open for Admission in 2025 - 2026
-                                            </h2>
-                                            <p class="para1 text-white">
-                                                Explore the full range of graduate courses that are accepting applications
-                                            </p>
-                                        </div>
-
-                                        <div class="col-lg-3">
-
-                                            <a href="https://admissions.rgu.ac/" target="_blank">
-                                                <div class="btn-container">
-                                                    <div class="btn shiny-button">
-                                                        <p class="text-center headd3 fw-bold pt-3">APPLY NOW </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </section>
-                                <!-- admission banner  -->
-
-                                {{-- <div class="carousel-inner">
+                            <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="https://media.rgu.ac/sports-image/head-web-sport.PNG" alt="Slide 1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="https://media.rgu.ac/index/about-website.png" alt="Slide 2">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="https://media.rgu.ac/index/research-website.png" alt="Slide 3">
-                                    </div>
-                                </div> --}}
-
-                                <style>
-                                    .carousel-control-prev,
-                                    .carousel-control-next {
-                                        top: 50%;
-                                        transform: translateY(-50%);
-                                        width: 50px;
-                                        height: 50px;
-                                        background-color: #f0f0f0;
-                                        /* Light background */
-                                        border-radius: 50%;
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        z-index: 2;
-                                        border: none;
-                                    }
-
-                                    .carousel-control-prev {
-                                        left: -60px;
-                                    }
-
-                                    .carousel-control-next {
-                                        right: -60px;
-                                    }
-
-                                    .carousel-control-prev svg,
-                                    .carousel-control-next svg {
-                                        width: 20px;
-                                        height: 20px;
-                                        fill: #222;
-                                        /* Bold dark arrow */
-                                    }
-
-                                    @media (max-width: 768px) {
-                                        .carousel-control-prev {
-                                            left: 10px;
-                                        }
-
-                                        .carousel-control-next {
-                                            right: 10px;
-                                        }
-                                    }
-                                </style>
-
-                                <div id="rguCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="https://media.rgu.ac/index/about-website.png" class="d-block w-100"
-                                                alt="Slide 2">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="https://media.rgu.ac/index/research-website.png" class="d-block w-100"
-                                                alt="Slide 3">
+                                        <div class="row w-100 mx-0">
+                                            <div class="col-6">
+                                                <img class="carousel-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/basket.jpeg" alt="Event 1">
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="carousel-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/sep-2.jpeg" alt="Event 2">
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <!-- Left Arrow -->
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#rguCarousel"
-                                        data-bs-slide="prev">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                                            <path
-                                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
-                                        </svg>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-
-                                    <!-- Right Arrow -->
-                                    <button class="carousel-control-next" type="button" data-bs-target="#rguCarousel"
-                                        data-bs-slide="next">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                                            <path
-                                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                        </svg>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-
-                            </div>
-
-                            {{-- <div class="video-container" style="position: relative; width: 100%; height: 95vh;">
-                                <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
-                                    alt="Video Thumbnail"
-                                    style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
-                                                                                                                                                                                                                                        z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
-                            </div> --}}
-                            <div class="video-container" style="position: relative; width: 100%; height: auto;">
-                                <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
-                                    alt="Video Thumbnail"
-                                    style="width: 100%; height: auto; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
-
-                                <video autoplay loop muted playsinline id="video-bg2" oncanplay="showVideo2()"
-                                    style="width: 100%; height: auto; display: block;">
-                                    <source src="https://media.rgu.ac/head-video/v-2.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-
-            </section>
-            <!--End Header-->
-
-            <div data-elementor-type="wp-page" data-elementor-id="704" class="elementor elementor-704">
-
-                <a href="/preface"><img src="https://media.rgu.ac/explore/web.png"
-                        alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape."></a>
-
-                <!--Deekharambh-->
-                {{-- <div class="pb-4"
-                    style="background-image: url('mobile-assets/events/deeksharam-bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                    <div class="text-center pt-5">
-                        <img class="text-center" src="mobile-assets/deekshara/one-logo.png" style="width: 50%" />
-                    </div>
-                    <div class="row p-3">
-                        <div class="col-lg-5" style="display: flex; flex-direction: column; padding-left: 40px;">
-                            <div style="width: 642px; overflow: hidden; margin: auto; position: relative;"
-                                id="custom-carousel-container">
-                                <div id="custom-carousel-track" style="display: flex; transition: transform 0.5s ease;">
-                                    <img src="mobile-assets/deekshara/new/2.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/4.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/aug-1.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/5.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/6.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/8.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/9.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/10.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/11.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/13.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/14.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/15.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/17.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/18.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
-                                    <img src="mobile-assets/deekshara/new/21.jpeg"
-                                        style="width:400px; height:530px; margin-right:20px; border: 4px solid #160c49; border-radius:10px;">
+                                    <div class="carousel-item">
+                                        <div class="row w-100 mx-0">
+                                            <div class="col-6">
+                                                <img class="carousel-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/stu-1.1.jpeg"
+                                                    alt="Event 3">
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="carousel-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/Ravi_Kant-1.jpeg"
+                                                    alt="Event 4">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div style="text-align: center; margin-top: 10px;">
-                                <button onclick="prevCustomSlide()"
-                                    style="padding: 5px 10px; background-color: #FEAA4E; color: #fff; border-radius: 3px;">&lt;</button>
-                                <button onclick="nextCustomSlide()"
-                                    style="padding: 5px 10px; background-color: #FEAA4E; color: #fff; border-radius: 3px;">&gt;</button>
+                            <div class="text-center mt-3">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#eventsCarousel"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#eventsCarousel"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
-
-                            <script>
-                                const customTrack = document.getElementById('custom-carousel-track');
-                                const customSlideWidth = 320;
-                                const customVisibleSlides = 2;
-                                let customIndex = 0;
-                                let customIsSliding = false;
-
-                                function nextCustomSlide() {
-                                    if (customIsSliding) return;
-                                    customIsSliding = true;
-                                    customIndex++;
-                                    customTrack.style.transition = 'transform 0.5s ease';
-                                    customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
-
-                                    setTimeout(() => {
-                                        if (customIndex >= customTrack.children.length - customVisibleSlides) {
-                                            customTrack.style.transition = 'none';
-                                            customIndex = 0;
-                                            customTrack.style.transform = 'translateX(0px)';
-                                        }
-                                        customIsSliding = false;
-                                    }, 500);
-                                }
-
-                                function prevCustomSlide() {
-                                    if (customIsSliding) return;
-                                    customIsSliding = true;
-                                    if (customIndex <= 0) {
-                                        customIndex = customTrack.children.length - customVisibleSlides;
-                                        customTrack.style.transition = 'none';
-                                        customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
-                                        setTimeout(() => {
-                                            customIndex--;
-                                            customTrack.style.transition = 'transform 0.5s ease';
-                                            customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
-                                            customIsSliding = false;
-                                        }, 20);
-                                    } else {
-                                        customIndex--;
-                                        customTrack.style.transition = 'transform 0.5s ease';
-                                        customTrack.style.transform = `translateX(-${customIndex * customSlideWidth}px)`;
-                                        setTimeout(() => customIsSliding = false, 500);
-                                    }
-                                }
-
-                                setInterval(nextCustomSlide, 3000);
-                            </script>
                         </div>
-                        <div class="col-lg-1"></div>
 
                         <div class="col-lg-6">
-                            <style>
-                                #video-container-reel-ads {
-                                    position: relative;
-                                    width: 100%;
-                                    height: 65vh;
-                                    overflow: hidden;
-                                    background-color: black;
-                                }
+                            <h2 class="section-title">Media<span class="highlight"> Corner</span></h2>
 
-                                #video-reel-main {
-                                    position: absolute;
-                                    top: 50%;
-                                    left: 50%;
-                                    min-width: 100%;
-                                    min-height: 100%;
-                                    transform: translate(-50%, -50%);
-                                    object-fit: cover;
-                                }
+                            <div style="background-color: #FFF0DB; padding: 15px; border-radius: 10px;">
 
-                                .text-carousel-reel {
-                                    display: flex;
-                                    overflow-x: auto;
-                                    padding: 10px;
-                                    scroll-snap-type: x mandatory;
-                                }
-
-                                .text-carousel-reel button {
-                                    flex: 0 0 calc(33.33% - 20px);
-                                    /* 3 items in full width with some gap */
-                                    margin-right: 10px;
-                                    padding: 10px 10px;
-                                    background: #fff;
-                                    border: 1px solid #ccc;
-                                    border-radius: 20px;
-                                    font-size: 14px;
-                                    cursor: pointer;
-                                    scroll-snap-align: start;
-                                    transition: background 0.3s;
-                                    white-space: nowrap;
-                                }
-
-                                .text-carousel-reel button:hover {
-                                    background: #03203e;
-                                    color: white;
-                                }
-                            </style>
-
-                            <div id="video-container-reel-ads">
-                                <video autoplay loop muted playsinline id="video-reel-main">
-                                    <source src="https://media.rgu.ac/deeksharambh/hd.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-
-                            <script>
-                                function changeVideoReel(src) {
-                                    const video = document.getElementById('video-reel-main');
-                                    const source = video.querySelector('source');
-
-                                    video.pause();
-                                    source.setAttribute('src', src);
-                                    video.load();
-                                    video.play();
-                                }
-                            </script>
-                        </div>
-
-
-                    </div>
-                </div> --}}
-
-
-                <!--New Events-->
-                <div class="container" style="padding: 30px 0px;">
-                    <div class="row pb-5">
-                        <div class="col-lg-7" style="display: flex; flex-direction: column;">
-                            <div id="slider" style="width: 620px; overflow: hidden; margin: auto; position: relative;">
-                                <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-weight: 900; font-size: 40px;">
-                                    Events at<span style="color: #FF9A1E; font-weight: 500;"> RGU</span>
-                                </h2>
-
-                                <div id="slides" style="display: flex; transition: transform 0.7s ease;">
-                                    <img class="zoomable" src="mobile-assets/events/29-1.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="mobile-assets/events/29-2.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="mobile-assets/events/27-2.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="mobile-assets/events/stu-1.png"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="mobile-assets/events/stu2.png"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                </div>
-                            </div>
-
-                            <div style="text-align:center; margin-top:10px;">
-                                <button onclick="prevSlide()"
-                                    style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">
-                                    < </button>
-                                        <button onclick="nextSlide()"
-                                            style="padding:5px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">></button>
-                            </div>
-
-                            <div id="lightbox"
-                                style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); justify-content:center; align-items:center; z-index:1000;">
-                                <img id="lightbox-img" style="max-width:90%; max-height:90%; border-radius:10px;">
-                            </div>
-
-                            <script>
-                                const zoomableImages = document.querySelectorAll('.zoomable');
-                                const lightbox = document.getElementById('lightbox');
-                                const lightboxImg = document.getElementById('lightbox-img');
-
-                                zoomableImages.forEach(img => {
-                                    img.style.cssText = 'width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px; cursor:pointer;';
-                                    img.addEventListener('click', () => {
-                                        lightbox.style.display = 'flex';
-                                        lightboxImg.src = img.src;
-                                    });
-                                });
-
-                                lightbox.addEventListener('click', () => {
-                                    lightbox.style.display = 'none';
-                                });
-                            </script>
-
-                            <script>
-                                const slideWidth = 320; // 300px image + 20px margin
-                                const slider = document.getElementById("slider");
-                                const slides = document.getElementById("slides");
-                                let index = 0;
-                                let isTransitioning = false;
-
-                                // Clone first few slides and append
-                                const cloneSlides = () => {
-                                    const children = slides.children;
-                                    for (let i = 0; i < 2; i++) {
-                                        const clone = children[i].cloneNode(true);
-                                        slides.appendChild(clone);
-                                    }
-                                };
-
-                                cloneSlides();
-
-                                function nextSlide() {
-                                    if (isTransitioning) return;
-                                    isTransitioning = true;
-                                    index++;
-                                    slides.style.transition = "transform 0.5s ease";
-                                    slides.style.transform = `translateX(-${index * slideWidth}px)`;
-
-                                    setTimeout(() => {
-                                        if (index >= slides.children.length - 2) {
-                                            slides.style.transition = "none";
-                                            index = 0;
-                                            slides.style.transform = `translateX(0px)`;
-                                        }
-                                        isTransitioning = false;
-                                    }, 600);
-                                }
-
-                                function prevSlide() {
-                                    if (isTransitioning) return;
-                                    isTransitioning = true;
-                                    if (index <= 0) {
-                                        index = slides.children.length - 3;
-                                        slides.style.transition = "none";
-                                        slides.style.transform = `translateX(-${(index + 1) * slideWidth}px)`;
-                                        setTimeout(() => {
-                                            slides.style.transition = "transform 0.5s ease";
-                                            prevSlide();
-                                        }, 20);
-                                        return;
-                                    }
-                                    index--;
-                                    slides.style.transition = "transform 0.5s ease";
-                                    slides.style.transform = `translateX(-${index * slideWidth}px)`;
-                                    setTimeout(() => isTransitioning = false, 600);
-                                }
-
-                                setInterval(nextSlide, 3000); // Auto-slide
-                            </script>
-                        </div>
-
-                        <div class="col-lg-5">
-
-                            <h2 class="headd2 fw-bold pb-2" style="color: #27467A; font-size: 40px;">Media <span
-                                    style="color: #FF9A1E; font-weight: 540;"> Corner</span></h2>
-                            <div style="height: 600px; overflow: hidden; position: relative;">
-                                <div class="p-0 rounded">
-                                    <div class="row">
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news37/3.JPG" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1;"
-                                                    class="pt-2 m-0 fw-bold">Chinese Diplomats visit Royal Global University
-                                                    for Educational Collaboration</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">August 29, 2025
-                                                </p>
-                                                <a
-                                                    href="/chinese-diplomats-visit-royal-global-university-for-educational-collaboration">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
+                                <div
+                                    style="background-color: #FAF9F6; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
+                                    <div class="row p-3 align-items-center">
+                                        <div class="col-lg-4">
+                                            <img class="border shadow-sm"
+                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
+                                                src="https://www.rgu.ac/mobile-assets/media-corner/news39/Leadership%20Conclave%202025.jpg"
+                                                alt="Scholarship award ceremony">
                                         </div>
+                                        <div class="col-lg-8">
+                                            <h2 class="para1 fw-bold mb-1" style="color: #27467A; font-size: 17px;">
+                                                National Leadership Conclave 2025 from 11th September at Royal Global
+                                                University
+                                            </h2>
 
-                                        <div class="row bg-light p-2 rounded mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%"
-                                                    src="mobile-assets/media-corner/news36/1.JPG" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1;"
-                                                    class="pt-2 m-0 fw-bold">500 Newly Admitted Students Awarded
-                                                    Scholarships by Royal Global University
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">August 12, 2025
-                                                </p>
-                                                <a
-                                                    href="/500-newly-admitted-students-awarded-scholarships-by-royal-global-university">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
+                                            <p class="para1" style="color: #333; font-size: 14px; margin: 0.25rem 0;">
+                                                September 2, 2025
+                                            </p>
+
+                                            <a style="color: #ef991f; font-size: 15px;" class="para1 fw-bold" href="">
+                                                Read More...
+                                            </a>
                                         </div>
-
-                                        <div class="row bg-light p-2 rounded  mt-3">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news35/1.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1;"
-                                                    class="pt-2 m-0 fw-bold">Royal Global University Celebrates 79th
-                                                    Independence-Day</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">August 16, 2025
-                                                </p>
-                                                <a href="/royal-global-university-celebrates-79th-independence-day">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-
                                     </div>
                                 </div>
-                                <div style="text-align:center; margin-top:20px;">
-                                    <a href="media-corner"><button
-                                            style="padding:2px 10px; background-color: #27467A; color: #fff; border-radius: 3px;">View
-                                            All</button></a>
+
+                                <div class="m-2"></div>
+
+                                <div
+                                    style="background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
+                                    <div class="row p-3 align-items-center">
+                                        <div class="col-lg-4">
+                                            <img class="border shadow-sm"
+                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
+                                                src="https://www.rgu.ac/mobile-assets/rgu-blog/blog2.jpeg"
+                                                alt="Scholarship award ceremony">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <h2 class="para1 fw-bold mb-1" style="color: #27467A; font-size: 17px;">
+                                                AICTE-VAANI Grant Sanctioned to RGU for Indian Knowledge Systems Conference
+                                            </h2>
+
+                                            <p class="para1" style="color: #333; font-size: 14px; margin: 0.25rem 0;">
+                                                September 1, 2025
+                                            </p>
+
+                                            <a style="color: #ef991f; font-size: 15px;" class="para1 fw-bold" href="">
+                                                Read More...
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                <div class="m-2"></div>
+
+                                <div
+                                    style="background-color: #FAF9F6; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
+                                    <div class="row p-3 align-items-center">
+                                        <div class="col-lg-4">
+                                            <img class="border shadow-sm"
+                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
+                                                src="https://www.rgu.ac/mobile-assets/media-corner/news38/head.jpg"
+                                                alt="Scholarship award ceremony">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <h2 class="para1 fw-bold mb-1" style="color: #27467A; font-size: 17px;">
+                                                Supreme Court Judge unveils one of India’s largest Gavels at Royal Global
+                                                University
+                                            </h2>
+
+                                            <p class="para1" style="color: #333; font-size: 14px; margin: 0.25rem 0;">
+                                                August 30, 2025
+                                            </p>
+
+                                            <a style="color: #ef991f; font-size: 15px;" class="para1 fw-bold" href="">
+                                                Read More...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mt-4 text-center">
+                                    <a class="para1"
+                                        style="padding: 10px 20px; background-color: #27467A; color: #fff; border-radius: 5px; font-size: 14px;"
+                                        href="">View All</a>
+                                </div>
+
+
                             </div>
-
                         </div>
-
-
                     </div>
                 </div>
+            </section>
 
-                <style>
-                    @keyframes scrollUp {
-                        0% {
-                            top: 100%;
-                        }
-
-                        100% {
-                            top: -100%;
-                        }
-                    }
-
-                    /* Pause the animation when hovering over the notification-wrapper */
-                    .notification-wrapper:hover {
-                        animation-play-state: paused;
-                    }
-
-                    /* Add hover effect for links */
-                    .notification-item a:hover {
-                        text-decoration: underline;
-                    }
-                </style>
-
+            <div id="lightbox">
+                <img id="lightbox-img" src="" alt="Zoomed Event Image">
             </div>
-        </div>
+
+            <script>
+                // --- Lightbox Functionality ---
+                const zoomableImages = document.querySelectorAll('.carousel-img');
+                const lightbox = document.getElementById('lightbox');
+                const lightboxImg = document.getElementById('lightbox-img');
+
+                zoomableImages.forEach(img => {
+                    img.addEventListener('click', () => {
+                        lightbox.style.display = 'flex';
+                        lightboxImg.src = img.src;
+                    });
+                });
+
+                lightbox.addEventListener('click', () => {
+                    lightbox.style.display = 'none';
+                });
+
+                // --- REVISED JAVASCRIPT: Auto-adjust slide height ---
+                function normalizeSlideHeights() {
+                    const carousel = document.querySelector('#eventsCarousel');
+                    const carouselInner = carousel.querySelector('.carousel-inner');
+                    const carouselItems = carousel.querySelectorAll('.carousel-item');
+                    let maxHeight = 0;
+                    const activeItem = carousel.querySelector('.carousel-item.active');
+                    if (activeItem) activeItem.classList.remove('active');
+
+                    carouselItems.forEach(item => {
+                        item.style.display = 'block';
+                        if (item.offsetHeight > maxHeight) {
+                            maxHeight = item.offsetHeight;
+                        }
+                        item.style.display = '';
+                    });
+
+                    if (activeItem) activeItem.classList.add('active');
+                    if (maxHeight > 0) {
+                        carouselInner.style.minHeight = `${maxHeight}px`;
+                    }
+                }
+
+                window.addEventListener('load', normalizeSlideHeights);
+                window.addEventListener('resize', normalizeSlideHeights);
+            </script>
+
+        </section>
+        <!--End Event-->
+
+        <!-- Specific Events  -->
+        <section style="padding: 30px; background-color: #101d34;">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <div class="row" style="display: flex; justify-content: center; align-items: center;">
+
+                    <div class="col-lg-4">
+                        <div>
+                            <a href="">
+                                <img style="height: 500px; border: 1px solid #fff;" src="mobile-assets/events/a.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div>
+                            <a href="">
+                                <img style="height: 500px; border: 1px solid #fff;" src="mobile-assets/events/b.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div>
+                            <a href="">
+                                <img style="height: 500px; border: 1px solid #fff;" src="mobile-assets/events/c.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Specific Events  -->
 
         <!-- campus life New -->
-        <section style="background-image: url(Our-Campus-Life-bg.png); background-size: cover; height: 90vh;">
+        <section
+            style="background-image: url(demo-assets/campus-life/Our-Campus-Life-bg.png); background-size: cover; height: 90vh;">
             <div class="container py-5">
-
-                <!-- Row: Left Heading, Right Tabs -->
-                <div class="d-flex justify-content-between align-items-start">
-
-                    <!-- Heading on left -->
-                    <!-- <h2 style="color:white; font-weight: 800; margin:0; letter-spacing: 2px;">Our Campus Life</h2> -->
-
-                    <!-- Tabs on right -->
-                    <!-- <ul class="nav nav-tabs flex-row align-items-end mb-3" id="myTab" role="tablist"
-                                                style="border:0;">
-
-                                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px;" class="nav-item"
-                                                    role="presentation">
-                                                    <button class="nav-link active" id="campus-tab" data-bs-toggle="tab"
-                                                        data-bs-target="#campus" type="button" role="tab"
-                                                        style="color:#F6921E; font-weight:bold; background:transparent; border:0;">
-                                                        Campus
-                                                    </button>
-                                                </li>
-
-                                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px; padding-left: 5px;"
-                                                    class="nav-item" role="presentation">
-                                                    <button class="nav-link" id="residence-tab" data-bs-toggle="tab"
-                                                        data-bs-target="#residence" type="button" role="tab"
-                                                        style="color:white; font-weight:normal; background:transparent; border:0;">
-                                                        Residence Life
-                                                    </button>
-                                                </li>
-
-                                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px; padding-left: 5px;"
-                                                    class="nav-item" role="presentation">
-                                                    <button class="nav-link" id="games-tab" data-bs-toggle="tab" data-bs-target="#games"
-                                                        type="button" role="tab"
-                                                        style="color:white; font-weight:normal; background:transparent; border:0;">
-                                                        Games & Sports
-                                                    </button>
-                                                </li>
-
-                                                <li style="padding-right: 5px;" class="nav-item" role="presentation">
-                                                    <button class="nav-link" id="amenities-tab" data-bs-toggle="tab"
-                                                        data-bs-target="#amenities" type="button" role="tab"
-                                                        style="color:white; font-weight:normal; background:transparent; border:0;">
-                                                        Amenities
-                                                    </button>
-                                                </li>
-                                            </ul> -->
-                </div>
 
                 <!-- Tab content below -->
                 <div class="tab-content w-100 mt-2" id="myTabContent"
@@ -1602,13 +1448,29 @@
 
                                     <!-- Indicators -->
                                     <div class="carousel-indicators" style="margin-bottom: -2rem;">
+
                                         <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="0"
                                             class="active" aria-current="true" aria-label="Slide 1"
                                             style="width:10px;height:10px;border-radius:50%;"></button>
-                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="1"
-                                            aria-label="Slide 2" style="width:10px;height:10px;border-radius:50%;"></button>
+
+                                        {{-- <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="1"
+                                            aria-label="Slide 2" style="width:10px;height:10px;border-radius:50%;"></button> --}}
+
                                         <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="2"
                                             aria-label="Slide 3" style="width:10px;height:10px;border-radius:50%;"></button>
+
+                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="3"
+                                            aria-label="Slide 4" style="width:10px;height:10px;border-radius:50%;"></button>
+
+                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="4"
+                                            aria-label="Slide 5" style="width:10px;height:10px;border-radius:50%;"></button>
+
+                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="5"
+                                            aria-label="Slide 6" style="width:10px;height:10px;border-radius:50%;"></button>
+
+                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="6"
+                                            aria-label="Slide 7" style="width:10px;height:10px;border-radius:50%;"></button>
+
                                     </div>
 
                                     <!-- Slides -->
@@ -1618,33 +1480,81 @@
                                         <div class="carousel-item active">
                                             <div
                                                 style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
-                                                <img src="infra1.png" alt="Slide 1"
-                                                    style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                                <a href=""> <img src="demo-assets/campus-life/infra.jpg" alt="Slide 1"
+                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                                </a>
                                             </div>
                                         </div>
 
                                         <!-- Slide 2 -->
-                                        <div class="carousel-item">
+                                        {{-- <div class="carousel-item">
                                             <div
                                                 style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
-                                                <img src="infra1.png" alt="Slide 2"
-                                                    style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                                <a href=""> <img src="demo-assets/campus-life/games.jpg" alt="Slide 2"
+                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                                </a>
                                             </div>
-                                        </div>
+                                        </div> --}}
 
                                         <!-- Slide 3 -->
                                         <div class="carousel-item">
+
                                             <div
                                                 style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
-                                                <img src="infra1.png" alt="Slide 3"
-                                                    style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                                <a href=""> <img src="demo-assets/campus-life/amenities.jpg" alt="Slide 3"
+                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 4 -->
+                                        <div class="carousel-item">
+
+                                            <div
+                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
+                                                <a href=""> <img src="demo-assets/campus-life/clubs.jpg" alt="Slide 3"
+                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 5 -->
+                                        <div class="carousel-item">
+
+                                            <div
+                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
+                                                <a href=""> <img src="demo-assets/campus-life/events.jpg" alt="Slide 3"
+                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 6 -->
+                                        <div class="carousel-item">
+
+                                            <div
+                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
+                                                <a href=""> <img src="demo-assets/campus-life/hostel.jpg" alt="Slide 3"
+                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 7 -->
+                                        <div class="carousel-item">
+
+                                            <div
+                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
+                                                <a href=""> <img src="demo-assets/campus-life/student-aff.jpg" alt="Slide 3"
+                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                                                </a>
                                             </div>
                                         </div>
 
                                     </div>
 
                                     <!-- Controls -->
-                                    <div class="text-center mt-2">
+                                    <!-- <div class="text-center mt-2">
                                         <button class="carousel-control-prev" type="button" data-bs-target="#squareCarousel"
                                             data-bs-slide="prev" style="filter: drop-shadow(0 0 4px rgba(0,0,0,0.6));">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1655,7 +1565,7 @@
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
-                                    </div>
+                                    </div> -->
 
                                 </div>
                             </div>
@@ -1696,203 +1606,6 @@
             </script>
         </section>
         <!-- campus life New -->
-
-        <!-- Fashion Museum  -->
-        <section>
-
-            <style>
-                /* Styles that cannot be inlined, now with unique names */
-                #bgc-gallery-wrapper {
-                    transition: background-color 0.5s ease-in-out;
-                }
-
-                .bgc-gallery-selector-btn:hover {
-                    transform: scale(1.05);
-                }
-
-                /* Updated the active class name */
-                .bgc-gallery-selector-btn.bgc-gallery-active {
-                    border-color: #007bff !important;
-                    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
-                }
-
-                .bgc-gallery-nav-btn:hover {
-                    background-color: rgba(0, 0, 0, 0.8) !important;
-                }
-
-                /* New: Styles for carousel images */
-                .bgc-gallery-slider img {
-                    border-right: 1px solid rgba(0, 0, 0, 0.5);
-                    /* Light border on the right */
-                    box-sizing: border-box;
-                    /* Include padding and border in the element's total width and height */
-                    aspect-ratio: 1 / 1;
-                    /* Ensure images are square */
-                }
-            </style>
-
-            <main id="bgc-gallery-wrapper"
-                style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: rgb(240, 242, 245); margin: 0px; padding: 2rem; display: flex; justify-content: center; align-items: center; min-height: 85vh;">
-
-                <section class="bgc-gallery-content"
-                    style="display: flex; gap: 2rem; width: 100%; max-width: 900px; background: rgb(255, 255, 255); padding: 2rem; border-radius: 12px; box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 20px; height: 85vh; box-sizing: border-box;">
-
-                    <div class="bgc-gallery-left"
-                        style="flex-basis: 30%; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
-                        <button class="bgc-gallery-selector-btn bgc-gallery-active" data-set="landscapes"
-                            style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;">
-                            <img src="demo-assets/switcher/lookbook/headimg.png" alt="Select Landscape Images"
-                                style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
-                        </button>
-
-                        <button class="bgc-gallery-selector-btn" data-set="architecture"
-                            style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;">
-                            <img src="demo-assets/switcher/museum/headimg.jpg" alt="Select Architecture Images"
-                                style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
-                        </button>
-
-                    </div>
-
-                    <div class="bgc-gallery-right"
-                        style="flex-basis: 70%; display: flex; align-items: center; justify-content: center;">
-                        <div class="bgc-gallery-container"
-                            style="position: relative; width: 100%; max-height: 100%; aspect-ratio: 1 / 1; overflow: hidden; border-radius: 8px;">
-                            <div class="bgc-gallery-slider"
-                                style="display: flex; height: 100%; transition: transform 0.5s ease-in-out 0s;">
-                            </div>
-                            <button class="bgc-gallery-nav-btn bgc-gallery-prev"
-                                style="position: absolute; top: 50%; transform: translateY(-50%); background-color: rgba(0, 0, 0, 0.5); color: white; border: none; cursor: pointer; padding: 0.75rem; font-size: 1.5rem; line-height: 1; z-index: 10; transition: background-color 0.3s ease 0s; border-radius: 50%; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; left: 15px;">&#10094;</button>
-                            <button class="bgc-gallery-nav-btn bgc-gallery-next"
-                                style="position: absolute; top: 50%; transform: translateY(-50%); background-color: rgba(0, 0, 0, 0.5); color: white; border: none; cursor: pointer; padding: 0.75rem; font-size: 1.5rem; line-height: 1; z-index: 10; transition: background-color 0.3s ease 0s; border-radius: 50%; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; right: 15px;">&#10095;</button>
-                        </div>
-                    </div>
-
-                </section>
-
-            </main>
-
-            <script>
-                // The entire script is self-contained and won't clash with global variables.
-                document.addEventListener('DOMContentLoaded', () => {
-                    const carouselData = {
-                        landscapes: [
-                            'demo-assets/switcher/lookbook/1.png',
-                            'demo-assets/switcher/lookbook/2.png',
-                            'demo-assets/switcher/lookbook/3.png',
-                            'demo-assets/switcher/lookbook/4.png',
-                            'demo-assets/switcher/lookbook/5.png',
-                            'demo-assets/switcher/lookbook/6.png',
-                            'demo-assets/switcher/lookbook/7.png',
-                            'demo-assets/switcher/lookbook/8.png',
-                            'demo-assets/switcher/lookbook/9.png',
-                            'demo-assets/switcher/lookbook/10.png',
-                            'demo-assets/switcher/lookbook/11.png',
-                            'demo-assets/switcher/lookbook/12.png',
-                            'demo-assets/switcher/lookbook/13.png',
-                            'demo-assets/switcher/lookbook/14.png',
-                            'demo-assets/switcher/lookbook/15.png',
-                            'demo-assets/switcher/lookbook/16.png',
-                            'demo-assets/switcher/lookbook/17.png',
-                            'demo-assets/switcher/lookbook/18.png',
-                            'demo-assets/switcher/lookbook/19.png',
-                            'demo-assets/switcher/lookbook/20.png',
-                            'demo-assets/switcher/lookbook/21.png',
-                            'demo-assets/switcher/lookbook/22.png',
-                            'demo-assets/switcher/lookbook/23.png',
-                            'demo-assets/switcher/lookbook/24.png',
-                            'demo-assets/switcher/lookbook/25.png',
-
-                        ],
-                        architecture: [
-                            'demo-assets/switcher/museum/2.jpg',
-                            'demo-assets/switcher/museum/3.jpg',
-                            'demo-assets/switcher/museum/4.jpg',
-                            'demo-assets/switcher/museum/5.jpg',
-                            'demo-assets/switcher/museum/6.jpg',
-                            'demo-assets/switcher/museum/7.jpg',
-                            'demo-assets/switcher/museum/8.jpg',
-                            'demo-assets/switcher/museum/9.jpg',
-                            'demo-assets/switcher/museum/10.jpg',
-                            'demo-assets/switcher/museum/11.jpg'
-                        ]
-                    };
-                    const backgroundColors = {
-                        landscapes: '#590D22',
-                        architecture: '#59380d'
-                    };
-
-                    const mainSection = document.querySelector('#bgc-gallery-wrapper');
-                    const selectorBtns = document.querySelectorAll('.bgc-gallery-selector-btn');
-                    const slider = document.querySelector('.bgc-gallery-slider');
-                    const prevBtn = document.querySelector('.bgc-gallery-prev');
-                    const nextBtn = document.querySelector('.bgc-gallery-next');
-
-                    let currentIndex = 0;
-                    let currentImageSet = [];
-                    let autoSlideInterval;
-                    const AUTO_SLIDE_DELAY = 2500;
-
-                    function showSlide(index) {
-                        slider.style.transform = `translateX(-${index * 100}%)`;
-                    }
-                    function nextSlide() {
-                        currentIndex = (currentIndex + 1) % currentImageSet.length;
-                        showSlide(currentIndex);
-                    }
-                    function prevSlide() {
-                        currentIndex = (currentIndex - 1 + currentImageSet.length) % currentImageSet.length;
-                        showSlide(currentIndex);
-                    }
-                    function startAutoSlide() {
-                        stopAutoSlide();
-                        autoSlideInterval = setInterval(nextSlide, AUTO_SLIDE_DELAY);
-                    }
-                    function stopAutoSlide() {
-                        clearInterval(autoSlideInterval);
-                    }
-                    function updateCarousel(setName) {
-                        if (backgroundColors[setName]) {
-                            mainSection.style.backgroundColor = backgroundColors[setName];
-                        }
-                        currentImageSet = carouselData[setName];
-                        currentIndex = 0;
-                        slider.innerHTML = '';
-                        currentImageSet.forEach(src => {
-                            const img = document.createElement('img');
-                            img.src = src;
-                            img.alt = "Carousel Image";
-                            img.style.width = '100%';
-                            img.style.height = '100%';
-                            img.style.objectFit = 'cover';
-                            img.style.flexShrink = '0';
-                            slider.appendChild(img);
-                        });
-                        selectorBtns.forEach(btn => {
-                            btn.classList.toggle('bgc-gallery-active', btn.dataset.set === setName);
-                        });
-                        showSlide(currentIndex);
-                        startAutoSlide();
-                    }
-                    selectorBtns.forEach(btn => {
-                        btn.addEventListener('click', () => {
-                            const setName = btn.dataset.set;
-                            updateCarousel(setName);
-                        });
-                    });
-                    nextBtn.addEventListener('click', () => {
-                        nextSlide();
-                        startAutoSlide();
-                    });
-                    prevBtn.addEventListener('click', () => {
-                        prevSlide();
-                        startAutoSlide();
-                    });
-
-                    const initialSetName = document.querySelector('.bgc-gallery-selector-btn.bgc-gallery-active').dataset.set;
-                    updateCarousel(initialSetName);
-                });
-            </script>
-        </section>
 
         <!-- Courses Card  -->
         <style>
@@ -1965,8 +1678,8 @@
 
         <!--Labs-->
         <section class="container-fluid"
-            style="background-image: url('https://media.rgu.ac/index/lab-new1.png'); background-size: cover;">
-            <div class="elementor-column-gap-default pt-5 pb-5">
+            style="background-image: url('demo-assets/labs/lab-bg.png'); background-size: cover;">
+            <div class="elementor-column-gap-default pt-2 pb-4">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-818362c"
                     data-id="818362c" data-element_type="column">
                     <div class="elementor-widget-wrap">
@@ -1979,16 +1692,16 @@
 
                                 </div>
                                 <div class="col-lg-1"></div>
-                                <div class="col-lg-8 text-center" style="overflow: hidden; padding: 52px 0px 0px 0px;">
+                                <div class="col-lg-8 text-center" style="overflow: hidden; padding: 45px 0px 0px 0px;">
                                     <div class="elementor-element elementor-element-e22f91b elementor-widget elementor-widget-go-s-heading"
                                         data-id="e22f91b" data-element_type="widget"
                                         data-widget_type="go-s-heading.default">
                                         <div class="elementor-widget-container">
                                             <div class="prthalign">
-                                                <h1 style="font-weight: 900; color: #27467A;"
-                                                    class="elementor-gt-heading kd-title-ani kd-split-text headd">
-                                                    LABORATORIES AND <span
-                                                        style="font-weight: 500; color: #EF991F;">STUDIOS</span>
+                                                <h1 style="font-weight: 700; color: #27467A;"
+                                                    class="elementor-gt-heading kd-title-ani kd-split-text headd1">
+                                                    Laboratories And <span
+                                                        style="font-weight: 500; color: #EF991F;">Studios</span>
                                                 </h1>
                                             </div>
                                         </div>
@@ -1998,6 +1711,7 @@
                                             <div class="swiper-container kd-course-4-active">
                                                 <div class="swiper-wrapper"
                                                     style="margin-right: 0px !important; padding: 0px !important;">
+
                                                     <div class="swiper-slide"
                                                         style="margin-right: 0px !important; padding: 0px !important;">
                                                         <div class="kd-course-4-item"
@@ -2007,28 +1721,119 @@
                                                                 <div class="main-img fix img-cover">
 
                                                                     <img decoding="async"
-                                                                        src="https://media.rgu.ac/index/computer1.jpg"
+                                                                        src="https://www.rgu.ac/mobile-assets/laboratories/ev.jpeg"
                                                                         alt="List">
 
-                                                                    <!-- <span class="item-duration kd-heading-1">1h 33m</span>
-
-                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                        students</span> -->
                                                                 </div>
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-computer" aria-label="name">Computer
-                                                                            Lab</a>
+                                                                        <a href="lab-ev-lab.html"
+                                                                            style="font-size: 20px !important; color: #27467A;"
+                                                                            aria-label="name">EV <span
+                                                                                style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-computer" aria-label="name"
-                                                                        class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
+                                                                    <a href="lab-ev-lab.html" aria-label="name"
+                                                                        class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <div class="swiper-slide"
+                                                        style="margin-right: 0px !important; padding: 0px !important;">
+                                                        <div class="kd-course-4-item"
+                                                            style="margin: 0px !important; padding: 0px !important;">
+                                                            <div style="background-color: #ffffff;"
+                                                                class="kd-course-2-card shadow-sm">
+                                                                <div class="main-img fix img-cover">
+
+                                                                    <img decoding="async"
+                                                                        src="https://www.rgu.ac/mobile-assets/laboratories/observe.jpeg"
+                                                                        alt="List">
+
+                                                                </div>
+
+                                                                <div class="card-content">
+                                                                    <h4 class="title kd-heading-1 kd-font-900 para1">
+                                                                        <a href="lab-astronomy.html"
+                                                                            style="font-size: 17px !important; color: #27467A;"
+                                                                            aria-label="name">Royal Observatory <span
+                                                                                style="color: #e68900;">Lab</span></a>
+                                                                    </h4>
+                                                                    <a href="lab-astronomy.html" aria-label="name"
+                                                                        class="item-btn para1 text-capitalize">
+                                                                        <i class="fa-solid fa-angles-right"></i>
+                                                                        Read More </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="swiper-slide"
+                                                        style="margin-right: 0px !important; padding: 0px !important;">
+                                                        <div class="kd-course-4-item"
+                                                            style="margin: 0px !important; padding: 0px !important;">
+                                                            <div style="background-color: #ffffff;"
+                                                                class="kd-course-2-card shadow-sm">
+                                                                <div class="main-img fix img-cover">
+
+                                                                    <img decoding="async" src="demo-assets/mac-lab.jpg"
+                                                                        alt="List">
+
+                                                                </div>
+
+                                                                <div class="card-content">
+                                                                    <h4 class="title kd-heading-1 kd-font-900 para1">
+                                                                        <a href="#"
+                                                                            style="font-size: 20px !important; color: #27467A;"
+                                                                            aria-label="name">Mac <span
+                                                                                style="color: #e68900;">Lab</span></a>
+                                                                    </h4>
+                                                                    <a href="#" aria-label="name"
+                                                                        class="item-btn para1 text-capitalize">
+                                                                        <i class="fa-solid fa-angles-right"></i>
+                                                                        Read More </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="swiper-slide"
+                                                        style="margin-right: 0px !important; padding: 0px !important;">
+                                                        <div class="kd-course-4-item"
+                                                            style="margin: 0px !important; padding: 0px !important;">
+                                                            <div style="background-color: #ffffff;"
+                                                                class="kd-course-2-card shadow-sm">
+                                                                <div class="main-img fix img-cover">
+
+                                                                    <img decoding="async"
+                                                                        src="demo-assets/labs/computer1.jpg" alt="List">
+
+                                                                    <!-- <span class="item-duration kd-heading-1">1h 33m</span>
+
+                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                        students</span> -->
+                                                                </div>
+
+                                                                <div class="card-content">
+                                                                    <h4 class="title kd-heading-1 kd-font-900 para1">
+                                                                        <a href="lab-computer.html"
+                                                                            style="font-size: 20px !important; color: #27467A;"
+                                                                            aria-label="name">Computer <span
+                                                                                style="color: #e68900;">Lab</span></a>
+                                                                    </h4>
+                                                                    <a href="lab-computer.html" aria-label="name"
+                                                                        class="item-btn para1 text-capitalize">
+                                                                        <i class="fa-solid fa-angles-right"></i>
+                                                                        Read More </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
                                                     <div class="swiper-slide">
                                                         <div class="kd-course-4-item"
                                                             style="margin-right: 0px !important; padding: 0px !important">
@@ -2037,24 +1842,24 @@
                                                                 <div class="main-img fix img-cover">
 
                                                                     <img decoding="async"
-                                                                        src="https://media.rgu.ac/index/electric1.jpg"
-                                                                        alt="List">
+                                                                        src="demo-assets/labs/electric1.jpg" alt="List">
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                        students</span> -->
+                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                        students</span> -->
 
                                                                 </div>
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-electrical"
-                                                                            aria-label="name">Electrical
-                                                                            Lab</a>
+                                                                        <a href="lab-electrical.html"
+                                                                            style="font-size: 20px !important; color: #27467A;"
+                                                                            aria-label="name">Electrical <span
+                                                                                style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-electrical" aria-label="name"
-                                                                        class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
+                                                                    <a href="lab-electrical.html" aria-label="name"
+                                                                        class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
                                                                 </div>
@@ -2070,24 +1875,20 @@
                                                                 <div class="main-img fix img-cover">
 
                                                                     <img decoding="async"
-                                                                        src="https://media.rgu.ac/index/language1.jpg"
-                                                                        alt="List">
+                                                                        src="demo-assets/labs/language1.jpg" alt="List">
 
-                                                                    <!-- <span class="item-duration kd-heading-1">1h 33m</span>
-
-                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000 -->
-                                                                    students</span>
 
                                                                 </div>
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-language-lab"
-                                                                            aria-label="name">Language
-                                                                            Lab</a>
+                                                                        <a href="lab-language-lab.html"
+                                                                            style="font-size: 20px !important; color: #27467A;"
+                                                                            aria-label="name">Language <span
+                                                                                style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-language-lab" aria-label="name"
-                                                                        class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
+                                                                    <a href="lab-language-lab.html" aria-label="name"
+                                                                        class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
                                                                 </div>
@@ -2095,53 +1896,26 @@
                                                         </div>
                                                     </div>
 
-
-
                                                     <div class="swiper-slide" style="margin-right: 0px !important;">
                                                         <div class="kd-course-4-item">
                                                             <div style="background-color: #ffffff;"
                                                                 class="kd-course-2-card shadow-sm">
                                                                 <div class="main-img fix img-cover">
 
-                                                                    <img decoding="async"
-                                                                        src="https://media.rgu.ac/index/physicalchem1.jpg"
+                                                                    <img decoding="async" src="demo-assets/labs/chem1.jpg"
                                                                         alt="List">
-                                                                </div>
-
-                                                                <div class="card-content">
-                                                                    <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-chemistry" aria-label="name">Chemistry
-                                                                            Lab</a>
-                                                                    </h4>
-                                                                    <a href="lab-chemistry" aria-label="name"
-                                                                        class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
-                                                                        <i class="fa-solid fa-angles-right"></i>
-                                                                        Read More </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="swiper-slide" style="margin-right: 0px !important;">
-                                                        <div class="kd-course-4-item">
-                                                            <div style="background-color: #ffffff;"
-                                                                class="kd-course-2-card shadow-sm">
-                                                                <div class="main-img fix img-cover">
-
-                                                                    <img decoding="async"
-                                                                        src="https://media.rgu.ac/index/physics1.jpg"
-                                                                        alt="List">
-
-
 
                                                                 </div>
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-physics" aria-label="name">Physics
-                                                                            Lab</a>
+                                                                        <a href="lab-chemistry.html"
+                                                                            style="font-size: 20px !important; color: #27467A;"
+                                                                            aria-label="name">Chemistry <span
+                                                                                style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-physics" aria-label="name"
-                                                                        class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
+                                                                    <a href="lab-chemistry.html" aria-label="name"
+                                                                        class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
                                                                 </div>
@@ -2156,18 +1930,19 @@
                                                                 <div class="main-img fix img-cover">
 
                                                                     <img decoding="async"
-                                                                        src="https://media.rgu.ac/index/architecture1.jpg"
-                                                                        alt="List">
+                                                                        src="demo-assets/labs/physics1.jpg" alt="List">
+
                                                                 </div>
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-architecture"
-                                                                            aria-label="name">Architecture
-                                                                            Lab</a>
+                                                                        <a href="lab-physics.html"
+                                                                            style="font-size: 20px !important; color: #27467A;"
+                                                                            aria-label="name">Physics <span
+                                                                                style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-architecture" aria-label="name"
-                                                                        class="item-btn kd-font-pr-1 kd-font-900 text-capitalize">
+                                                                    <a href="lab-physics.html" aria-label="name"
+                                                                        class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
                                                                 </div>
@@ -2175,6 +1950,31 @@
                                                         </div>
                                                     </div>
 
+                                                    <div class="swiper-slide" style="margin-right: 0px !important;">
+                                                        <div class="kd-course-4-item">
+                                                            <div style="background-color: #ffffff;"
+                                                                class="kd-course-2-card shadow-sm">
+                                                                <div class="main-img fix img-cover">
+
+                                                                    <img decoding="async"
+                                                                        src="demo-assets/labs/architecture1.jpg" alt="List">
+                                                                </div>
+
+                                                                <div class="card-content">
+                                                                    <h4 class="title kd-heading-1 kd-font-900 para1">
+                                                                        <a href="lab-architecture.html"
+                                                                            style="font-size: 20px !important; color: #27467A;"
+                                                                            aria-label="name">Architecture <span
+                                                                                style="color: #e68900;">Lab</span></a>
+                                                                    </h4>
+                                                                    <a href="lab-architecture.html" aria-label="name"
+                                                                        class="item-btn para1 text-capitalize">
+                                                                        <i class="fa-solid fa-angles-right"></i>
+                                                                        Read More </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
                                                 </div>
                                             </div>
@@ -2183,9 +1983,10 @@
                                             data-id="de83d2a" data-element_type="widget" data-widget_type="ft-btn.default">
                                             <div class="elementor-widget-container">
                                                 <div class="prthalign">
-                                                    <a href="laboratories" rel="nofollow" aria-label="name"
+                                                    <a href="laboratories.html" rel="nofollow" aria-label="name"
                                                         class="kd-pr-btn-1 text-uppercase has-pr-clr">
-                                                        <span class="text" data-back="Explore All Labs"
+                                                        <span class="text para1" style="font-size: 15px;"
+                                                            data-back="Explore All Labs"
                                                             data-front="Explore All Labs"></span>
                                                         <span class="icon">
                                                             <i class="fa-solid fa-arrow-right"></i>
@@ -2198,8 +1999,6 @@
                                 </div>
                             </div>
 
-
-
                         </div>
                     </div>
                 </div>
@@ -2208,166 +2007,70 @@
         <!--End Labs-->
 
         <!-- Trail Blazer  -->
-        <section style="
-                        margin: 0;
-                        font-family: sans-serif;
-                        background-image: url(demo-assets/bg4.png);
-                        background-size: cover;
-                        background-position: center;
-                        min-height: 90vh;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        overflow: hidden;
-                        color: #f0f0f0;
-                    ">
-            <section style="
-                            max-height: 750px;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            justify-content: center;
-                            padding: 20px;
-                            box-sizing: border-box;
-                            position: relative;
-                        ">
-                <img class="trailblazer-carousel-speed-text" style="margin: 50px 0px; width: 1200px;"
-                    src="demo-assets/texts1.png" alt="Speed Text">
+        <section
+            style="background-image: url(demo-assets/trail-blazer/bg6.png); background-size: cover; background-position: center; height: 100vh;">
 
-                <div class="trailblazer-carousel-scene" style="
-                                width: 70vw;
-                                max-width: 900px;
-                                height: 400px;
-                                perspective: 1200px;
-                                margin-bottom: 120px;
-                                position: relative;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                            ">
-                    <div class="trailblazer-carousel-container" style="
-                                    width: 100%;
-                                    height: 100%;
-                                    position: absolute;
-                                    transform-style: preserve-3d;
-                                    transition: transform 0.7s cubic-bezier(0.77, 0, 0.175, 1);
-                                ">
-                        <div class="trailblazer-carousel-item" style="
-                                        position: absolute;
-                                        width: 90%;
-                                        height: 100%;
-                                        left: 5%;
-                                        top: 0;
-                                        border: 2px solid #FFD700; /* Yellow-goldenish border */
-                                        border-radius: 10px;
-                                        overflow: visible;
-                                        background-color: rgba(255, 255, 255, 0.05);
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        box-shadow: 0 0 5px #FFD70092, 0 0 10px #FFD70092, 0 0 15px #FFD70092; /* Yellow-goldenish shadow */
-                                    ">
-                            <img src="demo-assets/p11.png" alt="Carousel Image 1"
-                                style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
-                        </div>
-                        <div class="trailblazer-carousel-item" style="
-                                        position: absolute;
-                                        width: 90%;
-                                        height: 100%;
-                                        left: 5%;
-                                        top: 0;
-                                        border: 2px solid #FFD700; /* Yellow-goldenish border */
-                                        border-radius: 10px;
-                                        overflow: visible;
-                                        background-color: rgba(255, 255, 255, 0.05);
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        box-shadow: 0 0 5px #FFD70092, 0 0 10px #FFD70092, 0 0 15px #FFD70092; /* Yellow-goldenish shadow */
-                                    ">
-                            <img src="demo-assets/p12.png" alt="Carousel Image 2"
-                                style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
-                        </div>
-                        <div class="trailblazer-carousel-item" style="
-                                        position: absolute;
-                                        width: 90%;
-                                        height: 100%;
-                                        left: 5%;
-                                        top: 0;
-                                        border: 2px solid #FFD700; /* Yellow-goldenish border */
-                                        border-radius: 10px;
-                                        overflow: visible;
-                                        background-color: rgba(255, 255, 255, 0.05);
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        box-shadow: 0 0 5px #FFD70092, 0 0 10px #FFD70092, 0 0 15px #FFD70092; /* Yellow-goldenish shadow */
-                                    ">
-                            <img src="demo-assets/p13.png" alt="Carousel Image 3"
-                                style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
-                        </div>
-                    </div>
-                    <div style="
-                                    position: absolute;
-                                    bottom: -80px;
-                                    left: 50%;
-                                    transform: translateX(-50%);
-                                    display: flex;
-                                    gap: 30px;
-                                    z-index: 10;
-                                ">
-                        <button id="trailblazer-carousel-prev-btn" style="
-                                        padding: 8px 25px;
-                                        font-size: 18px;
-                                        font-weight: bold;
-                                        color: #fff;
-                                        background-color: #333;
-                                        border: 2px solid #FFD70092; /* Yellow-goldenish border */
-                                        border-radius: 8px;
-                                        cursor: pointer;
-                                        transition: all 0.3s ease;
-                                        box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); /* Yellow-goldenish shadow */
-                                    ">Prev</button>
+            <div class="row" style="padding: 10px 60px; height: 100%; display: flex; align-items: center;">
 
-                        <button id="trailblazer-carousel-next-btn" style="
-                                        padding: 8px 25px;
-                                        font-size: 18px;
-                                        font-weight: bold;
-                                        color: #fff;
-                                        background-color: #333;
-                                        border: 2px solid #FFD70092; /* Yellow-goldenish border */
-                                        border-radius: 8px;
-                                        cursor: pointer;
-                                        transition: all 0.3s ease;
-                                        box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); /* Yellow-goldenish shadow */
-                                    ">Next</button>
-                    </div>
+                <div class="col-lg-4" style="display: flex; align-items: center; justify-content: center;">
+                    <h2 class="headd1 fw-bold" style="font-size: 50px; color: #fff;">
+                        <span style="font-size: 60px; color: #EF991F; letter-spacing: 1px;"> Sports </span> <br>
+                        Trailblazers as Students of RGU
+                    </h2>
                 </div>
-            </section>
+
+                <div class="col-lg-8" style="display: flex; align-items: center; justify-content: center;">
+
+                    <div class="mt-5" style="position: relative;">
+                        <div class="trailblazer-carousel-scene"
+                            style="width: 70vw; max-width: 900px; height: 500px; perspective: 1200px; margin-bottom: 80px; position: relative; display: flex; justify-content: center; align-items: center;">
+                            <div class="trailblazer-carousel-container"
+                                style="width: 100%; height: 100%; position: absolute; transform-style: preserve-3d; transition: transform 0.7s cubic-bezier(0.77, 0, 0.175, 1);">
+
+                                <div class="trailblazer-carousel-item"
+                                    style="position: absolute; width: 90%; height: 100%; left: 5%; top: 0; border: 2px solid #fff; border-radius: 10px; overflow: visible; background-color: rgba(255, 255, 255, 0.05); display: flex; justify-content: center; align-items: center; box-shadow: 0 0 5px #ffffff72, 0 0 10px #ffffff72, 0 0 15px #ffffff72;">
+                                    <img src="demo-assets/trail-blazer/lovelina.png" alt="Carousel Image 1"
+                                        style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
+                                </div>
+
+                                <div class="trailblazer-carousel-item"
+                                    style="position: absolute; width: 90%; height: 100%; left: 5%; top: 0; border: 2px solid #fff; border-radius: 10px; overflow: visible; background-color: rgba(255, 255, 255, 0.05); display: flex; justify-content: center; align-items: center; box-shadow: 0 0 5px #ffffff72, 0 0 10px #ffffff72, 0 0 15px #ffffff72;">
+                                    <img src="demo-assets/trail-blazer/hima.png" alt="Carousel Image 2"
+                                        style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
+                                </div>
+
+                                <div class="trailblazer-carousel-item"
+                                    style="position: absolute; width: 90%; height: 100%; left: 5%; top: 0; border: 2px solid #fff; border-radius: 10px; overflow: visible; background-color: rgba(255, 255, 255, 0.05); display: flex; justify-content: center; align-items: center; box-shadow: 0 0 5px #ffffff72, 0 0 10px #ffffff72, 0 0 15px #ffffff72;">
+                                    <img src="demo-assets/trail-blazer/riyan.png" alt="Carousel Image 3"
+                                        style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
         </section>
 
         <script>
             document.addEventListener('DOMContentLoaded', () => {
-                // Selectors
                 const carouselContainer = document.querySelector('.trailblazer-carousel-container');
                 const carouselItems = document.querySelectorAll('.trailblazer-carousel-item');
-                const prevButton = document.getElementById('trailblazer-carousel-prev-btn');
-                const nextButton = document.getElementById('trailblazer-carousel-next-btn');
-                const scene = document.querySelector('.trailblazer-carousel-scene'); // Added scene for hover detection
+                const scene = document.querySelector('.trailblazer-carousel-scene');
 
-                if (!carouselContainer || !prevButton || !nextButton || carouselItems.length === 0) {
+                if (!carouselContainer || carouselItems.length === 0) {
                     console.error("Trailblazer Carousel elements not found.");
                     return;
                 }
 
-                // Carousel setup variables
                 const cellCount = carouselItems.length;
                 const theta = 360 / cellCount;
                 let selectedIndex = 0;
                 const carouselWidth = scene.offsetWidth * 0.9;
                 const radius = Math.round((carouselWidth / 2) / Math.tan(Math.PI / cellCount)) + 100;
-
-                // NEW: Variable to hold the interval timer
                 let autoSlideInterval;
 
                 function setupCarousel() {
@@ -2392,67 +2095,21 @@
                     });
                 }
 
-                function setupButtonHovers(button) {
-                    const originalStyle = {
-                        backgroundColor: button.style.backgroundColor, color: button.style.color,
-                        boxShadow: button.style.boxShadow, transform: 'translateY(0px)'
-                    };
-                    button.addEventListener('mouseover', () => {
-                        button.style.backgroundColor = '#FFD700'; button.style.color = '#fff';
-                        button.style.boxShadow = '0 6px 20px rgba(255, 215, 0, 0.5)';
-                        button.style.transform = 'translateY(-2px)';
-                    });
-                    button.addEventListener('mouseout', () => {
-                        button.style.backgroundColor = originalStyle.backgroundColor;
-                        button.style.color = originalStyle.color;
-                        button.style.boxShadow = originalStyle.boxShadow;
-                        button.style.transform = originalStyle.transform;
-                    });
-                }
-
                 function rotateCarousel() {
                     const angle = theta * selectedIndex * -1;
                     carouselContainer.style.transform = `translateZ(-${radius}px) rotateY(${angle}deg)`;
                 }
 
-                // NEW: Function to start the auto-slide timer
                 function startAutoSlide() {
-                    // Clear any existing interval to avoid multiple timers running
                     clearInterval(autoSlideInterval);
                     autoSlideInterval = setInterval(() => {
                         selectedIndex++;
                         rotateCarousel();
-                    }, 2500); // 2.5 seconds
+                    }, 2500);
                 }
 
-                // NEW: Function to stop the auto-slide timer
-                function stopAutoSlide() {
-                    clearInterval(autoSlideInterval);
-                }
-
-                nextButton.addEventListener('click', () => {
-                    selectedIndex++;
-                    rotateCarousel();
-                    startAutoSlide(); // Reset timer on manual click
-                });
-
-                prevButton.addEventListener('click', () => {
-                    selectedIndex--;
-                    rotateCarousel();
-                    startAutoSlide(); // Reset timer on manual click
-                });
-
-                // NEW: Pause auto-slide on hover and resume on mouse out
-                scene.addEventListener('mouseover', stopAutoSlide);
-                scene.addEventListener('mouseout', startAutoSlide);
-
-                // Initial setup calls
                 setupCarousel();
-                setupButtonHovers(prevButton);
-                setupButtonHovers(nextButton);
                 rotateCarousel();
-
-                // Start the auto-sliding initially
                 startAutoSlide();
             });
         </script>
@@ -2461,5 +2118,289 @@
         <!-- foot prints  -->
         <img style="width: 100%;" src="demo-assets/footprints.png" alt="">
         <!-- foot prints  -->
-    </section>
+
+        <!-- Fashion Museum  -->
+        <section>
+
+            <h2 class="headd1 text-center mt-4"
+                style="color:#e68900; font-weight: 700; margin:0; letter-spacing: 0px; font-size: 45px;">
+                The Digital <span style="color: #27467A; font-weight: 700; margin:0; font-size: 45px;">Coffee Table</span>
+            </h2>
+
+            <main id="bgc-gallery-wrapper"
+                style="background-color: #fff; margin: 0px; padding: 2rem; display: flex; justify-content: center; align-items: center; min-height: 85vh; transition: background-color 0.5s ease-in-out 0s;">
+                <section class="bgc-gallery-content"
+                    style="display: flex; gap: 2rem; width: 100%; max-width: 1800px; background: #27467A; padding: 2rem; border-radius: 12px; box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 20px; height: 90vh; box-sizing: border-box;">
+
+                    <div class="bgc-gallery-left"
+                        style="flex-basis: 20%; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
+                        <button data-set="lookbook" class="bgc-gallery-selector-btn"
+                            style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;"
+                            onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                            <img src="demo-assets/switcher/lookbook/headimg.png" alt="Selector 1"
+                                style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
+                        </button>
+                        <button data-set="museum" class="bgc-gallery-selector-btn"
+                            style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;"
+                            onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                            <img src="demo-assets/switcher/museum/headimg.jpg" alt="Selector 2"
+                                style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
+                        </button>
+                    </div>
+
+                    <div id="flipbook-background" class="bgc-gallery-right"
+                        style="flex-basis: 80%; display: flex; align-items: center; justify-content: center; border-radius: 8px; background-size: cover; background-position: center center; transition: background-image 0.5s ease-in-out 0s;">
+                        <div class="flipbook-container"
+                            style="font-family: Georgia, serif; color: rgb(62, 39, 35); display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%;">
+                            <div class="flipbook-wrapper"
+                                style="position: relative; height: 80%; aspect-ratio: 2 / 1; margin: auto;">
+
+                                <div id="flipbook-book" class="flipbook-book"
+                                    style="position: absolute; top: 0px; width: 50%; height: 100%; perspective: 2500px; transform-style: preserve-3d; transition: transform 0.8s ease-in-out 0s, right 0.8s ease-in-out 0s; right: 25%; transform: rotateY(-15deg) scale(0.9);">
+                                </div>
+
+                                <div class="flipbook-controls"
+                                    style="position: absolute; top: 50%; width: calc(100% + 100px); left: -50px; transform: translateY(-50%); z-index: 1000; display: flex; justify-content: space-between; padding: 0px; pointer-events: none;">
+                                    <button id="flipbook-prevBtn"
+                                        style="pointer-events: all; background: rgba(255, 255, 255, 0.4); color: rgb(51, 51, 51); border: none; width: 35px; height: 35px; border-radius: 50%; font-size: 22px; line-height: 1; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0px; transition: background 0.2s ease 0s;"
+                                        onmouseover="this.style.background='rgba(255, 255, 255, 0.7)'"
+                                        onmouseout="this.style.background='rgba(255, 255, 255, 0.4)'">❮</button>
+                                    <button id="flipbook-nextBtn"
+                                        style="pointer-events: all; background: rgba(255, 255, 255, 0.4); color: rgb(51, 51, 51); border: none; width: 35px; height: 35px; border-radius: 50%; font-size: 22px; line-height: 1; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0px; transition: background 0.2s ease 0s;"
+                                        onmouseover="this.style.background='rgba(255, 255, 255, 0.7)'"
+                                        onmouseout="this.style.background='rgba(255, 255, 255, 0.4)'">❯</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </main>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const prevBtn = document.querySelector("#flipbook-prevBtn");
+                    const nextBtn = document.querySelector("#flipbook-nextBtn");
+                    const selectorBtns = document.querySelectorAll(".bgc-gallery-selector-btn");
+                    const backgroundContainer = document.getElementById('flipbook-background');
+                    const book = document.getElementById('flipbook-book');
+
+                    // The 'papers' array is now empty; it will be filled dynamically.
+                    let papers = [];
+                    let currentLocation = 0;
+                    let maxLocation = 0;
+                    let isBookOpen = false;
+
+                    // =================================================================
+                    // ==  CONTROL YOUR IMAGES HERE                                  ==
+                    // =================================================================
+                    // Just add or remove objects from these arrays to change the
+                    // content and length of your flipbooks.
+                    const flipbookContent = {
+                        lookbook: [
+                            { front: { image: 'demo-assets/switcher/lookbook/headimg.png' }, back: { image: 'demo-assets/switcher/lookbook/1.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/2.png' }, back: { image: 'demo-assets/switcher/lookbook/3.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/4.png' }, back: { image: 'demo-assets/switcher/lookbook/5.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/6.png' }, back: { image: 'demo-assets/switcher/lookbook/7.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/8.png' }, back: { image: 'demo-assets/switcher/lookbook/9.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/10.png' }, back: { image: 'demo-assets/switcher/lookbook/11.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/12.png' }, back: { image: 'demo-assets/switcher/lookbook/13.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/14.png' }, back: { image: 'demo-assets/switcher/lookbook/15.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/16.png' }, back: { image: 'demo-assets/switcher/lookbook/17.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/18.png' }, back: { image: 'demo-assets/switcher/lookbook/19.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/20.png' }, back: { image: 'demo-assets/switcher/lookbook/21.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/22.png' }, back: { image: 'demo-assets/switcher/lookbook/23.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/24.png' }, back: { image: 'demo-assets/switcher/lookbook/25.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/26.png' }, back: { image: 'demo-assets/switcher/lookbook/27.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/28.png' }, back: { image: 'demo-assets/switcher/lookbook/29.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/30.png' }, back: { image: 'demo-assets/switcher/lookbook/31.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/32.png' }, back: { image: 'demo-assets/switcher/lookbook/33.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/34.png' }, back: { image: 'demo-assets/switcher/lookbook/35.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/36.png' }, back: { image: 'demo-assets/switcher/lookbook/37.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/38.png' }, back: { image: 'demo-assets/switcher/lookbook/39.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/40.png' }, back: { image: 'demo-assets/switcher/lookbook/41.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/42.png' }, back: { image: 'demo-assets/switcher/lookbook/43.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/44.png' }, back: { image: 'demo-assets/switcher/lookbook/45.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/46.png' }, back: { image: 'demo-assets/switcher/lookbook/47.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/48.png' }, back: { image: 'demo-assets/switcher/lookbook/49.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/50.png' }, back: { image: 'demo-assets/switcher/lookbook/51.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/52.png' }, back: { image: 'demo-assets/switcher/lookbook/53.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/54.png' }, back: { image: 'demo-assets/switcher/lookbook/55.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/56.png' }, back: { image: 'demo-assets/switcher/lookbook/57.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/58.png' }, back: { image: 'demo-assets/switcher/lookbook/59.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/60.png' }, back: { image: 'demo-assets/switcher/lookbook/61.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/62.png' }, back: { image: 'demo-assets/switcher/lookbook/63.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/64.png' }, back: { image: 'demo-assets/switcher/lookbook/65.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/66.png' }, back: { image: 'demo-assets/switcher/lookbook/67.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/68.png' }, back: { image: 'demo-assets/switcher/lookbook/69.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/70.png' }, back: { image: 'demo-assets/switcher/lookbook/71.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/72.png' }, back: { image: 'demo-assets/switcher/lookbook/73.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/74.png' }, back: { image: 'demo-assets/switcher/lookbook/75.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/76.png' }, back: { image: 'demo-assets/switcher/lookbook/77.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/78.png' }, back: { image: 'demo-assets/switcher/lookbook/79.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/80.png' }, back: { image: 'demo-assets/switcher/lookbook/81.png' } },
+                            { front: { image: 'demo-assets/switcher/lookbook/82.png' }, back: { image: 'demo-assets/switcher/lookbook/83.png' } }
+                        ],
+                        museum: [
+                            { front: { image: 'demo-assets/switcher/museum/headimg.jpg' }, back: { image: 'demo-assets/switcher/museum/indi/1.jpg' } },
+                            { front: { image: 'demo-assets/switcher/museum/indi/2.jpg' }, back: { image: 'demo-assets/switcher/museum/indi/3.jpg' } },
+                            { front: { image: 'demo-assets/switcher/museum/indi/4.jpg' }, back: { image: 'demo-assets/switcher/museum/indi/5.jpg' } },
+                            { front: { image: 'demo-assets/switcher/museum/indi/6.jpg' }, back: { image: 'demo-assets/switcher/museum/indi/7.jpg' } },
+                            { front: { image: 'demo-assets/switcher/museum/indi/8.jpg' }, back: { image: 'demo-assets/switcher/museum/indi/9.jpg' } },
+                            { front: { image: 'demo-assets/switcher/museum/indi/10.jpg' }, back: { image: 'demo-assets/switcher/museum/indi/end.jpg' } },
+                            // TO ADD MORE, JUST COPY THE LINE ABOVE AND CHANGE THE IMAGE PATHS
+                            // { front: { image: 'path/to/front11.jpg' }, back: { image: 'path/to/back12.jpg' } },
+                        ]
+                    };
+                    // =================================================================
+
+                    const backgroundImages = {
+                        lookbook: 'url("demo-assets/switcher/lookbook/fashion-bg.jpeg")',
+                        museum: 'url("demo-assets/switcher/museum/bgg2.jpeg")'
+                    };
+
+                    function openBook() {
+                        if (isBookOpen || papers.length === 0) return;
+                        book.style.right = '0px';
+                        book.style.transform = 'rotateY(0deg) scale(1)';
+                        isBookOpen = true;
+                    }
+
+                    function goNextPage() {
+                        if (!isBookOpen) {
+                            openBook();
+                            return;
+                        }
+                        if (currentLocation < maxLocation) {
+                            papers[currentLocation].style.transform = 'rotateY(-180deg)';
+                            papers[currentLocation].style.zIndex = currentLocation + 2; // Keep flipped pages on top
+                            currentLocation++;
+                        }
+                    }
+
+                    function goPrevPage() {
+                        if (!isBookOpen) return;
+                        if (currentLocation > 0) {
+                            currentLocation--;
+                            papers[currentLocation].style.transform = 'rotateY(0deg)';
+                            papers[currentLocation].style.zIndex = maxLocation - currentLocation + 1; // Put back in stack order
+                        }
+                    }
+
+                    function updateFlipbook(setName) {
+                        // Update active button style
+                        selectorBtns.forEach(btn => {
+                            btn.style.borderColor = 'transparent';
+                            btn.style.boxShadow = 'none';
+                        });
+                        const activeBtn = document.querySelector(`[data-set=${setName}]`);
+                        activeBtn.style.borderColor = '#FF9A1E';
+                        activeBtn.style.boxShadow = '0 0 10px rgba(255, 154, 30, 0.5)';
+
+                        // Update background
+                        backgroundContainer.style.backgroundImage = backgroundImages[setName];
+
+                        const content = flipbookContent[setName];
+                        maxLocation = content.length;
+
+                        // === DYNAMIC PAGE CREATION ===
+                        // 1. Clear any old pages from the book container
+                        book.innerHTML = '';
+
+                        // 2. Loop through the new content and build the HTML for each page
+                        let pagesHTML = '';
+                        content.forEach((pageData, index) => {
+                            const zIndex = content.length - index;
+                            pagesHTML += `
+                            <div id="flipbook-p${index + 1}" class="flipbook-paper" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; transform-origin: left center 0px; transition: transform 1s ease-in-out 0s; transform-style: preserve-3d; cursor: pointer; z-index: ${zIndex};">
+                                <div class="flipbook-front" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; z-index: 1;">
+                                    <div class="flipbook-front-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                                        <img src="${pageData.front.image}" alt="Page ${index * 2 + 1}" style="width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="flipbook-back" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; transform: rotateY(180deg); z-index: 0;">
+                                    <div class="flipbook-back-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                                        <img src="${pageData.back.image}" alt="Page ${index * 2 + 2}" style="width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        });
+                        book.innerHTML = pagesHTML;
+
+                        // 3. Re-select the newly created paper elements
+                        papers = book.querySelectorAll('.flipbook-paper');
+
+                        // 4. Re-attach event listener to the new cover page to open the book
+                        if (papers.length > 0) {
+                            papers[0].addEventListener('click', () => {
+                                if (!isBookOpen) openBook();
+                            });
+                        }
+
+                        // Reset book state
+                        currentLocation = 0;
+                        book.style.right = '25%';
+                        book.style.transform = 'rotateY(-15deg) scale(0.9)';
+                        isBookOpen = false;
+                    }
+
+                    // Add main event listeners
+                    prevBtn.addEventListener("click", goPrevPage);
+                    nextBtn.addEventListener("click", goNextPage);
+
+                    selectorBtns.forEach(btn => {
+                        btn.addEventListener('click', () => {
+                            const setName = btn.dataset.set;
+                            updateFlipbook(setName);
+                        });
+                    });
+
+                    // Initialize with the first flipbook
+                    updateFlipbook('lookbook');
+                });
+            </script>
+
+        </section>
+        <!-- Fashion Museum  -->
+
+        <!--Testimonial-->
+        <div style="background-image: url(mobile-assets/index/s2-bg-img-1.webp);"
+            class="pt-3 elementor-element elementor-element-41f1d73 elementor-widget elementor-widget-go-s-heading"
+            data-id="41f1d73" data-element_type="widget" data-widget_type="go-s-heading.default">
+
+            <div class="elementor-widget-container" style="padding-left: 50px;">
+                <div class="prthalign text-center">
+
+                    <h2 class="headd1 text-center mb-4"
+                        style="color:#e68900; font-weight: 700; margin:0; letter-spacing: 0px; font-size: 45px;">
+                        They Speak <span style="color: #27467A; font-weight: 700; margin:0; font-size: 45px;">About
+                            Us</span>
+                    </h2>
+
+                </div>
+            </div>
+
+            <div class="hover01 column row" style="padding-left: 1px;">
+                <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important; ">
+                    <figure> <a href="success.html"><img style="border: 2px solid #fff;"
+                                src="mobile-assets/index/alumni-student.png" /></a></figure>
+                </div>
+
+                <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
+                    <figure><a href="recruiters.html"><img style="border: 2px solid #fff;"
+                                src="mobile-assets/index/recruiters.png" /></a></figure>
+
+                </div>
+                <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
+                    <figure><a href="footprints.html"><img style="border: 2px solid #fff;"
+                                src="mobile-assets/index/dignitaries.png" /></a></figure>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- testimonial end -->
+
+    </div>
 @endsection
