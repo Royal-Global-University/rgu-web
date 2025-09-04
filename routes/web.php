@@ -2892,6 +2892,10 @@ Route::get('/climate-change-and-livelihood-in-northeast-india', function () {
     return view('frontend/conference/climate');
 })->name('climate-change-and-livelihood-in-northeast-india');
 
+Route::get('/synergy-for-energy-challenges-and-opportunities-in-north-east-india', function () {
+    return view('frontend/conference/minerials');
+})->name('synergy-for-energy-challenges-and-opportunities-in-north-east-india');
+
 //blog
 Route::get('/blog', function () {
     return view('frontend/blog/blog');

@@ -4,944 +4,752 @@
 @section('meta_keywords', 'Best University in Assam')
 @section('content')
 
-    <section class="mobile">
+        <div class="mobile">
 
-        <!-- Popup -->
-        <div id="popup-mob" class="popup-overlay">
-            <a href="https://admissions.rgu.ac/" target="_blank" class="text-center"><img
-                    src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}" style="width: 400px; height: 400px;"
-                    class="popup-image" alt="Popup Image"></a>
-        </div>
+          <!-- Popup -->
+            <div id="popup-mob" class="popup-overlay">
+                <a href="https://admissions.rgu.ac/" target="_blank" class="text-center"><img
+                        src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}" style="width: 400px; height: 400px;"
+                        class="popup-image" alt="Popup Image"></a>
+            </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const popup = document.getElementById('popup-mob');
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const popup = document.getElementById('popup-mob');
 
-                // When click anywhere outside the image, hide the popup
-                popup.addEventListener('click', function (event) {
-                    if (event.target === popup) {
-                        popup.style.display = 'none';
-                    }
+                    // When click anywhere outside the image, hide the popup
+                    popup.addEventListener('click', function (event) {
+                        if (event.target === popup) {
+                            popup.style.display = 'none';
+                        }
+                    });
                 });
-            });
-        </script>
+            </script>
 
-        <!-- Floating WhatsApp Button -->
-        <a href="https://wa.me/917099028518" class="whatsapp-float" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-        </a>
+            <!-- Floating WhatsApp Button -->
+            <a href="https://wa.me/917099028518" class="whatsapp-float" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            </a>
 
 
-        <!-- Floating Section with Frosted Background -->
-        <div class="container">
-            <div class="floating-wrapper" style="
-                                                    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-                                                    width: 90%; max-width: 400px; z-index: 800;
-                                                    backdrop-filter: blur(30px);
-                                                    background: #27467A; /* Frosty effect */
-                                                    border-radius: 10px;
-                                                    box-shadow: 0 1px 1px #ffffff97;
-                                                    border: 1px solid #27467A;
-                                                    padding: 15px;">
+            <!-- Floating Section with Frosted Background -->
+            <div class="container">
+                <div class="floating-wrapper" style="
+                                                        position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+                                                        width: 90%; max-width: 400px; z-index: 800;
+                                                        backdrop-filter: blur(30px);
+                                                        background: #27467A; /* Frosty effect */
+                                                        border-radius: 10px;
+                                                        box-shadow: 0 1px 1px #ffffff97;
+                                                        border: 1px solid #27467A;
+                                                        padding: 15px;">
 
-                <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
-                    <span class="mobile-para1" style="
-                                                            font-weight: bold; font-size: 18px; line-height: 1.3;
-                                                            color: #fff; flex-grow: 1;">
-                        Admission open for 2025 - 2026
-                    </span>
+                    <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
+                        <span class="mobile-para1" style="
+                                                                font-weight: bold; font-size: 18px; line-height: 1.3;
+                                                                color: #fff; flex-grow: 1;">
+                            Admission open for 2025 - 2026
+                        </span>
 
-                    <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
-                                                            background-color: #ffb300; color: #fff;
-                                                            font-weight: bold; padding: 10px 14px; border-radius: 5px;
-                                                            text-decoration: none; white-space: nowrap;">
-                        Apply Now
-                    </a>
+                        <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
+                                                                background-color: #ffb300; color: #fff;
+                                                                font-weight: bold; padding: 10px 14px; border-radius: 5px;
+                                                                text-decoration: none; white-space: nowrap;">
+                            Apply Now
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
 
 
-        <!-- menu  -->
-        @include('frontend/components/mobileheader')
+            <!-- menu  -->
+            @include('frontend/components/mobileheader')
 
-
-        <!-- mobile video -->
+        <!-- Mobile Video -->
         <div class="mobile-video" style="position: relative; width: 100%; height: auto;">
-            <img src="https://media.rgu.ac/head-video/mob-thumb.png" id="video-thumbnail" alt="Video Thumbnail"
+            <img src="mob-thumb.png" id="video-thumbnail" alt="Video Thumbnail"
                 style="width: 100%; height: auto; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1; transition: opacity 1s ease;">
 
             <video playsinline autoplay loop muted id="video-bg" oncanplay="showVideo()"
                 style="width: 100%; height: auto; display: block;">
-                <source src="https://media.rgu.ac/head-video/v-2.mp4" type="video/mp4">
+                <source src="mobile-assets/index/Websitemobilevideooo.mp4" type="video/mp4">
             </video>
         </div>
-        <!-- mobile video -->
+
+        <script>
+            function showVideo() {
+                let thumbnail = document.getElementById("video-thumbnail");
+                thumbnail.style.opacity = "0";  // Fade out
+                setTimeout(() => {
+                    thumbnail.style.display = "none";  // Remove after transition
+                }, 1000);  // Matches transition duration
+            }
+        </script>
+        <!-- Mobile Video -->
 
         <!-- slider banners  -->
         <div id="carouselExample" class="carousel slide mobile-image-slider" data-bs-ride="carousel">
             <div class="carousel-inner">
-
                 <div class="carousel-item active">
-                    <img src="https://media.rgu.ac/index/about-mobile.png" class="d-block w-100" alt="...">
+                    <img src="mobile-assets/new-details/research-web.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://media.rgu.ac/index/research-mobile.png" class="d-block w-100" alt="...">
+                    <img src="mobile-assets/new-details/about-web.png" class="d-block w-100" alt="...">
                 </div>
-
             </div>
         </div>
         <!-- slider banners  -->
 
-        <!-- discover rgu -->
-        <div>
-            <a href=""><img src="https://media.rgu.ac/explore/mob.png"
-                    alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape." /></a>
-        </div>
-        <!-- discover rgu -->
+        <!-- Explore Rgu  -->
+        <img src="demo-assets/mobile/explore-rgu.png" alt="">
+        <!-- Explore Rgu  -->
 
-        <div>
-            <div>
-                <div class="text-center">
-                    <img class="text-center" src="mobile-assets/events/deeksharambh.png" style="width: 50%" />
-                </div>
-                <div class="row p-3">
-                    <div class="col-lg-5 pb-5" style="display: flex; flex-direction: column; padding-left: 40px;">
-
-
-                        <div id="slider" style="width: 620px; overflow: hidden; margin: auto; position: relative;">
-
-
-                            <div id="slides" style="display: flex; transition: transform 0.7s ease;">
-                                <img class="zoomable active" src="mobile-assets/events/adira-web.jpg"
-                                    style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
-                                    style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                <img class="zoomable" src="mobile-assets/events/model.jpeg"
-                                    style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                            </div>
-                        </div>
-
-                        <div style="text-align:center; margin-top:10px;">
-                            <button onclick="prevSlide()"
-                                style="padding:5px 10px; background-color: #FEAA4E; color: #fff; border-radius: 3px;">
-                                < </button>
-                                    <button onclick="nextSlide()"
-                                        style="padding:5px 10px; background-color: #FEAA4E; color: #fff; border-radius: 3px;">></button>
-                        </div>
-
-                        <div id="lightbox"
-                            style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); justify-content:center; align-items:center; z-index:1000;">
-                            <img id="lightbox-img" style="max-width:90%; max-height:90%; border-radius:10px;">
-                        </div>
-
-                        <script>
-                            const zoomableImages = document.querySelectorAll('.zoomable');
-                            const lightbox = document.getElementById('lightbox');
-                            const lightboxImg = document.getElementById('lightbox-img');
-
-                            zoomableImages.forEach(img => {
-                                img.style.cssText = 'width:400px; height:530px; margin-right:20px; border:2px solid #e68900; border-radius:10px; cursor:pointer;';
-                                img.addEventListener('click', () => {
-                                    lightbox.style.display = 'flex';
-                                    lightboxImg.src = img.src;
-                                });
-                            });
-
-                            lightbox.addEventListener('click', () => {
-                                lightbox.style.display = 'none';
-                            });
-                        </script>
-
-                        <script>
-                            const slideWidth = 320; // 300px image + 20px margin
-                            const slider = document.getElementById("slider");
-                            const slides = document.getElementById("slides");
-                            let index = 0;
-                            let isTransitioning = false;
-
-                            // Clone first few slides and append
-                            const cloneslides = () => {
-                                const children = slides.children;
-                                for (let i = 0; i < 2; i++) {
-                                    const clone = children[i].cloneNode(true);
-                                    slides.appendChild(clone);
-                                }
-                            };
-
-                            cloneslides();
-
-                            function nextSlide() {
-                                if (isTransitioning) return;
-                                isTransitioning = true;
-                                index++;
-                                slides.style.transition = "transform 0.5s ease";
-                                slides.style.transform = `translateX(-${index * slideWidth}px)`;
-
-                                setTimeout(() => {
-                                    if (index >= slides.children.length - 2) {
-                                        slides.style.transition = "none";
-                                        index = 0;
-                                        slides.style.transform = `translateX(0px)`;
-                                    }
-                                    isTransitioning = false;
-                                }, 600);
-                            }
-
-                            function prevSlide() {
-                                if (isTransitioning) return;
-                                isTransitioning = true;
-                                if (index <= 0) {
-                                    index = slides.children.length - 3;
-                                    slides.style.transition = "none";
-                                    slides.style.transform = `translateX(-${(index + 1) * slideWidth}px)`;
-                                    setTimeout(() => {
-                                        slides.style.transition = "transform 0.5s ease";
-                                        prevSlide();
-                                    }, 20);
-                                    return;
-                                }
-                                index--;
-                                slides.style.transition = "transform 0.5s ease";
-                                slides.style.transform = `translateX(-${index * slideWidth}px)`;
-                                setTimeout(() => isTransitioning = false, 600);
-                            }
-
-                            setInterval(nextSlide, 3000); // Auto-slide
-                        </script>
-                    </div>
-                    <div class="col-lg-1"></div>
-
-                    <div class="col-lg-6 pt-3">
-                        <style>
-                            #video-container-reel-ads {
-                                position: relative;
-                                width: 100%;
-                                height: 70vh;
-                                overflow: hidden;
-                                background-color: black;
-                            }
-
-                            #video-reel-main {
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                min-width: 100%;
-                                min-height: 100%;
-                                transform: translate(-50%, -50%);
-                                object-fit: cover;
-                            }
-
-                            .text-carousel-reel {
-                                display: flex;
-                                overflow-x: auto;
-                                padding: 10px;
-                                scroll-snap-type: x mandatory;
-                            }
-
-                            .text-carousel-reel button {
-                                flex: 0 0 calc(33.33% - 20px);
-                                /* 3 items in full width with some gap */
-                                margin-right: 10px;
-                                padding: 10px 10px;
-                                background: #fff;
-                                border: 1px solid #ccc;
-                                border-radius: 20px;
-                                font-size: 14px;
-                                cursor: pointer;
-                                scroll-snap-align: start;
-                                transition: background 0.3s;
-                                white-space: nowrap;
-                            }
-
-                            .text-carousel-reel button:hover {
-                                background: #03203e;
-                                color: white;
-                            }
-                        </style>
-
-                        <!-- Main Video Container -->
-                        <div id="video-container-reel-ads">
-                            <video autoplay loop muted playsinline id="video-reel-main">
-                                <source src="https://media.rgu.ac/head-video/v-2.mp4" type="video/mp4">
-                            </video>
-                        </div>
-
-                        <!-- Bottom Text Carousel (3 items at a time) -->
-                        <div class="text-carousel-reel">
-                            <button onclick="changeVideoReel('mobile-assets/first-convo/first-convo.mp4')">
-                                <span>Day 1</span><br><span class="fw-bold">Shri Rakkam A. Sangma</span>
-                            </button>
-                            <button onclick="changeVideoReel('mobile-assets/second-convo/second-convo.mp4')">
-                                <span>Day 2</span><br><span class="fw-bold">Sana</span>
-                            </button>
-                            <button onclick="changeVideoReel('mobile-assets/third-Convo/third-convo.mp4')">
-                                <span>Day 3</span><br><span class="fw-bold">Arjun</span>
-                            </button>
-                            <button onclick="changeVideoReel('mobile-assets/first-convo/first-convo.mp4')">
-                                <span>Day 4</span><br><span class="fw-bold">Riya</span>
-                            </button>
-                            <button onclick="changeVideoReel('https://media.rgu.ac/head-video/v-5.mp4')">
-                                <span>Day 5</span><br><span class="fw-bold">Neha</span>
-                            </button>
-                        </div>
-
-                        <script>
-                            function changeVideoReel(src) {
-                                const video = document.getElementById('video-reel-main');
-                                video.pause();
-                                video.src = src;
-                                video.load();
-                                video.play();
-                            }
-                        </script>
-                    </div>
-
-
-                </div>
-            </div>
+        <!-- Event Section  -->
+        <section>
 
             <style>
-                @keyframes scrollUp {
-                    0% {
-                        top: 100%;
-                    }
+                .unique-gallery-section {
+                    padding: 30px 5px;
+                    border-radius: 10px;
+                    background-color: #f8f9fa;
+                }
 
-                    100% {
-                        top: -100%;
+                .unique-gallery-title {
+                    color: #27467A;
+                    font-weight: 800;
+                    font-size: 40px;
+                    padding-bottom: 1rem;
+                }
+
+                .unique-gallery-title .highlight {
+                    color: #FF9A1E;
+                    font-weight: 500;
+                }
+
+                /* Apply flex properties ONLY to the active slide */
+                #uniqueGalleryCarousel .carousel-item.active {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .unique-gallery-img {
+                    width: 100%;
+                    height: auto;
+                    border: 2px solid #e68900;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+
+                /* --- Modified styles for carousel controls --- */
+                .unique-gallery-control-prev,
+                .unique-gallery-control-next {
+                    position: static;
+                    display: inline-flex;
+                    transform: none;
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 5px;
+                    background-color: #27467A;
+                    border-radius: 50%;
+                }
+
+                /* --- Unique Lightbox Styles --- */
+                #unique-gallery-lightbox {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.9);
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 1050;
+                }
+
+                #unique-gallery-lightbox-img {
+                    max-width: 90%;
+                    max-height: 90%;
+                    border-radius: 10px;
+                }
+
+                /* --- Mobile Responsive Styles --- */
+                @media (max-width: 991px) {
+                    .unique-gallery-media-col {
+                        margin-top: 2rem;
+                        /* Add space between stacked columns */
                     }
                 }
 
-                /* Pause the animation when hovering over the notification-wrapper */
-                .notification-wrapper:hover {
-                    animation-play-state: paused;
-                }
+                @media (max-width: 768px) {
+                    .unique-gallery-title {
+                        font-size: 28px;
+                        /* Reduce title font size on mobile */
+                        text-align: center;
+                        /* Center title on mobile */
+                    }
 
-                /* Add hover effect for links */
-                .notification-item a:hover {
-                    text-decoration: underline;
+                    .unique-gallery-section {
+                        padding: 20px 10px;
+                        /* Adjust padding for smaller screens */
+                    }
+
+                    .unique-gallery-media-card-text {
+                        text-align: center;
+                        margin-top: 1rem;
+                    }
                 }
             </style>
-        </div>
 
-        <!-- happening at rgu  -->
-        <section style="padding: 30px; background-image: url(https://media.rgu.ac/index/bg.svg);">
+            <section class="unique-gallery-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h2 class="unique-gallery-title">News and<span class="highlight"> Events</span></h2>
 
-            <h2 class="headd2 fw-bold pb-3" style="color: #27467A; font-weight: 900; font-size: 40px;">
-                News and<span style="color: #FF9A1E; font-weight: 500;"> Events</span></h2>
+                            <div id="uniqueGalleryCarousel" class="carousel slide" data-bs-ride="carousel"
+                                data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row w-100 mx-0">
+                                            <div class="col-12">
+                                                <img class="unique-gallery-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/basket.jpeg" alt="Event 1">
+                                            </div>
 
-            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-                        <img src="mobile-assets/events/adira-mob.jpg" class="d-block w-100 rounded" alt="...">
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="https://media.rgu.ac/index/prabuddha-mobile-may.jpeg" class="d-block w-100 rounded"
-                            alt="...">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- happening at rgu  -->
-
-        {{-- <div class="p-2">
-            <h2 class="headd2 fw-bold pb-2 pt-3 text-center" style="color: #27467A; font-size: 40px;">Media <span
-                    style="color: #FF9A1E; font-weight: 500;"> Corner</span></h2>
-            <div class="card" style="height: 300px; overflow: hidden; position: relative; background-color: #faebd7;">
-                <div class="notification-wrapper"
-                    style="position: absolute; top: 100%; width: 100%; animation: scrollUp 20s linear infinite;">
-
-                    <div class="notification-item text-dark para1 pt-5">
-                        <a href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy"
-                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated
-                            BA and
-                            BSc Programs with Civil Services Coaching by SPM IAS Academy</a>
-                    </div>
-                    <div class="notification-item text-dark para1">
-                        <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students"
-                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates
-                            Commendation Day
-                            for Placed Graduating Students </a>
-                    </div>
-                    <div class="notification-item text-dark para1">
-                        <a href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance"
-                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication
-                            Keys to
-                            Success: Lt Col Singh at RGU Scholarship Ceremony</a>
-                    </div>
-
-                    <div class="notification-item text-dark para1 pt-5">
-                        <a href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy"
-                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated
-                            BA and
-                            BSc Programs with Civil Services Coaching by SPM IAS Academy</a>
-                    </div>
-                    <div class="notification-item text-dark para1">
-                        <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students"
-                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates
-                            Commendation Day
-                            for Placed Graduating Students </a>
-                    </div>
-                    <div class="notification-item text-dark para1">
-                        <a href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance"
-                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication
-                            Keys to
-                            Success: Lt Col Singh at RGU Scholarship Ceremony</a>
-                    </div>
-
-                    <div class="notification-item text-dark para1 pt-5">
-                        <a href="RGU-Launches-Integrated-BA-and-BSc-Programs-with-Civil-Services-Coaching-by-SPM-IAS-Academy"
-                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Launches Integrated
-                            BA and
-                            BSc Programs with Civil Services Coaching by SPM IAS Academy</a>
-                    </div>
-                    <div class="notification-item text-dark para1">
-                        <a href="RGU-Celebrates-Commendation-Day-for-Placed-Graduating-Students"
-                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> RGU Celebrates
-                            Commendation Day
-                            for Placed Graduating Students </a>
-                    </div>
-                    <div class="notification-item text-dark para1">
-                        <a href="129-RGU-Students-Awarded-Scholarships-for-Outstanding-Academic-Performance"
-                            style="display: block; border-bottom: 1px solid #ddd; text-decoration: none; color: inherit;"><img
-                                style="width: 50px;" src="mobile-assets/icons/newicon.gif" alt=""> Discipline and Dedication
-                            Keys to
-                            Success: Lt Col Singh at RGU Scholarship Ceremony</a>
-                    </div>
-
-                </div>
-            </div>
-            <a href="media-corner">
-                <h2 class="para1 fw-bold pt-3 text-center" style="color: #27467A;">View All</h2>
-            </a>
-        </div> --}}
-
-        <!-- mobile Notifications -->
-        <div class="container mt-3">
-            <div class="row mobile-marquee-row align-items-center">
-                <!-- Left Side: Marquee -->
-                <div class="col-9 overflow-hidden">
-                    <div class="mobile-marquee">
-                        <span class="mobile-headd3">📢 Admission Open For Ph.D. 2025-2026 | 📢 Download Civil Service
-                            Brochure | 🎓 Download Sports Policy Brochure | 📢 Admission Open For Ph.D. 2025-2026 | 📢
-                            Download Civil Service Brochure | 🎓 Download Sports Policy Brochure | 📢 Admission Open For
-                            Ph.D. 2025-2026 | 📢 Download Civil Service Brochure | 🎓 Download Sports Policy Brochure
-                        </span>
-                    </div>
-                </div>
-
-                <!-- Right Side: Button -->
-                <div class="col-3 text-end">
-                    <a href="notifications"> <button class="btn mobile-para1 mobile-btn">View All</button></a>
-                </div>
-            </div>
-        </div>
-        <!-- mobile Notifications -->
-
-
-        <!-- explore our courses at rgu  -->
-        <section style="padding: 30px;">
-            <h2 class="mobile-headd1 pb-4" style="color: #27467A;">Explore Our <span
-                    style="font-weight: 500; color: #EF991F;">Courses</span></h2>
-
-            <a href="doctoral-programme">
-                <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
-                    <div class="main-img fix img-cover">
-                        <img fetchpriority="high" decoding="async" width="357" height="220"
-                            src="https://media.rgu.ac/index/c6.svg"
-                            class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                    </div>
-                </div>
-            </a>
-
-            <a href="programs">
-                <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
-                    <div class="main-img fix img-cover">
-                        <img decoding="async" width="357" height="220" src="https://media.rgu.ac/index/c7.svg"
-                            class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                    </div>
-                </div>
-            </a>
-
-            <a href="programs">
-                <div class="kd-course-2-card" style="border: solid 2px rgb(225, 225, 225);">
-                    <div class="main-img fix img-cover">
-                        <img decoding="async" width="357" height="220" src="https://media.rgu.ac/index/c8.svg"
-                            class="attachment-kadu-357x220 size-kadu-357x220 wp-post-image" alt="" />
-                    </div>
-                </div>
-            </a>
-
-        </section>
-        <!-- explore our courses at rgu  -->
-
-        <!--Labs-->
-        <div style="padding: 20px; background-color: #FFF8F0;">
-            <h2 class="mobile-headd1 pb-3" style="color: #27467A;">Laboratories <span
-                    style="font-weight: 500; color: #EF991F;">and Studio</span></h2>
-
-            <div id="mobile-carouselExample" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-
-                        <a href="lab-electrical">
-                            <div class="card d-flex flex-column shadow-sm rounded"
-                                style="background-color: #fff; height: 450px; border: none;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/electric1.jpg"
-                                        class="d-block w-100" alt="..." style="border-radius: 10px;">
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Electrical <span
-                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
-                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-
-                    <div class="carousel-item">
-
-                        <a href="lab-architecture">
-                            <div class="card d-flex flex-column shadow-sm"
-                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;"
-                                        src="https://media.rgu.ac/index/architecture1.jpg" class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Architecture <span
-                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
-                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-
-                    <div class="carousel-item">
-
-                        <a href="lab-computer">
-                            <div class="card d-flex flex-column shadow-sm"
-                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/computer1.jpg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Computer <span
-                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
-                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-
-                    <div class="carousel-item">
-
-                        <a href="lab-engineering_drawing">
-                            <div class="card d-flex flex-column shadow-sm"
-                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;"
-                                        src="https://media.rgu.ac/index/engineering1.jpg" class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Engineering <span
-                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
-                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-
-
-
-                    <div class="carousel-item">
-
-                        <a href="lab-foodteach">
-                            <div class="card d-flex flex-column shadow-sm"
-                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/foodtech1.jpg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Food Tech <span
-                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
-                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-
-
-
-                    <div class="carousel-item">
-
-                        <a href="lab-language-lab">
-                            <div class="card d-flex flex-column shadow-sm"
-                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/language1.jpg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Language <span
-                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
-                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-
-                    <div class="carousel-item">
-
-                        <a href="lab-physics">
-                            <div class="card d-flex flex-column shadow-sm"
-                                style="background-color: #fff; border: none; height: 450px; border-radius: 20px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="https://media.rgu.ac/index/physics1.jpg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h2 class="mobile-headd1" style="color: #27467A; text-align: left;">Physics <span
-                                            style="font-weight: 500; color: #27467A;">Lab</span></h2>
-                                    <h2 class="mobile-headd3" style="color: #27467A; font-weight: 800; text-align: left;">
-                                        Explore <span style="font-weight: 500; color: #27467A;">More</span></h2>
-
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-        </div>
-        <!--Labs-->
-
-        <!-- new advantage -->
-        {{-- <section style="padding: 80px 30px 0px 30px; background-color: #13223b;"
-            class=" elementor-section elementor-top-section elementor-element elementor-element-5b53581 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="5b53581" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d665cde"
-                    data-id="d665cde" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-dbbd17f elementor-widget elementor-widget-go-img--bx"
-                            data-id="dbbd17f" data-element_type="widget" data-widget_type="go-img--bx.default">
-                            <div class="elementor-widget-container">
-                                <div class="kd-about-4-left ">
-                                    <div class="mb-5 fix img-cover">
-                                        <img decoding="async" class="rounded" style="height: 400px !important;"
-                                            src="https://media.rgu.ac/index/rgu-building-square.webp" alt="">
+                                        </div>
                                     </div>
-                                    <div class="kd-about-4-img-2 fix img-cover txxa-add-class">
-                                        <img decoding="async" class="rounded" style="height: 600px !important;"
-                                            src="https://media.rgu.ac/index/mobileyellow.png" alt="">
+                                    <div class="carousel-item">
+                                        <div class="row w-100 mx-0">
+                                            <div class="col-12">
+                                                <img class="unique-gallery-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/stu-1.1.jpeg"
+                                                    alt="Event 3">
+                                            </div>
+
+                                        </div>
                                     </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center mt-3">
+                                <button class="unique-gallery-control-prev" type="button"
+                                    data-bs-target="#uniqueGalleryCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="unique-gallery-control-next" type="button"
+                                    data-bs-target="#uniqueGalleryCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 unique-gallery-media-col">
+                            <h2 class="unique-gallery-title">Media<span class="highlight"> Corner</span></h2>
+
+                            <div style="background-color: #FFF0DB; padding: 15px; border-radius: 10px;">
+
+                                <div
+                                    style="background-color: #FAF9F6; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
+                                    <div class="row p-3 align-items-center">
+                                        <div class="col-md-4">
+                                            <img class="border shadow-sm"
+                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
+                                                src="https://www.rgu.ac/mobile-assets/media-corner/news39/Leadership%20Conclave%202025.jpg"
+                                                alt="Leadership Conclave">
+                                        </div>
+                                        <div class="col-md-8 unique-gallery-media-card-text">
+                                            <h2 class="fw-bold mb-1" style="color: #27467A; font-size: 17px;">
+                                                National Leadership Conclave 2025 from 11th September at Royal Global
+                                                University
+                                            </h2>
+                                            <p style="color: #333; font-size: 14px; margin: 0.25rem 0;">
+                                                September 2, 2025
+                                            </p>
+                                            <a style="color: #ef991f; font-size: 15px;" class="fw-bold" href="#">
+                                                Read More...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="m-2"></div>
+
+                                <div
+                                    style="background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
+                                    <div class="row p-3 align-items-center">
+                                        <div class="col-md-4">
+                                            <img class="border shadow-sm"
+                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
+                                                src="https://www.rgu.ac/mobile-assets/rgu-blog/blog2.jpeg"
+                                                alt="AICTE-VAANI Grant">
+                                        </div>
+                                        <div class="col-md-8 unique-gallery-media-card-text">
+                                            <h2 class="fw-bold mb-1" style="color: #27467A; font-size: 17px;">
+                                                AICTE-VAANI Grant Sanctioned to RGU for Indian Knowledge Systems Conference
+                                            </h2>
+                                            <p style="color: #333; font-size: 14px; margin: 0.25rem 0;">
+                                                September 1, 2025
+                                            </p>
+                                            <a style="color: #ef991f; font-size: 15px;" class="fw-bold" href="#">
+                                                Read More...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="m-2"></div>
+
+                                <div
+                                    style="background-color: #FAF9F6; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
+                                    <div class="row p-3 align-items-center">
+                                        <div class="col-md-4">
+                                            <img class="border shadow-sm"
+                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
+                                                src="https://www.rgu.ac/mobile-assets/media-corner/news38/head.jpg"
+                                                alt="Supreme Court Judge">
+                                        </div>
+                                        <div class="col-md-8 unique-gallery-media-card-text">
+                                            <h2 class="fw-bold mb-1" style="color: #27467A; font-size: 17px;">
+                                                Supreme Court Judge unveils one of India’s largest Gavels at Royal Global
+                                                University
+                                            </h2>
+                                            <p style="color: #333; font-size: 14px; margin: 0.25rem 0;">
+                                                August 30, 2025
+                                            </p>
+                                            <a style="color: #ef991f; font-size: 15px;" class="fw-bold" href="#">
+                                                Read More...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mt-4 text-center">
+                                    <a style="padding: 10px 20px; background-color: #27467A; color: #fff; border-radius: 5px; font-size: 14px; text-decoration: none;"
+                                        href="#">View All</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-be85421"
-                    data-id="be85421" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-f5f1b7b elementor-widget elementor-widget-go-s-heading"
-                            data-id="f5f1b7b" data-element_type="widget" data-widget_type="go-s-heading.default">
-                            <div class="elementor-widget-container">
+            </section>
 
-                                <div class="prthalign">
-                                    <h1 style="font-weight: 700;" class="mobile-headd1 text-light">RGU Advantages</h1>
-                                    <div class="elementor-gt-desc kd-para-2 scn-disc"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-3c95150 elementor-widget elementor-widget-go-kadu-accordion"
-                            data-id="3c95150" data-element_type="widget" data-widget_type="go-kadu-accordion.default">
-                            <div class="elementor-widget-container">
-                                <div class="kd-about-4-according mb-60" id="accordionExample_449027">
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-a06e874">
-                                            <button class="item-title kd-heading-2 kd-font-700 " type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-a06e874"
-                                                aria-expanded="false" aria-controls="collapse449027-a06e874">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span style="font-weight: 400; font-size: 30px;"
-                                                    class="text mobile-para1">Affordable</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-a06e874" class="accordion-collapse collapse show"
-                                            aria-labelledby="heading449027-a06e874"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm mobile-para1">Highly affordable
-                                                    Fees.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-c4b748f">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b748f"
-                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span style="font-weight: 400; font-size: 30px;"
-                                                    class="text mobile-para1">Hi-Tech and Vibrant Campus</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-c4b748f" class="accordion-collapse collapse "
-                                            aria-labelledby="heading449027-c4b748f"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm mobile-para1">Most Hi-Tech and
-                                                    Vibrant Campus with culturally diverse community in the
-                                                    North-East with fully air-conditioned built-up area</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-d109252">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-d109252"
-                                                aria-expanded="false" aria-controls="collapse449027-d109252">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span style="font-weight: 400; font-size: 30px;"
-                                                    class="text mobile-para1">Research</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-d109252" class="accordion-collapse collapse "
-                                            aria-labelledby="heading449027-d109252"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm mobile-para1">Research intensive
-                                                    and Updated Curriculum.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-c4b7489">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b7489"
-                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span style="font-weight: 400; font-size: 30px;"
-                                                    class="text mobile-para1">Worldwide Students</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-c4b7489" class="accordion-collapse collapse "
-                                            aria-labelledby="heading449027-c4b7489"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm mobile-para1">Students from 6
-                                                    Countries</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-c4b7486">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b7486"
-                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span style="font-weight: 400; font-size: 30px;"
-                                                    class="text mobile-para1">Location</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-c4b7486" class="accordion-collapse collapse "
-                                            aria-labelledby="heading449027-c4b7486"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm mobile-para1">Centrally Located
-                                                    in Guwahati City with easy access to all modern amenities.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-about-4-according-item mb-20">
-                                        <div class="item-header" id="heading449027-c4b7485">
-                                            <button class="item-title kd-heading-2 kd-font-700 collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapse449027-c4b7485"
-                                                aria-expanded="false" aria-controls="collapse449027-c4b748f">
-                                                <span style="background-color:#FF9A1E;" class="icon">
-                                                    <i aria-hidden="true" class="flaticon flaticon-star"></i>
-                                                </span>
-                                                <span style="font-weight: 400; font-size: 30px;"
-                                                    class="text mobile-para1">Rich Capital</span>
-                                            </button>
-                                        </div>
-                                        <div id="collapse449027-c4b7485" class="accordion-collapse collapse "
-                                            aria-labelledby="heading449027-c4b7485"
-                                            data-bs-parent="#accordionExample_449027">
-                                            <div class="item-body">
-                                                <p class="kd-para-2 disc has-para-sm mobile-para1">Rich Intellectual
-                                                    Capital with strong distinguished academicians and domain
-                                                    experts.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div id="unique-gallery-lightbox">
+                <img id="unique-gallery-lightbox-img" src="" alt="Zoomed Event Image">
             </div>
-        </section> --}}
 
-        <img src="https://media.rgu.ac/sports-image/index-mobsports.PNG" alt="" />
-        <!-- new advantage end-->
+            <script>
+                // --- Unique Lightbox Functionality ---
+                const uniqueGalleryZoomableImages = document.querySelectorAll('.unique-gallery-img');
+                const uniqueGalleryLightbox = document.getElementById('unique-gallery-lightbox');
+                const uniqueGalleryLightboxImg = document.getElementById('unique-gallery-lightbox-img');
 
-        <!--Mobile Footprint-->
-        <img src="https://media.rgu.ac/index/footprints2.png" alt="">
-        <!--Mobile Footprint end  -->
+                uniqueGalleryZoomableImages.forEach(img => {
+                    img.addEventListener('click', () => {
+                        uniqueGalleryLightbox.style.display = 'flex';
+                        uniqueGalleryLightboxImg.src = img.src;
+                    });
+                });
 
-        <!--Mobile Testimonial-->
-        <section style="padding: 40px 30px; background-image: url(https://media.rgu.ac/index/s2-bg-img-1.webp);">
-            <h6 class="mobile-headd3 text-center kd-subtitle-1 kd-subtitle-ani-1 elementor-kadu-sub">
-                <img style="width: 40x; height: 40px;"
-                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/cap.svg" alt="">
-                RGU Testimonials
-            </h6>
-            <h2 class="mobile-headd1 pb-4 pt-3" style="color: #27467A;">They Speak <span
-                    style="font-weight: 500; color: #EF991F;">About Us</span></h2>
+                uniqueGalleryLightbox.addEventListener('click', () => {
+                    uniqueGalleryLightbox.style.display = 'none';
+                });
 
-            <div class="row" style="display: flex; flex-direction: column;">
-                <a href="success"><img class="pb-3"
-                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/alumni-student.png" /></a>
-                <a href="top-recruiters"><img class="pb-3"
-                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/recruiters.png" /></a>
-                <a href="footprints"><img class="pb-3"
-                        src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/index/dignitaries.png" /></a>
-            </div>
+                // --- Unique function to auto-adjust slide height ---
+                function uniqueGalleryNormalizeSlideHeights() {
+                    const carouselInstance = document.querySelector('#uniqueGalleryCarousel');
+                    if (!carouselInstance) return; // Exit if carousel not found
+
+                    const carouselInner = carouselInstance.querySelector('.carousel-inner');
+                    const carouselItems = carouselInstance.querySelectorAll('.carousel-item');
+                    let maxHeight = 0;
+                    const activeItem = carouselInstance.querySelector('.carousel-item.active');
+
+                    // Temporarily remove 'active' to measure all items correctly
+                    if (activeItem) activeItem.classList.remove('active');
+
+                    carouselItems.forEach(item => {
+                        item.style.display = 'block'; // Make it visible for measurement
+                        if (item.offsetHeight > maxHeight) {
+                            maxHeight = item.offsetHeight;
+                        }
+                        item.style.display = ''; // Revert back
+                    });
+
+                    // Restore active class and set min-height
+                    if (activeItem) activeItem.classList.add('active');
+                    if (maxHeight > 0) {
+                        carouselInner.style.minHeight = `${maxHeight}px`;
+                    }
+                }
+
+                window.addEventListener('load', uniqueGalleryNormalizeSlideHeights);
+                window.addEventListener('resize', uniqueGalleryNormalizeSlideHeights);
+            </script>
 
         </section>
-        <!--Mobile Testimonial end -->
+        <!-- Event Section  -->
 
-    </section>
+        <!-- Specific Events  -->
+        <section style="padding: 30px; background-color: #101d34;">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <div class="row" style="display: flex; justify-content: center; align-items: center;">
+
+                    <div class="col-lg-12">
+                        <div>
+                            <a href="">
+                                <img style="border: 1px solid #fff;" src="mobile-assets/events/a.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 mt-4">
+                        <div>
+                            <a href="">
+                                <img style="border: 1px solid #fff;" src="mobile-assets/events/b.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 mt-4">
+                        <div>
+                            <a href="">
+                                <img style="border: 1px solid #fff;" src="mobile-assets/events/c.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Specific Events  -->
+
+        <!-- campus life  -->
+        <section class="unique-cl-section">
+
+            <style>
+                .unique-cl-section {
+                    background-image: url('demo-assets/campus-life/Our-Campus-Life-bg.png');
+                    background-size: cover;
+                    background-position: center;
+                    min-height: 90vh;
+                    /* Use min-height for flexibility */
+                    height: auto;
+                    /* Allow height to grow with content */
+                    padding: 50px 0;
+                    display: flex;
+                    align-items: center;
+                }
+
+                /* --- Content Styles --- */
+                .unique-cl-heading {
+                    color: #e68900;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    font-size: 55px;
+                }
+
+                .unique-cl-heading .highlight {
+                    color: white;
+                    font-weight: 500;
+                }
+
+                .unique-cl-para {
+                    color: white;
+                    font-size: 20px;
+                    text-align: justify;
+                    line-height: 1.6;
+                }
+
+                /* --- Carousel Styles --- */
+                .unique-cl-carousel-wrapper {
+                    width: 95%;
+                    max-width: 80%;
+                }
+
+                .unique-cl-carousel-inner {
+                    border-radius: 16px;
+                    overflow: hidden;
+                    width: 100%;
+                }
+
+                .unique-cl-carousel-square {
+                    position: relative;
+                    width: 100%;
+                    padding-top: 100%;
+                    /* Creates a 1:1 aspect ratio */
+                    background: #f3f3f3;
+                }
+
+                .unique-cl-carousel-square img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                #uniqueClSquareCarousel .carousel-indicators {
+                    margin-bottom: -2rem;
+                }
+
+                #uniqueClSquareCarousel .carousel-indicators button {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                }
+
+                /* --- Mobile Responsive Styles --- */
+                @media (max-width: 991px) {
+                    .unique-cl-carousel-col {
+                        margin-top: 2.5rem;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .unique-cl-section {
+                        padding: 30px 0;
+                        min-height: auto;
+                        /* Remove min-height on mobile */
+                    }
+
+                    .unique-cl-header-row {
+                        flex-direction: column;
+                        align-items: center !important;
+                    }
+
+                    /* Make tabs horizontally scrollable */
+                    .unique-cl-tabs-container {
+                        width: 100%;
+                        overflow-x: auto;
+                        /* For hiding the scrollbar */
+                        -ms-overflow-style: none;
+                        /* IE and Edge */
+                        scrollbar-width: none;
+                        /* Firefox */
+                    }
+
+                    .unique-cl-tabs-container::-webkit-scrollbar {
+                        display: none;
+                        /* Chrome, Safari, and Opera */
+                    }
+
+                    .unique-cl-tabs {
+                        flex-wrap: nowrap;
+                        /* Ensure tabs stay in one line */
+                        justify-content: flex-start;
+                        margin-top: 1rem;
+                    }
+
+                    .unique-cl-heading {
+                        font-size: 32px;
+                        text-align: center;
+                    }
+
+                    .unique-cl-para {
+                        font-size: 16px;
+                        text-align: center;
+                    }
+
+                    .unique-cl-carousel-wrapper {
+                        max-width: 100%;
+                    }
+                }
+            </style>
+
+            <div class="container">
+
+                <div class="tab-content w-100 mt-2" id="uniqueClTabContent">
+                    <div class="tab-pane fade show active" id="unique-cl-campus" role="tabpanel"
+                        aria-labelledby="unique-cl-campus-tab">
+                        <div class="row">
+
+                            <div class="col-lg-6 d-flex flex-column justify-content-center">
+                                <h2 class="unique-cl-heading">
+                                    Our Campus <span class="highlight">Life</span>
+                                </h2>
+                                <p class="unique-cl-para mt-3">
+                                    Recognized as the best private university in Assam, The Assam Royal Global University
+                                    provides an enriching campus life. As the best University in Northeast Assam, we foster
+                                    holistic development through vibrant cultural festivals, academic clubs, and sports
+                                    activities. Students thrive in a dynamic atmosphere that nurtures leadership and
+                                    teamwork, exploring their interests beyond the classroom.
+                                </p>
+                            </div>
+
+                            <div class="col-lg-6 d-flex justify-content-center unique-cl-carousel-col">
+                                <div id="uniqueClSquareCarousel" class="carousel slide unique-cl-carousel-wrapper"
+                                    data-bs-ride="carousel" data-bs-interval="2500">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#uniqueClSquareCarousel" data-bs-slide-to="0"
+                                            class="active" aria-current="true"></button>
+                                        <button type="button" data-bs-target="#uniqueClSquareCarousel"
+                                            data-bs-slide-to="1"></button>
+                                        <button type="button" data-bs-target="#uniqueClSquareCarousel"
+                                            data-bs-slide-to="2"></button>
+                                        <button type="button" data-bs-target="#uniqueClSquareCarousel"
+                                            data-bs-slide-to="3"></button>
+                                        <button type="button" data-bs-target="#uniqueClSquareCarousel"
+                                            data-bs-slide-to="4"></button>
+                                        <button type="button" data-bs-target="#uniqueClSquareCarousel"
+                                            data-bs-slide-to="5"></button>
+                                        <button type="button" data-bs-target="#uniqueClSquareCarousel"
+                                            data-bs-slide-to="6"></button>
+                                    </div>
+                                    <div class="carousel-inner unique-cl-carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="unique-cl-carousel-square">
+                                                <img src="demo-assets/campus-life/infra.jpg" alt="Infrastructure">
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="unique-cl-carousel-square">
+                                                <img src="demo-assets/campus-life/games.jpg" alt="Games">
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="unique-cl-carousel-square">
+                                                <img src="demo-assets/campus-life/amenities.jpg" alt="Amenities">
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="unique-cl-carousel-square">
+                                                <img src="demo-assets/campus-life/clubs.jpg" alt="Clubs">
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="unique-cl-carousel-square">
+                                                <img src="demo-assets/campus-life/events.jpg" alt="Events">
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="unique-cl-carousel-square">
+                                                <img src="demo-assets/campus-life/hostel.jpg" alt="Hostel">
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="unique-cl-carousel-square">
+                                                <img src="demo-assets/campus-life/student-aff.jpg" alt="Student Affairs">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <script>
+                // Scoped script to keep the active tab orange + bold
+                // This will only affect the tabs inside the '#uniqueClTab' container
+                const uniqueClTabLinks = document.querySelectorAll('#uniqueClTab .unique-cl-tab-link');
+                uniqueClTabLinks.forEach(tab => {
+                    tab.addEventListener('shown.bs.tab', (event) => {
+                        // Reset all tabs in this specific group
+                        uniqueClTabLinks.forEach(btn => {
+                            btn.style.color = 'white';
+                            btn.style.fontWeight = 'normal';
+                        });
+                        // Style the newly shown tab
+                        event.target.style.color = '#F6921E';
+                        event.target.style.fontWeight = 'bold';
+                    });
+                });
+            </script>
+
+        </section>
+        <!-- campus life  -->
+
+
+    </div>
 
     <div class="website">
-         <!-- Popup -->
-                                                                                                    <div id="popup-web" class="popup-overlay">
-                                                                                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKAyNyc88p6x7K-rFpnG9C25dneSv79DvxkvHXlOi_CHGixA/viewform" target="_blank"><img src="{{ asset('mobile-assets/notification/convo-5th.jpeg') }}"
-                                                                                                                style="width: 700px; height: 550px;" class="popup-image" alt="Popup Image"></a>
-                                                                                                    </div>
 
-                                                                                                    <script>
-                                                                                                        document.addEventListener('DOMContentLoaded', function () {
-                                                                                                            const popup = document.getElementById('popup-web');
+                                                                                                            <div id="popup-web" class="popup-overlay">
+                                                                                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKAyNyc88p6x7K-rFpnG9C25dneSv79DvxkvHXlOi_CHGixA/viewform" target="_blank"><img src="{{ asset('mobile-assets/notification/convo-5th.jpeg') }}"
+                                                                                                                    style="width: 700px; height: 550px;" class="popup-image" alt="Popup Image"></a>
+                                                                                                        </div>
 
-                                                                                                            popup.addEventListener('click', function (event) {
-                                                                                                                if (event.target === popup) {
-                                                                                                                    popup.style.display = 'none';
-                                                                                                                }
+                                                                                                        <script>
+                                                                                                            document.addEventListener('DOMContentLoaded', function () {
+                                                                                                                const popup = document.getElementById('popup-web');
+
+                                                                                                                popup.addEventListener('click', function (event) {
+                                                                                                                    if (event.target === popup) {
+                                                                                                                        popup.style.display = 'none';
+                                                                                                                    }
+                                                                                                                });
                                                                                                             });
-                                                                                                        });
-                                                                                                    </script>
+                                                                                                        </script>
 
-                                                                                                    <!-- floating button  -->
-                                                                                                    <div>
-                                                                                                        <a href="https://forms.gle/t7dhtshNKYwcHumq7"
-                                                                                                            style="
-                                                                                                                                                                                                                                                        position: fixed;
-                                                                                                                                                                                                                                                        bottom: 35px;
-                                                                                                                                                                                                                                                        right: 50px;
-                                                                                                                                                                                                                                                        background-color: orange;
-                                                                                                                                                                                                                                                        color: #fff;
-                                                                                                                                                                                                                                                        padding: 12px 20px;
-                                                                                                                                                                                                                                                        font-size: 18px;
-                                                                                                                                                                                                                                                        font-weight: bold;
-                                                                                                                                                                                                                                                        text-decoration: none;
-                                                                                                                                                                                                                                                        border-radius: 20px;
-                                                                                                                                                                                                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                                                                                                                                                        z-index: 1000;
-                                                                                                                                                                                                                                                        overflow: hidden;
-                                                                                                                                                                                                                                                        animation: pulse 2s infinite;
-                                                                                                                                                                                                                                                        ">
-                                                                                                            <span
+                                                                                                        <!-- floating button  -->
+                                                                                                        <div>
+                                                                                                            <a href="https://forms.gle/t7dhtshNKYwcHumq7"
                                                                                                                 style="
-                                                                                                                                                                                                                                                        position: absolute;
-                                                                                                                                                                                                                                                        top: 0;
-                                                                                                                                                                                                                                                        left: -75%;
-                                                                                                                                                                                                                                                        width: 50%;
-                                                                                                                                                                                                                                                        height: 100%;
-                                                                                                                                                                                                                                                        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                                                                                                                                                        transform: skewX(-25deg);
-                                                                                                                                                                                                                                                        animation: shine 2s infinite;
-                                                                                                                                                                                                                                                        "></span>
-                                                                                                            Registration for 5th Convocation
-                                                                                                        </a>
-                                                                                                        <style>
-                                                                                                            @keyframes pulse {
-                                                                                                                0% {
-                                                                                                                    transform: scale(1);
-                                                                                                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                                                                                                                                                                                                                                                            position: fixed;
+                                                                                                                                                                                                                                                            bottom: 35px;
+                                                                                                                                                                                                                                                            right: 50px;
+                                                                                                                                                                                                                                                            background-color: orange;
+                                                                                                                                                                                                                                                            color: #fff;
+                                                                                                                                                                                                                                                            padding: 12px 20px;
+                                                                                                                                                                                                                                                            font-size: 18px;
+                                                                                                                                                                                                                                                            font-weight: bold;
+                                                                                                                                                                                                                                                            text-decoration: none;
+                                                                                                                                                                                                                                                            border-radius: 20px;
+                                                                                                                                                                                                                                                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                                                                                                                                                                                                                                            z-index: 1000;
+                                                                                                                                                                                                                                                            overflow: hidden;
+                                                                                                                                                                                                                                                            animation: pulse 2s infinite;
+                                                                                                                                                                                                                                                            ">
+                                                                                                                <span
+                                                                                                                    style="
+                                                                                                                                                                                                                                                            position: absolute;
+                                                                                                                                                                                                                                                            top: 0;
+                                                                                                                                                                                                                                                            left: -75%;
+                                                                                                                                                                                                                                                            width: 50%;
+                                                                                                                                                                                                                                                            height: 100%;
+                                                                                                                                                                                                                                                            background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+                                                                                                                                                                                                                                                            transform: skewX(-25deg);
+                                                                                                                                                                                                                                                            animation: shine 2s infinite;
+                                                                                                                                                                                                                                                            "></span>
+                                                                                                                Registration for 5th Convocation
+                                                                                                            </a>
+                                                                                                            <style>
+                                                                                                                @keyframes pulse {
+                                                                                                                    0% {
+                                                                                                                        transform: scale(1);
+                                                                                                                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                                                                                                                    }
+
+                                                                                                                    50% {
+                                                                                                                        transform: scale(1.05);
+                                                                                                                        box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
+                                                                                                                    }
+
+                                                                                                                    100% {
+                                                                                                                        transform: scale(1);
+                                                                                                                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                                                                                                                    }
                                                                                                                 }
 
-                                                                                                                50% {
-                                                                                                                    transform: scale(1.05);
-                                                                                                                    box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                                                                                                                }
+                                                                                                                @keyframes shine {
+                                                                                                                    0% {
+                                                                                                                        left: -75%;
+                                                                                                                    }
 
-                                                                                                                100% {
-                                                                                                                    transform: scale(1);
-                                                                                                                    box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
+                                                                                                                    100% {
+                                                                                                                        left: 125%;
+                                                                                                                    }
                                                                                                                 }
-                                                                                                            }
-
-                                                                                                            @keyframes shine {
-                                                                                                                0% {
-                                                                                                                    left: -75%;
-                                                                                                                }
-
-                                                                                                                100% {
-                                                                                                                    left: 125%;
-                                                                                                                }
-                                                                                                            }
-                                                                                                        </style>
-                                                                                                    </div>
-                                                                                                    <!-- floating button  -->
+                                                                                                            </style>
+                                                                                                        </div>
+                                                                                                        <!-- floating button  -->
 
         <!-- Hero Section  -->
         <section>
@@ -1093,8 +901,84 @@
         <!-- Hero Section  -->
 
         <!-- Explore RGU New  -->
-        <a href="/preface"><img src="demo-assets/explore-rgu.png" alt=""></a>
+        <img src="demo-assets/explore-rgu.png" alt="">
         <!-- Explore RGU New  -->
+
+
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <section style="padding: 30px; background-color: #101d34;">
+            <div class="swiper myImageSlider" style="max-width:1800px; margin:auto;">
+                <div class="swiper-wrapper">
+
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                src="demo-assets/events/a.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                src="demo-assets/events/b.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                src="demo-assets/events/c.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                src="demo-assets/events/d.png" alt="">
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+                <!-- Navigation -->
+                <!-- <div class="swiper-button-next slider-next"></div>
+                <div class="swiper-button-prev slider-prev"></div> -->
+            </div>
+        </section>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script>
+            const myImageSlider = new Swiper('.myImageSlider', {
+                slidesPerView: 3,          // show 3 images
+                spaceBetween: 20,          // spacing
+                slidesPerGroup: 1,         // scroll 1 at a time
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: '.slider-next',
+                    prevEl: '.slider-prev',
+                },
+                breakpoints: {
+                    0: { slidesPerView: 1 },     // mobile
+                    768: { slidesPerView: 2 },   // tablet
+                    1024: { slidesPerView: 3 }   // desktop
+                }
+            });
+
+        </script>
+
+
 
         <!--Event Section-->
         <section>
@@ -1177,7 +1061,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h2 class="section-title">E-Board, <span class="highlight"> RGU</span></h2>
+                            <h2 style="padding-left: 15px;" class="section-title">E-Board,<span class="highlight"> RGU</span></h2>
 
                             <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                                 <div class="carousel-inner">
@@ -1225,7 +1109,7 @@
                         </div>
 
                         <div class="col-lg-6">
-                            <h2 class="section-title">Media<span class="highlight"> Corner</span></h2>
+                            <h2 style="padding-left: 10px;" class="section-title">Media<span class="highlight"> Corner</span></h2>
 
                             <div style="background-color: #FFF0DB; padding: 15px; border-radius: 10px;">
 
@@ -1234,7 +1118,7 @@
                                     <div class="row p-3 align-items-center">
                                         <div class="col-lg-4">
                                             <img class="border shadow-sm"
-                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
+                                                style="height: 120px; width: 100%; object-fit: fit; border-radius: 5px;"
                                                 src="https://www.rgu.ac/mobile-assets/media-corner/news39/Leadership%20Conclave%202025.jpg"
                                                 alt="Scholarship award ceremony">
                                         </div>
@@ -1262,7 +1146,7 @@
                                     <div class="row p-3 align-items-center">
                                         <div class="col-lg-4">
                                             <img class="border shadow-sm"
-                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
+                                                style="height: 120px; width: 100%; object-fit: fit; border-radius: 5px;"
                                                 src="https://www.rgu.ac/mobile-assets/rgu-blog/blog2.jpeg"
                                                 alt="Scholarship award ceremony">
                                         </div>
@@ -1374,44 +1258,59 @@
         </section>
         <!--End Event-->
 
-        <!-- Specific Events  -->
-        <section style="padding: 30px; background-color: #101d34;">
-            <div style="display: flex; justify-content: center; align-items: center;">
-                <div class="row" style="display: flex; justify-content: center; align-items: center;">
 
-                    <div class="col-lg-4">
-                        <div>
-                            <a href="">
-                                <img style="height: 500px; border: 1px solid #fff;" src="mobile-assets/events/a.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div>
-                            <a href="">
-                                <img style="height: 500px; border: 1px solid #fff;" src="mobile-assets/events/b.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div>
-                            <a href="">
-                                <img style="height: 500px; border: 1px solid #fff;" src="mobile-assets/events/c.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- Specific Events  -->
 
         <!-- campus life New -->
         <section
-            style="background-image: url(demo-assets/campus-life/Our-Campus-Life-bg.png); background-size: cover; height: 90vh;">
+            style="background-image: url(demo-assets/campus-life/buildings.png); background-size: cover; height: 90vh; background-position: center;">
             <div class="container py-5">
+
+                <!-- Row: Left Heading, Right Tabs -->
+                <div class="d-flex justify-content-between align-items-start">
+
+                    <!-- Heading on left -->
+                    <!-- <h2 style="color:white; font-weight: 800; margin:0; letter-spacing: 2px;">Our Campus Life</h2> -->
+
+                    <!-- Tabs on right -->
+                    <!-- <ul class="nav nav-tabs flex-row align-items-end mb-3" id="myTab" role="tablist"
+                                style="border:0;">
+
+                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px;" class="nav-item"
+                                    role="presentation">
+                                    <button class="nav-link active" id="campus-tab" data-bs-toggle="tab"
+                                        data-bs-target="#campus" type="button" role="tab"
+                                        style="color:#F6921E; font-weight:bold; background:transparent; border:0;">
+                                        Campus
+                                    </button>
+                                </li>
+
+                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px; padding-left: 5px;"
+                                    class="nav-item" role="presentation">
+                                    <button class="nav-link" id="residence-tab" data-bs-toggle="tab"
+                                        data-bs-target="#residence" type="button" role="tab"
+                                        style="color:white; font-weight:normal; background:transparent; border:0;">
+                                        Residence Life
+                                    </button>
+                                </li>
+
+                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px; padding-left: 5px;"
+                                    class="nav-item" role="presentation">
+                                    <button class="nav-link" id="games-tab" data-bs-toggle="tab" data-bs-target="#games"
+                                        type="button" role="tab"
+                                        style="color:white; font-weight:normal; background:transparent; border:0;">
+                                        Games & Sports
+                                    </button>
+                                </li>
+
+                                <li style="padding-right: 5px;" class="nav-item" role="presentation">
+                                    <button class="nav-link" id="amenities-tab" data-bs-toggle="tab"
+                                        data-bs-target="#amenities" type="button" role="tab"
+                                        style="color:white; font-weight:normal; background:transparent; border:0;">
+                                        Amenities
+                                    </button>
+                                </li>
+                            </ul> -->
+                </div>
 
                 <!-- Tab content below -->
                 <div class="tab-content w-100 mt-2" id="myTabContent"
@@ -1421,7 +1320,8 @@
 
                         <div class="row">
 
-                            <div class="col-lg-6" style="display: flex; flex-direction: column; justify-content: center;">
+                            <div class="col-lg-6"
+                                style="display: flex; flex-direction: column; justify-content: center; background-color: #00000077; border: 1px solid #d7d7d776; border-radius: 0px 25px 0px 25px; backdrop-filter: blur(8px); padding: 25px;">
                                 <h2 class="headd1"
                                     style="color:#e68900; font-weight: 700; margin:0; letter-spacing: 2px; font-size: 45px;">
                                     Our Campus <span
@@ -1453,8 +1353,8 @@
                                             class="active" aria-current="true" aria-label="Slide 1"
                                             style="width:10px;height:10px;border-radius:50%;"></button>
 
-                                        {{-- <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="1"
-                                            aria-label="Slide 2" style="width:10px;height:10px;border-radius:50%;"></button> --}}
+                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="1"
+                                            aria-label="Slide 2" style="width:10px;height:10px;border-radius:50%;"></button>
 
                                         <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="2"
                                             aria-label="Slide 3" style="width:10px;height:10px;border-radius:50%;"></button>
@@ -1465,11 +1365,11 @@
                                         <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="4"
                                             aria-label="Slide 5" style="width:10px;height:10px;border-radius:50%;"></button>
 
-                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="5"
+                                        <!-- <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="5"
                                             aria-label="Slide 6" style="width:10px;height:10px;border-radius:50%;"></button>
 
                                         <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="6"
-                                            aria-label="Slide 7" style="width:10px;height:10px;border-radius:50%;"></button>
+                                            aria-label="Slide 7" style="width:10px;height:10px;border-radius:50%;"></button> -->
 
                                     </div>
 
@@ -1487,17 +1387,17 @@
                                         </div>
 
                                         <!-- Slide 2 -->
-                                        {{-- <div class="carousel-item">
+                                        <!-- <div class="carousel-item">
                                             <div
                                                 style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
                                                 <a href=""> <img src="demo-assets/campus-life/games.jpg" alt="Slide 2"
                                                         style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
                                                 </a>
                                             </div>
-                                        </div> --}}
+                                        </div> -->
 
                                         <!-- Slide 3 -->
-                                        <div class="carousel-item">
+                                        <!-- <div class="carousel-item">
 
                                             <div
                                                 style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
@@ -1505,7 +1405,7 @@
                                                         style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
                                                 </a>
                                             </div>
-                                        </div>
+                                        </div> -->
 
                                         <!-- Slide 4 -->
                                         <div class="carousel-item">
@@ -1575,20 +1475,7 @@
 
                     </div>
 
-                    <div class="tab-pane fade" id="residence" role="tabpanel" aria-labelledby="residence-tab">
-                        <h3>Residence Content</h3>
-                        <p>This is the Residence Life tab content.</p>
-                    </div>
 
-                    <div class="tab-pane fade" id="games" role="tabpanel" aria-labelledby="games-tab">
-                        <h3>Games & Sports Content</h3>
-                        <p>This is the Games & Sports tab content.</p>
-                    </div>
-
-                    <div class="tab-pane fade" id="amenities" role="tabpanel" aria-labelledby="amenities-tab">
-                        <h3>Amenities Content</h3>
-                        <p>This is the Amenities tab content.</p>
-                    </div>
                 </div>
 
             </div>
@@ -1604,6 +1491,7 @@
                     });
                 });
             </script>
+
         </section>
         <!-- campus life New -->
 
@@ -1656,17 +1544,17 @@
 
                 <div style="display: flex; flex-wrap: wrap; gap: 50px; justify-content: center;">
 
-                    <a href="doctoral-programme.html" class="gph-zoom-container"
+                    <a href="" class="gph-zoom-container"
                         style="padding: 20px; border-radius: 20px; border: 1px solid #888;">
                         <img style="border-radius: 20px;" src="mobile-assets/index/c6.svg" alt="Course Image">
                     </a>
 
-                    <a href="doctoral-programme.html" class="gph-zoom-container"
+                    <a href="" class="gph-zoom-container"
                         style="padding: 20px; border-radius: 20px; border: 1px solid #888;">
                         <img style="border-radius: 20px;" src="mobile-assets/index/c7.svg" alt="Course Image">
                     </a>
 
-                    <a href="doctoral-programme.html" class="gph-zoom-container"
+                    <a href="" class="gph-zoom-container"
                         style="padding: 20px; border-radius: 20px; border: 1px solid #888;">
                         <img style="border-radius: 20px;" src="mobile-assets/index/c8.svg" alt="Course Image">
                     </a>
@@ -1716,7 +1604,7 @@
                                                         style="margin-right: 0px !important; padding: 0px !important;">
                                                         <div class="kd-course-4-item"
                                                             style="margin: 0px !important; padding: 0px !important;">
-                                                            <div style="background-color: #ffffff;"
+                                                            <div style="background-color: #ffdcac;"
                                                                 class="kd-course-2-card shadow-sm">
                                                                 <div class="main-img fix img-cover">
 
@@ -1728,12 +1616,12 @@
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-ev-lab.html"
+                                                                        <a href=""
                                                                             style="font-size: 20px !important; color: #27467A;"
                                                                             aria-label="name">EV <span
                                                                                 style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-ev-lab.html" aria-label="name"
+                                                                    <a href="" aria-label="name"
                                                                         class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
@@ -1746,7 +1634,7 @@
                                                         style="margin-right: 0px !important; padding: 0px !important;">
                                                         <div class="kd-course-4-item"
                                                             style="margin: 0px !important; padding: 0px !important;">
-                                                            <div style="background-color: #ffffff;"
+                                                            <div style="background-color: #ffdcac;"
                                                                 class="kd-course-2-card shadow-sm">
                                                                 <div class="main-img fix img-cover">
 
@@ -1758,12 +1646,12 @@
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-astronomy.html"
+                                                                        <a href=""
                                                                             style="font-size: 17px !important; color: #27467A;"
                                                                             aria-label="name">Royal Observatory <span
                                                                                 style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-astronomy.html" aria-label="name"
+                                                                    <a href="" aria-label="name"
                                                                         class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
@@ -1776,7 +1664,7 @@
                                                         style="margin-right: 0px !important; padding: 0px !important;">
                                                         <div class="kd-course-4-item"
                                                             style="margin: 0px !important; padding: 0px !important;">
-                                                            <div style="background-color: #ffffff;"
+                                                            <div style="background-color: #ffdcac;"
                                                                 class="kd-course-2-card shadow-sm">
                                                                 <div class="main-img fix img-cover">
 
@@ -1805,7 +1693,7 @@
                                                         style="margin-right: 0px !important; padding: 0px !important;">
                                                         <div class="kd-course-4-item"
                                                             style="margin: 0px !important; padding: 0px !important;">
-                                                            <div style="background-color: #ffffff;"
+                                                            <div style="background-color: #ffdcac;"
                                                                 class="kd-course-2-card shadow-sm">
                                                                 <div class="main-img fix img-cover">
 
@@ -1820,12 +1708,12 @@
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-computer.html"
+                                                                        <a href=""
                                                                             style="font-size: 20px !important; color: #27467A;"
                                                                             aria-label="name">Computer <span
                                                                                 style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-computer.html" aria-label="name"
+                                                                    <a href="" aria-label="name"
                                                                         class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
@@ -1837,7 +1725,7 @@
                                                     <div class="swiper-slide">
                                                         <div class="kd-course-4-item"
                                                             style="margin-right: 0px !important; padding: 0px !important">
-                                                            <div style="background-color: #ffffff;"
+                                                            <div style="background-color: #ffdcac;"
                                                                 class="kd-course-2-card shadow-sm">
                                                                 <div class="main-img fix img-cover">
 
@@ -1853,12 +1741,12 @@
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-electrical.html"
+                                                                        <a href=""
                                                                             style="font-size: 20px !important; color: #27467A;"
                                                                             aria-label="name">Electrical <span
                                                                                 style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-electrical.html" aria-label="name"
+                                                                    <a href="" aria-label="name"
                                                                         class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
@@ -1870,7 +1758,7 @@
                                                     <div class="swiper-slide"
                                                         style="margin-right: 0px !important; padding: 0px !important">
                                                         <div class="kd-course-4-item">
-                                                            <div style="background-color: #ffffff;"
+                                                            <div style="background-color: #ffdcac;"
                                                                 class="kd-course-2-card shadow-sm">
                                                                 <div class="main-img fix img-cover">
 
@@ -1882,12 +1770,12 @@
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-language-lab.html"
+                                                                        <a href=""
                                                                             style="font-size: 20px !important; color: #27467A;"
                                                                             aria-label="name">Language <span
                                                                                 style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-language-lab.html" aria-label="name"
+                                                                    <a href="" aria-label="name"
                                                                         class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
@@ -1898,7 +1786,7 @@
 
                                                     <div class="swiper-slide" style="margin-right: 0px !important;">
                                                         <div class="kd-course-4-item">
-                                                            <div style="background-color: #ffffff;"
+                                                            <div style="background-color: #ffdcac;"
                                                                 class="kd-course-2-card shadow-sm">
                                                                 <div class="main-img fix img-cover">
 
@@ -1909,12 +1797,12 @@
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-chemistry.html"
+                                                                        <a href=""
                                                                             style="font-size: 20px !important; color: #27467A;"
                                                                             aria-label="name">Chemistry <span
                                                                                 style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-chemistry.html" aria-label="name"
+                                                                    <a href="" aria-label="name"
                                                                         class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
@@ -1925,7 +1813,7 @@
 
                                                     <div class="swiper-slide" style="margin-right: 0px !important;">
                                                         <div class="kd-course-4-item">
-                                                            <div style="background-color: #ffffff;"
+                                                            <div style="background-color: #ffdcac;"
                                                                 class="kd-course-2-card shadow-sm">
                                                                 <div class="main-img fix img-cover">
 
@@ -1936,12 +1824,12 @@
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-physics.html"
+                                                                        <a href=""
                                                                             style="font-size: 20px !important; color: #27467A;"
                                                                             aria-label="name">Physics <span
                                                                                 style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-physics.html" aria-label="name"
+                                                                    <a href="" aria-label="name"
                                                                         class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
@@ -1952,7 +1840,7 @@
 
                                                     <div class="swiper-slide" style="margin-right: 0px !important;">
                                                         <div class="kd-course-4-item">
-                                                            <div style="background-color: #ffffff;"
+                                                            <div style="background-color: #ffdcac;"
                                                                 class="kd-course-2-card shadow-sm">
                                                                 <div class="main-img fix img-cover">
 
@@ -1962,12 +1850,12 @@
 
                                                                 <div class="card-content">
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
-                                                                        <a href="lab-architecture.html"
+                                                                        <a href=""
                                                                             style="font-size: 20px !important; color: #27467A;"
                                                                             aria-label="name">Architecture <span
                                                                                 style="color: #e68900;">Lab</span></a>
                                                                     </h4>
-                                                                    <a href="lab-architecture.html" aria-label="name"
+                                                                    <a href="" aria-label="name"
                                                                         class="item-btn para1 text-capitalize">
                                                                         <i class="fa-solid fa-angles-right"></i>
                                                                         Read More </a>
@@ -1983,7 +1871,7 @@
                                             data-id="de83d2a" data-element_type="widget" data-widget_type="ft-btn.default">
                                             <div class="elementor-widget-container">
                                                 <div class="prthalign">
-                                                    <a href="laboratories.html" rel="nofollow" aria-label="name"
+                                                    <a href="" rel="nofollow" aria-label="name"
                                                         class="kd-pr-btn-1 text-uppercase has-pr-clr">
                                                         <span class="text para1" style="font-size: 15px;"
                                                             data-back="Explore All Labs"
@@ -2008,7 +1896,7 @@
 
         <!-- Trail Blazer  -->
         <section
-            style="background-image: url(demo-assets/trail-blazer/bg6.png); background-size: cover; background-position: center; height: 100vh;">
+            style="background-image: url(demo-assets/trail-blazer/bg3.png); background-size: cover; background-position: center; height: 100vh;">
 
             <div class="row" style="padding: 10px 60px; height: 100%; display: flex; align-items: center;">
 
@@ -2134,18 +2022,23 @@
 
                     <div class="bgc-gallery-left"
                         style="flex-basis: 20%; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
-                        <button data-set="lookbook" class="bgc-gallery-selector-btn"
-                            style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;"
-                            onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                            <img src="demo-assets/switcher/lookbook/headimg.png" alt="Selector 1"
-                                style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
-                        </button>
+
+
                         <button data-set="museum" class="bgc-gallery-selector-btn"
                             style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;"
                             onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
                             <img src="demo-assets/switcher/museum/headimg.jpg" alt="Selector 2"
                                 style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
                         </button>
+
+                        <button data-set="lookbook" class="bgc-gallery-selector-btn"
+                            style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;"
+                            onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                            <img src="demo-assets/switcher/lookbook/headimg.png" alt="Selector 1"
+                                style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
+                        </button>
+
+
                     </div>
 
                     <div id="flipbook-background" class="bgc-gallery-right"
@@ -2177,6 +2070,13 @@
                 </section>
             </main>
 
+            <div id="imageModal"
+                style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.85); align-items: center; justify-content: center;">
+                <span id="closeModal"
+                    style="position: absolute; top: 20px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; transition: 0.3s; cursor: pointer;">&times;</span>
+                <img id="modalImage"
+                    style="margin: auto; display: block; max-width: 85%; max-height: 85%; object-fit: contain;">
+            </div>
             <script>
                 document.addEventListener('DOMContentLoaded', () => {
                     const prevBtn = document.querySelector("#flipbook-prevBtn");
@@ -2185,17 +2085,17 @@
                     const backgroundContainer = document.getElementById('flipbook-background');
                     const book = document.getElementById('flipbook-book');
 
-                    // The 'papers' array is now empty; it will be filled dynamically.
+                    // START: Added variables for modal functionality
+                    const modal = document.getElementById('imageModal');
+                    const modalImg = document.getElementById('modalImage');
+                    const closeModalSpan = document.getElementById('closeModal');
+                    // END: Added variables for modal functionality
+
                     let papers = [];
                     let currentLocation = 0;
                     let maxLocation = 0;
                     let isBookOpen = false;
 
-                    // =================================================================
-                    // ==  CONTROL YOUR IMAGES HERE                                  ==
-                    // =================================================================
-                    // Just add or remove objects from these arrays to change the
-                    // content and length of your flipbooks.
                     const flipbookContent = {
                         lookbook: [
                             { front: { image: 'demo-assets/switcher/lookbook/headimg.png' }, back: { image: 'demo-assets/switcher/lookbook/1.png' } },
@@ -2252,7 +2152,6 @@
                             // { front: { image: 'path/to/front11.jpg' }, back: { image: 'path/to/back12.jpg' } },
                         ]
                     };
-                    // =================================================================
 
                     const backgroundImages = {
                         lookbook: 'url("demo-assets/switcher/lookbook/fashion-bg.jpeg")',
@@ -2273,7 +2172,7 @@
                         }
                         if (currentLocation < maxLocation) {
                             papers[currentLocation].style.transform = 'rotateY(-180deg)';
-                            papers[currentLocation].style.zIndex = currentLocation + 2; // Keep flipped pages on top
+                            papers[currentLocation].style.zIndex = currentLocation + 2;
                             currentLocation++;
                         }
                     }
@@ -2283,12 +2182,11 @@
                         if (currentLocation > 0) {
                             currentLocation--;
                             papers[currentLocation].style.transform = 'rotateY(0deg)';
-                            papers[currentLocation].style.zIndex = maxLocation - currentLocation + 1; // Put back in stack order
+                            papers[currentLocation].style.zIndex = maxLocation - currentLocation + 1;
                         }
                     }
 
                     function updateFlipbook(setName) {
-                        // Update active button style
                         selectorBtns.forEach(btn => {
                             btn.style.borderColor = 'transparent';
                             btn.style.boxShadow = 'none';
@@ -2297,55 +2195,46 @@
                         activeBtn.style.borderColor = '#FF9A1E';
                         activeBtn.style.boxShadow = '0 0 10px rgba(255, 154, 30, 0.5)';
 
-                        // Update background
                         backgroundContainer.style.backgroundImage = backgroundImages[setName];
 
                         const content = flipbookContent[setName];
                         maxLocation = content.length;
-
-                        // === DYNAMIC PAGE CREATION ===
-                        // 1. Clear any old pages from the book container
                         book.innerHTML = '';
 
-                        // 2. Loop through the new content and build the HTML for each page
                         let pagesHTML = '';
                         content.forEach((pageData, index) => {
                             const zIndex = content.length - index;
                             pagesHTML += `
-                            <div id="flipbook-p${index + 1}" class="flipbook-paper" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; transform-origin: left center 0px; transition: transform 1s ease-in-out 0s; transform-style: preserve-3d; cursor: pointer; z-index: ${zIndex};">
-                                <div class="flipbook-front" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; z-index: 1;">
-                                    <div class="flipbook-front-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-                                        <img src="${pageData.front.image}" alt="Page ${index * 2 + 1}" style="width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
-                                </div>
-                                <div class="flipbook-back" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; transform: rotateY(180deg); z-index: 0;">
-                                    <div class="flipbook-back-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-                                        <img src="${pageData.back.image}" alt="Page ${index * 2 + 2}" style="width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
+                        <div id="flipbook-p${index + 1}" class="flipbook-paper" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; transform-origin: left center 0px; transition: transform 1s ease-in-out 0s; transform-style: preserve-3d; cursor: pointer; z-index: ${zIndex};">
+                            <div class="flipbook-front" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; z-index: 1;">
+                                <div class="flipbook-front-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                                    <img src="${pageData.front.image}" alt="Page ${index * 2 + 1}" style="width: 100%; height: 100%; object-fit: cover;">
                                 </div>
                             </div>
+                            <div class="flipbook-back" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; transform: rotateY(180deg); z-index: 0;">
+                                <div class="flipbook-back-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                                    <img src="${pageData.back.image}" alt="Page ${index * 2 + 2}" style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
                         `;
                         });
                         book.innerHTML = pagesHTML;
-
-                        // 3. Re-select the newly created paper elements
                         papers = book.querySelectorAll('.flipbook-paper');
 
-                        // 4. Re-attach event listener to the new cover page to open the book
                         if (papers.length > 0) {
                             papers[0].addEventListener('click', () => {
                                 if (!isBookOpen) openBook();
                             });
                         }
 
-                        // Reset book state
                         currentLocation = 0;
                         book.style.right = '25%';
                         book.style.transform = 'rotateY(-15deg) scale(0.9)';
                         isBookOpen = false;
                     }
 
-                    // Add main event listeners
+                    // Main event listeners
                     prevBtn.addEventListener("click", goPrevPage);
                     nextBtn.addEventListener("click", goNextPage);
 
@@ -2356,8 +2245,34 @@
                         });
                     });
 
-                    // Initialize with the first flipbook
-                    updateFlipbook('lookbook');
+                    // START: Added event listeners for modal
+                    // Use event delegation to listen for clicks on images inside the book
+                    book.addEventListener('click', (e) => {
+                        // Check if the clicked element is an image
+                        if (e.target && e.target.tagName === 'IMG') {
+                            modal.style.display = 'flex';
+                            modalImg.src = e.target.src;
+                        }
+                    });
+
+                    // Function to close the modal
+                    function closeModal() {
+                        modal.style.display = "none";
+                    }
+
+                    // Close when clicking the 'x'
+                    closeModalSpan.onclick = closeModal;
+
+                    // Close when clicking the background overlay
+                    modal.addEventListener('click', (e) => {
+                        if (e.target === modal) {
+                            closeModal();
+                        }
+                    });
+                    // END: Added event listeners for modal
+
+                    // Initialize with the 'museum' flipbook
+                    updateFlipbook('museum');
                 });
             </script>
 
@@ -2383,17 +2298,17 @@
 
             <div class="hover01 column row" style="padding-left: 1px;">
                 <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important; ">
-                    <figure> <a href="success.html"><img style="border: 2px solid #fff;"
+                    <figure> <a href=""><img style="border: 2px solid #fff;"
                                 src="mobile-assets/index/alumni-student.png" /></a></figure>
                 </div>
 
                 <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
-                    <figure><a href="recruiters.html"><img style="border: 2px solid #fff;"
+                    <figure><a href=""><img style="border: 2px solid #fff;"
                                 src="mobile-assets/index/recruiters.png" /></a></figure>
 
                 </div>
                 <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
-                    <figure><a href="footprints.html"><img style="border: 2px solid #fff;"
+                    <figure><a href=""><img style="border: 2px solid #fff;"
                                 src="mobile-assets/index/dignitaries.png" /></a></figure>
 
                 </div>
