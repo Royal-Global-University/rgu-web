@@ -1,6 +1,5 @@
 @extends('frontend.master')
-@section('title', 'National Leadership Conclave 2025 from 11th September at Royal Global University')
-@section('meta_description', 'RGU organises Leadership Conclave 2025 on Ethics and the Evolving Workforce')
+@section('title', 'Former Tata Motors CEO to talk on “Leading from the Back to Achieve the Impossible” at RGU')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
