@@ -209,7 +209,7 @@
                                         { title: "Aah Aah Olai Aah", src: "{{ asset('https://media.rgu.ac/songs/AahAahOlaiAah.MP3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
                                         { title: "Aai Tok Kihere", src: "{{ asset('https://media.rgu.ac/songs/AaiTokKihere.MP3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
                                         { title: "Aakaashi Ganga", src: "{{ asset('https://media.rgu.ac/songs/AakaashiGanga.MP3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
-                                        { title: "Aami Axomiya Nahao Dukhiya", src: "{{ asset('https://media.rgu.ac/songs/AamiAxomiyaNahaoDukhiya.mp3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
+                                        { title: "Aami Axomiya Nahao Dukhiya", src: "{{ asset('https://media.rgu.ac/songs/AamiAxomiyaNahaoDukhiya.MP3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
                                         { title: "Aji Jiyonor", src: "{{ asset('https://media.rgu.ac/songs/AjiJiyonor.mp3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
                                         { title: "Anamika Bidai", src: "{{ asset('https://media.rgu.ac/songs/AnamikaBidai.mp3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
                                         { title: "Atukura Alaxua Megh", src: "{{ asset('https://media.rgu.ac/songs/AtukuraAlaxuaMegh.mp3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
