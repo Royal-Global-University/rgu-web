@@ -578,28 +578,6 @@
                         </div>
                     </div>
 
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsmas/anamika-das.jpeg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Ms. Anamika Das
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
@@ -728,7 +706,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Ms-Priyanka-Kumari-RSMAS.png"
+                                    src="mobile-assets/updated-faculty-img/1.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1625,27 +1603,6 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rsmas/anamika-das.jpeg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Ms. Anamika Das
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ms-Anindita-Dutta.png"
                                     class="img-fluid rounded border" />
                             </div>
@@ -1731,7 +1688,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Ms-Mayuri-Ojah-RSMAS.png"
+                                    src="mobile-assets/updated-faculty-img/4.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1752,7 +1709,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Ms-Anudeep-Kaur-RSMAS.png"
+                                    src="mobile-assets/updated-faculty-img/3.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1773,7 +1730,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Meghna-Guha-RSMAS.png"
+                                    src="mobile-assets/updated-faculty-img/5.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1794,7 +1751,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Ms-Priyanka-Kumari-RSMAS.png"
+                                    src="mobile-assets/updated-faculty-img/1.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1880,7 +1837,7 @@
                                                                 <div class="card rounded d-flex flex-column"
                                                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                                                                     <div class="p-3">
-                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/no-pic.png"
+                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/priyanka.png"
                                                                             class="img-fluid rounded border" />
                                                                     </div>
 
@@ -1947,7 +1904,7 @@
                                                                 <div class="card rounded d-flex flex-column"
                                                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                                                                     <div class="p-3">
-                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/no-pic.png"
+                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/debjani.png"
                                                                             class="img-fluid rounded border" />
                                                                     </div>
 

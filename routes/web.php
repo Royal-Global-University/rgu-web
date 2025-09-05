@@ -3118,6 +3118,10 @@ Route::get('/former-tata-motors-ceo-to-talk-on-leading-from-the-back-to-achieve-
     return view('frontend/media-corner/news41');
 })->name('former-tata-motors-ceo-to-talk-on-leading-from-the-back-to-achieve-the-impossible-at-rgu');
 
+Route::get('/india’s-legendary-physiotherapist-prof-ali-irani-takes-session-at-royal-global-university', function () {
+    return view('frontend/media-corner/news42');
+})->name('india’s-legendary-physiotherapist-prof-ali-irani-takes-session-at-royal-global-university');
+
 
 //IKS Faculty Profile
 
