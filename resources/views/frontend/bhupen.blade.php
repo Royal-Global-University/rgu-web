@@ -215,7 +215,7 @@
                                         { title: "Atukura Alaxua Megh", src: "{{ asset('https://media.rgu.ac/songs/AtukuraAlaxuaMegh.MP3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
                                         { title: "Axom Aamar Rupahi", src: "{{ asset('https://media.rgu.ac/songs/AxomAamarRupahi.MP3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
                                         { title: "Bistirna Parare", src: "{{ asset('https://media.rgu.ac/songs/BistirnaParare.MP3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
-                                        { title: "Biturta Mor Nishati", src: "{{ asset('https://media.rgu.ac/songs/BiturtaMorNishati.mp3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
+                                        { title: "Biturta Mor Nishati", src: "{{ asset('https://media.rgu.ac/songs/BiturtaMorNishati.MP3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
                                         { title: "Chira Jugamia Dhow Tuli", src: "{{ asset('https://media.rgu.ac/songs/ChiraJugamiaDhowTuli.mp3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
                                         { title: "Chitralekha", src: "{{ asset('https://media.rgu.ac/songs/Chitralekha.mp3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
                                         { title: "Eti Kuhi Duti Paat", src: "{{ asset('https://media.rgu.ac/songs/EtiKuhiDutiPaat.mp3') }}", thumbnail: "{{ asset('bhupen-hazarika/thumb-img.png') }}" },
