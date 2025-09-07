@@ -34,7 +34,7 @@
                 // Video Player Logic
                 const initVideoPlayer = () => {
                     const videos = [
-                        { src: "/bhupen-hazarika/vid1.mp4", title: "" },
+                        { src: "bhupen-hazarika/vid1.mp4", title: "" },
                         // Add other videos here if needed
                     ];
 
