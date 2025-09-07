@@ -298,6 +298,10 @@ Route::get('/bhupen-hazarika-songs', function () {
     return view('frontend/bhupen');
 })->name('bhupen-hazarika-songs');
 
+Route::get('/bhupen-hazarika-videos', function () {
+    return view('frontend/bhupen-video');
+})->name('bhupen-hazarika-videos');
+
 Route::get('/facilities-salon', function () {
     return view('frontend/facilities/facilities-salon');
 })->name('facilities-salon');

@@ -65,7 +65,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Tikendra.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -74,6 +74,30 @@
                                     Professor
                                 </p>
                                 <a href="/faculty-tikendra-Kumar-sahu">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Asif-Iqbal-Mazid-RSFT.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Asif Iqbal
+                                    Mazid</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor & Coordinator,<br>
+                                    Royal School of Fashion Design & Technology<br>
+
+                                </p>
+                                <a href="faculty-asif-iqbal-mazid">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
                                 </a>
                             </div>
@@ -597,26 +621,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ar. Bhabatosh
-                                    Hazarika</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor, <br>
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
 
             </div>
@@ -655,6 +659,27 @@
                             </div>
                         </div>
                     </div>
+
+                                        <div class="col-lg-3 mb-4">
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Amarendra.jpeg"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Thangjam
+                                                        Roshini</h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Assistant Professor
+                                                    </p>
+                                                    <a href="faculty-thangjam-roshini">
+                                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                            Profile</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
 
                     <div class="col-lg-3 mb-4">
 
@@ -739,6 +764,52 @@
 
                         </div>
                     </div>
+
+                                        <div class="col-lg-3 mb-4">
+
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mr-T-Abhisek.png"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. T Abhisek
+                                                    </h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Assistant Professor, <br>
+
+                                                    </p>
+                                                    <a href="faculty-Abhisek">
+                                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                            Profile</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 mb-4">
+
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Ankit
+                                                        Bordoloi</h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Teaching Assistant, <br>
+
+                                                    </p>
+                                                    <a href="/faculty-ankit-bordoloi">
+                                                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                            Profile</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
 
                     <div class="col-lg-3 mb-4">
 
@@ -1289,7 +1360,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 480px;">
                             <div class="p-3">
-                                <img style="height: 300px; width: 100%;" src="mobile-assets/all-faculty/rsa/16.jpeg"
+                                <img style="height: 300px; width: 100%;" src="mobile-assets/updated-faculty-img/Ritu-Rani-RSD.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">

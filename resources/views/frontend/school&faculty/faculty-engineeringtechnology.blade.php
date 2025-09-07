@@ -429,6 +429,87 @@
                         </div>
                     </div>
 
+                                    <div>
+                                        <h3 class="text-white text-center fw-bold mb-5 pt-3 pb-3" style="background-color: #27467A">Visiting Faculty</h3>
+
+                                        <div class="row">
+                                            <div class="col-lg-3 mb-4">
+                                                <div class="card rounded d-flex flex-column"
+                                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 450px;">
+                                                    <div class="p-3">
+                                                        <img style="height: 310px; width: 100%;"
+                                                            src="mobile-assets/updated-faculty-img/RSIT/Mr. Dibyajyoti Deka.jpeg"
+                                                            class="img-fluid rounded border" />
+                                                    </div>
+                                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                            Mr. Dibyajyoti Deka
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 mb-4">
+                                                <div class="card rounded d-flex flex-column"
+                                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 450px;">
+                                                    <div class="p-3">
+                                                        <img style="height: 310px; width: 100%;"
+                                                            src="mobile-assets/updated-faculty-img/RSIT/Ms. Dubari Sarma.jpg"
+                                                            class="img-fluid rounded border" />
+                                                    </div>
+                                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                            Ms. Dubari Sarma
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 mb-4">
+                                                <div class="card rounded d-flex flex-column"
+                                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 450px;">
+                                                    <div class="p-3">
+                                                        <img style="height: 310px; width: 100%;"
+                                                            src="mobile-assets/updated-faculty-img/RSIT/Ms. Meghna Dasgupta.jpeg"
+                                                            class="img-fluid rounded border" />
+                                                    </div>
+                                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                            Ms. Meghna Dasgupta
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 mb-4">
+                                                <div class="card rounded d-flex flex-column"
+                                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 450px;">
+                                                    <div class="p-3">
+                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/RSIT/Raj.jpg"
+                                                            class="img-fluid rounded border" />
+                                                    </div>
+                                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                            Mr. Raj Paul
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 mb-4">
+                                                <div class="card rounded d-flex flex-column"
+                                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 450px;">
+                                                    <div class="p-3">
+                                                        <img style="height: 310px; width: 100%;"
+                                                            src="mobile-assets/updated-faculty-img/RSIT/Ms. Vaishnavi Rajendran.jpeg"
+                                                            class="img-fluid rounded border" />
+                                                    </div>
+                                                    <div class="card-body d-flex flex-column flex-grow-1">
+                                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                                            Ms. Vaishnavi Rajendran
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
 
 
                 </div>
@@ -445,36 +526,6 @@
             </div>
 
             <div style="padding: 20px 35px;">
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rset/diganta-munshi.jpeg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Diganta
-                                    Munshi</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor & Registrar, Administration <br>
-                                    Director, IQAC <br>
-                                    Dean, Royal School of Engineering & Technology <br>
-                                    Royal School of Information Technology
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <hr>
 
                 <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
@@ -519,6 +570,24 @@
                             </div>
                         </div>
                     </div>
+
+                                        <div class="col-lg-3 mb-4">
+
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
+                                                <div class="p-3">
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Manash.jpg"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Manash Protim Boruah</h5>
+                                                    <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                                        Assistant Professor <br>
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
 
                     <div class="col-lg-3 mb-4">
 

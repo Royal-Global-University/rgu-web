@@ -384,6 +384,63 @@
 
                 </div>
 
+                                <div class="pt-2 pb-4">
+                                    <div
+                                        style=" display: flex; align-items: center; justify-content: center; height: 60px; background-color: #27467A; color: #fff;">
+                                        <h3 class=" text-center text-white fw-bold ">
+                                            Visiting Faculty
+                                        </h3>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-2"></div>
+                                        <div class="col-lg-3 mb-4 mt-4">
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 430px;">
+                                                <div class="p-3">
+                                                    <img style="height: 300px; width: 100%;"
+                                                        src="mobile-assets/updated-faculty-img/Visiting Faculty/RSC/Bitu Sonowal.jpeg"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Bitu Sonowal
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 mb-4 mt-4">
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 430px;">
+                                                <div class="p-3">
+                                                    <img style="height: 300px; width: 100%;"
+                                                        src="mobile-assets/updated-faculty-img/Visiting Faculty/RSC/Hrishikesh Pathak.jpeg"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Hrishikesh Pathak
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 mb-4 mt-4">
+                                            <div class="card rounded d-flex flex-column"
+                                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 430px;">
+                                                <div class="p-3">
+                                                    <img style="height: 300px; width: 100%;"
+                                                        src="mobile-assets/updated-faculty-img/Visiting Faculty/RSC/Upal J Baruah.jpeg"
+                                                        class="img-fluid rounded border" />
+                                                </div>
+                                                <div class="card-body d-flex flex-column flex-grow-1">
+                                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Upal J Baruah
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
             </div>
 
         </div>
