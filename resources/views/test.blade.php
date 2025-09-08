@@ -4,31 +4,31 @@
 @section('meta_keywords', 'Best University in Assam')
 @section('content')
 
-        <div class="mobile">
+    <div class="mobile">
 
         <!-- Floating Section with Frosted Background -->
         <div class="container">
             <div class="floating-wrapper" style="
-            position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-            width: 90%; max-width: 400px; z-index: 800;
-            backdrop-filter: blur(30px);
-            background: #27467A; /* Frosty effect */
-            border-radius: 10px;
-            box-shadow: 0 1px 1px #ffffff97;
-            border: 1px solid #27467A;
-            padding: 15px;">
+                position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+                width: 90%; max-width: 400px; z-index: 800;
+                backdrop-filter: blur(30px);
+                background: #27467A; /* Frosty effect */
+                border-radius: 10px;
+                box-shadow: 0 1px 1px #ffffff97;
+                border: 1px solid #27467A;
+                padding: 15px;">
 
                 <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
                     <span class="mobile-para1" style="
-                    font-weight: bold; font-size: 18px; line-height: 1.3;
-                    color: #fff; flex-grow: 1;">
+                        font-weight: bold; font-size: 18px; line-height: 1.3;
+                        color: #fff; flex-grow: 1;">
                         Admission open for 2025 - 2026
                     </span>
 
                     <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
-                    background-color: #ffb300; color: #fff;
-                    font-weight: bold; padding: 10px 14px; border-radius: 5px;
-                    text-decoration: none; white-space: nowrap;">
+                        background-color: #ffb300; color: #fff;
+                        font-weight: bold; padding: 10px 14px; border-radius: 5px;
+                        text-decoration: none; white-space: nowrap;">
                         Apply Now
                     </a>
                 </div>
@@ -73,6 +73,7 @@
         <!-- Explore Rgu  -->
         <img src="demo-assets/mobile/explore-rgu.png" alt="">
         <!-- Explore Rgu  -->
+
 
         <!-- Event Section  -->
         <section>
@@ -1326,15 +1327,15 @@
 
             <div class="container">
                 <div>
-                   <a href=""> <img src="mobile-assets/index/alumni-student.png" alt=""></a>
+                    <a href=""> <img src="mobile-assets/index/alumni-student.png" alt=""></a>
                 </div>
 
                 <div class="mt-2">
-                   <a href=""> <img src="mobile-assets/index/recruiters.png" alt=""></a>
+                    <a href=""> <img src="mobile-assets/index/recruiters.png" alt=""></a>
                 </div>
 
                 <div class="mt-2">
-                   <a href=""> <img src="mobile-assets/index/dignitaries.png" alt=""></a>
+                    <a href=""> <img src="mobile-assets/index/dignitaries.png" alt=""></a>
                 </div>
             </div>
         </section>
@@ -1374,31 +1375,31 @@
                                     <div class="col-lg-3">
                                         <div>
                                             <a href="https://admissions.rgu.ac/" style="
-      position: fixed;
-      bottom: 10px;
-      right: 10px;
-      background-color: #ef991f;
-      color: #fff;
-      padding: 12px 20px;
-      font-size: 18px;
-      font-weight: bold;
-      text-decoration: none;
-      border-radius: 20px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      z-index: 1000;
-      overflow: hidden;
-      animation: pulse 2s infinite;
-    ">
+          position: fixed;
+          bottom: 10px;
+          right: 10px;
+          background-color: #ef991f;
+          color: #fff;
+          padding: 12px 20px;
+          font-size: 18px;
+          font-weight: bold;
+          text-decoration: none;
+          border-radius: 20px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+          z-index: 1000;
+          overflow: hidden;
+          animation: pulse 2s infinite;
+        ">
                                                 <span style="
-        position: absolute;
-        top: 0;
-        left: -75%;
-        width: 50%;
-        height: 100%;
-        background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-        transform: skewX(-25deg);
-        animation: shine 2s infinite;
-      "></span>
+            position: absolute;
+            top: 0;
+            left: -75%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+            transform: skewX(-25deg);
+            animation: shine 2s infinite;
+          "></span>
                                                 APPLY NOW
                                             </a>
                                             <style>
@@ -1444,20 +1445,20 @@
                                     <img src="home-banner/research-web-mont.png" alt="Slide 2">
                                 </div>
                                 <!-- <div class="carousel-item">
-                                        <img src="sarang/s3.png" alt="Slide 3">
-                                    </div> -->
+                                            <img src="sarang/s3.png" alt="Slide 3">
+                                        </div> -->
                             </div>
 
 
                             <!-- Controls for the carousel -->
                             <!-- <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                              </button>
-                              <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                              </button> -->
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                  </button>
+                                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                  </button> -->
 
 
 
@@ -1498,52 +1499,52 @@
 
         <!-- Explore RGU  -->
         <!-- <section
-            style="background-image: url(demo-assets/explore-rgu-bg-try.png); background-size: cover; background-position: center; height: 100vh;">
+                style="background-image: url(demo-assets/explore-rgu-bg-try.png); background-size: cover; background-position: center; height: 100vh;">
 
-            <div class="container">
-                <div class="row" style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+                <div class="container">
+                    <div class="row" style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
 
-                    <div class="col-lg-7" style="display: flex; justify-content: center; align-items: center;">
-                        <div class="mt-5">
-                            <h2 style="color: #27467A; font-size: 75px;">Explore <span
-                                    style="color: #27467A; font-size: 75px; font-weight: 900;">RGU</span></h2>
+                        <div class="col-lg-7" style="display: flex; justify-content: center; align-items: center;">
+                            <div class="mt-5">
+                                <h2 style="color: #27467A; font-size: 75px;">Explore <span
+                                        style="color: #27467A; font-size: 75px; font-weight: 900;">RGU</span></h2>
 
-                            <h2 style="color: #ef991f; font-size: 40px;">About Our <span
-                                    style="color: #ef991f; font-size: 40px; font-weight: 900;">University</span></h2>
+                                <h2 style="color: #ef991f; font-size: 40px;">About Our <span
+                                        style="color: #ef991f; font-size: 40px; font-weight: 900;">University</span></h2>
 
-                            <div class="mt-4"
-                                style="padding: 20px; background-color: #000000c7; border: 1px solid #d7d7d7; border-radius: 0px 25px 0px 25px; backdrop-filter: blur(8px); ">
+                                <div class="mt-4"
+                                    style="padding: 20px; background-color: #000000c7; border: 1px solid #d7d7d7; border-radius: 0px 25px 0px 25px; backdrop-filter: blur(8px); ">
 
-                                <p style="color: #fff; font-size: 18px; text-align: justify;">
-                                    The Assam Royal Global University (RGU), widely regarded as the Best University in
-                                    Assam, has established itself as a center of academic excellence and innovation. Since
-                                    its inception in 2017, it has created opportunities for students through strong industry
-                                    collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a
-                                    leading University in Assam, RGU continuously nurtures a learning environment where
-                                    innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships,
-                                    and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and
-                                    skills needed for future success. As the Best University in Assam, it remains committed
-                                    to developing industry-ready graduates who can excel in a dynamic global landscape.
-                                </p>
+                                    <p style="color: #fff; font-size: 18px; text-align: justify;">
+                                        The Assam Royal Global University (RGU), widely regarded as the Best University in
+                                        Assam, has established itself as a center of academic excellence and innovation. Since
+                                        its inception in 2017, it has created opportunities for students through strong industry
+                                        collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a
+                                        leading University in Assam, RGU continuously nurtures a learning environment where
+                                        innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships,
+                                        and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and
+                                        skills needed for future success. As the Best University in Assam, it remains committed
+                                        to developing industry-ready graduates who can excel in a dynamic global landscape.
+                                    </p>
 
-                                <a style="color: #EF991F; font-size: 18px;" class="fw-bold" href="">
-                                    Read More ->
-                                </a>
+                                    <a style="color: #EF991F; font-size: 18px;" class="fw-bold" href="">
+                                        Read More ->
+                                    </a>
 
+
+                                </div>
 
                             </div>
+                        </div>
+
+                        <div class="col-lg-5">
 
                         </div>
-                    </div>
-
-                    <div class="col-lg-5">
 
                     </div>
-
                 </div>
-            </div>
 
-        </section> -->
+            </section> -->
         <!-- Explore RGU  -->
 
         <!-- Swiper CSS -->
@@ -1588,7 +1589,7 @@
 
                 <!-- Navigation -->
                 <!-- <div class="swiper-button-next slider-next"></div>
-                <div class="swiper-button-prev slider-prev"></div> -->
+                    <div class="swiper-button-prev slider-prev"></div> -->
             </div>
         </section>
 
@@ -2401,8 +2402,8 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                        students</span> -->
+                                                                                        <span class="item-student kd-heading-1">34,000
+                                                                                            students</span> -->
                                                                 </div>
 
                                                                 <div class="card-content">
@@ -2433,8 +2434,8 @@
 
                                                                     <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                        students</span> -->
+                                                                                        <span class="item-student kd-heading-1">34,000
+                                                                                            students</span> -->
 
                                                                 </div>
 
@@ -2904,19 +2905,19 @@
                         content.forEach((pageData, index) => {
                             const zIndex = content.length - index;
                             pagesHTML += `
-                        <div id="flipbook-p${index + 1}" class="flipbook-paper" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; transform-origin: left center 0px; transition: transform 1s ease-in-out 0s; transform-style: preserve-3d; cursor: pointer; z-index: ${zIndex};">
-                            <div class="flipbook-front" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; z-index: 1;">
-                                <div class="flipbook-front-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-                                    <img src="${pageData.front.image}" alt="Page ${index * 2 + 1}" style="width: 100%; height: 100%; object-fit: cover;">
+                            <div id="flipbook-p${index + 1}" class="flipbook-paper" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; transform-origin: left center 0px; transition: transform 1s ease-in-out 0s; transform-style: preserve-3d; cursor: pointer; z-index: ${zIndex};">
+                                <div class="flipbook-front" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; z-index: 1;">
+                                    <div class="flipbook-front-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                                        <img src="${pageData.front.image}" alt="Page ${index * 2 + 1}" style="width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="flipbook-back" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; transform: rotateY(180deg); z-index: 0;">
+                                    <div class="flipbook-back-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                                        <img src="${pageData.back.image}" alt="Page ${index * 2 + 2}" style="width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="flipbook-back" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; transform: rotateY(180deg); z-index: 0;">
-                                <div class="flipbook-back-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-                                    <img src="${pageData.back.image}" alt="Page ${index * 2 + 2}" style="width: 100%; height: 100%; object-fit: cover;">
-                                </div>
-                            </div>
-                        </div>
-                        `;
+                            `;
                         });
                         book.innerHTML = pagesHTML;
                         papers = book.querySelectorAll('.flipbook-paper');

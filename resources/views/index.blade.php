@@ -1092,74 +1092,79 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                       <!-- Swiper CSS -->
                                                         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-                                                        <section style="padding: 30px; background-color: #101d34;">
-                                                            <div class="swiper myImageSlider" style="max-width:1800px; margin:auto;">
-                                                                <div class="swiper-wrapper">
+        <section style="padding: 30px; background-color: #101d34;">
+            <div class="swiper myImageSlider" style="max-width:1800px; margin:auto;">
+                <div class="swiper-wrapper">
 
-                                                                    <!-- Slides -->
-                                                                    <div class="swiper-slide">
-                                                                        <a href="bioe3-conference">
-                                                                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                                                                src="demo-assets/events/a.png" alt="">
-                                                                        </a>
-                                                                    </div>
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                src="demo-assets/big-events/1.png" alt="">
+                        </a>
+                    </div>
 
-                                                                    <div class="swiper-slide">
-                                                                        <a href="mobile-assets/confrence/AICTE%20VAANI%20Brochure.pdf">
-                                                                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                                                                src="demo-assets/events/b.png" alt="">
-                                                                        </a>
-                                                                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                src="demo-assets/big-events/2.png" alt="">
+                        </a>
+                    </div>
 
-                                                                    <div class="swiper-slide">
-                                                                        <a href="climate-change-and-livelihood-in-northeast-india">
-                                                                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                                                                src="demo-assets/events/c.png" alt="">
-                                                                        </a>
-                                                                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                src="demo-assets/big-events/3.png" alt="">
+                        </a>
+                    </div>
 
-                                                                    <div class="swiper-slide">
-                                                                        <a href="/synergy-for-energy-challenges-and-opportunities-in-north-east-india">
-                                                                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                                                                src="demo-assets/events/d.png" alt="">
-                                                                        </a>
-                                                                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                src="demo-assets/big-events/4.png" alt="">
+                        </a>
+                    </div>
 
 
 
-                                                                </div>
+                </div>
 
-                                                                <!-- Navigation -->
-                                                                <!-- <div class="swiper-button-next slider-next"></div>
-                                                                <div class="swiper-button-prev slider-prev"></div> -->
-                                                            </div>
-                                                        </section>
+                <!-- Navigation -->
+                <!-- <div class="swiper-button-next slider-next"></div>
+                    <div class="swiper-button-prev slider-prev"></div> -->
+            </div>
+        </section>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script>
+            const myImageSlider = new Swiper('.myImageSlider', {
+                slidesPerView: 3,          // show 3 images
+                spaceBetween: 20,          // spacing
+                slidesPerGroup: 1,         // scroll 1 at a time
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: '.slider-next',
+                    prevEl: '.slider-prev',
+                },
+                breakpoints: {
+                    0: { slidesPerView: 1 },     // mobile
+                    768: { slidesPerView: 2 },   // tablet
+                    1024: { slidesPerView: 3 }   // desktop
+                }
+            });
+
+        </script>
+
+
 
                                                         <!-- Swiper JS -->
-                                                        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-                                                        <script>
-                                                            const myImageSlider = new Swiper('.myImageSlider', {
-                                                                slidesPerView: 3,          // show 3 images
-                                                                spaceBetween: 20,          // spacing
-                                                                slidesPerGroup: 1,         // scroll 1 at a time
-                                                                loop: true,
-                                                                autoplay: {
-                                                                    delay: 2500,
-                                                                    disableOnInteraction: false,
-                                                                },
-                                                                navigation: {
-                                                                    nextEl: '.slider-next',
-                                                                    prevEl: '.slider-prev',
-                                                                },
-                                                                breakpoints: {
-                                                                    0: { slidesPerView: 1 },     // mobile
-                                                                    768: { slidesPerView: 2 },   // tablet
-                                                                    1024: { slidesPerView: 3 }   // desktop
-                                                                }
-                                                            });
-
-                                                        </script>
 
 
                                                                                                                                                                                     <!--New Events-->
