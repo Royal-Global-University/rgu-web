@@ -6,64 +6,34 @@
 
         <div class="mobile">
 
-          <!-- Popup -->
-            <div id="popup-mob" class="popup-overlay">
-                <a href="https://admissions.rgu.ac/" target="_blank" class="text-center"><img
-                        src="{{ asset('mobile-assets/ads/phd-ads.jpg') }}" style="width: 400px; height: 400px;"
-                        class="popup-image" alt="Popup Image"></a>
-            </div>
+        <!-- Floating Section with Frosted Background -->
+        <div class="container">
+            <div class="floating-wrapper" style="
+            position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+            width: 90%; max-width: 400px; z-index: 800;
+            backdrop-filter: blur(30px);
+            background: #27467A; /* Frosty effect */
+            border-radius: 10px;
+            box-shadow: 0 1px 1px #ffffff97;
+            border: 1px solid #27467A;
+            padding: 15px;">
 
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    const popup = document.getElementById('popup-mob');
+                <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
+                    <span class="mobile-para1" style="
+                    font-weight: bold; font-size: 18px; line-height: 1.3;
+                    color: #fff; flex-grow: 1;">
+                        Admission open for 2025 - 2026
+                    </span>
 
-                    // When click anywhere outside the image, hide the popup
-                    popup.addEventListener('click', function (event) {
-                        if (event.target === popup) {
-                            popup.style.display = 'none';
-                        }
-                    });
-                });
-            </script>
-
-            <!-- Floating WhatsApp Button -->
-            <a href="https://wa.me/917099028518" class="whatsapp-float" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-            </a>
-
-
-            <!-- Floating Section with Frosted Background -->
-            <div class="container">
-                <div class="floating-wrapper" style="
-                                                        position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-                                                        width: 90%; max-width: 400px; z-index: 800;
-                                                        backdrop-filter: blur(30px);
-                                                        background: #27467A; /* Frosty effect */
-                                                        border-radius: 10px;
-                                                        box-shadow: 0 1px 1px #ffffff97;
-                                                        border: 1px solid #27467A;
-                                                        padding: 15px;">
-
-                    <div class="d-flex align-items-center justify-content-between" style="gap: 10px;">
-                        <span class="mobile-para1" style="
-                                                                font-weight: bold; font-size: 18px; line-height: 1.3;
-                                                                color: #fff; flex-grow: 1;">
-                            Admission open for 2025 - 2026
-                        </span>
-
-                        <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
-                                                                background-color: #ffb300; color: #fff;
-                                                                font-weight: bold; padding: 10px 14px; border-radius: 5px;
-                                                                text-decoration: none; white-space: nowrap;">
-                            Apply Now
-                        </a>
-                    </div>
+                    <a href="https://admissions.rgu.ac" target="_blank" class="btn mobile-para1 pulse-btn" style="
+                    background-color: #ffb300; color: #fff;
+                    font-weight: bold; padding: 10px 14px; border-radius: 5px;
+                    text-decoration: none; white-space: nowrap;">
+                        Apply Now
+                    </a>
                 </div>
             </div>
-
-
-            <!-- menu  -->
-            @include('frontend/components/mobileheader')
+        </div>
 
         <!-- Mobile Video -->
         <div class="mobile-video" style="position: relative; width: 100%; height: auto;">
@@ -246,92 +216,6 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 unique-gallery-media-col">
-                            <h2 class="unique-gallery-title">Media<span class="highlight"> Corner</span></h2>
-
-                            <div style="background-color: #FFF0DB; padding: 15px; border-radius: 10px;">
-
-                                <div
-                                    style="background-color: #FAF9F6; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
-                                    <div class="row p-3 align-items-center">
-                                        <div class="col-md-4">
-                                            <img class="border shadow-sm"
-                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
-                                                src="https://www.rgu.ac/mobile-assets/media-corner/news39/Leadership%20Conclave%202025.jpg"
-                                                alt="Leadership Conclave">
-                                        </div>
-                                        <div class="col-md-8 unique-gallery-media-card-text">
-                                            <h2 class="fw-bold mb-1" style="color: #27467A; font-size: 17px;">
-                                                National Leadership Conclave 2025 from 11th September at Royal Global
-                                                University
-                                            </h2>
-                                            <p style="color: #333; font-size: 14px; margin: 0.25rem 0;">
-                                                September 2, 2025
-                                            </p>
-                                            <a style="color: #ef991f; font-size: 15px;" class="fw-bold" href="#">
-                                                Read More...
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="m-2"></div>
-
-                                <div
-                                    style="background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
-                                    <div class="row p-3 align-items-center">
-                                        <div class="col-md-4">
-                                            <img class="border shadow-sm"
-                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
-                                                src="https://www.rgu.ac/mobile-assets/rgu-blog/blog2.jpeg"
-                                                alt="AICTE-VAANI Grant">
-                                        </div>
-                                        <div class="col-md-8 unique-gallery-media-card-text">
-                                            <h2 class="fw-bold mb-1" style="color: #27467A; font-size: 17px;">
-                                                AICTE-VAANI Grant Sanctioned to RGU for Indian Knowledge Systems Conference
-                                            </h2>
-                                            <p style="color: #333; font-size: 14px; margin: 0.25rem 0;">
-                                                September 1, 2025
-                                            </p>
-                                            <a style="color: #ef991f; font-size: 15px;" class="fw-bold" href="#">
-                                                Read More...
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="m-2"></div>
-
-                                <div
-                                    style="background-color: #FAF9F6; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
-                                    <div class="row p-3 align-items-center">
-                                        <div class="col-md-4">
-                                            <img class="border shadow-sm"
-                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
-                                                src="https://www.rgu.ac/mobile-assets/media-corner/news38/head.jpg"
-                                                alt="Supreme Court Judge">
-                                        </div>
-                                        <div class="col-md-8 unique-gallery-media-card-text">
-                                            <h2 class="fw-bold mb-1" style="color: #27467A; font-size: 17px;">
-                                                Supreme Court Judge unveils one of India’s largest Gavels at Royal Global
-                                                University
-                                            </h2>
-                                            <p style="color: #333; font-size: 14px; margin: 0.25rem 0;">
-                                                August 30, 2025
-                                            </p>
-                                            <a style="color: #ef991f; font-size: 15px;" class="fw-bold" href="#">
-                                                Read More...
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="mt-4 text-center">
-                                    <a style="padding: 10px 20px; background-color: #27467A; color: #fff; border-radius: 5px; font-size: 14px; text-decoration: none;"
-                                        href="#">View All</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -390,41 +274,528 @@
             </script>
 
         </section>
+
+        <section>
+
+            <style>
+                .secondary-gallery-section {
+                    padding: 30px 5px;
+                    border-radius: 10px;
+                    background-color: #f8f9fa;
+                }
+
+                .secondary-gallery-title {
+                    color: #27467A;
+                    font-weight: 800;
+                    font-size: 40px;
+                    padding-bottom: 1rem;
+                }
+
+                .secondary-gallery-title .highlight {
+                    color: #FF9A1E;
+                    font-weight: 500;
+                }
+
+                /* Apply flex properties ONLY to the active slide */
+                #secondaryGalleryCarousel .carousel-item.active {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .secondary-gallery-img {
+                    width: 100%;
+                    height: auto;
+                    border: 2px solid #e68900;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+
+                /* --- Modified styles for carousel controls --- */
+                .secondary-gallery-control-prev,
+                .secondary-gallery-control-next {
+                    position: static;
+                    display: inline-flex;
+                    transform: none;
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 5px;
+                    background-color: #27467A;
+                    border-radius: 50%;
+                }
+
+                /* --- Secondary Lightbox Styles --- */
+                #secondary-gallery-lightbox {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.9);
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 1050;
+                }
+
+                #secondary-gallery-lightbox-img {
+                    max-width: 90%;
+                    max-height: 90%;
+                    border-radius: 10px;
+                }
+
+                /* --- Mobile Responsive Styles --- */
+                @media (max-width: 768px) {
+                    .secondary-gallery-title {
+                        font-size: 28px;
+                        /* Reduce title font size on mobile */
+                        text-align: center;
+                        /* Center title on mobile */
+                    }
+
+                    .secondary-gallery-section {
+                        padding: 20px 10px;
+                        /* Adjust padding for smaller screens */
+                    }
+
+                    .secondary-gallery-media-card-text {
+                        text-align: center;
+                        margin-top: 1rem;
+                    }
+                }
+            </style>
+
+            <section class="secondary-gallery-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="secondary-gallery-title">News and<span class="highlight"> Events</span></h2>
+
+                            <div id="secondaryGalleryCarousel" class="carousel slide" data-bs-ride="carousel"
+                                data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row w-100 mx-0">
+                                            <div class="col-12">
+                                                <img class="secondary-gallery-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/basket.jpeg" alt="Event 1">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row w-100 mx-0">
+                                            <div class="col-12">
+                                                <img class="secondary-gallery-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/stu-1.1.jpeg"
+                                                    alt="Event 3">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center mt-3">
+                                <button class="secondary-gallery-control-prev" type="button"
+                                    data-bs-target="#secondaryGalleryCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="secondary-gallery-control-next" type="button"
+                                    data-bs-target="#secondaryGalleryCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-12 mt-5">
+                            <h2 class="secondary-gallery-title">Media<span class="highlight"> Corner</span></h2>
+
+                            <div style="background-color: #FFF0DB; padding: 15px; border-radius: 10px;">
+
+                                <div
+                                    style="background-color: #FAF9F6; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
+                                    <div class="row p-3 align-items-center">
+                                        <div class="col-md-4">
+                                            <img class="border shadow-sm"
+                                                style="height: 300px; width: 100%; object-fit: cover; border-radius: 5px;"
+                                                src="https://www.rgu.ac/mobile-assets/media-corner/news39/Leadership%20Conclave%202025.jpg"
+                                                alt="Leadership Conclave">
+                                        </div>
+                                        <div class="col-md-8 secondary-gallery-media-card-text">
+                                            <h2 class="fw-bold mb-1" style="color: #27467A; font-size: 17px;">
+                                                National Leadership Conclave 2025 from 11th September at Royal Global
+                                                University
+                                            </h2>
+                                            <p style="color: #333; font-size: 14px; margin: 0.25rem 0;">
+                                                September 2, 2025
+                                            </p>
+                                            <a style="color: #ef991f; font-size: 15px;" class="fw-bold" href="#">
+                                                Read More...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="m-2"></div>
+
+                                <div
+                                    style="background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
+                                    <div class="row p-3 align-items-center">
+                                        <div class="col-md-4">
+                                            <img class="border shadow-sm"
+                                                style="height: 300px; width: 100%; object-fit: cover; border-radius: 5px;"
+                                                src="https://www.rgu.ac/mobile-assets/rgu-blog/blog2.jpeg"
+                                                alt="AICTE-VAANI Grant">
+                                        </div>
+                                        <div class="col-md-8 secondary-gallery-media-card-text">
+                                            <h2 class="fw-bold mb-1" style="color: #27467A; font-size: 17px;">
+                                                AICTE-VAANI Grant Sanctioned to RGU for Indian Knowledge Systems Conference
+                                            </h2>
+                                            <p style="color: #333; font-size: 14px; margin: 0.25rem 0;">
+                                                September 1, 2025
+                                            </p>
+                                            <a style="color: #ef991f; font-size: 15px;" class="fw-bold" href="#">
+                                                Read More...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="m-2"></div>
+
+                                <div
+                                    style="background-color: #FAF9F6; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
+                                    <div class="row p-3 align-items-center">
+                                        <div class="col-md-4">
+                                            <img class="border shadow-sm"
+                                                style="height: 300px; width: 100%; object-fit: cover; border-radius: 5px;"
+                                                src="https://www.rgu.ac/mobile-assets/media-corner/news38/head.jpg"
+                                                alt="Supreme Court Judge">
+                                        </div>
+                                        <div class="col-md-8 secondary-gallery-media-card-text">
+                                            <h2 class="fw-bold mb-1" style="color: #27467A; font-size: 17px;">
+                                                Supreme Court Judge unveils one of India’s largest Gavels at Royal Global
+                                                University
+                                            </h2>
+                                            <p style="color: #333; font-size: 14px; margin: 0.25rem 0;">
+                                                August 30, 2025
+                                            </p>
+                                            <a style="color: #ef991f; font-size: 15px;" class="fw-bold" href="#">
+                                                Read More...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mt-4 text-center">
+                                    <a style="padding: 10px 20px; background-color: #27467A; color: #fff; border-radius: 5px; font-size: 14px; text-decoration: none;"
+                                        href="#">View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div id="secondary-gallery-lightbox">
+                <img id="secondary-gallery-lightbox-img" src="" alt="Zoomed Event Image">
+            </div>
+
+            <script>
+                // --- Secondary Lightbox Functionality ---
+                const secondaryGalleryZoomableImages = document.querySelectorAll('.secondary-gallery-img');
+                const secondaryGalleryLightbox = document.getElementById('secondary-gallery-lightbox');
+                const secondaryGalleryLightboxImg = document.getElementById('secondary-gallery-lightbox-img');
+
+                secondaryGalleryZoomableImages.forEach(img => {
+                    img.addEventListener('click', () => {
+                        secondaryGalleryLightbox.style.display = 'flex';
+                        secondaryGalleryLightboxImg.src = img.src;
+                    });
+                });
+
+                secondaryGalleryLightbox.addEventListener('click', () => {
+                    secondaryGalleryLightbox.style.display = 'none';
+                });
+
+                // --- Secondary function to auto-adjust slide height ---
+                function secondaryGalleryNormalizeSlideHeights() {
+                    const carouselInstance = document.querySelector('#secondaryGalleryCarousel');
+                    if (!carouselInstance) return; // Exit if carousel not found
+
+                    const carouselInner = carouselInstance.querySelector('.carousel-inner');
+                    const carouselItems = carouselInstance.querySelectorAll('.carousel-item');
+                    let maxHeight = 0;
+                    const activeItem = carouselInstance.querySelector('.carousel-item.active');
+
+                    // Temporarily remove 'active' to measure all items correctly
+                    if (activeItem) activeItem.classList.remove('active');
+
+                    carouselItems.forEach(item => {
+                        item.style.display = 'block'; // Make it visible for measurement
+                        if (item.offsetHeight > maxHeight) {
+                            maxHeight = item.offsetHeight;
+                        }
+                        item.style.display = ''; // Revert back
+                    });
+
+                    // Restore active class and set min-height
+                    if (activeItem) activeItem.classList.add('active');
+                    if (maxHeight > 0) {
+                        carouselInner.style.minHeight = `${maxHeight}px`;
+                    }
+                }
+
+                window.addEventListener('load', secondaryGalleryNormalizeSlideHeights);
+                window.addEventListener('resize', secondaryGalleryNormalizeSlideHeights);
+            </script>
+
+        </section>
         <!-- Event Section  -->
 
         <!-- Specific Events  -->
         <section style="padding: 30px; background-color: #101d34;">
-            <div style="display: flex; justify-content: center; align-items: center;">
-                <div class="row" style="display: flex; justify-content: center; align-items: center;">
-
-                    <div class="col-lg-12">
-                        <div>
-                            <a href="">
-                                <img style="border: 1px solid #fff;" src="mobile-assets/events/a.png" alt="">
-                            </a>
-                        </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="/link-to-page-1.html">
+                            <img src="demo-assets/big-events/1.png" class="d-block w-100" alt="First slide">
+                        </a>
                     </div>
-
-                    <div class="col-lg-12 mt-4">
-                        <div>
-                            <a href="">
-                                <img style="border: 1px solid #fff;" src="mobile-assets/events/b.png" alt="">
-                            </a>
-                        </div>
+                    <div class="carousel-item">
+                        <a href="/link-to-page-2.html">
+                            <img src="demo-assets/big-events/2.png" class="d-block w-100" alt="Second slide">
+                        </a>
                     </div>
-
-                    <div class="col-lg-12 mt-4">
-                        <div>
-                            <a href="">
-                                <img style="border: 1px solid #fff;" src="mobile-assets/events/c.png" alt="">
-                            </a>
-                        </div>
+                    <div class="carousel-item">
+                        <a href="/link-to-page-3.html">
+                            <img src="demo-assets/big-events/3.png" class="d-block w-100" alt="Third slide">
+                        </a>
                     </div>
-
+                    <div class="carousel-item">
+                        <a href="/link-to-page-4.html">
+                            <img src="demo-assets/big-events/4.png" class="d-block w-100" alt="Fourth slide">
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Specific Events  -->
+
+        <!-- Media Corner  -->
+        <section>
+
+            <style>
+                /* Main container for the scroller */
+                .alt-infinite-scroll-container {
+                    width: 100%;
+                    overflow: hidden;
+                    display: flex;
+                    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+                    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+                }
+
+                /* Wrapper for the scrolling items */
+                .alt-scroll-content {
+                    display: flex;
+                    flex-shrink: 0;
+                    /* Using the new animation name */
+                    animation: altScrollAnimation 60s linear infinite;
+                }
+
+                /* Individual card styling */
+                .alt-scroll-card {
+                    width: 320px;
+                    margin: 0 15px;
+                    background-color: #ffffff;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                    overflow: hidden;
+                    flex-shrink: 0;
+                    display: flex;
+                    flex-direction: column;
+                    height: 400px;
+                }
+
+                /* This container creates a fixed-size "window" for the image */
+                .alt-scroll-card-image-container {
+                    height: 200px;
+                    width: 100%;
+                    flex-shrink: 0;
+                    overflow: hidden;
+                }
+
+                /* The image is now told to fill its container */
+                .alt-scroll-card-image {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                }
+
+                /* The text content area that will align its children */
+                .alt-scroll-card-text-content {
+                    padding: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-grow: 1;
+                    justify-content: space-between;
+                    /* Pushes content to top and button to bottom */
+                }
+
+                .alt-scroll-card-heading {
+                    font-size: 1.15rem;
+                    font-weight: 600;
+                    color: #27467A;
+                    margin: 0 0 5px 0;
+                }
+
+                .alt-scroll-card-date {
+                    font-size: 0.8rem;
+                    color: #888;
+                    margin: 0 0 15px 0;
+                }
+
+                /* The button no longer needs margin-top: auto */
+                .alt-scroll-card-button {
+                    display: inline-block;
+                    background-color: #27467A;
+                    color: #ffffff;
+                    padding: 0.5rem 1rem;
+                    font-size: 0.875rem;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    text-align: center;
+                    font-weight: 500;
+                    transition: background-color 0.3s ease;
+                }
+
+                .alt-scroll-card-button:hover {
+                    background-color: #1a3258;
+                    color: #ffffff;
+                }
+
+                /* New keyframe animation name */
+                @keyframes altScrollAnimation {
+                    0% {
+                        transform: translateX(0);
+                    }
+
+                    100% {
+                        transform: translateX(-100%);
+                    }
+                }
+            </style>
+
+            <section
+                style="height: 70vh; background-image: url(demo-assets/bg4.png); background-size: cover; background-position: center;">
+                <div class="row g-0" style="height: 100%;">
+
+                    <div class="col-lg-6"
+                        style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 2rem; ">
+
+                        <h2 class="text-center" style="color: #fff; font-weight: 700; font-size: 40px;">
+                            Media<span style="color: #e68900; font-weight: 600; font-size: 40px;"> Corner</span></h2>
+
+                    </div>
+
+                    <div class="col-lg-6"
+                        style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+
+                        <div id="js-alt-scroller-container" class="alt-infinite-scroll-container">
+                            <div class="alt-scroll-content">
+                                <div class="alt-scroll-card">
+                                    <div class="alt-scroll-card-image-container">
+                                        <img src="https://rgu.ac/mobile-assets/media-corner/news41/1.jpg"
+                                            alt="Physiotherapist Prof. Ali Irani" class="alt-scroll-card-image">
+                                    </div>
+                                    <div class="alt-scroll-card-text-content">
+                                        <div>
+                                            <h3 class="alt-scroll-card-heading">India’s Legendary Physiotherapist Prof. Ali
+                                                Irani takes Session at Royal Global University</h3>
+                                            <p class="alt-scroll-card-date">Sep 5, 2025</p>
+                                        </div>
+                                        <a href="https://rgu.ac/india%E2%80%99s-legendary-physiotherapist-prof-ali-irani-takes-session-at-royal-global-university"
+                                            class="alt-scroll-card-button">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="alt-scroll-card">
+                                    <div class="alt-scroll-card-image-container">
+                                        <img src="https://rgu.ac/mobile-assets/media-corner/news40/1.jpg"
+                                            alt="Former Tata Motors CEO" class="alt-scroll-card-image">
+                                    </div>
+                                    <div class="alt-scroll-card-text-content">
+                                        <div>
+                                            <h3 class="alt-scroll-card-heading">Former Tata Motors CEO to talk on “Leading
+                                                from
+                                                the Back to Achieve the Impossible” at RGU</h3>
+                                            <p class="alt-scroll-card-date">Sep 04, 2025</p>
+                                        </div>
+                                        <a href="https://rgu.ac/former-tata-motors-ceo-to-talk-on-leading-from-the-back-to-achieve-the-impossible-at-rgu"
+                                            class="alt-scroll-card-button">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="alt-scroll-card">
+                                    <div class="alt-scroll-card-image-container">
+                                        <img src="https://rgu.ac/mobile-assets/rgu-blog/blog2.jpeg"
+                                            alt="Royal Global University building" class="alt-scroll-card-image">
+                                    </div>
+                                    <div class="alt-scroll-card-text-content">
+                                        <div>
+                                            <h3 class="alt-scroll-card-heading">AICTE-VAANI Grant Sanctioned to RGU for
+                                                Indian
+                                                Knowledge Systems Conference</h3>
+                                            <p class="alt-scroll-card-date">Sep 01, 2025</p>
+                                        </div>
+                                        <a href="https://rgu.ac/aicte-vaani-grant-sanctioned-to-rgu-for-indian-knowledge-systems-conference"
+                                            class="alt-scroll-card-button">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="alt-scroll-card">
+                                    <div class="alt-scroll-card-image-container">
+                                        <img src="https://rgu.ac/mobile-assets/media-corner/news38/head.jpg"
+                                            alt="Large gavel statue" class="alt-scroll-card-image">
+                                    </div>
+                                    <div class="alt-scroll-card-text-content">
+                                        <div>
+                                            <h3 class="alt-scroll-card-heading">Supreme Court Judge unveils one of India’s
+                                                largest Gavels at Royal Global University</h3>
+                                            <p class="alt-scroll-card-date">Aug 30, 2025</p>
+                                        </div>
+                                        <a href="https://rgu.ac/supreme-court-judge-unveils-one-of-india%E2%80%99s-largest-gavels-at-royal-global-university"
+                                            class="alt-scroll-card-button">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a style="padding: 8px 20px; color: #fff; background-color: #e68900; border-radius: 12px;"
+                            class="mt-3 para1 fw-bold" href="https://www.rgu.ac/media-corner">View All</a>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    // Targeting the new unique ID
+                    const scrollerContainer = document.getElementById('js-alt-scroller-container');
+                    if (scrollerContainer) {
+                        // Targeting the new unique class
+                        const contentToScroll = scrollerContainer.querySelector('.alt-scroll-content');
+                        if (contentToScroll) {
+                            const clonedContent = contentToScroll.cloneNode(true);
+                            scrollerContainer.appendChild(clonedContent);
+                        }
+                    }
+                });
+            </script>
+
+        </section>
+        <!-- Media Corner  -->
 
         <!-- campus life  -->
         <section class="unique-cl-section">
@@ -666,96 +1037,317 @@
         </section>
         <!-- campus life  -->
 
+        <!-- Explore our courses  -->
+        <style>
+            /* Styling for the new card class */
+            .alt-zoom-container {
+                display: block;
+                /* Ensures the anchor behaves like a block for padding/margin */
+                text-decoration: none;
+                /* Removes default underline from link */
+                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+                /* Smooth transition for zoom and shadow */
+            }
+
+            /* Styling for the image inside the card */
+            .alt-zoom-container img {
+                display: block;
+                width: 100%;
+                /* Make image responsive within the column */
+                height: auto;
+                transition: transform 0.3s ease-in-out;
+                /* Smooth transition for image zoom */
+            }
+
+            /* Hover effects for the card */
+            .alt-zoom-container:hover {
+                transform: translateY(-5px);
+                /* Moves the card up slightly */
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                /* Adds a shadow */
+            }
+
+            /* Hover effect for the image inside the card (zoom) */
+            .alt-zoom-container:hover img {
+                transform: scale(1.02);
+                /* Zooms the image slightly */
+            }
+        </style>
+
+        <section style="padding: 30px 15px; text-align: center;">
+            <div class="container-fluid" style="margin: 0 auto;">
+
+                <h2 style="color: #27467A; font-size: 30px; font-weight: 700; margin-bottom: 25px; margin-top: 0;">
+                    Explore Our <span style="font-weight: 500; color: #EF991F;">Courses</span>
+                </h2>
+
+                <p class="para1 mb-4" style="color: #27467A; font-size: 15px; line-height: 1.5;">
+                    At The Assam Royal Global University, we offer a diverse range of academic programs designed to shape
+                    future leaders and innovators. Recognized as the Best University in Assam, RGU is committed to academic
+                    excellence across undergraduate, postgraduate, and doctoral levels. As a leading university in Northeast
+                    Assam, we blend global standards with regional values to deliver impactful education.
+                </p>
+
+                <div class="row gy-4 justify-content-center">
+
+                    <div class="col-12">
+                        <a href="" class="alt-zoom-container"
+                            style="padding: 20px; border-radius: 20px; border: 1px solid #888;">
+                            <img style="border-radius: 20px;" src="mobile-assets/index/c6.svg" alt="Course Image">
+                        </a>
+                    </div>
+
+                    <div class="col-12">
+                        <a href="" class="alt-zoom-container"
+                            style="padding: 20px; border-radius: 20px; border: 1px solid #888;">
+                            <img style="border-radius: 20px;" src="mobile-assets/index/c7.svg" alt="Course Image">
+                        </a>
+                    </div>
+
+                    <div class="col-12">
+                        <a href="" class="alt-zoom-container"
+                            style="padding: 20px; border-radius: 20px; border: 1px solid #888;">
+                            <img style="border-radius: 20px;" src="mobile-assets/index/c8.svg" alt="Course Image">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Explore our courses  -->
+
+        <!-- labs  -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <style>
+            /* Unique styles for the new lab carousel section */
+            .unique-lab-carousel-section {
+                background-image: url('demo-assets/labs/lab-bg.png');
+                background-size: cover;
+                padding-top: 2rem;
+                padding-bottom: 4rem;
+            }
+
+            /* Styling for each card in the carousel */
+            .unique-lab-card {
+                background-color: #ffdcac;
+                border-radius: 0.5rem;
+                text-align: left;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+
+                /* ----- CHANGES FOR SLIGHTLY BIGGER CARDS ----- */
+                max-width: 350px;
+                /* Adjusted max-width */
+                margin: 0 auto;
+                /* Center the card horizontally within its slide */
+                /* ----------------------------------------------- */
+            }
+
+            .unique-lab-card .card-img-top {
+                width: 100%;
+                height: 250px;
+                /* Adjusted image height */
+                object-fit: cover;
+                border-top-left-radius: 0.5rem;
+                border-top-right-radius: 0.5rem;
+            }
+
+            .unique-lab-card .card-content {
+                padding: 1rem;
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .unique-lab-card .title a {
+                font-size: 30px !important;
+                /* Adjusted font size */
+                color: #27467A;
+                font-weight: 700;
+                text-decoration: none;
+            }
+
+            .unique-lab-card .title span {
+                color: #e68900;
+                font-weight: 500;
+            }
+
+            .unique-lab-card .item-btn {
+                color: #333;
+                text-decoration: none;
+                font-weight: 600;
+                margin-top: 1rem;
+                /* Adjusted margin */
+                font-size: 15px;
+                /* Adjusted font size */
+            }
+
+            /* REMOVED: Custom styles for Swiper navigation buttons */
+        </style>
+
+        <section class="unique-lab-carousel-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+
+                        <h1 style="font-weight: 700; color: #27467A; font-size: 2.5rem; margin-bottom: 2rem;">
+                            Laboratories And <span style="font-weight: 500; color: #EF991F;">Studios</span>
+                        </h1>
+
+                        <div class="swiper unique-lab-carousel">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="unique-lab-card shadow-sm">
+                                        <img src="https://www.rgu.ac/mobile-assets/laboratories/ev.jpeg" alt="EV Lab"
+                                            class="card-img-top p-2">
+                                        <div class="card-content">
+                                            <div>
+                                                <h4 class="title"><a href="">EV <span>Lab</span></a></h4>
+                                            </div>
+                                            <a href="" class="item-btn"><i class="fa-solid fa-angles-right"></i> Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="unique-lab-card shadow-sm">
+                                        <img src="https://www.rgu.ac/mobile-assets/laboratories/observe.jpeg"
+                                            alt="Royal Observatory" class="card-img-top p-2">
+                                        <div class="card-content">
+                                            <div>
+                                                <h4 class="title"><a href="">Royal
+                                                        <span>Observatory</span></a></h4>
+                                            </div>
+                                            <a href="" class="item-btn"><i class="fa-solid fa-angles-right"></i> Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="unique-lab-card shadow-sm">
+                                        <img src="demo-assets/mac-lab.jpg" alt="Mac Lab" class="card-img-top p-2">
+                                        <div class="card-content">
+                                            <div>
+                                                <h4 class="title"><a href="#">Mac <span>Lab</span></a></h4>
+                                            </div>
+                                            <a href="#" class="item-btn"><i class="fa-solid fa-angles-right"></i> Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="unique-lab-card shadow-sm">
+                                        <img src="demo-assets/labs/computer1.jpg" alt="Computer Lab"
+                                            class="card-img-top p-2">
+                                        <div class="card-content">
+                                            <div>
+                                                <h4 class="title"><a href="">Computer <span>Lab</span></a></h4>
+                                            </div>
+                                            <a href="" class="item-btn"><i class="fa-solid fa-angles-right"></i> Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="unique-lab-card shadow-sm">
+                                        <img src="demo-assets/labs/architecture1.jpg" alt="Architecture Lab"
+                                            class="card-img-top p-2">
+                                        <div class="card-content">
+                                            <div>
+                                                <h4 class="title"><a href="">Architecture <span>Lab</span></a></h4>
+                                            </div>
+                                            <a href="" class="item-btn"><i class="fa-solid fa-angles-right"></i> Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="mt-3">
+                            <a href=""
+                                style="padding: 10px 25px; background-color: #27467A; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">
+                                Explore All Labs <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script>
+            const uniqueLabCarousel = new Swiper('.unique-lab-carousel', {
+                slidesPerView: 1,
+                spaceBetween: 25, /* Reduced space for larger cards */
+                loop: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                // Removed navigation arrows from here
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 35 /* Reduced space for larger cards on tablet */
+                    },
+                    992: {
+                        slidesPerView: 3,
+                        spaceBetween: 45 /* Reduced space for larger cards on desktop */
+                    }
+                }
+            });
+        </script>
+        <!-- labs  -->
+
+        <!-- footprint  -->
+        <img src="demo-assets/footprints2.png" alt="">
+        <!-- footprint  -->
+
+        <!-- testimonial  -->
+        <section class="mt-3 mb-2">
+
+            <div class="text-center">
+                <h2 style="color: #27467A; font-size: 30px; font-weight: 700; margin-bottom: 25px; margin-top: 0;">
+                    They Speak <span style="font-weight: 500; color: #EF991F;">About Us</span>
+                </h2>
+            </div>
+
+            <div class="container">
+                <div>
+                   <a href=""> <img src="mobile-assets/index/alumni-student.png" alt=""></a>
+                </div>
+
+                <div class="mt-2">
+                   <a href=""> <img src="mobile-assets/index/recruiters.png" alt=""></a>
+                </div>
+
+                <div class="mt-2">
+                   <a href=""> <img src="mobile-assets/index/dignitaries.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial  -->
 
     </div>
 
     <div class="website">
 
-                                                                                                            <div id="popup-web" class="popup-overlay">
-                                                                                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKAyNyc88p6x7K-rFpnG9C25dneSv79DvxkvHXlOi_CHGixA/viewform" target="_blank"><img src="{{ asset('mobile-assets/notification/convo-5th.jpeg') }}"
-                                                                                                                    style="width: 700px; height: 550px;" class="popup-image" alt="Popup Image"></a>
-                                                                                                        </div>
-
-                                                                                                        <script>
-                                                                                                            document.addEventListener('DOMContentLoaded', function () {
-                                                                                                                const popup = document.getElementById('popup-web');
-
-                                                                                                                popup.addEventListener('click', function (event) {
-                                                                                                                    if (event.target === popup) {
-                                                                                                                        popup.style.display = 'none';
-                                                                                                                    }
-                                                                                                                });
-                                                                                                            });
-                                                                                                        </script>
-
-                                                                                                        <!-- floating button  -->
-                                                                                                        <div>
-                                                                                                            <a href="https://forms.gle/t7dhtshNKYwcHumq7"
-                                                                                                                style="
-                                                                                                                                                                                                                                                            position: fixed;
-                                                                                                                                                                                                                                                            bottom: 35px;
-                                                                                                                                                                                                                                                            right: 50px;
-                                                                                                                                                                                                                                                            background-color: orange;
-                                                                                                                                                                                                                                                            color: #fff;
-                                                                                                                                                                                                                                                            padding: 12px 20px;
-                                                                                                                                                                                                                                                            font-size: 18px;
-                                                                                                                                                                                                                                                            font-weight: bold;
-                                                                                                                                                                                                                                                            text-decoration: none;
-                                                                                                                                                                                                                                                            border-radius: 20px;
-                                                                                                                                                                                                                                                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-                                                                                                                                                                                                                                                            z-index: 1000;
-                                                                                                                                                                                                                                                            overflow: hidden;
-                                                                                                                                                                                                                                                            animation: pulse 2s infinite;
-                                                                                                                                                                                                                                                            ">
-                                                                                                                <span
-                                                                                                                    style="
-                                                                                                                                                                                                                                                            position: absolute;
-                                                                                                                                                                                                                                                            top: 0;
-                                                                                                                                                                                                                                                            left: -75%;
-                                                                                                                                                                                                                                                            width: 50%;
-                                                                                                                                                                                                                                                            height: 100%;
-                                                                                                                                                                                                                                                            background: linear-gradient(120deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
-                                                                                                                                                                                                                                                            transform: skewX(-25deg);
-                                                                                                                                                                                                                                                            animation: shine 2s infinite;
-                                                                                                                                                                                                                                                            "></span>
-                                                                                                                Registration for 5th Convocation
-                                                                                                            </a>
-                                                                                                            <style>
-                                                                                                                @keyframes pulse {
-                                                                                                                    0% {
-                                                                                                                        transform: scale(1);
-                                                                                                                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                                                                                                    }
-
-                                                                                                                    50% {
-                                                                                                                        transform: scale(1.05);
-                                                                                                                        box-shadow: 0 0 15px rgba(228, 206, 208, 0.6);
-                                                                                                                    }
-
-                                                                                                                    100% {
-                                                                                                                        transform: scale(1);
-                                                                                                                        box-shadow: 0 0 0 rgba(228, 206, 208, 0.4);
-                                                                                                                    }
-                                                                                                                }
-
-                                                                                                                @keyframes shine {
-                                                                                                                    0% {
-                                                                                                                        left: -75%;
-                                                                                                                    }
-
-                                                                                                                    100% {
-                                                                                                                        left: 125%;
-                                                                                                                    }
-                                                                                                                }
-                                                                                                            </style>
-                                                                                                        </div>
-                                                                                                        <!-- floating button  -->
-
         <!-- Hero Section  -->
         <section>
             <header>
                 <div>
-                    @include('frontend/components/iheader')
                     <div>
 
                         <!-- Carousel container for 4-image slider -->
@@ -783,8 +1375,8 @@
                                         <div>
                                             <a href="https://admissions.rgu.ac/" style="
       position: fixed;
-      bottom: 35px;
-      right: 50px;
+      bottom: 10px;
+      right: 10px;
       background-color: #ef991f;
       color: #fff;
       padding: 12px 20px;
@@ -904,7 +1496,55 @@
         <img src="demo-assets/explore-rgu.png" alt="">
         <!-- Explore RGU New  -->
 
+        <!-- Explore RGU  -->
+        <!-- <section
+            style="background-image: url(demo-assets/explore-rgu-bg-try.png); background-size: cover; background-position: center; height: 100vh;">
 
+            <div class="container">
+                <div class="row" style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+
+                    <div class="col-lg-7" style="display: flex; justify-content: center; align-items: center;">
+                        <div class="mt-5">
+                            <h2 style="color: #27467A; font-size: 75px;">Explore <span
+                                    style="color: #27467A; font-size: 75px; font-weight: 900;">RGU</span></h2>
+
+                            <h2 style="color: #ef991f; font-size: 40px;">About Our <span
+                                    style="color: #ef991f; font-size: 40px; font-weight: 900;">University</span></h2>
+
+                            <div class="mt-4"
+                                style="padding: 20px; background-color: #000000c7; border: 1px solid #d7d7d7; border-radius: 0px 25px 0px 25px; backdrop-filter: blur(8px); ">
+
+                                <p style="color: #fff; font-size: 18px; text-align: justify;">
+                                    The Assam Royal Global University (RGU), widely regarded as the Best University in
+                                    Assam, has established itself as a center of academic excellence and innovation. Since
+                                    its inception in 2017, it has created opportunities for students through strong industry
+                                    collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a
+                                    leading University in Assam, RGU continuously nurtures a learning environment where
+                                    innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships,
+                                    and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and
+                                    skills needed for future success. As the Best University in Assam, it remains committed
+                                    to developing industry-ready graduates who can excel in a dynamic global landscape.
+                                </p>
+
+                                <a style="color: #EF991F; font-size: 18px;" class="fw-bold" href="">
+                                    Read More ->
+                                </a>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section> -->
+        <!-- Explore RGU  -->
 
         <!-- Swiper CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -917,28 +1557,28 @@
                     <div class="swiper-slide">
                         <a href="">
                             <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                src="demo-assets/events/a.png" alt="">
+                                src="demo-assets/big-events/1.png" alt="">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="">
                             <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                src="demo-assets/events/b.png" alt="">
+                                src="demo-assets/big-events/2.png" alt="">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="">
                             <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                src="demo-assets/events/c.png" alt="">
+                                src="demo-assets/big-events/3.png" alt="">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="">
                             <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                src="demo-assets/events/d.png" alt="">
+                                src="demo-assets/big-events/4.png" alt="">
                         </a>
                     </div>
 
@@ -979,7 +1619,6 @@
         </script>
 
 
-
         <!--Event Section-->
         <section>
 
@@ -1009,7 +1648,9 @@
                     /* Vertically center the images */
                 }
 
-                .carousel-img {
+                .carousel-img,
+                .notice-carousel-img {
+                    /* Combined class for styling */
                     width: 100%;
                     height: auto;
                     /* Allow image to scale proportionally */
@@ -1061,7 +1702,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h2 style="padding-left: 15px;" class="section-title">E-Board,<span class="highlight"> RGU</span></h2>
+                            <h2 style="padding-left: 15px;" class="section-title">RGU<span class="highlight"> E-Board</span>
+                            </h2>
 
                             <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                                 <div class="carousel-inner">
@@ -1109,111 +1751,68 @@
                         </div>
 
                         <div class="col-lg-6">
-                            <h2 style="padding-left: 10px;" class="section-title">Media<span class="highlight"> Corner</span></h2>
+                            <h2 style="padding-left: 15px;" class="section-title">RGU<span class="highlight">
+                                    Research</span>
+                            </h2>
 
-                            <div style="background-color: #FFF0DB; padding: 15px; border-radius: 10px;">
-
-                                <div
-                                    style="background-color: #FAF9F6; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
-                                    <div class="row p-3 align-items-center">
-                                        <div class="col-lg-4">
-                                            <img class="border shadow-sm"
-                                                style="height: 120px; width: 100%; object-fit: fit; border-radius: 5px;"
-                                                src="https://www.rgu.ac/mobile-assets/media-corner/news39/Leadership%20Conclave%202025.jpg"
-                                                alt="Scholarship award ceremony">
+                            <div id="noticeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row w-100 mx-0">
+                                            <div class="col-6">
+                                                <img class="notice-carousel-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/Ravi_Kant-1.jpeg"
+                                                    alt="Notice 1">
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="notice-carousel-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/stu-1.1.jpeg"
+                                                    alt="Notice 2">
+                                            </div>
                                         </div>
-                                        <div class="col-lg-8">
-                                            <h2 class="para1 fw-bold mb-1" style="color: #27467A; font-size: 17px;">
-                                                National Leadership Conclave 2025 from 11th September at Royal Global
-                                                University
-                                            </h2>
-
-                                            <p class="para1" style="color: #333; font-size: 14px; margin: 0.25rem 0;">
-                                                September 2, 2025
-                                            </p>
-
-                                            <a style="color: #ef991f; font-size: 15px;" class="para1 fw-bold" href="">
-                                                Read More...
-                                            </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row w-100 mx-0">
+                                            <div class="col-6">
+                                                <img class="notice-carousel-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/sep-2.jpeg" alt="Notice 3">
+                                            </div>
+                                            <div class="col-6">
+                                                <img class="notice-carousel-img"
+                                                    src="https://www.rgu.ac/mobile-assets/events/basket.jpeg"
+                                                    alt="Notice 4">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="m-2"></div>
-
-                                <div
-                                    style="background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
-                                    <div class="row p-3 align-items-center">
-                                        <div class="col-lg-4">
-                                            <img class="border shadow-sm"
-                                                style="height: 120px; width: 100%; object-fit: fit; border-radius: 5px;"
-                                                src="https://www.rgu.ac/mobile-assets/rgu-blog/blog2.jpeg"
-                                                alt="Scholarship award ceremony">
-                                        </div>
-                                        <div class="col-lg-8">
-                                            <h2 class="para1 fw-bold mb-1" style="color: #27467A; font-size: 17px;">
-                                                AICTE-VAANI Grant Sanctioned to RGU for Indian Knowledge Systems Conference
-                                            </h2>
-
-                                            <p class="para1" style="color: #333; font-size: 14px; margin: 0.25rem 0;">
-                                                September 1, 2025
-                                            </p>
-
-                                            <a style="color: #ef991f; font-size: 15px;" class="para1 fw-bold" href="">
-                                                Read More...
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="m-2"></div>
-
-                                <div
-                                    style="background-color: #FAF9F6; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);">
-                                    <div class="row p-3 align-items-center">
-                                        <div class="col-lg-4">
-                                            <img class="border shadow-sm"
-                                                style="height: 120px; width: 100%; object-fit: cover; border-radius: 5px;"
-                                                src="https://www.rgu.ac/mobile-assets/media-corner/news38/head.jpg"
-                                                alt="Scholarship award ceremony">
-                                        </div>
-                                        <div class="col-lg-8">
-                                            <h2 class="para1 fw-bold mb-1" style="color: #27467A; font-size: 17px;">
-                                                Supreme Court Judge unveils one of India’s largest Gavels at Royal Global
-                                                University
-                                            </h2>
-
-                                            <p class="para1" style="color: #333; font-size: 14px; margin: 0.25rem 0;">
-                                                August 30, 2025
-                                            </p>
-
-                                            <a style="color: #ef991f; font-size: 15px;" class="para1 fw-bold" href="">
-                                                Read More...
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="mt-4 text-center">
-                                    <a class="para1"
-                                        style="padding: 10px 20px; background-color: #27467A; color: #fff; border-radius: 5px; font-size: 14px;"
-                                        href="">View All</a>
-                                </div>
-
-
+                            <div class="text-center mt-3">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#noticeCarousel"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#noticeCarousel"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
 
             <div id="lightbox">
-                <img id="lightbox-img" src="" alt="Zoomed Event Image">
+                <img id="lightbox-img" src="" alt="Zoomed Image">
             </div>
 
             <script>
                 // --- Lightbox Functionality ---
-                const zoomableImages = document.querySelectorAll('.carousel-img');
+                // Selects images from BOTH carousels
+                const zoomableImages = document.querySelectorAll('.carousel-img, .notice-carousel-img');
                 const lightbox = document.getElementById('lightbox');
                 const lightboxImg = document.getElementById('lightbox-img');
 
@@ -1228,271 +1827,371 @@
                     lightbox.style.display = 'none';
                 });
 
-                // --- REVISED JAVASCRIPT: Auto-adjust slide height ---
-                function normalizeSlideHeights() {
-                    const carousel = document.querySelector('#eventsCarousel');
-                    const carouselInner = carousel.querySelector('.carousel-inner');
-                    const carouselItems = carousel.querySelectorAll('.carousel-item');
+                // --- REVISED JAVASCRIPT: Auto-adjust height for ALL carousels ---
+                function normalizeCarouselHeights(carouselElement) {
+                    const carouselInner = carouselElement.querySelector('.carousel-inner');
+                    if (!carouselInner) return; // Exit if no inner container found
+
+                    const carouselItems = carouselElement.querySelectorAll('.carousel-item');
                     let maxHeight = 0;
-                    const activeItem = carousel.querySelector('.carousel-item.active');
+                    const activeItem = carouselElement.querySelector('.carousel-item.active');
+
+                    // Temporarily remove active class to measure all items properly
                     if (activeItem) activeItem.classList.remove('active');
 
+                    // Loop through slides to find the max height
                     carouselItems.forEach(item => {
-                        item.style.display = 'block';
+                        item.style.display = 'block'; // Make it visible to get height
                         if (item.offsetHeight > maxHeight) {
                             maxHeight = item.offsetHeight;
                         }
-                        item.style.display = '';
+                        item.style.display = ''; // Reset display property
                     });
 
+                    // Restore the active class
                     if (activeItem) activeItem.classList.add('active');
+
+                    // Apply the calculated min-height to the inner container
                     if (maxHeight > 0) {
                         carouselInner.style.minHeight = `${maxHeight}px`;
                     }
                 }
 
-                window.addEventListener('load', normalizeSlideHeights);
-                window.addEventListener('resize', normalizeSlideHeights);
+                // Function to run normalization on all carousels on the page
+                function adjustAllCarousels() {
+                    const allCarousels = document.querySelectorAll('.carousel.slide');
+                    allCarousels.forEach(normalizeCarouselHeights);
+                }
+
+                // Run the function on page load and on window resize
+                window.addEventListener('load', adjustAllCarousels);
+                window.addEventListener('resize', adjustAllCarousels);
             </script>
 
         </section>
         <!--End Event-->
 
+        <!-- Media Corner  -->
+        <section>
 
+            <style>
+                /* Main container for the scroller */
+                .infinite-scroll-container {
+                    width: 100%;
+                    overflow: hidden;
+                    display: flex;
+                    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+                    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+                }
 
-        <!-- campus life New -->
-        <section
-            style="background-image: url(demo-assets/campus-life/buildings.png); background-size: cover; height: 90vh; background-position: center;">
-            <div class="container py-5">
+                /* Wrapper for the scrolling items */
+                .scroll-content {
+                    display: flex;
+                    flex-shrink: 0;
+                    animation: scrollAnimation 60s linear infinite;
+                }
 
-                <!-- Row: Left Heading, Right Tabs -->
-                <div class="d-flex justify-content-between align-items-start">
+                /* Individual card styling */
+                .scroll-card {
+                    width: 320px;
+                    margin: 0 15px;
+                    background-color: #ffffff;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                    overflow: hidden;
+                    flex-shrink: 0;
+                    display: flex;
+                    flex-direction: column;
+                    height: 400px;
+                }
 
-                    <!-- Heading on left -->
-                    <!-- <h2 style="color:white; font-weight: 800; margin:0; letter-spacing: 2px;">Our Campus Life</h2> -->
+                /* This container creates a fixed-size "window" for the image */
+                .scroll-card-image-container {
+                    height: 200px;
+                    width: 100%;
+                    flex-shrink: 0;
+                    overflow: hidden;
+                }
 
-                    <!-- Tabs on right -->
-                    <!-- <ul class="nav nav-tabs flex-row align-items-end mb-3" id="myTab" role="tablist"
-                                style="border:0;">
+                /* The image is now told to fill its container */
+                .scroll-card-image {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                }
 
-                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px;" class="nav-item"
-                                    role="presentation">
-                                    <button class="nav-link active" id="campus-tab" data-bs-toggle="tab"
-                                        data-bs-target="#campus" type="button" role="tab"
-                                        style="color:#F6921E; font-weight:bold; background:transparent; border:0;">
-                                        Campus
-                                    </button>
-                                </li>
+                /* The text content area that will align its children */
+                .scroll-card-text-content {
+                    padding: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-grow: 1;
+                    justify-content: space-between;
+                    /* Pushes content to top and button to bottom */
+                }
 
-                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px; padding-left: 5px;"
-                                    class="nav-item" role="presentation">
-                                    <button class="nav-link" id="residence-tab" data-bs-toggle="tab"
-                                        data-bs-target="#residence" type="button" role="tab"
-                                        style="color:white; font-weight:normal; background:transparent; border:0;">
-                                        Residence Life
-                                    </button>
-                                </li>
+                .scroll-card-heading {
+                    font-size: 1.15rem;
+                    font-weight: 600;
+                    color: #27467A;
+                    margin: 0 0 5px 0;
+                }
 
-                                <li style="border-right: 2px solid #ffffff3a; padding-right: 5px; padding-left: 5px;"
-                                    class="nav-item" role="presentation">
-                                    <button class="nav-link" id="games-tab" data-bs-toggle="tab" data-bs-target="#games"
-                                        type="button" role="tab"
-                                        style="color:white; font-weight:normal; background:transparent; border:0;">
-                                        Games & Sports
-                                    </button>
-                                </li>
+                .scroll-card-date {
+                    font-size: 0.8rem;
+                    color: #888;
+                    margin: 0 0 15px 0;
+                }
 
-                                <li style="padding-right: 5px;" class="nav-item" role="presentation">
-                                    <button class="nav-link" id="amenities-tab" data-bs-toggle="tab"
-                                        data-bs-target="#amenities" type="button" role="tab"
-                                        style="color:white; font-weight:normal; background:transparent; border:0;">
-                                        Amenities
-                                    </button>
-                                </li>
-                            </ul> -->
-                </div>
+                /* The button no longer needs margin-top: auto */
+                .scroll-card-button {
+                    display: inline-block;
+                    background-color: #27467A;
+                    color: #ffffff;
+                    padding: 0.5rem 1rem;
+                    font-size: 0.875rem;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    text-align: center;
+                    font-weight: 500;
+                    transition: background-color 0.3s ease;
+                }
 
-                <!-- Tab content below -->
-                <div class="tab-content w-100 mt-2" id="myTabContent"
-                    style="margin-top:20px; padding:15px; background: transparent; color:white; border-radius:8px;">
+                .scroll-card-button:hover {
+                    background-color: #1a3258;
+                    color: #ffffff;
+                }
 
-                    <div class="tab-pane fade show active" id="campus" role="tabpanel" aria-labelledby="campus-tab">
+                @keyframes scrollAnimation {
+                    0% {
+                        transform: translateX(0);
+                    }
 
-                        <div class="row">
+                    100% {
+                        transform: translateX(-100%);
+                    }
+                }
+            </style>
 
-                            <div class="col-lg-6"
-                                style="display: flex; flex-direction: column; justify-content: center; background-color: #00000077; border: 1px solid #d7d7d776; border-radius: 0px 25px 0px 25px; backdrop-filter: blur(8px); padding: 25px;">
-                                <h2 class="headd1"
-                                    style="color:#e68900; font-weight: 700; margin:0; letter-spacing: 2px; font-size: 45px;">
-                                    Our Campus <span
-                                        style="color:white; font-weight: 500; margin:0; letter-spacing: 2px; font-size: 45px;">Life</span>
-                                </h2>
+            <section
+                style="height: 90vh; background-image: url(demo-assets/bg4.png); background-size: cover; background-position: center;">
+                <div class="row g-0" style="height: 100%;">
+                    <div class="col-lg-3"
+                        style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 2rem; ">
 
-                                <p class="para1 mt-4" style="font-size: 18px; text-align: justify;">
-                                    Recognized as the best private university in Assam, The Assam Royal Global
-                                    University provides an enriching campus life that complements academic
-                                    excellence. As the best University in Northeast Assam, we foster holistic
-                                    development through vibrant cultural festivals, academic clubs, and sports
-                                    activities. Students thrive in a dynamic atmosphere that nurtures leadership and
-                                    teamwork. Known as the top private university in Assam, we offer platforms for
-                                    students to explore their interests beyond the classroom. With a reputation as
-                                    the best private university in Assam, our inclusive environment supports both
-                                    academic growth and personal development for those studying at the Best
-                                    University in Guwahati or the Best Management College in Guwahati.
-                                </p>
-                            </div>
+                        <h2 class="text-center" style="color: #fff; font-weight: 700; font-size: 65px;">
+                            Media<span style="color: #e68900; font-weight: 600; font-size: 60px;"> Corner</span></h2>
 
-                            <div class="col-lg-6" style="display: flex; justify-content: center;">
-                                <div id="squareCarousel" class="carousel slide" data-bs-ride="carousel"
-                                    data-bs-interval="2500" style="width: 100%; max-width:80%;">
-
-                                    <!-- Indicators -->
-                                    <div class="carousel-indicators" style="margin-bottom: -2rem;">
-
-                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="0"
-                                            class="active" aria-current="true" aria-label="Slide 1"
-                                            style="width:10px;height:10px;border-radius:50%;"></button>
-
-                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="1"
-                                            aria-label="Slide 2" style="width:10px;height:10px;border-radius:50%;"></button>
-
-                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="2"
-                                            aria-label="Slide 3" style="width:10px;height:10px;border-radius:50%;"></button>
-
-                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="3"
-                                            aria-label="Slide 4" style="width:10px;height:10px;border-radius:50%;"></button>
-
-                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="4"
-                                            aria-label="Slide 5" style="width:10px;height:10px;border-radius:50%;"></button>
-
-                                        <!-- <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="5"
-                                            aria-label="Slide 6" style="width:10px;height:10px;border-radius:50%;"></button>
-
-                                        <button type="button" data-bs-target="#squareCarousel" data-bs-slide-to="6"
-                                            aria-label="Slide 7" style="width:10px;height:10px;border-radius:50%;"></button> -->
-
-                                    </div>
-
-                                    <!-- Slides -->
-                                    <div class="carousel-inner" style="border-radius: 16px; overflow: hidden; width:100%;">
-
-                                        <!-- Slide 1 -->
-                                        <div class="carousel-item active">
-                                            <div
-                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
-                                                <a href=""> <img src="demo-assets/campus-life/infra.jpg" alt="Slide 1"
-                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <!-- Slide 2 -->
-                                        <!-- <div class="carousel-item">
-                                            <div
-                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
-                                                <a href=""> <img src="demo-assets/campus-life/games.jpg" alt="Slide 2"
-                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
-                                                </a>
-                                            </div>
-                                        </div> -->
-
-                                        <!-- Slide 3 -->
-                                        <!-- <div class="carousel-item">
-
-                                            <div
-                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
-                                                <a href=""> <img src="demo-assets/campus-life/amenities.jpg" alt="Slide 3"
-                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
-                                                </a>
-                                            </div>
-                                        </div> -->
-
-                                        <!-- Slide 4 -->
-                                        <div class="carousel-item">
-
-                                            <div
-                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
-                                                <a href=""> <img src="demo-assets/campus-life/clubs.jpg" alt="Slide 3"
-                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <!-- Slide 5 -->
-                                        <div class="carousel-item">
-
-                                            <div
-                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
-                                                <a href=""> <img src="demo-assets/campus-life/events.jpg" alt="Slide 3"
-                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <!-- Slide 6 -->
-                                        <div class="carousel-item">
-
-                                            <div
-                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
-                                                <a href=""> <img src="demo-assets/campus-life/hostel.jpg" alt="Slide 3"
-                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <!-- Slide 7 -->
-                                        <div class="carousel-item">
-
-                                            <div
-                                                style="position: relative; width: 100%; padding-top: 100%; background:#f3f3f3;">
-                                                <a href=""> <img src="demo-assets/campus-life/student-aff.jpg" alt="Slide 3"
-                                                        style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <!-- Controls -->
-                                    <!-- <div class="text-center mt-2">
-                                        <button class="carousel-control-prev" type="button" data-bs-target="#squareCarousel"
-                                            data-bs-slide="prev" style="filter: drop-shadow(0 0 4px rgba(0,0,0,0.6));">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#squareCarousel"
-                                            data-bs-slide="next" style="filter: drop-shadow(0 0 4px rgba(0,0,0,0.6));">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </button>
-                                    </div> -->
-
-                                </div>
-                            </div>
-
-
-                        </div>
+                        <a style="padding: 8px 20px; color: #fff; background-color: #e68900; border-radius: 12px;"
+                            class="mt-5 para1 fw-bold" href="https://www.rgu.ac/media-corner">View All</a>
 
                     </div>
-
-
+                    <div class="col-lg-9"
+                        style="display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+                        <div id="js-scroller-container" class="infinite-scroll-container">
+                            <div class="scroll-content">
+                                <div class="scroll-card">
+                                    <div class="scroll-card-image-container">
+                                        <img src="https://rgu.ac/mobile-assets/media-corner/news41/1.jpg"
+                                            alt="Physiotherapist Prof. Ali Irani" class="scroll-card-image">
+                                    </div>
+                                    <div class="scroll-card-text-content">
+                                        <div>
+                                            <h3 class="scroll-card-heading">India’s Legendary Physiotherapist Prof. Ali
+                                                Irani takes Session at Royal Global University</h3>
+                                            <p class="scroll-card-date">Sep 5, 2025</p>
+                                        </div>
+                                        <a href="https://rgu.ac/india%E2%80%99s-legendary-physiotherapist-prof-ali-irani-takes-session-at-royal-global-university"
+                                            class="scroll-card-button">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="scroll-card">
+                                    <div class="scroll-card-image-container">
+                                        <img src="https://rgu.ac/mobile-assets/media-corner/news40/1.jpg"
+                                            alt="Former Tata Motors CEO" class="scroll-card-image">
+                                    </div>
+                                    <div class="scroll-card-text-content">
+                                        <div>
+                                            <h3 class="scroll-card-heading">Former Tata Motors CEO to talk on “Leading from
+                                                the Back to Achieve the Impossible” at RGU</h3>
+                                            <p class="scroll-card-date">Sep 04, 2025</p>
+                                        </div>
+                                        <a href="https://rgu.ac/former-tata-motors-ceo-to-talk-on-leading-from-the-back-to-achieve-the-impossible-at-rgu"
+                                            class="scroll-card-button">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="scroll-card">
+                                    <div class="scroll-card-image-container">
+                                        <img src="https://rgu.ac/mobile-assets/rgu-blog/blog2.jpeg"
+                                            alt="Royal Global University building" class="scroll-card-image">
+                                    </div>
+                                    <div class="scroll-card-text-content">
+                                        <div>
+                                            <h3 class="scroll-card-heading">AICTE-VAANI Grant Sanctioned to RGU for Indian
+                                                Knowledge Systems Conference</h3>
+                                            <p class="scroll-card-date">Sep 01, 2025</p>
+                                        </div>
+                                        <a href="https://rgu.ac/aicte-vaani-grant-sanctioned-to-rgu-for-indian-knowledge-systems-conference"
+                                            class="scroll-card-button">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="scroll-card">
+                                    <div class="scroll-card-image-container">
+                                        <img src="https://rgu.ac/mobile-assets/media-corner/news38/head.jpg"
+                                            alt="Large gavel statue" class="scroll-card-image">
+                                    </div>
+                                    <div class="scroll-card-text-content">
+                                        <div>
+                                            <h3 class="scroll-card-heading">Supreme Court Judge unveils one of India’s
+                                                largest Gavels at Royal Global University</h3>
+                                            <p class="scroll-card-date">Aug 30, 2025</p>
+                                        </div>
+                                        <a href="https://rgu.ac/supreme-court-judge-unveils-one-of-india%E2%80%99s-largest-gavels-at-royal-global-university"
+                                            class="scroll-card-button">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-            </div>
+            </section>
 
             <script>
-                // Keep active tab orange + bold
-                const tabLinks = document.querySelectorAll('.nav-link');
-                tabLinks.forEach(tab => {
-                    tab.addEventListener('shown.bs.tab', () => {
-                        tabLinks.forEach(btn => { btn.style.color = 'white'; btn.style.fontWeight = 'normal'; });
-                        tab.style.color = '#F6921E';
-                        tab.style.fontWeight = 'bold';
-                    });
+                document.addEventListener('DOMContentLoaded', () => {
+                    const scrollerContainer = document.getElementById('js-scroller-container');
+                    if (scrollerContainer) {
+                        const contentToScroll = scrollerContainer.querySelector('.scroll-content');
+                        if (contentToScroll) {
+                            const clonedContent = contentToScroll.cloneNode(true);
+                            scrollerContainer.appendChild(clonedContent);
+                        }
+                    }
                 });
             </script>
 
         </section>
+        <!-- Media Corner  -->
+
+        <!-- campus life New -->
+        <style>
+            /* Import the Yellowtail font from Google Fonts */
+            @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+            /* This container holds both the image and the button. */
+            .image-wrapper {
+                position: relative;
+                display: inline-block;
+            }
+
+            /* Makes sure the image is responsive */
+            .image-wrapper img {
+                display: block;
+                width: 100%;
+                height: auto;
+                max-width: 100%;
+            }
+
+            /* This is the button that sits on top. */
+            .view-button {
+                position: absolute;
+                top: 88%;
+                left: 80%;
+                transform: translate(-50%, -50%);
+
+                /* --- Font Styling --- */
+                font-family: 'Yellowtail', cursive;
+                font-weight: 400;
+                font-size: 25px;
+
+                /* --- Button Styling --- */
+                padding: 15px 40px;
+                color: rgba(255, 255, 255, 0.673);
+                background-color: #e68a0068;
+                border: 2px solid white;
+                border-radius: 30px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+
+                /* --- NEW: Added for shine effect --- */
+                overflow: hidden;
+                /* This hides the shine effect outside the button's boundaries */
+
+                /* --- NEW: Apply the pulse animation --- */
+                /* 'pulse' is the animation name, '2s' is the duration, 'infinite' makes it loop forever */
+                animation: pulse 2s infinite;
+            }
+
+            /* A simple hover effect */
+            .view-button:hover {
+                background-color: #EF991F;
+                color: #fff;
+                transform: translate(-50%, -50%) scale(1.1);
+                /* Slightly larger scale on hover */
+
+                /* --- NEW: Pause the animation on hover for a smoother experience --- */
+                animation-play-state: paused;
+            }
+
+            /* --- NEW: SHINE EFFECT --- */
+            /* Create a pseudo-element that will be our 'shine' */
+            .view-button::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                /* Start off-screen to the left */
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(120deg,
+                        rgba(255, 255, 255, 0) 20%,
+                        rgba(255, 255, 255, 0.8) 50%,
+                        rgba(255, 255, 255, 0) 80%);
+                /* Apply the shine animation */
+                animation: shine 5s infinite linear;
+                /* '5s' duration, 'linear' speed, loops forever */
+            }
+
+            /* --- NEW: PULSE ANIMATION KEYFRAMES --- */
+            /* This defines the steps of the 'pulse' animation */
+            @keyframes pulse {
+                0% {
+                    transform: translate(-50%, -50%) scale(1);
+                    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+                }
+
+                70% {
+                    transform: translate(-50%, -50%) scale(1.05);
+                    box-shadow: 0 0 10px 15px rgba(255, 255, 255, 0);
+                }
+
+                100% {
+                    transform: translate(-50%, -50%) scale(1);
+                    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+                }
+            }
+
+            /* --- NEW: SHINE ANIMATION KEYFRAMES --- */
+            /* This defines the steps of the 'shine' animation */
+            @keyframes shine {
+                0% {
+                    left: -100%;
+                    /* Starts off-screen left */
+                }
+
+                100% {
+                    left: 100%;
+                    /* Ends off-screen right */
+                }
+            }
+        </style>
+
+        <div class="image-wrapper">
+            <img src="demo-assets/campus-life/bg2.png" alt="Scenic Landscape">
+            <button class="view-button headd1">
+                Click for 360&deg; View
+            </button>
+        </div>
         <!-- campus life New -->
 
         <!-- Courses Card  -->
@@ -1648,8 +2347,8 @@
                                                                     <h4 class="title kd-heading-1 kd-font-900 para1">
                                                                         <a href=""
                                                                             style="font-size: 17px !important; color: #27467A;"
-                                                                            aria-label="name">Royal Observatory <span
-                                                                                style="color: #e68900;">Lab</span></a>
+                                                                            aria-label="name">Royal <span
+                                                                                style="color: #e68900;">Observatory</span></a>
                                                                     </h4>
                                                                     <a href="" aria-label="name"
                                                                         class="item-btn para1 text-capitalize">
@@ -2303,13 +3002,13 @@
                 </div>
 
                 <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
-                    <figure><a href=""><img style="border: 2px solid #fff;"
-                                src="mobile-assets/index/recruiters.png" /></a></figure>
+                    <figure><a href=""><img style="border: 2px solid #fff;" src="mobile-assets/index/recruiters.png" /></a>
+                    </figure>
 
                 </div>
                 <div class="col-lg-4" style="padding: 0px !important; margin: 0px !important;">
-                    <figure><a href=""><img style="border: 2px solid #fff;"
-                                src="mobile-assets/index/dignitaries.png" /></a></figure>
+                    <figure><a href=""><img style="border: 2px solid #fff;" src="mobile-assets/index/dignitaries.png" /></a>
+                    </figure>
 
                 </div>
             </div>
