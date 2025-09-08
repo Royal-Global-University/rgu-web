@@ -1523,9 +1523,9 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
 
         <div class="image-wrapper">
             <img src="demo-assets/campus-life/bg2.png" alt="Scenic Landscape">
-            <button class="view-button headd1">
-                Click for 360&deg; View
-            </button>
+            <a href="/360-tour" class="view-button headd1">
+  Click for 360&deg; View
+</a>
         </div>
         <!-- campus life New -->
 
