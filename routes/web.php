@@ -3948,6 +3948,10 @@ Route::get('/faculty-tahera-mozumdar', function () {
 
 //RSBSC Faculty Profile
 
+Route::get('/faculty-nitesh-priyadarshi', function () {
+    return view('frontend/facultyprofile/rsbsc/nitesh-priyadarshi');
+})->name('faculty-nitesh-priyadarshi');
+
 Route::get('/faculty-dipayan-das', function () {
     return view('frontend/facultyprofile/rsbsc/dipayan-das');
 })->name('faculty-dipayan-das');

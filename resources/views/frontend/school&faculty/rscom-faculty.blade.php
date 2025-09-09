@@ -14,26 +14,6 @@
                 <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
                     <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rscom/1.jpeg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Suresh
-                                    Chandra Nayak</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Dean i/c Royal School of Communication & Media
-                                </p>
-                                <a href="faculty-suresh-chandra">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
 
                         <a href="advisor-prasanta-jyoti-baruah">
                             <div class="card rounded d-flex flex-column"
@@ -284,27 +264,6 @@
             <div style="padding: 20px 70px;">
 
                 <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/all-faculty/rscom/1.jpeg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Suresh
-                                    Chandra Nayak</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Dean i/c Royal School of Communication & Media
-                                </p>
-                                <a href="faculty-suresh-chandra">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                        Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-lg-3 mb-4">
 
                         <a href="advisor-prasanta-jyoti-baruah">
