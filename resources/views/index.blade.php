@@ -1150,16 +1150,6 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                         </h2>
 
                                         <div id="slides" style="display: flex; transition: transform 0.7s ease;">
-                                            <img class="zoomable" src="mobile-assets/events/sep6-1.jpg"
-                                                style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                            <img class="zoomable" src="mobile-assets/events/sep6-2.jpg"
-                                                style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                            <img class="zoomable" src="mobile-assets/events/sep6-3.jpg"
-                                                style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                            <img class="zoomable" src="mobile-assets/events/Ravi_Kant-1.jpeg"
-                                                style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                            <img class="zoomable" src="mobile-assets/events/basket.jpeg"
-                                                style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                             <img class="zoomable" src="mobile-assets/events/stu-1.1.jpeg"
                                                 style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                             <img class="zoomable" src="mobile-assets/events/stu2.png"
