@@ -350,7 +350,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Prof. (Dr.) M P Verma
+                                    Prof. (Dr.) M P Verma, Royal School of Hotel Management, Royal School of Travel and Tourism Management
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor & Dean
@@ -744,7 +744,7 @@
                                 Prof. (Dr.) M P Verma
                             </h5>
                             <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Professor & Dean
+                                Professor & Dean, Royal School of Hotel Management, Royal School of Travel and Tourism Management
                             </p>
                         </div>
                     </div>

@@ -3126,6 +3126,10 @@ Route::get('/india’s-legendary-physiotherapist-prof-ali-irani-takes-session-at
     return view('frontend/media-corner/news42');
 })->name('india’s-legendary-physiotherapist-prof-ali-irani-takes-session-at-royal-global-university');
 
+Route::get('/regenerate-public-enthusiasm-for-bhupen-hazarika-for-another-century-prof-amarjyoti-choudhury', function () {
+    return view('frontend/media-corner/news43');
+})->name('regenerate-public-enthusiasm-for-bhupen-hazarika-for-another-century-prof-amarjyoti-choudhury');
+
 
 //IKS Faculty Profile
 
