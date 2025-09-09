@@ -3130,6 +3130,14 @@ Route::get('/regenerate-public-enthusiasm-for-bhupen-hazarika-for-another-centur
     return view('frontend/media-corner/news43');
 })->name('regenerate-public-enthusiasm-for-bhupen-hazarika-for-another-century-prof-amarjyoti-choudhury');
 
+Route::get('/prof-amarjyoti-choudhury-calls-to-reignite-public-enthusiasm-for-bhupen-hazarika-for-another-century', function () {
+    return view('frontend/media-corner/news44');
+})->name('prof-amarjyoti-choudhury-calls-to-reignite-public-enthusiasm-for-bhupen-hazarika-for-another-century');
+
+Route::get('/industry-stalwarts-ravi-kant-rajesh-srivastava-address-session-at-rgu', function () {
+    return view('frontend/media-corner/news45');
+})->name('industry-stalwarts-ravi-kant-rajesh-srivastava-address-session-at-rgu');
+
 
 //IKS Faculty Profile
 
@@ -3474,6 +3482,10 @@ Route::get('/faculty-sthiti-dutta', function () {
 })->name('faculty-sthiti-dutta');
 
 //RSMAS FACULTY Profile
+
+Route::get('/faculty-vilhoubeinuo-veronica-khruomo', function () {
+    return view('frontend/facultyprofile/rsmas/vilhoubeinuo-veronica-khruomo');
+})->name('faculty-vilhoubeinuo-veronica-khruomo');
 
 Route::get('/faculty-priyanka-bhattacharyya', function () {
     return view('frontend/facultyprofile/rsmas/priyanka');
@@ -3877,6 +3889,10 @@ Route::get('/faculty-syed-sajidul-islam', function () {
 
 
 //RSBAS Faculty Profile
+
+Route::get('/olivia-kakati', function () {
+    return view('frontend/facultyprofile/rsbas/olivia-kakati');
+})->name('/olivia-kakati');
 
 Route::get('/Prof-dn-singh', function () {
     return view('frontend/facultyprofile/rsb/dn-singh');
@@ -4334,6 +4350,18 @@ Route::get('/faculty-bhupali-saikia', function () {
 })->name('faculty-bhupali-saikia');
 
 //RSB Facuilty Profile
+
+Route::get('/faculty-manas-pratim', function () {
+    return view('frontend/facultyprofile/rsb/manas-pratim');
+})->name('faculty-manas-pratim');
+
+Route::get('/faculty-kuldip-agarwal', function () {
+    return view('frontend/facultyprofile/rsb/kuldip-agarwal');
+})->name('faculty-kuldip-agarwal');
+
+Route::get('/faculty-jayshree-talukdar', function () {
+    return view('frontend/facultyprofile/rsb/jayshree-talukdar');
+})->name('faculty-jayshree-talukdar');
 
 Route::get('/faculty-Dipak-jain', function () {
     return view('frontend/facultyprofile/rsb/Dipak-jain');
