@@ -377,10 +377,9 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Smita-Das-RSMAS.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/optometry/1.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -398,10 +397,9 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Bhayolina-Sarma-RSMAS.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/optometry/4.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -419,10 +417,9 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Ms-Joyshree-Das.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/optometry/2.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -440,10 +437,9 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Krishanjit-Parasar.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/optometry/6.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -461,10 +457,9 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Ms-Lipika-Kalita-RSMAS.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/optometry/3.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -482,10 +477,9 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Mr-Mrityunjoy-Bose.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mr-Mrityunjoy-Bose.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -499,6 +493,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
 
                                 <div class="text-center text-white fw-bold pt-2 pb-2" style="background-color: #27467A">
@@ -880,7 +875,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/priyanka.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/nutrition/2.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -947,7 +942,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/debjani.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/nutrition/3.png"
                                     class="img-fluid rounded border" />
                             </div>
 
@@ -1058,7 +1053,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Jebin-Sultana-RSMAS.png"
+                                    src="mobile-assets/updated-faculty-img/nutrition/1.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1471,7 +1466,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Smita-Das-RSMAS.png"
+                                    src="mobile-assets/updated-faculty-img/optometry/1.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1492,7 +1487,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Bhayolina-Sarma-RSMAS.png"
+                                    src="mobile-assets/updated-faculty-img/optometry/4.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1513,7 +1508,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Ms-Joyshree-Das.png"
+                                    src="mobile-assets/updated-faculty-img/optometry/2.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1534,7 +1529,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Krishanjit-Parasar.png"
+                                    src="mobile-assets/updated-faculty-img/optometry/6.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1555,7 +1550,7 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Ms-Lipika-Kalita-RSMAS.png"
+                                    src="mobile-assets/updated-faculty-img/optometry/3.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1976,7 +1971,7 @@
                                                                 <div class="card rounded d-flex flex-column"
                                                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                                                                     <div class="p-3">
-                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/priyanka.png"
+                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/nutrition/2.png"
                                                                             class="img-fluid rounded border" />
                                                                     </div>
 
@@ -2043,7 +2038,7 @@
                                                                 <div class="card rounded d-flex flex-column"
                                                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                                                                     <div class="p-3">
-                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/debjani.png"
+                                                                        <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/nutrition/3.png"
                                                                             class="img-fluid rounded border" />
                                                                     </div>
 
@@ -2154,7 +2149,7 @@
                                             <div class="card rounded d-flex flex-column"
                                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                                                 <div class="p-3">
-                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Jebin-Sultana-RSMAS.png"
+                                                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/nutrition/1.png"
                                                         class="img-fluid rounded border" />
                                                 </div>
                                                 <div class="card-body d-flex flex-column flex-grow-1">
