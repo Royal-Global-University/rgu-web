@@ -377,10 +377,9 @@
             <div style="padding: 20px 90px;">
 
                 <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 600px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
                             <div class="p-3">
                                 <img style="height: 300px; width: 100%;" src="mobile-assets/all-faculty/rsa/1.jpeg"
                                     class="img-fluid rounded border" />
@@ -402,16 +401,9 @@
                         </div>
                     </div>
 
-                </div>
-
-                <hr>
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
                             <div class="p-3">
                                 <img style="height: 300px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Siddhartha-Deb-RSA.png"
@@ -427,7 +419,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
                             <div class="p-3">
                                 <img style="height: 300px; width: 100%;" src="mobile-assets/all-faculty/rsa/3.jpeg"
                                     class="img-fluid rounded border" />
@@ -447,7 +439,7 @@
 
                     <div class="col-lg-3 mb-4">
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
                             <div class="p-3">
                                 <img style="height: 300px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Ar-Kasturi-Borah-RSA.png"
@@ -684,6 +676,167 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ar. Rajesh Deb
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Mousumi-Deka-RSFA.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Mousumi
+                                    Deka</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                                <a href="faculty-mousumi-deka">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsl/Pankaj.jpeg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Mr. Pankaj Gogoi
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsl/Chandni.jpeg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Ms. Chandni Khaund
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Bishal-Podder-RSET.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Bishal
+                                    Podder</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor & Coordinator, Mechanical Engineering
+                                </p>
+                                <a href="faculty-bishal-podder">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Dr-Fariza-Saidin-RSBAS.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Fariza
+                                    Saidin</h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="faculty-fariza-saidin">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Prasant-Mali-RSL.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Mr. Prasant Mali
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Bisalakshi-Sawarni-RSL.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Bisalakshi Sawarni
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-3 mb-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/olivia.JPG"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Olivia
+                                    Kakati
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
+                                <a href="olivia-kakati">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
