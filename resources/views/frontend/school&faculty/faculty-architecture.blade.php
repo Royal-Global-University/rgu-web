@@ -842,6 +842,7 @@
                     </div>
 
                 </div>
+                
 
                 <div class="text-center text-white fw-bold pt-2 pb-2" style="background-color: #27467A">
                     <h3>Visiting Faculty</h3>
