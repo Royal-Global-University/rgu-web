@@ -3550,6 +3550,22 @@ Route::get('/faculty-elizabeth', function () {
 
 // RSFT Faculty Profile
 
+Route::get('/faculty-zubin-islam', function () {
+    return view('frontend/facultyprofile/rsft/zubin-islam');
+})->name('faculty-zubin-islam');
+
+Route::get('/faculty-varsha-jain', function () {
+    return view('frontend/facultyprofile/rsft/varsha-jain');
+})->name('faculty-varsha-jain');
+
+Route::get('/faculty-sukriti', function () {
+    return view('frontend/facultyprofile/rsft/sukriti');
+})->name('faculty-sukriti');
+
+Route::get('/faculty-ameet', function () {
+    return view('frontend/facultyprofile/rsft/ameet');
+})->name('faculty-ameet');
+
 Route::get('/faculty-thangjam-roshini', function () {
     return view('frontend/facultyprofile/rsft/thangjam-roshini');
 })->name('faculty-thangjam-roshini');

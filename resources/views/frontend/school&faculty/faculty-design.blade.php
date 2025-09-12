@@ -205,8 +205,11 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-
                                 </p>
+                                <a href="faculty-varsha-jain">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
 
                             </div>
                         </div>
@@ -225,7 +228,6 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor, <br>
-
                                 </p>
 
                             </div>
@@ -963,7 +965,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 630px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/suresh.jpg"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1056,7 +1058,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-varsha-jain">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1076,7 +1081,10 @@
                                     Assistant Professor, <br>
 
                                 </p>
-
+                                <a href="faculty-zubin-islam">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1084,7 +1092,7 @@
                     <div class="col-lg-3 mb-4">
 
                         <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Ankit.jpg"
                                     class="img-fluid rounded border" />
@@ -1900,7 +1908,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 450px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsc/no-pic.png"
+                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Ameet.jpg"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
