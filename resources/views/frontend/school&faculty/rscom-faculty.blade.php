@@ -20,15 +20,19 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg"
+                                        class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Prasanta Jyoti Baruah
+                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr.
+                                        Prasanta Jyoti Baruah
                                     </h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Distinguished Professor,
+                                    <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">
+                                        Distinguished Professor,
                                         Royal School of Communication and Media (RSCOM)</p>
 
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
 
                                 </div>
                             </div>
@@ -240,7 +244,8 @@
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Jintu Mahanta</h5>
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Jintu Mahanta
+                                </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-jintu-mahanta">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
@@ -251,6 +256,31 @@
                     </div>
                 </div>
 
+                <div class="text-center text-white fw-bold"
+                    style="background-color: #27467A; font-size: 32px; padding-top: 10px; padding-bottom: 10px;">Visiting
+                    Faculty</div>
+                <div style="display: flex; justify-content: center; align-items: center;">
+
+                    <div class="col-lg-3 mb-4 pt-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Rajkumari.png.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Rajkumari
+                                    Surjabala Devi
+                                    Das</h5>
+                                {{-- <a href="">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p> --}}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -271,15 +301,19 @@
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 545px;">
                                 <div class="p-3">
                                     <img style="height: 290px; width: 100%; border: 1px solid #99999984;"
-                                        src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg" class="img-fluid rounded" />
+                                        src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg"
+                                        class="img-fluid rounded" />
                                 </div>
                                 <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Prasanta Jyoti Baruah
+                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr.
+                                        Prasanta Jyoti Baruah
                                     </h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Distinguished Professor,
+                                    <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">
+                                        Distinguished Professor,
                                         Royal School of Communication and Media (RSCOM)</p>
 
-                                    <p class="card-text para1 half-underline fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline fw-bold" style="color: #FF9A1E;">View Profile
+                                    </p>
 
                                 </div>
                             </div>
@@ -490,7 +524,8 @@
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Jintu Mahanta</h5>
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Jintu Mahanta
+                                </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-jintu-mahanta">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
@@ -502,6 +537,32 @@
 
 
 
+                </div>
+
+                <div class="text-center text-white fw-bold"
+                    style="background-color: #27467A; font-size: 32px; padding-top: 10px; padding-bottom: 10px;">Visiting
+                    Faculty</div>
+                <div style="display: flex; justify-content: center; align-items: center;">
+
+                    <div class="col-lg-3 mb-4 pt-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Rajkumari.png.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Rajkumari
+                                    Surjabala Devi
+                                    Das</h5>
+                                {{-- <a href="">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p> --}}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>

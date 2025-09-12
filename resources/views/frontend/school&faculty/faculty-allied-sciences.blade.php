@@ -6,8 +6,7 @@
             @include('frontend/components/mobileheader')
             <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text"
                 style="color: #27467A; font-weight: 900; padding-top: 110px; position: relative;">
-                Royal School of Behavioural <br><span
-                    style="color: #FF9A1E; font-weight: 500;"> & Allied Sciences
+                Royal School of Behavioural <br><span style="color: #FF9A1E; font-weight: 500;"> & Allied Sciences
                     (RSBAS)</span>
             </h2>
 
@@ -58,7 +57,8 @@
                                     Coordinator, Psychology
                                 </p>
                                 <a href="faculty-queen-deka">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -77,7 +77,8 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor</p>
                                 <a href="faculty-prince-cp">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -96,7 +97,8 @@
                                     Saidin</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-fariza-saidin">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -115,7 +117,8 @@
                                     Boro</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-jwmwishree-boro">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -134,7 +137,8 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-mahuya-deb">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -154,7 +158,8 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-naphisabet">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -168,11 +173,13 @@
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Olivia Kakati
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Olivia
+                                    Kakati
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="olivia-kakati">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -191,7 +198,8 @@
                                     Basu</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-shraddha-basu">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -210,7 +218,8 @@
                                     Afreen</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-syeda-anjum-afreen">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -230,7 +239,8 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-tahera-mozumdar">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -240,17 +250,21 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/b_deeparani.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/b_deeparani.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Bachaspatimayum Deeparani
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms.
+                                    Bachaspatimayum Deeparani
                                     Devi
                                 </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Clinical Psychologist
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Clinical
+                                    Psychologist
                                     (Associate)</p>
                                 <a href="bachaspatimayum-deeparani-devi">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -271,7 +285,8 @@
                                     Mahanta</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-jahnabi-mahanta">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -279,6 +294,32 @@
 
                 </div>
 
+            </div>
+
+            <div class="text-center text-white fw-bold"
+                style="background-color: #27467A; font-size: 32px; padding-top: 10px; padding-bottom: 10px;">Visiting
+                Faculty</div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+
+                <div class="col-lg-3 mb-4 pt-4">
+                    <div class="card rounded d-flex flex-column"
+                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                        <div class="p-3">
+                            <img style="height: 310px; width: 100%;"
+                                src="mobile-assets/updated-faculty-img/Rajkumari.png.png"
+                                class="img-fluid rounded border" />
+                        </div>
+                        <div class="card-body d-flex flex-column flex-grow-1">
+                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Rajkumari
+                                Surjabala Devi
+                                Das</h5>
+                            {{-- <a href="">
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                    Profile</p> --}}
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -338,7 +379,8 @@
                                     Coordinator, Psychology
                                 </p>
                                 <a href="faculty-queen-deka">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -357,7 +399,8 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor</p>
                                 <a href="faculty-prince-cp">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -376,7 +419,8 @@
                                     Saidin</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-fariza-saidin">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -395,7 +439,8 @@
                                     Boro</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-jwmwishree-boro">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -414,7 +459,8 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-mahuya-deb">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -434,7 +480,8 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-naphisabet">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -448,11 +495,13 @@
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Olivia Kakati
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Olivia
+                                    Kakati
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="olivia-kakati">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -471,7 +520,8 @@
                                     Basu</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-shraddha-basu">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -490,7 +540,8 @@
                                     Afreen</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-syeda-anjum-afreen">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -510,7 +561,8 @@
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-tahera-mozumdar">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -525,11 +577,14 @@
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Bachaspatimayum Deeparani Devi
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms.
+                                    Bachaspatimayum Deeparani Devi
                                 </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Clinical Psychologist (Associate)</p>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Clinical
+                                    Psychologist (Associate)</p>
                                 <a href="bachaspatimayum-deeparani-devi">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -548,7 +603,8 @@
                                     Mahanta</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor</p>
                                 <a href="faculty-jahnabi-mahanta">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                                 </a>
                             </div>
                         </div>
@@ -556,6 +612,31 @@
 
                 </div>
 
+                <div class="text-center text-white fw-bold"
+                    style="background-color: #27467A; font-size: 32px; padding-top: 10px; padding-bottom: 10px;">Visiting
+                    Faculty</div>
+                <div style="display: flex; justify-content: center; align-items: center;">
+
+                    <div class="col-lg-3 mb-4 pt-4">
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/updated-faculty-img/Rajkumari.png.png"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Rajkumari
+                                    Surjabala Devi
+                                    Das</h5>
+                                {{-- <a href="">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p> --}}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>

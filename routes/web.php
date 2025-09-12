@@ -2900,6 +2900,14 @@ Route::get('/synergy-for-energy-challenges-and-opportunities-in-north-east-india
     return view('frontend/conference/minerials');
 })->name('synergy-for-energy-challenges-and-opportunities-in-north-east-india');
 
+Route::get('/synergy-for-energy-challenges-and-opportunities-in-north-east-india', function () {
+    return view('frontend/conference/minerials');
+})->name('synergy-for-energy-challenges-and-opportunities-in-north-east-india');
+
+Route::get('/satatya-a-national-student-conference-on-business-sustainability-and-responsible-business-practices', function () {
+    return view('frontend/conference/student');
+})->name('satatya-a-national-student-conference-on-business-sustainability-and-responsible-business-practices');
+
 //blog
 Route::get('/blog', function () {
     return view('frontend/blog/blog');
