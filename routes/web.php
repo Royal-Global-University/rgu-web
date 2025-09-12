@@ -2950,6 +2950,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/raise-children-as-help-givers-not-help-seekers-prof-alaka-sarma-at-rgu’s-leadership-conclave-2025', function () {
+    return view('frontend/media-corner/news46');
+})->name('raise-children-as-help-givers-not-help-seekers-prof-alaka-sarma-at-rgu’s-leadership-conclave-2025');
+
 Route::get('/media-corner', function () {
     return view('frontend/media-corner/media-corner');
 })->name('media-corner');
