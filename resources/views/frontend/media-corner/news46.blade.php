@@ -30,7 +30,7 @@
             </div>
 
             <p class="para1 text-dark pt-2">
-                <span class="fw-bold"> GUWAHATI, September 2, 2025: </span>Leaders from academia, industry, and startups across India converged at The Assam Royal Global University (RGU) here
+                <span class="fw-bold"> GUWAHATI, September 11, 2025: </span>Leaders from academia, industry, and startups across India converged at The Assam Royal Global University (RGU) here
                 today for the two-day Leadership Conclave 2025, beginning today under the theme “Ethics and the Evolving Workplace.” The
                 conclave brought together eminent leaders to deliberate on some of the most urgent questions shaping the future of work.
                 <br><br>
