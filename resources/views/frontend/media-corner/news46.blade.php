@@ -26,9 +26,13 @@ conclave brought together eminent leaders to deliberate on some of the most urge
 
             <div class="container pt-3 pb-4 text-center"
                 style="display: flex; justify-content: center; align-items: center; gap:10px">
-                <div class="col-lg-10">
+                <div class="col-lg-6">
+                    <img class=" rounded" src="mobile-assets/media-corner/news46/2.jpg"
+                        style=" border: 3px solid black; height: 420px;" alt="">
+                </div>
+                <div class="col-lg-6">
                     <img class=" rounded" src="mobile-assets/media-corner/news46/1.jpg"
-                        style=" width: 80%; border: 3px solid black; height: 420px;" alt="">
+                        style=" border: 3px solid black; height: 420px;" alt="">
                 </div>
             </div>
 
@@ -50,6 +54,17 @@ conclave brought together eminent leaders to deliberate on some of the most urge
                 Sanjay Aditya Singh, Group MD & CEO, Jettwings Airways, Guwahati. It was moderated by Bristy Srivastava, Head of the
                 Royal Centre for Corporate Relations, RGU.
                 <br><br>
+                <div class="container pt-3 pb-4 text-center"
+                style="display: flex; justify-content: center; align-items: center; gap:10px">
+                <div class="col-lg-6">
+                    <img class=" rounded" src="mobile-assets/media-corner/news46/4.jpg"
+                        style=" border: 3px solid black; height: 420px;" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <img class=" rounded" src="mobile-assets/media-corner/news46/5.jpg"
+                        style=" border: 3px solid black; height: 420px;" alt="">
+                </div>
+            </div>
                 The second panel, “5% of Leadership, 50% of the Workforce: What’s Broken in the Climb for Women?” was addressed by Sumit
                 Agarwal, DEI Champion, Kolkata; Varsha Agarwal, Vice President (Karnataka State), WICCI – Women’s Indian Chamber of
                 Commerce and Industry, Bengaluru; Dr. Simanta Mohanty, Director, Janaagraha, Odisha; and Vijay Kumar Jamwal, VP HR,
