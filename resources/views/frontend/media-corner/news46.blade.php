@@ -1,5 +1,5 @@
 @extends('frontend.master')
-@section('title', 'Former Tata Motors CEO to talk on “Leading from the Back to Achieve the Impossible” at RGU')
+@section('title', 'Raise Children as Help Givers, Not Help Seekers: Prof. Alaka Sarma at RGU’s Leadership Conclave 2025')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
