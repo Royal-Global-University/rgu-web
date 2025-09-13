@@ -1967,7 +1967,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
 
                                                                                                 <!-- new advantage -->
 
-                                                                                                        <section
+                                                                                                <section
                                                                                                     style="background-image: url(demo-assets/trail-blazer/bg3.png); background-size: cover; background-position: center; height: 100vh;">
 
                                                                                                     <div class="row" style="padding: 10px 60px; height: 100%; display: flex; align-items: center;">
@@ -1989,37 +1989,37 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
 
                                                                                                                         <div class="trailblazer-carousel-item"
                                                                                                                             style="position: absolute; width: 90%; height: 100%; left: 5%; top: 0; border: 2px solid #fff; border-radius: 10px; overflow: visible; background-color: rgba(255, 255, 255, 0.05); display: flex; justify-content: center; align-items: center; box-shadow: 0 0 5px #ffffff72, 0 0 10px #ffffff72, 0 0 15px #ffffff72;">
-                                                                                                                            <img src="demo-assets/trail-blazer/lovelina.png" alt="Carousel Image 1"
+                                                                                                                            <img src="demo-assets/trail-blazer/final/riyan-final.png" alt="Carousel Image 1"
                                                                                                                                 style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
                                                                                                                         </div>
 
                                                                                                                         <div class="trailblazer-carousel-item"
                                                                                                                             style="position: absolute; width: 90%; height: 100%; left: 5%; top: 0; border: 2px solid #fff; border-radius: 10px; overflow: visible; background-color: rgba(255, 255, 255, 0.05); display: flex; justify-content: center; align-items: center; box-shadow: 0 0 5px #ffffff72, 0 0 10px #ffffff72, 0 0 15px #ffffff72;">
-                                                                                                                            <img src="demo-assets/trail-blazer/hima.png" alt="Carousel Image 2"
+                                                                                                                            <img src="demo-assets/trail-blazer/final/hima-final.png" alt="Carousel Image 2"
                                                                                                                                 style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
                                                                                                                         </div>
 
                                                                                                                         <div class="trailblazer-carousel-item"
                                                                                                                             style="position: absolute; width: 90%; height: 100%; left: 5%; top: 0; border: 2px solid #fff; border-radius: 10px; overflow: visible; background-color: rgba(255, 255, 255, 0.05); display: flex; justify-content: center; align-items: center; box-shadow: 0 0 5px #ffffff72, 0 0 10px #ffffff72, 0 0 15px #ffffff72;">
-                                                                                                                            <img src="demo-assets/trail-blazer/riyan.png" alt="Carousel Image 3"
+                                                                                                                            <img src="demo-assets/trail-blazer/final/jayanta-final.png" alt="Carousel Image 3"
                                                                                                                                 style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
                                                                                                                         </div>
 
                                                                                                                                                                                                                                             <div class="trailblazer-carousel-item"
                                                                                                                             style="position: absolute; width: 90%; height: 100%; left: 5%; top: 0; border: 2px solid #fff; border-radius: 10px; overflow: visible; background-color: rgba(255, 255, 255, 0.05); display: flex; justify-content: center; align-items: center; box-shadow: 0 0 5px #ffffff72, 0 0 10px #ffffff72, 0 0 15px #ffffff72;">
-                                                                                                                            <img src="demo-assets/trail-blazer/lovelina.png" alt="Carousel Image 1"
+                                                                                                                            <img src="demo-assets/trail-blazer/final/lovlina-final.png" alt="Carousel Image 1"
                                                                                                                                 style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
                                                                                                                         </div>
 
                                                                                                                         <div class="trailblazer-carousel-item"
                                                                                                                             style="position: absolute; width: 90%; height: 100%; left: 5%; top: 0; border: 2px solid #fff; border-radius: 10px; overflow: visible; background-color: rgba(255, 255, 255, 0.05); display: flex; justify-content: center; align-items: center; box-shadow: 0 0 5px #ffffff72, 0 0 10px #ffffff72, 0 0 15px #ffffff72;">
-                                                                                                                            <img src="demo-assets/trail-blazer/hima.png" alt="Carousel Image 2"
+                                                                                                                            <img src="demo-assets/trail-blazer/final/ashmita-final.png" alt="Carousel Image 2"
                                                                                                                                 style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
                                                                                                                         </div>
 
                                                                                                                         <div class="trailblazer-carousel-item"
                                                                                                                             style="position: absolute; width: 90%; height: 100%; left: 5%; top: 0; border: 2px solid #fff; border-radius: 10px; overflow: visible; background-color: rgba(255, 255, 255, 0.05); display: flex; justify-content: center; align-items: center; box-shadow: 0 0 5px #ffffff72, 0 0 10px #ffffff72, 0 0 15px #ffffff72;">
-                                                                                                                            <img src="demo-assets/trail-blazer/riyan.png" alt="Carousel Image 3"
+                                                                                                                            <img src="demo-assets/trail-blazer/final/shivangi-final.png" alt="Carousel Image 3"
                                                                                                                                 style="width: 100%; height: 100%; object-fit: cover; display: block; position: relative; z-index: 1; border-radius: 7px;">
                                                                                                                         </div>
 
