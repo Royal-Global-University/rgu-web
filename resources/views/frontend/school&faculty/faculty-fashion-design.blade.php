@@ -276,6 +276,10 @@
                                             <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
                                                 Mr. Ameet Baruah
                                             </h5>
+                                            <a href="faculty-ameet">
+                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                                    Profile</p>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -565,6 +569,10 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
                                     Mr. Ameet Baruah
                                 </h5>
+                                <a href="faculty-ameet">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>

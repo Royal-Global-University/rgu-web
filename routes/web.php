@@ -4383,6 +4383,10 @@ Route::get('/faculty-bhupali-saikia', function () {
 
 //RSB Facuilty Profile
 
+Route::get('/faculty-sampada', function () {
+    return view('frontend/facultyprofile/rsb/sampada');
+})->name('faculty-sampada');
+
 Route::get('/faculty-manas-pratim', function () {
     return view('frontend/facultyprofile/rsb/manas-pratim');
 })->name('faculty-manas-pratim');
