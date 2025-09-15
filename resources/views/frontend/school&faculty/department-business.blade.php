@@ -1989,36 +1989,42 @@
                               <tr>
                                 <td>2</td>
                                 <td>All Heads of the Departments - Member (Ex-Officio)</td>
-                                <td>Dr. Bitopi Gogoi, Associate Professor &amp; HOD</td>
+                                <td>Dr. Arpee Saikia, Associate Professor &amp; HOD</td>
                               </tr>
                               <tr>
                                 <td>3</td>
                                 <td>External Experts for each Department (Academic)</td>
                                 <td>
-                                  Prof. (Dr.) N.N. Sarma, Professor, Management, K.K.H.S.O.U.
+                                  Prof. (Dr.) N.N. Sarma, Professor, Management, K.K.H.S.O.U.<br>
+                                  <hr>
+                                Prof. Sebu Sabastian, Christ University
                                 </td>
                               </tr>
                               <tr>
                                 <td>4</td>
-                                <td>AGM</td>
-                                <td>Mr. Apurba Misra</td>
+                                <td>External Experts for each Department (Industry)</td>
+                                <td>Mr. Apurba Misra, AGM, Amul</td>
                               </tr>
                               <tr>
                                 <td>5</td>
                                 <td>
-                                  Two Faculty members of the School nominated by the Vice
-                                  Chancellor
+                                Two Faculty members of the School nominated by the Vice Chancellor
                                 </td>
                                 <td>
                                   Dr. Rishi Chakravarty, Associate Professor
                                   <hr>
-                                  Dr. Arpee Saikia, Associate Professor
+                                Dr. Darshana Bhagowati, Assistant Professor
                                 </td>
                               </tr>
                               <tr>
                                 <td>6</td>
                                 <td>Registrar, Member Secretary (Ex-officio)</td>
-                                <td>Prof. (Dr.) Dip Narayain Singh, Registrar</td>
+                                <td>Dr. Diganta Munshi, Registrar (Administration)</td>
+                              </tr>
+                              <tr>
+                                <td>7</td>
+                                <td>Special Invitee</td>
+                                <td>Dr. Samip Baruah, Professor, RSB</td>
                               </tr>
                             </tbody>
                           </table>
@@ -2057,19 +2063,19 @@
                                 <td>1</td>
                                 <td>Head of the Department</td>
                                 <td>Dr. Arpee Saikia</td>
-                                <td>HoD</td>
+                                <td>Associate Professor</td>
                                 <td>Chairperson</td>
                               </tr>
                               <tr>
                                 <td rowspan="2">2</td>
-                                <td rowspan="2" class="align-middle">Two Professors</td>
+                                <td rowspan="2" class="align-middle">Two Professors, including the Dean of the School</td>
                                 <td>Prof (Dr.) George A.P.</td>
-                                <td>Dean RSB</td>
+                                <td>Professor and Dean, RSB</td>
                                 <td>Member</td>
                               </tr>
                               <tr>
-                                <td>Prof (Dr.) Saket Jeswani</td>
-                                <td>Dean Consultancy, Innovation, MDP</td>
+                                <td>Dr. D.N. Singh</td>
+                                <td>Professor and Registrar Academic</td>
                                 <td>Member</td>
                               </tr>
                               <tr>
@@ -2078,14 +2084,14 @@
                                   Two Associate Professors – one of them will be the member
                                   secretary
                                 </td>
-                                <td>Dr. Bitopi Gogoi</td>
+                                <td>Dr. Rishi Chakravarty</td>
                                 <td>Associate Professor</td>
                                 <td>Member Secretary</td>
                               </tr>
                               <tr>
-                                <td>Dr. Rishi Chakravarty</td>
-                                <td>Associate Professor</td>
-                                <td>Member</td>
+                                <td></td>
+                                <td>Vacant</td>
+                                <td></td>
                               </tr>
                               <tr>
                                 <td rowspan="2">4</td>
@@ -2097,30 +2103,29 @@
                                 <td>Member</td>
                               </tr>
                               <tr>
-                                <td>7</td>
                                 <td>Dr. Suman Agarwal</td>
-                                <td>Assistant Professor <br>Member</td>
+                                <td>Assistant Professor</td>
+                                <td>Member</td>
                               </tr>
                               <tr>
                                 <td rowspan="3">5</td>
                                 <td rowspan="3" class="align-middle">
-                                  Three external members not below the rank of Professors,
-                                  including members from an allied department, who will be
-                                  nominated by the URC
+                                External members not below the rank of Professors, including members from an allied department, who will be nominated by
+                                the URC (Outside RGU)
                                 </td>
-                                <td>Prof. Soumitra Sen</td>
-                                <td>Prof. RSHM &amp; RSTTM</td>
+                                <td>Prof. (Dr.) Mrinmoy Kumar Sharma</td>
+                                <td>Professor, Department of Business Administration, Tezpur University</td>
                                 <td>External Member</td>
                               </tr>
                               <tr>
-                                <td>Prof. S. Nayak</td>
-                                <td>Dean RSCOM</td>
-                                <td>External Member</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                               </tr>
                               <tr>
-                                <td>Prof. Ladu Singh</td>
-                                <td>Prof. Emeritus</td>
-                                <td>External Member</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                               </tr>
                             </tbody>
                           </table>
