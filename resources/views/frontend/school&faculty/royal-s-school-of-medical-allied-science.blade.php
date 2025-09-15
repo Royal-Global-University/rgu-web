@@ -99,7 +99,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-4 mb-4">
+                    {{-- <div class="col-lg-4 mb-4">
 
                         <a href="department-nutrition-dietetics">
                             <div class="card rounded d-flex flex-column"
@@ -115,7 +115,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> --}}
 
                 </div>
 
@@ -223,7 +223,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-4 mb-4">
+                    {{-- <div class="col-lg-4 mb-4">
 
                         <a href="department-nutrition-dietetics">
                             <div class="p-4 card rounded d-flex flex-column"
@@ -239,7 +239,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> --}}
 
                     <div class="col-lg-4 mb-4">
 

@@ -116,7 +116,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            19 years
+                                            1 years
                                         </span>
                                     </li>
 
@@ -134,7 +134,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            11 years
+                                            19 years
                                         </span>
                                     </li>
 
@@ -465,7 +465,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        19 years
+                                        1 years
                                     </span>
                                 </li>
 
@@ -483,7 +483,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        11 years
+                                        19 years
                                     </span>
                                 </li>
 
