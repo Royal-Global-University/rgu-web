@@ -63,7 +63,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Mr. Piyush Gupta
+                                    Dr. Piyush Gupta
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor & Coordinator
@@ -180,7 +180,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Mr. Prabahan Puzari
+                                    Dr. Prabahan Puzari
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Teaching Assistant
@@ -302,7 +302,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Mr. Piyush Gupta
+                                    Dr. Piyush Gupta
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor & Coordinator
@@ -419,7 +419,7 @@
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Mr. Prabahan Puzari
+                                    Dr. Prabahan Puzari
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Teaching Assistant
