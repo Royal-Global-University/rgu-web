@@ -1547,6 +1547,10 @@ Route::get('/schools-rgu', function () {
     return view('frontend/school&faculty/schools-rgu');
 })->name('schools-rgu');
 
+Route::get('/department-of-political-science-public-administration', function () {
+    return view('frontend/school&faculty/department-of-political-science-public-administration');
+})->name('department-of-political-science-public-administration');
+
 Route::get('/department-IKS', function () {
     return view('frontend/school&faculty/department-IKS');
 })->name('department-IKS');
@@ -4050,6 +4054,10 @@ Route::get('/faculty-siddhartha-narayan', function () {
 
 //RSCOM Faculty Profile
 
+Route::get('/faculty-sharmista-pradhan', function () {
+    return view('frontend/facultyprofile/rscom/sharmista-pradhan');
+})->name('faculty-sharmista-pradhan');
+
 Route::get('/faculty-jintu-mahanta', function () {
     return view('frontend/facultyprofile/rscom/jintu-mahanta');
 })->name('faculty-jintu-mahanta');
@@ -4109,6 +4117,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 })->name('faculty-sumanta-dutta-chowdhury');
 
 //RSHSS Facuilty Profile
+
+Route::get('/faculty-surajit-c-mukhopadhyay', function () {
+    return view('frontend/facultyprofile/rshss/surajit-c-mukhopadhyay');
+})->name('faculty-surajit-c-mukhopadhyay');
 
 Route::get('/faculty-suhail-ahmed', function () {
     return view('frontend/facultyprofile/rshss/suhail-ahmed');
@@ -4382,6 +4394,10 @@ Route::get('/faculty-bhupali-saikia', function () {
 })->name('faculty-bhupali-saikia');
 
 //RSB Facuilty Profile
+
+Route::get('/faculty-roshni-saikia', function () {
+    return view('frontend/facultyprofile/rsb/roshni');
+})->name('faculty-roshni-saikia');
 
 Route::get('/faculty-sampada', function () {
     return view('frontend/facultyprofile/rsb/sampada');

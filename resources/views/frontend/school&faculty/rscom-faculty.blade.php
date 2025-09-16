@@ -82,6 +82,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor & Coordinator, Royal School of Communication & Media
                                 </p>
+                                <a href="faculty-sharmista-pradhan">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -363,6 +367,10 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor & Coordinator, Royal School of Communication & Media
                                 </p>
+                                <a href="faculty-sharmista-pradhan">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -1359,6 +1359,10 @@
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Our Video</p>
                                                 </a>
 
+                                                <a href="{{ route('media-corner') }}">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Media Corner</p>
+                                                </a>
+
                                             </div>
 
                                         </div>

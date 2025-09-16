@@ -11,7 +11,6 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
                 style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Bio-sciences (RSBSC)</span></h2>
@@ -279,18 +278,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Dr-Baishalee-Rajkhowa-RSL.png"
-                                    alt="Profile image of Dr.Baishalee Rajkhowa">
-                            </div>
-                            <h3 class="card-name">Dr. Baishalee Rajkhowa</h3>
-                            <p class="card-designation">Associate Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Taranga-Jyoti-Baruah-RSBSC.png"
                                     alt="Profile image of Jiwasmika Baishya">
                             </div>
@@ -309,6 +296,18 @@
                             <h3 class="card-name">Dr. Jiwasmika Baishya</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-jiwasmika-baishya" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Dr-Baishalee-Rajkhowa-RSL.png"
+                                    alt="Profile image of Dr.Baishalee Rajkhowa">
+                            </div>
+                            <h3 class="card-name">Dr. Baishalee Rajkhowa</h3>
+                            <p class="card-designation">Associate Professor</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
@@ -602,4 +601,5 @@
         </div>
 
     </div>
+
 @endsection
