@@ -193,7 +193,7 @@
                 <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
                     <h2 class="text-center justify-content-center fw-bold"
                         style="color: #fff; padding: 10px; font-size: 30px;">
-                        Department of Methamatics</h2>
+                        Department of Mathematics</h2>
                 </div>
                 <!-- Mathematics  -->
 
