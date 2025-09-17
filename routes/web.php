@@ -3154,6 +3154,10 @@ Route::get('/industry-stalwarts-ravi-kant-rajesh-srivastava-address-session-at-r
     return view('frontend/media-corner/news45');
 })->name('industry-stalwarts-ravi-kant-rajesh-srivastava-address-session-at-rgu');
 
+Route::get('/rgu-holds-aicte-vaani-national-conference-in-assamese-language', function () {
+    return view('frontend/media-corner/news47');
+})->name('rgu-holds-aicte-vaani-national-conference-in-assamese-language');
+
 
 //IKS Faculty Profile
 
