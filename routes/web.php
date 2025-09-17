@@ -3192,6 +3192,14 @@ Route::get('/faculty-Mehjabin-Rahman', function () {
 
 //RSET Facuilty Profile
 
+Route::get('/faculty-vaishnavi', function () {
+    return view('frontend/facultyprofile/rset/vaishnavi');
+})->name('faculty-vaishnavi');
+
+Route::get('/faculty-raj', function () {
+    return view('frontend/facultyprofile/rset/raj');
+})->name('faculty-raj');
+
 Route::get('/faculty-jemima-yasmin', function () {
     return view('frontend/facultyprofile/rset/jemima-yasmin');
 })->name('faculty-jemima-yasmin');
@@ -3875,6 +3883,15 @@ Route::get('/faculty-palme-borthakur', function () {
 
 
 //RSHM-RSTTM Faculty Profile
+
+Route::get('/faculty-m-p-verma', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/m-p-verma');
+})->name('faculty-m-p-verma');
+
+Route::get('/faculty-dikhyant', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/dikhyant');
+})->name('faculty-dikhyant');
+
 Route::get('/faculty-indrajit-dutta', function () {
     return view('frontend/facultyprofile/rshm-rsttm/indrajit-dutta');
 })->name('faculty-indrajit-dutta');

@@ -1,343 +1,270 @@
 @extends('frontend.master')
 @section('content')
-    <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
+    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text"
-                style="color: #27467A; font-weight: 900; padding-top: 110px; position: relative;">
-                Royal School of <br><span style="color: #FF9A1E; font-weight: 500;">
-                    Fine Arts (RSFA)</span></h2>
-
-            <div style="padding: 20px 35px;">
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsfa/1.jpeg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                    Hari Prasad Agarwal</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Dean, <br>
-                                    Royal School of Fine Arts <br>
-                                    Royal School of Architecture <br>
-                                    Royal School of Design <br>
-                                    Royal School of Fashion Design & Technology
-
-                                </p>
-                                <a href="faculty-hari-prasad-agarwal">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <hr>
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Tikendra.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Tikendra Kumar Sahu</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor
-                                </p>
-                                <a href="/faculty-tikendra-Kumar-sahu">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Sumanta-Dutta-Chowdhury.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Sumanta
-                                    Dutta Chowdhury</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor & Coordinator
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Mousumi-Deka-RSFA.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Mousumi
-                                    Deka</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-mousumi-deka">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Siddhant-Medhi-RSFA.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Siddhant
-                                    Medhi</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-siddhant-medhi">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Mr-Kishan-Bagdi-RSFA.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Kishan
-                                    Bagdi</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-kishan-bagdi">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Suman-saha.png"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Suman Saha
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Teaching Assistant
-                                </p>
-                                <a href="faculty-suman-saha">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
+                style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
+                Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Fine Arts (RSFA)</span></h2>
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
-            <h2 class="headd1 mb-5 fw-bold text-center kd-title-ani kd-split-text pt-5"
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
                 style="color: #27467A; font-weight: 900;">
-                Royal School of <span style="color: #FF9A1E; font-weight: 500;"> Fine Arts (RSFA)</span></h2>
+                Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Fine Arts (RSFA)</span></h2>
 
-            <div style="padding: 20px 70px;">
+        </div>
 
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+        <style>
+            /* Basic Page Styling */
+            .section-f {
+                padding: 2rem 0;
+            }
 
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 630px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/all-faculty/rsfa/1.jpeg"
-                                    class="img-fluid rounded border" />
+            /* Individual Card Styling */
+            .card {
+                background-color: #ffffff;
+                border-radius: 5px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                padding: 0.7rem;
+                text-align: left;
+                border: none;
+                width: 100%;
+                height: 100%;
+
+                /* Flexbox for vertical alignment */
+                display: flex;
+                flex-direction: column;
+
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            /* Hover effect for the card */
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            }
+
+            /* Image container */
+            .card-image {
+                width: 100%;
+                padding-top: 100%;
+                position: relative;
+                border-radius: 5%;
+                overflow: hidden;
+                margin: 0 auto 1.0rem;
+                border: 2px solid #f0f2f5;
+            }
+
+            .card-image img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            /* Name/Heading Styling */
+            .card-name {
+                margin: 0 0 0.5rem 0;
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: #333;
+                line-height: 1.2;
+                color: #24477f;
+            }
+
+            /* Designation/Paragraph Styling */
+            .card-designation {
+                margin: 0;
+                font-size: 1.2rem;
+                font-weight: 400;
+                color: #666;
+                line-height: 1.4;
+            }
+
+            /* New Styling for the Profile Link */
+            .profile-link {
+                margin-top: auto;
+                /* This is the magic property! */
+                padding-top: 0.5rem;
+                font-size: 1.1rem;
+                font-weight: 800;
+                text-decoration: none;
+                color: #FF9A1E;
+            }
+
+            .profile-link:hover {
+                text-decoration: underline;
+            }
+        </style>
+
+        <div class="section-f">
+            <div class="container">
+
+                <!-- regular faculty  -->
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsfa/1.jpeg"
+                                    alt="Profile image of Prof. (Dr.) Hari Prasad Agarwal">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                    Hari Prasad Agarwal</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Dean, <br>
-                                    Royal School of Fine Arts <br>
-                                    Royal School of Architecture <br>
-                                    Royal School of Design <br>
-                                    Royal School of Fashion Design & Technology
-
-                                </p>
-                                <a href="faculty-hari-prasad-agarwal">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Hari Prasad Agarwal</h3>
+                            <p class="card-designation">Dean,
+                                Royal School of Fine Arts <br>
+                                Royal School of Architecture <br>
+                                Royal School of Design <br>
+                                Royal School of Fashion Design & Technology</p>
+                            <a href="https://www.rgu.ac/faculty-hari-prasad-agarwal" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
-                </div>
-
-                <hr>
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Tikendra.png"
-                                    class="img-fluid rounded border" />
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Tikendra.png"
+                                    alt="Profile image of Prof. Tikendra Kumar Sahu">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Tikendra Kumar Sahu</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor
-                                </p>
-                                <a href="/faculty-tikendra-Kumar-sahu">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
+                            <h3 class="card-name">Prof. Tikendra Kumar Sahu</h3>
+                            <p class="card-designation">Professor</p>
+                            <a href="https://www.rgu.ac/faculty-tikendra-Kumar-sahu" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Sumanta-Dutta-Chowdhury.png"
-                                    class="img-fluid rounded border" />
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sumanta-Dutta-Chowdhury.png"
+                                    alt="Profile image of Dr. Sumanta Dutta Chowdhury">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Sumanta
-                                    Dutta Chowdhury</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor & Coordinator
-                                </p>
-                                <a href="faculty-sumanta-dutta-chowdhury">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
+                            <h3 class="card-name">Dr. Sumanta Dutta Chowdhury</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator</p>
+                            <a href="https://www.rgu.ac/faculty-sumanta-dutta-chowdhury" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Mousumi-Deka-RSFA.png"
-                                    class="img-fluid rounded border" />
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Mousumi-Deka-RSFA.png"
+                                    alt="Profile image of Dr. Mousumi Deka">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Mousumi
-                                    Deka</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-mousumi-deka">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
+                            <h3 class="card-name">Dr. Mousumi Deka</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-mousumi-deka" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Siddhant-Medhi-RSFA.png"
-                                    class="img-fluid rounded border" />
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Siddhant-Medhi-RSFA.png"
+                                    alt="Profile image of Dr. Siddhant Medhi">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Siddhant
-                                    Medhi</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-siddhant-medhi">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
+                            <h3 class="card-name">Dr. Siddhant Medhi</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-siddhant-medhi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Mr-Kishan-Bagdi-RSFA.png"
-                                    class="img-fluid rounded border" />
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mr-Kishan-Bagdi-RSFA.png"
+                                    alt="Profile image of Mr. Kishan Bagdi">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Kishan
-                                    Bagdi</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-                                <a href="faculty-kishan-bagdi">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
+                            <h3 class="card-name">Mr. Kishan Bagdi</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-kishan-bagdi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 510px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/updated-faculty-img/Suman-saha.png"
-                                    class="img-fluid rounded border" />
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Suman-saha.png"
+                                    alt="Profile image of Mr. Suman Saha">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Suman Saha
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Teaching Assistant
-                                </p>
-                                <a href="faculty-suman-saha">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
+                            <h3 class="card-name">Mr. Suman Saha</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-suman-saha" class="profile-link">View Profile</a>
                         </div>
                     </div>
+
+                    <!-- Extra Faculty  -->
+
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/no-pic.png" alt="Profile image of">
+                            </div>
+                            <h3 class="card-name">Ms Anjali Kumar</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-anjali-kumar" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Ms-Jahnabi-Mahanta-RSBAS.png"
+                                    alt="Profile image of Jahnabi">
+                            </div>
+                            <h3 class="card-name">Ms. Jahnabi Mahanta</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-jahnabi-mahanta" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Palme-Borthakur.png"
+                                    alt="Profile image of Ms. Palme Borthakur">
+                            </div>
+                            <h3 class="card-name">Dr. Palme Borthakur</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-palme-borthakur" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsl/Pankaj.jpeg"
+                                    alt="Profile image of">
+                            </div>
+                            <h3 class="card-name">Mr. Pankaj Gogoi</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Dr-Tahera-Haque-Majumder-RSBAS.png"
+                                    alt="Profile image of Tahera Hoque">
+                            </div>
+                            <h3 class="card-name">Dr. Tahera Hoque Mozumdar</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-tahera-mozumdar" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
 
                 </div>
 
             </div>
-
         </div>
 
-    </section>
+    </div>
 @endsection
