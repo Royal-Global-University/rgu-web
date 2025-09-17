@@ -3192,6 +3192,34 @@ Route::get('/faculty-Mehjabin-Rahman', function () {
 
 //RSET Facuilty Profile
 
+Route::get('/faculty-manash-protim-boruah', function () {
+    return view('frontend/facultyprofile/rset/manash-protim-boruah');
+})->name('faculty-manash-protim-boruah');
+
+Route::get('/faculty-smrity-choudhury', function () {
+    return view('frontend/facultyprofile/rset/smrity-choudhury');
+})->name('faculty-smrity-choudhury');
+
+Route::get('/faculty-dillip-rout', function () {
+    return view('frontend/facultyprofile/rset/dillip-rout');
+})->name('faculty-dillip-rout');
+
+Route::get('/faculty-bikash-baruah', function () {
+    return view('frontend/facultyprofile/rset/bikash-baruah');
+})->name('faculty-bikash-baruah');
+
+Route::get('/faculty-bidisha-goswami', function () {
+    return view('frontend/facultyprofile/rset/bidisha-goswami');
+})->name('faculty-bidisha-goswami');
+
+Route::get('/faculty-anurag-barthwal', function () {
+    return view('frontend/facultyprofile/rset/anurag-barthwal');
+})->name('faculty-anurag-barthwal');
+
+Route::get('/faculty-afsana-laskar', function () {
+    return view('frontend/facultyprofile/rset/afsana-laskar');
+})->name('faculty-afsana-laskar');
+
 Route::get('/faculty-vaishnavi', function () {
     return view('frontend/facultyprofile/rset/vaishnavi');
 })->name('faculty-vaishnavi');
@@ -3309,6 +3337,10 @@ Route::get('/faculty-shinjini-paul-choudhury', function () {
 })->name('faculty-shinjini-paul-choudhury');
 
 //RSL Faculty Profile
+
+Route::get('/faculty-ayushman-devra', function () {
+    return view('frontend/facultyprofile/rsl/ayushman-devra');
+})->name('faculty-ayushman-devra');
 
 Route::get('/faculty-tushti-sharma', function () {
     return view('frontend/facultyprofile/rsl/tushti-sharma');
@@ -4074,6 +4106,14 @@ Route::get('/faculty-siddhartha-narayan', function () {
 })->name('faculty-siddhartha-narayan');
 
 //RSCOM Faculty Profile
+
+Route::get('/faculty-bijayata-dutta', function () {
+    return view('frontend/facultyprofile/rscom/bijayata-dutta');
+})->name('faculty-bijayata-dutta');
+
+Route::get('/faculty-dijendra', function () {
+    return view('frontend/facultyprofile/rscom/dijendra');
+})->name('faculty-dijendra');
 
 Route::get('/faculty-sharmista-pradhan', function () {
     return view('frontend/facultyprofile/rscom/sharmista-pradhan');
