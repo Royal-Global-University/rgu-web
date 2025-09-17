@@ -1367,7 +1367,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                                     <div class="row bg-light p-2 rounded">
                                                                                                                                         <div class="col-lg-5">
                                                                                                                                             <img class="rounded" style="height: 130px; width: 100%;"
-                                                                                                                                                src="mobile-assets/media-corner/news47/2.JPG" alt="" />
+                                                                                                                                                src="mobile-assets/media-corner/news47/2.jpg" alt="" />
                                                                                                                                         </div>
                                                                                                                                         <div class="col-lg-7">
                                                                                                                                             <p style="color: #27467A; font-style: 10px; line-height: 1;"
