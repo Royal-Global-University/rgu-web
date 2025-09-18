@@ -129,7 +129,7 @@
                             </div>
                             <h3 class="card-name">Prof. Rama Ranjan Bhattacharjee</h3>
                             <p class="card-designation">Dean – Research and Development</p>
-                            <a href="faculty-rama-ranjan-bhattacharjee" class="profile-link">View Profile</a> 
+                            <a href="faculty-rama-ranjan-bhattacharjee" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -377,18 +377,6 @@
                             <h3 class="card-name">Prof. Abhinav Chaliha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-abhinav-chaliha" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/RSIT/Mr.%20Dibyajyoti%20Deka.jpeg"
-                                    alt="Profile image of Dibyajyoti Deka">
-                            </div>
-                            <h3 class="card-name">Mr. Dibyajyoti Deka</h3>
-                            <p class="card-designation"></p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
@@ -658,18 +646,6 @@
                             <h3 class="card-name">Dr. Parismita Phukan</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-dr-parismita-phukan" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/RSIT/Mr.%20Dibyajyoti%20Deka.jpeg"
-                                    alt="Profile image of Dibyajyoti Deka">
-                            </div>
-                            <h3 class="card-name">Mr. Dibyajyoti Deka</h3>
-                            <p class="card-designation"></p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 

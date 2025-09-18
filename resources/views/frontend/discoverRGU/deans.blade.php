@@ -191,10 +191,10 @@
                                 <ul class="para1 pb-3" style="color: #27467A; font-size: 16px; line-height: 1.4;">
                                     <li>Professor & Dean, Royal School of Environmental & Earth Sciences</li>
                                 </ul>
-
-                                <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                            </a> -->
+                                <a href="/faculty-debendra-kumar-nayak">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -567,10 +567,10 @@
                                 <ul class="para1" style="color: #27467A; font-size: 16px; line-height: 1.4;">
                                     <li>Professor & Dean, Royal School of Environmental & Earth Sciences</li>
                                 </ul>
-
-                                <!-- <a href="" style="position: absolute; bottom: 20px;">
-                                                <p class="card-text para1 fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                            </a> -->
+                                <a href="/faculty-debendra-kumar-nayak">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>
