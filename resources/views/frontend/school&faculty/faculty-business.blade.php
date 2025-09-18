@@ -91,7 +91,7 @@
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. D.N.
                                     Singh</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Registrar Academic</p>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Registrar Academic and I/C Dean, Royal School of Communication & Media</p>
                                 <a href="/Prof-dn-singh">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
                                         Profile</p>
@@ -692,7 +692,7 @@
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. D.N.
                                     Singh</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Registrar Academic</p>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Registrar Academic and I/C Dean, Royal School of Communication & Media</p>
                                 <a href="/Prof-dn-singh">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
                                         Profile</p>
@@ -733,8 +733,7 @@
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Sudip
-                                    Chakraborty</h5>
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Sudip Chakraborty</h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Professor & I/C Dy. Dean
                                 </p>

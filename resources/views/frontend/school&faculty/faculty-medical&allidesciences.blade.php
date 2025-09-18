@@ -1178,27 +1178,28 @@
                         </div>
                     </div>
 
-                    <!-- <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="" alt="Profile image of Seni Zelhchhun">
-                  </div>
-                  <h3 class="card-name">Seni Zelhchhun</h3>
-                  <p class="card-designation">Assistant Professor</p>
-                  <a href="" class="profile-link">View Profile</a>
-                </div>
-              </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Zomuanpuii.png"
+                                    alt="Profile image of Ms. Smita Das">
+                            </div>
+                            <h3 class="card-name">Ms. Zomuanpuii</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
 
-              <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="" alt="Profile image of Jiwasmita Sinha">
-                  </div>
-                  <h3 class="card-name">Jiwasmita Sinha</h3>
-                  <p class="card-designation">Assistant Professor</p>
-                  <a href="" class="profile-link">View Profile</a>
-                </div>
-              </div> -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Jiwasmika-Baishya.png" alt="Profile image of Jiwasmika Baishya">
+                            </div>
+                            <h3 class="card-name">Dr. Jiwasmika Baishya</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-jiwasmika-baishya" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
