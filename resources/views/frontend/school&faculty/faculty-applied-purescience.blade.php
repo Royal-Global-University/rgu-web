@@ -129,7 +129,7 @@
                             </div>
                             <h3 class="card-name">Prof. Rama Ranjan Bhattacharjee</h3>
                             <p class="card-designation">Dean – Research and Development</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="faculty-rama-ranjan-bhattacharjee" class="profile-link">View Profile</a> 
                         </div>
                     </div>
 

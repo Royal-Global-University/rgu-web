@@ -3543,6 +3543,14 @@ Route::get('/faculty-sthiti-dutta', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-monika-vedraj-jadhav', function () {
+    return view('frontend/facultyprofile/rsmas/monika-vedraj-jadhav');
+})->name('faculty-monika-vedraj-jadhav');
+
+Route::get('/faculty-farnaz-ahmed', function () {
+    return view('frontend/facultyprofile/rsmas/farnaz-ahmed');
+})->name('faculty-farnaz-ahmed');
+
 Route::get('/faculty-vilhoubeinuo-veronica-khruomo', function () {
     return view('frontend/facultyprofile/rsmas/vilhoubeinuo-veronica-khruomo');
 })->name('faculty-vilhoubeinuo-veronica-khruomo');
@@ -3652,6 +3660,10 @@ Route::get('/faculty-pubika-michong', function () {
 
 
 // RSAPS Faculty Profile
+
+Route::get('/faculty-rama-ranjan-bhattacharjee', function () {
+    return view('frontend/facultyprofile/rsaps/rama-ranjan-bhattacharjee');
+})->name('faculty-rama-ranjan-bhattacharjee');
 
 Route::get('/faculty-mullah-muhaiminul-islam', function () {
     return view('frontend/facultyprofile/rsaps/mullah-muhaiminul-islam');
@@ -3865,6 +3877,35 @@ Route::get('/faculty-ankit-bordoloi', function () {
 })->name('faculty-ankit-bordoloi');
 
 //RSEES Faculty Profile
+
+Route::get('/faculty-tushar-sarkar', function () {
+    return view('frontend/facultyprofile/rsees/tushar-sarkar');
+})->name('faculty-tushar-sarkar');
+
+Route::get('/faculty-trishna-changkakati', function () {
+    return view('frontend/facultyprofile/rsees/trishna-changkakati');
+})->name('faculty-trishna-changkakati');
+
+Route::get('/faculty-pritha-roychowdhury', function () {
+    return view('frontend/facultyprofile/rsees/pritha-roychowdhury');
+})->name('faculty-pritha-roychowdhury');
+
+Route::get('/faculty-parimita-saikia', function () {
+    return view('frontend/facultyprofile/rsees/parimita-saikia');
+})->name('faculty-parimita-saikia');
+
+Route::get('/faculty-deepanjali-reang', function () {
+    return view('frontend/facultyprofile/rsees/deepanjali-reang');
+})->name('faculty-deepanjali-reang');
+
+Route::get('/faculty-debendra-kumar-nayak', function () {
+    return view('frontend/facultyprofile/rsees/debendra-kumar-nayak');
+})->name('faculty-debendra-kumar-nayak');
+
+Route::get('/faculty-annesha-borah', function () {
+    return view('frontend/facultyprofile/rsees/annesha-borah');
+})->name('faculty-annesha-borah');
+
 Route::get('/faculty-hibjur-rahaman', function () {
     return view('frontend/facultyprofile/rsees/hibjur-rahaman');
 })->name('faculty-hibjur-rahaman');
@@ -4178,6 +4219,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 })->name('faculty-sumanta-dutta-chowdhury');
 
 //RSHSS Facuilty Profile
+
+Route::get('/faculty-pragya-tamang', function () {
+    return view('frontend/facultyprofile/rshss/pragya-tamang');
+})->name('faculty-pragya-tamang');
 
 Route::get('/faculty-surajit-c-mukhopadhyay', function () {
     return view('frontend/facultyprofile/rshss/surajit-c-mukhopadhyay');
