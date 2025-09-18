@@ -443,7 +443,7 @@
                             </div>
                             <h3 class="card-name">Ms. Monika Vedraj Jadhav</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="faculty-monika-vedraj-jadhav" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -843,7 +843,7 @@
                             </div>
                             <h3 class="card-name">Ms. Farnaz Ahmed</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="faculty-farnaz-ahmed" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

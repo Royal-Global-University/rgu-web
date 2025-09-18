@@ -182,126 +182,112 @@
             <!-- courses offered  -->
 
             <!-- syllabus  -->
-            <div class="container">
-                <div>
-                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                        style="color: #27467A; font-weight: 900; font-size: 25px; letter-spacing: 0.5px;">
-                        Courses Structure <span style="color: #FF9A1E; font-weight: 600;">and Syllabus</span>
-                    </h2>
+            <div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="accordion para1" id="accordionExample" style="border-radius: 12px; overflow: hidden;">
 
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="accordion para1" id="mobileAccordionCourses"
-                                    style="border-radius: 12px; overflow: hidden;">
+                            <!-- UG -->
+                            <div class="accordion-item"
+                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed"
+                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                        aria-controls="collapseOne">
+                                        <i class="fa fa-graduation-cap me-2"></i> Under Graduate
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body"
+                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                        <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                    <!-- UG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne">
-                                                <i class="fa fa-graduation-cap me-2"></i> Under Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/course-structure-ug.pdf"
+                                                target="_blank" style="color: #27467A;">
+                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- Journalism and Mass
+                                                Communication
 
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20UG.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- J&M
+                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                            </a>
 
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
+                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/bsc-animation-and-visualeffects-detailed-syllabus.pdf"
+                                                target="_blank" style="color: #27467A;">
+                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Animation & Visual Effects
+                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                            </a>
 
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20UG%20AVE.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus --
-                                                        Animation & Visual Effects
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
+                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/ba-jmc-detailed.pdf"
+                                                target="_blank" style="color: #27467A;">
+                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Journalism and Mass
+                                                Communication
+                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                            </a>
 
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/detailed-syllabus-bsc-animation-visualeffects.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Animation
-                                                        & Visual Effects
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
 
-                                                </div>
-                                            </div>
+
                                         </div>
                                     </div>
-
-                                    <!-- PG -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                <i class="fa fa-university me-2"></i> Post Graduate
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
-
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20PG%20%20(25th%20April%2025).pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- J&M
-
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                    <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Final%20Syllabus%20MA%20NEP%202025%20-2026.pdf"
-                                                        target="_blank" style="color: #27467A;">
-                                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- J&M
-
-                                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Doctoral -->
-                                    <div class="accordion-item"
-                                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed"
-                                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                <i class="fa fa-book me-2"></i> Doctoral Programme
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body"
-                                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <a href="phd" class="para1" target="_blank"
-                                                    style="color: #27467A; font-weight: 600; text-decoration: none;">
-                                                    <i class="fa fa-external-link me-2"></i> Click to View...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
+
+                            <!-- PG -->
+                            <div class="accordion-item"
+                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed"
+                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <i class="fa fa-university me-2"></i> Post Graduate
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body"
+                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                        <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+
+                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/ma-jmc-detailed.pdf"
+                                                target="_blank" style="color: #27467A;">
+                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Journalism and Mass
+                                                Communication
+
+                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                            </a>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Doctoral -->
+                            <div class="accordion-item"
+                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed"
+                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree">
+                                        <i class="fa fa-book me-2"></i> Doctoral Programme
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body"
+                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                        <a href="phd" class="para1" target="_blank"
+                                            style="color: #27467A; font-weight: 600; text-decoration: none;">
+                                            <i class="fa fa-external-link me-2"></i> Click to View...
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-
                 </div>
             </div>
             <!-- syllabus  -->
@@ -986,8 +972,7 @@
                             <div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <div class="accordion para1" id="accordionExample"
-                                            style="border-radius: 12px; overflow: hidden;">
+                                        <div class="accordion para1" id="accordionExample" style="border-radius: 12px; overflow: hidden;">
 
                                             <!-- UG -->
                                             <div class="accordion-item"
@@ -995,40 +980,39 @@
                                                 <h2 class="accordion-header" id="headingOne">
                                                     <button class="accordion-button collapsed"
                                                         style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="false"
+                                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                                                         aria-controls="collapseOne">
                                                         <i class="fa fa-graduation-cap me-2"></i> Under Graduate
                                                     </button>
                                                 </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                                    data-bs-parent="#accordionExample">
                                                     <div class="accordion-body"
                                                         style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
+                                                        <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20UG.pdf"
+                                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/course-structure-ug.pdf"
                                                                 target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- J&M
+                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- Journalism and Mass
+                                                                Communication
 
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20UG%20AVE.pdf"
+                                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/bsc-animation-and-visualeffects-detailed-syllabus.pdf"
                                                                 target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- Animation & Visual Effects
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Animation & Visual Effects
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/detailed-syllabus-bsc-animation-visualeffects.pdf"
+                                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/ba-jmc-detailed.pdf"
                                                                 target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                Animation & Visual Effects
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Journalism and Mass
+                                                                Communication
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
+
+
 
                                                         </div>
                                                     </div>
@@ -1041,34 +1025,25 @@
                                                 <h2 class="accordion-header" id="headingTwo">
                                                     <button class="accordion-button collapsed"
                                                         style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseTwo" aria-expanded="false"
+                                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                                         aria-controls="collapseTwo">
                                                         <i class="fa fa-university me-2"></i> Post Graduate
                                                     </button>
                                                 </h2>
-                                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                                    data-bs-parent="#accordionExample">
                                                     <div class="accordion-body"
                                                         style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                        <div class="row"
-                                                            style="display: flex; flex-direction: column; gap: 12px;">
+                                                        <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                                            <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Structure%20of%20syllabus%20-%20PG%20%20(25th%20April%2025).pdf"
+                                                            <a href="mobile-assets/department-all/dept-communication-media/new-updated-syllabus/ma-jmc-detailed.pdf"
                                                                 target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus
-                                                                -- J&M
+                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- Journalism and Mass
+                                                                Communication
 
                                                                 <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
                                                             </a>
 
-                                                            <a href="mobile-assets/department-all/dept-communication-media/updated-syllabus/Final%20Syllabus%20MA%20NEP%202025%20-2026.pdf"
-                                                                target="_blank" style="color: #27467A;">
-                                                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus --
-                                                                J&M
-
-                                                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                                            </a>
 
                                                         </div>
                                                     </div>
@@ -1081,14 +1056,13 @@
                                                 <h2 class="accordion-header" id="headingThree">
                                                     <button class="accordion-button collapsed"
                                                         style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                                        aria-controls="collapseThree">
+                                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                        aria-expanded="false" aria-controls="collapseThree">
                                                         <i class="fa fa-book me-2"></i> Doctoral Programme
                                                     </button>
                                                 </h2>
-                                                <div id="collapseThree" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                                    data-bs-parent="#accordionExample">
                                                     <div class="accordion-body"
                                                         style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
                                                         <a href="phd" class="para1" target="_blank"
