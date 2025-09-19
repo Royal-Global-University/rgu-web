@@ -448,7 +448,7 @@
                                     Dr. Annu Kumari
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
+                                    Assistant Professor & Coordinator, Zoology
                                 </p>
 
                             </div>
@@ -529,7 +529,7 @@
                                     Dr. Pratikshya Borah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor & Coordinator
+                                    Assistant Professor & Coordinator, Botany
                                 </p>
 
                             </div>
