@@ -3366,6 +3366,14 @@ Route::get('/Dr-Nandana-Dutta', function () {
 
 //RSA Faculty Profile
 
+Route::get('/faculty-shweta-das', function () {
+    return view('frontend/facultyprofile/rsa/shweta-das');
+})->name('faculty-shweta-das');
+
+Route::get('/faculty-madhu-vottery', function () {
+    return view('frontend/facultyprofile/rsa/madhu-vottery');
+})->name('faculty-madhu-vottery');
+
 Route::get('/faculty-hari-prasad-agarwal', function () {
     return view('frontend/facultyprofile/rsa/hari-prasad-agarwal');
 })->name('faculty-hari-prasad-agarwal');
@@ -3816,6 +3824,14 @@ Route::get('/faculty-biswajit-sarma', function () {
 
 
 //RSC FACULTY PROFILE
+
+Route::get('/faculty-upal-jyoti-baruah', function () {
+    return view('frontend/facultyprofile/rsc/upal-jyoti-baruah');
+})->name('faculty-upal-jyoti-baruah');
+
+Route::get('/faculty-hrishikesh', function () {
+    return view('frontend/facultyprofile/rsc/hrishikesh');
+})->name('faculty-hrishikesh');
 
 Route::get('/faculty-prachi-khetan', function () {
     return view('frontend/facultyprofile/rsc/prachi-khetan');

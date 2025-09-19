@@ -584,7 +584,7 @@
                             </div>
                             <h3 class="card-name">Mr. Hrishikesh Pathak</h3>
                             <p class="card-designation">Visiting Faculty</p>
-                            {{-- <a href="#" class="profile-link">View Profile</a> --}}
+                            <a href="faculty-hrishikesh" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -596,7 +596,7 @@
                             </div>
                             <h3 class="card-name">Mr. Upal J Baruah</h3>
                             <p class="card-designation">Visiting Faculty</p>
-                            {{-- <a href="#" class="profile-link">View Profile</a> --}}
+                            <a href="faculty-upal-jyoti-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

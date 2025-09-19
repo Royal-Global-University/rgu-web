@@ -128,8 +128,7 @@
                                 <img src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Mr. Prasant Jyoti Baruah</h3>
-                            <p class="card-designation">Distinguished Professor, Royal School of Communication and Media
-                                (RSCOM)</p>
+                            <p class="card-designation">Distinguished Professor</p>
                             <a href="https://www.rgu.ac/advisor-prasanta-jyoti-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -141,8 +140,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Ms. Sharmista Pradhan</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Royal School of Communication &
-                                Media</p>
+                            <p class="card-designation">Assistant Professor & Coordinator</p>
                             <a href="https://www.rgu.ac/faculty-sharmista-pradhan" class="profile-link">View Profile</a>
                         </div>
                     </div>
