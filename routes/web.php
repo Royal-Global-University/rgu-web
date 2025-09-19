@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SearchController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
 
 Route::get('/test', function () {
     return view('test');
@@ -2961,6 +2963,10 @@ Route::get('/cisr', function () {
 })->name('cisr');
 
 //media-corner
+
+Route::get('/rgu-ncc-cadets-shine-at-yams-catc-85-camp', function () {
+    return view('frontend/media-corner/news48');
+})->name('rgu-ncc-cadets-shine-at-yams-catc-85-camp');
 
 Route::get('/raise-children-as-help-givers-not-help-seekers-prof-alaka-sarma-at-rgu’s-leadership-conclave-2025', function () {
     return view('frontend/media-corner/news46');

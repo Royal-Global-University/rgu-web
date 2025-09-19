@@ -334,6 +334,17 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Rupak.jpeg" alt="Profile image of Dr. Parismita Phukan">
+                            </div>
+                            <h3 class="card-name">Dr. Rupak Kumar Dalai</h3>
+                            <p class="card-designation">Assistant Professor</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Imo-Mani-Singha-RSAPS.png"
                                     alt="Profile image of Mr. H. Imo Mani Singha">
                             </div>

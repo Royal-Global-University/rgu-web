@@ -956,6 +956,9 @@
 <body
     class="page-template page-template-elementor_header_footer page page-id-704 theme-kadu  tutor-lms woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-15 elementor-page elementor-page-704">
 
+    <!-- Floating Search Box -->
+    <!-- Floating Search Icon -->
+
 
     <div id="page" class="site site_wrapper">
 
@@ -1463,6 +1466,10 @@
 
 
     </script>
+
+    <script async src="https://cse.google.com/cse.js?cx=475719317160842ad">
+    </script>
+    <div class="gcse-search"></div>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
