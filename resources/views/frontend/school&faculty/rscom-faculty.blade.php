@@ -112,24 +112,25 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg" alt="Profile image ">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsb/2.jpg"
+                                    alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Mr. Prasant Jyoti Baruah</h3>
-                            <p class="card-designation">Distinguished Professor, Royal School of Communication and Media
-                                (RSCOM)</p>
-                            <a href="https://www.rgu.ac/advisor-prasanta-jyoti-baruah" class="profile-link">View Profile</a>
+                            <h3 class="card-name">Prof. D.N. Singh</h3>
+                            <p class="card-designation">Professor & Registrar Academic and I/C Dean, Royal School of
+                                Communication & Media</p>
+                            <a href="Prof-dn-singh" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Florence-Handique-Rabha.png"
-                                    alt="Profile image ">
+                                <img src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg" alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Dr. Florence Handique Rabha</h3>
-                            <p class="card-designation">Assistant Professor & HOD Royal School of Communication & Media</p>
-                            <a href="https://www.rgu.ac/faculty-florance-rabha" class="profile-link">View Profile</a>
+                            <h3 class="card-name">Mr. Prasant Jyoti Baruah</h3>
+                            <p class="card-designation">Distinguished Professor, Royal School of Communication and Media
+                                (RSCOM)</p>
+                            <a href="https://www.rgu.ac/advisor-prasanta-jyoti-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -178,6 +179,18 @@
                             <h3 class="card-name">Dr. Esha Chakraborty</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-esha-chakraborty" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Florence-Handique-Rabha.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Florence Handique Rabha</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-florance-rabha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

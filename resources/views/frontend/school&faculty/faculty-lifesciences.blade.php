@@ -201,7 +201,7 @@
                                     Dr. Anushree Baruah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor & Coordinator, RSAG
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -295,6 +295,27 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/all-faculty/rslsc/annukumari.jpeg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Annu Kumari
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor & Coordinator, Zoology
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/all-faculty/rslsc/dharmeswat.jpeg"
                                     class="img-fluid rounded border" />
                             </div>
@@ -303,7 +324,7 @@
                                     Dr. Dharmeswar Barhoi
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor & Coordinator, Zoology
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -377,26 +398,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rslsc/annukumari.jpeg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Annu Kumari
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-lg-3 mb-4">
 
@@ -994,7 +996,7 @@
                                     Dr. Anushree Baruah
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor & Coordinator, RSAG
+                                    Assistant Professor
                                 </p>
 
                             </div>
@@ -1088,12 +1090,12 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rslsc/dharmeswat.jpeg"
+                                    src="mobile-assets/all-faculty/rslsc/annukumari.jpeg"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Dharmeswar Barhoi
+                                    Dr. Annu Kumari
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Assistant Professor & Coordinator, Zoology
@@ -1175,27 +1177,6 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="mobile-assets/all-faculty/rslsc/annukumari.jpeg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Dr. Annu Kumari
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Assistant Professor
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Arvind-Kumar.png"
                                     class="img-fluid rounded border" />
                             </div>
@@ -1210,6 +1191,27 @@
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
                                         Profile</p>
                                 </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-4">
+
+                        <div class="card rounded d-flex flex-column"
+                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
+                            <div class="p-3">
+                                <img style="height: 310px; width: 100%;"
+                                    src="mobile-assets/all-faculty/rslsc/dharmeswat.jpeg"
+                                    class="img-fluid rounded border" />
+                            </div>
+                            <div class="card-body d-flex flex-column flex-grow-1">
+                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
+                                    Dr. Dharmeswar Barhoi
+                                </h5>
+                                <p class="para1" style="color: #27467A; line-height: 1.3;">
+                                    Assistant Professor
+                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -1438,15 +1440,14 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                             <div class="p-3">
                                 <img style="height: 310px; width: 100%;"
-                                    src="https://media.rgu.ac/iks/Ms.MonalishaMedhi.jpg"
-                                    class="img-fluid rounded border" />
+                                    src="https://media.rgu.ac/iks/Ms.MonalishaMedhi.jpg" class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
                                     Ms. Monalisha Medhi
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Faculty Member, IKS Cell
+                                    Faculty Member, IKS Cell
                                 </p>
                                 <a href="faculty-monalisha-medhi">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
@@ -1470,12 +1471,12 @@
                                     Ayushman Devraj
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Assistant Professor
+                                    Assistant Professor
                                 </p>
-                                {{-- <a href="faculty-monalisha-medhi">
+                                <a href="faculty-ayushman-devra">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
                                         Profile</p>
-                                </a> --}}
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1485,7 +1486,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/b_deeparani.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="https://www.rgu.ac/mobile-assets/updated-faculty-img/b_deeparani.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
@@ -1508,7 +1510,8 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
                             <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Bisalakshi-Sawarni-RSL.png"
+                                <img style="height: 310px; width: 100%;"
+                                    src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Bisalakshi-Sawarni-RSL.png"
                                     class="img-fluid rounded border" />
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
