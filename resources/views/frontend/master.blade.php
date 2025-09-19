@@ -1467,10 +1467,6 @@
 
     </script>
 
-    <script async src="https://cse.google.com/cse.js?cx=475719317160842ad">
-    </script>
-    <div class="gcse-search"></div>
-
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const navbar = document.getElementById("mainNavbar");
