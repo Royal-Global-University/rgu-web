@@ -20,7 +20,7 @@
             <h2 class="headd2 fw-bold text-center" style="color: #27467A; font-size: 30px;">
                 Bhutan Delegation Attends 9-Day Training on Academic & Administrative Governance at Royal Global University
             </h2>
-            <p. class="text-dark fw-bold text-center">Benchmarking Key to Enhancing Higher Education Quality: Prof. Buragohain</p.>
+            <p class="text-dark fw-bold text-center">Benchmarking Key to Enhancing Higher Education Quality: Prof. Buragohain</p>
 
             <div class="container pt-3 pb-4 text-center"
                 style="display: flex; justify-content: center; align-items: center; gap:10px">
