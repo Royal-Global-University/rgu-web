@@ -1,6 +1,6 @@
 @extends('frontend.master')
-@section('title', 'RGU holds AICTE-VAANI National Conference in Assamese Language')
-@section('meta_description', 'The Assam Royal Global University (RGU) successfully hosted a two-day national conference under the AICTE-VAANI scheme from 15th to 16th September 2025, with the theme “Resilient Futures: Indian Knowledge Systems for Energy, Sustainability, and Climate Action.” Significantly, the entire conference was conducted in the Assamese language.')
+@section('title', 'Bhutan Delegation Attends 9-Day Training on Academic & Administrative Governance at Royal Global University')
+@section('meta_description', 'Benchmarking Key to Enhancing Higher Education Quality: Prof. Buragohain')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
@@ -20,7 +20,7 @@
             <h2 class="headd2 fw-bold text-center" style="color: #27467A; font-size: 30px;">
                 Bhutan Delegation Attends 9-Day Training on Academic & Administrative Governance at Royal Global University
             </h2>
-            <p>Benchmarking Key to Enhancing Higher Education Quality: Prof. Buragohain</p>
+            <p. class="text-dark fw-bold text-center">Benchmarking Key to Enhancing Higher Education Quality: Prof. Buragohain</p.>
 
             <div class="container pt-3 pb-4 text-center"
                 style="display: flex; justify-content: center; align-items: center; gap:10px">
