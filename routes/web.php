@@ -2964,6 +2964,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/bhutan-delegation-attends-9-day-training-on-academic-administrative-governance-at-royal-global-university', function () {
+    return view('frontend/media-corner/news49');
+})->name('bhutan-delegation-attends-9-day-training-on-academic-administrative-governance-at-royal-global-university');
+
 Route::get('/rgu-ncc-cadets-shine-at-yams-catc-85-camp', function () {
     return view('frontend/media-corner/news48');
 })->name('rgu-ncc-cadets-shine-at-yams-catc-85-camp');
