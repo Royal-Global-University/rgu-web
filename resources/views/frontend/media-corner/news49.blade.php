@@ -49,6 +49,15 @@
                 September 13 and
                 will conclude on September 21, 2025.
                 <br><br>
+                In addition to Prof. Alak Kumar Buragohain, the resource persons for this training programme include Prof. Diganta
+                Munshi, Registrar (Administration) and Director, IQAC, RGU; Prof. Bhaben Tanti, Department of Botany, Gauhati
+                University; and Mr. Tirthankar Rakshit, Director Sales, Philips India Ltd, New Delhi.
+                <br><br>
+                The nine-member Bhutanese delegation comprises: Ms. Tshering Pelden, Deputy Chief Quality Assurance Officer; Mr. Karma
+                Choden, Faculty & Program Coordinator (LLB); Mr. Kelden Jamtsho, Chief ICT; Mr. Geden, Senior Planning Officer; Mr. Nima
+                Yoezer, Program Officer; Ms. Lekshey Lhazeen Dorji, Assistant Research Officer; Ms. Sangay Choden, Assistant Student
+                Service Officer; Mr. Sonam Gyeltshen, Assistant Program Officer; and Ms. Ugyen Sonam Choki, Assistant Program Officer.
+                <br><br>
                 During today’s session, Prof. Buragohain elaborated on different levels of global benchmarking in higher
                 education—national and institutional. He explained that benchmarking is a systematic process to identify and
                 compare
