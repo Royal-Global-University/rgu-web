@@ -26,7 +26,8 @@
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Dean, Royal School of
                                     Life Sciences</p>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">I/C Dean, Royal School of
-                                    Agriculture</p>
+                                    Agriculture
+                                </p>
                             </div>
                         </div>
                     </div>

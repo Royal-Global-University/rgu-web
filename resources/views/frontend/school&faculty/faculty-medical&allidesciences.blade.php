@@ -551,7 +551,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Syed-Sajidul-Islam-RSHM.png"
                                     alt="Profile image of Dr. Sayed Sajidul Islam">
                             </div>
-                            <h3 class="card-name">Dr. Sayed Sajidul Islam</h3>
+                            <h3 class="card-name">Dr. Syed Sajidul Islam</h3>
                             <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-syed-sajidul-islam" class="profile-link">View Profile</a>
                         </div>
@@ -1367,7 +1367,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Syed-Sajidul-Islam-RSHM.png"
                                     alt="Profile image of Dr. Sayed Sajidul Islam">
                             </div>
-                            <h3 class="card-name">Dr. Sayed Sajidul Islam</h3>
+                            <h3 class="card-name">Dr. Syed Sajidul Islam</h3>
                             <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-syed-sajidul-islam" class="profile-link">View Profile</a>
                         </div>
