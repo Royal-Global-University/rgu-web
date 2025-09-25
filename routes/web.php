@@ -2964,6 +2964,14 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-only-private-university-in-ne-having-3-of-the-world’s-top-2-percent-scientists-ranked-by-stanford-university', function () {
+    return view('frontend/media-corner/news51');
+})->name('rgu-only-private-university-in-ne-having-3-of-the-world’s-top-2-percent-scientists-ranked-by-stanford-university');
+
+Route::get('/rgu-to-honour-cultural-legend-zubeen-garg-with-statue-scholarships-and-book-on-his-works', function () {
+    return view('frontend/media-corner/news50');
+})->name('rgu-to-honour-cultural-legend-zubeen-garg-with-statue-scholarships-and-book-on-his-works');
+
 Route::get('/bhutan-delegation-attends-9-day-training-on-academic-administrative-governance-at-royal-global-university', function () {
     return view('frontend/media-corner/news49');
 })->name('bhutan-delegation-attends-9-day-training-on-academic-administrative-governance-at-royal-global-university');
