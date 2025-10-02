@@ -3569,6 +3569,14 @@ Route::get('/faculty-sthiti-dutta', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-shyam-sekhar-choudhury', function () {
+    return view('frontend/facultyprofile/rsd/shyam-sekhar-choudhury');
+})->name('faculty-shyam-sekhar-choudhury');
+
+Route::get('/faculty-haziel-rynjah', function () {
+    return view('frontend/facultyprofile/rsmas/haziel');
+})->name('faculty-haziel-rynjah');
+
 Route::get('/faculty-monika-vedraj-jadhav', function () {
     return view('frontend/facultyprofile/rsmas/monika-vedraj-jadhav');
 })->name('faculty-monika-vedraj-jadhav');
@@ -3902,6 +3910,11 @@ Route::get('/faculty-sudip-chakraborty', function () {
 })->name('faculty-sudip-chakraborty');
 
 //RSD Faculty Profile
+
+Route::get('/faculty-manash-pratim-borah', function () {
+    return view('frontend/facultyprofile/rsd/manash-pratim-borah');
+})->name('faculty-manash-pratim-borah');
+
 Route::get('/faculty-Abhisek', function () {
     return view('frontend/facultyprofile/rsd/Abhisek');
 })->name('faculty-Abhisek');
