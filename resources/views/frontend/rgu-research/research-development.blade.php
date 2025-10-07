@@ -578,143 +578,147 @@
 @section('content')
       <div class="website">
 
-            <header class="site-header">
-                <nav class="navbar-new">
-                    <div class="logo-container">
-                        <a href="#">
-                            <img src="mobile-assets/logo/light_logo.png" alt="University Logo" class="logo-light">
-                            <img src="demo-assets/logo/dark-logo.png" alt="University Logo" class="logo-dark">
-                        </a>
+            <div class="container">
+                <header class="site-header">
+                    <div class="container">
+                        <nav class="navbar-new">
+                            <div class="logo-container">
+                                <a href="#">
+                                    <img src="mobile-assets/logo/light_logo.png" alt="University Logo" class="logo-light">
+                                    <img src="demo-assets/logo/dark-logo.png" alt="University Logo" class="logo-dark">
+                                </a>
+                            </div>
+                            <ul class="nav-links">
+                                <li class="nav-item">
+                                    <a href="#">Publication +</i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Book Chapter +</i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Projects +</i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Our Labs +</i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Research Paper +</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Activities +</i></a>
+                                </li>
+                            </ul>
+                            <div class="hamburger">
+                                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+                            </div>
+                        </nav>
                     </div>
-                    <ul class="nav-links">
-                        <li class="nav-item">
-                            <a href="#">Publication </i></a>
-                            </li>
-                        <li class="nav-item">
-                            <a href="#">Book Chapter </i></a>
-                            </li>
-                        <li class="nav-item">
-                            <a href="#">Projects </i></a>
-                            </li>
-                        <li class="nav-item">
-                            <a href="#">Our Labs </i></a>
-                            </li>
-                        <li class="nav-item">
-                            <a href="#">Research Paper</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">Activities </i></a>
-                            </li>
-                    </ul>
-                    <div class="hamburger">
-                        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-                    </div>
-                </nav>
 
-                <script>
-                    // JavaScript remains unchanged as it is not affected by CSS variable implementation
-                    document.addEventListener('DOMContentLoaded', () => {
-                        // --- HEADER SCRIPT ---
-                        const header = document.querySelector('.site-header');
-                        const hamburger = document.querySelector('.hamburger');
-                        const navLinks = document.querySelector('.nav-links');
+                    <script>
+                        // JavaScript remains unchanged as it is not affected by CSS variable implementation
+                        document.addEventListener('DOMContentLoaded', () => {
+                            // --- HEADER SCRIPT ---
+                            const header = document.querySelector('.site-header');
+                            const hamburger = document.querySelector('.hamburger');
+                            const navLinks = document.querySelector('.nav-links');
 
-                        window.addEventListener('scroll', () => {
-                            if (window.scrollY > 50) header.classList.add('scrolled');
-                            else header.classList.remove('scrolled');
-                        });
+                            window.addEventListener('scroll', () => {
+                                if (window.scrollY > 50) header.classList.add('scrolled');
+                                else header.classList.remove('scrolled');
+                            });
 
-                        hamburger.addEventListener('click', () => {
-                            hamburger.classList.toggle('active');
-                            navLinks.classList.toggle('active');
-                        });
+                            hamburger.addEventListener('click', () => {
+                                hamburger.classList.toggle('active');
+                                navLinks.classList.toggle('active');
+                            });
 
-                        // FIXED: More robust logic for mobile dropdowns
-                        document.querySelectorAll('.nav-links .nav-item > a').forEach(navLink => {
-                            if (navLink.nextElementSibling && (navLink.nextElementSibling.classList.contains('dropdown-menu') || navLink.nextElementSibling.classList.contains('submenu'))) {
-                                navLink.addEventListener('click', function (e) {
-                                    if (window.innerWidth <= 992) {
-                                        e.preventDefault();
-                                        const parentItem = this.parentElement;
-                                        if (parentItem.parentElement === navLinks) {
-                                            document.querySelectorAll('.nav-links > .nav-item.open').forEach(openItem => {
-                                                if (openItem !== parentItem) {
-                                                    openItem.classList.remove('open');
-                                                }
-                                            });
-                                        } else {
-                                            parentItem.parentElement.querySelectorAll('.has-submenu.open').forEach(openItem => {
-                                                if (openItem !== parentItem) {
-                                                    openItem.classList.remove('open');
-                                                }
-                                            });
-                                        }
-                                        parentItem.classList.toggle('open');
-                                    }
-                                });
-                            }
-                        });
-                        document.querySelectorAll('.dropdown-menu .has-submenu > a').forEach(submenuLink => {
-                            submenuLink.addEventListener('click', function (e) {
-                                if (window.innerWidth <= 992) {
-                                    e.preventDefault();
-                                    e.stopPropagation();
-                                    const parentSubItem = this.parentElement;
-                                    parentSubItem.parentElement.querySelectorAll('.has-submenu.open').forEach(openItem => {
-                                        if (openItem !== parentSubItem) {
-                                            openItem.classList.remove('open');
+                            // FIXED: More robust logic for mobile dropdowns
+                            document.querySelectorAll('.nav-links .nav-item > a').forEach(navLink => {
+                                if (navLink.nextElementSibling && (navLink.nextElementSibling.classList.contains('dropdown-menu') || navLink.nextElementSibling.classList.contains('submenu'))) {
+                                    navLink.addEventListener('click', function (e) {
+                                        if (window.innerWidth <= 992) {
+                                            e.preventDefault();
+                                            const parentItem = this.parentElement;
+                                            if (parentItem.parentElement === navLinks) {
+                                                document.querySelectorAll('.nav-links > .nav-item.open').forEach(openItem => {
+                                                    if (openItem !== parentItem) {
+                                                        openItem.classList.remove('open');
+                                                    }
+                                                });
+                                            } else {
+                                                parentItem.parentElement.querySelectorAll('.has-submenu.open').forEach(openItem => {
+                                                    if (openItem !== parentItem) {
+                                                        openItem.classList.remove('open');
+                                                    }
+                                                });
+                                            }
+                                            parentItem.classList.toggle('open');
                                         }
                                     });
-                                    parentSubItem.classList.toggle('open');
                                 }
-                            })
-                        });
+                            });
+                            document.querySelectorAll('.dropdown-menu .has-submenu > a').forEach(submenuLink => {
+                                submenuLink.addEventListener('click', function (e) {
+                                    if (window.innerWidth <= 992) {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        const parentSubItem = this.parentElement;
+                                        parentSubItem.parentElement.querySelectorAll('.has-submenu.open').forEach(openItem => {
+                                            if (openItem !== parentSubItem) {
+                                                openItem.classList.remove('open');
+                                            }
+                                        });
+                                        parentSubItem.classList.toggle('open');
+                                    }
+                                })
+                            });
 
 
-                        // --- SLIDER SCRIPT (Only runs if .website is visible) ---
-                        const websiteContainer = document.querySelector('.website');
-                        if (getComputedStyle(websiteContainer).display !== 'none') {
-                            const slidesContainer = document.querySelector('.uid92k-slides');
-                            if (slidesContainer) {
-                                const slides = document.querySelectorAll('.uid92k-slide');
-                                const prevBtn = document.getElementById('prevBtn');
-                                const nextBtn = document.getElementById('nextBtn');
-                                let currentIndex = 0;
-                                const slideCount = slides.length;
-                                let autoSlideInterval;
+                            // --- SLIDER SCRIPT (Only runs if .website is visible) ---
+                            const websiteContainer = document.querySelector('.website');
+                            if (getComputedStyle(websiteContainer).display !== 'none') {
+                                const slidesContainer = document.querySelector('.uid92k-slides');
+                                if (slidesContainer) {
+                                    const slides = document.querySelectorAll('.uid92k-slide');
+                                    const prevBtn = document.getElementById('prevBtn');
+                                    const nextBtn = document.getElementById('nextBtn');
+                                    let currentIndex = 0;
+                                    const slideCount = slides.length;
+                                    let autoSlideInterval;
 
-                                const goToSlide = (index) => {
-                                    slidesContainer.style.transform = `translateX(-${index * 100}%)`;
-                                };
+                                    const goToSlide = (index) => {
+                                        slidesContainer.style.transform = `translateX(-${index * 100}%)`;
+                                    };
 
-                                const nextSlide = () => {
-                                    currentIndex = (currentIndex + 1) % slideCount;
-                                    goToSlide(currentIndex);
-                                };
+                                    const nextSlide = () => {
+                                        currentIndex = (currentIndex + 1) % slideCount;
+                                        goToSlide(currentIndex);
+                                    };
 
-                                const startAutoSlide = () => {
-                                    autoSlideInterval = setInterval(nextSlide, 5000);
-                                };
+                                    const startAutoSlide = () => {
+                                        autoSlideInterval = setInterval(nextSlide, 5000);
+                                    };
 
-                                nextBtn.addEventListener('click', () => {
-                                    clearInterval(autoSlideInterval);
-                                    nextSlide();
+                                    nextBtn.addEventListener('click', () => {
+                                        clearInterval(autoSlideInterval);
+                                        nextSlide();
+                                        startAutoSlide();
+                                    });
+
+                                    prevBtn.addEventListener('click', () => {
+                                        clearInterval(autoSlideInterval);
+                                        currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+                                        goToSlide(currentIndex);
+                                        startAutoSlide();
+                                    });
+
                                     startAutoSlide();
-                                });
-
-                                prevBtn.addEventListener('click', () => {
-                                    clearInterval(autoSlideInterval);
-                                    currentIndex = (currentIndex - 1 + slideCount) % slideCount;
-                                    goToSlide(currentIndex);
-                                    startAutoSlide();
-                                });
-
-                                startAutoSlide();
+                                }
                             }
-                        }
-                    });
-                </script>
-            </header>
+                        });
+                    </script>
+                </header>
+            </div>
 
             <main style="background-image: url(mobile-assets/research-development/bg.svg); background-size: cover;">
 
