@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/research-development', function () {
+    return view('frontend/rgu-research/research-development');
+});
+
 
 Route::get('/test', function () {
     return view('test');
