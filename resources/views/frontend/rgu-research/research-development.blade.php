@@ -74,7 +74,7 @@
             display: none;
         }
 
-        .webview {
+        .website {
             display: block;
         }
 
@@ -277,7 +277,7 @@
         }
 
 
-        /* --- 6. WEBVIEW CONTENT STYLES --- */
+        /* --- 6. website CONTENT STYLES --- */
         .uid92k-row {
             display: flex;
             flex-wrap: wrap;
@@ -470,7 +470,7 @@
         @media (max-width: 992px) {
 
             /* View Switching */
-            .webview {
+            .website {
                 display: none;
                 /* Hide desktop content on mobile */
             }
@@ -671,9 +671,9 @@
                         });
 
 
-                        // --- SLIDER SCRIPT (Only runs if .webview is visible) ---
-                        const webviewContainer = document.querySelector('.webview');
-                        if (getComputedStyle(webviewContainer).display !== 'none') {
+                        // --- SLIDER SCRIPT (Only runs if .website is visible) ---
+                        const websiteContainer = document.querySelector('.website');
+                        if (getComputedStyle(websiteContainer).display !== 'none') {
                             const slidesContainer = document.querySelector('.uid92k-slides');
                             if (slidesContainer) {
                                 const slides = document.querySelectorAll('.uid92k-slide');
