@@ -863,15 +863,19 @@
                                     careers@rgu.ac</strong></a>
                         </div>
 
-                        <div class="col-lg-3 pb-3">
-                            <a href="mailto:pahib@rgu.ac">
-                                <i class="fa fa-envelope text-primary"></i><strong class="text-primary para1">
-                                    pahib@rgu.ac</strong></a>
-                        </div>
                     </div>
 
                 </div>
                 <!-- contact info part  -->
+
+                <!--map-->
+                <h2 class="headd1 fw-bold text-center  pb-4 pt-2" style="color: #27467A; font-weight: 900;">
+                    Location <span style="color: #FF9A1E; font-weight: 500;">Map</span></h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.58413536414!2d91.72203897563631!3d26.112490577133137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5c6504d45881%3A0x1029dcdedc3e79db!2sRoyal%20Global%20University!5e0!3m2!1sen!2sin!4v1759902585816!5m2!1sen!2sin"
+                    width="1200" height="450" style="border: 3px solid black; border-radius: 10px;" class="mb-5" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
 
             </div>
         </section>
