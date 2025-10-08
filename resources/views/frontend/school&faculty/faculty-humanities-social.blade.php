@@ -231,18 +231,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Durba-Dutta-RSHSS.png"
-                                    alt="Profile image of Prof. D.N. Singh">
-                            </div>
-                            <h3 class="card-name">Dr. Durba Dutta</h3>
-                            <p class="card-designation">Associate Professor</p>
-                            <a href="https://www.rgu.ac/faculty-durba-dutta" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pragya.jpeg"
                                     alt="Profile image of Pragya Tamang">
                             </div>
@@ -1002,18 +990,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Luithuiwung-Awungshi-RSHSS.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. T Luithuiwung Awungshi</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Social Work</p>
-                            <a href="https://www.rgu.ac/faculty-luithuiwung-awungshi" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/all-faculty/rshss/Amlandas.jpeg"
                                     alt="Profile image ">
                             </div>
@@ -1032,18 +1008,6 @@
                             <h3 class="card-name">Dr. Madhu Monjuri Gohain</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-madhu-monjuri-gohain" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Moses-Newme-RSHSS.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Moses Newme</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-moses-newme" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

@@ -114,19 +114,19 @@
 
                     <div class="row mt-5">
                         <div class="col-lg-6 mb-4">
-                            <a href="Learningspaces.html"> <button class="custom-btn">Learning Spaces <span
+                            <a href="/library-Resources"> <button class="custom-btn">Learning Spaces <span
                                         class="corner"></span></button></a>
                         </div>
                         <div class="col-lg-6 mb-4">
-                            <a href="sportingspaces.html"> <button class="custom-btn">Sporting Spaces <span
+                            <a href="/games&sports"> <button class="custom-btn">Sporting Spaces <span
                                         class="corner"></span></button></a>
                         </div>
                         <div class="col-lg-6 mb-4">
-                            <a href="hostel-life.html"> <button class="custom-btn">Accomodation Spaces <span
+                            <a href="/hostel-life"> <button class="custom-btn">Accomodation Spaces <span
                                         class="corner"></span></button></a>
                         </div>
                         <div class="col-lg-6 mb-4">
-                            <a href="Incubation.html"> <button class="custom-btn">Recreation Spaces <span
+                            <a href="/innovation"> <button class="custom-btn">Recreation Spaces <span
                                         class="corner"></span></button></a>
                         </div>
                     </div>

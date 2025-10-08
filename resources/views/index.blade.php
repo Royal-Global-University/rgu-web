@@ -1179,13 +1179,6 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                                             </div>
 
                                                                                                                                             <div class="swiper-slide">
-                                                                                                                                                <a href="https://media.rgu.ac/AICTE%20VAANI%20Brochure.pdf">
-                                                                                                                                                    <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                                                                                                                                        src="demo-assets/big-events/2.png" alt="">
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-
-                                                                                                                                            <div class="swiper-slide">
                                                                                                                                                 <a href="climate-change-and-livelihood-in-northeast-india">
                                                                                                                                                     <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
                                                                                                                                                         src="demo-assets/big-events/3.png" alt="">
