@@ -28,6 +28,8 @@
                                         href="{{ route('advisory-leadership') }}">Advisory Leadership</a></li>
                                 <li><a class="dropdown-item text-dark para1"
                                         href="{{ route('deans') }}">Deans’ Corner</a></li>
+                                        <li><a class="dropdown-item text-dark para1" href="{{ route('chief-vigilance-officer') }}">Chief Vigilance Officer</a>
+                                        </li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('vision-mission') }}">Vision
                                         and Mission</a></li>
                                 <li><a class="dropdown-item text-dark para1"
@@ -39,6 +41,7 @@
                                         href="{{ route('social-outreach') }}">Social Outreach</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('footprints') }}">Royal
                                         Footprints</a></li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('self-disclosure') }}">Public Self Disclosure</a></li>
                             </div>
 
                             <div class="col-lg-4 p-2">
@@ -238,84 +241,92 @@
 
                 <!-- Campus Life with Submenu -->
                 <li class="nav-item dropdown" style="position: relative;">
-                    <a class="nav-link dropdown-toggle para1" href="#"
-                        style="color: #000000; font-weight: 600; font-size: 17px;">Campus Life</a>
+                    <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 17px;">Campus
+                        Life</a>
                     <ul class="dropdown-menu"
                         style="display: none; position: absolute; top: 100%; left: -40%; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
 
-                        <!-- Amenities Submenu -->
                         <li class="dropdown-submenu" style="position: relative;">
                             <a class="dropdown-item text-dark dropdown-toggle para1" href="#"
-                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Amenities</a>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">Amenities</a>
                             <ul class="dropdown-menu"
                                 style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('banking-services') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Banking
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Banking
                                         Service</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('department-store') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Departmental
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Departmental
                                         Store</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('hangout') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Hangout</a></li>
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Hangout</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('medical-facility') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Medical
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Medical
                                         Facility</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('laundry') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Laundry</a></li>
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Laundry</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('salon') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Salon</a></li>
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Salon</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('stationary-store') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Stationary
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Stationary
                                         Store</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('student-gallery') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Student
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Student
                                         Gallery</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('guest-house') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Guest House</a>
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Guest House</a>
                                 </li>
                             </ul>
                         </li>
 
-                        <!-- Events Submenu -->
-                        <li class="dropdown-submenu" style="position: relative;">
-                            <a class="dropdown-item text-dark dropdown-toggle para1" href="#"
-                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Events</a>
-                            <ul class="dropdown-menu"
-                                style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
-                                <li><a class="dropdown-item text-dark para1" href="{{ route('happy-happening') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Happy
-                                        and<br>Happening Campus</a></li>
-                                <li><a class="dropdown-item text-dark para1" href="{{ route('royal-fests') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Royal Fest</a>
-                                </li>
-                            </ul>
-                        </li>
+                        <li><a class="dropdown-item text-dark para1" href="{{ route('national-cadet-corps') }}"
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">National
+                                Cadet Corps</a></li>
+
+                        <li><a class="dropdown-item text-dark para1" href="{{ route('national-service-scheme') }}"
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">National
+                                Service Scheme</a></li>
 
                         <li><a class="dropdown-item text-dark para1" href="{{ route('games&sports') }}"
-                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Games and Sports</a></li>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Games
+                                And Sports</a></li>
 
-                        <!-- Hostel Submenu -->
                         <li class="dropdown-submenu" style="position: relative;">
                             <a class="dropdown-item text-dark dropdown-toggle para1" href="#"
-                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Hostel</a>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">Hostel</a>
                             <ul class="dropdown-menu"
                                 style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('hostel-life') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Hostel Life</a>
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Hostel Life</a>
                                 </li>
                                 <li><a class="dropdown-item text-dark para1" target="_blank"
                                         href="{{ asset('assets/img/pdf/Hostel Policy Rules 2024.pdf') }}"
-                                        style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Hostel Policy</a>
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Hostel Policy</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li><a class="dropdown-item text-dark para1" href="{{ route('infrastructure') }}"
-                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Infrastructure</a></li>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Infrastructure</a>
+                        </li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('clubs') }}"
-                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Clubs</a></li>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Clubs</a>
+                        </li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('student-affairs') }}"
-                                style="font-size: 16px; font-weight: 500; padding: 6px 20px;">Student Affairs</a></li>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Student
+                                Affairs</a></li>
+                        <li class="dropdown-submenu" style="position: relative;">
+                            <a class="dropdown-item text-dark dropdown-toggle para1" href="#"
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">Events</a>
+                            <ul class="dropdown-menu"
+                                style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('happy-happening') }}"
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">Happy
+                                        And <br> Happening Campus</a></li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('royal-fests') }}"
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Royal Fest</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
 

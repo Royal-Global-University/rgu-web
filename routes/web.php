@@ -50,9 +50,22 @@ Route::get('/notifications', function () {
 
 
 //Discover RGU
+
+Route::get('/self-disclosure', function () {
+    return view('frontend/discoverRGU/self-disclosure');
+})->name('self-disclosure');
+
+Route::get('/national-service-scheme', function () {
+    return view('frontend/ncc/nss');
+})->name('national-service-scheme');
+
+Route::get('/national-cadet-corps', function () {
+    return view('frontend/ncc/ncc');
+})->name('national-cadet-corps');
+
 Route::get('/chief-vigilance-officer', function () {
     return view('frontend/discoverRGU/chief-vigilance-officer');
-});
+})->name('chief-vigilance-officer');
 
 Route::get('/preface', function () {
     return view('frontend/discoverRGU/preface');

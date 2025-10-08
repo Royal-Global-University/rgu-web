@@ -1221,6 +1221,11 @@
                                                     style="font-size: 24px; color: #FF9A1E !important;">
                                                     Information About</h5>
 
+                                                <a href="self-disclosure">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Public Self Disclosure
+                                                    </p>
+                                                </a>
+
                                                 <a href="preface">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Preface
                                                     </p>

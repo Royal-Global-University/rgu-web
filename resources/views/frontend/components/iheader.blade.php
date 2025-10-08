@@ -28,6 +28,7 @@
                                 <li><a class="dropdown-item text-dark para1"
                                         href="{{ route('advisory-leadership') }}">Advisory Leadership</a></li>
                                         <li><a class="dropdown-item text-dark para1" href="{{ route('deans') }}">Deans’ Corner</a></li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('chief-vigilance-officer') }}">Chief Vigilance Officer</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('vision-mission') }}">Vision
                                         and Mission</a></li>
                                 <li><a class="dropdown-item text-dark para1"
@@ -39,6 +40,7 @@
                                         href="{{ route('social-outreach') }}">Social Outreach</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('footprints') }}">Royal
                                         Footprints</a></li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('self-disclosure') }}">Public Self Disclosure</a></li>
                             </div>
 
                             <div class="col-lg-4 p-2">
@@ -283,19 +285,11 @@
                             </ul>
                         </li>
 
-                        <li class="dropdown-submenu" style="position: relative;">
-                            <a class="dropdown-item text-dark dropdown-toggle para1" href="#"
-                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">Events</a>
-                            <ul class="dropdown-menu"
-                                style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
-                                <li><a class="dropdown-item text-dark para1" href="{{ route('happy-happening') }}"
-                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">Happy
-                                        And <br> Happening Campus</a></li>
-                                <li><a class="dropdown-item text-dark para1" href="{{ route('royal-fests') }}"
-                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Royal Fest</a>
-                                </li>
-                            </ul>
-                        </li>
+                        <li><a class="dropdown-item text-dark para1" href="{{ route('national-cadet-corps') }}"
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">National Cadet Corps</a></li>
+
+                        <li><a class="dropdown-item text-dark para1" href="{{ route('national-service-scheme') }}"
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">National Service Scheme</a></li>
 
                         <li><a class="dropdown-item text-dark para1" href="{{ route('games&sports') }}"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Games
@@ -325,6 +319,19 @@
                         <li><a class="dropdown-item text-dark para1" href="{{ route('student-affairs') }}"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Student
                                 Affairs</a></li>
+                        <li class="dropdown-submenu" style="position: relative;">
+                            <a class="dropdown-item text-dark dropdown-toggle para1" href="#"
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">Events</a>
+                            <ul class="dropdown-menu"
+                                style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('happy-happening') }}"
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px; line-height: 1.4;">Happy
+                                        And <br> Happening Campus</a></li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('royal-fests') }}"
+                                        style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Royal Fest</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
 
