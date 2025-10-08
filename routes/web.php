@@ -50,6 +50,10 @@ Route::get('/notifications', function () {
 
 
 //Discover RGU
+Route::get('/chief-vigilance-officer', function () {
+    return view('frontend/discoverRGU/chief-vigilance-officer');
+});
+
 Route::get('/preface', function () {
     return view('frontend/discoverRGU/preface');
 })->name('preface');
