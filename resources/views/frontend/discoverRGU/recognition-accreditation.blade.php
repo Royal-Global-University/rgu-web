@@ -305,6 +305,23 @@
             </div>
         </div>
 
+        {{-- <div class="p-3"><img src="mobile-assets/recognition/Reconation and accridiation yellow divider.svg" alt=""></div>
+
+        <div class="row" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+            <div class="col-lg-4 text-center">
+                <img style="height: 300px;" src="nss/first.png" alt="Image">
+            </div>
+            <div class="col-lg-8">
+                <h2 class="headd2 fw-bold" style="color: #27467A;">FIRST STATUTES
+                </h2>
+                <p class="para1 text-dark" style="text-align: justify;">
+                    <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold"
+                        href="nss/Gazetted Statute 75 dpi version.pdf">
+                        <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a>
+                </p>
+            </div>
+        </div> --}}
+
      </section>
 
      <section style="background-color: #fff8f0; padding: 30px 0px;">

@@ -41,7 +41,7 @@
                                 </tr>
                                 <tr>
                                     <td class="mobile-para1">Constituent Units/Affiliated Colleges, Affiliating University (in case of Colleges) Off- Campus/Off-shore
-                                    campus/Learning Support Centres under ODL mode (wherever applicable) - Not Applicable (to be added)</td>
+                                    campus/Learning Support Centres under ODL mode (wherever applicable)</td>
                                 </tr>
                                 <tr>
                                     <td class="mobile-para1"><a href="https://rgu.ac/recognition-accreditation"
