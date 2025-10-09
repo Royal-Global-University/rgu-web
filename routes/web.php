@@ -51,6 +51,10 @@ Route::get('/notifications', function () {
 
 //Discover RGU
 
+Route::get('/ombudsperson', function () {
+    return view('frontend/discoverRGU/ombudsperson');
+})->name('ombudsperson');
+
 Route::get('/self-disclosure', function () {
     return view('frontend/discoverRGU/self-disclosure');
 })->name('self-disclosure');
@@ -2957,6 +2961,10 @@ Route::get('/why-royal-global-university-is-considered-the-best-university-in-gu
 })->name('why-royal-global-university-is-considered-the-best-university-in-guwahati');
 
 //Quick link
+Route::get('/institutional-development-plan', function () {
+    return view('frontend/quicklink/institutional-development-plan');
+})->name('institutional-development-plan');
+
 Route::get('/grievance', function () {
     return view('frontend/quicklink/grievance');
 })->name('grievance');

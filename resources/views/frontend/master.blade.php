@@ -1131,11 +1131,11 @@
                                                                 India
                                                             </li>
                                                             <!-- <li class="item">
-                                                                            <span class="icon">
-                                                                                <i aria-hidden="true" class="fas fa-phone-alt"></i>
-                                                                            </span>
-                                                                            +91 70860-93458
-                                                                        </li> -->
+                                                                                <span class="icon">
+                                                                                    <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                                                                </span>
+                                                                                +91 70860-93458
+                                                                            </li> -->
 
 
 
@@ -1188,7 +1188,8 @@
                                                 </a>
 
                                                 <a href="{{ route('admission-programs-fees-structure') }}">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Eligibility & Selection Criteria
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Eligibility &
+                                                        Selection Criteria
                                                     </p>
                                                 </a>
 
@@ -1222,7 +1223,8 @@
                                                     Information About</h5>
 
                                                 <a href="self-disclosure">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Public Self Disclosure
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Public Self
+                                                        Disclosure
                                                     </p>
                                                 </a>
 
@@ -1257,8 +1259,9 @@
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Pay Fee Online
                                                     </p>
                                                 </a>
-                                                <a href="blog">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Our Blog
+                                                <a href="/institutional-development-plan">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Institutional
+                                                        Development Plan
                                                     </p>
                                                 </a>
 
@@ -1311,8 +1314,9 @@
                                                     <p class="m-0 pt-4 text-white" style="font-size: 18px;">Annual Report
                                                     </p>
                                                 </a>
-                                                <a href="mobile-assets/Alumni/Alumni Form.pdf" >
-                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Caution Money Refund Application
+                                                <a href="mobile-assets/Alumni/Alumni Form.pdf">
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Caution Money
+                                                        Refund Application
                                                     </p>
                                                 </a>
                                                 <a href="grievance">
@@ -1323,19 +1327,31 @@
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">RGU
                                                         Policy</p>
                                                 </a>
+                                                <a href="blog">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Our Blog
+                                                    </p>
+                                                </a>
 
                                             </div>
 
                                             <div class="col-lg-3">
                                                 <div class="dropdown">
-                                                    <button class="btn dropdown-toggle text-white p-0 m-0" style="font-size: 18px;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <button class="btn dropdown-toggle text-white p-0 m-0"
+                                                        style="font-size: 18px;" type="button" data-bs-toggle="dropdown"
+                                                        aria-expanded="false">
                                                         Cell and Committees
                                                     </button>
                                                     <ul class="dropdown-menu">
-                                                        <li><a class="dropdown-item" href="{{ route('phd-cell') }}">Ph.D. Cell</a></li>
-                                                        <li><a class="dropdown-item" href="{{ route('equal-opportunities-cell') }}">Equal Opportunities Cell</a></li>
-                                                        <li><a class="dropdown-item" href="{{ route('counselling-cell') }}">Counselling Cell</a></li>
-                                                        <li><a class="dropdown-item" href="{{ route('cisr') }}">CISR</a></li>
+                                                        <li><a class="dropdown-item" href="{{ route('phd-cell') }}">Ph.D.
+                                                                Cell</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                href="{{ route('equal-opportunities-cell') }}">Equal
+                                                                Opportunities Cell</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                href="{{ route('counselling-cell') }}">Counselling Cell</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="{{ route('cisr') }}">CISR</a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                                 {{-- <a href="https://heyzine.com/flip-book/adfd7889ba.html">

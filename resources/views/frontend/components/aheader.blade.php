@@ -30,6 +30,8 @@
                                         href="{{ route('deans') }}">Deans’ Corner</a></li>
                                         <li><a class="dropdown-item text-dark para1" href="{{ route('chief-vigilance-officer') }}">Chief Vigilance Officer</a>
                                         </li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('ombudsperson') }}">Ombudsperson</a>
+                                </li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('vision-mission') }}">Vision
                                         and Mission</a></li>
                                 <li><a class="dropdown-item text-dark para1"
@@ -41,7 +43,7 @@
                                         href="{{ route('social-outreach') }}">Social Outreach</a></li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('footprints') }}">Royal
                                         Footprints</a></li>
-                                <li><a class="dropdown-item text-dark para1" href="{{ route('self-disclosure') }}">Public Self Disclosure</a></li>
+
                             </div>
 
                             <div class="col-lg-4 p-2">
@@ -93,6 +95,7 @@
                                         Board</a></li>
                                 <li><a class="dropdown-item text-dark para1"
                                         href="{{ route('organogram-planning') }}">Organogram and <br> Planning</a></li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('self-disclosure') }}">Public Self Disclosure</a></li>
                             </div>
                         </div>
                     </ul>

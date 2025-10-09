@@ -9,6 +9,6 @@
 
     <div class="website">
         @include('frontend/components/aheader')
-        <img src="mobile-assets/messages-all/web-chancellor.png" alt="">
+        <img src="nss/dr-ak-pansari-message.png" alt="">
     </div>
 @endsection

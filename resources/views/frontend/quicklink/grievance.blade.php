@@ -1,7 +1,7 @@
 @extends('frontend.master')
 @section('content')
     <div class="mobile">
-
+        @include('frontend/components/mobileheader')
         <section style="padding: 30px 10px; background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/student-grievance/page-bg.svg); background-size: cover;">
                 <div class="container">
                 <div class="row align-items-center">
@@ -145,7 +145,7 @@
     </div>
 
     <div class="website">
-
+        @include('frontend/components/aheader')
         <div class="scroll-top">
             <div class="scroll-top-wrap">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
