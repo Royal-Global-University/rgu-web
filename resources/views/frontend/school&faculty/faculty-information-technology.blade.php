@@ -128,7 +128,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Deepjyoti Choudhury</h3>
-                            <p class="card-designation">Associate Professor & HOD, Computer Science & Engineering</p>
+                            <p class="card-designation">Associate Professor & HOD, Computer Science & Engineering and Royal School of Information Technology</p>
                             <a href="https://www.rgu.ac/faculty-deepjyoti-choudhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -142,6 +142,16 @@
                             <h3 class="card-name">Dr. Anurag Barthwal</h3>
                             <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-anurag-barthwal" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/updated-faculty-img/Bhairab.jpg" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Bhairab Sarma</h3>
+                            <p class="card-designation">Associate Professor</p>
                         </div>
                     </div>
 
@@ -178,6 +188,28 @@
                             <h3 class="card-name">Dr. Dillip Rout</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-dillip-rout" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Hidangmayum.jpg" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Hidangmayum Satyajeet Sharma</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-hidangmayum-satyajeet-sharma" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Naveen.jpeg" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Naveen R Shahi</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-naveen-r-shahi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

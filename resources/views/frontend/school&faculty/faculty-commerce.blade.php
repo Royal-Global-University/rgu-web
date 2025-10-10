@@ -158,17 +158,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Prof-Samip-Baruah.png" alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Prof. Samip Baruah</h3>
-                            <p class="card-designation">Professor</p>
-                            <a href="https://www.rgu.ac/faculty-samip-baruah" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Dr-Sudip-Chakraborty.png" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Prof. Sudip Chakraborty</h3>
