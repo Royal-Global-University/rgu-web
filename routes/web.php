@@ -2993,6 +2993,14 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/innovators-and-changemakers-inspire-at-tedx-royal-global-university-musical-tribute-to-zubeen-garg-by-pianist-nise-meruno', function () {
+    return view('frontend/media-corner/news53');
+})->name('innovators-and-changemakers-inspire-at-tedx-royal-global-university-musical-tribute-to-zubeen-garg-by-pianist-nise-meruno');
+
+Route::get('/atal-aicte-sponsored-faculty-development-programme-on-seismic-vulnerability-assessment-held-at-royal-global-university', function () {
+    return view('frontend/media-corner/news52');
+})->name('atal-aicte-sponsored-faculty-development-programme-on-seismic-vulnerability-assessment-held-at-royal-global-university');
+
 Route::get('/rgu-only-private-university-in-ne-having-3-of-the-world’s-top-2-percent-scientists-ranked-by-stanford-university', function () {
     return view('frontend/media-corner/news51');
 })->name('rgu-only-private-university-in-ne-having-3-of-the-world’s-top-2-percent-scientists-ranked-by-stanford-university');
@@ -3575,6 +3583,10 @@ Route::get('/sumi-barman', function () {
 })->name('sumi-barman');
 
 //RSLSC Faculty Profile
+
+Route::get('/faculty-dr-utpal-dutta', function () {
+    return view('frontend/facultyprofile/rslsc/utpal');
+})->name('faculty-dr-utpal-dutta');
 
 Route::get('/faculty-romeet-saha', function () {
     return view('frontend/facultyprofile/rslsc/romeet-saha');
