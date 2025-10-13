@@ -16,11 +16,6 @@
 
             @include('frontend/components/aheader')
 
-            <!--About Section-->
-                <div>
-                <img src="assets/img/jobs/head2.svg" alt="">
-            </div>
-
             <div class="container">
                 <h1 class="headd1 text-center p-4 fw-bold" style="color: #27467A">Join The Assam Royal Global University</h1>
                 <p class="text-dark">The Assam Royal Global University, one of India’s premium private universities, has been a leadership platform since
@@ -37,11 +32,15 @@
                         <div class="col-lg-6 text-center">
                             <!-- Top Text Section -->
                             <div class="text-center mb-4">
-                                <h1 class="headd3 fw-bold">To apply/register, click below link -</h1>
-                                <a href="https://rgu.renocampus.com/activeOpenings" class="headd3 job-ad-link text-primary fw-bold">https://rgu.renocampus.com/activeOpenings</a>
+                                <img src="/assets/j-1.jpeg" style="border: 2px solid black;" />
                             </div>
                         </div>
                         <div class="col-lg-6 text-center">
+                            <div class="text-center mb-4">
+                                <h1 class="headd3 fw-bold">To apply/register, click below link -</h1>
+                                <a href="https://rgu.renocampus.com/activeOpenings"
+                                    class="headd3 job-ad-link text-primary fw-bold">https://rgu.renocampus.com/activeOpenings</a>
+                            </div>
                             <h1 class="headd3 fw-bold text-center text-danger">Or scan the QR Code below:</h1>
                             <img src="assets/img/jobs.jpeg" style="width: 400px; height:300px"/>
                         </div>
