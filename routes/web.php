@@ -3744,6 +3744,10 @@ Route::get('/faculty-pubika-michong', function () {
 
 // RSAPS Faculty Profile
 
+Route::get('/faculty-rupak-kumar-dalai', function () {
+    return view('frontend/facultyprofile/rsaps/rupak-kumar');
+})->name('faculty-rupak-kumar-dalai');
+
 Route::get('/faculty-rama-ranjan-bhattacharjee', function () {
     return view('frontend/facultyprofile/rsaps/rama-ranjan-bhattacharjee');
 })->name('faculty-rama-ranjan-bhattacharjee');

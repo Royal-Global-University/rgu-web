@@ -565,6 +565,10 @@
                                     Prof. Rama Ranjan Bhattacharjee
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">Dean - Research & Innovation</p>
+                                <a href="/faculty-rama-ranjan-bhattacharjee" style="position: absolute; bottom: 20px;">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
+                                </a>
                             </div>
                         </div>
                     </div>

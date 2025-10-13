@@ -115,8 +115,9 @@
                                 <img src="mobile-assets/updated-faculty-img/Anuradhadevi-RSAPS.png"
                                     alt="Profile image of Prof. Anuradha Devi">
                             </div>
-                            <h3 class="card-name">Prof. Anuradha Devi</h3>
-                            <p class="card-designation">Professor & Dean, RSAPS</p>
+                            <h3 class="card-name">Prof. (Dr.) Anuradha Devi</h3>
+                            <p class="card-designation">Professor & Dean, Royal School of Applied & Pure Sciences (RSAPS)
+                            </p>
                             <a href="https://www.rgu.ac/faculty-anuradha-devi" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -129,7 +130,7 @@
                             </div>
                             <h3 class="card-name">Prof. Rama Ranjan Bhattacharjee</h3>
                             <p class="card-designation">Dean – Research and Development</p>
-                            <a href="faculty-rama-ranjan-bhattacharjee" class="profile-link">View Profile</a>
+                            <a href="/faculty-rama-ranjan-bhattacharjee" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -206,8 +207,9 @@
                                 <img src="mobile-assets/updated-faculty-img/Anuradhadevi-RSAPS.png"
                                     alt="Profile image of Prof. Anuradha Devi">
                             </div>
-                            <h3 class="card-name">Prof. Anuradha Devi</h3>
-                            <p class="card-designation">Professor & Dean, RSAPS</p>
+                            <h3 class="card-name">Prof. (Dr.) Anuradha Devi</h3>
+                            <p class="card-designation">Professor & Dean, Royal School of Applied & Pure Sciences (RSAPS)
+                            </p>
                             <a href="https://www.rgu.ac/faculty-anuradha-devi" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -234,6 +236,7 @@
                         </div>
                     </div>
 
+
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
@@ -241,7 +244,7 @@
                                     alt="Profile image of Dr. Bimalendu Kalita">
                             </div>
                             <h3 class="card-name">Dr. Bimalendu Kalita</h3>
-                            <p class="card-designation">Associate Professor & HOD, mathematics</p>
+                            <p class="card-designation">Associate Professor & HOD, Mathematics</p>
                             <a href="https://www.rgu.ac/faculty-dr-bimalendu-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -322,11 +325,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Rupak.jpeg" alt="Profile image of Dr. Parismita Phukan">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rupak.jpeg"
+                                    alt="Profile image of Dr. Rupak Kumar Dalai">
                             </div>
                             <h3 class="card-name">Dr. Rupak Kumar Dalai</h3>
                             <p class="card-designation">Assistant Professor</p>
-
+                            <a href="/faculty-rupak-kumar-dalai" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -358,9 +362,9 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rshss/Deluwar.jpeg"
-                                    alt="Profile image of Dr. Mohammed Deluwar Hoque">
+                                    alt="Profile image of Dr. Muhammad Deluwar Hoque">
                             </div>
-                            <h3 class="card-name">Dr. Mohammed Deluwar Hoque</h3>
+                            <h3 class="card-name">Dr. Muhammad Deluwar Hoque</h3>
                             <p class="card-designation">Associate Professor & HOD, Economics</p>
                             <a href="https://www.rgu.ac/faculty-mohammed-deluwar-hoque" class="profile-link">View
                                 Profile</a>
@@ -378,6 +382,7 @@
                             <a href="https://www.rgu.ac/faculty-abhinav-chaliha" class="profile-link">View Profile</a>
                         </div>
                     </div>
+
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -439,31 +444,19 @@
                         </div>
                     </div>
 
-                </div>
-                            <div class="text-center text-white fw-bold"
-                                style="background-color: #27467A; font-size: 32px; padding-top: 10px; padding-bottom: 10px;">Visiting
-                                Faculty</div>
-                            <div style="display: flex; justify-content: center; align-items: center;">
-
-                                <div class="col-lg-3 mb-4 pt-4">
-                                    <div class="card rounded d-flex flex-column"
-                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                                        <div class="p-3">
-                                            <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Rajkumari.png.png"
-                                                class="img-fluid rounded border" />
-                                        </div>
-                                        <div class="card-body d-flex flex-column flex-grow-1">
-                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Rajkumari
-                                                Surjabala Devi
-                                                Das</h5>
-                                            {{-- <a href="">
-                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                                    Profile</p> --}}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rajkumari.png.png"
+                                    alt="Profile image of Ms. Rajkumari Surjabala Devi Das">
                             </div>
+                            <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
+                            <p class="card-designation">Visiting Faculty</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
+
+                </div>
                 <!-- regular faculty  -->
 
                 <!-- Chemistry  -->
@@ -485,7 +478,7 @@
                             </div>
                             <h3 class="card-name">Prof. Rama Ranjan Bhattacharjee</h3>
                             <p class="card-designation">Dean – Research and Development</p>
-                            <a href="faculty-rama-ranjan-bhattacharjee" class="profile-link">View Profile</a>
+                            <a href="/faculty-rama-ranjan-bhattacharjee" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -496,8 +489,20 @@
                                     alt="Profile image of Dr. Pubalee Sarmah">
                             </div>
                             <h3 class="card-name">Dr. Pubalee Sarmah</h3>
-                            <p class="card-designation">Associate Professor & HoD, Chemistry</p>
+                            <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-pubalee-sarmah" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Biplob-Borah.png"
+                                    alt="Profile image of Dr. Biplob Borah">
+                            </div>
+                            <h3 class="card-name">Dr. Biplob Borah</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator, Chemistry</p>
+                            <a href="https://www.rgu.ac/faculty-biplob-borah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -513,17 +518,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Biplob-Borah.png"
-                                    alt="Profile image of Dr. Biplob Borah">
-                            </div>
-                            <h3 class="card-name">Dr. Biplob Borah</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-biplob-borah" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
+
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -647,6 +642,7 @@
                             <a href="https://www.rgu.ac/faculty-dr-parismita-phukan" class="profile-link">View Profile</a>
                         </div>
                     </div>
+
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -923,7 +919,7 @@
                             </div>
                             <h3 class="card-name">Ayushman Devraj</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="faculty-ayushman-devra" class="profile-link">View Profile</a>
+                            <a href="https://www.rgu.ac/faculty-ayushman-devra" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -939,17 +935,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Ms-Jemima-Yasmin.png"
-                                    alt="Profile image of Jahnabi">
-                            </div>
-                            <h3 class="card-name">Ms. Jemima Yasmin</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-jemima-yasmin" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -974,34 +959,20 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rajkumari.png.png"
+                                    alt="Profile image of Ms. Rajkumari Surjabala Devi Das">
+                            </div>
+                            <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
+                            <p class="card-designation">Visiting Faculty</p>
+                        </div>
+                    </div>
+
 
 
                 </div>
-
-                            <div class="text-center text-white fw-bold"
-                                style="background-color: #27467A; font-size: 32px; padding-top: 10px; padding-bottom: 10px;">Visiting
-                                Faculty</div>
-                            <div style="display: flex; justify-content: center; align-items: center;">
-
-                                <div class="col-lg-3 mb-4 pt-4">
-                                    <div class="card rounded d-flex flex-column"
-                                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                                        <div class="p-3">
-                                            <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Rajkumari.png.png"
-                                                class="img-fluid rounded border" />
-                                        </div>
-                                        <div class="card-body d-flex flex-column flex-grow-1">
-                                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Rajkumari
-                                                Surjabala Devi
-                                                Das</h5>
-                                            {{-- <a href="">
-                                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
-                                                    Profile</p> --}}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                 <!-- regular faculty  -->
 
                 <!-- Physics  -->
@@ -1033,23 +1004,11 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rsaps/4.jpg"
-                                    alt="Profile image of Prof. Amarendra Rajput">
+                                    alt="Profile image of  Prof. (Dr.) Amarendra Rajput">
                             </div>
-                            <h3 class="card-name">Prof. Amarendra Rajput</h3>
+                            <h3 class="card-name"> Prof. (Dr.) Amarendra Rajput</h3>
                             <p class="card-designation">Professor and Advisor</p>
                             <a href="https://www.rgu.ac/faculty-amdrendra-rajput" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Maidul-Islam-RSAPS.png"
-                                    alt="Profile image of Dr. Maidul Islam">
-                            </div>
-                            <h3 class="card-name">Dr. Maidul Islam</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Physics</p>
-                            <a href="https://www.rgu.ac/faculty-dr-maidul-islam" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1074,6 +1033,18 @@
                             <h3 class="card-name">Dr. Sankar Barman</h3>
                             <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-dr-sankar-barman" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Maidul-Islam-RSAPS.png"
+                                    alt="Profile image of Dr. Maidul Islam">
+                            </div>
+                            <h3 class="card-name">Dr. Maidul Islam</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator, Physics</p>
+                            <a href="https://www.rgu.ac/faculty-dr-maidul-islam" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1133,7 +1104,7 @@
                             </div>
                             <h3 class="card-name">Ayushman Devraj</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="faculty-ayushman-devra" class="profile-link">View Profile</a>
+                            <a href="https://www.rgu.ac/faculty-ayushman-devra" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1250,11 +1221,11 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Biplob-Borah.png"
-                                    alt="Profile image of Biplob Borah">
+                                    alt="Profile image of Dr. Biplob Borah">
                             </div>
-                            <h3 class="card-name">Biplob Borah</h3>
+                            <h3 class="card-name">Dr. Biplob Borah</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-binoyargha-dam" class="profile-link">View Profile</a>
+                            <a href="https://www.rgu.ac/faculty-biplob-borah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1262,9 +1233,9 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rshss/Deluwar.jpeg"
-                                    alt="Profile image of Dr. Mohammed Deluwar Hoque">
+                                    alt="Profile image of Dr. Muhammad Deluwar Hoque">
                             </div>
-                            <h3 class="card-name">Dr. Mohammed Deluwar Hoque</h3>
+                            <h3 class="card-name">Dr. Muhammad Deluwar Hoque</h3>
                             <p class="card-designation">Associate Professor & HOD, Economics</p>
                             <a href="https://www.rgu.ac/faculty-mohammed-deluwar-hoque" class="profile-link">View
                                 Profile</a>
@@ -1348,9 +1319,9 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Abhinav-Chaliha-RSHSS.png"
-                                    alt="Profile image of Prof. Abhinav Chaliha">
+                                    alt="Profile image of Mr. Abhinav Chaliha">
                             </div>
-                            <h3 class="card-name">Prof. Abhinav Chaliha</h3>
+                            <h3 class="card-name">Mr. Abhinav Chaliha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-abhinav-chaliha" class="profile-link">View Profile</a>
                         </div>
