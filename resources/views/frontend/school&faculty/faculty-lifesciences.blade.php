@@ -302,7 +302,7 @@
                                     Prof. (Dr.) Utpal Dutta
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor and Director, Finishing School
+                                    Professor, Zoology and Director, Finishing School
                                 </p>
 
                             </div>
@@ -1117,7 +1117,7 @@
                                     Prof. (Dr.) Utpal Dutta
                                 </h5>
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Professor and Director, Finishing School
+                                    Professor, Zoology and Director, Finishing School
                                 </p>
                                 <a href="/faculty-dr-utpal-dutta">
                                     <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View

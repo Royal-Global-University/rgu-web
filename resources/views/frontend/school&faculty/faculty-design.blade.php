@@ -871,6 +871,9 @@
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
                                     Mr. Ameet Baruah
                                 </h5>
+                                <a href="faculty-ameet">
+                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                        Profile</p>
                             </div>
                         </div>
                     </div>
@@ -1959,7 +1962,7 @@
                     <h3>Visiting Faculty</h3>
                 </div>
 
-                <div class="row mt-5" style="display: flex; align-items: center; justify-content: center;">
+                <div class="row mt-5" style=" align-items: center; justify-content: center;">
 
                     <div class="col-lg-3 mb-4">
 
@@ -1969,10 +1972,13 @@
                                 <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Ameet.jpg"
                                     class="img-fluid rounded border" />
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
+                            <div class="card-body">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
                                     Mr. Ameet Baruah
                                 </h5>
+                            <a href="faculty-ameet">
+                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View
+                                    Profile</p>
                             </div>
                         </div>
                     </div>
