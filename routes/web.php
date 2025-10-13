@@ -3898,6 +3898,10 @@ Route::get('/faculty-biswajit-sarma', function () {
 
 //RSC FACULTY PROFILE
 
+Route::get('/prof-dr-Pradeep', function () {
+    return view('frontend/facultyprofile/rsc/pradeep');
+})->name('prof-dr-Pradeep');
+
 Route::get('/faculty-upal-jyoti-baruah', function () {
     return view('frontend/facultyprofile/rsc/upal-jyoti-baruah');
 })->name('faculty-upal-jyoti-baruah');

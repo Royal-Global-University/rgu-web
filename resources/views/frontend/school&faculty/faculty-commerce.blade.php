@@ -107,7 +107,7 @@
 
                 <!-- regular faculty  -->
                 <div class="row justify-content-center">
-                    <div class="col-lg-2"></div>
+                    <div class="col-lg-1"></div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -130,7 +130,16 @@
                             <!-- <a href="#" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
-                    <div class="col-lg-2"></div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/mobile-assets/Pradeep.png" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Prof. Pradeep Kumar Jain</h3>
+                            <p class="card-designation">Professor</p>
+                            <a href="/prof-dr-Pradeep" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
