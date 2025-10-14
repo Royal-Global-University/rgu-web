@@ -2919,6 +2919,11 @@ Route::get('/lp', function () {
 })->name('lp');
 
 //conference
+
+Route::get('/national-conference-on-frontiers-in-modern-physics-astrophysics-and-cosmology', function () {
+    return view('frontend/conference/frontiers');
+})->name('national-conference-on-frontiers-in-modern-physics-astrophysics-and-cosmology');
+
 Route::get('/bioe3-conference', function () {
     return view('frontend/conference/bioe3-conference');
 })->name('bioe3-conference');
