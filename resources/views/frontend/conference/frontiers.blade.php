@@ -1,4 +1,6 @@
 @extends('frontend.master')
+@section('title', 'National Conference on Frontiers in Modern Physics, Astrophysics and Cosmology')
+@section('meta_keywords', 'Blog')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
