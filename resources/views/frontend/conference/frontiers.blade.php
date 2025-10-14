@@ -413,7 +413,7 @@
                     </table>
                 </div>
 
-                <h2 class="headd3 text-dark mt-3 fw-bold">Organising Committee:</h2>
+                <h2 class="headd3 text-dark mt-3 fw-bold">Technical & Scientific Committee:</h2>
 
                 <div class="table-responsive">
                     <table style="border-collapse: collapse; width: 100%; font-family: 'Montserrat', sans-serif;">
@@ -837,13 +837,16 @@
             <div class="pt-5">
                 <div class="row" style="display: flex; justify-content: center; align-items: center;">
 
-                    <div class="col-lg-6"></div>
+                    <div class="col-lg-4"></div>
                     <div class="col-lg-6">
                         <a class="mobile-headd3"
-                            style="padding: 10px 50px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 25px;" target="_blank"
+                            style="padding: 10px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 25px;"
+                            target="_blank" href="mobile-assets/blog/cosmology/Brochure.pdf">Brochure</a>
+                        <a class="mobile-headd3"
+                            style="padding: 10px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 25px;" target="_blank"
                             href="https://forms.gle/kRiFNsfwQG7AGxGA9">Registration Link</a>
                         <a class="mobile-headd3"
-                            style="padding: 10px 50px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600;"
+                            style="padding: 10px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600;"
                             href="mobile-assets/blog/cosmology/Abstract.docx">Download Abstract</a>
                     </div>
 
@@ -1167,6 +1170,11 @@
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Rama Ranjan Bhattarjee</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">RGU</td>
                             </tr>
+                            <tr>
+                                <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">5</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Prof. Anuradha Devi</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">RGU</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -1236,7 +1244,7 @@
                     </table>
                 </div>
 
-                <h2 class="headd3 text-dark mt-3 fw-bold">Organising Committee:</h2>
+                <h2 class="headd3 text-dark mt-3 fw-bold">Technical & Scientific Committee:</h2>
 
                 <div class="table-responsive">
                     <table style="border-collapse: collapse; width: 100%; font-family: 'Montserrat', sans-serif;">
@@ -1643,6 +1651,16 @@
                 </div>
 
             </div>
+        </section>
+        <section class="text-center">
+            <!--map-->
+            <h2 class="headd1 fw-bold text-center  pb-4 pt-2" style="color: #27467A; font-weight: 900;">
+                RGU <span style="color: #FF9A1E; font-weight: 500;">Location</span></h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.58413536414!2d91.72203897563631!3d26.112490577133137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5c6504d45881%3A0x1029dcdedc3e79db!2sRoyal%20Global%20University!5e0!3m2!1sen!2sin!4v1759902585816!5m2!1sen!2sin"
+                width="1200" height="450" style="border: 3px solid black; border-radius: 10px;" class="mb-5" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </section>
 
     </div>
