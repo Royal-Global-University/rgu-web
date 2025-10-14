@@ -1299,11 +1299,6 @@
                             </tr>
                         </thead>
                         <tbody style="color: #333; background-color: #e6e6e6;">
-                            <tr style="background-color: #f2f2f2;">
-                                <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">1</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Prof. Anuradha Devi</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Dean, RSAPS, RGU</td>
-                            </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Devika Phukan</td>
