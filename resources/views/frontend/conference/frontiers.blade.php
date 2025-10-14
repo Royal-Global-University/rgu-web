@@ -438,7 +438,7 @@
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">3</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Dr. B. Chetia</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Dr. Bornali Chetia</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
                             </tr>
                             <tr>
@@ -1269,7 +1269,7 @@
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">3</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Dr. B. Chetia</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Dr. Bornali Chetia</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
                             </tr>
                             <tr>
