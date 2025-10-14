@@ -838,11 +838,11 @@
                     <div class="col-lg-6"></div>
                     <div class="col-lg-6">
                         <a class="mobile-headd3"
-                            style="padding: 10px 50px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 25px;"
-                            href="">Registration Link</a>
+                            style="padding: 10px 50px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 25px;" target="_blank"
+                            href="https://forms.gle/kRiFNsfwQG7AGxGA9">Registration Link</a>
                         <a class="mobile-headd3"
                             style="padding: 10px 50px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600;"
-                            href="">Download Abstract</a>
+                            href="mobile-assets/blog/cosmology/Abstract.docx">Download Abstract</a>
                     </div>
 
                 </div>
