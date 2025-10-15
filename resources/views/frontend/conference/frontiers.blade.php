@@ -4,6 +4,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
+        <div style="padding-top: 90px"></div>
         <div
             style="background-image: url(mobile-assets/blog/cosmology/banner-mob.png); background-size: cover; background-position: center; height: 35vh; display: flex; align-items: center; justify-content: center; text-align: center;">
         </div>
@@ -29,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="container pt-3">
+            <div class="container pt-5">
 
                 <h2 class="mobile-headd2 fw-bold kd-title-ani kd-split-text pt-2 pb-1"
                     style="color: #27467A; font-weight: 900;">
