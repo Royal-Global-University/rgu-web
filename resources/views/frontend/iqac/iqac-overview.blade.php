@@ -167,11 +167,11 @@
                     </div>
                     <div class="col-lg-6">
 
-                        <h2 class="headd2 kd-title-ani kd-split" style="color: #264273; font-weight: 700;">Internal Quality
+                        <h2 class="headd1 kd-title-ani kd-split" style="color: #264273; font-weight: 700;">Internal Quality
                             <br><span style="color: #FF9A1E; font-weight: 500;">Assurance Cell
                                 (IQAC)</span> </h2>
 
-                        <p class="para1" style="color: #264273; text-align: justify;">
+                        <p class="para1 pt-3" style="color: #264273; text-align: justify;">
                             The Internal Quality Assurance Cell (IQAC) is an internal mechanism mandated by the University
                             Grants Commission (UGC) for higher educational institutions in India. It is responsible for
                             monitoring, evaluating, and enhancing the quality of education and the overall performance of the
@@ -204,18 +204,19 @@
 
                     <div class="button-row">
                         <a href="iqac-members" class="button para1">Composition of IQAC</a>
-                        <a href="iqac-mom" class="button para1">Minutes of Meeting</a>
-                        <a href="iqac-activities" class="button para1">Activities</a>
-                        <a href="iqac-report" class="button para1">NAAC</a>
+                        {{-- <a href="iqac-mom" class="button para1">Minutes of Meeting</a> --}}
+                        {{-- <a href="iqac-activities" class="button para1">Activities</a>
+                        <a href="iqac-report" class="button para1">NAAC</a> --}}
+                        <a href="annual-report" class="button para1">Annual & Audit Reports</a>
                     </div>
 
-                    <div class="button-row">
+                    {{-- <div class="button-row">
                         <a class="button para1">AQAR</a>
                         <a class="button para1">NIRF</a>
                         <a class="button para1">Other Rankings</a>
-                        <a href="iqac-annual-report" class="button para1">Reports</a>
+                        <a href="iqac-annual-report" class="button para1">Reports</a> --}}
                         <!-- <a href="iqac-feedback-analysis-report" class="button para1">Feedback Analysis Report</a> -->
-                    </div>
+                    {{-- </div> --}}
 
                 </section>
             </div>

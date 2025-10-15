@@ -262,7 +262,8 @@
                                 </tr>
 
                                 <tr>
-                                    <td class="mobile-para1">Internal Quality Assurance Cell (IQAC)</td>
+                                    <td class="mobile-para1"><a href="/iqac" target="_blank" style="color: #27467A;">Internal Quality Assurance Cell (IQAC)</a>
+                                    </td>
                                 </tr>
 
 

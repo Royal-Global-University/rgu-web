@@ -51,6 +51,10 @@ Route::get('/notifications', function () {
 
 //Discover RGU
 
+Route::get('/university-research-committee', function () {
+    return view('frontend/discoverRGU/university-research-committee');
+})->name('university-research-committee');
+
 Route::get('/ombudsperson', function () {
     return view('frontend/discoverRGU/ombudsperson');
 })->name('ombudsperson');
@@ -269,6 +273,10 @@ Route::get('/organogram-planning', function () {
 Route::get('/360-tour', function () {
     return view('frontend/discoverRGU/360-tour');
 })->name('360-tour');
+
+Route::get('/hall-of-fame', function () {
+    return view('frontend/discoverRGU/hall-of-fame');
+})->name('hall-of-fame');
 
 
 //All Facilities
@@ -902,9 +910,9 @@ Route::get('/why-india', function () {
 
 //IQAC
 
-Route::get('/iqac-overview', function () {
+Route::get('/iqac', function () {
     return view('frontend/iqac/iqac-overview');
-})->name('iqac-overview');
+})->name('iqac');
 
 Route::get('/iqac-activities', function () {
     return view('frontend/iqac/iqac-activities');

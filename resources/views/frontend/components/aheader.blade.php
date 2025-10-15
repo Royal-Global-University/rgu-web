@@ -87,6 +87,8 @@
                                         <li><a class="dropdown-item text-dark para1"
                                                 href="{{ route('internal-complaints-committee') }}">Internal Complaints
                                                 Committee</a></li>
+                                        <li><a class="dropdown-item text-dark para1" href="{{ route('university-research-committee') }}">University Research
+                                                Committee</a></li>
                                     </ul>
                                 </li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('anti-ragging') }}">Anti
@@ -218,7 +220,7 @@
                     <a class="nav-link dropdown-toggle para1" href="#"
                         style="color: #000000; font-weight: 600; font-size: 17px;">Convocation</a>
                     <ul class="dropdown-menu"
-                        style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
+                        style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 300px; border-top: 3px solid #e68900;">
 
                         <li><a class="dropdown-item text-dark para1" href="{{ route('convocation-fourth') }}"
                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Convocation
@@ -232,6 +234,10 @@
                         <li><a class="dropdown-item text-dark para1" href="{{ route('convocation-first') }}"
                                 style="font-size: 16px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Convocation
                                 One</a></li>
+                        <li><a class="dropdown-item text-dark para1" href="{{ route('hall-of-fame') }}"
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Honoris
+                                Causa - Hall of Fame
+                                </a></li>
 
                     </ul>
                 </li>

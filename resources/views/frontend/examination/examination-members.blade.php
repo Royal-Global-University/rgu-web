@@ -1,316 +1,182 @@
 @extends('frontend.master')
 @section('content')
-    <div class="mobile">
+
+
+    <div class="mobile" style="">
         @include('frontend/components/mobileheader')
-        <section style="background-image: url(mobile-assets/examination/members-coe/bg.svg); background-size: cover; padding-top: 90px; position: relative;">
-            <div class="container">
-                <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4"
-                    style="color: #27467A; font-weight: 900;">
-                    Examination Cell <span style="color: #FF9A1E; font-weight: 500;">Members</span></h2>
-
-                <div class="container pt-3 pb-3">
-                    <div class="row">
-
-                        <div class="col-lg-3 mb-4">
-
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                                <div class="p-3">
-                                    <img style="height: 340px; width: 100%;" src="mobile-assets/examination/members-coe/1.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Dr. Narinder
-                                        Kumar</h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Controller of Examinations</p>
-
-                                    <a href="mailto:controller@rgu.ac" class="card-text para1 half-underline mt-auto fw-bold"
-                                        style="color: #FF9A1E; text-decoration: none;">controller@rgu.ac</a>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 mb-4">
-
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                                <div class="p-3">
-                                    <img style="height: 340px; width: 100%;" src="mobile-assets/examination/members-coe/2.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Prof. (Dr.)
-                                        Atanu Bhattacherjee</h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Joint Controller of Examinations
-                                    </p>
-
-                                    <a href="mailto:jcoe@rgu.ac" class="card-text para1 half-underline mt-auto fw-bold"
-                                        style="color: #FF9A1E; text-decoration: none;">jcoe@rgu.ac</a>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 mb-4">
-
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                                <div class="p-3">
-                                    <img style="height: 340px; width: 100%;" src="mobile-assets/examination/members-coe/3.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Dr. Santosh
-                                        Kumar Anand</h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Deputy Controller of Examinations
-                                    </p>
-
-                                    <a href="mailto:skanand@rgu.ac" class="card-text para1 half-underline mt-auto fw-bold"
-                                        style="color: #FF9A1E; text-decoration: none;">skanand@rgu.ac</a>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 mb-4">
-
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                                <div class="p-3">
-                                    <img style="height: 340px; width: 100%;" src="mobile-assets/examination/members-coe/4.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Dr. Jugal
-                                        Kishore Bhattacharyya</h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Controller of
-                                        Examinations</p>
-
-                                    <a href="mailto:jkbhattacharyya@rgu.ac"
-                                        class="card-text para1 half-underline mt-auto fw-bold"
-                                        style="color: #FF9A1E; text-decoration: none;">jkbhattacharyya@rgu.ac</a>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 mb-4">
-
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 340px; width: 100%;" src="mobile-assets/examination/members-coe/5.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Dr. Zunaid
-                                        Ahmed</h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Controller of
-                                        Examinations</p>
-
-                                    <a href="mailto:zunaid.ahmed@rgi.edu.in"
-                                        class="card-text para1 half-underline mt-auto fw-bold"
-                                        style="color: #FF9A1E; text-decoration: none;">zunaid.ahmed@rgi.edu.in</a>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 mb-4">
-
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                                <div class="p-3">
-                                    <img style="height: 340px; width: 100%;" src="mobile-assets/examination/members-coe/6.png"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Dr. Bhaskar
-                                        Jyoti Gogoi</h5>
-                                    <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Controller of
-                                        Examinations</p>
-
-                                    <a href="mailto:bgogoi1@rgu.ac" class="card-text para1 half-underline mt-auto fw-bold"
-                                        style="color: #FF9A1E; text-decoration: none;">bgogoi1@rgu.ac</a>
-
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-                <h2 class="mobile-headd2 text-center pb-3 fw-bold" style="color: #27467A; font-weight: 900;">
-                    Other <span style="color: #FF9A1E; font-weight: 500;">Members</span></h2>
-
-                <ol class="para1" style="color: #264273;">
-                    <li>Mrs. Payel Dasgupta, Manager</li>
-                    <li>Mr. Raktim Dutta, Assistant Manager</li>
-                    <li>Mr. Rahul Chowdhury, Senior Executive</li>
-                    <li>Ms. Raisumai Boro, Senior Executive</li>
-                    <li>Ms. Purnima Keot, Executive</li>
-                    <li>Ms. Jayshree Hazarika, Office Assistant</li>
-                    <li>Ms. Madhuri Deb, Office Assistant</li>
-                </ol>
-            </div>
-        </section>
+        <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
+            Examination <br><span style="color: #FF9A1E; font-weight: 500;"> Committee</span></h2>
     </div>
 
     <div class="website">
-        <!--head image Section-->
         @include('frontend/components/aheader')
-        <section style="background-image: url(mobile-assets/examination/members-coe/bg.svg); background-size: cover; padding-top: 90px; position: relative;">
+        <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
+            Examination <span style="color: #FF9A1E; font-weight: 500;"> Committee</span></h2>
 
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
-                Examination Cell <span style="color: #FF9A1E; font-weight: 500;">Members</span></h2>
+    </div>
 
-            <div style="padding: 20px 80px;">
-                <div class="row">
+    <style>
+        /* Basic Page Styling */
+        .section-f {
+            padding: 2rem 0;
+        }
 
-                    <div class="col-lg-3 mb-4">
+        /* Individual Card Styling */
+        .card {
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 0.7rem;
+            text-align: left;
+            border: none;
+            width: 100%;
+            height: 100%;
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/examination/members-coe/1.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Dr. Narinder Kumar
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Controller of Examinations</p>
+            /* Flexbox for vertical alignment */
+            display: flex;
+            flex-direction: column;
 
-                                <a href="mailto:controller@rgu.ac" class="card-text para1 half-underline mt-auto fw-bold"
-                                    style="color: #FF9A1E; text-decoration: none;">controller@rgu.ac</a>
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
-                            </div>
-                        </div>
-                    </div>
+        /* Hover effect for the card */
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
 
-                    <div class="col-lg-3 mb-4">
+        /* Image container */
+        .card-image {
+            width: 100%;
+            padding-top: 100%;
+            position: relative;
+            border-radius: 5%;
+            overflow: hidden;
+            margin: 0 auto 1.0rem;
+            border: 2px solid #f0f2f5;
+        }
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/examination/members-coe/2.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Prof. (Dr.) Atanu
-                                    Bhattacherjee</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Joint Controller of Examinations</p>
+        .card-image img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
-                                <a href="mailto:jcoe@rgu.ac" class="card-text para1 half-underline mt-auto fw-bold"
-                                    style="color: #FF9A1E; text-decoration: none;">jcoe@rgu.ac</a>
+        /* Name/Heading Styling */
+        .card-name {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #333;
+            line-height: 1.2;
+            color: #24477f;
+        }
 
-                            </div>
-                        </div>
-                    </div>
+        /* Designation/Paragraph Styling */
+        .card-designation {
+            margin: 0;
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #666;
+            line-height: 1.4;
+        }
 
-                    <div class="col-lg-3 mb-4">
+        /* New Styling for the Profile Link */
+        .profile-link {
+            margin-top: auto;
+            /* This is the magic property! */
+            padding-top: 1.0rem;
+            font-size: 1.2rem;
+            font-weight: 800;
+            text-decoration: none;
+            color: #FF9A1E;
+        }
+    </style>
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/examination/members-coe/3.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Dr. Santosh Kumar
-                                    Anand</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Deputy Controller of Examinations</p>
+    <div class="section-f">
+        <div class="container">
 
-                                <a href="mailto:skanand@rgu.ac" class="card-text para1 half-underline mt-auto fw-bold"
-                                    style="color: #FF9A1E; text-decoration: none;">skanand@rgu.ac</a>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/examination/members-coe/4.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Dr. Jugal Kishore
-                                    Bhattacharyya</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Controller of Examinations
-                                </p>
-
-                                <a href="mailto:jkbhattacharyya@rgu.ac" class="card-text para1 half-underline mt-auto fw-bold"
-                                    style="color: #FF9A1E; text-decoration: none;">jkbhattacharyya@rgu.ac</a>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 480px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/examination/members-coe/5.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Dr. Zunaid Ahmed
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Controller of Examinations
-                                </p>
-
-                                <a href="mailto:zunaid.ahmed@rgi.edu.in" class="card-text para1 half-underline mt-auto fw-bold"
-                                    style="color: #FF9A1E; text-decoration: none;">zunaid.ahmed@rgi.edu.in</a>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 480px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="mobile-assets/examination/members-coe/6.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">Dr. Bhaskar Jyoti
-                                    Gogoi</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Controller of Examinations
-                                </p>
-
-                                <a href="mailto:bgogoi1@rgu.ac" class="card-text para1 half-underline mt-auto fw-bold"
-                                    style="color: #FF9A1E; text-decoration: none;">bgogoi1@rgu.ac</a>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-                <h2 class="headd2 fw-bold pt-5" style="color: #27467A; font-weight: 900;">
-                    Other <span style="color: #FF9A1E; font-weight: 500;">Members</span></h2>
-
-                <ol class="para1" style="color: #264273;">
-                    <li>Mrs. Payel Dasgupta, Manager</li>
-                    <li>Mr. Raktim Dutta, Assistant Manager</li>
-                    <li>Mr. Rahul Chowdhury, Senior Executive</li>
-                    <li>Ms. Raisumai Boro, Senior Executive</li>
-                    <li>Ms. Purnima Keot, Executive</li>
-                    <li>Ms. Jayshree Hazarika, Office Assistant</li>
-                    <li>Ms. Madhuri Deb, Office Assistant</li>
-                </ol>
+            <!-- regular faculty  -->
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered bg-white">
+                    <thead style="background-color: #24477f; color: #fff;">
+                        <tr>
+                            <th scope="col">Sl. No.</th>
+                            <th scope="col">Member Name</th>
+                            <th scope="col">Position</th>
+                            <th scope="col">Designation</th>
+                        </tr>
+                    </thead>
+                    <tbody class="mobile-para1">
+                        <tr>
+                            <td>1.</td>
+                            <td>Dr. Diganta Munshi</td>
+                            <td>Registrar – Administration, Director IQAC, Dean RSET & RSIT</td>
+                            <td>Chairperson</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Prof. (Dr.) Indrani Singh Rai</td>
+                            <td>Professor & Dean, RSL</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Prof. (Dr.) Kaberi Saikia</td>
+                            <td>Professor & Principal, RSN</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Prof. (Dr.) George AP</td>
+                            <td>Dean, RSB & RSC</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Prof. (Dr.) Abhijit Dutta</td>
+                            <td>Professor & Dean, RSMAS</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Prof. (Dr.) Bhuban Ch Barooah</td>
+                            <td>Professor and Dean, RSLA</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Prof. (Dr.) Hari Prasad Agarwal</td>
+                            <td>Professor & Dean, RSD, RSFD, RSFT, RSFA, RSA</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>Dr. Rupesh Kumar</td>
+                            <td>Assistant Professor and Coordinator, Dept of Medical Lab Technology, RSMAS</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>9.</td>
+                            <td>Dr. Priyanka Patowari</td>
+                            <td>Assistant Professor, Dept of Social Work, RSHSS</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>10.</td>
+                            <td>Dr. Narinder Kumar</td>
+                            <td>COE</td>
+                            <td>Member Secretary</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+            <!-- regular faculty  -->
 
-            <hr>
-        </section>
+
+        </div>
     </div>
 @endsection
