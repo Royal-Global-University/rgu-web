@@ -2920,9 +2920,9 @@ Route::get('/lp', function () {
 
 //conference
 
-Route::get('/national-conference-on-frontiers-in-modern-physics-astrophysics-and-cosmology', function () {
+Route::get('/ncmpac-2026', function () {
     return view('frontend/conference/frontiers');
-})->name('national-conference-on-frontiers-in-modern-physics-astrophysics-and-cosmology');
+})->name('ncmpac-2026');
 
 Route::get('/bioe3-conference', function () {
     return view('frontend/conference/bioe3-conference');
