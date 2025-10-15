@@ -331,27 +331,27 @@
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">1</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. A. K. Buragohain</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Amarjyoti Choudhury</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">3</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Amarendra Rajput</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">4</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Rama Ranjan Bhattarjee</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">5</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Anuradha Devi</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Dean, RSAPS, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Dean, RSAPS, Royal Global University</td>
                             </tr>
                         </tbody>
                     </table>
@@ -375,25 +375,25 @@
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">1</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Convenor</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Maidul Islam</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Convenor</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Faizuddin Ahmed</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">3</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Co-Convenor</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Bornali Chetia</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">4</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Co-Convenor</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Nitu Borgohain</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                         </tbody>
                     </table>
@@ -415,7 +415,7 @@
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">1</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Koushik Saikia</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
 
                         </tbody>
@@ -438,27 +438,27 @@
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">1</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Maidul Islam</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Faizuddin Ahmed</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">3</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Bornali Chetia</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">4</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Nitu Borgohain</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">5</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Koushik Saikia</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                         </tbody>
                     </table>
@@ -481,22 +481,22 @@
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Devika Phukan</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">3</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Sankar Barman</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">4</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Pubalee Sarmah</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Chemistry, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Chemistry, Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">5</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Bimalendu Kalita</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Mathematics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Mathematics, Royal Global University</td>
                             </tr>
                         </tbody>
                     </table>
@@ -1158,27 +1158,27 @@
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">1</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. A. K. Buragohain</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Amarjyoti Choudhury</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">3</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Amarendra Rajput</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">4</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Rama Ranjan Bhattarjee</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">5</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Anuradha Devi</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Royal Global University</td>
                             </tr>
                         </tbody>
                     </table>
@@ -1202,25 +1202,25 @@
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">1</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Convenor</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Maidul Islam</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Convenor</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Faizuddin Ahmed</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">3</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Co-Convenor</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Bornali Chetia</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">4</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Co-Convenor</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Nitu Borgohain</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                         </tbody>
                     </table>
@@ -1242,7 +1242,7 @@
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">1</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Koushik Saikia</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
 
                         </tbody>
@@ -1265,27 +1265,27 @@
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">1</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Maidul Islam</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Faizuddin Ahmed</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">3</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Bornali Chetia</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">4</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Nitu Borgohain</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">5</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Koushik Saikia</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                         </tbody>
                     </table>
@@ -1307,22 +1307,22 @@
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Devika Phukan</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">3</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Sankar Barman</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Physics, Royal Global University</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">4</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Pubalee Sarmah</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Chemistry, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Chemistry, Royal Global University</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">5</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Dr. Bimalendu Kalita</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Mathematics, RGU</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">Mathematics, Royal Global University</td>
                             </tr>
                         </tbody>
                     </table>
