@@ -1192,12 +1192,6 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                                                                                 </a>
                                                                                                                                                                             </div>
 
-                                                                                                                                                                            <div class="swiper-slide">
-                                                                                                                                                                                <a href="satatya-a-national-student-conference-on-business-sustainability-and-responsible-business-practices">
-                                                                                                                                                                                    <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                                                                                                                                                                        src="demo-assets/big-events/5.png" alt="">
-                                                                                                                                                                                </a>
-                                                                                                                                                                            </div>
                                                                                                                                                                             {{-- new slide --}}
                                                                                                                                                                             <div class="swiper-slide">
                                                                                                                                                                                 <a href="demo-assets/big-events/Five Day Workshop.pdf">
