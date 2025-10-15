@@ -12,15 +12,18 @@
             style="background-image: url(mobile-assets/blog/cosmology/bg.svg); background-size: cover; background-position: center;">
 
             <div class="pt-4">
-                <div class="row" style="display: flex; justify-content: center; align-items: center;">
+                <div class="row">
 
-                    <div class="col-lg-12" style="display: flex; justify-content: center; align-items: center;">
-                        <a class="mobile-para1"
-                            style="padding: 6px 20px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 15px;"
-                            href="">Registration Link</a>
-                        <a class="mobile-para1"
-                            style="padding: 6px 20px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600;"
-                            href="">Download Abstract</a>
+                    <div class="col-lg-12" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                        <a class="mobile-headd3"
+                            style="padding: 6px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 15px;"
+                            target="_blank" href="mobile-assets/blog/cosmology/Brochure.pdf">Download Brochure</a>
+                        <a class="mobile-para1 mt-2"
+                            style="padding: 6px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 15px;"
+                            href="https://forms.gle/kRiFNsfwQG7AGxGA9">Registration Link</a>
+                        <a class="mobile-para1 mt-2"
+                            style="padding: 6px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600;"
+                            href="mobile-assets/blog/cosmology/Abstract.docx">Download Abstract</a>
                     </div>
 
                 </div>
