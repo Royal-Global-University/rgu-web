@@ -8,9 +8,8 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                                                                                                     <section class="mobile">
 
                                                                                                                                                                                                         <!-- Popup -->
-                                                                                                                                                                                                        {{-- <div id="popup-mob" class="popup-overlay">
-                                                                                                                                                                                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKAyNyc88p6x7K-rFpnG9C25dneSv79DvxkvHXlOi_CHGixA/viewform"
-                                                                                                                                                                                                                target="_blank" class="text-center"><img src="{{ asset('mobile-assets/notification/convo-mob.jpeg') }}"
+                                                                                                                                                                                                        <div id="popup-mob" class="popup-overlay">
+                                                                                                                                                                                                            <a target="_blank" class="text-center"><img src="{{ asset('mobile-assets/notification/new/mob.png') }}"
                                                                                                                                                                                                                     style="width: 400px; height: 400px;" class="popup-image" alt="Popup Image"></a>
                                                                                                                                                                                                         </div>
 
@@ -24,7 +23,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                                                                                                                     }
                                                                                                                                                                                                                 });
                                                                                                                                                                                                             });
-                                                                                                                                                                                                        </script> --}}
+                                                                                                                                                                                                        </script>
 
                                                                                                                                                                                                         <!-- Floating WhatsApp Button -->
                                                                                                                                                                                                         <a href="https://wa.me/917099028518" class="whatsapp-float" target="_blank">
@@ -632,7 +631,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
 
                                                                                                                                                                                                     <section class="website">
                                                                                                                                                                                                         <!-- Popup -->
-                                                                                                                                                                                                       {{-- <div id="popup-web" class="popup-overlay"
+                                                                                                                                                                                                       <div id="popup-web" class="popup-overlay"
                                                                                                                                         style="position: fixed; top: 0; left: 0; width: 100%; height: 100%;
                                                                                                                                                background: rgba(0,0,0,0.6); display: flex; justify-content: center;
                                                                                                                                                align-items: center; z-index: 9999;">
@@ -649,14 +648,13 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                                             </span>
 
                                                                                                                                             <!-- Popup Image -->
-                                                                                                                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKAyNyc88p6x7K-rFpnG9C25dneSv79DvxkvHXlOi_CHGixA/viewform"
-                                                                                                                                               target="_blank">
-                                                                                                                                                <img src="{{ asset('mobile-assets/notification/convo-5th.jpeg') }}"
+                                                                                                                                            <a>
+                                                                                                                                                <img src="{{ asset('mobile-assets/notification/new/web.png') }}"
                                                                                                                                                      style="width: 700px; height: 550px; border-radius: 8px;"
                                                                                                                                                      class="popup-image" alt="Popup Image">
                                                                                                                                             </a>
                                                                                                                                         </div>
-                                                                                                                                    </div> --}}
+                                                                                                                                    </div>
 
                                                                                                                                     <script>
                                                                                                                                         document.addEventListener('DOMContentLoaded', function () {
