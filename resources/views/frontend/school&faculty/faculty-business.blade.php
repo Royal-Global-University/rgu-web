@@ -53,7 +53,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/Pradeep.png" alt="Profile image ">
+                                <img src="/mobile-assets/updated-faculty-img/prad.jpeg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Prof. Pradeep Kumar Jain</h3>
                             <p class="card-designation">Professor</p>
@@ -646,7 +646,7 @@
                         <div class="card rounded d-flex flex-column"
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 535px;">
                             <div class="p-3">
-                                <img style="height: 300px; width: 100%;" src="/mobile-assets/Pradeep.png" alt="Profile image ">
+                                <img style="height: 300px; width: 100%;" src="/mobile-assets/updated-faculty-img/prad.jpeg" alt="Profile image ">
                             </div>
                             <div class="card-body d-flex flex-column flex-grow-1">
                                 <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Pradeep Kumar Jain</h5>
