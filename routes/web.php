@@ -274,9 +274,9 @@ Route::get('/360-tour', function () {
     return view('frontend/discoverRGU/360-tour');
 })->name('360-tour');
 
-Route::get('/hall-of-fame', function () {
+Route::get('/honoris-causa', function () {
     return view('frontend/discoverRGU/hall-of-fame');
-})->name('hall-of-fame');
+})->name('honoris-causa');
 
 
 //All Facilities

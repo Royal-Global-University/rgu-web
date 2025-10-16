@@ -355,6 +355,110 @@
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Bhagyashri-Patgiri-RSAPS.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Bhagyashree Patgiri</h3>
+                            <p class="card-title">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-dr-bhagyashri-patgiri" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://media.rgu.ac/iks/Pranab.jpg" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Pranab Jyoti Sarma</h3>
+                            <p class="card-title">Faculty Member, IKS Cell</p>
+                            <a href="https://www.rgu.ac/faculty-pranab-sarma" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src=" https://www.rgu.ac/mobile-assets/updated-faculty-img/Prasant-Mali-RSL.png" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Mr. Prasant Mali</h3>
+                            <p class="card-title">Assistant Professor</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src=" https://www.rgu.ac/mobile-assets/updated-faculty-img/Ms-Jahnabi-Mahanta-RSBAS.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Ms. Jahnabi Mahanta</h3>
+                            <p class="card-title">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-jahnabi-mahanta" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src=" https://www.rgu.ac/mobile-assets/updated-faculty-img/Jyoti-Mishra.png" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Jyoti Mishra</h3>
+                            <p class="card-title">Assistant Professor</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src=" https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Naphisabet-Kharsati.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Naphisabet Kharsati</h3>
+                            <p class="card-title">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-naphisabet" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src=" https://www.rgu.ac/mobile-assets/updated-faculty-img/Pronami-Bhattacharyya-RSL.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Pronami Bhattacharyya</h3>
+                            <p class="card-title">Assistant Professor</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src=" https://www.rgu.ac/mobile-assets/updated-faculty-img/Parismita-Phukan-RSAPS.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Parismita Phukan</h3>
+                            <p class="card-title">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-dr-parismita-phukan" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src=" https://www.rgu.ac/mobile-assets/updated-faculty-img/Bapan-Kalita.jpg" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Bapan Kalita</h3>
+                            <p class="card-title">Associate Professor</p>
+                            <a href="https://www.rgu.ac/faculty-dr-bapan-kalita" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
                 </div>
 
             </div>

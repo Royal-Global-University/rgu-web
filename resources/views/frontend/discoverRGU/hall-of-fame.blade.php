@@ -89,154 +89,15 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px"></div>
-        <section style="background-image: url(mobile-assets/hall-of-fame/bg-mob.png); background-size: cover;">
+
+        <section style="background-image: url(mobile-assets/hall-of-fame-new/bg-mob.png); background-size: cover;">
 
             <div>
-                <img style="width: 100%;" src="mobile-assets/hall-of-fame/banner-mob.svg" alt="">
+                <img style="width: 100%;" src="mobile-assets/hall-of-fame-new/banner-mob.svg" alt="">
             </div>
-
-            <div style="padding: 20px 40px;">
-                <img style="width: 60%;" src="mobile-assets/hall-of-fame/texts/first-convo-text.svg" alt="">
-            </div>
-
-            <!-- first convo  -->
-            <div class="section-f">
-                <div class="container-fluid" style="padding: 0px 40px;">
-
-                    <!-- first convo  -->
-                    <div class="row justify-content-center">
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/Frame 8304.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name text-center">
-                                    Professor Nagen Saikia
-                                </h3>
-                                <p class="card-designation text-center">
-                                    Doctor of Letters (D.Litt.) - Honoris Causa
-                                    Former Distinguished Professor
-                                    of Dibrugarh University,
-                                    Former President of Assam Sahitya Sabha,
-                                    Eminent Literator and a Scholar
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/Frame 8305.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name text-center">
-                                    Professor Chintamani Nagesa Ramachandra Rao
-                                </h3>
-                                <p class="card-designation text-center">
-                                    FNA, FASc, FRS, FTWAS, HonFRSC, MAE, HonFInstP
-                                    Doctor of Science (D.Sc.) - Honoris Causa.
-                                    A Bharat Ratna recipient, Linus Pauling
-                                    Research Professor and Honorary President
-                                    of Jawaharlal Nehru Centre for Advanced
-                                    Scientific Research, Bengaluru.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/Frame 8306.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name text-center">
-                                    Shri Sajjan Bhajanka
-                                </h3>
-                                <p class="card-designation text-center">
-                                    Doctor of Letters (D.Litt.) - Honoris Causa
-                                    Eminent Industrialist, Social Worker and
-                                    Educator, Founder of Century Plyboards
-                                    (India) Ltd.
-                                </p>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <!-- first convo  -->
-
-                </div>
-            </div>
-            <!-- first convo  -->
 
             <div style="padding: 0px 40px;">
-                <img style="width: 60%;" src="mobile-assets/hall-of-fame/texts/second-convo-text.svg" alt="">
-            </div>
-
-            <!-- second convo  -->
-            <div class="section-f">
-                <div class="container-fluid" style="padding: 0px 40px;">
-
-                    <!-- first convo  -->
-                    <div class="row justify-content-center">
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/scnd-1.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name text-center">
-                                    Professor Ajay Kumar Sood
-
-                                </h3>
-                                <p class="card-designation text-center">
-                                    Doctor of Science (D.Sc.) - Honoris Causa.
-                                    Principal Scientific Advisor to the
-                                    Government of India.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/scnd-2.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name text-center">
-                                    Ms. Patricia Mukhim
-                                </h3>
-                                <p class="card-designation text-center">
-                                    Doctor of Letters (D.Litt.) - Honoris Causa
-                                    Journalist and Editor,
-                                    The Shillong Times and a Social Activist.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/scnd-3.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name text-center">
-                                    Dr. Ashok Kumar Mittal
-                                </h3>
-                                <p class="card-designation text-center">
-                                    Doctor of Letters (D.Litt.) - Honoris Causa
-                                    Chancellor, Lovely Professinal University
-                                    and Member of Rajya Sabha.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- first convo  -->
-
-                </div>
-            </div>
-            <!-- second convo  -->
-
-            <div style="padding: 0px 40px;">
-                <img style="width: 60%;" src="mobile-assets/hall-of-fame/texts/third-convo-text.svg" alt="">
+                <img style="width: 60%;" src="mobile-assets/hall-of-fame-new/fourth-convo-text.svg" alt="">
             </div>
 
             <!-- Third convo  -->
@@ -249,7 +110,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/third-1.png" alt="Profile image ">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/third-1.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name text-center">
                                     Mr. Justice Ranjan Gogoi
@@ -265,7 +126,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/third-2.png" alt="Profile image ">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/third-2.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name text-center">
                                     Dr. Raghunath Anant Mashelkar
@@ -282,7 +143,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/third-3.png" alt="Profile image ">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/third-4.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name text-center">
                                     Dr. Krisnaswamy Kasturirangan
@@ -299,7 +160,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/third-4.png" alt="Profile image ">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/third-3.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name text-center">
                                     Shri Harshvardhan Neotia
@@ -319,6 +180,150 @@
                 </div>
             </div>
             <!-- Third convo  -->
+
+
+
+            <div style="padding: 0px 40px;">
+                <img style="width: 60%;" src="mobile-assets/hall-of-fame-new/third-convo-text.svg" alt="">
+            </div>
+
+            <!-- second convo  -->
+            <div class="section-f">
+                <div class="container-fluid" style="padding: 0px 40px;">
+
+                    <!-- first convo  -->
+                    <div class="row justify-content-center">
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/scnd-1.png" alt="Profile image ">
+                                </div>
+                                <h3 class="card-name text-center">
+                                    Professor Ajay Kumar Sood
+
+                                </h3>
+                                <p class="card-designation text-center">
+                                    Doctor of Science (D.Sc.) - Honoris Causa.
+                                    Principal Scientific Advisor to the
+                                    Government of India.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/scnd-2.png" alt="Profile image ">
+                                </div>
+                                <h3 class="card-name text-center">
+                                    Ms. Patricia Mukhim
+                                </h3>
+                                <p class="card-designation text-center">
+                                    Doctor of Letters (D.Litt.) - Honoris Causa
+                                    Journalist and Editor,
+                                    The Shillong Times and a Social Activist.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/scnd-3.png" alt="Profile image ">
+                                </div>
+                                <h3 class="card-name text-center">
+                                    Dr. Ashok Kumar Mittal
+                                </h3>
+                                <p class="card-designation text-center">
+                                    Doctor of Letters (D.Litt.) - Honoris Causa
+                                    Chancellor, Lovely Professinal University
+                                    and Member of Rajya Sabha.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- first convo  -->
+
+                </div>
+            </div>
+            <!-- second convo  -->
+
+                        <div style="padding: 20px 40px;">
+                            <img style="width: 60%;" src="mobile-assets/hall-of-fame-new/first-convo-text.svg" alt="">
+                        </div>
+
+                        <!-- first convo  -->
+                        <div class="section-f">
+                            <div class="container-fluid" style="padding: 0px 40px;">
+
+                                <!-- first convo  -->
+                                <div class="row justify-content-center">
+
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="mobile-assets/hall-of-fame-new/profiles/Frame 8304.png" alt="Profile image ">
+                                            </div>
+                                            <h3 class="card-name text-center">
+                                                Professor Nagen Saikia
+                                            </h3>
+                                            <p class="card-designation text-center">
+                                                Doctor of Letters (D.Litt.) - Honoris Causa
+                                                Former Distinguished Professor
+                                                of Dibrugarh University,
+                                                Former President of Assam Sahitya Sabha,
+                                                Eminent Literator and a Scholar
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="mobile-assets/hall-of-fame-new/profiles/Frame 8305.png" alt="Profile image ">
+                                            </div>
+                                            <h3 class="card-name text-center">
+                                                Professor Chintamani Nagesa Ramachandra Rao
+                                            </h3>
+                                            <p class="card-designation text-center">
+                                                FNA, FASc, FRS, FTWAS, HonFRSC, MAE, HonFInstP
+                                                Doctor of Science (D.Sc.) - Honoris Causa.
+                                                A Bharat Ratna recipient, Linus Pauling
+                                                Research Professor and Honorary President
+                                                of Jawaharlal Nehru Centre for Advanced
+                                                Scientific Research, Bengaluru.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="mobile-assets/hall-of-fame-new/profiles/Frame 8306.png" alt="Profile image ">
+                                            </div>
+                                            <h3 class="card-name text-center">
+                                                Shri Sajjan Bhajanka
+                                            </h3>
+                                            <p class="card-designation text-center">
+                                                Doctor of Letters (D.Litt.) - Honoris Causa
+                                                Eminent Industrialist, Social Worker and
+                                                Educator, Founder of Century Plyboards
+                                                (India) Ltd.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <!-- first convo  -->
+
+                            </div>
+                        </div>
+                        <!-- first convo  -->
+
+
 
         </section>
 
@@ -326,22 +331,21 @@
 
     <div class="website">
         @include('frontend/components/aheader')
-        <section style="background-image: url(mobile-assets/hall-of-fame/bg-web.png); background-size: cover;">
+        <section style="background-image: url(mobile-assets/hall-of-fame-new/bg-web.png); background-size: cover;">
 
             <!-- <div>
-                    <img style="width: 100%;" src="mobile-assets/hall-of-fame/hall-of-fame.png" alt="">
-                </div> -->
+                            <img style="width: 100%;" src="mobile-assets/hall-of-fame-new/hall-of-fame.png" alt="">
+                        </div> -->
 
             <div>
-                <img style="width: 100%;" src="mobile-assets/hall-of-fame/banner2.svg" alt="">
+                <img style="width: 100%;" src="mobile-assets/hall-of-fame-new/banner-web.svg" alt="">
             </div>
 
             <div style="padding: 20px 40px;">
-                <img style="width: 25%;" src="mobile-assets/hall-of-fame/texts/first-convo-text.svg" alt="">
+                <img style="width: 25%;" src="mobile-assets/hall-of-fame-new/fourth-convo-text.svg" alt="">
             </div>
 
-
-            <!-- first convo  -->
+            <!-- Fourth convo  -->
             <div class="section-f">
                 <div class="container-fluid" style="padding: 0px 40px;">
 
@@ -351,17 +355,15 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/Frame 8304.png" alt="Profile image ">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/third-1.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name text-center">
-                                    Professor Nagen Saikia
+                                    Mr. Justice Ranjan Gogoi
                                 </h3>
                                 <p class="card-designation text-center">
-                                    Doctor of Letters (D.Litt.) - Honoris Causa
-                                    Former Distinguished Professor
-                                    of Dibrugarh University,
-                                    Former President of Assam Sahitya Sabha,
-                                    Eminent Literator and a Scholar
+                                    Doctor of Laws (LL.D.) - Honoris Causa.
+                                    Member of Rajya Sabha and
+                                    Former Chief Justice of India.
                                 </p>
                             </div>
                         </div>
@@ -369,18 +371,16 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/Frame 8305.png" alt="Profile image ">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/third-2.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name text-center">
-                                    Professor Chintamani Nagesa Ramachandra Rao
+                                    Dr. Raghunath Anant Mashelkar
                                 </h3>
                                 <p class="card-designation text-center">
-                                    FNA, FASc, FRS, FTWAS, HonFRSC, MAE, HonFInstP
+                                    FTWAS, FNA, FASc, FRS, FREng, FRSC
                                     Doctor of Science (D.Sc.) - Honoris Causa.
-                                    A Bharat Ratna recipient, Linus Pauling
-                                    Research Professor and Honorary President
-                                    of Jawaharlal Nehru Centre for Advanced
-                                    Scientific Research, Bengaluru.
+                                    Former Director General, CSIR and
+                                    Padma Vibhushan recipient.
                                 </p>
                             </div>
                         </div>
@@ -388,16 +388,32 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/Frame 8306.png" alt="Profile image ">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/third-4.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name text-center">
-                                    Shri Sajjan Bhajanka
+                                    Dr. Krisnaswamy Kasturirangan
                                 </h3>
                                 <p class="card-designation text-center">
-                                    Doctor of Letters (D.Litt.) - Honoris Causa
-                                    Eminent Industrialist, Social Worker and
-                                    Educator, Founder of Century Plyboards
-                                    (India) Ltd.
+                                    Doctor of Science (D.Sc.) - Honoris Causa.
+                                    Former Chairman, ISRO,
+                                    Chairperson, Drafting Committee, NEP 2020
+                                    and Padma Vibhushan recipient.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/third-3.png" alt="Profile image ">
+                                </div>
+                                <h3 class="card-name text-center">
+                                    Shri Harshvardhan Neotia
+                                </h3>
+                                <p class="card-designation text-center">
+                                    Doctor of Letters (D.Litt.) - Honoris Causa,
+                                    Chairman , Ambuja Neotia Group and
+                                    Padma Shri recipient.
                                 </p>
                             </div>
                         </div>
@@ -408,10 +424,12 @@
 
                 </div>
             </div>
-            <!-- first convo  -->
+            <!-- Fourth convo  -->
+
+
 
             <div style="padding: 20px 40px;">
-                <img style="width: 25%;" src="mobile-assets/hall-of-fame/texts/second-convo-text.svg" alt="">
+                <img style="width: 25%;" src="mobile-assets/hall-of-fame-new/third-convo-text.svg" alt="">
             </div>
 
             <!-- second convo  -->
@@ -424,7 +442,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/scnd-1.png" alt="Profile image ">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/scnd-1.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name text-center">
                                     Professor Ajay Kumar Sood
@@ -441,7 +459,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/scnd-2.png" alt="Profile image ">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/scnd-2.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name text-center">
                                     Ms. Patricia Mukhim
@@ -457,7 +475,7 @@
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/scnd-3.png" alt="Profile image ">
+                                    <img src="mobile-assets/hall-of-fame-new/profiles/scnd-3.png" alt="Profile image ">
                                 </div>
                                 <h3 class="card-name text-center">
                                     Dr. Ashok Kumar Mittal
@@ -477,90 +495,81 @@
             </div>
             <!-- second convo  -->
 
-            <div style="padding: 20px 40px;">
-                <img style="width: 25%;" src="mobile-assets/hall-of-fame/texts/third-convo-text.svg" alt="">
-            </div>
-
-            <!-- Third convo  -->
-            <div class="section-f">
-                <div class="container-fluid" style="padding: 0px 40px;">
-
-                    <!-- first convo  -->
-                    <div class="row justify-content-center">
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/third-1.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name text-center">
-                                    Mr. Justice Ranjan Gogoi
-                                </h3>
-                                <p class="card-designation text-center">
-                                    Doctor of Laws (LL.D.) - Honoris Causa.
-                                    Member of Rajya Sabha and
-                                    Former Chief Justice of India.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/third-2.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name text-center">
-                                    Dr. Raghunath Anant Mashelkar
-                                </h3>
-                                <p class="card-designation text-center">
-                                    FTWAS, FNA, FASc, FRS, FREng, FRSC
-                                    Doctor of Science (D.Sc.) - Honoris Causa.
-                                    Former Director General, CSIR and
-                                    Padma Vibhushan recipient.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/third-3.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name text-center">
-                                    Dr. Krisnaswamy Kasturirangan
-                                </h3>
-                                <p class="card-designation text-center">
-                                    Doctor of Science (D.Sc.) - Honoris Causa.
-                                    Former Chairman, ISRO,
-                                    Chairperson, Drafting Committee, NEP 2020
-                                    and Padma Vibhushan recipient.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/hall-of-fame/profiles/third-4.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name text-center">
-                                    Shri Harshvardhan Neotia
-                                </h3>
-                                <p class="card-designation text-center">
-                                    Doctor of Letters (D.Litt.) - Honoris Causa,
-                                    Chairman , Ambuja Neotia Group and
-                                    Padma Shri recipient.
-                                </p>
-                            </div>
+                        <div style="padding: 20px 40px;">
+                            <img style="width: 25%;" src="mobile-assets/hall-of-fame-new/first-convo-text.svg" alt="">
                         </div>
 
 
-                    </div>
-                    <!-- first convo  -->
+                        <!-- first convo  -->
+                        <div class="section-f">
+                            <div class="container-fluid" style="padding: 0px 40px;">
 
-                </div>
-            </div>
-            <!-- Third convo  -->
+                                <!-- first convo  -->
+                                <div class="row justify-content-center">
+
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="mobile-assets/hall-of-fame-new/profiles/Frame 8304.png" alt="Profile image ">
+                                            </div>
+                                            <h3 class="card-name text-center">
+                                                Professor Nagen Saikia
+                                            </h3>
+                                            <p class="card-designation text-center">
+                                                Doctor of Letters (D.Litt.) - Honoris Causa
+                                                Former Distinguished Professor
+                                                of Dibrugarh University,
+                                                Former President of Assam Sahitya Sabha,
+                                                Eminent Literator and a Scholar
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="mobile-assets/hall-of-fame-new/profiles/Frame 8305.png" alt="Profile image ">
+                                            </div>
+                                            <h3 class="card-name text-center">
+                                                Professor Chintamani Nagesa Ramachandra Rao
+                                            </h3>
+                                            <p class="card-designation text-center">
+                                                FNA, FASc, FRS, FTWAS, HonFRSC, MAE, HonFInstP
+                                                Doctor of Science (D.Sc.) - Honoris Causa.
+                                                A Bharat Ratna recipient, Linus Pauling
+                                                Research Professor and Honorary President
+                                                of Jawaharlal Nehru Centre for Advanced
+                                                Scientific Research, Bengaluru.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="mobile-assets/hall-of-fame-new/profiles/Frame 8306.png" alt="Profile image ">
+                                            </div>
+                                            <h3 class="card-name text-center">
+                                                Shri Sajjan Bhajanka
+                                            </h3>
+                                            <p class="card-designation text-center">
+                                                Doctor of Letters (D.Litt.) - Honoris Causa
+                                                Eminent Industrialist, Social Worker and
+                                                Educator, Founder of Century Plyboards
+                                                (India) Ltd.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <!-- first convo  -->
+
+                            </div>
+                        </div>
+                        <!-- first convo  -->
+
+
 
         </section>
 
