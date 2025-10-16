@@ -3006,6 +3006,18 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/the-invisible-threat-rgu-scientists-decode-how-microplastics-may-trigger-cancer', function () {
+    return view('frontend/media-corner/news56');
+})->name('the-invisible-threat-rgu-scientists-decode-how-microplastics-may-trigger-cancer');
+
+Route::get('/dr-a-k-pansari-conferred-with-ew-extraordinary-achievement-in-education-leadership-award', function () {
+    return view('frontend/media-corner/news55');
+})->name('dr-a-k-pansari-conferred-with-ew-extraordinary-achievement-in-education-leadership-award');
+
+Route::get('/royal-global-university-observes-green-day-with-a-mission-of-service-and-sustainability', function () {
+    return view('frontend/media-corner/news54');
+})->name('royal-global-university-observes-green-day-with-a-mission-of-service-and-sustainability');
+
 Route::get('/innovators-and-changemakers-inspire-at-tedx-royal-global-university-musical-tribute-to-zubeen-garg-by-pianist-nise-meruno', function () {
     return view('frontend/media-corner/news53');
 })->name('innovators-and-changemakers-inspire-at-tedx-royal-global-university-musical-tribute-to-zubeen-garg-by-pianist-nise-meruno');
