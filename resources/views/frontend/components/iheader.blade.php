@@ -239,10 +239,10 @@
                         <li><a class="dropdown-item text-dark para1" href="{{ route('convocation-first') }}"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Convocation
                                 One</a></li>
-                        {{-- <li><a class="dropdown-item text-dark para1" href="{{ route('hall-of-fame') }}"
+                        <li><a class="dropdown-item text-dark para1" href="{{ route('honoris-causa') }}"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Honoris
                                 Causa - Hall of Fame
-                            </a></li> --}}
+                            </a></li>
 
                     </ul>
                 </li>
