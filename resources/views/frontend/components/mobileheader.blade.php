@@ -252,6 +252,9 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('convocation-first') }}">
                     <li>1st Convocation</li>
                 </a>
+                <a class="mobile-para1" style="color: #27467A;" href="{{ route('honoris-causa') }}">
+                    <li>Honoris Causa - Hall of Fame</li>
+                </a>
             </ul>
 
 

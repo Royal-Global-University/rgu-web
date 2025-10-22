@@ -1310,12 +1310,12 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
 
             <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel_FADE_888"
                 data-bs-slide="prev" style="width: 10%;">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel_FADE_888"
                 data-bs-slide="next" style="width: 10%;">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
 
