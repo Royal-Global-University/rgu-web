@@ -123,6 +123,52 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                                                                                                                                 </div>
                                                                                                                                                                                                                             </div>
                                                                                                                                                                                                                         </section> --}}
+
+                                                                                                                                                                                                                        {{-- Convocation --}}
+                                                                                                                                                                                                                        <div id="mainImageSlider_ALPHA_001" class="carousel slide carousel-fade full-view-slider"
+            data-bs-ride="carousel" data-bs-interval="3000" style="background-color: #000;">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainImageSlider_ALPHA_001" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mainImageSlider_ALPHA_001" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#mainImageSlider_ALPHA_001" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner content-wrapper">
+
+                <div class="carousel-item active">
+                    <img src="mobile-assets/convo-slider/fifth-convo-mob.gif" class="d-block w-100" alt="Slide 1 Image">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="mobile-assets/convo-slider/alumni-meet-mob.jpg" class="d-block w-100" alt="Slide 2 Image">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="mobile-assets/convo-slider/honoris-causa-mob.jpg" class="d-block w-100"
+                        alt="Slide 2 Image">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainImageSlider_ALPHA_001"
+                data-bs-slide="prev" style="width: 10%;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainImageSlider_ALPHA_001"
+                data-bs-slide="next" style="width: 10%;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+            </div>
+
+
+
                                                                                                                                                                                                                         <!-- happening at rgu  -->
 
                                                                                                                                                                                                                         <h2 class="mobile-headd1 pb-4 text-center pt-4" style="color: #27467A;">Media<span
@@ -1257,7 +1303,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                 </div>
 
                 <div class="carousel-item">
-                    <img src="mobile-assets/convo-slider/honoris-causa.jpg" class="d-block w-100" alt="Slide 2 Image">
+                    <img src="mobile-assets/convo-slider/honoris-causa-1.jpg" class="d-block w-100" alt="Slide 2 Image">
                 </div>
 
             </div>
