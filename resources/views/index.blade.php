@@ -1234,71 +1234,46 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
 
 
                                                                                                                                                                                                                                 <!-- Convocation-slider -->
+                                                                                                                                                                                                                            <div id="heroCarousel_FADE_888" class="carousel slide carousel-fade full-screen-carousel"
+            data-bs-ride="carousel" data-bs-interval="3000" style="background-color: #000;">
 
-                                                                                                                                                                                                                                <div id="carousel" class="container-fluid"
-             style="position:relative;width:100%;height:90vh;overflow:hidden;">
+            {{-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel_FADE_888" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel_FADE_888" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel_FADE_888" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div> --}}
 
-          <!-- Image 1 -->
-          <img src="/assets/convo.gif"
-               alt="Beach"
-               style="width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0;transition:opacity 1s ease, transform 1.5s ease;opacity:1;z-index:2;"
-               id="slide1">
+            <div class="carousel-inner full-screen-carousel">
 
-          <!-- Image 2 -->
-          <img src="/assets/alumni-meet.png"
-               alt="Mountains"
-               style="width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0;transition:opacity 1s ease, transform 1.5s ease;opacity:0;z-index:1;"
-               id="slide2">
+                <div class="carousel-item active">
+                    <img src="mobile-assets/convo-slider/convo.gif" class="d-block w-100" alt="Slide 1 Image">
+                </div>
 
-          <!-- Caption -->
-          <div id="caption"
-               style="position:absolute;bottom:40px;left:50%;transform:translateX(-50%);
-                      color:#fff;font-size:2rem;background:rgba(0,0,0,0.4);
-                      padding:12px 24px;border-radius:10px;backdrop-filter:blur(5px);
-                      transition:opacity 1s ease;">
-            Serene Beach View
-          </div>
+                <div class="carousel-item">
+                    <img src="mobile-assets/convo-slider/alumni-meet.jpg" class="d-block w-100" alt="Slide 2 Image">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="mobile-assets/convo-slider/honoris-causa.jpg" class="d-block w-100" alt="Slide 2 Image">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel_FADE_888"
+                data-bs-slide="prev" style="width: 10%;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel_FADE_888"
+                data-bs-slide="next" style="width: 10%;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
         </div>
-
-        <!-- Inline JavaScript -->
-        <script>
-          const slides = [
-            {
-              id: 'slide1',
-              caption: 'Serene Beach View'
-            },
-            {
-              id: 'slide2',
-              caption: 'Majestic Mountain View'
-            }
-          ];
-
-          let current = 0;
-          const caption = document.getElementById('caption');
-
-          setInterval(() => {
-            // Current and Next Slide
-            const currentSlide = document.getElementById(slides[current].id);
-            const next = (current + 1) % slides.length;
-            const nextSlide = document.getElementById(slides[next].id);
-
-            // Animate Transition
-            currentSlide.style.opacity = '0';
-            currentSlide.style.transform = 'scale(1.1)';
-            nextSlide.style.opacity = '1';
-            nextSlide.style.transform = 'scale(1)';
-
-            // Change Caption
-            caption.style.opacity = '0';
-            setTimeout(() => {
-              caption.textContent = slides[next].caption;
-              caption.style.opacity = '1';
-            }, 500);
-
-            current = next;
-          }, 4000);
-        </script>
-
 
                                                                                                                                                                                                                                 <!--New Events-->
                                                                                                                                                                                                                                 <div class="container" style="padding: 30px 0px;">

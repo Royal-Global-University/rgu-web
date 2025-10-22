@@ -147,13 +147,25 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Indrajit-Dutta.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Indrajit.jpeg"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Indrajit Dutta</h3>
                             <p class="card-designation">Associate Professor & HoD, Royal School of Travel & Tourism
                                 Management</p>
                             <a href="https://www.rgu.ac/faculty-indrajit-dutta" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Syed-Sajidul-Islam-RSHM.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Syed Sajidul Islam</h3>
+                            <p class="card-designation">Associate Professor</p>
+                            <a href="https://www.rgu.ac/faculty-syed-sajidul-islam" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -169,17 +181,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Syed-Sajidul-Islam-RSHM.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Syed Sajidul Islam</h3>
-                            <p class="card-designation">Associate Professor</p>
-                            <a href="https://www.rgu.ac/faculty-syed-sajidul-islam" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
+
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
