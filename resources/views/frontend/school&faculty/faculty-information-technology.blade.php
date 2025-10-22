@@ -152,6 +152,7 @@
                             </div>
                             <h3 class="card-name">Dr. Bhairab Sarma</h3>
                             <p class="card-designation">Associate Professor</p>
+                            <a href="/faculty-bhairab-sarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

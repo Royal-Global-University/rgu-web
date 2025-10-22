@@ -3272,6 +3272,10 @@ Route::get('/faculty-Mehjabin-Rahman', function () {
 
 //RSET Facuilty Profile
 
+Route::get('/faculty-bhairab-sarma', function () {
+    return view('frontend/facultyprofile/rset/bhairab-sarma');
+})->name('faculty-bhairab-sarma');
+
 Route::get('/faculty-naveen-r-shahi', function () {
     return view('frontend/facultyprofile/rset/naveen');
 })->name('faculty-naveen');
