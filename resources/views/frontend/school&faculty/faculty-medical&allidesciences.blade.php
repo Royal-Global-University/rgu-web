@@ -393,7 +393,7 @@
                             </div>
                             <h3 class="card-name">Mr. Tridip Puzari</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="faculty-haziel-rynjah" class="profile-link">View Profile</a>
+                            <!-- <a href="faculty-haziel-rynjah" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
@@ -500,7 +500,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Romeet.jpg"
                                     alt="Profile image of Romeet Saha">
                             </div>
-                            <h3 class="card-name">Romeet Saha</h3>
+                            <h3 class="card-name">Dr. Romeet Saha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-romeet-saha" class="profile-link">View Profile</a>
                         </div>
@@ -512,7 +512,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prasant-Mali-RSL.png"
                                     alt="Profile image of Prasant Mali">
                             </div>
-                            <h3 class="card-name">Prasant Mali</h3>
+                            <h3 class="card-name">Mr. Prasant Mali</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
@@ -656,7 +656,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ms-Mevareen-Rynjah.png"
                                     alt="Profile image of Mevareen Rynjah">
                             </div>
-                            <h3 class="card-name">Mevareen Rynjah</h3>
+                            <h3 class="card-name">Ms. Mevareen Rynjah</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/mevareen" class="profile-link">View Profile</a>
                         </div>
@@ -1132,18 +1132,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Fariza-Saidin-RSBAS.png"
-                                    alt="Profile image of Fariza Saidin">
-                            </div>
-                            <h3 class="card-name">Fariza Saidin</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-fariza-saidin" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Rohit-Sarma.png"
                                     alt="Profile image ">
                             </div>
@@ -1313,7 +1301,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prasant-Mali-RSL.png"
                                     alt="Profile image of Prasant Mali">
                             </div>
-                            <h3 class="card-name">Prasant Mali</h3>
+                            <h3 class="card-name">Mr. Prasant Mali</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
