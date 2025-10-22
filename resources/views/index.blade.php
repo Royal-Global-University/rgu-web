@@ -1236,7 +1236,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                                                                                                                                                                                                                                 <!-- Convocation-slider -->
 
                                                                                                                                                                                                                                 <div id="carousel" class="container-fluid"
-             style="position:relative;width:100%;height:70vh;overflow:hidden;">
+             style="position:relative;width:100%;height:90vh;overflow:hidden;">
 
           <!-- Image 1 -->
           <img src="/assets/convo.gif"
