@@ -1295,7 +1295,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
             <div class="carousel-inner full-screen-carousel">
 
                 <div class="carousel-item active">
-                    <img src="mobile-assets/convo-slider/convo.gif" class="d-block w-100" alt="Slide 1 Image">
+                    <img src="mobile-assets/convo-slider/honoris-causa-1.jpg" class="d-block w-100" alt="Slide 1 Image">
                 </div>
 
                 <div class="carousel-item">
@@ -1303,7 +1303,7 @@ world-class education, top-ranked faculty, modern infrastructure & 50+ UG & PG p
                 </div>
 
                 <div class="carousel-item">
-                    <img src="mobile-assets/convo-slider/honoris-causa-1.jpg" class="d-block w-100" alt="Slide 2 Image">
+                    <img src="mobile-assets/convo-slider/convo.gif" class="d-block w-100" alt="Slide 2 Image">
                 </div>
 
             </div>
