@@ -47,6 +47,15 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Application of AI will Finally Determine the Future of Life: Dr. Harsha Bhattacharjee',
+                            'summary' => '4-Day National Optometry Workshop Concludes at Royal Global University',
+                            'date' => 'Guwahati, October 17, 2025:',
+                            'link' => 'application-of-ai-will-finally-determine-the-future-of-life-dr-harsha-bhattacharjee',
+                            'image' => '/mobile-assets/media-corner/news55/1.jpeg',
+                            'content' => 'The Department of Optometry under the Royal School of Allied Health Sciences at The Assam Royal Global University (RGU) successfully concluded a four-day National Workshop on “Advancing Optometry Specialties: Bridging Academia, Clinics, and Industry”...
+',
+                        ],
+                        [
                             'title' => 'The Invisible Threat: RGU Scientists Decode how Microplastics may Trigger Cancer',
                             'summary' => '',
                             'date' => 'Guwahati, October 15, 2025:',

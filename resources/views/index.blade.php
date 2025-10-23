@@ -1092,7 +1092,7 @@
                                             src="demo-assets/big-events/4.png" alt="">
                                     </a>
                                 </div>
-                                
+
                                 <div class="swiper-slide">
                                     <a href="/mobile-assets/convo-slider/ICSSSM 2025_Brochure.pdf">
                                         <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
@@ -1273,19 +1273,17 @@
                                         <div class="row bg-light p-2 rounded mt-3">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/tredx.JPG" alt="" />
+                                                    src="mobile-assets/media-corner/news55/1.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                    class="pt-2 m-0 fw-bold">Innovators and Changemakers Inspire at TEDx
-                                                    Royal Global University Musical Tribute to Zubeen Garg by Pianist Nise
-                                                    Meruno</p>
+                                                    class="pt-2 m-0 fw-bold">Application of AI will Finally Determine the Future of Life: Dr. Harsha Bhattacharjee</p>
                                                 <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">October 8,
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">October 17,
                                                     2025
                                                 </p>
                                                 <a
-                                                    href="/innovators-and-changemakers-inspire-at-tedx-royal-global-university-musical-tribute-to-zubeen-garg-by-pianist-nise-meruno">
+                                                    href="/application-of-ai-will-finally-determine-the-future-of-life-dr-harsha-bhattacharjee">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
@@ -1297,19 +1295,17 @@
                                             <div class="row bg-light p-2 rounded">
                                                 <div class="col-lg-5 ">
                                                     <img class="rounded" style="height: 130px; width: 100%;"
-                                                        src="mobile-assets/rgu-blog/blog2.jpeg" alt="" />
+                                                        src="mobile-assets/media-corner/news54/collage.png" alt="" />
                                                 </div>
                                                 <div class="col-lg-7">
                                                     <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                        class=" m-0 fw-bold">ATAL-AICTE Sponsored Faculty Development
-                                                        Programme on “Seismic Vulnerability Assessment” held at Royal Global
-                                                        University</p>
+                                                        class=" m-0 fw-bold">The Invisible Threat: RGU Scientists Decode how Microplastics may Trigger Cancer</p>
                                                     <p class="pt-1 p-0 m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4;">October
-                                                        8, 2025
+                                                        15, 2025
                                                     </p>
                                                     <a
-                                                        href="/atal-aicte-sponsored-faculty-development-programme-on-seismic-vulnerability-assessment-held-at-royal-global-university">
+                                                        href="/the-invisible-threat-rgu-scientists-decode-how-microplastics-may-trigger-cancer">
                                                         <p class="pt-2 fw-bold m-0"
                                                             style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                             Read More ...</p>
@@ -1321,21 +1317,20 @@
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5 rounded">
                                                 <img class="rounded" style="height: 130px; width: 100%"
-                                                    src="mobile-assets/media-corner/news51/three.jpg" alt="" />
+                                                    src="mobile-assets/media-corner/news54/3.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-size: 19px; line-height: 1;"
                                                     class="pt-2 m-0 fw-bold">
-                                                    RGU only Private University in NE having 3 of the World’s Top 2%
-                                                    Scientists Ranked by Stanford University
+                                                    Dr. A. K. Pansari Conferred with EW Extraordinary Achievement in Education Leadership Award
 
                                                 </p>
                                                 <p class="pt-1 pt-2 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">September 25,
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">October 14,
                                                     2025
                                                 </p>
                                                 <a
-                                                    href="/rgu-only-private-university-in-ne-having-3-of-the-world’s-top-2-percent-scientists-ranked-by-stanford-university">
+                                                    href="/dr-a-k-pansari-conferred-with-ew-extraordinary-achievement-in-education-leadership-award">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>

@@ -3006,6 +3006,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/application-of-ai-will-finally-determine-the-future-of-life-dr-harsha-bhattacharjee', function () {
+    return view('frontend/media-corner/news57');
+})->name('application-of-ai-will-finally-determine-the-future-of-life-dr-harsha-bhattacharjee');
+
 Route::get('/the-invisible-threat-rgu-scientists-decode-how-microplastics-may-trigger-cancer', function () {
     return view('frontend/media-corner/news56');
 })->name('the-invisible-threat-rgu-scientists-decode-how-microplastics-may-trigger-cancer');
