@@ -972,12 +972,12 @@
                         </div>
 
                         <div class="carousel-item">
-                            <img src="mobile-assets/convo-slider/alumni-meet.jpg" class="d-block w-100"
-                                alt="Slide 2 Image">
+                            <img src="mobile-assets/convo-slider/convo.gif" class="d-block w-100" alt="Slide 2 Image">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="mobile-assets/convo-slider/convo.gif" class="d-block w-100" alt="Slide 2 Image">
+                            <img src="mobile-assets/convo-slider/alumni-meet.jpg" class="d-block w-100"
+                                alt="Slide 2 Image">
                         </div>
 
                     </div>
