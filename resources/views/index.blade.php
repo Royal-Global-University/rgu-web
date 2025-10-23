@@ -1092,15 +1092,7 @@
                                             src="demo-assets/big-events/4.png" alt="">
                                     </a>
                                 </div>
-
-                                {{-- new slide --}}
-                                <div class="swiper-slide">
-                                    <a href="demo-assets/big-events/Five Day Workshop.pdf">
-                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                            src="demo-assets/big-events/data.jpeg" alt="">
-                                    </a>
-                                </div>
-
+                                
                                 <div class="swiper-slide">
                                     <a href="/mobile-assets/convo-slider/ICSSSM 2025_Brochure.pdf">
                                         <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
