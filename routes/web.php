@@ -4562,6 +4562,10 @@ Route::get('/faculty-tanjeela-mehboob', function () {
 
 //RSLA Facuilty Profile
 
+Route::get('/faculty-meghna-borah', function () {
+    return view('frontend/facultyprofile/rsla/meghna-borah');
+})->name('faculty-meghna-borah');
+
 Route::get('/faculty-tikendra-Kumar-sahu', function () {
     return view('frontend/facultyprofile/rsfa/tikendra');
 })->name('faculty-tikendra-Kumar-sahu');
