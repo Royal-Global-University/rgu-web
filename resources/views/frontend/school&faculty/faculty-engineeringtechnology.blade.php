@@ -11,7 +11,7 @@
         </div>
 
         <div class="website">
-@include('frontend/components/aheader')
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Engineering & Technology (RSET)</span></h2>
 
@@ -167,7 +167,7 @@
                             </div>
                             <h3 class="card-name">Dr. Anurag Barthwal</h3>
                             <p class="card-designation">Associate Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-anurag-barthwal" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -203,7 +203,7 @@
                             </div>
                             <h3 class="card-name">Dr. Bikash Baruah</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-bikash-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -215,7 +215,7 @@
                             </div>
                             <h3 class="card-name">Dr. Dillip Rout</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-dillip-rout" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -632,15 +632,15 @@
                     </div>
 
                     <!-- <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="" alt="Profile image of Mrs. Ankita Banerjee">
-                  </div>
-                  <h3 class="card-name">Mrs. Ankita Banerjee</h3>
-                  <p class="card-designation">Assistant Professor</p>
-                  <a href="" class="profile-link">View Profile</a>
-                </div>
-              </div> -->
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="" alt="Profile image of Mrs. Ankita Banerjee">
+                      </div>
+                      <h3 class="card-name">Mrs. Ankita Banerjee</h3>
+                      <p class="card-designation">Assistant Professor</p>
+                      <a href="" class="profile-link">View Profile</a>
+                    </div>
+                  </div> -->
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">

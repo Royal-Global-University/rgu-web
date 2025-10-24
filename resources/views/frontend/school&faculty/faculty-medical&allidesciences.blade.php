@@ -112,7 +112,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/abhijit-dutta-rsmas.jpeg" alt="Profile image ">
+                                <img src="/mobile-assets/updated-faculty-img/Abhijit.jpeg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Prof. Abhijit Dutta</h3>
                             <p class="card-designation">Professor & Dean, Royal School of Medical & Allied Sciences</p>
@@ -169,7 +169,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/abhijit-dutta-rsmas.jpeg" alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Abhijit.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Abhijit Dutta</h3>
                             <p class="card-designation">Professor & Dean, Royal School of Medical & Allied Sciences</p>
@@ -439,7 +439,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/monika-ott.png"
+                                <img src="/mobile-assets/updated-faculty-img/Monika.jpeg"
                                     alt="Profile image of Ms. Smita Das">
                             </div>
                             <h3 class="card-name">Ms. Monika Vedraj Jadhav</h3>
@@ -818,7 +818,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/rupesh-kumar-mlt.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Rupesh.jpeg"
                                     alt="Profile image of Dr. Rupesh Kumar">
                             </div>
                             <h3 class="card-name">Dr. Rupesh Kumar</h3>
@@ -830,7 +830,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/anindita-dutta-mlt.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Anindita.jpeg"
                                     alt="Profile image of Ms. Anindita Dutta">
                             </div>
                             <h3 class="card-name">Ms. Anindita Dutta</h3>
@@ -854,7 +854,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/susmita-sinha-mlt.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Susmita.jpeg"
                                     alt="Profile image of Ms. Susmita Sinha">
                             </div>
                             <h3 class="card-name">Ms. Susmita Sinha</h3>
@@ -1186,7 +1186,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/susmita-sinha-mlt.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Susmita.jpeg"
                                     alt="Profile image of Ms. Susmita Sinha">
                             </div>
                             <h3 class="card-name">Ms. Susmita Sinha</h3>

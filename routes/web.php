@@ -608,6 +608,10 @@ Route::get('/convocation-fourth', function () {
     return view('frontend/academics/convocation-fourth');
 })->name('convocation-fourth');
 
+Route::get('/convocation-fifth', function () {
+    return view('frontend/academics/convocation-fifth');
+})->name('convocation-fifth');
+
 Route::get('/convocation-four-gallery', function () {
     return view('frontend/academics/convocation-four-gallery');
 })->name('convocation-four-gallery');

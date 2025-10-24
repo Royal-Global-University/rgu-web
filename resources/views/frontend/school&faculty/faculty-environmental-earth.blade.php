@@ -107,6 +107,14 @@
         <div class="section-f">
             <div class="container">
 
+                <!-- Geology  -->
+                <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
+                    <h2 class="text-center justify-content-center fw-bold"
+                        style="color: #fff; padding: 10px; font-size: 30px;">
+                        Department of Geography and Geoinformatics</h2>
+                </div>
+                <!-- Geology  -->
+
                 <!-- regular faculty  -->
                 <div class="row justify-content-center">
 

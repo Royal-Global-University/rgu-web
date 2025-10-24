@@ -121,7 +121,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/sp-singh.png" alt="Profile image ">
+                                <img src="/mobile-assets/updated-faculty-img/spsing.png" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Prof. S.P. Singh</h3>
                             <p class="card-designation">Professor</p>
@@ -160,7 +160,7 @@
                             </div>
                             <h3 class="card-name">Prof. Dinesh Kumar Pandiya</h3>
                             <p class="card-designation">Professor</p>
-                            <a href="#" class="profile-link">View Profile</a>
+                            {{-- <a href="#" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 
@@ -283,7 +283,7 @@
                             </div>
                             <h3 class="card-name">Ms. Baishali Pathak</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="#" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-dr-baishali-pathak" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -354,7 +354,7 @@
                             </div>
                             <h3 class="card-name">Ms. Rituparna Baruah</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-rituparna-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

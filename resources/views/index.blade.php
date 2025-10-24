@@ -943,7 +943,7 @@
 
                 <a href="/preface"><img src="https://media.rgu.ac/explore/web.png"
                         alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape.">
-                    </a>
+                </a>
 
 
                 <!-- Convocation-slider -->
@@ -1277,7 +1277,8 @@
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                    class="pt-2 m-0 fw-bold">Application of AI will Finally Determine the Future of Life: Dr. Harsha Bhattacharjee</p>
+                                                    class="pt-2 m-0 fw-bold">Application of AI will Finally Determine the
+                                                    Future of Life: Dr. Harsha Bhattacharjee</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">October 17,
                                                     2025
@@ -1295,11 +1296,13 @@
                                             <div class="row bg-light p-2 rounded">
                                                 <div class="col-lg-5 ">
                                                     <img class="rounded" style="height: 130px; width: 100%;"
-                                                        src="mobile-assets/media-corner/news54/collage.png" alt="" />
+                                                        src="mobile-assets/media-corner/news54/collage.png"
+                                                        alt="" />
                                                 </div>
                                                 <div class="col-lg-7">
                                                     <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                        class=" m-0 fw-bold">The Invisible Threat: RGU Scientists Decode how Microplastics may Trigger Cancer</p>
+                                                        class=" m-0 fw-bold">The Invisible Threat: RGU Scientists Decode
+                                                        how Microplastics may Trigger Cancer</p>
                                                     <p class="pt-1 p-0 m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4;">October
                                                         15, 2025
@@ -1322,7 +1325,8 @@
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-size: 19px; line-height: 1;"
                                                     class="pt-2 m-0 fw-bold">
-                                                    Dr. A. K. Pansari Conferred with EW Extraordinary Achievement in Education Leadership Award
+                                                    Dr. A. K. Pansari Conferred with EW Extraordinary Achievement in
+                                                    Education Leadership Award
 
                                                 </p>
                                                 <p class="pt-1 pt-2 m-0"
@@ -1683,8 +1687,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                students</span> -->
+                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                    students</span> -->
                                                                     </div>
 
                                                                     <div class="card-content">
@@ -1716,8 +1720,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                students</span> -->
+                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                    students</span> -->
 
                                                                     </div>
 

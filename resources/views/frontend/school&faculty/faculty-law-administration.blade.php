@@ -10,7 +10,7 @@
         </div>
 
         <div class="website">
-@include('frontend/components/aheader')
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Law & Administration (RSLA)</span></h2>
 
@@ -115,7 +115,7 @@
                             </div>
                             <h3 class="card-name">Prof. (Dr.) B.C. Barooah</h3>
                             <p class="card-designation">Professor & Deam, Royal School of Law & Administration (RSLA)</p>
-                            <a href="https://www.rgu.ac/faculty-george-ap" class="profile-link">View Profile</a>
+                            {{-- <a href="https://www.rgu.ac/faculty-george-ap" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 

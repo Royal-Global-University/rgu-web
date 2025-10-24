@@ -11,7 +11,7 @@
         </div>
 
         <div class="website">
-@include('frontend/components/aheader')
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Applied & Pure Sciences (RSAPS)</span></h2>
 
@@ -129,7 +129,7 @@
                             </div>
                             <h3 class="card-name">Prof. Rama Ranjan Bhattacharjee</h3>
                             <p class="card-designation">Dean – Research and Development</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-rama-ranjan-bhattacharjee" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
