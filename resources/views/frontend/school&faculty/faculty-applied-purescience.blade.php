@@ -331,6 +331,7 @@
                             </div>
                             <h3 class="card-name">Dr. Rupak Kumar Dalai</h3>
                             <p class="card-designation">Assistant Professor</p>
+                            <a href="/faculty-rupak-kumar-dalai" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
