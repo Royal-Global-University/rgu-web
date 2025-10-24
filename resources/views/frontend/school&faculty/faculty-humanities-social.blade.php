@@ -4,17 +4,16 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
+                style="padding-top: 80px; position: relative; color: #27467A; font-weight: 900;">
                 Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Humanities & Social Sciences
                     (RSHSS)</span>
             </h2>
         </div>
 
         <div class="website">
-            @include('frontend/components/aheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900;">
+@include('frontend/components/aheader')
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Humanities & Social Sciences (RSHSS)</span>
             </h2>
 
@@ -118,19 +117,18 @@
                                 <img src="mobile-assets/updated-faculty-img/Prof-Surajit-Mukhopadhyay..png"
                                     alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Prof. Surajit C. Mukhopadhyay</h3>
+                            <h3 class="card-name">Prof. (Dr.) S.C. Mukhopadhyay</h3>
                             <p class="card-designation">Professor & Dean, Royal School of Humanities & Social Sciences,
-                                Director,
-                                Centre for Inter-Disciplinary Research</p>
-                            <!-- <a href="https://www.rgu.ac/faculty-george-ap" class="profile-link">View Profile</a> -->
+                                Director, Centre for Inter-Disciplinary Research</p>
+                            <a href="https://www.rgu.ac/faculty-surajit-c-mukhopadhyay" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rshss/RanjanChakrabarti.jpeg"
-                                    alt="Profile image of Prof. D.N. Singh">
+                                <img src="mobile-assets/all-faculty/rshss/RanjanChakrabarti.jpeg" alt="Profile ">
                             </div>
                             <h3 class="card-name">Prof. Ranjan Chakrabarti</h3>
                             <p class="card-designation">Distinguished Professor Emeritus</p>
@@ -146,8 +144,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png"
-                                    alt="Profile image of Prof. D.N. Singh">
+                                <img src="mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png" alt="Profile ">
                             </div>
                             <h3 class="card-name">Prof. Shiela Bora</h3>
                             <p class="card-designation">Professor & Advisor</p>
@@ -158,8 +155,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Prof-Sajal-Nag-RSHSS.png"
-                                    alt="Profile image of Prof. D.N. Singh">
+                                <img src="mobile-assets/updated-faculty-img/Prof-Sajal-Nag-RSHSS.png" alt="Profile ">
                             </div>
                             <h3 class="card-name">Prof. Sajal Nag</h3>
                             <p class="card-designation">Distinguished Professor</p>
@@ -170,8 +166,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rshss/swabera.jpeg"
-                                    alt="Profile image of Prof. D.N. Singh">
+                                <img src="mobile-assets/all-faculty/rshss/swabera.jpeg" alt="Profile ">
                             </div>
                             <h3 class="card-name">Prof. Swabera Islam</h3>
                             <p class="card-designation">Professor & Advisor</p>
@@ -195,7 +190,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/all-faculty/rshss/Gautam.jpeg"
-                                    alt="Profile image of Prof. Gautam Mazumdar">
+                                    alt="Profile image Gautam Mazumdar">
                             </div>
                             <h3 class="card-name">Prof. Gautam Mazumdar</h3>
                             <p class="card-designation">Professor</p>
@@ -206,8 +201,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rshss/swabera.jpeg"
-                                    alt="Profile image of Prof. D.N. Singh">
+                                <img src="mobile-assets/all-faculty/rshss/swabera.jpeg" alt="Profile ">
                             </div>
                             <h3 class="card-name">Prof. Swabera Islam</h3>
                             <p class="card-designation">Professor & Advisor</p>
@@ -218,10 +212,10 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rshss/Deluwar.jpeg"
-                                    alt="Profile image of Prof. D.N. Singh">
+                                <img src="mobile-assets/all-faculty/rshss/Deluwar.jpeg"
+                                    alt="Profile image of Dr. Muhammad Deluwar Hoque">
                             </div>
-                            <h3 class="card-name">Dr. Mohammed Deluwar Hoque</h3>
+                            <h3 class="card-name">Dr. Muhammad Deluwar Hoque</h3>
                             <p class="card-designation">Associate Professor & HOD, Economics</p>
                             <a href="https://www.rgu.ac/faculty-mohammed-deluwar-hoque" class="profile-link">View
                                 Profile</a>
@@ -236,7 +230,7 @@
                             </div>
                             <h3 class="card-name">Dr. Pragya Tamang</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="faculty-pragya-tamang" class="profile-link">View Profile</a>
+                            <!-- <a href="https://www.rgu.ac/faculty-durba-dutta" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
@@ -248,7 +242,8 @@
                             </div>
                             <h3 class="card-name">Dr. Sanghamitra Hazarika</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-sanghamitra-hazarika" class="profile-link">View Profile</a>
+                            <a href="https://www.rgu.ac/faculty-sanghamitra-hazarika" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
@@ -296,7 +291,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rshss/RanjanChakrabarti.jpeg"
-                                    alt="Profile image of Prof. Ranjan Chakrabarti">
+                                    alt="Profile image Ranjan Chakrabarti">
                             </div>
                             <h3 class="card-name">Prof. Ranjan Chakrabarti</h3>
                             <p class="card-designation">Distinguished Professor Emeritus</p>
@@ -308,7 +303,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png"
-                                    alt="Profile image of Prof. Shiela">
+                                    alt="Profile image Shiela">
                             </div>
                             <h3 class="card-name">Prof. Shiela Bora</h3>
                             <p class="card-designation">Professor & Advisor</p>
@@ -321,7 +316,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Prof-Sajal-Nag-RSHSS.png"
-                                    alt="Profile image of Prof. Sajal Nag">
+                                    alt="Profile image Sajal Nag">
                             </div>
                             <h3 class="card-name">Prof. Sajal Nag</h3>
                             <p class="card-designation">Distinguished Professor</p>
@@ -334,7 +329,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mukesh-Kalita-RSHSS.png"
-                                    alt="Profile image of Prof. Mr. Mukesh Kalita">
+                                    alt="Profile image Mr. Mukesh Kalita">
                             </div>
                             <h3 class="card-name">Mr. Mukesh Kalita</h3>
                             <p class="card-designation">Assistant Professor & Coordinator, History</p>
@@ -466,7 +461,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Asif-Iqbal-Mazid-RSFT.png"
                                     alt="Profile image of Asif Iqbal Majid">
                             </div>
-                            <h3 class="card-name">Dr. Asif Iqbal Majid</h3>
+                            <h3 class="card-name">Mr. Asif Iqbal Mazid</h3>
                             <p class="card-designation">Assistant Professor & Coordinator, Royal School of Fashion Design &
                                 Technology
                             </p>
@@ -527,7 +522,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Abhinav-Chaliha-RSHSS.png"
-                                    alt="Profile image of Prof. Abhinav Chaliha">
+                                    alt="Profile image Abhinav Chaliha">
                             </div>
                             <h3 class="card-name">Prof. Abhinav Chaliha</h3>
                             <p class="card-designation">Assistant Professor</p>
@@ -627,9 +622,6 @@
                             <a href="" class="profile-link">View Profile</a>
                         </div>
                     </div>
-
-
-
 
                 </div>
 
@@ -810,11 +802,11 @@
                                 <img src="mobile-assets/updated-faculty-img/Prof-Surajit-Mukhopadhyay..png"
                                     alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Prof. Surajit C. Mukhopadhyay</h3>
+                            <h3 class="card-name">Prof. (Dr.) S.C. Mukhopadhyay</h3>
                             <p class="card-designation">Professor & Dean, Royal School of Humanities & Social Sciences,
-                                Director,
-                                Centre for Inter-Disciplinary Research</p>
-                            <!-- <a href="https://www.rgu.ac/faculty-george-ap" class="profile-link">View Profile</a> -->
+                                Director, Centre for Inter-Disciplinary Research</p>
+                            <a href="https://www.rgu.ac/faculty-surajit-c-mukhopadhyay" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
@@ -867,13 +859,11 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Tripti-Das.png"
-                                    alt="Profile image ">
+                                <img src="mobile-assets/updated-faculty-img/Dr-Tripti-Das.png"
+                                    alt="Profile image of Tripti Das">
                             </div>
                             <h3 class="card-name">Dr. Tripti Das</h3>
-                            <p class="card-designation">
-                                Assistant Professor & Coordinator
-                            </p>
+                            <p class="card-designation">Assistant Professor & Coordinator</p>
                             <a href="https://www.rgu.ac/faculty-tripti-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -881,13 +871,11 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Trishna.jpeg"
-                                    alt="Profile image ">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Trishna.jpeg"
+                                    alt="Profile image of Tripti Das">
                             </div>
                             <h3 class="card-name">Dr. Trishna Mani Thakuria</h3>
-                            <p class="card-designation">
-                                Assistant Professor and Assistant Director, Finishing School
-                            </p>
+                            <p class="card-designation">Assistant Professor and Assistant Director, Finishing School</p>
                         </div>
                     </div>
 
@@ -973,6 +961,7 @@
 
                 <div class="row justify-content-center">
 
+
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
@@ -1029,7 +1018,8 @@
                             </div>
                             <h3 class="card-name">Ms. Joyeeta Bhattacharjee</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-joyeeta-bhattacharjee" class="profile-link">View Profile</a>
+                            <a href="https://www.rgu.ac/faculty-joyeeta-bhattacharjee" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
@@ -1061,6 +1051,5 @@
             </div>
 
         </div>
-
     </div>
 @endsection

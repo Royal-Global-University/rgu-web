@@ -4,16 +4,15 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
+                style="padding-top: 80px; position: relative; color: #27467A; font-weight: 900;">
                 Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Applied & Pure Sciences (RSAPS)</span>
             </h2>
         </div>
 
         <div class="website">
-            @include('frontend/components/aheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900;">
+@include('frontend/components/aheader')
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Applied & Pure Sciences (RSAPS)</span></h2>
 
         </div>
@@ -130,7 +129,7 @@
                             </div>
                             <h3 class="card-name">Prof. Rama Ranjan Bhattacharjee</h3>
                             <p class="card-designation">Dean – Research and Development</p>
-                            <a href="/faculty-rama-ranjan-bhattacharjee" class="profile-link">View Profile</a>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
@@ -269,7 +268,8 @@
                             </div>
                             <h3 class="card-name">Dr. Bhagyashri Patgiri</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-dr-bhagyashri-patgiri" class="profile-link">View Profile</a>
+                            <a href="https://www.rgu.ac/faculty-dr-bhagyashri-patgiri" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
@@ -306,7 +306,8 @@
                             </div>
                             <h3 class="card-name">Dr. Marbarisha Kharkongor</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-marbarisha-Kharkongor" class="profile-link">View Profile</a>
+                            <a href="https://www.rgu.ac/faculty-marbarisha-Kharkongor" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
@@ -330,7 +331,6 @@
                             </div>
                             <h3 class="card-name">Dr. Rupak Kumar Dalai</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="/faculty-rupak-kumar-dalai" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -478,7 +478,7 @@
                             </div>
                             <h3 class="card-name">Prof. Rama Ranjan Bhattacharjee</h3>
                             <p class="card-designation">Dean – Research and Development</p>
-                            <a href="/faculty-rama-ranjan-bhattacharjee" class="profile-link">View Profile</a>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
@@ -993,8 +993,8 @@
                                     alt="Profile image of Prof. (Dr.) Amarjyoti Choudhury">
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Amarjyoti Choudhury</h3>
-                            <p class="card-designation">Professor Emeritus & Chair Professor, Dr. Bhupen Hazarika Centre for
-                                Creativity, The Assam Royal Global University</p>
+                            <p class="card-designation">Professor Emeritus & Chair Professor, Dr. Bhupen Hazarika Centre
+                                for Creativity, The Assam Royal Global University</p>
                             <a href="https://www.rgu.ac/advisor-dr-amarjyoti-choudhury" class="profile-link">View
                                 Profile</a>
                         </div>
@@ -1311,7 +1311,8 @@
                             </div>
                             <h3 class="card-name">Dr. Marbarisha M. Kharkongar</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-marbarisha-Kharkongor" class="profile-link">View Profile</a>
+                            <a href="https://www.rgu.ac/faculty-marbarisha-Kharkongor" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 

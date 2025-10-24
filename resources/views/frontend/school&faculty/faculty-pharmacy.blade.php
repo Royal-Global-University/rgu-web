@@ -4,15 +4,14 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
+                style="padding-top: 80px; position: relative; color: #27467A; font-weight: 900;">
                 Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Pharmacy (RSP)</span></h2>
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900;">
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Pharmacy (RSP)</span></h2>
 
         </div>
@@ -114,7 +113,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsp/Rao.png" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Chennu Maruthi Malya Prasada Rao</h3>
-                            <p class="card-designation">Professor and Dean, Royal School of Pharmacy</p>
+                            <p class="card-designation">Professor & Dean, Royal School of Pharmacy</p>
                             <a href="https://www.rgu.ac/ch-m-m-prasad-rao" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -146,8 +145,8 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prof-Prithviraj-Chakraborty-RSP.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Prof. Prithviraj Chakraborty</h3>
-                            <p class="card-designation">Professor & Principal/HoD</p>
+                            <h3 class="card-name">Prof. (Dr.) Prithvi Raj Chakraborty</h3>
+                            <p class="card-designation">Professor & Principal/HOD</p>
                             <a href="https://www.rgu.ac/faculty-prithviraj-chakraborty" class="profile-link">View
                                 Profile</a>
                         </div>
@@ -216,12 +215,11 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Tanniru.jpg"
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Tanniru.jpg"
                                     alt="Profile image of">
                             </div>
                             <h3 class="card-name">Dr. Tanniru Rajeswari</h3>
                             <p class="card-designation">Associate Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-sudarshana" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 
@@ -293,9 +291,9 @@
                             </div>
                             <h3 class="card-name">Dr. Syed Nazrin Ruhina Rahman</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
+
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -317,7 +315,8 @@
                             </div>
                             <h3 class="card-name">Mr. Bhaskar Jyoti Pathak</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-bhaskar-jyoti-pathak" class="profile-link">View Profile</a>
+                            <a href="https://www.rgu.ac/faculty-bhaskar-jyoti-pathak" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 
@@ -375,9 +374,9 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Neelakshi-Sharma-RSP.png"
                                     alt="Profile image of">
                             </div>
-                            <h3 class="card-name">Ms. Neelakshi Sharma/h3>
-                                <p class="card-designation">Assistant Professor</p>
-                                <a href="https://www.rgu.ac/faculty-neelakshi-sharma" class="profile-link">View Profile</a>
+                            <h3 class="card-name">Ms. Neelakshi Sharma</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-neelakshi-sharma" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

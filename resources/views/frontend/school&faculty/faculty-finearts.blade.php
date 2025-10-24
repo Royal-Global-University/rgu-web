@@ -5,14 +5,13 @@
         <div class="mobile">
             @include('frontend/components/mobileheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
-                style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
+                style="padding-top: 80px; position: relative; color: #27467A; font-weight: 900;">
                 Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Fine Arts (RSFA)</span></h2>
         </div>
 
         <div class="website">
-            @include('frontend/components/aheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900;">
+@include('frontend/components/aheader')
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Fine Arts (RSFA)</span></h2>
 
         </div>
@@ -105,6 +104,7 @@
         <div class="section-f">
             <div class="container">
 
+
                 <!-- regular faculty  -->
                 <div class="row justify-content-center">
 
@@ -115,11 +115,10 @@
                                     alt="Profile image of Prof. (Dr.) Hari Prasad Agarwal">
                             </div>
                             <h3 class="card-name">Prof. (Dr.) Hari Prasad Agarwal</h3>
-                            <p class="card-designation">Dean,
-                                Royal School of Fine Arts <br>
-                                Royal School of Architecture <br>
-                                Royal School of Design <br>
-                                Royal School of Fashion Design & Technology</p>
+                            <p class="card-designation">Professor & Principal, Royal School of Architecture
+                                and Dean, Royal School of Design/Royal School of Fashion Design & Technology/Royal School of
+                                Fine Arts
+                            </p>
                             <a href="https://www.rgu.ac/faculty-hari-prasad-agarwal" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -143,7 +142,7 @@
                                     alt="Profile image of Dr. Sumanta Dutta Chowdhury">
                             </div>
                             <h3 class="card-name">Dr. Sumanta Dutta Chowdhury</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator</p>
+                            <p class="card-designation">Assistant Professor & Coordinator, Royal School of Fine Arts</p>
                             <a href="https://www.rgu.ac/faculty-sumanta-dutta-chowdhury" class="profile-link">View
                                 Profile</a>
                         </div>

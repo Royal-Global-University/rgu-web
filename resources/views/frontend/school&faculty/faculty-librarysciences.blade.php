@@ -5,15 +5,14 @@
         <div class="mobile">
             @include('frontend/components/mobileheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
-                style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
+                style="padding-top: 80px; position: relative; color: #27467A; font-weight: 900;">
                 Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Library & Information Sciences
                     (RSLISC)</span></h2>
         </div>
 
         <div class="website">
-            @include('frontend/components/aheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900;">
+@include('frontend/components/aheader')
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Library & Information Sciences
                     (RSLISC)</span></h2>
 
@@ -117,7 +116,7 @@
                                     alt="Profile image of Dr. Hirak Jyoti Hazarika">
                             </div>
                             <h3 class="card-name">Dr. Hirak Jyoti Hazarika</h3>
-                            <p class="card-designation">Assistant Professor & HOD</p>
+                            <p class="card-designation">Assistant Professor & HoD, Library Science</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -198,6 +197,9 @@
                             <a href="https://www.rgu.ac/faculty-suhail-ahmed" class="profile-link">View Profile</a>
                         </div>
                     </div>
+
+
+
                 </div>
 
                 <!-- regular faculty  -->
