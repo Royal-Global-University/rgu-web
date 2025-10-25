@@ -698,11 +698,6 @@
                                         <td>Member Secretary</td>
                                     </tr>
                                     <tr>
-                                        <td>Dr. Anjuman Ara Begum</td>
-                                        <td>Associate Professor</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
                                         <td rowspan="3">4.</td>
                                         <td rowspan="3" class="align-middle">
                                             Three external members not below the rank of Professors,
@@ -1886,11 +1881,6 @@
                                                         <td>Dr. Pranita Choudhury</td>
                                                         <td>Associate Professor</td>
                                                         <td>Member Secretary</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Dr. Anjuman Ara Begum</td>
-                                                        <td>Associate Professor</td>
-                                                        <td>Member</td>
                                                     </tr>
                                                     <tr>
                                                         <td rowspan="3">4.</td>
