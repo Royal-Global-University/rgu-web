@@ -1280,7 +1280,7 @@
                                                     2025
                                                 </p>
                                                 <a
-                                                    href="/isro-awards-grant-to-rgu-faculty-to-design-high-sensitivity-optical-sensors333">
+                                                    href="/isro-awards-grant-to-rgu-faculty-to-design-high-sensitivity-optical-sensors">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
