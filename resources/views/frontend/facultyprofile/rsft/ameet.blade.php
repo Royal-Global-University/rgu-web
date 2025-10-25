@@ -10,7 +10,7 @@
                     <div class="row">
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
-                                <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
+                                <img style="margin-top: 70px; width: 360px; height: 300px; border: 1px solid #27467A;"
                                     src="mobile-assets/updated-faculty-img/Ameet.jpg" alt="">
                             </div>
                         </div>
@@ -188,7 +188,7 @@
                     <div class="col-lg-5 text-center">
 
                         <div class="text-center">
-                            <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
+                            <img style="margin-top: 100px; width: 420px; height: 400px; border: 1px solid #27467A; margin-left: 45px;"
                                 src="mobile-assets/updated-faculty-img/Ameet.jpg" alt="">
                         </div>
 

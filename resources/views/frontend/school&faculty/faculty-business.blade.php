@@ -327,9 +327,9 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Nibir-Pratim-Choudhury.jpeg"
-                                    alt="Profile image of Mr. Nibir Choudhury">
+                                    alt="Profile image of Dr. Nibir Pratim Choudhury">
                             </div>
-                            <h3 class="card-name">Mr. Nibir Choudhury</h3>
+                            <h3 class="card-name">Dr. Nibir Pratim Choudhury</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-Nibir-Pratim" class="profile-link">View Profile</a>
                         </div>

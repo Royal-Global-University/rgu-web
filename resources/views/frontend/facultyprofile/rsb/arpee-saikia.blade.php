@@ -11,7 +11,7 @@
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
                                 <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
-                                    src="mobile-assets/updated-faculty-img/Prof-Samip-Baruah.png" alt="">
+                                    src="mobile-assets/updated-faculty-img/Dr-Arpee-Saikia-RSB.png" alt="">
                             </div>
                         </div>
 

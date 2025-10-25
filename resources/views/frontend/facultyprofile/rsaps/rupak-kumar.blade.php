@@ -22,7 +22,7 @@
 
             </div>
 
-            <div style="background-color: #27467A; padding-top: 190px; padding-bottom: 50px;">
+            <div style="background-color: #27467A; padding-top: 330px; padding-bottom: 50px;">
 
                 <div class="container">
                     <div class="row">
@@ -43,13 +43,13 @@
 
                             <div>
 
-                                <h3>Dr. Rupak Kumar Dalai earned his Ph.D. in Mathematics (in Harmonic Analysis) from IIT
+                                <h4 class="text-white">Dr. Rupak Kumar Dalai earned his Ph.D. in Mathematics (in Harmonic Analysis) from IIT
                                     Guwahati; holds an M.Sc. in
                                     Mathematics from the University of Hyderabad and a B.Sc. in Mathematics from
                                     the Institute of Mathematics and
-                                    Applications, Bhubaneswar; and has qualified CSIR-UGC NET (JRF), GATE, and IIT-JAM.</h3>
+                                    Applications, Bhubaneswar; and has qualified CSIR-UGC NET (JRF), GATE, and IIT-JAM.</h4>
 
-                                <h3>Dr. Dalai has worked as a postdoctoral researcher at the IISER Pune and Bhopal, where he
+                                <h4 class="text-white pt-3">Dr. Dalai has worked as a postdoctoral researcher at the IISER Pune and Bhopal, where he
                                     combined his research with
                                     teaching assistantship in courses such as Calculus, Real Analysis, Linear Algebra,
                                     Advanced Linear Algebra, and Measure
@@ -57,15 +57,15 @@
                                     Partial Differential Equations
                                     (PDEs), with a focus on problems related to heat equations in metric measure spaces,
                                     modulation spaces, and waveguide
-                                    manifolds.</h3>
+                                    manifolds.</h4>
 
-                                <h3>Dr. Dalai’s research contributions include 07 publications in reputed journals such as
+                                <h4 class="text-white pt-3">Dr. Dalai’s research contributions include 07 publications in reputed journals such as
                                     the Journal of Mathematical
                                     Analysis and Applications and the Journal of Pseudo-Differential Operators and
                                     Applications. He has also presented at
                                     international conferences, including ICTS Bangalore (2023), IISER Bhopal, the NCMW
                                     Harmonic Analysis meetings, and the
-                                    AIS on Harmonic Analysis at the Kerala School of Mathematics.</h3>
+                                    AIS on Harmonic Analysis at the Kerala School of Mathematics.</h4>
 
                             </div>
 

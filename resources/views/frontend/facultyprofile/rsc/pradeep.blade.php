@@ -22,7 +22,7 @@
 
             </div>
 
-            <div style="background-color: #27467A; padding-top: 190px; padding-bottom: 50px;">
+            <div style="background-color: #27467A; padding-top: 220px; padding-bottom: 50px;">
 
                 <div class="container">
                     <div class="row">
@@ -43,14 +43,14 @@
 
                             <div class="">
 
-                                <h4>Dr. Pradeep K. Jain is a distinguished academician and administrator with over
+                                <h4 class="text-white">Dr. Pradeep K. Jain is a distinguished academician and administrator with over
                                     three decades of experience in
                                     management education and institutional leadership. He retired as Dean, Faculty of
                                     Commerce and Management, Gauhati
                                     University, where he served in various academic and administrative capacities since
                                     1987.
                                 </h4>
-                                <h4>Beyond academia, Dr. Jain has held several key leadership roles, including Former
+                                <h4 class="text-white pt-5">Beyond academia, Dr. Jain has held several key leadership roles, including Former
                                     Chairman of the Gauhati Stock
                                     Exchange. He is also Working President of the Trust and Governing Body of West Guwahati
                                     College of Education.
@@ -58,7 +58,7 @@
                                     Manch, where he served as
                                     National General Secretary and Provincial President.
                                 </h4>
-                                <h4>Dr. Jain’s distinguished career reflects his commitment to education, ethics, and
+                                <h4 class="text-white pt-5">Dr. Jain’s distinguished career reflects his commitment to education, ethics, and
                                     community service — combining academic
                                     excellence with social responsibility and visionary leadership.
                                 </h4>

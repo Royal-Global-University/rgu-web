@@ -22,7 +22,7 @@
 
             </div>
 
-            <div style="background-color: #27467A; padding-top: 190px; padding-bottom: 50px;">
+            <div style="background-color: #27467A; padding-top: 220px; padding-bottom: 50px;">
 
                 <div class="container">
                     <div class="row">
@@ -341,7 +341,7 @@
                     <div class="col-lg-5 text-center">
 
                         <div class="text-center">
-                            <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
+                            <img style="margin-top: 100px; width: 450px; height: 420px; border: 1px solid #27467A; margin-left: 45px;"
                                 src="mobile-assets/updated-faculty-img/shalini.jpeg" alt="">
                         </div>
 

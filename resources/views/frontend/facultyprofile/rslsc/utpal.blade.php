@@ -22,7 +22,7 @@
 
             </div>
 
-            <div style="background-color: #27467A; padding-top: 190px; padding-bottom: 50px;">
+            <div style="background-color: #27467A; padding-top: 250px; padding-bottom: 50px;">
 
                 <div class="container">
                     <div class="row">

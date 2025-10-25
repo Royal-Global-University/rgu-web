@@ -384,7 +384,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        1+ years
+                                        2+ years
                                     </span>
                                 </li>
 

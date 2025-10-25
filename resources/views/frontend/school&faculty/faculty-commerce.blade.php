@@ -304,7 +304,7 @@
                                 <img src="mobile-assets/updated-faculty-img/Nibir-Pratim-Choudhury.jpeg"
                                     alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Mr. Nibir Choudhury</h3>
+                            <h3 class="card-name">Dr. Nibir Pratim Choudhury</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-Nibir-Pratim" class="profile-link">View Profile</a>
                         </div>
