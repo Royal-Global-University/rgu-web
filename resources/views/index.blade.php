@@ -914,12 +914,7 @@
 
                             </div>
 
-                            {{-- <div class="video-container" style="position: relative; width: 100%; height: 95vh;">
-                                                                                                                                                                                                                                                    <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
-                                                                                                                                                                                                                                                        alt="Video Thumbnail"
-                                                                                                                                                                                                                                                        style="width: 100%; height: auto; position: relative; top: 0; left: 0; object-fit: cover;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                z-index: 1; transition: opacity 1s ease; filter: blur(1px) brightness(0.85);">
-                                                                                                                                                                                                                                                </div> --}}
+                            {{-- <div class="video-container" style="position: relative; width: 100%; height: 95vh;">                                                                                                                                                                                                                   </div> --}}
                             <div class="video-container" style="position: relative; width: 100%; height: auto;">
                                 <img src="https://media.rgu.ac/head-video/web-thumb.png" id="video-thumbnail2"
                                     alt="Video Thumbnail"
@@ -1269,8 +1264,32 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
-
                                         <div class="row bg-light p-2 rounded mt-3">
+                                            <div class="col-lg-5 rounded">
+                                                <img class="rounded" style="height: 130px; width: 100%"
+                                                    src="mobile-assets/media-corner/news56/3.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-size: 19px; line-height: 1;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    ISRO Awards Grant to RGU Faculty to Design High-Sensitivity Optical Sensors
+
+                                                </p>
+                                                <p class="pt-1 pt-2 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">October 25,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/isro-awards-grant-to-rgu-faculty-to-design-high-sensitivity-optical-sensors333">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="mobile-assets/media-corner/news55/1.jpeg" alt="" />
@@ -1317,30 +1336,6 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5 rounded">
-                                                <img class="rounded" style="height: 130px; width: 100%"
-                                                    src="mobile-assets/media-corner/news54/3.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    Dr. A. K. Pansari Conferred with EW Extraordinary Achievement in
-                                                    Education Leadership Award
-
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">October 14,
-                                                    2025
-                                                </p>
-                                                <a
-                                                    href="/dr-a-k-pansari-conferred-with-ew-extraordinary-achievement-in-education-leadership-award">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
 
 
                                     </div>

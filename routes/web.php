@@ -3014,6 +3014,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/isro-awards-grant-to-rgu-faculty-to-design-high-sensitivity-optical-sensors', function () {
+    return view('frontend/media-corner/news58');
+})->name('isro-awards-grant-to-rgu-faculty-to-design-high-sensitivity-optical-sensors');
+
 Route::get('/application-of-ai-will-finally-determine-the-future-of-life-dr-harsha-bhattacharjee', function () {
     return view('frontend/media-corner/news57');
 })->name('application-of-ai-will-finally-determine-the-future-of-life-dr-harsha-bhattacharjee');

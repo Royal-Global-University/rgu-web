@@ -99,7 +99,7 @@
                   <i class="fa fa-circle"
                     style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                   <span style="display: block;">
-                    5 years 5 months
+                    8 years 7 months
                   </span>
                 </li>
 
@@ -314,7 +314,7 @@
                   <i class="fa fa-circle"
                     style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                   <span style="display: block;">
-                    5 years 5 months
+                    8 years 7 months
                   </span>
                 </li>
 

@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'ISRO Awards Grant to RGU Faculty to Design High-Sensitivity Optical Sensors',
+                            'summary' => 'Paving way to Future Interplanetary and Deep-Space Missions',
+                            'date' => 'Guwahati, October 25, 2025:',
+                            'link' => 'isro-awards-grant-to-rgu-faculty-to-design-high-sensitivity-optical-sensors',
+                            'image' => '/mobile-assets/media-corner/news56/3.jpeg',
+                            'content' => 'Dr. Nitu Borgohain, Assistant Professor in the Department of Physics, Royal School of Applied and Pure Sciences, The Assam Royal Global University (RGU), has been awarded a prestigious ISRO research grant of ₹18.24 lakhs through RAC-S@GU...',
+                        ],
+                        [
                             'title' => 'Application of AI will Finally Determine the Future of Life: Dr. Harsha Bhattacharjee',
                             'summary' => '4-Day National Optometry Workshop Concludes at Royal Global University',
                             'date' => 'Guwahati, October 17, 2025:',
