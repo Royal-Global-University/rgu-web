@@ -356,6 +356,9 @@
                         <li><a class="dropdown-item text-dark para1" href="{{ route('placements-process') }}"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Placement
                                 Process</a></li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('placements-members') }}"
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">RCCR
+                                Members</a></li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('placements-events') }}"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">RCCR
                                 Events</a></li>

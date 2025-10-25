@@ -105,7 +105,7 @@
 
         <div style="background-image: url(mobile-assets/placement-all/bg.svg); background-size: cover; padding: 30px 0px;">
             <div class="container">
-                <p style="color: #264273; font-size: 24px; color:#264273; text-align: justify; font-weight: 400;">
+                <p class="para1" style="color: #264273; color:#264273; text-align: justify; font-weight: 400;">
                     The centre continuously endeavours to help students in pursuing their career goals by imparting
                     employment-seeking skills and thereby to attain desired employment. This is accomplished through a
                     strong bond created amongst students, alumni, faculty members and the industry. Royal Centre for

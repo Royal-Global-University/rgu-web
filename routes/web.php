@@ -695,6 +695,10 @@ Route::get('/games&sports', function () {
 
 //placements Life
 
+Route::get('/placements-members', function () {
+    return view('frontend/placement/placements-members');
+})->name('placements-members');
+
 Route::get('/placements-introduction', function () {
     return view('frontend/placement/placements-introduction');
 })->name('placements-introduction');

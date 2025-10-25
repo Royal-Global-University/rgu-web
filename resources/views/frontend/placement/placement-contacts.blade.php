@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px; position: relative; padding-top: 90px;">
+        <section style="background-color: #fff8f0; padding: 30px 10px 20px 10px;">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12">
@@ -21,32 +21,13 @@
 
                         <div class="pt-3">
                             <p>
-                                <span class="text-dark mobile-headd3 fw-bold">Ms. Pahi Bhagawati</span> <br>
-                                <span class="text-dark mobile-para1">Assistant Director, Royal Centre for Corporate
-                                    Relations (RCCR)</span> <br>
-                                <span class="text-dark mobile-para1">Ph- <a
-                                        href="tel:+918876938540">+91-8876938540</a></span>
-                                <a href="tel:+918876938540" class="call-btn"
-                                    style="margin-left: 10px; text-decoration: none; background: #28a745; color: white; padding: 5px 10px; border-radius: 5px; font-size: 14px;">
-                                    <i class="fa fa-phone"></i> Call
-                                </a>
-                                <br>
-                                <span class="text-dark mobile-para1">Email- pahib@rgu.ac</span>
-                            </p>
-                            <hr>
-                            <p class="pt-3">
-                                <span class="text-dark mobile-headd3 fw-bold">Ms. Arpita Baruah</span> <br>
-                                <span class="text-dark mobile-para1">Manager, Royal Centre for Corporate Relations
+                                <span class="para1 fw-bold text-dark" style="font-size: 23px;">Royal Centre for
+                                    Corporate Relations
                                     (RCCR)</span> <br>
-                                <span class="text-dark mobile-para1">Ph- <a
-                                        href="tel:+917002931289">+91-7002931289</a></span>
-                                <a href="tel:+917002931289" class="call-btn"
-                                    style="margin-left: 10px; text-decoration: none; background: #28a745; color: white; padding: 5px 10px; border-radius: 5px; font-size: 14px;">
-                                    <i class="fa fa-phone"></i> Call
-                                </a>
-                                <br>
-                                <span class="text-dark mobile-para1">Email- abaruah2@rgu.ac</span>
+                                <span class="para1 text-dark">Ph- +91-7086751583/ +91-7086751573 </span> <br>
+                                <span class="para1 text-dark">Email- rccr.placement@rgu.ac</span>
                             </p>
+
                         </div>
 
                     </div>
@@ -77,24 +58,18 @@
                     <div class="col-lg-6">
 
                         <h2 class="headd1 kd-title-ani kd-split-text" style="color: #264273; font-weight: 700">Placement
-                            <span style="color: #FF9A1E; font-weight: 500;">Contacts</span> </h2>
+                            <span style="color: #FF9A1E; font-weight: 500;">Contacts</span>
+                        </h2>
 
                         <div>
-                            <div style="text-align: justify;" class="para1 text-dark kd-para-1 disc" data-splitting
-                                style="text-align: justify;">
+                            <div style="text-align: justify;" class="para1 text-dark kd-para-1 disc" data-splitting>
+
                                 <p>
-                                    <span class="para1 fw-bold">Ms Pahi Bhagawati</span> <br>
-                                    <span class="para1">Assistant Director, Royal Centre for Corporate Relations
+                                    <span class="para1 fw-bold" style="font-size: 23px;">Royal Centre for Corporate
+                                        Relations
                                         (RCCR)</span> <br>
-                                    <span class="para1">Ph- +91-8876938540</span> <br>
-                                    <span class="para1">Email- pahib@rgu.ac</span>
-                                </p>
-                                <hr>
-                                <p class="pt-3">
-                                    <span class="para1 fw-bold">Ms. Arpita Baruah</span> <br>
-                                    <span class="para1">Manager, Royal Centre for Corporate Relations (RCCR)</span> <br>
-                                    <span class="para1">Ph- +91-7002931289</span> <br>
-                                    <span class="para1">Email- abaruah2@rgu.ac</span>
+                                    <span class="para1">Ph- +91-7086751583/ +91-7086751573 </span> <br>
+                                    <span class="para1">Email- rccr.placement@rgu.ac</span>
                                 </p>
 
                             </div>
