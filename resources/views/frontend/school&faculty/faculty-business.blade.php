@@ -10,7 +10,7 @@
         </div>
 
         <div class="website">
-@include('frontend/components/aheader')
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Business (RSB)</span></h2>
 
@@ -242,6 +242,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Nibir-Pratim-Choudhury.jpeg"
+                                    alt="Profile image of Dr. Nibir Pratim Choudhury">
+                            </div>
+                            <h3 class="card-name">Dr. Nibir Pratim Choudhury</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-Nibir-Pratim" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Niva-Kalita-RSC.png"
                                     alt="Profile image of Dr. Niva Kalita">
                             </div>
@@ -320,18 +332,6 @@
                             <h3 class="card-name">Mr. Dipak Jain</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-Dipak-jain" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Nibir-Pratim-Choudhury.jpeg"
-                                    alt="Profile image of Dr. Nibir Pratim Choudhury">
-                            </div>
-                            <h3 class="card-name">Dr. Nibir Pratim Choudhury</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-Nibir-Pratim" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

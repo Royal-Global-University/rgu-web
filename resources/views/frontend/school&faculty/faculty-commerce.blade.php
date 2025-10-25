@@ -223,6 +223,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Nibir-Pratim-Choudhury.jpeg"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Nibir Pratim Choudhury</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-Nibir-Pratim" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Dr-Niva-Kalita-RSC.png" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Niva Kalita</h3>
@@ -298,17 +310,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Nibir-Pratim-Choudhury.jpeg"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Nibir Pratim Choudhury</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-Nibir-Pratim" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
+
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
