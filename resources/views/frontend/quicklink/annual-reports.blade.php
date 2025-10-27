@@ -16,6 +16,22 @@
                     <div class="col-lg-4 mb-4">
 
                         <a target="_blank"
+                            href="/mobile-assets/pdf/annual-report-2024-2025.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2024 - 2025
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank"
                             href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/iqac/annual-reports/Annual%20Report%202022-23-min.pdf">
                             <div class="p-2 card rounded d-flex flex-column"
                                 style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
@@ -132,7 +148,23 @@
 
             <div style="padding: 50px 80px;">
                 <h4 class="pb-3 text-dark fw-bold">Annual Report</h4>
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
+                <div class="row" style="display: flex; align-items: center;">
+
+                    <div class="col-lg-4 mb-4">
+
+                        <a target="_blank"
+                            href="/mobile-assets/pdf/annual-report-2024-2025.pdf">
+                            <div class="p-2 card rounded d-flex flex-column"
+                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
+
+                                <div class="card-body">
+                                    <h5 style="font-weight: 700; color: #27467A;" class="text-center card-title para1"><i
+                                            style="color: #27467A;" class="fas fa-download"></i> Annual Report 2024 - 2025
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
 
                     <div class="col-lg-4 mb-4">
 
@@ -181,10 +213,6 @@
                             </div>
                         </a>
                     </div>
-
-                </div>
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
                     <div class="col-lg-4 mb-4">
 
