@@ -174,7 +174,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prof-Tushti-Sharma.png"
+                                <img src="/mobile-assets/updated-faculty-img/tusti-maam.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Tushti Sharma</h3>
