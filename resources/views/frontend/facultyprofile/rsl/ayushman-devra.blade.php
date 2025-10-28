@@ -209,9 +209,43 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Sahapedia- UNESCO Fellowship, 2020 Memberships
+                                            Sahapedia- UNESCO Fellowship, 2020
                                         </span>
                                     </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            English Language Teachers Association of India (ELTAI)
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            AINET-Association of English Teachers
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Indapryal – The Association of Teachers of Russian Language and Literature in
+                                            India
+                                        </span>
+                                    </li>
+
+                                </ul>
+
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Memberships:
+                                </h2>
+
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
                                     <li
                                         style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                         <i class="fa fa-circle"
@@ -445,9 +479,19 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Sahapedia- UNESCO Fellowship, 2020 Memberships
+                                        Sahapedia- UNESCO Fellowship, 2020
                                     </span>
                                 </li>
+
+                            </ul>
+
+
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Memberships:
+                            </h2>
+
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
