@@ -271,7 +271,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ms-Ankita-Goyal-Agarwala-RSIT.png"
+                                <img src="/mobile-assets/updated-faculty-img/ankiya.jpg"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Ms. Ankita Goyal Agarwala</h3>
