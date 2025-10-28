@@ -3014,6 +3014,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-to-host-5th-convocation-ceremony-on-october-31', function () {
+    return view('frontend/media-corner/news59');
+})->name('royal-global-university-to-host-5th-convocation-ceremony-on-october-31');
+
 Route::get('/isro-awards-grant-to-rgu-faculty-to-design-high-sensitivity-optical-sensors', function () {
     return view('frontend/media-corner/news58');
 })->name('isro-awards-grant-to-rgu-faculty-to-design-high-sensitivity-optical-sensors');

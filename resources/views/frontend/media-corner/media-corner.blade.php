@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Royal Global University to Host 5th Convocation Ceremony on October 31',
+                            'summary' => '',
+                            'date' => 'Guwahati, October 28, 2025:',
+                            'link' => 'royal-global-university-to-host-5th-convocation-ceremony-on-october-31',
+                            'image' => '/mobile-assets/media-corner/news56/12.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) is set to celebrate a major milestone in its journey of academic excellence as it hosts its 5th Convocation Ceremony on 31st October 2025. The prestigious event will be presided over by Sri Lakshman Prasad Acharya, Hon’ble Governor of Assam and the Visitor of RGU...',
+                        ],
+                        [
                             'title' => 'ISRO Awards Grant to RGU Faculty to Design High-Sensitivity Optical Sensors',
                             'summary' => 'Paving way to Future Interplanetary and Deep-Space Missions',
                             'date' => 'Guwahati, October 25, 2025:',
