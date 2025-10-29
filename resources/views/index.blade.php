@@ -971,7 +971,7 @@
                         </div>
 
                         <div class="carousel-item">
-                            <img src="mobile-assets/convo-slider/alumni-meet.jpg" class="d-block w-100"
+                            <img src="/mobile-assets/convo-slider/convo-jubin.jpg" class="d-block w-100"
                                 alt="Slide 2 Image">
                         </div>
 
