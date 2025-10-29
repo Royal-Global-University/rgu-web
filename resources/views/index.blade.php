@@ -1264,7 +1264,33 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
-                                        <div class="row bg-light p-2 rounded mt-3">
+
+                                        <div class="row p-2 bg-light rounded mt-3">
+                                            <div class="row bg-light p-2 rounded">
+                                                <div class="col-lg-5 ">
+                                                    <img class="rounded" style="height: 130px; width: 100%;"
+                                                        src="/mobile-assets/media-corner/news57/1.jpg"
+                                                        alt="" />
+                                                </div>
+                                                <div class="col-lg-7">
+                                                    <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
+                                                        class=" m-0 fw-bold">Fourth India-Bhutan Youth Summit 2025 concludes at Royal Global University</p>
+                                                    <p class="pt-1 p-0 m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4;">October
+                                                        29, 2025
+                                                    </p>
+                                                    <a
+                                                        href="/fourth-india-bhutan-youth-summit-2025-concludes-at-royal-global-university">
+                                                        <p class="pt-2 fw-bold m-0"
+                                                            style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                            Read More ...</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5 rounded">
                                                 <img class="rounded" style="height: 130px; width: 100%"
                                                     src="mobile-assets/media-corner/news56/3.jpeg" alt="" />
@@ -1311,30 +1337,6 @@
                                             </div>
                                         </div>
 
-                                        <div class="row p-2 bg-light rounded">
-                                            <div class="row bg-light p-2 rounded">
-                                                <div class="col-lg-5 ">
-                                                    <img class="rounded" style="height: 130px; width: 100%;"
-                                                        src="mobile-assets/media-corner/news54/collage.png"
-                                                        alt="" />
-                                                </div>
-                                                <div class="col-lg-7">
-                                                    <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                        class=" m-0 fw-bold">The Invisible Threat: RGU Scientists Decode
-                                                        how Microplastics may Trigger Cancer</p>
-                                                    <p class="pt-1 p-0 m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4;">October
-                                                        15, 2025
-                                                    </p>
-                                                    <a
-                                                        href="/the-invisible-threat-rgu-scientists-decode-how-microplastics-may-trigger-cancer">
-                                                        <p class="pt-2 fw-bold m-0"
-                                                            style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                            Read More ...</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
 
 
 

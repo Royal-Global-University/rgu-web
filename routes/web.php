@@ -3014,6 +3014,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/fourth-india-bhutan-youth-summit-2025-concludes-at-royal-global-university', function () {
+    return view('frontend/media-corner/news60');
+})->name('fourth-india-bhutan-youth-summit-2025-concludes-at-royal-global-university');
+
 Route::get('/royal-global-university-to-host-5th-convocation-ceremony-on-october-31', function () {
     return view('frontend/media-corner/news59');
 })->name('royal-global-university-to-host-5th-convocation-ceremony-on-october-31');

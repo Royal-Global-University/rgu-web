@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Fourth India-Bhutan Youth Summit 2025 concludes at Royal Global University',
+                            'summary' => 'Integrate science with religion, philosophy & sociology: VC Royal Global University',
+                            'date' => 'Guwahati, October 29, 2025:',
+                            'link' => 'fourth-india-bhutan-youth-summit-2025-concludes-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/news57/1.jpg',
+                            'content' => 'Strengthening the bonds of friendship and collaboration between India and Bhutan, the 4th India-Bhutan Youth Summit 2025 concluded successfully at The Assam Royal Global University (RGU) here on Sunday. ',
+                        ],
+                        [
                             'title' => 'Royal Global University to Host 5th Convocation Ceremony on October 31',
                             'summary' => '',
                             'date' => 'Guwahati, October 28, 2025:',
