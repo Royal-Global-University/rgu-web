@@ -1,5 +1,6 @@
 @extends('frontend.master')
-@section('title', 'Royal Global University to Host 5th Convocation Ceremony on October 31')
+@section('title', 'Fourth India-Bhutan Youth Summit 2025 concludes at Royal Global University')
+@section('meta_description', 'Integrate science with religion, philosophy & sociology: VC Royal Global University')
 @section('meta_keywords', 'Blog')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
