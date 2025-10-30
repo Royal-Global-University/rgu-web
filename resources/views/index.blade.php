@@ -957,7 +957,7 @@
                     <div class="carousel-inner full-screen-carousel">
 
                         <div class="carousel-item active">
-                            <img src="/mobile-assets/convo-slider/1st-convo.jpg" class="d-block w-100"
+                            <img src="/mobile-assets/convo-slider/convo-12.jpg" class="d-block w-100"
                                 alt="Slide 1 Image">
                         </div>
 

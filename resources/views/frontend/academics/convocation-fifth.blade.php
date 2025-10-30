@@ -10,7 +10,7 @@
 
     </div>
     <img src="/mobile-assets/convo-slider/convo.gif"/>
-    <img src="/mobile-assets/convo-slider/1st-convo.jpg"/>
+    <img src="/mobile-assets/convo-slider/convo-12.jpg"/>
     <img src="/mobile-assets/convo-slider/honoris-causa-1.jpg"/>
     <img src="/mobile-assets/convo-slider/last.jpg"/>
 @endsection
