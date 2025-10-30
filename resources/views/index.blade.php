@@ -10,7 +10,7 @@
 
         <!-- Popup -->
         <div id="popup-mob" class="popup-overlay">
-            <a target="_blank" class="text-center"><img src="{{ asset('mobile-assets/notification/new/mob.png') }}"
+            <a target="_blank" class="text-center"><img src="{{ asset('/mobile-assets/convo-slider/popup.jpg') }}"
                     style="width: 400px; height: 400px;" class="popup-image" alt="Popup Image"></a>
         </div>
 
@@ -678,7 +678,7 @@
 
                 <!-- Popup Image -->
                 <a>
-                    <img src="{{ asset('/mobile-assets/convo-slider/pop-banner.png') }}"
+                    <img src="{{ asset('/mobile-assets/convo-slider/popup.jpg') }}"
                         style="width: 700px; height: 550px; border-radius: 8px;" class="popup-image" alt="Popup Image">
                 </a>
             </div>
@@ -957,7 +957,7 @@
                     <div class="carousel-inner full-screen-carousel">
 
                         <div class="carousel-item active">
-                            <img src="/mobile-assets/convo-slider/convo-12.jpg" class="d-block w-100"
+                            <img src="/mobile-assets/convo-slider/1st-convo.jpg" class="d-block w-100"
                                 alt="Slide 1 Image">
                         </div>
 
