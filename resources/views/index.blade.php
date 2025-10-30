@@ -704,7 +704,7 @@
         </script>
 
         <!-- floating button  -->
-        <div>
+        {{-- <div>
             <div class="convocation-btn-wrapper">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2JNy7yB12L4Yvj1qkMc40uP1vFhJUvPhHF1f3oYe8YC2EnQ/viewform"
                     class="convocation-btn">
@@ -778,7 +778,7 @@
                     }
                 }
             </style>
-        </div>
+        </div> --}}
         <!-- floating button  -->
         <div id="page" class="site site_wrapper">
 
