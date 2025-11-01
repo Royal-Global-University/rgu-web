@@ -9,7 +9,7 @@
     <section class="mobile">
 
         <!-- Popup -->
-        <div id="popup-mob" class="popup-overlay">
+        {{-- <div id="popup-mob" class="popup-overlay">
             <a target="_blank" class="text-center"><img src="{{ asset('/mobile-assets/convo-slider/popup.jpg') }}"
                     style="width: 400px; height: 400px;" class="popup-image" alt="Popup Image"></a>
         </div>
@@ -24,7 +24,7 @@
                     }
                 });
             });
-        </script>
+        </script> --}}
 
         <!-- Floating WhatsApp Button -->
         <a href="https://wa.me/917099028518" class="whatsapp-float" target="_blank">
@@ -105,48 +105,6 @@
                     alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape." /></a>
         </div>
         <!-- discover rgu -->
-
-        {{-- Convocation --}}
-        <div id="mainImageSlider_ALPHA_001" class="carousel slide carousel-fade full-view-slider" data-bs-ride="carousel"
-            data-bs-interval="3000" style="background-color: #000;">
-
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#mainImageSlider_ALPHA_001" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#mainImageSlider_ALPHA_001" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#mainImageSlider_ALPHA_001" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-
-            <div class="carousel-inner content-wrapper">
-
-                <div class="carousel-item active">
-                    <img src="mobile-assets/convo-slider/fifth-convo-mob.gif" class="d-block w-100" alt="Slide 1 Image">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="mobile-assets/convo-slider/alumni-meet-mob.jpg" class="d-block w-100" alt="Slide 2 Image">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="mobile-assets/convo-slider/honoris-causa-mob.jpg" class="d-block w-100" alt="Slide 2 Image">
-                </div>
-
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#mainImageSlider_ALPHA_001"
-                data-bs-slide="prev" style="width: 10%;">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#mainImageSlider_ALPHA_001"
-                data-bs-slide="next" style="width: 10%;">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
-        </div>
 
 
 
@@ -662,7 +620,7 @@
 
     <section class="website">
         <!-- Popup -->
-        <div id="popup-web" class="popup-overlay"
+        {{-- <div id="popup-web" class="popup-overlay"
             style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); display: flex; justify-content: center; align-items: center; z-index: 9999;">
 
             <div style="position: relative; display: inline-block;">
@@ -701,7 +659,7 @@
                     popup.style.display = 'none';
                 });
             });
-        </script>
+        </script> --}}
 
         <!-- floating button  -->
         {{-- <div>
@@ -942,17 +900,8 @@
 
 
                 <!-- Convocation-slider -->
-                <div id="heroCarousel_FADE_888" class="carousel slide carousel-fade full-screen-carousel"
+                {{-- <div id="heroCarousel_FADE_888" class="carousel slide carousel-fade full-screen-carousel"
                     data-bs-ride="carousel" data-bs-interval="3000" style="background-color: #000;">
-
-                    {{-- <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#heroCarousel_FADE_888" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#heroCarousel_FADE_888" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#heroCarousel_FADE_888" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div> --}}
 
                     <div class="carousel-inner full-screen-carousel">
 
@@ -988,7 +937,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
 
-                </div>
+                </div> --}}
 
                 <!-- Swiper CSS -->
                 <section>
