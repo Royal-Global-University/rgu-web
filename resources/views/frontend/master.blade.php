@@ -75,6 +75,25 @@
     <script src='{{ asset('assets/js/js.cookie.min.js') }}' id="js-cookie-js" defer data-wp-strategy="defer"></script>
     <script src='{{ asset('assets/js/woocommerce.min.js') }}' id="woocommerce-js" defer data-wp-strategy="defer"></script>
 
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P4WH4BBV');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <style>
         a {
             text-decoration: none !important;
@@ -964,6 +983,11 @@
 
     <!-- Floating Search Box -->
     <!-- Floating Search Icon -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4WH4BBV" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
 
     <div id="page" class="site site_wrapper">
