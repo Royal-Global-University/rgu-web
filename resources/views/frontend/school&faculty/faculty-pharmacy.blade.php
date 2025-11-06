@@ -443,18 +443,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Shiny-Ahmed-RSP.png"
-                                    alt="Profile image of">
-                            </div>
-                            <h3 class="card-name">Ms. Shiny Ahmed</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Sumi-Barman-RSP.png"
                                     alt="Profile image of">
                             </div>
