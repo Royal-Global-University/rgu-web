@@ -3014,6 +3014,22 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/1st-international-conference-on-smart-systems-social-management-held-at-rgu', function () {
+    return view('frontend/media-corner/news64');
+})->name('1st-international-conference-on-smart-systems-social-management-held-at-rgu');
+
+Route::get('/curtain-raiser-workshops-of-assam-physiocon-2025-held-at-royal-global-university', function () {
+    return view('frontend/media-corner/news63');
+})->name('curtain-raiser-workshops-of-assam-physiocon-2025-held-at-royal-global-university');
+
+Route::get('/rgu-remembers-xudhakantha-with-a-musical-tribute-and-oration-series', function () {
+    return view('frontend/media-corner/news62');
+})->name('rgu-remembers-xudhakantha-with-a-musical-tribute-and-oration-series');
+
+Route::get('/fifth-convocation-of-royal-global-university-concludes', function () {
+    return view('frontend/media-corner/news61');
+})->name('fifth-convocation-of-royal-global-university-concludes');
+
 Route::get('/fourth-india-bhutan-youth-summit-2025-concludes-at-royal-global-university', function () {
     return view('frontend/media-corner/news60');
 })->name('fourth-india-bhutan-youth-summit-2025-concludes-at-royal-global-university');
