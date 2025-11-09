@@ -47,6 +47,38 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => '1st International Conference on Smart Systems & Social Management held at RGU',
+                            'summary' => 'RGU holds international conference in Collaboration with Springer Nature & GRF',
+                            'date' => 'Guwahati, November 8, 2025:',
+                            'link' => 'curtain-raiser-workshops-of-assam-physiocon-2025-held-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/news59/32.jpeg',
+                            'content' => 'A three-day long international conference on “Smart Systems and Social Management” was held successfully at RGU ...',
+                        ],
+                        [
+                            'title' => 'Curtain-raiser Workshops of Assam Physiocon 2025 held at Royal Global University',
+                            'summary' => 'Physiotherapist from AIIMS New Delhi presents evidence-based methodologies at RGU',
+                            'date' => 'Guwahati, November 7, 2025:',
+                            'link' => 'curtain-raiser-workshops-of-assam-physiocon-2025-held-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/news59/22.jpeg',
+                            'content' => 'The Department of Physiotherapy, Royal School of Medical and Allied Sciences (RSMAS), under The Assam Royal Global University (RGU), successfully hosted ...',
+                        ],
+                        [
+                            'title' => 'RGU Remembers Xudhakantha with a Musical Tribute and Oration Series',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 5, 2025:',
+                            'link' => 'rgu-remembers-xudhakantha-with-a-musical-tribute-and-oration-series',
+                            'image' => '/mobile-assets/media-corner/news59/1.JPG',
+                            'content' => 'The Assam Royal Global University (RGU) observed the 14th death anniversary of Xudhakantha Dr. Bhupen Hazarika with soulful tributes, cultural performances, and the inauguration of the 2nd Oration Series under the Dr. Bhupen Hazarika Centre for Creativity.',
+                        ],
+                        [
+                            'title' => 'Fifth Convocation of Royal Global University Concludes',
+                            'summary' => '1967 Degrees Awarded, D.Sc. conferred on Dr. Naresh Trehan, D.Litt. on Yeshe Dorjee Thongchi & Sanjiv Goenka, LL.D. on Mahesh Agarwal',
+                            'date' => 'Guwahati, October 31, 2025:',
+                            'link' => 'fifth-convocation-of-royal-global-university-concludes',
+                            'image' => '/mobile-assets/media-corner/news58/3.jpeg',
+                            'content' => 'The Fifth Convocation of The Assam Royal Global University (RGU) has been held successfully here today in the presence of a galaxy of eminent dignitaries. Altogether 1,967 graduates were awarded degrees, out of which 32 scholars were awarded Ph.D. degrees...',
+                        ],
+                        [
                             'title' => 'Fourth India-Bhutan Youth Summit 2025 concludes at Royal Global University',
                             'summary' => 'Integrate science with religion, philosophy & sociology: VC Royal Global University',
                             'date' => 'Guwahati, October 29, 2025:',

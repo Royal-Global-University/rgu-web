@@ -191,12 +191,10 @@
                 </div>
 
                 <!-- Optional navigation controls -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </button>
             </div>
@@ -1218,18 +1216,16 @@
                                             <div class="row bg-light p-2 rounded">
                                                 <div class="col-lg-5 ">
                                                     <img class="rounded" style="height: 130px; width: 100%;"
-                                                        src="/mobile-assets/media-corner/news57/1.jpg"
-                                                        alt="" />
+                                                        src="/mobile-assets/media-corner/news59/32.jpeg" alt="" />
                                                 </div>
                                                 <div class="col-lg-7">
                                                     <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                        class=" m-0 fw-bold">Fourth India-Bhutan Youth Summit 2025 concludes at Royal Global University</p>
+                                                        class=" m-0 fw-bold">1st International Conference on Smart Systems & Social Management held at RGU</p>
                                                     <p class="pt-1 p-0 m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4;">October
-                                                        29, 2025
+                                                        style="font-size: 16px; color: black; line-height: 1.4;">November 8, 2025
                                                     </p>
                                                     <a
-                                                        href="/fourth-india-bhutan-youth-summit-2025-concludes-at-royal-global-university">
+                                                        href="/curtain-raiser-workshops-of-assam-physiocon-2025-held-at-royal-global-university">
                                                         <p class="pt-2 fw-bold m-0"
                                                             style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                             Read More ...</p>
@@ -1242,20 +1238,19 @@
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5 rounded">
                                                 <img class="rounded" style="height: 130px; width: 100%"
-                                                    src="mobile-assets/media-corner/news56/3.jpeg" alt="" />
+                                                    src="/mobile-assets/media-corner/news59/22.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-size: 19px; line-height: 1;"
                                                     class="pt-2 m-0 fw-bold">
-                                                    ISRO Awards Grant to RGU Faculty to Design High-Sensitivity Optical Sensors
-
+                                                    Curtain-raiser Workshops of Assam Physiocon 2025 held at Royal Global University
                                                 </p>
                                                 <p class="pt-1 pt-2 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">October 25,
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 7,
                                                     2025
                                                 </p>
                                                 <a
-                                                    href="/isro-awards-grant-to-rgu-faculty-to-design-high-sensitivity-optical-sensors">
+                                                    href="/curtain-raiser-workshops-of-assam-physiocon-2025-held-at-royal-global-university">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
@@ -1267,18 +1262,17 @@
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news55/1.jpeg" alt="" />
+                                                    src="/mobile-assets/media-corner/news59/1.JPG" alt="" />
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                    class="pt-2 m-0 fw-bold">Application of AI will Finally Determine the
-                                                    Future of Life: Dr. Harsha Bhattacharjee</p>
+                                                    class="pt-2 m-0 fw-bold">RGU Remembers Xudhakantha with a Musical Tribute and Oration Series</p>
                                                 <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">October 17,
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 5,
                                                     2025
                                                 </p>
                                                 <a
-                                                    href="/application-of-ai-will-finally-determine-the-future-of-life-dr-harsha-bhattacharjee">
+                                                    href="/rgu-remembers-xudhakantha-with-a-musical-tribute-and-oration-series">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
@@ -1633,8 +1627,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                    students</span> -->
+                                                                                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                        students</span> -->
                                                                     </div>
 
                                                                     <div class="card-content">
@@ -1666,8 +1660,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                    students</span> -->
+                                                                                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                        students</span> -->
 
                                                                     </div>
 
