@@ -1212,6 +1212,27 @@
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
 
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="/mobile-assets/media-corner/news59/41.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
+                                                    class="pt-2 m-0 fw-bold">Create a Forest in Every District in Memory of Zubeen Garg: Forest Man of India Payeng tells at RGU Botany Fest</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 10,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/create-a-forest-in-every-district-in-memory-of-zubeen-garg-forest-man-of-india-payeng-tells-at-rgu-botany-fest">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
                                         <div class="row p-2 bg-light rounded mt-3">
                                             <div class="row bg-light p-2 rounded">
                                                 <div class="col-lg-5 ">
@@ -1257,32 +1278,6 @@
                                                 </a>
                                             </div>
                                         </div>
-
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="/mobile-assets/media-corner/news59/1.JPG" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                    class="pt-2 m-0 fw-bold">RGU Remembers Xudhakantha with a Musical Tribute and Oration Series</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 5,
-                                                    2025
-                                                </p>
-                                                <a
-                                                    href="/rgu-remembers-xudhakantha-with-a-musical-tribute-and-oration-series">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-
-
-
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">
                                         <a href="media-corner"><button

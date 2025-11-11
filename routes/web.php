@@ -3014,6 +3014,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/create-a-forest-in-every-district-in-memory-of-zubeen-garg-forest-man-of-india-payeng-tells-at-rgu-botany-fest', function () {
+    return view('frontend/media-corner/news65');
+})->name('create-a-forest-in-every-district-in-memory-of-zubeen-garg-forest-man-of-india-payeng-tells-at-rgu-botany-fest');
+
 Route::get('/1st-international-conference-on-smart-systems-social-management-held-at-rgu', function () {
     return view('frontend/media-corner/news64');
 })->name('1st-international-conference-on-smart-systems-social-management-held-at-rgu');

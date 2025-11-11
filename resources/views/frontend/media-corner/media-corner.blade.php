@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Create a Forest in Every District in Memory of Zubeen Garg: Forest Man of India Payeng tells at RGU Botany Fest',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 10, 2025:',
+                            'link' => 'create-a-forest-in-every-district-in-memory-of-zubeen-garg-forest-man-of-india-payeng-tells-at-rgu-botany-fest',
+                            'image' => '/mobile-assets/media-corner/news59/41.jpg',
+                            'content' => 'The Forest Man of India, Padma Shri awardee Shri Jadav Payeng, has made a heartfelt appeal to create a forest in every district of Assam in memory of the late legendary artist Zubeen Garg, who was known for his love and compassion for nature, animals, and humanity.',
+                        ],
+                        [
                             'title' => '1st International Conference on Smart Systems & Social Management held at RGU',
                             'summary' => 'RGU holds international conference in Collaboration with Springer Nature & GRF',
                             'date' => 'Guwahati, November 8, 2025:',
