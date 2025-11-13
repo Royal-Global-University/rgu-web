@@ -1035,12 +1035,12 @@
                                     </a>
                                 </div>
 
-                                <div class="swiper-slide">
+                                {{-- <div class="swiper-slide">
                                     <a href="/mobile-assets/convo-slider/ICSSSM 2025_Brochure.pdf">
                                         <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
                                             src="/mobile-assets/convo-slider/international-2.jpg" alt="">
                                     </a>
-                                </div>
+                                </div> --}}
 
                             </div>
 
@@ -1096,6 +1096,11 @@
                                 </h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
+                                    <img class="zoomable" src="mobile-assets/events/air.png"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="mobile-assets/events/sitar.jpg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+
                                     <img class="zoomable" src="mobile-assets/events/techer.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="mobile-assets/events/spot12.png"
