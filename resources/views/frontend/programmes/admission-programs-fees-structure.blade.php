@@ -4189,7 +4189,7 @@
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Executive MBA</strong>
                                                     <br>
-                                                    <a href="{{route('programs-BBA')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 2 years as per NEP |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -4252,7 +4252,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: MA - Clinical Psychology</strong>
                                                     <br>
-                                                    <a href="{{route('programs-MA-Psychology')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 2 years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -4308,7 +4308,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">B.Sc. Clinical Psychology (Hons.)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-MA-Psychology')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 3/4 years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -4326,7 +4326,7 @@
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Integrated Special and Inclusive Teacher Education Programme (ISITEP)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-BA-Psychology')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
@@ -4406,7 +4406,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: M.Sc. Bio-Science</strong>
                                                     <br>
-                                                    <a href="{{route('programs-MSc-Food-Technology')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 2 years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -4462,7 +4462,7 @@
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: B.Sc.(H) - Bio-Science</strong>
                                                     <br>
-                                                    <a href="{{route('programs-b-sc-food-technology')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 3/4 years as per NEP |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -4980,7 +4980,7 @@
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">M.Des. - Fashion Design (FD)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -4999,7 +4999,7 @@
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">M.Des. - Communication Design (CD)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -5018,7 +5018,7 @@
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">M.Des. Graphic Design (GD)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -5037,7 +5037,7 @@
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">M.Des. Product Design (PD)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -5466,7 +5466,7 @@
                                                     <strong style="color: #023e8a;" class="#">Course: B.Tech -
                                                         Data Science </strong>
                                                     <br>
-                                                    <a href="{{route('programs-b-tech-mechatronics')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 4 years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -5696,7 +5696,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: M.Des (FD)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-b-des-fd-fashion-design')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -5828,7 +5828,7 @@
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">MA - Indian Knowledge System (IKS)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-MA-History')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 2 years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -6384,7 +6384,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">B.Sc. Agriculture</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Master-of-Library&Information-Sciences')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 3/4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -6402,7 +6402,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">M.Sc. Agriculture</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Master-of-Library&Information-Sciences')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -6767,7 +6767,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Bachlor of ANAESTHESIA AND OPERATION THEATRE TECHNOLOGY</strong>
                                                     <br>
-                                                    <a href=""
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -6801,7 +6801,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Bachelor of Dialysis Therapy Technology</strong>
                                                     <br>
-                                                    <a href=""
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -6818,7 +6818,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Bachelor of Emergency Care</strong>
                                                     <br>
-                                                    <a href=""
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -6835,7 +6835,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">B.Sc. - Food Science & Technology</strong>
                                                     <br>
-                                                    <a href=""
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -6910,7 +6910,7 @@
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Masters of MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY</strong>
                                                     <br>
-                                                    <a href="{{route('programs-MSc-Medical-Laboratory-MMLT')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -6927,7 +6927,7 @@
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Masters OF ANAESTHESIA & OPERATION THEATRE TECHNOLOGY</strong>
                                                     <br>
-                                                    <a href="{{route('programs-MSc-Medical-Laboratory-MMLT')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -6944,7 +6944,7 @@
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Masters of Dialysis Therapy Technology</strong>
                                                     <br>
-                                                    <a href="{{route('programs-b-sc-dialysis')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 2 years|
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -6961,7 +6961,7 @@
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Masters of Emergency Care</strong>
                                                     <br>
-                                                    <a href="{{route('programs-b-sc-dialysis')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 2 years|
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -6978,7 +6978,7 @@
                                                 <p>
                                                     <strong style="color: #7f5539;" class="#">M.Sc. Food Science & Technology</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Technology-OTT')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 2 years |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -6995,7 +6995,7 @@
                                                 <p>
                                                     <strong style="color: #7f5539;" class="#">Masters of Medical Laboratory Science- MMLS</strong>
                                                     <br>
-                                                    <a href="" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 2 years |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
