@@ -6618,7 +6618,7 @@
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        {{-- <tr>
                                             <td>2.</td>
                                             <td>
                                                 <p>
@@ -6636,9 +6636,9 @@
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
+                                        </tr> --}}
                                         <tr>
-                                            <td>3.</td>
+                                            <td>2.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: Masters in
@@ -6656,7 +6656,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>4.</td>
+                                            <td>3.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: B.Sc. in Nutrition and
@@ -6675,7 +6675,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>5.</td>
+                                            <td>4.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: M.Sc. in Nutrition and
@@ -6693,7 +6693,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>6.</td>
+                                            <td>5.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: M. Optometry</strong>
@@ -6710,7 +6710,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>7.</td>
+                                            <td>6.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: B. Optometry</strong>
@@ -6727,7 +6727,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>8.</td>
+                                            <td>7.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: B. Optometry - Lateral
@@ -6745,6 +6745,111 @@
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>8.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Bachlor of MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY</strong>
+                                                    <br>
+                                                    <a href="{{route('programs-b-optometry-lateral-entry')}}"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>90000.00</td>
+                                            <td>46500.00</td>
+                                            <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>9.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Bachlor of ANAESTHESIA AND OPERATION THEATRE TECHNOLOGY</strong>
+                                                    <br>
+                                                    <a href=""
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>100000.00</td>
+                                            <td>51500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
+                                            <td>10.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Bachlor of MEDICAL LABORATORY  SCIENCE- BMLS</strong>
+                                                    <br>
+                                                    <a href=""
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>100000.00</td>
+                                            <td>51500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
+                                            <td>11.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of Dialysis Therapy Technology</strong>
+                                                    <br>
+                                                    <a href=""
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>90000.00</td>
+                                            <td>46500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
+                                            <td>12.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of Emergency Care</strong>
+                                                    <br>
+                                                    <a href=""
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>90000.00</td>
+                                            <td>46500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
+                                            <td>13.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">B.Sc. - Food Science & Technology</strong>
+                                                    <br>
+                                                    <a href=""
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+
+
+
+                                        {{-- <tr>
                                             <td>9.</td>
                                             <td>
                                                 <p>
@@ -6761,8 +6866,8 @@
                                             <td><a href="{{route('programs-bsc-Medical-technology-bmlt')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
-                                        <tr>
+                                        </tr> --}}
+                                        {{-- <tr>
                                             <td>10.</td>
                                             <td>
                                                 <p>
@@ -6780,8 +6885,8 @@
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
-                                        <tr>
+                                        </tr> --}}
+                                        {{-- <tr>
                                             <td>11.</td>
                                             <td>
                                                 <p>
@@ -6798,9 +6903,9 @@
                                             <td><a href="{{route('programs-MSc-Medical-Laboratory-MMLT')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
+                                        </tr> --}}
                                         <tr>
-                                            <td>12.</td>
+                                            <td>14.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Masters of MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY</strong>
@@ -6817,7 +6922,7 @@
                                             </td> --}}
                                         </tr>
                                         <tr>
-                                            <td>13.</td>
+                                            <td>16.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Masters OF ANAESTHESIA & OPERATION THEATRE TECHNOLOGY</strong>
@@ -6834,7 +6939,7 @@
                                             </td> --}}
                                         </tr>
                                         <tr>
-                                            <td>14.</td>
+                                            <td>15.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Masters of Dialysis Therapy Technology</strong>
@@ -6851,7 +6956,7 @@
                                             </td> --}}
                                         </tr>
                                         <tr>
-                                            <td>15.</td>
+                                            <td>16.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Masters of Emergency Care</strong>
@@ -6868,7 +6973,7 @@
                                             </td> --}}
                                         </tr>
                                         <tr>
-                                            <td>16.</td>
+                                            <td>17.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #7f5539;" class="#">M.Sc. Food Science & Technology</strong>
@@ -6885,6 +6990,23 @@
                                             </td> --}}
                                         </tr>
                                         <tr>
+                                            <td>18.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #7f5539;" class="#">Masters of Medical Laboratory Science- MMLS</strong>
+                                                    <br>
+                                                    <a href="" class="text-primary"><span
+                                                            style="font-size: 16px;">Duration: 2 years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            {{-- <td><a href="{{route('programs-Technology-OTT')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        {{-- <tr>
                                             <td>13.</td>
                                             <td>
                                                 <p>
@@ -6901,8 +7023,8 @@
                                             <td><a href="{{route('programs-Technology-OTT')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
-                                        <tr>
+                                        </tr> --}}
+                                        {{-- <tr>
                                             <td>14.</td>
                                             <td>
                                                 <p>
@@ -6916,11 +7038,11 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-sc-radiography')}}"><button type="button"
+                                            <td><a href="{{route('programs-b-sc-radiography')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
-                                        </tr>
-                                        <tr>
+                                            </td>
+                                        </tr> --}}
+                                        {{-- <tr>
                                             <td>15.</td>
                                             <td>
                                                 <p>
@@ -6937,8 +7059,8 @@
                                             <td><a href="{{route('programs-bsc-in-emergency')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
-                                        <tr>
+                                        </tr> --}}
+                                        {{-- <tr>
                                             <td>16.</td>
                                             <td>
                                                 <p>
@@ -6955,7 +7077,7 @@
                                             <td><a href="{{route('program-bsc-cssd')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
+                                        </tr> --}}
 
 
                                     </tbody>
@@ -7466,7 +7588,7 @@
                                                             15000.00)</span></a>
                                                 </p>
                                             </td>
-                                            <td>108000.00</td>
+                                            <td>120000.00</td>
                                         </tr>
                                         <tr>
                                             <td>9.</td>
@@ -7482,7 +7604,7 @@
                                                             15000.00)</span></a>
                                                 </p>
                                             </td>
-                                            <td>90000.00</td>
+                                            <td>100000.00</td>
                                         </tr>
                                         <tr>
                                             <td>10.</td>
@@ -7498,7 +7620,7 @@
                                                             15000.00)</span></a>
                                                 </p>
                                             </td>
-                                            <td>90000.00</td>
+                                            <td>100000.00</td>
                                         </tr>
                                     </tbody>
                                 </table>
