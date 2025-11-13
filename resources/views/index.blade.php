@@ -1013,6 +1013,12 @@
                     <section style="padding: 30px; background-color: #101d34;">
                         <div class="swiper myImageSlider" style="max-width:1800px; margin:auto;">
                             <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    {{-- <a href="synergy-for-energy-challenges-and-opportunities-in-north-east-india">
+                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                            src="demo-assets/big-events/4.png" alt="">
+                                    </a> --}}
+                                </div>
 
                                 <div class="swiper-slide">
                                     <a href="bioe3-conference">
@@ -1029,10 +1035,10 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <a href="synergy-for-energy-challenges-and-opportunities-in-north-east-india">
+                                    {{-- <a href="synergy-for-energy-challenges-and-opportunities-in-north-east-india">
                                         <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
                                             src="demo-assets/big-events/4.png" alt="">
-                                    </a>
+                                    </a> --}}
                                 </div>
 
                                 {{-- <div class="swiper-slide">
