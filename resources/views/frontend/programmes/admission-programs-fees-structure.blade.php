@@ -20,7 +20,7 @@
             <div class="prthalign">
 
                 <h1 style="font-weight: 600;" class="headd2 text-dark kd-title-ani kd-split-text">
-                    For Academic Session 2025 - 2026</h1>
+                    For Academic Session 2026 - 2027</h1>
             </div>
         </div>
     </div>
@@ -3796,7 +3796,7 @@
                     <div class="prthalign">
 
                         <h1 style="font-weight: 600;" class="headd2 text-dark kd-title-ani kd-split-text">
-                            For Academic Session 2025 - 2026</h1>
+                            For Academic Session 2026 - 2027</h1>
                     </div>
                 </div>
             </div>
@@ -4196,9 +4196,9 @@
                                             </td>
                                             <td>200000.00</td>
                                             <td>101500.00</td>
-                                            <td><a href="{{route('programs-BBA')}}"><button type="button"
+                                            {{-- <td><a href="{{route('programs-BBA')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
+                                            </td> --}}
                                         </tr>
 
 

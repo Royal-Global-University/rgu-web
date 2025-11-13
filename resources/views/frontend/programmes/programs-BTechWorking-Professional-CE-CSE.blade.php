@@ -5,7 +5,7 @@
 <div style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp); padding-top: 90px; position: relative;">
 
 
-            <h2 class="mobile-headd2 kd-title-ani kd-split pb-1 pt-3 text-center" style="color: #264273; font-weight: 700;">B.Tech for Working Professional (CE & CSE)
+            <h2 class="mobile-headd2 kd-title-ani kd-split pb-1 pt-3 text-center" style="color: #264273; font-weight: 700;">B.Tech for Working Professional (CE, CSE, ME)
             </h2>
 
             <p class="mobile-headd3 text-dark text-center" style="line-height: 1.3;">Duration - 03 Years <br>Royal School of Engineering & Technology (RSET)
@@ -72,8 +72,8 @@
                     </p>
 
                     <ol class="mobile-para1 text-dark">
-                        <li>Yearly Payment (Rs. - 180000.00)</li>
-                        <li>Semester Payment (Rs. - 91500.00)</li>
+                        <li>Yearly Payment (Rs. - 120000.00)</li>
+                        <li>Semester Payment (Rs. - 61500.00)</li>
                     </ol>
 
                 </div>
@@ -233,7 +233,7 @@
 @include('frontend/components/aheader')
 <div class="pt-4" style="background-image: url(assets/img/banner_adv/s2-bg-img-1.webp);">
             <div class="text-center">
-                <h2 class="text-center headd2 text-dark">B.Tech for Working Professional (CE & CSE)</h2>
+                <h2 class="text-center headd2 text-dark">B.Tech for Working Professional (CE, CSE, ME)</h2>
                 <h3 class="text-center headd3 text-dark">Duration - 03 Years<br>
                     <span class="text-center">Royal School of Engineering & Technology (RSET)</span>
                 </h3>
@@ -280,8 +280,8 @@
                         <p class="text-dark pt-2 fw-bold m-0">B.) Programmes fee to be paid Yearly / semester payment for
                             New
                             Students 2025-26</p>
-                        <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 180000.00)</p>
-                        <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 91500.00)</p>
+                        <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 120000.00)</p>
+                        <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 61500.00)</p>
                     </div>
                 </div>
                 <div id="Eligibility" class="w3-container city card p-5 shadow" style="display:none">
