@@ -213,7 +213,7 @@
             </div>
             <div class="col-lg-8">
                 <h2 class="headd2 fw-bold" style="color: #27467A;">STATE GOVERNMENT</h2>
-                <p class="para1 text-dark" style="text-align: justify;">The Assam Royal Global University is established by ‘The Assam Royal Global University Act’, which has been notified by Government of Assam vide notification no. LGL.12/2013/22, in the year 2013. <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/3.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
+                <p class="para1 text-dark" style="text-align: justify;">The Assam Royal Global University is established by ‘The Assam Royal Global University Act’, which has been notified by Government of Assam vide notification no. LGL.12/2013/22, in the year 2013. <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/recognition/pdf/3.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p> <a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/pdf/Private University Act Ammendment 2025.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
             </div>
         </div>
 
