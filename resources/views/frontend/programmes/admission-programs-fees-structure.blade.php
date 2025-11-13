@@ -3843,7 +3843,7 @@
                             <hr>
 
                             <h3 class="fw-bold pt-4 pb-3 text-dark text-capitalize headd3">B. Institutions /Schools
-                                /Programmes fee to be paid yearly/Semester Payment for New Students 2025-26
+                                /Programmes fee to be paid yearly/Semester Payment for New Students 2026-27
                             </h3>
 
                             <!-- ----- new ----- -->
@@ -4894,7 +4894,7 @@
                                             </td>
                                         </tr>
 
-                                        <tr>
+                                        {{-- <tr>
                                             <td>4.</td>
                                             <td>
                                                 <p>
@@ -4912,10 +4912,10 @@
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
+                                        </tr> --}}
 
                                         <tr>
-                                            <td>5.</td>
+                                            <td>4.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: B.Des - Communication
@@ -4935,7 +4935,7 @@
                                         </tr>
 
                                         <tr>
-                                            <td>6.</td>
+                                            <td>5.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: B.Des - Graphic
@@ -4955,7 +4955,7 @@
                                         </tr>
 
                                         <tr>
-                                            <td>7.</td>
+                                            <td>6.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: B.Des - Product
@@ -4975,7 +4975,7 @@
                                         </tr>
 
                                         <tr>
-                                            <td>8.</td>
+                                            <td>7.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">M.Des. - Fashion Design (FD)</strong>
@@ -4994,7 +4994,7 @@
                                         </tr>
 
                                         <tr>
-                                            <td>9.</td>
+                                            <td>8.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">M.Des. - Communication Design (CD)</strong>
@@ -5013,7 +5013,7 @@
                                         </tr>
 
                                         <tr>
-                                            <td>10.</td>
+                                            <td>9.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">M.Des. Graphic Design (GD)</strong>
@@ -5032,7 +5032,7 @@
                                         </tr>
 
                                         <tr>
-                                            <td>11.</td>
+                                            <td>10.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">M.Des. Product Design (PD)</strong>
@@ -6611,8 +6611,8 @@
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>120000.00</td>
-                                            <td>61500.00</td>
+                                            <td>135000.00</td>
+                                            <td>69000.00</td>
                                             <td><a href="{{route('programs-Bachelor-of-Physiotherapy-BPT')}}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
@@ -6686,8 +6686,8 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>85000.00</td>
-                                            <td>43500.00</td>
+                                            <td>113000.00</td>
+                                            <td>58000.00</td>
                                             <td><a href="{{route('programs-MSc-Nutrition')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
@@ -6703,7 +6703,7 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>90000.00</td>
+                                            <td>100000.00</td>
                                             <td>51500.00</td>
                                             <td><a href="{{route('programs-M-Optometry')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
@@ -6720,32 +6720,14 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>100000.00</td>
-                                            <td>51500.00</td>
+                                            <td>90000.00</td>
+                                            <td>46500.00</td>
                                             <td><a href="{{route('programs-b-optometry')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>7.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B. Optometry - Lateral
-                                                        Entry</strong>
-                                                    <br>
-                                                    <a href="{{route('programs-b-optometry-lateral-entry')}}"
-                                                        class="text-primary"><span style="font-size: 16px;">Duration: 3
-                                                            years | Admission Fee: 60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>90000.00</td>
-                                            <td>46500.00</td>
-                                            <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>8.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Bachlor of MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY</strong>
@@ -6755,14 +6737,14 @@
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>90000.00</td>
-                                            <td>46500.00</td>
+                                            <td>100000.00</td>
+                                            <td>51500.00</td>
                                             {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td> --}}
                                         </tr>
                                         <tr>
-                                            <td>9.</td>
+                                            <td>8.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Bachlor of ANAESTHESIA AND OPERATION THEATRE TECHNOLOGY</strong>
@@ -6779,7 +6761,7 @@
                                             </td> --}}
                                         </tr>
                                         <tr>
-                                            <td>10.</td>
+                                            <td>9.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Bachlor of MEDICAL LABORATORY  SCIENCE- BMLS</strong>
@@ -6796,7 +6778,7 @@
                                             </td> --}}
                                         </tr>
                                         <tr>
-                                            <td>11.</td>
+                                            <td>10.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Bachelor of Dialysis Therapy Technology</strong>
@@ -6813,7 +6795,7 @@
                                             </td> --}}
                                         </tr>
                                         <tr>
-                                            <td>12.</td>
+                                            <td>11.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Bachelor of Emergency Care</strong>
@@ -6830,7 +6812,7 @@
                                             </td> --}}
                                         </tr>
                                         <tr>
-                                            <td>13.</td>
+                                            <td>12.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">B.Sc. - Food Science & Technology</strong>
@@ -6905,7 +6887,7 @@
                                             </td>
                                         </tr> --}}
                                         <tr>
-                                            <td>14.</td>
+                                            <td>13.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Masters of MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY</strong>
@@ -6922,7 +6904,7 @@
                                             </td> --}}
                                         </tr>
                                         <tr>
-                                            <td>16.</td>
+                                            <td>14.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Masters OF ANAESTHESIA & OPERATION THEATRE TECHNOLOGY</strong>
@@ -7213,26 +7195,9 @@
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td>2.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Pharm. Lateral
-                                                        Entry</strong>
-                                                    <br>
-                                                    <a href="{{route('programs-b-pharm-lateral-entry')}}" class="text-primary"><span
-                                                            style="font-size: 16px;">Duration: 3 years | Admission Fee:
-                                                            60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>173000.00</td>
-                                            <td>88000.00</td>
-                                            <td><a href="{{route('programs-b-pharm-lateral-entry')}}"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Course: D.Pharm</strong>
@@ -7249,7 +7214,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>4.</td>
+                                            <td>3.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Course: M.Pharm
@@ -7267,7 +7232,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>5.</td>
+                                            <td>4.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #7f5539;" class="#">Course: M.Pharm -
@@ -7285,7 +7250,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>6.</td>
+                                            <td>5.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #7f5539;" class="#">Course: M.Pharm

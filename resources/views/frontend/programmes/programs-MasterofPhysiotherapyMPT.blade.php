@@ -68,8 +68,8 @@
                         <p class="text-dark pt-2 fw-bold m-0">B.) Programmes fee to be paid Yearly / semester payment for
                             New
                             Students 2024-25</p>
-                        <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 90000.00)</p>
-                        <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 46500.00)</p>
+                        <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 100000.00)</p>
+                        <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 51500.00)</p>
                     </div>
                 </div>
                 <div id="Eligibility" class="w3-container city card p-5 shadow" style="display:none">

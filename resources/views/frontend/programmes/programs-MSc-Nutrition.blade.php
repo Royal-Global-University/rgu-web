@@ -75,8 +75,8 @@
                     </p>
 
                     <ol class="mobile-para1 text-dark">
-                        <li>Yearly Payment (Rs. - 85000.00)</li>
-                        <li>Semester Payment (Rs. - 43500.00)</li>
+                        <li>Yearly Payment (Rs. - 113000.00)</li>
+                        <li>Semester Payment (Rs. - 58000.00)</li>
                     </ol>
 
                 </div>
@@ -255,8 +255,8 @@
                         <p class="text-dark pt-2 fw-bold m-0">B.) Programmes fee to be paid Yearly / semester payment for
                             New
                             Students 2025-26</p>
-                        <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 85000.00)</p>
-                        <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 43500.00)</p>
+                        <p class="text-dark pt-2 m-0">Yearly Payment (Rs. - 113000.00)</p>
+                        <p class="text-dark pt-2 m-0">Semester Payment (Rs. - 58000.00)</p>
                     </div>
                 </div>
                 <div id="Eligibility" class="w3-container city card p-5 shadow" style="display:none">
