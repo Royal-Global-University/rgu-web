@@ -7306,7 +7306,7 @@
                             <div>
                                 <h3 class="headd3 p-2"
                                     style="color: #343a40; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); margin-top: 20px; padding-bottom: 10px;">
-                                    C.) HOSTEL FEES 2025-26(FOR OLD & NEW STUDENTS)
+                                    C) HOSTEL FEES 2026-27(FOR OLD & NEW STUDENTS)
                                 </h3>
                                 <div class="table-responsive">
                                 <table class="table border table-responsive table-striped  vertical-scroll">
@@ -7316,7 +7316,11 @@
                                     </thead>
                                     <tbody class="para1">
                                         <tr>
-                                            <td>A) Caution Money (Common for all streams) - Refundable</td>
+                                            <td>A) Hostel Admission Fee(To be paid at the time of admission)</td>
+                                            <td>15000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>B) Caution Money (Common for all streams) - Refundable</td>
                                             <td>10000.00</td>
                                         </tr>
                                     </tbody>
@@ -7338,8 +7342,24 @@
                                             <td>1.</td>
                                             <td>
                                                 <p>
+                                                    <strong style="color: #1b4332;" class="#">*** Hostel Fee - 1
+                                                        Seater(Premium Suit)</strong>
+                                                    <br>
+                                                    <a class="text-black"><span style="font-size: 16px;">(Admission Fee -
+                                                            15000.00)</span></a>
+                                                    <br>
+                                                    <a class="text-black"><span style="font-size: 16px;">(Anual Fee -
+                                                            15000.00)</span></a>
+                                                </p>
+                                            </td>
+                                            <td>300000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2.</td>
+                                            <td>
+                                                <p>
                                                     <strong style="color: #1b4332;" class="#">*** Hostel Fee - 2
-                                                        Seater(Suit)(Heyansh House - Boys)</strong>
+                                                        Seater(Suit/Premium)</strong>
                                                     <br>
                                                     <a class="text-black"><span style="font-size: 16px;">(Admission Fee -
                                                             15000.00)</span></a>
@@ -7351,27 +7371,11 @@
                                             <td>240000.00</td>
                                         </tr>
                                         <tr>
-                                            <td>2.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #1b4332;" class="#">*** Hostel Fee - 2
-                                                        Seater(Premium)(Heyansh House - Boys, Samaya House - Girls)</strong>
-                                                    <br>
-                                                    <a class="text-black"><span style="font-size: 16px;">(Admission Fee -
-                                                            15000.00)</span></a>
-                                                    <br>
-                                                    <a class="text-black"><span style="font-size: 16px;">(Anual Fee -
-                                                            15000.00)</span></a>
-                                                </p>
-                                            </td>
-                                            <td>210000.00</td>
-                                        </tr>
-                                        <tr>
                                             <td>3.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">*** Hostel Fee - 2
-                                                        Seater(Premium)(Aditya House - Boys, Harsha House - Girls)</strong>
+                                                        Seater(Premium)</strong>
                                                     <br>
                                                     <a class="text-black"><span style="font-size: 16px;">(Admission Fee -
                                                             15000.00)</span></a>
@@ -7505,7 +7509,7 @@
                             <div>
                                 <h3 class="headd3 p-2"
                                     style="color: #343a40; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); margin-top: 20px; padding-bottom: 10px;">
-                                    D.) TRANSPORTATION FEES 2025-26(FOR OLD & NEW STUDENTS)
+                                    D) TRANSPORTATION FEES 2026-27(FOR OLD & NEW STUDENTS)
                                 </h3>
                                 <div class="table-responsive">
                                 <table class="table border table-responsive table-striped  vertical-scroll">
@@ -7536,9 +7540,6 @@
                             <!-- ----- new ----- -->
 
                             <hr>
-                            <td><a href="#"><button type="button"
-                                        class="btn btn-primary btn-lg custom-details-btn">Fee Structure 2025-26</button></a>
-                            </td>
                             <h2 class="headd2 pt-2"
                                 style="color: #343a40; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); margin-top: 20px; padding-bottom: 10px;">
                                 ACCOUNTS DEPARTMENT
