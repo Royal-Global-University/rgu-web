@@ -6750,16 +6750,16 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Bachlor of MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY</strong>
                                                     <br>
-                                                    <a href="{{route('programs-b-optometry-lateral-entry')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
+                                            </td> --}}
                                         </tr>
                                         <tr>
                                             <td>9.</td>

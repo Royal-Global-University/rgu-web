@@ -3014,6 +3014,14 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-faculty-attempts-national-record-with-solo-baking-marathon-of-2041-assorted-cookies', function () {
+    return view('frontend/media-corner/news67');
+})->name('rgu-faculty-attempts-national-record-with-solo-baking-marathon-of-2041-assorted-cookies');
+
+Route::get('/royal-anna-seva-completes-five-years-of-service-new-phase-inaugurated-by-chief-secretary-dr-ravi-kota', function () {
+    return view('frontend/media-corner/news66');
+})->name('royal-anna-seva-completes-five-years-of-service-new-phase-inaugurated-by-chief-secretary-dr-ravi-kota');
+
 Route::get('/create-a-forest-in-every-district-in-memory-of-zubeen-garg-forest-man-of-india-payeng-tells-at-rgu-botany-fest', function () {
     return view('frontend/media-corner/news65');
 })->name('create-a-forest-in-every-district-in-memory-of-zubeen-garg-forest-man-of-india-payeng-tells-at-rgu-botany-fest');

@@ -47,6 +47,22 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU Faculty Attempts National Record with Solo Baking Marathon of 2,041 Assorted Cookies',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 13, 2025:',
+                            'link' => 'rgu-faculty-attempts-national-record-with-solo-baking-marathon-of-2041-assorted-cookies',
+                            'image' => 'mobile-assets/media-corner/news61/2.jpeg',
+                            'content' => 'In a remarkable display of skill and determination, The Assam Royal Global University (RGU) has witnessed an extraordinary solo attempt to set a national record — the baking of 2,041 assorted millet-based cookies on a single day by one individual.',
+                        ],
+                        [
+                            'title' => 'Royal Anna Seva completes five years of service, new phase inaugurated by Chief Secretary Dr. Ravi Kota',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 12, 2025:',
+                            'link' => 'royal-anna-seva-completes-five-years-of-service-new-phase-inaugurated-by-chief-secretary-dr-ravi-kota',
+                            'image' => 'mobile-assets/media-corner/news60/2.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) today celebrated the completion of five impactful years of its flagship community service initiative --Royal Anna Seva — a noble outreach programme envisioned by Dr. A.K. Pansari, Chancellor of RGU, under the aegis of the Gyan Sagar Foundation.',
+                        ],
+                        [
                             'title' => 'Create a Forest in Every District in Memory of Zubeen Garg: Forest Man of India Payeng tells at RGU Botany Fest',
                             'summary' => '',
                             'date' => 'Guwahati, November 10, 2025:',

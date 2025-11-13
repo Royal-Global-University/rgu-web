@@ -1224,6 +1224,47 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news61/2.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
+                                                    class="pt-2 m-0 fw-bold">RGU Faculty Attempts National Record with Solo Baking Marathon of 2,041 Assorted Cookies</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 13,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/rgu-faculty-attempts-national-record-with-solo-baking-marathon-of-2041-assorted-cookies">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news60/2.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
+                                                    class="pt-2 m-0 fw-bold">Royal Anna Seva completes five years of service, new phase inaugurated by Chief Secretary Dr. Ravi Kota</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 12,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/royal-anna-seva-completes-five-years-of-service-new-phase-inaugurated-by-chief-secretary-dr-ravi-kota">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
 
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
@@ -1246,51 +1287,10 @@
                                             </div>
                                         </div>
 
-                                        <div class="row p-2 bg-light rounded mt-3">
-                                            <div class="row bg-light p-2 rounded">
-                                                <div class="col-lg-5 ">
-                                                    <img class="rounded" style="height: 130px; width: 100%;"
-                                                        src="/mobile-assets/media-corner/news59/32.jpeg" alt="" />
-                                                </div>
-                                                <div class="col-lg-7">
-                                                    <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                        class=" m-0 fw-bold">1st International Conference on Smart Systems & Social Management held at RGU</p>
-                                                    <p class="pt-1 p-0 m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4;">November 8, 2025
-                                                    </p>
-                                                    <a
-                                                        href="/curtain-raiser-workshops-of-assam-physiocon-2025-held-at-royal-global-university">
-                                                        <p class="pt-2 fw-bold m-0"
-                                                            style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                            Read More ...</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
 
 
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5 rounded">
-                                                <img class="rounded" style="height: 130px; width: 100%"
-                                                    src="/mobile-assets/media-corner/news59/22.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-size: 19px; line-height: 1;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    Curtain-raiser Workshops of Assam Physiocon 2025 held at Royal Global University
-                                                </p>
-                                                <p class="pt-1 pt-2 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 7,
-                                                    2025
-                                                </p>
-                                                <a
-                                                    href="/curtain-raiser-workshops-of-assam-physiocon-2025-held-at-royal-global-university">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
+
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">
                                         <a href="media-corner"><button
