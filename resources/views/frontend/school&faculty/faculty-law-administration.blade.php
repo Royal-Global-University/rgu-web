@@ -140,6 +140,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Bhavana.jpg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. Bhavana Sharma</h3>
+                            <p class="card-designation">Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-ajit-kaushal" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Hiren-Chandra%20Nath-RSLA.png"
                                     alt="Profile image">
                             </div>
