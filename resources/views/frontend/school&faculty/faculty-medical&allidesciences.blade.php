@@ -250,19 +250,6 @@
                                 Profile</a>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Rohit-Sarma.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Mr. Rohit Sarma</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-rohit-sarma" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
@@ -901,18 +888,6 @@
 
                 <!-- regular faculty  -->
                 <div class="row justify-content-center">
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/4.png"
-                                    alt="Profile image of Ms. Mayuri Ojah">
-                            </div>
-                            <h3 class="card-name">Ms. Mayuri Ojah</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
