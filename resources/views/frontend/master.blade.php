@@ -1274,8 +1274,8 @@
                                                 </a>
 
                                                 <a href="admission-programs-fees-structure">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fees 2025
-                                                        - 26
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Fees 2026
+                                                        - 27
                                                     </p>
                                                 </a>
 
