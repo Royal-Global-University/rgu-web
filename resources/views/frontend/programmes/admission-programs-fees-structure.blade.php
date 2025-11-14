@@ -782,8 +782,7 @@
                                             <td>4.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Com - Finance with
-                                                        ICA / B.Com with ACCA / B.Com with CMA</strong>
+                                                    <strong style="color: #1b4332;" class="#">B.Com (H)- Banking & Finance/Finance & Accounts (with ICA)</strong>
                                                     <br>
                                                     <a href="{{route('programs-bcom-finance-with-ica')}}"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 3/4
@@ -4671,8 +4670,7 @@
                                             <td>4.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Com - Finance with
-                                                        ICA / B.Com with ACCA / B.Com with CMA</strong>
+                                                    <strong style="color: #1b4332;" class="#">B.Com (H)- Banking & Finance/Finance & Accounts (with ICA)</strong>
                                                     <br>
                                                     <a href="{{route('programs-bcom-finance-with-ica')}}"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 3/4

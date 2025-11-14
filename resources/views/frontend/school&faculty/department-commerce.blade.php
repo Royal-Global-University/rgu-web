@@ -234,7 +234,7 @@
             style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
             <span style="font-size:18px; padding-right: 20px;">
-                B.Com - Finance with ICA / B.Com with ACCA / B.Com with CMA
+                B.Com (H)- Banking & Finance/Finance & Accounts (with ICA)
                 <span
                     style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
         </div>
@@ -1786,8 +1786,7 @@
             <div
                 style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                <span style="font-size:22px; padding-right: 20px;">B.Com - Finance with ICA / B.Com with ACCA / B.Com
-                    with CMA</span>
+                <span style="font-size:22px; padding-right: 20px;">B.Com (H)- Banking & Finance/Finance & Accounts (with ICA)</span>
                 <span
                     style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
             </div>
