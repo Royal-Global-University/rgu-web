@@ -279,7 +279,7 @@
                     <div
                         style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                        <span style="font-size:18px; padding-right: 10px;">BA - Clinical Psychology</span> | <span
+                        <span style="font-size:18px; padding-right: 10px;">B.Sc. - Clinical Psychology</span> | <span
                             style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours
                             with
                             Research</span>
