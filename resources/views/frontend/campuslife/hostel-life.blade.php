@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'RGU Hostel Fees 2025-26: View All Rooms, Cost, and Amenities')
+@section('meta_description', 'Hostel Fees for 2025-26 session start from ₹70,000 Annual. View AC/Non-AC room cost, Mess charges, and premium amenities like the gym and 24x7 security.')
+@section('meta_keywords', 'Academic calender')
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')

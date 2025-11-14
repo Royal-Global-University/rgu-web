@@ -22,8 +22,8 @@
     }
         </style>
 @endpush
-@section('title', 'Governing Body : The Assam Royal Global University')
-@section('meta_description', 'Discover the pinnacle of academic governance at Royal Global University. As the leading governing body, we ensure excellence in education, integrity in operations, and a commitment to nurturing future leaders.')
+@section('title', 'RGU Governing Body: Meet Chancellor Dr. A.K. Pansari & Chairman')
+@section('meta_description', 'The official Governing Body of Royal Global University. View profiles for Dr. A.K. Pansari (Chancellor), Sri Ranjit Barthakur (Chairman), and all Foundation Members. Check Leadership!')
 @section('meta_keywords', 'Governing Body')
 @section('content')
     <div class="mobile">

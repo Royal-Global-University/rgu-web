@@ -580,6 +580,7 @@ Route::get('/scholarships', function () {
     return view('frontend/academics/scholarships');
 })->name('scholarships');
 
+
 Route::get('/convocation-first', function () {
     return view('frontend/academics/convocation-first');
 })->name('convocation-first');

@@ -1,6 +1,6 @@
 @extends('frontend.master')
-@section('title', 'Academic Calender : The Assam Royal Global University')
-@section('meta_description', 'Stay on track with Royal Global University academic calendar, your roadmap to important dates and events throughout the academic year.')
+@section('title', 'RGU Holiday List & Academic Calendar 2025-26: View All Dates')
+@section('meta_description', 'Official RGU Holiday List 2025-26: View all vacation days, exam schedules, key events, and deadlines for students and faculty. Download PDF/View Dates.')
 @section('meta_keywords', 'Academic calender')
 @section('content')
     <div class="mobile">

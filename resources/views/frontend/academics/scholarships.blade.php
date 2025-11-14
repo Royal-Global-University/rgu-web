@@ -1,6 +1,6 @@
 @extends('frontend.master')
-@section('title', 'Scholarship : The Assam Royal Global University')
-@section('meta_description', 'Royal Global University offers several scholarships to help students pay for their education.')
+@section('title', 'RGU Scholarships 2026-27: Royal Merit, Bhutanese & Merit-Based')
+@section('meta_description', 'Apply for RGU Scholarships 2025-26! Check eligibility for the Royal Merit Scholarship and specific schemes for Bhutanese students. Financial aid and national schemes available.')
 @section('meta_keywords', 'Scholarship')
 @section('content')
     <div class="mobile">
