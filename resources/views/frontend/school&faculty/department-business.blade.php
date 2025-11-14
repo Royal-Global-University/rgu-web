@@ -170,7 +170,7 @@
                         style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
                         <span style="font-size:18px; padding-right: 20px;">
-                            (Finance, Marketing, HRM, Operations Management, Entrepreneurship & Small Business Management,
+                            MBA (Finance, Marketing, HRM, Operations Management, Entrepreneurship & Small Business Management,
                             Business
                             Analytics)
                         </span>
@@ -1106,7 +1106,7 @@
                             <div
                                 style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                                <span style="font-size:22px;">(Finance, Marketing, HRM, Operations Management,
+                                <span style="font-size:22px;">MBA (Finance, Marketing, HRM, Operations Management,
                                     Entrepreneurship & Small
                                     Business Management, Business Analytics)</span>
                                 <span
