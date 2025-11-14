@@ -145,121 +145,117 @@
             <!-- till about dept  -->
 
             <!-- courses offered  -->
-            <div class="container">
-                <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
-                    Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+<div class="container">
+    <h2 class="headd1 fw-bold text-center" style="color: #27467A; font-weight: 900; font-size: 25px;">
+        Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+    <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+        <!-- Heading Section -->
+        <div
+            style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                        <span style="font-size:18px;">M.Com</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
+            <span style="font-size:18px;">M.Com</span>
+            <span
+                style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+        </div>
 
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-MCom" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+        <!-- Statute Items -->
+        <a target="_blank" href="programs-MCom" style="text-decoration:none;">
+            <div
+                style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">2 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-MCom">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px; padding-right: 20px;">B.Com. - Finance with ICA</span> | <span
-                            style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours
-                            with
-                            Research</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-bcom-finance-with-ica" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-bcom-finance-with-ica">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px; padding-right: 20px;">B.Com. (Morning Shift)</span> | <span
-                            style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours
-                            with
-                            Research</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-bcom-morning-shift" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-bcom-morning-shift">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                        <span style="font-size:18px; padding-right: 20px;">B.Com. (Day Shift)</span> | <span
-                            style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours
-                            with
-                            Research</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-bcom" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-bcom">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
+                <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">2 years</span>
+                <span>
+                    <a class="para1 fw-bold"
+                        style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                        href="programs-MCom">View Details</a>
+                </span>
             </div>
-            <!-- courses offered  -->
+        </a>
+    </div>
+
+    <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+        <!-- Heading Section -->
+        <div
+            style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+            <span style="font-size:18px; padding-right: 20px;">B.Com - (Day Shift)</span> | <span
+                style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours with
+                Research</span>
+            <span
+                style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+        </div>
+
+        <!-- Statute Items -->
+        <a target="_blank" href="programs-bcom" style="text-decoration:none;">
+            <div
+                style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years as per NEP</span>
+                <span>
+                    <a class="para1 fw-bold"
+                        style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                        href="programs-bcom">View Details</a>
+                </span>
+            </div>
+        </a>
+    </div>
+
+    <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+        <!-- Heading Section -->
+        <div
+            style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+            <span style="font-size:18px; padding-right: 20px;">B.Com - (Morning Shift)</span> | <span
+                style="font-size:16px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours with
+                Research</span>
+            <span
+                style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+        </div>
+
+        <!-- Statute Items -->
+        <a target="_blank" href="programs-bcom-morning-shift" style="text-decoration:none;">
+            <div
+                style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years as per NEP</span>
+                <span>
+                    <a class="para1 fw-bold"
+                        style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                        href="programs-bcom-morning-shift">View Details</a>
+                </span>
+            </div>
+        </a>
+    </div>
+
+    <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+        <!-- Heading Section -->
+        <div
+            style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+            <span style="font-size:18px; padding-right: 20px;">
+                B.Com - Finance with ICA / B.Com with ACCA / B.Com with CMA
+                <span
+                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+        </div>
+
+        <!-- Statute Items -->
+        <a target="_blank" href="programs-bcom-finance-with-ica" style="text-decoration:none;">
+            <div
+                style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">4 years</span>
+                <span>
+                    <a class="para1 fw-bold"
+                        style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
+                        href="programs-bcom-finance-with-ica">View Details</a>
+                </span>
+            </div>
+        </a>
+    </div>
+
+</div>
+<!-- courses offered  -->
 
             <!-- syllabus  -->
             <div class="container">
@@ -1697,127 +1693,126 @@
 
                 <section id="course">
 
-                    <div class="container">
-                        <h2 class="headd1 fw-bold text-center pt-4 pb-3"
-                            style="color: #27467A; font-weight: 900; font-size: 35px;">
-                            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+    <div class="container">
+        <h2 class="headd1 fw-bold text-center pt-4 pb-3" style="color: #27467A; font-weight: 900; font-size: 35px;">
+            Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
 
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                                <span style="font-size:22px;">M.Com</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
 
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-MCom" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+            <!-- Heading Section -->
+            <div
+                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 2
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-MCom">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
+                <span style="font-size:22px;">M.Com</span>
+                <span
+                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+            </div>
 
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+            <!-- Statute Items -->
+            <a target="_blank" href="programs-MCom" style="text-decoration:none;">
+                <div
+                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                                <span style="font-size:22px; padding-right: 20px;">B.Com. - Finance with ICA</span> | <span
-                                    style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours /
-                                    Honours with
-                                    Research</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
+                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 2
+                        years</span>
+                    <span>
+                        <a class="para1 fw-bold"
+                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                            href="programs-MCom">View Details</a>
+                    </span>
+                </div>
+            </a>
+        </div>
 
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-bcom-finance-with-ica" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+            <!-- Heading Section -->
+            <div
+                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-bcom-finance-with-ica">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
+                <span style="font-size:22px; padding-right: 20px;">B.Com - (Day Shift)</span> | <span
+                    style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours with
+                    Research</span>
+                <span
+                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+            </div>
 
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+            <!-- Statute Items -->
+            <a target="_blank" href="programs-bcom" style="text-decoration:none;">
+                <div
+                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                                <span style="font-size:22px; padding-right: 20px;">B.Com. (Morning Shift)</span> | <span
-                                    style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours /
-                                    Honours with
-                                    Research</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
+                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4 years as
+                        per NEP</span>
+                    <span>
+                        <a class="para1 fw-bold"
+                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                            href="programs-bcom">View Details</a>
+                    </span>
+                </div>
+            </a>
+        </div>
 
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-bcom-morning-shift" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+            <!-- Heading Section -->
+            <div
+                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-bcom-morning-shift">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
+                <span style="font-size:22px; padding-right: 20px;">B.Com - (Morning Shift)</span> | <span
+                    style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours / Honours with
+                    Research</span>
+                <span
+                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+            </div>
 
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+            <!-- Statute Items -->
+            <a target="_blank" href="programs-bcom-morning-shift" style="text-decoration:none;">
+                <div
+                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                                <span style="font-size:22px; padding-right: 20px;">B.Com. (Day Shift)</span> | <span
-                                    style="font-size:22px; padding-left: 16px; font-weight: 300px !important;">Honours /
-                                    Honours with
-                                    Research</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
+                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4 years as
+                        per NEP</span>
+                    <span>
+                        <a class="para1 fw-bold"
+                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                            href="programs-bcom-morning-shift">View Details</a>
+                    </span>
+                </div>
+            </a>
+        </div>
 
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-bcom" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+            <!-- Heading Section -->
+            <div
+                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
-                                            href="programs-bcom">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
+                <span style="font-size:22px; padding-right: 20px;">B.Com - Finance with ICA / B.Com with ACCA / B.Com
+                    with CMA</span>
+                <span
+                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+            </div>
 
-                    </div>
+            <!-- Statute Items -->
+            <a target="_blank" href="programs-bcom-finance-with-ica" style="text-decoration:none;">
+                <div
+                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
 
-                </section>
+                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration: 4
+                        years</span>
+                    <span>
+                        <a class="para1 fw-bold"
+                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                            href="programs-bcom-finance-with-ica">View Details</a>
+                    </span>
+                </div>
+            </a>
+        </div>
+
+
+
+    </div>
+
+</section>
 
                 <section id="syllabus">
                     <div class="container">
