@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Best University in Assam, India')
+@section('meta_description', 'Explore the 20+ Schools & Faculties at Royal Global University, Guwahati, including Engineering, Law, Pharmacy, and Management. View department lists and expert professor profiles.')
+@section('meta_keywords', 'Schools and Faculty')
 @section('content')
     <div id="page" class="site site_wrapper">
 

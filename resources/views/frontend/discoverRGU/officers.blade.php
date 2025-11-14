@@ -1,6 +1,6 @@
 @extends('frontend.master')
-@section('title', 'Officers : The Assam Royal Global University')
-@section('meta_description', 'Meet the distinguished officers of Royal Global University who lead with vision, integrity, and dedication to academic excellence and innovation.')
+@section('title', 'RGU Vice Chancellor: Prof. Y.S.R. Murthy & University Officers List')
+@section('meta_description', 'Meet RGU Vice Chancellor, Prof. (Dr.) Y.S.R. Murthy. View the profiles of the Registrar (Dr. Dilip Narayan Singh), Chairman, and all key university officers. Check Leadership!')
 @section('meta_keywords', 'Officers')
 @section('content')
     <div class="mobile">

@@ -1,6 +1,6 @@
 @extends('frontend.master')
-@section('title', 'Library : The Assam Royal Global University')
-@section('meta_description', 'A strong library enhances the academic life of students. The RGU library system comprises of three libraries.')
+@section('title', 'RGU Central Library: 30,000+ Volumes, E-Journals, and Resources')
+@section('meta_description', 'RGU Central Library offers 30,178+ print volumes, 65,000+ e-journals, and 18,000+ e-books. Access Digital Repositories, Research Databases, and Reading Material. Check Resources!')
 @section('meta_keywords', 'Library')
 @section('content')
     <div class="mobile">

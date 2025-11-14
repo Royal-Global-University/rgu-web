@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Best University in Assam, India')
+@section('meta_description', 'Study Law at RSLA (Royal School of Law & Administration), Guwahati. Explore LL.M., LL.B. (Hons.), and B.A./BBA LL.B. courses. View curriculum, faculty, and research.')
+@section('meta_keywords', 'Study Law at RSLA')
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 

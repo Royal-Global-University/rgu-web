@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Best University in Assam, India')
+@section('meta_description', 'Need RGU contact info? Get the General Helpline, Admission (78799-98811), and International Helplines, plus dedicated emails for all university departments.')
+@section('meta_keywords', 'RGU contact')
 @section('content')
     <div class="mobile bg-light">
         @include('frontend/components/mobileheader')

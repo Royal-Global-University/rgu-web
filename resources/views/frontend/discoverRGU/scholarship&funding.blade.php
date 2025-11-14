@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Best University in Assam, India')
+@section('meta_description', 'Admissions Open! Check RGU Scholarships 2025: Royal Merit (100%), Royal Suraksha (50%), International, and Sports schemes. View Eligibility & Apply Now!')
+@section('meta_keywords', 'Scholarship')
 @section('content')
     <div id="page" class="site site_wrapper">
         <div class="mobile">
