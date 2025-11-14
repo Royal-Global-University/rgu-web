@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'RGU Recruitment 2025: Join Our Faculty & Staff Team, Apply Now!')
+@section('meta_description', 'Hiring Faculty and Staff for 2025! Explore all current academic & administrative vacancies at RGU, Guwahati. View job details and apply directly through our official portal')
+@section('meta_keywords', 'RGU Job portal')
 @section('content')
     <div id="page" class="site site_wrapper">
 

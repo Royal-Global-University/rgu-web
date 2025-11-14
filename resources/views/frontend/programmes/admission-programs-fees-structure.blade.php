@@ -1,6 +1,6 @@
 @extends('frontend.master')
-@section('title', 'Course fee : The Assam Royal Global University')
-@section('meta_description', 'Find detailed information on the course fees at Royal Global University, including fee structures for undergraduate, postgraduate, and doctoral programs, along with available scholarships and financial aid options.')
+@section('title', 'RGU Fees Structure 2025-26: Course Cost, Admission & Semester Fees')
+@section('meta_description', 'RGU Fees 2025-26: Check Registration & Admission Fees (Paid Once) and Yearly/Semester Payment for B.Tech, MBA, BBA, B.Pharm. View Full Cost & Apply Now')
 @section('meta_keywords', 'Course fee')
 @section('content')
     <div class="mobile">
@@ -27,7 +27,7 @@
     <!-- heading  -->
 
             <!-- table  -->
-            <section class="sptb bg-white">
+                        <section class="sptb bg-white">
                 <div class="container">
 
                     <div class="row">
@@ -67,7 +67,7 @@
                             <hr>
 
                             <h3 class="fw-bold pt-4 pb-3 text-dark text-capitalize headd3">B. Institutions /Schools
-                                /Programmes fee to be paid yearly/Semester Payment for New Students 2025-26
+                                /Programmes fee to be paid yearly/Semester Payment for New Students 2026-27
                             </h3>
 
                             <!-- ----- new ----- -->
@@ -413,16 +413,16 @@
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Executive MBA</strong>
                                                     <br>
-                                                    <a href="{{route('programs-BBA')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 2 years as per NEP |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>200000.00</td>
                                             <td>101500.00</td>
-                                            <td><a href="{{route('programs-BBA')}}"><button type="button"
+                                            {{-- <td><a href="{{route('programs-BBA')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
+                                            </td> --}}
                                         </tr>
 
 
@@ -476,7 +476,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: MA - Clinical Psychology</strong>
                                                     <br>
-                                                    <a href="{{route('programs-MA-Psychology')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 2 years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -526,38 +526,13 @@
                                             </td>
                                         </tr>
 
-
-
-                                    </tbody>
-                                </table>
-                                </div>
-                            </div>
-                            <!-- ----- new ----- -->
-
-                                                        <!-- ----- new ----- -->
-                            <div>
-                                <div style="background-color: #c7daf9; display: flex; justify-content: center; align-items: center; margin-top: 40px;"
-                                    class="text-dark fw-bold para1 p-2">
-                                    <th>Royal School of Behavioral & Allied Sciences (RSBAS) - RCI approved programmes</th>
-                                </div>
-
-                                <div class="table-responsive">
-                                <table class="table border table-responsive table-striped  vertical-scroll">
-                                    <thead class="text-light  para1" style="font-size: 14px;">
-                                        <th class="text-light  font-weight-bold">SL. NO.</th>
-                                        <th class="text-light  font-weight-bold">COURSES</th>
-                                        <th class="text-light  font-weight-bold">YLY PAY (Rs)</th>
-                                        <th class="text-light  font-weight-bold">SEM PAY (Rs)</th>
-                                        <th class="text-light  font-weight-bold">DETAILS</th>
-                                    </thead>
-                                    <tbody class="para1">
-                                        <tr>
-                                            <td>1.</td>
+                                         <tr>
+                                            <td>5.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">B.Sc. Clinical Psychology (Hons.)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-MA-Psychology')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 3/4 years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -570,30 +545,12 @@
                                         </tr>
 
                                         <tr>
-                                            <td>2.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #023e8a;" class="#">MA - Clinical Psychology</strong>
-                                                    <br>
-                                                    <a href="{{route('programs-MA-Psychology')}}" class="text-primary"><span
-                                                            style="font-size: 16px;"> Duration: 2 years | Admission Fee:
-                                                            60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>100000.00</td>
-                                            <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-MA-Psychology')}}"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
-                                        </tr>
-
-                                        <tr>
-                                            <td>3.</td>
+                                            <td>6.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Integrated Special and Inclusive Teacher Education Programme (ISITEP)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-BA-Psychology')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
@@ -611,6 +568,7 @@
                                 </div>
                             </div>
                             <!-- ----- new ----- -->
+
 
                             <!-- ----- new ----- -->
                             <div>
@@ -672,7 +630,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: M.Sc. Bio-Science</strong>
                                                     <br>
-                                                    <a href="{{route('programs-MSc-Food-Technology')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 2 years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -728,7 +686,7 @@
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: B.Sc.(H) - Bio-Science</strong>
                                                     <br>
-                                                    <a href="{{route('programs-b-sc-food-technology')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 3/4 years as per NEP |
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -1160,7 +1118,7 @@
                                             </td>
                                         </tr>
 
-                                        <tr>
+                                        {{-- <tr>
                                             <td>4.</td>
                                             <td>
                                                 <p>
@@ -1178,10 +1136,10 @@
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
+                                        </tr> --}}
 
                                         <tr>
-                                            <td>5.</td>
+                                            <td>4.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: B.Des - Communication
@@ -1201,7 +1159,7 @@
                                         </tr>
 
                                         <tr>
-                                            <td>6.</td>
+                                            <td>5.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: B.Des - Graphic
@@ -1221,7 +1179,7 @@
                                         </tr>
 
                                         <tr>
-                                            <td>7.</td>
+                                            <td>6.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: B.Des - Product
@@ -1241,12 +1199,31 @@
                                         </tr>
 
                                         <tr>
-                                            <td>8.</td>
+                                            <td>7.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">M.Des. - Fashion Design (FD)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            {{-- <td><a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"><button
+                                                        type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>8.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">M.Des. - Communication Design (CD)</strong>
+                                                    <br>
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -1263,9 +1240,9 @@
                                             <td>9.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">M.Des. - Communication Design (CD)</strong>
+                                                    <strong style="color: #1b4332;" class="#">M.Des. Graphic Design (GD)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -1282,28 +1259,9 @@
                                             <td>10.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">M.Des. Graphic Design (GD)</strong>
-                                                    <br>
-                                                    <a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"
-                                                        class="text-primary"><span style="font-size: 16px;"> Duration: 4
-                                                            years | Admission Fee: 60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>85000.00</td>
-                                            <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"><button
-                                                        type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>11.</td>
-                                            <td>
-                                                <p>
                                                     <strong style="color: #1b4332;" class="#">M.Des. Product Design (PD)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -1732,7 +1690,7 @@
                                                     <strong style="color: #023e8a;" class="#">Course: B.Tech -
                                                         Data Science </strong>
                                                     <br>
-                                                    <a href="{{route('programs-b-tech-mechatronics')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 4 years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -1962,7 +1920,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: M.Des (FD)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-b-des-fd-fashion-design')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -2094,7 +2052,7 @@
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">MA - Indian Knowledge System (IKS)</strong>
                                                     <br>
-                                                    <a href="{{route('programs-MA-History')}}" class="text-primary"><span
+                                                    <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 2 years | Admission Fee:
                                                             60000.00</span></a>
                                                 </p>
@@ -2650,7 +2608,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">B.Sc. Agriculture</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Master-of-Library&Information-Sciences')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 3/4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -2668,7 +2626,7 @@
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">M.Sc. Agriculture</strong>
                                                     <br>
-                                                    <a href="{{route('programs-Master-of-Library&Information-Sciences')}}"
+                                                    <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
@@ -2877,14 +2835,14 @@
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>120000.00</td>
-                                            <td>61500.00</td>
+                                            <td>135000.00</td>
+                                            <td>69000.00</td>
                                             <td><a href="{{route('programs-Bachelor-of-Physiotherapy-BPT')}}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        {{-- <tr>
                                             <td>2.</td>
                                             <td>
                                                 <p>
@@ -2902,9 +2860,9 @@
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
+                                        </tr> --}}
                                         <tr>
-                                            <td>3.</td>
+                                            <td>2.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: Masters in
@@ -2915,14 +2873,14 @@
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>90000.00</td>
+                                            <td>100000.00</td>
                                             <td>51500.00</td>
                                             <td><a href="{{route('programs-MasterofPhysiotherapyMPT')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>4.</td>
+                                            <td>3.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">Course: B.Sc. in Nutrition and
@@ -2941,7 +2899,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>5.</td>
+                                            <td>4.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: M.Sc. in Nutrition and
@@ -2952,14 +2910,14 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>85000.00</td>
-                                            <td>43500.00</td>
+                                            <td>113000.00</td>
+                                            <td>58000.00</td>
                                             <td><a href="{{route('programs-MSc-Nutrition')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>6.</td>
+                                            <td>5.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: M. Optometry</strong>
@@ -2969,14 +2927,14 @@
                                                             60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>90000.00</td>
+                                            <td>100000.00</td>
                                             <td>51500.00</td>
                                             <td><a href="{{route('programs-M-Optometry')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>7.</td>
+                                            <td>6.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: B. Optometry</strong>
@@ -2993,24 +2951,111 @@
                                             </td>
                                         </tr>
                                         <tr>
+                                            <td>7.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Bachlor of MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>100000.00</td>
+                                            <td>51500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
                                             <td>8.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B. Optometry - Lateral
-                                                        Entry</strong>
+                                                    <strong style="color: #023e8a;" class="#">Bachlor of ANAESTHESIA AND OPERATION THEATRE TECHNOLOGY</strong>
                                                     <br>
-                                                    <a href="{{route('programs-b-optometry-lateral-entry')}}"
-                                                        class="text-primary"><span style="font-size: 16px;">Duration: 3
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>100000.00</td>
+                                            <td>51500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
+                                            <td>9.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Bachlor of MEDICAL LABORATORY  SCIENCE- BMLS</strong>
+                                                    <br>
+                                                    <a href=""
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>100000.00</td>
+                                            <td>51500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
+                                            <td>10.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of Dialysis Therapy Technology</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
+                                            </td> --}}
                                         </tr>
                                         <tr>
+                                            <td>11.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of Emergency Care</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>90000.00</td>
+                                            <td>46500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
+                                            <td>12.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #023e8a;" class="#">B.Sc. - Food Science & Technology</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 4
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+
+
+
+                                        {{-- <tr>
                                             <td>9.</td>
                                             <td>
                                                 <p>
@@ -3027,8 +3072,8 @@
                                             <td><a href="{{route('programs-bsc-Medical-technology-bmlt')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
-                                        <tr>
+                                        </tr> --}}
+                                        {{-- <tr>
                                             <td>10.</td>
                                             <td>
                                                 <p>
@@ -3046,8 +3091,8 @@
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
-                                        <tr>
+                                        </tr> --}}
+                                        {{-- <tr>
                                             <td>11.</td>
                                             <td>
                                                 <p>
@@ -3064,26 +3109,110 @@
                                             <td><a href="{{route('programs-MSc-Medical-Laboratory-MMLT')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
+                                        </tr> --}}
                                         <tr>
-                                            <td>12.</td>
+                                            <td>13.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #3c096c;" class="#">Course: B.Sc. in Dialysis
-                                                        Tech</strong>
+                                                    <strong style="color: #3c096c;" class="#">Masters of MEDICAL RADIOLOGY AND IMAGING TECHNOLOGY</strong>
                                                     <br>
-                                                    <a href="{{route('programs-b-sc-dialysis')}}" class="text-primary"><span
-                                                            style="font-size: 16px;">Duration: 3/4 years as per NEP |
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 2
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>100000.00</td>
+                                            <td>51500.00</td>
+                                            {{-- <td><a href="{{route('programs-MSc-Medical-Laboratory-MMLT')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
+                                            <td>14.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Masters OF ANAESTHESIA & OPERATION THEATRE TECHNOLOGY</strong>
+                                                    <br>
+                                                    <a href="#"
+                                                        class="text-primary"><span style="font-size: 16px;">Duration: 2
+                                                            years | Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>100000.00</td>
+                                            <td>51500.00</td>
+                                            {{-- <td><a href="{{route('programs-MSc-Medical-Laboratory-MMLT')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
+                                            <td>15.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Masters of Dialysis Therapy Technology</strong>
+                                                    <br>
+                                                    <a href="#" class="text-primary"><span
+                                                            style="font-size: 16px;">Duration: 2 years|
                                                             Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
-                                            <td>90000</td>
-                                            <td>46500.00</td>
-                                            <td><a href="{{route('programs-b-sc-dialysis')}}"><button type="button"
+                                            <td>100000.00</td>
+                                            <td>51500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-sc-dialysis')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
+                                            </td> --}}
                                         </tr>
                                         <tr>
+                                            <td>16.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #3c096c;" class="#">Masters of Emergency Care</strong>
+                                                    <br>
+                                                    <a href="#" class="text-primary"><span
+                                                            style="font-size: 16px;">Duration: 2 years|
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>100000.00</td>
+                                            <td>51500.00</td>
+                                            {{-- <td><a href="{{route('programs-b-sc-dialysis')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
+                                            <td>17.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #7f5539;" class="#">M.Sc. Food Science & Technology</strong>
+                                                    <br>
+                                                    <a href="#" class="text-primary"><span
+                                                            style="font-size: 16px;">Duration: 2 years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            {{-- <td><a href="{{route('programs-Technology-OTT')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        <tr>
+                                            <td>18.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #7f5539;" class="#">Masters of Medical Laboratory Science- MMLS</strong>
+                                                    <br>
+                                                    <a href="#" class="text-primary"><span
+                                                            style="font-size: 16px;">Duration: 2 years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>85000.00</td>
+                                            <td>43500.00</td>
+                                            {{-- <td><a href="{{route('programs-Technology-OTT')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+                                        {{-- <tr>
                                             <td>13.</td>
                                             <td>
                                                 <p>
@@ -3100,13 +3229,13 @@
                                             <td><a href="{{route('programs-Technology-OTT')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
-                                        <tr>
+                                        </tr> --}}
+                                        {{-- <tr>
                                             <td>14.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #7f5539;" class="#">Course: B.Sc. in Radiography &
-                                                        Advance Imaging Technology</strong>
+                                                    <strong style="color: #7f5539;" class="#">Course: B.Sc. in Radiology &
+                                                        Imaging Technology</strong>
                                                     <br>
                                                     <a href="{{route('programs-b-sc-radiography')}}" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 3/4 years as per NEP |
@@ -3118,8 +3247,8 @@
                                             <td><a href="{{route('programs-b-sc-radiography')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
-                                        <tr>
+                                        </tr> --}}
+                                        {{-- <tr>
                                             <td>15.</td>
                                             <td>
                                                 <p>
@@ -3136,8 +3265,8 @@
                                             <td><a href="{{route('programs-bsc-in-emergency')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
-                                        <tr>
+                                        </tr> --}}
+                                        {{-- <tr>
                                             <td>16.</td>
                                             <td>
                                                 <p>
@@ -3154,7 +3283,7 @@
                                             <td><a href="{{route('program-bsc-cssd')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
-                                        </tr>
+                                        </tr> --}}
 
 
                                     </tbody>
@@ -3290,26 +3419,9 @@
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <td>2.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Pharm. Lateral
-                                                        Entry</strong>
-                                                    <br>
-                                                    <a href="{{route('programs-b-pharm-lateral-entry')}}" class="text-primary"><span
-                                                            style="font-size: 16px;">Duration: 3 years | Admission Fee:
-                                                            60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>173000.00</td>
-                                            <td>88000.00</td>
-                                            <td><a href="{{route('programs-b-pharm-lateral-entry')}}"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Course: D.Pharm</strong>
@@ -3326,7 +3438,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>4.</td>
+                                            <td>3.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #3c096c;" class="#">Course: M.Pharm
@@ -3344,7 +3456,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>5.</td>
+                                            <td>4.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #7f5539;" class="#">Course: M.Pharm -
@@ -3362,7 +3474,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>6.</td>
+                                            <td>5.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #7f5539;" class="#">Course: M.Pharm
@@ -3505,7 +3617,7 @@
                             <div>
                                 <h3 class="headd3 p-2"
                                     style="color: #343a40; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); margin-top: 20px; padding-bottom: 10px;">
-                                    C.) HOSTEL FEES 2025-26(FOR OLD & NEW STUDENTS)
+                                    C) HOSTEL FEES 2026-27(FOR OLD & NEW STUDENTS)
                                 </h3>
                                 <div class="table-responsive">
                                 <table class="table border table-responsive table-striped  vertical-scroll">
@@ -3515,7 +3627,11 @@
                                     </thead>
                                     <tbody class="para1">
                                         <tr>
-                                            <td>A) Caution Money (Common for all streams) - Refundable</td>
+                                            <td>A) Hostel Admission Fee(To be paid at the time of admission)</td>
+                                            <td>15000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>B) Caution Money (Common for all streams) - Refundable</td>
                                             <td>10000.00</td>
                                         </tr>
                                     </tbody>
@@ -3537,8 +3653,24 @@
                                             <td>1.</td>
                                             <td>
                                                 <p>
+                                                    <strong style="color: #1b4332;" class="#">*** Hostel Fee - 1
+                                                        Seater(Premium Suit)</strong>
+                                                    <br>
+                                                    <a class="text-black"><span style="font-size: 16px;">(Admission Fee -
+                                                            15000.00)</span></a>
+                                                    <br>
+                                                    <a class="text-black"><span style="font-size: 16px;">(Anual Fee -
+                                                            15000.00)</span></a>
+                                                </p>
+                                            </td>
+                                            <td>300000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2.</td>
+                                            <td>
+                                                <p>
                                                     <strong style="color: #1b4332;" class="#">*** Hostel Fee - 2
-                                                        Seater(Suit)(Heyansh House - Boys)</strong>
+                                                        Seater(Suit/Premium)</strong>
                                                     <br>
                                                     <a class="text-black"><span style="font-size: 16px;">(Admission Fee -
                                                             15000.00)</span></a>
@@ -3550,27 +3682,11 @@
                                             <td>240000.00</td>
                                         </tr>
                                         <tr>
-                                            <td>2.</td>
-                                            <td>
-                                                <p>
-                                                    <strong style="color: #1b4332;" class="#">*** Hostel Fee - 2
-                                                        Seater(Premium)(Heyansh House - Boys, Samaya House - Girls)</strong>
-                                                    <br>
-                                                    <a class="text-black"><span style="font-size: 16px;">(Admission Fee -
-                                                            15000.00)</span></a>
-                                                    <br>
-                                                    <a class="text-black"><span style="font-size: 16px;">(Anual Fee -
-                                                            15000.00)</span></a>
-                                                </p>
-                                            </td>
-                                            <td>210000.00</td>
-                                        </tr>
-                                        <tr>
                                             <td>3.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #1b4332;" class="#">*** Hostel Fee - 2
-                                                        Seater(Premium)(Aditya House - Boys, Harsha House - Girls)</strong>
+                                                        Seater(Premium)</strong>
                                                     <br>
                                                     <a class="text-black"><span style="font-size: 16px;">(Admission Fee -
                                                             15000.00)</span></a>
@@ -3661,7 +3777,7 @@
                                                             15000.00)</span></a>
                                                 </p>
                                             </td>
-                                            <td>108000.00</td>
+                                            <td>120000.00</td>
                                         </tr>
                                         <tr>
                                             <td>9.</td>
@@ -3677,7 +3793,7 @@
                                                             15000.00)</span></a>
                                                 </p>
                                             </td>
-                                            <td>90000.00</td>
+                                            <td>100000.00</td>
                                         </tr>
                                         <tr>
                                             <td>10.</td>
@@ -3693,7 +3809,7 @@
                                                             15000.00)</span></a>
                                                 </p>
                                             </td>
-                                            <td>90000.00</td>
+                                            <td>100000.00</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -3704,7 +3820,7 @@
                             <div>
                                 <h3 class="headd3 p-2"
                                     style="color: #343a40; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); margin-top: 20px; padding-bottom: 10px;">
-                                    D.) TRANSPORTATION FEES 2025-26(FOR OLD & NEW STUDENTS)
+                                    D) TRANSPORTATION FEES 2026-27(FOR OLD & NEW STUDENTS)
                                 </h3>
                                 <div class="table-responsive">
                                 <table class="table border table-responsive table-striped  vertical-scroll">
@@ -3735,9 +3851,6 @@
                             <!-- ----- new ----- -->
 
                             <hr>
-                            <td><a href="#"><button type="button"
-                                        class="btn btn-primary btn-lg custom-details-btn">Fee Structure 2025-26</button></a>
-                            </td>
                             <h2 class="headd2 pt-2"
                                 style="color: #343a40; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); margin-top: 20px; padding-bottom: 10px;">
                                 ACCOUNTS DEPARTMENT
