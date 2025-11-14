@@ -34,7 +34,7 @@
                             </h2>
 
                             <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
-                                Visiting Faculty
+                                Assistant Professor
                             </h2>
 
                             <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
@@ -55,7 +55,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Pursuing Ph.D. (Management) The Assam Royal Global University
+                                            Ph.D. (Management) The Assam Royal Global University
                                         </span>
                                     </li>
                                     <li
