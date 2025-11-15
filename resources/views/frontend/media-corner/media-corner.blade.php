@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Country Needs Independent Judiciary Insulated from External Pressures: SC Judge Ujjal Bhuyan',
+                            'summary' => 'Supreme Court Judge Addresses RGU Law Students on Opportunities for the Next Generation',
+                            'date' => 'Guwahati, November 15, 2025:',
+                            'link' => 'country-needs-independent-judiciary-insulated-from-external-pressures-sc-judge-ujjal-bhuyan',
+                            'image' => '/mobile-assets/media-corner/news62/2.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) today hosted an inspiring and insightful interactive session featuring Hon’ble Mr. Justice Ujjal Bhuyan, Judge, Supreme Court...',
+                        ],
+                        [
                             'title' => 'RGU Faculty Attempts National Record with Solo Baking Marathon of 2,041 Assorted Cookies',
                             'summary' => '',
                             'date' => 'Guwahati, November 13, 2025:',

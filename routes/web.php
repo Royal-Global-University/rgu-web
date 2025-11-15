@@ -3015,6 +3015,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/country-needs-independent-judiciary-insulated-from-external-pressures-sc-judge-ujjal-bhuyan', function () {
+    return view('frontend/media-corner/news68');
+})->name('country-needs-independent-judiciary-insulated-from-external-pressures-sc-judge-ujjal-bhuyan');
+
 Route::get('/rgu-faculty-attempts-national-record-with-solo-baking-marathon-of-2041-assorted-cookies', function () {
     return view('frontend/media-corner/news67');
 })->name('rgu-faculty-attempts-national-record-with-solo-baking-marathon-of-2041-assorted-cookies');

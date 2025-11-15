@@ -936,75 +936,49 @@
 
                 </div> --}}
 
-                <!-- Swiper CSS -->
-                <section>
+                <!-- Conferense CSS -->
+                {{-- <section>
 
                     <style>
-                        /* 1. Add padding to the bottom of the slider to make space for the arrows */
                         .myImageSlider {
                             position: relative;
                             padding-bottom: 60px;
                         }
 
-                        /* 2. Custom styles for both arrows to match the provided image */
                         .myImageSlider .swiper-button-next,
                         .myImageSlider .swiper-button-prev {
-                            /* Remove default Swiper positioning */
                             top: auto;
                             transform: none;
-
-                            /* Position arrows at the bottom */
                             bottom: 5px;
-
-                            /* Basic size for the button area */
                             width: 40px;
-                            /* Adjust as needed */
                             height: 40px;
-                            /* Adjust as needed */
-
-                            /* Make it a circle */
                             border-radius: 50%;
                             background-color: #8c9bbd;
-                            /* The blueish color from your image */
-
-                            /* Center the SVG icon inside */
                             display: flex;
                             align-items: center;
                             justify-content: center;
-
-                            /* Make the arrow icon white */
                             color: #fff;
-
-                            /* Remove default outline on focus */
                             outline: none;
                         }
 
-                        /* 3. Adjust the size of the SVG icon within the button */
                         .myImageSlider .swiper-button-next::after,
                         .myImageSlider .swiper-button-prev::after {
                             font-size: 16px;
-                            /* Adjust the icon size as needed */
                         }
-
-                        /* 4. Position the 'previous' arrow left of the center */
                         .myImageSlider .swiper-button-prev {
                             left: 50%;
                             transform: translateX(calc(-100% - 10px));
-                            /* 10px gap between arrows */
+
                         }
 
-                        /* 5. Position the 'next' arrow right of the center */
                         .myImageSlider .swiper-button-next {
                             left: 50%;
                             transform: translateX(10px);
-                            /* 10px gap between arrows */
                         }
 
-                        /* Optional: Add a subtle hover effect */
                         .myImageSlider .swiper-button-next:hover,
                         .myImageSlider .swiper-button-prev:hover {
                             background-color: #a4b4d6;
-                            /* Slightly lighter shade on hover */
                             cursor: pointer;
                         }
                     </style>
@@ -1012,12 +986,6 @@
                     <section style="padding: 30px; background-color: #101d34;">
                         <div class="swiper myImageSlider" style="max-width:1800px; margin:auto;">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    {{-- <a href="synergy-for-energy-challenges-and-opportunities-in-north-east-india">
-                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                            src="demo-assets/big-events/4.png" alt="">
-                                    </a> --}}
-                                </div>
 
                                 <div class="swiper-slide">
                                     <a href="bioe3-conference">
@@ -1034,18 +1002,18 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    {{-- <a href="synergy-for-energy-challenges-and-opportunities-in-north-east-india">
+                                    <a href="synergy-for-energy-challenges-and-opportunities-in-north-east-india">
                                         <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
                                             src="demo-assets/big-events/4.png" alt="">
-                                    </a> --}}
+                                    </a>
                                 </div>
 
-                                {{-- <div class="swiper-slide">
+                                <div class="swiper-slide">
                                     <a href="/mobile-assets/convo-slider/ICSSSM 2025_Brochure.pdf">
                                         <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
                                             src="/mobile-assets/convo-slider/international-2.jpg" alt="">
                                     </a>
-                                </div> --}}
+                                </div>
 
                             </div>
 
@@ -1058,9 +1026,9 @@
 
                     <script>
                         const myImageSlider = new Swiper('.myImageSlider', {
-                            slidesPerView: 3, // show 3 images
-                            spaceBetween: 20, // spacing
-                            slidesPerGroup: 1, // scroll 1 at a time
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                            slidesPerGroup: 1,
                             loop: true,
                             autoplay: {
                                 delay: 2500,
@@ -1073,22 +1041,22 @@
                             breakpoints: {
                                 0: {
                                     slidesPerView: 1
-                                }, // mobile
+                                },
                                 768: {
                                     slidesPerView: 2
-                                }, // tablet
+                                },
                                 1024: {
                                     slidesPerView: 3
-                                } // desktop
+                                }
                             }
                         });
                     </script>
 
+                </section> --}}
+
+                <section>
+                   <a href="bioe3-conference"><img src="/mobile-assets/confrence/bio3-banner.jpg"/></a>
                 </section>
-
-
-
-
 
                 <!--New Events-->
                 <div class="container" style="padding: 30px 0px;">
@@ -1101,11 +1069,6 @@
                                 </h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
-                                    <img class="zoomable" src="mobile-assets/events/air.png"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="mobile-assets/events/sitar.jpg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-
                                     <img class="zoomable" src="mobile-assets/events/techer.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="mobile-assets/events/spot12.png"
@@ -1223,6 +1186,28 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="/mobile-assets/media-corner/news62/2.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
+                                                    class="pt-2 m-0 fw-bold">Country Needs Independent Judiciary Insulated from External Pressures: SC Judge Ujjal Bhuyan</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 15,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/country-needs-independent-judiciary-insulated-from-external-pressures-sc-judge-ujjal-bhuyan">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
@@ -1264,31 +1249,6 @@
                                                 </a>
                                             </div>
                                         </div>
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="/mobile-assets/media-corner/news59/41.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                    class="pt-2 m-0 fw-bold">Create a Forest in Every District in Memory of Zubeen Garg: Forest Man of India Payeng tells at RGU Botany Fest</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 10,
-                                                    2025
-                                                </p>
-                                                <a
-                                                    href="/create-a-forest-in-every-district-in-memory-of-zubeen-garg-forest-man-of-india-payeng-tells-at-rgu-botany-fest">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-
-
-
 
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">
