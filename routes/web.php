@@ -4619,6 +4619,10 @@ Route::get('/faculty-tanjeela-mehboob', function () {
 
 //RSLA Facuilty Profile
 
+Route::get('/faculty-bhavana-sharma', function () {
+    return view('frontend/facultyprofile/rsla/bhavana-sharma');
+})->name('faculty-bhavana-sharma');
+
 Route::get('/faculty-meghna-borah', function () {
     return view('frontend/facultyprofile/rsla/meghna-borah');
 })->name('faculty-meghna-borah');
@@ -4784,6 +4788,14 @@ Route::get('/faculty-upasana-sharma', function () {
 })->name('faculty-upasana-sharma');
 
 //RSN Facuilty Profile
+
+Route::get('/faculty-sandipta-ghosh', function () {
+    return view('frontend/facultyprofile/rsn/sandipta-ghosh');
+})->name('faculty-sandipta-ghosh');
+
+Route::get('/faculty-kallabi-borah', function () {
+    return view('frontend/facultyprofile/rsn/kallabi-borah');
+})->name('faculty-kallabi-borah');
 
 Route::get('/faculty-momi-dehingia', function () {
     return view('frontend/facultyprofile/rsn/momi-dehingia');

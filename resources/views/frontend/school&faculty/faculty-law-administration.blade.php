@@ -145,7 +145,7 @@
                             </div>
                             <h3 class="card-name">Prof. Bhavana Sharma</h3>
                             <p class="card-designation">Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-ajit-kaushal" class="profile-link">View Profile</a> --}}
+                            <a href="faculty-bhavana-sharma" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

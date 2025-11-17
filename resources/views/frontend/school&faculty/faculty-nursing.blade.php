@@ -267,7 +267,7 @@
                             </div>
                             <h3 class="card-name">Dr. Kallabi Borah</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-bhanita-barman" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-kallabi-borah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
