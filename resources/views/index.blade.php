@@ -1055,7 +1055,15 @@
                 </section> --}}
 
                 <section>
-                   <a href="bioe3-conference"><img src="/mobile-assets/confrence/bio3-banner.jpg"/></a>
+                    <div class="row p-3">
+                        <div class="col-lg-6">
+                            <a href="bioe3-conference"><img style="border: 1px solid black" src="/mobile-assets/TRY/sq-2.jpg"/></a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="https://www.rgu.ac/ncmpac-2026"><img style="border: 1px solid black" src="/mobile-assets/TRY/sq-1.jpg"/></a>
+                        </div>
+                    </div>
+
                 </section>
 
                 <!--New Events-->
