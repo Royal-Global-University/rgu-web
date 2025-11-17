@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Sangeet Natak Akademi and Royal Global University jointly commemorate Sudhakantha & his Contributions',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 16, 2025:',
+                            'link' => 'sangeet-natak-akademi-and-royal-global-university-jointly-commemorate-sudhakantha-his-contributions',
+                            'image' => '/mobile-assets/media-corner/news62/691.jpg',
+                            'content' => 'The Department of English, The Assam Royal Global University (RGU), in collaboration with Sangeet Natak Akademi, New Delhi, organised “Reminiscing Sudhakantha: A Colloquium on His Life and Variegated Contributions” to commemorate the birth centenary of Dr Bhupen Hazarika.',
+                        ],
+                        [
                             'title' => 'Country Needs Independent Judiciary Insulated from External Pressures: SC Judge Ujjal Bhuyan',
                             'summary' => 'Supreme Court Judge Addresses RGU Law Students on Opportunities for the Next Generation',
                             'date' => 'Guwahati, November 15, 2025:',

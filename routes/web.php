@@ -3015,6 +3015,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/sangeet-natak-akademi-and-royal-global-university-jointly-commemorate-sudhakantha-his-contributions', function () {
+    return view('frontend/media-corner/news69');
+})->name('sangeet-natak-akademi-and-royal-global-university-jointly-commemorate-sudhakantha-his-contributions');
+
 Route::get('/country-needs-independent-judiciary-insulated-from-external-pressures-sc-judge-ujjal-bhuyan', function () {
     return view('frontend/media-corner/news68');
 })->name('country-needs-independent-judiciary-insulated-from-external-pressures-sc-judge-ujjal-bhuyan');
