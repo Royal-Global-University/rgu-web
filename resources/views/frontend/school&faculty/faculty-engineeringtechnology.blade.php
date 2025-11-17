@@ -150,7 +150,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Deepjyoti-Choudhury-RSIT.png"
+                                <img src="mobile-assets/updated-faculty-img/deepjyoti.jpg"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Deepjyoti Choudhury</h3>
