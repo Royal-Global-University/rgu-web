@@ -97,8 +97,16 @@
                             Body</a></li>
                     <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('board-of-management') }}">Board
                             of Management</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('academic-council') }}">Academic
+                    <li><a class="mobile-para1" style="color: #27467A;"
+                            href="{{ route('academic-council') }}">Academic
                             Council</a></li>
+                    <li><a class="dropdown-item text-dark para1"
+                            href="{{ route('internal-complaints-committee') }}">Internal Complaints Committee</a></li>
+                    <li><a class="dropdown-item text-dark para1"
+                            href="{{ route('university-research-committee') }}">University Research Committee</a></li>
+                    <li><a class="dropdown-item text-dark para1"
+                            href="{{ route('institutional-ethical-committee') }}">Institutional Ethical
+                            Committee (IEC)</a></li>
                 </ul>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('finance-committee') }}">
                     <li>Finance Committee</li>
@@ -140,7 +148,7 @@
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('multi-disciplinary') }}">
                     <li>Multidisciplinary/<br>
-                    Interdisciplinary Courses</li>
+                        Interdisciplinary Courses</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('achievements') }}">
                     <li>Achievements</li>
@@ -163,7 +171,8 @@
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('teaching-practice') }}">
                     <li>Teaching Practices</li>
                 </a>
-                <a class="mobile-para1" style="color: #27467A;" href="{{ route('human-resource-development-centre') }}">
+                <a class="mobile-para1" style="color: #27467A;"
+                    href="{{ route('human-resource-development-centre') }}">
                     <li>Royal Centre for Human Resource Development (RCHRD)</li>
                 </a>
             </ul>
@@ -278,21 +287,26 @@
                 </li>
                 <!-- Amenities Submenu -->
                 <ul class="submenu mobile-para1" id="amenities" style="padding-left: 20px;">
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('banking-services') }}">Banking
+                    <li><a class="mobile-para1" style="color: #27467A;"
+                            href="{{ route('banking-services') }}">Banking
                             Service</a></li>
                     <li><a class="mobile-para1" style="color: #27467A;"
                             href="{{ route('department-store') }}">Department Store</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('hangout') }}">1st Hangouts</a>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('hangout') }}">1st
+                            Hangouts</a>
                     </li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('medical-facility') }}">Medical
+                    <li><a class="mobile-para1" style="color: #27467A;"
+                            href="{{ route('medical-facility') }}">Medical
                             Facility</a></li>
                     <li><a class="mobile-para1" style="color: #27467A;"
                             href="{{ route('counselling-cell') }}">Counselling Cell</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('laundry') }}">Laundry</a></li>
+                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('laundry') }}">Laundry</a>
+                    </li>
                     <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('salon') }}">Salon</a></li>
                     <li><a class="mobile-para1" style="color: #27467A;"
                             href="{{ route('stationary-store') }}">Stationary Store</a></li>
-                    <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('student-gallery') }}">Student
+                    <li><a class="mobile-para1" style="color: #27467A;"
+                            href="{{ route('student-gallery') }}">Student
                             Gallery</a></li>
                     <li><a class="mobile-para1" style="color: #27467A;" href="{{ route('guest-house') }}">Guest
                             House</a></li>
@@ -308,7 +322,8 @@
                 <ul class="submenu mobile-para1" id="events" style="padding-left: 20px;">
                     <li><a class="happy-happening-campus" style="color: #27467A;"
                             href="{{ route('happy-happening') }}">Happy & Happening Campus</a></li>
-                    <li><a class="Royal_Fests" style="color: #27467A;" href="{{ route('royal-fests') }}">Royal Fests</a>
+                    <li><a class="Royal_Fests" style="color: #27467A;" href="{{ route('royal-fests') }}">Royal
+                            Fests</a>
                     </li>
                 </ul>
 

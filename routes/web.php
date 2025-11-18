@@ -278,6 +278,9 @@ Route::get('/honoris-causa', function () {
     return view('frontend/discoverRGU/hall-of-fame');
 })->name('honoris-causa');
 
+Route::get('/institutional-ethical-committee', function () {
+    return view('frontend/discoverRGU/institutional-ethical-committee');
+})->name('institutional-ethical-committee');
 
 //All Facilities
 
@@ -4706,6 +4709,10 @@ Route::get('/faculty-bhupali-saikia', function () {
 })->name('faculty-bhupali-saikia');
 
 //RSB Facuilty Profile
+
+Route::get('/faculty-rishabh-goswami', function () {
+    return view('frontend/facultyprofile/rsb/rishabh-goswami');
+})->name('faculty-rishabh-goswami');
 
 Route::get('/faculty-roshni-saikia', function () {
     return view('frontend/facultyprofile/rsb/roshni');

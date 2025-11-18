@@ -3038,7 +3038,7 @@
                                             <td>12.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">B.Sc. - Food Science & Technology</strong>
+                                                    <strong style="color: #023e8a;" class="#">B.Sc. (H) Food Science and Technology</strong>
                                                     <br>
                                                     <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 4
@@ -6926,7 +6926,7 @@
                                             <td>12.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">B.Sc. - Food Science & Technology</strong>
+                                                    <strong style="color: #023e8a;" class="#">B.Sc. (H) Food Science and Technology</strong>
                                                     <br>
                                                     <a href="#"
                                                         class="text-primary"><span style="font-size: 16px;">Duration: 4

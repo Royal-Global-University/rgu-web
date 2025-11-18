@@ -26,11 +26,13 @@
                                         Team</a></li>
                                 <li><a class="dropdown-item text-dark para1"
                                         href="{{ route('advisory-leadership') }}">Advisory Leadership</a></li>
+                                <li><a class="dropdown-item text-dark para1" href="{{ route('deans') }}">Deans’
+                                        Corner</a></li>
                                 <li><a class="dropdown-item text-dark para1"
-                                        href="{{ route('deans') }}">Deans’ Corner</a></li>
-                                        <li><a class="dropdown-item text-dark para1" href="{{ route('chief-vigilance-officer') }}">Chief Vigilance Officer</a>
-                                        </li>
-                                <li><a class="dropdown-item text-dark para1" href="{{ route('ombudsperson') }}">Ombudsperson</a>
+                                        href="{{ route('chief-vigilance-officer') }}">Chief Vigilance Officer</a>
+                                </li>
+                                <li><a class="dropdown-item text-dark para1"
+                                        href="{{ route('ombudsperson') }}">Ombudsperson</a>
                                 </li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('vision-mission') }}">Vision
                                         and Mission</a></li>
@@ -87,17 +89,24 @@
                                         <li><a class="dropdown-item text-dark para1"
                                                 href="{{ route('internal-complaints-committee') }}">Internal Complaints
                                                 Committee</a></li>
-                                        <li><a class="dropdown-item text-dark para1" href="{{ route('university-research-committee') }}">University Research
+                                        <li><a class="dropdown-item text-dark para1"
+                                                href="{{ route('university-research-committee') }}">University Research
                                                 Committee</a></li>
+                                        <li><a class="dropdown-item text-dark para1"
+                                                href="{{ route('institutional-ethical-committee') }}">Institutional
+                                                Ethical
+                                                Committee (IEC)</a></li>
                                     </ul>
                                 </li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('anti-ragging') }}">Anti
                                         Ragging <br> Committee</a></li>
-                                <li><a class="dropdown-item text-dark para1" href="{{ route('proctorial') }}">Proctorial
+                                <li><a class="dropdown-item text-dark para1"
+                                        href="{{ route('proctorial') }}">Proctorial
                                         Board</a></li>
                                 <li><a class="dropdown-item text-dark para1"
                                         href="{{ route('organogram-planning') }}">Organogram and <br> Planning</a></li>
-                                <li><a class="dropdown-item text-dark para1" href="{{ route('self-disclosure') }}">Public Self Disclosure</a></li>
+                                <li><a class="dropdown-item text-dark para1"
+                                        href="{{ route('self-disclosure') }}">Public Self Disclosure</a></li>
                             </div>
                         </div>
                     </ul>
@@ -125,7 +134,8 @@
                                         style="font-size: 17px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Multidisciplinary/<br>
                                         Interdisciplinary Courses</a>
                                 </li>
-                                <li><a class="dropdown-item text-dark para1" href="{{ route('net-set-gate-coaching') }}"
+                                <li><a class="dropdown-item text-dark para1"
+                                        href="{{ route('net-set-gate-coaching') }}"
                                         style="font-size: 17px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">NET/SET/GATE<br>
                                         Coaching</a> </li>
 
@@ -177,7 +187,8 @@
                         <li><a class="dropdown-item text-dark para1" href="{{ route('faq') }}"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Admission
                                 FAQs</a></li>
-                        <li><a class="dropdown-item text-dark para1" target="_blank" href="https://admissions.rgu.ac/"
+                        <li><a class="dropdown-item text-dark para1" target="_blank"
+                                href="https://admissions.rgu.ac/"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Apply
                                 Now!</a></li>
                         <li><a class="dropdown-item text-dark para1" href="admission-programs-fees-structure"
@@ -199,7 +210,8 @@
                                 and Funding</a>
                             <ul class="dropdown-menu"
                                 style="display: none; position: absolute; top: 0; left: 100%; background: white; opacity: 0; transform: translateX(10px); transition: opacity 0.3s ease, transform 0.3s ease;">
-                                <li><a class="dropdown-item text-dark para1" href="{{ route('scholarship&funding') }}"
+                                <li><a class="dropdown-item text-dark para1"
+                                        href="{{ route('scholarship&funding') }}"
                                         style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Scholarships</a>
                                 </li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('deans-listers') }}"
@@ -222,16 +234,21 @@
                     <ul class="dropdown-menu"
                         style="display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 300px; border-top: 3px solid #e68900;">
 
-                    <li><a class="dropdown-item text-dark para1" href="{{ route('convocation-fifth') }}"
-                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">5th Convocation</a></li>
+                        <li><a class="dropdown-item text-dark para1" href="{{ route('convocation-fifth') }}"
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">5th
+                                Convocation</a></li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('convocation-fourth') }}"
-                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">4th Convocation</a></li>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">4th
+                                Convocation</a></li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('convocation-third') }}"
-                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">3rd Convocation</a></li>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">3rd
+                                Convocation</a></li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('convocation-second') }}"
-                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">2nd Convocation</a></li>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">2nd
+                                Convocation</a></li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('convocation-first') }}"
-                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">1st Convocation</a></li>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">1st
+                                Convocation</a></li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('honoris-causa') }}"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">Honoris
                                 Causa - Hall of Fame
@@ -248,7 +265,8 @@
 
                 <!-- Campus Life with Submenu -->
                 <li class="nav-item dropdown" style="position: relative;">
-                    <a class="nav-link dropdown-toggle para1" href="#" style="color: #000000; font-weight: 600; font-size: 17px;">Campus
+                    <a class="nav-link dropdown-toggle para1" href="#"
+                        style="color: #000000; font-weight: 600; font-size: 17px;">Campus
                         Life</a>
                     <ul class="dropdown-menu"
                         style="display: none; position: absolute; top: 100%; left: -40%; background: white; border-radius: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); transition: opacity 0.3s ease, transform 0.3s ease; opacity: 0; transform: translateY(10px); width: 250px; border-top: 3px solid #e68900;">
@@ -354,8 +372,9 @@
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Facilities Available</a>
                         </li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('placements-process') }}"
-                                style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Placement Process</a></li>
-                         <li><a class="dropdown-item text-dark para1" href="{{ route('placements-members') }}"
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px;">Placement Process</a>
+                        </li>
+                        <li><a class="dropdown-item text-dark para1" href="{{ route('placements-members') }}"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">RCCR
                                 Members</a></li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('placements-events') }}"
@@ -387,13 +406,15 @@
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px;">FRRO Process</a></li>
                         <li><a class="dropdown-item text-dark para1"
                                 href="https://heyzine.com/flip-book/adfd7889ba.html"
-                                style="font-size: 18px; font-weight: 500; padding: 6px 20px;">International Brochure</a>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px;">International
+                                Brochure</a>
                         </li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('how-to-apply-international') }}"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px;">How to Apply?</a></li>
                         <li><a class="dropdown-item text-dark para1"
                                 href="{{ route('international-student-helpline') }}"
-                                style="font-size: 18px; font-weight: 500; padding: 6px 20px;">International Student <br>
+                                style="font-size: 18px; font-weight: 500; padding: 6px 20px;">International Student
+                                <br>
                                 Helpline</a></li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('campus-job') }}"
                                 style="font-size: 18px; font-weight: 500; padding: 6px 20px;">On Campus Job</a></li>
