@@ -1,3032 +1,2379 @@
 @extends('frontend.master')
 @section('title', 'Eligibility & selection criteria : The Assam Royal Global University')
-@section('meta_description', 'Discover the eligibility requirements and selection criteria for various programs at Royal Global University, including academic qualifications, entrance exams, and interview processes for admission.')
+@section('meta_description',
+    'Discover the eligibility requirements and selection criteria for various programs at Royal
+    Global University, including academic qualifications, entrance exams, and interview processes for admission.')
 @section('meta_keywords', 'Eligibility & selection criteria')
 @section('content')
-    <div>
-        <!--About Section-->
-        @include('frontend/components/aheader')
-        <div>
-            <img src="mobile-assets/admission-fee-and-programmee/web-admission-programme.png" alt="">
+    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
+
+        <div class="mobile" style="padding-top: 80px; position: relative;">
+
+            <img src="https://www.rgu.ac/mobile-assets/admission-fee-and-programmee/web-admission-programme.png"
+                alt="">
         </div>
 
-        <section style="background-color: #f2f2f2;" class="pt-5">
+        <div class="website">
+
+            <img src="https://www.rgu.ac/mobile-assets/admission-fee-and-programmee/web-admission-programme.png"
+                alt="">
+
+        </div>
+
+
+        <div class="section-f">
             <div class="container">
-                <div class="row pt-3">
-                    <div class="col-lg-6 pt-4">
-                        <h4 class="headd3 fw-bold text-dark">Search By Schools :</h4>
-                        <form class="d-flex w-100">
-                            <!--Copy and replace from here-->
-                            <select class="form-control me-2 shadow" id="schoolSelect" aria-label="Search">
-                                <option value="nothing">Select Course</option>
-                                <option value="nothing1">Integrated Civil Service Programme</option>
-                                <option value="nothing2">Royal School of Applied & Pure Sciences (RSAPS)</option>
-                                <option value="nothing3">Royal School of Architecture (RSA)</option>
-                                <option value="nothing4">Royal School of Behavioral & Allied Sciences (RSBAS)</option>
-                                <option value="nothing5">Royal School of Business (RSB)</option>
-                                <option value="nothing6">Royal School of Commerce (RSC)</option>
-                                <option value="nothing7">Royal School of Communications & Media (RSCOM)</option>
-                                <option value="nothing8">Royal School of Design (RSD)</option>
-                                <option value="nothing9">Royal School of Engineering & Technology (RSET)</option>
-                                <option value="nothing10">Royal School of Environmental & Earth Sciences (RSEES)</option>
-                                <option value="nothing11">Royal School of Fashion Design & Technology (RSFT)</option>
-                                <option value="nothing12">Royal School of Fine Arts (RSFA)</option>
-                                <option value="nothing13">Royal School of Hotel Management (RSHM)</option>
-                                <option value="nothing14">Royal School of Humanities &amp; Social Sciences (RSHSS)</option>
-                                <option value="nothing15">Royal School of Information Technology (RSIT)</option>
-                                <option value="nothing16">Royal School of Languages (RSL)</option>
-                                <option value="nothing17">Royal School of Library &amp; Information Sciences (RSLIS)
-                                </option>
-                                <option value="nothing18">Royal School of Law &amp; Administration(RSLA)</option>
-                                <option value="nothing19">Royal School of Life Sciences (RSLSC)</option>
-                                <option value="nothing20">Royal School of Medical &amp; Allied Sciences (RSMAS)</option>
-                                <option value="nothing21">Royal School of Nursing (RSN)</option>
-                                <option value="nothing22">Royal School of Pharmacy (RSP)</option>
-                                <option value="nothing23">Royal School of Travel Tourism Management (RSTTM)</option>
-                            </select>
-                            <!--Copy and replace till here-->
-                        </form>
-                    </div>
-                    <div class="col-lg-6 pt-4">
-                        <h4 class="headd3 fw-bold text-dark">Search By Courses :</h4>
-                        <form class="d-flex w-100"> <!-- Change to w-100 for full width -->
-                            <input class="form-control shadow" type="search" placeholder="Search..." aria-label="Search">
-                        </form>
-                    </div>
-                </div>
-            </div>
 
-            <div class="accordion container pt-5 pb-5" id="accordionExample">
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="para1 accordion-button text-white" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            Integrated Civil Service Programme
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">RGU Programme - Integrated with Civil Service
-                                Programme</p>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('ba-sociology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Sociology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('ba-Economics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Economics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('ba-Public-Administration')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Public Administration</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('ba-Political-Science')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Political Science</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('ba-History')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. History</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('bsc-Physics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Physics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Mathematics"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Mathematics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Chemistry"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Chemistry</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Geography"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geography</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="ba-Geography"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Geography</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Geology"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="ba-Psychology"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Psychology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Botany"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Botany</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="bsc-Zoology"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Zoology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="ba-English"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A English</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="para1 accordion-button text-white" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Royal School of Applied & Pure Sciences (RSAPS)
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">APPLIED & PURE SCIENCES</p>
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Physics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Physics</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Chemistry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Chemistry</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Mathematics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Mathematics</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 mt-3">
-                                    <a href="{{route('programs-b-sc-physics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Physics</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('bsc-Physics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Physics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
-                                                Service Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 mt-2">
-                                    <a href="{{route('programs-b-sc-chemistry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Chemistry</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 mt-3">
-                                    <a href="{{route('bsc-Chemistry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Chemistry</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-sc-mathematics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Mathematics</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('bsc-Mathematics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Mathematics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Physics</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Chemistry</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Mathematics</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Physics</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Chemistry</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Mathematics</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="para1 accordion-button text-white" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                            Royal School of Architecture (RSA)
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">ARCHITECTURE</p>
-
-                            <div class="row">
-
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-barch')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Arch.</p>
-                                            <p class="text-center text-white para1">5 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="para1 accordion-button collapsed text-white para1" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
-                            aria-controls="collapseFour">
-                            Royal School of Behavioral & Allied Sciences (RSBAS)
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">BEHAVIOURAL & ALLIED SCIENCES</p>
-
-                            <div class="row">
-
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MA-Psychology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MA Psychology</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MA-Clinical-Psychology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MA Clinical Psychology</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-BA-Psychology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BA Psychology</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-2">
-                                    <a href="{{route('ba-Psychology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Psychology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-BA-Applied-Psychology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BA Applied Psychology</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Psychology</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                            <br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Applied Psychology</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                            <br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Psychology</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                            <br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Applied Psychology
-                                            </p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingFive">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                            Royal School of Bio-sciences (RSBSC)
-                        </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">BIO-SCIENCES</p>
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Bio-Technology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Bio-technology</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-Msc-Microbiology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Microbiology</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Food-Technology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Food Technology</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-b-sc-bio-technology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Bio-technology</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-sc-microbiology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Microbiology</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-sc-food-technology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Food Technology</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Biotechnology</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Microbiology</p>
-                                            <p class="text-center text-white para1">2 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Food Technology</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Biotechnology</p>
-                                            <p class="text-center text-white para1">1 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Microbiology</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Food Technology</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingSix">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                            Royal School of Business (RSB)
-                        </button>
-                    </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">BUSINESS</p>
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MBA-Finance')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MBA Finance</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                            <br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MBA-Finance')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MBA Marketing</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                            <br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MBA-Finance')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MBA - HRM</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                            <br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MBA-Finance')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MBA - Operations Management</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-MBA-Finance')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MBA - Entrepreneurship & Small
-                                                Business
-                                                Management</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-MBA-Finance')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MBA - Business Analytics</p>
-                                            <p class="text-center text-white para1">2 Years</p> <br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Business Administration
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Business
-                                                Administration</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-BBA')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BBA</p>
-                                            <p class="text-center text-white para1">3/4 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingSeven">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                            Royal School of Commerce (RSC)
-                        </button>
-                    </h2>
-                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">COMMERCE</p>
-
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MCom')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Com.</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-bcom')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Com</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-bcom-morning-shift')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Com (Morning shift)</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-bcom-finance-with-ica')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Com - Finance with ICA</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Commerce (Morning Shift)
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Commerce (Day Shift)</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Commerce (Morning
-                                                Shift)
-                                            </p>
-                                            <p class="text-center text-white para1">1 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Commerce (Day Shift)
-                                            </p>
-                                            <p class="text-center text-white para1">1 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingEight">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
-                            Royal School of Communications & Media (RSCOM)
-                        </button>
-                    </h2>
-                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">COMMUNICATIONS & MEDIA</p>
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MA-J&MC')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MA J&MC</p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Animation-&-Visual-Effects')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Animation and Visual Effects
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-BA-J&MC')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BA J&MC</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-b-sc-animation-visual-effects')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Animation and Visual Effects
-                                            </p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in J& Mc</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Animation and Visual
-                                                Effects
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in J& Mc</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Animation and Visual
-                                                Effects</p>
-                                            <p class="text-center text-white para1">1 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingNine">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
-                            Royal School of Design (RSD)
-                        </button>
-                    </h2>
-                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">DESIGN</p>
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-BachelorInterior-DesignBID')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Interior Design (BID)
-                                            </p>
-                                            <p class="text-center text-white para1">4 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-Bachelor-of-Interior-Design-BID-Lateral-Entry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Interior Design (BID)
-                                                Lateral
-                                                Entry</p>
-                                            <p class="text-center text-white para1">3 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-Bachelor-of-Design-Communication-Design')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Communication
-                                                Design)
-                                                (B.Des. CD)
-                                            </p>
-                                            <p class="text-center text-white para1">4 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-Bachelor-of-Design-Graphic-Design')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Graphic Design)
-                                                (B.Des. GD)</p>
-                                            <p class="text-center text-white para1">4 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Product Design)
-                                                (B.Des. PD)</p>
-                                            <p class="text-center text-white para1">4 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-des-fd-fashion-design')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Fashion Design)
-                                                (B.Des. FD)</p>
-                                            <p class="text-center text-white para1">4 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-Bachelor-of-Design-Fashion-Design-Lateral-Entry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Fashion Design)
-                                                (B.Des. FD) Lateral Entry</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Interior Design</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Communication Design</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Graphic Design</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Product Design</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Interior Design</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEPP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Communication Design
-                                            </p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Graphic Design</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Product Design</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTen">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
-                            Royal School of Engineering & Technology (RSET)
-                        </button>
-                    </h2>
-                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">ENGINEERING & TECHNOLOGY</p>
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MTech-CSE-in-Artifical-Intelligence')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CSE - Artifical Intelligence
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MTech-CSE-in-Internet-of-Things')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CSE - IOT</p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MTech-CAD')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. - CAD
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MTech-CE-in-Water-Resources')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Water Resources
-                                                Development
-                                                & Management</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-MTech-CE-in-Structural-Engineering')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Structural Engineering
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-tech-cse')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (CSE)</p>
-                                            <p class="text-center text-white para1">4 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-tech-ce')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (CE)</p>
-                                            <p class="text-center text-white para1">4 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-tech-me')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (ME)</p>
-                                            <p class="text-center text-white para1">4 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-tech-lateral-entry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (CSE/ME/CE) Lateral Entry
-                                            </p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-tech-mechatronics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech. - Mechatronics</p>
-                                            <p class="text-center text-white para1">4 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-tech-artifical-intelligence-ai')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech. - Artifical Intelligence(AI)
-                                            </p>
-                                            <p class="text-center text-white para1">4 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-BTechWorking-Professional-CE-CSE')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Tech for Working Professional (CE
-                                                & CSE)</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingEleven">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
-                            Royal School of Environmental & Earth Sciences (RSEES)
-                        </button>
-                    </h2>
-                    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">ENVIRONMENTAL & EARTH SCIENCES</p>
-
-                            <div class="row">
-
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('programs-MSc-geography')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Geography</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('programs-MA-Geography')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MA Geography</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('programs-MSc-in-Geoinformatics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. in Geoinformatics
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('programs-MSc-Geology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Geology</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-BSc-Geography')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc./BA Geography</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('ba-Geography')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Geography</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('bsc-Geography')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geography</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-b-sc-geology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geology
-                                            </p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('bsc-Geology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Geography</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Geology</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Geography</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Geology</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTwelve">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
-                            Royal School of Fashion Design & Technology (RSFT)
-                        </button>
-                    </h2>
-                    <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">FASHION DESIGN & TECHNOLOGY</p>
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-b-des-fd-fashion-design')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Fashion Design)
-                                                (B.Des. FD)</p>
-                                            <p class="text-center text-white para1">4 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Fashion Design</p>
-                                            <p class="text-center text-white para1">2 Yr as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Fashion Design
-                                            </p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingThirteen">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
-                            Royal School of Fine Arts (RSFA)
-                        </button>
-                    </h2>
-                    <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">FINE ARTS</p>
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-Master-of-Fine-Arts-MFA')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Master of Fine Arts (MFA)</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-Bachelor-of-Fine-Arts-BFA')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Fine Arts (BFA)</p>
-                                            <p class="text-center text-white para1">4 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Fine Arts
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Fine Arts</p>
-                                            <p class="text-center text-white para1">1 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingFourteen">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
-                            Royal School of Agriculture (RSAG)
-                        </button>
-                    </h2>
-                    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">AGRICULTURE</p>
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('program-bsc-agriculture')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Agriculture</p>
-                                            <p class="text-center text-white para1">4 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingFifteen">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
-                            Royal School of Hotel Management (RSHM)
-                        </button>
-                    </h2>
-                    <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">HOTEL MANAGEMENT</p>
-
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-BA-HotelManagement')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc./BA - Hotel Management</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-BA-in-Culinary-Arts')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BA - Culinary Arts</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Hotel-Management')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Hotel Management/MHM
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-Bachelor-of-Hotel-Management-BHM')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Hotel Management (BHM)
-                                            </p>
-                                            <p class="text-center text-white para1">4 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Hotel Management</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Culinary Arts
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Hotel Management</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Culinary Arts
-                                            </p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingSixteen">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsesixsix" aria-expanded="true" aria-controls="collapsesixsix">
-                            Royal School of Humanities & Social Sciences (RSHSS)
-                        </button>
-                    </h2>
-                    <div id="collapsesixsix" class="accordion-collapse collapse" aria-labelledby="headingSixteen"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">HUMANITIES & SOCIAL SCIENCES</p>
-                            <div class="row">
-                                <div class="col-lg-3 mt-3">
-                                    <a href="{{route('programs-MA-Economics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MA - Economics</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 mt-3">
-                                    <a href="{{route('programs-MA-Sociology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MA - Sociology</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 mt-3">
-                                    <a href="{{route('programs-MSW')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MSW
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 mt-3">
-                                    <a href="{{route('programs-MA-Public-Administration')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MA - Public Administration</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-MA-Political-Science')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MA - Pol. Science</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-MA-History')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MA - History</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('program-ma-IKS')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MA - IKS</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-BA-Economics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BA - Economics</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 mt-3">
-                                    <a href="{{route('ba-Economics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Economics</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 mt-3">
-                                    <a href="{{route('programs-BA-Sociology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BA - Sociology</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 mt-3">
-                                    <a href="{{route('ba-sociology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Sociology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-BSW')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BSW</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-BA-Public-Administration')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BA - Public Administration</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('ba-Public-Administration')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Public Administration</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-BA-Political-Science')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BA - Pol. Science
-                                            </p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('ba-Political-Science')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. Political Science</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-BA-History')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BA - History
-                                            </p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 mt-3">
-                                    <a href="{{route('ba-History')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A. History</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Social Work</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Sociology</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Economics</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Public Administration</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in History</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Political Science</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Social Work</p>
-                                            <p class="text-center text-white para1">1 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Sociology
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Economics</p>
-                                            <p class="text-center text-white para1">1 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Public Administration
-                                            </p>
-                                            <p class="text-center text-white para1">1 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in History</p>
-                                            <p class="text-center text-white para1">1 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Political Science</p>
-                                            <p class="text-center text-white para1">1 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingSeventeen">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
-                            Royal School of Information Technology (RSIT)
-                        </button>
-                    </h2>
-                    <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">INFORMATION TECHNOLOGY</p>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MCA')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MCA</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-IT')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. (IT)</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-BCA')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BCA
-                                            </p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-BSc-IT')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. IT</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Computer Application</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Information Technology
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Computer Application
-                                            </p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Information
-                                                Technology</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingEighteen">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
-                            Royal School of Languages (RSL)
-                        </button>
-                    </h2>
-                    <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">LANGUAGES</p>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MA-English')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">MA - English</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-BA-English')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BA - English</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('ba-English')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.A English</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in English
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in English</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingNineteen">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseSeventeen" aria-expanded="true" aria-controls="collapseSeventeen">
-                            Royal School of Library & Information Sciences (RSLIS)
-                        </button>
-                    </h2>
-                    <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingNineteen"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">LIBRARY & INFORMATION SCIENCES</p>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-Master-of-Library&Information-Sciences')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Master of Library & Information
-                                                Sciences
-                                                (M.L.I.Sc.)</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTwenty">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseEighteen" aria-expanded="true" aria-controls="collapseEighteen">
-                            Royal School of Law & Administration (RSLA)
-                        </button>
-                    </h2>
-                    <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingTwenty"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">LAW & ADMINISTRATION</p>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-LLM-Morning-Shift')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">LLM Morning Shift</p>
-                                            <p class="text-center text-white para1">1 Year</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-LLM-Day-Shift')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">LLM Day Shift</p>
-                                            <p class="text-center text-white para1">1 Year</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('program-ba-bba-llb-hons')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">BA/BBA - LLB(Hons.)
-                                            </p>
-                                            <p class="text-center text-white para1">5 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('program-ba-llb-hons')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">LLB - (Hons.)</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTwentyOne">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen">
-                            Royal School of Life Sciences (RSLSC)
-                        </button>
-                    </h2>
-                    <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingTwentyOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">LIFE SCIENCES</p>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Botany')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Botany</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Zoology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Zoology</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Forestry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Forestry
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-ForensicScience')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Forensic Science</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-b-sc-botany')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Botany</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('bsc-Botany')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Botany</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-sc-zoology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Zoology</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pb-3">
-                                    <a href="{{route('bsc-Zoology')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Zoology</p>
-                                            <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil Service
-                                                Programme</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-sc-forensicScience')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Forensic Science</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-sc-forestry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Forestry</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Botany</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Zoology</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Forensic Science</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Forestry</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Botany</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Zoology</p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Forensic Science
-                                            </p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Forestry
-                                            </p>
-                                            <p class="text-center text-white para1">1 Yr as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTwentyTwo">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty">
-                            Royal School of Medical & Allied Sciences (RSMAS)
-                        </button>
-                    </h2>
-                    <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwentyTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">MEDICAL & ALLIED SCIENCES</p>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MasterofPhysiotherapyMPT')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Master of Physiotherapy (MPT)</p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Medical-Laboratory-MMLT')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Medical Laboratory
-                                                Technology
-                                                (MMLT)</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-MSc-Nutrition')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Nutrition and Dietetics
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                {{-- start --}}
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-msc-radiography-advance-imaging-tech')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Radiography and Advance Imaging Technology</p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('program-msc-emergency-critical-care')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Emergency & Critical Care
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-msc-dialysis')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Dialysis</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                                {{-- end --}}
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-M-Optometry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Optometry</p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-Bachelor-of-Physiotherapy-BPT')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Physiotherapy (BPT)</p>
-                                            <p class="text-center text-white para1">4.6 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-BachelorofPhysiotherapy')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Physiotherapy (BPT)
-                                                Lateral
-                                                Entry</p>
-                                            <p class="text-center text-white para1">3.6 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-bsc-Medical-technology-bmlt')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Medical Laboratory
-                                                Technology
-                                                (BMLT)</p>
-                                            <p class="text-center text-white para1">3+1 Year Internship</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-sc-medicaltechnologybmlt-lateral-entry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Medical Laboratory
-                                                Technology
-                                                (BMLT) Lateral Entry
-                                            </p>
-                                            <p class="text-center text-white para1">2+1 Year Internship</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-sc-dialysis')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Dialysis</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-Technology-OTT')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Operation Theatre Technology
-                                                (OTT)
-                                            </p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-sc-radiography')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Radiography and Advance
-                                                Imaging
-                                                Technology
-                                            </p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-sc-nutrition&dietetics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Nutrition and Dietetics</p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-bsc-in-emergency')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. in Emergency & Critical Care
-                                            </p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-optometry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B. Optometry</p>
-                                            <p class="text-center text-white para1">4 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-optometry-lateral-entry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B. Optometry - Lateral Entry
-                                            </p>
-                                            <p class="text-center text-white para1">3 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Physiotherapy
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Nutrition and Dietetics
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Optometry
-
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Medical Laboratory
-                                                Technology
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Dialysis Technology
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Operation Theatre
-                                                Technology
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Radiography & Advance
-                                                Imaging
-                                                Technology
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Emergency & Critical Care
-                                            </p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTwentyThree">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwentyOne" aria-expanded="true" aria-controls="collapseTwentyOne">
-                            Royal School of Nursing (RSN)
-                        </button>
-                    </h2>
-                    <div id="collapseTwentyOne" class="accordion-collapse collapse" aria-labelledby="headingTwentyThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">NURSING</p>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('program-msc-nursing-comm-mental')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Medical Surgical
-                                                Nursing
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('program-msc-nursing-comm-mental')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in OBE Nursing</p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('program-msc-nursing-comm-mental')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Child Health
-                                                Nursing
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('program-msc-nursing-comm-mental')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Mental Health
-                                                Nursing</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('program-msc-nursing-comm-mental')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Nursing in Community Health
-                                                Nursing
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-BSc-Nursing')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Nursing</p>
-                                            <p class="text-center text-white para1">4 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-General-Nursing-Midwifery')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">General Nursing & Midwifery (GNM)
-                                            </p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-BSc-Post-Basic')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Nursing (Post Basic)</p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTwentyFour">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwentyTwo" aria-expanded="true" aria-controls="collapseTwentyTwo">
-                            Royal School of Pharmacy (RSP)
-                        </button>
-                    </h2>
-                    <div id="collapseTwentyTwo" class="accordion-collapse collapse" aria-labelledby="headingTwentyFour"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">PHARMACY</p>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-D-Pharm')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">D.Pharm.</p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-M-Pharm-Pharmacognosy')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Pharm. in Pharmacognosy</p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-M-Pharm-Pharmaceutics')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Pharm. In Pharmaceutics
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p><br>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-M-Pharm-Pharmaceutical')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">M.Pharm. in Pharmaceutical Chemistry
-                                            </p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-pharm')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Pharm.</p>
-                                            <p class="text-center text-white para1">4 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a href="{{route('programs-b-pharm-lateral-entry')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Pharm. Lateral Entry</p>
-                                            <p class="text-center text-white para1">3 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-2">
-                    <h2 class="accordion-header" id="headingTwentyFive">
-                        <button style="font-size: 18px; background-color: #00465d;"
-                            class="accordion-button collapsed text-white para1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwentyThree" aria-expanded="true" aria-controls="collapseTwentyThree">
-                            Royal School of Travel Tourism Management (RSTTM)
-                        </button>
-                    </h2>
-                    <div id="collapseTwentyThree" class="accordion-collapse collapse" aria-labelledby="headingTwentyFive"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body" style="background-color: #fff;">
-                            <p class="m-0 pb-4 text-dark fw-bold para1">TRAVEL & TOURISM MANAGEMENT</p>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-Master-Travel&Tourism')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Master of Travel & Tourism
-                                                Management
-                                                (MTTM)</p>
-                                            <p class="text-center text-white para1">2 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-Bachelor-Travel')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Travel & Tourism
-                                                Management
-                                                (BTTM)</p>
-                                            <p class="text-center text-white para1">4 Years</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a href="{{route('programs-b-sc-ba-travel')}}"
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">B.Sc./BA Travel & Tourism Management
-                                            </p>
-                                            <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Diploma in Travel & Tourism
-                                                Management</p>
-                                            <p class="text-center text-white para1">2 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3 pt-3">
-                                    <a
-                                        class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
-                                        <div class="border p-2 rounded flex-grow-1" style="background-color: #006A67;">
-                                            <p class="m-0 p-0 text-white fw-bold para1">Certificate in Travel & Tourism
-                                                Management
-                                            </p>
-                                            <p class="text-center text-white para1">1 Yrs as per NEP</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!--End About-->
-        <!--this is script 1-->
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const searchInput = document.querySelector('input[type="search"]');
-
-                function debounce(func, timeout = 300) {
-                    let timer;
-                    return (...args) => {
-                        clearTimeout(timer);
-                        timer = setTimeout(() => func.apply(this, args), timeout);
-                    };
-                }
-
-                function handleSearch(e) {
-                    const searchTerm = e.target.value.trim().toLowerCase();
-
-                    // Reset when search is empty
-                    if (!searchTerm) {
-                        document.querySelectorAll('.accordion-item').forEach(school => {
-                            school.classList.remove('d-none');
-                            school.querySelectorAll('.col-lg-3').forEach(program => {
-                                program.classList.remove('d-none');
-                            });
-                            const collapse = school.querySelector('.accordion-collapse');
-                            bootstrap.Collapse.getInstance(collapse)?.hide();
-                        });
-                        return;
+                <style>
+                    /* Custom styles to replace inline styles */
+                    . {
+                        font-size: 18px;
+                        background-color: #00465d !important;
+                        /* !important is used to override Bootstrap's default button styles */
+                        color: #fff !important;
                     }
 
-                    document.querySelectorAll('.accordion-item').forEach(school => {
-                        let hasMatch = false;
-                        const programElements = school.querySelectorAll('.col-lg-3');
+                    ..collapsed {
+                        background-color: #00465d !important;
+                        color: #fff !important;
+                    }
 
-                        programElements.forEach(program => {
-                            const text = program.textContent.toLowerCase();
-                            if (text.includes(searchTerm)) {
-                                program.classList.remove('d-none');
-                                hasMatch = true;
-                            } else {
-                                program.classList.add('d-none');
-                            }
-                        });
+                    /* This makes the accordion dropdown icon white so it's visible */
+                    .::after {
+                        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+                    }
 
-                        if (hasMatch) {
-                            school.classList.remove('d-none');
-                            new bootstrap.Collapse(school.querySelector('.accordion-collapse'), { toggle: false }).show();
-                        } else {
-                            school.classList.add('d-none');
-                            new bootstrap.Collapse(school.querySelector('.accordion-collapse'), { toggle: false }).hide();
+                    .accordion-body-custom {
+                        background-color: #fff;
+                    }
+
+                    .course-card-custom {
+                        background-color: #006A67;
+                    }
+                </style>
+
+                <section class="pt-2">
+                    <div class="container">
+                        <div class="row pt-3">
+                            <div class="col-lg-6 pt-4 mobile-headd3">
+                                <h4 class="mobile-headd3 fw-bold text-dark">Search By Schools :</h4>
+                                <form class="d-flex w-100">
+                                    <select class="form-control me-2 shadow" id="schoolSelect" aria-label="Search">
+                                        <option value="nothing">Select School to Navigate...</option>
+                                        <option value="#collapseOne">Integrated Civil Service Programme</option>
+                                        <option value="#collapseTwo">Royal School of Applied & Pure Sciences (RSAPS)
+                                        </option>
+                                        <option value="#collapseThree">Royal School of Architecture (RSA)</option>
+                                        <option value="#collapseFour">Royal School of Behavioral & Allied Sciences (RSBAS)
+                                        </option>
+                                        <option value="#collapseSix">Royal School of Business (RSB)</option>
+                                        <option value="#collapseSeven">Royal School of Commerce (RSC)</option>
+                                        <option value="#collapseEight">Royal School of Communications & Media (RSCOM)
+                                        </option>
+                                        <option value="#collapseNine">Royal School of Design (RSD)</option>
+                                        <option value="#collapseTen">Royal School of Engineering & Technology (RSET)
+                                        </option>
+                                        <option value="#collapseEleven">Royal School of Environmental & Earth Sciences
+                                            (RSEES)</option>
+                                        <option value="#collapseTwelve">Royal School of Fashion Design & Technology (RSFT)
+                                        </option>
+                                        <option value="#collapseThirteen">Royal School of Fine Arts (RSFA)</option>
+                                        <option value="#collapseFourteen">Royal School of Agriculture (RSAG)</option>
+                                        <option value="#collapseFifteen">Royal School of Hotel Management (RSHM)</option>
+                                        <option value="#collapseSixteen">Royal School of Humanities & Social Sciences
+                                            (RSHSS)</option>
+                                        <option value="#collapseSeventeen">Royal School of Information Technology (RSIT)
+                                        </option>
+                                        <option value="#collapseEighteen">Royal School of Languages (RSL)</option>
+                                        <option value="#collapseNineteen">Royal School of Library & Information Sciences
+                                            (RSLIS)</option>
+                                        <option value="#collapseTwenty">Royal School of Law & Administration(RSLA)</option>
+                                        <option value="#collapseTwentyOne">Royal School of Life Sciences (RSLSC)</option>
+                                        <option value="#collapseTwentyTwo">Royal School of Medical & Allied Sciences (RSMAS)
+                                        </option>
+                                        <option value="#collapseTwentyThree">Royal School of Nursing (RSN)</option>
+                                        <option value="#collapseTwentyFour">Royal School of Pharmacy (RSP)</option>
+                                        <option value="#collapseTwentyFive">Royal School of Travel Tourism Management
+                                            (RSTTM)</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <div class="col-lg-6 pt-4 mobile-headd3">
+                                <h4 class="mobile-headd3 fw-bold text-dark">Search By Courses :</h4>
+                                <form class="d-flex w-100">
+                                    <input class="form-control shadow" type="search" id="courseSearchInput"
+                                        placeholder="Type to search courses..." aria-label="Search">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion container pt-5 pb-5" id="accordionExample">
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="para1 accordion-button collapsed text-white " type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    Integrated Civil Service Programme
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold">RGU Programme - Integrated with Civil
+                                        Service Programme</p>
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Sociology</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Economics</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Public Administration
+                                                    </p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Political Science</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. History</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Physics</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Mathematics</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Chemistry</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geography</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Geography</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geology</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A. Psychology</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Botany</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Zoology</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.A English</p>
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Integrated with Civil
+                                                        Service Programme</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                    aria-controls="collapseTwo">
+                                    Royal School of Applied & Pure Sciences (RSAPS)
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">APPLIED & PURE SCIENCES</p>
+
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-Physics"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Physics</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-Chemistry"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Chemistry</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-Mathematics"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Mathematics</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-b-sc-physics"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Physics</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 mt-2 course-col">
+                                            <a href="programs-b-sc-chemistry"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Chemistry</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-2 course-col">
+                                            <a href="programs-b-sc-mathematics"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Mathematics</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed text-white "
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
+                                    aria-controls="collapseThree">
+                                    Royal School of Architecture (RSA)
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">ARCHITECTURE</p>
+
+                                    <div class="row">
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-barch"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Arch.</p>
+                                                    <p class="text-center text-white para1">5 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class=" accordion-button collapsed text-white "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                    aria-expanded="true" aria-controls="collapseFour">
+                                    Royal School of Behavioral & Allied Sciences (RSBAS)
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">BEHAVIOURAL & ALLIED SCIENCES</p>
+
+                                    <div class="row">
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MA-Psychology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MA Psychology</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MA-Clinical-Psychology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MA Clinical Psychology</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-BA-Psychology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BA Psychology</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-BA-Applied-Psychology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BA Applied Psychology</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed text-white"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                    aria-expanded="true" aria-controls="collapseFive">
+                                    Royal School of Bio-sciences (RSBSC)
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">BIO-SCIENCES</p>
+
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-Bio-Technology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Biotechnology</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-Msc-Microbiology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Microbiology</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Bio-Science</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-b-sc-bio-technology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Biotechnology</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 mt-3 course-col">
+                                            <a href="programs-b-sc-microbiology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Microbiology</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 mt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Bio-Science</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed text-white  "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                    aria-expanded="true" aria-controls="collapseSix">
+                                    Royal School of Business (RSB)
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">BUSINESS</p>
+
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MBA-Finance"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA Finance</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MBA-Finance"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA Marketing</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MBA-Finance"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA - HRM</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MBA-Finance"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA - Operations Management
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-MBA-Finance"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA - Entrepreneurship &
+                                                        Small Business Management</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-MBA-Finance"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MBA - Business Analytics
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-BBA"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BBA</p>
+                                                    <p class="text-center text-white para1">3/4 Yr as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Executive MBA</p>
+                                                    <p class="text-center text-white para1">2 Yr as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed text-white"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                    aria-expanded="true" aria-controls="collapseSeven">
+                                    Royal School of Commerce (RSC)
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">COMMERCE</p>
+
+
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MCom"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Com</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-bcom-morning-shift"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Com - Morning Shift</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-bcom"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Com - Day Shift</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-bcom-finance-with-ica"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Com - Finance with ICA
+                                                    </p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 mt-3 course-col">
+                                            <a href="programs-bcom-finance-with-ica"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Com with ACCA</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 mt-3 course-col">
+                                            <a href="programs-bcom-finance-with-ica"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Com with CMA</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed text-white  "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                                    aria-expanded="true" aria-controls="collapseEight">
+                                    Royal School of Communications & Media (RSCOM)
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">COMMUNICATIONS & MEDIA</p>
+
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MA-J&MC"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MA J&MC</p>
+                                                    <p class="text-center text-white para1">2 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-Animation-&-Visual-Effects"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Animation and Visual
+                                                        Effects</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-BA-J&MC"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BA J&MC</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-b-sc-animation-visual-effects"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Animation and Visual
+                                                        Effects</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingNine">
+                                <button class="accordion-button collapsed text-white  "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine"
+                                    aria-expanded="true" aria-controls="collapseNine">
+                                    Royal School of Design (RSD)
+                                </button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">DESIGN</p>
+
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Interior Design
+                                                        (BID)</p>
+                                                    <p class="text-center text-white para1">4 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Interior Design
+                                                        (BID) Lateral
+                                                        Entry</p>
+                                                    <p class="text-center text-white para1">3 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design
+                                                        (Communication Design)
+                                                        (B.Des. CD)
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Graphic
+                                                        Design)
+                                                        (B.Des. GD)</p>
+                                                    <p class="text-center text-white para1">4 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Product
+                                                        Design)
+                                                        (B.Des. PD)</p>
+                                                    <p class="text-center text-white para1">4 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Fashion
+                                                        Design)
+                                                        (B.Des. FD)</p>
+                                                    <p class="text-center text-white para1">4 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Fashion
+                                                        Design)
+                                                        (B.Des. FD) Lateral Entry</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div style="padding: 10px 0px;">
+                                            <hr>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Fashion Design
+                                                        (FD)</p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Communication
+                                                        Design (CD)</p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Graphic Design
+                                                        (GD)</p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="#"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Product Design
+                                                        (PD)</p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingTen">
+                                <button class="accordion-button collapsed text-white  "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen"
+                                    aria-expanded="true" aria-controls="collapseTen">
+                                    Royal School of Engineering & Technology (RSET)
+                                </button>
+                            </h2>
+                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">ENGINEERING & TECHNOLOGY</p>
+
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MTech-CSE-in-Artifical-Intelligence"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CSE - Artifical
+                                                        Intelligence</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MTech-CSE-in-Internet-of-Things"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CSE - IOT</p>
+                                                    <p class="text-center text-white para1">2 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MTech-CE-in-Water-Resources"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Water
+                                                        Resources Development
+                                                        & Management</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MTech-CAD"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">
+                                                        M.Tech CE - CAD
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">
+                                                        M.Tech CE - CDC
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-MTech-CE-in-Structural-Engineering"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Tech. CE in Structural
+                                                        Engineering</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div style="padding: 10px 0px;">
+                                            <hr>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-tech-cse"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (CSE)</p>
+                                                    <p class="text-center text-white para1">4 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-tech-ce"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (CE)</p>
+                                                    <p class="text-center text-white para1">4 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-tech-me"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Tech. (ME)</p>
+                                                    <p class="text-center text-white para1">4 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-tech-artifical-intelligence-ai"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Tech. - Artifical
+                                                        Intelligence (AI)</p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-tech-lateral-entry"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">
+                                                        B.Tech - (Lateral Entry) - CE/CSE/ME/AI/Data Science
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-BTechWorking-Professional-CE-CSE"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">
+                                                        B.Tech for Working Professional (CE, CSE, ME)
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">
+                                                        B.Tech - Data Science
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingEleven">
+                                <button class="accordion-button collapsed text-white"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven"
+                                    aria-expanded="true" aria-controls="collapseEleven">
+                                    Royal School of Environmental & Earth Sciences (RSEES)
+                                </button>
+                            </h2>
+                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">ENVIRONMENTAL & EARTH SCIENCES</p>
+
+                                    <div class="row">
+
+                                        <div class="col-lg-3 pb-3 course-col">
+                                            <a href="programs-MSc-geography"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Geography</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pb-3 course-col">
+                                            <a href="programs-MA-Geography"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MA Geography</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pb-3 course-col">
+                                            <a href="programs-MSc-in-Geoinformatics"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. in Geoinformatics
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pb-3 course-col">
+                                            <a href="programs-MSc-Geology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Geology</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-BSc-Geography"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc./BA Geography</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-b-sc-geology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Geology
+                                                    </p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingTwelve">
+                                <button class="accordion-button collapsed text-white  "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve"
+                                    aria-expanded="true" aria-controls="collapseTwelve">
+                                    Royal School of Fashion Design & Technology (RSFT)
+                                </button>
+                            </h2>
+                            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">FASHION DESIGN & TECHNOLOGY</p>
+
+                                    <div class="row">
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-b-des-fd-fashion-design"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Design (Fashion
+                                                        Design) (B.Des. FD)</p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Master of Design (Fashion
+                                                        Design) (M.Des. FD)</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingThirteen">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen"
+                                    aria-expanded="true" aria-controls="collapseThirteen">
+                                    Royal School of Fine Arts (RSFA)
+                                </button>
+                            </h2>
+                            <div id="collapseThirteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">FINE ARTS</p>
+
+                                    <div class="row">
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-Master-of-Fine-Arts-MFA"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Master of Fine Arts (MFA)
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-Bachelor-of-Fine-Arts-BFA"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Fine Arts (BFA)
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingFourteen">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen"
+                                    aria-expanded="true" aria-controls="collapseFourteen">
+                                    Royal School of Agriculture (RSAG)
+                                </button>
+                            </h2>
+                            <div id="collapseFourteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">AGRICULTURE</p>
+
+                                    <div class="row">
+
+                                        <div class="col-lg-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Agriculture</p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Agriculture</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingFifteen">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen"
+                                    aria-expanded="true" aria-controls="collapseFifteen">
+                                    Royal School of Hotel Management (RSHM)
+                                </button>
+                            </h2>
+                            <div id="collapseFifteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">HOTEL MANAGEMENT</p>
+
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-BA-HotelManagement"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc./BA - Hotel Management
+                                                    </p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-BA-in-Culinary-Arts"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - Culinary Arts</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-Hotel-Management"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Hotel Management/MHM
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-Bachelor-of-Hotel-Management-BHM"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Hotel
+                                                        Management
+                                                        (BHM)</p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingSixteen">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen"
+                                    aria-expanded="true" aria-controls="collapseSixteen">
+                                    Royal School of Humanities & Social Sciences (RSHSS)
+                                </button>
+                            </h2>
+                            <div id="collapseSixteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">HUMANITIES & SOCIAL SCIENCES</p>
+                                    <div class="row">
+
+                                        <div class="col-lg-3 mt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - Indian Knowledge
+                                                        System (IKS)</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 mt-3 course-col">
+                                            <a href="programs-MA-Economics"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - Economics</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 mt-3 course-col">
+                                            <a href="programs-MA-Sociology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - Sociology</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 mt-3 course-col">
+                                            <a href="programs-MSW"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MSW
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 mt-3 course-col">
+                                            <a href="programs-MA-Public-Administration"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - Public Administration
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-MA-Political-Science"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - Pol. Science</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-MA-History"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - History</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-BA-Economics"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - Economics</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-BA-Sociology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - Sociology</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-BSW"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BSW</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-BA-Public-Administration"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - Public Administration
+                                                    </p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-BA-Political-Science"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - Pol. Science
+                                                    </p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-BA-History"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - History
+                                                    </p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingSeventeen">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen"
+                                    aria-expanded="true" aria-controls="collapseSeventeen">
+                                    Royal School of Information Technology (RSIT)
+                                </button>
+                            </h2>
+                            <div id="collapseSeventeen" class="accordion-collapse collapse"
+                                aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">INFORMATION TECHNOLOGY</p>
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MCA"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MCA</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-IT"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. (IT)</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-BCA"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BCA
+                                                    </p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-BSc-IT"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. IT</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingEighteen">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen"
+                                    aria-expanded="true" aria-controls="collapseEighteen">
+                                    Royal School of Languages (RSL)
+                                </button>
+                            </h2>
+                            <div id="collapseEighteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">LANGUAGES</p>
+                                    <div class="row">
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MA-English"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">MA - English</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-BA-English"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BA - English</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingNineteen">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen"
+                                    aria-expanded="true" aria-controls="collapseNineteen">
+                                    Royal School of Library & Information Sciences (RSLIS)
+                                </button>
+                            </h2>
+                            <div id="collapseNineteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">LIBRARY & INFORMATION SCIENCES</p>
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-Master-of-Library&Information-Sciences"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">
+                                                        Master of Library & Information Sciences (MLISc)
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingTwenty">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwenty"
+                                    aria-expanded="true" aria-controls="collapseTwenty">
+                                    Royal School of Law & Administration (RSLA)
+                                </button>
+                            </h2>
+                            <div id="collapseTwenty" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwenty" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">LAW & ADMINISTRATION</p>
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-LLM-Morning-Shift"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">LLM Morning Shift</p>
+                                                    <p class="text-center text-white para1">1 Year</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-LLM-Day-Shift"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">LLM Day Shift</p>
+                                                    <p class="text-center text-white para1">1 Year</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="program-ba-bba-llb-hons"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">BA/BBA - LLB (Hons.)
+                                                    </p>
+                                                    <p class="text-center text-white para1">5 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="program-ba-llb-hons"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">LLB - (Hons.)</p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingTwentyOne">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyOne"
+                                    aria-expanded="true" aria-controls="collapseTwentyOne">
+                                    Royal School of Life Sciences (RSLSC)
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyOne" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">LIFE SCIENCES</p>
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-Botany"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Botany</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-Zoology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Zoology</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-Forestry"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Forestry
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-ForensicScience"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. Forensic Science</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-b-sc-botany"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Botany</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-sc-zoology"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Zoology</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-sc-forensicScience"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Forensic Science</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="https://www.rgu.ac/programs-b-sc-forestry"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Forestry</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingTwentyTwo">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyTwo"
+                                    aria-expanded="true" aria-controls="collapseTwentyTwo">
+                                    Royal School of Medical & Allied Sciences (RSMAS)
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyTwo" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">MEDICAL & ALLIED SCIENCES</p>
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MasterofPhysiotherapyMPT"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Master of Physiotherapy
+                                                        (MPT)</p>
+                                                    <p class="text-center text-white para1">2 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-Medical-Laboratory-MMLT"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Medical Laboratory
+                                                        Technology
+                                                        (MMLT)</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-MSc-Nutrition"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Sc. - Nutrition and
+                                                        Dietetics
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-M-Optometry"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Optometry</p>
+                                                    <p class="text-center text-white para1">2 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-Bachelor-of-Physiotherapy-BPT"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Physiotherapy
+                                                        (BPT)</p>
+                                                    <p class="text-center text-white para1">4.6 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-BachelorofPhysiotherapy"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor of Physiotherapy
+                                                        (BPT) Lateral
+                                                        Entry</p>
+                                                    <p class="text-center text-white para1">3.6 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-bsc-Medical-technology-bmlt"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Medical Laboratory
+                                                        Technology
+                                                        (BMLT)</p>
+                                                    <p class="text-center text-white para1">3+1 Year Internship</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-sc-medicaltechnologybmlt-lateral-entry"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Medical Laboratory
+                                                        Technology
+                                                        (BMLT) Lateral Entry
+                                                    </p>
+                                                    <p class="text-center text-white para1">2+1 Year Internship</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-sc-dialysis"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Dialysis</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-Technology-OTT"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Operation Theatre
+                                                        Technology (OTT)
+                                                    </p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-sc-radiography"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Radiography and
+                                                        Advance Imaging
+                                                        Technology
+                                                    </p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-sc-nutrition&dietetics"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. - Nutrition and
+                                                        Dietetics</p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-bsc-in-emergency"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. in Emergency &
+                                                        Critical Care
+                                                    </p>
+                                                    <p class="text-center text-white para1">3/4 Yrs as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-optometry"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B. Optometry</p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-b-optometry-lateral-entry"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B. Optometry - Lateral
+                                                        Entry
+                                                    </p>
+                                                    <p class="text-center text-white para1">3 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - MEDICAL
+                                                        RADIOLOGY AND IMAGING TECHNOLOGY
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - ANAESTHESIA AND
+                                                        OPERATION THEATRE TECHNOLOGY
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - MEDICAL
+                                                        LABORATORY SCIENCE- BMLS
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - Dialysis
+                                                        Therapy Technology
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - Emergency Care
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Bachelor - Food Science &
+                                                        Technology
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - MEDICAL RADIOLOGY
+                                                        AND IMAGING TECHNOLOGY
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - ANAESTHESIA &
+                                                        OPERATION THEATRE TECHNOLOGY
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - Dialysis Therapy
+                                                        Technology
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - Emergency Care
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - Food Science &
+                                                        Technology
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">Master - Medical
+                                                        Laboratory Science- MMLS
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingTwentyThree">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyThree"
+                                    aria-expanded="true" aria-controls="collapseTwentyThree">
+                                    Royal School of Nursing (RSN)
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyThree" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">NURSING</p>
+                                    <div class="row">
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-BSc-Nursing"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Sc. Nursing</p>
+                                                    <p class="text-center text-white para1">4 Years</p><br>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-General-Nursing-Midwifery"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">General Nursing &
+                                                        Midwifery
+                                                    </p>
+                                                    <p class="text-center text-white para1">3.5 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingTwentyFour">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyFour"
+                                    aria-expanded="true" aria-controls="collapseTwentyFour">
+                                    Royal School of Pharmacy (RSP)
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyFour" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">PHARMACY</p>
+                                    <div class="row">
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-b-pharm"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">B.Pharm.</p>
+                                                    <p class="text-center text-white para1">4 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-D-Pharm"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">D.Pharm.
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-M-Pharm-Pharmaceutical"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">M.Pharm. - Pharmaceutical
+                                                        Chemistry
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-M-Pharm-Pharmaceutics"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">
+                                                        M.Pharm - Pharmaceutics
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 pt-3 course-col">
+                                            <a href="programs-M-Pharm-Pharmacognosy"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">
+                                                        M.Pharm -Pharmacognosy
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="headingTwentyFive">
+                                <button class="accordion-button collapsed text-white para1 "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyFive"
+                                    aria-expanded="true" aria-controls="collapseTwentyFive">
+                                    Royal School of Travel Tourism Management (RSTTM)
+                                </button>
+                            </h2>
+                            <div id="collapseTwentyFive" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-body-custom">
+                                    <p class="m-0 pb-4 text-dark fw-bold para1">TRAVEL & TOURISM MANAGEMENT</p>
+                                    <div class="row">
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-b-sc-ba-travel"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">
+                                                        B.Sc./BA Travel & Tourism Management
+                                                    </p>
+                                                    <p class="text-center text-white para1">4 Years as per NEP</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-3 course-col">
+                                            <a href="programs-Master-Travel&Tourism"
+                                                class="text-center text-dark fw-bold d-flex align-items-center justify-content-center">
+                                                <div class="border p-2 rounded flex-grow-1 course-card-custom">
+                                                    <p class="m-0 p-0 text-white fw-bold para1">
+                                                        Master of Travel & Tourism Management - MTTM
+                                                    </p>
+                                                    <p class="text-center text-white para1">2 Years</p>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <script>
+                    // Wait for the full page to load before running the script
+                    document.addEventListener('DOMContentLoaded', function() {
+
+                        // --- 1. DROPDOWN NAVIGATION FUNCTIONALITY ---
+                        const schoolSelect = document.getElementById('schoolSelect');
+                        if (schoolSelect) {
+                            schoolSelect.addEventListener('change', function(e) {
+                                const targetId = e.target.value;
+                                // Check if it's a valid selection and not the placeholder
+                                if (targetId && targetId !== 'nothing') {
+                                    const targetPanel = document.querySelector(targetId);
+                                    const targetButton = document.querySelector(`[data-bs-target="${targetId}"]`);
+
+                                    if (targetPanel && targetButton) {
+                                        // Use Bootstrap's JavaScript API to open the panel
+                                        const bsCollapse = new bootstrap.Collapse(targetPanel, {
+                                            toggle: false // Ensure it just shows, doesn't toggle
+                                        });
+                                        bsCollapse.show();
+
+                                        // Scroll the page smoothly to the opened section
+                                        targetButton.scrollIntoView({
+                                            behavior: 'smooth',
+                                            block: 'start'
+                                        });
+                                    }
+                                }
+                            });
+                        }
+
+                        // --- 2. LIVE SEARCH FUNCTIONALITY ---
+                        const searchInput = document.getElementById('courseSearchInput');
+                        if (searchInput) {
+                            searchInput.addEventListener('input', function(e) {
+                                // Get the search term, convert to lowercase, and remove extra spaces
+                                const searchTerm = e.target.value.toLowerCase().trim();
+                                const accordions = document.querySelectorAll('.accordion-item');
+
+                                // Loop over every accordion item (i.e., every school)
+                                accordions.forEach(item => {
+                                    let accordionHasMatch = false;
+                                    // Find all course columns *within this accordion item*
+                                    const courseCols = item.querySelectorAll('.course-col');
+
+                                    // Loop over all courses in this school
+                                    courseCols.forEach(col => {
+                                        const cardText = col.textContent.toLowerCase();
+
+                                        // If course text includes the search term, show it
+                                        if (cardText.includes(searchTerm)) {
+                                            col.style.display = ''; // Show column
+                                            accordionHasMatch =
+                                                true; // Mark this school as having a match
+                                        } else {
+                                            // Otherwise, hide the course
+                                            col.style.display = 'none'; // Hide column
+                                        }
+                                    });
+
+                                    // After checking all courses, decide if we show the *entire school*
+                                    if (accordionHasMatch || searchTerm === '') {
+                                        item.style.display = ''; // Show school
+                                    } else {
+                                        item.style.display = 'none'; // Hide school
+                                    }
+                                });
+                            });
                         }
                     });
-                }
+                </script>
 
-                searchInput.addEventListener('input', debounce(handleSearch));
-            });
-        </script>
-        <!--this is script 2-->
+            </div>
+        </div>
 
     </div>
 @endsection
