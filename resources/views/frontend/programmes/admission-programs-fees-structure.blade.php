@@ -628,7 +628,7 @@
                                             <td>3.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: M.Sc. Bio-Science</strong>
+                                                    <strong style="color: #023e8a;" class="#">Course: M.Sc. Food Science and Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 2 years | Admission Fee:
@@ -684,7 +684,7 @@
                                             <td>6.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc.(H) - Bio-Science</strong>
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc. (H) Food Science and Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 3/4 years as per NEP |
@@ -4516,7 +4516,7 @@
                                             <td>3.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: M.Sc. Bio-Science</strong>
+                                                    <strong style="color: #023e8a;" class="#">Course: M.Sc. Food Science and Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 2 years | Admission Fee:
@@ -4572,7 +4572,7 @@
                                             <td>6.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc.(H) - Bio-Science</strong>
+                                                    <strong style="color: #1b4332;" class="#">Course: B.Sc. (H) Food Science and Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;"> Duration: 3/4 years as per NEP |

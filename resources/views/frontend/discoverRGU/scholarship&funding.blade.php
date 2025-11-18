@@ -1,6 +1,8 @@
 @extends('frontend.master')
 @section('title', 'Best University in Assam, India')
-@section('meta_description', 'Admissions Open! Check RGU Scholarships 2025: Royal Merit (100%), Royal Suraksha (50%), International, and Sports schemes. View Eligibility & Apply Now!')
+@section('meta_description',
+    'Admissions Open! Check RGU Scholarships 2025: Royal Merit (100%), Royal Suraksha (50%),
+    International, and Sports schemes. View Eligibility & Apply Now!')
 @section('meta_keywords', 'Scholarship')
 @section('content')
     <div id="page" class="site site_wrapper">
@@ -8,7 +10,8 @@
             @include('frontend/components/mobileheader')
             <!-- floating mob button  -->
             <div>
-                <a href="https://rgu.renocampus.com/scholarship/scholarshipForm" style="
+                <a href="https://rgu.renocampus.com/scholarship/scholarshipForm"
+                    style="
             position: fixed;
             bottom: 25px;
             right: 75px;
@@ -24,7 +27,8 @@
             overflow: hidden;
             animation: pulse 2s infinite;
             ">
-                    <span style="
+                    <span
+                        style="
             position: absolute;
             top: 0;
             left: -75%;
@@ -66,8 +70,7 @@
                 </style>
             </div>
             <!-- floating button  -->
-            <section
-                style="background-image: url(mobile-assets/scholarship/bg.svg); padding-top: 90px; position: relative;">
+            <section style="background-image: url(mobile-assets/scholarship/bg.svg); padding-top: 90px; position: relative;">
 
 
                 <img class="pb-5" src="mobile-assets/scholarship/mobile-scholarship.png" alt="">
@@ -84,7 +87,8 @@
 
             <!-- floating button  -->
             <div>
-                <a href="https://rgu.renocampus.com/scholarship/scholarshipForm" style="
+                <a href="https://rgu.renocampus.com/scholarship/scholarshipForm"
+                    style="
             position: fixed;
             bottom: 35px;
             right: 50px;
@@ -100,7 +104,8 @@
             overflow: hidden;
             animation: pulse 2s infinite;
             ">
-                    <span style="
+                    <span
+                        style="
             position: absolute;
             top: 0;
             left: -75%;
@@ -160,7 +165,9 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">A</span> Royal Merit - on Admission Scholarship
+                                        <span class="p-2 rounded fw-bold"
+                                            style="background-color: #ef991f; margin-right: 15px;">A</span> Royal Merit - on
+                                        Admission Scholarship
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -173,7 +180,8 @@
                                             </div>
                                         </div>
                                         <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 para1"
+                                            <table
+                                                class="overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 para1"
                                                 style="box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.10); background-color: #fff;">
                                                 <thead class="text-white" style="background-color: #000000;">
                                                     <th class="bg-blue text-white">SCHOLARSHIP OFFERED</th>
@@ -290,7 +298,9 @@
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">B</span> Royal Endowment & Other Scholarship
+                                        <span class="p-2 rounded fw-bold"
+                                            style="background-color: #ef991f; margin-right: 15px;">B</span> Royal Endowment
+                                        & Other Scholarship
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -299,7 +309,8 @@
                                         <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">
                                             Eligibility Criteria</h3>
                                         <div class="table-responsive">
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 para1"
+                                            <table
+                                                class="overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 para1"
                                                 style="box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.10); background-color: #fff;">
                                                 <thead class="bg-blue text-white">
                                                     <th class="bg-blue text-white">SCHOLARSHIP OFFERED</th>
@@ -324,7 +335,8 @@
                                                     </tr>
                                                 </tbody>
                                             </table>
-                                            <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 para1"
+                                            <table
+                                                class="overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 para1"
                                                 style="box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.10); background-color: #fff;">
                                                 <thead class="bg-blue text-white">
                                                     <th class="bg-blue text-white text-center" colspan="4">
@@ -341,7 +353,8 @@
                                                         <td>1</td>
                                                         <td rowspan="7" class="align-middle">ALL PROGRAMMES</td>
                                                         <td>Annual family income less than 8 lac</td>
-                                                        <td rowspan="7" class="align-middle">Students availing Endowment
+                                                        <td rowspan="7" class="align-middle">Students availing
+                                                            Endowment
                                                             Scholarship
                                                             should
                                                             fulfill the
@@ -360,7 +373,8 @@
                                                     </tr>
                                                     <tr>
                                                         <td>3</td>
-                                                        <td>Ward of a parent who is a teaching professional with annual income
+                                                        <td>Ward of a parent who is a teaching professional with annual
+                                                            income
                                                             less
                                                             than 8 lacs
                                                         </td>
@@ -368,7 +382,8 @@
                                                     </tr>
                                                     <tr>
                                                         <td>4</td>
-                                                        <td>Sports people who have participated in State/National level/Music
+                                                        <td>Sports people who have participated in State/National
+                                                            level/Music
                                                             and
                                                             Fine Art </td>
 
@@ -386,7 +401,8 @@
                                                     </tr>
                                                     <tr>
                                                         <td>7</td>
-                                                        <td>Child and Grand Child of Assam Baibhav, Saurav and Gaurav Award</td>
+                                                        <td>Child and Grand Child of Assam Baibhav, Saurav and Gaurav Award
+                                                        </td>
 
                                                     </tr>
 
@@ -456,8 +472,13 @@
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">C</span> 100% Scholarship to Two Students From Chakma Community of Miao Sub-Division, Arunachal Pradesh And Respectively to The Hajong, Kuki, Riyang, Tiwa (Lalung) And Konyak Communities Of Meghalaya, Manipur, Tripura, Assam And Nagaland.
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span class="p-2 rounded fw-bold"
+                                            style="background-color: #ef991f; margin-right: 15px;">C</span> 100%
+                                        Scholarship to Two Students From Chakma Community of Miao Sub-Division, Arunachal
+                                        Pradesh And Respectively to The Hajong, Kuki, Riyang, Tiwa (Lalung) And Konyak
+                                        Communities Of Meghalaya, Manipur, Tripura, Assam And Nagaland.
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -478,7 +499,8 @@
                                                 screening and
                                                 identifying the meritorious
                                                 students, as laid down by the competent authority.</p>
-                                            <p class="para1 text-dark">iii. The students must fulfil the minimum eligibility
+                                            <p class="para1 text-dark">iii. The students must fulfil the minimum
+                                                eligibility
                                                 criteria of
                                                 admission in the programme/course
                                                 they have applied for, as laid down by the University. </p>
@@ -495,11 +517,13 @@
                                                 for
                                                 other
                                                 students.</p>
-                                            <p class="para1 text-dark">vi. The Scholarship may not be applicable for Courses
+                                            <p class="para1 text-dark">vi. The Scholarship may not be applicable for
+                                                Courses
                                                 Governed by
                                                 Regulatory Bodies (AICTE, COA,
                                                 PCI, INC, ANMHVC, BCI, etc.).</p>
-                                            <p class="para1 text-dark">vii. Final decision of granting scholarship lies with
+                                            <p class="para1 text-dark">vii. Final decision of granting scholarship lies
+                                                with
                                                 the
                                                 University
                                                 Scholarship Committee and or
@@ -543,7 +567,10 @@
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">D</span> 100% Royal Scholarship To The Student Belonging To The Economically Weaker Section Of The Society (BPL Category)
+                                        <span class="p-2 rounded fw-bold"
+                                            style="background-color: #ef991f; margin-right: 15px;">D</span> 100% Royal
+                                        Scholarship To The Student Belonging To The Economically Weaker Section Of The
+                                        Society (BPL Category)
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -553,7 +580,8 @@
                                             <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">
                                                 Eligibility Criteria</h1>
                                                 <div class="table-responsive">
-                                                    <table class="overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 para1"
+                                                    <table
+                                                        class="overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 para1"
                                                         style="box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.10); background-color: #fff;">
                                                         <thead class="bg-blue text-white">
                                                             <th class="bg-blue text-white">
@@ -573,7 +601,8 @@
                                                                     other
                                                                     applicable fee to
                                                                     be paid</td>
-                                                                <td>Must secure 60% &Above in aggregate in 10+2/ H.S./ Diploma/
+                                                                <td>Must secure 60% &Above in aggregate in 10+2/ H.S./
+                                                                    Diploma/
                                                                     UG</td>
                                                                 <td>Students availing Scholarship under the scheme should
                                                                     fulfill the
@@ -620,7 +649,8 @@
                                                         Regulatory
                                                         Bodies (AICTE, COA,
                                                         PCI, INC, ANMHVC, BCI, etc.).</p>
-                                                    <p class="para1">v. Final decision of granting scholarship lies with the
+                                                    <p class="para1">v. Final decision of granting scholarship lies with
+                                                        the
                                                         University
                                                         Scholarship
                                                         Committee and or
@@ -666,8 +696,11 @@
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">E</span> Royal Merit - On Admission 100% Scholarship To Five International Students (from
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span class="p-2 rounded fw-bold"
+                                            style="background-color: #ef991f; margin-right: 15px;">E</span> Royal Merit -
+                                        On Admission 100% Scholarship To Five International Students (from
                                         neighboring countries like Thailand, Bangladesh, Nepal, Bhutan and Myanmar)
                                     </button>
                                 </h2>
@@ -710,11 +743,13 @@
                                                 </tbody>
                                             </table>
                                             <div class="text-dark para1" style="text-align: justify;">
-                                                <p class="para1">i. A student availing 100% scholarship will have to pay Rs.
+                                                <p class="para1">i. A student availing 100% scholarship will have to pay
+                                                    Rs.
                                                     10000/-
                                                     (Rupees Five Thousand only) as caution money (Refundable) at the time of
                                                     admission.</p>
-                                                <p class="para1">ii. In case a student, availing Royal Merit - On Admission
+                                                <p class="para1">ii. In case a student, availing Royal Merit - On
+                                                    Admission
                                                     100%
                                                     Scholarship to International Students, wishes to avail hostel/
                                                     transportation
@@ -741,7 +776,8 @@
                                                     the subjects
                                                     in each semester from
                                                     the previous academic year.</p>
-                                                <p class="fs-16">ii. To continue availing scholarship, a student must clear
+                                                <p class="fs-16">ii. To continue availing scholarship, a student must
+                                                    clear
                                                     all the
                                                     papers in
                                                     each semester and
@@ -769,7 +805,10 @@
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false"
                                         aria-controls="collapseSeven">
-                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">F</span> Royal Shaurya: Full Freeship For Wards Of Braveheart Security Personnels (Military/Paramilitary/North-Eastern Police
+                                        <span class="p-2 rounded fw-bold"
+                                            style="background-color: #ef991f; margin-right: 15px;">F</span> Royal Shaurya:
+                                        Full Freeship For Wards Of Braveheart Security Personnels
+                                        (Military/Paramilitary/North-Eastern Police
                                         Forces)
                                     </button>
                                 </h2>
@@ -807,7 +846,8 @@
                                                                 applicable fee, if
                                                                 any, to be paid for
                                                                 entire course</td>
-                                                            <td colspan="2">As per the required minimum eligibility criteria
+                                                            <td colspan="2">As per the required minimum eligibility
+                                                                criteria
                                                                 of the
                                                                 respective
                                                                 programme/course</td>
@@ -840,7 +880,8 @@
                                                     will have to pay the full hostel/ transportation fees as prescribed for
                                                     other
                                                     students.</p>
-                                                <p style="text-align: justify;" class="para1">C. The Scholarship may not be
+                                                <p style="text-align: justify;" class="para1">C. The Scholarship may not
+                                                    be
                                                     applicable for
                                                     Courses Governed by
                                                     Regulatory
@@ -856,7 +897,8 @@
                                                     Caution money of
                                                     Rs. 10000/-
                                                     (refundable) only.</p>
-                                                <p style="text-align: justify;" class="para1">E. Final decision of granting
+                                                <p style="text-align: justify;" class="para1">E. Final decision of
+                                                    granting
                                                     scholarship lies
                                                     with the University
                                                     Scholarship
@@ -908,7 +950,10 @@
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false"
                                         aria-controls="collapseSeven">
-                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">G</span> Royal Suraksha: 50% Scholarship For Wards Of Serving & Retired Security Personnels (Military/Paramilitary/North-Eastern
+                                        <span class="p-2 rounded fw-bold"
+                                            style="background-color: #ef991f; margin-right: 15px;">G</span> Royal Suraksha:
+                                        50% Scholarship For Wards Of Serving & Retired Security Personnels
+                                        (Military/Paramilitary/North-Eastern
                                         Police Forces)
                                     </button>
                                 </h2>
@@ -945,7 +990,8 @@
                                                                 for
                                                                 entire course
                                                             </td>
-                                                            <td colspan="2">As per the required minimum eligibility criteria
+                                                            <td colspan="2">As per the required minimum eligibility
+                                                                criteria
                                                                 of the
                                                                 respective
                                                                 programme/course</td>
@@ -953,7 +999,8 @@
                                                     </tbody>
                                                 </table>
                                                 <div class="text-dark" style="text-align: justify;">
-                                                    <p class="para1">a) Ward of a Défense Personnel (Military)/ Paramilitary
+                                                    <p class="para1">a) Ward of a Défense Personnel (Military)/
+                                                        Paramilitary
                                                         Personnel.
                                                     </p>
                                                     <p class="para1">b) Ward of a Police Personnel- NE only.</p>
@@ -987,7 +1034,8 @@
                                                         semester/year of
                                                         his/her programme
                                                         of study along with the Admission Fee, Registration Fee etc.</p>
-                                                    <p class="para1">f) Final decision of granting scholarship lies with the
+                                                    <p class="para1">f) Final decision of granting scholarship lies with
+                                                        the
                                                         University
                                                         Scholarship
                                                         Committee and or
@@ -1019,7 +1067,8 @@
                                                     </h3>
                                                     <p class="para1">1. Scanned copies of the marksheets from Class X
                                                         onwards.</p>
-                                                    <p class="para1">2. Scanned copies of the certificate from the competent
+                                                    <p class="para1">2. Scanned copies of the certificate from the
+                                                        competent
                                                         authority
                                                         claiming
                                                         scholarship under the
@@ -1036,7 +1085,10 @@
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false"
                                         aria-controls="collapse11">
-                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">H</span> Hope For Manipur Scholarship - 100% Admission Fee Waiver (For Students From Violence Affected Families Of Manipur)
+                                        <span class="p-2 rounded fw-bold"
+                                            style="background-color: #ef991f; margin-right: 15px;">H</span> Hope For
+                                        Manipur Scholarship - 100% Admission Fee Waiver (For Students From Violence Affected
+                                        Families Of Manipur)
                                     </button>
                                 </h2>
                                 <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -1079,7 +1131,9 @@
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false"
                                         aria-controls="collapseSeven">
-                                        <span class="p-2 rounded fw-bold" style="background-color: #ef991f; margin-right: 15px;">I</span> RGU Sports Scholarship
+                                        <span class="p-2 rounded fw-bold"
+                                            style="background-color: #ef991f; margin-right: 15px;">I</span> RGU Sports
+                                        Scholarship
                                     </button>
                                 </h2>
                                 <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -1090,6 +1144,112 @@
                                 </div>
 
                             </div>
+
+                            {{-- <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        <span class="p-2 rounded fw-bold"
+                                            style="background-color: #ef991f; margin-right: 15px;">J</span> Royal Shaurya :
+                                        Full freeship to the wards of braveheart security personnels (Scholarship offered on
+                                        course fee)
+                                    </button>
+                                </h2>
+                                <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <section class="section" id="royal-shaurya">
+                                            <section
+                                                style="border:1px solid #e6eef6;border-radius:8px;padding:18px;margin:18px 0;">
+
+                                                <div
+                                                    style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0 18px;">
+                                                    <div
+                                                        style="background:#eef7ff;border-radius:6px;padding:12px;text-align:center;font-weight:600;">
+                                                        For PG Programmes</div>
+                                                    <div
+                                                        style="background:#eef7ff;border-radius:6px;padding:12px;text-align:center;font-weight:600;">
+                                                        For UG Programmes</div>
+                                                    <div
+                                                        style="background:#eef7ff;border-radius:6px;padding:12px;text-align:center;font-weight:600;">
+                                                        Percentage of marks required</div>
+                                                </div>
+
+                                                <div>
+                                                    <table style="width:100%;border-collapse:collapse;">
+                                                        <thead>
+                                                            <tr>
+                                                                <th
+                                                                    style="padding:10px;border:1px solid #e9eef2;text-align:left;">
+                                                                    Qualification</th>
+                                                                <th
+                                                                    style="padding:10px;border:1px solid #e9eef2;text-align:left;">
+                                                                    Percentage</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="padding:10px;border:1px solid #e9eef2;">
+                                                                    Graduation, any stream</td>
+                                                                <td style="padding:10px;border:1px solid #e9eef2;">100%
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="padding:10px;border:1px solid #e9eef2;">10+2 /
+                                                                    HS / Diploma (Any Board)</td>
+                                                                <td style="padding:10px;border:1px solid #e9eef2;">As per
+                                                                    the required minimum eligibility criteria of the
+                                                                    respective programme/course</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div style="color:#666;font-size:14px;margin-top:10px;">ELIGIBILITY
+                                                    CRITERIA:</div>
+                                                <p style="font-size:13px;color:#666;margin-top:10px;">The Scholarship is
+                                                    applicable to the wards of:</p>
+                                                <ul style="margin:8px 0 12px 18px;">
+                                                    <li>Military (Army / Navy / Air force)</li>
+                                                    <li>Paramilitary (CRPF / BSF / ITBP / SSB / CISF / RPF / Assam Rifles /
+                                                        NSG / SFF / SPG) &amp; Police Personnel residing in the Northeastern
+                                                        region, who have:</li>
+                                                </ul>
+
+                                                <ul style="margin:8px 0 12px 18px;">
+                                                    <li>Laid their lives while fighting against Militants / Naxalites /
+                                                        Terrorists / Anti-social Elements.</li>
+                                                    <li>Received Gallantry Medals / Awards.</li>
+                                                    <li>Expired while performing bonafide Government duty service.</li>
+                                                </ul>
+
+                                                <p style="font-size:13px;color:#666;margin-top:10px;">A student availing
+                                                    scholarship under Royal Shaurya is required to pay the one-time
+                                                    Admission Fee, Registration Fee and Caution money (refundable) at the
+                                                    time of admission.</p>
+
+                                                <p style="color:#666;font-size:14px;margin-top:10px;">Continuation of
+                                                    Scholarship for subsequent years will be governed as follows:</p>
+                                                <ul style="margin:8px 0 12px 18px;">
+                                                    <li>Class attendance of the students must be 75% and above in all
+                                                        subjects.</li>
+                                                    <li>Student must clear all papers without backlog.</li>
+                                                </ul>
+
+                                                <p style="color:#666;font-size:14px;margin-top:10px;">Documents Required:
+                                                </p>
+                                                <ul style="margin:8px 0 12px 18px;">
+                                                    <li>Marksheets from Class X onwards.</li>
+                                                    <li>Certificate from competent authority.</li>
+                                                </ul>
+
+                                            </section>
+                                        </section>
+                                    </div>
+                                </div>
+
+                            </div> --}}
                         </div>
                     </div>
                 </div>
