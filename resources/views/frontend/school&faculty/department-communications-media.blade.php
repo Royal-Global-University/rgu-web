@@ -1130,7 +1130,437 @@
                                     Events
                                 </h2>
 
-                                <div style="max-width: 100%; position: relative;">
+                                <!-- event 1  -->
+                                <div class="container mt-2">
+
+
+                                    <section style="background-color: #fff4e3; padding-bottom: 30px;">
+
+                                        <div style="margin-top: 10px;" class="endless-scroll-container">
+
+                                            <div class="scroll-track-wrapper" style="padding-top: 0px;">
+
+                                                <div class="scroll-content-images unique-set-alpha">
+
+                                                    <div class="slider-image-frame">
+                                                        <img src="mobile-assets/department-all/dept-communication-media/events/1.jpg"
+                                                            alt="Image 1" class="scroller-image"
+                                                            onclick="openLightbox(this.src)">
+                                                    </div>
+
+                                                    <div class="slider-image-frame">
+                                                        <img src="mobile-assets/department-all/dept-communication-media/events/2.jpg"
+                                                            alt="Image 2" class="scroller-image"
+                                                            onclick="openLightbox(this.src)">
+                                                    </div>
+
+                                                    <div class="slider-image-frame">
+                                                        <img src="mobile-assets/department-all/dept-communication-media/events/3.jpg"
+                                                            alt="Image 2" class="scroller-image"
+                                                            onclick="openLightbox(this.src)">
+                                                    </div>
+
+                                                    <div class="slider-image-frame">
+                                                        <img src="mobile-assets/department-all/dept-communication-media/events/4.jpg"
+                                                            alt="Image 2" class="scroller-image"
+                                                            onclick="openLightbox(this.src)">
+                                                    </div>
+
+                                                    <div class="slider-image-frame">
+                                                        <img src="mobile-assets/department-all/dept-communication-media/events/5.jpg"
+                                                            alt="Image 2" class="scroller-image"
+                                                            onclick="openLightbox(this.src)">
+                                                    </div>
+
+
+
+                                                </div>
+
+                                                <div class="scroll-content-images unique-set-beta">
+
+                                                    <div class="slider-image-frame">
+                                                        <img src="mobile-assets/department-all/dept-communication-media/events/1.jpg"
+                                                            alt="Image 1" class="scroller-image"
+                                                            onclick="openLightbox(this.src)">
+                                                    </div>
+
+                                                    <div class="slider-image-frame">
+                                                        <img src="mobile-assets/department-all/dept-communication-media/events/2.jpg"
+                                                            alt="Image 2" class="scroller-image"
+                                                            onclick="openLightbox(this.src)">
+                                                    </div>
+
+                                                    <div class="slider-image-frame">
+                                                        <img src="mobile-assets/department-all/dept-communication-media/events/3.jpg"
+                                                            alt="Image 2" class="scroller-image"
+                                                            onclick="openLightbox(this.src)">
+                                                    </div>
+
+                                                    <div class="slider-image-frame">
+                                                        <img src="mobile-assets/department-all/dept-communication-media/events/4.jpg"
+                                                            alt="Image 2" class="scroller-image"
+                                                            onclick="openLightbox(this.src)">
+                                                    </div>
+
+                                                    <div class="slider-image-frame">
+                                                        <img src="mobile-assets/department-all/dept-communication-media/events/5.jpg"
+                                                            alt="Image 2" class="scroller-image"
+                                                            onclick="openLightbox(this.src)">
+                                                    </div>
+
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+                                            <span class="close-btn">&times;</span>
+
+                                            <div class="lightbox-controls">
+                                                <button id="zoom-in" title="Zoom In">+</button>
+                                                <button id="zoom-out" title="Zoom Out">-</button>
+                                            </div>
+
+                                            <img class="lightbox-content" id="lightbox-img" src=""
+                                                alt="">
+                                        </div>
+
+                                        <style>
+                                            /*
+    * 1. Setup the main container and animation logic (Identical to list version)
+    */
+                                            .endless-scroll-container {
+                                                margin: auto;
+                                                width: 97%;
+                                                overflow: hidden;
+                                                padding: 10px 0;
+                                                border-bottom: 2px solid #EF991F;
+                                            }
+
+                                            .scroll-track-wrapper {
+                                                display: flex;
+                                                width: fit-content;
+                                                animation: scroll-movement 60s linear infinite;
+                                            }
+
+                                            .scroll-track-wrapper:hover {
+                                                animation-play-state: paused;
+                                            }
+
+                                            /*
+    * 2. Style the Image Frames and Images
+    */
+                                            .scroll-content-images {
+                                                display: flex;
+                                            }
+
+                                            /* --- THIS IS THE MODIFIED RULE --- */
+                                            .slider-image-frame {
+                                                width: 600px;
+                                                /* <-- CHANGED from 150px */
+                                                margin-right: 20px;
+                                                flex-shrink: 0;
+                                                overflow: hidden;
+                                                border: 1px solid #d1d1d1;
+                                                border-radius: 8px;
+                                                /* <-- CHANGED from 50px */
+                                                background-color: #fff;
+                                            }
+
+                                            /* --- END OF MODIFIED RULE --- */
+
+                                            .scroller-image {
+                                                width: 100%;
+                                                height: 100%;
+                                                object-fit: cover;
+                                                display: block;
+                                                cursor: pointer;
+                                                transition: opacity 0.3s;
+                                            }
+
+                                            /* Lightbox Styles */
+                                            .lightbox {
+                                                display: none;
+                                                position: fixed;
+                                                z-index: 1000;
+                                                left: 0;
+                                                top: 0;
+                                                width: 100%;
+                                                height: 100%;
+                                                background-color: rgba(222, 222, 222, 0.942);
+                                                overflow: hidden;
+                                                /* Changed from auto to hidden to prevent scrollbars */
+                                            }
+
+                                            .lightbox-content {
+                                                margin: auto;
+                                                display: block;
+                                                position: absolute;
+                                                top: 50%;
+                                                left: 50%;
+                                                transform: translate(-50%, -50%) scale(1);
+                                                /* Initial state */
+                                                max-width: 90%;
+                                                max-height: 90%;
+                                                width: auto;
+                                                height: auto;
+                                                object-fit: contain;
+                                                animation-name: zoom;
+                                                animation-duration: 0.6s;
+                                                cursor: grab;
+                                                /* NEW: Indicate it's grabbable */
+                                                transition: transform 0.2s ease-out;
+                                                /* NEW: Smooth transitions for zoom/pan */
+                                            }
+
+                                            .close-btn {
+                                                position: absolute;
+                                                top: 20px;
+                                                right: 35px;
+                                                color: #fff;
+                                                font-size: 40px;
+                                                font-weight: bold;
+                                                transition: 0.3s;
+                                                cursor: pointer;
+                                                z-index: 1002;
+                                                /* Ensure it's on top of controls */
+                                            }
+
+                                            .close-btn:hover,
+                                            .close-btn:focus {
+                                                color: #bbb;
+                                                text-decoration: none;
+                                                cursor: pointer;
+                                            }
+
+                                            /* NEW: Styles for Zoom Controls */
+                                            .lightbox-controls {
+                                                position: absolute;
+                                                top: 25px;
+                                                right: 90px;
+                                                /* Position next to the close button */
+                                                z-index: 1001;
+                                                display: flex;
+                                                gap: 10px;
+                                            }
+
+                                            .lightbox-controls button {
+                                                background-color: rgba(30, 30, 30, 0.7);
+                                                border: 1px solid #fff;
+                                                color: #fff;
+                                                font-size: 24px;
+                                                font-weight: bold;
+                                                width: 40px;
+                                                height: 40px;
+                                                cursor: pointer;
+                                                border-radius: 5px;
+                                                transition: background-color 0.3s;
+                                                line-height: 1;
+                                            }
+
+                                            .lightbox-controls button:hover {
+                                                background-color: rgba(0, 0, 0, 0.9);
+                                            }
+
+
+                                            @keyframes zoom {
+                                                from {
+                                                    transform: translate(-50%, -50%) scale(0.1);
+                                                }
+
+                                                to {
+                                                    transform: translate(-50%, -50%) scale(1);
+                                                }
+                                            }
+
+                                            /*
+    * 3. Define the Keyframes for the Movement
+    */
+                                            @keyframes scroll-movement {
+                                                from {
+                                                    transform: translateX(0%);
+                                                }
+
+                                                to {
+                                                    transform: translateX(-50%);
+                                                }
+                                            }
+                                        </style>
+
+                                        <script>
+                                            document.addEventListener('DOMContentLoaded', () => {
+                                                const setAlpha = document.querySelector('.unique-set-alpha');
+                                                const trackWrapper = document.querySelector('.scroll-track-wrapper');
+
+                                                if (setAlpha && !document.querySelector('.unique-set-beta')) {
+                                                    const setBeta = setAlpha.cloneNode(true);
+                                                    setBeta.classList.remove('unique-set-alpha');
+                                                    setBeta.classList.add('unique-set-beta');
+                                                    trackWrapper.appendChild(setBeta);
+                                                    console.log('Image slider duplicated successfully for infinite loop.');
+                                                }
+                                            });
+
+                                            // --- NEW/UPDATED: Lightbox and Zoom/Pan Logic ---
+
+                                            const lightbox = document.getElementById('lightbox');
+                                            const lightboxImg = document.getElementById('lightbox-img');
+                                            const zoomInBtn = document.getElementById('zoom-in');
+                                            const zoomOutBtn = document.getElementById('zoom-out');
+
+                                            // State variables
+                                            let scale = 1;
+                                            let isDragging = false;
+                                            let start = {
+                                                x: 0,
+                                                y: 0
+                                            };
+                                            let pan = {
+                                                x: 0,
+                                                y: 0
+                                            };
+
+                                            // Function to apply the current transform to the image
+                                            function updateImageTransform() {
+                                                // We use calc() to combine the initial centering (-50%) with the pixel-based panning
+                                                lightboxImg.style.transform = `translate(calc(-50% + ${pan.x}px), calc(-50% + ${pan.y}px)) scale(${scale})`;
+                                            }
+
+                                            function openLightbox(src) {
+                                                // Reset state every time a new image is opened
+                                                scale = 1;
+                                                isDragging = false;
+                                                pan = {
+                                                    x: 0,
+                                                    y: 0
+                                                };
+                                                updateImageTransform(); // Apply initial transform
+
+                                                lightbox.style.display = 'block';
+                                                lightboxImg.src = src;
+                                            }
+
+                                            function closeLightbox(event) {
+                                                if (event.target === lightbox || event.target.classList.contains('close-btn')) {
+                                                    lightbox.style.display = 'none';
+                                                }
+                                            }
+
+                                            // --- Event Listeners for Zoom and Pan ---
+
+                                            zoomInBtn.addEventListener('click', (e) => {
+                                                e.stopPropagation(); // Prevent closing lightbox when clicking button
+                                                scale += 0.2;
+                                                updateImageTransform();
+                                            });
+
+                                            zoomOutBtn.addEventListener('click', (e) => {
+                                                e.stopPropagation(); // Prevent closing lightbox when clicking button
+                                                if (scale > 1) {
+                                                    scale -= 0.2;
+                                                    if (scale < 1) {
+                                                        scale = 1;
+                                                    }
+                                                }
+                                                // If we zoom all the way out, reset the pan to center the image
+                                                if (scale === 1) {
+                                                    pan = {
+                                                        x: 0,
+                                                        y: 0
+                                                    };
+                                                }
+                                                updateImageTransform();
+                                            });
+
+                                            lightboxImg.addEventListener('mousedown', (e) => {
+                                                // Panning only works if the image is zoomed in
+                                                if (scale > 1) {
+                                                    e.preventDefault();
+                                                    isDragging = true;
+                                                    // Record starting point relative to current pan position
+                                                    start = {
+                                                        x: e.clientX - pan.x,
+                                                        y: e.clientY - pan.y
+                                                    };
+                                                    lightboxImg.style.cursor = 'grabbing';
+                                                }
+                                            });
+
+                                            // Use 'window' for mousemove and mouseup to allow dragging even if the cursor leaves the image
+                                            window.addEventListener('mousemove', (e) => {
+                                                if (isDragging) {
+                                                    e.preventDefault();
+                                                    pan = {
+                                                        x: e.clientX - start.x,
+                                                        y: e.clientY - start.y
+                                                    };
+                                                    updateImageTransform();
+                                                }
+                                            });
+
+                                            window.addEventListener('mouseup', (e) => {
+                                                if (isDragging) {
+                                                    isDragging = false;
+                                                    lightboxImg.style.cursor = 'grab';
+                                                }
+                                            });
+                                        </script>
+
+                                    </section>
+
+                                    <h2 class="mobile-headd1 fw-bold text-left mt-3" style="color: #243B95;">
+                                        The Assam Royal Global University marked National Press Day 2025 by attending the
+                                        state-level observance organised by the Directorate of Information and Public
+                                        Relations (DIPR)
+                                    </h2>
+
+                                    <p class="text-dark mobile-para1 mt-3" style="text-align: justify;">
+                                        The Royal School of Communications and Media (RSCOM), The Assam Royal Global
+                                        University marked
+                                        National Press Day 2025 by attending the state-level observance organised by the
+                                        Directorate of
+                                        Information and Public Relations (DIPR), Assam, at the PWD Convention and Training
+                                        Centre, Dispur on
+                                        16th November, 2025.
+
+                                        The event, held under the theme “Safeguarding Press Credibility Amidst Rising
+                                        Misinformation,”
+                                        featured distinguished speakers including Shri Mukesh Sahu, Additional Chief
+                                        Secretary, Government
+                                        of Assam; Prof. (Dr.) Dhrubajyoti Borah, Vice Chancellor of Srimanta Sankaradeva
+                                        University of
+                                        Health Sciences and President of Asam Sahitya Sabha; Shri Kumar Padmapani Bora,
+                                        Commissioner &
+                                        Secretary, I&PR; veteran journalist Shri Pradeep Barua; and senior journalists Shri
+                                        Dilip Chandan
+                                        and Shri Bhupendra Kumar Bhattacharjya.
+
+                                        Addressing the key challenges faced by the media today, the speakers highlighted the
+                                        issues of
+                                        misinformation, globalization, digital influence, and the need for stronger ethical
+                                        frameworks. Shri
+                                        Pradeep Barua cautioned against sensationalism, comparing journalists to “bees
+                                        seeking nectar or
+                                        flies drawn to decay,” while Prof. Borah stressed the rising impact of finance
+                                        capital and
+                                        technology on press integrity.
+
+                                        The students of BA Journalism and Mass Communication from RSCOM gained firsthand
+                                        insight into the
+                                        values and responsibilities that shape credible journalism. The event served as a
+                                        reminder of the
+                                        press’s essential role in sustaining democratic values, accuracy, and public trust.
+                                    </p>
+
+
+                                </div>
+                                <!-- event 1  -->
+
+
+                                <!-- all events  -->
+                                <div style="max-width: 100%; position: relative; margin-top: 30px;">
                                     <div style="border: 1px solid #ccc;">
                                         <div id="scrollContainer"
                                             style="height: 360px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.08);">
@@ -1281,11 +1711,11 @@
                                     <div style="text-align: center; margin-top: 15px;">
                                         <a href="department-new-rshss-sociology-events"
                                             style="display: inline-block; padding: 10px 28px;
-                  background: linear-gradient(135deg, #243B95, #151B5B);
-                  color: #fff; font-weight: 600; font-size: 16px;
-                  border-radius: 25px; text-decoration: none;
-                  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-                  transition: all 0.3s ease-in-out;">
+              background: linear-gradient(135deg, #243B95, #151B5B);
+              color: #fff; font-weight: 600; font-size: 16px;
+              border-radius: 25px; text-decoration: none;
+              box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+              transition: all 0.3s ease-in-out;">
                                             View All
                                         </a>
                                     </div>
@@ -1311,323 +1741,325 @@
 
                                     scrollStep();
                                 </script>
+                                <!-- all events  -->
+
                             </div>
                         </div>
                     </div>
                 </section>
 
                 <!-- <section id="academic-excellence">
-                  <section
-                    style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
+                      <section
+                        style="background-image: url(mobile-assets/department-all/TRY/bg7a.png); background-size: cover; border: 1px solid #ECA652; height: 100%; padding: 50px;">
 
-                    <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
-                      Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
-                    </h2>
-
-                    <div
-                      style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
-                    </div>
-
-                    <div class="row">
-
-                      <div class="col-lg-6">
-
-                        <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
+                        <h2 class="headd1 fw-bold text-white" style="font-size: 50px; padding-left: 10px;">
+                          Academic <span class="headd1" style="color: #FF9A1E; font-size: 50px;">Excellence</span>
                         </h2>
 
                         <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel" mask>
-                              <div class="carousel-track">
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Yubita Deka<br>
-                                        <span class="text-dark" style="font-size: 18px;">Physics</span>
-                                      </p>
-                                    </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Susmita Paul<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
-
-                                </article>
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para1 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Bhaskar Jyoti Borah<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
-                                  </div>
-
-                                </article>
-
-                              </div>
-                            </div>
-                          </div>
+                          style="height: 3px; background-color: #FF9A1E; width: 240px; margin: 5px 0px 20px 0px; margin-left: 10px;">
                         </div>
 
-                        <style>
-                          .carousel {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
+                        <div class="row">
 
-                          .carousel[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
+                          <div class="col-lg-6">
 
-                          .carousel-track {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee var(--carousel-duration) linear infinite;
-                          }
+                            <h2 class="headd1 fw-bold mb-3" style="font-size: 35px; color: #f8c22f; padding-left: 10px;">SLET
+                            </h2>
 
-                          .carousel article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
+                            <div
+                              style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
+                              <div style="padding: 30px 20px;">
+                                <div class="carousel" mask>
+                                  <div class="carousel-track">
 
-                          .carousel img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
+                                    <article class="bg-white text-dark rounded"
+                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
 
-                          .carousel article>*:not(img) {
-                            padding: 0 1rem;
-                          }
+                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
 
-                          @keyframes marquee {
-                            from {
-                              transform: translateX(0);
-                            }
+                                        <div class="rounded"
+                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                          <p class="para1 fw-bold m-0 text-center"
+                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                            Yubita Deka<br>
+                                            <span class="text-dark" style="font-size: 18px;">Physics</span>
+                                          </p>
+                                        </div>
 
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
+                                        <div class="rounded"
+                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                          <p class="para1 fw-bold m-0 text-center"
+                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                            Susmita Paul<br>
+                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
+                                          </p>
+                                        </div>
 
-                        <script>
-                            const track = document.querySelector('.carousel-track');
-                            const cards = Array.from(track.children);
+                                      </div>
 
-                            cards.forEach(card => {
-                                track.appendChild(card.cloneNode(true));
-                            });
+                                      <div class="rounded text-center"
+                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                        <p class="para1 fw-bold text-white m-0">Batch: 2018 - 2020</p>
+                                      </div>
 
-                            const carouselEl = document.querySelector('.carousel');
-                            const styles = getComputedStyle(carouselEl);
-                            const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
-                            const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
-                            const totalCards = track.children.length;
-                            const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
-                            track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
+                                    </article>
 
-                            const speed = 80;
-                            const duration = halfTrackWidth / speed;
-                            track.style.setProperty('--carousel-duration', `${duration}s`);
-                        </script>
+                                    <article class="bg-white text-dark rounded"
+                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
 
-                      </div>
+                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
 
-                      <div class="col-lg-6">
+                                        <div class="rounded"
+                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                          <p class="para1 fw-bold m-0 text-center"
+                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                            Bhaskar Jyoti Borah<br>
+                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Physics</span>
+                                          </p>
+                                        </div>
 
-                        <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
-                        </h2>
+                                      </div>
 
-                        <div
-                          style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
-                          <div style="padding: 30px 20px;">
-                            <div class="carousel2" mask>
-                              <div class="carousel-track2">
+                                      <div class="rounded text-center"
+                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                        <p class="para1 fw-bold text-white m-0">Batch: 2017 - 2019</p>
+                                      </div>
 
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Ritu Sharma<br>
-                                        <span class="text-dark" style="font-size: 18px;">Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Anil Kumar<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
+                                    </article>
 
                                   </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
-                                  </div>
-
-                                </article>
-
-                                <article class="bg-white text-dark rounded"
-                                  style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
-
-                                  <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
-
-                                    <div class="rounded"
-                                      style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
-                                      <p class="para2 fw-bold m-0 text-center"
-                                        style="color: #24477f; font-size: 24px; line-height: 1.2;">
-                                        Meera Das<br>
-                                        <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
-                                      </p>
-                                    </div>
-
-                                  </div>
-
-                                  <div class="rounded text-center"
-                                    style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-                                    <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
-                                  </div>
-
-                                </article>
-
+                                </div>
                               </div>
                             </div>
+
+                            <style>
+                              .carousel {
+                                --carousel-width: min(85vw, 650px);
+                                --carousel-item-width: 280px;
+                                --carousel-item-height: 350px;
+                                --carousel-item-gap: 2rem;
+                                position: relative;
+                                width: var(--carousel-width);
+                                overflow: hidden;
+                              }
+
+                              .carousel[mask] {
+                                mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+                              }
+
+                              .carousel-track {
+                                display: flex;
+                                gap: var(--carousel-item-gap);
+                                animation: marquee var(--carousel-duration) linear infinite;
+                              }
+
+                              .carousel article {
+                                flex: 0 0 var(--carousel-item-width);
+                                height: var(--carousel-item-height);
+                                display: grid;
+                                grid-template-rows: 200px auto 1fr auto;
+                                border-radius: 10px;
+                                background: white;
+                                color: #314158;
+                              }
+
+                              .carousel img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                border-radius: 15px !important;
+                              }
+
+                              .carousel article>*:not(img) {
+                                padding: 0 1rem;
+                              }
+
+                              @keyframes marquee {
+                                from {
+                                  transform: translateX(0);
+                                }
+
+                                to {
+                                  transform: translateX(var(--scroll-distance));
+                                }
+                              }
+                            </style>
+
+                            <script>
+                                const track = document.querySelector('.carousel-track');
+                                const cards = Array.from(track.children);
+
+                                cards.forEach(card => {
+                                    track.appendChild(card.cloneNode(true));
+                                });
+
+                                const carouselEl = document.querySelector('.carousel');
+                                const styles = getComputedStyle(carouselEl);
+                                const cardWidth = parseFloat(styles.getPropertyValue('--carousel-item-width'));
+                                const cardGap = parseFloat(styles.getPropertyValue('--carousel-item-gap'));
+                                const totalCards = track.children.length;
+                                const halfTrackWidth = (cardWidth + cardGap) * (totalCards / 2);
+                                track.style.setProperty('--scroll-distance', `-${halfTrackWidth}px`);
+
+                                const speed = 80;
+                                const duration = halfTrackWidth / speed;
+                                track.style.setProperty('--carousel-duration', `${duration}s`);
+                            </script>
+
                           </div>
+
+                          <div class="col-lg-6">
+
+                            <h2 class="headd2 fw-bold mb-3" style="font-size: 35px; color: #fff; padding-left: 10px;">NET
+                            </h2>
+
+                            <div
+                              style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.5);">
+                              <div style="padding: 30px 20px;">
+                                <div class="carousel2" mask>
+                                  <div class="carousel-track2">
+
+                                    <article class="bg-white text-dark rounded"
+                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                        <div class="rounded"
+                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                          <p class="para2 fw-bold m-0 text-center"
+                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                            Ritu Sharma<br>
+                                            <span class="text-dark" style="font-size: 18px;">Chemistry</span>
+                                          </p>
+                                        </div>
+
+                                        <div class="rounded"
+                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                          <p class="para2 fw-bold m-0 text-center"
+                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                            Anil Kumar<br>
+                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
+                                          </p>
+                                        </div>
+
+                                      </div>
+
+                                      <div class="rounded text-center"
+                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                        <p class="para2 fw-bold text-white m-0">Batch: 2019 - 2021</p>
+                                      </div>
+
+                                    </article>
+
+                                    <article class="bg-white text-dark rounded"
+                                      style="width: 300px; height: 350px; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box;">
+
+                                      <div style="flex: 1; display: flex; flex-direction: column; gap: 5px;">
+
+                                        <div class="rounded"
+                                          style="background-color: #E6E6E6; padding: 5px 5px; flex: 1; display: flex; align-items: center; justify-content: center;">
+                                          <p class="para2 fw-bold m-0 text-center"
+                                            style="color: #24477f; font-size: 24px; line-height: 1.2;">
+                                            Meera Das<br>
+                                            <span class="text-dark" style="font-size: 18px;">M.Sc. Chemistry</span>
+                                          </p>
+                                        </div>
+
+                                      </div>
+
+                                      <div class="rounded text-center"
+                                        style="background-color: #FF9A1E; height: 45px; margin-top: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+                                        <p class="para2 fw-bold text-white m-0">Batch: 2018 - 2020</p>
+                                      </div>
+
+                                    </article>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <style>
+                              .carousel2 {
+                                --carousel-width: min(85vw, 650px);
+                                --carousel-item-width: 280px;
+                                --carousel-item-height: 350px;
+                                --carousel-item-gap: 2rem;
+                                position: relative;
+                                width: var(--carousel-width);
+                                overflow: hidden;
+                              }
+
+                              .carousel2[mask] {
+                                mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+                              }
+
+                              .carousel-track2 {
+                                display: flex;
+                                gap: var(--carousel-item-gap);
+                                animation: marquee2 var(--carousel-duration) linear infinite;
+                              }
+
+                              .carousel2 article {
+                                flex: 0 0 var(--carousel-item-width);
+                                height: var(--carousel-item-height);
+                                display: grid;
+                                grid-template-rows: 200px auto 1fr auto;
+                                border-radius: 10px;
+                                background: white;
+                                color: #314158;
+                              }
+
+                              .carousel2 img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                border-radius: 15px !important;
+                              }
+
+                              .carousel2 article>*:not(img) {
+                                padding: 0 1rem;
+                              }
+
+                              @keyframes marquee2 {
+                                from {
+                                  transform: translateX(0);
+                                }
+
+                                to {
+                                  transform: translateX(var(--scroll-distance));
+                                }
+                              }
+                            </style>
+
+                            <script>
+                                const track2 = document.querySelector('.carousel-track2');
+                                const cards2 = Array.from(track2.children);
+
+                                cards2.forEach(card => {
+                                    track2.appendChild(card.cloneNode(true));
+                                });
+
+                                const carouselEl2 = document.querySelector('.carousel2');
+                                const styles2 = getComputedStyle(carouselEl2);
+                                const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
+                                const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
+                                const totalCards2 = track2.children.length;
+                                const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
+                                track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
+
+                                const speed2 = 80;
+                                const duration2 = halfTrackWidth2 / speed2;
+                                track2.style.setProperty('--carousel-duration', `${duration2}s`);
+                            </script>
+
+                          </div>
+
                         </div>
 
-                        <style>
-                          .carousel2 {
-                            --carousel-width: min(85vw, 650px);
-                            --carousel-item-width: 280px;
-                            --carousel-item-height: 350px;
-                            --carousel-item-gap: 2rem;
-                            position: relative;
-                            width: var(--carousel-width);
-                            overflow: hidden;
-                          }
-
-                          .carousel2[mask] {
-                            mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
-                          }
-
-                          .carousel-track2 {
-                            display: flex;
-                            gap: var(--carousel-item-gap);
-                            animation: marquee2 var(--carousel-duration) linear infinite;
-                          }
-
-                          .carousel2 article {
-                            flex: 0 0 var(--carousel-item-width);
-                            height: var(--carousel-item-height);
-                            display: grid;
-                            grid-template-rows: 200px auto 1fr auto;
-                            border-radius: 10px;
-                            background: white;
-                            color: #314158;
-                          }
-
-                          .carousel2 img {
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            border-radius: 15px !important;
-                          }
-
-                          .carousel2 article>*:not(img) {
-                            padding: 0 1rem;
-                          }
-
-                          @keyframes marquee2 {
-                            from {
-                              transform: translateX(0);
-                            }
-
-                            to {
-                              transform: translateX(var(--scroll-distance));
-                            }
-                          }
-                        </style>
-
-                        <script>
-                            const track2 = document.querySelector('.carousel-track2');
-                            const cards2 = Array.from(track2.children);
-
-                            cards2.forEach(card => {
-                                track2.appendChild(card.cloneNode(true));
-                            });
-
-                            const carouselEl2 = document.querySelector('.carousel2');
-                            const styles2 = getComputedStyle(carouselEl2);
-                            const cardWidth2 = parseFloat(styles2.getPropertyValue('--carousel-item-width'));
-                            const cardGap2 = parseFloat(styles2.getPropertyValue('--carousel-item-gap'));
-                            const totalCards2 = track2.children.length;
-                            const halfTrackWidth2 = (cardWidth2 + cardGap2) * (totalCards2 / 2);
-                            track2.style.setProperty('--scroll-distance', `-${halfTrackWidth2}px`);
-
-                            const speed2 = 80;
-                            const duration2 = halfTrackWidth2 / speed2;
-                            track2.style.setProperty('--carousel-duration', `${duration2}s`);
-                        </script>
-
-                      </div>
-
-                    </div>
-
-                  </section>
-                </section> -->
+                      </section>
+                    </section> -->
 
                 <div id="bos" class="container pb-5 pt-5">
 

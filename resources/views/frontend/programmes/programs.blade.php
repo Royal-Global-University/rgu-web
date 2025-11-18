@@ -7,14 +7,14 @@
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
-        <div class="mobile" style="padding-top: 80px; position: relative;">
-
-            <img src="https://www.rgu.ac/mobile-assets/admission-fee-and-programmee/web-admission-programme.png"
+        <div class="mobile">
+            @include('frontend/components/mobileheader')
+            <img style="padding-top: 80px; position: relative;" src="https://www.rgu.ac/mobile-assets/admission-fee-and-programmee/web-admission-programme.png"
                 alt="">
         </div>
 
         <div class="website">
-
+            @include('frontend/components/aheader')
             <img src="https://www.rgu.ac/mobile-assets/admission-fee-and-programmee/web-admission-programme.png"
                 alt="">
 
