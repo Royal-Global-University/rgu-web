@@ -1311,6 +1311,10 @@
                                                         the said category.</li>
                                                 </ol>
 
+                                                <h3 class="headd3 text-dark fw-bold text-center pt-3 pb-3">ROYAL SURAKSHA:
+                                                    50% SCHOLARSHIP FOR WARDS OF SERVING & RETIRED SECURITY PERSONNELS
+                                                </h3>
+
                                                 <div class="container-xl">
 
                                                     <!-- Table container for overflow scrolling on small screens -->
@@ -1466,6 +1470,133 @@
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <section class="section" id="royal-shaurya">
+                                            <div class="container-fluid my-5">
+
+                                                <div class="table-responsive shadow-sm bg-white rounded mobile-para1">
+                                                    <table class="table table-bordered align-middle mb-0">
+
+                                                        <thead>
+                                                            <tr style="background-color: #27467A; color: white;">
+                                                                <th rowspan="2" class="text-center align-middle"
+                                                                    style="width: 15%;">CATEGORIES
+                                                                </th>
+                                                                <th colspan="3" class="text-center align-middle">
+                                                                    SCHOLARSHIP OFFERED ON COURSE
+                                                                    FEE</th>
+                                                                <th rowspan="2" class="text-center align-middle"
+                                                                    style="width: 15%;">
+                                                                    For PG/UG Programme<br>
+                                                                    <small class="fw-light"
+                                                                        style="font-size: 0.7rem;">(Percentage of marks in
+                                                                        Graduation, any stream/ 10+2/HS/Diploma, any
+                                                                        Board/Council)</small>
+                                                                </th>
+                                                            </tr>
+                                                            <tr style="background-color: #27467A; color: white;">
+                                                                <th class="text-center" style="width: 23%;">100%</th>
+                                                                <th class="text-center" style="width: 23%;">50%</th>
+                                                                <th class="text-center" style="width: 23%;">25%</th>
+                                                            </tr>
+                                                        </thead>
+
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="text-center fw-bold bg-light">
+                                                                    Sports<br>
+                                                                    <span class="fw-normal small">(including both
+                                                                        individual and Team
+                                                                        Sports)</span>
+                                                                </td>
+                                                                <td>
+                                                                    <ul>
+                                                                        <li>International Athlete/Players</li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul>
+                                                                        <li>National Participants / Award winners</li>
+                                                                        <li>First four positions at All India University
+                                                                            level (by AIU)</li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul>
+                                                                        <li>Zonal/State Participants</li>
+                                                                        <li>First Three positions at Zonal University level
+                                                                            (by AIU)</li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td rowspan="3"
+                                                                    class="text-center fw-bold text-secondary">
+                                                                    As per the required minimum eligibility criteria of the
+                                                                    respective
+                                                                    programme/course
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td class="fw-bold bg-light text-center">
+                                                                    Cultural Activities
+                                                                    <div
+                                                                        class="fw-normal text-start mt-2 ps-3 border-top pt-2">
+                                                                        &bull; Dance<br>
+                                                                        &bull; Music<br>
+                                                                        &bull; Theatre<br>
+                                                                        &bull; Fine Arts
+                                                                    </div>
+                                                                </td>
+                                                                <td rowspan="2">
+                                                                    <ul>
+                                                                        <li>1) First four positions at National Level Festival
+                                                                            conducted by the
+                                                                            Ministry of Youth Cultural and Sports Affairs,
+                                                                            Government of India.
+                                                                        </li>
+                                                                        <li>2) First four positions at All India University
+                                                                            level (by the AIU)</li>
+                                                                        <li>3) Overall Winner of National TV Reality Show</li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td rowspan="2">
+                                                                    <ul>
+                                                                        <li>1) Participated in National Youth Fest conducted by
+                                                                            the Ministry of
+                                                                            Youth Affairs and Sports, Government of India.
+                                                                        </li>
+                                                                        <li>2) Graded artist of the Government of India
+                                                                            broadcasting media like DD/
+                                                                            AIR or equivalent.</li>
+                                                                        <li>3) First Three positions at Zonal Youth Festivals
+                                                                            (AIU).</li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td rowspan="2">
+                                                                    <ul>
+                                                                        <li>1) Fourth position at Zonal Youth Festivals (AIU).
+                                                                        </li>
+                                                                        <li>2) First Three Positions at Scheduled State Level
+                                                                            Event Conducted by
+                                                                            the Ministry of Youth Cultural and Sports
+                                                                            Affairs or Sangeet Natak
+                                                                            Academy.</li>
+                                                                        <li>3) First three Positions at Inter Zonal Competition
+                                                                            (Intra University)
+                                                                            conducted by UGC recognized Universities.</li>
+                                                                        <li>4) Finalist/ Semi-finalist/ Quarterfinalist at
+                                                                            National TV reality show
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td class="text-center fw-bold bg-light">Literary</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+
                                             <div>
                                                 <div class="text-dark">
                                                     <p class="text-dark fw-bold mobile-headd3 mt-2">
