@@ -254,7 +254,7 @@
                                 <tr>
                                     <th colspan="3"
                                         style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                        Day 1: (28th November 2025)</th>
+                                        Day 1: (January 29th 2026)</th>
                                 </tr>
                                 <tr>
                                     <td style="border: 1px solid #333; text-align: left; padding: 8px;">08:30–09:00 AM
@@ -440,7 +440,7 @@
                                 <tr>
                                     <th colspan="3"
                                         style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                        Day 2: (29th November 2025)</th>
+                                        Day 2: (30th January 2026)</th>
                                 </tr>
                                 <tr>
                                     <td colspan="3"
@@ -1060,7 +1060,7 @@
                             <tr>
                                 <th colspan="3"
                                     style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                    Day 1: (28th November 2025)</th>
+                                    Day 1: (January 29th 2026)</th>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #333; text-align: left; padding: 8px;">08:30–09:00 AM</td>
@@ -1211,7 +1211,7 @@
                             <tr>
                                 <th colspan="3"
                                     style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
-                                    Day 2: (29th November 2025)</th>
+                                    Day 2: (30th January 2026)</th>
                             </tr>
                             <tr>
                                 <td colspan="3"
