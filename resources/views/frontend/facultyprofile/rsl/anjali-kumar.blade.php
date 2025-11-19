@@ -173,7 +173,7 @@
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="mobile-assets/updated-faculty-img/no-pic.png" alt="">
+                                src="mobile-assets/updated-faculty-img/anjali2.jpg" alt="">
                         </div>
 
                     </div>
