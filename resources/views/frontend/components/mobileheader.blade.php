@@ -104,9 +104,9 @@
                             href="{{ route('internal-complaints-committee') }}">Internal Complaints Committee</a></li>
                     <li><a class="dropdown-item text-dark para1"
                             href="{{ route('university-research-committee') }}">University Research Committee</a></li>
-                    <li><a class="dropdown-item text-dark para1"
+                    {{-- <li><a class="dropdown-item text-dark para1"
                             href="{{ route('institutional-ethical-committee') }}">Institutional Ethical
-                            Committee (IEC)</a></li>
+                            Committee (IEC)</a></li> --}}
                 </ul>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('finance-committee') }}">
                     <li>Finance Committee</li>
