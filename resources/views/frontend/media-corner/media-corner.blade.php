@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'RGU Launches Book, Scholarship & Memoriam on Heartthrob’s Birth Anniversary',
+                            'summary' => '“Zubeen: Twenty Songs and Seven Portraits” launched at RGU',
+                            'date' => 'Guwahati, November 18, 2025:',
+                            'link' => 'rgu-launches-book-scholarship-memoriam-on-heartthrob’s-birth-anniversary',
+                            'image' => '/mobile-assets/media-corner/news64/2.jpeg',
+                            'content' => 'The Assam Royal Global University (RGU) today paid a soulful tribute to Assam’s beloved cultural icon, Zubeen Garg by launching a commemorative book titled “Zubeen: Twenty Songs and Seven Portraits”, a scholarship, and a memoriam in honour of the legendary artist.',
+                        ],
+                        [
                             'title' => 'Sangeet Natak Akademi and Royal Global University jointly commemorate Sudhakantha & his Contributions',
                             'summary' => '',
                             'date' => 'Guwahati, November 16, 2025:',

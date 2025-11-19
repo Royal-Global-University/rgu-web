@@ -3018,6 +3018,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-launches-book-scholarship-memoriam-on-heartthrob’s-birth-anniversary', function () {
+    return view('frontend/media-corner/news70');
+})->name('rgu-launches-book-scholarship-memoriam-on-heartthrob’s-birth-anniversary');
+
 Route::get('/sangeet-natak-akademi-and-royal-global-university-jointly-commemorate-sudhakantha-his-contributions', function () {
     return view('frontend/media-corner/news69');
 })->name('sangeet-natak-akademi-and-royal-global-university-jointly-commemorate-sudhakantha-his-contributions');

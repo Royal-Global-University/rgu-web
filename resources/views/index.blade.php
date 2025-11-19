@@ -1,7 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Best Private University in Assam, India')
-@section('meta_description',
-    'Discover top-ranked Royal Global University (RGU) in Guwahati. Explore 50+ UG & PG programs, world-class faculty, modern campus, and excellent placement record. Apply Now!')
+@section('meta_description', 'Discover top-ranked Royal Global University (RGU) in Guwahati. Explore 50+ UG & PG
+    programs, world-class faculty, modern campus, and excellent placement record. Apply Now!')
 @section('meta_keywords', 'Best University in Assam')
 @section('content')
 
@@ -1057,10 +1057,12 @@
                 <section>
                     <div class="row p-3">
                         <div class="col-lg-6">
-                            <a href="bioe3-conference"><img style="border: 1px solid black" src="/mobile-assets/TRY/sq-2.jpg"/></a>
+                            <a href="bioe3-conference"><img style="border: 1px solid black"
+                                    src="/mobile-assets/TRY/sq-2.jpg" /></a>
                         </div>
                         <div class="col-lg-6">
-                            <a href="https://www.rgu.ac/ncmpac-2026"><img style="border: 1px solid black" src="/mobile-assets/TRY/sq-1.jpg"/></a>
+                            <a href="https://www.rgu.ac/ncmpac-2026"><img style="border: 1px solid black"
+                                    src="/mobile-assets/TRY/sq-1.jpg" /></a>
                         </div>
                     </div>
 
@@ -1079,9 +1081,9 @@
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
                                     <img class="zoomable" src="mobile-assets/events/zg.jpg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                        <img class="zoomable" src="mobile-assets/events/nov171.jpeg"
+                                    <img class="zoomable" src="mobile-assets/events/nov171.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                        <img class="zoomable" src="mobile-assets/events/nov172.jpeg"
+                                    <img class="zoomable" src="mobile-assets/events/nov172.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="mobile-assets/events/techer.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
@@ -1200,6 +1202,28 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news64/2.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    RGU Launches Book, Scholarship & Memoriam on Heartthrob’s Birth
+                                                    Anniversary</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 18,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/rgu-launches-book-scholarship-memoriam-on-heartthrob’s-birth-anniversary">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
 
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
@@ -1208,7 +1232,8 @@
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                    class="pt-2 m-0 fw-bold">Country Needs Independent Judiciary Insulated from External Pressures: SC Judge Ujjal Bhuyan</p>
+                                                    class="pt-2 m-0 fw-bold">Country Needs Independent Judiciary Insulated
+                                                    from External Pressures: SC Judge Ujjal Bhuyan</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">November 15,
                                                     2025
@@ -1229,7 +1254,8 @@
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                    class="pt-2 m-0 fw-bold">RGU Faculty Attempts National Record with Solo Baking Marathon of 2,041 Assorted Cookies</p>
+                                                    class="pt-2 m-0 fw-bold">RGU Faculty Attempts National Record with Solo
+                                                    Baking Marathon of 2,041 Assorted Cookies</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">November 13,
                                                     2025
@@ -1243,26 +1269,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news60/2.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                    class="pt-2 m-0 fw-bold">Royal Anna Seva completes five years of service, new phase inaugurated by Chief Secretary Dr. Ravi Kota</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 12,
-                                                    2025
-                                                </p>
-                                                <a
-                                                    href="/royal-anna-seva-completes-five-years-of-service-new-phase-inaugurated-by-chief-secretary-dr-ravi-kota">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
 
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">
@@ -1608,8 +1615,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                        students</span> -->
+                                                                                                                                                                                                                                                                                                                                        <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                            students</span> -->
                                                                     </div>
 
                                                                     <div class="card-content">
@@ -1641,8 +1648,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                        students</span> -->
+                                                                                                                                                                                                                                                                                                                                        <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                            students</span> -->
 
                                                                     </div>
 
