@@ -159,11 +159,10 @@
                         </div>
                     </div>
 
-                     <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Amlandeep.jpeg"
-                                    alt="Profile image">
+                                <img src="/mobile-assets/updated-faculty-img/Amlandeep.jpeg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Amlandeep Das</h3>
                             <p class="card-designation">Professor & Associate Dean, Student Affairs</p>
@@ -186,11 +185,11 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Baishalee-Rajkhowa-RSL.png"
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pronami-Bhattacharyya-RSL.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Dr. Baishalee Rajkhowa</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <h3 class="card-name">Dr. Pronami Bhattacharyya</h3>
+                            <p class="card-designation">Associate Professor & HoD</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -198,10 +197,10 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pronami-Bhattacharyya-RSL.png"
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Baishalee-Rajkhowa-RSL.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Dr. Pronami Bhattacharyya</h3>
+                            <h3 class="card-name">Dr. Baishalee Rajkhowa</h3>
                             <p class="card-designation">Associate Professor</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
