@@ -30,15 +30,14 @@
             <section class="job-advertisement-section py-4">
                 <div class="ad-items container">
                     <!-- Main Content: QR Code and Advertisement -->
-                    <div class="row align-items-center">
+                    <div class="row align-items- text-center">
                         <!-- QR Code Section -->
-                        <div class="col-lg-6 text-center">
-                            <!-- Top Text Section -->
+                        {{-- <div class="col-lg-6 text-center">
                             <div class="text-center mb-4">
                                 <img src="/assets/j-1.jpeg" style="border: 2px solid black;" />
                             </div>
-                        </div>
-                        <div class="col-lg-6 text-center">
+                        </div> --}}
+                        <div class="col-lg-12 text-center">
                             <div class="text-center mb-4">
                                 <h1 class="headd3 fw-bold">To apply/register, click below link -</h1>
                                 <a href="https://rgu.renocampus.com/activeOpenings"
