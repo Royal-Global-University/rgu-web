@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'MBSI Senior Scientist Award 2025 Goes to Prof Amlan Das of RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 20, 2025:',
+                            'link' => 'mbsi-senior-scientist-award-2025-goes-to-prof-amlan-das-of-rgu',
+                            'image' => '/mobile-assets/media-corner/news64/201.jpeg',
+                            'content' => 'Prof. Amlan Das, a leading microbiologist and Professor from the Department of Microbiology, The Assam Royal Global University, has been honoured with the MBSI Senior Scientist Award – 2025 by the Microbiologists Society, India (MBSI). ',
+                        ],
+                        [
                             'title' => 'RGU Launches Book, Scholarship & Memoriam on Heartthrob’s Birth Anniversary',
                             'summary' => '“Zubeen: Twenty Songs and Seven Portraits” launched at RGU',
                             'date' => 'Guwahati, November 18, 2025:',

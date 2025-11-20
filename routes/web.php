@@ -3018,6 +3018,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/mbsi-senior-scientist-award-2025-goes-to-prof-amlan-das-of-rgu', function () {
+    return view('frontend/media-corner/news71');
+})->name('mbsi-senior-scientist-award-2025-goes-to-prof-amlan-das-of-rgu');
+
 Route::get('/rgu-launches-book-scholarship-memoriam-on-heartthrob’s-birth-anniversary', function () {
     return view('frontend/media-corner/news70');
 })->name('rgu-launches-book-scholarship-memoriam-on-heartthrob’s-birth-anniversary');
