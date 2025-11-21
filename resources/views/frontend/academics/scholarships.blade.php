@@ -1670,3 +1670,85 @@
     </div>
 
 @endsection
+
+@push('scripts')
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "OfferCatalog",
+  "name": "Royal Global University Comprehensive Scholarship List",
+  "description": "Details on the Royal Merit, Royal Endowment, Royal Suraksha (Security Personnel), and Hope for Manipur (Violence Affected Families) scholarships.",
+  "url": "https://www.rgu.ac/scholarships",
+  "provider": {
+    "@type": "EducationalOrganization",
+    "name": "Royal Global University (RGU)",
+    "sameAs": "https://www.rgu.ac/"
+  },
+  "itemListElement": [
+    // --- 1. ROYAL MERIT - ON ADMISSION SCHOLARSHIP (Merit-Based) ---
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "Royal Merit - On Admission Scholarship (Up to 100% Fee Waiver)"
+      },
+      "description": "Merit scholarship based on 10+2 or Graduation scores. Requires minimum 96% (CBSE) or 91% (HS/State Board) for 100% waiver, with a refundable Caution Money of Rs. 10000/- only.",
+      "category": "Merit-based",
+      "eligibleRegion": { "@type": "Country", "name": "IN" },
+      "priceCurrency": "INR",
+      "minValue": 25,
+      "maxValue": 100,
+      "valueAdded": {
+        "@type": "StructuredValue",
+        "name": "Percentage of Annual Fee Waived"
+      }
+    },
+    // --- 2. ROYAL SHAURYA (Security Personnel Wards) ---
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "Royal Shaurya: Full Freeship for Wards of Braveheart Security Personnels (Military/Paramilitary/Police Forces)"
+      },
+      "description": "100% Freeship (Annual, Registration, Admission Fees waived) for wards of Defense/Paramilitary/Police Personnel who laid their lives, received gallantry awards, or expired on duty (N.E. India). Requires Rs. 10000/- refundable Caution Money only.",
+      "category": "Special Category - Defense/Security",
+      "eligibleRegion": { "@type": "Country", "name": "IN" },
+      "priceCurrency": "INR",
+      "valueAdded": {
+        "@type": "StructuredValue",
+        "name": "100% Fee Waiver"
+      }
+    },
+    // --- 3. ROYAL ENDOWMENT (Socio-Economic/Special) ---
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "Royal Endowment & Other Scholarship (Socio-Economic/Arts/Sports)"
+      },
+      "description": "Scholarships offering 25% or 50% on annual fees for special categories: Single Parent Wards, Wards of Teaching Professionals, Sports/Arts Participants (State/National), Differently-abled students, and Wards of Padma/Assam State Awardees.",
+      "category": "Socio-Economic / Arts / Sports",
+      "eligibleRegion": { "@type": "Country", "name": "IN" }
+    },
+    // --- 4. HOPE FOR MANIPUR SCHOLARSHIP (Disaster Relief) ---
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "Hope for Manipur Scholarship: 100% Admission Fee Waiver"
+      },
+      "description": "100% Admission Fee Waiver for students from violence affected families of Manipur, conditional on securing admission to UG or PG program.",
+      "category": "Special Category - Violence Affected Families",
+      "eligibleRegion": { "@type": "State", "name": "Manipur" },
+      "valueAdded": {
+        "@type": "StructuredValue",
+        "name": "100% Admission Fee Waived"
+      }
+    }
+  ]
+}
+</script>
+@endpush
+

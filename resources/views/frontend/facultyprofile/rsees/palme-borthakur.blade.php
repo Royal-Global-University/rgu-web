@@ -1,4 +1,7 @@
 @extends('frontend.master')
+@section('title', 'Best University in Assam, India')
+@section('meta_description', 'Dr. Palme Borthakur: Ph.D. in Geography & Assistant Professor at Royal Global University (RGU). View her qualifications, 11+ years of experience, research interests, and publications.')
+@section('meta_keywords', 'RGU Job portal')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
 
@@ -610,3 +613,59 @@
 
     </section>
 @endsection
+
+@push('scripts')
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dr. Palme Borthakur",
+  "image": "https://www.instagram.com/palmeborthakur/?hl=en",
+  "url": "https://www.rgu.ac/faculty-palme-borthakur",
+  "jobTitle": "Assistant Professor",
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "University of Science & Technology Meghalaya"
+  },
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "PhD",
+      "name": "Ph.D. - University of Science & Technology Meghalaya"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "MA",
+      "name": "M.A. (Geography) - Cotton College, Gauhati University"
+    }
+  ],
+  "worksFor": {
+    "@type": "EducationalOrganization",
+    "name": "Royal Global University (RGU)",
+    "url": "https://www.rgu.ac/",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Guwahati",
+      "addressRegion": "Assam",
+      "addressCountry": "IN"
+    }
+  },
+  "sameAs": [
+    "https://in.linkedin.com/in/palme-borthakur-1958a197",
+    "https://www.facebook.com/palme.borthakur/",
+    "https://scholar.google.com/citations?user=YATr-40AAAAJ&hl=en"
+  ],
+  "hasPart": [
+    {
+      "@type": "PublicationIssue",
+      "description": "Paper publications in journals: National: 3, International: 2"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Research Interests",
+      "about": "Music Geography, Cultural Geography, Regional Planning, Gender Studies."
+    }
+  ]
+}
+</script>
+@endpush

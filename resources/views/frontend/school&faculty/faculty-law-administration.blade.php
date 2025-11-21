@@ -1,4 +1,8 @@
 @extends('frontend.master')
+@section('title', 'Best University in Assam, India')
+@section('meta_description, Meet the top-ranked Law Faculty at RGUs Royal School of Law & Administration (RSLA). View
+    profiles for Prof. B.C. Barooah (Dean), Dr. Ajit Kaushal (HOD), and 10+ Professors.')
+@section('meta_keywords', 'Royal School of Law & Administration (RSLA)')
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
@@ -140,8 +144,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Bhavana.jpg"
-                                    alt="Profile image">
+                                <img src="mobile-assets/updated-faculty-img/Bhavana.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Bhavana Sharma</h3>
                             <p class="card-designation">Professor</p>
@@ -349,3 +352,138 @@
 
     </div>
 @endsection
+
+@push('scripts')
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Faculty List - Royal School of Law & Administration (RSLA)",
+  "description": "Directory of Professors, Associate Professors, and Assistant Professors at the Royal School of Law and Administration at RGU, Guwahati.",
+  "url": "https://www.rgu.ac/faculty-law-administration",
+  "numberOfItems": 12,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Person",
+        "name": "Prof. (Dr.) B.C. Barooah",
+        "jobTitle": "Professor & Dean, Royal School of Law & Administration (RSLA)",
+        "url": "https://www.rgu.ac/faculty-law-administration"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Person",
+        "name": "Prof. Ajit Kaushal",
+        "jobTitle": "Professor and HOD",
+        "url": "https://www.rgu.ac/faculty-ajit-kaushal"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Person",
+        "name": "Prof. Bhavana Sharma",
+        "jobTitle": "Professor",
+        "url": "https://www.rgu.ac/faculty-bhavana-sharma"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Person",
+        "name": "Prof. Hiren Ch. Nath",
+        "jobTitle": "Professor",
+        "url": "https://www.rgu.ac/faculty-hiren-nath"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Person",
+        "name": "Prof. Thaneswar Kalita",
+        "jobTitle": "Professor",
+        "url": "https://www.rgu.ac/faculty-thaneshwar-kalita"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Person",
+        "name": "Dr. Pranita Choudhury",
+        "jobTitle": "Associate Professor",
+        "url": "https://www.rgu.ac/faculty-pranita-choudhury"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Person",
+        "name": "Dr. Sumit Agarwala",
+        "jobTitle": "Assistant Professor",
+        "url": "https://www.rgu.ac/faculty-sumit-agarwala"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Person",
+        "name": "Dr. Bhupali Saikia",
+        "jobTitle": "Assistant Professor",
+        "url": "https://www.rgu.ac/faculty-bhupali-saikia"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Person",
+        "name": "Dr. Arpita Sharma",
+        "jobTitle": "Assistant Professor",
+        "url": "https://www.rgu.ac/faculty-arpita-sharma"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Person",
+        "name": "Dr. Rajashree Gogoi",
+        "jobTitle": "Assistant Professor",
+        "url": "https://www.rgu.ac/faculty-rajashree-gogoi"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Person",
+        "name": "Mr. Abhijit Nath",
+        "jobTitle": "Assistant Professor",
+        "url": "https://www.rgu.ac/faculty-abhijit-nath"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Person",
+        "name": "Ms. Ritupriya Kalita",
+        "jobTitle": "Assistant Professor",
+        "url": "https://www.rgu.ac/faculty-ritupriya-kalita"
+      }
+    }
+  ]
+}
+</script>
+@endpush

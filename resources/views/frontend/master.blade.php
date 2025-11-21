@@ -1021,7 +1021,7 @@
     <div id="page" class="site site_wrapper">
 
         @yield('content')
-        
+
     </div>
     </div><!-- #page -->
 
@@ -1519,6 +1519,11 @@
     @endif
 
     {{-- New nav --}}
+
+    {{-- Page-specific scripts --}}
+    @stack('scripts')
+
+    
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             document.querySelectorAll(".nav-item.dropdown").forEach(function(el) {

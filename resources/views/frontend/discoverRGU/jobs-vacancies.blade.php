@@ -5,56 +5,58 @@
 @section('content')
     <div id="page" class="site site_wrapper">
 
-            <div class="scroll-top">
-                <div class="scroll-top-wrap">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
-                        data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path
-                            d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
-                        </path>
-                    </svg>
-                </div>
+        <div class="scroll-top">
+            <div class="scroll-top-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="injected-svg"
+                    data-src="https://static.elfsight.com/icons/app-back-to-top-arrow-3.svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="m7.997 10 3.515-3.79a.672.672 0 0 1 .89-.076l.086.075L16 10l-3 .001V18h-2v-7.999L7.997 10z">
+                    </path>
+                </svg>
             </div>
+        </div>
 
-            @include('frontend/components/aheader')
+        @include('frontend/components/aheader')
 
-            <div class="container">
-                <h1 class="headd1 text-center p-4 fw-bold" style="color: #27467A">Join The Assam Royal Global University</h1>
-                <p class="text-dark">The Assam Royal Global University, one of India’s premium private universities, has been a leadership platform since
-                2017, connecting industries, entrepreneurs, and youth. RGU fosters an environment where education, employment, and
+        <div class="container">
+            <h1 class="headd1 text-center p-4 fw-bold" style="color: #27467A">Join The Assam Royal Global University</h1>
+            <p class="text-dark">The Assam Royal Global University, one of India’s premium private universities, has been a
+                leadership platform since
+                2017, connecting industries, entrepreneurs, and youth. RGU fosters an environment where education,
+                employment, and
                 entrepreneurship thrive through collaboration with corporates, professionals, and academic institutes.</p>
-                <h3 class="headd3 text-dark text-center p-4 fw-bold">Explore academic and professional vacancies, view detailed job descriptions, and learn how to apply through our portal:</h3>
-            </div>
+            <h3 class="headd3 text-dark text-center p-4 fw-bold">Explore academic and professional vacancies, view detailed
+                job descriptions, and learn how to apply through our portal:</h3>
+        </div>
 
-            <section class="job-advertisement-section py-4">
-                <div class="ad-items container">
-                    <!-- Main Content: QR Code and Advertisement -->
-                    <div class="row align-items- text-center">
-                        <!-- QR Code Section -->
-                        {{-- <div class="col-lg-6 text-center">
-                            <div class="text-center mb-4">
-                                <img src="/assets/j-1.jpeg" style="border: 2px solid black;" />
-                            </div>
-                        </div> --}}
-                        <div class="col-lg-12 text-center">
-                            <div class="text-center mb-4">
-                                <h1 class="headd3 fw-bold">To apply/register, click below link -</h1>
-                                <a href="https://rgu.renocampus.com/activeOpenings"
-                                    class="headd3 job-ad-link text-primary fw-bold">https://rgu.renocampus.com/activeOpenings</a>
-                            </div>
-                            <h1 class="headd3 fw-bold text-center text-danger">Or scan the QR Code below:</h1>
-                            <img src="assets/img/jobs.jpeg" style="width: 400px; height:300px"/>
+        <section class="job-advertisement-section py-4">
+            <div class="ad-items container">
+                <!-- Main Content: QR Code and Advertisement -->
+                <div class="row align-items- text-center">
+                    <!-- QR Code Section -->
+                    {{-- <div class="col-lg-6 text-center">
+                        <div class="text-center mb-4">
+                            <img src="/assets/j-1.jpeg" style="border: 2px solid black;" />
+                        </div>
+                    </div> --}}
+                    <div class="col-lg-12 text-center">
+                        <div class="text-center mb-4">
+                            <h1 class="headd3 fw-bold">To apply/register, click below link -</h1>
+                            <a href="https://rgu.renocampus.com/activeOpenings"
+                                class="headd3 job-ad-link text-primary fw-bold">https://rgu.renocampus.com/activeOpenings</a>
+                        </div>
+                        <h1 class="headd3 fw-bold text-center text-danger">Or scan the QR Code below:</h1>
+                        <img src="assets/img/jobs.jpeg" style="width: 400px; height:300px" />
                     </div>
                     <div class="row">
                         <div class="col-lg-6" style="border: 1px solid black">
-                            <img  src="/mobile-assets/apply-jobs/1.jpg"/>
+                            <img src="/mobile-assets/apply-jobs/1.jpg" />
                         </div>
                         <div class="col-lg-6" style="border: 1px solid black">
-                            <img src="mobile-assets/apply-jobs/2.jpg"/>
+                            <img src="mobile-assets/apply-jobs/2.jpg" />
                         </div>
                         <div class="col-lg-6" style="border: 1px solid black">
-                            <img src="mobile-assets/apply-jobs/3.jpg"/>
+                            <img src="mobile-assets/apply-jobs/3.jpg" />
                         </div>
                     </div>
 
@@ -62,13 +64,71 @@
                     <!-- Bottom Note Section -->
                     <div class="text-center mt-4">
                         <p class="para1 text-danger fw-bold ">
-                            Disclaimer: Applications for positions listed on this page are accepted year-round. The HR Department will contact candidates when
+                            Disclaimer: Applications for positions listed on this page are accepted year-round. The HR
+                            Department will contact candidates when
                             relevant vacancies arise.
                         </p>
                     </div>
                 </div>
 
-            </section>
-            <!--End About-->
-        </div><!-- #page -->
+        </section>
+        <!--End About-->
+    </div><!-- #page -->
 @endsection
+
+@push('scripts')
+    <script>
+
+
+        <script type="" application /ld + json"" >
+        {
+            ""@context"": ""https://schema.org"",
+                ""@type"": ""JobPosting"",
+                    ""title"": ""Faculty and Staff Recruitment 2025 at Royal Global University"",
+                        ""description"": "" < p > Royal Global University(RGU), a top - ranked private university in Guwahati, is hiring qualified academic and administrative staff for the 2025 session.We invite applications for various faculty positions(Professor, Associate Professor, Assistant Professor) and non - teaching roles across 20 + Schools and Departments(Engineering, Law, Management, Humanities, etc.).Competitive salary, benefits, and a modern, eco - friendly campus environment are provided.Apply directly through the official RGU portal.</p > "",
+                            ""identifier"": {
+            ""@type"": ""PropertyValue"",
+                ""name"": ""RGUJobs"",
+                    ""value"": ""[RGU-Recruit-2025-26]""
+        },
+        ""datePosted"": ""[2025-11-15]"",
+            ""validThrough"": ""[2025-12-15]"",
+                ""employmentType"": [
+                    ""FULL_TIME"",
+                    ""CONTRACTOR""
+                ],
+                    ""jobLocation"": {
+            ""@type"": ""Place"",
+                ""address"": {
+                ""@type"": ""PostalAddress"",
+                    ""streetAddress"": ""NH - 27, Betkuchi"",
+                        ""addressLocality"": ""Guwahati"",
+                            ""addressRegion"": ""Assam"",
+                                ""postalCode"": ""781035"",
+                                    ""addressCountry"": ""IN""
+            }
+        },
+        ""baseSalary"": {
+            ""@type"": ""MonetaryAmount"",
+                ""currency"": ""INR"",
+                    ""value"": {
+                ""@type"": ""QuantitativeValue"",
+                    ""minValue"": 500000,
+                        ""maxValue"": 2000000,
+                            ""unitText"": ""YEAR""
+            }
+        },
+        ""hiringOrganization"": {
+            ""@type"": ""Organization"",
+                ""name"": ""Royal Global University(RGU)"",
+                    ""sameAs"": ""https://www.rgu.ac/"",
+            ""logo"": ""https://www.rgu.ac/mobile-assets/index/logo-dark.png""
+      },
+        ""applicantLocationRequirements"": {
+            ""@type"": ""Country"",
+                ""name"": ""IN""
+        },
+        ""responsibilities"": ""[Summary of general responsibilities, e.g., Teaching, Research, and Administrative duties.]""
+    }
+    </script>
+@endpush

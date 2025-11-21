@@ -376,7 +376,9 @@
                             The hostel accommodates around 334 students. Premium amenities at the PG include high-speed
                             wi-fi, 24*7 power backup, lift facilities, an in-house gymnasium, geysers and other basic
                             amenities.
+
                         </p>
+                        <a href="/admission-programs-fees-structure" class="mt-3 p-2 bg-danger text-white rounded">HOSTEL FEES 2026-27(FOR OLD & NEW STUDENTS)</a>
                     </div>
                     <div class="col-lg-6">
                         <img src="mobile-assets/hostel-life/aditya.png" alt="">
@@ -403,6 +405,7 @@
                             one of the top priorities, thus, high-tech safety mechanisms are installed at the property
                             as well.
                         </p>
+                        <a href="/admission-programs-fees-structure" class="mt-3 p-2 bg-danger text-white rounded">HOSTEL FEES 2026-27(FOR OLD & NEW STUDENTS)</a>
                     </div>
 
                 </div>
@@ -420,6 +423,7 @@
                             with study areas which makes the environment in the hostel conducive to living and learning.
                             Other basic amenities include lift facility, geysers, housekeeping etc.
                         </p>
+                        <a href="/admission-programs-fees-structure" class="mt-3 p-2 bg-danger text-white rounded">HOSTEL FEES 2026-27(FOR OLD & NEW STUDENTS)</a>
                     </div>
 
                     <div class="col-lg-6">
@@ -445,6 +449,7 @@
                             with study areas which makes the environment in the hostel conducive to living and learning.
                             Other basic amenities include lift facility, geysers, housekeeping etc.
                         </p>
+                        <a href="/admission-programs-fees-structure" class="mt-3 p-2 bg-danger text-white rounded">HOSTEL FEES 2026-27(FOR OLD & NEW STUDENTS)</a>
                     </div>
                 </div>
             </div>

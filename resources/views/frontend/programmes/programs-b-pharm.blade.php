@@ -1,6 +1,6 @@
 @extends('frontend.master')
-@section('title', 'Royal Global University B.Pharm – Excellence in Pharmacy Education in Assam')
-@section('meta_description', 'Pursue B.Pharm at Royal Global University and gain in-depth knowledge of pharmaceutical sciences, preparing you for a successful career in pharmacy and healthcare.')
+@section('title', 'B. Pharm 2025: Royal School of Pharmacy (RSP) Admission & Fees')
+@section('meta_description', 'Admissions Open 2025! B.Pharm (RSP) 4-Year Program. Annual Fee ₹1,73,000. View eligibility, course details, expert faculty, and career outcomes. Apply Now!')
 @section('meta_keywords', 'B Pharm')
 @section('content')
 <div class="mobile">
