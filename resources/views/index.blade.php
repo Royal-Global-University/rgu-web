@@ -83,8 +83,8 @@
 
         <!-- slider banners  -->
         <div id="carouselExample" class="carousel slide mobile-image-slider text-center" data-bs-ride="carousel">
-            <a style="background-color: #ffb300; font-size: 20px; padding: 20px 10px;"
-                class="mb-3 text-center text-white rounded fw-bold">Registration for 5th Convocation</a>
+            {{-- <a style="background-color: #ffb300; font-size: 20px; padding: 20px 10px;"
+                class="mb-3 text-center text-white rounded fw-bold">Registration for 5th Convocation</a> --}}
             <div class="carousel-inner mt-4">
 
                 <div class="carousel-item active">
