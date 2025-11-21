@@ -92,6 +92,30 @@
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-P4WH4BBV');
     </script>
+
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '836863243133733');
+        fbq('track', 'PageView');
+    </script>
+
     <!-- End Google Tag Manager -->
 
     <style>
@@ -987,19 +1011,17 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4WH4BBV" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
+
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=836863243133733&ev=PageView&noscript=1" /></noscript>
+
     <!-- End Google Tag Manager (noscript) -->
 
 
     <div id="page" class="site site_wrapper">
 
         @yield('content')
-
-
-        <!--Innovation & Publication end-->
-
-
-
-
+        
     </div>
     </div><!-- #page -->
 
@@ -1433,7 +1455,8 @@
                                                         Chakra</p>
                                                 </a>
                                                 <a target="_blank" href="https://www.rgu.ac/jobs-vacancies">
-                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs Vacancies</p>
+                                                    <p class="m-0 pt-4 text-white" style="font-size: 18px;">Jobs
+                                                        Vacancies</p>
                                                 </a>
 
                                                 <h5 class="mt-3 p-0 fw-bold"
