@@ -1523,7 +1523,7 @@
     {{-- Page-specific scripts --}}
     @stack('scripts')
 
-    
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             document.querySelectorAll(".nav-item.dropdown").forEach(function(el) {

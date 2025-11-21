@@ -1670,7 +1670,6 @@
     </div>
 
 @endsection
-
 @push('scripts')
 
 
@@ -1751,4 +1750,5 @@
 }
 </script>
 @endpush
+
 

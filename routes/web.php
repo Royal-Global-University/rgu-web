@@ -579,10 +579,6 @@ Route::get('/schemes-differently-abled', function () {
     return view('frontend/academics/schemes-differently-abled');
 })->name('schemes-differently-abled');
 
-Route::get('/scholarships', function () {
-    return view('frontend/academics/scholarships');
-})->name('scholarships');
-
 
 Route::get('/convocation-first', function () {
     return view('frontend/academics/convocation-first');
@@ -4220,6 +4216,9 @@ Route::get('/faculty-syed-sajidul-islam', function () {
 
 
 //RSBAS Faculty Profile
+Route::get('/faculty-gokul-sisir', function () {
+    return view('frontend/facultyprofile/rsbas/gokul-sisir');
+})->name('/faculty-gokul-sisir');
 
 Route::get('/olivia-kakati', function () {
     return view('frontend/facultyprofile/rsbas/olivia-kakati');

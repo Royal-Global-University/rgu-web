@@ -11,7 +11,7 @@
         </div>
 
         <div class="website">
-@include('frontend/components/aheader')
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Behavioural & Allied Sciences (RSBAS)</span>
             </h2>
@@ -116,10 +116,23 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Prof. (Dr.) S.C. Mukhopadhyay</h3>
-                            <p class="card-designation">Professor & Dean, Royal School of Humanities & Scocial Sciences
-                                (RSHSS) & i/c Royal School of Behavioural & Allied Sciences</p>
+                            <p class="card-designation">Professor & Dean, Royal School of Humanities & Social Sciences
+                                (RSHSS) & i/c
+                                Dean, Royal School of Behavioral & Allied Sciences</p>
                             <a href="https://www.rgu.ac/faculty-surajit-c-mukhopadhyay" class="profile-link">View
                                 Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Prince-CP-RSBAS.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Prince C P</h3>
+                            <p class="card-designation">Associate Professor</p>
+                            <a href="https://www.rgu.ac/faculty-prince-cp" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -132,18 +145,6 @@
                             <h3 class="card-name">Dr. Naphisabet Kharsati</h3>
                             <p class="card-designation">Assistant Professor & Coordinator, RSBAS</p>
                             <a href="https://www.rgu.ac/faculty-naphisabet" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Prince-CP-RSBAS.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Prince P</h3>
-                            <p class="card-designation">Associate Professor</p>
-                            <a href="https://www.rgu.ac/faculty-prince-cp" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -220,16 +221,15 @@
                         </div>
                     </div>
 
-                     <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Gokul.jpg"
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/no-pic.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Mr. Gokul Sisir</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/bachaspatimayum-deeparani-devi" class="profile-link">View
-                                Profile</a> --}}
+                            <a href="faculty-gokul-sisir" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

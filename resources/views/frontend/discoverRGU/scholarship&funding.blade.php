@@ -1,8 +1,7 @@
 @extends('frontend.master')
-@section('title', 'Best University in Assam, India')
-@section('meta_description',
-    'Admissions Open! Check RGU Scholarships 2025: Royal Merit (100%), Royal Suraksha (50%),
-    International, and Sports schemes. View Eligibility & Apply Now!')
+@section('title', 'RGU Scholarships 2026-27: Royal Merit, Bhutanese & Merit-Based')
+@section('meta_description', 'Apply for RGU Scholarships 2025-26! Check eligibility for the Royal Merit Scholarship and
+    specific schemes for Bhutanese students. Financial aid and national schemes available.')
 @section('meta_keywords', 'Scholarship')
 @section('content')
     <div id="page" class="site site_wrapper">
@@ -1547,39 +1546,46 @@
                                                                 </td>
                                                                 <td rowspan="2">
                                                                     <ul>
-                                                                        <li>1) First four positions at National Level Festival
+                                                                        <li>1) First four positions at National Level
+                                                                            Festival
                                                                             conducted by the
                                                                             Ministry of Youth Cultural and Sports Affairs,
                                                                             Government of India.
                                                                         </li>
                                                                         <li>2) First four positions at All India University
                                                                             level (by the AIU)</li>
-                                                                        <li>3) Overall Winner of National TV Reality Show</li>
+                                                                        <li>3) Overall Winner of National TV Reality Show
+                                                                        </li>
                                                                     </ul>
                                                                 </td>
                                                                 <td rowspan="2">
                                                                     <ul>
-                                                                        <li>1) Participated in National Youth Fest conducted by
+                                                                        <li>1) Participated in National Youth Fest conducted
+                                                                            by
                                                                             the Ministry of
                                                                             Youth Affairs and Sports, Government of India.
                                                                         </li>
                                                                         <li>2) Graded artist of the Government of India
                                                                             broadcasting media like DD/
                                                                             AIR or equivalent.</li>
-                                                                        <li>3) First Three positions at Zonal Youth Festivals
+                                                                        <li>3) First Three positions at Zonal Youth
+                                                                            Festivals
                                                                             (AIU).</li>
                                                                     </ul>
                                                                 </td>
                                                                 <td rowspan="2">
                                                                     <ul>
-                                                                        <li>1) Fourth position at Zonal Youth Festivals (AIU).
+                                                                        <li>1) Fourth position at Zonal Youth Festivals
+                                                                            (AIU).
                                                                         </li>
-                                                                        <li>2) First Three Positions at Scheduled State Level
+                                                                        <li>2) First Three Positions at Scheduled State
+                                                                            Level
                                                                             Event Conducted by
                                                                             the Ministry of Youth Cultural and Sports
                                                                             Affairs or Sangeet Natak
                                                                             Academy.</li>
-                                                                        <li>3) First three Positions at Inter Zonal Competition
+                                                                        <li>3) First three Positions at Inter Zonal
+                                                                            Competition
                                                                             (Intra University)
                                                                             conducted by UGC recognized Universities.</li>
                                                                         <li>4) Finalist/ Semi-finalist/ Quarterfinalist at
@@ -2143,3 +2149,81 @@
         </section>
     </div><!-- #page -->
 @endsection
+@push('scripts')
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "OfferCatalog",
+  "name": "Royal Global University Comprehensive Scholarship List",
+  "description": "Details on the Royal Merit, Royal Endowment, Royal Suraksha (Security Personnel), and Hope for Manipur (Violence Affected Families) scholarships.",
+  "url": "https://www.rgu.ac/scholarships",
+  "provider": {
+    "@type": "EducationalOrganization",
+    "name": "Royal Global University (RGU)",
+    "sameAs": "https://www.rgu.ac/"
+  },
+  "itemListElement": [
+    // --- 1. ROYAL MERIT - ON ADMISSION SCHOLARSHIP (Merit-Based) ---
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "Royal Merit - On Admission Scholarship (Up to 100% Fee Waiver)"
+      },
+      "description": "Merit scholarship based on 10+2 or Graduation scores. Requires minimum 96% (CBSE) or 91% (HS/State Board) for 100% waiver, with a refundable Caution Money of Rs. 10000/- only.",
+      "category": "Merit-based",
+      "eligibleRegion": { "@type": "Country", "name": "IN" },
+      "priceCurrency": "INR",
+      "minValue": 25,
+      "maxValue": 100,
+      "valueAdded": {
+        "@type": "StructuredValue",
+        "name": "Percentage of Annual Fee Waived"
+      }
+    },
+    // --- 2. ROYAL SHAURYA (Security Personnel Wards) ---
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "Royal Shaurya: Full Freeship for Wards of Braveheart Security Personnels (Military/Paramilitary/Police Forces)"
+      },
+      "description": "100% Freeship (Annual, Registration, Admission Fees waived) for wards of Defense/Paramilitary/Police Personnel who laid their lives, received gallantry awards, or expired on duty (N.E. India). Requires Rs. 10000/- refundable Caution Money only.",
+      "category": "Special Category - Defense/Security",
+      "eligibleRegion": { "@type": "Country", "name": "IN" },
+      "priceCurrency": "INR",
+      "valueAdded": {
+        "@type": "StructuredValue",
+        "name": "100% Fee Waiver"
+      }
+    },
+    // --- 3. ROYAL ENDOWMENT (Socio-Economic/Special) ---
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "Royal Endowment & Other Scholarship (Socio-Economic/Arts/Sports)"
+      },
+      "description": "Scholarships offering 25% or 50% on annual fees for special categories: Single Parent Wards, Wards of Teaching Professionals, Sports/Arts Participants (State/National), Differently-abled students, and Wards of Padma/Assam State Awardees.",
+      "category": "Socio-Economic / Arts / Sports",
+      "eligibleRegion": { "@type": "Country", "name": "IN" }
+    },
+    // --- 4. HOPE FOR MANIPUR SCHOLARSHIP (Disaster Relief) ---
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "Hope for Manipur Scholarship: 100% Admission Fee Waiver"
+      },
+      "description": "100% Admission Fee Waiver for students from violence affected families of Manipur, conditional on securing admission to UG or PG program.",
+      "category": "Special Category - Violence Affected Families",
+      "eligibleRegion": { "@type": "State", "name": "Manipur" },
+      "valueAdded": {
+        "@type": "StructuredValue",
+        "name": "100% Admission Fee Waived"
+      }
+    }
+  ]
+}
+</script>
+@endpush

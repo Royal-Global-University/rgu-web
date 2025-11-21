@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'Best University in Assam, India')
-@section('meta_description', 'Meet RGU Department of Sociology faculty, including Prof. S.C. Mukhopadhyay and Dr. Denim
+@section('meta_description',
+    'Meet RGU Department of Sociology faculty, including Prof. S.C. Mukhopadhyay and Dr. Denim
     Deka. View full profiles, publications, and research interests in Sociology and Culture Studies.')
 @section('meta_keywords', 'RGU Department of Sociology faculty')
 @section('content')
@@ -287,9 +288,7 @@
                         Department of History</h2>
                 </div>
                 <!-- History  -->
-
                 <div class="row justify-content-center">
-
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -299,7 +298,7 @@
                             </div>
                             <h3 class="card-name">Prof. Ranjan Chakrabarti</h3>
                             <p class="card-designation">Distinguished Professor Emeritus</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+
                         </div>
                     </div>
 
@@ -324,20 +323,7 @@
                             </div>
                             <h3 class="card-name">Prof. Sajal Nag</h3>
                             <p class="card-designation">Distinguished Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
 
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mukesh-Kalita-RSHSS.png"
-                                    alt="Profile image Mr. Mukesh Kalita">
-                            </div>
-                            <h3 class="card-name">Mr. Mukesh Kalita</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, History</p>
-                            <a href="https://www.rgu.ac/faculty-mukesh-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -350,6 +336,18 @@
                             <h3 class="card-name">Dr. Susmita Hazarika</h3>
                             <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-susmita-hazarika" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mukesh-Kalita-RSHSS.png"
+                                    alt="Profile image Mr. Mukesh Kalita">
+                            </div>
+                            <h3 class="card-name">Mr. Mukesh Kalita</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator, History</p>
+                            <a href="https://www.rgu.ac/faculty-mukesh-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -404,18 +402,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
-                                    alt="Profile image of Dr. Susmita Banerjee">
-                            </div>
-                            <h3 class="card-name">Dr. Susmita Banerjee</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/premmi.png"
                                     alt="Profile image of Premmi Wahengbam">
                             </div>
@@ -434,6 +420,18 @@
                             <h3 class="card-name">Ms. KM Sudha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-km-sudha" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
+                                    alt="Profile image of Susmita Banerjee">
+                            </div>
+                            <h3 class="card-name">Susmita Banerjee</h3>
+                            <p class="card-designation">Faculty Member, IKS Cell</p>
+                            <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -528,7 +526,7 @@
                                 <img src="mobile-assets/updated-faculty-img/Abhinav-Chaliha-RSHSS.png"
                                     alt="Profile image Abhinav Chaliha">
                             </div>
-                            <h3 class="card-name">Prof. Abhinav Chaliha</h3>
+                            <h3 class="card-name">Mr. Abhinav Chaliha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-abhinav-chaliha" class="profile-link">View Profile</a>
                         </div>
@@ -560,18 +558,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
-                                    alt="Profile image of Susmita Banerjee">
-                            </div>
-                            <h3 class="card-name">Susmita Banerjee</h3>
-                            <p class="card-designation">Faculty Member, IKS Cell</p>
-                            <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Jasmine-Choudhury-RSL.png"
                                     alt="Profile image of Dr. Jasmine A Choudhury">
                             </div>
@@ -579,16 +565,6 @@
                             <p class="card-title">Assistant Professor</p>
                         </div>
                     </div>
-
-                    <!-- <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="" alt="Profile image of Dr. Queen Deka">
-                      </div>
-                      <h3 class="card-name">Dr. Queen Deka</h3>
-                      <p class="card-title">Assistant Professor</p>
-                    </div>
-                  </div> -->
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -598,7 +574,7 @@
                             </div>
                             <h3 class="card-name">Dr. Deepanjali Reang</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+
                         </div>
                     </div>
 
@@ -623,11 +599,12 @@
                             </div>
                             <h3 class="card-name">Mr. Debapratim Bharali</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="" class="profile-link">View Profile</a> --}}
+                            <a href="" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
                 </div>
+
 
                 <!-- Political Science & Public Administration  -->
                 <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
@@ -648,19 +625,6 @@
                             <h3 class="card-name">Prof. Shalini Saxena</h3>
                             <p class="card-designation">Professor & HOD, Political Science & Administrative Service</p>
                             <a href="https://www.rgu.ac/faculty-shalini-saxena" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/monojit-singha-pol-sc.jpeg"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Y. Monojit Singha</h3>
-                            <p class="card-designation">Assistant Professor
-                            </p>
-                            <a href="https://www.rgu.ac/faculty-monojit-singha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -704,18 +668,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Monika-Kumari-RSHSS.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Dr. Monika Kumari</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-monika-kumari" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sushmita-Nongmeikapam.png"
                                     alt="Profile image">
                             </div>
@@ -723,6 +675,19 @@
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-sushmita-hoshi-nongmeikapam" class="profile-link">View
                                 Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/monojit-singha-pol-sc.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Y. Monojit Singha</h3>
+                            <p class="card-designation">Assistant Professor
+                            </p>
+                            <a href="https://www.rgu.ac/faculty-monojit-singha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -783,13 +748,11 @@
                             </div>
                             <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
                             <p class="card-designation">Visiting Faculty</p>
-                            <!-- <a href="https://www.rgu.ac/faculty-george-ap" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
 
                 </div>
-
                 <!-- Sociology  -->
                 <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
                     <h2 class="text-center justify-content-center fw-bold"
@@ -808,7 +771,8 @@
                             </div>
                             <h3 class="card-name">Prof. (Dr.) S.C. Mukhopadhyay</h3>
                             <p class="card-designation">Professor & Dean, Royal School of Humanities & Social Sciences,
-                                Director, Centre for Inter-Disciplinary Research</p>
+                                Director,
+                                Centre for Inter-Disciplinary Research</p>
                             <a href="https://www.rgu.ac/faculty-surajit-c-mukhopadhyay" class="profile-link">View
                                 Profile</a>
                         </div>
@@ -828,7 +792,19 @@
                             <p class="card-designation">
                                 Associate Professor
                             </p>
-                            {{-- <a href="#" class="profile-link">View Profile</a> --}}
+                            <a href="#" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Dr-Tripti-Das.png"
+                                    alt="Profile image of Tripti Das">
+                            </div>
+                            <h3 class="card-name">Dr. Tripti Das</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator</p>
+                            <a href="https://www.rgu.ac/faculty-tripti-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -857,18 +833,6 @@
                                 Assistant Professor
                             </p>
                             <a href="https://www.rgu.ac/faculty-suhail-ahmed" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Dr-Tripti-Das.png"
-                                    alt="Profile image of Tripti Das">
-                            </div>
-                            <h3 class="card-name">Dr. Tripti Das</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator</p>
-                            <a href="https://www.rgu.ac/faculty-tripti-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -947,7 +911,6 @@
                             </div>
                             <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
                             <p class="card-designation">Visiting Faculty</p>
-                            <!-- <a href="https://www.rgu.ac/faculty-george-ap" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
@@ -964,7 +927,17 @@
                 <!-- Social Work  -->
 
                 <div class="row justify-content-center">
-
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Priyanka-Patowari-RSHSS.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Priyanka Patowari</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator</p>
+                            <a href="https://www.rgu.ac/faculty-priyanka-patowari" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -975,18 +948,6 @@
                             <h3 class="card-name">Dr. Amlan Das</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-amlan-das-rshss" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Priyanka-Patowari-RSHSS.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Priyanka Patowari</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-priyanka-patowari" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1047,792 +1008,798 @@
 @endsection
 
 @push('scripts')
-    {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Faculty Directory - Royal School of Humanities & Social Sciences (RSHSS)",
-    "description": "Complete directory of faculty members, professors, and leadership across all departments including
-    Economics, History, Political Science & Public Administration, Sociology, and Social Work at Royal Global University.",
-    "url": "https://www.rgu.ac/index.php/faculty-humanities-social",
-    "numberOfItems": 56,
-    "itemListElement": [
-    {
-    "@type": "ListItem",
-    "position": 1,
-    "item": {
-    "@type": "Person",
-    "name": "Prof. (Dr.) S.C. Mukhopadhyay",
-    "jobTitle": "Professor & Dean, Royal School of Humanities & Social Sciences, Director, Centre for Inter-Disciplinary
-    Research",
-    "url": "https://www.rgu.ac/faculty-surajit-c-mukhopadhyay",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Royal School of Humanities & Social Sciences"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 2,
-    "item": {
-    "@type": "Person",
-    "name": "Prof. Ranjan Chakrabarti",
-    "jobTitle": "Distinguished Professor Emeritus",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 3,
-    "item": {
-    "@type": "Person",
-    "name": "Prof. Shiela Bora",
-    "jobTitle": "Professor & Advisor",
-    "url": "https://www.rgu.ac/faculty-shiela-bora",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 4,
-    "item": {
-    "@type": "Person",
-    "name": "Prof. Sajal Nag",
-    "jobTitle": "Distinguished Professor",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 5,
-    "item": {
-    "@type": "Person",
-    "name": "Prof. Swabera Islam",
-    "jobTitle": "Professor & Advisor",
-    "url": "https://www.rgu.ac/faculty-swabera-islam",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Royal School of Humanities & Social Sciences"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 6,
-    "item": {
-    "@type": "Person",
-    "name": "Prof. Gautam Mazumdar",
-    "jobTitle": "Professor",
-    "url": "https://www.rgu.ac/faculty-gautam-mazumdar",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Economics"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 7,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Muhammad Deluwar Hoque",
-    "jobTitle": "Associate Professor & HOD, Economics",
-    "url": "https://www.rgu.ac/faculty-mohammed-deluwar-hoque",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Economics"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 8,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Pragya Tamang",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-pragya-tamang",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Economics"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 9,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Sanghamitra Hazarika",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-sanghamitra-hazarika",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Economics"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 10,
-    "item": {
-    "@type": "Person",
-    "name": "Mr. Jugal Kishore Bhattacharyya",
-    "jobTitle": "Assistant Professor & Coordinator GE/AEEC",
-    "url": "https://www.rgu.ac/faculty-jugal-kishore-bhattacharyya",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Economics"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 11,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. Rajkumari Surjabala Devi Das",
-    "jobTitle": "Visiting Faculty",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Economics"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 12,
-    "item": {
-    "@type": "Person",
-    "name": "Mr. Mukesh Kalita",
-    "jobTitle": "Assistant Professor & Coordinator, History",
-    "url": "https://www.rgu.ac/faculty-mukesh-kalita",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 13,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Susmita Hazarika",
-    "jobTitle": "Associate Professor",
-    "url": "https://www.rgu.ac/faculty-susmita-hazarika",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 14,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Bishnu Gurung",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-bishnu-gurung",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 15,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Mir Kamruzzaman Chowdhary",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-mir-kamruzzaman",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 16,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Mitali Kalita",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-mitali-kalita",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 17,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Tania Begum",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-tania-begum",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 18,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Susmita Banerjee",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-susmita-banerjee",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 19,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Premmi Wahengbam",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-premmi",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 20,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. KM Sudha",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-km-sudha",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 21,
-    "item": {
-    "@type": "Person",
-    "name": "Prof. Shalini Saxena",
-    "jobTitle": "Professor & HOD, Political Science & Administrative Service",
-    "url": "https://www.rgu.ac/faculty-shalini-saxena",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Political Science & Public Administration"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 22,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Y. Monojit Singha",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-monojit-singha",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Political Science & Public Administration"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 23,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Dhiraj Kumar Borkotoky",
-    "jobTitle": "Associate Professor",
-    "url": "https://www.rgu.ac/faculty-dhiraj-kumar-borkotoky",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Political Science & Public Administration"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 24,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Baba Chandra Singha",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-babachandra-singha",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Political Science & Public Administration"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 25,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Krishangi Saikia",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-krishangi-saikia",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Political Science & Public Administration"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 26,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Monika Kumari",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-monika-kumari",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Political Science & Public Administration"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 27,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Sushmita Nongmeikapam",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-sushmita-hoshi-nongmeikapam",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Political Science & Public Administration"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 28,
-    "item": {
-    "@type": "Person",
-    "name": "Mr. Abhinav Chaliha",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-abhinav-chaliha",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Political Science & Public Administration"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 29,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. Monisha Bordoloi",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-monisha-bordoloi",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Political Science & Public Administration"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 30,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. Tanjeela Mehboob",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-tanjeela-mehboob",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Political Science & Public Administration"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 31,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. Nikita Biswakarma",
-    "jobTitle": "Teaching Assistant",
-    "url": "https://www.rgu.ac/faculty-nikita-biswakarma",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Political Science & Public Administration"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 32,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Jeebanlata Salam",
-    "jobTitle": "Associate Professor",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Sociology"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 33,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Denim Deka",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-denim-deka",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Sociology"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 34,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Suhail Ahmed",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-suhail-ahmed",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Sociology"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 35,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Tripti Das",
-    "jobTitle": "Assistant Professor & Coordinator",
-    "url": "https://www.rgu.ac/faculty-tripti-das",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Sociology"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 36,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Trishna Mani Thakuria",
-    "jobTitle": "Assistant Professor and Assistant Director, Finishing School",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Sociology"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 37,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. Adishree Borgohain",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-adishree-borgohain",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Sociology"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 38,
-    "item": {
-    "@type": "Person",
-    "name": "Mr. Kadiguang Panmei",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-kadiguang-panmei",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Sociology"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 39,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. Lalzikpuii Rajkhowa",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-lalzikpuii-rajkhowa",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Sociology"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 40,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. Prajna Borah",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-prajna-borah",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Sociology"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 41,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Amlan Das",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-amlan-das-rshss",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Social Work"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 42,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Priyanka Patowari",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-priyanka-patowari",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Social Work"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 43,
-    "item": {
-    "@type": "Person",
-    "name": "Mr. Bikash Chetry",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-bikash-chetry",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Social Work"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 44,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. Joyeeta Bhattacharjee",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-joyeeta-bhattacharjee",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Social Work"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 45,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. Kristi Saikia",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-kristi-saikia",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Social Work"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 46,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. Nabanita Hazarika",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-nabanita-hazarika",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of Social Work"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 47,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Pranab Jyoti Sarma",
-    "jobTitle": "Faculty Member, IKS Cell",
-    "url": "https://www.rgu.ac/faculty-pranab-sarma",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 48,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Baishali Rajkhowa",
-    "jobTitle": "Associate Professor",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 49,
-    "item": {
-    "@type": "Person",
-    "name": "Mr. Asif Iqbal Mazid",
-    "jobTitle": "Assistant Professor & Coordinator, Royal School of Fashion Design & Technology",
-    "url": "https://www.rgu.ac/faculty-asif-iqbal-mazid",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 50,
-    "item": {
-    "@type": "Person",
-    "name": "Suresh Ranjan Goduka",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-suresh-goduka",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 51,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Prabahan Pujari",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-prabahan-puzari",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 52,
-    "item": {
-    "@type": "Person",
-    "name": "Ms. Bachaspatimayum Deeparani Devi",
-    "jobTitle": "Assistant Professor and Clinical Psychologist (Associate)",
-    "url": "https://www.rgu.ac/bachaspatimayum-deeparani-devi",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 53,
-    "item": {
-    "@type": "Person",
-    "name": "Prof. Abhinav Chaliha",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-abhinav-chaliha",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 54,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Jyoti Mishra",
-    "jobTitle": "Assistant Professor",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 55,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Mahuya Deb",
-    "jobTitle": "Assistant Professor",
-    "url": "https://www.rgu.ac/faculty-mahuya-deb",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    },
-    {
-    "@type": "ListItem",
-    "position": 56,
-    "item": {
-    "@type": "Person",
-    "name": "Dr. Jasmine A Choudhury",
-    "jobTitle": "Assistant Professor",
-    "worksFor": {
-    "@type": "EducationalOrganization",
-    "name": "Department of History"
-    }
-    }
-    }
-    ]
-    }
+    <script>
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Faculty Directory - Royal School of Humanities & Social Sciences (RSHSS)",
+            "description": "Complete directory of faculty members, professors, and leadership across all departments including
+            Economics,
+            History,
+            Political Science & Public Administration,
+            Sociology,
+            and Social Work at Royal Global University.
+            ",
+            "url": "https://www.rgu.ac/index.php/faculty-humanities-social",
+            "numberOfItems": 56,
+            "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Prof. (Dr.) S.C. Mukhopadhyay",
+                        "jobTitle": "Professor & Dean, Royal School of Humanities & Social Sciences, Director, Centre for Inter-Disciplinary
+                        Research ",
+                        "url": "https://www.rgu.ac/faculty-surajit-c-mukhopadhyay",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Royal School of Humanities & Social Sciences"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Prof. Ranjan Chakrabarti",
+                        "jobTitle": "Distinguished Professor Emeritus",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Prof. Shiela Bora",
+                        "jobTitle": "Professor & Advisor",
+                        "url": "https://www.rgu.ac/faculty-shiela-bora",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Prof. Sajal Nag",
+                        "jobTitle": "Distinguished Professor",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Prof. Swabera Islam",
+                        "jobTitle": "Professor & Advisor",
+                        "url": "https://www.rgu.ac/faculty-swabera-islam",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Royal School of Humanities & Social Sciences"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 6,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Prof. Gautam Mazumdar",
+                        "jobTitle": "Professor",
+                        "url": "https://www.rgu.ac/faculty-gautam-mazumdar",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Economics"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 7,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Muhammad Deluwar Hoque",
+                        "jobTitle": "Associate Professor & HOD, Economics",
+                        "url": "https://www.rgu.ac/faculty-mohammed-deluwar-hoque",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Economics"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 8,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Pragya Tamang",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-pragya-tamang",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Economics"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 9,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Sanghamitra Hazarika",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-sanghamitra-hazarika",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Economics"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 10,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mr. Jugal Kishore Bhattacharyya",
+                        "jobTitle": "Assistant Professor & Coordinator GE/AEEC",
+                        "url": "https://www.rgu.ac/faculty-jugal-kishore-bhattacharyya",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Economics"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 11,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. Rajkumari Surjabala Devi Das",
+                        "jobTitle": "Visiting Faculty",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Economics"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 12,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mr. Mukesh Kalita",
+                        "jobTitle": "Assistant Professor & Coordinator, History",
+                        "url": "https://www.rgu.ac/faculty-mukesh-kalita",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 13,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Susmita Hazarika",
+                        "jobTitle": "Associate Professor",
+                        "url": "https://www.rgu.ac/faculty-susmita-hazarika",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 14,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Bishnu Gurung",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-bishnu-gurung",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 15,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Mir Kamruzzaman Chowdhary",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-mir-kamruzzaman",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 16,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Mitali Kalita",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-mitali-kalita",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 17,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Tania Begum",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-tania-begum",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 18,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Susmita Banerjee",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-susmita-banerjee",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 19,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Premmi Wahengbam",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-premmi",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 20,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. KM Sudha",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-km-sudha",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 21,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Prof. Shalini Saxena",
+                        "jobTitle": "Professor & HOD, Political Science & Administrative Service",
+                        "url": "https://www.rgu.ac/faculty-shalini-saxena",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Political Science & Public Administration"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 22,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Y. Monojit Singha",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-monojit-singha",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Political Science & Public Administration"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 23,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Dhiraj Kumar Borkotoky",
+                        "jobTitle": "Associate Professor",
+                        "url": "https://www.rgu.ac/faculty-dhiraj-kumar-borkotoky",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Political Science & Public Administration"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 24,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Baba Chandra Singha",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-babachandra-singha",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Political Science & Public Administration"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 25,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Krishangi Saikia",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-krishangi-saikia",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Political Science & Public Administration"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 26,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Monika Kumari",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-monika-kumari",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Political Science & Public Administration"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 27,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Sushmita Nongmeikapam",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-sushmita-hoshi-nongmeikapam",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Political Science & Public Administration"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 28,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mr. Abhinav Chaliha",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-abhinav-chaliha",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Political Science & Public Administration"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 29,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. Monisha Bordoloi",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-monisha-bordoloi",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Political Science & Public Administration"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 30,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. Tanjeela Mehboob",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-tanjeela-mehboob",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Political Science & Public Administration"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 31,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. Nikita Biswakarma",
+                        "jobTitle": "Teaching Assistant",
+                        "url": "https://www.rgu.ac/faculty-nikita-biswakarma",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Political Science & Public Administration"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 32,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Jeebanlata Salam",
+                        "jobTitle": "Associate Professor",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Sociology"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 33,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Denim Deka",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-denim-deka",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Sociology"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 34,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Suhail Ahmed",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-suhail-ahmed",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Sociology"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 35,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Tripti Das",
+                        "jobTitle": "Assistant Professor & Coordinator",
+                        "url": "https://www.rgu.ac/faculty-tripti-das",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Sociology"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 36,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Trishna Mani Thakuria",
+                        "jobTitle": "Assistant Professor and Assistant Director, Finishing School",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Sociology"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 37,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. Adishree Borgohain",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-adishree-borgohain",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Sociology"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 38,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mr. Kadiguang Panmei",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-kadiguang-panmei",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Sociology"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 39,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. Lalzikpuii Rajkhowa",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-lalzikpuii-rajkhowa",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Sociology"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 40,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. Prajna Borah",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-prajna-borah",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Sociology"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 41,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Amlan Das",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-amlan-das-rshss",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Social Work"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 42,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Priyanka Patowari",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-priyanka-patowari",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Social Work"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 43,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mr. Bikash Chetry",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-bikash-chetry",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Social Work"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 44,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. Joyeeta Bhattacharjee",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-joyeeta-bhattacharjee",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Social Work"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 45,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. Kristi Saikia",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-kristi-saikia",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Social Work"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 46,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. Nabanita Hazarika",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-nabanita-hazarika",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of Social Work"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 47,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Pranab Jyoti Sarma",
+                        "jobTitle": "Faculty Member, IKS Cell",
+                        "url": "https://www.rgu.ac/faculty-pranab-sarma",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 48,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Baishali Rajkhowa",
+                        "jobTitle": "Associate Professor",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 49,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mr. Asif Iqbal Mazid",
+                        "jobTitle": "Assistant Professor & Coordinator, Royal School of Fashion Design & Technology",
+                        "url": "https://www.rgu.ac/faculty-asif-iqbal-mazid",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 50,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Suresh Ranjan Goduka",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-suresh-goduka",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 51,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Prabahan Pujari",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-prabahan-puzari",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 52,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ms. Bachaspatimayum Deeparani Devi",
+                        "jobTitle": "Assistant Professor and Clinical Psychologist (Associate)",
+                        "url": "https://www.rgu.ac/bachaspatimayum-deeparani-devi",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 53,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Prof. Abhinav Chaliha",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-abhinav-chaliha",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 54,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Jyoti Mishra",
+                        "jobTitle": "Assistant Professor",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 55,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Mahuya Deb",
+                        "jobTitle": "Assistant Professor",
+                        "url": "https://www.rgu.ac/faculty-mahuya-deb",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 56,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dr. Jasmine A Choudhury",
+                        "jobTitle": "Assistant Professor",
+                        "worksFor": {
+                            "@type": "EducationalOrganization",
+                            "name": "Department of History"
+                        }
+                    }
+                }
+            ]
+        }
+    </script>
 @endpush
