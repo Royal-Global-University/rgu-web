@@ -45,7 +45,18 @@
                             </div>
                             <h1 class="headd3 fw-bold text-center text-danger">Or scan the QR Code below:</h1>
                             <img src="assets/img/jobs.jpeg" style="width: 400px; height:300px"/>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6" style="border: 1px solid black">
+                            <img  src="/mobile-assets/apply-jobs/1.jpg"/>
                         </div>
+                        <div class="col-lg-6" style="border: 1px solid black">
+                            <img src="mobile-assets/apply-jobs/2.jpg"/>
+                        </div>
+                        <div class="col-lg-6" style="border: 1px solid black">
+                            <img src="mobile-assets/apply-jobs/3.jpg"/>
+                        </div>
+                    </div>
 
                     <hr>
                     <!-- Bottom Note Section -->
