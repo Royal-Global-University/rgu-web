@@ -3014,6 +3014,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/central-tibetan-administration-president-delivers-tibet-awareness-talk-at-rgu', function () {
+    return view('frontend/media-corner/news72');
+})->name('central-tibetan-administration-president-delivers-tibet-awareness-talk-at-rgu');
+
 Route::get('/mbsi-senior-scientist-award-2025-goes-to-prof-amlan-das-of-rgu', function () {
     return view('frontend/media-corner/news71');
 })->name('mbsi-senior-scientist-award-2025-goes-to-prof-amlan-das-of-rgu');

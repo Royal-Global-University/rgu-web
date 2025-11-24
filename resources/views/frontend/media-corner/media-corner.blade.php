@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Central Tibetan Administration President Delivers Tibet Awareness Talk at RGU',
+                            'summary' => 'Tibet Movement Needs China Back at the Negotiating Table: Sikyong Penpa Tsering',
+                            'date' => 'Guwahati, November 21, 2025:',
+                            'link' => 'central-tibetan-administration-president-delivers-tibet-awareness-talk-at-rgu',
+                            'image' => '/mobile-assets/media-corner/news64/241.jpeg',
+                            'content' => 'A special session on “Tibet Awareness” featuring Sikyong Penpa Tsering, President of the Central Tibetan Administration (CTA), was held today at The Assam Royal Global University (RGU) under the theme “Security and Environment.”',
+                        ],
+                        [
                             'title' => 'MBSI Senior Scientist Award 2025 Goes to Prof Amlan Das of RGU',
                             'summary' => '',
                             'date' => 'Guwahati, November 20, 2025:',
