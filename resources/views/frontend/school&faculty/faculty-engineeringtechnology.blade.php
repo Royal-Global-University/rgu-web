@@ -226,7 +226,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Hidangmayum Satyajeet Sharma</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-hidangmayum-satyajeet-sharma" class="profile-link">View
                                 Profile</a>
                         </div>
@@ -529,7 +529,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Smrity Choudhury</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-smrity-choudhury" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -723,7 +723,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Abhijeet Dey</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-abhijeet-dey" class="profile-link">View Profile</a>
                         </div>
                     </div>
