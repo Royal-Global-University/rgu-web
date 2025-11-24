@@ -116,7 +116,7 @@
                                     alt="Profile image of Dr. Hirak Jyoti Hazarika">
                             </div>
                             <h3 class="card-name">Dr. Hirak Jyoti Hazarika</h3>
-                            <p class="card-designation">Assistant Professor & HoD, Library Science</p>
+                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs & HoD, Library Science</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>

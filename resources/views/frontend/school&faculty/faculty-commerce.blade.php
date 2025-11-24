@@ -204,7 +204,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Rishi Chakravarty</h3>
-                            <p class="card-designation">Assistant Professor & Associate Dean, Academic Affairs</p>
+                            <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-rishi-chakravarty" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -599,7 +599,7 @@
                                     alt="Profile image of Dr. Pragya Tamang">
                             </div>
                             <h3 class="card-name">Dr. Pragya Tamang</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>

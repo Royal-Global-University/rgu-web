@@ -196,7 +196,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Ms. Somyata Chitaranjan Satpathy Sarma</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-somyata-c-satpathy-sarma" class="profile-link">View
                                 Profile</a>
                         </div>
@@ -307,7 +307,7 @@
                                     alt="Profile image of Ms. Smita Das">
                             </div>
                             <h3 class="card-name">Ms. Smita Das</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Optometry</p>
+                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs & Coordinator, Optometry</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -755,7 +755,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Indrajit Dutta</h3>
-                            <p class="card-designation">Associate Professor & HOD, RSTTM</p>
+                            <p class="card-designation">Associate Professor, Associate Dean, Academic Affairs & HOD, RSTTM</p>
                             <a href="https://www.rgu.ac/faculty-indrajit-dutta" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -809,7 +809,7 @@
                                     alt="Profile image of Dr. Rupesh Kumar">
                             </div>
                             <h3 class="card-name">Dr. Rupesh Kumar</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs and Coordinator, MLT</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -1033,7 +1033,7 @@
                                     alt="Profile image of Dr. Robbarts Nongmaithem">
                             </div>
                             <h3 class="card-name">Dr. Robbarts Nongmaithem</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -1069,7 +1069,7 @@
                                     alt="Profile image of Ms. Jebin Sultana">
                             </div>
                             <h3 class="card-name">Ms. Jebin Sultana</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator</p>
+                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs & Coordinator</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -1093,7 +1093,7 @@
                                     alt="Profile image of Dr. Abesh Chakraborty">
                             </div>
                             <h3 class="card-name">Dr. Abesh Chakraborty</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -1129,7 +1129,7 @@
                                     alt="Profile image of Ms. Smita Das">
                             </div>
                             <h3 class="card-name">Ms. Smita Das</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Optometry</p>
+                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs & Coordinator, Optometry</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>

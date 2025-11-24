@@ -321,7 +321,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Abesh Chakraborty</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>

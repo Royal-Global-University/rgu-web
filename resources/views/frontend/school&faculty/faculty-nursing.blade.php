@@ -230,7 +230,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Rashmi Rekha Borah</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-rashmi-rekha-borah" class="profile-link">View Profile</a>
                         </div>
                     </div>

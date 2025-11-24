@@ -94,7 +94,7 @@
                                             Dr. Abesh Chakraborty
                                         </h5>
                                         <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            Assistant Professor
+                                            Assistant Professor & Assistant Dean, Academic Affairs
                                         </p>
 
                                         <p class="para1 fw-bold text-dark">
@@ -317,7 +317,7 @@
                                 Dr. Abesh Chakraborty
                             </h5>
                             <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Assistant Professor
+                                Assistant Professor & Assistant Dean, Academic Affairs
                             </p>
 
                             <p class="para1 fw-bold text-dark">

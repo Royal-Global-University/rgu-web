@@ -416,7 +416,7 @@
                                     alt="Profile image of Dr.Baishalee Rajkhowa">
                             </div>
                             <h3 class="card-name">Dr. Baishalee Rajkhowa</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -514,7 +514,7 @@
                                     alt="Profile image of Dr. Binoyargha Dam">
                             </div>
                             <h3 class="card-name">Dr. Binoyargha Dam</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-binoyargha-dam" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -589,7 +589,7 @@
                                     alt="Profile image of Dr.Baishalee Rajkhowa">
                             </div>
                             <h3 class="card-name">Dr. Baishalee Rajkhowa</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -601,7 +601,7 @@
                                     alt="Profile image of Dr. Abesh Chakraborty">
                             </div>
                             <h3 class="card-name">Dr. Abesh Chakraborty</h3>
-                            <p class="card-designation">Assistant Professor
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs
                                 <!-- <a href="" class="profile-link">View Profile</a> -->
 
                             </p>

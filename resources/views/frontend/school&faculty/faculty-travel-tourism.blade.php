@@ -149,7 +149,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Indrajit Dutta</h3>
-                            <p class="card-designation">Associate Professor & HOD, RSTTM</p>
+                            <p class="card-designation">Associate Professor, Associate Dean, Academic Affairs & HOD, RSTTM</p>
                             <a href="https://www.rgu.ac/faculty-indrajit-dutta" class="profile-link">View Profile</a>
                         </div>
                     </div>

@@ -183,7 +183,7 @@
                                     alt="Profile image of">
                             </div>
                             <h3 class="card-name">Prof. Debarupa Dutta Chakraborty</h3>
-                            <p class="card-designation">Professor</p>
+                            <p class="card-designation">Professor & Associate Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-debapurba" class="profile-link">View Profile</a>
                         </div>
                     </div>

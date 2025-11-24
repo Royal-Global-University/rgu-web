@@ -234,7 +234,7 @@
                                     alt="Profile image of Pragya Tamang">
                             </div>
                             <h3 class="card-name">Dr. Pragya Tamang</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="/faculty-pragya-tamang" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -346,7 +346,7 @@
                                     alt="Profile image Mr. Mukesh Kalita">
                             </div>
                             <h3 class="card-name">Mr. Mukesh Kalita</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, History</p>
+                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs & Coordinator, History</p>
                             <a href="https://www.rgu.ac/faculty-mukesh-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -441,7 +441,7 @@
                                 <img src="https://media.rgu.ac/iks/Pranab.jpg" alt="Profile image of Dr. Pranab Sarma">
                             </div>
                             <h3 class="card-name">Dr. Pranab Jyoti Sarma</h3>
-                            <p class="card-title">Faculty Member, IKS Cell</p>
+                            <p class="card-title">Assistant Professor & Assistant Dean, Academic Affairs, IKS Cell</p>
                             <a href="https://www.rgu.ac/faculty-pranab-sarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -453,7 +453,7 @@
                                     alt="Profile image of Dr. Baishali Rajkhowa">
                             </div>
                             <h3 class="card-name">Dr. Baishali Rajkhowa</h3>
-                            <p class="card-title">Associate Professor</p>
+                            <p class="card-title">Associate Professor & Associate Dean, Academic Affairs</p>
                         </div>
                     </div>
 
@@ -722,7 +722,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Tanjeela Mehboob</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-tanjeela-mehboob" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -735,7 +735,7 @@
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Ms. Nikita Biswakarma</h3>
-                            <p class="card-designation">Teaching Assistant</p>
+                            <p class="card-designation">Teaching Assistant & Departmental Representative, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-nikita-biswakarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -855,7 +855,7 @@
                             </div>
                             <h3 class="card-name">Ms. Adishree Borgohain</h3>
                             <p class="card-designation">
-                                Assistant Professor
+                                Assistant Professor & Assistant Dean, Academic Affairs
                             </p>
                             <a href="https://www.rgu.ac/faculty-adishree-borgohain" class="profile-link">View Profile</a>
                         </div>
@@ -958,7 +958,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Mr. Bikash Chetry</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-bikash-chetry" class="profile-link">View Profile</a>
                         </div>
                     </div>

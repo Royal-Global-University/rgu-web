@@ -200,7 +200,7 @@
                       Dr. Pranab Jyoti Sarma
                     </h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Faculty Member, IKS Cell
+                      Assistant Professor & Assistant Dean, Academic Affairs, IKS Cell
                     </p>
                     <a href="faculty-pranab-sarma">
                         <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
@@ -425,7 +425,7 @@
                       Dr. Pranab Jyoti Sarma
                     </h5>
                     <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Faculty Member, IKS Cell
+                      Assistant Professor & Assistant Dean, Academic Affairs, IKS Cell
                     </p>
                     <a href="faculty-pranab-sarma">
                         <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>

@@ -487,7 +487,7 @@
                                     <tr>
                                         <td>1</td>
                                         <td>Ms. Jebin Sultana</td>
-                                        <td>Assistant Professor &amp; Coordinator, Nutrition and Dietetics</td>
+                                        <td>Assistant Professor, Assistant Dean, Academic Affairs &amp; Coordinator, Nutrition and Dietetics</td>
                                         <td>Convenor</td>
                                     </tr>
                                     <tr>
@@ -1510,7 +1510,7 @@
                                                     <tr>
                                                         <td>1</td>
                                                         <td>Ms. Jebin Sultana</td>
-                                                        <td>Assistant Professor &amp; Coordinator, Nutrition and Dietetics
+                                                        <td>Assistant Professor, Assistant Dean, Academic Affairs &amp; Coordinator, Nutrition and Dietetics
                                                         </td>
                                                         <td>Convenor</td>
                                                     </tr>

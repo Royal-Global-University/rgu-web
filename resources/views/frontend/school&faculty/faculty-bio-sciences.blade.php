@@ -255,7 +255,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Rupesh Kumar</h3>
-                            <p class="card-designation">Assistant Professor and Coordinator, MLT</p>
+                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs and Coordinator, MLT</p>
                             <a href="https://www.rgu.ac/faculty-rupesh-kumar" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -304,7 +304,7 @@
                                     alt="Profile image of Dr.Baishalee Rajkhowa">
                             </div>
                             <h3 class="card-name">Dr. Baishalee Rajkhowa</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -316,7 +316,7 @@
                                     alt="Profile image of Jiwasmika Baishya">
                             </div>
                             <h3 class="card-name">Dr. Pritha Roychowdhury</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -511,7 +511,7 @@
                                 <img src="mobile-assets/updated-faculty-img/Dipayan-Das.png" alt="Profile image">
                             </div>
                             <h3 class="card-name">Dr. Dipayan Das</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-dipayan-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -560,7 +560,7 @@
                                     alt="Profile image of Ms. Smita Das">
                             </div>
                             <h3 class="card-name">Ms. Smita Das</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Optometry</p>
+                            <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs & Coordinator, Optometry</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -585,7 +585,7 @@
                             </div>
                             <h3 class="card-name">Ms. Adishree Borgohain</h3>
                             <p class="card-designation">
-                                Assistant Professor
+                                Assistant Professor & Assistant Dean, Academic Affairs
                             </p>
                             <a href="https://www.rgu.ac/faculty-adishree-borgohain" class="profile-link">View Profile</a>
                         </div>
@@ -782,7 +782,7 @@
                                     alt="Profile image of Dr.Baishalee Rajkhowa">
                             </div>
                             <h3 class="card-name">Dr. Baishalee Rajkhowa</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
@@ -830,7 +830,7 @@
                                     alt="Profile image of Dr. Abesh Chakraborty">
                             </div>
                             <h3 class="card-name">Dr. Abesh Chakraborty</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>

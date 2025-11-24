@@ -151,7 +151,7 @@
                                 <img src="/mobile-assets/updated-faculty-img/Bhairab.jpg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Bhairab Sarma</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                             <a href="/faculty-bhairab-sarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -351,7 +351,7 @@
                                 <img src="https://media.rgu.ac/iks/Pranab.jpg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Pranab Jyoti Sarma</h3>
-                            <p class="card-title">Faculty Member, IKS Cell</p>
+                            <p class="card-title">Assistant Professor & Assistant Dean, Academic Affairs, IKS Cell</p>
                             <a href="https://www.rgu.ac/faculty-pranab-sarma" class="profile-link">View Profile</a>
                         </div>
                     </div>

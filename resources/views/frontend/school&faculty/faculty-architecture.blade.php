@@ -153,7 +153,7 @@
                                     alt="Profile image of Ar. Kasturi Borah">
                             </div>
                             <h3 class="card-name">Ar. Kasturi Borah</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-kasturi-borah" class="profile-link">View Profile</a>
                         </div>
                     </div>

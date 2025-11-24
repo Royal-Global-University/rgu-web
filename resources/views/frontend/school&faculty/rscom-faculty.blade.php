@@ -173,7 +173,7 @@
                   <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Champa-Devi.png" alt="Profile image ">
                 </div>
                 <h3 class="card-name">Dr. Champa Devi</h3>
-                <p class="card-designation">Assistant Professor</p>
+                <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                 <a href="https://www.rgu.ac/faculty-champa-devi" class="profile-link">View Profile</a>
               </div>
             </div>
@@ -457,7 +457,7 @@
                     alt="Profile image ">
                 </div>
                 <h3 class="card-name">Dr. Indrajit Dutta</h3>
-                <p class="card-designation">Associate Professor & HOD, RSTTM</p>
+                <p class="card-designation">Associate Professor, Associate Dean, Academic Affairs & HOD, RSTTM</p>
                 <a href="https://www.rgu.ac/faculty-indrajit-dutta" class="profile-link">View Profile</a>
               </div>
             </div>
@@ -544,7 +544,7 @@
                 </div>
                 <h3 class="card-name">Ms. Adishree Borgohain</h3>
                 <p class="card-designation">
-                  Assistant Professor
+                  Assistant Professor & Assistant Dean, Academic Affairs
                 </p>
                 <a href="https://www.rgu.ac/faculty-adishree-borgohain" class="profile-link">View Profile</a>
               </div>
@@ -557,7 +557,7 @@
                     alt="Profile image">
                 </div>
                 <h3 class="card-name">Ms. Tanjeela Mehboob</h3>
-                <p class="card-designation">Assistant Professor</p>
+                <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                 <a href="https://www.rgu.ac/faculty-tanjeela-mehboob" class="profile-link">View Profile</a>
               </div>
             </div>
@@ -643,7 +643,7 @@
                     alt="Profile image">
                 </div>
                 <h3 class="card-name">Ms. Nikita Biswakarma</h3>
-                <p class="card-designation">Teaching Assistant</p>
+                <p class="card-designation">Teaching Assistant & Departmental Representative, Academic Affairs</p>
                 <a href="https://www.rgu.ac/faculty-nikita-biswakarma" class="profile-link">View Profile</a>
               </div>
             </div>
@@ -705,7 +705,7 @@
                     alt="Profile image ">
                 </div>
                 <h3 class="card-name">Dr. Shraddha Basu</h3>
-                <p class="card-designation">Assistant Professor</p>
+                <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                 <a href="https://www.rgu.ac/faculty-shraddha-basu" class="profile-link">View Profile</a>
               </div>
             </div>
@@ -787,7 +787,7 @@
                     alt="Profile image of Pragya Tamang">
                 </div>
                 <h3 class="card-name">Dr. Pragya Tamang</h3>
-                <p class="card-designation">Assistant Professor</p>
+                <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
               </div>
             </div>
 
@@ -843,7 +843,7 @@
                     alt="Profile image ">
                 </div>
                 <h3 class="card-name">Ar. Kasturi Borah</h3>
-                <p class="card-designation">Associate Professor</p>
+                <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                 <a href="https://www.rgu.ac/faculty-kasturi-borah" class="profile-link">View Profile</a>
               </div>
             </div>
@@ -1026,7 +1026,7 @@
               <div class="card">
                 <div class="card-image"><img src=" https://www.rgu.ac/mobile-assets/updated-faculty-img/Ms-Nikita-Biswakarma-RSHSS.png" alt="Profile image "></div>
                 <h3 class="card-name">Ms. Nikita Biswakarma</h3>
-                <p class="card-title">Teaching Assistant</p><a href="https://www.rgu.ac/faculty-nikita-biswakarma" class="profile-link">View Profile</a>
+                <p class="card-title">Teaching Assistant & Departmental Representative, Academic Affairs</p><a href="https://www.rgu.ac/faculty-nikita-biswakarma" class="profile-link">View Profile</a>
               </div>
             </div>
 
