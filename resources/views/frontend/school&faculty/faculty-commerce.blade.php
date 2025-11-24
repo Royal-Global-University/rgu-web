@@ -204,7 +204,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Rishi Chakravarty</h3>
-                            <p class="card-designation">Associate Professor</p>
+                            <p class="card-designation">Assistant Professor & Associate Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-rishi-chakravarty" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -261,7 +261,7 @@
                                 <img src="mobile-assets/updated-faculty-img/Dr-Rajdeep-Nag.png" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Rajdeep Nag</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-dr-rajdeep-nag" class="profile-link">View Profile</a>
                         </div>
                     </div>
