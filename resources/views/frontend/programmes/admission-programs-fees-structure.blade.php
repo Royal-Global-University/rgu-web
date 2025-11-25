@@ -5555,7 +5555,7 @@
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: B.Tech - Artificial
-                                                        Intelligence-AI</strong>
+                                                        Intelligence-AI & Data Science </strong>
                                                     <br>
                                                     <a href="{{route('programs-b-tech-artifical-intelligence-ai')}}"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 4
@@ -5574,27 +5574,8 @@
                                             <td>10.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Course: B.Tech -
-                                                        Data Science </strong>
-                                                    <br>
-                                                    <a href="#" class="text-primary"><span
-                                                            style="font-size: 16px;"> Duration: 4 years | Admission Fee:
-                                                            60000.00</span></a>
-                                                </p>
-                                            </td>
-                                            <td>180000.00</td>
-                                            <td>91500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-tech-mechatronics')}}"><button type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
-                                        </tr>
-
-                                        <tr>
-                                            <td>11.</td>
-                                            <td>
-                                                <p>
                                                     <strong style="color: #023e8a;" class="#">Course: B.Tech - (Lateral
-                                                        Entry) - CE/CSE/ME/AI/Data Science</strong>
+                                                        Entry) - CE/CSE/ME/AI & Data Science</strong>
                                                     <br>
                                                     <a href="{{route('programs-b-tech-lateral-entry')}}"
                                                         class="text-primary"><span style="font-size: 16px;"> Duration: 3
@@ -5649,7 +5630,7 @@
                                         </tr> --}}
 
                                         <tr>
-                                            <td>12.</td>
+                                            <td>11.</td>
                                             <td>
                                                 <p>
                                                     <strong style="color: #023e8a;" class="#">Course: B.Tech for Working
