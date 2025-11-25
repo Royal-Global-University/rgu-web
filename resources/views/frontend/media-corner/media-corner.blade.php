@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Chief Justice Ashutosh Kumar unveils Dr Ambedkar’s bust at Royal Global University',
+                            'summary' => 'Draw Inspiration from Dr. Ambedkar’s Vision: Chief Justice Ashutosh Kumar to Students at RGU',
+                            'date' => 'Guwahati, November 24, 2025:',
+                            'link' => 'chief-justice-ashutosh-kumar-unveils-dr-ambedkar-bust-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/news65/1.jpeg',
+                            'content' => 'In a momentous ceremony held today at The Assam Royal Global University (RGU), Hon’ble Justice Mr. Ashutosh Kumar, Chief Justice of the Gauhati High Court...”',
+                        ],
+                        [
                             'title' => 'Central Tibetan Administration President Delivers Tibet Awareness Talk at RGU',
                             'summary' => 'Tibet Movement Needs China Back at the Negotiating Table: Sikyong Penpa Tsering',
                             'date' => 'Guwahati, November 21, 2025:',

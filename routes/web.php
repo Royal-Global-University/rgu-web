@@ -3018,6 +3018,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/chief-justice-ashutosh-kumar-unveils-dr-ambedkar-bust-at-royal-global-university', function () {
+    return view('frontend/media-corner/news73');
+})->name('chief-justice-ashutosh-kumar-unveils-dr-ambedkar-bust-at-royal-global-university');
+
 Route::get('/central-tibetan-administration-president-delivers-tibet-awareness-talk-at-rgu', function () {
     return view('frontend/media-corner/news72');
 })->name('central-tibetan-administration-president-delivers-tibet-awareness-talk-at-rgu');
