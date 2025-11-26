@@ -21,7 +21,7 @@
                         </a>
                     </div>
                     <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                        <a href="mobile-assets/academic-calendar/2025/RSP Academic Calender 2025-26.pdf" target="_blank"
+                        <a href="mobile-assets/academic-calendar/new/RSP-25-26.pdf" target="_blank"
                             class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                             style="background-color: #13223b; color: white; font-weight: bold; padding: 12px 20px; border-radius: 5px; text-decoration: none; min-height: 55px; font-size: 15px; white-space: nowrap;">
                             <i class="fa fa-download" style="margin-right: 8px;"></i> Academic Calendar for RSP
@@ -35,7 +35,7 @@
                         </a>
                     </div>
                     <div class="col-lg-12 col-md-12 d-flex justify-content-center pt-2">
-                        <a href="mobile-assets/academic-calendar/2025/RSB Academic Calender 2025-26.pdf" target="_blank"
+                        <a href="mobile-assets/academic-calendar/new/RSB-25-26.pdf" target="_blank"
                             class="btn mobile-para1 w-100 d-flex align-items-center justify-content-center text-center"
                             style="background-color: #13223b; color: white; font-weight: bold; padding: 12px 20px; border-radius: 5px; text-decoration: none; min-height: 55px; font-size: 15px; white-space: nowrap;">
                             <i class="fa fa-download" style="margin-right: 8px;"></i> Academic Calendar for RSB
@@ -70,7 +70,7 @@
                                 style="background-color: #27467A; color: #fff;" class="btn download-btn fw-bold headd3">
                                 <i class="bi bi-download"></i> Academic Calender
                             </button></a>
-                        <a target="_blank" href="mobile-assets/academic-calendar/2025/RSP Academic Calender 2025-26.pdf"> <button
+                        <a target="_blank" href="mobile-assets/academic-calendar/new/RSP-25-26.pdf"> <button
                                 style="background-color: #27467A; color: #fff;" class="btn download-btn fw-bold headd3">
                                 <i class="bi bi-download"></i> Academic Calender for RSP
                             </button> </a>
@@ -80,7 +80,7 @@
                                 <i class="bi bi-download"></i> Academic Calender for RSN
                             </button> </a>
 
-                            <a target="_blank" href="mobile-assets/academic-calendar/2025/RSB Academic Calender 2025-26.pdf"> <button
+                            <a target="_blank" href="mobile-assets/academic-calendar/new/RSB-25-26.pdf"> <button
                                     style="background-color: #27467A; color: #fff;" class="btn download-btn fw-bold headd3">
                                     <i class="bi bi-download"></i> Academic Calender for RSB
                                 </button> </a>
