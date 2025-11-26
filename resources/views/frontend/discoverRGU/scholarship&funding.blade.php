@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'RGU Scholarships 2026-27: Royal Merit, Bhutanese & Merit-Based')
-@section('meta_description', 'Apply for RGU Scholarships 2025-26! Check eligibility for the Royal Merit Scholarship and
+@section('meta_description',
+    'Apply for RGU Scholarships 2025-26! Check eligibility for the Royal Merit Scholarship and
     specific schemes for Bhutanese students. Financial aid and national schemes available.')
 @section('meta_keywords', 'Scholarship')
 @section('content')
@@ -160,7 +161,7 @@
                 <div class="container-fluid">
                     <div class="row" style="text-align: justify;">
                         <div class="accordion" id="accordionExample">
-                            <div class="accordion-item mb-2">
+                            {{-- <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -942,7 +943,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
 
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="headingThree">
@@ -950,7 +951,7 @@
                                         data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false"
                                         aria-controls="collapseSeven">
                                         <span class="p-2 rounded fw-bold"
-                                            style="background-color: #ef991f; margin-right: 15px;">G</span> Royal Suraksha:
+                                            style="background-color: #ef991f; margin-right: 15px;">A</span> Royal Suraksha:
                                         50% Scholarship For Wards Of Serving & Retired Security Personnels
                                         (Military/Paramilitary/North-Eastern
                                         Police Forces)
@@ -1079,7 +1080,7 @@
 
                             </div>
 
-                            <div class="accordion-item mb-2">
+                            {{-- <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed text-white" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false"
@@ -1142,7 +1143,7 @@
                                     </div>
                                 </div>
 
-                            </div>
+                            </div> --}}
 
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="headingThree">
@@ -1150,7 +1151,7 @@
                                         data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false"
                                         aria-controls="collapseSeven">
                                         <span class="p-2 rounded fw-bold"
-                                            style="background-color: #ef991f; margin-right: 15px;">J</span> Royal Shaurya :
+                                            style="background-color: #ef991f; margin-right: 15px;">B</span> Royal Shaurya :
                                         Full freeship to the wards of braveheart security personnels (Scholarship offered on
                                         course fee)
                                     </button>
@@ -1461,7 +1462,7 @@
                                         data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false"
                                         aria-controls="collapseSeven">
                                         <span class="p-2 rounded fw-bold"
-                                            style="background-color: #ef991f; margin-right: 15px;">K</span> Zubeen Garg
+                                            style="background-color: #ef991f; margin-right: 15px;">C</span> Zubeen Garg
                                         Scholarship
                                     </button>
                                 </h2>
@@ -1942,7 +1943,7 @@
                                         data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false"
                                         aria-controls="collapseSeven">
                                         <span class="p-2 rounded fw-bold"
-                                            style="background-color: #ef991f; margin-right: 15px;">L</span> Royal Merit
+                                            style="background-color: #ef991f; margin-right: 15px;">D</span> Royal Merit
                                         Scholarship
                                     </button>
                                 </h2>
