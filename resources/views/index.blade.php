@@ -1205,6 +1205,27 @@
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="/mobile-assets/media-corner/news74/3.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
+                                                    class="pt-2 m-0 fw-bold">Cyber Security Awareness Workshop held at RGU</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 26,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/cyber-security-awareness-workshop-held-at-rgu">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="/mobile-assets/media-corner/news65/1.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
@@ -1244,30 +1265,6 @@
                                                 </a>
                                             </div>
                                         </div>
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news64/201.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                    class="pt-2 m-0 fw-bold">MBSI Senior Scientist Award 2025 Goes to Prof Amlan Das of RGU</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 20,
-                                                    2025
-                                                </p>
-                                                <a
-                                                    href="/mbsi-senior-scientist-award-2025-goes-to-prof-amlan-das-of-rgu">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-
-
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">
                                         <a href="media-corner"><button

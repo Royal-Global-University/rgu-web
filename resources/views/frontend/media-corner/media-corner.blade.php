@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Cyber Security Awareness Workshop held at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 26, 2025:',
+                            'link' => 'cyber-security-awareness-workshop-held-at-rgu',
+                            'image' => '/mobile-assets/media-corner/news74/3.jpeg',
+                            'content' => 'A Cyber Security Awareness Workshop was recently held at The Assam Royal Global University which was conducted by Dr. Robin Kumar Singh, IPS, Director of the Directorate of Forensic Science, Assam. ”',
+                        ],
+                        [
                             'title' => 'Chief Justice Ashutosh Kumar unveils Dr Ambedkar’s bust at Royal Global University',
                             'summary' => 'Draw Inspiration from Dr. Ambedkar’s Vision: Chief Justice Ashutosh Kumar to Students at RGU',
                             'date' => 'Guwahati, November 24, 2025:',
