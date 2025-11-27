@@ -1612,8 +1612,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                students</span> -->
+                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                    students</span> -->
                                                                     </div>
 
                                                                     <div class="card-content">
@@ -1645,8 +1645,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                students</span> -->
+                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                    students</span> -->
 
                                                                     </div>
 
@@ -1970,36 +1970,38 @@
                         style="display: flex; gap: 2rem; width: 100%; max-width: 1800px; background: #27467A; padding: 2rem; border-radius: 12px; box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 20px; height: 90vh; box-sizing: border-box;">
 
                         <div class="bgc-gallery-left"
-                            style="flex-basis: 20%; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
+                            style="flex: 0 0 160px; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
 
-                            <button data-set="zubeen" class="bgc-gallery-selector-btn"
-                                style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;"
+
+                            <button data-set="zubeenn" class="bgc-gallery-selector-btn"
+                                style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s; aspect-ratio: 1 / 1; width: 100%; flex-shrink: 0;"
                                 onmouseover="this.style.transform='scale(1.05)'"
                                 onmouseout="this.style.transform='scale(1)'">
-                                <img src="demo-assets/switcher/zubeen.jpeg" alt="Selector 2"
-                                    style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
+                                <img src="demo-assets/switcher/zubeen-garg/zg.jpg" alt="Zubeen Book Selector"
+                                    style="width: 100%; height: 100%; display: block; object-fit: cover;">
                             </button>
+
+
                             <button data-set="museum" class="bgc-gallery-selector-btn"
-                                style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;"
+                                style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s; aspect-ratio: 1 / 1; width: 100%; flex-shrink: 0;"
                                 onmouseover="this.style.transform='scale(1.05)'"
                                 onmouseout="this.style.transform='scale(1)'">
-                                <img src="demo-assets/switcher/museum/headimg.jpg" alt="Selector 2"
-                                    style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
+                                <img src="demo-assets/switcher/museum/headimg.jpg" alt="Museum Selector"
+                                    style="width: 100%; height: 100%; display: block; object-fit: cover;">
                             </button>
 
                             <button data-set="lookbook" class="bgc-gallery-selector-btn"
-                                style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s;"
+                                style="border: 4px solid transparent; padding: 0px; background: none; cursor: pointer; border-radius: 8px; overflow: hidden; transition: border-color 0.3s ease 0s, transform 0.3s ease 0s; aspect-ratio: 1 / 1; width: 100%; flex-shrink: 0;"
                                 onmouseover="this.style.transform='scale(1.05)'"
                                 onmouseout="this.style.transform='scale(1)'">
-                                <img src="demo-assets/switcher/lookbook/headimg.png" alt="Selector 1"
-                                    style="width: 100%; display: block; aspect-ratio: 1 / 1; object-fit: cover;">
+                                <img src="demo-assets/switcher/lookbook/headimg.png" alt="Lookbook Selector"
+                                    style="width: 100%; height: 100%; display: block; object-fit: cover;">
                             </button>
-
 
                         </div>
 
                         <div id="flipbook-background" class="bgc-gallery-right"
-                            style="flex-basis: 80%; display: flex; align-items: center; justify-content: center; border-radius: 8px; background-size: cover; background-position: center center; transition: background-image 0.5s ease-in-out 0s;">
+                            style="flex-basis: 80%; flex-grow: 1; display: flex; align-items: center; justify-content: center; border-radius: 8px; background-size: cover; background-position: center center; transition: background-image 0.5s ease-in-out 0s;">
                             <div class="flipbook-container"
                                 style="font-family: Georgia, serif; color: rgb(62, 39, 35); display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%;">
                                 <div class="flipbook-wrapper"
@@ -2034,6 +2036,7 @@
                     <img id="modalImage"
                         style="margin: auto; display: block; max-width: 85%; max-height: 85%; object-fit: contain;">
                 </div>
+
                 <script>
                     document.addEventListener('DOMContentLoaded', () => {
                         const prevBtn = document.querySelector("#flipbook-prevBtn");
@@ -2042,11 +2045,10 @@
                         const backgroundContainer = document.getElementById('flipbook-background');
                         const book = document.getElementById('flipbook-book');
 
-                        // START: Added variables for modal functionality
+                        // Modal variables
                         const modal = document.getElementById('imageModal');
                         const modalImg = document.getElementById('modalImage');
                         const closeModalSpan = document.getElementById('closeModal');
-                        // END: Added variables for modal functionality
 
                         let papers = [];
                         let currentLocation = 0;
@@ -2054,14 +2056,6 @@
                         let isBookOpen = false;
 
                         const flipbookContent = {
-                            zubeen: [{
-                                front: {
-                                    image: 'demo-assets/switcher/zubeen.jpeg'
-                                },
-                                back: {
-                                    image: 'demo-assets/switcher/zubeen.jpeg'
-                                }
-                            }, ],
                             lookbook: [{
                                     front: {
                                         image: 'demo-assets/switcher/lookbook/headimg.png'
@@ -2447,15 +2441,23 @@
                                         image: 'demo-assets/switcher/museum/indi/end.jpg'
                                     }
                                 },
-                                // TO ADD MORE, JUST COPY THE LINE ABOVE AND CHANGE THE IMAGE PATHS
-                                // { front: { image: 'path/to/front11.jpg' }, back: { image: 'path/to/back12.jpg' } },
+                            ],
+                            zubeenn: [{
+                                    front: {
+                                        image: 'demo-assets/switcher/zubeen-garg/zg.jpg'
+                                    },
+                                    back: {
+                                        image: 'demo-assets/switcher/zubeen-garg/zg.jpg'
+                                    }
+                                },
+
                             ]
                         };
 
                         const backgroundImages = {
                             lookbook: 'url("demo-assets/switcher/lookbook/fashion-bg.jpeg")',
-                            museum: 'url("demo-assets/switcher/museum/bgg2.jpeg")'
-
+                            museum: 'url("demo-assets/switcher/museum/bgg2.jpeg")',
+                            zubeenn: 'url("demo-assets/switcher/zubeen-garg/bg.jpg")'
                         };
 
                         function openBook() {
@@ -2491,34 +2493,39 @@
                                 btn.style.borderColor = 'transparent';
                                 btn.style.boxShadow = 'none';
                             });
-                            const activeBtn = document.querySelector(`[data-set=${setName}]`);
-                            activeBtn.style.borderColor = '#FF9A1E';
-                            activeBtn.style.boxShadow = '0 0 10px rgba(255, 154, 30, 0.5)';
+                            const activeBtn = document.querySelector(`[data-set="${setName}"]`);
+                            if (activeBtn) {
+                                activeBtn.style.borderColor = '#FF9A1E';
+                                activeBtn.style.boxShadow = '0 0 10px rgba(255, 154, 30, 0.5)';
+                            }
 
-                            backgroundContainer.style.backgroundImage = backgroundImages[setName];
+                            if (backgroundImages[setName]) {
+                                backgroundContainer.style.backgroundImage = backgroundImages[setName];
+                            }
 
                             const content = flipbookContent[setName];
+                            if (!content) return;
+
                             maxLocation = content.length;
                             book.innerHTML = '';
 
                             let pagesHTML = '';
                             content.forEach((pageData, index) => {
                                 const zIndex = content.length - index;
-                                pagesHTML +=
-                                    `
-                                                                                                                                                                                                                                                    <div id="flipbook-p${index + 1}" class="flipbook-paper" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; transform-origin: left center 0px; transition: transform 1s ease-in-out 0s; transform-style: preserve-3d; cursor: pointer; z-index: ${zIndex};">
-                                                                                                                                                                                                                                                        <div class="flipbook-front" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; z-index: 1;">
-                                                                                                                                                                                                                                                            <div class="flipbook-front-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-                                                                                                                                                                                                                                                                <img src="${pageData.front.image}" alt="Page ${index * 2 + 1}" style="width: 100%; height: 100%; object-fit: cover;">
-                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                        <div class="flipbook-back" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; transform: rotateY(180deg); z-index: 0;">
-                                                                                                                                                                                                                                                            <div class="flipbook-back-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-                                                                                                                                                                                                                                                                <img src="${pageData.back.image}" alt="Page ${index * 2 + 2}" style="width: 100%; height: 100%; object-fit: cover;">
-                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                                    `;
+                                pagesHTML += `
+                    <div id="flipbook-p${index + 1}" class="flipbook-paper" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; transform-origin: left center 0px; transition: transform 1s ease-in-out 0s; transform-style: preserve-3d; cursor: pointer; z-index: ${zIndex};">
+                        <div class="flipbook-front" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; z-index: 1;">
+                            <div class="flipbook-front-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                                <img src="${pageData.front.image}" alt="Page ${index * 2 + 1}" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                        </div>
+                        <div class="flipbook-back" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(253, 246, 227); padding: 0px; backface-visibility: hidden; border: 1px solid rgb(201, 184, 155); overflow: hidden; transform: rotateY(180deg); z-index: 0;">
+                            <div class="flipbook-back-content" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                                <img src="${pageData.back.image}" alt="Page ${index * 2 + 2}" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                        </div>
+                    </div>
+                    `;
                             });
                             book.innerHTML = pagesHTML;
                             papers = book.querySelectorAll('.flipbook-paper');
@@ -2546,34 +2553,28 @@
                             });
                         });
 
-                        // START: Added event listeners for modal
-                        // Use event delegation to listen for clicks on images inside the book
+                        // Modal listeners
                         book.addEventListener('click', (e) => {
-                            // Check if the clicked element is an image
                             if (e.target && e.target.tagName === 'IMG') {
                                 modal.style.display = 'flex';
                                 modalImg.src = e.target.src;
                             }
                         });
 
-                        // Function to close the modal
                         function closeModal() {
                             modal.style.display = "none";
                         }
 
-                        // Close when clicking the 'x'
                         closeModalSpan.onclick = closeModal;
 
-                        // Close when clicking the background overlay
                         modal.addEventListener('click', (e) => {
                             if (e.target === modal) {
                                 closeModal();
                             }
                         });
-                        // END: Added event listeners for modal
 
-                        // Initialize with the 'museum' flipbook
-                        updateFlipbook('museum');
+                        // Initialize with the 'zubeenn' flipbook
+                        updateFlipbook('zubeenn');
                     });
                 </script>
 
