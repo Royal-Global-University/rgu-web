@@ -1,6 +1,5 @@
 @extends('frontend.master')
 @section('content')
-
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
         <div class="mobile">
@@ -186,7 +185,8 @@
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body"
                                                 style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+                                                <div class="row"
+                                                    style="display: flex; flex-direction: column; gap: 12px;">
 
                                                     <a href="mobile-assets/department-all/rsag/updated-syllabus/B.SC-AGRICULTURE-COURSE-STRUCTURE.pdf"
                                                         target="_blank" style="color: #27467A;">
@@ -209,37 +209,37 @@
 
                                     <!-- PG -->
                                     <!-- <div class="accordion-item"
-                        style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                        <h2 class="accordion-header" id="headingTwo">
-                          <button class="accordion-button collapsed"
-                            style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                            aria-controls="collapseTwo">
-                            <i class="fa fa-university me-2"></i> Post Graduate
-                          </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                          data-bs-parent="#accordionExample">
-                          <div class="accordion-body"
-                            style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                            <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+                                style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed"
+                                    style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    <i class="fa fa-university me-2"></i> Post Graduate
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                  data-bs-parent="#accordionExample">
+                                  <div class="accordion-body"
+                                    style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                    <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                              <a href="mobile-assets/department-all/rsag/updated-syllabus/B.SC-AGRICULTURE-COURSE-STRUCTURE.pdf"
-                                target="_blank" style="color: #27467A;">
-                                <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- B.Sc. Agriculture
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
+                                      <a href="mobile-assets/department-all/rsag/updated-syllabus/B.SC-AGRICULTURE-COURSE-STRUCTURE.pdf"
+                                        target="_blank" style="color: #27467A;">
+                                        <i class="fa fa-file-text px-2"></i> Structure of Syllabus -- B.Sc. Agriculture
+                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                      </a>
 
-                              <a href="mobile-assets/department-all/rsag/updated-syllabus/AGRICULTURE-SYLLABUS.pdf"
-                                target="_blank" style="color: #27467A;">
-                                <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc. Agriculture
-                                <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                              </a>
+                                      <a href="mobile-assets/department-all/rsag/updated-syllabus/AGRICULTURE-SYLLABUS.pdf"
+                                        target="_blank" style="color: #27467A;">
+                                        <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- B.Sc. Agriculture
+                                        <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                      </a>
 
-                            </div>
-                          </div>
-                        </div>
-                      </div> -->
+                                    </div>
+                                  </div>
+                                </div>
+                              </div> -->
 
                                     <!-- Doctoral -->
                                     <div class="accordion-item"
@@ -283,7 +283,8 @@
 
                 <!-- floating buttons  -->
                 <div>
-                    <a href="https://admissions.rgu.ac/" style="
+                    <a href="https://admissions.rgu.ac/"
+                        style="
                                                                                                                         position: fixed;
                                                                                                                         bottom: 35px;
                                                                                                                         right: 50px;
@@ -357,13 +358,13 @@
                         </a>
 
                         <!-- Course -->
-                        <!-- <a href="#course" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
-                  Offered</span>
-              </a> -->
+                        <a href="#course" class="special-link"
+                            style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                            <i class="fa fa-book" style="min-width:30px; text-align:center;"></i>
+                            <span class="para1"
+                                style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Courses
+                                Offered</span>
+                        </a>
 
                         <!-- Syllabus -->
                         <a href="#syllabus" class="special-link"
@@ -377,38 +378,38 @@
 
                         <!-- Events -->
                         <!-- <a href="#events" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
-                  Highlights</span>
-              </a> -->
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-calendar" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                          style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Events &
+                          Highlights</span>
+                      </a> -->
 
                         <!-- Academic Excellence -->
                         <!-- <a href="#academic-excellence" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
-                  Excellence</span>
-              </a> -->
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-graduation-cap" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                          style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Academic
+                          Excellence</span>
+                      </a> -->
 
                         <!-- BOS -->
                         <!-- <a href="#bos" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
-                  Studies</span>
-              </a> -->
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-users" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                          style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">Board of
+                          Studies</span>
+                      </a> -->
 
                         <!-- DRC -->
                         <!-- <a href="#drc" class="special-link"
-                style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
-                <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
-                <span class="para1"
-                  style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
-              </a> -->
+                        style="display: flex; align-items: center; justify-content: flex-start;  color: white; padding: 5px; width: 42px; overflow: hidden; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: width 0.3s ease; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%) ; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);">
+                        <i class="fa fa-university" style="min-width:30px; text-align:center;"></i>
+                        <span class="para1"
+                          style="margin-left: 10px; opacity: 0; transition: opacity 0.3s ease; font-size: 14px;">DRC</span>
+                      </a> -->
 
                     </div>
                     <!-- floating buttons  -->
@@ -433,7 +434,8 @@
                                         <div class="kd-about-3-img-wrap txaa-slide-down-1">
                                             <div>
                                                 <img class="rounded w-20" decoding="async"
-                                                    src="mobile-assets/department-all/dept-agri/headimg.png" alt="">
+                                                    src="mobile-assets/department-all/dept-agri/headimg.png"
+                                                    alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -471,6 +473,76 @@
 
                                 </div>
                             </div>
+
+                            <section id="course">
+
+                                <div class="container pt-5 pb-5">
+                                    <h2 class="headd1 fw-bold text-center pt-4 pb-3"
+                                        style="color: #27467A; font-weight: 900; font-size: 35px;">
+                                        Courses <span style="color: #FF9A1E; font-weight: 500;">Offered</span></h2>
+
+                                    <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                                        <!-- Heading Section -->
+                                        <div
+                                            style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                                            <span style="font-size:22px; padding-right: 20px;">
+                                                M.Sc. - Agriculture
+                                            </span>
+
+                                            <span
+                                                style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                                        </div>
+
+                                        <!-- Statute Items -->
+                                        <a style="text-decoration:none;">
+                                            <div
+                                                style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                                <span
+                                                    style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">
+                                                    Duration: 2 years
+                                                </span>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
+                                        <!-- Heading Section -->
+                                        <div
+                                            style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
+
+                                            <span style="font-size:22px;">
+                                                B.Sc. - Agriculture
+                                            </span>
+
+                                            <span
+                                                style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
+                                        </div>
+
+                                        <!-- Statute Items -->
+                                        <a target="_blank" href="" style="text-decoration:none;">
+                                            <div
+                                                style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:50px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+
+                                                <span
+                                                    style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">Duration:
+                                                    4
+                                                    years</span>
+                                                <!-- <span>
+                            <a class="para1 fw-bold"
+                              style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%);"
+                              href="">View Details</a>
+                          </span> -->
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                            </section>
 
                             <div style="background-color: #fff; padding: 20px 0px;">
                                 <div class="container">
@@ -638,31 +710,31 @@
 
                                                 <!-- PG -->
                                                 <!-- <div class="accordion-item"
-                            style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
-                            <h2 class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed"
-                                style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
-                                <i class="fa fa-university me-2"></i> Post Graduate
-                              </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body"
-                                style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
-                                <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
+                                    style="border: none; margin-bottom: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); border-radius: 10px;">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button collapsed"
+                                        style="background: linear-gradient(135deg, #24477f, #1a365d); color: #fff; font-weight: 600; font-size: 18px; padding: 14px 20px; border-radius: 10px;"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <i class="fa fa-university me-2"></i> Post Graduate
+                                      </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                      data-bs-parent="#accordionExample">
+                                      <div class="accordion-body"
+                                        style="background: #f9fbfd; padding: 18px; border-radius: 0 0 10px 10px;">
+                                        <div class="row" style="display: flex; flex-direction: column; gap: 12px;">
 
-                                  <a href="mobile-assets/department-all/rset/cse/updated-syllabus/MTech_Syllabus_CSE_25-26.pdf"
-                                    target="_blank" style="color: #27467A;">
-                                    <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Tech CSE
-                                    <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
-                                  </a>
+                                          <a href="mobile-assets/department-all/rset/cse/updated-syllabus/MTech_Syllabus_CSE_25-26.pdf"
+                                            target="_blank" style="color: #27467A;">
+                                            <i class="fa fa-file-text px-2"></i> Detailed Syllabus -- M.Tech CSE
+                                            <i class="fa fa-download ms-2" style="color: #FF9A1E;"></i>
+                                          </a>
 
-                                </div>
-                              </div>
-                            </div>
-                          </div> -->
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div> -->
 
                                                 <!-- Doctoral -->
                                                 <div class="accordion-item"
@@ -699,22 +771,21 @@
 
                     <script>
                         document.querySelectorAll('a.special-link').forEach(anchor => {
-                            anchor.addEventListener('mouseover', function () {
+                            anchor.addEventListener('mouseover', function() {
                                 this.style.width = '200px';
                                 this.querySelector('span').style.opacity = '1';
                             });
-                            anchor.addEventListener('mouseout', function () {
+                            anchor.addEventListener('mouseout', function() {
                                 this.style.width = '42px';
                                 this.querySelector('span').style.opacity = '0';
                             });
-                            anchor.addEventListener('click', function (e) {
+                            anchor.addEventListener('click', function(e) {
                                 e.preventDefault();
                                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                                     behavior: 'smooth'
                                 });
                             });
                         });
-
                     </script>
 
                 </section>
@@ -722,5 +793,4 @@
         </div>
 
     </div>
-
 @endsection

@@ -159,31 +159,6 @@
                     <div
                         style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
 
-                        <span style="font-size:18px;">B.Pharm - Lateral Entry</span>
-                        <span
-                            style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                    </div>
-
-                    <!-- Statute Items -->
-                    <a target="_blank" href="programs-b-pharm-lateral-entry" style="text-decoration:none;">
-                        <div
-                            style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                            <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">3 years</span>
-                            <span>
-                                <a class="para1 fw-bold"
-                                    style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                    href="programs-b-pharm-lateral-entry">View Details</a>
-                            </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                    <!-- Heading Section -->
-                    <div
-                        style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
                         <span style="font-size:18px;">B.Pharm</span>
                         <span
                             style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
@@ -1719,31 +1694,6 @@
                             </a>
                         </div>
 
-                        <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
-                            <!-- Heading Section -->
-                            <div
-                                style="display:flex; align-items:center; background-color:#27467A; padding:12px 15px; font-weight:bold; color:#ffff; position:relative; border-radius:5px;">
-
-                                <span style="font-size:18px;">B.Pharm - Lateral Entry</span>
-                                <span
-                                    style="position:absolute; right:0; bottom:0; width:15px; height:15px; background-color:#FF9A1E; clip-path:polygon(100% 0, 0 100%, 100% 100%);"></span>
-                            </div>
-
-                            <!-- Statute Items -->
-                            <a target="_blank" href="programs-b-pharm-lateral-entry" style="text-decoration:none;">
-                                <div
-                                    style="display:flex; align-items:center; justify-content:space-between; background-color:#F9F9F9; padding:10px 15px; margin-top:5px; margin-left:20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
-
-                                    <span style="flex-grow:1; color:#27467A; font-weight:bold; font-size: 20px;">3
-                                        years</span>
-                                    <span>
-                                        <a class="para1 fw-bold"
-                                            style="padding: 5px 20px; border-radius: 5px; color: #fff; background: linear-gradient(135deg, hsla(33, 100%, 56%, 1) 0%, hsla(8, 52%, 50%, 1) 100%); font-size: 13px;"
-                                            href="programs-b-pharm-lateral-entry">View Details</a>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
 
                         <div style="background-color:#FDF9F4; padding:10px; width:100%; margin: 0px auto;">
                             <!-- Heading Section -->
