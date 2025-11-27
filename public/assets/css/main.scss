@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
-/* 
+/*
     root-veriable-start
 */
 :root {
   scroll-behavior: inherit;
-  --kd-font-pr-1: "Urbanist", sans-serif;
+  --kd-font-pr-1: "Times New Roman", sans-serif;
   --kd-font-sd-1: "Just Another Hand", cursive;
   --kd-font-barlow: "Barlow Semi Condensed", sans-serif;
   --kd-font-fraunces: "Fraunces", serif;
@@ -21,10 +21,10 @@
   --cube-2: cubic-bezier(0.31, -0.105, 0.43, 1.4);
 }
 
-/* 
+/*
     root-veriable-end
 */
-/* 
+/*
     global-css-start
 */
 body {
@@ -48,7 +48,7 @@ a:focus,
 a, span {
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: "Times New Roman";
   font-weight: inherit;
   text-transform: inherit;
   text-decoration: none;
@@ -118,7 +118,7 @@ input::placeholder, textarea::placeholder {
   font-size: inherit;
   font-weight: inherit;
   color: inherit;
-  font-family: inherit;
+  font-family: "Times New Roman";
 }
 
 input:focus::placeholder, textarea:focus::placeholder {
@@ -142,10 +142,10 @@ input:focus::placeholder, textarea:focus::placeholder {
     border-radius: 30px;
   }
 }
-/* 
+/*
     global-css-start
 */
-/* 
+/*
     margin-&-padding_veriable-start
 */
 .mt-5 {
@@ -1508,10 +1508,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   padding-right: 200px;
 }
 
-/* 
+/*
     margin-&-padding_veriable-end
 */
-/* 
+/*
     all-common-class-start
 */
 @media (min-width: 1300px) {
@@ -1644,14 +1644,14 @@ input:focus::placeholder, textarea:focus::placeholder {
   margin-right: auto;
 }
 
-/* 
+/*
     all-common-class-end
 */
-/* 
+/*
 
 
 */
-/* 
+/*
     heading-paragraph-css-start
 */
 .kd-heading-1 {
@@ -1770,13 +1770,13 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: #fff;
 }
 
-/* 
+/*
     heading-paragraph-css-end
 */
-/* 
+/*
     button-component-start
 */
-/* 
+/*
     mobile-menu-btn-1-start
 */
 .ftc-mobile-menu-btn-1 {
@@ -1809,10 +1809,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: rotate(45deg);
 }
 
-/* 
-    mobile-menu-btn-1-end 
+/*
+    mobile-menu-btn-1-end
 */
-/* 
+/*
     pr-btn-1-start
 */
 .kd-pr-btn-1 {
@@ -1933,10 +1933,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: #000;
 }
 
-/* 
+/*
     pr-btn-1-end
 */
-/* 
+/*
     pr-btn-2-start
 */
 .kd-pr-btn-2 {
@@ -2073,10 +2073,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: #000;
 }
 
-/* 
+/*
     pr-btn-2-end
 */
-/* 
+/*
     cart-btn-1-start
 */
 .kd-cart-btn-1 {
@@ -2098,10 +2098,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   animation: 1s kd-jello;
 }
 
-/* 
+/*
     cart-btn-1-end
 */
-/* 
+/*
     search-btn-1-start
 */
 .kd-search-btn-1 {
@@ -2122,10 +2122,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   animation: 1s kd-jello;
 }
 
-/* 
+/*
     search-btn-1-end
 */
-/* 
+/*
     ply-btn-1-start
 */
 .kd-plybtn-1 {
@@ -2184,10 +2184,10 @@ input:focus::placeholder, textarea:focus::placeholder {
     opacity: 0;
   }
 }
-/* 
+/*
     ply-btn-1-end
 */
-/* 
+/*
     land-btn-1-start
 */
 .kd-land-1-btn {
@@ -2231,13 +2231,13 @@ input:focus::placeholder, textarea:focus::placeholder {
   gap: 5px;
 }
 
-/* 
+/*
     land-btn-1-end
 */
-/* 
+/*
     button-component-end
 */
-/* 
+/*
   mobile-menu-css-start
 */
 .mobile-menu {
@@ -2369,7 +2369,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   opacity: 1;
 }
 
-/* 
+/*
   header-menu-customazition-start
 */
 .mobile-main-navigation .navbar-nav li {
@@ -2430,10 +2430,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   font-size: 16px;
 }
 
-/* 
+/*
   header-menu-customazition-start
 */
-/* 
+/*
   mobile-menu-css-start
 */
 .kd-home-1 {
@@ -2492,7 +2492,7 @@ input:focus::placeholder, textarea:focus::placeholder {
     top: 0%;
   }
 }
-/* 
+/*
   spilting-wrating-start
 */
 .splitting.animated .char {
@@ -2506,10 +2506,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   width: 10px;
 }
 
-/* 
+/*
   spilting-wrating-end
 */
-/* 
+/*
   img-ani-1-start
 */
 .kd-img-ani-1 {
@@ -2517,7 +2517,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform-origin: center center;
 }
 
-/* 
+/*
   img-ani-1-end
 */
 .kd-home-1-scroll-progress {
@@ -2608,7 +2608,7 @@ input:focus::placeholder, textarea:focus::placeholder {
     transform: none;
   }
 }
-/* 
+/*
 	preloader-css-start
 */
 #preloader {
@@ -2643,10 +2643,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: translateY(-100%);
 }
 
-/* 
+/*
 	preloader-css-end
 */
-/* 
+/*
     search-box-css-start
 */
 .popup-search-box {
@@ -2793,7 +2793,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   background: #000;
 }
 
-/* 
+/*
     search-box-css-end
 */
 .scroll-top {
@@ -2855,11 +2855,11 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: translateY(0);
 }
 
-/* 
+/*
 
 
 */
-/* 
+/*
   header-1-css-start
 */
 .kd-header-1-area {
@@ -3075,10 +3075,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: translateY(0px) translateZ(0);
 }
 
-/* 
+/*
   header-1-css-end
 */
-/* 
+/*
   header-2-css-start
 */
 .kd-header-2-area {
@@ -3258,10 +3258,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: var(--kd-clr-pr-1);
 }
 
-/* 
+/*
   header-2-css-end
 */
-/* 
+/*
   header-3-css-start
 */
 .kd-header-3-area {
@@ -3427,10 +3427,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: var(--kd-clr-sd-1);
 }
 
-/* 
+/*
   header-3-css-end
 */
-/* 
+/*
   header-4-css-start
 */
 .kd-header-4-area {
@@ -3609,10 +3609,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: translateY(-50%) scale(1);
 }
 
-/* 
+/*
   header-4-css-end
 */
-/* 
+/*
   sticky-header-css-start
 */
 .txa_sticky_header {
@@ -3678,10 +3678,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: translateY(0%);
 }
 
-/* 
+/*
   sticky-header-css-end
 */
-/* 
+/*
     hero-1-start
 */
 .kd-hero-1-area {
@@ -3999,10 +3999,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   right: auto;
 }
 
-/* 
+/*
     hero-1-end
 */
-/* 
+/*
     hero-2-start
 */
 .kd-hero-2-area {
@@ -4165,10 +4165,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   padding: 16px 45px;
 }
 
-/* 
+/*
     hero-2-end
 */
-/* 
+/*
     hero-3-start
 */
 .kd-hero-3-area {
@@ -4358,10 +4358,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   }
 }
 
-/* 
+/*
     hero-3-end
 */
-/* 
+/*
     hero-4-start
 */
 .kd-hero-4-area {
@@ -4436,10 +4436,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   }
 }
 
-/* 
+/*
     hero-4-end
 */
-/* 
+/*
     categorie-1-start
 */
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -4599,16 +4599,16 @@ input:focus::placeholder, textarea:focus::placeholder {
   left: 120%;
 }
 
-/* 
+/*
     categorie-1-end
 */
-/* 
+/*
     categorie-3-start
 */
-/* 
+/*
     categorie-3-end
 */
-/* 
+/*
     about-1-start
 */
 .kd-about-1-left {
@@ -4739,10 +4739,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: var(--kd-clr-pr-1);
 }
 
-/* 
+/*
     about-1-end
 */
-/* 
+/*
     about-2-start
 */
 .kd-about-2-area {
@@ -4808,10 +4808,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   flex-wrap: wrap;
 }
 
-/* 
+/*
     about-2-end
 */
-/* 
+/*
     about-3-start
 */
 .kd-about-3-row {
@@ -4861,10 +4861,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   }
 }
 
-/* 
+/*
     about-3-end
 */
-/* 
+/*
     course-1-start
 */
 .kd-course-1-area {
@@ -5180,10 +5180,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: #ffde00;
 }
 
-/* 
+/*
     course-1-end
 */
-/* 
+/*
     course-2-start
 */
 .kd-course-2-area {
@@ -5361,10 +5361,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: perspective(600px) rotateX(0.06deg) rotateY(0deg) scaleX(1.15) scaleY(1.15);
 }
 
-/* 
+/*
     course-2-end
 */
-/* 
+/*
     course-3-start
 */
 .kd-course-3-area .kd-course-1-tabs-btn .nav-item .nav-link {
@@ -5540,10 +5540,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   opacity: 1;
 }
 
-/* 
+/*
     course-3-end
 */
-/* 
+/*
     course-4-start
 */
 .kd-course-4-item .kd-course-2-card {
@@ -5658,10 +5658,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   }
 }
 
-/* 
+/*
     course-4-end
 */
-/* 
+/*
     course-5-start
 */
 .kd-course-5-item .kd-course-2-card {
@@ -5815,10 +5815,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   }
 }
 
-/* 
+/*
     course-5-end
 */
-/* 
+/*
     choose-us-1-start
 */
 .kd-choose-us-1-area {
@@ -5967,10 +5967,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   animation: 1s kd-jello;
 }
 
-/* 
+/*
     choose-us-1-end
 */
-/* 
+/*
     choose-us-2-start
 */
 .kd-choose-us-3-img {
@@ -6082,10 +6082,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: #000;
 }
 
-/* 
+/*
     choose-us-2-end
 */
-/* 
+/*
     services-1-start
 */
 .kd-services-1-scn-title .disc {
@@ -6170,10 +6170,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   animation: 1s kd-jello;
 }
 
-/* 
+/*
     services-1-end
 */
-/* 
+/*
     services-2-start
 */
 .kd-services-2-content {
@@ -6245,10 +6245,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   animation: 1s kd-jello;
 }
 
-/* 
+/*
     services-2-end
 */
-/* 
+/*
     services-3-start
 */
 .kd-services-3-item {
@@ -6362,10 +6362,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   }
 }
 
-/* 
+/*
     services-3-end
 */
-/* 
+/*
     testimonial-1-start
 */
 .kd-testimonial-1-area {
@@ -6538,10 +6538,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   }
 }
 
-/* 
+/*
     testimonial-1-end
 */
-/* 
+/*
     testimonial-2-start
 */
 .kd-t-child-1-area {
@@ -6689,7 +6689,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 /*
     testimonial-2-end
 */
-/* 
+/*
     cta-1-start
 */
 .kd-cta-1-area {
@@ -6826,10 +6826,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   line-height: 27px;
 }
 
-/* 
+/*
     cta-1-end
 */
-/* 
+/*
     cta-2-start
 */
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -6889,10 +6889,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   grid-column: 1/-1;
 }
 
-/* 
+/*
     cta-2-end
 */
-/* 
+/*
     video-course-1-start
 */
 .kd-video-course-1-video {
@@ -7051,10 +7051,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   animation: 1s kd-jello;
 }
 
-/* 
+/*
     video-course-1-end
 */
-/* 
+/*
     video-course-2-start
 */
 .kd-video-course-3-content {
@@ -7080,10 +7080,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: perspective(600px) rotateX(0.06deg) rotateY(0deg) scaleX(1.15) scaleY(1.15);
 }
 
-/* 
+/*
     video-course-2-end
 */
-/* 
+/*
     blog-1-start
 */
 .kd-blog-1-area {
@@ -7182,10 +7182,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: perspective(600px) rotateX(0.06deg) rotateY(0deg) scaleX(1.15) scaleY(1.15);
 }
 
-/* 
+/*
     blog-1-end
 */
-/* 
+/*
     blog-2-start
 */
 .kd-blog-2-card {
@@ -7260,10 +7260,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: perspective(600px) rotateX(0.06deg) rotateY(0deg) scaleX(1.15) scaleY(1.15);
 }
 
-/* 
+/*
     blog-2-end
 */
-/* 
+/*
     blog-3-start
 */
 .kd-blog-3-content {
@@ -7370,10 +7370,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: perspective(600px) rotateX(0.06deg) rotateY(0deg) scaleX(1.15) scaleY(1.15);
 }
 
-/* 
+/*
     blog-3-end
 */
-/* 
+/*
     client-1-start
 */
 .kd-client-1-wrap .title {
@@ -7409,10 +7409,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   background: #fff;
 }
 
-/* 
+/*
     client-1-end
 */
-/* 
+/*
     client-2-start
 */
 .kd-client-2-slider .swiper-container .swiper-wrapper {
@@ -7434,10 +7434,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   opacity: 1;
 }
 
-/* 
+/*
     client-2-end
 */
-/* 
+/*
     client-3-start
 */
 .kd-client-3-area {
@@ -7561,10 +7561,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   animation: 1s kd-jello;
 }
 
-/* 
+/*
     client-3-end
 */
-/* 
+/*
     price-1-start
 */
 .kd-price-1-area {
@@ -7825,10 +7825,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   }
 }
 
-/* 
+/*
     price-1-end
 */
-/* 
+/*
     price-4-start
 */
 .kd-price-4-content-bg {
@@ -7940,10 +7940,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   font-size: 22px;
 }
 
-/* 
+/*
     price-4-end
 */
-/* 
+/*
     team-1-start
 */
 .kd-team-1-membar {
@@ -8081,7 +8081,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   transform: perspective(600px) rotateX(0.06deg) rotateY(0deg) scaleX(1.15) scaleY(1.15);
 }
 
-/* 
+/*
     team-1-end
 */
 .kd-accordion-1-item {
@@ -8126,7 +8126,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   padding-right: 45px;
 }
 
-/* 
+/*
     counter-4-start
 */
 .kd-counter-4-area {
@@ -8255,10 +8255,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   animation: 1s kd-jello;
 }
 
-/* 
+/*
     counter-4-end
 */
-/* 
+/*
    footer-1-start
 */
 .kd-footer-1-top {
@@ -8469,10 +8469,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: var(--kd-clr-sd-1);
 }
 
-/* 
+/*
    footer-1-end
 */
-/* 
+/*
    footer-2-start
 */
 .kd-footer-2-widget-wrap {
@@ -8536,10 +8536,10 @@ input:focus::placeholder, textarea:focus::placeholder {
   color: #000;
 }
 
-/* 
+/*
    footer-2-end
 */
-/* 
+/*
    footer-3-end
 */
 .kd-gallery-3-item-wrap {
@@ -8802,7 +8802,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   animation: 1s kd-jello;
 }
 
-/* 
+/*
    footer-3-end
 */
 

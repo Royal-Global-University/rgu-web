@@ -3,7 +3,7 @@
 */
 :root {
   scroll-behavior: inherit;
-  --kd-font-pr-1: "Montserrat", sans-serif;
+  --kd-font-pr-1: "Times New Roman", sans-serif;
   --kd-font-sd-1: "Just Another Hand", cursive;
   --kd-font-barlow: "Barlow Semi Condensed", sans-serif;
   --kd-font-fraunces: "Fraunces", serif;
@@ -45,7 +45,7 @@ a:focus,
 a, span {
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: "Times New Roman";
   font-weight: inherit;
   text-transform: inherit;
   text-decoration: none;
@@ -115,7 +115,7 @@ input::placeholder, textarea::placeholder {
   font-size: inherit;
   font-weight: inherit;
   color: inherit;
-  font-family: inherit;
+  font-family: "Times New Roman";
 }
 
 input:focus::placeholder, textarea:focus::placeholder {

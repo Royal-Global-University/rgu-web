@@ -3021,6 +3021,11 @@ Route::get('/cisr', function () {
 })->name('cisr');
 
 //media-corner
+
+Route::get('/lachit-divas-observed-by-mahabahu-club-under-the-aegis-of-iks-cell-at-rgu', function () {
+    return view('frontend/media-corner/news75');
+})->name('lachit-divas-observed-by-mahabahu-club-under-the-aegis-of-iks-cell-at-rgu');
+
 Route::get('/cyber-security-awareness-workshop-held-at-rgu', function () {
     return view('frontend/media-corner/news74');
 })->name('cyber-security-awareness-workshop-held-at-rgu');

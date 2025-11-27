@@ -1,33 +1,33 @@
 .mobile-headd1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
     font-size: 2rem;
     /* 32px */
     font-weight: 700;
 }
 
 .mobile-headd2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
     font-size: 1.5rem;
     /* 24px */
     font-weight: 600;
 }
 
 .mobile-headd3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
     font-size: 1.25rem;
     /* 20px */
     font-weight: 500;
 }
 
 .mobile-para1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
+    font-size: 1.2rem;
     /* 16px */
     font-weight: 400;
 }
 
 .mobile-caption {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
     font-size: 0.875rem;
     /* 14px */
     font-weight: 400;
@@ -493,36 +493,36 @@
 
 
 .mobile-headd1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.3rem;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
+    font-size: 2.5rem;
     /* 32px */
     font-weight: 700;
 }
 
 .mobile-headd2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.6rem;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
+    font-size: 1.8rem;
     /* 24px */
     font-weight: 600;
 }
 
 .mobile-headd3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
+    font-size: 1.35rem;
     /* 20px */
     font-weight: 500;
 }
 
 .mobile-para1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.1rem;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
+    font-size: 1.3rem;
     /* 16px */
     font-weight: 400;
 
 }
 
 .mobile-caption {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
     font-size: 0.875rem;
     /* 14px */
     font-weight: 400;
@@ -710,22 +710,22 @@
 }
 
 .headd1 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
     font-size: 45px;
 }
 
 .headd2 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
     font-size: 22px;
 }
 
 .para1 {
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 18px;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
+    font-size: 22px;
 }
 
 .headd3 {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: "Times New Roman", Helvetica, sans-serif !important;
     font-size: 22px;
 }
 

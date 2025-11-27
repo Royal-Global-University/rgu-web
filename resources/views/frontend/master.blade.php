@@ -244,7 +244,7 @@
             text-decoration: none;
             padding: 10px;
             color: #444444;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: "Times New Roman", Helvetica, sans-serif;
             font-weight: bold;
             font-size: 16px;
         }
@@ -279,22 +279,22 @@
         }
 
         .headd1 {
-            font-family: 'Montserrat', sans-serif !important;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 45px;
         }
 
         .headd2 {
-            font-family: 'Montserrat', sans-serif !important;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 35px;
         }
 
         .para1 {
-            font-family: 'Montserrat', sans-serif !important;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 18px;
         }
 
         .headd3 {
-            font-family: 'Montserrat', sans-serif !important;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 22px;
         }
 
@@ -414,7 +414,7 @@
         .accordion-button {
             background-color: #13223b;
             color: white;
-            font-family: 'Montserrat', sans-serif;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 20px;
         }
 
@@ -427,7 +427,7 @@
         }
 
         .accordion-button:hover {
-            font-family: 'Montserrat', sans-serif;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 20px;
         }
 
@@ -438,7 +438,7 @@
 
         .accordion-item {
             background-color: #fafeff;
-            font-family: 'Montserrat', sans-serif;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 18px;
         }
     </style>
@@ -469,28 +469,28 @@
 
     <style>
         .mobile-headd1 {
-            font-family: 'Montserrat', sans-serif !important;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 2.3rem;
             /* 32px */
             font-weight: 700;
         }
 
         .mobile-headd2 {
-            font-family: 'Montserrat', sans-serif !important;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 1.6rem;
             /* 24px */
             font-weight: 600;
         }
 
         .mobile-headd3 {
-            font-family: 'Montserrat', sans-serif !important;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 1.25rem;
             /* 20px */
             font-weight: 500;
         }
 
         .mobile-para1 {
-            font-family: 'Montserrat', sans-serif !important;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 1.1rem;
             /* 16px */
             font-weight: 400;
@@ -498,7 +498,7 @@
         }
 
         .mobile-caption {
-            font-family: 'Montserrat', sans-serif !important;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-size: 0.875rem;
             /* 14px */
             font-weight: 400;
@@ -952,7 +952,7 @@
 
     <style id='wp-fonts-local'>
         @font-face {
-            font-family: Inter;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-style: normal;
             font-weight: 300 900;
             font-display: fallback;
@@ -961,7 +961,7 @@
         }
 
         @font-face {
-            font-family: Cardo;
+            font-family: "Times New Roman", Helvetica, sans-serif !important;
             font-style: normal;
             font-weight: 400;
             font-display: fallback;

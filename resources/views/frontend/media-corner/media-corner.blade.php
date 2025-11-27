@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Lachit Divas observed by Mahabahu Club under the aegis of IKS Cell at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 27, 2025:',
+                            'link' => 'lachit-divas-observed-by-mahabahu-club-under-the-aegis-of-iks-cell-at-rgu',
+                            'image' => '/mobile-assets/media-corner/news75/1.jpeg',
+                            'content' => 'The Mahabahu Club in collaboration with the Indian Knowledge Systems (IKS) Cell, The Assam Royal Global University successfully organized an enriching Lachit Divas Commemoration Programme to honour the indomitable courage and leadership of Bir Lachit Borphukan, the legendary Ahom commander who led Assam to victory in the historic Battle of Saraighat.',
+                        ],
+                        [
                             'title' => 'Cyber Security Awareness Workshop held at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, November 26, 2025:',

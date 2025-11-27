@@ -415,7 +415,7 @@
           <style>
             /* Requested Custom Classes */
             .mobile-headd1 {
-              font-family: 'Roboto', sans-serif;
+              font-family: "Times New Roman", Helvetica, sans-serif !important;
               /* Sizing handled by Tailwind utilities mostly, but ensuring base style */
               line-height: 1.3;
             }
@@ -802,7 +802,7 @@
           <style>
             /* Requested Custom Classes */
             .mobile-headd1 {
-              font-family: 'Roboto', sans-serif;
+              font-family: "Times New Roman", Helvetica, sans-serif !important;
               /* Sizing handled by Tailwind utilities mostly, but ensuring base style */
               line-height: 1.3;
             }

@@ -768,7 +768,7 @@
                                         style="display: flex; align-items: center; justify-content: center; padding: 20px 25px;">
 
                                         <div class="col-lg-9">
-                                            <h2 style="color: #fff;" class="headd2 fw-bold">
+                                            <h2 style="color: #fff; font-size: 26px;" class=" fw-bold">
                                                 Applications are now open for Admission in 2025 - 2026
                                             </h2>
                                             <p class="para1 text-white">
@@ -1199,13 +1199,35 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="/mobile-assets/media-corner/news75/1.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">Lachit Divas observed by Mahabahu Club under the aegis of IKS Cell at RGU</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 27,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/lachit-divas-observed-by-mahabahu-club-under-the-aegis-of-iks-cell-at-rgu">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="/mobile-assets/media-corner/news74/3.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
                                                     class="pt-2 m-0 fw-bold">Cyber Security Awareness Workshop held at RGU
                                                 </p>
                                                 <p class="pt-1 p-0 m-0"
@@ -1226,7 +1248,7 @@
                                                     src="/mobile-assets/media-corner/news65/1.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
                                                     class="pt-2 m-0 fw-bold">
                                                     Chief Justice Ashutosh Kumar unveils Dr Ambedkar's bust at Royal Global
                                                     University</p>
@@ -1243,27 +1265,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="/mobile-assets/media-corner/news64/241.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 17px;"
-                                                    class="pt-2 m-0 fw-bold">Central Tibetan Administration President
-                                                    Delivers Tibet Awareness Talk at RGU</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 21,
-                                                    2025
-                                                </p>
-                                                <a
-                                                    href="/central-tibetan-administration-president-delivers-tibet-awareness-talk-at-rgu">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">
                                         <a href="media-corner"><button
@@ -1334,7 +1336,7 @@
                     transform: translate(-50%, -50%);
 
                     /* --- Font Styling --- */
-                    font-family: 'Yellowtail', cursive;
+                    font-family: "Times New Roman", Helvetica, sans-serif !important;
                     font-weight: 400;
                     font-size: 25px;
 
@@ -1999,7 +2001,7 @@
                         <div id="flipbook-background" class="bgc-gallery-right"
                             style="flex-basis: 80%; flex-grow: 1; display: flex; align-items: center; justify-content: center; border-radius: 8px; background-size: cover; background-position: center center; transition: background-image 0.5s ease-in-out 0s;">
                             <div class="flipbook-container"
-                                style="font-family: Georgia, serif; color: rgb(62, 39, 35); display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%;">
+                                style="font-family: 'Times New Roman', serif; color: rgb(62, 39, 35); display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%;">
                                 <div class="flipbook-wrapper"
                                     style="position: relative; height: 80%; aspect-ratio: 2 / 1; margin: auto;">
 
