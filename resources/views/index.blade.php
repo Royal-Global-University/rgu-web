@@ -50,7 +50,7 @@
                         style="
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         font-weight: bold; font-size: 18px; line-height: 1.3;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         color: #fff; flex-grow: 1;">
-                        Admission open for 2025 - 2026
+                        Admission open for 2026 - 2027
                     </span>
 
                     <a href="https://admissions.rgu.ac/" target="_blank" class="btn mobile-para1 pulse-btn"
@@ -769,7 +769,7 @@
 
                                         <div class="col-lg-9">
                                             <h2 style="color: #fff; font-size: 26px;" class=" fw-bold">
-                                                Applications are now open for Admission in 2025 - 2026
+                                                Applications are now open for Admission in 2026 - 2027
                                             </h2>
                                             <p class="para1 text-white">
                                                 Explore the full range of graduate courses that are accepting applications
@@ -1265,7 +1265,7 @@
                                             </div>
                                         </div>
 
-                                        
+
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">
                                         <a href="media-corner"><button
