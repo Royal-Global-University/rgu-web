@@ -6367,6 +6367,60 @@
                                             </td>
                                         </tr>
 
+                                        <tr>
+                                            <td>3.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: BA(H) - Assamese</strong>
+                                                    <br>
+                                                    <a href="{{route('programs-BA-English')}}" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration: 3/4 years as per NEP |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>50000.00</td>
+                                            <td>26500.00</td>
+                                            {{-- <td><a href="{{route('programs-BA-English')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+
+                                        <tr>
+                                            <td>4.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Course: MA - Assamese </strong>
+                                                    <br>
+                                                    <a href="{{route('programs-BA-English')}}" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration: 3/4 years as per NEP |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>50000.00</td>
+                                            <td>26500.00</td>
+                                            {{-- <td><a href="{{route('programs-BA-English')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+
+                                        <tr>
+                                            <td>5.</td>
+                                            <td>
+                                                <p>
+                                                    <strong style="color: #1b4332;" class="#">Certificate Course in Sanskrit</strong>
+                                                    <br>
+                                                    <a href="{{route('programs-BA-English')}}" class="text-primary"><span
+                                                            style="font-size: 16px;"> Duration: 1 years |
+                                                            Admission Fee: 60000.00</span></a>
+                                                </p>
+                                            </td>
+                                            <td>25,000.00</td>
+                                            <td>NA</td>
+                                            {{-- <td><a href="{{route('programs-BA-English')}}"><button type="button"
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
+                                            </td> --}}
+                                        </tr>
+
                                     </tbody>
                                 </table>
                                 </div>
