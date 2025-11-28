@@ -429,7 +429,7 @@
                                 <img src="mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
                                     alt="Profile image of Susmita Banerjee">
                             </div>
-                            <h3 class="card-name">Susmita Banerjee</h3>
+                            <h3 class="card-name">Dr. Susmita Banerjee</h3>
                             <p class="card-designation">Faculty Member, IKS Cell</p>
                             <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
                         </div>
@@ -948,6 +948,18 @@
                             <h3 class="card-name">Dr. Amlan Das</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-amlan-das-rshss" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Bitopi.jpeg"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Bitopi Dutta</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-amlan-das-rshss" class="profile-link">View Profile</a> --}}
                         </div>
                     </div>
 
