@@ -230,6 +230,19 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/amit.jpeg"
+                                    alt="Profile image of Dr. Amit Kumar">
+                            </div>
+                            <h3 class="card-name">Dr. Amit Kumar</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            {{-- <a href="https://www.rgu.ac/faculty-mohammed-deluwar-hoque" class="profile-link">View
+                                Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pragya.jpeg"
                                     alt="Profile image of Pragya Tamang">
                             </div>
