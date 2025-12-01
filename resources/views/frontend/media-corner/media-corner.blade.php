@@ -47,6 +47,14 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => 'Prof. Dhrubajyoti Borah Appointed Advisor to the Chancellor and Author-in-Residence at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, November 28, 2025:',
+                            'link' => 'prof-dhrubajyoti-borah-appointed-advisor-to-the-chancellor-and-author-in-residence-at-rgu',
+                            'image' => '/mobile-assets/media-corner/news75/1d1.jpg',
+                            'content' => 'Distinguished medical professional, educator, administrator, and celebrated intellectual Prof. Dhrubajyoti Borah, former Vice Chancellor of Srimanta Sankaradeva University of Health Sciences, joined The Assam Royal Global University (RGU) today as Advisor to the Chancellor and Author-in-Residence.',
+                        ],
+                        [
                             'title' => 'Lachit Divas observed by Mahabahu Club under the aegis of IKS Cell at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, November 27, 2025:',

@@ -1203,6 +1203,28 @@
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="/mobile-assets/media-corner/news75/1d1.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    Prof. Dhrubajyoti Borah Appointed Advisor to the Chancellor and Author-in-Residence at RGU</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 28,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/prof-dhrubajyoti-borah-appointed-advisor-to-the-chancellor-and-author-in-residence-at-rgu">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="/mobile-assets/media-corner/news75/1.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
@@ -1242,28 +1264,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="/mobile-assets/media-corner/news65/1.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    Chief Justice Ashutosh Kumar unveils Dr Ambedkar's bust at Royal Global
-                                                    University</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 24,
-                                                    2025
-                                                </p>
-                                                <a
-                                                    href="/chief-justice-ashutosh-kumar-unveils-dr-ambedkar-bust-at-royal-global-university">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
 
 
                                     </div>

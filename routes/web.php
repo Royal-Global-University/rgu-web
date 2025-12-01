@@ -3022,6 +3022,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/prof-dhrubajyoti-borah-appointed-advisor-to-the-chancellor-and-author-in-residence-at-rgu', function () {
+    return view('frontend/media-corner/news76');
+})->name('prof-dhrubajyoti-borah-appointed-advisor-to-the-chancellor-and-author-in-residence-at-rgu');
+
 Route::get('/lachit-divas-observed-by-mahabahu-club-under-the-aegis-of-iks-cell-at-rgu', function () {
     return view('frontend/media-corner/news75');
 })->name('lachit-divas-observed-by-mahabahu-club-under-the-aegis-of-iks-cell-at-rgu');
