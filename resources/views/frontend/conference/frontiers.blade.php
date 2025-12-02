@@ -186,9 +186,9 @@
                             <tr>
                                 <th rowspan="2" style="border: 1px solid #ffffff; padding: 8px;">Category</th>
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">On/Before
-                                    <i>10<sup>th</sup> December</i>
+                                    <i>20<sup>th</sup> December</i>
                                 </th>
-                                <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After <i>10<sup>th</sup>
+                                <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After <i>20<sup>th</sup>
                                         December</i></th>
                             </tr>
                             <tr>
@@ -1013,9 +1013,9 @@
                             <tr>
                                 <th rowspan="2" style="border: 1px solid #ffffff; padding: 8px;">Category</th>
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">On/Before
-                                    <i>10<sup>th</sup> December</i>
+                                    <i>20<sup>th</sup> December</i>
                                 </th>
-                                <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After <i>10<sup>th</sup>
+                                <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After <i>20<sup>th</sup>
                                         December</i></th>
                             </tr>
                             <tr>
@@ -1079,12 +1079,12 @@
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Last date of Abstract Submission</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">20 December, 2025</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">25 December, 2025</td>
                             </tr>
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">3</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Last Date of Registration</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">20 December, 2025</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">25 December, 2025</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">4</td>
