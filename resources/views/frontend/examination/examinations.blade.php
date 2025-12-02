@@ -168,6 +168,13 @@
                 <section class="row">
 
                     <div class="col-lg-4 pb-3">
+                        <a target="_blank" href="timetable-of-odd-sem-2025" class="button para1"
+                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                            Timetable of Odd sem-2025
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 pb-3">
                         <a href="examination-members" class="button para1"
                             style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
                             Office of the COE
@@ -193,6 +200,7 @@
                             Academic Bank of Credit
                         </a>
                     </div>
+
                     <div class="col-lg-4">
 
                         <div class="dropdown">

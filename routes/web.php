@@ -2657,6 +2657,10 @@ Route::get('/examination-phd', function () {
     return view('frontend/examination/examination-phd');
 })->name('examination-phd');
 
+Route::get('/timetable-of-odd-sem-2025', function () {
+    return view('frontend/examination/time-table');
+})->name('timetable-of-odd-sem-2025');
+
 
 //Research
 Route::get('/research-devlopment', function () {
