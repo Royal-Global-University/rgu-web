@@ -235,8 +235,8 @@
                             </div>
                             <h3 class="card-name">Dr. Amit Kumar</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-mohammed-deluwar-hoque" class="profile-link">View
-                                Profile</a> --}}
+                            <a href="/faculty-amit-kumar" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 

@@ -226,8 +226,7 @@
                             Kalita</li>
                         <li><strong>Abstract Book:</strong> Dr. Hirak Jyoti Hazarika, Dr. Niraj Singh, Dr. Chongtham
                             Sovachandra Singh</li>
-                        <li><strong>Technical sessions:</strong> Dr. Rupshikha Patowary, Dr. Jiwasmika Baishya, Dr.
-                            Anushree Baruah, and Dr. Anu Kumari</li>
+                        <li><strong>Technical sessions:</strong> Dr. Rupshikha Patowary, Dr. Manisha Choudhury, Dr. Sthiti Porna Dutta, Dr. Anushree Baruah, and Dr. Annu Kumari</li>
                         <li><strong>Poster competition:</strong> Dr. Dipayan Das, Dr. Birson Ingti, and Dr. Anuj Kumar
                             Borah</li>
                     </ul>
@@ -857,8 +856,7 @@
                             Kalita</li>
                         <li><strong>Abstract Book:</strong> Dr. Hirak Jyoti Hazarika, Dr. Niraj Singh, Dr. Chongtham
                             Sovachandra Singh</li>
-                        <li><strong>Technical sessions:</strong> Dr. Rupshikha Patowary, Dr. Jiwasmika Baishya, Dr.
-                            Anushree Baruah, and Dr. Anu Kumari</li>
+                        <li><strong>Technical sessions:</strong> Dr. Rupshikha Patowary, Dr. Manisha Choudhury, Dr. Sthiti Porna Dutta, Dr. Anushree Baruah, and Dr. Annu Kumari</li>
                         <li><strong>Poster competition:</strong> Dr. Dipayan Das, Dr. Birson Ingti, and Dr. Anuj Kumar
                             Borah</li>
                     </ul>
