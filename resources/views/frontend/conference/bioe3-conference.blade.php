@@ -79,7 +79,7 @@
                     </p>
 
                     <p class="para1 fw-bold text-dark" style="text-align: justify;">
-                        Abstract submission deadline: 31st December, 2025
+                        Abstract submission deadline: 25th December, 2025
                     </p>
 
                     <p class="para1 fw-bold text-dark" style="text-align: justify;">
@@ -715,7 +715,7 @@
                     </p>
 
                     <p class="para1 fw-bold text-dark" style="text-align: justify;">
-                        Abstract submission deadline: 31st December, 2025
+                        Abstract submission deadline: 25th December, 2025
                     </p>
 
                     <p class="para1 fw-bold text-dark" style="text-align: justify;">
