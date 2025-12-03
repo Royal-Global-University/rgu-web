@@ -11,7 +11,7 @@
             <div style="padding: 20px 20px;">
                 <img style="width: 100%; padding-bottom: 50px;" src="mobile-assets/recruiters/mobile-all-logo.png" alt="Logo image">
 
-                <div style="padding: 10px 30px; background-color: #ECA529; border-radius: 10px; border-bottom: 10px solid #27467A;">
+                {{-- <div style="padding: 10px 30px; background-color: #ECA529; border-radius: 10px; border-bottom: 10px solid #27467A;">
                     <div class="row">
 
                         <div>
@@ -41,7 +41,7 @@
 
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -67,7 +67,7 @@
 
             <img src="mobile-assets/recruiters/web-header.png" alt="">
 
-            <div>
+            {{-- <div>
 
                 <img style="width: 100%; padding-bottom: 50px;" src="mobile-assets/recruiters/web-all-logo.svg"
                     alt="Logo image">
@@ -112,7 +112,7 @@
                 </div>
 
 
-            </div>
+            </div> --}}
 
         </div>
     </div>
