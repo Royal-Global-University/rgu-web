@@ -526,7 +526,7 @@
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">1</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Dhruba J Saikia</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">IUCAA, Pune</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">NCRA, TIFR</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
@@ -1360,7 +1360,7 @@
                             <tr style="background-color: #f2f2f2;">
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">1</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Dhruba J Saikia</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">IUCAA, Pune</td>
+                                <td style="border: 1px solid #ccc; padding: 8px;">NCRA, TIFR</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">2</td>
