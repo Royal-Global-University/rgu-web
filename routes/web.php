@@ -3025,6 +3025,9 @@ Route::get('/cisr', function () {
 })->name('cisr');
 
 //media-corner
+Route::get('/national-conference-on-frontiers-in-modern-physics', function () {
+    return view('frontend/media-corner/news77');
+})->name('national-conference-on-frontiers-in-modern-physics');
 
 Route::get('/prof-dhrubajyoti-borah-appointed-advisor-to-the-chancellor-and-author-in-residence-at-rgu', function () {
     return view('frontend/media-corner/news76');
