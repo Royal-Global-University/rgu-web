@@ -1,7 +1,6 @@
 @extends('frontend.master')
 @section('title', 'RGU Guwahati: 5th Convocation Ceremony Oct 31, 2025')
-@section('meta_description', 'Royal Global University (RGU) 5th Convocation: Oct 31, 2025. Degrees awarded to 1,967
-    students. Chief Guest: Sri Lakshman Prasad Acharya, Hon’ble Governor of Assam. View Ceremony Details!')
+@section('meta_description', 'Royal Global University (RGU) 5th Convocation: Oct 31, 2025. Degrees awarded to 1,967 students. Chief Guest: Sri Lakshman Prasad Acharya, Hon’ble Governor of Assam. View Ceremony Details!')
 @section('meta_keywords', 'Scholarship')
 @section('content')
     <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
