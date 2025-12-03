@@ -943,7 +943,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Priyanka-Patowari-RSHSS.png"
+                                <img src="/mobile-assets/updated-faculty-img/Priyanka.jpeg"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Priyanka Patowari</h3>
@@ -955,7 +955,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rshss/Amlandas.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/Amlan.jpeg"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Amlan Das</h3>
@@ -991,7 +991,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rshss/Joyeeta.jpg"
+                                <img src="/mobile-assets/updated-faculty-img/Joyeeta.jpg"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Ms. Joyeeta Bhattacharjee</h3>

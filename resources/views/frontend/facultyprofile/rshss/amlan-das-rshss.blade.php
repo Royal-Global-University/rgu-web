@@ -11,7 +11,7 @@
                         <div class="col-lg-6 text-center">
                             <div class="text-center">
                                 <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
-                                    src="mobile-assets/all-faculty/rshss/Amlandas.jpeg" alt="">
+                                    src="/mobile-assets/updated-faculty-img/Amlan.jpeg" alt="">
                             </div>
                         </div>
 
@@ -217,7 +217,7 @@
 
                         <div class="text-center">
                             <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="mobile-assets/all-faculty/rshss/Amlandas.jpeg" alt="">
+                                src="/mobile-assets/updated-faculty-img/Amlan.jpeg" alt="">
                         </div>
 
                     </div>
