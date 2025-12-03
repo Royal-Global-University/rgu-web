@@ -660,12 +660,12 @@
         </script>
 
         <!-- floating button  -->
-        {{-- <div>
+        <div>
             <div class="convocation-btn-wrapper">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2JNy7yB12L4Yvj1qkMc40uP1vFhJUvPhHF1f3oYe8YC2EnQ/viewform"
+                <a href="/timetable-of-odd-sem-2025"
                     class="convocation-btn">
                     <span class="convocation-btn-shine"></span>
-                    Registration for Alumni Meet
+                    Timetable of Odd Sem 2025 Examination
                 </a>
             </div>
 
@@ -734,7 +734,7 @@
                     }
                 }
             </style>
-        </div> --}}
+        </div>
         <!-- floating button  -->
         <div id="page" class="site site_wrapper">
 
