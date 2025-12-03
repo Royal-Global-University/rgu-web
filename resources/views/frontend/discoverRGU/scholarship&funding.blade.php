@@ -1553,7 +1553,7 @@
                                                                             Ministry of Youth Cultural and Sports Affairs,
                                                                             Government of India.
                                                                         </li>
-                                                                        <li>2) First four positions at All India University
+                                                                        <li>2) First three positions at All India University
                                                                             level (by the AIU)</li>
                                                                         <li>3) Overall Winner of National TV Reality Show
                                                                         </li>
@@ -1992,7 +1992,7 @@
                                                                 </thead>
 
                                                                 <!-- Table Body -->
-                                                                <tbody>
+                                                                <tbody class="text-center">
                                                                     <tr>
                                                                         <td class="p-3 fw-bold text-center">100%</td>
                                                                         <td class="p-3">90% & above in aggregate</td>
@@ -2001,21 +2001,15 @@
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="p-3 fw-bold text-center">50%</td>
-                                                                        <td class="p-3">Less than 90% but greater or
-                                                                            equal to 86% in aggregate</td>
-                                                                        <td class="p-3">Less than 96% but greater or
-                                                                            equal to 92% in aggregate</td>
-                                                                        <td class="p-3">Less than 93% but greater or
-                                                                            equal to 89% in aggregate</td>
+                                                                        <td class="p-3">86% to 89.99%</td>
+                                                                        <td class="p-3">92% to 95.99%</td>
+                                                                        <td class="p-3">89% to 92.99%</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="p-3 fw-bold text-center">25%</td>
-                                                                        <td class="p-3">Less than 86% but greater or
-                                                                            equal to 82% in aggregate</td>
-                                                                        <td class="p-3">Less than 92% but greater or
-                                                                            equal to 86% in aggregate</td>
-                                                                        <td class="p-3">Less than 89% but greater or
-                                                                            equal to 83% in aggregate</td>
+                                                                        <td class="p-3">82% to 85.99%</td>
+                                                                        <td class="p-3">86% to 91.99%</td>
+                                                                        <td class="p-3">83% to 88.99%</td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
