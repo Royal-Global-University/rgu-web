@@ -15,7 +15,8 @@
             <div class="pt-4">
                 <div class="row">
 
-                    <div class="col-lg-12" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <div class="col-lg-12"
+                        style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                         <a class="mobile-headd3"
                             style="padding: 6px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 15px;"
                             target="_blank" href="mobile-assets/blog/cosmology/Brochure.pdf">Download Brochure</a>
@@ -188,7 +189,8 @@
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">On/Before
                                     <i>20<sup>th</sup> December</i>
                                 </th>
-                                <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After <i>20<sup>th</sup>
+                                <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After
+                                    <i>20<sup>th</sup>
                                         December</i></th>
                             </tr>
                             <tr>
@@ -323,7 +325,8 @@
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -366,7 +369,8 @@
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Role</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -407,7 +411,8 @@
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -430,7 +435,8 @@
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -472,7 +478,8 @@
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -510,7 +517,8 @@
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -603,7 +611,8 @@
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">18</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Pradip Kumar Kalita</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Rajiv Gandhi University, Arunachal Pradesh
+                                <td style="border: 1px solid #ccc; padding: 8px;">Rajiv Gandhi University, Arunachal
+                                    Pradesh
                                 </td>
                             </tr>
                         </tbody>
@@ -789,7 +798,7 @@
                                 <div class="card-image">
                                     <img src="mobile-assets/blog/cosmology/profiles/Picture8.png" alt="Profile image">
                                 </div>
-                                <h3 class="card-name">Prof. Madhurjya Pratim Borah</h3>
+                                <h3 class="card-name">Prof. Madhurjya P. Borah</h3>
                                 <p class="card-designation">Gauhati University</p>
 
                             </div>
@@ -848,8 +857,8 @@
                             style="padding: 10px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 25px;"
                             target="_blank" href="mobile-assets/blog/cosmology/Brochure.pdf">Brochure</a>
                         <a class="mobile-headd3"
-                            style="padding: 10px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 25px;" target="_blank"
-                            href="https://forms.gle/kRiFNsfwQG7AGxGA9">Registration Link</a>
+                            style="padding: 10px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 25px;"
+                            target="_blank" href="https://forms.gle/kRiFNsfwQG7AGxGA9">Registration Link</a>
                         <a class="mobile-headd3"
                             style="padding: 10px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600;"
                             href="mobile-assets/blog/cosmology/Abstract.docx">Download Abstract</a>
@@ -1015,7 +1024,8 @@
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">On/Before
                                     <i>20<sup>th</sup> December</i>
                                 </th>
-                                <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After <i>20<sup>th</sup>
+                                <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After
+                                    <i>20<sup>th</sup>
                                         December</i></th>
                             </tr>
                             <tr>
@@ -1150,7 +1160,8 @@
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -1193,7 +1204,8 @@
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Role</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -1234,7 +1246,8 @@
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -1257,7 +1270,8 @@
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -1299,7 +1313,8 @@
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -1336,7 +1351,8 @@
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: center;">Sl. No.</th>
                                 <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">Name</th>
-                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">University/Institute
+                                <th style="border: 1px solid #ffffff; padding: 10px; text-align: left;">
+                                    University/Institute
                                     Name</th>
                             </tr>
                         </thead>
@@ -1429,7 +1445,8 @@
                             <tr>
                                 <td style="border: 1px solid #ccc; padding: 8px; text-align: center;">18</td>
                                 <td style="border: 1px solid #ccc; padding: 8px;">Prof. Pradip Kumar Kalita</td>
-                                <td style="border: 1px solid #ccc; padding: 8px;">Rajiv Gandhi University, Arunachal Pradesh
+                                <td style="border: 1px solid #ccc; padding: 8px;">Rajiv Gandhi University, Arunachal
+                                    Pradesh
                                 </td>
                             </tr>
                         </tbody>
@@ -1658,8 +1675,8 @@
                 RGU <span style="color: #FF9A1E; font-weight: 500;">Location</span></h2>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.58413536414!2d91.72203897563631!3d26.112490577133137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5c6504d45881%3A0x1029dcdedc3e79db!2sRoyal%20Global%20University!5e0!3m2!1sen!2sin!4v1759902585816!5m2!1sen!2sin"
-                width="1200" height="450" style="border: 3px solid black; border-radius: 10px;" class="mb-5" allowfullscreen=""
-                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                width="1200" height="450" style="border: 3px solid black; border-radius: 10px;" class="mb-5"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </section>
 
