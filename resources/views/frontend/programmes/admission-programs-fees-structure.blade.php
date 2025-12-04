@@ -4664,9 +4664,9 @@
                                             </td>
                                             <td>200000.00</td>
                                             <td>101500.00</td>
-                                            {{-- <td><a href="{{route('programs-BBA')}}"><button type="button"
+                                            <td><a href="{{route('program-executive-mba')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
 

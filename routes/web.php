@@ -1002,6 +1002,10 @@ Route::get('/program-bsc-cssd', function () {
     return view('frontend/programmes/program-bsc-cssd');
 })->name('program-bsc-cssd');
 
+Route::get('/program-executive-mba', function () {
+    return view('frontend/programmes/program-executive-mba');
+})->name('program-executive-mba');
+
 Route::get('/program-msc-nursing-comm-mental', function () {
     return view('frontend/programmes/program-msc-nursing-comm-mental');
 })->name('program-msc-nursing-comm-mental');
