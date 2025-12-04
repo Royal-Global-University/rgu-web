@@ -961,189 +961,146 @@
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <div>
-                                            <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">
-                                                Eligibility Criteria</h1>
-                                                <table
-                                                    class="overflow-hidden table text-wrap table-bordered border-top mb-5 fs-16 para1"
-                                                    style="box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.10); background-color: #fff;">
-                                                    <thead class="bg-blue text-white">
-                                                        <th class="bg-blue text-white">
-                                                            SCHOLARSHIP OFFERED
-                                                        </th>
-                                                        <th class="bg-blue text-white">PG
-                                                            PROGRAMMES</th>
-                                                        <th class="bg-blue text-white">UG
-                                                            PROGRAMMES</th>
-                                                    </thead>
-                                                    <thead class="bg-blue text-white">
-                                                        <th class="bg-blue text-white">Nature of
-                                                            Scholarship
-                                                            (Category)</th>
-                                                        <th class="bg-blue text-white">GRADUATION
-                                                            (ANY
-                                                            STREAM)</th>
-                                                        <th class="bg-blue text-white">10+2</th>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>50% on annual fee. Other applicable fee, if any, to be paid
-                                                                for
-                                                                entire course
-                                                            </td>
-                                                            <td colspan="2">As per the required minimum eligibility
-                                                                criteria
-                                                                of the
-                                                                respective
-                                                                programme/course</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                                <div class="text-dark" style="text-align: justify;">
-                                                    <p class="para1">a) Ward of a Défense Personnel (Military)/
-                                                        Paramilitary
-                                                        Personnel.
-                                                    </p>
-                                                    <p class="para1">b) Ward of a Police Personnel- NE only.</p>
-                                                    <p class="para1">c) In case a student, availing Royal Suraksha: 50%
-                                                        Scholarship for
-                                                        Wards of
-                                                        Serving & Retired
-                                                        Security Personnels (Military/ Paramilitary/Police Personnel – N.E.
-                                                        only),
-                                                        wishes to avail
-                                                        hostel/
-                                                        transportation facilities, he/she will have to pay the full hostel/
-                                                        transportation fees as
-                                                        prescribed for
-                                                        otherstudents.</p>
-                                                    <p class="para1">d) The Scholarship may not be applicable for Courses
-                                                        Governed by
-                                                        Regulatory
-                                                        Bodies (AICTE, COA,
-                                                        PCI, INC, ANMHVC, BCI, etc.)</p>
-                                                    <p class="para1">e) A student availing RoyalSuraksha: 50% Scholarship
-                                                        for Wards of
-                                                        Serving &
-                                                        Retired Security
-                                                        Personnels (Military/ Paramilitary/Police Personnel – N.E. only) are
-                                                        required to
-                                                        the Caution
-                                                        money of Rs.
-                                                        10000/- (refundable) olong with the remaining percentage of fee for
-                                                        the 1st
-                                                        semester/year of
-                                                        his/her programme
-                                                        of study along with the Admission Fee, Registration Fee etc.</p>
-                                                    <p class="para1">f) Final decision of granting scholarship lies with
-                                                        the
-                                                        University
-                                                        Scholarship
-                                                        Committee and or
-                                                        Competent Authority's. </p>
 
-                                                    <h3 class="headd3 text-dark fw-bold">Continuation of Scholarship for
-                                                        subsequent years
-                                                        will be
-                                                        governed as follows –
-                                                    </h3>
-                                                    <p class="para1">i. Class attendance of the students must be 75% and
-                                                        above in all
-                                                        the subjects
-                                                        in each semester from
-                                                        the previous academic year.</p>
-                                                    <p class="para1">ii. To continue availing scholarship, a student must
-                                                        clear all the
-                                                        papers in
-                                                        each semester and
-                                                        should not carry any back log in any semester from the previous
-                                                        academic year
-                                                        and pass the
-                                                        semester/annual
-                                                        examination for promotion to the next year.</p>
+                                            <div class="container-xl">
 
-                                                    <h3 class="headd3 text-dark fw-bold">Document Required under the above
-                                                        mentioned of
-                                                        Scholarship:
-                                                    </h3>
-                                                    <p class="para1">1. Scanned copies of the marksheets from Class X
-                                                        onwards.</p>
-                                                    <p class="para1">2. Scanned copies of the certificate from the
-                                                        competent
-                                                        authority
-                                                        claiming
-                                                        scholarship under the
-                                                        said category.</p>
+                                                <!-- Table container for overflow scrolling on small screens -->
+                                                <div class="table-responsive shadow-sm rounded-3 overflow-hidden">
+                                                    <table
+                                                        class="table table-light table-bordered table-hover align-middle m-0 freeship-table mobile-para1">
+                                                        <!-- Table Header -->
+                                                        <thead class="text-uppercase small">
+                                                            <tr>
+                                                                <th class="p-3" rowspan="3">Scholarship Offered
+                                                                    on Course Fee</th>
+                                                                <th class="p-3" colspan="1">For PG Programmes
+                                                                </th>
+                                                                <th class="p-3" colspan="1">For UG Programmes
+                                                                </th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th class="p-3 text-center" colspan="2">Percentage
+                                                                    of Marks Required In</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th class="p-3">Graduation, any stream</th>
+                                                                <th class="p-3">10+2/ HS/ Diploma (Any Board)</th>
+                                                            </tr>
+                                                        </thead>
+
+                                                        <!-- Table Body -->
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="p-3 fw-bold text-center">50%</td>
+                                                                <td class="p-3" colspan="2">As per the required
+                                                                    minimum eligibility criteria of
+                                                                    the respective programme/course</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
                                                 </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                            </div>
 
-                            </div>
+                                            <h4 class="mobile-para1 fw-bold text-dark mt-3">ELIGIBILITY CRITERIA</h4>
 
-                            {{-- <div class="accordion-item mb-2">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed text-white" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false"
-                                        aria-controls="collapse11">
-                                        <span class="p-2 rounded fw-bold"
-                                            style="background-color: #ef991f; margin-right: 15px;">H</span> Hope For
-                                        Manipur Scholarship - 100% Admission Fee Waiver (For Students From Violence Affected
-                                        Families Of Manipur)
-                                    </button>
-                                </h2>
-                                <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <div class="text-dark">
-                                            <h3 class="headd3 text-dark fw-bold kd-split-text pt-2">
-                                                Eligibility Criteria</h3>
-                                            <ol class="para1" style="text-align: justify;">
-                                                <li>Must be resident of Manipur.</li>
-                                                <li>Must secure admission for any UG or PG programme at RGU.</li>
-                                                <li>Supporting documents stating the need for financial assistance due to
-                                                    recent
-                                                    violence from the competent
-                                                    authority.</li>
-                                                <li>In case a student, availing 100% Admission fee waiver Scholarship,
-                                                    wishes to avail
-                                                    hostel/
-                                                    transportation facilities, he/she will have to pay the full hostel/
-                                                    transportation
-                                                    fees as prescribed
-                                                    for other students.</li>
-                                                <li>The Scholarship may not be applicable for Courses Governed by Regulatory
-                                                    Bodies
-                                                    (AICTE, COA, PCI, INC,
-                                                    ANMHVC, BCI, etc.).</li>
+                                            <ol class="text-dark mobile-para1" type="i">
+
+                                                <li>The Scholarship is applicable to the wards of serving & retired:
+                                                    <ol type="a">
+                                                        <li>Military (Army/Navy/Air Force)</li>
+                                                        <li>Paramilitary (CRPF/BSF/ITBP/SSB/CISF/RPF/Assam
+                                                            Rifles/NSG/SFF/SPG)</li>
+                                                        <li>Police Personnel residing in the Northeastern region</li>
+                                                    </ol>
+                                                </li>
+
+                                                <li>A student availing scholarship under Royal Suraksha is required to
+                                                    pay the one-time
+                                                    Admission Fee, Registration Fee and Caution money (refundable) at
+                                                    the time of admission.
+                                                </li>
+
+                                                <li>The scholarship is awarded annually and continuation in the
+                                                    subsequent year is governed by
+                                                    the norms laid down for the continuation of Royal Suraksha.</li>
+
+                                                <li>In case a student, availing Royal Suraksha, wishes to avail
+                                                    hostel/transportation
+                                                    facilities, he/she will have to pay the full hostel/transportation
+                                                    fees as prescribed for
+                                                    other students.</li>
+
+                                                <li>The Scholarship may not be applicable for Courses Governed by
+                                                    Regulatory Bodies (AICTE, COA,
+                                                    PCI, INC, ANMHVC, BCI, etc.).</li>
+
+                                                <li>Change of programme after the award of Scholarship for a particular
+                                                    programme is not
+                                                    allowed. As such the scholarship awarded stands cancelled. If the
+                                                    student still wishes to
+                                                    apply for the scholarship, it needs to submit a fresh application
+                                                    for the same.</li>
+
+                                                <li>The students can avail only one scholarship from any source in a
+                                                    particular academic year.
+                                                    If a student is found availing more than one scholarship during the
+                                                    same academic year from
+                                                    different sources, the scholarship awarded by the University will
+                                                    stand cancelled for that
+                                                    particular academic year, and the student will be liable to pay the
+                                                    full course fee for that
+                                                    academic year.</li>
+
+                                                <li>However, if a student wishes to retain the scholarship offered by
+                                                    the University and
+                                                    withdraw the scholarship received from other source(s) for the same
+                                                    academic year, the
+                                                    student must refund the entire scholarship amount received from the
+                                                    other source(s) to the
+                                                    University before availing the University’s scholarship. If a
+                                                    student is applying for any
+                                                    other scholarships, the student needs to submit an undertaking that
+                                                    the RGU scholarship will
+                                                    be returned if he/she receives any other scholarship from other
+                                                    sources.</li>
+
                                                 <li>Final decision of granting scholarship lies with the University
-                                                    Scholarship
-                                                    Committee and or Competent
-                                                    Authority's.</li>
+                                                    Scholarship Committee and/or
+                                                    Competent Authority/s.</li>
+
                                             </ol>
+
+                                            <h4 class="mobile-para1 fw-bold text-dark">Continuation of Scholarship for
+                                                subsequent years will be governed as follows –</h4>
+
+                                            <ol class="text-dark mobile-para1">
+                                                <li>Class attendance of the students must be 75% and above in all the
+                                                    subjects in each semester
+                                                    from the previous academic year.</li>
+                                                <li>To continue availing scholarship, a student must clear all the
+                                                    papers in each semester and
+                                                    should not carry any backlog in any semester from the previous
+                                                    academic year and must pass
+                                                    the semester/annual examination for promotion to the next year.</li>
+                                            </ol>
+
+                                            <h4 class="mobile-para1 fw-bold text-dark">Documents Required under the
+                                                above mentioned Scholarship:</h4>
+
+                                            <ol class="text-dark mobile-para1">
+                                                <li>Scanned copies of the marksheets/gradesheets from Class X onwards.
+                                                </li>
+                                                <li>Scanned copies of the serving/retired certificate from the competent
+                                                    authority claiming
+                                                    scholarship under the said category.</li>
+                                            </ol>
+
                                         </div>
                                     </div>
                                 </div>
 
                             </div>
 
-                            <div class="accordion-item mb-2">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed text-white" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false"
-                                        aria-controls="collapseSeven">
-                                        <span class="p-2 rounded fw-bold"
-                                            style="background-color: #ef991f; margin-right: 15px;">I</span> RGU Sports
-                                        Scholarship
-                                    </button>
-                                </h2>
-                                <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="https://media.rgu.ac/sport-policy/web-policy.png" alt="" />
-                                    </div>
-                                </div>
-
-                            </div> --}}
 
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="headingThree">
@@ -1311,142 +1268,6 @@
                                                         the said category.</li>
                                                 </ol>
 
-                                                <h3 class="headd3 text-dark fw-bold text-center pt-3 pb-3">ROYAL SURAKSHA:
-                                                    50% SCHOLARSHIP FOR WARDS OF SERVING & RETIRED SECURITY PERSONNELS
-                                                </h3>
-
-                                                <div class="container-xl">
-
-                                                    <!-- Table container for overflow scrolling on small screens -->
-                                                    <div class="table-responsive shadow-sm rounded-3 overflow-hidden">
-                                                        <table
-                                                            class="table table-light table-bordered table-hover align-middle m-0 freeship-table mobile-para1">
-                                                            <!-- Table Header -->
-                                                            <thead class="text-uppercase small">
-                                                                <tr>
-                                                                    <th class="p-3" rowspan="3">Scholarship Offered
-                                                                        on Course Fee</th>
-                                                                    <th class="p-3" colspan="1">For PG Programmes
-                                                                    </th>
-                                                                    <th class="p-3" colspan="1">For UG Programmes
-                                                                    </th>
-                                                                </tr>
-                                                                <tr>
-                                                                    <th class="p-3 text-center" colspan="2">Percentage
-                                                                        of Marks Required In</th>
-                                                                </tr>
-                                                                <tr>
-                                                                    <th class="p-3">Graduation, any stream</th>
-                                                                    <th class="p-3">10+2/ HS/ Diploma (Any Board)</th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <!-- Table Body -->
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="p-3 fw-bold text-center">50%</td>
-                                                                    <td class="p-3" colspan="2">As per the required
-                                                                        minimum eligibility criteria of
-                                                                        the respective programme/course</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-
-                                                <h4 class="mobile-para1 fw-bold text-dark mt-3">ELIGIBILITY CRITERIA</h4>
-
-                                                <ol class="text-dark mobile-para1" type="i">
-
-                                                    <li>The Scholarship is applicable to the wards of serving & retired:
-                                                        <ol type="a">
-                                                            <li>Military (Army/Navy/Air Force)</li>
-                                                            <li>Paramilitary (CRPF/BSF/ITBP/SSB/CISF/RPF/Assam
-                                                                Rifles/NSG/SFF/SPG)</li>
-                                                            <li>Police Personnel residing in the Northeastern region</li>
-                                                        </ol>
-                                                    </li>
-
-                                                    <li>A student availing scholarship under Royal Suraksha is required to
-                                                        pay the one-time
-                                                        Admission Fee, Registration Fee and Caution money (refundable) at
-                                                        the time of admission.
-                                                    </li>
-
-                                                    <li>The scholarship is awarded annually and continuation in the
-                                                        subsequent year is governed by
-                                                        the norms laid down for the continuation of Royal Suraksha.</li>
-
-                                                    <li>In case a student, availing Royal Suraksha, wishes to avail
-                                                        hostel/transportation
-                                                        facilities, he/she will have to pay the full hostel/transportation
-                                                        fees as prescribed for
-                                                        other students.</li>
-
-                                                    <li>The Scholarship may not be applicable for Courses Governed by
-                                                        Regulatory Bodies (AICTE, COA,
-                                                        PCI, INC, ANMHVC, BCI, etc.).</li>
-
-                                                    <li>Change of programme after the award of Scholarship for a particular
-                                                        programme is not
-                                                        allowed. As such the scholarship awarded stands cancelled. If the
-                                                        student still wishes to
-                                                        apply for the scholarship, it needs to submit a fresh application
-                                                        for the same.</li>
-
-                                                    <li>The students can avail only one scholarship from any source in a
-                                                        particular academic year.
-                                                        If a student is found availing more than one scholarship during the
-                                                        same academic year from
-                                                        different sources, the scholarship awarded by the University will
-                                                        stand cancelled for that
-                                                        particular academic year, and the student will be liable to pay the
-                                                        full course fee for that
-                                                        academic year.</li>
-
-                                                    <li>However, if a student wishes to retain the scholarship offered by
-                                                        the University and
-                                                        withdraw the scholarship received from other source(s) for the same
-                                                        academic year, the
-                                                        student must refund the entire scholarship amount received from the
-                                                        other source(s) to the
-                                                        University before availing the University’s scholarship. If a
-                                                        student is applying for any
-                                                        other scholarships, the student needs to submit an undertaking that
-                                                        the RGU scholarship will
-                                                        be returned if he/she receives any other scholarship from other
-                                                        sources.</li>
-
-                                                    <li>Final decision of granting scholarship lies with the University
-                                                        Scholarship Committee and/or
-                                                        Competent Authority/s.</li>
-
-                                                </ol>
-
-                                                <h4 class="mobile-para1 fw-bold text-dark">Continuation of Scholarship for
-                                                    subsequent years will be governed as follows –</h4>
-
-                                                <ol class="text-dark mobile-para1">
-                                                    <li>Class attendance of the students must be 75% and above in all the
-                                                        subjects in each semester
-                                                        from the previous academic year.</li>
-                                                    <li>To continue availing scholarship, a student must clear all the
-                                                        papers in each semester and
-                                                        should not carry any backlog in any semester from the previous
-                                                        academic year and must pass
-                                                        the semester/annual examination for promotion to the next year.</li>
-                                                </ol>
-
-                                                <h4 class="mobile-para1 fw-bold text-dark">Documents Required under the
-                                                    above mentioned Scholarship:</h4>
-
-                                                <ol class="text-dark mobile-para1">
-                                                    <li>Scanned copies of the marksheets/gradesheets from Class X onwards.
-                                                    </li>
-                                                    <li>Scanned copies of the serving/retired certificate from the competent
-                                                        authority claiming
-                                                        scholarship under the said category.</li>
-                                                </ol>
 
 
                                             </div>
