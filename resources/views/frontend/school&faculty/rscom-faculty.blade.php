@@ -298,17 +298,6 @@
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="card">
                 <div class="card-image">
-                  <img src="https://media.rgu.ac/iks/Dr.SiddhantMedhi.jpg" alt="Profile image of Siddhant Medhi">
-                </div>
-                <h3 class="card-name">Dr. Siddhant Medhi</h3>
-                <p class="card-designation">Faculty Member, IKS Cell</p>
-                <a href="https://www.rgu.ac/faculty-siddhant-medhi" class="profile-link">View Profile</a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-image">
                   <img src="mobile-assets/updated-faculty-img/Dr-Mullah-Islam.png"
                     alt="Profile image of Dr. Mullah Muhaiminul Islam">
                 </div>
@@ -675,18 +664,6 @@
             <div class="col-lg-3 col-md-6 mb-4">
               <div class="card">
                 <div class="card-image">
-                  <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prof-Tushti-Sharma.png"
-                    alt="Profile image">
-                </div>
-                <h3 class="card-name">Prof. Tushti Sharma</h3>
-                <p class="card-designation">Professor and HoD</p>
-                <a href="https://www.rgu.ac/faculty-tushti-sharma" class="profile-link">View Profile</a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-image">
                   <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Bisalakshi-Sawarni-RSL.png"
                     alt="Profile image">
                 </div>
@@ -870,18 +847,6 @@
                 <h3 class="card-name">Ms. Aruniva Bhagwati</h3>
                 <p class="card-designation">Assistant Professor</p>
                 <a href="https://www.rgu.ac/faculty-aruniva-bhagawati" class="profile-link">View Profile</a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-image">
-                  <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Fariza-Saidin-RSBAS.png"
-                    alt="Profile image ">
-                </div>
-                <h3 class="card-name">Dr. Fariza Saidin</h3>
-                <p class="card-designation">Assistant Professor</p>
-                <a href="https://www.rgu.ac/faculty-fariza-saidin" class="profile-link">View Profile</a>
               </div>
             </div>
 

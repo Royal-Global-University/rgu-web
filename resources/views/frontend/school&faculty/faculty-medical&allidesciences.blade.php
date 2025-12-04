@@ -644,18 +644,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Ms-Mevareen-Rynjah.png"
-                                    alt="Profile image of Mevareen Rynjah">
-                            </div>
-                            <h3 class="card-name">Mevareen Rynjah</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/mevareen" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Anuj-Kumar-Borah-RSBSC.png"
                                     alt="Profile image of Prof. Rita Choudhury">
                             </div>
@@ -1155,18 +1143,6 @@
                             <h3 class="card-name">Ms. Zomuanpuii</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Jiwasmika-Baishya.png"
-                                    alt="Profile image of Jiwasmika Baishya">
-                            </div>
-                            <h3 class="card-name">Dr. Jiwasmika Baishya</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-jiwasmika-baishya" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

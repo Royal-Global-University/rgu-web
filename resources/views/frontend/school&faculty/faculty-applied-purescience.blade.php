@@ -124,18 +124,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rsaps/15.jpeg"
-                                    alt="Profile image of Prof. Rama Ranjan Bhattacharjee">
-                            </div>
-                            <h3 class="card-name">Prof. Rama Ranjan Bhattacharjee</h3>
-                            <p class="card-designation">Dean – Research and Development</p>
-                            <a href="/faculty-rama-ranjan-bhattacharjee" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://media.rgu.ac/advisor-leadership/Amarjyoti.jpeg"
                                     alt="Profile image of Prof. (Dr.) Amarjyoti Choudhury">
                             </div>
@@ -257,19 +245,6 @@
                             <h3 class="card-name">Dr. Bapan Kalita</h3>
                             <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-dr-bapan-kalita" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Bhagyashri-Patgiri-RSAPS.png"
-                                    alt="Profile image of Dr. Bhagyashri Patgiri">
-                            </div>
-                            <h3 class="card-name">Dr. Bhagyashri Patgiri</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-dr-bhagyashri-patgiri" class="profile-link">View
-                                Profile</a>
                         </div>
                     </div>
 
@@ -684,18 +659,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Jiwasmika-Baishya.png"
-                                    alt="Profile image of Jiwasmika Baishya">
-                            </div>
-                            <h3 class="card-name">Dr. Jiwasmika Baishya</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-jiwasmika-baishya" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Bidisha.jpg"
                                     alt="Profile image of Bidisha Goswami">
                             </div>
@@ -885,18 +848,6 @@
                             <h3 class="card-name">Dr. Mousumi Das Goswami</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-mousumi-das-goswami" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://media.rgu.ac/iks/Dr.SiddhantMedhi.jpg"
-                                    alt="Profile image of Siddhant Medhi">
-                            </div>
-                            <h3 class="card-name">Dr. Siddhant Medhi</h3>
-                            <p class="card-designation">Faculty Member, IKS Cell</p>
-                            <a href="https://www.rgu.ac/faculty-siddhant-medhi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1118,18 +1069,6 @@
                             <h3 class="card-name">Susmita Banerjee</h3>
                             <p class="card-designation">Faculty Member, IKS Cell</p>
                             <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://media.rgu.ac/iks/Dr.SiddhantMedhi.jpg"
-                                    alt="Profile image of Siddhant Medhi">
-                            </div>
-                            <h3 class="card-name">Dr. Siddhant Medhi</h3>
-                            <p class="card-designation">Faculty Member, IKS Cell</p>
-                            <a href="https://www.rgu.ac/faculty-siddhant-medhi" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
