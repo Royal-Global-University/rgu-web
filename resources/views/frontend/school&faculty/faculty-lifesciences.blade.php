@@ -233,7 +233,7 @@
                                 <img src="mobile-assets/updated-faculty-img/53.jpg"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Dr. Sandipta Ghosh</h3>
+                            <h3 class="card-name">Dr. Sandipta Dey</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-sandipta-ghosh" class="profile-link">View Profile</a>
                         </div>
