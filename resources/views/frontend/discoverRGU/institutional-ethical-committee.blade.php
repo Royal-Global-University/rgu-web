@@ -24,155 +24,96 @@
         </style>
 
         <div class="section-f">
-            <div>
-
-                <style>
-                    /* Custom styles to match your theme */
-                    .bg-royal-blue {
-                        background-color: #27467A !important;
-                        color: white;
-                    }
-
-                    .bg-alice-blue {
-                        background-color: aliceblue !important;
-                    }
-
-                    .table-heading {
-                        font-size: 1.1rem;
-                        font-weight: bold;
-                        text-align: center;
-                        text-transform: uppercase;
-                        letter-spacing: 1px;
-                    }
-
-                    .data-row {
-                        text-align: left;
-                        padding: 12px 15px !important;
-                        vertical-align: middle;
-                    }
-
-                    .sl-no {
-                        font-weight: bold;
-                        color: #27467A;
-                        margin-right: 5px;
-                    }
-
-                    .meta-info {
-                        font-size: 0.85rem;
-                        color: #6c757d;
-                        display: block;
-                        margin-top: 4px;
-                    }
-                </style>
-
-                <div class="container-fluid">
-
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-lg-10">
-                            <div class="table-responsive shadow-sm rounded">
-                                <table class="table table-bordered mb-0 mobile-para1">
-
-                                    <thead>
-                                        <tr class="bg-royal-blue">
-                                            <th class="table-heading">Chairperson</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="bg-alice-blue">
-                                        <tr>
-                                            <td class="data-row">
-                                                <span class="sl-no">1.</span> <strong>Dr. Rathindra Bhuyan</strong> -
-                                                Professor & Advisor,
-                                                RSMAS, RSN, RSP, RAMCH
-                                                <span class="meta-info">Category: Prior experience of having served in an
-                                                    ethics committee
-                                                </span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-
-                                    <thead>
-                                        <tr class="bg-royal-blue">
-                                            <th class="table-heading">Member Secretary</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="bg-alice-blue">
-                                        <tr>
-                                            <td class="data-row">
-                                                <span class="sl-no">2.</span> <strong>(Name to be Notified)</strong>
-                                                <span class="meta-info">Institution: The Assam Royal Global University
-                                                </span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-
-                                    <thead>
-                                        <tr class="bg-royal-blue">
-                                            <th class="table-heading">Members</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="bg-alice-blue">
-                                        <tr>
-                                            <td class="data-row">
-                                                <span class="sl-no">3.</span> <strong>(Dr.) Abhijit Dutta</strong> - Prof.
-                                                Dean, RSMAS
-                                                <span class="meta-info">Category: Basic Medical Scientist </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="data-row">
-                                                <span class="sl-no">4.</span> <strong>Dr. Dharmeswar Barhoi</strong> -
-                                                Assistant Professor,
-                                                Dept. of Zoology
-                                                <span class="meta-info">Institution: The Assam Royal Global University
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="data-row">
-                                                <span class="sl-no">5.</span> <strong>Dr. Dinesh Goswami</strong> - CEO,
-                                                Guwahati Pain and
-                                                Palliative Care Society
-                                                <span class="meta-info">Category: Clinician/Medical Scientist (Outside
-                                                    Institution) </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="data-row">
-                                                <span class="sl-no">6.</span> <strong>Dr. Bhuban Chandra Baruah</strong> -
-                                                Dean, Royal School of
-                                                Law and Administration
-                                                <span class="meta-info">Category: Legal Expert </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="data-row">
-                                                <span class="sl-no">--</span> <strong>Mrs. Anurita Pathak Hazarika</strong>
-                                                - Executive
-                                                Director, North East Network, Guwahati
-                                                <span class="meta-info">Category: Social Scientist (External Organization)
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="data-row">
-                                                <span class="sl-no">7.</span> <strong>Prof. (Dr.) Nandana Dutta</strong> -
-                                                Dean of Academics,
-                                                The Assam Royal Global University
-                                                <span class="meta-info">Category: Lay Person/Community representative
-                                                </span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-
-                                </table>
-                            </div>
-
-
-                        </div>
-                    </div>
-
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-hover align-middle mobile-para1">
+                        <thead style="background-color: #24477f; color: #fff;">
+                            <tr>
+                                <th scope="col">SI. No</th>
+                                <th scope="col">Name & Designation</th>
+                                <th scope="col">Position in IEC</th>
+                                <th scope="col">Institution/ Organisation</th>
+                                <th scope="col">Category (as per ICMR Guidelines)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <strong>Dr. Rathindra Bhuyan</strong><br>
+                                    Professor & Advisor<br>
+                                    RSMAS, RSN, RSP, RAMCH
+                                </td>
+                                <td>Chairperson</td>
+                                <td>The Assam Royal Global University</td>
+                                <td>Prior experience of having served in an ethics committee</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <strong>Dr. Dharmeswar Barhoi</strong><br>
+                                    Assistant Professor, Dept. of Zoology, RSLSC
+                                </td>
+                                <td>Member secretary</td>
+                                <td>The Assam Royal Global University</td>
+                                <td>Member secretary</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    <strong>Prof. (Dr.) Abhijit Dutta</strong><br>
+                                    Dean, RSMAS
+                                </td>
+                                <td>Member</td>
+                                <td>The Assam Royal Global University</td>
+                                <td>Basic Medical Scientist</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    <strong>Dr. Amal Chandra Kataki</strong><br>
+                                    Former Director<br>
+                                    Dr B Borooah Cancer Institute Guwahati, Assam
+                                </td>
+                                <td>Member</td>
+                                <td>External Organisation</td>
+                                <td>Clinician/Medical Scientist (Outside Institution)</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>
+                                    <strong>Dr. Bhuban Chandra Baruah</strong><br>
+                                    Dean, RSLA
+                                </td>
+                                <td>Member</td>
+                                <td>The Assam Royal Global University</td>
+                                <td>Legal expert</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>
+                                    <strong>Mrs. Anurita Pathak Hazarika</strong><br>
+                                    Executive Director<br>
+                                    North East Network, Guwahati
+                                </td>
+                                <td>Member</td>
+                                <td>External Organization</td>
+                                <td>Social Scientist</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>
+                                    <strong>Ms. Amvalika Senapati</strong><br>
+                                    Deputy Director<br>
+                                    Advocacy Shishu Sarothi
+                                </td>
+                                <td>Member</td>
+                                <td>Shishu Sarothi, NGO, Guwahati</td>
+                                <td>Lay Person/Community representative</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-
             </div>
         </div>
 
