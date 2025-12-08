@@ -852,11 +852,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Trishna.jpeg"
+                                <img src="/mobile-assets/updated-faculty-img/nutrition/Trishna.jpeg"
                                     alt="Profile image of Tripti Das">
                             </div>
                             <h3 class="card-name">Dr. Trishna Mani Thakuria</h3>
                             <p class="card-designation">Assistant Professor and Assistant Director, Finishing School</p>
+                            <a href="/faculty-trishna-mani-thakuria" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -972,7 +973,7 @@
                             </div>
                             <h3 class="card-name">Dr. Bitopi Dutta</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-amlan-das-rshss" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-bitopi-dutta" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

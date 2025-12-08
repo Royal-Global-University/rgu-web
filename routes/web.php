@@ -4467,6 +4467,14 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 
 //RSHSS Facuilty Profile
 
+Route::get('/faculty-bitopi-dutta', function () {
+    return view('frontend/facultyprofile/rshss/bitopi-dutta');
+})->name('faculty-bitopi-dutta');
+
+Route::get('/faculty-trishna-mani-thakuria', function () {
+    return view('frontend/facultyprofile/rshss/trishna-mani');
+})->name('faculty-trishna-mani-thakuria');
+
 Route::get('/faculty-amit-kumar', function () {
     return view('frontend/facultyprofile/rshss/amit-kumar');
 })->name('faculty-amit-kumar');
