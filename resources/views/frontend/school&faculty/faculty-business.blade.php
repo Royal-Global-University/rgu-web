@@ -242,6 +242,30 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Kalyani-Gohain.jpeg"
+                                    alt="Profile image of Ms. Kalyani Gohain">
+                            </div>
+                            <h3 class="card-name">Dr. Kalyani Gohain</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-kalyani-gohain" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                                        <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Neha-Tiwari.png"
+                                    alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Dr. Neha Tiwari</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-neha-tiwari" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Nibir-Pratim-Choudhury.jpeg"
                                     alt="Profile image of Dr. Nibir Pratim Choudhury">
                             </div>
@@ -418,30 +442,6 @@
                             <h3 class="card-name">Mr. Srawan Kr. Goenka</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Kalyani-Gohain.jpeg"
-                                    alt="Profile image of Ms. Kalyani Gohain">
-                            </div>
-                            <h3 class="card-name">Ms. Kalyani Gohain</h3>
-                            <p class="card-designation">Teaching Assistant</p>
-                            <a href="https://www.rgu.ac/faculty-kalyani-gohain" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Neha-Tiwari.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Ms. Neha Tiwari</h3>
-                            <p class="card-designation">Teaching Assistant</p>
-                            <a href="https://www.rgu.ac/faculty-neha-tiwari" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

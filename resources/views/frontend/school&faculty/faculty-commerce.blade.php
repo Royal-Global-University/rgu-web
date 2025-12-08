@@ -10,7 +10,7 @@
         </div>
 
         <div class="website">
-@include('frontend/components/aheader')
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Commerce (RSC)</span></h2>
 
@@ -217,6 +217,30 @@
                             <h3 class="card-name">Dr. Darshana Bhagowati</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-darshana-bhagowati" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Kalyani-Gohain.jpeg"
+                                    alt="Profile image of Ms. Kalyani Gohain">
+                            </div>
+                            <h3 class="card-name">Dr. Kalyani Gohain</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-kalyani-gohain" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                     <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Neha-Tiwari.png"
+                                    alt="Profile image of Ms. Neha Tiwari">
+                            </div>
+                            <h3 class="card-name">Dr. Neha Tiwari</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-neha-tiwari" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -446,29 +470,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Kalyani-Gohain.jpeg"
-                                    alt="Profile image of Ms. Kalyani Gohain">
-                            </div>
-                            <h3 class="card-name">Ms. Kalyani Gohain</h3>
-                            <p class="card-designation">Teaching Assistant</p>
-                            <a href="https://www.rgu.ac/faculty-kalyani-gohain" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Neha-Tiwari.png"
-                                    alt="Profile image of Ms. Neha Tiwari">
-                            </div>
-                            <h3 class="card-name">Ms. Neha Tiwari</h3>
-                            <p class="card-designation">Teaching Assistant</p>
-                            <a href="https://www.rgu.ac/faculty-neha-tiwari" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">

@@ -671,7 +671,7 @@
 
                         <a target="_blank"
                             style="padding: 10px 15px; background-color: #FF9A1E; border-radius: 10px; color: #fff; font-weight: 800;"
-                            href="https://rgu.renocampus.com/events/event/bdcc6cc5-fb1b-436a-9f86-060c357dc20c">Register
+                            href="https://tinyurl.com/3ef8a2hj">Register
                             Now</a>
 
                     </div>

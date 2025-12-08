@@ -229,59 +229,10 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Reemina-Narzary-RSHM.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Ms. Reemina Narzary</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-reemina-narzary" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Syeda.jpeg"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Ms. Syeda Nabiha Yasmin</h3>
-                            <p class="card-designation">Visiting Faculty</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/jurin.jpeg"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Mr. Jurin Hazarika</h3>
-                            <p class="card-designation">Visiting Faculty</p>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Rajkumari.png.png"
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Ms. Rajkumari Surjabala Devi Das</h3>
-                            <p class="card-designation">Visiting Faculty</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Silpa.png"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Ms. Silpi Rani Baruah</h3>
                             <p class="card-designation">Visiting Faculty</p>
                         </div>
                     </div>
