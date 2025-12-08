@@ -1098,6 +1098,12 @@
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="mobile-assets/events/events/812.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="mobile-assets/events/events/3122.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="mobile-assets/events/events/8121.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                 </div>
                             </div>
 
