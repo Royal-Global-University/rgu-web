@@ -1,14 +1,31 @@
 @extends('frontend.master')
-@section('title', content: 'Transforming Northeast India from Biodiversity Hot Spot to Biomanufacturing Hot Spot: A BioE3 Perspective')
+@section('title', content: 'Transforming Northeast India from Biodiversity Hot Spot to Biomanufacturing Hot Spot: A
+    BioE3 Perspective')
 @section('content')
-        <div class="mobile">
+    <div class="mobile">
         @include('frontend/components/mobileheader')
         <div
-            style="background-image: url(mobile-assets/blog/microbio/cover-mob.png); background-size: cover; background-position: center; height: 35vh; display: flex; align-items: center; justify-content: center; text-align: center;">
+            style="background-image: url(mobile-assets/blog/microbio/cover-mob.png); background-size: cover; background-position: center; height: 35vh; display: flex; align-items: center; justify-content: center; text-align: center; padding-top: 120px">
             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;"
                 class="container">
 
             </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <img src="https://www.rgu.ac/mobile-assets/conference/bioe3/qr.png" alt="">
+
+            <p style="text-align: center; color: #24477f; font-weight: 800;">
+                <a href="mailto:someone@example.com?subject=Hello&body=Hi%20there!" class="email-link">
+                    biodiversity2biomanufacturing@gmail.com
+                </a>
+            </p>
+
+            <a target="_blank"
+                style="padding: 10px 15px; background-color: #FF9A1E; border-radius: 10px; color: #fff; font-weight: 800;"
+                href="https://tinyurl.com/3ef8a2hj">Register
+                Now</a>
+
         </div>
 
         <div class="container pt-5">
@@ -152,8 +169,7 @@
                             </table>
                         </div>
 
-                        <div class="para1 fw-bold text-success"
-                            style="margin-top:10px; font-size:16px; line-height:1.5;">
+                        <div class="para1 fw-bold text-success" style="margin-top:10px; font-size:16px; line-height:1.5;">
                             *Production of students’ ID card is mandatory for PhD scholars and students
                             NB: GST applicable as per norms
                         </div>
@@ -226,7 +242,8 @@
                             Kalita</li>
                         <li><strong>Abstract Book:</strong> Dr. Hirak Jyoti Hazarika, Dr. Niraj Singh, Dr. Chongtham
                             Sovachandra Singh</li>
-                        <li><strong>Technical sessions:</strong> Dr. Rupshikha Patowary, Dr. Manisha Choudhury, Dr. Sthiti Porna Dutta, Dr. Anushree Baruah, and Dr. Annu Kumari</li>
+                        <li><strong>Technical sessions:</strong> Dr. Rupshikha Patowary, Dr. Manisha Choudhury, Dr. Sthiti
+                            Porna Dutta, Dr. Anushree Baruah, and Dr. Annu Kumari</li>
                         <li><strong>Poster competition:</strong> Dr. Dipayan Das, Dr. Birson Ingti, and Dr. Anuj Kumar
                             Borah</li>
                     </ul>
@@ -782,8 +799,7 @@
                             </tr>
                         </table>
 
-                        <div class="para1 fw-bold text-success"
-                            style="margin-top:10px; font-size:16px; line-height:1.5;">
+                        <div class="para1 fw-bold text-success" style="margin-top:10px; font-size:16px; line-height:1.5;">
                             *Production of students’ ID card is mandatory for PhD scholars and students
                             NB: GST applicable as per norms
                         </div>
@@ -856,186 +872,193 @@
                             Kalita</li>
                         <li><strong>Abstract Book:</strong> Dr. Hirak Jyoti Hazarika, Dr. Niraj Singh, Dr. Chongtham
                             Sovachandra Singh</li>
-                        <li><strong>Technical sessions:</strong> Dr. Rupshikha Patowary, Dr. Manisha Choudhury, Dr. Sthiti Porna Dutta, Dr. Anushree Baruah, and Dr. Annu Kumari</li>
+                        <li><strong>Technical sessions:</strong> Dr. Rupshikha Patowary, Dr. Manisha Choudhury, Dr. Sthiti
+                            Porna Dutta, Dr. Anushree Baruah, and Dr. Annu Kumari</li>
                         <li><strong>Poster competition:</strong> Dr. Dipayan Das, Dr. Birson Ingti, and Dr. Anuj Kumar
                             Borah</li>
                     </ul>
 
-                        <div class="container">
+                    <div class="container">
 
-                            <h2 class="mobile-headd1 fw-bold kd-title-ani kd-split-text pt-4 pb-3" style="color: #27467A; font-weight: 900;">
-                                Speakers
-                            </h2>
+                        <h2 class="mobile-headd1 fw-bold kd-title-ani kd-split-text pt-4 pb-3"
+                            style="color: #27467A; font-weight: 900;">
+                            Speakers
+                        </h2>
 
-                            <style>
-                                /* Basic Page Styling */
-                                .section-f {
-                                    padding: 2rem 0;
-                                }
+                        <style>
+                            /* Basic Page Styling */
+                            .section-f {
+                                padding: 2rem 0;
+                            }
 
-                                /* Individual Card Styling */
-                                .card {
-                                    background-color: #ffffff;
-                                    border-radius: 5px;
-                                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-                                    padding: 0.7rem;
-                                    text-align: left;
-                                    border: none;
-                                    width: 100%;
-                                    height: 100%;
+                            /* Individual Card Styling */
+                            .card {
+                                background-color: #ffffff;
+                                border-radius: 5px;
+                                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                                padding: 0.7rem;
+                                text-align: left;
+                                border: none;
+                                width: 100%;
+                                height: 100%;
 
-                                    /* Flexbox for vertical alignment */
-                                    display: flex;
-                                    flex-direction: column;
+                                /* Flexbox for vertical alignment */
+                                display: flex;
+                                flex-direction: column;
 
-                                    transition: transform 0.3s ease, box-shadow 0.3s ease;
-                                }
+                                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                            }
 
-                                /* Hover effect for the card */
-                                .card:hover {
-                                    transform: translateY(-5px);
-                                    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-                                }
+                            /* Hover effect for the card */
+                            .card:hover {
+                                transform: translateY(-5px);
+                                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+                            }
 
-                                /* Image container */
-                                .card-image {
-                                    width: 100%;
-                                    padding-top: 100%;
-                                    position: relative;
-                                    border-radius: 5%;
-                                    overflow: hidden;
-                                    margin: 0 auto 1.0rem;
-                                    border: 2px solid #f0f2f5;
-                                }
+                            /* Image container */
+                            .card-image {
+                                width: 100%;
+                                padding-top: 100%;
+                                position: relative;
+                                border-radius: 5%;
+                                overflow: hidden;
+                                margin: 0 auto 1.0rem;
+                                border: 2px solid #f0f2f5;
+                            }
 
-                                .card-image img {
-                                    position: absolute;
-                                    top: 0;
-                                    left: 0;
-                                    width: 100%;
-                                    height: 100%;
-                                    object-fit: cover;
-                                }
+                            .card-image img {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
 
-                                /* Name/Heading Styling */
-                                .card-name {
-                                    margin: 0 0 0.5rem 0;
-                                    font-size: 1.5rem;
-                                    font-weight: 600;
-                                    color: #333;
-                                    line-height: 1.2;
-                                    color: #24477f;
-                                }
+                            /* Name/Heading Styling */
+                            .card-name {
+                                margin: 0 0 0.5rem 0;
+                                font-size: 1.5rem;
+                                font-weight: 600;
+                                color: #333;
+                                line-height: 1.2;
+                                color: #24477f;
+                            }
 
-                                /* Designation/Paragraph Styling */
-                                .card-designation {
-                                    margin: 0;
-                                    font-size: 1.2rem;
-                                    font-weight: 400;
-                                    color: #666;
-                                    line-height: 1.4;
-                                }
+                            /* Designation/Paragraph Styling */
+                            .card-designation {
+                                margin: 0;
+                                font-size: 1.2rem;
+                                font-weight: 400;
+                                color: #666;
+                                line-height: 1.4;
+                            }
 
-                                /* New Styling for the Profile Link */
-                                .profile-link {
-                                    margin-top: auto;
-                                    /* This is the magic property! */
-                                    padding-top: 0.5rem;
-                                    font-size: 1.1rem;
-                                    font-weight: 800;
-                                    text-decoration: none;
-                                    color: #FF9A1E;
-                                }
+                            /* New Styling for the Profile Link */
+                            .profile-link {
+                                margin-top: auto;
+                                /* This is the magic property! */
+                                padding-top: 0.5rem;
+                                font-size: 1.1rem;
+                                font-weight: 800;
+                                text-decoration: none;
+                                color: #FF9A1E;
+                            }
 
-                                .profile-link:hover {
-                                    text-decoration: underline;
-                                }
-                            </style>
+                            .profile-link:hover {
+                                text-decoration: underline;
+                            }
+                        </style>
 
-                            <!-- profiles  -->
-                            <div class="row justify-content-center">
+                        <!-- profiles  -->
+                        <div class="row justify-content-center">
 
-                                <div class="col-lg-3 col-md-6 mb-4">
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <img src="mobile-assets/blog/microbio/1.jpg" alt="Profile image">
-                                        </div>
-                                        <h3 class="card-name">Dr. Srinivas V Kaveri</h3>
-                                        <p class="card-designation">Director of Research at INSERM, Paris</p>
-
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/blog/microbio/1.jpg" alt="Profile image">
                                     </div>
+                                    <h3 class="card-name">Dr. Srinivas V Kaveri</h3>
+                                    <p class="card-designation">Director of Research at INSERM, Paris</p>
+
                                 </div>
-
-                                <div class="col-lg-3 col-md-6 mb-4">
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <img src="mobile-assets/blog/microbio/2.jpg" alt="Profile image">
-                                        </div>
-                                        <h3 class="card-name">Professor Gareth Jenkins</h3>
-                                        <p class="card-designation">Professor of Molecular Carcinogenesis, Institute of Life Science,
-                                            Swansea (UK)</p>
-
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 mb-4">
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <img src="mobile-assets/blog/microbio/3.jpg" alt="Profile image">
-                                        </div>
-                                        <h3 class="card-name">Dr. Shekhar Mande</h3>
-                                        <p class="card-designation">Distinguished Professor, Bioinformatics Center, SPPU Former Director
-                                            General, CSIR</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 mb-4">
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <img src="mobile-assets/blog/microbio/4.jpg" alt="Profile image">
-                                        </div>
-                                        <h3 class="card-name">Dr Sanjai K Dwivedi</h3>
-                                        <p class="card-designation">Scientist 'G' & Director, Directorate of Personnel (DoP) DRDO, New Delhi
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 mb-4">
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <img src="mobile-assets/updated-faculty-img/no-pic.png" alt="Profile image">
-                                        </div>
-                                        <h3 class="card-name">Dr. Pronobesh Chattopadhyay</h3>
-                                        <p class="card-designation">Scientist F, Defence Research Laboratory DRDO, Ministry of Defence, Tezpur
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 mb-4">
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <img src="mobile-assets/blog/microbio/5.png" alt="Profile image">
-                                        </div>
-                                        <h3 class="card-name">Prof. M. Prakash Hande</h3>
-                                        <p class="card-designation">National University of Singapore </p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 mb-4">
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <img src="mobile-assets/blog/microbio/6.jpg" alt="Profile image">
-                                        </div>
-                                        <h3 class="card-name">Prof. Tapas Kundu </h3>
-                                        <p class="card-designation">Professor, Jawaharlal Nehru Centre for Advanced Scientific Research,
-                                            Bangalore (Former Director, CSIR-CDRI, Lucknow) </p>
-                                    </div>
-                                </div>
-
                             </div>
-                            <!-- profiles  -->
+
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/blog/microbio/2.jpg" alt="Profile image">
+                                    </div>
+                                    <h3 class="card-name">Professor Gareth Jenkins</h3>
+                                    <p class="card-designation">Professor of Molecular Carcinogenesis, Institute of Life
+                                        Science,
+                                        Swansea (UK)</p>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/blog/microbio/3.jpg" alt="Profile image">
+                                    </div>
+                                    <h3 class="card-name">Dr. Shekhar Mande</h3>
+                                    <p class="card-designation">Distinguished Professor, Bioinformatics Center, SPPU Former
+                                        Director
+                                        General, CSIR</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/blog/microbio/4.jpg" alt="Profile image">
+                                    </div>
+                                    <h3 class="card-name">Dr Sanjai K Dwivedi</h3>
+                                    <p class="card-designation">Scientist 'G' & Director, Directorate of Personnel (DoP)
+                                        DRDO, New Delhi
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/updated-faculty-img/no-pic.png" alt="Profile image">
+                                    </div>
+                                    <h3 class="card-name">Dr. Pronobesh Chattopadhyay</h3>
+                                    <p class="card-designation">Scientist F, Defence Research Laboratory DRDO, Ministry of
+                                        Defence, Tezpur
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/blog/microbio/5.png" alt="Profile image">
+                                    </div>
+                                    <h3 class="card-name">Prof. M. Prakash Hande</h3>
+                                    <p class="card-designation">National University of Singapore </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/blog/microbio/6.jpg" alt="Profile image">
+                                    </div>
+                                    <h3 class="card-name">Prof. Tapas Kundu </h3>
+                                    <p class="card-designation">Professor, Jawaharlal Nehru Centre for Advanced Scientific
+                                        Research,
+                                        Bangalore (Former Director, CSIR-CDRI, Lucknow) </p>
+                                </div>
+                            </div>
 
                         </div>
+                        <!-- profiles  -->
+
+                    </div>
 
 
                     <h2 class="headd3 text-dark fw-bold mt-3">Programme Details</h2>
