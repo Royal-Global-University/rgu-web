@@ -1,5 +1,6 @@
 @extends('frontend.master')
-@section('title', content: 'Transforming Northeast India from Biodiversity Hot Spot to Biomanufacturing Hot Spot: A
+@section('title',
+    content: 'Transforming Northeast India from Biodiversity Hot Spot to Biomanufacturing Hot Spot: A
     BioE3 Perspective')
 @section('content')
     <div class="mobile">
@@ -690,6 +691,11 @@
                             href="https://tinyurl.com/3ef8a2hj">Register
                             Now</a>
 
+                    </div>
+                    <div class="mt-5 p-5 bg-primary rounded text-center">
+                        <h3 class="mb-3 text-light text-center">Sponsored by</h3>
+                        <hr class="text-white"/>
+                        <img src="mobile-assets/conference/bioe3/spon1.png"/>
                     </div>
                 </div>
             </div>
