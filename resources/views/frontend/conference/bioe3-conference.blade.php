@@ -692,9 +692,9 @@
                             Now</a>
 
                     </div>
-                    <div class="mt-5 p-5 bg-primary rounded text-center">
-                        <h3 class="mb-3 text-light text-center">Sponsored by</h3>
-                        <hr class="text-white"/>
+                    <div class="mt-5 p-5 bg-light rounded text-center">
+                        <h3 class="mb-3 text-dark text-center">Sponsored by</h3>
+                        <hr class="text-dark"/>
                         <img src="mobile-assets/conference/bioe3/spon1.png"/>
                     </div>
                 </div>
