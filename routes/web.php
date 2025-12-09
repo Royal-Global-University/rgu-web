@@ -286,6 +286,10 @@ Route::get('/institutional-ethical-committee', function () {
     return view('frontend/discoverRGU/institutional-ethical-committee');
 })->name('institutional-ethical-committee');
 
+Route::get('/nss-advisory-committee', function () {
+    return view('frontend/discoverRGU/nss-committee');
+})->name('nss-advisory-committee');
+
 //All Facilities
 
 Route::get('/facilities-foodcourt', function () {

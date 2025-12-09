@@ -95,6 +95,8 @@
                                                 href="{{ route('institutional-ethical-committee') }}">Institutional
                                                 Ethical
                                                 Committee</a></li>
+                                        <li><a class="dropdown-item text-dark para1"
+                                                href="{{ route('nss-advisory-committee') }}">NSS Advisory Committee</a></li>
                                     </ul>
                                 </li>
                                 <li><a class="dropdown-item text-dark para1" href="{{ route('anti-ragging') }}">Anti
