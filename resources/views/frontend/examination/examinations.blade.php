@@ -175,6 +175,13 @@
                     </div>
 
                     <div class="col-lg-4 pb-3">
+                        <a target="_blank" href="mobile-assets/pdf/result.pdf" class="button para1"
+                            style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                            Odd Sem Regular Result
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 pb-3">
                         <a href="examination-members" class="button para1"
                             style="text-decoration: none; background-color: #264273; color: white; border-radius: 5px; text-align: center; width: 300px; height: 50px; display: flex; align-items: center; justify-content: center; font-weight: bold;">
                             Office of the COE
@@ -201,7 +208,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-4">
+                    {{-- <div class="col-lg-4">
 
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle para1" type="button" id="dropdownMenuButton" data-toggle="dropdown"
@@ -221,8 +228,8 @@
                                         Course</button></a>
                             </div>
                             </div>
-                    </div>
-                    <div class="col-lg-4">
+                    </div> --}}
+                    {{-- <div class="col-lg-4">
 
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle para1" type="button" id="dropdownMenuButton"
@@ -239,7 +246,7 @@
                                                     Duplicate Grade Sheet <i style="color: #264273;" class="fa fa-download"></i></button></a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </section>
             </div>
