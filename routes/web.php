@@ -3033,6 +3033,12 @@ Route::get('/cisr', function () {
 })->name('cisr');
 
 //media-corner
+
+Route::get('/ehnf-2025-global-sustainability-leaders-corporates-and-youth-converge-at-royal-global-university', function () {
+    return view('frontend/media-corner/news78');
+})->name('ehnf-2025-global-sustainability-leaders-corporates-and-youth-converge-at-royal-global-university');
+
+
 Route::get('/national-conference-on-frontiers-in-modern-physics', function () {
     return view('frontend/media-corner/news77');
 })->name('national-conference-on-frontiers-in-modern-physics');

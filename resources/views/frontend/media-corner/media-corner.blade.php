@@ -46,6 +46,17 @@
                 @php
                     $newsItems = [
                         [
+                            'title' =>
+                                'EHNF 2025: Global sustainability leaders, corporates and youth converge at Royal Global University',
+                            'summary' => '',
+                            'date' => 'Guwahati, December 10, 2025:',
+                            'link' =>
+                                'ehnf-2025-global-sustainability-leaders-corporates-and-youth-converge-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/news76/3.jpeg',
+                            'content' =>
+                                'Diplomats, entrepreneurs, researchers, students, investors and policymakers from India and abroad gathered at The Assam Royal Global University (RGU) today for the opening of the 13th Eastern Himalayan Naturenomics™ Forum (EHNF) 2025, with a collective call to place the Eastern Himalaya at the centre...',
+                        ],
+                        [
                             'title' => 'National Conference on Frontiers in Modern Physics',
                             'summary' => '',
                             'date' => 'Guwahati, December 3, 2025:',
