@@ -4978,6 +4978,12 @@ Route::get('/faculty-mini-medhi', function () {
 
 
 //department media
+Route::get('/department-test', function () {
+    return view('frontend/school&faculty/department-test');
+})->name('department-test');
+
+
+
 Route::get('/department-mathematics-events', function () {
     return view('frontend/school&faculty/department-mathematics-events');
 })->name('department-mathematics-events');
