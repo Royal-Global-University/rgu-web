@@ -130,10 +130,10 @@
                                         Early bird:</th>
                                     <th
                                         style="border:1px solid #333; padding:12px; font-size:16px; background-color:#27467A; font-weight:bold;">
-                                        Till December 15<sup>th</sup> 2025</th>
+                                        Till 31<sup>st</sup> December 2025</th>
                                     <th
                                         style="border:1px solid #333; padding:12px; font-size:16px; background-color:#27467A; font-weight:bold;">
-                                        Late registration from<br>December 15<sup>th</sup> till 31<sup>st</sup> 2025
+                                        Late registration till 10<sup>th</sup> January 2026
                                     </th>
                                     <th
                                         style="border:1px solid #333; padding:12px; font-size:16px; background-color:#27467A; font-weight:bold;">
@@ -768,10 +768,10 @@
                                     Early bird:</th>
                                 <th
                                     style="border:1px solid #333; padding:12px; font-size:16px; background-color:#27467A; font-weight:bold;">
-                                    Till December 15<sup>th</sup> 2025</th>
+                                    Till 31<sup>st</sup> December 2025</th>
                                 <th
                                     style="border:1px solid #333; padding:12px; font-size:16px; background-color:#27467A; font-weight:bold;">
-                                    Late registration from<br>December 15<sup>th</sup> till 31<sup>st</sup> 2025</th>
+                                    Late registration till 10<sup>th</sup> January 2026</th>
                                 <th
                                     style="border:1px solid #333; padding:12px; font-size:16px; background-color:#27467A; font-weight:bold;">
                                     Spot Registration<br>(Only participation will be allowed)</th>
