@@ -634,7 +634,7 @@
 
                 <!-- Popup Image -->
                 <a>
-                    <img src="{{ asset('/mobile-assets/popup/phd.jpeg') }}"
+                    <img src="{{ asset('/mobile-assets/ads/phd.jpg') }}"
                         style="width: 700px; height: 550px; border-radius: 8px;" class="popup-image" alt="Popup Image">
                 </a>
             </div>
@@ -1232,7 +1232,9 @@
                                 </h2>
 
                                 <div id="slides" style="display: flex; transition: transform 0.7s ease;">
-                                    <img class="zoomable" src="/mobile-assets/events/phd27.jpeg"
+                                    <img class="zoomable" src="mobile-assets/events/events/812.jpeg"
+                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+                                    <img class="zoomable" src="mobile-assets/events/zubeen.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="mobile-assets/events/techer.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
@@ -1250,10 +1252,7 @@
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
                                     <img class="zoomable" src="https://media.rgu.ac/index/e04.jpeg"
                                         style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="mobile-assets/events/events/812.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
-                                    <img class="zoomable" src="mobile-assets/events/events/3122.jpeg"
-                                        style="width:400px; height: 530px; margin-right: 20px; border: 2px solid #e68900; border-radius: 10px;">
+
                                 </div>
                             </div>
 
@@ -1355,6 +1354,29 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="/mobile-assets/media-corner/news78/1.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    Prof. Mihir Kanti Chaudhuri Memorial Oration held at RGU</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">December 16,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/prof-mihir-kanti-chaudhuri-memorial-oration-held-at-rgu">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
@@ -1399,28 +1421,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="/mobile-assets/media-corner/news75/1d1.jpg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    Prof. Dhrubajyoti Borah Appointed Advisor to the Chancellor and
-                                                    Author-in-Residence at RGU</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">November 28,
-                                                    2025
-                                                </p>
-                                                <a
-                                                    href="/prof-dhrubajyoti-borah-appointed-advisor-to-the-chancellor-and-author-in-residence-at-rgu">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">
                                         <a href="media-corner"><button

@@ -3038,6 +3038,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/prof-mihir-kanti-chaudhuri-memorial-oration-held-at-rgu', function () {
+    return view('frontend/media-corner/news79');
+})->name('prof-mihir-kanti-chaudhuri-memorial-oration-held-at-rgu');
+
 Route::get('/ehnf-2025-global-sustainability-leaders-corporates-and-youth-converge-at-royal-global-university', function () {
     return view('frontend/media-corner/news78');
 })->name('ehnf-2025-global-sustainability-leaders-corporates-and-youth-converge-at-royal-global-university');

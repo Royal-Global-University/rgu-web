@@ -47,6 +47,17 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'Prof. Mihir Kanti Chaudhuri Memorial Oration held at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, December 16, 2025:',
+                            'link' =>
+                                'prof-mihir-kanti-chaudhuri-memorial-oration-held-at-rgu',
+                            'image' => '/mobile-assets/media-corner/news78/1.jpeg',
+                            'content' =>
+                                'The first Prof. Mihir Kanti Chaudhuri Memorial Oration was held at The Assam Royal Global University (RGU) today in remembrance of the eminent scientist and academician who guided RGU as its Chief Advisor and passed away on December 13, 2024.',
+                        ],
+                        [
+                            'title' =>
                                 'EHNF 2025: Global sustainability leaders, corporates and youth converge at Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, December 10, 2025:',
