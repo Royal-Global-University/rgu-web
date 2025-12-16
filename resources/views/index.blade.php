@@ -662,8 +662,7 @@
         <!-- floating button  -->
         <div>
             <div class="convocation-btn-wrapper">
-                <a href="/timetable-of-odd-sem-2025"
-                    class="convocation-btn">
+                <a href="/timetable-of-odd-sem-2025" class="convocation-btn">
                     <span class="convocation-btn-shine"></span>
                     Timetable of Odd Sem 2025 Examination
                 </a>
@@ -892,9 +891,158 @@
                 {{-- zubeen --}}
                 {{-- <img src="https://media.rgu.ac/zubeen/zubeen2.jpg" style="height: 85vh; width: 100%"/> --}}
 
-                <a href="/preface"><img src="https://media.rgu.ac/explore/web.png"
+                {{-- <a href="/preface"><img src="https://media.rgu.ac/explore/web.png"
                         alt="The Assam Royal Global University (RGU), widely regarded as the Best University in Assam, has established itself as a center of academic excellence and innovation. Since its inception in 2017, it has created opportunities for students through strong industry collaboration and modern pedagogy at the Best University in Guwahati.  Recognized as a leading University in Assam, RGU continuously nurtures a learning environment where innovation and entrepreneurship thrive. With its dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU empowers students with the resources, exposure, and skills needed for future success. As the Best University in Assam, it remains committed to developing industry-ready graduates who can excel in a dynamic global landscape.">
-                </a>
+                </a> --}}
+
+                <section>
+                    <style>
+                        .rgu-about-section {
+                            position: relative;
+                            /* Placeholder image: Replace this URL with your actual image containing the Buddha statue */
+                            background-image: url('/mobile-assets/preface-new/pre-web.jpeg');
+                            background-size: contain;
+                            background-position: top;
+                            background-repeat: no-repeat;
+                            /* padding: 5rem 0; */
+                            min-height: 80vh;
+                            /* Ensures it looks grand like the screenshot */
+                        }
+
+                        /* Overlay to ensure text readability if image is too bright,
+                       though the design relies on the black box */
+
+                        .rgu-about-container {
+                            position: relative;
+                            z-index: 2;
+                        }
+
+                        .rgu-about-heading {
+                            font-family: var(--font-app);
+                            /* Clean sans-serif look */
+                            font-weight: 800;
+                            font-size: 3.2rem;
+                            color: var(--secondary-color);
+                            line-height: 1.1;
+                            margin-bottom: 0.2rem;
+                        }
+
+                        .rgu-about-subheading {
+                            font-family: var(--font-app);
+                            font-weight: 600;
+                            font-size: 1.6rem;
+                            color: var(--primary-color);
+                            margin-bottom: 2rem;
+                        }
+
+                        .rgu-about-card {
+                            background-color: rgba(0, 0, 0, 0.727);
+                            /* Dark semi-transparent box */
+                            padding: 2.0rem;
+                            border-radius: 30px;
+                            /* Rounded corners like the image */
+                            color: #ffffff;
+                            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                            max-width: 800px;
+                            /* Limits width to keep it elegant */
+                        }
+
+                        .rgu-about-text {
+                            font-size: 1.1rem;
+                            line-height: 1.7;
+                            margin-bottom: 1.5rem;
+                            text-align: justify;
+                            font-weight: bold;
+                        }
+
+                        .rgu-read-more-link {
+                            color: var(--primary-color);
+                            font-weight: 700;
+                            text-decoration: none;
+                            font-size: 1.0rem;
+                            display: inline-flex;
+                            align-items: center;
+                            transition: 0.3s ease;
+                        }
+
+                        .rgu-read-more-link:hover {
+                            color: #fff;
+                            transform: translateX(5px);
+                            /* Subtle arrow movement */
+                        }
+
+                        /* --- MOBILE MEDIA QUERY --- */
+                        @media (max-width: 768px) {
+                            .rgu-about-section {
+                                /* --- 2. MOBILE IMAGE URL HERE --- */
+                                /* Replace this with your vertical/portrait image */
+                                background-image: url('/mobile-assets/preface-new/pre-mob.jpeg');
+                                padding: 2rem 0;
+                                background-position: center center;
+                                background-size: cover;
+                                min-height: auto;
+                            }
+
+                            .rgu-about-heading {
+                                font-size: 2.5rem;
+                            }
+
+                            .rgu-about-subheading {
+                                font-size: 1.5rem;
+                            }
+
+                            .rgu-about-card {
+                                padding: 0.8rem;
+                                background-color: rgba(0, 0, 0, 0.627);
+                                margin-top: 1rem;
+                            }
+
+                            .rgu-read-more-link {
+                                color: var(--primary-color);
+                                font-weight: 700;
+                                text-decoration: none;
+                                font-size: 0.8rem;
+                                display: inline-flex;
+                                align-items: center;
+                                transition: 0.3s ease;
+                            }
+
+
+                        }
+                    </style>
+
+                    <section class="rgu-about-section">
+                        <div class="container rgu-about-container">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-10">
+
+                                    <h1 class="rgu-about-heading pt-5" style="color: #13223b;">The RGU Advantage</h1>
+                                    <h1 class="rgu-about-subheading" style="color: #FF9A1E">The Best Private University in Guwahati</h1>
+
+                                    <div class="rgu-about-card">
+                                        <p class="rgu-about-text">
+                                            The Assam Royal Global University (RGU), widely regarded as the Best University
+                                            in Assam, has established itself as a center of academic excellence and
+                                            innovation. Since its inception in 2017, it has created opportunities for
+                                            students through strong industry collaboration and modern pedagogy at the Best
+                                            University in Guwahati. Recognized as a leading University in Assam, RGU
+                                            continuously nurtures a
+                                            learning environment where innovation and entrepreneurship thrive. With its
+                                            dedicated faculty, global partnerships, and cutting-edge infrastructure, RGU
+                                            empowers students with the resources, exposure, and skills needed for future
+                                            success. As the Best University in Assam, it remains committed to developing
+                                            industry-ready graduates who can excel in a dynamic global landscape.
+                                        </p>
+
+                                        <a href="/preface" class="rgu-read-more-link" style="color: #FF9A1E">Read More <i
+                                                class="fa-solid fa-arrow-right ms-2"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
 
 
                 <!-- Convocation-slider -->
@@ -1214,7 +1362,8 @@
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">EHNF 2025: Global sustainability leaders, corporates and youth converge at RGU</p>
+                                                    class="pt-2 m-0 fw-bold">EHNF 2025: Global sustainability leaders,
+                                                    corporates and youth converge at RGU</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">December 10,
                                                     2025
@@ -1235,7 +1384,8 @@
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">National Conference on Frontiers in Modern Physics
+                                                    class="pt-2 m-0 fw-bold">National Conference on Frontiers in Modern
+                                                    Physics
                                                 </p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">December 3,
@@ -1257,7 +1407,8 @@
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
                                                     class="pt-2 m-0 fw-bold">
-                                                    Prof. Dhrubajyoti Borah Appointed Advisor to the Chancellor and Author-in-Residence at RGU</p>
+                                                    Prof. Dhrubajyoti Borah Appointed Advisor to the Chancellor and
+                                                    Author-in-Residence at RGU</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">November 28,
                                                     2025
@@ -1614,8 +1765,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                    students</span> -->
+                                                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                students</span> -->
                                                                     </div>
 
                                                                     <div class="card-content">
@@ -1647,8 +1798,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                    students</span> -->
+                                                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                students</span> -->
 
                                                                     </div>
 
