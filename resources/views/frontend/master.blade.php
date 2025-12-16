@@ -1281,7 +1281,7 @@
                                             <div class="col-lg-3 pb-4">
                                                 <h5 class="m-0 p-0 fw-bold"
                                                     style="font-size: 24px; color: #FF9A1E !important;">
-                                                    Information About</h5>
+                                                    About The Best Private University</h5>
 
                                                 <a href="self-disclosure">
                                                     <p class="m-0 mt-4 text-white" style="font-size: 18px;">Public
@@ -1400,7 +1400,7 @@
                                                         Policy</p>
                                                 </a>
                                                 <a href="blog">
-                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">Our Blog
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">RGU News, Events, and Media Coverage
                                                     </p>
                                                 </a>
 

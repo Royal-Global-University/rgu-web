@@ -195,7 +195,8 @@
                     <li>Course Fee</li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="programs">
-                    <li>Eligibility and Selection Criteria</li>
+                    <li>RGU Admission Eligibility & Selection Criteria
+                    </li>
                 </a>
                 <a class="mobile-para1" style="color: #27467A;" href="{{ route('general-elective') }}">
                     <li>General Elective</li>
