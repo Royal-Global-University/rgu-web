@@ -2956,6 +2956,10 @@ Route::get('/lp', function () {
 
 //conference
 
+Route::get('/icssr-conference', function () {
+    return view('frontend/conference/icssr-conference');
+})->name('icssr-conference');
+
 Route::get('/ncmpac-2026', function () {
     return view('frontend/conference/frontiers');
 })->name('ncmpac-2026');
