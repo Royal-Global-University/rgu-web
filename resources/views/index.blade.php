@@ -901,11 +901,11 @@
                             position: relative;
                             /* Placeholder image: Replace this URL with your actual image containing the Buddha statue */
                             background-image: url('/mobile-assets/preface-new/pre-web.jpeg');
-                            background-size: contain;
+                            background-size: auto;
                             background-position: top;
                             background-repeat: no-repeat;
                             /* padding: 5rem 0; */
-                            min-height: 80vh;
+                            min-height: 90vh;
                             /* Ensures it looks grand like the screenshot */
                         }
 
@@ -1648,11 +1648,11 @@
                                             data-widget_type="go-s-heading.default">
                                             <div class="elementor-widget-container">
                                                 <div class="prthalign">
-                                                    <h1 style="font-weight: 700; color: #27467A;"
+                                                    <h2 style="font-weight: 700; color: #27467A;"
                                                         class="elementor-gt-heading kd-title-ani kd-split-text headd1">
                                                         Laboratories And <span
                                                             style="font-weight: 500; color: #EF991F;">Studios</span>
-                                                    </h1>
+                                                    </h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -2745,9 +2745,9 @@
                                 alt="">
                             RGU Testimonials
                         </h6>
-                        <h1 style="font-weight: 700;"
+                        <h2 style="font-weight: 700;"
                             class="elementor-gt-heading text-dark kd-title-ani kd-split-text headd1">
-                            They Speak About Us</h1>
+                            They Speak About Us</h2>
                     </div>
                 </div>
 
