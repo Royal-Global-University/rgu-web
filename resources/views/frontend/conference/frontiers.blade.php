@@ -187,10 +187,10 @@
                             <tr>
                                 <th rowspan="2" style="border: 1px solid #ffffff; padding: 8px;">Category</th>
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">On/Before
-                                    <i>20<sup>th</sup> December</i>
+                                    <i>30<sup>th</sup> December</i>
                                 </th>
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After
-                                    <i>20<sup>th</sup>
+                                    <i>30<sup>th</sup>
                                         December</i></th>
                             </tr>
                             <tr>
