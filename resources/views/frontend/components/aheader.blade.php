@@ -203,7 +203,7 @@
                                 style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">How
                                 to Apply?</a></li>
                         <li><a class="dropdown-item text-dark para1" href="programs"
-                                style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">RGU Admission Eligibility & Selection Criteria</a></li>
+                                style="font-size: 20px; font-weight: 500; padding: 6px 20px; transition: background 0.3s ease; line-height: 1.4;">RGU Admission <br/>Eligibility & Selection Criteria</a></li>
 
                         <li class="dropdown-submenu" style="position: relative;">
                             <a class="dropdown-item text-dark dropdown-toggle para1" href="#"
