@@ -585,18 +585,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mr-T-Abhisek.png"
-                                    alt="Profile image of T. Abhishek">
-                            </div>
-                            <h3 class="card-name">Mr. T. Abhishek</h3>
-                            <p class="card-title">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-Abhisek" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Rohit-Sarma.png"
                                     alt="Profile image ">
                             </div>

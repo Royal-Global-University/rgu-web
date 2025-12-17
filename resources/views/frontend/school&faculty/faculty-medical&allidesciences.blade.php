@@ -916,18 +916,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/1.png"
-                                    alt="Profile image of Ms. Priyanka Kumari">
-                            </div>
-                            <h3 class="card-name">Ms. Priyanka Kumari</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Vilhoubeinuo.jpeg"
                                     alt="Profile image of Ms. Vilhoubeinuo Veronica Khruomo">
                             </div>
