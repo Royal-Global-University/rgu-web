@@ -965,6 +965,18 @@
                         </div>
                     </div>
 
+                     <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pankaj-Jha-RSBSC.png"
+                                    alt="Profile image of Dr. Pankaj Jha">
+                            </div>
+                            <h3 class="card-name">Dr. Pankaj Jha</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
+
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
@@ -984,18 +996,6 @@
                                     alt="Profile image of Dr. Jon Jyoti Kalita">
                             </div>
                             <h3 class="card-name">Dr. Jon Jyoti Kalita</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pankaj-Jha-RSBSC.png"
-                                    alt="Profile image of Dr. Pankaj Jha">
-                            </div>
-                            <h3 class="card-name">Dr. Pankaj Jha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>

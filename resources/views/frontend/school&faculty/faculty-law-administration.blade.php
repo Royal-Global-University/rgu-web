@@ -135,7 +135,7 @@
                                 <img src="mobile-assets/updated-faculty-img/Bhavana.jpg" alt="Profile image">
                             </div>
                             <h3 class="card-name">Prof. Bhavana Sharma</h3>
-                            <p class="card-designation">Professor</p>
+                            <p class="card-designation">Professor & HoD</p>
                             <a href="faculty-bhavana-sharma" class="profile-link">View Profile</a>
                         </div>
                     </div>
