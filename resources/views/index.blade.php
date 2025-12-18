@@ -910,7 +910,7 @@
                         }
 
                         /* Overlay to ensure text readability if image is too bright,
-                       though the design relies on the black box */
+                           though the design relies on the black box */
 
                         .rgu-about-container {
                             position: relative;
@@ -1017,7 +1017,8 @@
                                 <div class="col-lg-8 col-md-10">
 
                                     <h1 class="rgu-about-heading pt-5" style="color: #13223b;">The RGU Advantage</h1>
-                                    <h1 class="rgu-about-subheading" style="color: #FF9A1E">The Best Private University in Guwahati</h1>
+                                    <h1 class="rgu-about-subheading" style="color: #FF9A1E">The Best Private University in
+                                        Guwahati</h1>
 
                                     <div class="rgu-about-card">
                                         <p class="rgu-about-text">
@@ -1358,6 +1359,29 @@
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="/mobile-assets/media-corner/news78/11.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    Life-Size Statue of Zubeen Garg Unveiled at Royal Global University
+                                                </p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">December 17,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/life-size-statue-of-zubeen-garg-unveiled-at-royal-global-university">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="/mobile-assets/media-corner/news78/1.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
@@ -1368,8 +1392,7 @@
                                                     style="font-size: 16px; color: black; line-height: 1.4;">December 16,
                                                     2025
                                                 </p>
-                                                <a
-                                                    href="/prof-mihir-kanti-chaudhuri-memorial-oration-held-at-rgu">
+                                                <a href="/prof-mihir-kanti-chaudhuri-memorial-oration-held-at-rgu">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
@@ -1399,27 +1422,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="/mobile-assets/rgu-blog/blog2.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">National Conference on Frontiers in Modern
-                                                    Physics
-                                                </p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">December 3,
-                                                    2025
-                                                </p>
-                                                <a href="/national-conference-on-frontiers-in-modern-physics">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
 
 
                                     </div>
@@ -1766,8 +1769,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                    students</span> -->
                                                                     </div>
 
                                                                     <div class="card-content">
@@ -1799,8 +1802,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                            <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                    students</span> -->
 
                                                                     </div>
 

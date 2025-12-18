@@ -3038,6 +3038,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/life-size-statue-of-zubeen-garg-unveiled-at-royal-global-university', function () {
+    return view('frontend/media-corner/news80');
+})->name('life-size-statue-of-zubeen-garg-unveiled-at-royal-global-university');
+
 Route::get('/prof-mihir-kanti-chaudhuri-memorial-oration-held-at-rgu', function () {
     return view('frontend/media-corner/news79');
 })->name('prof-mihir-kanti-chaudhuri-memorial-oration-held-at-rgu');

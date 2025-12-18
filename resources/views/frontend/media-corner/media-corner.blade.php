@@ -47,6 +47,17 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'Life-Size Statue of Zubeen Garg Unveiled at Royal Global University',
+                            'summary' => '',
+                            'date' => 'Guwahati, December 17, 2025:',
+                            'link' =>
+                                'life-size-statue-of-zubeen-garg-unveiled-at-royal-global-university',
+                            'image' => '/mobile-assets/media-corner/news78/11.jpeg',
+                            'content' =>
+                                'In a moving tribute to Assam’s beloved cultural icon Zubeen Garg, a life-size statue of the legendary musician has been unveiled today at the campus of The Assam Royal Global University (RGU).',
+                        ],
+                        [
+                            'title' =>
                                 'Prof. Mihir Kanti Chaudhuri Memorial Oration held at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, December 16, 2025:',
