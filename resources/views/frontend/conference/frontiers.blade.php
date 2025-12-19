@@ -6,11 +6,11 @@
         @include('frontend/components/mobileheader')
         <div style="padding-top: 90px"></div>
         <div
-            style="background-image: url(mobile-assets/blog/cosmology/banner-mob.png); background-size: cover; background-position: center; height: 35vh; display: flex; align-items: center; justify-content: center; text-align: center;">
+            style="background-image: url(mobile-assets/blog/cosmology/banner-mob1.png); background-size: cover; background-position: center; height: 35vh; display: flex; align-items: center; justify-content: center; text-align: center;">
         </div>
 
         <section
-            style="background-image: url(mobile-assets/blog/cosmology/banner-mob1.png); background-size: cover; background-position: center;">
+            style="background-image: url(mobile-assets/blog/cosmology/bg.svg); background-size: cover; background-position: center;">
 
             <div class="pt-4">
                 <div class="row">
@@ -843,11 +843,11 @@
         @include('frontend/components/aheader')
         <!--End Header-->
         <div
-            style="background-image: url(mobile-assets/blog/cosmology/banner.png); background-size: cover; background-position: center; height: 60vh; display: flex; align-items: center; justify-content: center; text-align: center;">
+            style="background-image: url(mobile-assets/blog/cosmology/banner1.png); background-size: cover; background-position: center; height: 60vh; display: flex; align-items: center; justify-content: center; text-align: center;">
         </div>
 
         <section
-            style="background-image: url(mobile-assets/blog/cosmology/banner1.png); background-size: cover; background-position: center;">
+            style="background-image: url(mobile-assets/blog/cosmology/bg.svg); background-size: cover; background-position: center;">
             <div class="pt-5">
                 <div class="row" style="display: flex; justify-content: center; align-items: center;">
 
