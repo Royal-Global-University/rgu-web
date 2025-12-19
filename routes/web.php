@@ -4489,6 +4489,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 
 //RSHSS Facuilty Profile
 
+Route::get('/faculty-baiarbha-massar', function () {
+    return view('frontend/facultyprofile/rshss/baiarbha-massar');
+})->name('faculty-baiarbha-massar');
+
 Route::get('/faculty-bitopi-dutta', function () {
     return view('frontend/facultyprofile/rshss/bitopi-dutta');
 })->name('faculty-bitopi-dutta');
