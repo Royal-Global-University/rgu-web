@@ -10,7 +10,7 @@
         </div>
 
         <section
-            style="background-image: url(mobile-assets/blog/cosmology/bg.svg); background-size: cover; background-position: center;">
+            style="background-image: url(mobile-assets/blog/cosmology/banner-mob1.png); background-size: cover; background-position: center;">
 
             <div class="pt-4">
                 <div class="row">
@@ -847,7 +847,7 @@
         </div>
 
         <section
-            style="background-image: url(mobile-assets/blog/cosmology/bg.svg); background-size: cover; background-position: center;">
+            style="background-image: url(mobile-assets/blog/cosmology/banner1.png); background-size: cover; background-position: center;">
             <div class="pt-5">
                 <div class="row" style="display: flex; justify-content: center; align-items: center;">
 
