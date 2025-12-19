@@ -455,7 +455,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/no-pic.png" alt="Profile image of">
+                                <img src="mobile-assets/updated-faculty-img/anjali2.jpg" alt="Profile image of">
                             </div>
                             <h3 class="card-name">Ms Anjali Kumar</h3>
                             <p class="card-designation">Assistant Professor</p>
