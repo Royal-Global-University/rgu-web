@@ -582,18 +582,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Dr-Deepanjali-Reang-RSHSS.png"
-                                    alt="Profile image of Dr. Deepanjali Reang">
-                            </div>
-                            <h3 class="card-name">Dr. Deepanjali Reang</h3>
-                            <p class="card-designation">Assistant Professor</p>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rshss/jugal.jpeg"
                                     alt="Profile image of Jugal Kr Bhattacharyya">
                             </div>

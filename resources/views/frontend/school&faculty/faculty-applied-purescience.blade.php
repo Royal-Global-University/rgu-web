@@ -449,18 +449,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rsaps/15.jpeg"
-                                    alt="Profile image of Prof. Rama Ranjan Bhattacharjee">
-                            </div>
-                            <h3 class="card-name">Prof. Rama Ranjan Bhattacharjee</h3>
-                            <p class="card-designation">Dean – Research and Development</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Pubalee-Sarmah-RSAPS.png"
                                     alt="Profile image of Dr. Pubalee Sarmah">
                             </div>
@@ -1277,18 +1265,6 @@
                             <h3 class="card-name">Dr. Parismita Phukan</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-dr-parismita-phukan" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Dr-Deepanjali-Reang-RSHSS.png"
-                                    alt="Profile image of Dr. Deepanjali Reang">
-                            </div>
-                            <h3 class="card-name">Dr. Deepanjali Reang</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
