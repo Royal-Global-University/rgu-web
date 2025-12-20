@@ -9,7 +9,7 @@
     <section class="mobile">
 
         <!-- Popup -->
-        <div id="popup-mob" class="popup-overlay">
+        {{-- <div id="popup-mob" class="popup-overlay">
             <a target="_blank" class="text-center"><img src="{{ asset('/mobile-assets/popup/phd.jpeg') }}"
                     style="width: 400px; height: 400px;" class="popup-image" alt="Popup Image"></a>
         </div>
@@ -24,7 +24,7 @@
                     }
                 });
             });
-        </script>
+        </script> --}}
 
         <!-- Floating WhatsApp Button -->
         <a href="https://wa.me/917099028518" class="whatsapp-float" target="_blank">
@@ -618,7 +618,7 @@
 
     <section class="website">
         <!-- Popup -->
-        <div id="popup-web" class="popup-overlay"
+        {{-- <div id="popup-web" class="popup-overlay"
             style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); display: flex; justify-content: center; align-items: center; z-index: 9999;">
 
             <div style="position: relative; display: inline-block;">
@@ -657,7 +657,7 @@
                     popup.style.display = 'none';
                 });
             });
-        </script>
+        </script> --}}
 
         <!-- floating button  -->
         <div>
