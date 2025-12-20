@@ -19,7 +19,7 @@
                         style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                         <a class="mobile-headd3"
                             style="padding: 6px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 15px;"
-                            target="_blank" href="mobile-assets/conference/Physics Brochure.pdf">Download Brochure</a>
+                            target="_blank" href="mobile-assets/conference/NCMPAC.pdf">Download Brochure</a>
                         <a class="mobile-para1 mt-2"
                             style="padding: 6px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 15px;"
                             href="https://forms.gle/kRiFNsfwQG7AGxGA9">Registration Link</a>
@@ -855,7 +855,7 @@
                     <div class="col-lg-6">
                         <a class="mobile-headd3"
                             style="padding: 10px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 25px;"
-                            target="_blank" href="mobile-assets/conference/Physics Brochure.pdf">Brochure</a>
+                            target="_blank" href="mobile-assets/conference/NCMPAC.pdf">Brochure</a>
                         <a class="mobile-headd3"
                             style="padding: 10px 30px; background-color: #24477f; border-radius: 10px; color: #fff; font-weight: 600; margin-right: 25px;"
                             target="_blank" href="https://forms.gle/kRiFNsfwQG7AGxGA9">Registration Link</a>
