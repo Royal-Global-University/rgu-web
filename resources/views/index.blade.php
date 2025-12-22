@@ -1087,7 +1087,7 @@
                 </div> --}}
 
                 <!-- Conferense CSS -->
-                {{-- <section>
+                <section>
 
                     <style>
                         .myImageSlider {
@@ -1138,30 +1138,30 @@
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide">
+                                    <a href="/icssr-conference">
+                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                            src="/mobile-assets/confrence/icssr.jpeg" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="/ncmpac-2026">
+                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                            src="/mobile-assets/TRY/sq-1.jpg" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="ICETIEDS–2026">
+                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                            src="/mobile-assets/confrence/ICETIEDS.jpeg" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide">
                                     <a href="bioe3-conference">
                                         <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                            src="demo-assets/big-events/1.png" alt="">
-                                    </a>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <a href="climate-change-and-livelihood-in-northeast-india">
-                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                            src="demo-assets/big-events/3.png" alt="">
-                                    </a>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <a href="synergy-for-energy-challenges-and-opportunities-in-north-east-india">
-                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                            src="demo-assets/big-events/4.png" alt="">
-                                    </a>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <a href="/mobile-assets/convo-slider/ICSSSM 2025_Brochure.pdf">
-                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
-                                            src="/mobile-assets/convo-slider/international-2.jpg" alt="">
+                                            src="/mobile-assets/TRY/sq-2.jpg" alt="">
                                     </a>
                                 </div>
 
@@ -1202,9 +1202,9 @@
                         });
                     </script>
 
-                </section> --}}
+                </section>
 
-                <section>
+                {{-- <section>
                     <div class="row p-3">
                         <div class="col-lg-4">
                             <a href="/icssr-conference"><img style="border: 1px solid black"
@@ -1220,7 +1220,7 @@
                         </div>
                     </div>
 
-                </section>
+                </section> --}}
 
                 <!--New Events-->
                 <div class="container" style="padding: 30px 0px;">
