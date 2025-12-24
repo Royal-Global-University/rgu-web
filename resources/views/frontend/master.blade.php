@@ -1275,6 +1275,12 @@
                                                     </p>
                                                 </a>
 
+                                                <a href="https://admissions.rgu.ac/">
+                                                    <p class="m-0 mt-4 text-white" style="font-size: 18px;">
+                                                        View Our Full Online Admission Process
+                                                    </p>
+                                                </a>
+
 
                                             </div>
 
