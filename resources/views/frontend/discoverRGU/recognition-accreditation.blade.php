@@ -255,7 +255,7 @@
                 <h2 class="headd2 fw-bold" style="color: #27467A;">LAW PROGRAMMES APPROVED BY BAR COUNCIL OF INDIA</h2>
                 <p class="para1 text-dark" style="text-align: justify;">
                     BA LL.B.(H)., BBA LL.B.(H) and LL.B.(H) programmes/courses are approved by Bar Council of India (BCI).
-                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/recognition-accreditation/BCI%202025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
+                <br><a target="_blank" style="color: #FF9A1E;" class="fw-bold" href="mobile-assets/pdf/BCI-202025-26.pdf"> <i class="fas fa-file-pdf"></i> Click Here to View Approval Letter</a></p>
             </div>
         </div>
 
