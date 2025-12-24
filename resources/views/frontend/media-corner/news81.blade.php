@@ -23,11 +23,11 @@
             <div class="container pt-5 pb-5 text-center"
                 style="display: flex; justify-content: center; align-items: center; gap:10px">
                 <div class="col-lg-6">
-                    <img class=" rounded" src="/mobile-assets/media-corner/news78/241.jpeg"
+                    <img class=" rounded" src="/mobile-assets/media-corner/news78/242.jpeg"
                         style=" border: 3px solid black; height: 420px;" alt="">
                 </div>
                 <div class="col-lg-6">
-                    <img class=" rounded" src="/mobile-assets/media-corner/news78/242.jpeg"
+                    <img class=" rounded" src="/mobile-assets/media-corner/news78/241.jpeg"
                         style=" border: 3px solid black; height: 420px;" alt="">
                 </div>
             </div>
