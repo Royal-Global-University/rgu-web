@@ -660,7 +660,7 @@
         </script> --}}
 
         <!-- floating button  -->
-        <div>
+        {{-- <div>
             <div class="convocation-btn-wrapper">
                 <a href="/timetable-of-odd-sem-2025" class="convocation-btn">
                     <span class="convocation-btn-shine"></span>
@@ -733,7 +733,7 @@
                     }
                 }
             </style>
-        </div>
+        </div> --}}
         <!-- floating button  -->
         <div id="page" class="site site_wrapper">
 
@@ -1043,6 +1043,10 @@
                             </div>
                         </div>
                     </section>
+                </section>
+
+                <section>
+                    <img src="/mobile-assets/ads/court.jpeg" style="height: 650px; width: 100%"/>
                 </section>
 
 
