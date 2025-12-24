@@ -3042,6 +3042,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/royal-global-university-to-host-aiu-ne-zone-inter-university-football-tournament-2025-26', function () {
+    return view('frontend/media-corner/news81');
+})->name('royal-global-university-to-host-aiu-ne-zone-inter-university-football-tournament-2025-26');
+
 Route::get('/life-size-statue-of-zubeen-garg-unveiled-at-royal-global-university', function () {
     return view('frontend/media-corner/news80');
 })->name('life-size-statue-of-zubeen-garg-unveiled-at-royal-global-university');

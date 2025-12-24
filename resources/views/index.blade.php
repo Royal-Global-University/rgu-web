@@ -1355,6 +1355,26 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="/mobile-assets/media-corner/news76/3.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">Royal Global University to host AIU NE Zone Inter-University Football Tournament 2025–26</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">December 23,
+                                                    2025
+                                                </p>
+                                                <a
+                                                    href="/royal-global-university-to-host-aiu-ne-zone-inter-university-football-tournament-2025-26">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
 
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
@@ -1399,29 +1419,6 @@
                                                 </a>
                                             </div>
                                         </div>
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="/mobile-assets/media-corner/news76/3.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">EHNF 2025: Global sustainability leaders,
-                                                    corporates and youth converge at RGU</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">December 10,
-                                                    2025
-                                                </p>
-                                                <a
-                                                    href="/ehnf-2025-global-sustainability-leaders-corporates-and-youth-converge-at-royal-global-university">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
 
 
 
