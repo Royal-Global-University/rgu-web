@@ -52,7 +52,7 @@
                             'date' => 'Guwahati, December 23, 2025:',
                             'link' =>
                                 'royal-global-university-to-host-aiu-ne-zone-inter-university-football-tournament-2025-26',
-                            'image' => '/mobile-assets/media-corner/news78/241.jpeg',
+                            'image' => '/mobile-assets/media-corner/news78/242.jpeg',
                             'content' =>
                                 'The Assam Royal Global University (RGU) is set to host the Northeast Zone Inter University Football (Men) Tournament 2025–2026 organised under the aegis of the Association of Indian Universities (AIU). The tournament will be held from January 5 to January 11, 2026, at the RGU campus.',
                         ],
