@@ -105,20 +105,6 @@
             <div class="container">
 
                 <!-- regular faculty  -->
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsp/Rao.png" alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Prof. (Dr.) Chennu Maruthi Malya Prasada Rao</h3>
-                            <p class="card-designation">Professor & Dean, Royal School of Pharmacy</p>
-                            <a href="https://www.rgu.ac/ch-m-m-prasad-rao" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                </div>
 
                 <div class="row justify-content-center">
 
@@ -209,17 +195,6 @@
                             <h3 class="card-name">Dr. Sudarshana Borah</h3>
                             <p class="card-designation">Associate Professor</p>
                             <a href="https://www.rgu.ac/faculty-sudarshana" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Tanniru.jpg"
-                                    alt="Profile image of">
-                            </div>
-                            <h3 class="card-name">Dr. Tanniru Rajeswari</h3>
-                            <p class="card-designation">Associate Professor</p>
                         </div>
                     </div>
 
