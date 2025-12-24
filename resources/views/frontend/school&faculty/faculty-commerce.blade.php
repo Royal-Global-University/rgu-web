@@ -529,7 +529,7 @@
                                     alt="Profile image of Ms. Banani D Hazarika">
                             </div>
                             <h3 class="card-name">Ms. Banani D Hazarika</h3>
-                            <p class="card-designation">Assistant Professor and Assistant Dean, Student Affairs</p>
+                            <p class="card-designation">Assistant Professor and Associate Dean, Student Affairs</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
