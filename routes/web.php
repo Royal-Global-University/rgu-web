@@ -121,6 +121,10 @@ Route::get('/advisory-leadership', function () {
     return view('frontend/discoverRGU/advisory-leadership');
 })->name('advisory-leadership');
 
+Route::get('/advisory-prof-dr-dhruba-jyoti-borah', function () {
+    return view('frontend/discoverRGU/dhruba-jyoti-borah');
+})->name('advisory-prof-dr-dhruba-jyoti-borah');
+
 Route::get('/advisor-prof-prabuddha-ganguli', function () {
     return view('frontend/discoverRGU/advisory-prof-prabuddha-ganguli');
 })->name('advisory-prof-prabuddha-ganguli');
@@ -4496,6 +4500,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 })->name('faculty-sumanta-dutta-chowdhury');
 
 //RSHSS Facuilty Profile
+
+Route::get('/faculty-debangana-baruah', function () {
+    return view('frontend/facultyprofile/rshss/debangana-baruah');
+})->name('faculty-debangana-baruah');
 
 Route::get('/faculty-baiarbha-massar', function () {
     return view('frontend/facultyprofile/rshss/baiarbha-massar');

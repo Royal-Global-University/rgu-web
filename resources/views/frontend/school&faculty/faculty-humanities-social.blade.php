@@ -982,7 +982,7 @@
                             </div>
                             <h3 class="card-name">Dr. Debangana Baruah</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="/faculty-bitopi-dutta" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-debangana-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
