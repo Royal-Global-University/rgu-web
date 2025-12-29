@@ -1436,6 +1436,10 @@ Route::get('/programs-MA-Clinical-Psychology', function () {
     return view('frontend/programmes/programs-MA-Clinical-Psychology');
 })->name('programs-MA-Clinical-Psychology');
 
+Route::get('/programs-BSc-clinical-psychology-(Hons)', function () {
+    return view('frontend/programmes/programs-BSc-clinical-psychology-(Hons)');
+})->name('programs-BSc-clinical-psychology-(Hons)');
+
 Route::get('/programs-MA-Economics', function () {
     return view('frontend/programmes/programs-MA-Economics');
 })->name('programs-MA-Economics');
