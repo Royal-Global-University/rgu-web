@@ -715,18 +715,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsmas/Susmitasinha.jpeg"
-                                    alt="Profile image of Sushmita Sinha">
-                            </div>
-                            <h3 class="card-name">Ms. Susmita Sinha</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Dr-Rohit-Sarma.png"
                                     alt="Profile image of Rohit Sarma">
                             </div>
@@ -835,18 +823,6 @@
                             <h3 class="card-name">Ms. Farnaz Ahmed</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-farnaz-ahmed" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Susmita.jpeg"
-                                    alt="Profile image of Ms. Susmita Sinha">
-                            </div>
-                            <h3 class="card-name">Ms. Susmita Sinha</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
 
@@ -1129,18 +1105,6 @@
                                     alt="Profile image of Ms. Smita Das">
                             </div>
                             <h3 class="card-name">Ms. Zomuanpuii</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Susmita.jpeg"
-                                    alt="Profile image of Ms. Susmita Sinha">
-                            </div>
-                            <h3 class="card-name">Ms. Susmita Sinha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
