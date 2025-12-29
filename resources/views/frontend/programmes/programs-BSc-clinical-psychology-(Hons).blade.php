@@ -13,7 +13,7 @@
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Royal School of Architecture (RSA)
+                Royal School of Behavioral & Allied Sciences (RSBAS)
             </p>
 
         </div>
@@ -29,7 +29,7 @@
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Royal School of Architecture (RSA)
+                Royal School of Behavioral & Allied Sciences (RSBAS)
             </p>
 
         </div>

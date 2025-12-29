@@ -4729,7 +4729,7 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            <td><a href="{{route('programs-MA-Psychology')}}"><button type="button"
+                                            <td><a href="{{route('programs-MA-Clinical-Psychology')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>

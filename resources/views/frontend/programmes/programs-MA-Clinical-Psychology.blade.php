@@ -8,7 +8,7 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
       <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900; padding-top: 120px; position: relative;">
-        M.Phil./M.A. Clinical Psychology
+        M.A. Clinical Psychology
       </h2>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -16,7 +16,7 @@
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Royal School of Architecture (RSA)
+        Royal School of Behavioral & Allied Sciences (RSBAS)
       </p>
 
     </div>
@@ -24,7 +24,7 @@
     <div class="website">
         @include('frontend/components/aheader')
       <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-        M.Phil./M.A. Clinical Psychology
+        M.A. Clinical Psychology
       </h2>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -32,7 +32,7 @@
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Royal School of Architecture (RSA)
+        Royal School of Behavioral & Allied Sciences (RSBAS)
       </p>
 
     </div>
