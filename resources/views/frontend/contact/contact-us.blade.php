@@ -226,24 +226,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Pasighat Card -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title mobile-para1 fw-bold">PASIGHAT</h5>
-                                <p class="card-text mobile-para1 text-dark">
-                                    Daring Complex, GTC, Pasighat, Dist. East Siang, Pin-791102
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:7099020901" class="text-decoration-none text-dark mobile-para1">
-                                    <i class="fa fa-phone me-2"></i>7099020901
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="row g-4 mt-2">
@@ -668,24 +650,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Pasighat Card -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">PASIGHAT</h5>
-                                <p class="card-text para1 text-dark">
-                                    Daring Complex, GTC, Pasighat, Dist. East Siang, Pin-791102
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:7099020901" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>7099020901
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="row g-4 mt-2">
@@ -722,25 +686,6 @@
                                 <hr>
                                 <a href="tel:6913002967" class="text-decoration-none text-dark para1">
                                     <i class="fa fa-phone me-2"></i>6913002967
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Sivasagar Card -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 220px;">
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="color: #27467A;" class="card-title para1 fw-bold">SIVASAGAR</h5>
-                                <p class="card-text para1 text-dark">
-                                    1st Floor, Elite Complex, Opp. Lachit Park, H.C.B. Road, Ward No. 8, P.O. & P.S. -
-                                    Sivasagar - 785640
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-0">
-                                <hr>
-                                <a href="tel:7099020909" class="text-decoration-none text-dark para1">
-                                    <i class="fa fa-phone me-2"></i>7099020909
                                 </a>
                             </div>
                         </div>

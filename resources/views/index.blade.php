@@ -1046,7 +1046,7 @@
                 </section>
 
                 <section>
-                    <img src="/mobile-assets/ads/court.jpeg" style="height: 650px; width: 100%"/>
+                    <img src="mobile-assets/events/ads/ads-2.png" style="height: 650px; width: 100%"/>
                 </section>
 
 
@@ -1057,22 +1057,13 @@
                     <div class="carousel-inner full-screen-carousel">
 
                         <div class="carousel-item active">
-                            <img src="/mobile-assets/convo-slider/1st-convo.jpg" class="d-block w-100"
+                            <img src="mobile-assets/events/ads/ads-1.png" class="d-block w-100"
                                 alt="Slide 1 Image">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="mobile-assets/convo-slider/honoris-causa-1.jpg" class="d-block w-100"
+                            <img src="mobile-assets/events/ads/ads-2.png" class="d-block w-100"
                                 alt="Slide 1 Image">
-                        </div>
-
-                        <div class="carousel-item">
-                            <img src="mobile-assets/convo-slider/convo.gif" class="d-block w-100" alt="Slide 2 Image">
-                        </div>
-
-                        <div class="carousel-item">
-                            <img src="/mobile-assets/convo-slider/convo-jubin.jpg" class="d-block w-100"
-                                alt="Slide 2 Image">
                         </div>
 
                     </div>
