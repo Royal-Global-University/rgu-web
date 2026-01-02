@@ -887,7 +887,7 @@
                                                 <div class="border p-2 rounded flex-grow-1 course-card-custom">
                                                     <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Fashion Design
                                                         (FD)</p>
-                                                    <p class="text-center text-white para1">4 Years</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -898,7 +898,7 @@
                                                 <div class="border p-2 rounded flex-grow-1 course-card-custom">
                                                     <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Communication
                                                         Design (CD)</p>
-                                                    <p class="text-center text-white para1">4 Years</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -909,7 +909,7 @@
                                                 <div class="border p-2 rounded flex-grow-1 course-card-custom">
                                                     <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Graphic Design
                                                         (GD)</p>
-                                                    <p class="text-center text-white para1">4 Years</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -920,7 +920,7 @@
                                                 <div class="border p-2 rounded flex-grow-1 course-card-custom">
                                                     <p class="m-0 p-0 text-white fw-bold para1">M.Des. - Product Design
                                                         (PD)</p>
-                                                    <p class="text-center text-white para1">4 Years</p>
+                                                    <p class="text-center text-white para1">2 Years</p>
                                                 </div>
                                             </a>
                                         </div>

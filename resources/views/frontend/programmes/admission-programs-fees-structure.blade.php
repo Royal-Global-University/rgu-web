@@ -1308,7 +1308,7 @@
                                                         (FD)</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
-                                                            style="font-size: 16px;"> Duration: 4
+                                                            style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
@@ -1328,7 +1328,7 @@
                                                         Design (CD)</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
-                                                            style="font-size: 16px;"> Duration: 4
+                                                            style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
@@ -1348,7 +1348,7 @@
                                                         (GD)</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
-                                                            style="font-size: 16px;"> Duration: 4
+                                                            style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
@@ -1368,7 +1368,7 @@
                                                         (PD)</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
-                                                            style="font-size: 16px;"> Duration: 4
+                                                            style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
@@ -5491,15 +5491,15 @@
                                                         Design (FD)</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
-                                                            style="font-size: 16px;"> Duration: 4
+                                                            style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programs-Bachelor-of-Design-Product-Design')}}"><button
+                                            <td><a href="{{route('program-m-des-fashion-design')}}"><button
                                                         type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
 
@@ -5511,7 +5511,7 @@
                                                         Communication Design (CD)</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
-                                                            style="font-size: 16px;"> Duration: 4
+                                                            style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
@@ -5531,7 +5531,7 @@
                                                         (GD)</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
-                                                            style="font-size: 16px;"> Duration: 4
+                                                            style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>
@@ -5551,7 +5551,7 @@
                                                         (PD)</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
-                                                            style="font-size: 16px;"> Duration: 4
+                                                            style="font-size: 16px;"> Duration: 2
                                                             years | Admission Fee: 60000.00</span></a>
                                                 </p>
                                             </td>

@@ -68,7 +68,7 @@
             <!-- floating button  -->
             <!-- till about dept  -->
             <section style="padding-top: 130px; position: relative;">
-                <img src="mobile-assets/department-all/rsd/fashion-design/mob-top.png" alt="">
+                <img src="mobile-assets/department-all/rsft/new/fashion-design-mob.png" alt="">
             </section>
             <!-- till about dept  -->
 
@@ -819,7 +819,7 @@
                 <section id="about">
                     <section style="background-color: #FFF8F0;">
 
-                        <img src="mobile-assets/department-all/rsd/fashion-design/web-top.png" alt="">
+                        <img src="mobile-assets/department-all/rsft/new/fashion-design-website.png" alt="">
 
                     </section>
                 </section>

@@ -890,6 +890,10 @@ Route::get('/doctoral-zoology', function () {
 //End phd
 
 //International
+Route::get('/international-admission-guidelines', function () {
+    return view('frontend/international/international-admission-guidelines');
+})->name('international-admission-guidelines');
+
 Route::get('/fee-structure-international', function () {
     return view('frontend/international/fee-structure-international');
 })->name('fee-structure-international');
@@ -1041,6 +1045,10 @@ Route::get('/programs-bcom', function () {
 Route::get('/programs-bcom-morning-shift', function () {
     return view('frontend/programmes/programs-bcom-morning-shift');
 })->name('programs-bcom-morning-shift');
+
+Route::get('/program-m-des-fashion-design', function () {
+    return view('frontend/programmes/program-m-des-fashion-design');
+})->name('program-m-des-fashion-design');
 
 Route::get('/programs-b-des-fd-fashion-design', function () {
     return view('frontend/programmes/programs-b-des-fd-fashion-design');
