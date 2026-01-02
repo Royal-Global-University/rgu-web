@@ -2,7 +2,7 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <img style="padding-top: 90px; position: relative;" src="mobile-assets/advisory/p-mob.png"/>
+        <img style="padding-top: 90px; position: relative; width: 100%;" src="mobile-assets/advisory/p-mob.png"/>
     </div>
 
     <div class="website">
