@@ -910,7 +910,7 @@
                         }
 
                         /* Overlay to ensure text readability if image is too bright,
-                           though the design relies on the black box */
+                               though the design relies on the black box */
 
                         .rgu-about-container {
                             position: relative;
@@ -1046,7 +1046,75 @@
                 </section>
 
                 <section>
-                    <img src="mobile-assets/events/ads/ads-2.png" style="height: 680px; width: 100%"/>
+                    <div class="gg1920-carousel-container">
+                        <div class="gg1920-carousel-track" id="gg1920CarouselTrack">
+                            <div class="gg1920-carousel-slide">
+                                <img src="mobile-assets/ads/1.png" alt="Slide 1">
+                            </div>
+                            <div class="gg1920-carousel-slide">
+                                <img src="mobile-assets/ads/2.png" alt="Slide 2">
+                            </div>
+
+                        </div>
+                    </div>
+                    <style>
+                        /* ===== UNIQUE CAROUSEL STYLES ===== */
+                        .gg1920-carousel-container {
+                            width: 100%;
+                            position: relative;
+                            overflow: hidden;
+
+                            /* Maintain 1920x700 aspect ratio */
+                            aspect-ratio: 1920 / 950;
+                            background: #000;
+                        }
+
+                        .gg1920-carousel-track {
+                            display: flex;
+                            height: 100%;
+                            width: 100%;
+                            transition: transform 0.8s ease-in-out;
+                        }
+
+                        .gg1920-carousel-slide {
+                            min-width: 100%;
+                            height: 100%;
+                        }
+
+                        .gg1920-carousel-slide img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            display: block;
+                        }
+
+                        body {
+                            margin: 0;
+                        }
+
+                        /* Optional: better mobile height handling */
+                        @media (max-width: 768px) {
+                            .gg1920-carousel-container {
+                                aspect-ratio: 16 / 6;
+                            }
+                        }
+                    </style>
+                    <script>
+                        (function() {
+                            const gg1920Track = document.getElementById("gg1920CarouselTrack");
+                            const gg1920Slides = gg1920Track.children;
+                            const gg1920Total = gg1920Slides.length;
+                            let gg1920Index = 0;
+
+                            function gg1920AutoSlide() {
+                                gg1920Index = (gg1920Index + 1) % gg1920Total;
+                                gg1920Track.style.transform = `translateX(-${gg1920Index * 100}%)`;
+                            }
+
+                            // Auto slide every 2 seconds
+                            setInterval(gg1920AutoSlide, 3000);
+                        })();
+                    </script>
                 </section>
 
 
@@ -1110,6 +1178,7 @@
                         .myImageSlider .swiper-button-prev::after {
                             font-size: 16px;
                         }
+
                         .myImageSlider .swiper-button-prev {
                             left: 50%;
                             transform: translateX(calc(-100% - 10px));
@@ -1355,7 +1424,8 @@
                                             </div>
                                             <div class="col-lg-7">
                                                 <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">Royal Global University to host AIU NE Zone Inter-University Football Tournament 2025–26</p>
+                                                    class="pt-2 m-0 fw-bold">Royal Global University to host AIU NE Zone
+                                                    Inter-University Football Tournament 2025–26</p>
                                                 <p class="pt-1 p-0 m-0"
                                                     style="font-size: 16px; color: black; line-height: 1.4;">December 23,
                                                     2025
@@ -1759,8 +1829,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                    students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                        students</span> -->
                                                                     </div>
 
                                                                     <div class="card-content">
@@ -1792,8 +1862,8 @@
 
                                                                         <!-- <span class="item-duration kd-heading-1">1h 33m</span>
 
-                                                                                                                                                                                                                                                                                                                                                                <span class="item-student kd-heading-1">34,000
-                                                                                                                                                                                                                                                                                                                                                                    students</span> -->
+                                                                                                                                                                                                                                                                                                                                                                    <span class="item-student kd-heading-1">34,000
+                                                                                                                                                                                                                                                                                                                                                                        students</span> -->
 
                                                                     </div>
 
