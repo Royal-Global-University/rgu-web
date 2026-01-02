@@ -1051,14 +1051,24 @@
                             <div class="col-lg-3 col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-image">
-                                        <img src="mobile-assets/blog/microbio/6.jpg" alt="Profile image">
+                                        <img src="mobile-assets/conference/bioe3/Deepa.jpeg" alt="Profile image">
                                     </div>
-                                    <h3 class="card-name">Prof. Tapas Kundu </h3>
-                                    <p class="card-designation">Professor, Jawaharlal Nehru Centre for Advanced Scientific
-                                        Research,
-                                        Bangalore (Former Director, CSIR-CDRI, Lucknow) </p>
+                                    <h3 class="card-name">Prof. Deepa H Dwivedi</h3>
+                                    <p class="card-designation">Dean, Department of Horticultur,</p>
+                                    <p class="card-designation">Babasahib Bhimrao Ambedkar University, Lucknow, UP, India</p>
                                 </div>
                             </div>
+
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/conference/bioe3/Narayanan.jpeg" alt="Profile image">
+                                    </div>
+                                    <h3 class="card-name">Dr. K. K. Narayanan</h3>
+                                    <p class="card-designation">Managing Director, Metahelix Life Sciences (a Tata enterprise)</p>
+                                </div>
+                            </div>
+
 
                         </div>
                         <!-- profiles  -->
@@ -1279,13 +1289,6 @@
                                 <td colspan="3"
                                     style="border: 1px solid #333; padding: 12px; font-size: 16px; background-color: #27467A; font-weight: bold; color: white; text-align: center;">
                                     Technical session-IV (Biotechnology in Entrepreneurship and Circular Economy)</td>
-                            </tr>
-                            <tr>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">12:30-01:10 PM</td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Plenary lecture-IV
-                                </td>
-                                <td style="border: 1px solid #333; text-align: left; padding: 8px;">Prof. Tapas Kundu
-                                    (JNCASR, Bangalore)</td>
                             </tr>
                             <tr>
                                 <td style="border: 1px solid #333; text-align: left; padding: 8px;">01:10-01:45 PM</td>
