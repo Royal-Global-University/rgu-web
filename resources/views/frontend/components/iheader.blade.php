@@ -410,6 +410,11 @@
                         <li><a class="dropdown-item text-dark para1" href="{{ route('international-faq') }}"
                                 style="font-size: 20px; font-weight: 500; padding: 6px 20px;">International FAQs</a>
                         </li>
+                        <li><a class="dropdown-item text-dark para1"
+                                href="international-admission-guidelines"
+                                style="font-size: 20px; font-weight: 500; padding: 6px 20px;">International Admission<br>
+                                Guidelines</a>
+                        </li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('frro-process') }}"
                                 style="font-size: 20px; font-weight: 500; padding: 6px 20px;">FRRO Process</a></li>
                         <li><a class="dropdown-item text-dark para1"
