@@ -128,11 +128,23 @@
                             <div class="card-image">
                                 <img src="https://media.rgu.ac/advisor-leadership/Prasanta.jpeg" alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Mr. Prasant Jyoti Baruah</h3>
+                            <h3 class="card-name">Dr. Prasant Jyoti Baruah</h3>
                             <p class="card-designation">Distinguished Professor</p>
                             <a href="https://www.rgu.ac/advisor-prasanta-jyoti-baruah" class="profile-link">View Profile</a>
                         </div>
                     </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Dileep.jpeg" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Mr. Dileep Chandan Sarma</h3>
+                            <p class="card-designation">Professor</p>
+                            {{-- <a href="https://www.rgu.ac/advisor-prasanta-jyoti-baruah" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">

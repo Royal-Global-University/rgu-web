@@ -173,6 +173,17 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Dileep.jpeg" alt="Profile image ">
+                            </div>
+                            <h3 class="card-name">Mr. Dileep Chandan Sarma</h3>
+                            <p class="card-designation">Professor</p>
+                            {{-- <a href="https://www.rgu.ac/advisor-prasanta-jyoti-baruah" class="profile-link">View Profile</a> --}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Bornali-Bhuyan-RSL.png"
                                     alt="Profile image">
                             </div>
@@ -328,8 +339,7 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/mobile-assets/updated-faculty-img/Radhika.jpeg"
-                                    alt="Profile image ">
+                                <img src="/mobile-assets/updated-faculty-img/Radhika.jpeg" alt="Profile image ">
                             </div>
                             <h3 class="card-name">Dr. Radhika Sharma</h3>
                             <p class="card-designation">Assistant Professor</p>
