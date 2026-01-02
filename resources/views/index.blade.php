@@ -1046,7 +1046,7 @@
                 </section>
 
                 <section>
-                    <img src="mobile-assets/events/ads/ads-2.png" style="height: 650px; width: 100%"/>
+                    <img src="mobile-assets/events/ads/ads-2.png" style="height: 680px; width: 100%"/>
                 </section>
 
 

@@ -187,11 +187,11 @@
                             <tr>
                                 <th rowspan="2" style="border: 1px solid #ffffff; padding: 8px;">Category</th>
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">On/Before
-                                    <i>30<sup>th</sup> December</i>
+                                    <i>5<sup>th</sup> January</i>
                                 </th>
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After
-                                    <i>30<sup>th</sup>
-                                        December</i></th>
+                                    <i>5<sup>th</sup>
+                                        January</i></th>
                             </tr>
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 8px;">Indian</th>
@@ -1022,11 +1022,11 @@
                             <tr>
                                 <th rowspan="2" style="border: 1px solid #ffffff; padding: 8px;">Category</th>
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">On/Before
-                                    <i>30<sup>th</sup> December</i>
+                                    <i>5<sup>th</sup> January</i>
                                 </th>
                                 <th colspan="2" style="border: 1px solid #ffffff; padding: 8px;">After
-                                    <i>30<sup>th</sup>
-                                        December</i></th>
+                                    <i>5<sup>th</sup>
+                                        January</i></th>
                             </tr>
                             <tr>
                                 <th style="border: 1px solid #ffffff; padding: 8px;">Indian</th>
