@@ -1778,84 +1778,90 @@
                             </tr>
                             <tr>
                                 <td>4.</td>
+                                <td>Dr. Sriparna Bhuyan Baruah</td>
+                                <td>Admin</td>
+                                <td>Director, Entrepreneurship IIC</td>
+                            </tr>
+                            <tr>
+                                <td>5.</td>
                                 <td>Dr. Sankar Barman</td>
                                 <td>Admin</td>
                                 <td>Coordinator & Innovation Activity</td>
                             </tr>
                             <tr>
-                                <td>5.</td>
+                                <td>6.</td>
                                 <td>Mr. Sasanka Boruah</td>
                                 <td>Admin</td>
                                 <td>Start-up Activity</td>
                             </tr>
                             <tr>
-                                <td>6.</td>
+                                <td>7.</td>
                                 <td>Mr. Bijoy Kalita</td>
                                 <td>Admin</td>
                                 <td>Social Media</td>
                             </tr>
                             <tr>
-                                <td>7.</td>
+                                <td>8.</td>
                                 <td>Prof. Pranati Das</td>
                                 <td>Faculty</td>
                                 <td>NIRF Coordinator</td>
                             </tr>
                             <tr>
-                                <td>8.</td>
+                                <td>9.</td>
                                 <td>Dr. Aruna Dev Roy</td>
                                 <td>Faculty</td>
                                 <td>ARIIA Coordinator</td>
                             </tr>
                             <tr>
-                                <td>9.</td>
+                                <td>10.</td>
                                 <td>Dr. Debajit Borah</td>
                                 <td>Faculty</td>
                                 <td>IPR Activity</td>
                             </tr>
                             <tr>
-                                <td>10.</td>
+                                <td>11.</td>
                                 <td>Dr. Bitopi Gogoi</td>
                                 <td>Faculty</td>
                                 <td>Internship Activity</td>
                             </tr>
                             <tr>
-                                <td>11.</td>
+                                <td>12.</td>
                                 <td>Ms. Banani Das Hazarika</td>
                                 <td>Faculty</td>
                                 <td>Members</td>
                             </tr>
                             <tr>
-                                <td>12.</td>
+                                <td>13.</td>
                                 <td>Mr. Mehedi Alom</td>
                                 <td>Admin</td>
                                 <td>Design Thinking</td>
                             </tr>
                             <tr>
-                                <td>13.</td>
+                                <td>14.</td>
                                 <td>Mr. Jawad Ahemad</td>
                                 <td>Admin</td>
                                 <td>Members</td>
                             </tr>
                             <tr>
-                                <td>14.</td>
+                                <td>15.</td>
                                 <td>Dr. Annesa Borah</td>
                                 <td>Faculty</td>
                                 <td>Members</td>
                             </tr>
                             <tr>
-                                <td>15.</td>
+                                <td>16.</td>
                                 <td>Dr. Susmita Nath</td>
                                 <td>Faculty</td>
                                 <td>Members</td>
                             </tr>
                             <tr>
-                                <td>16.</td>
+                                <td>17.</td>
                                 <td>Dr. Dharmeswar Barhoi</td>
                                 <td>Faculty</td>
                                 <td>Members</td>
                             </tr>
                             <tr>
-                                <td>17.</td>
+                                <td>18.</td>
                                 <td>Mr. Srawan Kr Goenka</td>
                                 <td>Faculty</td>
                                 <td>Convener</td>
