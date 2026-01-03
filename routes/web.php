@@ -3058,6 +3058,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/38th-bci-inter-university-moot-court-competition-from-29th-jan-at-rgu', function () {
+    return view('frontend/media-corner/news82');
+})->name('38th-bci-inter-university-moot-court-competition-from-29th-jan-at-rgu');
+
 Route::get('/royal-global-university-to-host-aiu-ne-zone-inter-university-football-tournament-2025-26', function () {
     return view('frontend/media-corner/news81');
 })->name('royal-global-university-to-host-aiu-ne-zone-inter-university-football-tournament-2025-26');

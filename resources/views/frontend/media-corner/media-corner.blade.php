@@ -47,6 +47,17 @@
                     $newsItems = [
                         [
                             'title' =>
+                                '38th BCI Inter-University Moot Court Competition from 29th Jan at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, January 3, 2026:',
+                            'link' =>
+                                'royal-global-university-to-host-aiu-ne-zone-inter-university-football-tournament-2025-26',
+                            'image' => 'mobile-assets/ads/court.jpeg',
+                            'content' =>
+                                'The Assam Royal Global University (RGU) will host the 38th Bar Council of India National Inter-University Moot Court Competition, 2026, one of the most prestigious moot court events in the country.',
+                        ],
+                        [
+                            'title' =>
                                 'Royal Global University to host AIU NE Zone Inter-University Football Tournament 2025–26',
                             'summary' => '',
                             'date' => 'Guwahati, December 23, 2025:',
