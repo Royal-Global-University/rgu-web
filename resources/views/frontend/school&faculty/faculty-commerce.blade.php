@@ -128,6 +128,17 @@
                             <!-- <a href="#" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Amrit.jpeg"
+                                    alt="Profile image of Prof. S.P. Singh">
+                            </div>
+                            <h3 class="card-name">Prof. Amrit Pal Singh</h3>
+                            <p class="card-designation">Professor</p>
+                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
