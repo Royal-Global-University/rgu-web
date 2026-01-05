@@ -47,28 +47,6 @@
                     <div class="row p-3">
                         <div class="col-lg-12">
                             <img class="rounded shadow-sm border" style="width: 100%;"
-                                src="mobile-assets/phd-mobile/doctoral-chemistry/rama-ranjan.jpg" alt="">
-                        </div>
-                        <div class="col-lg-12">
-                            <h2 class="headd3 fw-bold text-dark pt-4">
-                                Prof. (Dr.) Rama Ranjan Bhattacharjee
-                            </h2>
-                            <p class="para1 text-dark">
-                                Professor
-                            </p>
-
-                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                            <p class="para1 text-dark">
-                                Physical chemistry of nanomaterials, nanobiotechnology
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card mt-4 shadow-sm">
-                    <div class="row p-3">
-                        <div class="col-lg-12">
-                            <img class="rounded shadow-sm border" style="width: 100%;"
                                 src="mobile-assets/phd-mobile/doctoral-chemistry/1.jpg" alt="">
                         </div>
                         <div class="col-lg-12">
@@ -84,50 +62,6 @@
                                 Molecular Modeling, Computational Chemistry, Catalysis & Adsorption, Chemo-informatics,
                                 Anticancer drugs, Computer aided drug design, DFT based reactivity descriptors, QSAR,
                                 Waste-Management
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card mt-4 shadow-sm">
-                    <div class="row p-3">
-                        <div class="col-lg-12">
-                            <img class="rounded shadow-sm border" style="width: 100%;"
-                                src="mobile-assets/phd-mobile/doctoral-chemistry/biswajit.jpg" alt="">
-                        </div>
-                        <div class="col-lg-12">
-                            <h2 class="headd3 fw-bold text-dark pt-4">
-                                Dr. Biswajit Sarma
-                            </h2>
-                            <p class="para1 text-dark">
-                                Associate Professor
-                            </p>
-
-                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                            <p class="para1 text-dark">
-                                Natural Product Chemistry, Material Chemistry
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card mt-4 shadow-sm">
-                    <div class="row p-3">
-                        <div class="col-lg-12">
-                            <img class="rounded shadow-sm border" style="width: 100%;"
-                                src="mobile-assets/phd-mobile/doctoral-chemistry/debojeet.jpg" alt="">
-                        </div>
-                        <div class="col-lg-12">
-                            <h2 class="headd3 fw-bold text-dark pt-4">
-                                Dr. Debojeet Sahu
-                            </h2>
-                            <p class="para1 text-dark">
-                                Assistant Professor
-                            </p>
-
-                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                            <p class="para1 text-dark">
-                                Heterogeneous Catalysis, Photocatalysis and NanoCatalysis
                             </p>
                         </div>
                     </div>
@@ -367,28 +301,6 @@
                 <div class="row p-3">
                     <div class="col-lg-2">
                         <img class="rounded shadow-sm border" style="width: 100%;"
-                            src="mobile-assets/phd-mobile/doctoral-chemistry/rama-ranjan.jpg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">
-                            Prof. (Dr.) Rama Ranjan Bhattacharjee
-                        </h2>
-                        <p class="para1 text-dark">
-                            Professor
-                        </p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Physical chemistry of nanomaterials, nanobiotechnology
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" style="width: 100%;"
                             src="mobile-assets/phd-mobile/doctoral-chemistry/1.jpg" alt="">
                     </div>
                     <div class="col-lg-9">
@@ -404,50 +316,6 @@
                             Molecular Modeling, Computational Chemistry, Catalysis & Adsorption, Chemo-informatics,
                             Anticancer drugs, Computer aided drug design, DFT based reactivity descriptors, QSAR,
                             Waste-Management
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" style="width: 100%;"
-                            src="mobile-assets/phd-mobile/doctoral-chemistry/biswajit.jpg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">
-                            Dr. Biswajit Sarma
-                        </h2>
-                        <p class="para1 text-dark">
-                            Associate Professor
-                        </p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Natural Product Chemistry, Material Chemistry
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" style="width: 100%;"
-                            src="mobile-assets/phd-mobile/doctoral-chemistry/debojeet.jpg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">
-                            Dr. Debojeet Sahu
-                        </h2>
-                        <p class="para1 text-dark">
-                            Assistant Professor
-                        </p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Heterogeneous Catalysis, Photocatalysis and NanoCatalysis
                         </p>
                     </div>
                 </div>

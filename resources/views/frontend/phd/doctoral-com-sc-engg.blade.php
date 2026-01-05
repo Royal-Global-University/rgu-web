@@ -113,37 +113,6 @@
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                                     <div class="p-3">
                                         <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rset/cse/5.jpg"
-                                            class="img-fluid rounded border" />
-                                    </div>
-
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                            Dr. Raghavendra Prasad
-                                        </h5>
-                                        <p class="para1 text-dark">
-                                            Associate Professor & Head RSIT
-                                        </p>
-
-                                        <p class="para1 fw-bold" style="color: #264273;">
-                                            Research Interest
-                                        </p>
-                                        <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Brain Computer Interface, Human Computer Interface, Cognitive &
-                                            Computational Neuroscience, Computational Biology, AI & ML Applications,
-                                            Cognitive Computing
-                                        </p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                                    <div class="p-3">
-                                        <img style="height: 290px; width: 100%;"
                                             src="mobile-assets/all-faculty/rset/cse/Deepjyoti.png"
                                             class="img-fluid rounded border" />
                                     </div>
@@ -161,65 +130,6 @@
                                         </p>
                                         <p class="para1" style="color: #333; line-height: 1.3;">
                                             Social Network Analysis, Sentiment Analysis, AI & ML Applications,
-                                        </p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                                    <div class="p-3">
-                                        <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rset/cse/3.jpeg"
-                                            class="img-fluid rounded border" />
-                                    </div>
-
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                            Dr. Anupam Das
-                                        </h5>
-                                        <p class="para1 text-dark">
-                                            Associate Professor
-                                        </p>
-
-                                        <p class="para1 fw-bold" style="color: #264273;">
-                                            Research Interest
-                                        </p>
-                                        <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Wireless Sensor Networks, Network Security, E-Learning, NLP, Cyber Security,
-                                            AI & ML Applications, Wireless Power Systems
-                                        </p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                                    <div class="p-3">
-                                        <img style="height: 290px; width: 100%;"
-                                            src="mobile-assets/all-faculty/rset/cse/samarjit.jpg"
-                                            class="img-fluid rounded border" />
-                                    </div>
-
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                            Dr. Samarjit Das
-                                        </h5>
-                                        <p class="para1 text-dark">
-                                            Associate Professor
-                                        </p>
-
-                                        <p class="para1 fw-bold" style="color: #264273;">
-                                            Research Interest
-                                        </p>
-                                        <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Fuzzy Computing, Data Mining, AI & ML Applications
                                         </p>
 
                                     </div>
@@ -345,36 +255,6 @@
                         style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
                         <div class="p-3">
                             <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rset/cse/5.jpg"
-                                class="img-fluid rounded border" />
-                        </div>
-
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                Dr. Raghavendra Prasad
-                            </h5>
-                            <p class="para1 text-dark">
-                                Associate Professor & Head RSIT
-                            </p>
-
-                            <p class="para1 fw-bold" style="color: #264273;">
-                                Research Interest
-                            </p>
-                            <p class="para1" style="color: #333; line-height: 1.3;">
-                                Brain Computer Interface, Human Computer Interface, Cognitive & Computational
-                                Neuroscience, Computational Biology, AI & ML Applications, Cognitive Computing
-                            </p>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
-                        <div class="p-3">
-                            <img style="height: 290px; width: 100%;"
                                 src="mobile-assets/phd-mobile/doctoral-com-sc-engg/Deepjyoti.png"
                                 class="img-fluid rounded border" />
                         </div>
@@ -392,65 +272,6 @@
                             </p>
                             <p class="para1" style="color: #333; line-height: 1.3;">
                                 Social Network Analysis, Sentiment Analysis, AI & ML Applications,
-                            </p>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 610px;">
-                        <div class="p-3">
-                            <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rset/cse/3.jpeg"
-                                class="img-fluid rounded border" />
-                        </div>
-
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                Dr. Anupam Das
-                            </h5>
-                            <p class="para1 text-dark">
-                                Associate Professor
-                            </p>
-
-                            <p class="para1 fw-bold" style="color: #264273;">
-                                Research Interest
-                            </p>
-                            <p class="para1" style="color: #333; line-height: 1.3;">
-                                Wireless Sensor Networks, Network Security, E-Learning, NLP, Cyber Security, AI & ML
-                                Applications, Wireless Power Systems
-                            </p>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                        <div class="p-3">
-                            <img style="height: 290px; width: 100%;"
-                                src="mobile-assets/phd-mobile/doctoral-com-sc-engg/samarjit.jpg"
-                                class="img-fluid rounded border" />
-                        </div>
-
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                Dr. Samarjit Das
-                            </h5>
-                            <p class="para1 text-dark">
-                                Associate Professor
-                            </p>
-
-                            <p class="para1 fw-bold" style="color: #264273;">
-                                Research Interest
-                            </p>
-                            <p class="para1" style="color: #333; line-height: 1.3;">
-                                Fuzzy Computing, Data Mining, AI & ML Applications
                             </p>
 
                         </div>

@@ -80,35 +80,6 @@
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                                     <div class="p-3">
                                         <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Raghuvar.jpeg"
-                                            class="img-fluid rounded border" />
-                                    </div>
-
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                            Dr. Raghuvar Tiwary
-                                        </h5>
-                                        <p class="para1 text-dark">
-                                            Associate Professor
-                                        </p>
-
-                                        <p class="para1 fw-bold" style="color: #264273;">
-                                            Research Interest
-                                        </p>
-                                        <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Biodiversity conservation and Climate change, Plant Ecology
-                                        </p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                                    <div class="p-3">
-                                        <img style="height: 290px; width: 100%;"
                                             src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Pratikshyas-rslsc.jpg"
                                             class="img-fluid rounded border" />
                                     </div>
@@ -126,35 +97,6 @@
                                         </p>
                                         <p class="para1" style="color: #333; line-height: 1.3;">
                                             Plant Molecular Biology, Protein Degradation Pathway, Root Architecture
-                                        </p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                                    <div class="p-3">
-                                        <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/manalee.jpeg"
-                                            class="img-fluid rounded border" />
-                                    </div>
-
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                            Dr Manalee Paul
-                                        </h5>
-                                        <p class="para1 text-dark">
-                                            Assistant Professor
-                                        </p>
-
-                                        <p class="para1 fw-bold" style="color: #264273;">
-                                            Research Interest
-                                        </p>
-                                        <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Mycology
                                         </p>
 
                                     </div>
@@ -315,35 +257,6 @@
                         style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
                         <div class="p-3">
                             <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Raghuvar.jpeg"
-                                class="img-fluid rounded border" />
-                        </div>
-
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                Dr. Raghuvar Tiwary
-                            </h5>
-                            <p class="para1 text-dark">
-                                Associate Professor
-                            </p>
-
-                            <p class="para1 fw-bold" style="color: #264273;">
-                                Research Interest
-                            </p>
-                            <p class="para1" style="color: #333; line-height: 1.3;">
-                                Biodiversity conservation and Climate change, Plant Ecology
-                            </p>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                        <div class="p-3">
-                            <img style="height: 290px; width: 100%;"
                                 src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/Pratikshyas-rslsc.jpg"
                                 class="img-fluid rounded border" />
                         </div>
@@ -361,35 +274,6 @@
                             </p>
                             <p class="para1" style="color: #333; line-height: 1.3;">
                                 Plant Molecular Biology, Protein Degradation Pathway, Root Architecture
-                            </p>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 560px;">
-                        <div class="p-3">
-                            <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rslsc/manalee.jpeg"
-                                class="img-fluid rounded border" />
-                        </div>
-
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                Dr Manalee Paul
-                            </h5>
-                            <p class="para1 text-dark">
-                                Assistant Professor
-                            </p>
-
-                            <p class="para1 fw-bold" style="color: #264273;">
-                                Research Interest
-                            </p>
-                            <p class="para1" style="color: #333; line-height: 1.3;">
-                                Mycology
                             </p>
 
                         </div>

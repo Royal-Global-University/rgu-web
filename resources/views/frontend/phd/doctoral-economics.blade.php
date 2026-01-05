@@ -123,37 +123,6 @@
                                     style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                                     <div class="p-3">
                                         <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-economics/dr-durba.png"
-                                            class="img-fluid rounded border" />
-                                    </div>
-
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                            Dr. Durba Dutta
-                                        </h5>
-                                        <p class="para1 text-dark">
-                                            Associate Professor
-                                        </p>
-
-                                        <p class="para1 fw-bold" style="color: #264273;">
-                                            Research Interest
-                                        </p>
-                                        <p class="para1" style="color: #333; line-height: 1.3;">
-                                            Poverty,Urban Poverty, Floriculture, Micro Finance, Agricultural Economics
-                                            and Financial
-                                            Inclusion
-                                        </p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                                    <div class="p-3">
-                                        <img style="height: 290px; width: 100%;"
                                             src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-economics/dr-sangamitra.png"
                                             class="img-fluid rounded border" />
                                     </div>
@@ -306,35 +275,6 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 620px;">
-                        <div class="p-3">
-                            <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-economics/dr-durba.png"
-                                class="img-fluid rounded border" />
-                        </div>
-
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 ">
-                                Dr. Durba Dutta
-                            </h5>
-                            <p class="para1 text-dark">
-                                Associate Professor
-                            </p>
-
-                            <p class="para1 fw-bold" style="color: #264273;">
-                                Research Interest
-                            </p>
-                            <p class="para1" style="color: #333; line-height: 1.3;">
-                                Poverty,Urban Poverty, Floriculture, Micro Finance, Agricultural Economics and Financial
-                                Inclusion
-                            </p>
-
-                        </div>
-
-                    </div>
-                </div>
 
                 <div class="col-lg-3 mb-4">
                     <div class="card rounded d-flex flex-column"

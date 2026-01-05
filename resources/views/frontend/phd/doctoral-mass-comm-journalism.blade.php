@@ -50,36 +50,6 @@
             </div>
 
             <div style="padding: 20px;">
-
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 300px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-mass-comm/SureshChandra.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                    Prof. (Dr.) Suresh Chandra Nayak
-                                </h5>
-                                <p class="para1" style="color: #264273;">Professor & Dean (I/c)</p>
-
-                                <p class="para1 fw-bold" style="color: #333; line-height: 1.3;">
-                                    Research Interest:
-                                </p>
-
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Public Relations, Advertising, New Media & Development Communication
-                                </p>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
                 <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
                     <div class="col-lg-3 mb-4">
@@ -114,33 +84,6 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
                             <div class="p-3">
                                 <img style="height: 300px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-mass-comm/Haoginlen.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                    Dr. Haoginlen Chongloi
-                                </h5>
-                                <p class="para1" style="color: #264273;">Assistant Professor</p>
-
-                                <p class="para1 fw-bold" style="color: #333; line-height: 1.3;">
-                                    Research Interest:
-                                </p>
-
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Media Laws and Ethics, Development Communication, Media Theory
-                                </p>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 300px; width: 100%;"
                                     src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-mass-comm/esha.jpeg"
                                     class="img-fluid rounded" />
                             </div>
@@ -156,33 +99,6 @@
 
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Gender Communication, New Media & Film Studies
-                                </p>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                            <div class="p-3">
-                                <img style="height: 300px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-mass-comm/Rashmi.jpg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                    Dr. Rashmi Sarmah
-                                </h5>
-                                <p class="para1" style="color: #264273;">Assistant Professor</p>
-
-                                <p class="para1 fw-bold" style="color: #333; line-height: 1.3;">
-                                    Research Interest:
-                                </p>
-
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Film Studies, Cultural Communication and Print Media
                                 </p>
 
 
@@ -330,35 +246,6 @@
             </h2>
 
             <div class="row" style="display: flex; align-items: center; justify-content: center;">
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 600px;">
-                        <div class="p-3">
-                            <img style="height: 300px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-mass-comm/SureshChandra.jpeg"
-                                class="img-fluid rounded" />
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                Prof. (Dr.) Suresh Chandra Nayak
-                            </h5>
-                            <p class="para1" style="color: #264273;">Professor & Dean (I/c)</p>
-
-                            <p class="para1 fw-bold" style="color: #333; line-height: 1.3;">
-                                Research Interest:
-                            </p>
-
-                            <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Public Relations, Advertising, New Media & Development Communication
-                            </p>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="row" style="display: flex; align-items: center; justify-content: center;">
 
                 <div class="col-lg-3 mb-4">
                     <div class="card rounded d-flex flex-column"
@@ -392,33 +279,6 @@
                         style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
                         <div class="p-3">
                             <img style="height: 300px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-mass-comm/Haoginlen.jpeg"
-                                class="img-fluid rounded" />
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                Dr. Haoginlen Chongloi
-                            </h5>
-                            <p class="para1" style="color: #264273;">Assistant Professor</p>
-
-                            <p class="para1 fw-bold" style="color: #333; line-height: 1.3;">
-                                Research Interest:
-                            </p>
-
-                            <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Media Laws and Ethics, Development Communication, Media Theory
-                            </p>
-
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
-                        <div class="p-3">
-                            <img style="height: 300px; width: 100%;"
                                 src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-mass-comm/esha.jpeg" class="img-fluid rounded" />
                         </div>
                         <div class="card-body d-flex flex-column flex-grow-1">
@@ -433,33 +293,6 @@
 
                             <p class="para1" style="color: #27467A; line-height: 1.3;">
                                 Gender Communication, New Media & Film Studies
-                            </p>
-
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 580px;">
-                        <div class="p-3">
-                            <img style="height: 300px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-mass-comm/Rashmi.jpg"
-                                class="img-fluid rounded" />
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                Dr. Rashmi Sarmah
-                            </h5>
-                            <p class="para1" style="color: #264273;">Assistant Professor</p>
-
-                            <p class="para1 fw-bold" style="color: #333; line-height: 1.3;">
-                                Research Interest:
-                            </p>
-
-                            <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Film Studies, Cultural Communication and Print Media
                             </p>
 
 

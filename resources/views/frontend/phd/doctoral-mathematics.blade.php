@@ -139,33 +139,6 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                             <div class="p-3">
                                 <img style="height: 300px; width: 100%;"
-                                    src="mobile-assets/phd-mobile/doctoral-mathematics/2.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                    Prof. (Dr.) Kamal Debnath
-                                </h5>
-
-                                <p class="para1 fw-bold" style="color: #333; line-height: 1.3;">
-                                    Research Interest:
-                                </p>
-
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Fluid dynamics, Boundary layer theory, Non-newtonian fluid, Dynamics of food
-                                    rheology, Mathematical Education.
-                                </p>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                            <div class="p-3">
-                                <img style="height: 300px; width: 100%;"
                                     src="mobile-assets/phd-mobile/doctoral-mathematics/3.jpg"
                                     class="img-fluid rounded" />
                             </div>
@@ -360,33 +333,6 @@
 
                                 <p class="para1" style="color: #27467A; line-height: 1.3;">
                                     Mathematical Modelling of Biological Sciences
-                                </p>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                            <div class="p-3">
-                                <img style="height: 300px; width: 100%;"
-                                    src="mobile-assets/phd-mobile/doctoral-mathematics/2.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                    Prof. (Dr.) Kamal Debnath
-                                </h5>
-
-                                <p class="para1 fw-bold" style="color: #333; line-height: 1.3;">
-                                    Research Interest:
-                                </p>
-
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Fluid dynamics, Boundary layer theory, Non-newtonian fluid, Dynamics of food
-                                    rheology, Mathematical Education.
                                 </p>
 
 

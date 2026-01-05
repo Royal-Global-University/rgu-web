@@ -353,21 +353,6 @@
 
                   <div class="col-lg-3 mb-4">
 
-                    <div class="card rounded d-flex flex-column h-100" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="mobile-assets/deans/d.jpeg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Bijay Singh Mipun</h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Dean, Student Welfare and Dean, Royal School of Environmental and Earth Sciences (RSEES)
-
-                        </p>
-                        </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-3 mb-4">
-
                     <div class="card rounded d-flex flex-column h-100" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                         <div class="p-3">
                           <img style="height: 290px; width: 100%;" src="mobile-assets/deans/3.jpeg" class="img-fluid rounded"/>
@@ -460,45 +445,12 @@
 
                     <div class="card rounded d-flex flex-column h-100" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
                         <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="mobile-assets/deans/9.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Rama Ranjan Bhattacharjee
-                          </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Dean, Royal School of Life Sciences (RSLSC)
-
-                        </p>
-                        </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-3 mb-4">
-
-                    <div class="card rounded d-flex flex-column h-100" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                        <div class="p-3">
                           <img style="height: 290px; width: 100%;" src="mobile-assets/deans/10.jpg" class="img-fluid rounded"/>
                         </div>
                         <div class="card-body d-flex flex-column flex-grow-1">
                           <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Sajal Nag
                           </h5>
                         <p class="para1" style="color: #27467A; line-height: 1.3;">Dean i/c, Royal School of Humanities and Social Sciences (RSHSS)
-
-                        </p>
-                        </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-3 mb-4">
-
-                    <div class="card rounded d-flex flex-column h-100" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="mobile-assets/deans/11.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 800; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Suresh Chandra Nayak
-                          </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Dean i/c, Royal School of Communication & Media (RSCOM)
-
 
                         </p>
                         </div>

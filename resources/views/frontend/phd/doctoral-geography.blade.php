@@ -55,29 +55,6 @@
                     <div class="row p-3">
                         <div class="col-lg-12">
                             <img class="rounded shadow-sm border" style="width: 100%;"
-                                src="mobile-assets/phd-mobile/doctoral-geography/Bijay.webp" alt="">
-                        </div>
-                        <div class="col-lg-12">
-                            <h2 class="headd3 fw-bold text-dark pt-4">Prof. (Dr.) Bijay Singh Mipun</h2>
-                            <p class="para1 text-dark">
-                                Professor & Dean RSEES
-                            </p>
-
-                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                            <ol class="para1 text-dark">
-                                <li>Agricultural Geography</li>
-                                <li>Aerial Photo and Satellite Imagery Interpretation</li>
-                                <li>Geographical Information System</li>
-                                <li>Cartographic Techniques</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card mt-4 shadow-sm">
-                    <div class="row p-3">
-                        <div class="col-lg-12">
-                            <img class="rounded shadow-sm border" style="width: 100%;"
                                 src="mobile-assets/phd-mobile/doctoral-geography/debendra.png" alt="">
                         </div>
                         <div class="col-lg-12">
@@ -142,32 +119,6 @@
                                 <li>Forest Cover Change</li>
                                 <li>Climate Change</li>
                                 <li>Agriculture</li>
-                                <li>GIS and Remote Sensing</li>
-                            </ol>
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card mt-4 shadow-sm">
-                    <div class="row p-3">
-                        <div class="col-lg-12">
-                            <img class="rounded shadow-sm border" style="width: 100%;"
-                                src="mobile-assets/phd-mobile/doctoral-geography/Takhellambam.jpg" alt="">
-                        </div>
-                        <div class="col-lg-12">
-                            <h2 class="headd3 fw-bold text-dark pt-4">
-                                Dr. Takhellambam Prameshwori Devi
-                            </h2>
-                            <p class="para1 text-dark">
-                                Assistant Professor
-                            </p>
-
-                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                            <p class="para1 text-dark">
-                            <ol class="para1 text-dark">
-                                <li>Geography of Tourism</li>
                                 <li>GIS and Remote Sensing</li>
                             </ol>
 
@@ -284,32 +235,6 @@
                     </div>
                 </div>
 
-                <div class="card mt-4 shadow-sm">
-                    <div class="row p-3">
-                        <div class="col-lg-12">
-                            <img class="rounded shadow-sm border" style="width: 100%;"
-                                src="mobile-assets/phd-mobile/doctoral-geography/deepanjali.jpg" alt="">
-                        </div>
-                        <div class="col-lg-12">
-                            <h2 class="headd3 fw-bold text-dark pt-4">
-                                Dr. Deepanjali Reang
-                            </h2>
-                            <p class="para1 text-dark">
-                                Assistant Professor
-                            </p>
-
-                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                            <p class="para1 text-dark">
-                            <ol class="para1 text-dark">
-                                <li>Physical and regional development in geography</li>
-                                <li>Natural resource management</li>
-                            </ol>
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
         </section>
@@ -382,29 +307,6 @@
                 <div class="row p-3">
                     <div class="col-lg-2">
                         <img class="rounded shadow-sm border" style="width: 100%;"
-                            src="mobile-assets/phd-mobile/doctoral-geography/Bijay.webp" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">Prof. (Dr.) Bijay Singh Mipun</h2>
-                        <p class="para1 text-dark">
-                            Professor & Dean RSEES
-                        </p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <ol class="para1 text-dark">
-                            <li>Agricultural Geography</li>
-                            <li>Aerial Photo and Satellite Imagery Interpretation</li>
-                            <li>Geographical Information System</li>
-                            <li>Cartographic Techniques</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" style="width: 100%;"
                             src="mobile-assets/phd-mobile/doctoral-geography/debendra.png" alt="">
                     </div>
                     <div class="col-lg-9">
@@ -469,32 +371,6 @@
                             <li>Forest Cover Change</li>
                             <li>Climate Change</li>
                             <li>Agriculture</li>
-                            <li>GIS and Remote Sensing</li>
-                        </ol>
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" style="width: 100%;"
-                            src="mobile-assets/phd-mobile/doctoral-geography/Takhellambam.jpg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">
-                            Dr. Takhellambam Prameshwori Devi
-                        </h2>
-                        <p class="para1 text-dark">
-                            Assistant Professor
-                        </p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                        <ol class="para1 text-dark">
-                            <li>Geography of Tourism</li>
                             <li>GIS and Remote Sensing</li>
                         </ol>
 
@@ -604,32 +480,6 @@
                             <li>Hydrological Modelling; Climate Change</li>
                             <li>Natural Resources management</li>
                             <li>Remote Sensing & GIS, Machine Learning & Artificial Intelligence</li>
-                        </ol>
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" style="width: 100%;"
-                            src="mobile-assets/phd-mobile/doctoral-geography/deepanjali.jpg" alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">
-                            Dr. Deepanjali Reang
-                        </h2>
-                        <p class="para1 text-dark">
-                            Assistant Professor
-                        </p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                        <ol class="para1 text-dark">
-                            <li>Physical and regional development in geography</li>
-                            <li>Natural resource management</li>
                         </ol>
 
                         </p>

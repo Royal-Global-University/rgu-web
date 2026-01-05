@@ -65,35 +65,6 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-3 mb-4">
-                                <div class="card rounded d-flex flex-column"
-                                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                                    <div class="p-3">
-                                        <img style="height: 290px; width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-sociology/sangeetadas.jpg"
-                                            class="img-fluid rounded border" />
-                                    </div>
-
-                                    <div class="card-body d-flex flex-column flex-grow-1">
-                                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                            Dr. Sangeeta Das
-                                        </h5>
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            Assistant Professor
-                                        </p>
-
-                                        <p class="para1 fw-bold text-dark">
-                                            Research Interest:
-                                        </p>
-
-                                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                            Sociology of Religion, Gender Studies, Culture Studies
-                                        </p>
-
-                                    </div>
-
-                                </div>
-                            </div>
 
                             <div class="col-lg-3 mb-4">
                                 <div class="card rounded d-flex flex-column"
@@ -245,35 +216,6 @@
 
             <div class="row p-5">
                 <div class="col-lg-2"></div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 540px;">
-                        <div class="p-3">
-                            <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-sociology/sangeetadas.jpg"
-                                class="img-fluid rounded border" />
-                        </div>
-
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                Dr. Sangeeta Das
-                            </h5>
-                            <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Assistant Professor
-                            </p>
-
-                            <p class="para1 fw-bold text-dark">
-                                Research Interest:
-                            </p>
-
-                            <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                Sociology of Religion, Gender Studies, Culture Studies
-                            </p>
-
-                        </div>
-
-                    </div>
-                </div>
 
                 <div class="col-lg-3 mb-4">
                     <div class="card rounded d-flex flex-column"

@@ -150,29 +150,6 @@
                 <div class="row p-3">
                     <div class="col-lg-12">
                         <img class="rounded shadow-sm border" style="width: 100%;"
-                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsbsc/19.jpeg"
-                            alt="">
-                    </div>
-                    <div class="col-lg-12">
-                        <h2 class="headd3 fw-bold text-dark pt-4">
-                            Dr. Susmita Paul
-                        </h2>
-                        <p class="para1 text-dark">
-                            Assistant Professor
-                        </p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Environmental Microbiology, Bioenergy
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-12">
-                        <img class="rounded shadow-sm border" style="width: 100%;"
                             src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsbsc/18.jpeg"
                             alt="">
                     </div>
@@ -226,28 +203,6 @@
                 </div>
             </div>
 
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-12">
-                        <img class="rounded shadow-sm border" style="width: 100%;"
-                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsbsc/16.jpg"
-                            alt="">
-                    </div>
-                    <div class="col-lg-12">
-                        <h2 class="headd3 fw-bold text-dark pt-4">
-                            Dr. Jiwasmika Baishya
-                        </h2>
-                        <p class="para1 text-dark">
-                            Assistant Professor
-                        </p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                        Microbial Physiology and Antimicrobial therapy
-                        </p>
-                    </div>
-                </div>
-            </div>
             </div>
 
 
@@ -426,29 +381,6 @@
                 <div class="row p-3">
                     <div class="col-lg-2">
                         <img class="rounded shadow-sm border" style="width: 100%;"
-                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsbsc/19.jpeg"
-                            alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">
-                            Dr. Susmita Paul
-                        </h2>
-                        <p class="para1 text-dark">
-                            Assistant Professor
-                        </p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                            Environmental Microbiology, Bioenergy
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" style="width: 100%;"
                             src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsbsc/18.jpeg"
                             alt="">
                     </div>
@@ -497,29 +429,6 @@
                             <li><strong>Bio-fertilizer Development:</strong> Via Solid-State Fermentation</li>
                         </ol>
 
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card mt-4 shadow-sm">
-                <div class="row p-3">
-                    <div class="col-lg-2">
-                        <img class="rounded shadow-sm border" style="width: 100%;"
-                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/all-faculty/rsbsc/16.jpg"
-                            alt="">
-                    </div>
-                    <div class="col-lg-9">
-                        <h2 class="headd3 fw-bold text-dark">
-                            Dr. Jiwasmika Baishya
-                        </h2>
-                        <p class="para1 text-dark">
-                            Assistant Professor
-                        </p>
-
-                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                        <p class="para1 text-dark">
-                        Microbial Physiology and Antimicrobial therapy
                         </p>
                     </div>
                 </div>

@@ -58,30 +58,6 @@
                                 <div class="row p-3">
                                     <div class="col-lg-12">
                                         <img class="rounded shadow-sm border" style="width: 100%;"
-                                            src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-public-admin/dr-meenu.jpg" alt="">
-                                    </div>
-                                    <div class="col-lg-12 pt-3">
-                                        <h2 class="headd3 fw-bold " style="color: #264273;">
-                                            Dr. Meenu
-                                        </h2>
-                                        <p class="para1 text-dark">
-                                            Professor and Head
-                                        </p>
-
-                                        <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                                        <p class="para1 text-dark">
-                                            Administrative thought and theory, Indian Administration, Public Policy,
-                                            Local
-                                            Government, Administrative Reforms
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card mt-4 shadow-sm">
-                                <div class="row p-3">
-                                    <div class="col-lg-12">
-                                        <img class="rounded shadow-sm border" style="width: 100%;"
                                             src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-public-admin/dr-monika.jpg" alt="">
                                     </div>
                                     <div class="col-lg-12 pt-3">
@@ -178,29 +154,6 @@
             </h2>
 
             <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-                <div class="card mt-4 shadow-sm">
-                    <div class="row p-3">
-                        <div class="col-lg-2">
-                            <img class="rounded shadow-sm border"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-public-admin/dr-meenu.jpg" alt="">
-                        </div>
-                        <div class="col-lg-9">
-                            <h2 class="headd3 fw-bold " style="color: #264273;">
-                                Dr. Meenu
-                            </h2>
-                            <p class="para1 text-dark">
-                                Professor and Head
-                            </p>
-
-                            <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                            <p class="para1 text-dark">
-                                Administrative thought and theory, Indian Administration, Public Policy, Local
-                                Government, Administrative Reforms
-                            </p>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="card mt-4 shadow-sm">
                     <div class="row p-3">

@@ -179,32 +179,6 @@
                             style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
                             <div class="p-3">
                                 <img style="height: 300px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-pharmacy/Manas.jpeg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd3 pb-2">
-                                    Dr. Manas Jyoti Kapil
-                                </h5>
-
-                                <p class="para1 fw-bold" style="color: #333; line-height: 1.3;">
-                                    Research Interest:
-                                </p>
-
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Formulation design, Carrier mediated drug delivery, Nanotechnology.
-                                </p>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                            <div class="p-3">
-                                <img style="height: 300px; width: 100%;"
                                     src="mobile-assets/updated-faculty-img/Dr-Sudarshana.png"
                                     class="img-fluid rounded border" />
                             </div>
@@ -404,21 +378,6 @@
                         </div>
                     </div>
                 </div>
-
-                  <div class="card mt-4 shadow-sm">
-                        <div class="row p-3">
-                            <div class="col-lg-2">
-                                <img class="rounded shadow-sm border" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/phd-mobile/doctoral-pharmacy/Manas.jpeg" alt="">
-                            </div>
-                            <div class="col-lg-9">
-                                <h2 class="headd3 fw-bold text-dark">Dr. Manas Jyoti Kapil</h2>
-                                <p class="para1 text-dark">Ph.D.</p>
-
-                                <h2 class="para1 fw-bold text-dark ">Research Interest</h2>
-                                <p class="text-dark para1">Formulation design, Carrier mediated drug delivery, Nanotechnology.</p>
-                                </div>
-                        </div>
-                  </div>
 
 
 
