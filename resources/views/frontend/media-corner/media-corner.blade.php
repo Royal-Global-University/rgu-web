@@ -47,6 +47,17 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'AIU NE Zone Inter-University Football Tournament Kicked Off at Royal Global University',
+                            'summary' => '',
+                            'date' => 'Guwahati, January 5, 2026:',
+                            'link' =>
+                                'aiu-ne-zone-inter-university-football-tournament-kicked-off-at-royal-global-university',
+                            'image' => 'mobile-assets/media-corner/news80/1.jpeg',
+                            'content' =>
+                                'The AIU Northeast Zone Inter-University Football (Men) Tournament 2025–2026 has been inaugurated today at The Assam Royal Global University (RGU), marking the beginning of one of the most prestigious inter-university sporting events in the region.',
+                        ],
+                        [
+                            'title' =>
                                 '38th BCI Inter-University Moot Court Competition from 29th Jan at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, January 3, 2026:',
