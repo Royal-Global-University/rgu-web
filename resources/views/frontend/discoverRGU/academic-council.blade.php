@@ -272,7 +272,7 @@
                           <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/15.jpg" class="img-fluid rounded"/>
                         </div>
                         <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Prithvi Raj Chakraborty
+                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Prithviraj Chakraborty
 
                         </h5>
                         <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Principal/ HOD, Royal School of Pharmacy</p>

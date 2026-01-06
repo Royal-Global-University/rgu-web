@@ -131,7 +131,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prof-Prithviraj-Chakraborty-RSP.png"
                                     alt="Profile image">
                             </div>
-                            <h3 class="card-name">Prof. (Dr.) Prithvi Raj Chakraborty</h3>
+                            <h3 class="card-name">Prof. (Dr.) Prithviraj Chakraborty</h3>
                             <p class="card-designation">Professor & Principal/HOD</p>
                             <a href="https://www.rgu.ac/faculty-prithviraj-chakraborty" class="profile-link">View
                                 Profile</a>
