@@ -294,9 +294,7 @@
 
                         <p class="text-dark">
 
-                            10+2 in science stream or equivalent from a recognized Board/ Council with minimum 45% marks or
-                            equivalent
-                            grade and minimum 45% in subject opted (5% relaxation to SC/ST/OBC - Non-Creamy Layer)
+                            B.Sc.(H) from any recognized University/Institution in relevant field Or B.Sc. with minimum 45% marks in aggregate and minimum 45% in subject opted, from any recognized University/Institution or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer).
 
                         </p>
 

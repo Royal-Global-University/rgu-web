@@ -83,7 +83,7 @@
         <p class="mobile-headd3 fw-bold text-dark">Eligibility Criteria
         </p>
 
-        <p class="mobile-para1 text-dark">B.E./B.Tech. /AMIE or its equivalent in relevant field, from any recognized University/Institution, with minimum 50% marks or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer)</p>
+        <p class="mobile-para1 text-dark">B.E./B.Tech. /AMIE or its equivalent in relevant field, from any recognized University/Institution, with minimum 45% marks or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer)</p>
 
         <p class="mobile-headd3 fw-bold text-dark">Selection Process
         </p>
@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div id="Eligibility" class="w3-container city card p-5 shadow" style="display:none">
                     <div class="card-body para1">
                         <p class="text-dark pt-2 fw-bold m-0">Eligibility Criteria</p>
-                        <p class="text-dark pt-2 m-0">B.E./B.Tech. /AMIE or its equivalent in relevant field, from any recognized University/Institution, with minimum 50% marks or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer)</p>
+                        <p class="text-dark pt-2 m-0">B.E./B.Tech. /AMIE or its equivalent in relevant field, from any recognized University/Institution, with minimum 45% marks or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer)</p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
                         <p class="text-dark pt-2 m-0">Based on overall performance in last examination followed by
                             Personal

@@ -301,9 +301,7 @@
 
                         <p class="text-dark">
 
-                            Bachelor’s Degree in any discipline from any recognized University/Institution with minimum 50%
-                            marks or
-                            equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer).
+                            10+2 or equivalent from a recognized Board/ Council with minimum 45% marks or equivalent grade (5% relaxation to SC/ST/OBC - Non-Creamy Layer)
 
                         </p>
 

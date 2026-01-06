@@ -86,7 +86,7 @@
                     </p>
 
                     <p class="mobile-para1 text-dark">Bachelor’s degree in law, from any recognized
-                        University/Institution with minimum 45% marks or equivalent grade (5% relaxation to
+                        University/Institution with minimum 50% marks or equivalent grade (5% relaxation to
                         SC/ST/OBC – Non-Creamy Layer).
                         NO AGE LIMIT
                     </p>
@@ -278,7 +278,7 @@
                     <div class="card-body para1">
                         <p class="text-dark pt-2 fw-bold m-0">Eligibility Criteria</p>
                         <p class="text-dark pt-2 m-0">Bachelor’s degree in law, from any recognized
-                            University/Institution with minimum 45% marks or equivalent grade (5% relaxation to
+                            University/Institution with minimum 50% marks or equivalent grade (5% relaxation to
                             SC/ST/OBC – Non-Creamy Layer).
                             NO AGE LIMIT</p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>

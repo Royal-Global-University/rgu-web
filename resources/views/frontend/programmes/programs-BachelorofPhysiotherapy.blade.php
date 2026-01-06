@@ -82,7 +82,7 @@
                         <p class="mobile-headd3 fw-bold text-dark">Eligibility Criteria
                         </p>
 
-                        <p class="mobile-para1 text-dark">Candidates must have a diploma in Physiotherapy or a related field, with a minium of 50% aggregate marks.</p>
+                        <p class="mobile-para1 text-dark">Candidates must have a diploma in Physiotherapy or a related field, with a minium of 45% aggregate marks.</p>
 
                         <p class="mobile-headd3 fw-bold text-dark">Selection Process
                         </p>
@@ -258,7 +258,7 @@
                     <div id="Eligibility" class="w3-container city card p-5 shadow" style="display:none">
                         <div class="card-body para1">
                             <p class="text-dark pt-2 fw-bold m-0">Eligibility Criteria</p>
-                            <p class="text-dark pt-2 m-0">Candidates must have a diploma in Physiotherapy or a related field, with a minium of 50% aggregate marks.</p>
+                            <p class="text-dark pt-2 m-0">Candidates must have a diploma in Physiotherapy or a related field, with a minium of 45% aggregate marks.</p>
                             <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
                             <p class="text-dark pt-2 m-0">Personal Interview which will assess candidates personality, communication skills, and suitability for the BPT program.</p>
                         </div>

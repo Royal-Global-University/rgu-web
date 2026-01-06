@@ -301,7 +301,7 @@
 
                         <p class="text-dark">
 
-                            10+2 in science stream or equivalent from a recognized Board/ Council with minimum 45% marks or
+                            Bachelor's degree in commerce from a recognized University/ Institution with minimum 45% marks or
                             equivalent
                             grade and minimum 45% in subject opted (5% relaxation to SC/ST/OBC - Non-Creamy Layer)
 

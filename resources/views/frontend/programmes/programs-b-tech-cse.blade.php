@@ -265,8 +265,8 @@
                         <p class="text-dark pt-2 fw-bold m-0">Eligibility Criteria</p>
                         <p class="text-dark pt-2 m-0">
                             i)10+2 or equivalent from a recognized Board/Council,
-ii) with Physics, Mathematics (Mandatory) and any one from the following: Chemistry/ Computer Science/Electronics/Information Technology/Biology/Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/Business Studies/Entrepreneurship.
-iii) having minimum 45% marks or equivalent grade (5% relaxation to SC/ST/OBC-Non-Creamy Layer) in the above subjects together.
+<br/>ii) with Physics, Mathematics (Mandatory) and any one from the following: Chemistry/ Computer Science/Electronics/Information Technology/Biology/Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/Business Studies/Entrepreneurship.
+<br/>iii) having minimum 45% marks or equivalent grade (5% relaxation to SC/ST/OBC-Non-Creamy Layer) in the above subjects together.
                         </p>
                         <p class="text-dark pt-2 fw-bold m-0">Selection Process</p>
                         <p class="text-dark pt-2 m-0">Candidates must obtain a valid score in JEE/CEE or R-JEE (Royal
