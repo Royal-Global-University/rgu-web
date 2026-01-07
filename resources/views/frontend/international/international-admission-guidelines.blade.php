@@ -139,8 +139,8 @@
                 </tr>
                 <tr>
                     <td>13</td>
-                    <td>International Brochure</td>
-                    <td><a href="mobile-assets/international-pdf/13.pdf" target="_blank"><button
+                    <td>Eligibility & Selection Criteria</td>
+                    <td><a href="mobile-assets/international-pdf/Criteria.pdf" target="_blank"><button
                                 class="download-btn">Download</button></a></td>
                 </tr>
 
