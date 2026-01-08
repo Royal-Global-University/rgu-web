@@ -10,7 +10,7 @@
         </div>
 
         <div class="website">
-@include('frontend/components/aheader')
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Agriculture (RSAG)</span></h2>
 
@@ -102,11 +102,12 @@
         </style>
 
         <div class="section-f">
-            <div class="container">
+            <div class="container text-center">
 
                 <!-- regular faculty  -->
-                <div class="row justify-content-center">
+                <div class="row justify-content-center text-center">
 
+                    <div class="col-lg-1 col-md-6 mb-4"></div>
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
@@ -125,6 +126,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mehjebin.PNG"
+                                    alt="Profile image of Dr. Mehjebin Rahman">
+                            </div>
+                            <h3 class="card-name">Dr. Mehjebin Rahman</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-Mehjabin-Rahman" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/supriyo.png"
                                     alt="Profile image of Anushree Das Baruah">
                             </div>
@@ -134,31 +147,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Prof-Bandana-Nabis-Das-RSLSC.png"
-                                    alt="Profile image of Prof. Bandana Nabis Das">
-                            </div>
-                            <h3 class="card-name">Prof. Bandana Nabis Das</h3>
-                            <p class="card-designation">Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rslsc/dandadahr.jpeg"
-                                    alt="Profile image of Prof. Dandadhar Borah">
-                            </div>
-                            <h3 class="card-name">Prof. Dandadhar Borah</h3>
-                            <p class="card-designation">Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
+                    <div class="col-lg-1 col-md-6 mb-4"></div>
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -177,71 +166,10 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rslsc/annukumari.jpeg"
-                                    alt="Profile image of Dr. Annu Kumari">
-                            </div>
-                            <h3 class="card-name">Dr. Annu Kumari</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Zoology</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Dr-Anushree-Baruah-RSLSC.png"
                                     alt="Profile image">
                             </div>
                             <h3 class="card-name">Anushree Das Baruah</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mehjebin.PNG"
-                                    alt="Profile image of Dr. Mehjebin Rahman">
-                            </div>
-                            <h3 class="card-name">Dr. Mehjebin Rahman</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-Mehjabin-Rahman" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Dr-Paul-Lalremsang-RSLSC.png"
-                                    alt="Profile image of Dr. Paul Lalremsang">
-                            </div>
-                            <h3 class="card-name">Dr. Paul Lalremsang</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rslsc/Pratikshyas-rslsc.jpg"
-                                    alt="Profile image of Dr. Pratikshya Borah">
-                            </div>
-                            <h3 class="card-name">Dr. Pratikshya Borah</h3>
-                            <p class="card-designation">Assistant Professor & Coordinator, Botany</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Mr-Pushkal-Bagchie.png"
-                                    alt="Profile image of Mr. Pushkal Bagchie">
-                            </div>
-                            <h3 class="card-name">Mr. Pushkal Bagchie</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
@@ -262,16 +190,14 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/upasana-chettry-botany.jpeg"
-                                    alt="Profile image of Upasana Chetry">
+                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                    alt="Profile image of Dr. Upashna Chettri">
                             </div>
-                            <h3 class="card-name">Dr. Upasna Chettry</h3>
-                            <p class="card-designation">Assistant Professor</p>
+                            <h3 class="card-name">Dr Monalisa B. Deka</h3>
+                            <p class="card-designation">IQAC</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
-
-
                 </div>
                 <!-- regular faculty  -->
 
