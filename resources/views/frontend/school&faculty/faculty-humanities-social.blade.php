@@ -721,18 +721,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Monisha-Bordoloi-RSHSS.png"
-                                    alt="Profile image">
-                            </div>
-                            <h3 class="card-name">Ms. Monisha Bordoloi</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-monisha-bordoloi" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Tanjeela-Mehboob-RSHSS.png"
                                     alt="Profile image">
                             </div>
@@ -741,7 +729,6 @@
                             <a href="https://www.rgu.ac/faculty-tanjeela-mehboob" class="profile-link">View Profile</a>
                         </div>
                     </div>
-
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
@@ -835,20 +822,6 @@
                                 Assistant Professor
                             </p>
                             <a href="https://www.rgu.ac/faculty-denim-deka" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/suhail.jpeg"
-                                    alt="Profile image ">
-                            </div>
-                            <h3 class="card-name">Dr. Suhail Ahmed</h3>
-                            <p class="card-designation">
-                                Assistant Professor
-                            </p>
-                            <a href="https://www.rgu.ac/faculty-suhail-ahmed" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
