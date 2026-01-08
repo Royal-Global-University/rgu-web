@@ -7330,8 +7330,7 @@
                                             <td>7.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Bachlor of MEDICAL
-                                                        RADIOLOGY AND IMAGING TECHNOLOGY</strong>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of Medical Radiology and Imaging Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 4
@@ -7348,8 +7347,7 @@
                                             <td>8.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Bachlor of
-                                                        ANAESTHESIA AND OPERATION THEATRE TECHNOLOGY</strong>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of Anaesthesia and Operation Theatre Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 4
@@ -7366,8 +7364,7 @@
                                             <td>9.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #023e8a;" class="#">Bachlor of MEDICAL
-                                                        LABORATORY SCIENCE- BMLS</strong>
+                                                    <strong style="color: #023e8a;" class="#">Bachelor of Medical Laboratory Science (BMLS)</strong>
                                                     <br>
                                                     <a href="" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 4
@@ -7496,8 +7493,7 @@
                                             <td>13.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #3c096c;" class="#">Masters of MEDICAL
-                                                        RADIOLOGY AND IMAGING TECHNOLOGY</strong>
+                                                    <strong style="color: #3c096c;" class="#">Master of Medical Radiology and Imaging Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 2
@@ -7514,8 +7510,7 @@
                                             <td>14.</td>
                                             <td>
                                                 <p>
-                                                    <strong style="color: #3c096c;" class="#">Masters OF
-                                                        ANAESTHESIA & OPERATION THEATRE TECHNOLOGY</strong>
+                                                    <strong style="color: #3c096c;" class="#">Master of Anaesthesia & Operation Theatre Technology</strong>
                                                     <br>
                                                     <a href="#" class="text-primary"><span
                                                             style="font-size: 16px;">Duration: 2

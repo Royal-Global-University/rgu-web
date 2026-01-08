@@ -668,18 +668,6 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/all-faculty/rslsc/Sangeeta.jpeg"
-                                    alt="Profile image of Ms. Sangeeta Biswas">
-                            </div>
-                            <h3 class="card-name">Ms. Sangeeta Biswas</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Ms-Jahnabi-Mahanta-RSBAS.png"
                                     alt="Profile image of Jahnabi">
                             </div>
