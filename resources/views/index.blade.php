@@ -1201,12 +1201,12 @@
                         <div class="swiper myImageSlider" style="max-width:1800px; margin:auto;">
                             <div class="swiper-wrapper">
 
-                                <div class="swiper-slide">
+                                {{-- <div class="swiper-slide">
                                     <a href="/icssr-conference">
                                         <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
                                             src="/mobile-assets/confrence/icssr.jpeg" alt="">
                                     </a>
-                                </div>
+                                </div> --}}
 
                                 <div class="swiper-slide">
                                     <a href="/ncmpac-2026">
