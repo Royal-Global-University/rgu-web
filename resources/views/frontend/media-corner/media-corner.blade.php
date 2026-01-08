@@ -47,6 +47,17 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'National Conference on Frontiers in Modern Physics begins at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, January 8, 2026:',
+                            'link' =>
+                                'national-conference-on-frontiers-in-modern-physics-begins-at-rgu',
+                            'image' => 'mobile-assets/media-corner/news80/81.jpeg',
+                            'content' =>
+                                'The Department of Physics, The Assam Royal Global University (RGU), Guwahati, inaugurated the National Conference on Frontiers in Modern Physics, Astrophysics and Cosmology (NCMPAC-2026) today. The three-day national conference, scheduled from 8th to 10th January 2026, is sponsored by the Anusandhan National Research Foundation (ANRF), Government of India.',
+                        ],
+                        [
+                            'title' =>
                                 'AIU NE Zone Inter-University Football Tournament Kicked Off at Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, January 5, 2026:',

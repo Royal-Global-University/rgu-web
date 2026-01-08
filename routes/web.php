@@ -3057,6 +3057,11 @@ Route::get('/cisr', function () {
 })->name('cisr');
 
 //media-corner
+
+Route::get('/national-conference-on-frontiers-in-modern-physics-begins-at-rgu', function () {
+    return view('frontend/media-corner/news84');
+})->name('national-conference-on-frontiers-in-modern-physics-begins-at-rgu');
+
 Route::get('/aiu-ne-zone-inter-university-football-tournament-kicked-off-at-royal-global-university', function () {
     return view('frontend/media-corner/news83');
 })->name('aiu-ne-zone-inter-university-football-tournament-kicked-off-at-royal-global-university');
