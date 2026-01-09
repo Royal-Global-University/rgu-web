@@ -1284,7 +1284,7 @@
                                         aria-controls="collapseSeven">
                                         <span class="p-2 rounded fw-bold"
                                             style="background-color: #ef991f; margin-right: 15px;">C</span> Zubeen Garg
-                                        Scholarship (Policy for Promotion of Extracurricular Activities)
+                                        Scholarship (Policy for Promotion of Extracurricular Activities - Sports/Dance/Music/Theatre/Fine Arts/Literary)
                                     </button>
                                 </h2>
                                 <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="headingOne"
