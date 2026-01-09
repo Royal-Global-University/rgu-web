@@ -3431,6 +3431,11 @@ Route::get('/faculty-tinku', function () {
 })->name('faculty-tinku');
 
 //RSAG Faculty Profile
+
+Route::get('/faculty-monalisha-b-deka', function () {
+    return view('frontend/facultyprofile/rsag/monalisha');
+})->name('faculty-monalisha-b-deka');
+
 Route::get('/faculty-supriyo-sen', function () {
     return view('frontend/facultyprofile/rsa/supriyo-sen-rsa');
 })->name('faculty-supriyo-sen');

@@ -190,12 +190,12 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/no-pic.png"
+                                <img src="mobile-assets/updated-faculty-img/monalisha.jpeg"
                                     alt="Profile image of Dr. Upashna Chettri">
                             </div>
                             <h3 class="card-name">Dr Monalisa B. Deka</h3>
-                            <p class="card-designation">IQAC</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <p class="card-designation">Adjunct Faculty</p>
+                            <a href="/faculty-monalisha-b-deka" class="profile-link">View Profile</a>
                         </div>
                     </div>
                 </div>
