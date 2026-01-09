@@ -1284,7 +1284,7 @@
                                         aria-controls="collapseSeven">
                                         <span class="p-2 rounded fw-bold"
                                             style="background-color: #ef991f; margin-right: 15px;">C</span> Zubeen Garg
-                                        Scholarship
+                                        Scholarship (Policy for Promotion of Extracurricular Activities)
                                     </button>
                                 </h2>
                                 <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -1292,8 +1292,9 @@
                                     <div class="accordion-body">
                                         <section class="section" id="royal-shaurya">
                                             <div class="container-fluid my-5">
+                                                <a href="mobile-assets/pdf/Policy Promotion of Extracurricular Activities_Final.pdf" target="_blank" class="bg-danger text-white fw-bold rounded p-2" style="font-size: 24px">Download Brochure</a>
 
-                                                <div class="table-responsive shadow-sm bg-white rounded mobile-para1">
+                                                <div class="table-responsive shadow-sm bg-white rounded mobile-para1 mt-3">
                                                     <table class="table table-bordered align-middle mb-0">
 
                                                         <thead>
