@@ -3058,6 +3058,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/icssr-sponsored-national-conference-samunnati-2026-held-at-rgu', function () {
+    return view('frontend/media-corner/news85');
+})->name('icssr-sponsored-national-conference-samunnati-2026-held-at-rgu');
+
 Route::get('/national-conference-on-frontiers-in-modern-physics-begins-at-rgu', function () {
     return view('frontend/media-corner/news84');
 })->name('national-conference-on-frontiers-in-modern-physics-begins-at-rgu');

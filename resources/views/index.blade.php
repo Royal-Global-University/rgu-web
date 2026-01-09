@@ -1443,6 +1443,27 @@
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news80/91.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">ICSSR-Sponsored National Conference SAMUNNATI 2026 held at RGU</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">January 7,
+                                                    2026
+                                                </p>
+                                                <a
+                                                    href="/icssr-sponsored-national-conference-samunnati-2026-held-at-rgu">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="mobile-assets/media-corner/news80/1.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
@@ -1460,31 +1481,6 @@
                                                 </a>
                                             </div>
                                         </div>
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="/mobile-assets/media-corner/news78/242.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">Royal Global University to host AIU NE Zone
-                                                    Inter-University Football Tournament 2025–26</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">December 23,
-                                                    2025
-                                                </p>
-                                                <a
-                                                    href="/royal-global-university-to-host-aiu-ne-zone-inter-university-football-tournament-2025-26">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-
-
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">
                                         <a href="media-corner"><button

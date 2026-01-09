@@ -45,6 +45,7 @@
             <div id="newsContainer" class="row">
                 @php
                     $newsItems = [
+
                         [
                             'title' =>
                                 'National Conference on Frontiers in Modern Physics begins at RGU',
@@ -55,6 +56,17 @@
                             'image' => 'mobile-assets/media-corner/news80/81.jpeg',
                             'content' =>
                                 'The Department of Physics, The Assam Royal Global University (RGU), Guwahati, inaugurated the National Conference on Frontiers in Modern Physics, Astrophysics and Cosmology (NCMPAC-2026) today. The three-day national conference, scheduled from 8th to 10th January 2026, is sponsored by the Anusandhan National Research Foundation (ANRF), Government of India.',
+                        ],
+                        [
+                            'title' =>
+                                'ICSSR-Sponsored National Conference SAMUNNATI 2026 held at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, January 7, 2026:',
+                            'link' =>
+                                'icssr-sponsored-national-conference-samunnati-2026-held-at-rgu',
+                            'image' => 'mobile-assets/media-corner/news80/91.jpeg',
+                            'content' =>
+                                'The Royal School of Commerce, The Assam Royal Global University (RGU), successfully organised an ICSSR Sponsored National Conference titled SAMUNNATI 2026 – “Accelerating SDG Impact Through Collaboration and Innovation in the Vision of Viksit Bharat @2047” on Wednesday. The conference was sponsored by the Indian Council of Social Science Research (ICSSR), New Delhi...',
                         ],
                         [
                             'title' =>
