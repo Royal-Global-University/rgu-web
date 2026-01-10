@@ -3821,6 +3821,34 @@ Route::get('/faculty-sthiti-dutta', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-shagufta-rizwana', function () {
+    return view('frontend/facultyprofile/rsmas/shagufta-rizwana');
+})->name('faculty-shagufta-rizwana');
+
+Route::get('/faculty-robbarts-nongmaithem', function () {
+    return view('frontend/facultyprofile/rsmas/robbarts-nongmaithem');
+})->name('faculty-robbarts-nongmaithem');
+
+Route::get('/faculty-pranati-das', function () {
+    return view('frontend/facultyprofile/rsmas/pranati-das');
+})->name('faculty-pranati-das');
+
+Route::get('/faculty-pankaj-jha', function () {
+    return view('frontend/facultyprofile/rsmas/pankaj-jha');
+})->name('faculty-pankaj-jha');
+
+Route::get('/faculty-jon-jyoti-kalita', function () {
+    return view('frontend/facultyprofile/rsmas/jon-jyoti-kalita');
+})->name('faculty-jon-jyoti-kalita');
+
+Route::get('/faculty-jebin-sultana', function () {
+    return view('frontend/facultyprofile/rsmas/jebin-sultana');
+})->name('faculty-jebin-sultana');
+
+Route::get('/faculty-dipanjali-das', function () {
+    return view('frontend/facultyprofile/rsmas/dipanjali-das');
+})->name('faculty-dipanjali-das');
+
 Route::get('/faculty-shyam-sekhar-choudhury', function () {
     return view('frontend/facultyprofile/rsd/shyam-sekhar-choudhury');
 })->name('faculty-shyam-sekhar-choudhury');

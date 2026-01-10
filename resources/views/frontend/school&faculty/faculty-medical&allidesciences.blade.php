@@ -613,7 +613,7 @@
                             </div>
                             <h3 class="card-name">Ms. Dipanjali Das</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-dipanjali-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -696,7 +696,7 @@
                             </div>
                             <h3 class="card-name">Dr. Jon Jyoti Kalita</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-jon-jyoti-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -925,7 +925,7 @@
                             </div>
                             <h3 class="card-name">Prof. Pranati Das</h3>
                             <p class="card-designation">Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-pranati-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -937,7 +937,7 @@
                             </div>
                             <h3 class="card-name">Dr. Pankaj Jha</h3>
                             <p class="card-designation">Assistant Professor & Coordinator</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-pankaj-jha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -961,7 +961,7 @@
                             </div>
                             <h3 class="card-name">Dr. Jon Jyoti Kalita</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-jon-jyoti-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -986,7 +986,7 @@
                             </div>
                             <h3 class="card-name">Dr. Robbarts Nongmaithem</h3>
                             <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-robbarts-nongmaithem" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -998,7 +998,7 @@
                             </div>
                             <h3 class="card-name">Dr. Shagufta Rizwana</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-shagufta-rizwana" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1010,7 +1010,7 @@
                             </div>
                             <h3 class="card-name">Ms. Dipanjali Das</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-dipanjali-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1022,7 +1022,7 @@
                             </div>
                             <h3 class="card-name">Ms. Jebin Sultana</h3>
                             <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs & Coordinator</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-jebin-sultana" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
