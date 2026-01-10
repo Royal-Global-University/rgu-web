@@ -3058,6 +3058,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-faculty-lieutenant-dr-sudha-becomes-1st-from-ne-to-clinch-gold-at-ota-gwalior', function () {
+    return view('frontend/media-corner/news86');
+})->name('rgu-faculty-lieutenant-dr-sudha-becomes-1st-from-ne-to-clinch-gold-at-ota-gwalior');
+
 Route::get('/icssr-sponsored-national-conference-samunnati-2026-held-at-rgu', function () {
     return view('frontend/media-corner/news85');
 })->name('icssr-sponsored-national-conference-samunnati-2026-held-at-rgu');

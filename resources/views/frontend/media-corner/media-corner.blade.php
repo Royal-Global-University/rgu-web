@@ -45,7 +45,17 @@
             <div id="newsContainer" class="row">
                 @php
                     $newsItems = [
-
+                        [
+                            'title' =>
+                                'RGU Faculty Lieutenant Dr Sudha becomes 1st from NE to clinch Gold at OTA Gwalior',
+                            'summary' => '',
+                            'date' => 'Guwahati, January 10, 2026:',
+                            'link' =>
+                                'rgu-faculty-lieutenant-dr-sudha-becomes-1st-from-ne-to-clinch-gold-at-ota-gwalior',
+                            'image' => 'mobile-assets/media-corner/news80/911.jpeg',
+                            'content' =>
+                                'Lt. Dr. KM Sudha, Assistant Professor in the Department of History and Associate NCC Officer (ANO) of NCC, Royal Global University under the 30 Assam Battalion NCC, has become the first person from the northeastern region to secure a Gold Madel at the prestigious event held at Officer Training Academy (OTA), Gwalior on 19th December 2025. The annual NCC event is being held for the past several decades..',
+                        ],
                         [
                             'title' =>
                                 'National Conference on Frontiers in Modern Physics begins at RGU',

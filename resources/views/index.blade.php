@@ -1420,6 +1420,27 @@
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news80/912.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    RGU Faculty Lieutenant Dr Sudha becomes 1st from NE to clinch Gold at OTA Gwalior</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">January 10,
+                                                    2026
+                                                </p>
+                                                <a href="/rgu-faculty-lieutenant-dr-sudha-becomes-1st-from-ne-to-clinch-gold-at-ota-gwalior">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="mobile-assets/media-corner/news80/81.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
@@ -1454,27 +1475,6 @@
                                                 </p>
                                                 <a
                                                     href="/icssr-sponsored-national-conference-samunnati-2026-held-at-rgu">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news80/1.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    AIU NE Zone Inter-University Football Tournament Kicked Off at RGU</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">January 5,
-                                                    2026
-                                                </p>
-                                                <a href="/aiu-ne-zone-inter-university-football-tournament-kicked-off-at-royal-global-university">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
