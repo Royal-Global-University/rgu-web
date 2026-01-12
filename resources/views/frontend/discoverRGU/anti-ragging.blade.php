@@ -754,7 +754,7 @@
                                     </tr>
                                     <tr>
                                         <td class="si-col">24.</td>
-                                        <td class="name-col">Ms. Spandan Kumar Barthakur</td>
+                                        <td class="name-col">Mr. Spandan Kumar Barthakur</td>
                                         <td>Assistant Professor</td>
                                         <td>RSIT</td>
                                         <td>7002839151</td>
