@@ -47,6 +47,20 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'North East Zone Inter-University Football (Men) Tournament 2025–26 Concludes at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, January 12, 2026:',
+                            'link' =>
+                                'north-east-zone-inter-university-football-men-tournament-2025-26-concludes-at-rgu',
+                            'image' => 'mobile-assets/media-corner/news80/121.jpeg',
+                            'content' => 'The North East Zone Inter-University Football
+                (Men)
+Tournament 2025–26, organised by The Assam Royal Global University (RGU) under the aegis of the
+                Association of Indian Universities (AIU), concluded successfully after a week of high-intensity matches
+                marked by grit, teamwork, and an unwavering passion for the game.',
+                        ],
+                        [
+                            'title' =>
                                 'RGU Faculty Lieutenant Dr Sudha becomes 1st from NE to clinch Gold at OTA Gwalior',
                             'summary' => '',
                             'date' => 'Guwahati, January 10, 2026:',
@@ -57,23 +71,19 @@
                                 'Lt. Dr. KM Sudha, Assistant Professor in the Department of History and Associate NCC Officer (ANO) of NCC, Royal Global University under the 30 Assam Battalion NCC, has become the first person from the northeastern region to secure a Gold Madel at the prestigious event held at Officer Training Academy (OTA), Gwalior on 19th December 2025. The annual NCC event is being held for the past several decades..',
                         ],
                         [
-                            'title' =>
-                                'National Conference on Frontiers in Modern Physics begins at RGU',
+                            'title' => 'National Conference on Frontiers in Modern Physics begins at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, January 8, 2026:',
-                            'link' =>
-                                'national-conference-on-frontiers-in-modern-physics-begins-at-rgu',
+                            'link' => 'national-conference-on-frontiers-in-modern-physics-begins-at-rgu',
                             'image' => 'mobile-assets/media-corner/news80/81.jpeg',
                             'content' =>
                                 'The Department of Physics, The Assam Royal Global University (RGU), Guwahati, inaugurated the National Conference on Frontiers in Modern Physics, Astrophysics and Cosmology (NCMPAC-2026) today. The three-day national conference, scheduled from 8th to 10th January 2026, is sponsored by the Anusandhan National Research Foundation (ANRF), Government of India.',
                         ],
                         [
-                            'title' =>
-                                'ICSSR-Sponsored National Conference SAMUNNATI 2026 held at RGU',
+                            'title' => 'ICSSR-Sponsored National Conference SAMUNNATI 2026 held at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, January 7, 2026:',
-                            'link' =>
-                                'icssr-sponsored-national-conference-samunnati-2026-held-at-rgu',
+                            'link' => 'icssr-sponsored-national-conference-samunnati-2026-held-at-rgu',
                             'image' => 'mobile-assets/media-corner/news80/91.jpeg',
                             'content' =>
                                 'The Royal School of Commerce, The Assam Royal Global University (RGU), successfully organised an ICSSR Sponsored National Conference titled SAMUNNATI 2026 – “Accelerating SDG Impact Through Collaboration and Innovation in the Vision of Viksit Bharat @2047” on Wednesday. The conference was sponsored by the Indian Council of Social Science Research (ICSSR), New Delhi...',
@@ -90,8 +100,7 @@
                                 'The AIU Northeast Zone Inter-University Football (Men) Tournament 2025–2026 has been inaugurated today at The Assam Royal Global University (RGU), marking the beginning of one of the most prestigious inter-university sporting events in the region.',
                         ],
                         [
-                            'title' =>
-                                '38th BCI Inter-University Moot Court Competition from 29th Jan at RGU',
+                            'title' => '38th BCI Inter-University Moot Court Competition from 29th Jan at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, January 3, 2026:',
                             'link' =>
@@ -112,23 +121,19 @@
                                 'The Assam Royal Global University (RGU) is set to host the Northeast Zone Inter University Football (Men) Tournament 2025–2026 organised under the aegis of the Association of Indian Universities (AIU). The tournament will be held from January 5 to January 11, 2026, at the RGU campus.',
                         ],
                         [
-                            'title' =>
-                                'Life-Size Statue of Zubeen Garg Unveiled at Royal Global University',
+                            'title' => 'Life-Size Statue of Zubeen Garg Unveiled at Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, December 17, 2025:',
-                            'link' =>
-                                'life-size-statue-of-zubeen-garg-unveiled-at-royal-global-university',
+                            'link' => 'life-size-statue-of-zubeen-garg-unveiled-at-royal-global-university',
                             'image' => '/mobile-assets/media-corner/news78/11.jpeg',
                             'content' =>
                                 'In a moving tribute to Assam’s beloved cultural icon Zubeen Garg, a life-size statue of the legendary musician has been unveiled today at the campus of The Assam Royal Global University (RGU).',
                         ],
                         [
-                            'title' =>
-                                'Prof. Mihir Kanti Chaudhuri Memorial Oration held at RGU',
+                            'title' => 'Prof. Mihir Kanti Chaudhuri Memorial Oration held at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, December 16, 2025:',
-                            'link' =>
-                                'prof-mihir-kanti-chaudhuri-memorial-oration-held-at-rgu',
+                            'link' => 'prof-mihir-kanti-chaudhuri-memorial-oration-held-at-rgu',
                             'image' => '/mobile-assets/media-corner/news78/1.jpeg',
                             'content' =>
                                 'The first Prof. Mihir Kanti Chaudhuri Memorial Oration was held at The Assam Royal Global University (RGU) today in remembrance of the eminent scientist and academician who guided RGU as its Chief Advisor and passed away on December 13, 2024.',
