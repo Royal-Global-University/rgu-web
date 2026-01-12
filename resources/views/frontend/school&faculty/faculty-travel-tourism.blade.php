@@ -183,7 +183,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Piyush-Gupta-RSHM.png"
                                     alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Mr. Piyush Gupta</h3>
+                            <h3 class="card-name">Dr. Piyush Gupta</h3>
                             <p class="card-designation">Assistant Professor & Coordinator, RSHM</p>
                             <a href="https://www.rgu.ac/faculty-piyush-gupta" class="profile-link">View Profile</a>
                         </div>
