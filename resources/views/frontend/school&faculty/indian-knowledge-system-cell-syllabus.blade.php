@@ -42,8 +42,8 @@
 
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <!--About Section-->
-        <div style="padding-top: 90px; position: relative;" class="container">
+
+        {{-- <div style="padding-top: 90px; position: relative;" class="container">
             <div style="background-image: url(mobile-assets/dept-indian-knowledge-sys/bg.svg)" class="pb-5">
 
                 <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4 pb-4"
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!--End Section-->
+        </div> --}}
+
     </div>
 @endsection
