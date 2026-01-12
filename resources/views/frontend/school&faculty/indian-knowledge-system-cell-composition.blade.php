@@ -4,426 +4,259 @@
 
         <div class="mobile">
             @include('frontend/components/mobileheader')
-          <h2 class="headd2 mb-3 fw-bold text-center kd-title-ani kd-split-text"
-            style="color: #27467A; font-weight: 900; padding-top: 110px;">
-              Indian knowledge <br><span style="color: #FF9A1E; font-weight: 500;"> System Committee</span></h2>
-
-          <div style="padding: 20px 35px;">
-
-            <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/alakkumarburagohain.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Prof. Alak Kumar Buragohain
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Head, IKS Cell
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <hr>
-
-            <div class="row" style="display: flex; align-items: center; justify-content: center;">
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Prof.(Dr.)ShielaBora.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Prof. Shiela Bora
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Advisor, IKS Cell
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-               <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Dr.AmlanDas.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Prof. Amlan Das
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Co-Coordinator, IKS Cell
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Dr.SaswatiBordoloi.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Saswati Bordoloi
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Co-Coordinator, IKS Cell
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Mr.TinkuMoniDas.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                       Mr. Tinku Moni Das
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Faculty Member, IKS Cell
-                    </p>
-                    <a href="faculty-tinku">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Ms.MonalishaMedhi.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                       Ms. Monalisha Medhi
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Faculty Member, IKS Cell
-                    </p>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Ms.MonalishaMedhi.jpg"
-                                    class="img-fluid rounded border" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                                    Ms. Monalisha Medhi
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">
-                                    Faculty Member, IKS Cell
-                                </p>
-                                <a href="faculty-monalisha-medhi">
-                                    <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Susmita.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Susmita Banerjee
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Faculty Member, IKS Cell
-                    </p>
-                    <a href="faculty-susmita-banerjee">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Pranab.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Pranab Jyoti Sarma
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor & Assistant Dean, Academic Affairs, IKS Cell
-                    </p>
-                    <a href="faculty-pranab-sarma">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-            <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                    <div class="p-3">
-                        <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mr-Kadiguang-Panmei.png"
-                            class="img-fluid rounded border" />
-                    </div>
-                    <div class="card-body d-flex flex-column flex-grow-1">
-                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                            Mr. Kadiguang Panmei
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                            Assistant Professor
-                        </p>
-                        <a href="faculty-kadiguang-panmei">
-                            <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-
-            </div>
-
-          </div>
-
+            <div style="padding-top: 120px;"></div>
         </div>
 
         <div class="website">
             @include('frontend/components/aheader')
-          <h2 class="headd1 mb-5 fw-bold text-center kd-title-ani kd-split-text pt-5"
-            style="color: #27467A; font-weight: 900;">
-              Indian knowledge<span style="color: #FF9A1E; font-weight: 500;"> System Committee</span></h2>
+        </div>
 
-          <div style="padding: 20px 70px;">
+        <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
-            <div class="row" style="display: flex; align-items: center; justify-content: center;">
+            <div class="mobile" style="padding-top: 80px; position: relative;">
 
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/alakkumarburagohain.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Prof. Alak Kumar Buragohain
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Head, IKS Cell
-                    </p>
-                  </div>
-                </div>
-              </div>
+                <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
+                    style="color: #27467A; font-weight: 900;">
+                    Indian knowledge <br><span style="color: #FF9A1E; font-weight: 500;"> Systems Committee (IKS)</span></h2>
 
             </div>
 
-            <hr>
+            <div class="website">
 
-            <div class="row" style="display: flex; align-items: center; justify-content: center;">
+                <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
+                    style="color: #27467A; font-weight: 900;">
+                    Indian knowledge <span style="color: #FF9A1E; font-weight: 500;"> Systems Committee (IKS)</span></h2>
 
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Prof.(Dr.)ShielaBora.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Prof. Shiela Bora
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Advisor, IKS Cell
-                    </p>
-                  </div>
-                </div>
-              </div>
+            </div>
 
-               <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Dr.AmlanDas.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Prof. Amlan Das
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Co-Coordinator, IKS Cell
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <style>
+                /* Basic Page Styling */
+                .section-f {
+                    padding: 2rem 0;
+                }
 
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Dr.SaswatiBordoloi.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Saswati Bordoloi
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Co-Coordinator, IKS Cell
-                    </p>
-                    <a href="faculty-saswati-bordoloi">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
+                /* Individual Card Styling */
+                .card {
+                    background-color: #ffffff;
+                    border-radius: 5px;
+                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                    padding: 0.7rem;
+                    text-align: left;
+                    border: none;
+                    width: 100%;
+                    height: 100%;
 
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Mr.TinkuMoniDas.jpeg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                       Mr. Tinku Moni Das
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Faculty Member, IKS Cell
-                    </p>
-                    <a href="faculty-tinku">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
+                    /* Flexbox for vertical alignment */
+                    display: flex;
+                    flex-direction: column;
 
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Ms.MonalishaMedhi.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                       Ms. Monalisha Medhi
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Faculty Member, IKS Cell
-                    </p>
-                    <a href="faculty-monalisha-medhi">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                }
+
+                /* Hover effect for the card */
+                .card:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+                }
+
+                /* Image container */
+                .card-image {
+                    width: 100%;
+                    padding-top: 100%;
+                    position: relative;
+                    border-radius: 5%;
+                    overflow: hidden;
+                    margin: 0 auto 1.0rem;
+                    border: 2px solid #f0f2f5;
+                }
+
+                .card-image img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                /* Name/Heading Styling */
+                .card-name {
+                    font-family: 'Times New Roman', Times, serif;
+                    margin: 0 0 0.5rem 0;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    color: #333;
+                    line-height: 1.2;
+                    color: #24477f;
+                }
+
+                /* Designation/Paragraph Styling */
+                .card-designation {
+                    font-family: 'Times New Roman', Times, serif;
+                    margin: 0;
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    color: #666;
+                    line-height: 1.4;
+                }
+
+                /* New Styling for the Profile Link */
+                .profile-link {
+                    font-family: 'Times New Roman', Times, serif;
+                    margin-top: auto;
+                    /* This is the magic property! */
+                    padding-top: 0.5rem;
+                    font-size: 1.1rem;
+                    font-weight: 800;
+                    text-decoration: none;
+                    color: #FF9A1E;
+                }
+
+                .profile-link:hover {
+                    text-decoration: underline;
+                }
+            </style>
+
+            <div class="section-f">
+                <div class="container">
+
+                    <!-- regular faculty  -->
+                    <div class="row justify-content-center">
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://media.rgu.ac/iks/alakkumarburagohain.png" alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Prof. Alak Kumar Buragohain</h3>
+                                <p class="card-designation">Head, IKS Cell</p>
+                                <!-- <a href="" class="profile-link">View Profile</a> -->
+                            </div>
+                        </div>
 
 
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Susmita Banerjee
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Faculty Member, IKS Cell
-                    </p>
-                    <a href="faculty-susmita-banerjee">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 mb-4">
-                <div class="card rounded d-flex flex-column"520px
-                  style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                  <div class="p-3">
-                    <img style="height: 310px; width: 100%;" src="https://media.rgu.ac/iks/Pranab.jpg"
-                      class="img-fluid rounded border" />
-                  </div>
-                  <div class="card-body d-flex flex-column flex-grow-1">
-                    <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                      Dr. Pranab Jyoti Sarma
-                    </h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">
-                      Assistant Professor & Assistant Dean, Academic Affairs, IKS Cell
-                    </p>
-                    <a href="faculty-pranab-sarma">
-                        <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-            <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column"
-                    style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                    <div class="p-3">
-                        <img style="height: 310px; width: 100%;" src="mobile-assets/updated-faculty-img/Mr-Kadiguang-Panmei.png"
-                            class="img-fluid rounded border" />
                     </div>
-                    <div class="card-body d-flex flex-column flex-grow-1">
-                        <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">
-                            Mr. Kadiguang Panmei
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">
-                            Assistant Professor
-                        </p>
-                        <a href="faculty-kadiguang-panmei">
-                            <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">View Profile</p>
-                        </a>
+
+                    <div class="row justify-content-center">
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://media.rgu.ac/iks/Prof.(Dr.)ShielaBora.jpg" alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Prof. Shiela Bora</h3>
+                                <p class="card-designation">Advisor, IKS Cell</p>
+                                <a href="https://www.rgu.ac/faculty-shiela-bora" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Amlan-Das-RSBSC.png"
+                                        alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Prof. Amlan Das</h3>
+                                <p class="card-designation">Co-Coordinator, IKS Cell</p>
+                                <a href="https://www.rgu.ac/faculty-amlan-das" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://media.rgu.ac/iks/Dr.SaswatiBordoloi.jpeg" alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Dr. Saswati Bordoloi</h3>
+                                <p class="card-designation">Co-Coordinator, IKS Cell</p>
+                                <a href="https://www.rgu.ac/faculty-saswati-bordoloi" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://media.rgu.ac/iks/Mr.TinkuMoniDas.jpeg" alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Mr. Tinku Moni Das</h3>
+                                <p class="card-designation">Faculty Member, IKS Cell</p>
+                                <a href="https://www.rgu.ac/faculty-tinku" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://media.rgu.ac/iks/Ms.MonalishaMedhi.jpg" alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Ms. Monalisha Medhi</h3>
+                                <p class="card-designation">Faculty Member, IKS Cell</p>
+                                <a href="https://www.rgu.ac/faculty-monalisha-medhi" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Susmita-Banerjee-RSHSS.png"
+                                        alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Dr. Susmita Banerjee</h3>
+                                <p class="card-designation">Faculty Member, IKS Cell</p>
+                                <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://media.rgu.ac/iks/Pranab.jpg" alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Dr. Pranab Jyoti Sarma</h3>
+                                <p class="card-designation">Assistant Professor & Assistant Dean, Academic Affairs, IKS Cell
+                                </p>
+                                <a href="https://www.rgu.ac/faculty-pranab-sarma" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Mr-Kadiguang-Panmei.png"
+                                        alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Mr. Kadiguang Panmei</h3>
+                                <p class="card-designation">Assistant Professor</p>
+                                <a href="https://www.rgu.ac/faculty-kadiguang-panmei" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Palme-Borthakur.png"
+                                        alt="Profile image">
+                                </div>
+                                <h3 class="card-name">Dr. Palme Borthakur</h3>
+                                <p class="card-designation">Assistant Professor</p>
+                                <a href="https://www.rgu.ac/faculty-palme-borthakur" class="profile-link">View Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4"></div>
+
+                        <div class="col-lg-3 col-md-6 mb-4"></div>
+
+                        <div class="col-lg-3 col-md-6 mb-4"></div>
+
+
                     </div>
+                    <!-- regular faculty  -->
+
                 </div>
             </div>
-
-
-            </div>
-
-          </div>
 
         </div>
 
-      </section>
+    </section>
 @endsection
