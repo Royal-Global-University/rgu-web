@@ -368,7 +368,7 @@
                                 <td>
                                     Ms. Pradipta Shyam, Assistant Professor, Forensic Sc.
                                     <hr>
-                                    Ms Meghna Bordoloi, Teaching Assistant
+                                    Ms Meghna Bordoloi, Assistant Professor
                                 </td>
                             </tr>
                         </tbody>
@@ -1223,7 +1223,7 @@
                                 <td>
                                     Ms. Pradipta Shyam, Assistant Professor, Forensic Sc.
                                     <hr>
-                                    Ms Meghna Bordoloi, Teaching Assistant
+                                    Ms Meghna Bordoloi, Assistant Professor
                                 </td>
                             </tr>
                         </tbody>

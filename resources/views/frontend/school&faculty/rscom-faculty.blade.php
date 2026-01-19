@@ -447,7 +447,7 @@
                                     alt="Profile image of Ankit Bordoloi">
                             </div>
                             <h3 class="card-name">Mr. Ankit Bordoloi</h3>
-                            <p class="card-designation">Teaching Assistant</p>
+                            <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-ankit-bordoloi" class="profile-link">View Profile</a>
                         </div>
                     </div>

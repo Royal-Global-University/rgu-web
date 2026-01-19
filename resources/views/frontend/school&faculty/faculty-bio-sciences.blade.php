@@ -697,7 +697,7 @@
                                     alt="Profile image of Megna Bordoloi">
                             </div>
                             <h3 class="card-name">Ms. Meghna Bordoloi</h3>
-                            <p class="card-designation">Teaching Assistant</p>
+                            <p class="card-designation">Assistant Professor</p>
                             <!-- <a href="" class="profile-link">View Profile</a> -->
                         </div>
                     </div>
