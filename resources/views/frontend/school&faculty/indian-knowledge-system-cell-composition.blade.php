@@ -123,44 +123,6 @@
                     <!-- regular faculty  -->
                     <div class="row justify-content-center">
 
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="https://media.rgu.ac/iks/alakkumarburagohain.png" alt="Profile image">
-                                </div>
-                                <h3 class="card-name">Prof. Alak Kumar Buragohain</h3>
-                                <p class="card-designation">Head, IKS Cell</p>
-                                <!-- <a href="" class="profile-link">View Profile</a> -->
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="row justify-content-center">
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="https://media.rgu.ac/iks/Prof.(Dr.)ShielaBora.jpg" alt="Profile image">
-                                </div>
-                                <h3 class="card-name">Prof. Shiela Bora</h3>
-                                <p class="card-designation">Advisor, IKS Cell</p>
-                                <a href="https://www.rgu.ac/faculty-shiela-bora" class="profile-link">View Profile</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Amlan-Das-RSBSC.png"
-                                        alt="Profile image">
-                                </div>
-                                <h3 class="card-name">Prof. Amlan Das</h3>
-                                <p class="card-designation">Co-Coordinator, IKS Cell</p>
-                                <a href="https://www.rgu.ac/faculty-amlan-das" class="profile-link">View Profile</a>
-                            </div>
-                        </div>
 
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
@@ -219,6 +181,13 @@
                             </div>
                         </div>
 
+
+                    </div>
+                    <!-- regular faculty  -->
+
+                    <!-- Adjuct faculty  -->
+                    <div class="row justify-content-center">
+
                         <div class="col-lg-3 col-md-6 mb-4">
                             <div class="card">
                                 <div class="card-image">
@@ -243,15 +212,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 mb-4"></div>
-
-                        <div class="col-lg-3 col-md-6 mb-4"></div>
-
-                        <div class="col-lg-3 col-md-6 mb-4"></div>
-
-
                     </div>
-                    <!-- regular faculty  -->
+                    <!-- Adjuct faculty  -->
 
                 </div>
             </div>
