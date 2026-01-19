@@ -3058,6 +3058,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/pre-magh-bihu-and-uruka-celebrated-at-royal-global-university', function () {
+    return view('frontend/media-corner/news88');
+})->name('pre-magh-bihu-and-uruka-celebrated-at-royal-global-university');
+
 Route::get('/north-east-zone-inter-university-football-men-tournament-2025-26-concludes-at-rgu', function () {
     return view('frontend/media-corner/news87');
 })->name('north-east-zone-inter-university-football-men-tournament-2025-26-concludes-at-rgu');

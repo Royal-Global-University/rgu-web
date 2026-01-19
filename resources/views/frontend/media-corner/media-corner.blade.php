@@ -47,6 +47,17 @@
                     $newsItems = [
                         [
                             'title' =>
+                                'Pre Magh Bihu and Uruka Celebrated at Royal Global University',
+                            'summary' => '',
+                            'date' => 'Guwahati, January 12, 2026:',
+                            'link' =>
+                                'pre-magh-bihu-and-uruka-celebrated-at-royal-global-university',
+                            'image' => 'mobile-assets/media-corner/news81/1.jpeg',
+                            'content' =>
+                                'Royal Global University (RGU) celebrated Pre Magh Bihu and Uruka with great enthusiasm and traditional fervour at its campus today, reflecting the warmth, unity and cultural richness of Assam’s harvest festival.',
+                        ],
+                        [
+                            'title' =>
                                 'North East Zone Inter-University Football (Men) Tournament 2025–26 Concludes at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, January 12, 2026:',

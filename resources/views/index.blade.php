@@ -1051,9 +1051,9 @@
                             <div class="gg1920-carousel-slide">
                                 <img src="mobile-assets/ads/1.png" alt="Slide 1">
                             </div>
-                            <div class="gg1920-carousel-slide">
+                            {{-- <div class="gg1920-carousel-slide">
                                 <img src="mobile-assets/ads/2.png" alt="Slide 2">
-                            </div>
+                            </div> --}}
 
                         </div>
                     </div>
@@ -1208,23 +1208,23 @@
                                     </a>
                                 </div> --}}
 
-                                <div class="swiper-slide">
+                                {{-- <div class="swiper-slide">
                                     <a href="/ncmpac-2026">
                                         <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
                                             src="/mobile-assets/TRY/sq-1.jpg" alt="">
                                     </a>
-                                </div>
+                                </div> --}}
 
                                 <div class="swiper-slide">
                                     <a href="ICETIEDS–2026">
-                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                        <img style="width:100%; height:640px; object-fit:cover; border:1px solid #fff;"
                                             src="/mobile-assets/confrence/ICETIEDS.jpeg" alt="">
                                     </a>
                                 </div>
 
                                 <div class="swiper-slide">
                                     <a href="bioe3-conference">
-                                        <img style="width:100%; height:500px; object-fit:cover; border:1px solid #fff;"
+                                        <img style="width:100%; height:640px; object-fit:cover; border:1px solid #fff;"
                                             src="/mobile-assets/TRY/sq-2.jpg" alt="">
                                     </a>
                                 </div>
@@ -1240,7 +1240,7 @@
 
                     <script>
                         const myImageSlider = new Swiper('.myImageSlider', {
-                            slidesPerView: 3,
+                            slidesPerView: 2,
                             spaceBetween: 20,
                             slidesPerGroup: 1,
                             loop: true,
@@ -1260,7 +1260,7 @@
                                     slidesPerView: 2
                                 },
                                 1024: {
-                                    slidesPerView: 3
+                                    slidesPerView: 2
                                 }
                             }
                         });
@@ -1420,6 +1420,29 @@
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news81/1.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    Pre Magh Bihu and Uruka Celebrated at RGU
+                                                </p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">January 12,
+                                                    2026
+                                                </p>
+                                                <a
+                                                    href="/pre-magh-bihu-and-uruka-celebrated-at-royal-global-university">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
                                                     src="mobile-assets/media-corner/news80/121.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-7">
@@ -1459,30 +1482,6 @@
                                                 </a>
                                             </div>
                                         </div>
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news80/81.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    National Conference on Frontiers in Modern Physics begins at RGU
-                                                </p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">January 8,
-                                                    2026
-                                                </p>
-                                                <a
-                                                    href="/national-conference-on-frontiers-in-modern-physics-begins-at-rgu">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
 
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">
