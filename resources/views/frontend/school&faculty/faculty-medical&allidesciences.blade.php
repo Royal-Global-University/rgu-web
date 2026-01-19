@@ -446,7 +446,7 @@
                             </div>
                             <h3 class="card-name">Ms. Zomuanpuii</h3>
                             <p class="card-designation">Assistant Professor & Coordinator, OTT</p>
-                            <a href="" class="profile-link">View Profile</a>
+                            <a href="/faculty-zomuanpuii" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -727,7 +727,7 @@
                                 </div>
                                 <h3 class="card-name">Miss. Meghna Guha</h3>
                                 <p class="card-designation">Assistant Professor and Coordinator</p>
-                                <!-- <a href="" class="profile-link">View Profile</a> -->
+                                <a href="/faculty-meghna-guha" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -739,7 +739,7 @@
                                 </div>
                                 <h3 class="card-name">Ms. Anudeep Kaur</h3>
                                 <p class="card-designation">Assistant Professor</p>
-                                <!-- <a href="" class="profile-link">View Profile</a> -->
+                                <a href="/faculty-anudeep-kaur" class="profile-link">View Profile</a>
                             </div>
                         </div>
 
@@ -1222,7 +1222,7 @@
                             </div>
                             <h3 class="card-name">Ms. Zomuanpuii</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-zomuanpuii" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

@@ -3833,6 +3833,18 @@ Route::get('/faculty-sthiti-dutta', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-zomuanpuii', function () {
+    return view('frontend/facultyprofile/rsmas/zomuanpuii');
+})->name('faculty-zomuanpuii');
+
+Route::get('/faculty-meghna-guha', function () {
+    return view('frontend/facultyprofile/rsmas/meghna-guha');
+})->name('faculty-meghna-guha');
+
+Route::get('/faculty-anudeep-kaur', function () {
+    return view('frontend/facultyprofile/rsmas/anudeep-kaur');
+})->name('faculty-anudeep-kaur');
+
 Route::get('/faculty-shagufta-rizwana', function () {
     return view('frontend/facultyprofile/rsmas/shagufta-rizwana');
 })->name('faculty-shagufta-rizwana');
@@ -4303,6 +4315,10 @@ Route::get('/faculty-palme-borthakur', function () {
 
 
 //RSHM-RSTTM Faculty Profile
+
+Route::get('/faculty-ajeet-kr-singh', function () {
+    return view('frontend/facultyprofile/rshm-rsttm/ajeet-kr-singh');
+})->name('faculty-ajeet-kr-singh');
 
 Route::get('/faculty-m-p-verma', function () {
     return view('frontend/facultyprofile/rshm-rsttm/m-p-verma');
