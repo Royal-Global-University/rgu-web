@@ -117,7 +117,7 @@
                             </div>
                             <h3 class="card-name">Dr. Hirak Jyoti Hazarika</h3>
                             <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs & HoD, Library Science</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-hirak-jyoti-hazarika" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -129,7 +129,7 @@
                             </div>
                             <h3 class="card-name">Dr. Md. Mukutor Rahman</h3>
                             <p class="card-designation">Assistant Professor cum Incharge Librarian</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-mukutor-rahman" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -141,7 +141,7 @@
                             </div>
                             <h3 class="card-name">Dr. Nilanjana Purkayastha</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-nilanjana-purkayastha" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

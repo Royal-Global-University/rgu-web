@@ -3,12 +3,13 @@
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
     <div class="mobile">
+        @include('frontend/components/mobileheader')
       <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="padding-top: 80px; position: relative; color: #27467A; font-weight: 900;">
         Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Architecture (RSA)</span></h2>
     </div>
 
     <div class="website">
-
+        @include('frontend/components/aheader')
       <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
         Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Architecture (RSA)</span></h2>
 
@@ -195,6 +196,18 @@
               <h3 class="card-name">Ar. Jagriti Pathak</h3>
               <p class="card-designation">Assistant Professor</p>
               <a href="https://www.rgu.ac/faculty-jagriti-pathak" class="profile-link">View Profile</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="mobile-assets/updated-faculty-img/Krutika.png"
+                  alt="Profile image">
+              </div>
+              <h3 class="card-name">Ar. Krutika Madkeikar</h3>
+              <p class="card-designation">Assistant Professor</p>
+              {{-- <a href="https://www.rgu.ac/faculty-jagriti-pathak" class="profile-link">View Profile</a> --}}
             </div>
           </div>
 

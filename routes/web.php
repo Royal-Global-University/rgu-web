@@ -3831,6 +3831,22 @@ Route::get('/faculty-sthiti-dutta', function () {
     return view('frontend/facultyprofile/rslsc/stithi');
 })->name('faculty-sthiti-dutta');
 
+
+//RSLISC FACULTY Profile
+
+Route::get('/faculty-hirak-jyoti-hazarika', function () {
+    return view('frontend/facultyprofile/rslisc/hirak-jyoti-hazarika');
+})->name('faculty-hirak-jyoti-hazarika');
+
+Route::get('/faculty-mukutor-rahman', function () {
+    return view('frontend/facultyprofile/rslisc/mukutor-rahman');
+})->name('faculty-mukutor-rahman');
+
+Route::get('/faculty-nilanjana-purkayastha', function () {
+    return view('frontend/facultyprofile/rslisc/nilanjana-purkayastha');
+})->name('faculty-nilanjana-purkayastha');
+
+
 //RSMAS FACULTY Profile
 
 Route::get('/faculty-tridip-puzari', function () {
