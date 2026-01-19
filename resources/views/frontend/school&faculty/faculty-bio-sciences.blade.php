@@ -537,7 +537,7 @@
                             </div>
                             <h3 class="card-name">Ms. Smita Das</h3>
                             <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs & Coordinator, Optometry</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-smita-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

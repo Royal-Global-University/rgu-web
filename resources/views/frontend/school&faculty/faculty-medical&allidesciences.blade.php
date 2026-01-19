@@ -309,7 +309,7 @@
                             <h3 class="card-name">Ms. Smita Das</h3>
                             <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs &
                                 Coordinator, Optometry</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-smita-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -321,7 +321,7 @@
                             </div>
                             <h3 class="card-name">Ms. Bhayolina Sarma</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-bhayolina-sarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -345,7 +345,7 @@
                             </div>
                             <h3 class="card-name">Ms. Joyshree Das</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-joyshree-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -357,7 +357,7 @@
                             </div>
                             <h3 class="card-name">Mr. Krishanjit Parasar</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-krishanjit-parasar" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -369,7 +369,7 @@
                             </div>
                             <h3 class="card-name">Ms. Lipika Kalita</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-lpika-kalita" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1210,7 +1210,7 @@
                             <h3 class="card-name">Ms. Smita Das</h3>
                             <p class="card-designation">Assistant Professor, Assistant Dean, Academic Affairs &
                                 Coordinator, Optometry</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-smita-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
