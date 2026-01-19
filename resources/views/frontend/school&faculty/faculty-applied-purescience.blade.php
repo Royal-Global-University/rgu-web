@@ -353,7 +353,7 @@
                                 <img src="mobile-assets/updated-faculty-img/Abhinav-Chaliha-RSHSS.png"
                                     alt="Profile image of Prof. Abhinav Chaliha">
                             </div>
-                            <h3 class="card-name">Prof. Abhinav Chaliha</h3>
+                            <h3 class="card-name">Mr. Abhinav Chaliha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-abhinav-chaliha" class="profile-link">View Profile</a>
                         </div>

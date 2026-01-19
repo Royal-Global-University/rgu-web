@@ -452,7 +452,7 @@
                                     alt="Profile image of Ms. Ananya Banik">
                             </div>
                             <h3 class="card-name">Ms. Ananya Banik</h3>
-                            <p class="card-designation">Teaching Assistant</p>
+                            <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-dr-ananya-banik" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -464,7 +464,7 @@
                                     alt="Profile image of Ms. Ananya Banik">
                             </div>
                             <h3 class="card-name">Ms. Jimpy Saud</h3>
-                            <p class="card-designation">Teaching Assistant</p>
+                            <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-jimpy-saud" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -478,7 +478,7 @@
                                     alt="Profile image of Ms. Neha Tiwari">
                             </div>
                             <h3 class="card-name">Ms. Prachi Khetan</h3>
-                            <p class="card-designation">Teaching Assistant</p>
+                            <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-prachi-khetan" class="profile-link">View Profile</a>
                         </div>
                     </div>

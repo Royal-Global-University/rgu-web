@@ -260,7 +260,7 @@
                                     alt="Profile image ">
                             </div>
                             <h3 class="card-name">Mr. Dijendra Das</h3>
-                            <p class="card-designation">Teaching Assistant</p>
+                            <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-dijendra" class="profile-link">View Profile</a>
                         </div>
                     </div>
@@ -822,18 +822,6 @@
                             <h3 class="card-name">Ar. Kasturi Borah</h3>
                             <p class="card-designation">Associate Professor & Associate Dean, Academic Affairs</p>
                             <a href="https://www.rgu.ac/faculty-kasturi-borah" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Visiting%20Faculty/Manas%20Pratim%20Gogoi.jpg"
-                                    alt="Profile image of Mr. Manas Pratim Gogoi">
-                            </div>
-                            <h3 class="card-name">Mr. Manas Pratim Gogoi</h3>
-                            <p class="card-designation">Visiting Faculty</p>
-                            <a href="https://www.rgu.ac/faculty-manas-pratim" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
