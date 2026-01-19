@@ -1214,18 +1214,17 @@
                                             src="/mobile-assets/TRY/sq-1.jpg" alt="">
                                     </a>
                                 </div> --}}
+                                <div class="swiper-slide">
+                                    <a href="bioe3-conference">
+                                        <img style="width:100%; height:640px; object-fit:cover; border:1px solid #fff;"
+                                            src="/mobile-assets/TRY/sq-2.jpg" alt="">
+                                    </a>
+                                </div>
 
                                 <div class="swiper-slide">
                                     <a href="ICETIEDS–2026">
                                         <img style="width:100%; height:640px; object-fit:cover; border:1px solid #fff;"
                                             src="/mobile-assets/confrence/ICETIEDS.jpeg" alt="">
-                                    </a>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <a href="bioe3-conference">
-                                        <img style="width:100%; height:640px; object-fit:cover; border:1px solid #fff;"
-                                            src="/mobile-assets/TRY/sq-2.jpg" alt="">
                                     </a>
                                 </div>
 
