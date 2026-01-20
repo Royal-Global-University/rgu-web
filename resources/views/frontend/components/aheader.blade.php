@@ -410,11 +410,11 @@
                         </li>
                         <li><a class="dropdown-item text-dark para1" href="{{ route('frro-process') }}"
                                 style="font-size: 20px; font-weight: 500; padding: 6px 20px;">FRRO Process</a></li>
-                        <li><a class="dropdown-item text-dark para1"
+                        {{-- <li><a class="dropdown-item text-dark para1"
                                 href="https://heyzine.com/flip-book/adfd7889ba.html"
                                 style="font-size: 20px; font-weight: 500; padding: 6px 20px;">International
                                 Brochure</a>
-                        </li>
+                        </li> --}}
                         <li><a class="dropdown-item text-dark para1" href="{{ route('how-to-apply-international') }}"
                                 style="font-size: 20px; font-weight: 500; padding: 6px 20px;">How to Apply?</a></li>
                         <li><a class="dropdown-item text-dark para1"

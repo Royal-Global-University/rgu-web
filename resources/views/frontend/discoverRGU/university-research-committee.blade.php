@@ -1,5 +1,3 @@
-
-
 @extends('frontend.master')
 @section('content')
     <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
@@ -13,8 +11,7 @@
 
         <div class="website">
             @include('frontend/components/aheader')
-            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
-                style="color: #27467A; font-weight: 900;">
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                 University Research <span style="color: #FF9A1E; font-weight: 500;"> Committee</span></h2>
 
         </div>
@@ -123,7 +120,7 @@
                             </tr>
                             <tr>
                                 <td>2.</td>
-                                <td>Dr. Diganta Munshi</td>
+                                <td>Prof. (Dr.) Diganta Munshi</td>
                                 <td>Registrar – Administration, Director IQAC, Dean RSET & RSIT</td>
                                 <td>Member</td>
                             </tr>

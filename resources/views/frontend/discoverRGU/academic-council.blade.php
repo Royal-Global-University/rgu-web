@@ -1,993 +1,479 @@
 @extends('frontend.master')
-@push('styles')
-    <style>
-        .card {
-            position: relative;
-            background: white;
-            border-radius: 10px;
-
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-
-        .card::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            width: 40px;
-            /* Adjust size as needed */
-            height: 40px;
-            background: #E8A015;
-            /* Yellow color */
-            clip-path: polygon(100% 0, 0 100%, 100% 100%);
-        }
-    </style>
-@endpush
 @section('title', 'Academic Council : The Assam Royal Global University')
-@section('meta_description', 'Experience academic excellence shaped by the guidance of our esteemed Academic Council at Royal Global University.')
+@section('meta_description',
+    'Experience academic excellence shaped by the guidance of our esteemed Academic Council at
+    Royal Global University.')
 @section('meta_keywords', 'Academic Council')
 @section('content')
-    <div class="mobile">
-        @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
-            <section style="background-image: url('https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/bg.svg');">
-                <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4" style="color: #27467A; font-weight: 900;">
-                Academic <span style="color: #FF9A1E; font-weight: 500;">Council</span></h2>
+    <div style="background-image: url(mobile-assets/department-all/bg.svg); background-size: cover;">
 
-            <div style="padding: 20px 30px;">
-
-              <div class="row">
-
-                {{-- <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                            <div class="p-3">
-                              <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/1.jpg" class="img-fluid rounded"/>
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                              <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Y.S.R. Murthy</h5>
-                            <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor, <br> The Assam Royal Global University</p>
-
-                              <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Chairperson</p>
-                            </div>
-                        </div>
-                </div> --}}
-
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column"
-                        style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                            <img style="height: 290px; width: 100%;"
-                                src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/17.png"
-                                class="img-fluid rounded" />
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                            <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) A.K Buragohain
-                            </h5>
-                            <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor (Interim), RGU</p>
-
-                            <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Chairman</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/2.jpeg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Diganta Munshi</h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Registrar - Administration, The Assam Royal Global University</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member Secretary</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-
-                <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                    <div class="p-3">
-                      <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/3.png" class="img-fluid rounded"/>
-                    </div>
-                    <div class="card-body d-flex flex-column flex-grow-1">
-                      <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Anuradha Devi</h5>
-                    <p class="para1" style="color: #27467A; line-height: 1.3;">Dean, Royal School of Applied and Pure Sciences</p>
-
-                      <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-
-            <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25);">
-                <div class="p-3">
-                  <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/4.png" class="img-fluid rounded"/>
-                </div>
-                <div class="card-body d-flex flex-column flex-grow-1">
-                  <h5 style="font-weight: 600; color: #27467A; font-size: 20px;" class="card-title headd2 pb-2">Prof. (Dr.) Kaberi Saikia
-                </h5>
-                <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Professor Principal, Royal School of Nursing</p>
-                  <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                </div>
-            </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/5.png" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) N.K. Chrungoo
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Dean, Royal School of Life Sciences</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/6.png" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. George AP
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Dean, Royal School of Business and Royal School of Commerce
-                            </p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/7.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Sumanta Dutta Chowdhury
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor & Coordinator, Royal School of Fine Arts</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/8.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Aruna Dev Rroy
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HOD, RSC</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/9.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Pubalee Sarmah
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HoD, Chemistry</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/10.jpeg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Florence H. Rabha
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Head, Electronics Media and Anchoring, Royal School of Communications and Media</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/11.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Debajit Borah
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HoD, Biotechnology</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/12.jpeg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Lopa Das
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor and Coordinator, Royal Medical and Allied Sciences</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/13.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Tushti Sharma
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & HoD, Royal School of Languages</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/14.jpeg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Aneesha Borah
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Coordinator, Geography and Geoinformatics, Royal School of Earth and Environmental Sciences</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/15.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Prithviraj Chakraborty
-
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Principal/ HOD, Royal School of Pharmacy</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- add --}}
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/18.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Chandralekha Rawat
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Director, Delhi Public School, Guwahati</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/19.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Ghanshyam Das Dhanuka
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Managing Director of G R Dhanuka Group, Guwahati</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/20.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri Pradeep Purohit
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Chief Operating Officer, Star Cements Ltd.</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/21.png" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Ankur Pansari
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Executive Vice-President, GSF and Member of Governing Body, The Assam Royal Global University</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/Sikha.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Sikha M. Pansari
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Member of Governing Body, The Assam Royal Global University</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/23.jpeg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri R.S. Joshi
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">CMD, Buildworth Real Estate, Guwahati</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/24.png" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) L. K. Nath
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Professor and Dean, Royal School of Pharmacy</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/25.jpeg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) P. J. Mahanta
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, RSL</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/26.jpeg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Pronami Bhattacharyya
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, Royal School of Languages</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/27.jpg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Stuti Goswami
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor, Royal School of Languages</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/28.jpeg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Stithi Parna Dutta
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, Biochemistry, Royal School of BioSciences</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="card rounded d-flex flex-column" style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); ">
-                        <div class="p-3">
-                          <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/29.jpeg" class="img-fluid rounded"/>
-                        </div>
-                        <div class="card-body d-flex flex-column flex-grow-1">
-                          <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Arpee Saikia
-                        </h5>
-                        <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor, Royal School of Business & Coordinator, Behavioural Science</p>
-
-                          <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                        </div>
-                    </div>
-                </div>
-
-                </div>
-
-            </div>
-
-        </section>
+        <div class="mobile">
+            @include('frontend/components/mobileheader')
+            <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
+                style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
+                Academic <br><span style="color: #FF9A1E; font-weight: 500;"> Council</span></h2>
         </div>
-    </div>
 
-    <div class="website">
-        <!--Start Header-->
-        @include('frontend/components/aheader')
-        <!--End Header-->
-
-        <section style="background-image: url(https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/bg.svg); background-size: cover;">
-
+        <div class="website">
+            @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
-                Academic <span style="color: #FF9A1E; font-weight: 500;">Council</span></h2>
+                Academic <span style="color: #FF9A1E; font-weight: 500;"> Council</span></h2>
 
-            <div style="padding: 20px 80px;">
+        </div>
 
-                <div class="row">
+        <style>
+            /* Basic Page Styling */
+            .section-f {
+                padding: 2rem 0;
+            }
 
-                    {{-- <div class="col-lg-3 mb-4">
+            /* Individual Card Styling */
+            .card {
+                background-color: #ffffff;
+                border-radius: 5px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                padding: 0.7rem;
+                text-align: left;
+                border: none;
+                width: 100%;
+                height: 100%;
 
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/1.jpg"
-                                    class="img-fluid rounded" />
+                /* Flexbox for vertical alignment */
+                display: flex;
+                flex-direction: column;
+
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            /* Hover effect for the card */
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            }
+
+            /* Image container */
+            .card-image {
+                width: 100%;
+                padding-top: 100%;
+                position: relative;
+                border-radius: 5%;
+                overflow: hidden;
+                margin: 0 auto 1.0rem;
+                border: 2px solid #f0f2f5;
+            }
+
+            .card-image img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            /* Name/Heading Styling */
+            .card-name {
+                margin: 0 0 0.5rem 0;
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: #333;
+                line-height: 1.2;
+                color: #24477f;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            /* Designation/Paragraph Styling */
+            .card-designation {
+                margin: 0;
+                font-size: 1.2rem;
+                font-weight: 400;
+                color: #666;
+                line-height: 1.4;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            /* New Styling for the Profile Link */
+            .profile-link {
+                margin-top: auto;
+                /* This is the magic property! */
+                padding-top: 0.5rem;
+                font-size: 1.1rem;
+                font-weight: 800;
+                text-decoration: none;
+                color: #FF9A1E;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        </style>
+
+        <div class="section-f">
+            <div class="container">
+
+                <!-- regular faculty  -->
+                <div class="row justify-content-center">
+
+                    <!-- Academic Council -->
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/17.png"
+                                    alt="Profile image">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Y.S.R.
-                                    Murthy</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor, <br> The Assam Royal
-                                    Global University</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Chairperson
-                                </p>
-                            </div>
-                        </div>
-                    </div> --}}
-
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;"
-                                    src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/17.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) A.K
-                                    Buragohain
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Vice-Chancellor (Interim), RGU</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Chairman</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/2.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Diganta Munshi
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Registrar - Administration, The Assam
-                                    Royal Global University</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member
-                                    Secretary</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/3.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.)
-                                    Anuradha Devi</h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Dean, Royal School of Applied and
-                                    Pure Sciences</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/4.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A; font-size: 20px;" class="card-title headd2 pb-2">
-                                    Prof. (Dr.) Kaberi Saikia
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3; font-size: 16px;">Professor Principal,
-                                    Royal School of Nursing</p>
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/5.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) N.K.
-                                    Chrungoo
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Dean, Royal School of Life Sciences
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
+                            <h3 class="card-name">Prof. (Dr.) A.K. Buragohain</h3>
+                            <p class="card-designation">Vice-Chancellor (Interim), RGU</p>
+                            <a class="profile-link">Chairman</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/6.png"
-                                    class="img-fluid rounded" />
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/2.jpeg"
+                                    alt="Profile image">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. George AP
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Dean, Royal School of Business and
-                                    Royal School of Commerce
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Diganta Munshi</h3>
+                            <p class="card-designation">Registrar – Administration, The Assam Royal Global University
+                                (Member
+                                Secretary)</p>
+                            <a class="profile-link">Member Secretary</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/7.jpg"
-                                    class="img-fluid rounded" />
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/3.png"
+                                    alt="Profile image">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Sumanta Dutta
-                                    Chowdhury
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor & Coordinator,
-                                    Royal School of Fine Arts</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Anuradha Devi</h3>
+                            <p class="card-designation">Dean, Royal School of Applied and Pure Sciences</p>
+                            <a class="profile-link">Member</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/8.jpg"
-                                    class="img-fluid rounded" />
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/4.png"
+                                    alt="Profile image">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Aruna Dev Rroy
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HOD, RSC</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Kaberi Saikia</h3>
+                            <p class="card-designation">Professor (Principal), Royal School of Nursing</p>
+                            <a class="profile-link">Member</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/9.jpg"
-                                    class="img-fluid rounded" />
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/5.png"
+                                    alt="Profile image">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Pubalee Sarmah
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HoD, Chemistry
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/10.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Florence H.
-                                    Rabha
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Head, Electronics Media and
-                                    Anchoring, Royal School of Communications and Media</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/11.jpg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Debajit Borah
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor & HoD,
-                                    Biotechnology</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 530px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/12.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Lopa Das
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor and Coordinator,
-                                    Royal Medical and Allied Sciences</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/13.jpg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. Tushti Sharma
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & HoD, Royal School of
-                                    Languages</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/14.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Aneesha Borah
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor and Coordinator,
-                                    Geography and Geoinformatics, Royal School of Earth and Environmental Sciences</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/15.jpg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) Prithvi
-                                    Raj Chakraborty
-
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor & Principal/ HOD, Royal
-                                    School of Pharmacy</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
+                            <h3 class="card-name">Prof. (Dr.) N.K. Chrungoo</h3>
+                            <p class="card-designation">Dean, Royal School of Life Sciences</p>
+                            <a class="profile-link">Member</a>
                         </div>
                     </div>
 
-                    {{-- add --}}
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/18.jpg"
-                                    class="img-fluid rounded" />
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/6.png"
+                                    alt="Profile image">
                             </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Chandralekha
-                                    Rawat
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Director, Delhi Public School,
-                                    Guwahati</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/19.jpg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Ghanshyam Das
-                                    Dhanuka
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Managing Director of G R Dhanuka
-                                    Group, Guwahati</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/20.jpg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri Pradeep Purohit
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Chief Operating Officer, Star Cements
-                                    Ltd.</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/21.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Mr. Ankur Pansari
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Executive Vice-President, GSF and
-                                    Member of Governing Body, The Assam Royal Global University</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 550px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://media.rgu.ac/governing-body/Sikha.jpg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Ms. Sikha M.
-                                    Pansari
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Member of Governing Body, The Assam
-                                    Royal Global University</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/23.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Sri R.S. Joshi
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">CMD, Buildworth Real Estate, Guwahati
-                                </p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/24.png"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) L. K.
-                                    Nath
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor and Dean, Royal School of
-                                    Pharmacy</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/25.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Prof. (Dr.) P. J.
-                                    Mahanta
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Professor, RSL</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/26.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Pronami
-                                    Bhattacharyya
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, Royal School of
-                                    Languages</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/27.jpg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Stuti Goswami
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor, Royal School of
-                                    Languages</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/28.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Stithi Parna
-                                    Dutta
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Assistant Professor, Biochemistry,
-                                    Royal School of BioSciences</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                        <div class="card rounded d-flex flex-column"
-                            style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 520px;">
-                            <div class="p-3">
-                                <img style="height: 290px; width: 100%;" src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/29.jpeg"
-                                    class="img-fluid rounded" />
-                            </div>
-                            <div class="card-body d-flex flex-column flex-grow-1">
-                                <h5 style="font-weight: 600; color: #27467A;" class="card-title headd2 pb-2">Dr. Arpee Saikia
-                                </h5>
-                                <p class="para1" style="color: #27467A; line-height: 1.3;">Associate Professor, Royal School of
-                                    Business & Coordinator, Behavioural Science</p>
-
-                                <p class="card-text para1 half-underline mt-auto fw-bold" style="color: #FF9A1E;">Member</p>
-                            </div>
+                            <h3 class="card-name">Prof. George AP</h3>
+                            <p class="card-designation">Dean, Royal School of Business and Royal School of Commerce</p>
+                            <a class="profile-link">Member</a>
                         </div>
                     </div>
 
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Abhijit.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Abhijit Dutta</h3>
+                            <p class="card-designation">Professor & Dean, RSMAS</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sumanta-Dutta-Chowdhury.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Sumanta Dutta Chowdhury</h3>
+                            <p class="card-designation">Assistant Professor & Coordinator, Royal School of Fine Arts</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsc/3.jpg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Aruna Dev Rroy</h3>
+                            <p class="card-designation">Associate Professor & HOD, RSC</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Debajit-Borah-RSBSC.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Debajit Borah</h3>
+                            <p class="card-designation">Associate Professor & HOD, Biotechnology</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/14.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Aneesha Borah</h3>
+                            <p class="card-designation">Assistant Professor and Coordinator, Geography and Geoinformatics,
+                                Royal
+                                School of Earth and Environmental Sciences</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prof-Prithviraj-Chakraborty-RSP.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Prithvi Raj Chakraborty</h3>
+                            <p class="card-designation">Professor & Principal/ HOD, Royal School of Pharmacy</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/deepjyoti.jpg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Deepjyoti Choudhury</h3>
+                            <p class="card-designation">Associate Professor & HOD, Department of CSE, RSET</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Shiela-Bora-RSHSS.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) Shiela Bora</h3>
+                            <p class="card-designation">Professor & Advisor, Department of History, RSHSS</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/18.jpg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Chandralekha Rawat</h3>
+                            <p class="card-designation">Director, Delhi Public School, Guwahati</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/19.jpg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Ghanshyam Das Dhanuka</h3>
+                            <p class="card-designation">Managing Director of G R Dhanuka Group, Guwahati</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/20.jpg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Sri Pradeep Purohit</h3>
+                            <p class="card-designation">Chief Operating Officer, Star Cements Ltd.</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/no-pic.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Sri Anupam Deka</h3>
+                            <p class="card-designation">Director, Repose Foods Pvt. Ltd., Guwahati</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/no-pic.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Shri S. K. Baruah</h3>
+                            <p class="card-designation">
+                                CEO, North East Gas Distribution Company Ltd.; Former Managing Director, Numaligarh Refinery
+                                Ltd. &
+                                Former Chairman, CII – NE Council, India
+                            </p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/21.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Mr. Ankur Pansari</h3>
+                            <p class="card-designation">
+                                Executive Vice-President, GSF and Member of Governing Body, The Assam Royal Global
+                                University
+                            </p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://media.rgu.ac/governing-body/Sikha.jpg" alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Sikha M. Pansari</h3>
+                            <p class="card-designation">
+                                Member of Governing Body, The Assam Royal Global University
+                            </p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://bucket-0534zd.s3.ap-south-1.amazonaws.com/mobile-assets/academic-council/23.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Sri R. S. Joshi</h3>
+                            <p class="card-designation">CMD, Buildworth Real Estate, Guwahati</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/no-pic.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Ms. Angira Mimani</h3>
+                            <p class="card-designation">
+                                Associate Professor, RSB & Associate Dean, Student Affairs, RGU
+                            </p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pradip-Jyoti-Mahanta-RSL.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Prof. (Dr.) P. J. Mahanta</h3>
+                            <p class="card-designation">Professor, RSL</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Pronami-Bhattacharyya-RSL.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Pronami Bhattacharyya</h3>
+                            <p class="card-designation">Assistant Professor, Royal School of Languages</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Stuti-Goswami-RSL.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Stuti Goswami</h3>
+                            <p class="card-designation">Associate Professor, Royal School of Languages</p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Sthiti-Porna-Dutta.jpeg"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Stithi Parna Dutta</h3>
+                            <p class="card-designation">
+                                Assistant Professor, Biochemistry, Royal School of BioSciences
+                            </p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Arpee-Saikia-RSB.png"
+                                    alt="Profile image">
+                            </div>
+                            <h3 class="card-name">Dr. Arpee Saikia</h3>
+                            <p class="card-designation">
+                                Associate Professor, Royal School of Business & Coordinator, Behavioural Science
+                            </p>
+                            <a class="profile-link">Member</a>
+                        </div>
+                    </div>
                 </div>
+                <!-- regular faculty  -->
 
             </div>
+        </div>
 
-            </section>
     </div>
 @endsection

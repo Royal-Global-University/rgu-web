@@ -1,6 +1,7 @@
 @extends('frontend.master')
 @section('title', 'RGU Vice Chancellor: Prof. Y.S.R. Murthy & University Officers List')
-@section('meta_description', 'Meet RGU Vice Chancellor, Prof. (Dr.) Y.S.R. Murthy. View the profiles of the Registrar
+@section('meta_description',
+    'Meet RGU Vice Chancellor, Prof. (Dr.) Y.S.R. Murthy. View the profiles of the Registrar
     (Dr. Dilip Narayan Singh), Chairman, and all key university officers. Check Leadership!')
 @section('meta_keywords', 'Officers')
 @section('content')
@@ -382,7 +383,7 @@
     },
     {
       "@type": "Person",
-      "name": "Dr. Diganta Munshi",
+      "name": "Prof. (Dr.) Diganta Munshi",
       "jobTitle": "Registrar - Administration",
       "url": "https://www.rgu.ac/officers-register-admin"
     },

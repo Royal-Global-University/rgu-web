@@ -1,10 +1,9 @@
 @extends('frontend.master')
 @section('content')
-
-
     <div class="mobile" style="">
         @include('frontend/components/mobileheader')
-        <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
+        <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5"
+            style="color: #27467A; font-weight: 900; padding-top: 80px; position: relative;">
             Examination <br><span style="color: #FF9A1E; font-weight: 500;"> Committee</span></h2>
     </div>
 
@@ -113,7 +112,7 @@
                     <tbody class="mobile-para1">
                         <tr>
                             <td>1.</td>
-                            <td>Dr. Diganta Munshi</td>
+                            <td>Prof. (Dr.) Diganta Munshi</td>
                             <td>Registrar – Administration, Director IQAC, Dean RSET & RSIT</td>
                             <td>Chairperson</td>
                         </tr>

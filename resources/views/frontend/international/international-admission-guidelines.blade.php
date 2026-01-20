@@ -112,7 +112,7 @@
                 <tr>
                     <td>8</td>
                     <td>International Prospectus</td>
-                    {{-- <td><a href="#" target="_blank"><button class="download-btn">Download</button></a></td> --}}
+                    <td><a href="https://heyzine.com/flip-book/adfd7889ba.html" target="_blank"><button class="download-btn">Download</button></a></td>
                 </tr>
                 <tr>
                     <td>9</td>
@@ -140,7 +140,7 @@
                 <tr>
                     <td>13</td>
                     <td>Eligibility & Selection Criteria</td>
-                    <td><a href="mobile-assets/international-pdf/Criteria.pdf" target="_blank"><button
+                    <td><a href="mobile-assets/pdf/eligibility-criteria.pdf" target="_blank"><button
                                 class="download-btn">Download</button></a></td>
                 </tr>
 

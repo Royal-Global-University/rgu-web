@@ -281,7 +281,7 @@
 
                 </div>
 
-                                <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 30px;">
+                <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 30px;">
                     Strengthening Innovation & Entrepreneurship at Royal Global University!
                 </h2>
 
@@ -372,8 +372,8 @@
 
                         <style>
                             /*
-            * 1. Setup the main container and animation logic (Identical to list version)
-            */
+                * 1. Setup the main container and animation logic (Identical to list version)
+                */
                             .event-2-endless-scroll-container {
                                 margin: auto;
                                 width: 97%;
@@ -393,8 +393,8 @@
                             }
 
                             /*
-            * 2. Style the Image Frames and Images
-            */
+                * 2. Style the Image Frames and Images
+                */
                             .event-2-scroll-content-images {
                                 display: flex;
                             }
@@ -519,8 +519,8 @@
                             }
 
                             /*
-            * 3. Define the Keyframes for the Movement
-            */
+                * 3. Define the Keyframes for the Movement
+                */
                             @keyframes event-2-scroll-movement {
                                 from {
                                     transform: translateX(-50%);
@@ -657,7 +657,8 @@
                     </section>
 
                     <p class="text-dark mobile-para1 mt-3" style="text-align: justify;">
-                        The MoU signings were conducted in the gracious presence of Registrar (Admin), Dr. Diganta Munshi,
+                        The MoU signings were conducted in the gracious presence of Registrar (Admin), Prof. (Dr.) Diganta
+                        Munshi,
                         and were
                         guided and supported by our Hon’ble Vice Chancellor, Prof. Alak K. Buragohain. These collaborations
                         mark a
@@ -719,395 +720,396 @@
                 </div>
 
 
-                            <!-- Scopus Publication  -->
-            <section style="background-color: #1a3258; padding-bottom: 40px;">
-                <div class="endless-scroll-container">
+                <!-- Scopus Publication  -->
+                <section style="background-color: #1a3258; padding-bottom: 40px;">
+                    <div class="endless-scroll-container">
 
-                    <h2 style="color: #ffff; font-weight: 600; font-size: 40px; padding-top: 25px; padding-bottom: 30px;">
-                        Innovations
-                        <span style="color: #EF991F; font-weight: 600; font-size: 40px;">at RGU</span>
-                    </h2>
+                        <h2
+                            style="color: #ffff; font-weight: 600; font-size: 40px; padding-top: 25px; padding-bottom: 30px;">
+                            Innovations
+                            <span style="color: #EF991F; font-weight: 600; font-size: 40px;">at RGU</span>
+                        </h2>
 
-                    <div class="scroll-track-wrapper">
-                        <div class="scroll-content-images unique-set-alpha">
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/1.jpg" alt="Image 1"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/2.jpg" alt="Image 2"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/3.jpg" alt="Image 3"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/4.jpg" alt="Image 4"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/5.jpg" alt="Image 5"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/6.jpg" alt="Image 6"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/7.jpg" alt="Image 7"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/8.jpg" alt="Image 8"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/9.jpg" alt="Image 9"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/10.jpg" alt="Image 10"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
+                        <div class="scroll-track-wrapper">
+                            <div class="scroll-content-images unique-set-alpha">
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/1.jpg" alt="Image 1"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/2.jpg" alt="Image 2"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/3.jpg" alt="Image 3"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/4.jpg" alt="Image 4"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/5.jpg" alt="Image 5"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/6.jpg" alt="Image 6"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/7.jpg" alt="Image 7"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/8.jpg" alt="Image 8"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/9.jpg" alt="Image 9"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/10.jpg" alt="Image 10"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
 
+                            </div>
+                            <div class="scroll-content-images unique-set-beta">
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/1.jpg" alt="Image 1"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/2.jpg" alt="Image 2"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/3.jpg" alt="Image 3"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/4.jpg" alt="Image 4"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/5.jpg" alt="Image 5"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/6.jpg" alt="Image 6"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/7.jpg" alt="Image 7"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/8.jpg" alt="Image 8"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/9.jpg" alt="Image 9"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+                                <div class="slider-image-frame">
+                                    <img src="mobile-assets/innovation-cell/inventions/10.jpg" alt="Image 10"
+                                        class="scroller-image" onclick="openLightbox(this.src)">
+                                </div>
+
+                            </div>
                         </div>
-                        <div class="scroll-content-images unique-set-beta">
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/1.jpg" alt="Image 1"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/2.jpg" alt="Image 2"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/3.jpg" alt="Image 3"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/4.jpg" alt="Image 4"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/5.jpg" alt="Image 5"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/6.jpg" alt="Image 6"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/7.jpg" alt="Image 7"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/8.jpg" alt="Image 8"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/9.jpg" alt="Image 9"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
-                            <div class="slider-image-frame">
-                                <img src="mobile-assets/innovation-cell/inventions/10.jpg" alt="Image 10"
-                                    class="scroller-image" onclick="openLightbox(this.src)">
-                            </div>
 
-                        </div>
                     </div>
 
-                </div>
+                    <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+                        <span class="close-btn">&times;</span>
 
-                <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
-                    <span class="close-btn">&times;</span>
+                        <div class="lightbox-controls">
+                            <button id="zoom-in" title="Zoom In">+</button>
+                            <button id="zoom-out" title="Zoom Out">-</button>
+                        </div>
 
-                    <div class="lightbox-controls">
-                        <button id="zoom-in" title="Zoom In">+</button>
-                        <button id="zoom-out" title="Zoom Out">-</button>
+                        <img class="lightbox-content" id="lightbox-img" src="" alt="">
                     </div>
 
-                    <img class="lightbox-content" id="lightbox-img" src="" alt="">
-                </div>
-
-                <style>
-                    /*
-            * 1. Setup the main container and animation logic (Identical to list version)
-            */
-                    .endless-scroll-container {
-                        margin: auto;
-                        width: 95%;
-                        overflow: hidden;
-                        padding: 10px 0;
-                        border-bottom: 2px solid #EF991F;
-                    }
-
-                    .scroll-track-wrapper {
-                        display: flex;
-                        width: fit-content;
-                        animation: scroll-movement 120s linear infinite;
-                    }
-
-                    .scroll-track-wrapper:hover {
-                        animation-play-state: paused;
-                    }
-
-                    /*
-            * 2. Style the Image Frames and Images
-            */
-                    .scroll-content-images {
-                        display: flex;
-                    }
-
-                    .slider-image-frame {
-                        width: 1000px;
-                        height: 420px;
-                        margin-right: 20px;
-                        flex-shrink: 0;
-                        overflow: hidden;
-                        border: 1px solid #ccc;
-                        border-radius: 5px;
-                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                        background-color: #fff;
-                    }
-
-                    .scroller-image {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        display: block;
-                        cursor: pointer;
-                        transition: opacity 0.3s;
-                    }
-
-                    /* Lightbox Styles */
-                    .lightbox {
-                        display: none;
-                        position: fixed;
-                        z-index: 1000;
-                        left: 0;
-                        top: 0;
-                        width: 100%;
-                        height: 100%;
-                        background-color: rgba(0, 0, 0, 0.9);
-                        overflow: hidden;
-                        /* Changed from auto to hidden to prevent scrollbars */
-                    }
-
-                    .lightbox-content {
-                        margin: auto;
-                        display: block;
-                        position: absolute;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%) scale(1);
-                        /* Initial state */
-                        max-width: 90%;
-                        max-height: 90%;
-                        width: auto;
-                        height: auto;
-                        object-fit: contain;
-                        animation-name: zoom;
-                        animation-duration: 0.6s;
-                        cursor: grab;
-                        /* NEW: Indicate it's grabbable */
-                        transition: transform 0.2s ease-out;
-                        /* NEW: Smooth transitions for zoom/pan */
-                    }
-
-                    .close-btn {
-                        position: absolute;
-                        top: 20px;
-                        right: 35px;
-                        color: #fff;
-                        font-size: 40px;
-                        font-weight: bold;
-                        transition: 0.3s;
-                        cursor: pointer;
-                        z-index: 1002;
-                        /* Ensure it's on top of controls */
-                    }
-
-                    .close-btn:hover,
-                    .close-btn:focus {
-                        color: #bbb;
-                        text-decoration: none;
-                        cursor: pointer;
-                    }
-
-                    /* NEW: Styles for Zoom Controls */
-                    .lightbox-controls {
-                        position: absolute;
-                        top: 25px;
-                        right: 90px;
-                        /* Position next to the close button */
-                        z-index: 1001;
-                        display: flex;
-                        gap: 10px;
-                    }
-
-                    .lightbox-controls button {
-                        background-color: rgba(30, 30, 30, 0.7);
-                        border: 1px solid #fff;
-                        color: #fff;
-                        font-size: 24px;
-                        font-weight: bold;
-                        width: 40px;
-                        height: 40px;
-                        cursor: pointer;
-                        border-radius: 5px;
-                        transition: background-color 0.3s;
-                        line-height: 1;
-                    }
-
-                    .lightbox-controls button:hover {
-                        background-color: rgba(0, 0, 0, 0.9);
-                    }
-
-
-                    @keyframes zoom {
-                        from {
-                            transform: translate(-50%, -50%) scale(0.1);
+                    <style>
+                        /*
+                * 1. Setup the main container and animation logic (Identical to list version)
+                */
+                        .endless-scroll-container {
+                            margin: auto;
+                            width: 95%;
+                            overflow: hidden;
+                            padding: 10px 0;
+                            border-bottom: 2px solid #EF991F;
                         }
 
-                        to {
+                        .scroll-track-wrapper {
+                            display: flex;
+                            width: fit-content;
+                            animation: scroll-movement 120s linear infinite;
+                        }
+
+                        .scroll-track-wrapper:hover {
+                            animation-play-state: paused;
+                        }
+
+                        /*
+                * 2. Style the Image Frames and Images
+                */
+                        .scroll-content-images {
+                            display: flex;
+                        }
+
+                        .slider-image-frame {
+                            width: 1000px;
+                            height: 420px;
+                            margin-right: 20px;
+                            flex-shrink: 0;
+                            overflow: hidden;
+                            border: 1px solid #ccc;
+                            border-radius: 5px;
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                            background-color: #fff;
+                        }
+
+                        .scroller-image {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            display: block;
+                            cursor: pointer;
+                            transition: opacity 0.3s;
+                        }
+
+                        /* Lightbox Styles */
+                        .lightbox {
+                            display: none;
+                            position: fixed;
+                            z-index: 1000;
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            background-color: rgba(0, 0, 0, 0.9);
+                            overflow: hidden;
+                            /* Changed from auto to hidden to prevent scrollbars */
+                        }
+
+                        .lightbox-content {
+                            margin: auto;
+                            display: block;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
                             transform: translate(-50%, -50%) scale(1);
+                            /* Initial state */
+                            max-width: 90%;
+                            max-height: 90%;
+                            width: auto;
+                            height: auto;
+                            object-fit: contain;
+                            animation-name: zoom;
+                            animation-duration: 0.6s;
+                            cursor: grab;
+                            /* NEW: Indicate it's grabbable */
+                            transition: transform 0.2s ease-out;
+                            /* NEW: Smooth transitions for zoom/pan */
                         }
-                    }
 
-                    /*
-            * 3. Define the Keyframes for the Movement
-            */
-                    @keyframes scroll-movement {
-                        from {
-                            transform: translateX(0%);
+                        .close-btn {
+                            position: absolute;
+                            top: 20px;
+                            right: 35px;
+                            color: #fff;
+                            font-size: 40px;
+                            font-weight: bold;
+                            transition: 0.3s;
+                            cursor: pointer;
+                            z-index: 1002;
+                            /* Ensure it's on top of controls */
                         }
 
-                        to {
-                            transform: translateX(-50%);
+                        .close-btn:hover,
+                        .close-btn:focus {
+                            color: #bbb;
+                            text-decoration: none;
+                            cursor: pointer;
                         }
-                    }
-                </style>
 
-                <script>
-                    document.addEventListener('DOMContentLoaded', () => {
-                        const setAlpha = document.querySelector('.unique-set-alpha');
-                        const trackWrapper = document.querySelector('.scroll-track-wrapper');
-
-                        if (setAlpha && !document.querySelector('.unique-set-beta')) {
-                            const setBeta = setAlpha.cloneNode(true);
-                            setBeta.classList.remove('unique-set-alpha');
-                            setBeta.classList.add('unique-set-beta');
-                            trackWrapper.appendChild(setBeta);
-                            console.log('Image slider duplicated successfully for infinite loop.');
+                        /* NEW: Styles for Zoom Controls */
+                        .lightbox-controls {
+                            position: absolute;
+                            top: 25px;
+                            right: 90px;
+                            /* Position next to the close button */
+                            z-index: 1001;
+                            display: flex;
+                            gap: 10px;
                         }
-                    });
 
-                    // --- NEW/UPDATED: Lightbox and Zoom/Pan Logic ---
+                        .lightbox-controls button {
+                            background-color: rgba(30, 30, 30, 0.7);
+                            border: 1px solid #fff;
+                            color: #fff;
+                            font-size: 24px;
+                            font-weight: bold;
+                            width: 40px;
+                            height: 40px;
+                            cursor: pointer;
+                            border-radius: 5px;
+                            transition: background-color 0.3s;
+                            line-height: 1;
+                        }
 
-                    const lightbox = document.getElementById('lightbox');
-                    const lightboxImg = document.getElementById('lightbox-img');
-                    const zoomInBtn = document.getElementById('zoom-in');
-                    const zoomOutBtn = document.getElementById('zoom-out');
+                        .lightbox-controls button:hover {
+                            background-color: rgba(0, 0, 0, 0.9);
+                        }
 
-                    // State variables
-                    let scale = 1;
-                    let isDragging = false;
-                    let start = {
-                        x: 0,
-                        y: 0
-                    };
-                    let pan = {
-                        x: 0,
-                        y: 0
-                    };
 
-                    // Function to apply the current transform to the image
-                    function updateImageTransform() {
-                        // We use calc() to combine the initial centering (-50%) with the pixel-based panning
-                        lightboxImg.style.transform = `translate(calc(-50% + ${pan.x}px), calc(-50% + ${pan.y}px)) scale(${scale})`;
-                    }
+                        @keyframes zoom {
+                            from {
+                                transform: translate(-50%, -50%) scale(0.1);
+                            }
 
-                    function openLightbox(src) {
-                        // Reset state every time a new image is opened
-                        scale = 1;
-                        isDragging = false;
-                        pan = {
+                            to {
+                                transform: translate(-50%, -50%) scale(1);
+                            }
+                        }
+
+                        /*
+                * 3. Define the Keyframes for the Movement
+                */
+                        @keyframes scroll-movement {
+                            from {
+                                transform: translateX(0%);
+                            }
+
+                            to {
+                                transform: translateX(-50%);
+                            }
+                        }
+                    </style>
+
+                    <script>
+                        document.addEventListener('DOMContentLoaded', () => {
+                            const setAlpha = document.querySelector('.unique-set-alpha');
+                            const trackWrapper = document.querySelector('.scroll-track-wrapper');
+
+                            if (setAlpha && !document.querySelector('.unique-set-beta')) {
+                                const setBeta = setAlpha.cloneNode(true);
+                                setBeta.classList.remove('unique-set-alpha');
+                                setBeta.classList.add('unique-set-beta');
+                                trackWrapper.appendChild(setBeta);
+                                console.log('Image slider duplicated successfully for infinite loop.');
+                            }
+                        });
+
+                        // --- NEW/UPDATED: Lightbox and Zoom/Pan Logic ---
+
+                        const lightbox = document.getElementById('lightbox');
+                        const lightboxImg = document.getElementById('lightbox-img');
+                        const zoomInBtn = document.getElementById('zoom-in');
+                        const zoomOutBtn = document.getElementById('zoom-out');
+
+                        // State variables
+                        let scale = 1;
+                        let isDragging = false;
+                        let start = {
                             x: 0,
                             y: 0
                         };
-                        updateImageTransform(); // Apply initial transform
+                        let pan = {
+                            x: 0,
+                            y: 0
+                        };
 
-                        lightbox.style.display = 'block';
-                        lightboxImg.src = src;
-                    }
-
-                    function closeLightbox(event) {
-                        if (event.target === lightbox || event.target.classList.contains('close-btn')) {
-                            lightbox.style.display = 'none';
+                        // Function to apply the current transform to the image
+                        function updateImageTransform() {
+                            // We use calc() to combine the initial centering (-50%) with the pixel-based panning
+                            lightboxImg.style.transform = `translate(calc(-50% + ${pan.x}px), calc(-50% + ${pan.y}px)) scale(${scale})`;
                         }
-                    }
 
-                    // --- Event Listeners for Zoom and Pan ---
-
-                    zoomInBtn.addEventListener('click', (e) => {
-                        e.stopPropagation(); // Prevent closing lightbox when clicking button
-                        scale += 0.2;
-                        updateImageTransform();
-                    });
-
-                    zoomOutBtn.addEventListener('click', (e) => {
-                        e.stopPropagation(); // Prevent closing lightbox when clicking button
-                        if (scale > 1) {
-                            scale -= 0.2;
-                            if (scale < 1) {
-                                scale = 1;
-                            }
-                        }
-                        // If we zoom all the way out, reset the pan to center the image
-                        if (scale === 1) {
+                        function openLightbox(src) {
+                            // Reset state every time a new image is opened
+                            scale = 1;
+                            isDragging = false;
                             pan = {
                                 x: 0,
                                 y: 0
                             };
-                        }
-                        updateImageTransform();
-                    });
+                            updateImageTransform(); // Apply initial transform
 
-                    lightboxImg.addEventListener('mousedown', (e) => {
-                        // Panning only works if the image is zoomed in
-                        if (scale > 1) {
-                            e.preventDefault();
-                            isDragging = true;
-                            // Record starting point relative to current pan position
-                            start = {
-                                x: e.clientX - pan.x,
-                                y: e.clientY - pan.y
-                            };
-                            lightboxImg.style.cursor = 'grabbing';
+                            lightbox.style.display = 'block';
+                            lightboxImg.src = src;
                         }
-                    });
 
-                    // Use 'window' for mousemove and mouseup to allow dragging even if the cursor leaves the image
-                    window.addEventListener('mousemove', (e) => {
-                        if (isDragging) {
-                            e.preventDefault();
-                            pan = {
-                                x: e.clientX - start.x,
-                                y: e.clientY - start.y
-                            };
+                        function closeLightbox(event) {
+                            if (event.target === lightbox || event.target.classList.contains('close-btn')) {
+                                lightbox.style.display = 'none';
+                            }
+                        }
+
+                        // --- Event Listeners for Zoom and Pan ---
+
+                        zoomInBtn.addEventListener('click', (e) => {
+                            e.stopPropagation(); // Prevent closing lightbox when clicking button
+                            scale += 0.2;
                             updateImageTransform();
-                        }
-                    });
+                        });
 
-                    window.addEventListener('mouseup', (e) => {
-                        if (isDragging) {
-                            isDragging = false;
-                            lightboxImg.style.cursor = 'grab';
-                        }
-                    });
-                </script>
-            </section>
+                        zoomOutBtn.addEventListener('click', (e) => {
+                            e.stopPropagation(); // Prevent closing lightbox when clicking button
+                            if (scale > 1) {
+                                scale -= 0.2;
+                                if (scale < 1) {
+                                    scale = 1;
+                                }
+                            }
+                            // If we zoom all the way out, reset the pan to center the image
+                            if (scale === 1) {
+                                pan = {
+                                    x: 0,
+                                    y: 0
+                                };
+                            }
+                            updateImageTransform();
+                        });
+
+                        lightboxImg.addEventListener('mousedown', (e) => {
+                            // Panning only works if the image is zoomed in
+                            if (scale > 1) {
+                                e.preventDefault();
+                                isDragging = true;
+                                // Record starting point relative to current pan position
+                                start = {
+                                    x: e.clientX - pan.x,
+                                    y: e.clientY - pan.y
+                                };
+                                lightboxImg.style.cursor = 'grabbing';
+                            }
+                        });
+
+                        // Use 'window' for mousemove and mouseup to allow dragging even if the cursor leaves the image
+                        window.addEventListener('mousemove', (e) => {
+                            if (isDragging) {
+                                e.preventDefault();
+                                pan = {
+                                    x: e.clientX - start.x,
+                                    y: e.clientY - start.y
+                                };
+                                updateImageTransform();
+                            }
+                        });
+
+                        window.addEventListener('mouseup', (e) => {
+                            if (isDragging) {
+                                isDragging = false;
+                                lightboxImg.style.cursor = 'grab';
+                            }
+                        });
+                    </script>
+                </section>
 
                 <div class="row" style="display: flex; justify-content: center; align-items: center;">
                     <div class="col-lg-6" style="display: flex; justify-content: center;">
@@ -1136,740 +1138,772 @@
 
 
 
-            <section style="background-color: #fff">
-                <div class="mt-3">
-                    <img src="mobile-assets/innovation-cell/strip.png" alt="">
-                </div>
-
-                <div class="container mt-5" style="padding-bottom: 30px">
-
-                    <h2 class="mobile-headd1 text-center mb-3" style="color: #24477f; font-weight: 700; font-size: 2rem;">
-                        Innovations at a <span style="color: #FF9A1E; font-weight: 700;">Glance</span>
-                    </h2>
-
-                    <img style="padding: 40px 0px;" src="mobile-assets/innovation-cell/glance.svg" alt="">
-                </div>
-
-            </section>
-
-            <div style="padding: 40px 0px;" class="container">
-                <h2 class="mobile-headd1 text-center mb-3" style="color: #24477f; font-weight: 700; font-size: 2rem;">
-                    Institutional Patent<span style="color: #FF9A1E; font-weight: 700;"> Published</span>
-                </h2>
-
-                <div class="row mt-3" style="display: flex; justify-content: center; align-items: center;">
-                    <div class="col-lg-6" style="display: flex; justify-content: center;">
-                        <img style="width: 80%; border-radius: 2%;" src="mobile-assets/innovation-cell/img2.jpg"
-                            alt="">
+                <section style="background-color: #fff">
+                    <div class="mt-3">
+                        <img src="mobile-assets/innovation-cell/strip.png" alt="">
                     </div>
-                    <div class="col-lg-6">
-                        <h2 class="mobile-para1 mt-3" style="color: #24477f; font-weight: 700; font-size: 20px;">
-                            The criteria and job selection process adopted for selection by most companies is as follows:
+
+                    <div class="container mt-5" style="padding-bottom: 30px">
+
+                        <h2 class="mobile-headd1 text-center mb-3"
+                            style="color: #24477f; font-weight: 700; font-size: 2rem;">
+                            Innovations at a <span style="color: #FF9A1E; font-weight: 700;">Glance</span>
                         </h2>
 
-                        <ol style="color: #24477f;" class="mobile-para1">
-                            <li class="mt-2">Marker Pen made of Biodegradable Materials application no. 202231045258,
-                                Innovators Dr.
-                                Hirak Ranjan
-                                Das and Dr. Sankar Barma.</li>
-
-                            <li class="mt-3">IA Portable Device to Cut Soft Sheets in Circular Shape with Adjustable
-                                Radius
-                                application no.
-                                202231021448. Innovators Dr. Sankar Barma, Dr. Hirak Ranjan Das Mr. Sasanka Boruah and Mr.
-                                Nirakar Nath.
-                            </li>
-
-                        </ol>
-
+                        <img style="padding: 40px 0px;" src="mobile-assets/innovation-cell/glance.svg" alt="">
                     </div>
-                </div>
 
-            </div>
+                </section>
 
-            <section style="background-color: #fff;">
-                <div class="container" style="padding: 40px 0px;">
-
+                <div style="padding: 40px 0px;" class="container">
                     <h2 class="mobile-headd1 text-center mb-3" style="color: #24477f; font-weight: 700; font-size: 2rem;">
-                        Achieve<span style="color: #FF9A1E; font-weight: 700;">ments</span>
+                        Institutional Patent<span style="color: #FF9A1E; font-weight: 700;"> Published</span>
                     </h2>
 
-                    <div class="row justify-content-center mt-3">
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/innovation-cell/achieve1.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name mobile-para1"
-                                    style="font-weight: 500; font-size: 20px; text-align: justify;">
-                                    Received 3 star rating in the year 2020 - 2021 MoE/AICTE
-                                </h3>
-
-                            </div>
+                    <div class="row mt-3" style="display: flex; justify-content: center; align-items: center;">
+                        <div class="col-lg-6" style="display: flex; justify-content: center;">
+                            <img style="width: 80%; border-radius: 2%;" src="mobile-assets/innovation-cell/img2.jpg"
+                                alt="">
                         </div>
+                        <div class="col-lg-6">
+                            <h2 class="mobile-para1 mt-3" style="color: #24477f; font-weight: 700; font-size: 20px;">
+                                The criteria and job selection process adopted for selection by most companies is as
+                                follows:
+                            </h2>
 
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/innovation-cell/achieve2.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name mobile-para1"
-                                    style="font-weight: 500; font-size: 20px; text-align: justify;">
-                                    Dr. Hirak Ranjan Das was awarded as Best Mentor award for innovation at Green Innovation
-                                    Ecosystem
-                                    organized by NERAMAC
-                                </h3>
+                            <ol style="color: #24477f;" class="mobile-para1">
+                                <li class="mt-2">Marker Pen made of Biodegradable Materials application no. 202231045258,
+                                    Innovators Dr.
+                                    Hirak Ranjan
+                                    Das and Dr. Sankar Barma.</li>
 
-                            </div>
+                                <li class="mt-3">IA Portable Device to Cut Soft Sheets in Circular Shape with Adjustable
+                                    Radius
+                                    application no.
+                                    202231021448. Innovators Dr. Sankar Barma, Dr. Hirak Ranjan Das Mr. Sasanka Boruah and
+                                    Mr.
+                                    Nirakar Nath.
+                                </li>
+
+                            </ol>
+
                         </div>
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/innovation-cell/achieve3.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name mobile-para1"
-                                    style="font-weight: 500; font-size: 20px; text-align: justify;">
-                                    Students have demonstrated the concept of an electric car during the exhibition
-                                    organized by Second
-                                    Society and achieved 2nd Prize followed by IITG
-                                </h3>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/innovation-cell/achieve4.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name mobile-para1"
-                                    style="font-weight: 500; font-size: 20px; text-align: justify;">
-                                    Received recognition from Atal Ranking of Institute on Innovation Achievements by
-                                    Ministry of
-                                    Education's Innovation Cell, Govt. of India
-                                </h3>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="mobile-assets/innovation-cell/achieve5.png" alt="Profile image ">
-                                </div>
-                                <h3 class="card-name mobile-para1"
-                                    style="font-weight: 500; font-size: 20px; text-align: justify;">
-                                    Received the award for the first position among the Private Universities for innovation
-                                    at the
-                                    North-East Research Conclave (NERC) at IITG organized by IIT Guwahati, India, Science,
-                                    Technology and
-                                    Climate Change Dept. & Dept. of Education, Govt. of Assam.
-                                </h3>
-
-                            </div>
-                        </div>
-
-
-
-
                     </div>
 
                 </div>
-            </section>
+
+                <section style="background-color: #fff;">
+                    <div class="container" style="padding: 40px 0px;">
+
+                        <h2 class="mobile-headd1 text-center mb-3"
+                            style="color: #24477f; font-weight: 700; font-size: 2rem;">
+                            Achieve<span style="color: #FF9A1E; font-weight: 700;">ments</span>
+                        </h2>
+
+                        <div class="row justify-content-center mt-3">
+
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/innovation-cell/achieve1.png" alt="Profile image ">
+                                    </div>
+                                    <h3 class="card-name mobile-para1"
+                                        style="font-weight: 500; font-size: 20px; text-align: justify;">
+                                        Received 3 star rating in the year 2020 - 2021 MoE/AICTE
+                                    </h3>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/innovation-cell/achieve2.png" alt="Profile image ">
+                                    </div>
+                                    <h3 class="card-name mobile-para1"
+                                        style="font-weight: 500; font-size: 20px; text-align: justify;">
+                                        Dr. Hirak Ranjan Das was awarded as Best Mentor award for innovation at Green
+                                        Innovation
+                                        Ecosystem
+                                        organized by NERAMAC
+                                    </h3>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/innovation-cell/achieve3.png" alt="Profile image ">
+                                    </div>
+                                    <h3 class="card-name mobile-para1"
+                                        style="font-weight: 500; font-size: 20px; text-align: justify;">
+                                        Students have demonstrated the concept of an electric car during the exhibition
+                                        organized by Second
+                                        Society and achieved 2nd Prize followed by IITG
+                                    </h3>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/innovation-cell/achieve4.png" alt="Profile image ">
+                                    </div>
+                                    <h3 class="card-name mobile-para1"
+                                        style="font-weight: 500; font-size: 20px; text-align: justify;">
+                                        Received recognition from Atal Ranking of Institute on Innovation Achievements by
+                                        Ministry of
+                                        Education's Innovation Cell, Govt. of India
+                                    </h3>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/innovation-cell/achieve5.png" alt="Profile image ">
+                                    </div>
+                                    <h3 class="card-name mobile-para1"
+                                        style="font-weight: 500; font-size: 20px; text-align: justify;">
+                                        Received the award for the first position among the Private Universities for
+                                        innovation
+                                        at the
+                                        North-East Research Conclave (NERC) at IITG organized by IIT Guwahati, India,
+                                        Science,
+                                        Technology and
+                                        Climate Change Dept. & Dept. of Education, Govt. of Assam.
+                                    </h3>
+
+                                </div>
+                            </div>
 
 
-            <!-- Scopus Publication  -->
 
-            <div class="container" style="padding: 30px 0px;">
-                <h2 class="mobile-headd1 fw-bold" style="color: #24477f;">
-                    Institutional Patent Published
-                </h2>
 
-                <p class="mobile-headd3 fw-bold" style="color: #27467A;">
-                    The criteria and job selection process adopted for selection by most companies is as follows:
-                </p>
+                        </div>
 
-                <p class="mobile-para1 fw-bold">
-                <ol class="mobile-para1" style="color: #27467A; line-height: 1.6;">
-                    <li>
-                        Marker Pen made of Biodegradable Materials, Application No. 202231045258.
-                        Innovators: Dr. Hirak Ranjan Das and Dr. Sankar Barma.
-                    </li>
-                    <li>
-                        A Portable Device to Cut Soft Sheets in Circular Shape with Adjustable Radius,
-                        Application No. 202231021448.
-                        Innovators: Dr. Sankar Barma, Dr. Hirak Ranjan Das, Mr. Sasanka Boruah, and Mr. Nirakar Nath.
-                    </li>
-                </ol>
+                    </div>
+                </section>
 
-                </p>
 
-                <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 20px;">
-                    Activities of IIC-RGU for the AY 2023-27
-                </h2>
+                <!-- Scopus Publication  -->
 
-                <div class="table-responsive">
-                    <table class="table table-bordered shadow bg-white mobile-para1">
-                        <thead style="background-color: #24477f; color: #fff;">
-                            <tr>
-                                <th style="width: 80px;">Sl. No.</th>
-                                <th>Event</th>
-                                <th style="width: 160px;">Date</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>IIC-RGU organised the Internal Hackathon 2023 at The Assam Royal Global University</td>
-                                <td>26/09/2023</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>IIC-RGU celebrated Innovation Day</td>
-                                <td>16/10/2023</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Organised Viksit Bharat@2047 Utsav in Campus and watched the Inaugural Address by
-                                    Hon’ble Prime
-                                    Minister of India</td>
-                                <td>11/12/2023</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Organised Internal Ideathon-2023 in association with AIC SELCO</td>
-                                <td>24/11/2023</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Organised a Poster Presentation of Ideas and linked with Experts for Mentorship Support
-                                </td>
-                                <td>26/11/2023</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>IIC-RGU successfully organised Smart India Hackathon Software Edition 2023, partially
-                                    funded by MoE
-                                    Innovation Cell, Govt. of India</td>
-                                <td>19/12/2023</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Mentoring Event with Innovation Ambassadors and Experts for Mentorship Support</td>
-                                <td>21/12/2023</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>Organised Institution’s Innovation Council - Regional Meet funded by MoE Innovation
-                                    Cell, Govt. of
-                                    India</td>
-                                <td>09/01/2024</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>IIC-RGU participated in the National Youth Day Celebration</td>
-                                <td>12/01/2024</td>
-                            </tr>
-                            <tr>
-                                <td>10</td>
-                                <td>Conducted a Session on Achieving Problem-Solution & Product-Market Fit</td>
-                                <td>30/01/2024</td>
-                            </tr>
-                            <tr>
-                                <td>11</td>
-                                <td>Organised an interactive session with Prof. Prabuddha Ganguli on IPRs and IP Management
-                                </td>
-                                <td>30/01/2024</td>
-                            </tr>
-                            <tr>
-                                <td>12</td>
-                                <td>IIC-RGU organised the MoU Signing with the startup company Sanam Designs Wallah Private
-                                    Limited to
-                                    incubate at the Royal Innovation Incubator (RII)</td>
-                                <td>20/02/2024</td>
-                            </tr>
-                            <tr>
-                                <td>13</td>
-                                <td>Organised a Workshop on Entrepreneurship Skill, Attitude and Behaviour Development at
-                                    RGU</td>
-                                <td>26/02/2024</td>
-                            </tr>
-                            <tr>
-                                <td>14</td>
-                                <td>IIC-RGU participated in the National Science Day 2024 Celebration</td>
-                                <td>28/02/2024</td>
-                            </tr>
-                            <tr>
-                                <td>15</td>
-                                <td>IIC-RGU students participated in Northeast Startup & Entrepreneurs Conclave 2024,
-                                    Srimanta
-                                    Sankaradeva Kalakshetra</td>
-                                <td>27/03/2024</td>
-                            </tr>
-                            <tr>
-                                <td>16</td>
-                                <td>A group of IIC-RGU student members — Mr. Nipu Das, Mr. Shiva Bhattacharjee, and Mr.
-                                    Nileemoy Pathak
-                                    — won the award for Best Pitch for Ideation Stage Startup among 15 selected teams out of
-                                    70 teams in
-                                    the Bootcamp for Aspiring Young Entrepreneurs of NER organised by IIM Shillong</td>
-                                <td>—</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <div class="container" style="padding: 30px 0px;">
+                    <h2 class="mobile-headd1 fw-bold" style="color: #24477f;">
+                        Institutional Patent Published
+                    </h2>
 
-                <style>
-                    .iic-gallery-img {
-                        width: 100%;
-                        height: 250px;
-                        /* uniform height */
-                        object-fit: cover;
-                        border-radius: 5px;
-                    }
-                </style>
+                    <p class="mobile-headd3 fw-bold" style="color: #27467A;">
+                        The criteria and job selection process adopted for selection by most companies is as follows:
+                    </p>
 
-                <div class="row g-4 iic-gallery-row">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img src="mobile-assets/innovation-cell/gallery1/1.jpg" class="iic-gallery-img" alt="">
+                    <p class="mobile-para1 fw-bold">
+                    <ol class="mobile-para1" style="color: #27467A; line-height: 1.6;">
+                        <li>
+                            Marker Pen made of Biodegradable Materials, Application No. 202231045258.
+                            Innovators: Dr. Hirak Ranjan Das and Dr. Sankar Barma.
+                        </li>
+                        <li>
+                            A Portable Device to Cut Soft Sheets in Circular Shape with Adjustable Radius,
+                            Application No. 202231021448.
+                            Innovators: Dr. Sankar Barma, Dr. Hirak Ranjan Das, Mr. Sasanka Boruah, and Mr. Nirakar Nath.
+                        </li>
+                    </ol>
+
+                    </p>
+
+                    <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 20px;">
+                        Activities of IIC-RGU for the AY 2023-27
+                    </h2>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered shadow bg-white mobile-para1">
+                            <thead style="background-color: #24477f; color: #fff;">
+                                <tr>
+                                    <th style="width: 80px;">Sl. No.</th>
+                                    <th>Event</th>
+                                    <th style="width: 160px;">Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>IIC-RGU organised the Internal Hackathon 2023 at The Assam Royal Global University
+                                    </td>
+                                    <td>26/09/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>IIC-RGU celebrated Innovation Day</td>
+                                    <td>16/10/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Organised Viksit Bharat@2047 Utsav in Campus and watched the Inaugural Address by
+                                        Hon’ble Prime
+                                        Minister of India</td>
+                                    <td>11/12/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Organised Internal Ideathon-2023 in association with AIC SELCO</td>
+                                    <td>24/11/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Organised a Poster Presentation of Ideas and linked with Experts for Mentorship
+                                        Support
+                                    </td>
+                                    <td>26/11/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>IIC-RGU successfully organised Smart India Hackathon Software Edition 2023,
+                                        partially
+                                        funded by MoE
+                                        Innovation Cell, Govt. of India</td>
+                                    <td>19/12/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Mentoring Event with Innovation Ambassadors and Experts for Mentorship Support</td>
+                                    <td>21/12/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Organised Institution’s Innovation Council - Regional Meet funded by MoE Innovation
+                                        Cell, Govt. of
+                                        India</td>
+                                    <td>09/01/2024</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>IIC-RGU participated in the National Youth Day Celebration</td>
+                                    <td>12/01/2024</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Conducted a Session on Achieving Problem-Solution & Product-Market Fit</td>
+                                    <td>30/01/2024</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Organised an interactive session with Prof. Prabuddha Ganguli on IPRs and IP
+                                        Management
+                                    </td>
+                                    <td>30/01/2024</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>IIC-RGU organised the MoU Signing with the startup company Sanam Designs Wallah
+                                        Private
+                                        Limited to
+                                        incubate at the Royal Innovation Incubator (RII)</td>
+                                    <td>20/02/2024</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>Organised a Workshop on Entrepreneurship Skill, Attitude and Behaviour Development
+                                        at
+                                        RGU</td>
+                                    <td>26/02/2024</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>IIC-RGU participated in the National Science Day 2024 Celebration</td>
+                                    <td>28/02/2024</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>IIC-RGU students participated in Northeast Startup & Entrepreneurs Conclave 2024,
+                                        Srimanta
+                                        Sankaradeva Kalakshetra</td>
+                                    <td>27/03/2024</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>A group of IIC-RGU student members — Mr. Nipu Das, Mr. Shiva Bhattacharjee, and Mr.
+                                        Nileemoy Pathak
+                                        — won the award for Best Pitch for Ideation Stage Startup among 15 selected teams
+                                        out of
+                                        70 teams in
+                                        the Bootcamp for Aspiring Young Entrepreneurs of NER organised by IIM Shillong</td>
+                                    <td>—</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img src="mobile-assets/innovation-cell/gallery1/2.jpg" class="iic-gallery-img" alt="">
+                    <style>
+                        .iic-gallery-img {
+                            width: 100%;
+                            height: 250px;
+                            /* uniform height */
+                            object-fit: cover;
+                            border-radius: 5px;
+                        }
+                    </style>
+
+                    <div class="row g-4 iic-gallery-row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <img src="mobile-assets/innovation-cell/gallery1/1.jpg" class="iic-gallery-img"
+                                alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <img src="mobile-assets/innovation-cell/gallery1/2.jpg" class="iic-gallery-img"
+                                alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <img src="mobile-assets/innovation-cell/gallery1/3.jpeg" class="iic-gallery-img"
+                                alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <img src="mobile-assets/innovation-cell/gallery1/4.jpg" class="iic-gallery-img"
+                                alt="">
+                        </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img src="mobile-assets/innovation-cell/gallery1/3.jpeg" class="iic-gallery-img" alt="">
+                    <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 30px;">
+                        IIC-RGU Activities during AY 2022-2023
+                    </h2>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered shadow bg-white mobile-para1">
+                            <thead style="background-color: #24477f; color: #fff;">
+                                <tr>
+                                    <th style="width: 60px;">Sl. No.</th>
+                                    <th>Event</th>
+                                    <th style="width: 160px;">Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>The ICC-RGU hosted the Institution’s Innovation Council Regional Meet in association
+                                        with MoE’s
+                                        Innovation Cell & AICTE</td>
+                                    <td>04/08/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Successfully signed MoU with three startups (Globotask IT Consultancy Services Pvt.
+                                        Ltd., Jolkuwori
+                                        LLP, Pasoli Agro Industry Pvt. Ltd.)</td>
+                                    <td>07/02/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Orientation Session on IIC 5.0 & Features</td>
+                                    <td>07/02/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Interactive Session on Empowering Business with MarTech & CRO</td>
+                                    <td>09/02/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Motivational Speech: Entrepreneurship and Startup</td>
+                                    <td>22/02/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>IIC-RGU students participated in AEC Class 88 Foundation organised by Institution of
+                                        Engineers
+                                        (India), Panbazar at Assam Engineering College</td>
+                                    <td>25/02/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>IIC-RGU students attended Technical Awareness Program organised by NECTAR</td>
+                                    <td>25/02/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Workshop on Entrepreneurship Skill, Attitude, and Behaviour Development</td>
+                                    <td>26/02/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Session on Achieving Problem-Solution Fit & Product-Market Fit</td>
+                                    <td>08/03/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Dr. Hirak R. Das invited by Tezpur University to deliver a lecture on Incubation &
+                                        Entrepreneurship
+                                        Awareness Program</td>
+                                    <td>14/03/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>IIC-RGU students displayed Student Research Projects at MSME Technology Centre
+                                        Conclave
+                                        2023,
+                                        Kahilipara</td>
+                                    <td>31/03/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>IIC-RGU student members visited the Northeast Food Festival 2023, Maniram Dewan
+                                        Trade
+                                        Centre,
+                                        Guwahati</td>
+                                    <td>07/02/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>IIC-RGU participated in the ‘Power Businesswomen Meet’ at Assam Start-Up – The Nest
+                                    </td>
+                                    <td>14/04/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>YUKTI Innovation Repository and Innovation Challenge Discussion</td>
+                                    <td>20/04/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>IIC-RGU students participated in EDII Hackathon Final Round at EDII Ahmedabad</td>
+                                    <td>28/04/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>Workshop on Prototype Design and Development</td>
+                                    <td>03/05/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>Workshop on Product Designing and Prototyping (Go Kart)</td>
+                                    <td>19/05/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>Demo Day – Cakeology7: A Campus-Based Interdisciplinary Enterprise</td>
+                                    <td>02/06/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>Interactive session with Mr. Palash Bhowmik, Chief Manager (Technology), NSIC Ltd.
+                                    </td>
+                                    <td>08/06/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>Exposure trip to Patent Facilitation Centre, CPP-IPR, Sonapur</td>
+                                    <td>09/06/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>Business Model Canvas (BMC) session</td>
+                                    <td>20/06/2023</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img src="mobile-assets/innovation-cell/gallery1/4.jpg" class="iic-gallery-img" alt="">
+                    <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 30px;">
+                        Activities of Annual Year 2021-22
+                    </h2>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered shadow bg-white mobile-para1">
+                            <thead style="background-color: #24477f; color: #fff;">
+                                <tr>
+                                    <th style="width: 80px;">Sl. No.</th>
+                                    <th>Event</th>
+                                    <th style="width: 160px;">Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Organized Institution’s Innovation Council - Regional Meet funded by MoE Innovation
+                                        Cell, Govt. of
+                                        India</td>
+                                    <td>04/08/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Impact Lecture Series – I on Innovation and Startup funded by MoE Innovation Cell,
+                                        Govt.
+                                        of India
+                                    </td>
+                                    <td>08/07/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Session on Creation of Innovative Business Ideas for female faculty members and
+                                        students
+                                        to boost
+                                        Women’s Entrepreneurship initiatives</td>
+                                    <td>01/07/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Launch of miniature forms of Dhol, Khol, and Madol as key rings developed under
+                                        IIC-RGU
+                                        at Guwahati
+                                        Press Club</td>
+                                    <td>24/06/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>IIC-RGU & Mechanical Engineering Dept. participated in North-East Research Conclave
+                                        at
+                                        IITG;
+                                        achieved 1st position as private university for innovation</td>
+                                    <td>20–22/06/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Distribution of unique cutter developed at RGU workshop to NGOs, SHGs, and rural
+                                        entrepreneurs by
+                                        NERAMAC at Guwahati Press Club</td>
+                                    <td>24/05/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Electric car demonstrated during exhibition on National Technology Day; achieved 2nd
+                                        prize</td>
+                                    <td>11/05/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Celebrated Intellectual Property Day</td>
+                                    <td>26/04/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Celebrated Earth Day</td>
+                                    <td>22/04/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Organized Northeast Startup Festival—one of a kind for North East India</td>
+                                    <td>22/03/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Organized “Journey at Y-Combinator” virtual panel discussion on innovative start-up
+                                        endeavors</td>
+                                    <td>24/02/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>Seminar on Design Thinking, Critical Thinking, and Innovation Design by Mentor
+                                        Institute
+                                    </td>
+                                    <td>16/02/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>Session on Achieving Problem-Solution Fit & Product-Market Fit</td>
+                                    <td>16/02/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>Session on “Forest Fringe School: A Platform for Cultural Foundation”</td>
+                                    <td>04/01/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>Organized IDEATHON 2021 with the HEI</td>
+                                    <td>19/11/2021</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>Motivational Session: Building Entrepreneurship and Branding</td>
+                                    <td>17/11/2021</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>Motivational Session: Building Entrepreneurship Mindset</td>
+                                    <td>16/11/2021</td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>Inauguration of Innovation and Incubation Cell – Royal Innovation Incubator</td>
+                                    <td>08/11/2021</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>Impact Lecture Series – II funded by MoE Innovation Cell, Govt. of India</td>
+                                    <td>27/11/2021</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>Motivational Speech by Successful Entrepreneur</td>
+                                    <td>26/10/2021</td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>Impact Lecture Series – I funded by MoE Innovation Cell, Govt. of India</td>
+                                    <td>04/10/2021</td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>Motivational Speech by Successful Entrepreneur</td>
+                                    <td>05/08/2021</td>
+                                </tr>
+                                <tr>
+                                    <td>23</td>
+                                    <td>Boot Camp in association with Agri-Food Business Incubation Centre (AFBIC) IIT
+                                        Kharagpur
+                                    </td>
+                                    <td>22/08/2021</td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>Workshop on Business Model Canvas (BMC)</td>
+                                    <td>31/03/2021</td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>Organized field trip to GVRT, a rice manufacturing organization</td>
+                                    <td>24/03/2021</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
+
+                    <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 30px;">
+                        Members
+                    </h2>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered shadow bg-white mobile-para1">
+                            <thead style="background-color: #24477f; color: #fff;">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name of Member</th>
+                                    <th>Member Type</th>
+                                    <th>Key Role / Position</th>
+                                </tr>
+                            </thead>
+                            <tbody class="para1">
+                                <tr>
+                                    <td>1.</td>
+                                    <td>Prof. (Dr.) Alak Kumar Buragohain</td>
+                                    <td>Admin</td>
+                                    <td>President</td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>Prof. (Dr.) George A Paul</td>
+                                    <td>Faculty</td>
+                                    <td>Vice President</td>
+                                </tr>
+                                <tr>
+                                    <td>3.</td>
+                                    <td>Prof. (Dr.) Anupam Chatterjee</td>
+                                    <td>Faculty</td>
+                                    <td>Senior Faculty Member</td>
+                                </tr>
+                                <tr>
+                                    <td>4.</td>
+                                    <td>Dr. Sriparna Bhuyan Baruah</td>
+                                    <td>Admin</td>
+                                    <td>Director, Entrepreneurship IIC</td>
+                                </tr>
+                                <tr>
+                                    <td>5.</td>
+                                    <td>Dr. Sankar Barman</td>
+                                    <td>Admin</td>
+                                    <td>Coordinator & Innovation Activity</td>
+                                </tr>
+                                <tr>
+                                    <td>6.</td>
+                                    <td>Mr. Sasanka Boruah</td>
+                                    <td>Admin</td>
+                                    <td>Start-up Activity</td>
+                                </tr>
+                                <tr>
+                                    <td>7.</td>
+                                    <td>Mr. Bijoy Kalita</td>
+                                    <td>Admin</td>
+                                    <td>Social Media</td>
+                                </tr>
+                                <tr>
+                                    <td>8.</td>
+                                    <td>Prof. Pranati Das</td>
+                                    <td>Faculty</td>
+                                    <td>NIRF Coordinator</td>
+                                </tr>
+                                <tr>
+                                    <td>9.</td>
+                                    <td>Dr. Aruna Dev Roy</td>
+                                    <td>Faculty</td>
+                                    <td>ARIIA Coordinator</td>
+                                </tr>
+                                <tr>
+                                    <td>10.</td>
+                                    <td>Dr. Debajit Borah</td>
+                                    <td>Faculty</td>
+                                    <td>IPR Activity</td>
+                                </tr>
+                                <tr>
+                                    <td>11.</td>
+                                    <td>Dr. Bitopi Gogoi</td>
+                                    <td>Faculty</td>
+                                    <td>Internship Activity</td>
+                                </tr>
+                                <tr>
+                                    <td>12.</td>
+                                    <td>Ms. Banani Das Hazarika</td>
+                                    <td>Faculty</td>
+                                    <td>Members</td>
+                                </tr>
+                                <tr>
+                                    <td>13.</td>
+                                    <td>Mr. Mehedi Alom</td>
+                                    <td>Admin</td>
+                                    <td>Design Thinking</td>
+                                </tr>
+                                <tr>
+                                    <td>14.</td>
+                                    <td>Mr. Jawad Ahemad</td>
+                                    <td>Admin</td>
+                                    <td>Members</td>
+                                </tr>
+                                <tr>
+                                    <td>15.</td>
+                                    <td>Dr. Annesa Borah</td>
+                                    <td>Faculty</td>
+                                    <td>Members</td>
+                                </tr>
+                                <tr>
+                                    <td>16.</td>
+                                    <td>Dr. Susmita Nath</td>
+                                    <td>Faculty</td>
+                                    <td>Members</td>
+                                </tr>
+                                <tr>
+                                    <td>17.</td>
+                                    <td>Dr. Dharmeswar Barhoi</td>
+                                    <td>Faculty</td>
+                                    <td>Members</td>
+                                </tr>
+                                <tr>
+                                    <td>18.</td>
+                                    <td>Mr. Srawan Kr Goenka</td>
+                                    <td>Faculty</td>
+                                    <td>Convener</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+
                 </div>
-
-                <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 30px;">
-                    IIC-RGU Activities during AY 2022-2023
-                </h2>
-
-                <div class="table-responsive">
-                    <table class="table table-bordered shadow bg-white mobile-para1">
-                        <thead style="background-color: #24477f; color: #fff;">
-                            <tr>
-                                <th style="width: 60px;">Sl. No.</th>
-                                <th>Event</th>
-                                <th style="width: 160px;">Date</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>The ICC-RGU hosted the Institution’s Innovation Council Regional Meet in association
-                                    with MoE’s
-                                    Innovation Cell & AICTE</td>
-                                <td>04/08/2022</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Successfully signed MoU with three startups (Globotask IT Consultancy Services Pvt.
-                                    Ltd., Jolkuwori
-                                    LLP, Pasoli Agro Industry Pvt. Ltd.)</td>
-                                <td>07/02/2023</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Orientation Session on IIC 5.0 & Features</td>
-                                <td>07/02/2023</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Interactive Session on Empowering Business with MarTech & CRO</td>
-                                <td>09/02/2023</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Motivational Speech: Entrepreneurship and Startup</td>
-                                <td>22/02/2023</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>IIC-RGU students participated in AEC Class 88 Foundation organised by Institution of
-                                    Engineers
-                                    (India), Panbazar at Assam Engineering College</td>
-                                <td>25/02/2023</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>IIC-RGU students attended Technical Awareness Program organised by NECTAR</td>
-                                <td>25/02/2023</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>Workshop on Entrepreneurship Skill, Attitude, and Behaviour Development</td>
-                                <td>26/02/2023</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>Session on Achieving Problem-Solution Fit & Product-Market Fit</td>
-                                <td>08/03/2023</td>
-                            </tr>
-                            <tr>
-                                <td>10</td>
-                                <td>Dr. Hirak R. Das invited by Tezpur University to deliver a lecture on Incubation &
-                                    Entrepreneurship
-                                    Awareness Program</td>
-                                <td>14/03/2023</td>
-                            </tr>
-                            <tr>
-                                <td>11</td>
-                                <td>IIC-RGU students displayed Student Research Projects at MSME Technology Centre Conclave
-                                    2023,
-                                    Kahilipara</td>
-                                <td>31/03/2023</td>
-                            </tr>
-                            <tr>
-                                <td>12</td>
-                                <td>IIC-RGU student members visited the Northeast Food Festival 2023, Maniram Dewan Trade
-                                    Centre,
-                                    Guwahati</td>
-                                <td>07/02/2023</td>
-                            </tr>
-                            <tr>
-                                <td>13</td>
-                                <td>IIC-RGU participated in the ‘Power Businesswomen Meet’ at Assam Start-Up – The Nest</td>
-                                <td>14/04/2023</td>
-                            </tr>
-                            <tr>
-                                <td>14</td>
-                                <td>YUKTI Innovation Repository and Innovation Challenge Discussion</td>
-                                <td>20/04/2023</td>
-                            </tr>
-                            <tr>
-                                <td>15</td>
-                                <td>IIC-RGU students participated in EDII Hackathon Final Round at EDII Ahmedabad</td>
-                                <td>28/04/2023</td>
-                            </tr>
-                            <tr>
-                                <td>16</td>
-                                <td>Workshop on Prototype Design and Development</td>
-                                <td>03/05/2023</td>
-                            </tr>
-                            <tr>
-                                <td>17</td>
-                                <td>Workshop on Product Designing and Prototyping (Go Kart)</td>
-                                <td>19/05/2023</td>
-                            </tr>
-                            <tr>
-                                <td>18</td>
-                                <td>Demo Day – Cakeology7: A Campus-Based Interdisciplinary Enterprise</td>
-                                <td>02/06/2023</td>
-                            </tr>
-                            <tr>
-                                <td>19</td>
-                                <td>Interactive session with Mr. Palash Bhowmik, Chief Manager (Technology), NSIC Ltd.</td>
-                                <td>08/06/2023</td>
-                            </tr>
-                            <tr>
-                                <td>20</td>
-                                <td>Exposure trip to Patent Facilitation Centre, CPP-IPR, Sonapur</td>
-                                <td>09/06/2023</td>
-                            </tr>
-                            <tr>
-                                <td>21</td>
-                                <td>Business Model Canvas (BMC) session</td>
-                                <td>20/06/2023</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 30px;">
-                    Activities of Annual Year 2021-22
-                </h2>
-
-                <div class="table-responsive">
-                    <table class="table table-bordered shadow bg-white mobile-para1">
-                        <thead style="background-color: #24477f; color: #fff;">
-                            <tr>
-                                <th style="width: 80px;">Sl. No.</th>
-                                <th>Event</th>
-                                <th style="width: 160px;">Date</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Organized Institution’s Innovation Council - Regional Meet funded by MoE Innovation
-                                    Cell, Govt. of
-                                    India</td>
-                                <td>04/08/2022</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Impact Lecture Series – I on Innovation and Startup funded by MoE Innovation Cell, Govt.
-                                    of India
-                                </td>
-                                <td>08/07/2022</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Session on Creation of Innovative Business Ideas for female faculty members and students
-                                    to boost
-                                    Women’s Entrepreneurship initiatives</td>
-                                <td>01/07/2022</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Launch of miniature forms of Dhol, Khol, and Madol as key rings developed under IIC-RGU
-                                    at Guwahati
-                                    Press Club</td>
-                                <td>24/06/2022</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>IIC-RGU & Mechanical Engineering Dept. participated in North-East Research Conclave at
-                                    IITG;
-                                    achieved 1st position as private university for innovation</td>
-                                <td>20–22/06/2022</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Distribution of unique cutter developed at RGU workshop to NGOs, SHGs, and rural
-                                    entrepreneurs by
-                                    NERAMAC at Guwahati Press Club</td>
-                                <td>24/05/2022</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Electric car demonstrated during exhibition on National Technology Day; achieved 2nd
-                                    prize</td>
-                                <td>11/05/2022</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>Celebrated Intellectual Property Day</td>
-                                <td>26/04/2022</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>Celebrated Earth Day</td>
-                                <td>22/04/2022</td>
-                            </tr>
-                            <tr>
-                                <td>10</td>
-                                <td>Organized Northeast Startup Festival—one of a kind for North East India</td>
-                                <td>22/03/2022</td>
-                            </tr>
-                            <tr>
-                                <td>11</td>
-                                <td>Organized “Journey at Y-Combinator” virtual panel discussion on innovative start-up
-                                    endeavors</td>
-                                <td>24/02/2022</td>
-                            </tr>
-                            <tr>
-                                <td>12</td>
-                                <td>Seminar on Design Thinking, Critical Thinking, and Innovation Design by Mentor Institute
-                                </td>
-                                <td>16/02/2022</td>
-                            </tr>
-                            <tr>
-                                <td>13</td>
-                                <td>Session on Achieving Problem-Solution Fit & Product-Market Fit</td>
-                                <td>16/02/2022</td>
-                            </tr>
-                            <tr>
-                                <td>14</td>
-                                <td>Session on “Forest Fringe School: A Platform for Cultural Foundation”</td>
-                                <td>04/01/2022</td>
-                            </tr>
-                            <tr>
-                                <td>15</td>
-                                <td>Organized IDEATHON 2021 with the HEI</td>
-                                <td>19/11/2021</td>
-                            </tr>
-                            <tr>
-                                <td>16</td>
-                                <td>Motivational Session: Building Entrepreneurship and Branding</td>
-                                <td>17/11/2021</td>
-                            </tr>
-                            <tr>
-                                <td>17</td>
-                                <td>Motivational Session: Building Entrepreneurship Mindset</td>
-                                <td>16/11/2021</td>
-                            </tr>
-                            <tr>
-                                <td>18</td>
-                                <td>Inauguration of Innovation and Incubation Cell – Royal Innovation Incubator</td>
-                                <td>08/11/2021</td>
-                            </tr>
-                            <tr>
-                                <td>19</td>
-                                <td>Impact Lecture Series – II funded by MoE Innovation Cell, Govt. of India</td>
-                                <td>27/11/2021</td>
-                            </tr>
-                            <tr>
-                                <td>20</td>
-                                <td>Motivational Speech by Successful Entrepreneur</td>
-                                <td>26/10/2021</td>
-                            </tr>
-                            <tr>
-                                <td>21</td>
-                                <td>Impact Lecture Series – I funded by MoE Innovation Cell, Govt. of India</td>
-                                <td>04/10/2021</td>
-                            </tr>
-                            <tr>
-                                <td>22</td>
-                                <td>Motivational Speech by Successful Entrepreneur</td>
-                                <td>05/08/2021</td>
-                            </tr>
-                            <tr>
-                                <td>23</td>
-                                <td>Boot Camp in association with Agri-Food Business Incubation Centre (AFBIC) IIT Kharagpur
-                                </td>
-                                <td>22/08/2021</td>
-                            </tr>
-                            <tr>
-                                <td>24</td>
-                                <td>Workshop on Business Model Canvas (BMC)</td>
-                                <td>31/03/2021</td>
-                            </tr>
-                            <tr>
-                                <td>25</td>
-                                <td>Organized field trip to GVRT, a rice manufacturing organization</td>
-                                <td>24/03/2021</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 30px;">
-                    Members
-                </h2>
-
-                <div class="table-responsive">
-                    <table class="table table-bordered shadow bg-white mobile-para1">
-                        <thead style="background-color: #24477f; color: #fff;">
-                            <tr>
-                                <th>#</th>
-                                <th>Name of Member</th>
-                                <th>Member Type</th>
-                                <th>Key Role / Position</th>
-                            </tr>
-                        </thead>
-                        <tbody class="para1">
-                            <tr>
-                                <td>1.</td>
-                                <td>Prof. (Dr.) Alak Kumar Buragohain</td>
-                                <td>Admin</td>
-                                <td>President</td>
-                            </tr>
-                            <tr>
-                                <td>2.</td>
-                                <td>Prof. (Dr.) George A Paul</td>
-                                <td>Faculty</td>
-                                <td>Vice President</td>
-                            </tr>
-                            <tr>
-                                <td>3.</td>
-                                <td>Prof. (Dr.) Anupam Chatterjee</td>
-                                <td>Faculty</td>
-                                <td>Senior Faculty Member</td>
-                            </tr>
-                            <tr>
-                                <td>4.</td>
-                                <td>Dr. Sriparna Bhuyan Baruah</td>
-                                <td>Admin</td>
-                                <td>Director, Entrepreneurship IIC</td>
-                            </tr>
-                            <tr>
-                                <td>5.</td>
-                                <td>Dr. Sankar Barman</td>
-                                <td>Admin</td>
-                                <td>Coordinator & Innovation Activity</td>
-                            </tr>
-                            <tr>
-                                <td>6.</td>
-                                <td>Mr. Sasanka Boruah</td>
-                                <td>Admin</td>
-                                <td>Start-up Activity</td>
-                            </tr>
-                            <tr>
-                                <td>7.</td>
-                                <td>Mr. Bijoy Kalita</td>
-                                <td>Admin</td>
-                                <td>Social Media</td>
-                            </tr>
-                            <tr>
-                                <td>8.</td>
-                                <td>Prof. Pranati Das</td>
-                                <td>Faculty</td>
-                                <td>NIRF Coordinator</td>
-                            </tr>
-                            <tr>
-                                <td>9.</td>
-                                <td>Dr. Aruna Dev Roy</td>
-                                <td>Faculty</td>
-                                <td>ARIIA Coordinator</td>
-                            </tr>
-                            <tr>
-                                <td>10.</td>
-                                <td>Dr. Debajit Borah</td>
-                                <td>Faculty</td>
-                                <td>IPR Activity</td>
-                            </tr>
-                            <tr>
-                                <td>11.</td>
-                                <td>Dr. Bitopi Gogoi</td>
-                                <td>Faculty</td>
-                                <td>Internship Activity</td>
-                            </tr>
-                            <tr>
-                                <td>12.</td>
-                                <td>Ms. Banani Das Hazarika</td>
-                                <td>Faculty</td>
-                                <td>Members</td>
-                            </tr>
-                            <tr>
-                                <td>13.</td>
-                                <td>Mr. Mehedi Alom</td>
-                                <td>Admin</td>
-                                <td>Design Thinking</td>
-                            </tr>
-                            <tr>
-                                <td>14.</td>
-                                <td>Mr. Jawad Ahemad</td>
-                                <td>Admin</td>
-                                <td>Members</td>
-                            </tr>
-                            <tr>
-                                <td>15.</td>
-                                <td>Dr. Annesa Borah</td>
-                                <td>Faculty</td>
-                                <td>Members</td>
-                            </tr>
-                            <tr>
-                                <td>16.</td>
-                                <td>Dr. Susmita Nath</td>
-                                <td>Faculty</td>
-                                <td>Members</td>
-                            </tr>
-                            <tr>
-                                <td>17.</td>
-                                <td>Dr. Dharmeswar Barhoi</td>
-                                <td>Faculty</td>
-                                <td>Members</td>
-                            </tr>
-                            <tr>
-                                <td>18.</td>
-                                <td>Mr. Srawan Kr Goenka</td>
-                                <td>Faculty</td>
-                                <td>Convener</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
 
 
 
@@ -1878,8 +1912,4 @@
 
 
         </div>
-
-
-
-    </div>
-@endsection
+    @endsection

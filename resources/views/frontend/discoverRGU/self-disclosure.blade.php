@@ -37,11 +37,13 @@
                                             target="_blank" style="color: #27467A;">Act, Statutes and Approvals</a></td>
                                 </tr>
                                 <tr>
-                                    <td class="mobile-para1"><a href="/institutional-development-plan" target="_blank" style="color: #27467A;">Institutional Development Plan</a></td>
+                                    <td class="mobile-para1"><a href="/institutional-development-plan" target="_blank"
+                                            style="color: #27467A;">Institutional Development Plan</a></td>
                                 </tr>
                                 <tr>
-                                    <td class="mobile-para1">Constituent Units/Affiliated Colleges, Affiliating University (in case of Colleges) Off- Campus/Off-shore
-                                    campus/Learning Support Centres under ODL mode (wherever applicable)</td>
+                                    <td class="mobile-para1">Constituent Units/Affiliated Colleges, Affiliating University
+                                        (in case of Colleges) Off- Campus/Off-shore
+                                        campus/Learning Support Centres under ODL mode (wherever applicable)</td>
                                 </tr>
                                 <tr>
                                     <td class="mobile-para1"><a href="https://rgu.ac/recognition-accreditation"
@@ -60,7 +62,8 @@
                                 <tr>
                                     <td class="mobile-para1"><a href="/annual-report" target="_blank"
                                             style="color: #27467A;">Annual Account including Balance Sheet, Income and
-                                        Expenditure Account, Receipts and Payments Account along with Audit Report</a></td>
+                                            Expenditure Account, Receipts and Payments Account along with Audit Report</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td class="mobile-para1">GYAN SAGAR FOUNDATION alias ROYAL is a Society registered
@@ -100,7 +103,7 @@
                                 </tr>
                                 <tr>
                                     <td class="mobile-para1">Registrar Administration </td>
-                                    <td class="mobile-para1">Name: Dr. Diganta Munshi<br>Email:
+                                    <td class="mobile-para1">Name: Prof. (Dr.) Diganta Munshi<br>Email:
                                         registrar@rgu.ac<br>Mobile: 81599 27035<br><a href="https://rgu.ac/leadership"
                                             class="clickable-link" target="_blank">Visit Profile</a> </td>
                                 </tr>
@@ -135,12 +138,14 @@
                             <tbody>
 
                                 <tr>
-                                    <td class="mobile-para1"><a href="/chief-vigilance-officer" target="_blank" style="color: #27467A;">Chief Vigilance Officer</a></td>
+                                    <td class="mobile-para1"><a href="/chief-vigilance-officer" target="_blank"
+                                            style="color: #27467A;">Chief Vigilance Officer</a></td>
                                     <td></td>
                                 </tr>
 
                                 <tr>
-                                    <td class="mobile-para1"><a href="/ombudsperson" target="_blank" style="color: #27467A;">Ombudsperson</a></td>
+                                    <td class="mobile-para1"><a href="/ombudsperson" target="_blank"
+                                            style="color: #27467A;">Ombudsperson</a></td>
                                     <td></td>
                                 </tr>
 
@@ -162,7 +167,8 @@
                                 </tr>
                                 <tr>
                                     <td class="mobile-para1">
-                                        <a href="https://rgu.ac/schools-rgu" target="_blank" style="color: #27467A;">Board
+                                        <a href="https://rgu.ac/schools-rgu" target="_blank"
+                                            style="color: #27467A;">Board
                                             of Studies</a>
 
                                     </td>
@@ -262,7 +268,8 @@
                                 </tr>
 
                                 <tr>
-                                    <td class="mobile-para1"><a href="/iqac" target="_blank" style="color: #27467A;">Internal Quality Assurance Cell (IQAC)</a>
+                                    <td class="mobile-para1"><a href="/iqac" target="_blank"
+                                            style="color: #27467A;">Internal Quality Assurance Cell (IQAC)</a>
                                     </td>
                                 </tr>
 
@@ -493,6 +500,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 @endsection

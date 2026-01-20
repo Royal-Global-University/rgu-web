@@ -25,7 +25,8 @@
     </style>
 @endpush
 @section('title', 'RGU Governing Body: Meet Chancellor Dr. A.K. Pansari & Chairman')
-@section('meta_description', 'The official Governing Body of Royal Global University. View profiles for Dr. A.K. Pansari
+@section('meta_description',
+    'The official Governing Body of Royal Global University. View profiles for Dr. A.K. Pansari
     (Chancellor), Sri Ranjit Barthakur (Chairman), and all Foundation Members. Check Leadership!')
 @section('meta_keywords', 'Governing Body')
 @section('content')
@@ -666,7 +667,7 @@
     },
     {
       "@type": "Person",
-      "name": "Dr. Diganta Munshi",
+      "name": "Prof. (Dr.) Diganta Munshi",
       "jobTitle": "Member Secretary (Registrar – Administration)"
     }
   ]

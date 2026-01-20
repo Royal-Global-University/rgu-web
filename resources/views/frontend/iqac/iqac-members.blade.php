@@ -247,7 +247,7 @@
                         </tr>
                         <tr>
                             <td>23</td>
-                            <td>Dr. Diganta Munshi</td>
+                            <td>Prof. (Dr.) Diganta Munshi</td>
                             <td>Registrar – Administration</td>
                             <td>Director, IQAC</td>
                         </tr>
@@ -268,6 +268,4 @@
             </div>
         </div>
     </div>
-
-
 @endsection

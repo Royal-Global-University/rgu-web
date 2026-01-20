@@ -47,7 +47,8 @@
                 planted a tree at the university campus and addressed the law students.
                 <br><br>
                 The ceremony was graced by the presence of Dr. A.K. Pansari, Chancellor; Dr. B.C. Barooah, Professor & Dean,
-                Royal School of Law & Administration; Dr. Diganta Munshi, Registrar (Administration); Dr. D.N. Singh,
+                Royal School of Law & Administration; Prof. (Dr.) Diganta Munshi, Registrar (Administration); Dr. D.N.
+                Singh,
                 Registrar (Academics); along with deans, faculty members, and students from the departments of Law,
                 Sociology, Political Science, and Public Administration. Following the unveiling of the bust, Chief Justice
                 Ashutosh Kumar addressed the students in a special interactive session.
