@@ -89,7 +89,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            6 Months
+                                            5 Years
                                         </span>
                                     </li>
                                 </ul>
@@ -105,7 +105,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            6 Months
+                                            1 Year
                                         </span>
                                     </li>
                                 </ul>
@@ -153,7 +153,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            National Journals: 2
+                                            National Journals: 3
                                         </span>
                                     </li>
                                     <li
@@ -161,7 +161,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            International Journals: 7
+                                            International Journals: 8
                                         </span>
                                     </li>
                                 </ul>
@@ -177,7 +177,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            6 Books Chapter
+                                            7 Books Chapter
                                         </span>
                                     </li>
                                 </ul>
@@ -290,7 +290,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        6 Months
+                                        5 Years
                                     </span>
                                 </li>
                             </ul>
@@ -305,7 +305,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        6 Months
+                                        1 Year
                                     </span>
                                 </li>
                             </ul>
@@ -350,14 +350,14 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        National Journals: 2
+                                        National Journals: 3
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        International Journals: 7
+                                        International Journals: 8
                                     </span>
                                 </li>
                             </ul>
@@ -372,7 +372,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        6 Books Chapter
+                                        7 Books Chapter
                                     </span>
                                 </li>
                             </ul>

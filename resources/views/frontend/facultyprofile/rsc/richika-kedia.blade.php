@@ -143,7 +143,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            National: 2
+                                            National: 6
                                         </span>
                                     </li>
 
@@ -152,7 +152,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            International: 5
+                                            International: 13
                                         </span>
                                     </li>
 
@@ -170,7 +170,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            9
+                                            10
                                         </span>
                                     </li>
                                 </ul>
@@ -360,7 +360,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        National: 2
+                                        National: 6
                                     </span>
                                 </li>
 
@@ -368,7 +368,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        International: 5
+                                        International: 13
                                     </span>
                                 </li>
 
@@ -385,7 +385,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        9
+                                        10
                                     </span>
                                 </li>
                             </ul>

@@ -482,7 +482,7 @@
                                             </tr>
                                             <tr>
                                                 <td>65</td>
-                                                <td>Ms. Aruna Deb Rroy</td>
+                                                <td>Ms. Aruna Dev Rroy</td>
                                                 <td>10</td>
                                                 <td>6</td>
                                                 <td>-</td>
@@ -1761,7 +1761,7 @@
                                             </tr>
                                             <tr>
                                                 <td>65</td>
-                                                <td>Ms. Aruna Deb Rroy</td>
+                                                <td>Ms. Aruna Dev Rroy</td>
                                                 <td>10</td>
                                                 <td>6</td>
                                                 <td>-</td>

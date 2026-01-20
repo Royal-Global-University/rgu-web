@@ -289,6 +289,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Neelav-Sarma-RSAPS.png"
+                                    alt="Profile image of Mr. Neelav Sarma">
+                            </div>
+                            <h3 class="card-name">Dr. Neelav Sarma</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-neelav-sarma" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="mobile-assets/updated-faculty-img/Parismita-Phukan-RSAPS.png"
                                     alt="Profile image of Dr. Parismita Phukan">
                             </div>
@@ -319,18 +331,6 @@
                             <h3 class="card-name">Mr. H. Imo Mani Singha</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-imo-mani-singha" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Neelav-Sarma-RSAPS.png"
-                                    alt="Profile image of Mr. Neelav Sarma">
-                            </div>
-                            <h3 class="card-name">Mr. Neelav Sarma</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-neelav-sarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1090,6 +1090,18 @@
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">
                             <div class="card-image">
+                                <img src="mobile-assets/updated-faculty-img/Neelav-Sarma-RSAPS.png"
+                                    alt="Profile image of Neelav Sarmah">
+                            </div>
+                            <h3 class="card-name">Dr. Neelav Sarmah</h3>
+                            <p class="card-designation">Assistant Professor</p>
+                            <a href="https://www.rgu.ac/faculty-neelav-sarma" class="profile-link">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Nitu-Borgohain-RSAPS.png"
                                     alt="Profile image of Dr. Nitu Borgohain">
                             </div>
@@ -1120,18 +1132,6 @@
                             <h3 class="card-name">Susmita Banerjee</h3>
                             <p class="card-designation">Faculty Member, IKS Cell</p>
                             <a href="https://www.rgu.ac/faculty-susmita-banerjee" class="profile-link">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="mobile-assets/updated-faculty-img/Neelav-Sarma-RSAPS.png"
-                                    alt="Profile image of Neelav Sarmah">
-                            </div>
-                            <h3 class="card-name">Mr. Neelav Sarmah</h3>
-                            <p class="card-designation">Assistant Professor</p>
-                            <a href="https://www.rgu.ac/faculty-neelav-sarma" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -1347,11 +1347,6 @@
 
                 </div>
                 <!-- regular faculty  -->
-
-
-                <!-- visitng faculty  -->
-
-                <!-- visitng faculty  -->
 
             </div>
         </div>

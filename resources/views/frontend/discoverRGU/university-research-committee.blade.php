@@ -177,7 +177,7 @@
                             </tr>
                             <tr>
                                 <td>11.</td>
-                                <td>Dr. Aruna Deb Rroy</td>
+                                <td>Dr. Aruna Dev Rroy</td>
                                 <td>Associate Professor & HOD, RSC</td>
                                 <td>Member</td>
                             </tr>

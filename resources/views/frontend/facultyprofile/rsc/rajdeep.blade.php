@@ -153,7 +153,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            International: 14
+                                            International: 18
                                         </span>
                                     </li>
                                 </ul>
@@ -376,7 +376,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        International: 14
+                                        International: 18
                                     </span>
                                 </li>
                             </ul>

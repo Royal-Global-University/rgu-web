@@ -368,7 +368,7 @@
                             <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/all-faculty/rsc/3.jpg" alt="Profile image">
                             </div>
-                            <h3 class="card-name">Dr. Aruna Deb Rroy</h3>
+                            <h3 class="card-name">Dr. Aruna Dev Rroy</h3>
                             <p class="card-designation">Associate Professor & HOD, RSC</p>
                             <a href="https://www.rgu.ac/faculty-dr-aruna-dev-roy" class="profile-link">View Profile</a>
                         </div>

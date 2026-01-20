@@ -161,7 +161,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            International: 1
+                                            International: 5
                                         </span>
                                     </li>
 
@@ -179,7 +179,23 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            3
+                                            5
+                                        </span>
+                                    </li>
+                                </ul>
+
+                                <h2 class="headd3 mb-3 fw-bold mt-4"
+                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                    Other Achievements/ Awards
+                                </h2>
+
+                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            Received Best Paper Award at the ICSSR Conference organized by Royal School of Commerce, The Assam Royal Global University in collaboration with West Gauhati Commerce College and Datamation held on 7th of January, 2026
                                         </span>
                                     </li>
                                 </ul>
@@ -344,7 +360,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        International: 1
+                                        International: 5
                                     </span>
                                 </li>
 
@@ -361,7 +377,22 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        3
+                                        5
+                                    </span>
+                                </li>
+                            </ul>
+
+                            <h2 class="headd3 mb-3 fw-bold mt-4"
+                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
+                                Other Achievements/ Awards
+                            </h2>
+
+                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        Received Best Paper Award at the ICSSR Conference organized by Royal School of Commerce, The Assam Royal Global University in collaboration with West Gauhati Commerce College and Datamation held on 7th of January, 2026
                                     </span>
                                 </li>
                             </ul>

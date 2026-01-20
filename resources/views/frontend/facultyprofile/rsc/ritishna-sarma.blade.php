@@ -78,7 +78,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            3.5 Years
+                                            4 Years
                                         </span>
                                     </li>
                                 </ul>
@@ -94,7 +94,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            3.5 Years
+                                            4 Years
                                         </span>
                                     </li>
                                 </ul>
@@ -143,7 +143,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            National: 2
+                                            National: 3
                                         </span>
                                     </li>
 
@@ -152,10 +152,9 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            International: 1
+                                            International: 2
                                         </span>
                                     </li>
-
                                 </ul>
 
                                 <h2 class="headd3 mb-3 fw-bold mt-4"
@@ -169,7 +168,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            6
+                                            7
                                         </span>
                                     </li>
                                 </ul>
@@ -203,6 +202,14 @@
                                         <span style="display: block;">
                                             Editorial and Review Board Member, International Management Review, Vol 20, Fall
                                             Special Issue, 2024
+                                        </span>
+                                    </li>
+                                    <li
+                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                        <i class="fa fa-circle"
+                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                        <span style="display: block;">
+                                            UGC NET Qualified
                                         </span>
                                     </li>
 
@@ -291,7 +298,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        3.5 Years
+                                        4 Years
                                     </span>
                                 </li>
                             </ul>
@@ -306,7 +313,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        3.5 Years
+                                        4 Years
                                     </span>
                                 </li>
                             </ul>
@@ -352,7 +359,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        National: 2
+                                        National: 3
                                     </span>
                                 </li>
 
@@ -360,7 +367,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        International: 1
+                                        International: 2
                                     </span>
                                 </li>
 
@@ -376,7 +383,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        6
+                                        7
                                     </span>
                                 </li>
                             </ul>
@@ -408,6 +415,13 @@
                                     <span style="display: block;">
                                         Editorial and Review Board Member, International Management Review, Vol 20, Fall
                                         Special Issue, 2024
+                                    </span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
+                                    <i class="fa fa-circle"
+                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
+                                    <span style="display: block;">
+                                        UGC NET Qualified
                                     </span>
                                 </li>
 

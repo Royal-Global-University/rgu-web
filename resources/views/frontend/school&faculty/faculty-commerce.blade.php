@@ -191,7 +191,7 @@
                             <div class="card-image">
                                 <img src="mobile-assets/all-faculty/rsc/3.jpg" alt="Profile image ">
                             </div>
-                            <h3 class="card-name">Dr. Aruna Deb Rroy</h3>
+                            <h3 class="card-name">Dr. Aruna Dev Rroy</h3>
                             <p class="card-designation">Associate Professor & HoD</p>
                             <a href="https://www.rgu.ac/faculty-dr-aruna-dev-roy" class="profile-link">View Profile</a>
                         </div>
@@ -427,7 +427,7 @@
                                 <img src="mobile-assets/updated-faculty-img/Ms-Rituparna-Baruah.png"
                                     alt="Profile image of Ms. Ritishna Sarma">
                             </div>
-                            <h3 class="card-name">Ms. Rituparna Baruah</h3>
+                            <h3 class="card-name">Dr. Rituparna Baruah</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="/faculty-rituparna-baruah" class="profile-link">View Profile</a>
                         </div>
@@ -611,7 +611,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Visiting%20Faculty/RSC/Bitu%20Sonowal.jpeg"
                                     alt="Profile image of Mr. Bitu Sonowal">
                             </div>
-                            <h3 class="card-name">Mr. Bitu Sonowal</h3>
+                            <h3 class="card-name">Mr. Bittu Sonowal</h3>
                             <p class="card-designation">Visiting Faculty</p>
                             <!-- <a href="#" class="profile-link">View Profile</a> -->
                         </div>
