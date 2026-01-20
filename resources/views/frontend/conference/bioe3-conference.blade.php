@@ -696,6 +696,7 @@
                         <h3 class="mb-3 text-dark text-center">Sponsored by</h3>
                         <hr class="text-dark"/>
                         <img src="mobile-assets/conference/bioe3/spon1.png"/>
+                        <img style="height: 180px; width: 180px; padding-top: 20px;" src="mobile-assets/conference/bioe3/drdo-logo.svg"/>
                     </div>
                 </div>
             </div>

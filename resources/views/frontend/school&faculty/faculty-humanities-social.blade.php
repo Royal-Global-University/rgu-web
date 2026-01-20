@@ -640,8 +640,8 @@
                             </div>
                             <h3 class="card-name">Dr. Akash Singh Thakur</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            {{-- <a href="https://www.rgu.ac/faculty-dhiraj-kumar-borkotoky" class="profile-link">View
-                                Profile</a> --}}
+                            <a href="/faculty-akash-singh-thakur" class="profile-link">View
+                                Profile</a>
                         </div>
                     </div>
 

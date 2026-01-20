@@ -3849,6 +3849,10 @@ Route::get('/faculty-nilanjana-purkayastha', function () {
 
 //RSMAS FACULTY Profile
 
+Route::get('/faculty-jayanta-kumar', function () {
+    return view('frontend/facultyprofile/rsmas/jayanta-kumar');
+})->name('faculty-jayanta-kumar');
+
 Route::get('/faculty-tridip-puzari', function () {
     return view('frontend/facultyprofile/rsmas/tridip-puzari');
 })->name('faculty-tridip-puzari');
@@ -4193,6 +4197,14 @@ Route::get('/faculty-biswajit-sarma', function () {
 
 
 //RSC FACULTY PROFILE
+
+Route::get('/faculty-bittu-sonowal', function () {
+    return view('frontend/facultyprofile/rsc/bittu-sonowal');
+})->name('faculty-bittu-sonowal');
+
+Route::get('/faculty-kamal-mour', function () {
+    return view('frontend/facultyprofile/rsc/kamal-mour');
+})->name('faculty-kamal-mour');
 
 Route::get('/prof-dr-Pradeep', function () {
     return view('frontend/facultyprofile/rsc/pradeep');
@@ -4630,6 +4642,10 @@ Route::get('/faculty-sumanta-dutta-chowdhury', function () {
 })->name('faculty-sumanta-dutta-chowdhury');
 
 //RSHSS Facuilty Profile
+
+Route::get('/faculty-akash-singh-thakur', function () {
+    return view('frontend/facultyprofile/rshss/akash-singh-thakur');
+})->name('faculty-akash-singh-thakur');
 
 Route::get('/faculty-debangana-baruah', function () {
     return view('frontend/facultyprofile/rshss/debangana-baruah');
