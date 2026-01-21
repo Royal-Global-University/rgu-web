@@ -609,21 +609,21 @@
                 <section class="urd_ecosystem_wrapper" id="urd_eco_trigger_desktop">
                     <div class="urd_eco_flex_container">
                         <div class="urd_eco_col_group">
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/a.png"
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/a1.png"
                                 class="urd_eco_floating_card" alt="Stat A" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/b.png"
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/b1.png"
                                 class="urd_eco_floating_card" alt="Stat B" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/c.png"
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/c1.png"
                                 class="urd_eco_floating_card" alt="Stat C" />
                         </div>
                         <img src="mobile-assets/research-development-new/ecosystem/center.png" class="urd_eco_center_visual"
                             alt="Ecosystem Center" />
                         <div class="urd_eco_col_group">
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/d.png"
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/d1.png"
                                 class="urd_eco_floating_card" alt="Stat D" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/e.png"
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/e1.png"
                                 class="urd_eco_floating_card" alt="Stat E" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/f.png"
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/f1.png"
                                 class="urd_eco_floating_card" alt="Stat F" />
                         </div>
                     </div>
@@ -730,12 +730,12 @@
                         <img src="mobile-assets/research-development-new/ecosystem/center.png" class="urd_eco_center_visual"
                             alt="Center" />
                         <div class="urd_mob_eco_grid_layout">
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/a.png" alt="Stat" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/b.png" alt="Stat" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/c.png" alt="Stat" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/d.png" alt="Stat" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/e.png" alt="Stat" />
-                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/f.png" alt="Stat" />
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/a1.png" alt="Stat" />
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/b1.png" alt="Stat" />
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/c1.png" alt="Stat" />
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/d1.png" alt="Stat" />
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/e1.png" alt="Stat" />
+                            <img src="mobile-assets/research-development-new/ecosystem/new-eco/f1.png" alt="Stat" />
                         </div>
                     </div>
                 </section>
