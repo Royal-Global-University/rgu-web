@@ -2,9 +2,9 @@
 @section('content')
     <div class="mobile">
         @include('frontend/components/mobileheader')
-        <div style="padding-top: 90px; position: relative;">
+        <div>
             <section style="background-image: url('mobile-assets/deans/bg.svg');">
-                <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text pt-4"
+                <h2 class="mobile-headd1 fw-bold text-center kd-title-ani kd-split-text"
                     style="color: #27467A; font-weight: 900;">
                     Deans</h2>
 
@@ -205,26 +205,6 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 mb-4">
-
-                            <div class="card rounded d-flex flex-column"
-                                style="background-color: #fff; border: none; box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.25); height: 500px;">
-                                <div class="p-3">
-                                    <img style="height: 300px; width: 100%;" src="mobile-assets/deans/9.jpg"
-                                        class="img-fluid rounded" />
-                                </div>
-                                <div class="card-body d-flex flex-column flex-grow-1">
-                                    <h5 style="font-weight: 800; color: #27467A;" class="card-title mobile-headd2 pb-2">Prof.
-                                        (Dr.) Rama Ranjan Bhattacharjee
-
-                                    </h5>
-                                    <p class="mobile-para1" style="color: #27467A; line-height: 1.3;">Dean, Research &
-                                        Innovation
-
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="col-lg-3 mb-4">
 

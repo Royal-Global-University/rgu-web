@@ -4,7 +4,7 @@
         <section style="background-image: url(mobile-assets/research/bg.svg); background-size: cover;">
             @include('frontend/components/mobileheader')
 
-                <div style="padding: 20px 30px;">
+                <div style="padding: 60px 30px;">
 
                     <h2 class="mobile-headd1 pb-3 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
                         Research and <span style="color: #FF9A1E; font-weight: 500;">Development Team</span></h2>
