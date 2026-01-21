@@ -46,12 +46,21 @@
                 @php
                     $newsItems = [
                         [
-                            'title' =>
-                                'Pre Magh Bihu and Uruka Celebrated at Royal Global University',
+                            'title' => 'Silpi Diwas Celebrated by Dr Bhupen Hazarika Centre for Creativity at RGU',
+                            'summary' => '',
+                            'date' => 'Guwahati, January 20, 2026:',
+                            'link' => 'silpi-diwas-celebrated-by-dr-bhupen-hazarika-centre-for-creativity-at-rgu',
+                            'image' => 'mobile-assets/media-corner/news82/1.jpeg',
+                            'content' => 'The Dr Bhupen Hazarika Centre for Creativity at
+                The Assam Royal Global University (RGU) today celebrated Silpi Diwas with great enthusiasm through a special
+                programme titled “Tore More Alokore Jatra”, commemorating the legacy of Rupkonwar Jyotiprasad Agarwala. The
+                event was held at the Jyoti Mancha auditorium on the occasion of Agarwala’s death anniversary on January 17.',
+                        ],
+                        [
+                            'title' => 'Pre Magh Bihu and Uruka Celebrated at Royal Global University',
                             'summary' => '',
                             'date' => 'Guwahati, January 12, 2026:',
-                            'link' =>
-                                'pre-magh-bihu-and-uruka-celebrated-at-royal-global-university',
+                            'link' => 'pre-magh-bihu-and-uruka-celebrated-at-royal-global-university',
                             'image' => 'mobile-assets/media-corner/news81/1.jpeg',
                             'content' =>
                                 'Royal Global University (RGU) celebrated Pre Magh Bihu and Uruka with great enthusiasm and traditional fervour at its campus today, reflecting the warmth, unity and cultural richness of Assam’s harvest festival.',
