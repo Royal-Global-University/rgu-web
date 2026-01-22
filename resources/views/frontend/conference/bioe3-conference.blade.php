@@ -1076,7 +1076,7 @@
                                         <img src="mobile-assets/conference/bioe3/Probodh.jpeg" alt="Profile image">
                                     </div>
                                     <h3 class="card-name">Prof. Probodh Borah</h3>
-                                    <p class="card-designation">Director Research, College of Veterinary Sciences, Assam Agricultural Universit</p>
+                                    <p class="card-designation">Director Research, College of Veterinary Sciences, Assam Agricultural University</p>
                                 </div>
                             </div>
 
