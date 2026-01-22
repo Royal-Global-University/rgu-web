@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-      <style>
+  <style>
     /* Mobile (Up to 1024px) - Controls visibility */
     @media only screen and (max-width: 1024px) {
       .faculty-bio-desktop-display {
@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Roshmi-Boruah-RSEES.png"
+              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Arkajit.jpeg"
                 alt="">
             </div>
           </div>
@@ -186,7 +186,7 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-                Dr. Roshmi Boruah
+                Dr. Arkajit Debnath
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
                 Assistant Professor
@@ -208,7 +208,7 @@
 
             <div class="faculty-bio-mobile-display">
               <h2 class="faculty-bio-main-name fw-bold pt-4">
-                Dr. Roshmi Boruah
+                Dr. Arkajit Debnath
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
                 Assistant Professor
@@ -217,39 +217,39 @@
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Ph.D. in Geology (Sedimentology): Department of Geological Sciences, Gauhati University</span></li>
-              <li><i class="fa fa-circle"></i> <span>M.Sc. in Geology: Department of Applied Geology, Dibrugarh University</span></li>
-              <li><i class="fa fa-circle"></i> <span>B.Sc. (Geology-H, Physics, Mathematics): Department of Geology, Sibsagar College, Joysagar, Dibrugarh University</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ph.D. (Cyber law and Phishing attacks) - ICFAI University Tripura</span></li>
+              <li><i class="fa fa-circle"></i> <span>LLM (International Commercial Arbitration) -GD Goenka University</span></li>
+              <li><i class="fa fa-circle"></i> <span>BA.LLB - Tripura Government Law College</span></li>
             </ul>
 
+            <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>1 month</span></li>
+            </ul>
 
             <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>4 Years 9 months</span></li>
+              <li><i class="fa fa-circle"></i> <span>1 month</span></li>
             </ul>
             <h2 class="faculty-bio-sub-heading">Research (outside teaching):</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>6 Years</span></li>
+              <li><i class="fa fa-circle"></i> <span>4 years</span></li>
             </ul>
 
-            <h2 class="faculty-bio-sub-heading">Research Interests:</h2>
+            <h2 class="faculty-bio-sub-heading">Research Interests: </h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Sedimentology</span></li>
+              <li><i class="fa fa-circle"></i> <span>cyber laws, phishing attacks, data privacy</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Paper Publication in Journals:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>International: 03</span></li>
+              <li><i class="fa fa-circle"></i> <span>National: 02</span></li>
+              <li><i class="fa fa-circle"></i> <span>International: 04</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Books Chapters Published:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>01</span></li>
-            </ul>
-
-            <h2 class="faculty-bio-sub-heading">Projects:</h2>
-            <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>01</span></li>
+              <li><i class="fa fa-circle"></i> <span>06</span></li>
             </ul>
 
 

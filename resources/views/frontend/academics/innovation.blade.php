@@ -372,8 +372,8 @@
 
                         <style>
                             /*
-                * 1. Setup the main container and animation logic (Identical to list version)
-                */
+                    * 1. Setup the main container and animation logic (Identical to list version)
+                    */
                             .event-2-endless-scroll-container {
                                 margin: auto;
                                 width: 97%;
@@ -393,8 +393,8 @@
                             }
 
                             /*
-                * 2. Style the Image Frames and Images
-                */
+                    * 2. Style the Image Frames and Images
+                    */
                             .event-2-scroll-content-images {
                                 display: flex;
                             }
@@ -519,8 +519,8 @@
                             }
 
                             /*
-                * 3. Define the Keyframes for the Movement
-                */
+                    * 3. Define the Keyframes for the Movement
+                    */
                             @keyframes event-2-scroll-movement {
                                 from {
                                     transform: translateX(-50%);
@@ -834,8 +834,8 @@
 
                     <style>
                         /*
-                * 1. Setup the main container and animation logic (Identical to list version)
-                */
+                    * 1. Setup the main container and animation logic (Identical to list version)
+                    */
                         .endless-scroll-container {
                             margin: auto;
                             width: 95%;
@@ -855,8 +855,8 @@
                         }
 
                         /*
-                * 2. Style the Image Frames and Images
-                */
+                    * 2. Style the Image Frames and Images
+                    */
                         .scroll-content-images {
                             display: flex;
                         }
@@ -978,8 +978,8 @@
                         }
 
                         /*
-                * 3. Define the Keyframes for the Movement
-                */
+                    * 3. Define the Keyframes for the Movement
+                    */
                         @keyframes scroll-movement {
                             from {
                                 transform: translateX(0%);
@@ -1315,8 +1315,442 @@
 
                     </p>
 
+                    <div class="event-section">
+                        <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 30px;">
+                            Events carried out by IIC-RGU in 2024-2025
+                        </h2>
+
+                        <h2 class="mobile-headd1 fw-bold" style="color: #333; padding-top: 30px; font-size: 24px;">
+                            Calendar Activities
+                        </h2>
+
+                        <div class="table-responsive">
+                            <table class="table table-bordered shadow bg-white mobile-para1">
+                                <thead style="background-color: #24477f; color: #fff;">
+                                    <tr>
+                                        <th style="width: 80px;">Sl. No.</th>
+                                        <th>Event</th>
+                                        <th style="width: 180px;">Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Workshop on Entrepreneurship and Innovation as a Career Opportunity</td>
+                                        <td>19/11/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>“My Story” Motivational Session by a Successful Start-up Founder</td>
+                                        <td>22/11/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Celebration of National Entrepreneurship Day</td>
+                                        <td>11/11/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Exposure and Field Visits for Problem Identification aligned with UN SDGs and
+                                            Emerging
+                                            Technologies
+                                        </td>
+                                        <td>28/11/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Idea Showcase: Demo Day / Exhibition / Poster Presentation of Ideas (Operation
+                                            Theatre Technology)
+                                        </td>
+                                        <td>18/09/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Intra-University Idea Competition among Students</td>
+                                        <td>27/11/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>MIC Programmes and Schemes Awareness Session</td>
+                                        <td>23/10/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Motivational Session by a Successful Start-up Founder</td>
+                                        <td>21/11/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Session on Basics of Intellectual Property Rights (IPR) and its Importance</td>
+                                        <td>20/11/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Session on Problem Solving and Ideation Workshop</td>
+                                        <td>26/11/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Workshop on Innovative Design, Clay Modelling, and Market Fit Product
+                                            Development</td>
+                                        <td>12/02/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Celebration of National Science Day</td>
+                                        <td>28/02/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Expert Talk on Process of Innovation Development and Technology Readiness Level
+                                            (TRL)</td>
+                                        <td>28/09/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Exposure Visits to Technology Driven Business Summit</td>
+                                        <td>01–02/02/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Innovation Meets Tradition: A Culinary Showcase</td>
+                                        <td>04–06/02/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Intra-University Innovation Competition</td>
+                                        <td>24/02/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Outreach Program in Schools through Active Atal Tinkering Labs</td>
+                                        <td>12/02/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>Workshop on Design Thinking, Critical Thinking, and Innovation Design</td>
+                                        <td>24/01/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>Workshop on Effective Sales and Marketing Strategies for Entrepreneurs and
+                                            Start-ups</td>
+                                        <td>14/02/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>Demo Day of Innovative Product Display and Selling</td>
+                                        <td>20–21/03/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>21</td>
+                                        <td>Exposure Visit to Production Unit and Technology Transfer Centre</td>
+                                        <td>09/04/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>Intra-University Business Plan Competition</td>
+                                        <td>29–30/05/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>Planning for Innovation to Startup to Entrepreneurship</td>
+                                        <td>16/05/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24</td>
+                                        <td>Unlock the World of Commodity and Derivatives: Raising Funds for Start-ups</td>
+                                        <td>18/03/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>25</td>
+                                        <td>Workshop on Business Model Canvas (BMC)</td>
+                                        <td>06/05/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>26</td>
+                                        <td>Workshop on Protecting Intellectual Property Rights (IPRs)</td>
+                                        <td>09/05/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>27</td>
+                                        <td>3-Day Expert Mentoring Workshop on Innovative Kinetic Sculpture Development and
+                                            Commercialization
+                                        </td>
+                                        <td>15–17/07/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>28</td>
+                                        <td>Business Plan Competition Leading to Startup</td>
+                                        <td>02/07/2025 – 06/08/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>29</td>
+                                        <td>Innovation and Entrepreneurship Outreach Program</td>
+                                        <td>27/06/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30</td>
+                                        <td>Mentoring Session on Minimum Viable Business</td>
+                                        <td>03/07/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>31</td>
+                                        <td>Panel Discussion with Innovation and Startup Ecosystem Enablers</td>
+                                        <td>02/07/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>32</td>
+                                        <td>Session with Business Accelerator</td>
+                                        <td>17/06/2025</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h2 class="mobile-headd1 fw-bold" style="color: #333; padding-top: 30px; font-size: 24px;">
+                            Celebration
+                        </h2>
+
+                        <div class="table-responsive">
+                            <table class="table table-bordered shadow bg-white mobile-para1">
+                                <thead style="background-color: #24477f; color: #fff;">
+                                    <tr>
+                                        <th style="width: 80px;">Sl. No.</th>
+                                        <th>Event</th>
+                                        <th style="width: 180px;">Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>33</td>
+                                        <td>World Creativity and Innovation Day</td>
+                                        <td>21/04/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>34</td>
+                                        <td>Celebration of National Education Day and Career Counseling Session</td>
+                                        <td>11/11/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>35</td>
+                                        <td>National Technology Day Celebration</td>
+                                        <td>12/05/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>36</td>
+                                        <td>Pre-Celebration of National Innovation Day followed by a One-Day National
+                                            Workshop on Empowering
+                                            Future Leaders on Internet Governance</td>
+                                        <td>13/02/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>37</td>
+                                        <td>Pre-Celebration of World Intellectual Property Day 2025</td>
+                                        <td>24/04/2025</td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h2 class="mobile-headd1 fw-bold" style="color: #333; padding-top: 30px; font-size: 24px;">
+                            MIC driven activities
+                        </h2>
+
+                        <div class="table-responsive">
+                            <table class="table table-bordered shadow bg-white mobile-para1">
+                                <thead style="background-color: #24477f; color: #fff;">
+                                    <tr>
+                                        <th style="width: 80px;">Sl. No.</th>
+                                        <th>Event</th>
+                                        <th style="width: 180px;">Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <!-- MIC Driven Activities -->
+
+                                    <tr>
+                                        <td>38</td>
+                                        <td>MIC Driven Activity: Building YUKTI Innovation Repositories in IIC Institutions
+                                            – Productizing
+                                            Campus Ideas and Boosting Innovation Funding for Startup Opportunities</td>
+                                        <td>19/05/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>39</td>
+                                        <td>MIC Driven Activity: Patent to Product (Srujanta Se Samruddhi) organized by
+                                            IIC-RGU</td>
+                                        <td>26/04/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>40</td>
+                                        <td>MIC Driven Activity: Significance of IP Protection and Commercialization
+                                            organized by IIC-RGU</td>
+                                        <td>25/04/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>41</td>
+                                        <td>MIC Driven Activity – Mark the Spot: Trademarks Talk – Masterclass on Trademarks
+                                            and Geographical
+                                            Indications</td>
+                                        <td>24/04/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>42</td>
+                                        <td>MIC Driven Activity – Copy That! Copyrights Uncovered – Masterclass on
+                                            Copyrights</td>
+                                        <td>23/04/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>43</td>
+                                        <td>MIC Driven Activity: Discover More with Design Registrations – Masterclass on
+                                            Patents and Design
+                                            Registration</td>
+                                        <td>22/04/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>44</td>
+                                        <td>Inauguration of IP UTSAV and Celebration of World Creativity and Innovation Day
+                                        </td>
+                                        <td>21/04/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>45</td>
+                                        <td>MIC Driven Activity: Podcast Series on “Rashtra Pratham” and “Celebrating
+                                            Failures” organized by
+                                            IIC-RGU</td>
+                                        <td>04/07/2025</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h2 class="mobile-headd1 fw-bold" style="color: #333; padding-top: 30px; font-size: 24px;">
+                            Self-driven activities
+                        </h2>
+
+                        <div class="table-responsive">
+                            <table class="table table-bordered shadow bg-white mobile-para1">
+                                <thead style="background-color: #24477f; color: #fff;">
+                                    <tr>
+                                        <th style="width: 80px;">Sl. No.</th>
+                                        <th>Event</th>
+                                        <th style="width: 180px;">Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>46</td>
+                                        <td>2 Days Innovation, Design and Entrepreneurship (IDE) Bootcamp organized by the
+                                            Ministry of
+                                            Education
+                                            (MoE) – DoSEL – AICTE – NCERT – PMSHRI</td>
+                                        <td>11–12/09/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>47</td>
+                                        <td>One Day Induction and Motivational Session for New Student Members</td>
+                                        <td>30/09/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>48</td>
+                                        <td>Innovation Competition in Bio-Allied Field “BITHON 2024”</td>
+                                        <td>29/10/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>49</td>
+                                        <td>Udyami Bazar 2.0</td>
+                                        <td>10/04/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>50</td>
+                                        <td>Hosting a Delegation from Zimbabwe for an Inspiring Day of Interaction and
+                                            Exploration</td>
+                                        <td>04/07/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>51</td>
+                                        <td>IIC-RGU Participation in the Launch of Northeast Innovation Catalyst Program
+                                            (NEICP) – Second
+                                            Edition</td>
+                                        <td>15/07/2025 – 01/08/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>52</td>
+                                        <td>Hardware Training Program and Quiz Competition on Internet Safety and Protocols
+                                            in collaboration
+                                            with Catla Broadband Services</td>
+                                        <td>23/07/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>53</td>
+                                        <td>Workshop on AI and its Application in Business</td>
+                                        <td>18/08/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>54</td>
+                                        <td>Signing of Memorandum of Understanding (MoU) by Royal Innovation Incubator with
+                                            a Budding Startup
+                                        </td>
+                                        <td>23/06/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>55</td>
+                                        <td>From RGU to Tech Titan: Vishal More’s Inspiring Journey</td>
+                                        <td>24/02/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>56</td>
+                                        <td>Interactive Session on Conflict Resolution and Negotiation Skills</td>
+                                        <td>08/04/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>57</td>
+                                        <td>Donut Workshop at RGU</td>
+                                        <td>26/03/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>58</td>
+                                        <td>Celebrating International Day of Forests with Innovation</td>
+                                        <td>21/03/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>59</td>
+                                        <td>One-Day Seminar on Secure Software Development</td>
+                                        <td>21/03/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>60</td>
+                                        <td>Internal Hackathon 2024</td>
+                                        <td>06/09/2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>61</td>
+                                        <td>Boot Camp 1.0-2025: Hands-on Session on Bioinformatics Tools and Mastering BLAST
+                                        </td>
+                                        <td>24–26/06/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>62</td>
+                                        <td>Boot Camp 2.0-2025: Molecular, Cytogenetics and DNA Isolation Techniques</td>
+                                        <td>27–29/06/2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>63</td>
+                                        <td>Boot Camp 3.0-2025: Biodiversity Monitoring and Advanced GIS</td>
+                                        <td>30/06/2025 – 02/07/2025</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
                     <h2 class="mobile-headd1 fw-bold" style="color: #24477f; padding-top: 20px;">
-                        Activities of IIC-RGU for the AY 2023-27
+                        Activities of IIC-RGU for the AY 2023-24
                     </h2>
 
                     <div class="table-responsive">

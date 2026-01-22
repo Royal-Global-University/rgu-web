@@ -166,7 +166,7 @@
                             </div>
                             <h3 class="card-name">Prof. Amlandeep Das</h3>
                             <p class="card-designation">Professor & Associate Dean, Student Affairs</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-amlandeep-das" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -177,7 +177,7 @@
                             </div>
                             <h3 class="card-name">Mr. Dileep Chandan Sarma</h3>
                             <p class="card-designation">Professor</p>
-                            {{-- <a href="https://www.rgu.ac/advisor-prasanta-jyoti-baruah" class="profile-link">View Profile</a> --}}
+                            <a href="/faculty-dileep-chandan" class="profile-link">View Profile</a>
                         </div>
                     </div>
 
@@ -328,7 +328,7 @@
                             </div>
                             <h3 class="card-name">Dr. Radhika Sharma</h3>
                             <p class="card-designation">Assistant Professor</p>
-                            <!-- <a href="" class="profile-link">View Profile</a> -->
+                            <a href="/faculty-radhika-sharma" class="profile-link">View Profile</a>
                         </div>
                     </div>
 

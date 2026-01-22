@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-      <style>
+  <style>
     /* Mobile (Up to 1024px) - Controls visibility */
     @media only screen and (max-width: 1024px) {
       .faculty-bio-desktop-display {
@@ -178,7 +178,7 @@
 
           <div class="col-lg-5 text-center">
             <div class="text-center">
-              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Roshmi-Boruah-RSEES.png"
+              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Radhika.jpeg"
                 alt="">
             </div>
           </div>
@@ -186,7 +186,7 @@
           <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
             <div class="faculty-bio-name-pad">
               <h2 class="faculty-bio-main-name mb-3 pt-5">
-                Dr. Roshmi Boruah
+               Dr. Radhika Sharma
               </h2>
               <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
                 Assistant Professor
@@ -208,7 +208,7 @@
 
             <div class="faculty-bio-mobile-display">
               <h2 class="faculty-bio-main-name fw-bold pt-4">
-                Dr. Roshmi Boruah
+                Dr. Radhika Sharma
               </h2>
               <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
                 Assistant Professor
@@ -217,39 +217,49 @@
 
             <h2 class="faculty-bio-sub-heading">Qualifications</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Ph.D. in Geology (Sedimentology): Department of Geological Sciences, Gauhati University</span></li>
-              <li><i class="fa fa-circle"></i> <span>M.Sc. in Geology: Department of Applied Geology, Dibrugarh University</span></li>
-              <li><i class="fa fa-circle"></i> <span>B.Sc. (Geology-H, Physics, Mathematics): Department of Geology, Sibsagar College, Joysagar, Dibrugarh University</span></li>
+              <li><i class="fa fa-circle"></i> <span>Ph.D.  - Banasthali Vidyapith</span></li>
+              <li><i class="fa fa-circle"></i> <span>M.Phil (ELT) - Banasthali Vidyapith</span></li>
+              <li><i class="fa fa-circle"></i> <span>M.A.(English) - Banasthali Vidyapith</span></li>
+              <li><i class="fa fa-circle"></i> <span>B.A. (English Literature, Drawing and painting and Textile Designing) - Banasthali Vidyapith</span></li>
             </ul>
 
+            <h2 class="faculty-bio-sub-heading">Total Experience:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>3 months</span></li>
+            </ul>
 
             <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>4 Years 9 months</span></li>
+              <li><i class="fa fa-circle"></i> <span>3 months</span></li>
             </ul>
-            <h2 class="faculty-bio-sub-heading">Research (outside teaching):</h2>
-            <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>6 Years</span></li>
-            </ul>
-
             <h2 class="faculty-bio-sub-heading">Research Interests:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>Sedimentology</span></li>
+              <li><i class="fa fa-circle"></i> <span>Medical and Health Humanities, Modern Literature, psychoanalysis, Trauma Studies</span></li>
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Paper Publication in Journals:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>International: 03</span></li>
+              <li><i class="fa fa-circle"></i> <span>National: 3</span></li>
+
             </ul>
 
             <h2 class="faculty-bio-sub-heading">Books Chapters Published:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>01</span></li>
+              <li><i class="fa fa-circle"></i> <span>1</span></li>
             </ul>
 
-            <h2 class="faculty-bio-sub-heading">Projects:</h2>
+            <h2 class="faculty-bio-sub-heading">Projects Undertaken:</h2>
             <ul class="faculty-bio-info-list">
-              <li><i class="fa fa-circle"></i> <span>01</span></li>
+              <li><i class="fa fa-circle"></i> <span>News article published in Eastern chronicle newspaper and editing team member of departmental magazine “Voices”. Co-ordinator roles and managerial roles in departmental seminars and conferences</span></li>
+            </ul>
+
+            <h2 class="faculty-bio-sub-heading">Any Other Achievements/Awards:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>Diploma from Pracheen Kala Kendra in Vocal Classical</span></li>
+              <li><i class="fa fa-circle"></i> <span>Represented Bihar in Mini National Volleyball game</span></li>
+              <li><i class="fa fa-circle"></i> <span>Participated in music competitions and volleyball tournaments in school</span></li>
+
+
             </ul>
 
 

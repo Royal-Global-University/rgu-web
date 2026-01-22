@@ -1,382 +1,266 @@
 @extends('frontend.master')
 @section('content')
-    <section style="background-image: url(mobile-assets/all-faculty/bg.svg); background-size: cover;">
+      <style>
+    /* Mobile (Up to 1024px) - Controls visibility */
+    @media only screen and (max-width: 1024px) {
+      .faculty-bio-desktop-display {
+        display: none !important;
+      }
 
-        <div class="mobile">
-            @include('frontend/components/mobileheader')
-            <div style="background-color: #fff; height: 40vh; padding-top: 90px;">
+      .faculty-bio-mobile-display {
+        display: block !important;
+      }
+    }
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 text-center">
-                            <div class="text-center">
-                                <img style="margin-top: 70px; width: 380px; border: 1px solid #27467A;"
-                                    src="mobile-assets/updated-faculty-img/Dr-Pritom-Borah-RSEES.png" alt="">
-                            </div>
-                        </div>
+    /* Desktop (1025px+) - Controls visibility */
+    @media only screen and (min-width: 1025px) {
+      .faculty-bio-desktop-display {
+        display: block !important;
+      }
 
-                        <div class="col-lg-6 pt-3"></div>
+      .faculty-bio-mobile-display {
+        display: none !important;
+      }
+    }
+  </style>
 
-                    </div>
-                </div>
+  <style>
+    /* 1. White Section Spacing Logic */
+    .faculty-bio-white-section {
+      background-color: #fff;
+      position: relative;
+    }
 
+    @media (min-width: 1025px) {
+      .faculty-bio-white-section {
+        height: 42vh;
+        overflow: visible;
+      }
+
+      .faculty-bio-img {
+        margin-top: 100px;
+        width: 480px;
+        margin-left: 45px;
+      }
+
+      .faculty-bio-name-pad {
+        padding-top: 3rem;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .faculty-bio-white-section {
+        height: 40vh;
+        padding-top: 90px;
+      }
+
+      .faculty-bio-img {
+        margin-top: 70px;
+        width: 380px;
+      }
+    }
+
+    /* 2. Image Border Style (Common) */
+    .faculty-bio-img {
+      border: 1px solid #27467A;
+      max-width: 100%;
+      /* Safety for very small screens */
+    }
+
+    /* 3. Font Styles (Responsive) */
+    .faculty-bio-main-name {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 700;
+      color: #FF9A1E;
+    }
+
+    .faculty-bio-designation {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 700;
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Desktop Font Sizes */
+    @media (min-width: 1025px) {
+      .faculty-bio-main-name {
+        font-size: 45px;
+      }
+
+      .faculty-bio-designation {
+        font-size: 26px;
+        color: #27467A;
+      }
+    }
+
+    /* Mobile Font Sizes */
+    @media (max-width: 1024px) {
+      .faculty-bio-main-name {
+        font-size: 35px;
+      }
+
+      .faculty-bio-designation {
+        font-size: 20px;
+        color: #fff;
+      }
+
+      /* White title on blue bg */
+    }
+
+    /* 4. Underline Style */
+    .faculty-bio-underline-effect::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 300px;
+      height: 4px;
+      background-color: #FF9A1E;
+    }
+
+    /* 5. List Styles (Blue Section) */
+    .faculty-bio-blue-section {
+      background-color: #27467A;
+      padding-bottom: 50px;
+    }
+
+    @media (max-width: 1024px) {
+      .faculty-bio-blue-section {
+        padding-top: 190px;
+      }
+    }
+
+    .faculty-bio-sub-heading {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 22px;
+      font-weight: 700;
+      font-style: italic;
+      color: #FF9A1E;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .faculty-bio-info-list {
+      list-style: none;
+      padding-left: 0;
+      color: #fff;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+    }
+
+    .faculty-bio-info-list li {
+      display: flex;
+      align-items: flex-start;
+      line-height: 1.8;
+      margin-bottom: 8px;
+    }
+
+    .faculty-bio-info-list i {
+      font-size: 8px;
+      margin-right: 10px;
+      margin-top: 12px;
+      flex-shrink: 0;
+    }
+  </style>
+
+  <section>
+
+    <div class="mobile">
+      @include('frontend/components/mobileheader')
+    </div>
+    <div class="website">
+      @include('frontend/components/aheader')
+    </div>
+
+    <div class="faculty-bio-white-section">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5 text-center">
+            <div class="text-center">
+              <img class="faculty-bio-img" src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Pritom-Borah-RSEES.png"
+                alt="">
             </div>
+          </div>
 
-            <div style="background-color: #27467A; padding-top: 190px; padding-bottom: 50px;">
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6"></div>
-                        <div class="col-lg-6 pt-4 pb-4">
-
-                            <h2 class="headd1 fw-bold pt-4" style="color: #FF9A1E; font-weight: 700; font-size: 35px;">
-                                Dr. Pritom Borah
-                            </h2>
-
-                            <h2 class="headd3 mb-5 pt-3 fw-bold half-underline" style="color: #fff; font-weight: 700;">
-                                Assistant Professor
-                            </h2>
-
-                            <!-- <h2 class="para1 mb-5 half-underline" style="color: #fff; font-style: italic; font-size: 20px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
-
-                            <div>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Qualifications
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Ph.D. in Metamorphic Geology: Department of Geological Sciences, Gauhati
-                                            University
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            M.Sc. in Geology: Department of Geological Sciences, Gauhati University
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            B.Sc. (Geology-H, Chemistry, Mathematics): Department of Geology, Jagannath
-                                            Barooah College,
-                                            Dibrugarh University
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Academic Experience:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            4 years 2 months
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Research (Outside):
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            6 years
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Research Interest:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Metamorphic Petrology
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Geochemistry
-                                        </span>
-                                    </li>
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            Geochronology
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Paper Publication in Journals:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            International: 5
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                                <h2 class="headd3 mb-3 fw-bold mt-4"
-                                    style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                    Book Chapter Published:
-                                </h2>
-
-                                <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                    <li
-                                        style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                        <i class="fa fa-circle"
-                                            style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                        <span style="display: block;">
-                                            1
-                                        </span>
-                                    </li>
-
-                                </ul>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
+          <div class="col-lg-7 pt-5 faculty-bio-desktop-display">
+            <div class="faculty-bio-name-pad">
+              <h2 class="faculty-bio-main-name mb-3 pt-5">
+                Dr. Pritom Borah
+              </h2>
+              <h2 class="faculty-bio-designation mb-5 faculty-bio-underline-effect">
+                Assistant Professor
+              </h2>
             </div>
+          </div>
 
         </div>
+      </div>
+    </div>
 
-        <div class="website">
-            @include('frontend/components/aheader')
-            <div style="background-color: #fff; height: 35vh; overflow: visible;">
+    <div class="faculty-bio-blue-section">
+      <div class="container">
+        <div class="row">
 
-                <div class="row">
-                    <div class="col-lg-5 text-center">
+          <div class="col-lg-5"></div>
 
-                        <div class="text-center">
-                            <img style="margin-top: 100px; width: 480px; border: 1px solid #27467A; margin-left: 45px;"
-                                src="mobile-assets/updated-faculty-img/Dr-Pritom-Borah-RSEES.png" alt="">
-                        </div>
+          <div class="col-lg-7 pt-4 pb-4">
 
-                    </div>
-
-                    <div class="col-lg-7 pt-5">
-
-                        <h2 class="headd1 fw-bold pt-5 mb-3" style="color: #FF9A1E; font-weight: 700; font-size: 45px;">
-                            Dr. Pritom Borah
-                        </h2>
-
-                        <h2 class="headd3 mb-5 fw-bold half-underline"
-                            style="color: #27467A; font-weight: 700; font-size: 26px;">
-                            Assistant Professor
-                        </h2>
-
-                        <!-- <h2 class="headd3 mb-5 half-underline" style="color: #555; font-style: italic; font-size: 25px;">
-                  Member of Advisory Board, The Assam Royal Global University
-                </h2> -->
-
-                    </div>
-
-                </div>
+            <div class="faculty-bio-mobile-display">
+              <h2 class="faculty-bio-main-name fw-bold pt-4">
+                Dr. Pritom Borah
+              </h2>
+              <h2 class="faculty-bio-designation mb-5 pt-3 fw-bold faculty-bio-underline-effect">
+               Assistant Professor
+              </h2>
             </div>
 
-            <div style="background-color: #27467A;">
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5"></div>
-                        <div class="col-lg-7 pt-4 pb-4">
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Qualifications
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Ph.D. in Metamorphic Geology: Department of Geological Sciences, Gauhati University
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        M.Sc. in Geology: Department of Geological Sciences, Gauhati University
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        B.Sc. (Geology-H, Chemistry, Mathematics): Department of Geology, Jagannath Barooah
-                                        College,
-                                        Dibrugarh University
-                                    </span>
-                                </li>
-
-                            </ul>
-
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Academic Experience:
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        4 years 2 months
-                                    </span>
-                                </li>
-
-                            </ul>
+            <h2 class="faculty-bio-sub-heading">Qualifications</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>Ph.D. in Geology (Metamorphic Petrology): Department of Geological Sciences, Gauhati University</span></li>
+              <li><i class="fa fa-circle"></i> <span>M.Sc. in Geology: Department of Geological Sciences, Gauhati University</span></li>
+              <li><i class="fa fa-circle"></i> <span>B.Sc. (Geology-H, Chemistry, Mathematics): Department of Geology, Jagannath Barooah College, Dibrugarh University</span></li>
+            </ul>
 
 
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Research (Outside):
-                            </h2>
 
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+            <h2 class="faculty-bio-sub-heading">Academic Experience:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span> 4 Years 11 months</span></li>
+            </ul>
 
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        6 years
-                                    </span>
-                                </li>
+            <h2 class="faculty-bio-sub-heading">Research (outside teaching):</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>6 Years</span></li>
+            </ul>
 
-                            </ul>
+            <h2 class="faculty-bio-sub-heading">Research Interest:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>Metamorphic Petrology</span></li>
+              <li><i class="fa fa-circle"></i> <span>Geochemistry</span></li>
+              <li><i class="fa fa-circle"></i> <span>Geochronology</span></li>
 
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Research Interest:
-                            </h2>
+            </ul>
 
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+            <h2 class="faculty-bio-sub-heading">Paper Publication in Journals:</h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>International: 07</span></li>
 
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Metamorphic Petrology
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Geochemistry
-                                    </span>
-                                </li>
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        Geochronology
-                                    </span>
-                                </li>
+            </ul>
 
-                            </ul>
 
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Paper Publication in Journals:
-                            </h2>
 
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
+            <h2 class="faculty-bio-sub-heading">Book Chapter Published: </h2>
+            <ul class="faculty-bio-info-list">
+              <li><i class="fa fa-circle"></i> <span>01</span></li>
 
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        International: 5
-                                    </span>
-                                </li>
+            </ul>
 
-                            </ul>
 
-                            <h2 class="headd3 mb-3 fw-bold mt-4"
-                                style="color: #FF9A1E; font-weight: 700; font-style: italic;">
-                                Book Chapter Published:
-                            </h2>
-
-                            <ul style="list-style: none; padding-left: 0; color: #fff;" class="para1">
-
-                                <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
-                                    <i class="fa fa-circle"
-                                        style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
-                                    <span style="display: block;">
-                                        1
-                                    </span>
-                                </li>
-
-                            </ul>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
+          </div>
         </div>
+      </div>
+    </div>
 
-    </section>
+  </section>
 @endsection
