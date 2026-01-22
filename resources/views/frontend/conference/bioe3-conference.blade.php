@@ -6,7 +6,7 @@
     <div class="mobile">
         @include('frontend/components/mobileheader')
         <div
-            style="background-image: url(mobile-assets/blog/microbio/cover-mob.png); background-size: cover; background-position: center; height: 35vh; display: flex; align-items: center; justify-content: center; text-align: center; padding-top: 120px">
+            style="background-image: url(mobile-assets/conference/bioe3/mob-bio3.jpeg); background-size: cover; background-position: center; height: 35vh; display: flex; align-items: center; justify-content: center; text-align: center; padding-top: 120px">
             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;"
                 class="container">
 
@@ -618,7 +618,7 @@
         @include('frontend/components/aheader')
         <!--End Header-->
         <div
-            style="background-image: url(mobile-assets/blog/microbio/cover.png); background-size: cover; background-position: center; height: 60vh; display: flex; align-items: center; justify-content: center; text-align: center;">
+            style="background-image: url(mobile-assets/conference/bioe3/web-bio3.jpeg); background-size: cover; background-position: center; height: 60vh; display: flex; align-items: center; justify-content: center; text-align: center;">
         </div>
 
         <div class="container pt-5">
@@ -1067,6 +1067,16 @@
                                     </div>
                                     <h3 class="card-name">Dr. K. K. Narayanan</h3>
                                     <p class="card-designation">Managing Director, Metahelix Life Sciences (a Tata enterprise)</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="mobile-assets/conference/bioe3/Probodh.jpeg" alt="Profile image">
+                                    </div>
+                                    <h3 class="card-name">Prof. Probodh Borah</h3>
+                                    <p class="card-designation">Director Research, College of Veterinary Sciences, Assam Agricultural Universit</p>
                                 </div>
                             </div>
 
