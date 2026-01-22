@@ -1,8 +1,4 @@
 @extends('frontend.master')
-@section('title', 'Royal Global University’s M.A History – Excellence in Historical Studies')
-@section('meta_description', 'Advance your expertise in history with Royal Global University’s top-rated M.A program,
-    designed to foster analytical skills and critical thinking for diverse career paths.')
-@section('meta_keywords', ' M.A History')
 @section('content')
     <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
@@ -12,7 +8,7 @@
             <div class="container" style="padding-top: 120px; position: relative;">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
-                    MA - Indian Knowledge System (IKS)
+                    M.Des. - Product Design (PD)
                 </h2>
 
             </div>
@@ -22,7 +18,7 @@
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Indian Knowledge System (IKS)
+                Royal School of Design (RSD)
             </p>
 
         </div>
@@ -32,7 +28,7 @@
             <div class="container">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-                    MA - Indian Knowledge System (IKS)
+                    M.Des. - Product Design (PD)
                 </h2>
 
             </div>
@@ -42,7 +38,7 @@
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Indian Knowledge System (IKS)
+                Royal School of Design (RSD)
             </p>
 
         </div>
@@ -299,10 +295,12 @@
                         </h2>
 
                         <p class="text-dark">
-                            Bachelor’s Degree in any field from any recognized
-                            University/Institution with minimum 45% marks or
-                            equivalent grade (5% relaxation to SC/ST/OBC
-                            Non-Creamy Layer)
+                            Bachelor’s degree in Product Design/ Design/
+                            Fine Arts/ Applied Arts/ B. Arch/ B. Plan/
+                            B. Construction Management/ B.Tech. (Any
+                            Stream) or in any relevant field/discipline from a
+                            recognized university with minimum 45% marks
+                            or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer).
                         </p>
 
 

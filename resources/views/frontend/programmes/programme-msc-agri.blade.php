@@ -1,8 +1,4 @@
 @extends('frontend.master')
-@section('title', 'Royal Global University’s M.A History – Excellence in Historical Studies')
-@section('meta_description', 'Advance your expertise in history with Royal Global University’s top-rated M.A program,
-    designed to foster analytical skills and critical thinking for diverse career paths.')
-@section('meta_keywords', ' M.A History')
 @section('content')
     <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
@@ -12,7 +8,7 @@
             <div class="container" style="padding-top: 120px; position: relative;">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
-                    MA - Indian Knowledge System (IKS)
+                    M.Sc. Agriculture
                 </h2>
 
             </div>
@@ -22,7 +18,7 @@
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Indian Knowledge System (IKS)
+                Royal School of Agriculture (RSAG)
             </p>
 
         </div>
@@ -32,7 +28,7 @@
             <div class="container">
 
                 <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-                    MA - Indian Knowledge System (IKS)
+                    M.Sc. Agriculture
                 </h2>
 
             </div>
@@ -42,7 +38,7 @@
             </p>
 
             <p class="mobile-headd1 text-center" style="color: #24477f;">
-                Indian Knowledge System (IKS)
+                Royal School of Agriculture (RSAG)
             </p>
 
         </div>
@@ -281,10 +277,10 @@
                         <p class="mobile-para1 text-dark">
                         <ol class="text-dark">
                             <li>
-                                Yearly Payment (Rs. - 85000.00)
+                                Yearly Payment (Rs. - 100000.00)
                             </li>
                             <li>
-                                Semester Payment (Rs. - 43500.00)
+                                Semester Payment (Rs. - 51500.00)
                             </li>
                         </ol>
                         </p>
@@ -299,10 +295,14 @@
                         </h2>
 
                         <p class="text-dark">
-                            Bachelor’s Degree in any field from any recognized
-                            University/Institution with minimum 45% marks or
-                            equivalent grade (5% relaxation to SC/ST/OBC
-                            Non-Creamy Layer)
+                            B.Sc. (Agri)/ B. Sc. (Hort.)/B. Sc. (Agri.
+                            Biotech)/B. Sc (Seri)/B.Sc. (Hons) in
+                            Agriculture/Horticulture/Forestry of 4 year
+                            duration <br> or <br> in any relevant field/discipline from
+                            any recognized university with minimum 45%
+                            marks in aggregate or equivalent grade from
+                            any recognized University/Institution ( 5%
+                            relaxation to SC/ST/OBC – Non-Creamy Layer).
                         </p>
 
 
@@ -311,9 +311,10 @@
                         </h2>
 
                         <p class="text-dark">
-                            Based on overall performance
-                            in last examination followed
-                            by Personal Interview.
+                            Based on overall
+                            performance in the last
+                            examination followed by
+                            personal interview.
                         </p>
 
 

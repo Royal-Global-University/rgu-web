@@ -5219,3 +5219,92 @@ Route::get('/programs-msc-dialysis', function () {
 Route::get('/programs-msc-radiography-advance-imaging-tech', function () {
     return view('frontend/programmes/rsmas/programs-msc-radiography-advance-imaging-tech');
 })->name('programs-msc-radiography-advance-imaging-tech');
+
+// new programme
+
+Route::get('/programs-ma-iks', function () {
+    return view('frontend/programmes/programs-MA-IKS');
+})->name('programs-ma-iks');
+
+Route::get('/programme-ba-assamese', function () {
+    return view('frontend/programmes/programme-ba-assamese');
+})->name('programme-ba-assamese');
+
+Route::get('/programme-bsc-agri', function () {
+    return view('frontend/programmes/programme-bsc-agri');
+})->name('programme-bsc-agri');
+
+Route::get('/programme-bsc-food-science', function () {
+    return view('frontend/programmes/programme-bsc-food-science');
+})->name('programme-bsc-food-science');
+
+Route::get('/programme-certi-sanskrit', function () {
+    return view('frontend/programmes/programme-certi-sanskrit');
+})->name('programme-certi-sanskrit');
+
+Route::get('/programme-ma-assamese', function () {
+    return view('frontend/programmes/programme-ma-assamese');
+})->name('programme-ma-assamese');
+
+Route::get('/programme-mdes-communication-design', function () {
+    return view('frontend/programmes/programme-mdes-communication-design');
+})->name('programme-mdes-communication-design');
+
+Route::get('/programme-mdes-fashion-design', function () {
+    return view('frontend/programmes/programme-mdes-fashion-design');
+})->name('programme-mdes-fashion-design');
+
+Route::get('/programme-mdes-graphic-design', function () {
+    return view('frontend/programmes/programme-mdes-graphic-design');
+})->name('programme-mdes-graphic-design');
+
+Route::get('/programme-mdes-product-design', function () {
+    return view('frontend/programmes/programme-mdes-product-design');
+})->name('programme-mdes-product-design');
+
+Route::get('/programme-msc-agri', function () {
+    return view('frontend/programmes/programme-msc-agri');
+})->name('programme-msc-agri');
+
+Route::get('/programme-msc-food-science', function () {
+    return view('frontend/programmes/programme-msc-food-science');
+})->name('programme-msc-food-science');
+
+Route::get('/programme-rspes-bpes', function () {
+    return view('frontend/programmes/programme-rspes-bpes');
+})->name('programme-rspes-bpes');
+
+//not added
+
+Route::get('/programme-b-anaesthesia-ott', function () {
+    return view('frontend/programmes/programme-b-anaesthesia-ott');
+})->name('programme-b-anaesthesia-ott');
+
+Route::get('/programme-b-dialysis-therapy', function () {
+    return view('frontend/programmes/programme-b-dialysis-therapy');
+})->name('programme-b-dialysis-therapy');
+
+Route::get('/programme-b-emergency-care', function () {
+    return view('frontend/programmes/programme-b-emergency-care');
+})->name('programme-b-emergency-care');
+
+Route::get('/programme-b-medical-lab-sc', function () {
+    return view('frontend/programmes/programme-b-medical-lab-sc');
+})->name('programme-b-medical-lab-sc');
+
+Route::get('/programme-b-radio-imaging', function () {
+    return view('frontend/programmes/programme-b-radio-imaging');
+})->name('programme-b-radio-imaging');
+
+Route::get('/programme-m-anaesthesia-ott', function () {
+    return view('frontend/programmes/programme-m-anaesthesia-ott');
+})->name('programme-m-anaesthesia-ott');
+
+Route::get('/programme-m-dialysis-therapy', function () {
+    return view('frontend/programmes/programme-m-dialysis-therapy');
+})->name('programme-m-dialysis-therapy');
+
+Route::get('/programme-m-emergency-care', function () {
+    return view('frontend/programmes/programme-m-emergency-care');
+})->name('programme-m-emergency-care');
+
