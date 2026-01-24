@@ -1,19 +1,20 @@
 @extends('frontend.master')
 @section('content')
-  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
-    <div class="mobile" style="padding-top: 120px; position: relative;">
+    <div class="mobile">
+      @include('frontend/components/mobileheader')
 
-      <div class="container">
+      <div class="container" style="padding-top: 120px; position: relative;">
 
         <h2 class="mobile-headd1 fw-bold text-center pt-2" style="color: #27467A; font-weight: 900;">
-          Master of Design - Fashion Design
+          M.Des. - Fashion Design (FD)
         </h2>
 
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 02 years
+        Duration - 2 years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -23,17 +24,17 @@
     </div>
 
     <div class="website">
-
+      @include('frontend/components/aheader')
       <div class="container">
 
         <h2 class="mobile-headd1 fw-bold text-center pt-5" style="color: #27467A; font-weight: 900;">
-          Master of Design - Fashion Design
+          M.Des. - Fashion Design (FD)
         </h2>
 
       </div>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
-        Duration - 02 years
+        Duration - 2 years
       </p>
 
       <p class="mobile-headd1 text-center" style="color: #24477f;">
@@ -241,7 +242,6 @@
           <div class="tab-buttons mobile-headd3">
             <button class="tab-button active" data-tab="fee">Fee</button>
             <button class="tab-button" data-tab="eligibility">Eligibility</button>
-            <button class="tab-button" data-tab="selection">Selection</button>
             <button class="tab-button" data-tab="brochure">Brochure</button>
             <button class="tab-button" data-tab="scholarship">Scholarship</button>
             <button class="tab-button" data-tab="apply">How to Apply</button>
@@ -277,10 +277,10 @@
             <p class="mobile-para1 text-dark">
             <ol class="text-dark">
               <li>
-                Yearly Payment (Rs. - 110000.00)
+                Yearly Payment (Rs. - 85000.00)
               </li>
               <li>
-                Semester Payment (Rs. - 56500.00)
+                Semester Payment (Rs. - 43500.00)
               </li>
             </ol>
             </p>
@@ -294,288 +294,24 @@
               Eligibility Criteria
             </h2>
 
-            <p class="mobile-para1 text-dark">
-
-            <p class="fw-bold text-dark">Option A (For Design Background):</p>
-
             <p class="text-dark">
-            <ol class="text-dark">
-              <li>Bachelor's degree in Fashion Design/ Textile Design/ Apparel Design/ Accessory Design or equivalent
-              </li>
-              <li>Minimum 55% aggregate marks or equivalent CGPA from recognized university/institution</li>
-            </ol>
+              Bachelor’s Degree in Fashion Design or in any
+              relevant field/discipline from any recognized
+              University/Institution with minimum 45% marks
+              or equivalent grade (5% relaxation to SC/ST/OBC – Non-Creamy Layer).
             </p>
 
-            <p class="fw-bold text-dark">Option B (For Non-Design Background If we consider):</p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Bachelor's degree in ANY discipline</li>
-              <li>Minimum 60% aggregate marks or equivalent CGPA</li>
-              <li>PLUS Certificate Course in Basic Design/Drawing (minimum 6 months) OR</li>
-              <li>Demonstrated creative work/portfolio</li>
-            </ol>
-            </p>
-
-            <p class="fw-bold text-dark">Age Limit</p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Maximum age: 26 years as on 1st July of admission year</li>
-              <li>Relaxation: 3 years for OBC (Non-Creamy Layer), 5 years for SC/ST candidates, 5 years for PwD
-                candidates</li>
-            </ol>
-            </p>
-
-            <p class="fw-bold text-dark">Additional Requirements:</p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Portfolio Submission: Mandatory for all candidates</li>
-              <li>Statement of Purpose: 500–800 words explaining interest in fashion design</li>
-              <li>Letters of Recommendation: Two (preferably one academic, one professional)</li>
-              <li>Work Experience: Not mandatory but preferred (minimum 1 year in a related field)</li>
-            </ol>
-            </p>
-
-            <p class="fw-bold text-dark">Reservation Policy:</p>
-
-            <p class="text-dark">
-            <p class="text-dark">As per Government of India norms</p>
-            <ol class="text-dark">
-              <li>SC: 15%</li>
-              <li>ST: 7.5%</li>
-              <li>OBC (Non-Creamy Layer): 27%</li>
-            </ol>
-            </p>
-
-
-            </p>
-
-          </div>
-
-          <div id="selection" class="tab-content mobile-para1">
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
               Selection Process
             </h2>
 
-            <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
-              Stage 1: Application Screening
-            </h2>
-
-            <p class="fw-bold text-dark">Documents Required:</p>
-
             <p class="text-dark">
-            <ol class="text-dark">
-              <li>Completed application form</li>
-              <li>Scanned copies of:
-                <ul>
-                  <li>a.) 10th, 12th, and Graduation mark sheets</li>
-                  <li>b.) Degree certificate</li>
-                  <li>c.) Category certificate (if applicable)</li>
-                  <li>d.) Photo ID proof</li>
-                </ul>
-              </li>
-              <li>Digital portfolio (PDF format, max 10MB)</li>
-              <li>Statement of Purpose</li>
-              <li>Two letters of recommendation</li>
-              <li>Work experience certificate (if applicable)</li>
-            </ol>
+              Based on overall performance
+              in last examination followed
+              by Personal Interview.
             </p>
 
-            <p class="fw-bold text-dark">Screening Criteria:</p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Academic performance: 20%</li>
-              <li>Portfolio quality: 40%</li>
-              <li>SOP relevance: 20%</li>
-              <li>Recommendations: 10%</li>
-              <li>Work experience: 10%</li>
-            </ol>
-            </p>
-
-            <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
-              Stage 2: Design Aptitude Test (DAT)
-            </h2>
-
-            <p class="text-dark">Format: Offline/ Online</p>
-
-            <p class="fw-bold text-dark">Part A: Creative Thinking </p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Visual perception test</li>
-              <li>Design problem solving</li>
-              <li>Innovation and ideation exercises</li>
-            </ol>
-            </p>
-
-            <p class="fw-bold text-dark">Part B: Technical Knowledge </p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Basic fashion terminology</li>
-              <li>Material knowledge</li>
-              <li>Sustainability concepts</li>
-              <li>Fashion history awareness</li>
-            </ol>
-            </p>
-
-            <p class="fw-bold text-dark">Part C: Research & Analysis </p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Case study analysis</li>
-              <li>Trend interpretation</li>
-              <li>Market understanding</li>
-            </ol>
-            </p>
-
-            <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
-              Stage 3: Studio Practical Test
-            </h2>
-
-            <p class="fw-bold text-dark">Task 1: Material Exploration </p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Case study analysis</li>
-              <li>Trend interpretation</li>
-              <li>Market understanding</li>
-            </ol>
-            </p>
-
-            <p class="fw-bold text-dark">Task 2: 3D Form Development </p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Create a wearable art piece using provided materials</li>
-              <li>Focus on structure, form, and innovation</li>
-              <li>Present to panel</li>
-            </ol>
-            </p>
-
-            <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
-              Stage 4: Portfolio Presentation & Interview
-            </h2>
-
-            <p class="text-dark">Duration: 30 minutes per candidate</p>
-
-
-            <p class="fw-bold text-dark">Portfolio Requirements:</p>
-
-            <p class="text-dark">Format: Physical portfolio (A3 size) + Digital backup</p>
-
-            <p class="fw-bold text-dark">Content:</p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>8–12 best projects</li>
-              <li>Process documentation for each project</li>
-              <li>Research and development work</li>
-              <li>Technical drawings</li>
-              <li>Photographs of finished work</li>
-              <li>Any published work/articles</li>
-            </ol>
-            </p>
-
-            <p class="text-dark">Presentation: 10-minute presentation by candidate</p>
-
-            <p class="fw-bold text-dark">Interview Structure:</p>
-
-            <p class="text-dark">1. Portfolio Discussion (10 minutes)</p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Questions on projects</li>
-              <li>Understanding of process</li>
-              <li>Design thinking demonstration</li>
-            </ol>
-            </p>
-
-            <p class="text-dark">2. Motivation & Goals (10 minutes)</p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Why M.Des in Fashion?</li>
-              <li>Career aspirations</li>
-              <li>Interest in specific fashion areas</li>
-            </ol>
-            </p>
-
-            <p class="text-dark">3. Situational Questions (10 minutes)</p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Ethical dilemmas in fashion</li>
-              <li>Sustainability challenges</li>
-              <li>Future of fashion industry</li>
-            </ol>
-            </p>
-
-            <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
-              Stage 5: Final Selection
-            </h2>
-
-            <p class="text-dark">Weightage Distribution:</p>
-
-            <div class="table-responsive">
-              <table class="table table-bordered align-middle shadow-sm">
-                <thead class="text-white" style="background-color: #27467A;">
-                  <tr>
-                    <th>Component</th>
-                    <th>Weightage</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>Academic Record</strong></td>
-                    <td>15%</td>
-                    <td>Performance in qualifying degree</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Design Aptitude Test</strong></td>
-                    <td>25%</td>
-                    <td>Scores in written test</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Studio Practical Test</strong></td>
-                    <td>25%</td>
-                    <td>Performance in hands-on tasks</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Portfolio Review</strong></td>
-                    <td>20%</td>
-                    <td>Quality and relevance of portfolio</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Personal Interview</strong></td>
-                    <td>15%</td>
-                    <td>Communication, motivation, clarity</td>
-                  </tr>
-                  <tr class="table-light">
-                    <td><strong>Total</strong></td>
-                    <td><strong>100%</strong></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <p class="fw-bold text-dark">Additional Points:</p>
-
-            <p class="text-dark">
-            <ol class="text-dark">
-              <li>Work experience: +5% (maximum)</li>
-              <li>Publication/Exhibition: +3% (maximum)</li>
-              <li>Awards/Recognition: +2% (maximum)</li>
-            </ol>
-            </p>
-
-            </p>
 
           </div>
 
@@ -585,9 +321,7 @@
               style="padding: 15px 20px; border: 1px solid #e68a1a; border-radius: 10px; background-color: #FFF8F0; display: flex; justify-content: center; align-items: center; flex-direction: column;">
               <img src="mobile-assets/programme-details/brochurethumb.png" alt="">
 
-              <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2"
-                href="https://www.rgu.ac/mobile-assets/Domestic/Bachelor_Design(Fashion_Design)(B.Des.FD).pdf">Download
-                Brochure
+              <a target="_blank" class="text-danger fw-bold mobile-headd3 pt-2" href="#">Download Brochure
                 <i class="fa-solid fa-file-pdf" style="color: #e66363;"></i> </a>
             </div>
 
