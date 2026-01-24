@@ -102,10 +102,10 @@
                                             </td>
                                             <td>140000.00</td>
                                             <td>71500.00</td>
-                                            {{-- <td><a href="{{route('programme-bsc-agri')}}"><button
+                                            <td><a href="{{route('programme-bsc-agri')}}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>2.</td>
@@ -121,10 +121,10 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programme-msc-agri')}}"><button
+                                            <td><a href="{{route('programme-msc-agri')}}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -718,9 +718,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-msc-food-science')}}"><button type="button"
+                                            <td><a href="{{route('programme-msc-food-science')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -779,9 +779,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-bsc-food-science')}}"><button type="button"
+                                            <td><a href="{{route('programme-bsc-food-science')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
 
@@ -1314,9 +1314,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-mdes-fashion-design')}}"><button
+                                            <td><a href="{{route('programme-mdes-fashion-design')}}"><button
                                                         type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
 
@@ -1334,9 +1334,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-mdes-communication-design')}}"><button
+                                            <td><a href="{{route('programme-mdes-communication-design')}}"><button
                                                         type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
 
@@ -1354,9 +1354,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-mdes-graphic-design')}}"><button
+                                            <td><a href="{{route('programme-mdes-graphic-design')}}"><button
                                                         type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
 
@@ -1374,9 +1374,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-mdes-product-design')}}"><button
+                                            <td><a href="{{route('programme-mdes-product-design')}}"><button
                                                         type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
 
@@ -2204,9 +2204,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programs-ma-iks')}}"><button type="button"
+                                            <td><a href="{{route('programs-ma-iks')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -2627,9 +2627,9 @@
                                             </td>
                                             <td>50000.00</td>
                                             <td>26500.00</td>
-                                            {{-- <td><a href="{{route('programme-ma-assamese')}}"><button type="button"
+                                            <td><a href="{{route('programme-ma-assamese')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -2647,9 +2647,9 @@
                                             </td>
                                             <td>50000.00</td>
                                             <td>26500.00</td>
-                                            {{-- <td><a href="{{route('programme-ma-assamese')}}"><button type="button"
+                                            <td><a href="{{route('programme-ma-assamese')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -2667,9 +2667,9 @@
                                             </td>
                                             <td>25,000.00</td>
                                             <td>NA</td>
-                                            {{-- <td><a href="{{route('programme-certi-sanskrit')}}"><button type="button"
+                                            <td><a href="{{route('programme-certi-sanskrit')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                     </tbody>
@@ -3758,9 +3758,9 @@
                                             </td>
                                             <td>50000.00</td>
                                             <td>26500.00</td>
-                                            {{-- <td><a href="{{ route('programme-rspes-bpes') }}"><button type="button"
+                                            <td><a href="{{ route('programme-rspes-bpes') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                     </tbody>
@@ -4269,10 +4269,10 @@
                                             </td>
                                             <td>140000.00</td>
                                             <td>71500.00</td>
-                                            {{-- <td><a href="{{route('programme-bsc-agri')}}"><button
+                                            <td><a href="{{route('programme-bsc-agri')}}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>2.</td>
@@ -4288,10 +4288,10 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programme-msc-agri')}}"><button
+                                            <td><a href="{{route('programme-msc-agri')}}"><button
                                                         type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -4893,9 +4893,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-msc-food-science')}}"><button type="button"
+                                            <td><a href="{{route('programme-msc-food-science')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -4954,9 +4954,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-bsc-food-science')}}"><button type="button"
+                                            <td><a href="{{route('programme-bsc-food-science')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
 
@@ -5517,9 +5517,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-mdes-product-design')}}"><button
+                                            <td><a href="{{route('programme-mdes-communication-design')}}"><button
                                                         type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
 
@@ -5537,9 +5537,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-mdes-graphic-design')}}"><button
+                                            <td><a href="{{route('programme-mdes-graphic-design')}}"><button
                                                         type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
 
@@ -5557,9 +5557,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-mdes-product-design')}}"><button
+                                            <td><a href="{{route('programme-mdes-product-design')}}"><button
                                                         type="button"
-                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a> --}}
+                                                        class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
                                             </td>
                                         </tr>
 
@@ -6368,9 +6368,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programs-ma-iks')}}"><button type="button"
+                                            <td><a href="{{route('programs-ma-iks')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -6795,9 +6795,9 @@
                                             </td>
                                             <td>50000.00</td>
                                             <td>26500.00</td>
-                                            {{-- <td><a href="{{route('programme-ba-assamese')}}"><button type="button"
+                                            <td><a href="{{route('programme-ba-assamese')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -6815,9 +6815,9 @@
                                             </td>
                                             <td>50000.00</td>
                                             <td>26500.00</td>
-                                            {{-- <td><a href="{{route('programme-ma-assamese')}}"><button type="button"
+                                            <td><a href="{{route('programme-ma-assamese')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                         <tr>
@@ -6835,9 +6835,9 @@
                                             </td>
                                             <td>25,000.00</td>
                                             <td>NA</td>
-                                            {{-- <td><a href="{{route('programme-certi-sanskrit')}}"><button type="button"
+                                            <td><a href="{{route('programme-certi-sanskrit')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
                                     </tbody>
@@ -7925,9 +7925,9 @@
                                             </td>
                                             <td>50000.00</td>
                                             <td>26500.00</td>
-                                            {{-- <td><a href="{{ route('programme-rspes-bpes') }}"><button type="button"
+                                            <td><a href="{{ route('programme-rspes-bpes') }}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
