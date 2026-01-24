@@ -389,7 +389,7 @@
                         <img src="https://www.rgu.ac/mobile-assets/school-rgu/schools-library.jpeg"
                             class="img-fluid rounded" style="height:200px; object-fit:cover;">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Library Sciences (RSLISC)</h5>
+                            <h5 class="rgu-unique-headd2 mb-4">Royal School of Library Science (RSLISC)</h5>
                             <div class="mt-auto d-flex justify-content-between">
                                 <a class="rgu-unique-caption" style="background:#27467A; color:#fff; width:48%;"
                                     href="department-library-information">Department</a>

@@ -6,14 +6,14 @@
             @include('frontend/components/mobileheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text"
                 style="padding-top: 80px; position: relative; color: #27467A; font-weight: 900;">
-                Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Library & Information Sciences
+                Royal School <br><span style="color: #FF9A1E; font-weight: 500;"> of Library & Information Science
                     (RSLISC)</span></h2>
         </div>
 
         <div class="website">
 @include('frontend/components/aheader')
             <h2 class="headd1 fw-bold text-center kd-title-ani kd-split-text pt-5" style="color: #27467A; font-weight: 900;">
-                Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Library & Information Sciences
+                Royal School <span style="color: #FF9A1E; font-weight: 500;"> of Library & Information Science
                     (RSLISC)</span></h2>
 
         </div>
