@@ -5292,6 +5292,7 @@ Route::get('/programme-b-medical-lab-sc', function () {
     return view('frontend/programmes/programme-b-medical-lab-sc');
 })->name('programme-b-medical-lab-sc');
 
+
 Route::get('/programme-b-radio-imaging', function () {
     return view('frontend/programmes/programme-b-radio-imaging');
 })->name('programme-b-radio-imaging');
@@ -5307,4 +5308,12 @@ Route::get('/programme-m-dialysis-therapy', function () {
 Route::get('/programme-m-emergency-care', function () {
     return view('frontend/programmes/programme-m-emergency-care');
 })->name('programme-m-emergency-care');
+
+Route::get('/programme-m-medical-lab-sc', function () {
+    return view('frontend/programmes/programme-m-medical-lab-sc');
+})->name('programme-m-medical-lab-sc');
+
+Route::get('/programme-m-radio-imaging', function () {
+    return view('frontend/programmes/programme-m-radio-imaging');
+})->name('programme-m-radio-imaging');
 

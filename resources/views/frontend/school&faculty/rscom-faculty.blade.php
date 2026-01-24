@@ -346,9 +346,9 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prabahan-Puzari.png"
-                                    alt="Profile image of Prabahan Pujari">
+                                    alt="Profile image of Prabahan Puzari">
                             </div>
-                            <h3 class="card-name">Dr. Prabahan Pujari</h3>
+                            <h3 class="card-name">Dr. Prabahan Puzari</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-prabahan-puzari" class="profile-link">View Profile</a>
                         </div>
@@ -967,12 +967,12 @@
                     </div>
 
                     <!-- <div class="col-lg-3 col-md-6 mb-4">
-                  <div class="card">
-                    <div class="card-image"><img src=" https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Deepanjali-Reang-RSHSS.png" alt="Profile image "></div>
-                    <h3 class="card-name">Dipanjali Das</h3>
-                    <p class="card-title">Assistant Professor</p><a href="" class="profile-link">View Profile</a>
-                  </div>
-                </div> -->
+                      <div class="card">
+                        <div class="card-image"><img src=" https://www.rgu.ac/mobile-assets/updated-faculty-img/Dr-Deepanjali-Reang-RSHSS.png" alt="Profile image "></div>
+                        <h3 class="card-name">Dipanjali Das</h3>
+                        <p class="card-title">Assistant Professor</p><a href="" class="profile-link">View Profile</a>
+                      </div>
+                    </div> -->
 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card">

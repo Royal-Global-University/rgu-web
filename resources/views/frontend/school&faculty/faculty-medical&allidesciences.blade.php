@@ -1753,7 +1753,7 @@
                                 <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Prabahan-Puzari.png"
                                     alt="Profile image of Prabahan Pujari">
                             </div>
-                            <h3 class="card-name">Dr. Prabahan Pujari</h3>
+                            <h3 class="card-name">Dr. Prabahan Puzari</h3>
                             <p class="card-designation">Assistant Professor</p>
                             <a href="https://www.rgu.ac/faculty-prabahan-puzari" class="profile-link">View Profile</a>
                         </div>

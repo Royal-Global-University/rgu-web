@@ -3204,9 +3204,9 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                            <td><a href="{{route('programme-b-medical-lab-sc')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>10.</td>
@@ -3222,9 +3222,9 @@
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                            <td><a href="{{route('programme-b-dialysis-therapy')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>11.</td>
@@ -3240,9 +3240,9 @@
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                            <td><a href="{{route('programme-b-emergency-care')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>12.</td>
@@ -3388,9 +3388,9 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-sc-dialysis')}}"><button type="button"
+                                            <td><a href="{{route('programme-m-emergency-care')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>17.</td>
@@ -3424,9 +3424,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programs-Technology-OTT')}}"><button type="button"
+                                            <td><a href="{{route('programme-m-medical-lab-sc')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         {{-- <tr>
                                             <td>13.</td>
@@ -7339,9 +7339,9 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                            <td><a href="{{route('programme-b-radio-imaging')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>8.</td>
@@ -7356,9 +7356,9 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                            <td><a href="{{route('programme-b-anaesthesia-ott')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>9.</td>
@@ -7373,9 +7373,9 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                            <td><a href="{{route('programme-b-medical-lab-sc')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>10.</td>
@@ -7391,9 +7391,9 @@
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                            <td><a href="{{route('programme-b-dialysis-therapy')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>11.</td>
@@ -7409,9 +7409,9 @@
                                             </td>
                                             <td>90000.00</td>
                                             <td>46500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
+                                            <td><a href="{{route('programs-b-optometry-lateral-entry')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>12.</td>
@@ -7427,9 +7427,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-bsc-food-science')}}"><button type="button"
+                                            <td><a href="{{route('programme-bsc-food-science')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
 
 
@@ -7502,9 +7502,9 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-MSc-Medical-Laboratory-MMLT')}}"><button type="button"
+                                            <td><a href="{{route('programme-m-radio-imaging')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>14.</td>
@@ -7519,9 +7519,9 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-MSc-Medical-Laboratory-MMLT')}}"><button type="button"
+                                            <td><a href="{{route('programme-m-anaesthesia-ott')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>15.</td>
@@ -7537,9 +7537,9 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-sc-dialysis')}}"><button type="button"
+                                            <td><a href="{{route('programme-m-dialysis-therapy')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>16.</td>
@@ -7555,9 +7555,9 @@
                                             </td>
                                             <td>100000.00</td>
                                             <td>51500.00</td>
-                                            {{-- <td><a href="{{route('programs-b-sc-dialysis')}}"><button type="button"
+                                            <td><a href="{{route('programme-m-emergency-care')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>17.</td>
@@ -7573,9 +7573,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programme-msc-food-science')}}"><button type="button"
+                                            <td><a href="{{route('programme-msc-food-science')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>18.</td>
@@ -7591,9 +7591,9 @@
                                             </td>
                                             <td>85000.00</td>
                                             <td>43500.00</td>
-                                            {{-- <td><a href="{{route('programs-Technology-OTT')}}"><button type="button"
+                                            <td><a href="{{route('programme-m-medical-lab-sc')}}"><button type="button"
                                                         class="btn btn-primary btn-sm custom-details-btn">Details</button></a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         {{-- <tr>
                                             <td>13.</td>
