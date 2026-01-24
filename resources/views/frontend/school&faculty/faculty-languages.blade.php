@@ -419,5 +419,160 @@
             </div>
         </div>
 
+        <div class="container">
+
+         <!-- Sanskrit  -->
+        <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
+          <h2 class="text-center justify-content-center fw-bold" style="color: #fff; padding: 10px; font-size: 30px;">
+            Department of Sanskrit</h2>
+        </div>
+        <!-- Sanskrit  -->
+
+
+        <!-- regular faculty  -->
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dileep.jpeg" alt="Profile image">
+              </div>
+              <h3 class="card-name">Prof. Dileep Chandan Sarma
+              </h3>
+              <p class="card-designation">Professor
+
+              </p>
+              <!-- <a href="" class="profile-link">View Profile</a> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="mobile-assets/updated-faculty-img/no-pic.png" alt="Profile image">
+              </div>
+              <h3 class="card-name">Prof. Dhrubajyoti Borah
+              </h3>
+              <p class="card-designation">Professor
+
+              </p>
+              <!-- <a href="" class="profile-link">View Profile</a> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="mobile-assets/department-all/dept-sanskrit/gitarthi.png" alt="Profile image">
+              </div>
+              <h3 class="card-name">Ms. Gitarthi Goswami
+              </h3>
+              <p class="card-designation">TGT
+
+              </p>
+              <a href="" class="profile-link">View Profile</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="mobile-assets/department-all/dept-sanskrit/uday-sankar-dev.png" alt="Profile image">
+              </div>
+              <h3 class="card-name">Mr. Uday Shankar Deb
+              </h3>
+              <p class="card-designation">TGT
+
+              </p>
+              <a href="" class="profile-link">View Profile</a>
+            </div>
+          </div>
+
+        </div>
+        <!-- regular faculty  -->
+
+         <!-- Assamese  -->
+        <div style="height: 60px; background-color: #24477f; border-radius: 10px; margin: 20px 0px;">
+          <h2 class="text-center justify-content-center fw-bold" style="color: #fff; padding: 10px; font-size: 30px;">
+            Department of Assamese</h2>
+        </div>
+        <!-- Assamese  -->
+
+         <!-- regular faculty  -->
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Dileep.jpeg" alt="Profile image">
+              </div>
+              <h3 class="card-name">Prof. Dileep Chandan Sarma
+              </h3>
+              <p class="card-designation">Professor
+
+              </p>
+              <!-- <a href="" class="profile-link">View Profile</a> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="mobile-assets/updated-faculty-img/no-pic.png" alt="Profile image">
+              </div>
+              <h3 class="card-name">Prof. Dhrubajyoti Borah
+              </h3>
+              <p class="card-designation">Professor
+
+              </p>
+              <!-- <a href="" class="profile-link">View Profile</a> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://www.rgu.ac/mobile-assets/updated-faculty-img/Bisalakshi-Sawarni-RSL.png" alt="Profile image">
+              </div>
+              <h3 class="card-name">Dr. Bisalakshi Sawarni</h3>
+              <p class="card-designation">Assistant Professor</p>
+              <!-- <a href="" class="profile-link">View Profile</a> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="mobile-assets/department-all/dept-assamese/deepa.png" alt="Profile image">
+              </div>
+              <h3 class="card-name">Ms. Deepa Choudhury
+              </h3>
+              <p class="card-designation">Faculty of Assamese and F.A.
+
+              </p>
+              <a href="" class="profile-link">View Profile</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="mobile-assets/department-all/dept-assamese/bhumika-nath.png" alt="Profile image">
+              </div>
+              <h3 class="card-name">Ms. Bhumika Nath
+              </h3>
+              <p class="card-designation">Educator of Assamese language
+
+              </p>
+              <a href="" class="profile-link">View Profile</a>
+            </div>
+          </div>
+
+        </div>
+        <!-- regular faculty  -->
+
+
+      </div>
+
     </div>
 @endsection
