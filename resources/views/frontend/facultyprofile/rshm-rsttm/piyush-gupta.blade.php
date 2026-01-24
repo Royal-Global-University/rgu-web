@@ -55,7 +55,7 @@
                                         <i class="fa fa-circle"
                                             style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                         <span style="display: block;">
-                                            Pursuing Ph.D. in Travel & Tourism Management
+                                            Ph.D. (Travel & Tourism Management) - The Assam Royal Global University
                                         </span>
                                     </li>
                                     <li
@@ -201,7 +201,7 @@
                                     <i class="fa fa-circle"
                                         style="font-size: 8px; margin-right: 10px; margin-top: 12px; flex-shrink: 0;"></i>
                                     <span style="display: block;">
-                                        Pursuing Ph.D. in Travel & Tourism Management
+                                        Ph.D. (Travel & Tourism Management) - The Assam Royal Global University
                                     </span>
                                 </li>
                                 <li style="display: flex; align-items: flex-start; line-height: 1.8; margin-bottom: 8px;">
