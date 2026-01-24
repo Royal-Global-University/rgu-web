@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('content')
-  <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
+    <div style="background-image: url(mobile-assets/programme-details/bg.svg); background-size: cover;">
 
     <div class="mobile">
       @include('frontend/components/mobileheader')
@@ -294,14 +294,10 @@
             </h2>
 
             <p class="text-dark">
-              Bachelor’s degree in Dialysis Therapy with 45%
-              marks in aggregate or equivalent grade from
-              any recognized University/Institution ( 5%
-              relaxation to SC/ST/OBC – Non-Creamy Layer).
-              Bachelor course must be three years course and
-              one year of internship/one year of working
-              experience must be considered for the master
-              degree admission.
+              Bachelor’s degree in Emergency Medical Technology/ Emergency and Trauma Care Technology/ Emergency
+              Medicine/ Respiratory Therapy/ Physician Assistant/ Anesthesiology Tech or Equivalent from a recognised
+              university with 45% marks in aggregate or equivalent grade from any recognised University/ Institution (5%
+              relaxation to SC/ ST/ OBC - Non-Creamy Layer).
             </p>
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">

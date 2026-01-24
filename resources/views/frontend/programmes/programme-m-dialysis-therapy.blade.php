@@ -294,11 +294,10 @@
             </h2>
 
             <p class="text-dark">
-              10+2 in science stream or equivalent from a
-              recognized Board/Council, with minimum 45%
-              marks or equivalent grade in Physics, Chemistry &
-              Biology taken together (5% relaxation to
-              SC/ST/OBC-Non-Creamy Layer)
+              Bachelor's degree in Dialysis Therapy with 45% marks in aggregate or equivalent grade from any recognised
+              University/ Institution (5% relaxation to ST/ SC/ OBC - Non-Creamy layer). Bachelor course must be three
+              years course and one year of internship/ one year of working experience must be considered for the master
+              degree admissions.
             </p>
 
             <h2 class="mobile-headd3 fw-bold" style="color: #27467A;">
