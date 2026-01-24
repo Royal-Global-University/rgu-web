@@ -442,7 +442,7 @@
               <p class="card-designation">Professor
 
               </p>
-              <!-- <a href="" class="profile-link">View Profile</a> -->
+              <a href="/faculty-dileep-chandan" class="profile-link">View Profile</a>
             </div>
           </div>
 
@@ -470,7 +470,7 @@
               <p class="card-designation">TGT
 
               </p>
-              <a href="" class="profile-link">View Profile</a>
+              <a href="/faculty-gitarthi-goswami" class="profile-link">View Profile</a>
             </div>
           </div>
 
@@ -484,7 +484,7 @@
               <p class="card-designation">TGT
 
               </p>
-              <a href="" class="profile-link">View Profile</a>
+              <a href="/faculty-uday-shankar" class="profile-link">View Profile</a>
             </div>
           </div>
 
@@ -511,7 +511,7 @@
               <p class="card-designation">Professor
 
               </p>
-              <!-- <a href="" class="profile-link">View Profile</a> -->
+              <a href="/faculty-dileep-chandan" class="profile-link">View Profile</a>
             </div>
           </div>
 
@@ -550,7 +550,7 @@
               <p class="card-designation">Faculty of Assamese and F.A.
 
               </p>
-              <a href="" class="profile-link">View Profile</a>
+              <a href="/faculty-deepa-choudhury" class="profile-link">View Profile</a>
             </div>
           </div>
 
@@ -564,7 +564,7 @@
               <p class="card-designation">Educator of Assamese language
 
               </p>
-              <a href="" class="profile-link">View Profile</a>
+              <a href="/faculty-bhumika-nath" class="profile-link">View Profile</a>
             </div>
           </div>
 
