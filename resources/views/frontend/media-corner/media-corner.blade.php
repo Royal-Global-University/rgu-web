@@ -46,6 +46,15 @@
                 @php
                     $newsItems = [
                         [
+                            'title' => '77th Republic Day celebrated by Royal Global University',
+                            'summary' => 'Universities must promote and protect Constitutional values: RGU VC on Republic Day',
+                            'date' => 'Guwahati, January 26, 2026:',
+                            'link' => '77th-republic-day-celebrated-by-royal-global-university',
+                            'image' => 'mobile-assets/media-corner/news82/rep.jpeg',
+                            'content' =>
+                                'As the nation commemorates its 77th Republic Day, signifying the day India’s Constitution was enacted, The Assam Royal Global University (RGU) joined in the celebration today, witnessing active participation from students, faculty, and administrative staff.',
+                        ],
+                        [
                             'title' => 'Silpi Diwas Celebrated by Dr Bhupen Hazarika Centre for Creativity at RGU',
                             'summary' => '',
                             'date' => 'Guwahati, January 20, 2026:',

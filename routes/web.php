@@ -3057,6 +3057,11 @@ Route::get('/cisr', function () {
 })->name('cisr');
 
 //media-corner
+
+Route::get('/77th-republic-day-celebrated-by-royal-global-university', function () {
+    return view('frontend/media-corner/news90');
+})->name('77th-republic-day-celebrated-by-royal-global-university');
+
 Route::get('/silpi-diwas-celebrated-by-dr-bhupen-hazarika-centre-for-creativity-at-rgu', function () {
     return view('frontend/media-corner/news89');
 })->name('silpi-diwas-celebrated-by-dr-bhupen-hazarika-centre-for-creativity-at-rgu');

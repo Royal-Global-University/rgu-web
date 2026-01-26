@@ -1235,6 +1235,26 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news82/rep.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">77th Republic Day celebrated by Royal Global University</p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">January 26,
+                                                    2026
+                                                </p>
+                                                <a
+                                                    href="/77th-republic-day-celebrated-by-royal-global-university">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
 
                                          <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
@@ -1273,28 +1293,6 @@
                                                     2026
                                                 </p>
                                                 <a href="/pre-magh-bihu-and-uruka-celebrated-at-royal-global-university">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news80/121.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">North East Zone Inter-University Football
-                                                    (Men) Tournament 2025–26 Concludes at RGU</p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">January 12,
-                                                    2026
-                                                </p>
-                                                <a
-                                                    href="/north-east-zone-inter-university-football-men-tournament-2025-26-concludes-at-rgu">
                                                     <p class="pt-2 fw-bold m-0"
                                                         style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
                                                         Read More ...</p>
