@@ -1235,6 +1235,29 @@
                                 <div class="p-0 rounded">
                                     <div class="row">
                                         {{-- media-corner-news-1 --}}
+
+                                        <div class="row bg-light p-2 rounded">
+                                            <div class="col-lg-5">
+                                                <img class="rounded" style="height: 130px; width: 100%;"
+                                                    src="mobile-assets/media-corner/news82/rgu.jpeg" alt="" />
+                                            </div>
+                                            <div class="col-lg-7">
+                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
+                                                    class="pt-2 m-0 fw-bold">
+                                                    RGU to host 38th BCI National All India Inter-University Moot Court Competition
+                                                </p>
+                                                <p class="pt-1 p-0 m-0"
+                                                    style="font-size: 16px; color: black; line-height: 1.4;">January 27,
+                                                    2026
+                                                </p>
+                                                <a href="/rgu-to-host-38th-bci-national-all-india-inter-university-moot-court-competition">
+                                                    <p class="pt-2 fw-bold m-0"
+                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
+                                                        Read More ...</p>
+                                                </a>
+                                            </div>
+                                        </div>
+
                                         <div class="row bg-light p-2 rounded">
                                             <div class="col-lg-5">
                                                 <img class="rounded" style="height: 130px; width: 100%;"
@@ -1278,27 +1301,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row bg-light p-2 rounded">
-                                            <div class="col-lg-5">
-                                                <img class="rounded" style="height: 130px; width: 100%;"
-                                                    src="mobile-assets/media-corner/news81/1.jpeg" alt="" />
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <p style="color: #27467A; font-style: 10px; line-height: 1; font-size: 19px;"
-                                                    class="pt-2 m-0 fw-bold">
-                                                    Pre Magh Bihu and Uruka Celebrated at RGU
-                                                </p>
-                                                <p class="pt-1 p-0 m-0"
-                                                    style="font-size: 16px; color: black; line-height: 1.4;">January 12,
-                                                    2026
-                                                </p>
-                                                <a href="/pre-magh-bihu-and-uruka-celebrated-at-royal-global-university">
-                                                    <p class="pt-2 fw-bold m-0"
-                                                        style="font-size: 16px; color: black; line-height: 1.4; color: #FF9A1E;">
-                                                        Read More ...</p>
-                                                </a>
-                                            </div>
-                                        </div>
+
 
                                     </div>
                                     <div style="text-align:center; margin-top:20px;">

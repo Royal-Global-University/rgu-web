@@ -3066,6 +3066,10 @@ Route::get('/cisr', function () {
 
 //media-corner
 
+Route::get('/rgu-to-host-38th-bci-national-all-india-inter-university-moot-court-competition', function () {
+    return view('frontend/media-corner/news91');
+})->name('rgu-to-host-38th-bci-national-all-india-inter-university-moot-court-competition');
+
 Route::get('/77th-republic-day-celebrated-by-royal-global-university', function () {
     return view('frontend/media-corner/news90');
 })->name('77th-republic-day-celebrated-by-royal-global-university');

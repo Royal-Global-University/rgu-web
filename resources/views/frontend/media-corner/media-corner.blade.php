@@ -46,8 +46,20 @@
                 @php
                     $newsItems = [
                         [
+                            'title' =>
+                                'RGU to host 38th BCI National All India Inter-University Moot Court Competition',
+                            'summary' =>
+                                'The prestigious BCI event is being held for the first time in Northeast India',
+                            'date' => 'Guwahati, January 27, 2026:',
+                            'link' => 'rgu-to-host-38th-bci-national-all-india-inter-university-moot-court-competition',
+                            'image' => 'mobile-assets/media-corner/news82/rgu.jpeg',
+                            'content' =>
+                                'One of the most prestigious and competitive moot court events in the country, the 38th Bar Council of India (BCI) National All India Inter-University Moot Court Competition 2026 is being held for the first time in the North East India and this will be hosted by RGU from 29th to 31st January 2026...',
+                        ],
+                        [
                             'title' => '77th Republic Day celebrated by Royal Global University',
-                            'summary' => 'Universities must promote and protect Constitutional values: RGU VC on Republic Day',
+                            'summary' =>
+                                'Universities must promote and protect Constitutional values: RGU VC on Republic Day',
                             'date' => 'Guwahati, January 26, 2026:',
                             'link' => '77th-republic-day-celebrated-by-royal-global-university',
                             'image' => 'mobile-assets/media-corner/news82/rep.jpeg',
